@@ -1,0 +1,12 @@
+# Python scripts (not needed on GitHub Pages)
+*.py
+__pycache__/
+*.pyc
+
+# Temp/scratch files
+probe_*.py
+fix_*.py
+audit_*.py
+
+# Node modules if any
+node_modules/
