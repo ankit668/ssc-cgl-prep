@@ -38,10 +38,6 @@
                     <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 7h16"></path><path d="M4 11h16"></path><path d="M4 15h8"></path><path d="M14 15h6"></path><path d="M8 19h8"></path></svg>
                     <span>CGL Typing Test</span>
                 </button>
-                <button class="nav-item" data-tab="jjatyping">
-                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
-                    <span>JJA Typing</span>
-                </button>
                 <button class="nav-item" data-tab="editorial">
                     <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 22h14a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v4"></path><path d="M14 2v6h6"></path><path d="M2 15h10"></path><path d="M2 19h10"></path></svg>
                     <span>Daily Editorial</span>
@@ -561,35 +557,6 @@
                 </div>
             </section>
 
-            <!-- Tab 6: JJA Typing Test -->
-            <section id="jjatyping-view" class="tab-panel">
-                <div id="jjatyping-setup-screen">
-                    <div class="view-header-desc">
-                        <h3>Delhi HC JJA Typing Test</h3>
-                        <p>Junior Judicial Assistant requirement: Minimum 35 WPM in English, 10 Minutes duration, with mistakes allowed up to 3% of total words typed.</p>
-                    </div>
-                    <div class="trainer-modes-grid" style="grid-template-columns: 1fr; max-width: 400px; margin: 0 auto;">
-                        <div class="trainer-mode-card" onclick="startTypingTest(10, 'JJA')">
-                            <div class="mode-emoji">⚖️</div>
-                            <h3>Official JJA Mock</h3>
-                            <p>10 Mins | 35 WPM Target | Max 3% Mistakes</p>
-                            <button class="btn btn-primary btn-sm" style="margin-top: 15px;">Start JJA Test</button>
-                        </div>
-                        <div class="trainer-mode-card" onclick="startTypingTest(1, 'JJA')">
-                            <div class="mode-emoji">⚡</div>
-                            <h3>1 Min Warmup</h3>
-                            <p>Practice with JJA rules for 1 minute.</p>
-                            <button class="btn btn-secondary btn-sm" style="margin-top: 15px;">Start 1 Min</button>
-                        </div>
-                    </div>
-                    
-                    <div style="text-align: center; margin-top: 2rem;">
-                        <label style="color: var(--text-muted); cursor: pointer; display: inline-flex; align-items: center; gap: 8px;">
-                            <input type="checkbox" id="tcs-highlight-toggle-jja" style="accent-color: var(--primary-light); width: 18px; height: 18px;">
-                            Enable Live Word Highlighting (Practice Mode)
-                        </label>
-                    </div>
-                </div>
             </section>
 
             <!-- Tab 7: Daily Editorial -->
