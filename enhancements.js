@@ -575,3 +575,155 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+// ───────────────────────────────────────────────────────────
+// 10. EDUQUITY (TCS iON) INTERFACE LOGIC
+// ───────────────────────────────────────────────────────────
+
+// Extend activeQuiz state
+// status: 0=Not Visited, 1=Not Answered, 2=Answered, 3=Marked, 4=Ans+Marked
+const STATUS_NOT_VISITED = 0;
+const STATUS_NOT_ANSWERED = 1;
+const STATUS_ANSWERED = 2;
+const STATUS_MARKED = 3;
+const STATUS_ANS_MARKED = 4;
+
+function initEduqityState() {
+    activeQuiz.qStatus = new Array(activeQuiz.questions.length).fill(STATUS_NOT_VISITED);
+    activeQuiz.qStatus[0] = STATUS_NOT_ANSWERED; // First question visited immediately
+    renderEduqityPalette();
+}
+
+function renderEduqityPalette() {
+    const grid = document.getElementById('question-palette-grid');
+    if (!grid) return;
+    
+    grid.innerHTML = '';
+    let counts = [0, 0, 0, 0, 0];
+    
+    activeQuiz.qStatus.forEach((status, idx) => {
+        counts[status]++;
+        const btn = document.createElement('div');
+        btn.className = 'badge q-badge';
+        btn.innerText = idx + 1;
+        
+        if (status === STATUS_NOT_VISITED) btn.classList.add('badge-not-visited');
+        else if (status === STATUS_NOT_ANSWERED) btn.classList.add('badge-not-answered');
+        else if (status === STATUS_ANSWERED) btn.classList.add('badge-answered');
+        else if (status === STATUS_MARKED) btn.classList.add('badge-marked');
+        else if (status === STATUS_ANS_MARKED) btn.classList.add('badge-ans-marked');
+        
+        // Highlight current question
+        if (idx === activeQuiz.currentIndex) {
+            btn.style.boxShadow = '0 0 0 2px white, 0 0 0 4px #3b82f6';
+        }
+        
+        btn.onclick = () => {
+            jumpToQuestion(idx);
+        };
+        grid.appendChild(btn);
+    });
+    
+    document.getElementById('count-not-visited').innerText = counts[STATUS_NOT_VISITED];
+    document.getElementById('count-not-answered').innerText = counts[STATUS_NOT_ANSWERED];
+    document.getElementById('count-answered').innerText = counts[STATUS_ANSWERED];
+    document.getElementById('count-marked').innerText = counts[STATUS_MARKED];
+    document.getElementById('count-ans-marked').innerText = counts[STATUS_ANS_MARKED];
+}
+
+function jumpToQuestion(index) {
+    // Save current state if navigating away without explicit save
+    // TCS iON generally preserves selected radio buttons if you just click away, 
+    // but the status depends on if it was explicitly "Saved". 
+    // We'll keep it simple: if they selected something but didn't click save, 
+    // it stays as "Not Answered" but retains the radio selection in memory, 
+    // or we can auto-save. Standard is NOT to auto-save.
+    // Actually, in TCS, if you click another number, your current choice is NOT saved unless you hit Save & Next.
+    
+    // For simplicity, we just navigate.
+    activeQuiz.currentIndex = index;
+    if (activeQuiz.qStatus[index] === STATUS_NOT_VISITED) {
+        activeQuiz.qStatus[index] = STATUS_NOT_ANSWERED;
+    }
+    loadQuestion();
+    renderEduqityPalette();
+}
+
+function handleSaveAndNext() {
+    const idx = activeQuiz.currentIndex;
+    if (activeQuiz.userAnswers[idx] !== null) {
+        activeQuiz.qStatus[idx] = STATUS_ANSWERED;
+    } else {
+        activeQuiz.qStatus[idx] = STATUS_NOT_ANSWERED;
+    }
+    
+    if (idx < activeQuiz.questions.length - 1) {
+        jumpToQuestion(idx + 1);
+    } else {
+        renderEduqityPalette();
+    }
+}
+
+function handleMarkAndNext() {
+    const idx = activeQuiz.currentIndex;
+    if (activeQuiz.userAnswers[idx] !== null) {
+        activeQuiz.qStatus[idx] = STATUS_ANS_MARKED;
+    } else {
+        activeQuiz.qStatus[idx] = STATUS_MARKED;
+    }
+    
+    if (idx < activeQuiz.questions.length - 1) {
+        jumpToQuestion(idx + 1);
+    } else {
+        renderEduqityPalette();
+    }
+}
+
+function handleClearResponse() {
+    const idx = activeQuiz.currentIndex;
+    activeQuiz.userAnswers[idx] = null;
+    activeQuiz.qStatus[idx] = STATUS_NOT_ANSWERED;
+    
+    // Deselect radio buttons in UI
+    document.querySelectorAll('input[name="quiz-option"]').forEach(r => r.checked = false);
+    document.querySelectorAll('.option-label').forEach(el => el.classList.remove('selected'));
+    
+    renderEduqityPalette();
+}
+
+// Hook into existing startQuiz to init palette
+const _origStartQuizByShift = window.startQuizByShift;
+if (_origStartQuizByShift) {
+    window.startQuizByShift = function(y, s) {
+        _origStartQuizByShift(y, s);
+        initEduqityState();
+        
+        // Hide solution container during actual exam mode
+        const solContainer = document.getElementById('quiz-solution-container');
+        if (solContainer) solContainer.style.display = 'none';
+    };
+}
+
+// Hook into loadQuestion to update Question Num display
+const _origLoadQuestion = window.loadQuestion;
+if (_origLoadQuestion) {
+    window.loadQuestion = function() {
+        _origLoadQuestion();
+        document.getElementById('quiz-current-num').innerText = activeQuiz.currentIndex + 1;
+        renderEduqityPalette(); // Ensure highlight updates
+    };
+}
+
+// Hook buttons on DOM load
+document.addEventListener('DOMContentLoaded', () => {
+    setTimeout(() => {
+        document.getElementById('btn-save-next')?.addEventListener('click', handleSaveAndNext);
+        document.getElementById('btn-mark-review')?.addEventListener('click', handleMarkAndNext);
+        document.getElementById('btn-clear-response')?.addEventListener('click', handleClearResponse);
+        document.getElementById('btn-submit-exam')?.addEventListener('click', () => {
+            if (confirm('Are you sure you want to submit the exam?')) {
+                finishQuiz();
+            }
+        });
+    }, 1000);
+});
