@@ -1260,6 +1260,62 @@ function generateDrillQuestion() {
             const pick = String(allVals[Math.floor(Math.random() * allVals.length)]);
             if (!options.includes(pick)) options.push(pick);
         }
+    } else if (trainerState.mode === "addition") {
+        const a = Math.floor(Math.random() * 90) + 10;
+        const b = Math.floor(Math.random() * 90) + 10;
+        const c = Math.floor(Math.random() * 90) + 10;
+        const op = Math.random() > 0.5 ? '+' : '-';
+        questionText = `${a} + ${b} ${op} ${c} = ?`;
+        const ans = op === '+' ? (a + b + c) : (a + b - c);
+        correctAnswer = String(ans);
+        
+        options.push(correctAnswer);
+        while (options.length < 4) {
+            const dist = String(ans + (Math.floor(Math.random() * 20) + 1) * (Math.random() > 0.5 ? 1 : -1));
+            if (!options.includes(dist)) options.push(dist);
+        }
+    } else if (trainerState.mode === "multiplication") {
+        const a = Math.floor(Math.random() * 19) + 12; // 12 to 30
+        const b = Math.floor(Math.random() * 19) + 12;
+        questionText = `${a} × ${b} = ?`;
+        const ans = a * b;
+        correctAnswer = String(ans);
+        
+        options.push(correctAnswer);
+        while (options.length < 4) {
+            const dist = String(ans + (Math.floor(Math.random() * 10) + 1) * 10 * (Math.random() > 0.5 ? 1 : -1));
+            if (!options.includes(dist)) options.push(dist);
+        }
+    } else if (trainerState.mode === "percentages") {
+        const percents = [10, 15, 20, 25, 30, 40, 50, 60, 75];
+        const p = percents[Math.floor(Math.random() * percents.length)];
+        const base = (Math.floor(Math.random() * 20) + 5) * 20; 
+        questionText = `${p}% of ${base} = ?`;
+        const ans = (p * base) / 100;
+        correctAnswer = String(ans);
+        
+        options.push(correctAnswer);
+        while (options.length < 4) {
+            const dist = String(ans + (Math.floor(Math.random() * 5) + 1) * 5 * (Math.random() > 0.5 ? 1 : -1));
+            if (!options.includes(dist) && parseInt(dist) > 0) options.push(dist);
+        }
+    } else if (trainerState.mode === "roots") {
+        const isSquare = Math.random() > 0.5;
+        if (isSquare) {
+            const num = Math.floor(Math.random() * 20) + 11;
+            questionText = `√${num * num} = ?`;
+            correctAnswer = String(num);
+        } else {
+            const num = Math.floor(Math.random() * 10) + 5; 
+            questionText = `∛${num * num * num} = ?`;
+            correctAnswer = String(num);
+        }
+        
+        options.push(correctAnswer);
+        while (options.length < 4) {
+            const dist = String(parseInt(correctAnswer) + (Math.floor(Math.random() * 4) + 1) * (Math.random() > 0.5 ? 1 : -1));
+            if (!options.includes(dist) && parseInt(dist) > 0) options.push(dist);
+        }
     }
 
     // Shuffle options
@@ -1887,10 +1943,316 @@ function uploadProgressJSON(event) {
             } else {
                 alert("❌ Invalid backup file format.");
             }
+    const refWords = typingState.passageText.split(/\s+/);
+    let wordMistakes = 0;
+    for(let i = 0; i < typedWords.length; i++) {
+        if (typedWords[i] !== refWords[i]) wordMistakes++;
+    }
+    
+    const elapsedMins = Math.max((typingState.durationSecs - typingState.timeRemaining) / 60, 0.01);
+    const grossWpm = Math.round((totalTyped / 5) / elapsedMins);
+    const netWpm = Math.max(0, Math.round(grossWpm - (wordMistakes / elapsedMins)));
+    const acc = totalTyped > 0 ? Math.round((correctChars / totalTyped) * 100) : 100;
+    const mistakePct = typedWords.length > 0 ? ((wordMistakes / typedWords.length) * 100).toFixed(1) : '0.0';
+    const netWords = Math.max(0, typedWords.length - wordMistakes);
+    
+    // Generate Mistake Diff UI
+    let diffHtml = "<h4 style='margin-bottom:10px;'>📋 Word-by-Word Review:</h4><p style='font-size:0.85rem; color:var(--text-muted); margin-bottom:14px;'>🔴 struck = what you typed &nbsp;|&nbsp; 🟢 = correct word</p>";
+    let hasMistakes = false;
+    for(let i = 0; i < refWords.length; i++) {
+        if (i < typedWords.length) {
+            if (typedWords[i] !== refWords[i]) {
+                hasMistakes = true;
+                diffHtml += `<span style="background:rgba(239,68,68,0.18); color:#fca5a5; padding:1px 5px; border-radius:4px; text-decoration:line-through; margin:0 2px;">${typedWords[i]}</span>`;
+                diffHtml += `<span style="background:rgba(16,185,129,0.18); color:#6ee7b7; padding:1px 5px; border-radius:4px; margin:0 2px;">${refWords[i]}</span> `;
+            } else {
+                diffHtml += `${refWords[i]} `;
+            }
+        } else {
+            diffHtml += `<span style="color:var(--text-muted); opacity:0.3;">${refWords[i]}</span> `;
+        }
+    }
+    
+    const diffContainer = document.getElementById("typing-mistake-display");
+    if (diffContainer) {
+        diffContainer.innerHTML = diffHtml;
+        diffContainer.classList.remove("hidden");
+    }
+    
+    // Populate all result fields
+    document.getElementById("result-typing-wpm").innerText = grossWpm;
+    document.getElementById("result-typing-acc").innerText = `${acc}%`;
+    document.getElementById("result-typing-keys").innerText = totalTyped;
+    document.getElementById("result-typing-time").innerText = `${typingState.activeMode}m`;
+    if (document.getElementById("result-typing-net-words")) document.getElementById("result-typing-net-words").innerText = netWords;
+    if (document.getElementById("result-typing-mistakes")) document.getElementById("result-typing-mistakes").innerText = wordMistakes;
+    
+    // Verdict badge + feedback
+    const feedback = document.getElementById("result-typing-feedback");
+    const verdictEl = document.getElementById("result-typing-verdict");
+    
+    if (typingState.examType === 'EDITORIAL') {
+        if (verdictEl) { verdictEl.textContent = '📖 Editorial Complete'; verdictEl.style.cssText = 'background:rgba(99,102,241,0.2); color:#a78bfa; border:1px solid rgba(167,139,250,0.3); margin:8px auto 16px; padding:6px 20px; border-radius:20px; font-size:13px; font-weight:700; display:inline-block;'; }
+        feedback.innerHTML = `Speed: <strong>${grossWpm} WPM</strong> &nbsp;|&nbsp; Accuracy: <strong>${acc}%</strong> &nbsp;|&nbsp; Mistakes: <strong>${wordMistakes} words</strong>`;
+        feedback.style.color = "var(--primary-light)";
+        
+        // Save to editorial history
+        appState.editorialHistory.push({
+            date: new Date().toISOString(),
+            wpm: grossWpm,
+            acc: acc,
+            mistakes: wordMistakes
+        });
+        saveState();
+        renderEditorialView(); // Refresh the list in the background
+    } else if (typingState.examType === 'JJA') {
+        const passed = grossWpm >= 35 && parseFloat(mistakePct) <= 3.0;
+        if (verdictEl) {
+            verdictEl.textContent = passed ? '✅ JJA QUALIFIED!' : '❌ Not Qualified Yet';
+            verdictEl.style.cssText = `background:${passed ? 'rgba(16,185,129,0.15)' : 'rgba(239,68,68,0.12)'}; color:${passed ? '#6ee7b7' : '#fca5a5'}; border:1px solid ${passed ? 'rgba(16,185,129,0.3)' : 'rgba(239,68,68,0.25)'}; margin:8px auto 16px; padding:6px 20px; border-radius:20px; font-size:13px; font-weight:700; display:inline-block;`;
+        }
+        if (passed) {
+            feedback.innerHTML = `<strong>JJA Qualified!</strong> Speed: ${grossWpm} WPM ✓ (need 35) | Mistakes: ${mistakePct}% ✓ (max 3%)`;
+            feedback.style.color = "var(--success)";
+        } else if (grossWpm >= 35) {
+            feedback.innerHTML = `Speed OK (${grossWpm} WPM), but word mistakes too high: <strong>${mistakePct}%</strong> (max allowed is 3%). Focus on accuracy!`;
+            feedback.style.color = "var(--accent)";
+        } else {
+            feedback.innerHTML = `Need 35 WPM, you typed <strong>${grossWpm} WPM</strong>. Word mistakes: ${mistakePct}%. Keep practicing daily!`;
+            feedback.style.color = "var(--danger)";
+        }
+    } else { // CGL DEST
+        const passed = grossWpm >= 27 && acc >= 95 && typingState.activeMode === 15;
+        const goodSpeed = grossWpm >= 27;
+        if (verdictEl) {
+            verdictEl.textContent = passed ? '✅ CGL DEST READY!' : (goodSpeed ? '⚠️ Almost There' : '📚 Keep Practicing');
+            verdictEl.style.cssText = `background:${passed ? 'rgba(16,185,129,0.15)' : goodSpeed ? 'rgba(245,158,11,0.12)' : 'rgba(239,68,68,0.1)'}; color:${passed ? '#6ee7b7' : goodSpeed ? '#fbbf24' : '#fca5a5'}; border:1px solid ${passed ? 'rgba(16,185,129,0.3)' : goodSpeed ? 'rgba(245,158,11,0.25)' : 'rgba(239,68,68,0.2)'}; margin:8px auto 16px; padding:6px 20px; border-radius:20px; font-size:13px; font-weight:700; display:inline-block;`;
+        }
+        if (passed) {
+            feedback.innerText = `Excellent! CGL DEST ready. ${grossWpm} WPM at ${acc}% accuracy. Maintain this consistency!`;
+            feedback.style.color = "var(--success)";
+        } else if (goodSpeed) {
+            feedback.innerText = `Good speed (${grossWpm} WPM), but accuracy is ${acc}% — need 95%+. Slow down slightly and type more carefully.`;
+            feedback.style.color = "var(--accent)";
+        } else {
+            feedback.innerText = `Aim for 27+ WPM. You typed at ${grossWpm} WPM. Try the 1-minute warmup mode daily to build finger memory.`;
+            feedback.style.color = "var(--danger)";
+        }
+    }
+}
+
+function quitTypingTest() {
+    clearInterval(typingState.timer);
+    document.getElementById("typing-active-screen").classList.add("hidden");
+    document.getElementById("typing-result-screen").classList.add("hidden");
+    
+    // Return to correct setup screen
+    if (typingState.examType === 'JJA') {
+        document.querySelectorAll(".tab-panel").forEach(p => p.classList.remove("active"));
+        const jjaView = document.getElementById("jjatyping-view");
+        if (jjaView) {
+            jjaView.classList.add("active");
+            document.getElementById("jjatyping-setup-screen").classList.remove("hidden");
+        }
+        document.querySelectorAll(".nav-item").forEach(n => n.classList.remove("active"));
+        document.querySelector('[data-tab="jjatyping"]').classList.add("active");
+        document.getElementById("current-tab-title").innerText = "Delhi HC JJA Typing";
+    } else if (typingState.examType === 'EDITORIAL') {
+        document.querySelectorAll(".tab-panel").forEach(p => p.classList.remove("active"));
+        const edView = document.getElementById("editorial-view");
+        if (edView) {
+            edView.classList.add("active");
+            document.getElementById("editorial-setup-screen").classList.remove("hidden");
+        }
+        document.querySelectorAll(".nav-item").forEach(n => n.classList.remove("active"));
+        document.querySelector('[data-tab="editorial"]').classList.add("active");
+        document.getElementById("current-tab-title").innerText = "Daily Editorial";
+    } else {
+        document.getElementById("typing-setup-screen").classList.remove("hidden");
+    }
+}
+
+// --- 11. EDITORIAL VIEW ---
+function renderEditorialView() {
+    const readerBox = document.getElementById("editorial-reader-box");
+    if (readerBox) {
+        readerBox.innerHTML = `
+            <div style="font-family: var(--font-heading); font-size: 1.1rem; line-height: 1.8; color: var(--text-primary); text-align: justify; padding: 10px;">
+                ${DAILY_EDITORIAL}
+            </div>
+        `;
+    }
+
+    const historyList = document.getElementById("editorial-history-list");
+    if (historyList) {
+        const history = appState.editorialHistory || [];
+        if (history.length === 0) {
+            historyList.innerHTML = `<p style="color: var(--text-muted); font-size: 0.9rem;">Complete your first Editorial Typing Test to see your history here.</p>`;
+        } else {
+            // Sort newest first
+            const sortedHistory = [...history].sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 5); // show top 5 recent
+            
+            historyList.innerHTML = sortedHistory.map(entry => {
+                const d = new Date(entry.date);
+                const dateStr = d.toLocaleDateString(undefined, { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+                return `
+                    <div style="background: rgba(255,255,255,0.03); border: 1px solid var(--border-card); padding: 12px; border-radius: 8px; margin-bottom: 8px; display: flex; justify-content: space-between; align-items: center;">
+                        <span style="color: var(--text-muted); font-size: 0.85rem;">${dateStr}</span>
+                        <div style="display: flex; gap: 15px;">
+                            <span style="color: var(--primary-light); font-weight: 600;">${entry.wpm} WPM</span>
+                            <span style="color: ${entry.acc >= 95 ? 'var(--success)' : 'var(--accent)'};">${entry.acc}% Acc</span>
+                            <span style="color: ${entry.mistakes === 0 ? 'var(--success)' : 'var(--danger)'};">${entry.mistakes} Mistakes</span>
+                        </div>
+                    </div>
+                `;
+            }).join("");
+        }
+    }
+}
+
+// ───────────────────────────────────────────────────────────
+// 12. BACKUP & RESTORE DATA
+// ───────────────────────────────────────────────────────────
+function downloadProgressJSON() {
+    const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(appState, null, 2));
+    const dlAnchorElem = document.createElement('a');
+    dlAnchorElem.setAttribute("href", dataStr);
+    const dateStr = new Date().toISOString().split('T')[0];
+    dlAnchorElem.setAttribute("download", `ssc_cgl_app_backup_${dateStr}.json`);
+    dlAnchorElem.click();
+}
+
+function uploadProgressJSON(event) {
+    const file = event.target.files[0];
+    if (!file) return;
+
+    const reader = new FileReader();
+    reader.onload = function(e) {
+        try {
+            const importedState = JSON.parse(e.target.result);
+            if (importedState && typeof importedState === 'object') {
+                appState = { ...appState, ...importedState };
+                saveState();
+                alert("✅ Backup restored successfully! Refreshing app...");
+                window.location.reload();
+            } else {
+                alert("❌ Invalid backup file format.");
+            }
         } catch (err) {
             alert("❌ Failed to read backup file. Make sure it's a valid JSON.");
             console.error(err);
         }
     };
     reader.readAsText(file);
+}
+
+// ───────────────────────────────────────────────────────────
+// 13. REASONING DRILLS LOGIC
+// ───────────────────────────────────────────────────────────
+let activeReasoningMode = '';
+let reasoningState = {
+    score: 0,
+    questionCount: 0,
+    timer: null,
+    timeLeft: 300,
+    currentQ: null
+};
+
+function startReasoningDrill(mode) {
+    activeReasoningMode = mode;
+    reasoningState.score = 0;
+    reasoningState.questionCount = 0;
+    reasoningState.timeLeft = 300; // 5 mins
+
+    document.getElementById('reasoning-select-screen').classList.add('hidden');
+    document.getElementById('reasoning-results-screen').classList.add('hidden');
+    document.getElementById('reasoning-active-screen').classList.remove('hidden');
+
+    document.getElementById('reasoning-current-score').innerText = '0';
+    document.getElementById('reasoning-timer').innerText = '05:00';
+    
+    clearInterval(reasoningState.timer);
+    reasoningState.timer = setInterval(() => {
+        reasoningState.timeLeft--;
+        if (reasoningState.timeLeft <= 0) {
+            endReasoningDrill();
+        } else {
+            let m = Math.floor(reasoningState.timeLeft / 60);
+            let s = reasoningState.timeLeft % 60;
+            document.getElementById('reasoning-timer').innerText = `${m < 10 ? '0' : ''}${m}:${s < 10 ? '0' : ''}${s}`;
+        }
+    }, 1000);
+
+    renderReasoningQuestion();
+}
+
+function renderReasoningQuestion() {
+    if (reasoningState.questionCount >= 10) {
+        endReasoningDrill();
+        return;
+    }
+    
+    reasoningState.currentQ = window.getNextReasoningDrill(activeReasoningMode);
+    
+    document.getElementById('reasoning-q-text').innerHTML = reasoningState.currentQ.question;
+    const optsContainer = document.getElementById('reasoning-options');
+    optsContainer.innerHTML = '';
+    
+    reasoningState.currentQ.options.forEach(opt => {
+        const btn = document.createElement('div');
+        btn.className = 'ncert-opt';
+        btn.innerHTML = `<span class="ncert-opt-label">${opt}</span>`;
+        btn.onclick = () => checkReasoningAnswer(opt, btn);
+        optsContainer.appendChild(btn);
+    });
+    
+    document.getElementById('reasoning-explanation').classList.add('hidden');
+    document.getElementById('reasoning-next-btn').classList.add('hidden');
+}
+
+function checkReasoningAnswer(selectedOpt, btnElement) {
+    if (document.getElementById('reasoning-explanation').classList.contains('hidden') === false) return; // already answered
+
+    const isCorrect = selectedOpt === reasoningState.currentQ.answer;
+    
+    const allOpts = document.getElementById('reasoning-options').children;
+    for (let el of allOpts) {
+        if (el.innerText === reasoningState.currentQ.answer) {
+            el.classList.add('ncert-correct');
+        } else if (el === btnElement && !isCorrect) {
+            el.classList.add('ncert-wrong');
+        }
+        el.style.pointerEvents = 'none';
+    }
+
+    if (isCorrect) {
+        reasoningState.score++;
+        document.getElementById('reasoning-current-score').innerText = reasoningState.score;
+    }
+
+    reasoningState.questionCount++;
+    
+    const expEl = document.getElementById('reasoning-explanation');
+    expEl.innerHTML = `<strong>Correct Answer:</strong> ${reasoningState.currentQ.answer}<br><br>${reasoningState.currentQ.explanation}`;
+    expEl.classList.remove('hidden');
+    
+    document.getElementById('reasoning-next-btn').classList.remove('hidden');
+}
+
+function nextReasoningQ() {
+    renderReasoningQuestion();
+}
+
+function endReasoningDrill() {
+    clearInterval(reasoningState.timer);
+    document.getElementById('reasoning-active-screen').classList.add('hidden');
+    document.getElementById('reasoning-results-screen').classList.remove('hidden');
+    document.getElementById('reasoning-final-score').innerText = reasoningState.score;
+}
+
+function quitReasoningDrill() {
+    clearInterval(reasoningState.timer);
+    document.getElementById('reasoning-active-screen').classList.add('hidden');
+    document.getElementById('reasoning-results-screen').classList.add('hidden');
+    document.getElementById('reasoning-select-screen').classList.remove('hidden');
 }

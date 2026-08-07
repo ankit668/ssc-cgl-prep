@@ -54,6 +54,11 @@
                     <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
                     <span>Formulas</span>
                 </button>
+                <button class="nav-item" data-tab="reasoning">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2l3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z"></path></svg>
+                    <span>Reasoning Drills</span>
+                </button>
+
                 <button class="nav-item" data-tab="analytics">
                     <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
                     <span>Analytics</span>
@@ -66,14 +71,14 @@
             </nav>
             <div class="sidebar-footer">
                 <span class="offline-badge">
-                    <span class="indicator"></span> Offline Mode Active
+                    <span class="status-dot"></span> Offline Ready
                 </span>
             </div>
         </aside>
 
-        <!-- Main Content Area -->
+        <!-- Main Content -->
         <main class="main-content">
-            <!-- Header -->
+
             <header class="top-bar">
                 <div class="page-title">
                     <h2 id="current-tab-title">Dashboard</h2>
@@ -366,6 +371,72 @@
 
             </section>
 
+            <!-- Reasoning Drills -->
+            <section id="reasoning-view" class="tab-panel">
+                <div id="reasoning-select-screen">
+                    <div class="view-header-desc">
+                        <h3>🧠 Reasoning Pattern Drills</h3>
+                        <p>Master the core SSC reasoning logic. These procedural generators create infinite practice questions!</p>
+                    </div>
+                    
+                    <div class="trainer-modes-grid">
+                        <div class="trainer-mode-card" onclick="startReasoningDrill('series')">
+                            <div class="mode-emoji">📈</div>
+                            <h3>Number Series</h3>
+                            <p>Identify missing numbers in AP, GP, Squares, and Alternating series.</p>
+                            <button class="btn btn-primary btn-sm">Start Drill</button>
+                        </div>
+                        <div class="trainer-mode-card" onclick="startReasoningDrill('coding')">
+                            <div class="mode-emoji">🔐</div>
+                            <h3>Coding-Decoding</h3>
+                            <p>Practice rapid alphabet shifts and reverse patterns.</p>
+                            <button class="btn btn-primary btn-sm">Start Drill</button>
+                        </div>
+                        <div class="trainer-mode-card" onclick="startReasoningDrill('matrix')">
+                            <div class="mode-emoji">🔢</div>
+                            <h3>Missing Matrix</h3>
+                            <p>Spot column/row mathematical relationships quickly.</p>
+                            <button class="btn btn-primary btn-sm">Start Drill</button>
+                        </div>
+                        <div class="trainer-mode-card" onclick="startReasoningDrill('syllogism')">
+                            <div class="mode-emoji">⭕</div>
+                            <h3>Syllogisms</h3>
+                            <p>Master Venn-diagram logic with high-yield statements.</p>
+                            <button class="btn btn-primary btn-sm">Start Drill</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="reasoning-active-screen" class="hidden">
+                    <div class="trainer-game-header">
+                        <button class="btn btn-secondary btn-sm" onclick="quitReasoningDrill()">← Quit</button>
+                        <div class="trainer-score-badge">Score: <span id="reasoning-current-score">0</span>/10</div>
+                        <div class="trainer-timer-badge">Timer: <span id="reasoning-timer">05:00</span></div>
+                    </div>
+                    
+                    <div class="trainer-drill-card" style="min-height:300px;">
+                        <div class="ncert-question" id="reasoning-q-text" style="font-size:1.2rem; margin-bottom:20px;"></div>
+                        <div class="ncert-options" id="reasoning-options"></div>
+                        <div class="ncert-explanation hidden" id="reasoning-explanation"></div>
+                        <button class="btn btn-primary hidden" id="reasoning-next-btn" style="margin-top:15px;" onclick="nextReasoningQ()">Next Question →</button>
+                    </div>
+                </div>
+
+                <div id="reasoning-results-screen" class="hidden">
+                    <div class="result-card">
+                        <div class="result-illustration">🏆</div>
+                        <h2>Drill Complete!</h2>
+                        <div class="result-score-display">
+                            <span id="reasoning-final-score">0</span> / 10
+                        </div>
+                        <div class="result-actions">
+                            <button class="btn btn-primary" onclick="startReasoningDrill(activeReasoningMode)">Retry Mode</button>
+                            <button class="btn btn-secondary" onclick="quitReasoningDrill()">Back to Menu</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <!-- Tab 3: Calculation Speed Trainer -->
             <section id="trainer-view" class="tab-panel">
                 <!-- Select trainer mode -->
@@ -397,6 +468,30 @@
                             <div class="mode-emoji">📐</div>
                             <h3>Pythagorean Triplets</h3>
                             <p>Recall right-triangle sides instantly for Height & Distance and Geometry.</p>
+                            <button class="btn btn-primary btn-sm">Start Drill</button>
+                        </div>
+                        <div class="trainer-mode-card" onclick="startTrainerMode('addition')">
+                            <div class="mode-emoji">➕</div>
+                            <h3>Addition/Subtraction</h3>
+                            <p>Mental arithmetic chains to speed up DI and simplifications.</p>
+                            <button class="btn btn-primary btn-sm">Start Drill</button>
+                        </div>
+                        <div class="trainer-mode-card" onclick="startTrainerMode('multiplication')">
+                            <div class="mode-emoji">✖️</div>
+                            <h3>Multiplication Tables</h3>
+                            <p>Random products up to 30x30 to instantly break down factors.</p>
+                            <button class="btn btn-primary btn-sm">Start Drill</button>
+                        </div>
+                        <div class="trainer-mode-card" onclick="startTrainerMode('percentages')">
+                            <div class="mode-emoji">💯</div>
+                            <h3>Percentages</h3>
+                            <p>Calculate X% of Y mentally using fraction techniques.</p>
+                            <button class="btn btn-primary btn-sm">Start Drill</button>
+                        </div>
+                        <div class="trainer-mode-card" onclick="startTrainerMode('roots')">
+                            <div class="mode-emoji">√</div>
+                            <h3>Square & Cube Roots</h3>
+                            <p>Identify roots of perfect squares and cubes rapidly.</p>
                             <button class="btn btn-primary btn-sm">Start Drill</button>
                         </div>
                     </div>
@@ -759,6 +854,7 @@
     <script src="ncert_qs.js"></script>
     <script src="vocab_data.js"></script>
     <script src="ncert_vocab.js"></script>
+    <script src="reasoning_generator.js"></script>
     <script src="enhancements.js"></script>
 </body>
 </html>
