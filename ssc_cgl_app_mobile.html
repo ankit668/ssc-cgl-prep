@@ -1782,6 +1782,50 @@ body {
 .legend-item.blind-guess { color: #f59e0b; }
 .legend-item.hard-miss { color: #ef4444; }
 
+/* ─────────────────────────────────────────────────────────── */
+/* NCERT GA VAULT STYLES                                       */
+/* ─────────────────────────────────────────────────────────── */
+.ncert-filters { display: flex; flex-direction: column; gap: 8px; margin-bottom: 20px; }
+.filter-group { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.filter-label { font-size: 0.85rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+.pill-group { display: flex; flex-wrap: wrap; gap: 8px; }
+.pill { background: var(--bg-card); color: var(--text-secondary); border: 1px solid var(--border-card); padding: 6px 14px; border-radius: 20px; font-size: 0.85rem; cursor: pointer; transition: all 0.2s ease; }
+.pill:hover { background: rgba(255,255,255,0.05); }
+.pill.active { background: var(--primary); color: #fff; border-color: var(--primary); font-weight: 600; box-shadow: 0 0 10px rgba(99, 102, 241, 0.3); }
+
+.ncert-cards-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; }
+.ncert-card { background: var(--bg-card); border: 1px solid var(--border-card); border-radius: 12px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.2s ease; display: flex; flex-direction: column; gap: 12px; }
+.ncert-card:hover { transform: translateY(-3px); box-shadow: 0 8px 15px rgba(0,0,0,0.15); border-color: rgba(255,255,255,0.1); }
+.ncert-card-header { display: flex; align-items: center; gap: 10px; margin-bottom: 4px; }
+.ncert-tag { background: rgba(99, 102, 241, 0.15); color: #818cf8; font-size: 0.75rem; font-weight: 700; padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.5px; }
+.ncert-tag-cls { background: rgba(16, 185, 129, 0.15); color: #34d399; }
+.ncert-question { font-size: 1.05rem; font-weight: 500; color: var(--text-primary); line-height: 1.5; }
+.ncert-options { display: flex; flex-direction: column; gap: 8px; margin-top: 8px; }
+.ncert-opt { display: flex; align-items: flex-start; gap: 10px; padding: 10px 14px; background: rgba(255,255,255,0.03); border: 1px solid var(--border-card); border-radius: 8px; cursor: pointer; transition: all 0.2s ease; }
+.ncert-opt:hover { background: rgba(255,255,255,0.06); }
+.ncert-opt-label { font-weight: 600; color: var(--text-muted); }
+.ncert-opt.ncert-correct { background: rgba(16, 185, 129, 0.1); border-color: #10b981; color: #34d399; }
+.ncert-opt.ncert-correct .ncert-opt-label { color: #34d399; }
+.ncert-opt.ncert-wrong { background: rgba(239, 68, 68, 0.1); border-color: #ef4444; color: #f87171; }
+.ncert-explanation { margin-top: 12px; padding: 12px; background: rgba(0,0,0,0.2); border-left: 3px solid #f59e0b; border-radius: 0 8px 8px 0; font-size: 0.9rem; color: var(--text-secondary); line-height: 1.5; }
+
+/* ─────────────────────────────────────────────────────────── */
+/* 3D VOCAB FLASHCARDS CSS                                     */
+/* ─────────────────────────────────────────────────────────── */
+.vocab-cards-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 24px; padding-top: 10px; }
+.vocab-flip-wrapper { background-color: transparent; height: 200px; perspective: 1000px; cursor: pointer; }
+.vocab-flip-inner { position: relative; width: 100%; height: 100%; text-align: center; transition: transform 0.6s cubic-bezier(0.4, 0.2, 0.2, 1); transform-style: preserve-3d; }
+.vocab-flip-inner.flipped { transform: rotateY(180deg); }
+.vocab-front, .vocab-back { position: absolute; width: 100%; height: 100%; backface-visibility: hidden; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; justify-content: center; align-items: center; box-shadow: 0 8px 20px rgba(0,0,0,0.15); border: 1px solid rgba(255,255,255,0.05); }
+.vocab-front { background: linear-gradient(145deg, var(--bg-card), #1f2937); }
+.vocab-back { background: linear-gradient(145deg, #1e1b4b, #312e81); transform: rotateY(180deg); border-color: rgba(99, 102, 241, 0.3); }
+
+.vocab-cat-tag { position: absolute; top: 12px; left: 16px; font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #818cf8; background: rgba(99, 102, 241, 0.1); padding: 2px 8px; border-radius: 4px; }
+.vocab-front-text { font-size: 1.15rem; font-weight: 600; color: var(--text-primary); line-height: 1.4; margin-top: 10px; }
+.vocab-flip-hint { position: absolute; bottom: 12px; font-size: 0.75rem; color: var(--text-muted); opacity: 0.7; }
+.vocab-answer { font-size: 1.3rem; font-weight: 700; color: #fff; margin-bottom: 12px; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
+.vocab-example { font-size: 0.85rem; color: #cbd5e1; line-height: 1.5; font-style: italic; background: rgba(0,0,0,0.2); padding: 8px 12px; border-radius: 8px; width: 100%; }
+
 
 /* Extra mobile optimizations */
 @media (max-width: 480px) {
@@ -1820,14 +1864,17 @@ body {
                     <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
                     <span>Speed Trainer</span>
                 </button>
-                <button class="nav-item" data-tab="typing">
-                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 7h16"></path><path d="M4 11h16"></path><path d="M4 15h8"></path><path d="M14 15h6"></path><path d="M8 19h8"></path></svg>
-                    <span>CGL Typing Test</span>
+
+                <button class="nav-item" data-tab="ncert">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
+                    <span>NCERT GA Vault</span>
                 </button>
-                <button class="nav-item" data-tab="editorial">
-                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 22h14a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v4"></path><path d="M14 2v6h6"></path><path d="M2 15h10"></path><path d="M2 19h10"></path></svg>
-                    <span>Daily Editorial</span>
+
+                <button class="nav-item" data-tab="vocab">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path><line x1="12" y1="9" x2="16" y2="9"></line><line x1="12" y1="13" x2="16" y2="13"></line><line x1="8" y1="9" x2="8.01" y2="9"></line></svg>
+                    <span>Vocab Flashcards</span>
                 </button>
+
                 <button class="nav-item" data-tab="mistakes" style="position:relative;">
                     <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/><line x1="9" y1="9" x2="15" y2="9"/><line x1="9" y1="13" x2="13" y2="13"/></svg>
                     <span>Mistake Book</span>
@@ -1840,6 +1887,11 @@ body {
                 <button class="nav-item" data-tab="analytics">
                     <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
                     <span>Analytics</span>
+                </button>
+
+                <button class="nav-item" data-tab="backup">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+                    <span>Data Backup</span>
                 </button>
             </nav>
             <div class="sidebar-footer">
@@ -1993,6 +2045,7 @@ body {
                     <div class="quiz-mode-selector">
                         <button class="btn btn-secondary active" id="btn-mode-topic">Practice by Topic</button>
                         <button class="btn btn-secondary" id="btn-mode-year">Year &amp; Shift Mocks</button>
+                        <button class="btn btn-primary" id="btn-mode-full-mock" style="box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);" onclick="startFullMock()">🏆 Full Mock (60 Mins)</button>
                     </div>
 
                     <div class="topic-grid" id="quiz-topic-grid">
@@ -2130,6 +2183,10 @@ body {
                             </div>
                         </div>
 
+                        <div id="result-subject-breakdown" style="display:none; margin: 20px 0; text-align: left; background: rgba(0,0,0,0.1); padding: 15px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);">
+                            <!-- Populated dynamically -->
+                        </div>
+
                         <div class="result-actions">
                             <button class="btn btn-primary" onclick="startReviewMode()">Review Solutions</button>
                             <button class="btn btn-secondary" onclick="resetToTopicSelection()">Practice Another Topic</button>
@@ -2164,6 +2221,12 @@ body {
                             <div class="mode-emoji">⚡</div>
                             <h3>Fractions to Percent</h3>
                             <p>Instantly convert 1/6, 3/8, 1/7 etc. for Percentages and DI.</p>
+                            <button class="btn btn-primary btn-sm">Start Drill</button>
+                        </div>
+                        <div class="trainer-mode-card" onclick="startTrainerMode('triplets')">
+                            <div class="mode-emoji">📐</div>
+                            <h3>Pythagorean Triplets</h3>
+                            <p>Recall right-triangle sides instantly for Height & Distance and Geometry.</p>
                             <button class="btn btn-primary btn-sm">Start Drill</button>
                         </div>
                     </div>
@@ -2223,8 +2286,74 @@ body {
                 </div>
             </section>
 
-            <!-- Tab 5: Typing Test -->
-            <section id="typing-view" class="tab-panel">
+            <!-- NCERT GA Vault -->
+            <section id="ncert-view" class="tab-panel">
+                <div class="view-header-desc">
+                    <h3>📚 NCERT General Awareness Vault</h3>
+                    <p>High-yield Class 6–10 MCQs across Science, History, Polity & Geography. Instant answer validation with detailed explanations.</p>
+                </div>
+
+                <!-- Filter Pills -->
+                <div class="ncert-filters">
+                    <div class="filter-group">
+                        <span class="filter-label">Subject:</span>
+                        <div class="pill-group" id="ncert-subject-pills">
+                            <button class="pill active" data-filter="subject" data-val="all">All</button>
+                            <button class="pill" data-filter="subject" data-val="Physics">Physics</button>
+                            <button class="pill" data-filter="subject" data-val="Chemistry">Chemistry</button>
+                            <button class="pill" data-filter="subject" data-val="Biology">Biology</button>
+                            <button class="pill" data-filter="subject" data-val="History">History</button>
+                            <button class="pill" data-filter="subject" data-val="Polity">Polity</button>
+                            <button class="pill" data-filter="subject" data-val="Geography">Geography</button>
+                        </div>
+                    </div>
+                    <div class="filter-group" style="margin-top:10px;">
+                        <span class="filter-label">Class:</span>
+                        <div class="pill-group" id="ncert-class-pills">
+                            <button class="pill active" data-filter="cls" data-val="all">All</button>
+                            <button class="pill" data-filter="cls" data-val="Class 6">VI</button>
+                            <button class="pill" data-filter="cls" data-val="Class 7">VII</button>
+                            <button class="pill" data-filter="cls" data-val="Class 8">VIII</button>
+                            <button class="pill" data-filter="cls" data-val="Class 9">IX</button>
+                            <button class="pill" data-filter="cls" data-val="Class 10">X</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="ncert-question-count" style="margin: 12px 0; font-size: 13px; color: var(--text-muted);"></div>
+                <div id="ncert-cards-container" class="ncert-cards-container">
+                    <!-- Populated by JS -->
+                </div>
+            </section>
+
+            <!-- Vocab Flashcard Vault -->
+            <section id="vocab-view" class="tab-panel">
+                <div class="view-header-desc">
+                    <h3>🃏 English Vocab Flashcard Vault</h3>
+                    <p>Top repeated One-Word Substitutions, Idioms & Phrases, and Misspelled Words for SSC CGL. Tap any card to flip it!</p>
+                </div>
+
+                <!-- Category Pills -->
+                <div class="ncert-filters">
+                    <div class="filter-group">
+                        <span class="filter-label">Category:</span>
+                        <div class="pill-group">
+                            <button class="pill active" data-vocab-cat="all">All</button>
+                            <button class="pill" data-vocab-cat="ows">One-Word Substitutions</button>
+                            <button class="pill" data-vocab-cat="idioms">Idioms & Phrases</button>
+                            <button class="pill" data-vocab-cat="spell">Misspelled Words</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="vocab-card-count" style="margin: 12px 0; font-size: 13px; color: var(--text-muted);"></div>
+                <div id="vocab-cards-container" class="vocab-cards-container">
+                    <!-- Populated by JS -->
+                </div>
+            </section>
+
+            <!-- Typing and Editorial sections removed (Tier-I focus) -->
+            <section id="typing-view" class="tab-panel hidden" style="display:none;">
                 <div id="typing-setup-screen">
                     <div class="view-header-desc">
                         <h3>DEST Typing Test</h3>
@@ -2345,43 +2474,6 @@ body {
 
             </section>
 
-            <!-- Tab 7: Daily Editorial -->
-            <section id="editorial-view" class="tab-panel">
-                <div id="editorial-setup-screen">
-                    <div class="view-header-desc" style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 15px;">
-                        <div>
-                            <h3>Daily Newspaper Editorial</h3>
-                            <p>Read today's editorial below, then click "Start Typing Test" to practice typing it.</p>
-                        </div>
-                        <button class="btn btn-primary" onclick="startTypingTest(15, 'EDITORIAL')" style="box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);">⌨️ Start Typing Test</button>
-                    </div>
-
-                    <div style="display: grid; grid-template-columns: 1fr; gap: 20px; margin-top: 20px;">
-                        <!-- Reading View -->
-                        <div class="result-card" style="text-align: left; padding: 25px; max-height: 50vh; overflow-y: auto; background: var(--bg-card); border: 1px solid var(--border-card);">
-                            <h4 style="color: var(--text-muted); margin-bottom: 15px; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">Today's Passage</h4>
-                            <div id="editorial-reader-box">
-                                <!-- Populated by JS renderEditorialView() -->
-                            </div>
-                        </div>
-
-                        <!-- Past Performance -->
-                        <div>
-                            <h4 style="color: var(--text-muted); margin-bottom: 12px; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">Recent History</h4>
-                            <div id="editorial-history-list">
-                                <!-- Populated by JS renderEditorialView() -->
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div style="text-align: center; margin-top: 2rem;">
-                        <label style="color: var(--text-muted); cursor: pointer; display: inline-flex; align-items: center; gap: 8px;">
-                            <input type="checkbox" id="tcs-highlight-toggle-editorial" style="accent-color: var(--primary-light); width: 18px; height: 18px;">
-                            Enable Live Word Highlighting during typing test
-                        </label>
-                    </div>
-                </div>
-            </section>
 
             <!-- Mistake Book Tab -->
             <section id="mistakes-view" class="tab-panel">
@@ -2456,6 +2548,33 @@ body {
                     <div id="topic-breakdown-table"></div>
                 </div>
             </section>
+
+            <!-- Data Backup Tab -->
+            <section id="backup-view" class="tab-panel">
+                <div class="view-header-desc">
+                    <h3>💾 Data Backup & Restore</h3>
+                    <p>Export your quiz history, mistake book, and analytics so you don't lose your progress when switching devices.</p>
+                </div>
+                
+                <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px; margin-top:30px;">
+                    <!-- EXPORT -->
+                    <div class="result-card" style="text-align:center; padding:30px;">
+                        <div class="result-illustration" style="font-size:3rem; margin-bottom:15px;">📤</div>
+                        <h4>Export Data</h4>
+                        <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:20px;">Download your current progress as a JSON file.</p>
+                        <button class="btn btn-primary" onclick="downloadProgressJSON()">Download Backup</button>
+                    </div>
+
+                    <!-- IMPORT -->
+                    <div class="result-card" style="text-align:center; padding:30px;">
+                        <div class="result-illustration" style="font-size:3rem; margin-bottom:15px;">📥</div>
+                        <h4>Import Data</h4>
+                        <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:20px;">Upload a previously saved backup file to restore your progress.</p>
+                        <input type="file" id="backup-file-input" accept=".json" style="display:none;" onchange="uploadProgressJSON(event)">
+                        <button class="btn btn-secondary" onclick="document.getElementById('backup-file-input').click()">Select Backup File</button>
+                    </div>
+                </div>
+            </section>
         </main>
     </div>
 
@@ -2467,7 +2586,10 @@ body {
     <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
     
-    <script src="enhancements.js"></script>
+    
+    
+    
+    
 <script>
 // SSC CGL Previous Year Questions (PYQs) Database
 // Full 25-Question Shift Papers for CGL 2024, 2023, and 2022
@@ -71344,6 +71466,349 @@ const QUESTIONS_DB = [
 ];
 
 
+// ═══════════════════════════════════════════════════════════
+// NCERT General Awareness Question Bank for SSC CGL Tier-I
+// 50+ High-Yield MCQs: Class 6-10 | Science, History, Polity, Geography
+// ═══════════════════════════════════════════════════════════
+const NCERT_QS = [
+
+  // ── PHYSICS ──────────────────────────────────────────────
+  { id:"ph01", subject:"Physics", cls:"Class 9", topic:"Motion",
+    q:"A body is said to be in uniform motion when it covers:",
+    opts:["Equal distances in equal intervals of time","Unequal distances in equal intervals of time","Equal distances in unequal intervals of time","Variable speed in equal intervals"],
+    ans:0, exp:"Uniform motion means the body covers equal distances in equal time intervals — speed is constant." },
+
+  { id:"ph02", subject:"Physics", cls:"Class 9", topic:"Force & Laws of Motion",
+    q:"Newton's Second Law of Motion gives the definition of:",
+    opts:["Inertia","Force","Momentum","Velocity"],
+    ans:1, exp:"F = ma. Newton's 2nd Law states Force = mass × acceleration, thereby defining the concept of Force." },
+
+  { id:"ph03", subject:"Physics", cls:"Class 9", topic:"Work & Energy",
+    q:"What happens to the kinetic energy of an object if its speed is doubled?",
+    opts:["Doubles","Triples","Quadruples","Remains same"],
+    ans:2, exp:"KE = ½mv². Doubling speed (v → 2v) makes KE = ½m(2v)² = 4 × (½mv²). So KE quadruples." },
+
+  { id:"ph04", subject:"Physics", cls:"Class 9", topic:"Gravitation",
+    q:"The value of acceleration due to gravity (g) on Earth's surface is approximately:",
+    opts:["6.67 × 10⁻¹¹ m/s²","9.8 m/s²","8.9 m/s²","10.8 m/s²"],
+    ans:1, exp:"g ≈ 9.8 m/s² on Earth's surface. G (gravitational constant) = 6.67 × 10⁻¹¹ N m²/kg²." },
+
+  { id:"ph05", subject:"Physics", cls:"Class 10", topic:"Light",
+    q:"The phenomenon responsible for the formation of a rainbow is:",
+    opts:["Reflection","Refraction","Dispersion","Diffraction"],
+    ans:2, exp:"Dispersion — white sunlight splits into 7 colours (VIBGYOR) when passing through water droplets, forming a rainbow." },
+
+  { id:"ph06", subject:"Physics", cls:"Class 10", topic:"Electricity",
+    q:"Which device converts electrical energy into mechanical energy?",
+    opts:["Generator","Transformer","Electric Motor","Resistor"],
+    ans:2, exp:"An Electric Motor converts electrical energy into mechanical (rotational) energy. A Generator does the reverse." },
+
+  { id:"ph07", subject:"Physics", cls:"Class 8", topic:"Sound",
+    q:"The speed of sound is maximum in:",
+    opts:["Air","Water","Vacuum","Steel"],
+    ans:3, exp:"Sound travels fastest in solids. Speed in steel ≈ 5,100 m/s, in water ≈ 1,500 m/s, and in air ≈ 340 m/s." },
+
+  { id:"ph08", subject:"Physics", cls:"Class 10", topic:"Magnetic Effects",
+    q:"Fleming's Left Hand Rule is used to find the direction of:",
+    opts:["Induced current","Magnetic field","Force on current-carrying conductor","EMF"],
+    ans:2, exp:"Fleming's Left Hand Rule gives the direction of force on a current-carrying conductor placed in a magnetic field (used in motors)." },
+
+  // ── CHEMISTRY ─────────────────────────────────────────────
+  { id:"ch01", subject:"Chemistry", cls:"Class 8", topic:"Metals & Non-Metals",
+    q:"Which of the following is a non-metal that conducts electricity?",
+    opts:["Sulphur","Carbon (Graphite)","Phosphorus","Iodine"],
+    ans:1, exp:"Graphite (a form of carbon) is the only non-metal that conducts electricity. It is used as electrode material." },
+
+  { id:"ch02", subject:"Chemistry", cls:"Class 9", topic:"Matter",
+    q:"Which state of matter has a definite volume but no definite shape?",
+    opts:["Solid","Liquid","Gas","Plasma"],
+    ans:1, exp:"Liquids have definite volume (particles close together) but no definite shape (they take the shape of the container)." },
+
+  { id:"ch03", subject:"Chemistry", cls:"Class 10", topic:"Chemical Reactions",
+    q:"Rusting of iron is an example of which type of chemical reaction?",
+    opts:["Decomposition","Displacement","Oxidation","Combination"],
+    ans:2, exp:"Rusting (4Fe + 3O₂ + xH₂O → 2Fe₂O₃.xH₂O) is an oxidation reaction where iron combines with oxygen in presence of moisture." },
+
+  { id:"ch04", subject:"Chemistry", cls:"Class 10", topic:"Acids Bases Salts",
+    q:"The pH value of pure water at 25°C is:",
+    opts:["0","7","14","8"],
+    ans:1, exp:"Pure water is neutral with pH = 7. pH < 7 is acidic; pH > 7 is basic/alkaline." },
+
+  { id:"ch05", subject:"Chemistry", cls:"Class 10", topic:"Carbon Compounds",
+    q:"Which gas is produced when ethanol undergoes complete combustion?",
+    opts:["CO","CO₂ and H₂O","CH₄","H₂"],
+    ans:1, exp:"Complete combustion: C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O. Products are carbon dioxide and water." },
+
+  { id:"ch06", subject:"Chemistry", cls:"Class 9", topic:"Atoms & Molecules",
+    q:"The atomic number of an element is defined as the number of:",
+    opts:["Neutrons in nucleus","Protons in nucleus","Electrons in outer shell","Nucleons in nucleus"],
+    ans:1, exp:"Atomic number = number of protons in the nucleus. It uniquely identifies each element in the periodic table." },
+
+  { id:"ch07", subject:"Chemistry", cls:"Class 8", topic:"Coal & Petroleum",
+    q:"Which is called 'Black Gold'?",
+    opts:["Coal","Petroleum","Natural Gas","Tar"],
+    ans:1, exp:"Petroleum is called 'Black Gold' because it is black in colour and extremely valuable as a source of fuel and raw material." },
+
+  { id:"ch08", subject:"Chemistry", cls:"Class 10", topic:"Periodic Table",
+    q:"Elements in the same group of the periodic table have the same:",
+    opts:["Atomic mass","Number of neutrons","Valence electrons","Atomic number"],
+    ans:2, exp:"Elements in the same group have the same number of valence electrons and thus exhibit similar chemical properties." },
+
+  // ── BIOLOGY ──────────────────────────────────────────────
+  { id:"bi01", subject:"Biology", cls:"Class 9", topic:"Cell",
+    q:"The powerhouse of the cell is:",
+    opts:["Nucleus","Ribosome","Mitochondria","Golgi body"],
+    ans:2, exp:"Mitochondria produces ATP (energy) through cellular respiration and is hence called the powerhouse of the cell." },
+
+  { id:"bi02", subject:"Biology", cls:"Class 10", topic:"Life Processes",
+    q:"In which part of the human body does digestion of fats mainly occur?",
+    opts:["Stomach","Small Intestine","Large Intestine","Mouth"],
+    ans:1, exp:"Most fat digestion occurs in the small intestine with the help of bile from the liver and lipase from the pancreas." },
+
+  { id:"bi03", subject:"Biology", cls:"Class 10", topic:"Control & Coordination",
+    q:"The hormone responsible for the 'Fight or Flight' response is:",
+    opts:["Insulin","Thyroxine","Adrenaline","Oestrogen"],
+    ans:2, exp:"Adrenaline (Epinephrine) from the adrenal glands triggers the fight-or-flight response — increases heart rate, dilates pupils." },
+
+  { id:"bi04", subject:"Biology", cls:"Class 10", topic:"Heredity & Evolution",
+    q:"Who proposed the theory of 'Natural Selection'?",
+    opts:["Gregor Mendel","Charles Darwin","Louis Pasteur","Jean-Baptiste Lamarck"],
+    ans:1, exp:"Charles Darwin proposed the Theory of Natural Selection in his book 'On the Origin of Species' (1859)." },
+
+  { id:"bi05", subject:"Biology", cls:"Class 8", topic:"Microorganisms",
+    q:"Which type of microorganism is responsible for the disease Malaria?",
+    opts:["Bacteria","Fungi","Protozoa","Virus"],
+    ans:2, exp:"Malaria is caused by Plasmodium (a protozoan), transmitted by the female Anopheles mosquito." },
+
+  { id:"bi06", subject:"Biology", cls:"Class 10", topic:"Reproduction",
+    q:"In human females, the fusion of egg and sperm normally takes place in the:",
+    opts:["Uterus","Ovary","Fallopian Tube","Vagina"],
+    ans:2, exp:"Fertilization (fusion of egg and sperm) normally occurs in the Fallopian tube (oviduct). The fertilized egg then implants in the uterus." },
+
+  { id:"bi07", subject:"Biology", cls:"Class 9", topic:"Tissues",
+    q:"Which tissue is responsible for the transport of water and minerals in plants?",
+    opts:["Phloem","Xylem","Parenchyma","Collenchyma"],
+    ans:1, exp:"Xylem transports water and minerals from roots upward. Phloem transports food (sugars) from leaves to other parts." },
+
+  { id:"bi08", subject:"Biology", cls:"Class 10", topic:"Our Environment",
+    q:"Which gas is mainly responsible for the Greenhouse Effect?",
+    opts:["Oxygen","Nitrogen","Carbon Dioxide","Hydrogen"],
+    ans:2, exp:"CO₂ (Carbon Dioxide) is the primary greenhouse gas responsible for global warming and the greenhouse effect." },
+
+  // ── HISTORY ──────────────────────────────────────────────
+  { id:"hi01", subject:"History", cls:"Class 6", topic:"Ancient India",
+    q:"The Harappan civilization flourished along which river?",
+    opts:["Ganga","Yamuna","Indus","Brahmaputra"],
+    ans:2, exp:"The Harappan (Indus Valley) Civilization (2600–1900 BCE) flourished along the Indus river and its tributaries." },
+
+  { id:"hi02", subject:"History", cls:"Class 7", topic:"Medieval India",
+    q:"Who was the founder of the Mughal Empire in India?",
+    opts:["Akbar","Humayun","Babur","Shah Jahan"],
+    ans:2, exp:"Babur founded the Mughal Empire after defeating Ibrahim Lodi at the First Battle of Panipat in 1526." },
+
+  { id:"hi03", subject:"History", cls:"Class 8", topic:"Modern India",
+    q:"The Revolt of 1857 began at:",
+    opts:["Delhi","Lucknow","Meerut","Kanpur"],
+    ans:2, exp:"The Revolt of 1857 (First War of Independence) began at Meerut on May 10, 1857, when Indian sepoys revolted against British rule." },
+
+  { id:"hi04", subject:"History", cls:"Class 8", topic:"Modern India",
+    q:"The Indian National Congress was founded in which year?",
+    opts:["1857","1885","1905","1920"],
+    ans:1, exp:"The Indian National Congress (INC) was founded in 1885 by A.O. Hume, Dadabhai Naoroji, and Dinshaw Wacha." },
+
+  { id:"hi05", subject:"History", cls:"Class 8", topic:"Modern India",
+    q:"The Partition of Bengal (1905) was done by which Viceroy?",
+    opts:["Lord Curzon","Lord Dalhousie","Lord Mountbatten","Lord Wellesley"],
+    ans:0, exp:"Lord Curzon partitioned Bengal in 1905 into East and West Bengal, which led to the Swadeshi Movement." },
+
+  { id:"hi06", subject:"History", cls:"Class 8", topic:"Nationalism",
+    q:"The Non-Cooperation Movement was launched by Mahatma Gandhi in:",
+    opts:["1919","1920","1922","1930"],
+    ans:1, exp:"Gandhi launched the Non-Cooperation Movement in 1920. It was withdrawn in 1922 after the Chauri Chaura violence." },
+
+  { id:"hi07", subject:"History", cls:"Class 8", topic:"Nationalism",
+    q:"The Dandi March (Salt March) was associated with which movement?",
+    opts:["Non-Cooperation Movement","Civil Disobedience Movement","Quit India Movement","Swadeshi Movement"],
+    ans:1, exp:"The Dandi March (March 1930) was part of the Civil Disobedience Movement launched by Gandhi against the British salt tax." },
+
+  { id:"hi08", subject:"History", cls:"Class 6", topic:"Ancient Rulers",
+    q:"The Ashoka pillar at Sarnath has the emblem that India adopted as its National Emblem. Ashoka was a ruler of which dynasty?",
+    opts:["Gupta","Maurya","Chola","Kushan"],
+    ans:1, exp:"Ashoka was the third ruler of the Maurya Empire. The Lion Capital of Sarnath (made by Ashoka) is India's National Emblem." },
+
+  // ── POLITY ───────────────────────────────────────────────
+  { id:"po01", subject:"Polity", cls:"Class 8", topic:"Constitution",
+    q:"The Indian Constitution came into effect on:",
+    opts:["15 August 1947","26 November 1949","26 January 1950","2 October 1950"],
+    ans:2, exp:"India's Constitution came into force on 26 January 1950. This date is celebrated as Republic Day." },
+
+  { id:"po02", subject:"Polity", cls:"Class 8", topic:"Parliament",
+    q:"The Upper House of the Indian Parliament is called:",
+    opts:["Lok Sabha","Rajya Sabha","Vidhan Sabha","Vidhan Parishad"],
+    ans:1, exp:"Rajya Sabha is the Upper House (Council of States). Lok Sabha is the Lower House (House of the People)." },
+
+  { id:"po03", subject:"Polity", cls:"Class 8", topic:"Fundamental Rights",
+    q:"Right to Education for children (6-14 years) is guaranteed under which Article?",
+    opts:["Article 14","Article 19","Article 21A","Article 32"],
+    ans:2, exp:"Article 21A (added by 86th Amendment, 2002) guarantees free and compulsory education for children aged 6-14 years." },
+
+  { id:"po04", subject:"Polity", cls:"Class 8", topic:"Judiciary",
+    q:"Who is the head of the Supreme Court of India?",
+    opts:["President","Prime Minister","Chief Justice of India","Attorney General"],
+    ans:2, exp:"The Chief Justice of India (CJI) heads the Supreme Court of India, which is the apex judicial body." },
+
+  { id:"po05", subject:"Polity", cls:"Class 9", topic:"Democratic Politics",
+    q:"Which system of government does India follow?",
+    opts:["Presidential","Parliamentary","Federal with unitary bias","Confederal"],
+    ans:1, exp:"India follows a Parliamentary system of government where the executive (Council of Ministers) is responsible to the legislature (Parliament)." },
+
+  { id:"po06", subject:"Polity", cls:"Class 8", topic:"Preamble",
+    q:"The word 'Secular' was added to the Indian Constitution's Preamble by which Amendment?",
+    opts:["42nd Amendment","44th Amendment","52nd Amendment","74th Amendment"],
+    ans:0, exp:"The 42nd Constitutional Amendment (1976) added the words 'Socialist', 'Secular', and 'Integrity' to the Preamble." },
+
+  { id:"po07", subject:"Polity", cls:"Class 9", topic:"Elections",
+    q:"The minimum age to vote in Indian general elections is:",
+    opts:["16 years","18 years","21 years","25 years"],
+    ans:1, exp:"The voting age in India was lowered from 21 to 18 years by the 61st Constitutional Amendment Act, 1988." },
+
+  { id:"po08", subject:"Polity", cls:"Class 8", topic:"Local Government",
+    q:"The 73rd Constitutional Amendment (1992) relates to:",
+    opts:["Urban Local Bodies","Panchayati Raj","Fundamental Duties","Directive Principles"],
+    ans:1, exp:"The 73rd Amendment gave constitutional status to Panchayati Raj institutions (rural local government). The 74th covers Urban Local Bodies." },
+
+  // ── GEOGRAPHY ────────────────────────────────────────────
+  { id:"ge01", subject:"Geography", cls:"Class 6", topic:"Solar System",
+    q:"Which is the largest planet in our Solar System?",
+    opts:["Saturn","Earth","Jupiter","Neptune"],
+    ans:2, exp:"Jupiter is the largest planet in the Solar System. It has the Great Red Spot — a storm that has lasted for centuries." },
+
+  { id:"ge02", subject:"Geography", cls:"Class 9", topic:"India — Physical Features",
+    q:"The Himalayan river Ganga originates from:",
+    opts:["Yamunotri","Gangotri","Kedarnath","Badrinath"],
+    ans:1, exp:"River Ganga originates from Gangotri glacier in Uttarkashi, Uttarakhand. The Yamuna originates from Yamunotri." },
+
+  { id:"ge03", subject:"Geography", cls:"Class 9", topic:"Climate",
+    q:"The 'Monsoon' in India arrives first at:",
+    opts:["Mumbai","Delhi","Kerala","Chennai"],
+    ans:2, exp:"The Southwest Monsoon first arrives at Kerala (Thiruvananthapuram) around June 1st and then progresses northward." },
+
+  { id:"ge04", subject:"Geography", cls:"Class 8", topic:"Resources",
+    q:"Which state is the largest producer of coal in India?",
+    opts:["West Bengal","Odisha","Jharkhand","Madhya Pradesh"],
+    ans:2, exp:"Jharkhand is the largest producer of coal in India. Damodar Valley region (Jharia, Bokaro) contains the richest coal deposits." },
+
+  { id:"ge05", subject:"Geography", cls:"Class 9", topic:"Drainage System",
+    q:"The river Brahmaputra is called 'Tsangpo' in which country?",
+    opts:["Nepal","Bhutan","China (Tibet)","Bangladesh"],
+    ans:2, exp:"The Brahmaputra originates in Tibet (China) as Tsangpo, flows through Arunachal Pradesh (as Dihang), and then through Assam." },
+
+  { id:"ge06", subject:"Geography", cls:"Class 7", topic:"Atmosphere",
+    q:"The layer of atmosphere that contains the ozone layer is:",
+    opts:["Troposphere","Stratosphere","Mesosphere","Thermosphere"],
+    ans:1, exp:"The ozone layer is found in the Stratosphere (15-35 km above Earth's surface). It absorbs harmful UV radiation from the Sun." },
+
+  { id:"ge07", subject:"Geography", cls:"Class 9", topic:"India — Location",
+    q:"The Tropic of Cancer (23.5°N) passes through how many Indian states?",
+    opts:["6","7","8","9"],
+    ans:2, exp:"The Tropic of Cancer passes through 8 Indian states: Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, WB, Tripura, and Mizoram." },
+
+  { id:"ge08", subject:"Geography", cls:"Class 10", topic:"Minerals",
+    q:"Which mineral is known as 'Iron Ore of Commerce'?",
+    opts:["Magnetite","Haematite","Limonite","Siderite"],
+    ans:1, exp:"Haematite (Fe₂O₃) is called Iron Ore of Commerce because it has 60-70% iron content and is the most widely used iron ore." },
+
+  { id:"ge09", subject:"Geography", cls:"Class 10", topic:"Manufacturing Industries",
+    q:"Jamshedpur is famous for which industry?",
+    opts:["Textile","Iron & Steel","Petrochemical","Sugar"],
+    ans:1, exp:"Jamshedpur (Jharkhand) is home to Tata Iron & Steel Company (TISCO), India's first integrated iron and steel plant (est. 1907)." },
+
+  { id:"ge10", subject:"Geography", cls:"Class 9", topic:"Natural Vegetation",
+    q:"Sundarbans — the world's largest mangrove forest — is located in:",
+    opts:["West Bengal & Odisha","West Bengal & Bangladesh","Andaman Islands","Gujarat"],
+    ans:1, exp:"The Sundarbans mangrove forest spans the delta of the Ganga-Brahmaputra and lies across West Bengal (India) and Bangladesh." }
+];
+
+
+// ═══════════════════════════════════════════════════════════
+// English Vocabulary Data for SSC CGL Tier-I
+// One-Word Substitutions | Idioms & Phrases | Misspelled Words
+// ═══════════════════════════════════════════════════════════
+const VOCAB_DATA = [
+
+  // ── ONE-WORD SUBSTITUTIONS (cat: ows) ────────────────────
+  { cat:"ows", front:"One who can use both hands with equal ease", back:"Ambidextrous", ex:"An ambidextrous cricketer can bat equally well from both sides." },
+  { cat:"ows", front:"Fear of crowds or open spaces", back:"Agoraphobia", ex:"She suffered from agoraphobia and avoided large public gatherings." },
+  { cat:"ows", front:"One who studies the evolution of mankind", back:"Anthropologist", ex:"An anthropologist studies human societies, cultures, and their development." },
+  { cat:"ows", front:"A person who is unable to sleep", back:"Insomniac", ex:"He was a chronic insomniac who hadn't slept properly in weeks." },
+  { cat:"ows", front:"Words written on a tombstone", back:"Epitaph", ex:"The epitaph on the grave read: 'Beloved father, forever in our hearts.'" },
+  { cat:"ows", front:"Government by the people", back:"Democracy", ex:"India is the world's largest democracy." },
+  { cat:"ows", front:"One who eats both plants and animals", back:"Omnivore", ex:"Humans are omnivores — they eat both plant and animal foods." },
+  { cat:"ows", front:"A person who is new to a job or activity", back:"Novice / Neophyte", ex:"As a novice driver, he was still learning basic traffic rules." },
+  { cat:"ows", front:"A place where animals are kept for public display", back:"Zoo / Menagerie", ex:"A menagerie was once used to refer to a private collection of exotic animals." },
+  { cat:"ows", front:"Murder of one's own mother", back:"Matricide", ex:"The ancient Greek myth of Orestes involves matricide." },
+  { cat:"ows", front:"Murder of one's own father", back:"Patricide", ex:"Patricide is considered one of the gravest crimes across cultures." },
+  { cat:"ows", front:"Murder of one's own brother", back:"Fratricide", ex:"Many ancient battles were cases of fratricide — brothers killing brothers." },
+  { cat:"ows", front:"A person who speaks many languages", back:"Polyglot", ex:"The UN interpreter was a polyglot, fluent in seven languages." },
+  { cat:"ows", front:"A remedy for all diseases and difficulties", back:"Panacea", ex:"Education is often cited as the panacea for poverty." },
+  { cat:"ows", front:"One who is all-knowing (omniscient) and all-powerful", back:"Omniscient / Omnipotent", ex:"God is described as omniscient and omnipotent in most religions." },
+  { cat:"ows", front:"A place where bees are kept", back:"Apiary", ex:"The beekeeper maintained a large apiary in his backyard." },
+  { cat:"ows", front:"Writing that cannot be read", back:"Illegible", ex:"The doctor's prescription was so illegible that the pharmacist called to confirm." },
+  { cat:"ows", front:"One who pretends to be what one is not", back:"Hypocrite", ex:"Calling oneself honest while cheating others makes one a hypocrite." },
+  { cat:"ows", front:"A person who is unable to pay debts", back:"Insolvent / Bankrupt", ex:"After the business failure, he was declared insolvent by the court." },
+  { cat:"ows", front:"Something that lasts for a very short time", back:"Ephemeral / Transient", ex:"The ephemeral beauty of cherry blossoms lasts only a week." },
+  { cat:"ows", front:"A group of stars forming a recognizable pattern", back:"Constellation", ex:"Orion is one of the most easily recognizable constellations in the night sky." },
+  { cat:"ows", front:"One who believes in no god", back:"Atheist", ex:"An atheist lacks belief in the existence of any god or gods." },
+  { cat:"ows", front:"A book written by the author about their own life", back:"Autobiography", ex:"Mahatma Gandhi's autobiography is titled 'The Story of My Experiments with Truth.'" },
+  { cat:"ows", front:"Murder of a human being by another", back:"Homicide", ex:"The court charged him with first-degree homicide." },
+  { cat:"ows", front:"One who is filled with excessive enthusiasm for religion", back:"Fanatic / Zealot", ex:"A religious zealot refuses to tolerate any other belief system." },
+
+  // ── IDIOMS & PHRASES (cat: idioms) ─────────────────────────
+  { cat:"idioms", front:"A blessing in disguise", back:"Something that seems bad at first, but turns out to be good", ex:"Missing the bus was a blessing in disguise — I met my future business partner on the next one." },
+  { cat:"idioms", front:"Beat around the bush", back:"To avoid coming to the main point", ex:"Stop beating around the bush and tell me what really happened." },
+  { cat:"idioms", front:"Bite the bullet", back:"To endure a painful or difficult situation bravely", ex:"He bit the bullet and sat through three hours of dentist appointments." },
+  { cat:"idioms", front:"Burning the midnight oil", back:"Working or studying late into the night", ex:"She was burning the midnight oil to finish the project before the deadline." },
+  { cat:"idioms", front:"Catch someone red-handed", back:"To discover someone in the act of doing something wrong", ex:"The thief was caught red-handed while stealing from the shop." },
+  { cat:"idioms", front:"Cost an arm and a leg", back:"Very expensive", ex:"That luxury watch costs an arm and a leg." },
+  { cat:"idioms", front:"Hit the nail on the head", back:"To describe exactly what is causing a situation or problem", ex:"You hit the nail on the head when you said the team lacked communication." },
+  { cat:"idioms", front:"Let the cat out of the bag", back:"To accidentally reveal a secret", ex:"She let the cat out of the bag about the surprise party." },
+  { cat:"idioms", front:"Once in a blue moon", back:"Very rarely", ex:"He only calls his parents once in a blue moon." },
+  { cat:"idioms", front:"Spill the beans", back:"To reveal secret information", ex:"Who spilled the beans about our plan to leave early?" },
+  { cat:"idioms", front:"The ball is in your court", back:"It is your decision or responsibility to act next", ex:"I've made my offer — the ball is in your court now." },
+  { cat:"idioms", front:"Under the weather", back:"Feeling ill or unwell", ex:"I'm feeling a bit under the weather today — I might skip the gym." },
+  { cat:"idioms", front:"A piece of cake", back:"Something very easy to do", ex:"The first round of the exam was a piece of cake." },
+  { cat:"idioms", front:"Bite off more than you can chew", back:"To take on a task that is too big for you", ex:"By accepting four projects simultaneously, he bit off more than he could chew." },
+  { cat:"idioms", front:"Cut corners", back:"To do something improperly to save time or money", ex:"The contractor cut corners during construction, which caused the building to collapse." },
+  { cat:"idioms", front:"Hit the sack", back:"To go to bed", ex:"I'm exhausted — I'm going to hit the sack early tonight." },
+  { cat:"idioms", front:"Kick the bucket", back:"A humorous/slang way to say someone has died", ex:"The old television finally kicked the bucket last night." },
+  { cat:"idioms", front:"Pull someone's leg", back:"To tease or joke with someone", ex:"Don't worry — I was just pulling your leg! You passed the exam." },
+  { cat:"idioms", front:"Sitting on the fence", back:"Being neutral; not taking sides in a dispute", ex:"Stop sitting on the fence — tell us whose plan you think is better." },
+  { cat:"idioms", front:"The last straw", back:"The final problem in a series that makes a situation unbearable", ex:"His constant tardiness was the last straw — the boss finally fired him." },
+  { cat:"idioms", front:"Throw in the towel", back:"To give up; admit defeat", ex:"After losing the third set, the tennis player threw in the towel." },
+  { cat:"idioms", front:"Turn a blind eye", back:"To ignore something that you know is wrong", ex:"The corrupt officer turned a blind eye to the smuggling operation." },
+  { cat:"idioms", front:"Add fuel to the fire", back:"To make a bad situation worse", ex:"His angry reply only added fuel to the fire during the argument." },
+  { cat:"idioms", front:"Barking up the wrong tree", back:"To look for something in the wrong place or to blame the wrong person", ex:"If you think I took your book, you're barking up the wrong tree." },
+  { cat:"idioms", front:"Break the ice", back:"To do or say something to relieve tension or awkwardness", ex:"He told a joke to break the ice at the start of the meeting." },
+
+  // ── COMMONLY MISSPELLED WORDS (cat: spell) ─────────────────
+  { cat:"spell", front:"Correct spelling: Accommodate or Accomodate?", back:"Accommodate", ex:"The hotel can accommodate up to 500 guests. (Double 'c' and double 'm')" },
+  { cat:"spell", front:"Correct spelling: Occurrence or Occurence?", back:"Occurrence", ex:"This is a rare occurrence in nature. (Double 'c' and double 'r')" },
+  { cat:"spell", front:"Correct spelling: Supersede or Supercede?", back:"Supersede", ex:"The new law will supersede the old one. (Never 'cede' — only 'sede')" },
+  { cat:"spell", front:"Correct spelling: Separate or Seperate?", back:"Separate", ex:"Please separate the papers into two piles." },
+  { cat:"spell", front:"Correct spelling: Definitely or Definately?", back:"Definitely", ex:"I will definitely attend the function tomorrow." },
+  { cat:"spell", front:"Correct spelling: Embarrass or Embarass?", back:"Embarrass", ex:"He was embarrassed by his mistake. (Double 'r' and double 's')" },
+  { cat:"spell", front:"Correct spelling: Necessary or Neccessary?", back:"Necessary", ex:"It is necessary to wear a helmet while riding. (One 'c', two 's')" },
+  { cat:"spell", front:"Correct spelling: Millennium or Millenium?", back:"Millennium", ex:"The new millennium began on January 1, 2001. (Double 'l' and double 'n')" },
+  { cat:"spell", front:"Correct spelling: Conscientious or Consientious?", back:"Conscientious", ex:"A conscientious employee always meets deadlines." },
+  { cat:"spell", front:"Correct spelling: Bureaucracy or Beaurocracy?", back:"Bureaucracy", ex:"Excessive bureaucracy can slow down government processes." },
+  { cat:"spell", front:"Correct spelling: Liaison or Liason?", back:"Liaison", ex:"The officer acted as a liaison between the two departments." },
+  { cat:"spell", front:"Correct spelling: Rhythm or Rythm?", back:"Rhythm", ex:"She has a natural sense of rhythm and loves to dance." },
+  { cat:"spell", front:"Correct spelling: Colleague or Collegue?", back:"Colleague", ex:"My colleague helped me finish the report on time." },
+  { cat:"spell", front:"Correct spelling: Believe or Beleive?", back:"Believe", ex:"I believe you can achieve anything you set your mind to. (i before e after b)" },
+  { cat:"spell", front:"Correct spelling: Privilege or Priviledge?", back:"Privilege", ex:"It is a privilege to serve the nation in uniform." }
+];
+
+
 // SSC CGL Prep App JavaScript Logic
 
 // --- 2. OFFLINE FORMULA DATABASE ---
@@ -72168,11 +72633,77 @@ function setupQuizListeners() {
     });
 }
 
+function startFullMock() {
+    let reasoning = QUESTIONS_DB.filter(q => q.subject === 'reasoning').sort(() => 0.5 - Math.random()).slice(0, 25);
+    let gk = QUESTIONS_DB.filter(q => q.subject === 'gk').sort(() => 0.5 - Math.random()).slice(0, 25);
+    let maths = QUESTIONS_DB.filter(q => q.subject === 'maths' || !q.subject).sort(() => 0.5 - Math.random()).slice(0, 25);
+    let english = QUESTIONS_DB.filter(q => q.subject === 'english').sort(() => 0.5 - Math.random()).slice(0, 25);
+
+    let pool = [...reasoning, ...gk, ...maths, ...english];
+
+    if (pool.length < 100) {
+        // Fallback: If any subject has fewer than 25, just pad with whatever we have so it hits 100 if possible
+        pool = QUESTIONS_DB.sort(() => 0.5 - Math.random()).slice(0, 100);
+    }
+
+    activeQuiz.category = `full_mock_60_mins`;
+    activeQuiz.isFullMock = true;
+    activeQuiz.questions = pool;
+    activeQuiz.currentIndex = 0;
+    activeQuiz.score = 0;
+    activeQuiz.secondsElapsed = 0;
+    activeQuiz.userAnswers = new Array(pool.length).fill(null);
+    activeQuiz.isReviewMode = false;
+
+    // Switch Screens
+    document.getElementById("quiz-select-screen").classList.add("hidden");
+    document.getElementById("quiz-results-screen").classList.add("hidden");
+    document.getElementById("quiz-active-screen").classList.remove("hidden");
+
+    // Start Timer (60 minutes)
+    activeQuiz.totalSecondsRemaining = 60 * 60;
+    activeQuiz.questionSecondsElapsed = 0;
+    document.getElementById("quiz-timer-display").innerText = "60:00";
+    if (document.getElementById("quiz-question-timer-display")) {
+        document.getElementById("quiz-question-timer-display").innerText = "00:00";
+    }
+    clearInterval(activeQuiz.timer);
+    activeQuiz.timer = setInterval(() => {
+        activeQuiz.secondsElapsed++;
+        activeQuiz.questionSecondsElapsed++;
+        if (activeQuiz.totalSecondsRemaining > 0) {
+            activeQuiz.totalSecondsRemaining--;
+            let m = Math.floor(activeQuiz.totalSecondsRemaining / 60);
+            let s = activeQuiz.totalSecondsRemaining % 60;
+            document.getElementById("quiz-timer-display").innerText = `${m < 10 ? '0' : ''}${m}:${s < 10 ? '0' : ''}${s}`;
+
+            let qm = Math.floor(activeQuiz.questionSecondsElapsed / 60);
+            let qs = activeQuiz.questionSecondsElapsed % 60;
+            if (document.getElementById("quiz-question-timer-display")) {
+                document.getElementById("quiz-question-timer-display").innerText = `${qm < 10 ? '0' : ''}${qm}:${qs < 10 ? '0' : ''}${qs}`;
+            }
+        } else {
+            finishQuiz();
+        }
+    }, 1000);
+
+    // Initial Render
+    if (typeof initEduqityState === 'function') {
+        initEduqityState();
+    } else {
+        renderQuestion();
+    }
+}
+
+
 function finishQuiz() {
     clearInterval(activeQuiz.timer);
 
     // Calculate Score
     activeQuiz.score = 0;
+    let fullMockScore = 0;
+    let totalQuestions = activeQuiz.questions.length;
+
     activeQuiz.questions.forEach((q, idx) => {
         const userAnswer = activeQuiz.userAnswers[idx];
         if (userAnswer !== null) {
@@ -72180,18 +72711,25 @@ function finishQuiz() {
             if (userAnswer === q.answer) {
                 activeQuiz.score++;
                 appState.correctCount++;
+                if (activeQuiz.isFullMock) fullMockScore += 2;
+            } else {
+                if (activeQuiz.isFullMock) fullMockScore -= 0.5;
             }
         }
     });
 
+    const finalScore = activeQuiz.isFullMock ? fullMockScore : activeQuiz.score;
+    const maxScore = activeQuiz.isFullMock ? totalQuestions * 2 : totalQuestions;
+
     // --- SAVE TO HISTORY ---
-    const totalTimeTaken = (20 * 60) - activeQuiz.totalSecondsRemaining;
-    const pct = Math.round((activeQuiz.score / activeQuiz.questions.length) * 100);
+    const totalTimeLimit = activeQuiz.isFullMock ? (60 * 60) : (20 * 60);
+    const totalTimeTaken = totalTimeLimit - activeQuiz.totalSecondsRemaining;
+    const pct = Math.round((activeQuiz.score / totalQuestions) * 100); // Raw accuracy %
     const historyEntry = {
         date: new Date().toISOString(),
         label: activeQuiz.category.replace(/_/g, ' '),
-        score: activeQuiz.score,
-        total: activeQuiz.questions.length,
+        score: finalScore,
+        total: maxScore,
         pct: pct,
         timeSecs: totalTimeTaken
     };
@@ -72229,7 +72767,7 @@ function finishQuiz() {
 
     // Render metrics
     const scoreVal = document.getElementById("result-score-value");
-    scoreVal.innerText = `${activeQuiz.score} / ${activeQuiz.questions.length}`;
+    scoreVal.innerText = `${finalScore} / ${maxScore}`;
 
     // Timer formatted
     const mins = Math.floor(totalTimeTaken / 60);
@@ -72239,12 +72777,38 @@ function finishQuiz() {
 
     // Feedback copy
     const feedback = document.getElementById("result-feedback-message");
-    if (pct >= 80) {
-        feedback.innerText = "🔥 Fantastic! You scored well above CGL expectations. Focus on speed now!";
-    } else if (pct >= 60) {
-        feedback.innerText = "👍 Good job! You've passed CGL sectional expectations, but practicing shortcuts will build speed.";
+    if (activeQuiz.isFullMock) {
+        if (finalScore >= 130) {
+            feedback.innerText = "🔥 Outstanding! You're in the safe zone for CGL Tier-I clearance.";
+        } else if (finalScore >= 100) {
+            feedback.innerText = "👍 Good! Borderline clearance. Focus on improving accuracy in your weak subjects.";
+        } else {
+            feedback.innerText = "📚 Keep practicing! You need to push your score above 130+ to be safe.";
+        }
     } else {
-        feedback.innerText = "📚 Keep practicing! Review the formulas and shortcuts in the solution breakdown.";
+        if (pct >= 80) {
+            feedback.innerText = "🔥 Fantastic! You scored well above CGL expectations. Focus on speed now!";
+        } else if (pct >= 60) {
+            feedback.innerText = "👍 Good job! You've passed CGL sectional expectations, but practicing shortcuts will build speed.";
+        } else {
+            feedback.innerText = "📚 Keep practicing! Review the formulas and shortcuts in the solution breakdown.";
+        }
+    }
+
+    const breakdownEl = document.getElementById("result-subject-breakdown");
+    if (activeQuiz.isFullMock && breakdownEl) {
+        breakdownEl.style.display = 'block';
+        breakdownEl.innerHTML = `
+            <h4 style="margin-bottom:12px; font-size:0.95rem; color:var(--text-primary); border-bottom:1px solid rgba(255,255,255,0.1); padding-bottom:8px;">Subject-wise Breakdown</h4>
+            <div style="display:grid; grid-template-columns: 1fr 1fr; gap:10px; font-size:0.85rem; color:var(--text-secondary);">
+                <div><strong>Maths:</strong> ${subjectStats['maths'].score} / 50 <br><span style="font-size:0.75rem; color:var(--text-muted);">(${subjectStats['maths'].correct}✅ ${subjectStats['maths'].wrong}❌)</span></div>
+                <div><strong>Reasoning:</strong> ${subjectStats['reasoning'].score} / 50 <br><span style="font-size:0.75rem; color:var(--text-muted);">(${subjectStats['reasoning'].correct}✅ ${subjectStats['reasoning'].wrong}❌)</span></div>
+                <div><strong>English:</strong> ${subjectStats['english'].score} / 50 <br><span style="font-size:0.75rem; color:var(--text-muted);">(${subjectStats['english'].correct}✅ ${subjectStats['english'].wrong}❌)</span></div>
+                <div><strong>GK:</strong> ${subjectStats['gk'].score} / 50 <br><span style="font-size:0.75rem; color:var(--text-muted);">(${subjectStats['gk'].correct}✅ ${subjectStats['gk'].wrong}❌)</span></div>
+            </div>
+        `;
+    } else if (breakdownEl) {
+        breakdownEl.style.display = 'none';
     }
 
     // Show personal best badge if it's the highest score ever
@@ -72486,6 +73050,26 @@ function generateDrillQuestion() {
         while (options.length < 4) {
             const randomP = list[Math.floor(Math.random() * list.length)].p;
             if (!options.includes(randomP)) options.push(randomP);
+        }
+
+    } else if (trainerState.mode === "triplets") {
+        const triplets = [
+            [3, 4, 5], [5, 12, 13], [7, 24, 25], [8, 15, 17],
+            [9, 40, 41], [11, 60, 61], [12, 35, 37], [16, 63, 65], [20, 21, 29]
+        ];
+        const t = triplets[Math.floor(Math.random() * triplets.length)];
+        // Randomly hide one of the three sides
+        const hideIdx = Math.floor(Math.random() * 3);
+        const labels = ['a', 'b', 'c (Hypotenuse)'];
+        const parts = [t[0], t[1], t[2]];
+        correctAnswer = String(parts[hideIdx]);
+        questionText = `Triplet: ${parts.map((v, i) => i === hideIdx ? '?' : v).join(' , ')}  →  Find ${labels[hideIdx]}`;
+
+        options.push(correctAnswer);
+        const allVals = triplets.flat().filter(v => v !== parseInt(correctAnswer));
+        while (options.length < 4) {
+            const pick = String(allVals[Math.floor(Math.random() * allVals.length)]);
+            if (!options.includes(pick)) options.push(pick);
         }
     }
 
@@ -73085,6 +73669,911 @@ function renderEditorialView() {
         }
     }
 }
+
+// ───────────────────────────────────────────────────────────
+// 12. BACKUP & RESTORE DATA
+// ───────────────────────────────────────────────────────────
+function downloadProgressJSON() {
+    const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(appState, null, 2));
+    const dlAnchorElem = document.createElement('a');
+    dlAnchorElem.setAttribute("href", dataStr);
+    const dateStr = new Date().toISOString().split('T')[0];
+    dlAnchorElem.setAttribute("download", `ssc_cgl_app_backup_${dateStr}.json`);
+    dlAnchorElem.click();
+}
+
+function uploadProgressJSON(event) {
+    const file = event.target.files[0];
+    if (!file) return;
+
+    const reader = new FileReader();
+    reader.onload = function(e) {
+        try {
+            const importedState = JSON.parse(e.target.result);
+            if (importedState && typeof importedState === 'object') {
+                appState = { ...appState, ...importedState };
+                saveState();
+                alert("✅ Backup restored successfully! Refreshing app...");
+                window.location.reload();
+            } else {
+                alert("❌ Invalid backup file format.");
+            }
+        } catch (err) {
+            alert("❌ Failed to read backup file. Make sure it's a valid JSON.");
+            console.error(err);
+        }
+    };
+    reader.readAsText(file);
+}
+
+
+
+// ───────────────────────────────────────────────────────────
+// 11. NCERT GA VAULT
+// ───────────────────────────────────────────────────────────
+let ncertFilters = { subject: 'all', cls: 'all' };
+
+function renderNCERTVault() {
+    const data = typeof NCERT_QS !== 'undefined' ? NCERT_QS : [];
+    const filtered = data.filter(q =>
+        (ncertFilters.subject === 'all' || q.subject === ncertFilters.subject) &&
+        (ncertFilters.cls === 'all' || q.cls === ncertFilters.cls)
+    );
+
+    const countEl = document.getElementById('ncert-question-count');
+    if (countEl) countEl.innerText = `Showing ${filtered.length} of ${data.length} questions`;
+
+    const container = document.getElementById('ncert-cards-container');
+    if (!container) return;
+    container.innerHTML = '';
+
+    if (filtered.length === 0) {
+        container.innerHTML = `<p style="text-align:center;color:var(--text-muted);padding:40px;">No questions match the selected filters.</p>`;
+        return;
+    }
+
+    filtered.forEach((q, idx) => {
+        const card = document.createElement('div');
+        card.className = 'ncert-card';
+        card.innerHTML = `
+            <div class="ncert-card-header">
+                <span class="ncert-tag">${q.subject}</span>
+                <span class="ncert-tag ncert-tag-cls">${q.cls}</span>
+                <span style="font-size:11px;color:var(--text-muted);">${q.topic}</span>
+            </div>
+            <div class="ncert-question">Q${idx + 1}. ${q.q}</div>
+            <div class="ncert-options" id="ncert-opts-${q.id}">
+                ${q.opts.map((opt, i) => `
+                    <div class="ncert-opt" id="ncert-opt-${q.id}-${i}" onclick="selectNCERTAnswer('${q.id}', ${i}, ${q.ans})">
+                        <span class="ncert-opt-label">${String.fromCharCode(65+i)}.</span>
+                        <span>${opt}</span>
+                    </div>`).join('')}
+            </div>
+            <div class="ncert-explanation hidden" id="ncert-exp-${q.id}">
+                <strong>&#128161; Explanation:</strong> ${q.exp}
+            </div>`;
+        container.appendChild(card);
+    });
+}
+
+function selectNCERTAnswer(qId, selectedIdx, correctIdx) {
+    const opts = document.querySelectorAll(`#ncert-opts-${qId} .ncert-opt`);
+    opts.forEach((opt, i) => {
+        opt.style.pointerEvents = 'none';
+        if (i === correctIdx) opt.classList.add('ncert-correct');
+        else if (i === selectedIdx) opt.classList.add('ncert-wrong');
+    });
+    const expEl = document.getElementById(`ncert-exp-${qId}`);
+    if (expEl) expEl.classList.remove('hidden');
+}
+
+function initNCERTFilters() {
+    document.querySelectorAll('[data-filter]').forEach(pill => {
+        pill.addEventListener('click', () => {
+            const filterType = pill.dataset.filter;
+            const val = pill.dataset.val;
+            ncertFilters[filterType] = val;
+            document.querySelectorAll(`[data-filter="${filterType}"]`).forEach(p => p.classList.remove('active'));
+            pill.classList.add('active');
+            renderNCERTVault();
+        });
+    });
+}
+
+// ───────────────────────────────────────────────────────────
+// 12. VOCAB FLASHCARD VAULT (3D Flip)
+// ───────────────────────────────────────────────────────────
+let activeVocabCat = 'all';
+
+function renderVocabCards() {
+    const data = typeof VOCAB_DATA !== 'undefined' ? VOCAB_DATA : [];
+    const filtered = activeVocabCat === 'all' ? data : data.filter(v => v.cat === activeVocabCat);
+
+    const countEl = document.getElementById('vocab-card-count');
+    if (countEl) countEl.innerText = `${filtered.length} cards`;
+
+    const container = document.getElementById('vocab-cards-container');
+    if (!container) return;
+    container.innerHTML = '';
+
+    filtered.forEach((v, idx) => {
+        const card = document.createElement('div');
+        card.className = 'vocab-flip-wrapper';
+        card.innerHTML = `
+            <div class="vocab-flip-inner" id="vcard-${idx}">
+                <div class="vocab-front">
+                    <div class="vocab-cat-tag">${v.cat === 'ows' ? 'One-Word Sub' : v.cat === 'idioms' ? 'Idiom/Phrase' : 'Spelling'}</div>
+                    <div class="vocab-front-text">${v.front}</div>
+                    <div class="vocab-flip-hint">&#128070; Tap to reveal answer</div>
+                </div>
+                <div class="vocab-back">
+                    <div class="vocab-answer">${v.back}</div>
+                    <div class="vocab-example">&#128221; ${v.ex}</div>
+                </div>
+            </div>`;
+        card.addEventListener('click', () => {
+            const inner = document.getElementById(`vcard-${idx}`);
+            inner.classList.toggle('flipped');
+        });
+        container.appendChild(card);
+    });
+}
+
+function initVocabFilters() {
+    document.querySelectorAll('[data-vocab-cat]').forEach(pill => {
+        pill.addEventListener('click', () => {
+            activeVocabCat = pill.dataset.vocabCat;
+            document.querySelectorAll('[data-vocab-cat]').forEach(p => p.classList.remove('active'));
+            pill.classList.add('active');
+            renderVocabCards();
+        });
+    });
+}
+
+// Wire NCERT + Vocab to nav tab clicks
+document.addEventListener('DOMContentLoaded', () => {
+    setTimeout(() => {
+        initNCERTFilters();
+        initVocabFilters();
+        document.querySelectorAll('.nav-item').forEach(btn => {
+            btn.addEventListener('click', () => {
+                if (btn.dataset.tab === 'ncert') renderNCERTVault();
+                if (btn.dataset.tab === 'vocab') renderVocabCards();
+            });
+        });
+    }, 700);
+});
+
+
+
+// ═══════════════════════════════════════════════════════════
+//  ENHANCEMENT PACK — Sound Engine, Confetti, Analytics, KaTeX, IndexedDB
+// ═══════════════════════════════════════════════════════════
+
+// ───────────────────────────────────────────────────────────
+// 1. SOUND ENGINE (Web Audio API — no external dependency)
+// ───────────────────────────────────────────────────────────
+let soundEnabled = true;
+let audioCtx = null;
+
+function getAudioCtx() {
+    if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    return audioCtx;
+}
+
+function playTone(freq, type, duration, volume = 0.3, delay = 0) {
+    if (!soundEnabled) return;
+    try {
+        const ctx = getAudioCtx();
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.type = type;
+        osc.frequency.setValueAtTime(freq, ctx.currentTime + delay);
+        gain.gain.setValueAtTime(volume, ctx.currentTime + delay);
+        gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + delay + duration);
+        osc.start(ctx.currentTime + delay);
+        osc.stop(ctx.currentTime + delay + duration);
+    } catch(e) {}
+}
+
+const SFX = {
+    correct() {
+        playTone(523, 'sine', 0.12, 0.25);       // C5
+        playTone(659, 'sine', 0.12, 0.25, 0.12); // E5
+        playTone(784, 'sine', 0.18, 0.25, 0.24); // G5
+    },
+    wrong() {
+        playTone(220, 'sawtooth', 0.15, 0.2);
+        playTone(180, 'sawtooth', 0.2, 0.2, 0.15);
+    },
+    timerWarning() {
+        playTone(880, 'square', 0.08, 0.15);
+        playTone(880, 'square', 0.08, 0.15, 0.2);
+    },
+    victory() {
+        const melody = [523, 659, 784, 1047];
+        melody.forEach((f, i) => playTone(f, 'sine', 0.2, 0.3, i * 0.15));
+    },
+    fail() {
+        playTone(350, 'sawtooth', 0.2, 0.25);
+        playTone(280, 'sawtooth', 0.3, 0.25, 0.2);
+    },
+    click() {
+        playTone(600, 'sine', 0.05, 0.1);
+    }
+};
+
+function toggleSound() {
+    soundEnabled = !soundEnabled;
+    const btn = document.getElementById('sound-toggle-btn');
+    if (btn) btn.textContent = soundEnabled ? '🔊' : '🔇';
+    SFX.click();
+}
+
+// Hook sounds into quiz answer selection
+const _origSelectOption = window.selectOption;
+// We'll patch after DOMContentLoaded
+
+// ───────────────────────────────────────────────────────────
+// 2. CONFETTI ENGINE
+// ───────────────────────────────────────────────────────────
+function launchConfetti(duration = 3000) {
+    const canvas = document.getElementById('confetti-canvas');
+    if (!canvas) return;
+    canvas.style.display = 'block';
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    const ctx = canvas.getContext('2d');
+
+    const particles = [];
+    const colors = ['#7c3aed', '#a78bfa', '#f59e0b', '#fbbf24', '#10b981', '#3b82f6', '#ec4899', '#f97316'];
+
+    for (let i = 0; i < 120; i++) {
+        particles.push({
+            x: Math.random() * canvas.width,
+            y: -10 - Math.random() * 100,
+            vx: (Math.random() - 0.5) * 6,
+            vy: Math.random() * 4 + 2,
+            size: Math.random() * 8 + 4,
+            color: colors[Math.floor(Math.random() * colors.length)],
+            rotation: Math.random() * 360,
+            rotSpeed: (Math.random() - 0.5) * 10,
+            opacity: 1
+        });
+    }
+
+    const startTime = Date.now();
+
+    function render() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        const elapsed = Date.now() - startTime;
+        const fadeStart = duration * 0.7;
+
+        particles.forEach(p => {
+            p.x += p.vx;
+            p.y += p.vy;
+            p.vy += 0.1; // gravity
+            p.rotation += p.rotSpeed;
+            if (elapsed > fadeStart) {
+                p.opacity = Math.max(0, 1 - (elapsed - fadeStart) / (duration * 0.3));
+            }
+
+            ctx.save();
+            ctx.globalAlpha = p.opacity;
+            ctx.translate(p.x, p.y);
+            ctx.rotate((p.rotation * Math.PI) / 180);
+            ctx.fillStyle = p.color;
+            ctx.fillRect(-p.size / 2, -p.size / 2, p.size, p.size * 0.5);
+            ctx.restore();
+        });
+
+        if (elapsed < duration) {
+            requestAnimationFrame(render);
+        } else {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            canvas.style.display = 'none';
+        }
+    }
+    render();
+}
+
+// ───────────────────────────────────────────────────────────
+// 3. INDEXEDDB — Detailed Quiz Telemetry
+// ───────────────────────────────────────────────────────────
+const IDB_NAME = 'SSCCGLPrepDB';
+const IDB_VERSION = 1;
+let idb = null;
+
+function initIndexedDB() {
+    return new Promise((resolve, reject) => {
+        const request = indexedDB.open(IDB_NAME, IDB_VERSION);
+        request.onupgradeneeded = (e) => {
+            const db = e.target.result;
+            if (!db.objectStoreNames.contains('quiz_attempts')) {
+                const store = db.createObjectStore('quiz_attempts', { keyPath: 'id', autoIncrement: true });
+                store.createIndex('date', 'date', { unique: false });
+                store.createIndex('category', 'category', { unique: false });
+                store.createIndex('subject', 'subject', { unique: false });
+            }
+        };
+        request.onsuccess = () => { idb = request.result; resolve(idb); };
+        request.onerror = () => reject(request.error);
+    });
+}
+
+function saveQuizAttemptIDB(attempt) {
+    if (!idb) return;
+    const tx = idb.transaction('quiz_attempts', 'readwrite');
+    tx.objectStore('quiz_attempts').add(attempt);
+}
+
+function getAllAttemptsIDB() {
+    return new Promise((resolve) => {
+        if (!idb) { resolve([]); return; }
+        const tx = idb.transaction('quiz_attempts', 'readonly');
+        const req = tx.objectStore('quiz_attempts').getAll();
+        req.onsuccess = () => resolve(req.result || []);
+        req.onerror = () => resolve([]);
+    });
+}
+
+// ───────────────────────────────────────────────────────────
+// 4. KATEX RENDERER — Auto-render math in questions
+// ───────────────────────────────────────────────────────────
+function renderMathInElement(el) {
+    if (!el || typeof renderMathInElement_KaTeX === 'undefined') return;
+    try {
+        renderMathInElement_KaTeX(el, {
+            delimiters: [
+                { left: '$$', right: '$$', display: true },
+                { left: '$', right: '$', display: false },
+                { left: '\\(', right: '\\)', display: false },
+                { left: '\\[', right: '\\]', display: true }
+            ],
+            throwOnError: false
+        });
+    } catch(e) {}
+}
+
+// Alias the KaTeX auto-render function
+window.addEventListener('load', () => {
+    if (window.renderMathInElement) {
+        window.renderMathInElement_KaTeX = window.renderMathInElement;
+    }
+});
+
+// ───────────────────────────────────────────────────────────
+// 5. ANALYTICS — Radar + Scatter + Topic Table
+// ───────────────────────────────────────────────────────────
+async function renderAnalyticsTab() {
+    // Summary stats from appState
+    const history = appState.quizHistory || [];
+    const totalAttempted = appState.solvedCount || 0;
+    const totalCorrect = appState.correctCount || 0;
+    const accuracy = totalAttempted > 0 ? Math.round((totalCorrect / totalAttempted) * 100) : 0;
+    const bestScore = history.length > 0 ? Math.max(...history.map(h => h.pct)) : 0;
+
+    document.getElementById('ast-total-attempted').textContent = totalAttempted;
+    document.getElementById('ast-overall-accuracy').textContent = accuracy + '%';
+    document.getElementById('ast-quizzes-taken').textContent = history.length;
+    document.getElementById('ast-best-score').textContent = bestScore + '%';
+
+    // Get detailed attempts from IDB
+    const attempts = await getAllAttemptsIDB();
+
+    // Build topic accuracy map
+    const topicMap = {}; // topic -> { correct, total }
+    attempts.forEach(attempt => {
+        if (!attempt.questions) return;
+        attempt.questions.forEach((q, i) => {
+            const topic = q.topic || 'general';
+            if (!topicMap[topic]) topicMap[topic] = { correct: 0, total: 0 };
+            topicMap[topic].total++;
+            if (attempt.userAnswers && attempt.userAnswers[i] === q.answer) {
+                topicMap[topic].correct++;
+            }
+        });
+    });
+
+    drawRadarChart(topicMap);
+    drawScatterChart(attempts);
+    renderTopicTable(topicMap);
+}
+
+function drawRadarChart(topicMap) {
+    const canvas = document.getElementById('radar-chart');
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+    const W = canvas.width, H = canvas.height;
+    const cx = W / 2, cy = H / 2;
+    const R = Math.min(W, H) * 0.38;
+
+    ctx.clearRect(0, 0, W, H);
+
+    const topics = Object.keys(topicMap).slice(0, 8); // max 8 axes
+    if (topics.length < 3) {
+        ctx.fillStyle = '#a78bfa';
+        ctx.font = '14px Inter';
+        ctx.textAlign = 'center';
+        ctx.fillText('Complete more quizzes to', cx, cy - 10);
+        ctx.fillText('see your radar chart!', cx, cy + 14);
+        return;
+    }
+
+    const n = topics.length;
+    const angleStep = (Math.PI * 2) / n;
+
+    // Draw background rings
+    [0.2, 0.4, 0.6, 0.8, 1.0].forEach(scale => {
+        ctx.beginPath();
+        for (let i = 0; i < n; i++) {
+            const angle = i * angleStep - Math.PI / 2;
+            const x = cx + R * scale * Math.cos(angle);
+            const y = cy + R * scale * Math.sin(angle);
+            i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+        }
+        ctx.closePath();
+        ctx.strokeStyle = 'rgba(124,58,237,0.2)';
+        ctx.lineWidth = 1;
+        ctx.stroke();
+    });
+
+    // Draw axis lines
+    topics.forEach((_, i) => {
+        const angle = i * angleStep - Math.PI / 2;
+        ctx.beginPath();
+        ctx.moveTo(cx, cy);
+        ctx.lineTo(cx + R * Math.cos(angle), cy + R * Math.sin(angle));
+        ctx.strokeStyle = 'rgba(124,58,237,0.3)';
+        ctx.lineWidth = 1;
+        ctx.stroke();
+    });
+
+    // Draw data polygon
+    ctx.beginPath();
+    topics.forEach((topic, i) => {
+        const data = topicMap[topic];
+        const pct = data.total > 0 ? data.correct / data.total : 0;
+        const angle = i * angleStep - Math.PI / 2;
+        const x = cx + R * pct * Math.cos(angle);
+        const y = cy + R * pct * Math.sin(angle);
+        i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+    });
+    ctx.closePath();
+    ctx.fillStyle = 'rgba(124,58,237,0.25)';
+    ctx.fill();
+    ctx.strokeStyle = '#a78bfa';
+    ctx.lineWidth = 2;
+    ctx.stroke();
+
+    // Draw data points
+    topics.forEach((topic, i) => {
+        const data = topicMap[topic];
+        const pct = data.total > 0 ? data.correct / data.total : 0;
+        const angle = i * angleStep - Math.PI / 2;
+        const x = cx + R * pct * Math.cos(angle);
+        const y = cy + R * pct * Math.sin(angle);
+        ctx.beginPath();
+        ctx.arc(x, y, 4, 0, Math.PI * 2);
+        ctx.fillStyle = '#f59e0b';
+        ctx.fill();
+    });
+
+    // Draw topic labels
+    ctx.font = '11px Inter';
+    ctx.fillStyle = '#e2e8f0';
+    ctx.textAlign = 'center';
+    topics.forEach((topic, i) => {
+        const angle = i * angleStep - Math.PI / 2;
+        const labelR = R + 22;
+        const x = cx + labelR * Math.cos(angle);
+        const y = cy + labelR * Math.sin(angle);
+        const label = (TOPIC_LABELS[topic] || topic).replace(/[📊⚖️🏛️🌏💹🔬📰🎭🌿🌍📚✏️📖💬🔧🧩📝🔗🔢💻👨‍👩‍👧🦭➕🔵📄💭🧩🧠⏱️🚂🏦🔣📐📏📈🧪💰] /g, '').slice(0, 12);
+        ctx.fillText(label, x, y + 4);
+    });
+}
+
+function drawScatterChart(attempts) {
+    const canvas = document.getElementById('scatter-chart');
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+    const W = canvas.width, H = canvas.height;
+    const PAD = 40;
+
+    ctx.clearRect(0, 0, W, H);
+
+    // Collect all question data points
+    const points = [];
+    const avgTimeSecs = 48; // 20 min / 25 questions
+
+    attempts.forEach(attempt => {
+        if (!attempt.questions || !attempt.questionTimes) return;
+        attempt.questions.forEach((q, i) => {
+            const timeSecs = attempt.questionTimes[i] || 0;
+            const isCorrect = attempt.userAnswers && attempt.userAnswers[i] === q.answer;
+            if (timeSecs > 0) points.push({ t: timeSecs, correct: isCorrect });
+        });
+    });
+
+    // Draw axes
+    ctx.strokeStyle = 'rgba(167,139,250,0.4)';
+    ctx.lineWidth = 1;
+    // X axis
+    ctx.beginPath();
+    ctx.moveTo(PAD, H - PAD);
+    ctx.lineTo(W - PAD, H - PAD);
+    ctx.stroke();
+    // Y axis
+    ctx.beginPath();
+    ctx.moveTo(PAD, PAD);
+    ctx.lineTo(PAD, H - PAD);
+    ctx.stroke();
+
+    // Midpoint lines
+    const midX = (PAD + W - PAD) / 2;
+    const midY = (PAD + H - PAD) / 2;
+    ctx.strokeStyle = 'rgba(167,139,250,0.2)';
+    ctx.setLineDash([4, 4]);
+    ctx.beginPath(); ctx.moveTo(midX, PAD); ctx.lineTo(midX, H - PAD); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(PAD, midY); ctx.lineTo(W - PAD, midY); ctx.stroke();
+    ctx.setLineDash([]);
+
+    // Quadrant labels
+    ctx.font = '10px Inter';
+    ctx.fillStyle = 'rgba(255,255,255,0.3)';
+    ctx.textAlign = 'center';
+    ctx.fillText('Fast & Accurate', (PAD + midX) / 2, PAD + 12);
+    ctx.fillText('Time Sink', (midX + W - PAD) / 2, PAD + 12);
+    ctx.fillText('Blind Guess', (PAD + midX) / 2, H - PAD - 4);
+    ctx.fillText('Hard Miss', (midX + W - PAD) / 2, H - PAD - 4);
+
+    // Axis labels
+    ctx.fillStyle = 'rgba(167,139,250,0.7)';
+    ctx.fillText('Time →', W - PAD, H - PAD + 16);
+
+    if (points.length === 0) {
+        ctx.fillStyle = '#a78bfa';
+        ctx.font = '13px Inter';
+        ctx.fillText('No detailed data yet.', W / 2, H / 2 - 8);
+        ctx.fillText('Data collects as you take quizzes.', W / 2, H / 2 + 12);
+        return;
+    }
+
+    // Scale: max time = 120s
+    const maxT = Math.min(120, Math.max(...points.map(p => p.t)));
+    const chartW = W - 2 * PAD;
+    const chartH = H - 2 * PAD;
+
+    const COLORS = {
+        fastAccurate: '#10b981',
+        timeSink: '#3b82f6',
+        blindGuess: '#f59e0b',
+        hardMiss: '#ef4444'
+    };
+
+    points.forEach(p => {
+        const x = PAD + Math.min(1, p.t / maxT) * chartW;
+        // Y: correct = top half, wrong = bottom half + jitter
+        const baseY = p.correct ? PAD + chartH * 0.25 : PAD + chartH * 0.75;
+        const y = baseY + (Math.random() - 0.5) * chartH * 0.2;
+
+        // Determine quadrant color
+        const isFast = p.t < avgTimeSecs;
+        let color;
+        if (p.correct && isFast) color = COLORS.fastAccurate;
+        else if (p.correct && !isFast) color = COLORS.timeSink;
+        else if (!p.correct && isFast) color = COLORS.blindGuess;
+        else color = COLORS.hardMiss;
+
+        ctx.beginPath();
+        ctx.arc(x, y, 3.5, 0, Math.PI * 2);
+        ctx.fillStyle = color;
+        ctx.globalAlpha = 0.75;
+        ctx.fill();
+        ctx.globalAlpha = 1;
+    });
+}
+
+function renderTopicTable(topicMap) {
+    const container = document.getElementById('topic-breakdown-table');
+    if (!container) return;
+
+    const rows = Object.entries(topicMap)
+        .map(([topic, data]) => ({
+            topic,
+            label: (TOPIC_LABELS[topic] || topic).replace(/[\u{1F000}-\u{1FFFF}]/gu, '').trim(),
+            correct: data.correct,
+            total: data.total,
+            pct: data.total > 0 ? Math.round((data.correct / data.total) * 100) : 0
+        }))
+        .sort((a, b) => b.pct - a.pct);
+
+    if (rows.length === 0) {
+        container.innerHTML = `<p style="color:var(--text-muted); text-align:center; padding:20px;">Complete some quizzes to see your topic breakdown here!</p>`;
+        return;
+    }
+
+    container.innerHTML = `
+        <table style="width:100%; border-collapse:collapse; font-size:0.88rem;">
+            <thead>
+                <tr style="color:var(--text-muted); border-bottom: 1px solid var(--border-card);">
+                    <th style="text-align:left; padding:8px 4px;">Topic</th>
+                    <th style="text-align:center; padding:8px 4px;">Score</th>
+                    <th style="text-align:left; padding:8px 4px; min-width:100px;">Accuracy</th>
+                </tr>
+            </thead>
+            <tbody>
+                ${rows.map(r => `
+                    <tr style="border-bottom: 1px solid rgba(255,255,255,0.04);">
+                        <td style="padding:8px 4px; color:var(--text-primary);">${r.label}</td>
+                        <td style="text-align:center; padding:8px 4px; color:var(--text-muted);">${r.correct}/${r.total}</td>
+                        <td style="padding:8px 4px;">
+                            <div style="display:flex; align-items:center; gap:8px;">
+                                <div style="flex:1; height:6px; background:rgba(255,255,255,0.08); border-radius:3px;">
+                                    <div style="width:${r.pct}%; height:100%; background:${r.pct >= 70 ? '#10b981' : r.pct >= 40 ? '#f59e0b' : '#ef4444'}; border-radius:3px;"></div>
+                                </div>
+                                <span style="color:${r.pct >= 70 ? '#10b981' : r.pct >= 40 ? '#f59e0b' : '#ef4444'}; font-weight:600; min-width:34px;">${r.pct}%</span>
+                            </div>
+                        </td>
+                    </tr>
+                `).join('')}
+            </tbody>
+        </table>
+    `;
+}
+
+// ───────────────────────────────────────────────────────────
+// 6. HOOK INTO finishQuiz — Add sounds, confetti, IDB save
+// ───────────────────────────────────────────────────────────
+const _origFinishQuiz = window.finishQuiz;
+// We'll monkey-patch in DOMContentLoaded
+
+function patchFinishQuiz() {
+    const originalFinish = finishQuiz;
+    window.finishQuiz = function() {
+        originalFinish();
+
+        // Re-read score from DOM (already rendered by originalFinish)
+        const pctText = document.getElementById('result-accuracy-pct')?.innerText || '0%';
+        const pct = parseInt(pctText);
+
+        if (pct >= 60) {
+            SFX.victory();
+            setTimeout(() => launchConfetti(4000), 300);
+        } else {
+            SFX.fail();
+        }
+
+        // Save detailed attempt to IDB
+        saveQuizAttemptIDB({
+            date: new Date().toISOString(),
+            category: activeQuiz.category,
+            subject: activeQuiz.questions[0]?.subject || 'maths',
+            score: activeQuiz.score,
+            total: activeQuiz.questions.length,
+            pct: pct,
+            questions: activeQuiz.questions,
+            userAnswers: [...activeQuiz.userAnswers],
+            questionTimes: activeQuiz.questionTimes ? [...activeQuiz.questionTimes] : []
+        });
+    };
+}
+
+// ───────────────────────────────────────────────────────────
+// 7. PATCH selectOption for sound feedback
+// ───────────────────────────────────────────────────────────
+function patchSelectOption() {
+    const origSelect = window.selectOption;
+    if (!origSelect) return;
+    window.selectOption = function(index) {
+        origSelect(index);
+        // Play sound based on correctness
+        const q = activeQuiz.questions[activeQuiz.currentIndex];
+        if (q) {
+            if (index === q.answer) {
+                SFX.correct();
+            } else {
+                SFX.wrong();
+            }
+        }
+    };
+}
+
+// ───────────────────────────────────────────────────────────
+// 8. PATCH renderQuestion for KaTeX rendering
+// ───────────────────────────────────────────────────────────
+function patchRenderQuestion() {
+    const origRender = window.renderQuestion;
+    if (!origRender) return;
+    window.renderQuestion = function() {
+        origRender();
+        // Auto-render KaTeX in the question and options
+        const qEl = document.getElementById('quiz-question-text');
+        const optsEl = document.getElementById('quiz-options-container');
+        if (qEl && typeof renderMathInElement_KaTeX === 'function') {
+            renderMathInElement_KaTeX(qEl, { delimiters: [{ left: '$', right: '$', display: false }], throwOnError: false });
+            if (optsEl) renderMathInElement_KaTeX(optsEl, { delimiters: [{ left: '$', right: '$', display: false }], throwOnError: false });
+        }
+    };
+}
+
+// ───────────────────────────────────────────────────────────
+// 9. INIT on DOMContentLoaded
+// ───────────────────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded', () => {
+    // Init IndexedDB
+    initIndexedDB().catch(() => {});
+
+    // Patch functions after DOM + app.js is ready
+    setTimeout(() => {
+        patchFinishQuiz();
+        patchSelectOption();
+        patchRenderQuestion();
+    }, 500);
+
+    // Wire Analytics tab
+    document.querySelectorAll('.nav-item').forEach(btn => {
+        btn.addEventListener('click', () => {
+            if (btn.dataset.tab === 'analytics') {
+                renderAnalyticsTab();
+            }
+        });
+    });
+});
+
+// ───────────────────────────────────────────────────────────
+// 10. EDUQUITY (TCS iON) INTERFACE LOGIC
+// ───────────────────────────────────────────────────────────
+
+// Extend activeQuiz state
+// status: 0=Not Visited, 1=Not Answered, 2=Answered, 3=Marked, 4=Ans+Marked
+const STATUS_NOT_VISITED = 0;
+const STATUS_NOT_ANSWERED = 1;
+const STATUS_ANSWERED = 2;
+const STATUS_MARKED = 3;
+const STATUS_ANS_MARKED = 4;
+
+function initEduqityState() {
+    activeQuiz.qStatus = new Array(activeQuiz.questions.length).fill(STATUS_NOT_VISITED);
+    activeQuiz.qStatus[0] = STATUS_NOT_ANSWERED; // First question visited immediately
+    renderEduqityPalette();
+}
+
+function renderEduqityPalette() {
+    const grid = document.getElementById('question-palette-grid');
+    if (!grid) return;
+    
+    grid.innerHTML = '';
+    let counts = [0, 0, 0, 0, 0];
+    
+    activeQuiz.qStatus.forEach((status, idx) => {
+        counts[status]++;
+        const btn = document.createElement('div');
+        btn.className = 'badge q-badge';
+        btn.innerText = idx + 1;
+        
+        if (status === STATUS_NOT_VISITED) btn.classList.add('badge-not-visited');
+        else if (status === STATUS_NOT_ANSWERED) btn.classList.add('badge-not-answered');
+        else if (status === STATUS_ANSWERED) btn.classList.add('badge-answered');
+        else if (status === STATUS_MARKED) btn.classList.add('badge-marked');
+        else if (status === STATUS_ANS_MARKED) btn.classList.add('badge-ans-marked');
+        
+        // Highlight current question
+        if (idx === activeQuiz.currentIndex) {
+            btn.style.boxShadow = '0 0 0 2px white, 0 0 0 4px #3b82f6';
+        }
+        
+        btn.onclick = () => {
+            jumpToQuestion(idx);
+        };
+        grid.appendChild(btn);
+    });
+    
+    document.getElementById('count-not-visited').innerText = counts[STATUS_NOT_VISITED];
+    document.getElementById('count-not-answered').innerText = counts[STATUS_NOT_ANSWERED];
+    document.getElementById('count-answered').innerText = counts[STATUS_ANSWERED];
+    document.getElementById('count-marked').innerText = counts[STATUS_MARKED];
+    document.getElementById('count-ans-marked').innerText = counts[STATUS_ANS_MARKED];
+}
+
+function jumpToQuestion(index) {
+    // Save current state if navigating away without explicit save
+    // TCS iON generally preserves selected radio buttons if you just click away, 
+    // but the status depends on if it was explicitly "Saved". 
+    // We'll keep it simple: if they selected something but didn't click save, 
+    // it stays as "Not Answered" but retains the radio selection in memory, 
+    // or we can auto-save. Standard is NOT to auto-save.
+    // Actually, in TCS, if you click another number, your current choice is NOT saved unless you hit Save & Next.
+    
+    // For simplicity, we just navigate.
+    activeQuiz.currentIndex = index;
+    if (activeQuiz.qStatus[index] === STATUS_NOT_VISITED) {
+        activeQuiz.qStatus[index] = STATUS_NOT_ANSWERED;
+    }
+    loadQuestion();
+    renderEduqityPalette();
+}
+
+function handleSaveAndNext() {
+    const idx = activeQuiz.currentIndex;
+    if (activeQuiz.userAnswers[idx] !== null) {
+        activeQuiz.qStatus[idx] = STATUS_ANSWERED;
+    } else {
+        activeQuiz.qStatus[idx] = STATUS_NOT_ANSWERED;
+    }
+    
+    if (idx < activeQuiz.questions.length - 1) {
+        jumpToQuestion(idx + 1);
+    } else {
+        renderEduqityPalette();
+    }
+}
+
+function handleMarkAndNext() {
+    const idx = activeQuiz.currentIndex;
+    if (activeQuiz.userAnswers[idx] !== null) {
+        activeQuiz.qStatus[idx] = STATUS_ANS_MARKED;
+    } else {
+        activeQuiz.qStatus[idx] = STATUS_MARKED;
+    }
+    
+    if (idx < activeQuiz.questions.length - 1) {
+        jumpToQuestion(idx + 1);
+    } else {
+        renderEduqityPalette();
+    }
+}
+
+function handleClearResponse() {
+    const idx = activeQuiz.currentIndex;
+    activeQuiz.userAnswers[idx] = null;
+    activeQuiz.qStatus[idx] = STATUS_NOT_ANSWERED;
+    
+    // Deselect radio buttons in UI
+    document.querySelectorAll('input[name="quiz-option"]').forEach(r => r.checked = false);
+    document.querySelectorAll('.option-label').forEach(el => el.classList.remove('selected'));
+    
+    renderEduqityPalette();
+}
+
+// Hook into existing startQuiz to init palette
+const _origStartQuizByShift = window.startQuizByShift;
+if (_origStartQuizByShift) {
+    window.startQuizByShift = function(y, s) {
+        _origStartQuizByShift(y, s);
+        initEduqityState();
+        
+        // Hide solution container during actual exam mode
+        const solContainer = document.getElementById('quiz-solution-container');
+        if (solContainer) solContainer.style.display = 'none';
+    };
+}
+
+// Hook into loadQuestion to update Question Num display
+const _origLoadQuestion = window.loadQuestion;
+if (_origLoadQuestion) {
+    window.loadQuestion = function() {
+        _origLoadQuestion();
+        document.getElementById('quiz-current-num').innerText = activeQuiz.currentIndex + 1;
+        renderEduqityPalette(); // Ensure highlight updates
+    };
+}
+
+// Hook buttons on DOM load
+document.addEventListener('DOMContentLoaded', () => {
+    setTimeout(() => {
+        document.getElementById('btn-save-next')?.addEventListener('click', handleSaveAndNext);
+        document.getElementById('btn-mark-review')?.addEventListener('click', handleMarkAndNext);
+        document.getElementById('btn-clear-response')?.addEventListener('click', handleClearResponse);
+        document.getElementById('btn-submit-exam')?.addEventListener('click', () => {
+            if (confirm('Are you sure you want to submit the exam?')) {
+                finishQuiz();
+            }
+        });
+    }, 1000);
+});
 
 </script>
 </body>

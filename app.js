@@ -822,11 +822,77 @@ function setupQuizListeners() {
     });
 }
 
+function startFullMock() {
+    let reasoning = QUESTIONS_DB.filter(q => q.subject === 'reasoning').sort(() => 0.5 - Math.random()).slice(0, 25);
+    let gk = QUESTIONS_DB.filter(q => q.subject === 'gk').sort(() => 0.5 - Math.random()).slice(0, 25);
+    let maths = QUESTIONS_DB.filter(q => q.subject === 'maths' || !q.subject).sort(() => 0.5 - Math.random()).slice(0, 25);
+    let english = QUESTIONS_DB.filter(q => q.subject === 'english').sort(() => 0.5 - Math.random()).slice(0, 25);
+
+    let pool = [...reasoning, ...gk, ...maths, ...english];
+
+    if (pool.length < 100) {
+        // Fallback: If any subject has fewer than 25, just pad with whatever we have so it hits 100 if possible
+        pool = QUESTIONS_DB.sort(() => 0.5 - Math.random()).slice(0, 100);
+    }
+
+    activeQuiz.category = `full_mock_60_mins`;
+    activeQuiz.isFullMock = true;
+    activeQuiz.questions = pool;
+    activeQuiz.currentIndex = 0;
+    activeQuiz.score = 0;
+    activeQuiz.secondsElapsed = 0;
+    activeQuiz.userAnswers = new Array(pool.length).fill(null);
+    activeQuiz.isReviewMode = false;
+
+    // Switch Screens
+    document.getElementById("quiz-select-screen").classList.add("hidden");
+    document.getElementById("quiz-results-screen").classList.add("hidden");
+    document.getElementById("quiz-active-screen").classList.remove("hidden");
+
+    // Start Timer (60 minutes)
+    activeQuiz.totalSecondsRemaining = 60 * 60;
+    activeQuiz.questionSecondsElapsed = 0;
+    document.getElementById("quiz-timer-display").innerText = "60:00";
+    if (document.getElementById("quiz-question-timer-display")) {
+        document.getElementById("quiz-question-timer-display").innerText = "00:00";
+    }
+    clearInterval(activeQuiz.timer);
+    activeQuiz.timer = setInterval(() => {
+        activeQuiz.secondsElapsed++;
+        activeQuiz.questionSecondsElapsed++;
+        if (activeQuiz.totalSecondsRemaining > 0) {
+            activeQuiz.totalSecondsRemaining--;
+            let m = Math.floor(activeQuiz.totalSecondsRemaining / 60);
+            let s = activeQuiz.totalSecondsRemaining % 60;
+            document.getElementById("quiz-timer-display").innerText = `${m < 10 ? '0' : ''}${m}:${s < 10 ? '0' : ''}${s}`;
+
+            let qm = Math.floor(activeQuiz.questionSecondsElapsed / 60);
+            let qs = activeQuiz.questionSecondsElapsed % 60;
+            if (document.getElementById("quiz-question-timer-display")) {
+                document.getElementById("quiz-question-timer-display").innerText = `${qm < 10 ? '0' : ''}${qm}:${qs < 10 ? '0' : ''}${qs}`;
+            }
+        } else {
+            finishQuiz();
+        }
+    }, 1000);
+
+    // Initial Render
+    if (typeof initEduqityState === 'function') {
+        initEduqityState();
+    } else {
+        renderQuestion();
+    }
+}
+
+
 function finishQuiz() {
     clearInterval(activeQuiz.timer);
 
     // Calculate Score
     activeQuiz.score = 0;
+    let fullMockScore = 0;
+    let totalQuestions = activeQuiz.questions.length;
+
     activeQuiz.questions.forEach((q, idx) => {
         const userAnswer = activeQuiz.userAnswers[idx];
         if (userAnswer !== null) {
@@ -834,18 +900,25 @@ function finishQuiz() {
             if (userAnswer === q.answer) {
                 activeQuiz.score++;
                 appState.correctCount++;
+                if (activeQuiz.isFullMock) fullMockScore += 2;
+            } else {
+                if (activeQuiz.isFullMock) fullMockScore -= 0.5;
             }
         }
     });
 
+    const finalScore = activeQuiz.isFullMock ? fullMockScore : activeQuiz.score;
+    const maxScore = activeQuiz.isFullMock ? totalQuestions * 2 : totalQuestions;
+
     // --- SAVE TO HISTORY ---
-    const totalTimeTaken = (20 * 60) - activeQuiz.totalSecondsRemaining;
-    const pct = Math.round((activeQuiz.score / activeQuiz.questions.length) * 100);
+    const totalTimeLimit = activeQuiz.isFullMock ? (60 * 60) : (20 * 60);
+    const totalTimeTaken = totalTimeLimit - activeQuiz.totalSecondsRemaining;
+    const pct = Math.round((activeQuiz.score / totalQuestions) * 100); // Raw accuracy %
     const historyEntry = {
         date: new Date().toISOString(),
         label: activeQuiz.category.replace(/_/g, ' '),
-        score: activeQuiz.score,
-        total: activeQuiz.questions.length,
+        score: finalScore,
+        total: maxScore,
         pct: pct,
         timeSecs: totalTimeTaken
     };
@@ -883,7 +956,7 @@ function finishQuiz() {
 
     // Render metrics
     const scoreVal = document.getElementById("result-score-value");
-    scoreVal.innerText = `${activeQuiz.score} / ${activeQuiz.questions.length}`;
+    scoreVal.innerText = `${finalScore} / ${maxScore}`;
 
     // Timer formatted
     const mins = Math.floor(totalTimeTaken / 60);
@@ -893,12 +966,38 @@ function finishQuiz() {
 
     // Feedback copy
     const feedback = document.getElementById("result-feedback-message");
-    if (pct >= 80) {
-        feedback.innerText = "🔥 Fantastic! You scored well above CGL expectations. Focus on speed now!";
-    } else if (pct >= 60) {
-        feedback.innerText = "👍 Good job! You've passed CGL sectional expectations, but practicing shortcuts will build speed.";
+    if (activeQuiz.isFullMock) {
+        if (finalScore >= 130) {
+            feedback.innerText = "🔥 Outstanding! You're in the safe zone for CGL Tier-I clearance.";
+        } else if (finalScore >= 100) {
+            feedback.innerText = "👍 Good! Borderline clearance. Focus on improving accuracy in your weak subjects.";
+        } else {
+            feedback.innerText = "📚 Keep practicing! You need to push your score above 130+ to be safe.";
+        }
     } else {
-        feedback.innerText = "📚 Keep practicing! Review the formulas and shortcuts in the solution breakdown.";
+        if (pct >= 80) {
+            feedback.innerText = "🔥 Fantastic! You scored well above CGL expectations. Focus on speed now!";
+        } else if (pct >= 60) {
+            feedback.innerText = "👍 Good job! You've passed CGL sectional expectations, but practicing shortcuts will build speed.";
+        } else {
+            feedback.innerText = "📚 Keep practicing! Review the formulas and shortcuts in the solution breakdown.";
+        }
+    }
+
+    const breakdownEl = document.getElementById("result-subject-breakdown");
+    if (activeQuiz.isFullMock && breakdownEl) {
+        breakdownEl.style.display = 'block';
+        breakdownEl.innerHTML = `
+            <h4 style="margin-bottom:12px; font-size:0.95rem; color:var(--text-primary); border-bottom:1px solid rgba(255,255,255,0.1); padding-bottom:8px;">Subject-wise Breakdown</h4>
+            <div style="display:grid; grid-template-columns: 1fr 1fr; gap:10px; font-size:0.85rem; color:var(--text-secondary);">
+                <div><strong>Maths:</strong> ${subjectStats['maths'].score} / 50 <br><span style="font-size:0.75rem; color:var(--text-muted);">(${subjectStats['maths'].correct}✅ ${subjectStats['maths'].wrong}❌)</span></div>
+                <div><strong>Reasoning:</strong> ${subjectStats['reasoning'].score} / 50 <br><span style="font-size:0.75rem; color:var(--text-muted);">(${subjectStats['reasoning'].correct}✅ ${subjectStats['reasoning'].wrong}❌)</span></div>
+                <div><strong>English:</strong> ${subjectStats['english'].score} / 50 <br><span style="font-size:0.75rem; color:var(--text-muted);">(${subjectStats['english'].correct}✅ ${subjectStats['english'].wrong}❌)</span></div>
+                <div><strong>GK:</strong> ${subjectStats['gk'].score} / 50 <br><span style="font-size:0.75rem; color:var(--text-muted);">(${subjectStats['gk'].correct}✅ ${subjectStats['gk'].wrong}❌)</span></div>
+            </div>
+        `;
+    } else if (breakdownEl) {
+        breakdownEl.style.display = 'none';
     }
 
     // Show personal best badge if it's the highest score ever
@@ -1140,6 +1239,26 @@ function generateDrillQuestion() {
         while (options.length < 4) {
             const randomP = list[Math.floor(Math.random() * list.length)].p;
             if (!options.includes(randomP)) options.push(randomP);
+        }
+
+    } else if (trainerState.mode === "triplets") {
+        const triplets = [
+            [3, 4, 5], [5, 12, 13], [7, 24, 25], [8, 15, 17],
+            [9, 40, 41], [11, 60, 61], [12, 35, 37], [16, 63, 65], [20, 21, 29]
+        ];
+        const t = triplets[Math.floor(Math.random() * triplets.length)];
+        // Randomly hide one of the three sides
+        const hideIdx = Math.floor(Math.random() * 3);
+        const labels = ['a', 'b', 'c (Hypotenuse)'];
+        const parts = [t[0], t[1], t[2]];
+        correctAnswer = String(parts[hideIdx]);
+        questionText = `Triplet: ${parts.map((v, i) => i === hideIdx ? '?' : v).join(' , ')}  →  Find ${labels[hideIdx]}`;
+
+        options.push(correctAnswer);
+        const allVals = triplets.flat().filter(v => v !== parseInt(correctAnswer));
+        while (options.length < 4) {
+            const pick = String(allVals[Math.floor(Math.random() * allVals.length)]);
+            if (!options.includes(pick)) options.push(pick);
         }
     }
 
@@ -1738,4 +1857,40 @@ function renderEditorialView() {
             }).join("");
         }
     }
+}
+
+// ───────────────────────────────────────────────────────────
+// 12. BACKUP & RESTORE DATA
+// ───────────────────────────────────────────────────────────
+function downloadProgressJSON() {
+    const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(appState, null, 2));
+    const dlAnchorElem = document.createElement('a');
+    dlAnchorElem.setAttribute("href", dataStr);
+    const dateStr = new Date().toISOString().split('T')[0];
+    dlAnchorElem.setAttribute("download", `ssc_cgl_app_backup_${dateStr}.json`);
+    dlAnchorElem.click();
+}
+
+function uploadProgressJSON(event) {
+    const file = event.target.files[0];
+    if (!file) return;
+
+    const reader = new FileReader();
+    reader.onload = function(e) {
+        try {
+            const importedState = JSON.parse(e.target.result);
+            if (importedState && typeof importedState === 'object') {
+                appState = { ...appState, ...importedState };
+                saveState();
+                alert("✅ Backup restored successfully! Refreshing app...");
+                window.location.reload();
+            } else {
+                alert("❌ Invalid backup file format.");
+            }
+        } catch (err) {
+            alert("❌ Failed to read backup file. Make sure it's a valid JSON.");
+            console.error(err);
+        }
+    };
+    reader.readAsText(file);
 }

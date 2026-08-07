@@ -1767,3 +1767,47 @@ body {
 .legend-item.time-sink { color: #3b82f6; }
 .legend-item.blind-guess { color: #f59e0b; }
 .legend-item.hard-miss { color: #ef4444; }
+
+/* ─────────────────────────────────────────────────────────── */
+/* NCERT GA VAULT STYLES                                       */
+/* ─────────────────────────────────────────────────────────── */
+.ncert-filters { display: flex; flex-direction: column; gap: 8px; margin-bottom: 20px; }
+.filter-group { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.filter-label { font-size: 0.85rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+.pill-group { display: flex; flex-wrap: wrap; gap: 8px; }
+.pill { background: var(--bg-card); color: var(--text-secondary); border: 1px solid var(--border-card); padding: 6px 14px; border-radius: 20px; font-size: 0.85rem; cursor: pointer; transition: all 0.2s ease; }
+.pill:hover { background: rgba(255,255,255,0.05); }
+.pill.active { background: var(--primary); color: #fff; border-color: var(--primary); font-weight: 600; box-shadow: 0 0 10px rgba(99, 102, 241, 0.3); }
+
+.ncert-cards-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; }
+.ncert-card { background: var(--bg-card); border: 1px solid var(--border-card); border-radius: 12px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.2s ease; display: flex; flex-direction: column; gap: 12px; }
+.ncert-card:hover { transform: translateY(-3px); box-shadow: 0 8px 15px rgba(0,0,0,0.15); border-color: rgba(255,255,255,0.1); }
+.ncert-card-header { display: flex; align-items: center; gap: 10px; margin-bottom: 4px; }
+.ncert-tag { background: rgba(99, 102, 241, 0.15); color: #818cf8; font-size: 0.75rem; font-weight: 700; padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.5px; }
+.ncert-tag-cls { background: rgba(16, 185, 129, 0.15); color: #34d399; }
+.ncert-question { font-size: 1.05rem; font-weight: 500; color: var(--text-primary); line-height: 1.5; }
+.ncert-options { display: flex; flex-direction: column; gap: 8px; margin-top: 8px; }
+.ncert-opt { display: flex; align-items: flex-start; gap: 10px; padding: 10px 14px; background: rgba(255,255,255,0.03); border: 1px solid var(--border-card); border-radius: 8px; cursor: pointer; transition: all 0.2s ease; }
+.ncert-opt:hover { background: rgba(255,255,255,0.06); }
+.ncert-opt-label { font-weight: 600; color: var(--text-muted); }
+.ncert-opt.ncert-correct { background: rgba(16, 185, 129, 0.1); border-color: #10b981; color: #34d399; }
+.ncert-opt.ncert-correct .ncert-opt-label { color: #34d399; }
+.ncert-opt.ncert-wrong { background: rgba(239, 68, 68, 0.1); border-color: #ef4444; color: #f87171; }
+.ncert-explanation { margin-top: 12px; padding: 12px; background: rgba(0,0,0,0.2); border-left: 3px solid #f59e0b; border-radius: 0 8px 8px 0; font-size: 0.9rem; color: var(--text-secondary); line-height: 1.5; }
+
+/* ─────────────────────────────────────────────────────────── */
+/* 3D VOCAB FLASHCARDS CSS                                     */
+/* ─────────────────────────────────────────────────────────── */
+.vocab-cards-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 24px; padding-top: 10px; }
+.vocab-flip-wrapper { background-color: transparent; height: 200px; perspective: 1000px; cursor: pointer; }
+.vocab-flip-inner { position: relative; width: 100%; height: 100%; text-align: center; transition: transform 0.6s cubic-bezier(0.4, 0.2, 0.2, 1); transform-style: preserve-3d; }
+.vocab-flip-inner.flipped { transform: rotateY(180deg); }
+.vocab-front, .vocab-back { position: absolute; width: 100%; height: 100%; backface-visibility: hidden; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; justify-content: center; align-items: center; box-shadow: 0 8px 20px rgba(0,0,0,0.15); border: 1px solid rgba(255,255,255,0.05); }
+.vocab-front { background: linear-gradient(145deg, var(--bg-card), #1f2937); }
+.vocab-back { background: linear-gradient(145deg, #1e1b4b, #312e81); transform: rotateY(180deg); border-color: rgba(99, 102, 241, 0.3); }
+
+.vocab-cat-tag { position: absolute; top: 12px; left: 16px; font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #818cf8; background: rgba(99, 102, 241, 0.1); padding: 2px 8px; border-radius: 4px; }
+.vocab-front-text { font-size: 1.15rem; font-weight: 600; color: var(--text-primary); line-height: 1.4; margin-top: 10px; }
+.vocab-flip-hint { position: absolute; bottom: 12px; font-size: 0.75rem; color: var(--text-muted); opacity: 0.7; }
+.vocab-answer { font-size: 1.3rem; font-weight: 700; color: #fff; margin-bottom: 12px; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
+.vocab-example { font-size: 0.85rem; color: #cbd5e1; line-height: 1.5; font-style: italic; background: rgba(0,0,0,0.2); padding: 8px 12px; border-radius: 8px; width: 100%; }

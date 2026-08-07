@@ -1,0 +1,79 @@
+SSC CGL Prep App — Offline Refactoring Spec
+Comprehensive Implementation Blueprint for Google Antigravity Agent Workspace
+1. Architectural Overview & Usage Workflow
+The application operates under a strict 'Office-to-Home' offline workflow. Development, code updates, and dataset bundling occur in the office (online/connected). Execution and study take place at home in low/zero connectivity (100% offline mode).
+Target Exam Stage: SSC CGL Prelims (Tier-I Qualifying) only.
+Primary Subjects: Quantitative Aptitude, General Intelligence & Reasoning, English Comprehension, General Awareness (NCERT-focused).
+Data Persistence Strategy: Zero external API calls. All content (MCQs, flashcards, formulas) must be stored in static JSON/JS files in the repo. User progress, streaks, and mistake records persist in browser LocalStorage / IndexedDB.
+UI Design Tone: Dark mode by default, clean, high-contrast, low visual noise, optimized for short 5 to 15-minute evening study sprints after work.
+2. Component Removals & Cleanup
+To maximize efficiency and remove clutter not relevant for Tier-I Prelims, completely remove the following components from HTML, CSS, and JS files:
+DEST Typing Test Module: Remove all DOM elements, navigation links, passage text areas, and keystroke/WPM JavaScript calculation logic related to typing.
+Daily Newspaper Editorial Module: Remove editorial reading views and online fetching routines.
+Navigation & Sidebar Cleanup: Remove 'Typing Test' and 'Editorials' tabs from the sidebar and top navbar, ensuring a streamlined menu.
+3. Core Tier-I Modules Specification
+3.1 Module 1: Math Calculation Speed Trainer
+Existing Features Retained: Squares (11² to 30²), Cubes (2³ to 15³), and Fraction-to-Percentage conversions.
+New Feature — Pythagorean Triplets Drill: Add rapid-fire recognition drills for standard geometry/trigonometry triplets. Present one side pair (e.g., 'a = 5, b = 12, c = ?') or ask to identify if a set forms a right-angled triangle.
+Triplets Dataset to Include: (3, 4, 5), (5, 12, 13), (7, 24, 25), (8, 15, 17), (9, 40, 41), (11, 60, 61), (12, 35, 37), (16, 63, 65), (20, 21, 29).
+3.2 Module 2: Offline NCERT General Awareness MCQ Engine
+Create a dedicated 'NCERT GA Vault' section with class-wise and subject-wise filtering for static MCQs bundled directly in the codebase.
+Subjects Covered: Science (Physics, Chemistry, Biology), History, Indian Polity, and Geography.
+NCERT Class Range: Classes 6 through 10.
+UI Requirements: Filter pills for Subject and Class, question card with 4 selectable options, instant green/red option validation, detailed explanation card upon selection, and 'Save to Mistake Book' toggle.
+Data File Structure (src/data/ncert_qs.json):
+3.3 Module 3: English Vocab & Grammar Flashcard Vault
+UI Format: Interactive 3D flip card (front showing word/phrase, back showing definition, usage, and synonyms). Keyboard spacebar / swipe to flip.
+Pre-loaded Datasets: Bundled in `src/data/english_vocab.json`.
+Categories: Top 100 Repeated One-Word Substitutions, Top 100 Repeated Idioms & Phrases, Top 100 Frequently Misspelled Words.
+3.4 Module 4: Reasoning Pattern Drills
+Format: 5-minute timed mini-quizzes containing 10 rapid questions.
+Topics: Number Series, Coding-Decoding (Alphabet shifts), Syllogisms, and Missing Matrix Numbers.
+3.5 Module 5: 60-Minute Tier-I Full Mini-Mock Engine
+Mock Exam Parameters: Timer: 60 minutes countdown. Total Questions: 100 Qs (25 Quant, 25 Reasoning, 25 English, 25 GA).
+Scoring Logic: +2.0 marks for every correct answer, -0.50 marks for every wrong answer (Official SSC Tier-I marking).
+Post-Test Analytics: Display net score, subject-wise breakups, time spent per question, and auto-export wrong questions to the Mistake Book.
+4. Data Persistence & 100% Offline Capability
+4.1 Service Worker (PWA Cache-First Setup)
+Implement a `service-worker.js` file using a Cache-First network strategy. When the app is opened at the office, all CSS, JS, HTML, and JSON datasets are cached locally so the site functions seamlessly without internet at home.
+4.2 One-Click JSON Progress Backup & Restore
+To ensure zero data loss when switching devices between office and home, add two settings buttons:
+📤 Export Progress (JSON): Serializes all user data (daily streaks, solved count, accuracy stats, and Saved Mistake Book) into a downloadable `ssc_cgl_progress_backup.json` file.
+📥 Import Progress (JSON): Allows uploading a previously saved backup file to instantly restore user state in LocalStorage / IndexedDB.
+5. Antigravity Step-by-Step Implementation Prompt
+🤖 AGENT INSTRUCTION SUMMARY FOR GOOGLE ANTIGRAVITY
+This specification document outlines all structural, UI, content, and data modifications required for the web application at https://ankit668.github.io/ssc-cgl-prep/.
+The project is being pivoted from a general dashboard to a 100% offline-first, single-user prep workspace specifically tailored for SSC CGL Tier-I Prelims. Execute all code removals, component creations, data file creations, and Service Worker caching as specified.
+[
+  {
+    "id": "ncert_sci_01",
+    "subject": "Science",
+    "class": "Class 9",
+    "topic": "Work & Energy",
+    "question": "What happens to the kinetic energy of a moving object if its speed is doubled?",
+    "options": ["It doubles", "It quadruples", "It remains the same", "It is halved"],
+    "correctIndex": 1,
+    "explanation": "Kinetic Energy = 1/2 * m * v^2. Since velocity (v) is squared, doubling speed increases KE by a factor of 4."
+  }
+]
+📋 DIRECT COPY-PASTE PROMPT FOR ANTIGRAVITY AGENT WORKSPACE
+Copy and paste the following prompt into your Google Antigravity workspace input box to trigger automated implementation:
+Please execute a full refactoring of this SSC CGL prep repository according to the specifications below:
+
+1. REMOVALS:
+   - Completely remove the DEST Typing Test module and Daily Newspaper Editorial section from HTML, CSS, and JS files.
+   - Clean up navigation links and sidebar menu.
+
+2. NEW FEATURE MODULES:
+   - Create `src/data/ncert_qs.json` containing 40+ high-yield NCERT Class 6-10 MCQs across Science, History, Polity, and Geography with explanations.
+   - Build an NCERT Quiz UI component with Subject and Class filter buttons, instant answer validation, and explanation boxes.
+   - Add Pythagorean Triplets practice to the Calculation Speed Trainer module.
+   - Create `src/data/english_vocab.json` with One-Word Substitutions and Idioms, and implement an interactive 3D flip-card viewer.
+   - Add a 60-Minute Tier-I Mock Test mode with 100 Qs and official (+2.0 / -0.50) scoring.
+
+3. OFFLINE & DATA SYNC:
+   - Register a Service Worker (`sw.js`) using a Cache-First strategy for 100% offline access.
+   - Add 'Export Progress (JSON)' and 'Import Progress (JSON)' buttons to backup and restore user LocalStorage state.
+   - Ensure Dark Mode is set as the default stylesheet theme.
+
+Verify that all build scripts pass and the app runs smoothly offline in mobile/desktop views.

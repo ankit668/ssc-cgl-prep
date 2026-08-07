@@ -34,14 +34,17 @@
                     <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
                     <span>Speed Trainer</span>
                 </button>
-                <button class="nav-item" data-tab="typing">
-                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 7h16"></path><path d="M4 11h16"></path><path d="M4 15h8"></path><path d="M14 15h6"></path><path d="M8 19h8"></path></svg>
-                    <span>CGL Typing Test</span>
+
+                <button class="nav-item" data-tab="ncert">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
+                    <span>NCERT GA Vault</span>
                 </button>
-                <button class="nav-item" data-tab="editorial">
-                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 22h14a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v4"></path><path d="M14 2v6h6"></path><path d="M2 15h10"></path><path d="M2 19h10"></path></svg>
-                    <span>Daily Editorial</span>
+
+                <button class="nav-item" data-tab="vocab">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path><line x1="12" y1="9" x2="16" y2="9"></line><line x1="12" y1="13" x2="16" y2="13"></line><line x1="8" y1="9" x2="8.01" y2="9"></line></svg>
+                    <span>Vocab Flashcards</span>
                 </button>
+
                 <button class="nav-item" data-tab="mistakes" style="position:relative;">
                     <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/><line x1="9" y1="9" x2="15" y2="9"/><line x1="9" y1="13" x2="13" y2="13"/></svg>
                     <span>Mistake Book</span>
@@ -54,6 +57,11 @@
                 <button class="nav-item" data-tab="analytics">
                     <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
                     <span>Analytics</span>
+                </button>
+
+                <button class="nav-item" data-tab="backup">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+                    <span>Data Backup</span>
                 </button>
             </nav>
             <div class="sidebar-footer">
@@ -207,6 +215,7 @@
                     <div class="quiz-mode-selector">
                         <button class="btn btn-secondary active" id="btn-mode-topic">Practice by Topic</button>
                         <button class="btn btn-secondary" id="btn-mode-year">Year &amp; Shift Mocks</button>
+                        <button class="btn btn-primary" id="btn-mode-full-mock" style="box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);" onclick="startFullMock()">🏆 Full Mock (60 Mins)</button>
                     </div>
 
                     <div class="topic-grid" id="quiz-topic-grid">
@@ -344,6 +353,10 @@
                             </div>
                         </div>
 
+                        <div id="result-subject-breakdown" style="display:none; margin: 20px 0; text-align: left; background: rgba(0,0,0,0.1); padding: 15px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);">
+                            <!-- Populated dynamically -->
+                        </div>
+
                         <div class="result-actions">
                             <button class="btn btn-primary" onclick="startReviewMode()">Review Solutions</button>
                             <button class="btn btn-secondary" onclick="resetToTopicSelection()">Practice Another Topic</button>
@@ -378,6 +391,12 @@
                             <div class="mode-emoji">⚡</div>
                             <h3>Fractions to Percent</h3>
                             <p>Instantly convert 1/6, 3/8, 1/7 etc. for Percentages and DI.</p>
+                            <button class="btn btn-primary btn-sm">Start Drill</button>
+                        </div>
+                        <div class="trainer-mode-card" onclick="startTrainerMode('triplets')">
+                            <div class="mode-emoji">📐</div>
+                            <h3>Pythagorean Triplets</h3>
+                            <p>Recall right-triangle sides instantly for Height & Distance and Geometry.</p>
                             <button class="btn btn-primary btn-sm">Start Drill</button>
                         </div>
                     </div>
@@ -437,8 +456,74 @@
                 </div>
             </section>
 
-            <!-- Tab 5: Typing Test -->
-            <section id="typing-view" class="tab-panel">
+            <!-- NCERT GA Vault -->
+            <section id="ncert-view" class="tab-panel">
+                <div class="view-header-desc">
+                    <h3>📚 NCERT General Awareness Vault</h3>
+                    <p>High-yield Class 6–10 MCQs across Science, History, Polity & Geography. Instant answer validation with detailed explanations.</p>
+                </div>
+
+                <!-- Filter Pills -->
+                <div class="ncert-filters">
+                    <div class="filter-group">
+                        <span class="filter-label">Subject:</span>
+                        <div class="pill-group" id="ncert-subject-pills">
+                            <button class="pill active" data-filter="subject" data-val="all">All</button>
+                            <button class="pill" data-filter="subject" data-val="Physics">Physics</button>
+                            <button class="pill" data-filter="subject" data-val="Chemistry">Chemistry</button>
+                            <button class="pill" data-filter="subject" data-val="Biology">Biology</button>
+                            <button class="pill" data-filter="subject" data-val="History">History</button>
+                            <button class="pill" data-filter="subject" data-val="Polity">Polity</button>
+                            <button class="pill" data-filter="subject" data-val="Geography">Geography</button>
+                        </div>
+                    </div>
+                    <div class="filter-group" style="margin-top:10px;">
+                        <span class="filter-label">Class:</span>
+                        <div class="pill-group" id="ncert-class-pills">
+                            <button class="pill active" data-filter="cls" data-val="all">All</button>
+                            <button class="pill" data-filter="cls" data-val="Class 6">VI</button>
+                            <button class="pill" data-filter="cls" data-val="Class 7">VII</button>
+                            <button class="pill" data-filter="cls" data-val="Class 8">VIII</button>
+                            <button class="pill" data-filter="cls" data-val="Class 9">IX</button>
+                            <button class="pill" data-filter="cls" data-val="Class 10">X</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="ncert-question-count" style="margin: 12px 0; font-size: 13px; color: var(--text-muted);"></div>
+                <div id="ncert-cards-container" class="ncert-cards-container">
+                    <!-- Populated by JS -->
+                </div>
+            </section>
+
+            <!-- Vocab Flashcard Vault -->
+            <section id="vocab-view" class="tab-panel">
+                <div class="view-header-desc">
+                    <h3>🃏 English Vocab Flashcard Vault</h3>
+                    <p>Top repeated One-Word Substitutions, Idioms & Phrases, and Misspelled Words for SSC CGL. Tap any card to flip it!</p>
+                </div>
+
+                <!-- Category Pills -->
+                <div class="ncert-filters">
+                    <div class="filter-group">
+                        <span class="filter-label">Category:</span>
+                        <div class="pill-group">
+                            <button class="pill active" data-vocab-cat="all">All</button>
+                            <button class="pill" data-vocab-cat="ows">One-Word Substitutions</button>
+                            <button class="pill" data-vocab-cat="idioms">Idioms & Phrases</button>
+                            <button class="pill" data-vocab-cat="spell">Misspelled Words</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="vocab-card-count" style="margin: 12px 0; font-size: 13px; color: var(--text-muted);"></div>
+                <div id="vocab-cards-container" class="vocab-cards-container">
+                    <!-- Populated by JS -->
+                </div>
+            </section>
+
+            <!-- Typing and Editorial sections removed (Tier-I focus) -->
+            <section id="typing-view" class="tab-panel hidden" style="display:none;">
                 <div id="typing-setup-screen">
                     <div class="view-header-desc">
                         <h3>DEST Typing Test</h3>
@@ -559,43 +644,6 @@
 
             </section>
 
-            <!-- Tab 7: Daily Editorial -->
-            <section id="editorial-view" class="tab-panel">
-                <div id="editorial-setup-screen">
-                    <div class="view-header-desc" style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 15px;">
-                        <div>
-                            <h3>Daily Newspaper Editorial</h3>
-                            <p>Read today's editorial below, then click "Start Typing Test" to practice typing it.</p>
-                        </div>
-                        <button class="btn btn-primary" onclick="startTypingTest(15, 'EDITORIAL')" style="box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);">⌨️ Start Typing Test</button>
-                    </div>
-
-                    <div style="display: grid; grid-template-columns: 1fr; gap: 20px; margin-top: 20px;">
-                        <!-- Reading View -->
-                        <div class="result-card" style="text-align: left; padding: 25px; max-height: 50vh; overflow-y: auto; background: var(--bg-card); border: 1px solid var(--border-card);">
-                            <h4 style="color: var(--text-muted); margin-bottom: 15px; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">Today's Passage</h4>
-                            <div id="editorial-reader-box">
-                                <!-- Populated by JS renderEditorialView() -->
-                            </div>
-                        </div>
-
-                        <!-- Past Performance -->
-                        <div>
-                            <h4 style="color: var(--text-muted); margin-bottom: 12px; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">Recent History</h4>
-                            <div id="editorial-history-list">
-                                <!-- Populated by JS renderEditorialView() -->
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div style="text-align: center; margin-top: 2rem;">
-                        <label style="color: var(--text-muted); cursor: pointer; display: inline-flex; align-items: center; gap: 8px;">
-                            <input type="checkbox" id="tcs-highlight-toggle-editorial" style="accent-color: var(--primary-light); width: 18px; height: 18px;">
-                            Enable Live Word Highlighting during typing test
-                        </label>
-                    </div>
-                </div>
-            </section>
 
             <!-- Mistake Book Tab -->
             <section id="mistakes-view" class="tab-panel">
@@ -670,6 +718,33 @@
                     <div id="topic-breakdown-table"></div>
                 </div>
             </section>
+
+            <!-- Data Backup Tab -->
+            <section id="backup-view" class="tab-panel">
+                <div class="view-header-desc">
+                    <h3>💾 Data Backup & Restore</h3>
+                    <p>Export your quiz history, mistake book, and analytics so you don't lose your progress when switching devices.</p>
+                </div>
+                
+                <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px; margin-top:30px;">
+                    <!-- EXPORT -->
+                    <div class="result-card" style="text-align:center; padding:30px;">
+                        <div class="result-illustration" style="font-size:3rem; margin-bottom:15px;">📤</div>
+                        <h4>Export Data</h4>
+                        <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:20px;">Download your current progress as a JSON file.</p>
+                        <button class="btn btn-primary" onclick="downloadProgressJSON()">Download Backup</button>
+                    </div>
+
+                    <!-- IMPORT -->
+                    <div class="result-card" style="text-align:center; padding:30px;">
+                        <div class="result-illustration" style="font-size:3rem; margin-bottom:15px;">📥</div>
+                        <h4>Import Data</h4>
+                        <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:20px;">Upload a previously saved backup file to restore your progress.</p>
+                        <input type="file" id="backup-file-input" accept=".json" style="display:none;" onchange="uploadProgressJSON(event)">
+                        <button class="btn btn-secondary" onclick="document.getElementById('backup-file-input').click()">Select Backup File</button>
+                    </div>
+                </div>
+            </section>
         </main>
     </div>
 
@@ -681,6 +756,9 @@
     <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
     <script src="app.js"></script>
+    <script src="ncert_qs.js"></script>
+    <script src="vocab_data.js"></script>
+    <script src="ncert_vocab.js"></script>
     <script src="enhancements.js"></script>
 </body>
 </html>
