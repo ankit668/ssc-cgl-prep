@@ -72110,7 +72110,10 @@ function setupNavigation() {
             if (tabId === "typing") label = "CGL Typing Test";
             if (tabId === "jjatyping") label = "Delhi HC JJA Typing";
             if (tabId === "editorial") label = "Daily Editorial";
-            if (tabId === "mistakes") label = "📕 Mistake Book";
+            if (tabId === "mistakes") label = "📓 Mistake Book";
+            if (tabId === "vocab") label = "Vocab Flashcards";
+            if (tabId === "ncert") label = "NCERT GA Vault";
+            if (tabId === "reasoning") label = "Reasoning Drills";
             title.innerText = label;
 
             // Trigger conditional renders
@@ -72122,6 +72125,12 @@ function setupNavigation() {
                 quitTrainerGame();
             } else if (tabId === "typing" || tabId === "jjatyping" || tabId === "editorial") {
                 if (typeof quitTypingTest === 'function') quitTypingTest();
+            } else if (tabId === "vocab") {
+                if (typeof renderVocabCards === 'function') renderVocabCards();
+            } else if (tabId === "ncert") {
+                if (typeof renderNCERTVault === 'function') renderNCERTVault();
+            } else if (tabId === "reasoning") {
+                if (typeof quitReasoningDrill === 'function') quitReasoningDrill();
             }
         });
     });
