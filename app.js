@@ -564,7 +564,8 @@ function loadQuestion() {
 
     // Update Progress labels
     document.getElementById("quiz-current-num").innerText = activeQuiz.currentIndex + 1;
-    document.getElementById("quiz-total-num").innerText = activeQuiz.questions.length;
+    const totalNumEl = document.getElementById("quiz-total-num");
+    if (totalNumEl) totalNumEl.innerText = activeQuiz.questions.length;
     const progressPercent = ((activeQuiz.currentIndex) / activeQuiz.questions.length) * 100;
     document.getElementById("quiz-progress-fill").style.width = `${progressPercent}%`;
 
