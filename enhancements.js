@@ -484,7 +484,8 @@ const _origFinishQuiz = window.finishQuiz;
 // We'll monkey-patch in DOMContentLoaded
 
 function patchFinishQuiz() {
-    const originalFinish = finishQuiz;
+    const originalFinish = typeof finishQuiz === 'function' ? finishQuiz : null;
+    if (!originalFinish) return; // finishQuiz not available, skip patch
     window.finishQuiz = function() {
         originalFinish();
 
