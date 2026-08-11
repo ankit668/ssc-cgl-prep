@@ -194,7 +194,9 @@ function setupNavigation() {
             // Add active state to clicked
             item.classList.add("active");
             const tabId = item.getAttribute("data-tab");
-            document.getElementById(`${tabId}-view`).classList.add("active");
+            const targetPanel = document.getElementById(`${tabId}-view`);
+            if (!targetPanel) return;
+            targetPanel.classList.add("active");
 
             // Change header title
             let label = tabId.charAt(0).toUpperCase() + tabId.slice(1);
