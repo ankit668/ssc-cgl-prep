@@ -567,7 +567,8 @@ function loadQuestion() {
     const totalNumEl = document.getElementById("quiz-total-num");
     if (totalNumEl) totalNumEl.innerText = activeQuiz.questions.length;
     const progressPercent = ((activeQuiz.currentIndex) / activeQuiz.questions.length) * 100;
-    document.getElementById("quiz-progress-fill").style.width = `${progressPercent}%`;
+    const progressFillEl = document.getElementById("quiz-progress-fill");
+    if (progressFillEl) progressFillEl.style.width = `${progressPercent}%`;
 
     // Render Question & Tags
     document.getElementById("question-year-tag").innerText = q.year;
