@@ -833,40 +833,67 @@ function setupQuizListeners() {
     });
 }
 
+function updateSectionTabsUI() {
+    if (!activeQuiz.isSectionalMock) {
+        document.getElementById('quiz-section-tabs').style.display = 'none';
+        return;
+    }
+    document.getElementById('quiz-section-tabs').style.display = 'flex';
+    
+    const tabIds = ['tab-reasoning', 'tab-gk', 'tab-maths', 'tab-english'];
+    tabIds.forEach((id, idx) => {
+        const el = document.getElementById(id);
+        if (el) {
+            if (idx === activeQuiz.currentSectionIndex) {
+                el.classList.add('active');
+            } else {
+                el.classList.remove('active');
+            }
+        }
+    });
+}
+
 function startFullMock() {
     let reasoning = QUESTIONS_DB.filter(q => q.subject === 'reasoning').sort(() => 0.5 - Math.random()).slice(0, 25);
     let gk = QUESTIONS_DB.filter(q => q.subject === 'gk').sort(() => 0.5 - Math.random()).slice(0, 25);
     let maths = QUESTIONS_DB.filter(q => q.subject === 'maths' || !q.subject).sort(() => 0.5 - Math.random()).slice(0, 25);
     let english = QUESTIONS_DB.filter(q => q.subject === 'english').sort(() => 0.5 - Math.random()).slice(0, 25);
 
-    let pool = [...reasoning, ...gk, ...maths, ...english];
-
-    if (pool.length < 100) {
-        // Fallback: If any subject has fewer than 25, just pad with whatever we have so it hits 100 if possible
-        pool = QUESTIONS_DB.sort(() => 0.5 - Math.random()).slice(0, 100);
-    }
-
+    // If we don't have enough qs for strict sections, fallback is tricky. Assuming we do have enough.
+    
     activeQuiz.category = `full_mock_60_mins`;
     activeQuiz.isFullMock = true;
-    activeQuiz.questions = pool;
+    activeQuiz.isSectionalMock = true;
+    activeQuiz.sections = [
+        { name: "Reasoning", questions: reasoning, userAnswers: new Array(reasoning.length).fill(null), qStatus: null },
+        { name: "GK", questions: gk, userAnswers: new Array(gk.length).fill(null), qStatus: null },
+        { name: "Maths", questions: maths, userAnswers: new Array(maths.length).fill(null), qStatus: null },
+        { name: "English", questions: english, userAnswers: new Array(english.length).fill(null), qStatus: null }
+    ];
+    activeQuiz.currentSectionIndex = 0;
+
+    // Load first section
+    activeQuiz.questions = activeQuiz.sections[0].questions;
+    activeQuiz.userAnswers = activeQuiz.sections[0].userAnswers;
     activeQuiz.currentIndex = 0;
     activeQuiz.score = 0;
     activeQuiz.secondsElapsed = 0;
-    activeQuiz.userAnswers = new Array(pool.length).fill(null);
     activeQuiz.isReviewMode = false;
 
     // Switch Screens
     document.getElementById("quiz-select-screen").classList.add("hidden");
     document.getElementById("quiz-results-screen").classList.add("hidden");
     document.getElementById("quiz-active-screen").classList.remove("hidden");
+    updateSectionTabsUI();
 
-    // Start Timer (60 minutes)
-    activeQuiz.totalSecondsRemaining = 60 * 60;
+    // Start Timer (15 minutes for Section 1)
+    activeQuiz.totalSecondsRemaining = 15 * 60;
     activeQuiz.questionSecondsElapsed = 0;
-    document.getElementById("quiz-timer-display").innerText = "60:00";
+    document.getElementById("quiz-timer-display").innerText = "15:00";
     if (document.getElementById("quiz-question-timer-display")) {
         document.getElementById("quiz-question-timer-display").innerText = "00:00";
     }
+    
     clearInterval(activeQuiz.timer);
     activeQuiz.timer = setInterval(() => {
         activeQuiz.secondsElapsed++;
@@ -883,7 +910,7 @@ function startFullMock() {
                 document.getElementById("quiz-question-timer-display").innerText = `${qm < 10 ? '0' : ''}${qm}:${qs < 10 ? '0' : ''}${qs}`;
             }
         } else {
-            finishQuiz();
+            advanceToNextSection();
         }
     }, 1000);
 
@@ -895,9 +922,60 @@ function startFullMock() {
     }
 }
 
+function advanceToNextSection() {
+    // Save current section state
+    activeQuiz.sections[activeQuiz.currentSectionIndex].userAnswers = activeQuiz.userAnswers;
+    if (activeQuiz.qStatus) {
+        activeQuiz.sections[activeQuiz.currentSectionIndex].qStatus = [...activeQuiz.qStatus];
+    }
+    
+    activeQuiz.currentSectionIndex++;
+    
+    if (activeQuiz.currentSectionIndex >= activeQuiz.sections.length) {
+        finishQuiz();
+        return;
+    }
+    
+    alert(`Time's up for this section! Moving to ${activeQuiz.sections[activeQuiz.currentSectionIndex].name}`);
+    
+    // Load next section
+    activeQuiz.questions = activeQuiz.sections[activeQuiz.currentSectionIndex].questions;
+    activeQuiz.userAnswers = activeQuiz.sections[activeQuiz.currentSectionIndex].userAnswers;
+    activeQuiz.currentIndex = 0;
+    
+    if (typeof initEduqityState === 'function') {
+        initEduqityState();
+        if (activeQuiz.sections[activeQuiz.currentSectionIndex].qStatus) {
+             activeQuiz.qStatus = activeQuiz.sections[activeQuiz.currentSectionIndex].qStatus;
+        }
+    }
+    
+    updateSectionTabsUI();
+    renderQuestion();
+    
+    // Reset timer to 15 mins
+    activeQuiz.totalSecondsRemaining = 15 * 60;
+    activeQuiz.questionSecondsElapsed = 0;
+}
+
+
 
 function finishQuiz() {
     clearInterval(activeQuiz.timer);
+
+    if (activeQuiz.isSectionalMock && activeQuiz.sections) {
+        // Save current section state one last time
+        activeQuiz.sections[activeQuiz.currentSectionIndex].userAnswers = activeQuiz.userAnswers;
+        
+        let allQs = [];
+        let allAns = [];
+        activeQuiz.sections.forEach(sec => {
+            allQs = allQs.concat(sec.questions);
+            allAns = allAns.concat(sec.userAnswers);
+        });
+        activeQuiz.questions = allQs;
+        activeQuiz.userAnswers = allAns;
+    }
 
     // Calculate Score
     activeQuiz.score = 0;
