@@ -1949,107 +1949,17 @@ function uploadProgressJSON(event) {
             if (importedState && typeof importedState === 'object') {
                 appState = { ...appState, ...importedState };
                 saveState();
-                alert("✅ Backup restored successfully! Refreshing app...");
+                alert('✅ Backup restored successfully! Refreshing app...');
                 window.location.reload();
             } else {
-                alert("❌ Invalid backup file format.");
+                alert('❌ Invalid backup file format.');
             }
-    const refWords = typingState.passageText.split(/\s+/);
-    let wordMistakes = 0;
-    for(let i = 0; i < typedWords.length; i++) {
-        if (typedWords[i] !== refWords[i]) wordMistakes++;
-    }
-    
-    const elapsedMins = Math.max((typingState.durationSecs - typingState.timeRemaining) / 60, 0.01);
-    const grossWpm = Math.round((totalTyped / 5) / elapsedMins);
-    const netWpm = Math.max(0, Math.round(grossWpm - (wordMistakes / elapsedMins)));
-    const acc = totalTyped > 0 ? Math.round((correctChars / totalTyped) * 100) : 100;
-    const mistakePct = typedWords.length > 0 ? ((wordMistakes / typedWords.length) * 100).toFixed(1) : '0.0';
-    const netWords = Math.max(0, typedWords.length - wordMistakes);
-    
-    // Generate Mistake Diff UI
-    let diffHtml = "<h4 style='margin-bottom:10px;'>📋 Word-by-Word Review:</h4><p style='font-size:0.85rem; color:var(--text-muted); margin-bottom:14px;'>🔴 struck = what you typed &nbsp;|&nbsp; 🟢 = correct word</p>";
-    let hasMistakes = false;
-    for(let i = 0; i < refWords.length; i++) {
-        if (i < typedWords.length) {
-            if (typedWords[i] !== refWords[i]) {
-                hasMistakes = true;
-                diffHtml += `<span style="background:rgba(239,68,68,0.18); color:#fca5a5; padding:1px 5px; border-radius:4px; text-decoration:line-through; margin:0 2px;">${typedWords[i]}</span>`;
-                diffHtml += `<span style="background:rgba(16,185,129,0.18); color:#6ee7b7; padding:1px 5px; border-radius:4px; margin:0 2px;">${refWords[i]}</span> `;
-            } else {
-                diffHtml += `${refWords[i]} `;
-            }
-        } else {
-            diffHtml += `<span style="color:var(--text-muted); opacity:0.3;">${refWords[i]}</span> `;
+        } catch (err) {
+            alert('❌ Failed to parse backup file.');
+            console.error(err);
         }
-    }
-    
-    const diffContainer = document.getElementById("typing-mistake-display");
-    if (diffContainer) {
-        diffContainer.innerHTML = diffHtml;
-        diffContainer.classList.remove("hidden");
-    }
-    
-    // Populate all result fields
-    document.getElementById("result-typing-wpm").innerText = grossWpm;
-    document.getElementById("result-typing-acc").innerText = `${acc}%`;
-    document.getElementById("result-typing-keys").innerText = totalTyped;
-    document.getElementById("result-typing-time").innerText = `${typingState.activeMode}m`;
-    if (document.getElementById("result-typing-net-words")) document.getElementById("result-typing-net-words").innerText = netWords;
-    if (document.getElementById("result-typing-mistakes")) document.getElementById("result-typing-mistakes").innerText = wordMistakes;
-    
-    // Verdict badge + feedback
-    const feedback = document.getElementById("result-typing-feedback");
-    const verdictEl = document.getElementById("result-typing-verdict");
-    
-    if (typingState.examType === 'EDITORIAL') {
-        if (verdictEl) { verdictEl.textContent = '📖 Editorial Complete'; verdictEl.style.cssText = 'background:rgba(99,102,241,0.2); color:#a78bfa; border:1px solid rgba(167,139,250,0.3); margin:8px auto 16px; padding:6px 20px; border-radius:20px; font-size:13px; font-weight:700; display:inline-block;'; }
-        feedback.innerHTML = `Speed: <strong>${grossWpm} WPM</strong> &nbsp;|&nbsp; Accuracy: <strong>${acc}%</strong> &nbsp;|&nbsp; Mistakes: <strong>${wordMistakes} words</strong>`;
-        feedback.style.color = "var(--primary-light)";
-        
-        // Save to editorial history
-        appState.editorialHistory.push({
-            date: new Date().toISOString(),
-            wpm: grossWpm,
-            acc: acc,
-            mistakes: wordMistakes
-        });
-        saveState();
-        renderEditorialView(); // Refresh the list in the background
-    } else if (typingState.examType === 'JJA') {
-        const passed = grossWpm >= 35 && parseFloat(mistakePct) <= 3.0;
-        if (verdictEl) {
-            verdictEl.textContent = passed ? '✅ JJA QUALIFIED!' : '❌ Not Qualified Yet';
-            verdictEl.style.cssText = `background:${passed ? 'rgba(16,185,129,0.15)' : 'rgba(239,68,68,0.12)'}; color:${passed ? '#6ee7b7' : '#fca5a5'}; border:1px solid ${passed ? 'rgba(16,185,129,0.3)' : 'rgba(239,68,68,0.25)'}; margin:8px auto 16px; padding:6px 20px; border-radius:20px; font-size:13px; font-weight:700; display:inline-block;`;
-        }
-        if (passed) {
-            feedback.innerHTML = `<strong>JJA Qualified!</strong> Speed: ${grossWpm} WPM ✓ (need 35) | Mistakes: ${mistakePct}% ✓ (max 3%)`;
-            feedback.style.color = "var(--success)";
-        } else if (grossWpm >= 35) {
-            feedback.innerHTML = `Speed OK (${grossWpm} WPM), but word mistakes too high: <strong>${mistakePct}%</strong> (max allowed is 3%). Focus on accuracy!`;
-            feedback.style.color = "var(--accent)";
-        } else {
-            feedback.innerHTML = `Need 35 WPM, you typed <strong>${grossWpm} WPM</strong>. Word mistakes: ${mistakePct}%. Keep practicing daily!`;
-            feedback.style.color = "var(--danger)";
-        }
-    } else { // CGL DEST
-        const passed = grossWpm >= 27 && acc >= 95 && typingState.activeMode === 15;
-        const goodSpeed = grossWpm >= 27;
-        if (verdictEl) {
-            verdictEl.textContent = passed ? '✅ CGL DEST READY!' : (goodSpeed ? '⚠️ Almost There' : '📚 Keep Practicing');
-            verdictEl.style.cssText = `background:${passed ? 'rgba(16,185,129,0.15)' : goodSpeed ? 'rgba(245,158,11,0.12)' : 'rgba(239,68,68,0.1)'}; color:${passed ? '#6ee7b7' : goodSpeed ? '#fbbf24' : '#fca5a5'}; border:1px solid ${passed ? 'rgba(16,185,129,0.3)' : goodSpeed ? 'rgba(245,158,11,0.25)' : 'rgba(239,68,68,0.2)'}; margin:8px auto 16px; padding:6px 20px; border-radius:20px; font-size:13px; font-weight:700; display:inline-block;`;
-        }
-        if (passed) {
-            feedback.innerText = `Excellent! CGL DEST ready. ${grossWpm} WPM at ${acc}% accuracy. Maintain this consistency!`;
-            feedback.style.color = "var(--success)";
-        } else if (goodSpeed) {
-            feedback.innerText = `Good speed (${grossWpm} WPM), but accuracy is ${acc}% — need 95%+. Slow down slightly and type more carefully.`;
-            feedback.style.color = "var(--accent)";
-        } else {
-            feedback.innerText = `Aim for 27+ WPM. You typed at ${grossWpm} WPM. Try the 1-minute warmup mode daily to build finger memory.`;
-            feedback.style.color = "var(--danger)";
-        }
-    }
+    };
+    reader.readAsText(file);
 }
 
 
