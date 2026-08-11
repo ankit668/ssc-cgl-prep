@@ -13,6 +13,16 @@
     <link rel="stylesheet" href="eduqity.css">
 </head>
 <body>
+    <!-- DEBUG error trap: remove after fixing -->
+    <div id="js-error-banner" style="display:none;position:fixed;top:0;left:0;width:100%;background:#ef4444;color:#fff;padding:10px 16px;font-size:13px;font-family:monospace;z-index:99999;white-space:pre-wrap;"></div>
+    <script>
+    window.onerror = function(msg, src, line, col, err) {
+        var b = document.getElementById('js-error-banner');
+        b.style.display = 'block';
+        b.textContent = 'JS ERROR: ' + msg + '\nFile: ' + src + '\nLine: ' + line;
+        return false;
+    };
+    </script>
     <!-- App Container -->
     <div class="app-layout">
         <!-- Sidebar Navigation -->
