@@ -1,7 +1,7 @@
 // SSC CGL 2024 Tier I PYQ - Auto-extracted
 // Append these entries into QUESTIONS_DB in questions.js
 
-const CGL2024_QUESTIONS = [
+const QUESTIONS_DB = [
     {
         id: "cgl24_09_09_2024_S3_q1",
         topic: "analogy",
