@@ -919,9 +919,8 @@ function startFullMock() {
     // Initial Render
     if (typeof initEduqityState === 'function') {
         initEduqityState();
-    } else {
-        renderQuestion();
     }
+    loadQuestion();
 }
 
 function advanceToNextSection() {
@@ -953,7 +952,7 @@ function advanceToNextSection() {
     }
     
     updateSectionTabsUI();
-    renderQuestion();
+    loadQuestion();
     
     // Reset timer to 15 mins
     activeQuiz.totalSecondsRemaining = 15 * 60;
