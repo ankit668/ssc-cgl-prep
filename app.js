@@ -842,7 +842,9 @@ function updateSectionTabsUI() {
     }
     document.getElementById('quiz-section-tabs').style.display = 'flex';
     
-    const tabIds = ['tab-reasoning', 'tab-gk', 'tab-maths', 'tab-english'];
+    const tabIds    = ['tab-reasoning', 'tab-gk', 'tab-maths', 'tab-english'];
+    const tabLabels = ['General Intelligence', 'General Awareness', 'Quantitative Aptitude', 'English Comprehension'];
+    
     tabIds.forEach((id, idx) => {
         const el = document.getElementById(id);
         if (el) {
@@ -853,6 +855,12 @@ function updateSectionTabsUI() {
             }
         }
     });
+
+    // Keep sidebar palette title in sync with active section
+    const paletteTitleEl = document.getElementById('palette-section-title');
+    if (paletteTitleEl) {
+        paletteTitleEl.innerText = tabLabels[activeQuiz.currentSectionIndex] || '';
+    }
 }
 
 function startFullMock() {
