@@ -856,12 +856,21 @@ function updateSectionTabsUI() {
 }
 
 function startFullMock() {
-    let reasoning = QUESTIONS_DB.filter(q => q.subject === 'reasoning').sort(() => 0.5 - Math.random()).slice(0, 25);
-    let gk = QUESTIONS_DB.filter(q => q.subject === 'gk').sort(() => 0.5 - Math.random()).slice(0, 25);
-    let maths = QUESTIONS_DB.filter(q => q.subject === 'maths' || !q.subject).sort(() => 0.5 - Math.random()).slice(0, 25);
-    let english = QUESTIONS_DB.filter(q => q.subject === 'english').sort(() => 0.5 - Math.random()).slice(0, 25);
+    const REASONING_TOPICS = new Set(['analogy','blood_relation','coding_decoding','direction','mathematical_ops','odd_one_out','paper_folding','puzzle','ranking','reasoning_misc','series','syllogism']);
+    const GK_TOPICS       = new Set(['culture','current','economy','environment','general','general_awareness','geography','history','polity','science']);
+    const MATHS_TOPICS    = new Set(['algebra','average','geometry','mensuration','mixture','number_system','percentage','profit_loss','ratio','si_ci','time_distance','time_work','trigonometry']);
+    const ENGLISH_TOPICS  = new Set(['english_misc','grammar','idioms_phrases','reading_comprehension','sentence_improvement','vocabulary']);
 
-    // If we don't have enough qs for strict sections, fallback is tricky. Assuming we do have enough.
+    let reasoning = QUESTIONS_DB.filter(q => q.subject === 'reasoning' || REASONING_TOPICS.has(q.topic)).sort(() => 0.5 - Math.random()).slice(0, 25);
+    let gk        = QUESTIONS_DB.filter(q => q.subject === 'gk'        || GK_TOPICS.has(q.topic)).sort(() => 0.5 - Math.random()).slice(0, 25);
+    let maths     = QUESTIONS_DB.filter(q => q.subject === 'maths'     || MATHS_TOPICS.has(q.topic)).sort(() => 0.5 - Math.random()).slice(0, 25);
+    let english   = QUESTIONS_DB.filter(q => q.subject === 'english'   || ENGLISH_TOPICS.has(q.topic)).sort(() => 0.5 - Math.random()).slice(0, 25);
+
+    // Safety: if any section is empty, alert and stop
+    if (!reasoning.length || !gk.length || !maths.length || !english.length) {
+        alert('Not enough questions in the database for a full mock. Please check back later.');
+        return;
+    }
     
     activeQuiz.category = `full_mock_60_mins`;
     activeQuiz.isFullMock = true;
