@@ -141,6 +141,26 @@ function updateStreak() {
 
 // --- 5. INITIALIZATION & VIEW MANAGEMENT ---
 document.addEventListener("DOMContentLoaded", () => {
+    // Integrate NCERT MCQs into main Quiz database
+    if (typeof NCERT_QS !== 'undefined') {
+        NCERT_QS.forEach(nq => {
+            QUESTIONS_DB.push({
+                id: nq.id,
+                subject: 'ncert',
+                topic: nq.topic || 'mixed',
+                question: `[${nq.cls}] ${nq.q}`,
+                options: nq.opts,
+                answer: nq.ans,
+                explanation: nq.exp,
+                shortcut: `Difficulty: ${nq.difficulty}`,
+                year: 'NCERT',
+                examYear: 'NCERT',
+                examShift: 'NA',
+                examDate: 'NA'
+            });
+        });
+    }
+
     loadState();
     setupNavigation();
     renderDashboard();
@@ -208,6 +228,7 @@ function setupNavigation() {
             if (tabId === "mistakes") label = "📓 Mistake Book";
             if (tabId === "vocab") label = "Vocab Flashcards";
             if (tabId === "ncert") label = "NCERT GA Vault";
+            if (tabId === "study") label = "Study Notes";
             if (tabId === "reasoning") label = "Reasoning Drills";
             title.innerText = label;
 
@@ -224,6 +245,8 @@ function setupNavigation() {
                 if (typeof renderVocabCards === 'function') renderVocabCards();
             } else if (tabId === "ncert") {
                 if (typeof renderNCERTVault === 'function') renderNCERTVault();
+            } else if (tabId === "study") {
+                if (typeof renderStudyNotes === 'function') renderStudyNotes();
             } else if (tabId === "reasoning") {
                 if (typeof quitReasoningDrill === 'function') quitReasoningDrill();
             }
@@ -456,7 +479,7 @@ let activeSubjectFilter = 'maths'; // default
 function setSubjectFilter(subject) {
     activeSubjectFilter = subject;
     // Update button styles
-    ['maths','reasoning','gk','english','all'].forEach(s => {
+    ['maths','reasoning','gk','english','all','ncert'].forEach(s => {
         const btn = document.getElementById(`filter-subject-${s}`);
         if (btn) btn.classList.toggle('active', s === subject);
     });
