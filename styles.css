@@ -870,6 +870,7 @@ body {
     font-weight: 500;
     line-height: 1.5;
     color: #ffffff;
+    white-space: pre-wrap;
 }
 
 .options-container {
@@ -1149,6 +1150,15 @@ body {
     margin-bottom: 2rem;
     letter-spacing: -1px;
     color: #ffffff;
+    white-space: pre-wrap;
+}
+
+.ncert-question {
+    font-size: 1.15rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: #ffffff;
+    white-space: pre-wrap;
 }
 
 .high-score-announcement {
@@ -1555,11 +1565,12 @@ body {
 .btn-remove-mistake:hover { background: rgba(239,68,68,0.25); }
 
 .mistake-question {
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 1.1rem;
     color: var(--text-primary);
-    line-height: 1.6;
-    margin-bottom: 14px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    white-space: pre-wrap;
 }
 
 .mistake-options {
@@ -1795,7 +1806,7 @@ body {
 .ncert-card-header { display: flex; align-items: center; gap: 10px; margin-bottom: 4px; }
 .ncert-tag { background: rgba(99, 102, 241, 0.15); color: #818cf8; font-size: 0.75rem; font-weight: 700; padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.5px; }
 .ncert-tag-cls { background: rgba(16, 185, 129, 0.15); color: #34d399; }
-.ncert-question { font-size: 1.05rem; font-weight: 500; color: var(--text-primary); line-height: 1.5; }
+.ncert-question { font-size: 1.05rem; font-weight: 500; color: var(--text-primary); line-height: 1.5; white-space: pre-wrap; }
 .ncert-options { display: flex; flex-direction: column; gap: 8px; margin-top: 8px; }
 .ncert-opt { display: flex; align-items: flex-start; gap: 10px; padding: 10px 14px; background: rgba(255,255,255,0.03); border: 1px solid var(--border-card); border-radius: 8px; cursor: pointer; transition: all 0.2s ease; }
 .ncert-opt:hover { background: rgba(255,255,255,0.06); }
