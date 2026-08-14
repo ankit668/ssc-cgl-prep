@@ -972,7 +972,9 @@
     <script>
         // Merge the 2025 questions into the main database!
         if (typeof CGL2025_QUESTIONS !== 'undefined') {
-            QUESTIONS_DB = QUESTIONS_DB.concat(CGL2025_QUESTIONS);
+            for (let i = 0; i < CGL2025_QUESTIONS.length; i++) {
+                QUESTIONS_DB.push(CGL2025_QUESTIONS[i]);
+            }
             console.log("Merged 2025 questions! Total questions:", QUESTIONS_DB.length);
         }
     </script>
