@@ -76,6 +76,10 @@
                     <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
                     <span>English Drills</span>
                 </button>
+                <button class="nav-item" data-tab="quant-drills">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="16"></line><line x1="8" y1="12" x2="16" y2="12"></line></svg>
+                    <span>Quant Target 20</span>
+                </button>
 
                 <button class="nav-item" data-tab="analytics">
                     <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
@@ -857,9 +861,6 @@
                 </div>
             </section>
 
-            </section>
-
-
             <!-- Mistake Book Tab -->
             <section id="mistakes-view" class="tab-panel">
                 <div class="mistake-book-header">
@@ -960,6 +961,50 @@
                     </div>
                 </div>
             </section>
+            <!-- Quant Drills View -->
+            <section id="quant-drills-view" class="tab-panel">
+                <div id="quant-drills-start-screen">
+                    <div class="view-header-desc">
+                        <h3>🎯 Quant Target 20 Drills</h3>
+                        <p>Master Tier-1's highest yielding Maths topics to secure 15-20 correct answers. No complex geometry, just pure scoring topics.</p>
+                    </div>
+                    
+                    <div class="drill-modes-grid" style="grid-template-columns: 1fr;">
+                        <div class="drill-mode-card" onclick="startQuantDrill()">
+                            <div class="drill-icon">⏱️</div>
+                            <h4>Target 20 Rapid Drill</h4>
+                            <p>25 Randomized questions from Percentage, Ratio, Average, Time & Work, Algebra & more.</p>
+                            <span class="btn btn-primary" style="margin-top: 15px; display: inline-block;">Start Drill</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="quant-drills-active-screen" class="hidden">
+                    <div class="drill-header">
+                        <span id="quant-drill-progress" class="drill-progress">Question 1 of 25</span>
+                        <div id="quant-drill-milestone-tracker" class="milestone-tracker milestone-normal">
+                            <span id="quant-drill-target">0 / 20 Target Correct</span>
+                        </div>
+                        <span id="quant-drill-topic-badge" class="ncert-tag" style="background: rgba(239, 68, 68, 0.15); color: #ef4444;">MATHS</span>
+                    </div>
+
+                    <div class="split-view">
+                        <div class="split-content" style="max-width: 800px; margin: 0 auto; width: 100%;">
+                            <div class="drill-question" id="quant-drill-q-text" style="font-size: 1.5rem; text-align: left; margin-bottom: 30px;"></div>
+                            <div class="ncert-options" id="quant-drill-options"></div>
+                            <div id="quant-drill-exp" class="drill-exp hidden" style="margin-top: 20px; font-size: 1rem; color: #a1a1aa;"></div>
+                            <button id="quant-drill-next-btn" class="btn btn-primary hidden" style="margin-top:20px; width:100%;" onclick="nextQuantDrillQuestion()">Next Question ➡️</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="quant-drills-results-screen" class="hidden" style="padding: 40px 20px; text-align: center;">
+                    <h2>🎯 Drill Complete</h2>
+                    <h1 id="quant-drills-final-score" style="font-size: 3rem; margin: 20px 0; color: var(--primary);">You scored 0 out of 25!</h1>
+                    <p id="quant-drills-analysis" style="font-size: 1.2rem; margin-bottom: 30px;"></p>
+                    <button class="btn btn-secondary" onclick="startQuantDrill()">Retry Drill</button>
+                </div>
+            </section>
         </main>
     </div>
 
@@ -980,6 +1025,7 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+    <script src="quant_drills.js?v=1"></script>
     <script src="app.js?v=9"></script>
     <script src="ncert_notes.js?v=1"></script>
     <script src="ncert_qs.js?v=5"></script>
