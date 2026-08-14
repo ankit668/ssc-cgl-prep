@@ -72,6 +72,10 @@
                     <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2l3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z"></path></svg>
                     <span>Reasoning Drills</span>
                 </button>
+                <button class="nav-item" data-tab="english-drills">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+                    <span>English Drills</span>
+                </button>
 
                 <button class="nav-item" data-tab="analytics">
                     <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
@@ -456,6 +460,74 @@
                         <div class="result-actions">
                             <button class="btn btn-primary" onclick="startReasoningDrill(activeReasoningMode)">Retry Mode</button>
                             <button class="btn btn-secondary" onclick="quitReasoningDrill()">Back to Menu</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- English Drills View -->
+            <section id="english-drills-view" class="tab-panel">
+                <div id="english-drills-select-screen">
+                    <div class="view-header-desc">
+                        <h3>📝 English Advanced Drills</h3>
+                        <p>Master Tier-1's hardest sections using actual 2024 & 2025 PYQs. Rapidly solve Cloze Tests and Parajumbles.</p>
+                    </div>
+                    
+                    <div class="trainer-modes-grid">
+                        <div class="trainer-mode-card" onclick="startEnglishDrill('cloze')">
+                            <div class="mode-emoji">📖</div>
+                            <h3>Cloze Test Drill</h3>
+                            <p>Read the passage on the left, answer the blanks on the right.</p>
+                            <button class="btn btn-primary btn-sm">Start Drill</button>
+                        </div>
+                        <div class="trainer-mode-card" onclick="startEnglishDrill('pqrs')">
+                            <div class="mode-emoji">🔀</div>
+                            <h3>PQRS Parajumbles</h3>
+                            <p>Rapidly order jumbled sentences from recent tier 1 shifts.</p>
+                            <button class="btn btn-primary btn-sm">Start Drill</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Active Drill UI -->
+                <div id="english-drills-active-screen" class="hidden">
+                    <div class="trainer-game-header">
+                        <button class="btn btn-secondary btn-sm" onclick="quitEnglishDrill()">← Quit</button>
+                        <div class="trainer-score-badge">Question: <span id="english-drill-current-q">1</span></div>
+                        <div class="trainer-timer-badge">Correct: <span id="english-drill-score">0</span></div>
+                    </div>
+                    
+                    <div class="english-drill-split-layout" style="display:flex; gap:20px; align-items:flex-start; margin-top:20px;">
+                        
+                        <!-- Left Panel: Passage (Only shown for Cloze Tests) -->
+                        <div id="english-drill-passage-panel" class="hidden" style="flex:1; background:var(--bg-card); border:1px solid var(--border-card); border-radius:12px; padding:20px;">
+                            <h4 style="margin-bottom:15px; color:var(--text-primary); border-bottom:1px solid var(--border-card); padding-bottom:10px;">Comprehension Passage</h4>
+                            <div id="english-drill-passage-text" style="font-size:15px; line-height:1.6; color:var(--text-secondary); white-space:pre-wrap;"></div>
+                        </div>
+
+                        <!-- Right Panel: Question & Options -->
+                        <div style="flex:1;">
+                            <div class="trainer-drill-card" style="margin:0;">
+                                <div class="ncert-question" id="english-drill-q-text" style="font-size:1.1rem; margin-bottom:20px; font-weight:600;"></div>
+                                <div class="ncert-options" id="english-drill-options"></div>
+                                <div class="ncert-explanation hidden" id="english-drill-explanation"></div>
+                                <button class="btn btn-primary hidden" id="english-drill-next-btn" style="margin-top:15px;" onclick="nextEnglishDrillQ()">Next Question →</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Drill Results Screen -->
+                <div id="english-drills-results-screen" class="hidden">
+                    <div class="result-card">
+                        <div class="result-illustration">🏆</div>
+                        <h2>Drill Complete!</h2>
+                        <div class="result-score-display">
+                            <span id="english-drill-final-score">0</span> Correct
+                        </div>
+                        <div class="result-actions">
+                            <button class="btn btn-primary" onclick="startEnglishDrill(activeEnglishDrillMode)">Retry Mode</button>
+                            <button class="btn btn-secondary" onclick="quitEnglishDrill()">Back to Menu</button>
                         </div>
                     </div>
                 </div>
@@ -895,7 +967,15 @@
     <canvas id="confetti-canvas" style="position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:9999;display:none;"></canvas>
 
     <!-- Scripts -->
-    <script src="questions.js?v=10"></script>
+    <script src="questions.js?v=4"></script>
+    <script src="cgl2025_questions.js"></script>
+    <script>
+        // Merge the 2025 questions into the main database!
+        if (typeof CGL2025_QUESTIONS !== 'undefined') {
+            QUESTIONS_DB = QUESTIONS_DB.concat(CGL2025_QUESTIONS);
+            console.log("Merged 2025 questions! Total questions:", QUESTIONS_DB.length);
+        }
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
     <script src="app.js?v=9"></script>
@@ -906,5 +986,6 @@
     <script src="ncert_vocab.js?v=3"></script>
     <script src="reasoning_generator.js?v=3"></script>
     <script src="enhancements.js?v=3"></script>
+    <script src="english_drills.js"></script>
 </body>
 </html>

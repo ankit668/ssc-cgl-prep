@@ -230,6 +230,7 @@ function setupNavigation() {
             if (tabId === "ncert") label = "NCERT GA Vault";
             if (tabId === "study") label = "Study Notes";
             if (tabId === "reasoning") label = "Reasoning Drills";
+            if (tabId === "english-drills") label = "English Drills";
             title.innerText = label;
 
             // Trigger conditional renders
@@ -249,6 +250,8 @@ function setupNavigation() {
                 if (typeof renderStudyNotes === 'function') renderStudyNotes();
             } else if (tabId === "reasoning") {
                 if (typeof quitReasoningDrill === 'function') quitReasoningDrill();
+            } else if (tabId === "english-drills") {
+                if (typeof quitEnglishDrill === 'function') quitEnglishDrill();
             }
         });
     });
