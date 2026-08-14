@@ -819,10 +819,7 @@ const NCERT_QS = [
     cls: "Class 9",
     topic: "Animal Tissues",
     difficulty: "medium",
-    q: "Consider the following statements regarding animal connective tissues:
-1. Tendons connect muscles to bones.
-2. Ligaments connect bones to bones.
-Which of the statements given above is/are correct?",
+    q: "Consider the following statements regarding animal connective tissues:\n1. Tendons connect muscles to bones.\n2. Ligaments connect bones to bones.\nWhich of the statements given above is/are correct?",
     opts: ["1 only", "2 only", "Both 1 and 2", "Neither 1 nor 2"],
     ans: 2,
     exp: "Tendons are tough, fibrous connective tissues that transmit muscular force to bones to enable movement. Ligaments connect bone to bone at joints, providing stability and preventing dislocation."
