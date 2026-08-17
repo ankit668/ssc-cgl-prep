@@ -31,6 +31,9 @@ function startEnglishDrill(mode) {
     } else if (mode === 'roots') {
         // Find the newly generated Etymology / Root word questions
         englishDrillQuestions = allEnglish.filter(q => q.cls === 'Etymology');
+    } else if (mode === 'ows') {
+        // Find the OWS questions
+        englishDrillQuestions = allEnglish.filter(q => q.cls === 'OWS');
     }
 
     if (englishDrillQuestions.length === 0) {
