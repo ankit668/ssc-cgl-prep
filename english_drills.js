@@ -10,7 +10,7 @@ function startEnglishDrill(mode) {
     englishDrillQuestions = [];
 
     // Filter questions based on mode
-    let allEnglish = QUESTIONS_DB.filter(q => q.subject === 'english');
+    let allEnglish = QUESTIONS_DB.filter(q => q.subject && q.subject.toLowerCase() === 'english');
 
     if (mode === 'cloze') {
         // Find questions containing "Comprehension:" or "passage"
@@ -25,6 +25,9 @@ function startEnglishDrill(mode) {
             q.question.toLowerCase().includes('arrange the sentences') ||
             q.question.toLowerCase().includes('correct order')
         );
+    } else if (mode === 'spotting') {
+        // Find the newly generated grammar rules questions
+        englishDrillQuestions = allEnglish.filter(q => q.topic === 'english_drills');
     }
 
     if (englishDrillQuestions.length === 0) {

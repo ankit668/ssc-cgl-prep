@@ -2345,6 +2345,12 @@ body {
                     </div>
                     
                     <div class="trainer-modes-grid">
+                        <div class="trainer-mode-card" onclick="startEnglishDrill('spotting')">
+                            <div class="mode-emoji">🎯</div>
+                            <h3>Spot the Error</h3>
+                            <p>120 Grammar Rules applied in 200+ exclusive spot-the-error MCQs.</p>
+                            <button class="btn btn-primary btn-sm">Start Drill</button>
+                        </div>
                         <div class="trainer-mode-card" onclick="startEnglishDrill('cloze')">
                             <div class="mode-emoji">📖</div>
                             <h3>Cloze Test Drill</h3>
@@ -78158,7 +78164,7 @@ function startEnglishDrill(mode) {
     englishDrillQuestions = [];
 
     // Filter questions based on mode
-    let allEnglish = QUESTIONS_DB.filter(q => q.subject === 'english');
+    let allEnglish = QUESTIONS_DB.filter(q => q.subject && q.subject.toLowerCase() === 'english');
 
     if (mode === 'cloze') {
         // Find questions containing "Comprehension:" or "passage"
@@ -78173,6 +78179,9 @@ function startEnglishDrill(mode) {
             q.question.toLowerCase().includes('arrange the sentences') ||
             q.question.toLowerCase().includes('correct order')
         );
+    } else if (mode === 'spotting') {
+        // Find the newly generated grammar rules questions
+        englishDrillQuestions = allEnglish.filter(q => q.topic === 'english_drills');
     }
 
     if (englishDrillQuestions.length === 0) {
