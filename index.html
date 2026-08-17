@@ -58,6 +58,10 @@
                     <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path><line x1="12" y1="9" x2="16" y2="9"></line><line x1="12" y1="13" x2="16" y2="13"></line><line x1="8" y1="9" x2="8.01" y2="9"></line></svg>
                     <span>Vocab Flashcards</span>
                 </button>
+                <button class="nav-item" data-tab="roots">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2L2 22h20L12 2z"></path><path d="M12 22V2"></path></svg>
+                    <span>Etymology Vault</span>
+                </button>
 
                 <button class="nav-item" data-tab="mistakes" style="position:relative;">
                     <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/><line x1="9" y1="9" x2="15" y2="9"/><line x1="9" y1="13" x2="13" y2="13"/></svg>
@@ -482,6 +486,12 @@
                     </div>
                     
                     <div class="trainer-modes-grid">
+                        <div class="trainer-mode-card" onclick="startEnglishDrill('roots')">
+                            <div class="mode-emoji">🧬</div>
+                            <h3>Root Word Vocab</h3>
+                            <p>Master complex SSC CGL vocabulary using Etymology & Root words.</p>
+                            <button class="btn btn-primary btn-sm">Start Drill</button>
+                        </div>
                         <div class="trainer-mode-card" onclick="startEnglishDrill('spotting')">
                             <div class="mode-emoji">🎯</div>
                             <h3>Spot the Error</h3>
@@ -712,6 +722,20 @@
 
                 <div class="vocab-grid" id="grammar-container">
                     <!-- Grammar rule cards will be generated here -->
+                </div>
+            </div>
+
+            <!-- Etymology Vault View -->
+            <div id="roots-view" class="tab-panel">
+                <div class="header-actions">
+                    <div class="search-box">
+                        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                        <input type="text" id="roots-search" placeholder="Search roots or words (e.g. 'Chron', 'Time')...">
+                    </div>
+                </div>
+
+                <div class="vocab-grid" id="roots-container">
+                    <!-- Root cards will be generated here -->
                 </div>
             </div>
 
@@ -1053,6 +1077,9 @@
     <script src="grammar_rules.js"></script>
     <script src="grammar_mcqs.js"></script>
     <script src="grammar_ui.js"></script>
+    <script src="root_words.js"></script>
+    <script src="root_mcqs.js"></script>
+    <script src="roots_ui.js"></script>
     <script src="app.js?v=9"></script>
     <script src="ncert_notes.js?v=1"></script>
     <script src="ncert_qs.js?v=5"></script>

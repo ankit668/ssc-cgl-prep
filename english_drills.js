@@ -27,7 +27,10 @@ function startEnglishDrill(mode) {
         );
     } else if (mode === 'spotting') {
         // Find the newly generated grammar rules questions
-        englishDrillQuestions = allEnglish.filter(q => q.topic === 'english_drills');
+        englishDrillQuestions = allEnglish.filter(q => q.topic === 'english_drills' && q.cls === 'Grammar');
+    } else if (mode === 'roots') {
+        // Find the newly generated Etymology / Root word questions
+        englishDrillQuestions = allEnglish.filter(q => q.cls === 'Etymology');
     }
 
     if (englishDrillQuestions.length === 0) {
