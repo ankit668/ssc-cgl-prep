@@ -34,6 +34,9 @@ function startEnglishDrill(mode) {
     } else if (mode === 'ows') {
         // Find the OWS questions
         englishDrillQuestions = allEnglish.filter(q => q.cls === 'OWS');
+    } else if (mode === 'affixes') {
+        // Find the Affixes questions
+        englishDrillQuestions = allEnglish.filter(q => q.cls === 'Affixes');
     }
 
     if (englishDrillQuestions.length === 0) {
