@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function renderGrammarRules(rules) {
         grammarContainer.innerHTML = rules.map(rule => `
-            <div class="topic-card" style="display: flex; flex-direction: column; text-align: left; align-items: flex-start; position: relative;">
+            <div class="topic-card" style="display: flex; flex-direction: column; text-align: left; align-items: flex-start; position: relative; height: auto; min-height: 180px;">
                 <div class="vocab-cat-tag" style="position: relative; top: 0; left: 0; margin-bottom: 10px; background: rgba(16, 185, 129, 0.1); color: #10b981;">GRAMMAR RULE</div>
                 <h3 style="margin-top: 0; font-size: 1.1rem; color: #fff; margin-bottom: 8px;">${rule.rule_name}</h3>
                 <p style="font-size: 0.9rem; color: #cbd5e1; margin-bottom: 12px; line-height: 1.5;">${rule.explanation}</p>
