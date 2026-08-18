@@ -3,7 +3,7 @@ let currentQuantDrillIndex = 0;
 let quantDrillScore = 0;
 let quantDrillTarget = 20;
 let quantDrillTimerInterval;
-let quantDrillTimeLeft = 1500;
+let quantDrillTimeLeft = 900;
 
 function startQuantDrill() {
     quantDrillScore = 0;
@@ -39,8 +39,8 @@ function startQuantDrill() {
     document.getElementById('quant-drills-active-screen').classList.remove('hidden');
 
     clearInterval(quantDrillTimerInterval);
-    quantDrillTimeLeft = 1500; // 25 minutes
-    document.getElementById('quant-drill-timer').textContent = '25:00';
+    quantDrillTimeLeft = 900; // 15 minutes
+    document.getElementById('quant-drill-timer').textContent = '15:00';
     quantDrillTimerInterval = setInterval(() => {
         quantDrillTimeLeft--;
         if (quantDrillTimeLeft <= 0) {

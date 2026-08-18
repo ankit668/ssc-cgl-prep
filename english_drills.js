@@ -3,7 +3,7 @@ let currentEnglishDrillIndex = 0;
 let englishDrillScore = 0;
 let activeEnglishDrillMode = '';
 let englishDrillTimerInterval;
-let englishDrillTimeLeft = 600;
+let englishDrillTimeLeft = 420;
 
 // Normalize a question object to the standard format used by the drill renderer.
 // New MCQ generators use: q, opts, ans, exp
@@ -81,8 +81,8 @@ function startEnglishDrill(mode) {
     }
 
     clearInterval(englishDrillTimerInterval);
-    englishDrillTimeLeft = 600; // 10 minutes
-    document.getElementById('english-drill-timer').textContent = '10:00';
+    englishDrillTimeLeft = 420; // 7 minutes
+    document.getElementById('english-drill-timer').textContent = '07:00';
     englishDrillTimerInterval = setInterval(() => {
         englishDrillTimeLeft--;
         if (englishDrillTimeLeft <= 0) {
