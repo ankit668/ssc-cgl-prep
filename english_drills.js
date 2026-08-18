@@ -98,6 +98,8 @@ function renderEnglishDrillQuestion() {
     
     nextBtn.classList.add('hidden');
     explanationDiv.classList.add('hidden');
+    const resultBanner = document.getElementById('english-drill-result-banner');
+    if (resultBanner) { resultBanner.classList.add('hidden'); resultBanner.textContent = ''; }
     
     // Parse Passage vs Question if Cloze
     if (activeEnglishDrillMode === 'cloze') {
@@ -133,17 +135,33 @@ function checkEnglishDrillAnswer(selectedIdx) {
     let q = englishDrillQuestions[currentEnglishDrillIndex];
     let options = document.querySelectorAll('#english-drill-options .ncert-option');
     
-    // Disable further clicks
-    options.forEach(opt => opt.style.pointerEvents = 'none');
+    // Disable further clicks on all options
+    options.forEach(opt => opt.onclick = null);
     
+    const resultBanner = document.getElementById('english-drill-result-banner');
+
     if (selectedIdx === q.answer) {
         options[selectedIdx].classList.add('correct');
         englishDrillScore++;
         document.getElementById('english-drill-score').textContent = englishDrillScore;
+        if (resultBanner) {
+            resultBanner.textContent = '✅ Correct!';
+            resultBanner.style.background = 'rgba(16, 185, 129, 0.15)';
+            resultBanner.style.color = '#34d399';
+            resultBanner.style.border = '1px solid #10b981';
+            resultBanner.classList.remove('hidden');
+        }
         if(typeof playSound === 'function') playSound('correct');
     } else {
         options[selectedIdx].classList.add('wrong');
         options[q.answer].classList.add('correct');
+        if (resultBanner) {
+            resultBanner.textContent = `❌ Wrong! Correct answer: ${String.fromCharCode(65 + q.answer)}. ${q.options[q.answer]}`;
+            resultBanner.style.background = 'rgba(239, 68, 68, 0.12)';
+            resultBanner.style.color = '#fca5a5';
+            resultBanner.style.border = '1px solid #ef4444';
+            resultBanner.classList.remove('hidden');
+        }
         if(typeof playSound === 'function') playSound('wrong');
     }
     

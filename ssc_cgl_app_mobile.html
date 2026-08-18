@@ -1828,6 +1828,12 @@ body {
 .ncert-opt.ncert-correct { background: rgba(16, 185, 129, 0.1); border-color: #10b981; color: #34d399; }
 .ncert-opt.ncert-correct .ncert-opt-label { color: #34d399; }
 .ncert-opt.ncert-wrong { background: rgba(239, 68, 68, 0.1); border-color: #ef4444; color: #f87171; }
+
+/* English Drill option feedback styles */
+.ncert-option { display: flex; align-items: center; gap: 10px; padding: 11px 16px; background: rgba(255,255,255,0.04); border: 1px solid var(--border-card); border-radius: 10px; cursor: pointer; transition: all 0.25s ease; font-size: 0.95rem; color: var(--text-secondary); }
+.ncert-option:hover { background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.15); color: var(--text-primary); }
+.ncert-option.correct { background: rgba(16, 185, 129, 0.15) !important; border-color: #10b981 !important; color: #34d399 !important; font-weight: 700; pointer-events: none; }
+.ncert-option.wrong { background: rgba(239, 68, 68, 0.12) !important; border-color: #ef4444 !important; color: #fca5a5 !important; text-decoration: line-through; opacity: 0.85; pointer-events: none; }
 .ncert-explanation { margin-top: 12px; padding: 12px; background: rgba(0,0,0,0.2); border-left: 3px solid #f59e0b; border-radius: 0 8px 8px 0; font-size: 0.9rem; color: var(--text-secondary); line-height: 1.5; }
 
 /* ─────────────────────────────────────────────────────────── */
@@ -2417,6 +2423,7 @@ body {
                             <div class="trainer-drill-card" style="margin:0;">
                                 <div class="ncert-question" id="english-drill-q-text" style="font-size:1.1rem; margin-bottom:20px; font-weight:600;"></div>
                                 <div class="ncert-options" id="english-drill-options"></div>
+                                <div id="english-drill-result-banner" class="hidden" style="margin-top:14px; padding:12px 16px; border-radius:10px; font-size:1rem; font-weight:700; text-align:center;"></div>
                                 <div class="ncert-explanation hidden" id="english-drill-explanation"></div>
                                 <button class="btn btn-primary hidden" id="english-drill-next-btn" style="margin-top:15px;" onclick="nextEnglishDrillQ()">Next Question →</button>
                             </div>
@@ -78333,6 +78340,8 @@ function renderEnglishDrillQuestion() {
     
     nextBtn.classList.add('hidden');
     explanationDiv.classList.add('hidden');
+    const resultBanner = document.getElementById('english-drill-result-banner');
+    if (resultBanner) { resultBanner.classList.add('hidden'); resultBanner.textContent = ''; }
     
     // Parse Passage vs Question if Cloze
     if (activeEnglishDrillMode === 'cloze') {
@@ -78368,17 +78377,33 @@ function checkEnglishDrillAnswer(selectedIdx) {
     let q = englishDrillQuestions[currentEnglishDrillIndex];
     let options = document.querySelectorAll('#english-drill-options .ncert-option');
     
-    // Disable further clicks
-    options.forEach(opt => opt.style.pointerEvents = 'none');
+    // Disable further clicks on all options
+    options.forEach(opt => opt.onclick = null);
     
+    const resultBanner = document.getElementById('english-drill-result-banner');
+
     if (selectedIdx === q.answer) {
         options[selectedIdx].classList.add('correct');
         englishDrillScore++;
         document.getElementById('english-drill-score').textContent = englishDrillScore;
+        if (resultBanner) {
+            resultBanner.textContent = '✅ Correct!';
+            resultBanner.style.background = 'rgba(16, 185, 129, 0.15)';
+            resultBanner.style.color = '#34d399';
+            resultBanner.style.border = '1px solid #10b981';
+            resultBanner.classList.remove('hidden');
+        }
         if(typeof playSound === 'function') playSound('correct');
     } else {
         options[selectedIdx].classList.add('wrong');
         options[q.answer].classList.add('correct');
+        if (resultBanner) {
+            resultBanner.textContent = `❌ Wrong! Correct answer: ${String.fromCharCode(65 + q.answer)}. ${q.options[q.answer]}`;
+            resultBanner.style.background = 'rgba(239, 68, 68, 0.12)';
+            resultBanner.style.color = '#fca5a5';
+            resultBanner.style.border = '1px solid #ef4444';
+            resultBanner.classList.remove('hidden');
+        }
         if(typeof playSound === 'function') playSound('wrong');
     }
     

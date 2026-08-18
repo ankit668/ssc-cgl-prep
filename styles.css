@@ -1814,6 +1814,12 @@ body {
 .ncert-opt.ncert-correct { background: rgba(16, 185, 129, 0.1); border-color: #10b981; color: #34d399; }
 .ncert-opt.ncert-correct .ncert-opt-label { color: #34d399; }
 .ncert-opt.ncert-wrong { background: rgba(239, 68, 68, 0.1); border-color: #ef4444; color: #f87171; }
+
+/* English Drill option feedback styles */
+.ncert-option { display: flex; align-items: center; gap: 10px; padding: 11px 16px; background: rgba(255,255,255,0.04); border: 1px solid var(--border-card); border-radius: 10px; cursor: pointer; transition: all 0.25s ease; font-size: 0.95rem; color: var(--text-secondary); }
+.ncert-option:hover { background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.15); color: var(--text-primary); }
+.ncert-option.correct { background: rgba(16, 185, 129, 0.15) !important; border-color: #10b981 !important; color: #34d399 !important; font-weight: 700; pointer-events: none; }
+.ncert-option.wrong { background: rgba(239, 68, 68, 0.12) !important; border-color: #ef4444 !important; color: #fca5a5 !important; text-decoration: line-through; opacity: 0.85; pointer-events: none; }
 .ncert-explanation { margin-top: 12px; padding: 12px; background: rgba(0,0,0,0.2); border-left: 3px solid #f59e0b; border-radius: 0 8px 8px 0; font-size: 0.9rem; color: var(--text-secondary); line-height: 1.5; }
 
 /* ─────────────────────────────────────────────────────────── */
