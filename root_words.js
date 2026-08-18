@@ -898,5 +898,1805 @@ const ROOT_WORDS = [
                 "definition": "Feeding on food of both plant and animal origin."
             }
         ]
+    },
+    {
+        "root": "Acri",
+        "meaning": "Bitter, sharp, sour",
+        "examples": [
+            {
+                "word": "Acrimony",
+                "definition": "Bitterness or ill feeling."
+            },
+            {
+                "word": "Acerbic",
+                "definition": "Sharp and forthright in taste or style."
+            },
+            {
+                "word": "Acrid",
+                "definition": "Unpleasantly bitter or pungent."
+            }
+        ]
+    },
+    {
+        "root": "Ali",
+        "meaning": "Other",
+        "examples": [
+            {
+                "word": "Alienate",
+                "definition": "Cause someone to feel isolated or estranged."
+            },
+            {
+                "word": "Alias",
+                "definition": "A false or alternate identity."
+            },
+            {
+                "word": "Alibi",
+                "definition": "A claim that one was elsewhere when an act took place."
+            }
+        ]
+    },
+    {
+        "root": "Alt",
+        "meaning": "High, deep",
+        "examples": [
+            {
+                "word": "Altitude",
+                "definition": "The height of an object or point in relation to sea level."
+            },
+            {
+                "word": "Exalt",
+                "definition": "Raise to a higher rank or a state of greater power."
+            },
+            {
+                "word": "Altimeter",
+                "definition": "An instrument for measuring altitude."
+            }
+        ]
+    },
+    {
+        "root": "Amo",
+        "meaning": "Love",
+        "examples": [
+            {
+                "word": "Amiable",
+                "definition": "Having or displaying a friendly and pleasant manner."
+            },
+            {
+                "word": "Amorous",
+                "definition": "Showing, feeling, or relating to sexual desire."
+            },
+            {
+                "word": "Enamored",
+                "definition": "Filled with a feeling of love for."
+            }
+        ]
+    },
+    {
+        "root": "Anim",
+        "meaning": "Mind, life, spirit",
+        "examples": [
+            {
+                "word": "Animosity",
+                "definition": "Strong hostility or antagonism."
+            },
+            {
+                "word": "Magnanimous",
+                "definition": "Very generous or forgiving, especially toward a rival."
+            },
+            {
+                "word": "Unanimous",
+                "definition": "Fully in agreement."
+            }
+        ]
+    },
+    {
+        "root": "Aqua",
+        "meaning": "Water",
+        "examples": [
+            {
+                "word": "Aqueduct",
+                "definition": "An artificial channel for conveying water."
+            },
+            {
+                "word": "Aquatic",
+                "definition": "Growing or living in or frequenting water."
+            },
+            {
+                "word": "Aquiferous",
+                "definition": "Bearing or containing water."
+            }
+        ]
+    },
+    {
+        "root": "Audac",
+        "meaning": "Bold, daring",
+        "examples": [
+            {
+                "word": "Audacity",
+                "definition": "A willingness to take bold risks."
+            },
+            {
+                "word": "Audacious",
+                "definition": "Showing a willingness to take surprisingly bold risks."
+            },
+            {
+                "word": "Audaciously",
+                "definition": "In a bold, daring, or reckless manner."
+            }
+        ]
+    },
+    {
+        "root": "Bell",
+        "meaning": "War",
+        "examples": [
+            {
+                "word": "Belligerent",
+                "definition": "Hostile and aggressive."
+            },
+            {
+                "word": "Bellicose",
+                "definition": "Demonstrating aggression and willingness to fight."
+            },
+            {
+                "word": "Antebellum",
+                "definition": "Occurring or existing before a particular war, notably the American Civil War."
+            }
+        ]
+    },
+    {
+        "root": "Brevi",
+        "meaning": "Short",
+        "examples": [
+            {
+                "word": "Brevity",
+                "definition": "Concise and exact use of words in writing or speech."
+            },
+            {
+                "word": "Abbreviate",
+                "definition": "Shorten a word, phrase, or text."
+            },
+            {
+                "word": "Breviary",
+                "definition": "A book containing the service for each day."
+            }
+        ]
+    },
+    {
+        "root": "Cadu",
+        "meaning": "To fall",
+        "examples": [
+            {
+                "word": "Cadence",
+                "definition": "A fall or rise in the voice; a rhythmic flow."
+            },
+            {
+                "word": "Decadence",
+                "definition": "Moral or cultural decline."
+            },
+            {
+                "word": "Caducous",
+                "definition": "Dropping off early, as leaves or petals."
+            }
+        ]
+    },
+    {
+        "root": "Cap",
+        "meaning": "Head",
+        "examples": [
+            {
+                "word": "Capital",
+                "definition": "The most important city or town of a country or region."
+            },
+            {
+                "word": "Capitulate",
+                "definition": "Cease to resist an opponent or an unwelcome demand."
+            },
+            {
+                "word": "Decapitate",
+                "definition": "Cut off the head of."
+            }
+        ]
+    },
+    {
+        "root": "Carn",
+        "meaning": "Flesh",
+        "examples": [
+            {
+                "word": "Carnivorous",
+                "definition": "Feeding on other animals."
+            },
+            {
+                "word": "Carnival",
+                "definition": "A period of public revelry."
+            },
+            {
+                "word": "Reincarnation",
+                "definition": "The rebirth of a soul in a new body."
+            }
+        ]
+    },
+    {
+        "root": "Caus",
+        "meaning": "Cause, motive",
+        "examples": [
+            {
+                "word": "Causality",
+                "definition": "The relationship between cause and effect."
+            },
+            {
+                "word": "Accusation",
+                "definition": "A charge or claim that someone has done something illegal."
+            },
+            {
+                "word": "Excusable",
+                "definition": "Admitting of being excused or justified."
+            }
+        ]
+    },
+    {
+        "root": "Ced",
+        "meaning": "To go, yield",
+        "examples": [
+            {
+                "word": "Concede",
+                "definition": "Admit that something is true after first denying it."
+            },
+            {
+                "word": "Precede",
+                "definition": "Come before something in time."
+            },
+            {
+                "word": "Secession",
+                "definition": "The action of withdrawing formally from membership."
+            }
+        ]
+    },
+    {
+        "root": "Celer",
+        "meaning": "Fast, speed",
+        "examples": [
+            {
+                "word": "Celerity",
+                "definition": "Swiftness of movement."
+            },
+            {
+                "word": "Accelerate",
+                "definition": "Begin to move more quickly."
+            },
+            {
+                "word": "Decelerate",
+                "definition": "Reduce speed."
+            }
+        ]
+    },
+    {
+        "root": "Clud",
+        "meaning": "To close, shut",
+        "examples": [
+            {
+                "word": "Seclude",
+                "definition": "Keep away from other people."
+            },
+            {
+                "word": "Preclude",
+                "definition": "Prevent from happening; make impossible."
+            },
+            {
+                "word": "Recluse",
+                "definition": "A person who lives a solitary life."
+            }
+        ]
+    },
+    {
+        "root": "Cogn",
+        "meaning": "To know",
+        "examples": [
+            {
+                "word": "Cognitive",
+                "definition": "Relating to mental action or process of acquiring knowledge."
+            },
+            {
+                "word": "Recognize",
+                "definition": "Identify someone or something from previous encounters."
+            },
+            {
+                "word": "Incognito",
+                "definition": "Having one's true identity concealed."
+            }
+        ]
+    },
+    {
+        "root": "Corp",
+        "meaning": "Body",
+        "examples": [
+            {
+                "word": "Corpus",
+                "definition": "A collection of written texts."
+            },
+            {
+                "word": "Corpulent",
+                "definition": "Fat; having a large bulky body."
+            },
+            {
+                "word": "Incorporate",
+                "definition": "Take in or contain as part of a whole."
+            }
+        ]
+    },
+    {
+        "root": "Cred",
+        "meaning": "Trust, believe",
+        "examples": [
+            {
+                "word": "Credence",
+                "definition": "Belief as to the truth of something."
+            },
+            {
+                "word": "Credulous",
+                "definition": "Showing too great a readiness to believe things."
+            },
+            {
+                "word": "Incredible",
+                "definition": "Impossible or difficult to believe."
+            }
+        ]
+    },
+    {
+        "root": "Culp",
+        "meaning": "Fault, blame",
+        "examples": [
+            {
+                "word": "Culpable",
+                "definition": "Deserving blame."
+            },
+            {
+                "word": "Culprit",
+                "definition": "A person who is responsible for a crime or other misdeed."
+            },
+            {
+                "word": "Exculpate",
+                "definition": "Show or declare that someone is not guilty of wrongdoing."
+            }
+        ]
+    },
+    {
+        "root": "Derm",
+        "meaning": "Skin",
+        "examples": [
+            {
+                "word": "Dermatology",
+                "definition": "The branch of medicine concerned with the skin."
+            },
+            {
+                "word": "Epidermis",
+                "definition": "The outer layer of cells covering an organism."
+            },
+            {
+                "word": "Hypodermic",
+                "definition": "Referred to the region immediately beneath the skin."
+            }
+        ]
+    },
+    {
+        "root": "Dox",
+        "meaning": "Opinion, praise",
+        "examples": [
+            {
+                "word": "Orthodox",
+                "definition": "Conforming to what is generally or traditionally accepted."
+            },
+            {
+                "word": "Paradox",
+                "definition": "A seemingly absurd or self-contradictory statement."
+            },
+            {
+                "word": "Heterodox",
+                "definition": "Not conforming with accepted or orthodox standards."
+            }
+        ]
+    },
+    {
+        "root": "Dorm",
+        "meaning": "Sleep",
+        "examples": [
+            {
+                "word": "Dormant",
+                "definition": "Temporarily inactive or asleep."
+            },
+            {
+                "word": "Dormitory",
+                "definition": "A large bedroom for a number of people in a school."
+            },
+            {
+                "word": "Dormancy",
+                "definition": "A state of normal suspension of active operations."
+            }
+        ]
+    },
+    {
+        "root": "Equ",
+        "meaning": "Equal, fair",
+        "examples": [
+            {
+                "word": "Equanimity",
+                "definition": "Mental calmness and composure, especially in a difficult situation."
+            },
+            {
+                "word": "Equivocal",
+                "definition": "Open to more than one interpretation; ambiguous."
+            },
+            {
+                "word": "Egalitarian",
+                "definition": "Believing in the principle that all people are equal."
+            }
+        ]
+    },
+    {
+        "root": "Err",
+        "meaning": "To wander, stray",
+        "examples": [
+            {
+                "word": "Erratic",
+                "definition": "Not even or regular in pattern; unpredictable."
+            },
+            {
+                "word": "Aberration",
+                "definition": "A departure from what is normal, usual, or expected."
+            },
+            {
+                "word": "Erroneous",
+                "definition": "Wrong; incorrect."
+            }
+        ]
+    },
+    {
+        "root": "Ferv",
+        "meaning": "Boil, heat",
+        "examples": [
+            {
+                "word": "Fervent",
+                "definition": "Having or displaying a passionate intensity."
+            },
+            {
+                "word": "Fervor",
+                "definition": "Intense and passionate feeling."
+            },
+            {
+                "word": "Effervescent",
+                "definition": "Vivacious and enthusiastic; bubbly."
+            }
+        ]
+    },
+    {
+        "root": "Fid",
+        "meaning": "Faith, trust",
+        "examples": [
+            {
+                "word": "Fidelity",
+                "definition": "Faithfulness to a person, cause, or belief."
+            },
+            {
+                "word": "Perfidy",
+                "definition": "Deceitfulness; untrustworthiness."
+            },
+            {
+                "word": "Confidant",
+                "definition": "A person with whom one shares a secret or private matter."
+            }
+        ]
+    },
+    {
+        "root": "Frag",
+        "meaning": "Break",
+        "examples": [
+            {
+                "word": "Fragile",
+                "definition": "Easily broken or damaged."
+            },
+            {
+                "word": "Fractious",
+                "definition": "Irritable and quarrelsome."
+            },
+            {
+                "word": "Refract",
+                "definition": "Make a ray of light bend when it enters a substance."
+            }
+        ]
+    },
+    {
+        "root": "Fug",
+        "meaning": "Flee",
+        "examples": [
+            {
+                "word": "Fugitive",
+                "definition": "A person who has escaped from a place or is in hiding."
+            },
+            {
+                "word": "Refuge",
+                "definition": "The condition of being safe or sheltered from pursuit."
+            },
+            {
+                "word": "Subterfuge",
+                "definition": "Deceit used in order to achieve one's goal."
+            }
+        ]
+    },
+    {
+        "root": "Gen",
+        "meaning": "Birth, race, produce",
+        "examples": [
+            {
+                "word": "Indigenous",
+                "definition": "Originating or occurring naturally in a particular place."
+            },
+            {
+                "word": "Progeny",
+                "definition": "A descendant or the descendants of a person, animal, or plant."
+            },
+            {
+                "word": "Genocide",
+                "definition": "The deliberate killing of a large group of people."
+            }
+        ]
+    },
+    {
+        "root": "Grad",
+        "meaning": "Step, degree",
+        "examples": [
+            {
+                "word": "Gradient",
+                "definition": "An inclined part of a road or railway; a slope."
+            },
+            {
+                "word": "Retrograde",
+                "definition": "Directed or moving backward."
+            },
+            {
+                "word": "Degrade",
+                "definition": "Treat or regard with contempt or disrespect."
+            }
+        ]
+    },
+    {
+        "root": "Greg",
+        "meaning": "Flock, herd",
+        "examples": [
+            {
+                "word": "Gregarious",
+                "definition": "Fond of company; sociable."
+            },
+            {
+                "word": "Congregate",
+                "definition": "Gather into a crowd or mass."
+            },
+            {
+                "word": "Egregious",
+                "definition": "Outstandingly bad; shocking."
+            }
+        ]
+    },
+    {
+        "root": "Hemo",
+        "meaning": "Blood",
+        "examples": [
+            {
+                "word": "Hemorrhage",
+                "definition": "An escape of blood from a ruptured blood vessel."
+            },
+            {
+                "word": "Hemoglobin",
+                "definition": "A red protein responsible for transporting oxygen in the blood."
+            },
+            {
+                "word": "Hemophilia",
+                "definition": "A medical condition in which the ability of the blood to clot is severely impaired."
+            }
+        ]
+    },
+    {
+        "root": "Itiner",
+        "meaning": "Journey, path",
+        "examples": [
+            {
+                "word": "Itinerary",
+                "definition": "A planned route or journey."
+            },
+            {
+                "word": "Itinerant",
+                "definition": "Traveling from place to place."
+            },
+            {
+                "word": "Transient",
+                "definition": "Lasting for only a short time; impermanent."
+            }
+        ]
+    },
+    {
+        "root": "Ject",
+        "meaning": "To throw",
+        "examples": [
+            {
+                "word": "Interject",
+                "definition": "Say something abruptly, especially as an aside."
+            },
+            {
+                "word": "Projectile",
+                "definition": "A missile designed to be fired from a rocket or gun."
+            },
+            {
+                "word": "Abject",
+                "definition": "Extremely bad, unpleasant, and degrading."
+            }
+        ]
+    },
+    {
+        "root": "Jud",
+        "meaning": "Judge",
+        "examples": [
+            {
+                "word": "Judicious",
+                "definition": "Having, showing, or done with good judgment or sense."
+            },
+            {
+                "word": "Adjudicate",
+                "definition": "Make a formal judgment or decision about a problem."
+            },
+            {
+                "word": "Prejudice",
+                "definition": "Preconceived opinion that is not based on reason or actual experience."
+            }
+        ]
+    },
+    {
+        "root": "Loc",
+        "meaning": "Place",
+        "examples": [
+            {
+                "word": "Locate",
+                "definition": "Discover the exact place or position of."
+            },
+            {
+                "word": "Dislocate",
+                "definition": "Disturb normal arrangement or connectivity."
+            },
+            {
+                "word": "Collocate",
+                "definition": "Occur together with another word with a high frequency."
+            }
+        ]
+    },
+    {
+        "root": "Loqu",
+        "meaning": "To speak",
+        "examples": [
+            {
+                "word": "Loquacious",
+                "definition": "Tending to talk a great deal; talkative."
+            },
+            {
+                "word": "Soliloquy",
+                "definition": "An act of speaking one's thoughts aloud when by oneself."
+            },
+            {
+                "word": "Grandiloquent",
+                "definition": "Pompous or extravagant in language, style, or manner."
+            }
+        ]
+    },
+    {
+        "root": "Luc",
+        "meaning": "Light",
+        "examples": [
+            {
+                "word": "Lucid",
+                "definition": "Expressed clearly; easy to understand."
+            },
+            {
+                "word": "Elucidate",
+                "definition": "Make something clear; explain."
+            },
+            {
+                "word": "Translucent",
+                "definition": "Allowing light, but not detailed images, to pass through."
+            }
+        ]
+    },
+    {
+        "root": "Magn",
+        "meaning": "Large, great",
+        "examples": [
+            {
+                "word": "Magnificent",
+                "definition": "Extremely beautiful, elaborate, or impressive."
+            },
+            {
+                "word": "Magnitude",
+                "definition": "The great size or extent of something."
+            },
+            {
+                "word": "Magnate",
+                "definition": "A wealthy and influential businessman or businesswoman."
+            }
+        ]
+    },
+    {
+        "root": "Mal",
+        "meaning": "Bad, evil",
+        "examples": [
+            {
+                "word": "Malevolent",
+                "definition": "Having or showing a wish to do evil to others."
+            },
+            {
+                "word": "Malady",
+                "definition": "A disease or ailment."
+            },
+            {
+                "word": "Malapropism",
+                "definition": "The mistaken use of a word in place of a similar-sounding one."
+            }
+        ]
+    },
+    {
+        "root": "Manu",
+        "meaning": "Hand",
+        "examples": [
+            {
+                "word": "Manifold",
+                "definition": "Many and various."
+            },
+            {
+                "word": "Emancipate",
+                "definition": "Set free, especially from legal, social, or political restrictions."
+            },
+            {
+                "word": "Manoeuvre",
+                "definition": "A movement or series of moves requiring skill and care."
+            }
+        ]
+    },
+    {
+        "root": "Mater",
+        "meaning": "Mother",
+        "examples": [
+            {
+                "word": "Maternal",
+                "definition": "Relating to or characteristic of a mother."
+            },
+            {
+                "word": "Matriarch",
+                "definition": "A woman who is the head of a family or tribe."
+            },
+            {
+                "word": "Matriculate",
+                "definition": "Be enrolled at a college or university."
+            }
+        ]
+    },
+    {
+        "root": "Medi",
+        "meaning": "Middle",
+        "examples": [
+            {
+                "word": "Mediocre",
+                "definition": "Of only moderate quality; not very good."
+            },
+            {
+                "word": "Medieval",
+                "definition": "Relating to the Middle Ages."
+            },
+            {
+                "word": "Immediate",
+                "definition": "Occurring at once; instant."
+            }
+        ]
+    },
+    {
+        "root": "Mega",
+        "meaning": "Great, large",
+        "examples": [
+            {
+                "word": "Megalomania",
+                "definition": "Obsession with the exercise of power, especially in the domination of others."
+            },
+            {
+                "word": "Megalith",
+                "definition": "A large stone that forms a prehistoric monument."
+            },
+            {
+                "word": "Megaphone",
+                "definition": "A large cone-shaped device for amplifying the voice."
+            }
+        ]
+    },
+    {
+        "root": "Mem",
+        "meaning": "Mindful, recall",
+        "examples": [
+            {
+                "word": "Memento",
+                "definition": "An object kept as a reminder or souvenir of a person or event."
+            },
+            {
+                "word": "Commemorate",
+                "definition": "Recall and show respect for in a ceremony."
+            },
+            {
+                "word": "Memoir",
+                "definition": "A historical account or biography written from personal knowledge."
+            }
+        ]
+    },
+    {
+        "root": "Merc",
+        "meaning": "Pay, reward",
+        "examples": [
+            {
+                "word": "Mercenary",
+                "definition": "Primary concerned with making money at the expense of ethics."
+            },
+            {
+                "word": "Merciful",
+                "definition": "Showing or exercising mercy."
+            },
+            {
+                "word": "Amerce",
+                "definition": "Punish with a fine."
+            }
+        ]
+    },
+    {
+        "root": "Migr",
+        "meaning": "Move",
+        "examples": [
+            {
+                "word": "Migrate",
+                "definition": "Move from one area or country to settle in another."
+            },
+            {
+                "word": "Immigrant",
+                "definition": "A person who comes to live permanently in a foreign country."
+            },
+            {
+                "word": "Transmigration",
+                "definition": "The movement of one person or thing to another place."
+            }
+        ]
+    },
+    {
+        "root": "Min",
+        "meaning": "Small,less",
+        "examples": [
+            {
+                "word": "Minuscule",
+                "definition": "Extremely small; tiny."
+            },
+            {
+                "word": "Diminish",
+                "definition": "Make or become less."
+            },
+            {
+                "word": "Minutiae",
+                "definition": "The small, precise, or trivial details of something."
+            }
+        ]
+    },
+    {
+        "root": "Mit",
+        "meaning": "To send",
+        "examples": [
+            {
+                "word": "Transmit",
+                "definition": "Cause something to pass on from one place to another."
+            },
+            {
+                "word": "Emit",
+                "definition": "Produce and discharge something, especially gas or radiation."
+            },
+            {
+                "word": "Manumit",
+                "definition": "Release from slavery; set free."
+            }
+        ]
+    },
+    {
+        "root": "Ac, Acid",
+        "meaning": "Sharp, bitter, sour",
+        "examples": [
+            {
+                "word": "Acerbic",
+                "definition": "Sharp and forthright in taste, manner, or style."
+            },
+            {
+                "word": "Acrimony",
+                "definition": "Biterness or ill feeling."
+            },
+            {
+                "word": "Exacerbate",
+                "definition": "Make a problem, bad situation, or negative feeling worse."
+            }
+        ]
+    },
+    {
+        "root": "Agon",
+        "meaning": "Contest, struggle",
+        "examples": [
+            {
+                "word": "Protagonist",
+                "definition": "The leading character or one of the major characters in a drama, movie, novel, or other fictional text."
+            },
+            {
+                "word": "Antagonist",
+                "definition": "A person who actively opposes or is hostile to someone or something."
+            },
+            {
+                "word": "Agony",
+                "definition": "Extreme physical or mental suffering."
+            }
+        ]
+    },
+    {
+        "root": "Alt",
+        "meaning": "High, deep",
+        "examples": [
+            {
+                "word": "Altitude",
+                "definition": "The height of an object or point in relation to sea level or ground level."
+            },
+            {
+                "word": "Altiplano",
+                "definition": "High plateau region."
+            },
+            {
+                "word": "Exalt",
+                "definition": "Raise to a higher rank or a state of greater power and dignity."
+            }
+        ]
+    },
+    {
+        "root": "Ambul",
+        "meaning": "To walk, move around",
+        "examples": [
+            {
+                "word": "Somnambulism",
+                "definition": "Sleepwalking."
+            },
+            {
+                "word": "Perambulate",
+                "definition": "Walk or travel through or around a place, especially for pleasure."
+            },
+            {
+                "word": "Ambulatory",
+                "definition": "Relating to or adapted for walking."
+            }
+        ]
+    },
+    {
+        "root": "Amo, Amat",
+        "meaning": "Love, friend",
+        "examples": [
+            {
+                "word": "Amiable",
+                "definition": "Having or displaying a friendly and pleasant manner."
+            },
+            {
+                "word": "Amorous",
+                "definition": "Showingly, feeling, or relating to sexual desire."
+            },
+            {
+                "word": "Amity",
+                "definition": "Friendly relations."
+            }
+        ]
+    },
+    {
+        "root": "Andr",
+        "meaning": "Man, male",
+        "examples": [
+            {
+                "word": "Androgen",
+                "definition": "A male sex hormone."
+            },
+            {
+                "word": "Polyandry",
+                "definition": "Polygamy in which a woman has more than one husband."
+            },
+            {
+                "word": "Androcentric",
+                "definition": "Focused or centered on men."
+            }
+        ]
+    },
+    {
+        "root": "Anim",
+        "meaning": "Mind, life, spirit",
+        "examples": [
+            {
+                "word": "Magnanimous",
+                "definition": "Very generous or forgiving, especially toward a rival or someone less powerful."
+            },
+            {
+                "word": "Pusillanimous",
+                "definition": "Showing a lack of courage or determination; timid."
+            },
+            {
+                "word": "Equanimity",
+                "definition": "Mental calmness, composure, and evenness of temper, especially in a difficult situation."
+            }
+        ]
+    },
+    {
+        "root": "Aud",
+        "meaning": "Bold, daring",
+        "examples": [
+            {
+                "word": "Audacious",
+                "definition": "Showing a willingness to take surprisingly bold risks."
+            },
+            {
+                "word": "Audacity",
+                "definition": "A willingness to take bold risks."
+            },
+            {
+                "word": "Audacite",
+                "definition": "Reckless boldness."
+            }
+        ]
+    },
+    {
+        "root": "Bel, Bell",
+        "meaning": "War, fight",
+        "examples": [
+            {
+                "word": "Belligerent",
+                "definition": "Hostile and aggressive."
+            },
+            {
+                "word": "Bellicose",
+                "definition": "Demonstrating willingness to fight."
+            },
+            {
+                "word": "Antebellum",
+                "definition": "Occurring or existing before a particular war, notably the American Civil War."
+            }
+        ]
+    },
+    {
+        "root": "Brev",
+        "meaning": "Short",
+        "examples": [
+            {
+                "word": "Brevity",
+                "definition": "Concise and exact use of words in writing or speech."
+            },
+            {
+                "word": "Abbreviate",
+                "definition": "Shorten a word, phrase, or text."
+            },
+            {
+                "word": "Brief",
+                "definition": "Of short duration."
+            }
+        ]
+    },
+    {
+        "root": "Cad, Cas, Cid",
+        "meaning": "To fall",
+        "examples": [
+            {
+                "word": "Cadence",
+                "definition": "A modulation or inflection of the voice."
+            },
+            {
+                "word": "Decadence",
+                "definition": "Moral or cultural decline as characterized by excessive indulgence in pleasure or luxury."
+            },
+            {
+                "word": "Casualty",
+                "definition": "A person killed or injured in a war or accident."
+            }
+        ]
+    },
+    {
+        "root": "Cap, Capt, Cept",
+        "meaning": "To take, hold, seize",
+        "examples": [
+            {
+                "word": "Captivate",
+                "definition": "Attract and hold the interest and attention of; charm."
+            },
+            {
+                "word": "Precept",
+                "definition": "A general rule intended to regulate behavior or thought."
+            },
+            {
+                "word": "Incipient",
+                "definition": "In an initial stage; beginning to happen or develop."
+            }
+        ]
+    },
+    {
+        "root": "Carn",
+        "meaning": "Flesh",
+        "examples": [
+            {
+                "word": "Carnivorous",
+                "definition": "Feeding on other animals."
+            },
+            {
+                "word": "Carnival",
+                "definition": "A festive period; merrymaking."
+            },
+            {
+                "word": "Reincarnation",
+                "definition": "The rebirth of a soul in a new body."
+            }
+        ]
+    },
+    {
+        "root": "Caus, Caus",
+        "meaning": "Cause, motive",
+        "examples": [
+            {
+                "word": "Causality",
+                "definition": "The relationship between cause and effect."
+            },
+            {
+                "word": "Accusation",
+                "definition": "A charge or claim that someone has done something illegal or wrong."
+            },
+            {
+                "word": "Excuse",
+                "definition": "Attempt to lessen the blame of."
+            }
+        ]
+    },
+    {
+        "root": "Ced, Cess",
+        "meaning": "To go, yield, surrender",
+        "examples": [
+            {
+                "word": "Concede",
+                "definition": "Admit that something is true after first denying or resisting it."
+            },
+            {
+                "word": "Recede",
+                "definition": "Go or move back or further away from a previous position."
+            },
+            {
+                "word": "Incessant",
+                "definition": "(Of something regarded as unpleasant) continuing without pause or interruption."
+            }
+        ]
+    },
+    {
+        "root": "Celer",
+        "meaning": "Swift, speed",
+        "examples": [
+            {
+                "word": "Celerity",
+                "definition": "Swiftness of movement."
+            },
+            {
+                "word": "Accelerate",
+                "definition": "Begin to move more quickly."
+            },
+            {
+                "word": "Decelerate",
+                "definition": "Reduce speed."
+            }
+        ]
+    },
+    {
+        "root": "Clud, Clus",
+        "meaning": "To close, shut",
+        "examples": [
+            {
+                "word": "Seclude",
+                "definition": "Keep (someone) away from other people."
+            },
+            {
+                "word": "Recluse",
+                "definition": "A person who lives a solitary life and tends to avoid other people."
+            },
+            {
+                "word": "Preclude",
+                "definition": "Prevent from happening; make impossible."
+            }
+        ]
+    },
+    {
+        "root": "Cogn, Gnos",
+        "meaning": "To know",
+        "examples": [
+            {
+                "word": "Cognitive",
+                "definition": "Relating to mental action or process of acquiring knowledge."
+            },
+            {
+                "word": "Incognito",
+                "definition": "Having one's true identity concealed."
+            },
+            {
+                "word": "Diagnosis",
+                "definition": "The identification of the nature of an illness or other problem by examination."
+            }
+        ]
+    },
+    {
+        "root": "Corp",
+        "meaning": "Body",
+        "examples": [
+            {
+                "word": "Corpulent",
+                "definition": "(Of a person) fat."
+            },
+            {
+                "word": "Corpuscle",
+                "definition": "A minute body or cell in an organism."
+            },
+            {
+                "word": "Incorporate",
+                "definition": "Take in or contain as part of a whole."
+            }
+        ]
+    },
+    {
+        "root": "Cred",
+        "meaning": "Believe, trust",
+        "examples": [
+            {
+                "word": "Credulous",
+                "definition": "Showing too much readiness to believe things."
+            },
+            {
+                "word": "Incredulous",
+                "definition": "Unwilling or unable to believe something."
+            },
+            {
+                "word": "Accredited",
+                "definition": "Officially recognized or authorized."
+            }
+        ]
+    },
+    {
+        "root": "Culp",
+        "meaning": "Guilt, blame",
+        "examples": [
+            {
+                "word": "Culpable",
+                "definition": "Deserving blame."
+            },
+            {
+                "word": "Exculpate",
+                "definition": "Show or declare that someone is not guilty of wrongdoing."
+            },
+            {
+                "word": "Culprit",
+                "definition": "A person who is responsible for a crime or other misdeed."
+            }
+        ]
+    },
+    {
+        "root": "Derm",
+        "meaning": "Skin",
+        "examples": [
+            {
+                "word": "Dermatology",
+                "definition": "The branch of medicine concerned with the skin."
+            },
+            {
+                "word": "Epidermis",
+                "definition": "The outer layer of cells covering an organism."
+            },
+            {
+                "word": "Hypodermic",
+                "definition": "Referred to the region directly beneath the skin."
+            }
+        ]
+    },
+    {
+        "root": "Dorm",
+        "meaning": "Sleep",
+        "examples": [
+            {
+                "word": "Dormant",
+                "definition": "Temporarily inactive or inoperative."
+            },
+            {
+                "word": "Dormitory",
+                "definition": "A large bedroom for a number of people in an institution."
+            },
+            {
+                "word": "Dormancy",
+                "definition": "A period of suspended activity."
+            }
+        ]
+    },
+    {
+        "root": "Equ",
+        "meaning": "Equal, fair",
+        "examples": [
+            {
+                "word": "Equivocal",
+                "definition": "Open to more than one interpretation; ambiguous."
+            },
+            {
+                "word": "Egalitarian",
+                "definition": "Believing in or based on the principle that all people are equal."
+            },
+            {
+                "word": "Equilibrium",
+                "definition": "A state of physical balance."
+            }
+        ]
+    },
+    {
+        "root": "Err",
+        "meaning": "To wander, stray",
+        "examples": [
+            {
+                "word": "Erratic",
+                "definition": "Not even or regular in pattern or movement; unpredictable."
+            },
+            {
+                "word": "Aberration",
+                "definition": "A departure from what is normal, usual, or expected, typically one that is unwelcome."
+            },
+            {
+                "word": "Erroneous",
+                "definition": "Wrong; incorrect."
+            }
+        ]
+    },
+    {
+        "root": "Ferv",
+        "meaning": "Boil, heat",
+        "examples": [
+            {
+                "word": "Fervent",
+                "definition": "Having or displaying a passionate intensity."
+            },
+            {
+                "word": "Fervor",
+                "definition": "Intense and passionate feeling."
+            },
+            {
+                "word": "Effervescent",
+                "definition": "Vivacious and enthusiastic; giving off bubbles."
+            }
+        ]
+    },
+    {
+        "root": "Fid",
+        "meaning": "Faith, trust",
+        "examples": [
+            {
+                "word": "Fidelity",
+                "definition": "Faithfulness to a person, cause, or belief."
+            },
+            {
+                "word": "Perfidy",
+                "definition": "Deceitfulness; untrustworthiness."
+            },
+            {
+                "word": "Confidant",
+                "definition": "A person with whom one shares a secret or private matter."
+            }
+        ]
+    },
+    {
+        "root": "Frag, Fract",
+        "meaning": "Break",
+        "examples": [
+            {
+                "word": "Fractious",
+                "definition": "Irritable and quarrelsome."
+            },
+            {
+                "word": "Refract",
+                "definition": "(Of water, air, or glass) make (a ray of light) change direction when it enters at an angle."
+            },
+            {
+                "word": "Fragmentary",
+                "definition": "Consisting of small disconnected parts."
+            }
+        ]
+    },
+    {
+        "root": "Fug",
+        "meaning": "Flee, escape",
+        "examples": [
+            {
+                "word": "Fugitive",
+                "definition": "A person who has escaped from a place or is in hiding to avoid arrest."
+            },
+            {
+                "word": "Subterfuge",
+                "definition": "Deceit used in order to achieve one's goal."
+            },
+            {
+                "word": "Centrifugal",
+                "definition": "Moving or tending to move outward from a center."
+            }
+        ]
+    },
+    {
+        "root": "Gen",
+        "meaning": "Birth, race, kind",
+        "examples": [
+            {
+                "word": "Genteel",
+                "definition": "Polite, refined, or respectable, often in an affected or ostentatious way."
+            },
+            {
+                "word": "Indigenous",
+                "definition": "Originating or occurring naturally in a particular place."
+            },
+            {
+                "word": "Progenitor",
+                "definition": "A person or thing from which a person, animal, or plant is descended or originates."
+            }
+        ]
+    },
+    {
+        "root": "Grad, Gress",
+        "meaning": "Step, go",
+        "examples": [
+            {
+                "word": "Digress",
+                "definition": "Leave the main subject temporarily in speech or writing."
+            },
+            {
+                "word": "Retrograde",
+                "definition": "Directed or moving backward."
+            },
+            {
+                "word": "Transgress",
+                "definition": "Infringe or go beyond the bounds of a moral principle or other established standard."
+            }
+        ]
+    },
+    {
+        "root": "Greg",
+        "meaning": "Flock, herd",
+        "examples": [
+            {
+                "word": "Gregarious",
+                "definition": "(Of a person) fond of company; sociable."
+            },
+            {
+                "word": "Congregate",
+                "definition": "Gather into a crowd or mass."
+            },
+            {
+                "word": "Egregious",
+                "definition": "Outstandingly bad; shocking."
+            }
+        ]
+    },
+    {
+        "root": "Hemo, Hem",
+        "meaning": "Blood",
+        "examples": [
+            {
+                "word": "Hemorrhage",
+                "definition": "An escape of blood from a ruptured blood vessel."
+            },
+            {
+                "word": "Hemoglobin",
+                "definition": "A red protein responsible for transporting oxygen in the blood."
+            },
+            {
+                "word": "Hematology",
+                "definition": "The study of the physiology of blood."
+            }
+        ]
+    },
+    {
+        "root": "Itiner",
+        "meaning": "Journey, route",
+        "examples": [
+            {
+                "word": "Itinerary",
+                "definition": "A planned route or journey."
+            },
+            {
+                "word": "Itinerant",
+                "definition": "Traveling from place to place."
+            },
+            {
+                "word": "Itinerancy",
+                "definition": "The habit of traveling from place to place."
+            }
+        ]
+    },
+    {
+        "root": "Ject",
+        "meaning": "Throw",
+        "examples": [
+            {
+                "word": "Abject",
+                "definition": "(Of something bad) experienced or present to the maximum degree."
+            },
+            {
+                "word": "Conjecture",
+                "definition": "An opinion or conclusion formed on the basis of incomplete information."
+            },
+            {
+                "word": "Interject",
+                "definition": "Say something abruptly, especially as an aside or interruption."
+            }
+        ]
+    },
+    {
+        "root": "Jud",
+        "meaning": "Judge",
+        "examples": [
+            {
+                "word": "Judicious",
+                "definition": "Having, showing, or done with good judgment or sense."
+            },
+            {
+                "word": "Adjudicate",
+                "definition": "Make a formal judgment or decision about a problem or disputed matter."
+            },
+            {
+                "word": "Prejudice",
+                "definition": "Preconceived opinion that is not based on reason or actual experience."
+            }
+        ]
+    },
+    {
+        "root": "Loqu, Locut",
+        "meaning": "Speak",
+        "examples": [
+            {
+                "word": "Loquacious",
+                "definition": "Tending to talk a great deal; talkative."
+            },
+            {
+                "word": "Soliloquy",
+                "definition": "An act of speaking one's thoughts aloud when by oneself or regardless of any hearers."
+            },
+            {
+                "word": "Circumlocution",
+                "definition": "The use of many words where fewer would do, especially in a deliberate attempt to be vague or evasive."
+            }
+        ]
+    },
+    {
+        "root": "Magn",
+        "meaning": "Large, great",
+        "examples": [
+            {
+                "word": "Magnate",
+                "definition": "A wealthy and influential businessman or businesswoman."
+            },
+            {
+                "word": "Magniloquent",
+                "definition": "Using high-flown or bombastic language."
+            },
+            {
+                "word": "Magnum opus",
+                "definition": "A large and important work of art, music, or literature."
+            }
+        ]
+    },
+    {
+        "root": "Mal",
+        "meaning": "Bad, evil",
+        "examples": [
+            {
+                "word": "Malediction",
+                "definition": "A magical word or phrase uttered with the intention of bringing about evil or destruction; a curse."
+            },
+            {
+                "word": "Malapropism",
+                "definition": "The mistaken use of a word in place of a similar-sounding one."
+            },
+            {
+                "word": "Malefactor",
+                "definition": "A person who commits a crime or some other wrong."
+            }
+        ]
+    },
+    {
+        "root": "Manu",
+        "meaning": "Hand",
+        "examples": [
+            {
+                "word": "Manumit",
+                "definition": "Release from slavery; set free."
+            },
+            {
+                "word": "Manacle",
+                "definition": "A metal band, chain, or shackle for fastening someone's hands or ankles."
+            },
+            {
+                "word": "Manifest",
+                "definition": "Clear or obvious to the eye or mind."
+            }
+        ]
+    },
+    {
+        "root": "Mater, Matr",
+        "meaning": "Mother",
+        "examples": [
+            {
+                "word": "Matriarch",
+                "definition": "A woman who is the head of a family or tribe."
+            },
+            {
+                "word": "Matriculate",
+                "definition": "Be enrolled at a college or university."
+            },
+            {
+                "word": "Maternity",
+                "definition": "Motherhood."
+            }
+        ]
+    },
+    {
+        "root": "Medi",
+        "meaning": "Middle",
+        "examples": [
+            {
+                "word": "Mediocre",
+                "definition": "Of only moderate quality; not very good."
+            },
+            {
+                "word": "Mediate",
+                "definition": "Intervene between people in a dispute in order to bring about an agreement."
+            },
+            {
+                "word": "Mediterranean",
+                "definition": "Relating to the Mediterranean Sea or the countries surrounding it."
+            }
+        ]
+    },
+    {
+        "root": "Mem",
+        "meaning": "Mindful, remember",
+        "examples": [
+            {
+                "word": "Memento",
+                "definition": "An object kept as a reminder or souvenir of a person or event."
+            },
+            {
+                "word": "Memoir",
+                "definition": "A historical account or biography written from personal knowledge."
+            },
+            {
+                "word": "Commemorate",
+                "definition": "Recall and show respect for (someone or something) in a ceremony."
+            }
+        ]
+    },
+    {
+        "root": "Merc",
+        "meaning": "Pay, trade",
+        "examples": [
+            {
+                "word": "Mercenary",
+                "definition": "Primary concerned with making money at the expense of ethics."
+            },
+            {
+                "word": "Mercantile",
+                "definition": "Relating to trade or commerce."
+            },
+            {
+                "word": "Amerce",
+                "definition": "Punish with a fine."
+            }
+        ]
+    },
+    {
+        "root": "Migr",
+        "meaning": "Move",
+        "examples": [
+            {
+                "word": "Migratory",
+                "definition": "Tending to migrate or having characteristics of a migrant."
+            },
+            {
+                "word": "Emigrate",
+                "definition": "Leave one's own country in order to settle permanently in another."
+            },
+            {
+                "word": "Immigrate",
+                "definition": "Come to live permanently in a foreign country."
+            }
+        ]
+    },
+    {
+        "root": "Min",
+        "meaning": "Small, less",
+        "examples": [
+            {
+                "word": "Minutiae",
+                "definition": "The small, precise, or trivial details of something."
+            },
+            {
+                "word": "Diminish",
+                "definition": "Make or become less."
+            },
+            {
+                "word": "Minuscule",
+                "definition": "Extremely small; tiny."
+            }
+        ]
+    },
+    {
+        "root": "Mit, Miss",
+        "meaning": "Send",
+        "examples": [
+            {
+                "word": "Transmit",
+                "definition": "Pass on from one place or person to another."
+            },
+            {
+                "word": "Emissary",
+                "definition": "A person sent on a special mission, usually as a diplomatic representative."
+            },
+            {
+                "word": "Manumission",
+                "definition": "The act of a slave owner freeing his or her slaves."
+            }
+        ]
+    },
+    {
+        "root": "Morph",
+        "meaning": "Form, shape",
+        "examples": [
+            {
+                "word": "Metamorphosis",
+                "definition": "A change of the form or nature of a thing or person into a completely different one."
+            },
+            {
+                "word": "Amorphous",
+                "definition": "Without a clearly defined shape or form."
+            },
+            {
+                "word": "Anthropomorphic",
+                "definition": "Having human characteristics."
+            }
+        ]
+    },
+    {
+        "root": "Pater, Patr",
+        "meaning": "Father",
+        "examples": [
+            {
+                "word": "Patrician",
+                "definition": "An aristocrat or nobleman."
+            },
+            {
+                "word": "Patronymic",
+                "definition": "A name derived from the name of a father or ancestor."
+            },
+            {
+                "word": "Expatriate",
+                "definition": "A person who lives outside their native country."
+            }
+        ]
+    },
+    {
+        "root": "Ped, Pod",
+        "meaning": "Foot",
+        "examples": [
+            {
+                "word": "Pedestrian",
+                "definition": "A person walking rather than traveling in a vehicle."
+            },
+            {
+                "word": "Expedite",
+                "definition": "Make an action or process easy or quicker."
+            },
+            {
+                "word": "Antipodes",
+                "definition": "The direct opposite of something."
+            }
+        ]
     }
 ];
