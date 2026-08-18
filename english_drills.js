@@ -3,6 +3,24 @@ let currentEnglishDrillIndex = 0;
 let englishDrillScore = 0;
 let activeEnglishDrillMode = '';
 
+// Normalize a question object to the standard format used by the drill renderer.
+// New MCQ generators use: q, opts, ans, exp
+// Old questions.js uses: question, options, answer, explanation
+function normalizeQ(q) {
+    return {
+        id: q.id,
+        subject: q.subject,
+        cls: q.cls,
+        topic: q.topic,
+        year: q.year || q.examYear || '',
+        examShift: q.examShift || '',
+        question: q.question || q.q || '',
+        options: q.options || q.opts || [],
+        answer: (q.answer !== undefined) ? q.answer : (q.ans !== undefined ? q.ans : 0),
+        explanation: q.explanation || q.exp || ''
+    };
+}
+
 function startEnglishDrill(mode) {
     activeEnglishDrillMode = mode;
     englishDrillScore = 0;
@@ -15,28 +33,28 @@ function startEnglishDrill(mode) {
     if (mode === 'cloze') {
         // Find questions containing "Comprehension:" or "passage"
         englishDrillQuestions = allEnglish.filter(q => 
-            q.question.toLowerCase().includes('comprehension:') || 
-            q.question.toLowerCase().includes('deleted. read the passage')
-        );
+            (q.question || '').toLowerCase().includes('comprehension:') || 
+            (q.question || '').toLowerCase().includes('deleted. read the passage')
+        ).map(normalizeQ);
     } else if (mode === 'pqrs') {
         // Find questions mentioning "jumbled" or "order"
         englishDrillQuestions = allEnglish.filter(q => 
-            q.question.toLowerCase().includes('jumbled order') ||
-            q.question.toLowerCase().includes('arrange the sentences') ||
-            q.question.toLowerCase().includes('correct order')
-        );
+            (q.question || '').toLowerCase().includes('jumbled order') ||
+            (q.question || '').toLowerCase().includes('arrange the sentences') ||
+            (q.question || '').toLowerCase().includes('correct order')
+        ).map(normalizeQ);
     } else if (mode === 'spotting') {
-        // Find the newly generated grammar rules questions
-        englishDrillQuestions = allEnglish.filter(q => q.topic === 'english_drills' && q.cls === 'Grammar');
+        // Find the grammar rules questions
+        englishDrillQuestions = allEnglish.filter(q => q.topic === 'english_drills' && q.cls === 'Grammar').map(normalizeQ);
     } else if (mode === 'roots') {
-        // Find the newly generated Etymology / Root word questions
-        englishDrillQuestions = allEnglish.filter(q => q.cls === 'Etymology');
+        // Find the Etymology / Root word questions
+        englishDrillQuestions = allEnglish.filter(q => q.cls === 'Etymology').map(normalizeQ);
     } else if (mode === 'ows') {
         // Find the OWS questions
-        englishDrillQuestions = allEnglish.filter(q => q.cls === 'OWS');
+        englishDrillQuestions = allEnglish.filter(q => q.cls === 'OWS').map(normalizeQ);
     } else if (mode === 'affixes') {
         // Find the Affixes questions
-        englishDrillQuestions = allEnglish.filter(q => q.cls === 'Affixes');
+        englishDrillQuestions = allEnglish.filter(q => q.cls === 'Affixes').map(normalizeQ);
     }
 
     if (englishDrillQuestions.length === 0) {
