@@ -70,8 +70,7 @@ const WEEK_TASKS = [
     { id: "wt2", text: "Study basics of Percentages (Concept videos + examples)", completed: false },
     { id: "wt3", text: "Solve 20 CGL PYQs on Percentages", completed: false },
     { id: "wt4", text: "Study Ratio & Proportion concepts (Mean/Third proportional)", completed: false },
-    { id: "wt5", text: "Solve 20 CGL PYQs on Ratios & Proportions", completed: false },
-    { id: "wt6", text: "Take 1 Sectional Maths Mock Test & analyze weak calculations", completed: false }
+    { id: "wt5", text: "Solve 20 CGL PYQs on Ratios & Proportions", completed: false }
 ];
 
 // --- 4. STATE MANAGEMENT & LOCAL STORAGE ---
