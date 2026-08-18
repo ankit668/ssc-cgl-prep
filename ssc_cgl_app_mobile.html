@@ -83680,37 +83680,6 @@ function renderDashboard() {
     document.getElementById('stats-trainer-score').innerText = appState.trainerHighScore;
     document.getElementById('streak-days').innerText = appState.studyStreak;
 
-    // Render Weekly Tasks
-    const container = document.getElementById('current-week-tasks');
-    container.innerHTML = "";
-
-    let completedCount = 0;
-    WEEK_TASKS.forEach(task => {
-        const isCompleted = appState.completedTasks.includes(task.id);
-        if (isCompleted) completedCount++;
-
-        const taskItem = document.createElement('div');
-        taskItem.className = `task-item ${isCompleted ? 'completed' : ''}`;
-        taskItem.innerHTML = `
-            <input type="checkbox" class="task-checkbox" data-id="${task.id}" ${isCompleted ? 'checked' : ''}>
-            <span>${task.text}</span>
-        `;
-
-        // Handle checkbox toggles
-        const checkbox = taskItem.querySelector('.task-checkbox');
-        checkbox.addEventListener('change', (e) => {
-            toggleTask(task.id, e.target.checked);
-        });
-
-        container.appendChild(taskItem);
-    });
-
-    // Update progress bar
-    const totalTasks = WEEK_TASKS.length;
-    const progressPercent = totalTasks > 0 ? Math.round((completedCount / totalTasks) * 100) : 0;
-    document.getElementById('progress-percent-label').innerText = `${progressPercent}% Complete`;
-    document.getElementById('dashboard-progress-fill').style.width = `${progressPercent}%`;
-
     // Render score history chart
     renderScoreChart();
 }
