@@ -225,12 +225,17 @@ function setupNavigation() {
             if (tabId === "typing") label = "CGL Typing Test";
             if (tabId === "jjatyping") label = "Delhi HC JJA Typing";
             if (tabId === "editorial") label = "Daily Editorial";
-            if (tabId === "mistakes") label = "📓 Mistake Book";
+            if (tabId === "mistakes") label = "Mistake Book";
             if (tabId === "vocab") label = "Vocab Flashcards";
             if (tabId === "ncert") label = "NCERT GA Vault";
             if (tabId === "study") label = "Study Notes";
             if (tabId === "reasoning") label = "Reasoning Drills";
             if (tabId === "english-drills") label = "English Drills";
+            if (tabId === "grammar") label = "120 Grammar Rules";
+            if (tabId === "roots") label = "Etymology Vault";
+            if (tabId === "ows") label = "One Word Substitutions";
+            if (tabId === "affixes") label = "Prefixes & Suffixes";
+            if (tabId === "quant-drills") label = "Quant Drills";
             title.innerText = label;
 
             // Trigger conditional renders

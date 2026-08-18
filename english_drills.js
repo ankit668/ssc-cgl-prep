@@ -148,7 +148,8 @@ function checkEnglishDrillAnswer(selectedIdx) {
     }
     
     let explanationDiv = document.getElementById('english-drill-explanation');
-    explanationDiv.innerHTML = `<strong>Explanation:</strong> ${q.explanation}<br><br><span style="font-size:12px; color:var(--text-muted);">Source: ${q.year} - ${q.examShift}</span>`;
+    let sourceHtml = (q.year || q.examShift) ? `<br><br><span style="font-size:12px; color:var(--text-muted);">Source: ${q.year} ${q.examShift}</span>` : '';
+    explanationDiv.innerHTML = `<strong>Explanation:</strong> ${q.explanation}${sourceHtml}`;
     explanationDiv.classList.remove('hidden');
     
     document.getElementById('english-drill-next-btn').classList.remove('hidden');
