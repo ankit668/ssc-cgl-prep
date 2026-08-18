@@ -2,6 +2,8 @@ let quantDrillQuestions = [];
 let currentQuantDrillIndex = 0;
 let quantDrillScore = 0;
 let quantDrillTarget = 20;
+let quantDrillTimerInterval;
+let quantDrillTimeLeft = 1500;
 
 function startQuantDrill() {
     quantDrillScore = 0;
@@ -35,6 +37,22 @@ function startQuantDrill() {
     document.getElementById('quant-drills-start-screen').classList.add('hidden');
     document.getElementById('quant-drills-results-screen').classList.add('hidden');
     document.getElementById('quant-drills-active-screen').classList.remove('hidden');
+
+    clearInterval(quantDrillTimerInterval);
+    quantDrillTimeLeft = 1500; // 25 minutes
+    document.getElementById('quant-drill-timer').textContent = '25:00';
+    quantDrillTimerInterval = setInterval(() => {
+        quantDrillTimeLeft--;
+        if (quantDrillTimeLeft <= 0) {
+            clearInterval(quantDrillTimerInterval);
+            document.getElementById('quant-drill-timer').textContent = '00:00';
+            endQuantDrill();
+            return;
+        }
+        let m = Math.floor(quantDrillTimeLeft / 60);
+        let s = quantDrillTimeLeft % 60;
+        document.getElementById('quant-drill-timer').textContent = `${m < 10 ? '0' : ''}${m}:${s < 10 ? '0' : ''}${s}`;
+    }, 1000);
 
     updateQuantDrillMilestone();
     renderQuantDrillQuestion();
@@ -117,6 +135,7 @@ function nextQuantDrillQuestion() {
 }
 
 function endQuantDrill() {
+    clearInterval(quantDrillTimerInterval);
     document.getElementById('quant-drills-active-screen').classList.add('hidden');
     document.getElementById('quant-drills-results-screen').classList.remove('hidden');
     

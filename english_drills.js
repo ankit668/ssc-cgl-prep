@@ -2,6 +2,8 @@ let englishDrillQuestions = [];
 let currentEnglishDrillIndex = 0;
 let englishDrillScore = 0;
 let activeEnglishDrillMode = '';
+let englishDrillTimerInterval;
+let englishDrillTimeLeft = 600;
 
 // Normalize a question object to the standard format used by the drill renderer.
 // New MCQ generators use: q, opts, ans, exp
@@ -77,6 +79,22 @@ function startEnglishDrill(mode) {
     } else {
         document.getElementById('english-drill-passage-panel').classList.add('hidden');
     }
+
+    clearInterval(englishDrillTimerInterval);
+    englishDrillTimeLeft = 600; // 10 minutes
+    document.getElementById('english-drill-timer').textContent = '10:00';
+    englishDrillTimerInterval = setInterval(() => {
+        englishDrillTimeLeft--;
+        if (englishDrillTimeLeft <= 0) {
+            clearInterval(englishDrillTimerInterval);
+            document.getElementById('english-drill-timer').textContent = '00:00';
+            endEnglishDrill();
+            return;
+        }
+        let m = Math.floor(englishDrillTimeLeft / 60);
+        let s = englishDrillTimeLeft % 60;
+        document.getElementById('english-drill-timer').textContent = `${m < 10 ? '0' : ''}${m}:${s < 10 ? '0' : ''}${s}`;
+    }, 1000);
 
     renderEnglishDrillQuestion();
 }
@@ -195,12 +213,14 @@ function nextEnglishDrillQ() {
 }
 
 function endEnglishDrill() {
+    clearInterval(englishDrillTimerInterval);
     document.getElementById('english-drills-active-screen').classList.add('hidden');
     document.getElementById('english-drills-results-screen').classList.remove('hidden');
     document.getElementById('english-drill-final-score').textContent = `${englishDrillScore} / ${englishDrillQuestions.length}`;
 }
 
 function quitEnglishDrill() {
+    clearInterval(englishDrillTimerInterval);
     document.getElementById('english-drills-active-screen').classList.add('hidden');
     document.getElementById('english-drills-results-screen').classList.add('hidden');
     document.getElementById('english-drills-select-screen').classList.remove('hidden');
