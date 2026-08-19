@@ -1,6 +1,6 @@
 window.fatmanGeography = {
-    "chapter": "Geography: Complete Part 1 (Solar System to Himalayas) - Vigilant Edition",
-    "notes": "\n<h3>1. Origin of Universe & Cosmology</h3>\n<ul>\n    <li><strong>Cosmology:</strong> Study of Universe. <strong>Astronomy:</strong> Study of celestial bodies.</li>\n    <li><strong>Big Bang Theory (1927):</strong> Georges Lema\u00eetre. Universe expanded from a point 13.8 billion yrs ago.</li>\n    <li><strong>Edwin Hubble (1929):</strong> Proved continuous expansion.</li>\n    <li><strong>Steady State Theory (1948):</strong> Fred Hoyle. Expanding but properties remain unchanged.</li>\n    <li><strong>Nebular Hypothesis (1755/1796):</strong> Kant & Laplace. Solar system formed from spinning nebula.</li>\n    <li><strong>Planetesimal Theory (1905):</strong> Chamberlin & Moulton.</li>\n    <li><strong>Binary Star Hypothesis (1937):</strong> H.N. Russell.</li>\n</ul>\n\n<h3>2. Stars, Galaxies & The Sun</h3>\n<ul>\n    <li><strong>Galaxies:</strong> Milky Way (Spiral, Orion Spur). Nearest is Andromeda (M-31).</li>\n    <li><strong>Constellations:</strong> Ursa Major (Great Bear/Saptarishi), Ursa Minor (Little Bear, Polaris/North Star), Cassiopeia (W-shaped), Cygnus (Cross), Orion (Hunter, Rigel).</li>\n    <li><strong>Sun:</strong> 150M km away. Light takes 8 min 20 sec. Surface=5800K, Center=15.7M K. Nuclear Fusion (H to He).</li>\n    <li><strong>Solar Cycle:</strong> 11 years. Solar flares cause Auroras (Borealis-North, Australis-South).</li>\n    <li><strong>Chandrasekhar Limit:</strong> 1.44 x Sun's mass. Maximum mass of a white dwarf before supernova.</li>\n</ul>\n\n<h3>3. The Planets (Exhaustive)</h3>\n<ul>\n    <li><strong>Mercury:</strong> Closest, smallest (4900km diameter), fastest (88 days), NO atmosphere, NO moon.</li>\n    <li><strong>Venus:</strong> Hottest (CO2 + Sulfuric acid clouds), brightest, slowest rotation (243 days). Rotates East to West. 'Morning/Evening Star'.</li>\n    <li><strong>Earth:</strong> Densest (5.51 g/cm\u00b3), 23.5\u00b0 axial tilt.</li>\n    <li><strong>Mars:</strong> Red (Iron oxide). Moons: Phobos & Deimos. Volcano: Olympus Mons (tallest in solar sys).</li>\n    <li><strong>Jupiter:</strong> Largest, fastest rotation (9h 55m). 97 moons (Ganymede is largest).</li>\n    <li><strong>Saturn:</strong> Least density (0.69 g/cm\u00b3 - floats on water). Rings discovered by Huygens (1655). Moon: Titan.</li>\n    <li><strong>Uranus:</strong> Green planet (Methane). Discovered by William Herschel (1781). Rotates East to West.</li>\n    <li><strong>Neptune:</strong> Farthest, coldest, bluish (Methane). Discovered by Johann Galle (1846). Longest revolution (165 yrs). Moon: Triton.</li>\n</ul>\n\n<h3>4. Moon & Dwarf Planets</h3>\n<ul>\n    <li><strong>Moon:</strong> Only natural satellite. Distance: 3,84,000 km. Highest peak: Mt. Leibniz. Gravity: 1/6th of Earth.</li>\n    <li><strong>Pluto:</strong> Discovered by Clyde Tombaugh. Demoted in 2006 by IAU. Moon: Charon.</li>\n    <li><strong>Other Dwarf Planets:</strong> Eris, Makemake, Haumea, Ceres (in Asteroid belt).</li>\n    <li><strong>Space Missions:</strong> Chandrayaan-3 (Vikram/Pragyaan, Aug 23 - Nat Space Day). Aditya L1 (Lagrange Point 1). MOM/Mangalyaan (Sep 24, 2014).</li>\n</ul>\n\n<h3>5. Earth's Shape, Latitudes & Longitudes</h3>\n<ul>\n    <li><strong>Geodesy:</strong> Study of Earth's shape (Geoid / Oblate Spheroid). Bulges at equator due to centrifugal force.</li>\n    <li><strong>Equatorial Radii:</strong> 6378 km (Polar is 6357 km).</li>\n    <li><strong>Rotation:</strong> West to East (23h 56m 4s). <strong>Revolution:</strong> 365 days 5h 59m 16s.</li>\n    <li><strong>Perihelion:</strong> Closest to Sun (Jan 3). <strong>Aphelion:</strong> Farthest (July 4).</li>\n    <li><strong>Perigee:</strong> Moon closest to Earth. <strong>Apogee:</strong> Farthest.</li>\n    <li><strong>Latitudes:</strong> 1\u00b0 = 111 km. Equator is largest. Tropics: Cancer (23.5\u00b0N), Capricorn (23.5\u00b0S).</li>\n    <li><strong>Longitudes (Meridians):</strong> 1\u00b0 = 4 mins. Distance decreases towards poles. Prime Meridian (0\u00b0) passes Greenwich. International Date Line (180\u00b0 - zigzag).</li>\n</ul>\n\n<h3>6. Eclipses, Solstice & Tides</h3>\n<ul>\n    <li><strong>Summer Solstice:</strong> June 21. <strong>Winter Solstice:</strong> Dec 22.</li>\n    <li><strong>Vernal Equinox:</strong> Mar 21. <strong>Autumnal Equinox:</strong> Sept 23.</li>\n    <li><strong>Syzygy:</strong> Sun, Moon, Earth in straight line. Causes Eclipses & Spring Tides.</li>\n    <li><strong>Solar Eclipse:</strong> Occurs on New Moon (Amavasya). Earth passes in moon's shadow (Umbra=dark, Penumbra=light).</li>\n    <li><strong>Lunar Eclipse:</strong> Occurs on Full Moon (Purnima).</li>\n    <li><strong>Tides:</strong> Caused by Moon & Sun gravity. Spring tide (straight line). Neap tide (Quadrature / perpendicular).</li>\n</ul>\n\n<h3>7. Earth's Interior & Discontinuities</h3>\n<ul>\n    <li><strong>Crust:</strong> Continental (SIAL - Silica/Aluminium, 2.7 g/cm\u00b3), Oceanic (SIMA - Silica/Magnesium, 2.9 g/cm\u00b3, denser).</li>\n    <li><strong>Mantle:</strong> Contains Asthenosphere (semi-molten, source of magma).</li>\n    <li><strong>Core:</strong> NiFe (Nickel/Iron). Outer core is liquid, Inner core is solid.</li>\n    <li><strong>Discontinuities (Koi Mujhe Red Gulab Lado):</strong> Conrad (Upper/Lower Crust), Mohorovicic (Crust/Mantle), Repetti (Upper/Lower Mantle), Gutenberg (Mantle/Outer Core), Lehmann (Outer/Inner Core).</li>\n</ul>\n\n<h3>8. Earthquakes & Plate Tectonics</h3>\n<ul>\n    <li><strong>Focus (Hypocenter):</strong> Where earthquake starts underground. <strong>Epicenter:</strong> Point directly above on surface.</li>\n    <li><strong>P-Waves:</strong> Primary, longitudinal (like sound), fastest, pass through Solid/Liquid/Gas.</li>\n    <li><strong>S-Waves:</strong> Secondary, transverse, slower, pass ONLY through Solids.</li>\n    <li><strong>Surface Waves:</strong> Love & Rayleigh waves. Slowest, most destructive.</li>\n    <li><strong>Scales:</strong> Richter (Magnitude 0-10, limitless), Mercalli (Intensity/Damage 1-12).</li>\n    <li><strong>Tsunami:</strong> \"Harbour waves\". Boxing Day Tsunami (Dec 26, 2004).</li>\n    <li><strong>Plate Boundaries:</strong> Divergent (constructive), Convergent (destructive, forms fold mountains/trenches), Transform (conservative, San Andreas fault).</li>\n</ul>\n\n<h3>9. Rocks & Volcanoes</h3>\n<ul>\n    <li><strong>Igneous (Primary):</strong> From magma. Intrusive: Batholith (massive), Dyke (vertical), Sill (horizontal), Phacolith (lens-shaped), Laccolith (dome), Lopolith (saucer). Extrusive: Basalt, Pumice.</li>\n    <li><strong>Sedimentary:</strong> Formed by lithification. Has fossils. Sandstone, Limestone, Shale.</li>\n    <li><strong>Metamorphic:</strong> Changed by heat/pressure. Limestone -> Marble. Sandstone -> Quartzite. Shale -> Slate. Granite -> Gneiss.</li>\n    <li><strong>Volcanoes:</strong> Shield (fluid, gentle, Kilauea), Composite/Stratovolcano (explosive, Mt. Fuji), Caldera (most explosive). Highest active: Ojas del Salado. Lighthouse of Med: Mt Stromboli.</li>\n</ul>\n\n<h3>10. Atmosphere & Layers</h3>\n<ul>\n    <li><strong>Troposphere:</strong> All weather. Temp drops with height (Lapse rate = 6.5\u00b0C per km).</li>\n    <li><strong>Stratosphere:</strong> Contains Ozone layer (30-35km). Airplanes fly here. Temp increases.</li>\n    <li><strong>Mesosphere:</strong> Coldest. Meteors burn up here.</li>\n    <li><strong>Thermosphere:</strong> Hottest. Contains Ionosphere (reflects radio waves).</li>\n    <li><strong>Greenhouse Gases:</strong> Water vapor, CO2, CH4, N2O, O3 (Note: NO2, SO2 are NOT greenhouse gases).</li>\n    <li><strong>Albedo:</strong> Reflected light. Highest in ice caps.</li>\n</ul>\n\n<h3>11. Local Winds & Ocean Currents</h3>\n<ul>\n    <li><strong>Hot/Dry Winds:</strong> Chinook (Snow eater, Rockies), Foehn (Alps), Sirocco (Blood rain, N. Africa), Khamsin (Egypt), Harmattan (Dr. Wind, Guinea), Brickfielder (Australia).</li>\n    <li><strong>Cold Winds:</strong> Blizzard (Siberia), Mistral (France), Bora (Adriatic), Pampero (Argentina).</li>\n    <li><strong>Cold Ocean Currents (Trick: BP GOLF World Cup California):</strong> Benguela, Peru/Humbolt, Greenland, Oyashio, Labrador, Falkland, West Australian, Canary, California.</li>\n    <li><strong>Warm Currents:</strong> Gulf Stream, Kuroshio, Agulhas, Brazilian.</li>\n</ul>\n\n<h3>12. Indian Geography (Basics & Himalayas)</h3>\n<ul>\n    <li><strong>Tropic of Cancer (23.5\u00b0N):</strong> Passes 8 states (Guj, Raj, MP, Chhattisgarh, Jharkhand, WB, Tripura, Mizoram).</li>\n    <li><strong>IST (82\u00b030'E):</strong> Passes 5 states (UP, MP, Chhattisgarh, Odisha, AP - Trick: MOUCA). Mirzapur, UP.</li>\n    <li><strong>Coastline:</strong> 11,098.81 km. Longest: Andaman & Nicobar. Longest State: Gujarat (2340km).</li>\n    <li><strong>Borders:</strong> Bangladesh (longest, 4096km), Afghanistan (shortest, 106km). Radcliffe Line (Pak/Ban), McMahon Line (China), Durand Line (Afghan).</li>\n    <li><strong>Himalayas:</strong> Young fold mountains. Formed by collision of Indo-Australian and Eurasian plates.</li>\n    <li><strong>Trans-Himalayas:</strong> Karakoram (K2 / Godwin Austen - 8611m), Ladakh, Zanskar. Siachen Glacier.</li>\n    <li><strong>Greater Himalayas (Himadri):</strong> Mt Everest (8848m, Sagarmatha), Kanchenjunga (8598m).</li>\n    <li><strong>Lesser Himalayas (Himachal):</strong> Pir Panjal, Dhauladhar. Karewa soil (Saffron in Kashmir).</li>\n    <li><strong>Important Passes:</strong> Zoji La (Kashmir-Ladakh), Rohtang (HP), Shipki La (Sutlej enters), Nathu La & Jelep La (Sikkim), Bom Di La (Arunachal).</li>\n</ul>\n",
+    "chapter": "Geography: Complete Guide (Solar System to Soils)",
+    "notes": "\n<h3>1. Origin of Universe & Cosmology</h3>\n<ul>\n    <li><strong>Cosmology:</strong> Study of Universe. <strong>Astronomy:</strong> Study of celestial bodies.</li>\n    <li><strong>Big Bang Theory (1927):</strong> Georges Lema\u00eetre. Universe expanded from a point 13.8 billion yrs ago.</li>\n    <li><strong>Edwin Hubble (1929):</strong> Proved continuous expansion.</li>\n    <li><strong>Steady State Theory (1948):</strong> Fred Hoyle. Expanding but properties remain unchanged.</li>\n    <li><strong>Nebular Hypothesis (1755/1796):</strong> Kant & Laplace. Solar system formed from spinning nebula.</li>\n    <li><strong>Planetesimal Theory (1905):</strong> Chamberlin & Moulton.</li>\n    <li><strong>Binary Star Hypothesis (1937):</strong> H.N. Russell.</li>\n</ul>\n\n<h3>2. Stars, Galaxies & The Sun</h3>\n<ul>\n    <li><strong>Galaxies:</strong> Milky Way (Spiral, Orion Spur). Nearest is Andromeda (M-31).</li>\n    <li><strong>Constellations:</strong> Ursa Major (Great Bear/Saptarishi), Ursa Minor (Little Bear, Polaris/North Star), Cassiopeia (W-shaped), Cygnus (Cross), Orion (Hunter, Rigel).</li>\n    <li><strong>Sun:</strong> 150M km away. Light takes 8 min 20 sec. Surface=5800K, Center=15.7M K. Nuclear Fusion (H to He).</li>\n    <li><strong>Solar Cycle:</strong> 11 years. Solar flares cause Auroras (Borealis-North, Australis-South).</li>\n    <li><strong>Chandrasekhar Limit:</strong> 1.44 x Sun's mass. Maximum mass of a white dwarf before supernova.</li>\n</ul>\n\n<h3>3. The Planets (Exhaustive)</h3>\n<ul>\n    <li><strong>Mercury:</strong> Closest, smallest (4900km diameter), fastest (88 days), NO atmosphere, NO moon.</li>\n    <li><strong>Venus:</strong> Hottest (CO2 + Sulfuric acid clouds), brightest, slowest rotation (243 days). Rotates East to West. 'Morning/Evening Star'.</li>\n    <li><strong>Earth:</strong> Densest (5.51 g/cm\u00b3), 23.5\u00b0 axial tilt.</li>\n    <li><strong>Mars:</strong> Red (Iron oxide). Moons: Phobos & Deimos. Volcano: Olympus Mons (tallest in solar sys).</li>\n    <li><strong>Jupiter:</strong> Largest, fastest rotation (9h 55m). 97 moons (Ganymede is largest).</li>\n    <li><strong>Saturn:</strong> Least density (0.69 g/cm\u00b3 - floats on water). Rings discovered by Huygens (1655). Moon: Titan.</li>\n    <li><strong>Uranus:</strong> Green planet (Methane). Discovered by William Herschel (1781). Rotates East to West.</li>\n    <li><strong>Neptune:</strong> Farthest, coldest, bluish (Methane). Discovered by Johann Galle (1846). Longest revolution (165 yrs). Moon: Triton.</li>\n</ul>\n\n<h3>4. Moon & Dwarf Planets</h3>\n<ul>\n    <li><strong>Moon:</strong> Only natural satellite. Distance: 3,84,000 km. Highest peak: Mt. Leibniz. Gravity: 1/6th of Earth.</li>\n    <li><strong>Pluto:</strong> Discovered by Clyde Tombaugh. Demoted in 2006 by IAU. Moon: Charon.</li>\n    <li><strong>Other Dwarf Planets:</strong> Eris, Makemake, Haumea, Ceres (in Asteroid belt).</li>\n    <li><strong>Space Missions:</strong> Chandrayaan-3 (Vikram/Pragyaan, Aug 23 - Nat Space Day). Aditya L1 (Lagrange Point 1). MOM/Mangalyaan (Sep 24, 2014).</li>\n</ul>\n\n<h3>5. Earth's Shape, Latitudes & Longitudes</h3>\n<ul>\n    <li><strong>Geodesy:</strong> Study of Earth's shape (Geoid / Oblate Spheroid). Bulges at equator due to centrifugal force.</li>\n    <li><strong>Equatorial Radii:</strong> 6378 km (Polar is 6357 km).</li>\n    <li><strong>Rotation:</strong> West to East (23h 56m 4s). <strong>Revolution:</strong> 365 days 5h 59m 16s.</li>\n    <li><strong>Perihelion:</strong> Closest to Sun (Jan 3). <strong>Aphelion:</strong> Farthest (July 4).</li>\n    <li><strong>Perigee:</strong> Moon closest to Earth. <strong>Apogee:</strong> Farthest.</li>\n    <li><strong>Latitudes:</strong> 1\u00b0 = 111 km. Equator is largest. Tropics: Cancer (23.5\u00b0N), Capricorn (23.5\u00b0S).</li>\n    <li><strong>Longitudes (Meridians):</strong> 1\u00b0 = 4 mins. Distance decreases towards poles. Prime Meridian (0\u00b0) passes Greenwich. International Date Line (180\u00b0 - zigzag).</li>\n</ul>\n\n<h3>6. Eclipses, Solstice & Tides</h3>\n<ul>\n    <li><strong>Summer Solstice:</strong> June 21. <strong>Winter Solstice:</strong> Dec 22.</li>\n    <li><strong>Vernal Equinox:</strong> Mar 21. <strong>Autumnal Equinox:</strong> Sept 23.</li>\n    <li><strong>Syzygy:</strong> Sun, Moon, Earth in straight line. Causes Eclipses & Spring Tides.</li>\n    <li><strong>Solar Eclipse:</strong> Occurs on New Moon (Amavasya). Earth passes in moon's shadow (Umbra=dark, Penumbra=light).</li>\n    <li><strong>Lunar Eclipse:</strong> Occurs on Full Moon (Purnima).</li>\n    <li><strong>Tides:</strong> Caused by Moon & Sun gravity. Spring tide (straight line). Neap tide (Quadrature / perpendicular).</li>\n</ul>\n\n<h3>7. Earth's Interior & Discontinuities</h3>\n<ul>\n    <li><strong>Crust:</strong> Continental (SIAL - Silica/Aluminium, 2.7 g/cm\u00b3), Oceanic (SIMA - Silica/Magnesium, 2.9 g/cm\u00b3, denser).</li>\n    <li><strong>Mantle:</strong> Contains Asthenosphere (semi-molten, source of magma).</li>\n    <li><strong>Core:</strong> NiFe (Nickel/Iron). Outer core is liquid, Inner core is solid.</li>\n    <li><strong>Discontinuities (Koi Mujhe Red Gulab Lado):</strong> Conrad (Upper/Lower Crust), Mohorovicic (Crust/Mantle), Repetti (Upper/Lower Mantle), Gutenberg (Mantle/Outer Core), Lehmann (Outer/Inner Core).</li>\n</ul>\n\n<h3>8. Earthquakes & Plate Tectonics</h3>\n<ul>\n    <li><strong>Focus (Hypocenter):</strong> Where earthquake starts underground. <strong>Epicenter:</strong> Point directly above on surface.</li>\n    <li><strong>P-Waves:</strong> Primary, longitudinal (like sound), fastest, pass through Solid/Liquid/Gas.</li>\n    <li><strong>S-Waves:</strong> Secondary, transverse, slower, pass ONLY through Solids.</li>\n    <li><strong>Surface Waves:</strong> Love & Rayleigh waves. Slowest, most destructive.</li>\n    <li><strong>Scales:</strong> Richter (Magnitude 0-10, limitless), Mercalli (Intensity/Damage 1-12).</li>\n    <li><strong>Tsunami:</strong> \"Harbour waves\". Boxing Day Tsunami (Dec 26, 2004).</li>\n    <li><strong>Plate Boundaries:</strong> Divergent (constructive), Convergent (destructive, forms fold mountains/trenches), Transform (conservative, San Andreas fault).</li>\n</ul>\n\n<h3>9. Rocks & Volcanoes</h3>\n<ul>\n    <li><strong>Igneous (Primary):</strong> From magma. Intrusive: Batholith (massive), Dyke (vertical), Sill (horizontal), Phacolith (lens-shaped), Laccolith (dome), Lopolith (saucer). Extrusive: Basalt, Pumice.</li>\n    <li><strong>Sedimentary:</strong> Formed by lithification. Has fossils. Sandstone, Limestone, Shale.</li>\n    <li><strong>Metamorphic:</strong> Changed by heat/pressure. Limestone -> Marble. Sandstone -> Quartzite. Shale -> Slate. Granite -> Gneiss.</li>\n    <li><strong>Volcanoes:</strong> Shield (fluid, gentle, Kilauea), Composite/Stratovolcano (explosive, Mt. Fuji), Caldera (most explosive). Highest active: Ojas del Salado. Lighthouse of Med: Mt Stromboli.</li>\n</ul>\n\n<h3>10. Atmosphere & Layers</h3>\n<ul>\n    <li><strong>Troposphere:</strong> All weather. Temp drops with height (Lapse rate = 6.5\u00b0C per km).</li>\n    <li><strong>Stratosphere:</strong> Contains Ozone layer (30-35km). Airplanes fly here. Temp increases.</li>\n    <li><strong>Mesosphere:</strong> Coldest. Meteors burn up here.</li>\n    <li><strong>Thermosphere:</strong> Hottest. Contains Ionosphere (reflects radio waves).</li>\n    <li><strong>Greenhouse Gases:</strong> Water vapor, CO2, CH4, N2O, O3 (Note: NO2, SO2 are NOT greenhouse gases).</li>\n    <li><strong>Albedo:</strong> Reflected light. Highest in ice caps.</li>\n</ul>\n\n<h3>11. Local Winds & Ocean Currents</h3>\n<ul>\n    <li><strong>Hot/Dry Winds:</strong> Chinook (Snow eater, Rockies), Foehn (Alps), Sirocco (Blood rain, N. Africa), Khamsin (Egypt), Harmattan (Dr. Wind, Guinea), Brickfielder (Australia).</li>\n    <li><strong>Cold Winds:</strong> Blizzard (Siberia), Mistral (France), Bora (Adriatic), Pampero (Argentina).</li>\n    <li><strong>Cold Ocean Currents (Trick: BP GOLF World Cup California):</strong> Benguela, Peru/Humbolt, Greenland, Oyashio, Labrador, Falkland, West Australian, Canary, California.</li>\n    <li><strong>Warm Currents:</strong> Gulf Stream, Kuroshio, Agulhas, Brazilian.</li>\n</ul>\n\n<h3>12. Indian Geography (Basics & Himalayas)</h3>\n<ul>\n    <li><strong>Tropic of Cancer (23.5\u00b0N):</strong> Passes 8 states (Guj, Raj, MP, Chhattisgarh, Jharkhand, WB, Tripura, Mizoram).</li>\n    <li><strong>IST (82\u00b030'E):</strong> Passes 5 states (UP, MP, Chhattisgarh, Odisha, AP - Trick: MOUCA). Mirzapur, UP.</li>\n    <li><strong>Coastline:</strong> 11,098.81 km. Longest: Andaman & Nicobar. Longest State: Gujarat (2340km).</li>\n    <li><strong>Borders:</strong> Bangladesh (longest, 4096km), Afghanistan (shortest, 106km). Radcliffe Line (Pak/Ban), McMahon Line (China), Durand Line (Afghan).</li>\n    <li><strong>Himalayas:</strong> Young fold mountains. Formed by collision of Indo-Australian and Eurasian plates.</li>\n    <li><strong>Trans-Himalayas:</strong> Karakoram (K2 / Godwin Austen - 8611m), Ladakh, Zanskar. Siachen Glacier.</li>\n    <li><strong>Greater Himalayas (Himadri):</strong> Mt Everest (8848m, Sagarmatha), Kanchenjunga (8598m).</li>\n    <li><strong>Lesser Himalayas (Himachal):</strong> Pir Panjal, Dhauladhar. Karewa soil (Saffron in Kashmir).</li>\n    <li><strong>Important Passes:</strong> Zoji La (Kashmir-Ladakh), Rohtang (HP), Shipki La (Sutlej enters), Nathu La & Jelep La (Sikkim), Bom Di La (Arunachal).</li>\n</ul>\n\n<hr style=\"border-color:#334155; margin: 30px 0;\">\n<h2 style=\"color:#F59E0B; text-align:center;\">--- PART 3: Indian Physical Geography ---</h2>\n\n<h3>13. Northern Plains, Coasts & Islands</h3>\n<ul>\n    <li><strong>Northern Plains:</strong> Bhabar (narrow, streams disappear), Terai (marshy, streams reappear, Jim Corbett NP), Bhangar (old alluvium, kankar nodules), Khadar (new alluvium, highly fertile).</li>\n    <li><strong>Coastal Plains:</strong> Western Coast is narrower and submerged (forms Estuaries & backwaters like Kayals in Kerala). Eastern Coast is wider and emerging (forms large Deltas).</li>\n    <li><strong>Major Ports:</strong> 13 total. Kandla (Tidal port), Mumbai (Largest natural), Nhava Sheva (Largest container), Kamarajar/Ennore (Only corporate-owned port).</li>\n    <li><strong>Andaman & Nicobar (572 islands):</strong> 10 Degree Channel separates Andaman and Nicobar. Highest peak: Saddle Peak. Barren Island is India's only active volcano. Renamed: Ross -> Netaji Subhas, Neil -> Shaheed, Havelock -> Swaraj.</li>\n    <li><strong>Lakshadweep (36 islands):</strong> Coral islands. 8 Degree Channel separates Minicoy & Maldives. 9 Degree Channel separates Lakshadweep & Minicoy.</li>\n</ul>\n\n<h3>14. Peninsular Plateau & Mountains</h3>\n<ul>\n    <li><strong>Aravalli Range:</strong> Old fold mountains. Highest peak: Guru Shikhar (Mt. Abu).</li>\n    <li><strong>Western Ghats (Sahyadri):</strong> Continuous block mountains. Highest peak in South India: Anamudi (2695m) in Kerala. Passes: Thal Ghat (Mumbai-Nasik), Bhor Ghat (Mumbai-Pune), Pal Ghat (Kerala-TN).</li>\n    <li><strong>Eastern Ghats:</strong> Discontinuous. Highest peak: Jindhagada / Mahendragiri. Eastern and Western Ghats meet at Nilgiri Hills (Highest peak: Dodabetta).</li>\n</ul>\n\n<h3>15. Drainage System (Rivers)</h3>\n<ul>\n    <li><strong>Drainage Patterns:</strong> Dendritic (tree roots - Ganga), Trellis (parallel - Chota Nagpur), Radial (from central peak - Narmada/Son from Amarkantak), Centripetal (towards lake - Loktak).</li>\n    <li><strong>Indus River (2880km):</strong> Originates in Tibet (Bokhar Chu). Tributaries (North to South): Jhelum (Vitasta), Chenab (Askini), Ravi (Purushni), Beas (Bipasha), Sutlej (Shutudri). Indus Water Treaty 1960 gave India control of Ravi, Beas, Sutlej.</li>\n    <li><strong>Ganga River (2525km):</strong> Longest in India. Devprayag = Alaknanda + Bhagirathi. Longest tributary: Yamuna. Known as Padma in Bangladesh.</li>\n    <li><strong>Brahmaputra River (2900km):</strong> Yarlung Tsangpo in Tibet, Dihang in Arunachal, Jamuna in Bangladesh. Forms Majuli (world's largest riverine island).</li>\n    <li><strong>East Flowing Peninsular (Form Deltas):</strong> Mahanadi, Godavari (Dakshin Ganga, 1465km), Krishna, Kaveri.</li>\n    <li><strong>West Flowing Peninsular (Form Estuaries):</strong> Narmada (longest west-flowing, rift valley), Tapti (rift valley), Mahi (crosses Tropic of Cancer twice), Luni (endorheic/salty).</li>\n</ul>\n\n<h3>16. Dams, Waterfalls & Lakes</h3>\n<ul>\n    <li><strong>Major Dams:</strong> Bhakra Nangal (Sutlej - highest gravity dam), Hirakud (Mahanadi - longest earthen dam), Tehri (Bhagirathi - highest dam in India, 261m), Salal/Baglihar/Dul Hasti (Chenab).</li>\n    <li><strong>Waterfalls:</strong> Kunchikal (highest in India, Varahi river), Jog/Gersoppa (Sharavati river), Dhuandhar (Narmada).</li>\n    <li><strong>Lakes:</strong> Wular (largest freshwater, tectonic), Chilika (largest brackish), Vembanad (longest), Lonar (meteor crater), Sambhar (largest inland salt).</li>\n</ul>\n\n<h3>17. Monsoon & Climate</h3>\n<ul>\n    <li><strong>Pre-Monsoon Showers:</strong> Mango showers (Kerala/Karnataka), Blossom showers (Coffee, Kerala), Kal Baisakhi / Nor'westers (West Bengal/Assam).</li>\n    <li><strong>El Ni\u00f1o:</strong> Warming of equatorial Pacific; causes droughts in India. <strong>La Ni\u00f1a:</strong> Cooling; causes heavy floods in India.</li>\n    <li><strong>Koeppen Classification:</strong> A (Tropical), B (Dry), C (Warm Temperate), D (Cold Snow), E (Polar/Tundra).</li>\n</ul>\n\n<h3>18. Forests, Grasslands & Soils</h3>\n<ul>\n    <li><strong>Forests:</strong> Evergreen (Ebony, Mahogany, Rubber - >200cm rain). Deciduous (Monsoon forests, Teak, Sal, Sandalwood - 70-200cm rain). Mangroves (Sundari trees, pneumatophores/living roots).</li>\n    <li><strong>FSI Report 2023:</strong> Forest cover is 21.7%. Largest area: Madhya Pradesh. Highest percentage: Lakshadweep > Mizoram.</li>\n    <li><strong>Grasslands:</strong> Savannah (Africa), Prairies (N. America), Pampas (Argentina), Velds (S. Africa), Downs (Australia), Steppes (Eurasia).</li>\n    <li><strong>Alluvial Soil (40%):</strong> Most widespread. Khadar (new, fertile), Bhangar (old, kankar).</li>\n    <li><strong>Black Soil (15%):</strong> 'Regur'. Ideal for cotton. Formed by basalt/lava (Deccan Trap). Self-ploughing and impermeable.</li>\n    <li><strong>Laterite Soil (4.3%):</strong> Intense leaching. Brick-like. Good for Cashew, Tea, Coffee.</li>\n</ul>\n",
     "mcqs": [
         {
             "question": "Who proposed the Nebular Hypothesis of the solar system's origin?",
@@ -331,6 +331,226 @@ window.fatmanGeography = {
             ],
             "correct": 0,
             "explanation": "Barchans are crescent-shaped dunes found in deserts."
+        },
+        {
+            "q": "Which region of the Northern Plains is a marshy area where streams reappear, and is home to Jim Corbett National Park?",
+            "o": [
+                "Bhabar",
+                "Terai",
+                "Bhangar",
+                "Khadar"
+            ],
+            "c": 1,
+            "e": "The Terai region is a damp, marshy area south of the Bhabar where underground streams reappear."
+        },
+        {
+            "q": "Which of the following is the only corporate-owned major port in India?",
+            "o": [
+                "Kandla Port",
+                "Nhava Sheva",
+                "Kamarajar Port (Ennore)",
+                "Mormugao Port"
+            ],
+            "c": 2,
+            "e": "Kamarajar Port (formerly Ennore Port) in Tamil Nadu is India's first corporate port."
+        },
+        {
+            "q": "Which channel separates the Andaman Islands from the Nicobar Islands?",
+            "o": [
+                "8 Degree Channel",
+                "9 Degree Channel",
+                "10 Degree Channel",
+                "Duncan Passage"
+            ],
+            "c": 2,
+            "e": "The 10 Degree Channel separates the Andaman group from the Nicobar group."
+        },
+        {
+            "q": "Which is the highest peak in the Western Ghats and all of South India?",
+            "o": [
+                "Dodabetta",
+                "Guru Shikhar",
+                "Anamudi",
+                "Mahendragiri"
+            ],
+            "c": 2,
+            "e": "Anamudi (2695m) in Kerala is the highest peak in the Western Ghats and South India."
+        },
+        {
+            "q": "The Eastern Ghats and Western Ghats meet at which mountain range?",
+            "o": [
+                "Cardamom Hills",
+                "Nilgiri Hills",
+                "Palani Hills",
+                "Nallamala Hills"
+            ],
+            "c": 1,
+            "e": "The Eastern and Western Ghats converge at the Nilgiri Hills in Tamil Nadu."
+        },
+        {
+            "q": "A drainage pattern that resembles the branching roots of a tree (like the Ganga river system) is called?",
+            "o": [
+                "Trellis",
+                "Radial",
+                "Dendritic",
+                "Centripetal"
+            ],
+            "c": 2,
+            "e": "A Dendritic drainage pattern looks like the branching roots or branches of a tree."
+        },
+        {
+            "q": "According to the Indus Water Treaty (1960), India has control over the waters of which three rivers?",
+            "o": [
+                "Indus, Jhelum, Chenab",
+                "Ravi, Beas, Sutlej",
+                "Chenab, Ravi, Beas",
+                "Indus, Sutlej, Beas"
+            ],
+            "c": 1,
+            "e": "India controls the eastern rivers: Ravi, Beas, and Sutlej. Pakistan controls the western rivers: Indus, Jhelum, Chenab."
+        },
+        {
+            "q": "Which river is known as the 'Dakshin Ganga' and is the largest peninsular river in India?",
+            "o": [
+                "Krishna",
+                "Kaveri",
+                "Mahanadi",
+                "Godavari"
+            ],
+            "c": 3,
+            "e": "Godavari (1465km) is the longest peninsular river and is known as Dakshin Ganga or Vridha Ganga."
+        },
+        {
+            "q": "Which of the following rivers flows through a rift valley and forms an estuary?",
+            "o": [
+                "Narmada",
+                "Mahanadi",
+                "Godavari",
+                "Krishna"
+            ],
+            "c": 0,
+            "e": "Narmada and Tapti flow west through rift valleys and form estuaries instead of deltas."
+        },
+        {
+            "q": "Which river crosses the Tropic of Cancer twice?",
+            "o": [
+                "Luni",
+                "Sabarmati",
+                "Mahi",
+                "Damodar"
+            ],
+            "c": 2,
+            "e": "The Mahi river originates in the Vindhyas and crosses the Tropic of Cancer twice."
+        },
+        {
+            "q": "Which is the highest dam in India?",
+            "o": [
+                "Bhakra Nangal Dam",
+                "Hirakud Dam",
+                "Tehri Dam",
+                "Sardar Sarovar Dam"
+            ],
+            "c": 2,
+            "e": "The Tehri Dam on the Bhagirathi River in Uttarakhand is the highest dam in India (261m)."
+        },
+        {
+            "q": "The pre-monsoon showers in West Bengal and Assam that help in the growth of jute and tea crops are known as?",
+            "o": [
+                "Mango Showers",
+                "Blossom Showers",
+                "Nor'westers (Kal Baisakhi)",
+                "Loo"
+            ],
+            "c": 2,
+            "e": "Nor'westers, locally known as Kal Baisakhi, bring pre-monsoon rain to Bengal and Assam."
+        },
+        {
+            "q": "The El Ni\u00f1o phenomenon, which negatively impacts the Indian Monsoon, is characterized by?",
+            "o": [
+                "Cooling of the Indian Ocean",
+                "Warming of the eastern-central Pacific Ocean",
+                "Cooling of the eastern-central Pacific Ocean",
+                "Warming of the Mediterranean Sea"
+            ],
+            "c": 1,
+            "e": "El Ni\u00f1o is the abnormal warming of surface waters in the equatorial Pacific, which causes droughts in India."
+        },
+        {
+            "q": "Which type of forest is characterized by trees like Teak, Sal, and Sandalwood, and sheds its leaves for 6-8 weeks during summer?",
+            "o": [
+                "Tropical Evergreen Forests",
+                "Tropical Deciduous Forests",
+                "Montane Forests",
+                "Mangrove Forests"
+            ],
+            "c": 1,
+            "e": "Tropical Deciduous Forests (Monsoon forests) shed their leaves to conserve water in summer."
+        },
+        {
+            "q": "Temperate grasslands located in North America, known as the 'wheat granaries of the world', are called?",
+            "o": [
+                "Pampas",
+                "Velds",
+                "Steppes",
+                "Prairies"
+            ],
+            "c": 3,
+            "e": "Prairies are the temperate grasslands of North America."
+        },
+        {
+            "q": "Which type of soil is also known as 'Regur' and is highly suitable for cotton cultivation?",
+            "o": [
+                "Alluvial Soil",
+                "Laterite Soil",
+                "Black Soil",
+                "Red Soil"
+            ],
+            "c": 2,
+            "e": "Black soil, formed from basaltic lava (Deccan traps), is known as Regur and is ideal for cotton."
+        },
+        {
+            "q": "Laterite soil, which is brick-like and rich in iron and aluminum, is formed primarily due to?",
+            "o": [
+                "Volcanic eruptions",
+                "Intense leaching due to heavy rainfall",
+                "Glacial deposition",
+                "Wind erosion"
+            ],
+            "c": 1,
+            "e": "Laterite soil is formed under conditions of high temperature and heavy rainfall, causing intense leaching."
+        },
+        {
+            "q": "According to the USDA Soil Classification System, Black soil falls under which order because of its clay-rich, shrinking/swelling properties?",
+            "o": [
+                "Entisol",
+                "Inceptisol",
+                "Vertisol",
+                "Alfisol"
+            ],
+            "c": 2,
+            "e": "Vertisols are clay-rich soils that swell when wet and shrink/crack when dry (self-ploughing)."
+        },
+        {
+            "q": "Which is the highest waterfall in India?",
+            "o": [
+                "Jog Falls",
+                "Dhuandhar Falls",
+                "Kunchikal Falls",
+                "Shivanasamudra Falls"
+            ],
+            "c": 2,
+            "e": "Kunchikal Falls (455m) on the Varahi River in Karnataka is the highest waterfall in India."
+        },
+        {
+            "q": "What is the name of the longest earthen dam in the world?",
+            "o": [
+                "Bhakra Nangal",
+                "Hirakud",
+                "Tehri",
+                "Nagarjuna Sagar"
+            ],
+            "c": 1,
+            "e": "Hirakud Dam, built on the Mahanadi River in Odisha, is the longest earthen dam in the world."
         }
     ],
     "flashcards": [
@@ -453,6 +673,106 @@ window.fatmanGeography = {
         {
             "front": "Which is the highest peak in the Aravalli range?",
             "back": "Guru Shikhar."
+        },
+        {
+            "f": "Which channel separates Minicoy and Maldives?",
+            "b": "8 Degree Channel.",
+            "c": "Geography"
+        },
+        {
+            "f": "Which channel separates Andaman and Nicobar?",
+            "b": "10 Degree Channel.",
+            "c": "Geography"
+        },
+        {
+            "f": "What is India's only active volcano?",
+            "b": "Barren Island (Andaman).",
+            "c": "Geography"
+        },
+        {
+            "f": "Which is the highest peak in South India?",
+            "b": "Anamudi (Kerala).",
+            "c": "Geography"
+        },
+        {
+            "f": "Where do the Eastern and Western Ghats meet?",
+            "b": "Nilgiri Hills.",
+            "c": "Geography"
+        },
+        {
+            "f": "Which pass connects Mumbai to Pune?",
+            "b": "Bhor Ghat.",
+            "c": "Geography"
+        },
+        {
+            "f": "Which river crosses the Tropic of Cancer twice?",
+            "b": "Mahi River.",
+            "c": "Geography"
+        },
+        {
+            "f": "Which river is known as 'Dakshin Ganga'?",
+            "b": "Godavari.",
+            "c": "Geography"
+        },
+        {
+            "f": "Which two major peninsular rivers flow west into the Arabian Sea?",
+            "b": "Narmada and Tapti.",
+            "c": "Geography"
+        },
+        {
+            "f": "Which is the highest dam in India?",
+            "b": "Tehri Dam (Uttarakhand).",
+            "c": "Geography"
+        },
+        {
+            "f": "Which is the longest earthen dam in the world?",
+            "b": "Hirakud Dam (Odisha).",
+            "c": "Geography"
+        },
+        {
+            "f": "Which is the largest freshwater lake in India?",
+            "b": "Wular Lake (J&K).",
+            "c": "Geography"
+        },
+        {
+            "f": "What does El Ni\u00f1o do to the Indian Monsoon?",
+            "b": "Weakens it, causing droughts.",
+            "c": "Geography"
+        },
+        {
+            "f": "What are the temperate grasslands of South Africa called?",
+            "b": "Velds.",
+            "c": "Geography"
+        },
+        {
+            "f": "What are the temperate grasslands of Argentina called?",
+            "b": "Pampas.",
+            "c": "Geography"
+        },
+        {
+            "f": "Which soil is known as 'Regur' and is ideal for cotton?",
+            "b": "Black Soil.",
+            "c": "Geography"
+        },
+        {
+            "f": "Which soil undergoes intense leaching and is used to make bricks?",
+            "b": "Laterite Soil.",
+            "c": "Geography"
+        },
+        {
+            "f": "Which port is known as the oldest riverine port in India?",
+            "b": "Kolkata Port (Shyama Prasad Mukherjee Port).",
+            "c": "Geography"
+        },
+        {
+            "f": "What is the longest tributary of the Ganga?",
+            "b": "Yamuna River.",
+            "c": "Geography"
+        },
+        {
+            "f": "Where does the Alaknanda meet the Bhagirathi to form the Ganga?",
+            "b": "Devprayag.",
+            "c": "Geography"
         }
     ]
 };
