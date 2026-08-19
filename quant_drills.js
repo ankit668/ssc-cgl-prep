@@ -1,7 +1,7 @@
 let quantDrillQuestions = [];
 let currentQuantDrillIndex = 0;
 let quantDrillScore = 0;
-let quantDrillTarget = 20;
+let quantDrillTarget = 23; // AIR 1 Mode: 23/25 is the minimum acceptable
 let quantDrillTimerInterval;
 let quantDrillTimeLeft = 900;
 
@@ -116,10 +116,10 @@ function updateQuantDrillMilestone() {
     
     targetEl.innerText = `${quantDrillScore} / ${quantDrillTarget} Target Correct`;
     
-    if (quantDrillScore >= 15 && quantDrillScore < quantDrillTarget) {
-        tracker.className = 'milestone-tracker milestone-safe';
-    } else if (quantDrillScore >= quantDrillTarget) {
+    if (quantDrillScore >= 23) {
         tracker.className = 'milestone-tracker milestone-achieved';
+    } else if (quantDrillScore >= 20) {
+        tracker.className = 'milestone-tracker milestone-safe';
     } else {
         tracker.className = 'milestone-tracker milestone-normal';
     }
@@ -143,13 +143,13 @@ function endQuantDrill() {
     resultText.innerHTML = `You scored <strong>${quantDrillScore}</strong> out of ${quantDrillQuestions.length}!`;
     
     let analysisText = document.getElementById('quant-drills-analysis');
-    if (quantDrillScore >= 20) {
-        analysisText.innerHTML = "🔥 <strong>Outstanding!</strong> You are well past the qualifying safe zone! Your strategy is working perfectly.";
-    } else if (quantDrillScore >= 15) {
-        analysisText.innerHTML = "✅ <strong>Safe Zone Secured!</strong> You've hit the 15+ mark on high-yield topics. You are ready to clear Tier-1!";
-    } else if (quantDrillScore >= 12) {
-        analysisText.innerHTML = "⚠️ <strong>Almost there.</strong> You hit the bare minimum cutoff zone, but you should push for a few more to be safe.";
+    if (quantDrillScore >= 23) {
+        analysisText.innerHTML = "🏆 <strong>AIR 1 Standard!</strong> 23+ is flawless execution. This is exactly where you need to be. Maintain this composure under exam pressure.";
+    } else if (quantDrillScore >= 20) {
+        analysisText.innerHTML = "⚡ <strong>Close, but not AIR 1 yet.</strong> 20/25 is competitive, but for the top rank you need 23+. Identify the exact questions you lost and drill that specific concept relentlessly.";
+    } else if (quantDrillScore >= 16) {
+        analysisText.innerHTML = "⚠️ <strong>Danger Zone for AIR 1.</strong> This score will clear the cutoff, but it won't win you the top rank. Every mistake must be eliminated — no acceptable errors at AIR 1 level.";
     } else {
-        analysisText.innerHTML = "❌ <strong>Below Qualifying Target.</strong> Keep practicing these high-yield topics. Do not waste time on complex geometry until you master these!";
+        analysisText.innerHTML = "❌ <strong>Far from AIR 1 target.</strong> Deep revision needed immediately. Go back to the formula sheet, reattempt PYQs topic-by-topic, and do not attempt mocks until your accuracy is above 85%.";
     }
 }

@@ -2007,8 +2007,8 @@ body {
             <section id="dashboard-view" class="tab-panel active">
                 <div class="welcome-banner">
                     <div class="welcome-text">
-                        <h1>Welcome back, Kumar Ankit! 👋</h1>
-                        <p>Let's make today count. Your target: 12-15 correct maths questions to secure CGL qualifying status.</p>
+                        <h1>Welcome back, Kumar Ankit! 🏆</h1>
+                        <p>AIR 1 Mode activated. Target: 23/25 in Maths, 9/10 in Reasoning, 9/10 in English. Zero tolerance for mistakes.</p>
                     </div>
                     <div class="welcome-action">
                         <button class="btn btn-accent" onclick="document.querySelector('[data-tab=trainer]').click()">Start Speed Trainer</button>
@@ -2332,6 +2332,7 @@ body {
                         <div class="result-score-display">
                             <span id="reasoning-final-score">0</span> / 10
                         </div>
+                        <p id="reasoning-result-msg" style="font-size:1rem; margin: 12px 0 20px; color: var(--text-secondary);"></p>
                         <div class="result-actions">
                             <button class="btn btn-primary" onclick="startReasoningDrill(activeReasoningMode)">Retry Mode</button>
                             <button class="btn btn-secondary" onclick="quitReasoningDrill()">Back to Menu</button>
@@ -78471,7 +78472,7 @@ function quitEnglishDrill() {
 let quantDrillQuestions = [];
 let currentQuantDrillIndex = 0;
 let quantDrillScore = 0;
-let quantDrillTarget = 20;
+let quantDrillTarget = 23; // AIR 1 Mode: 23/25 is the minimum acceptable
 let quantDrillTimerInterval;
 let quantDrillTimeLeft = 900;
 
@@ -78586,10 +78587,10 @@ function updateQuantDrillMilestone() {
     
     targetEl.innerText = `${quantDrillScore} / ${quantDrillTarget} Target Correct`;
     
-    if (quantDrillScore >= 15 && quantDrillScore < quantDrillTarget) {
-        tracker.className = 'milestone-tracker milestone-safe';
-    } else if (quantDrillScore >= quantDrillTarget) {
+    if (quantDrillScore >= 23) {
         tracker.className = 'milestone-tracker milestone-achieved';
+    } else if (quantDrillScore >= 20) {
+        tracker.className = 'milestone-tracker milestone-safe';
     } else {
         tracker.className = 'milestone-tracker milestone-normal';
     }
@@ -78613,14 +78614,14 @@ function endQuantDrill() {
     resultText.innerHTML = `You scored <strong>${quantDrillScore}</strong> out of ${quantDrillQuestions.length}!`;
     
     let analysisText = document.getElementById('quant-drills-analysis');
-    if (quantDrillScore >= 20) {
-        analysisText.innerHTML = "🔥 <strong>Outstanding!</strong> You are well past the qualifying safe zone! Your strategy is working perfectly.";
-    } else if (quantDrillScore >= 15) {
-        analysisText.innerHTML = "✅ <strong>Safe Zone Secured!</strong> You've hit the 15+ mark on high-yield topics. You are ready to clear Tier-1!";
-    } else if (quantDrillScore >= 12) {
-        analysisText.innerHTML = "⚠️ <strong>Almost there.</strong> You hit the bare minimum cutoff zone, but you should push for a few more to be safe.";
+    if (quantDrillScore >= 23) {
+        analysisText.innerHTML = "🏆 <strong>AIR 1 Standard!</strong> 23+ is flawless execution. This is exactly where you need to be. Maintain this composure under exam pressure.";
+    } else if (quantDrillScore >= 20) {
+        analysisText.innerHTML = "⚡ <strong>Close, but not AIR 1 yet.</strong> 20/25 is competitive, but for the top rank you need 23+. Identify the exact questions you lost and drill that specific concept relentlessly.";
+    } else if (quantDrillScore >= 16) {
+        analysisText.innerHTML = "⚠️ <strong>Danger Zone for AIR 1.</strong> This score will clear the cutoff, but it won't win you the top rank. Every mistake must be eliminated — no acceptable errors at AIR 1 level.";
     } else {
-        analysisText.innerHTML = "❌ <strong>Below Qualifying Target.</strong> Keep practicing these high-yield topics. Do not waste time on complex geometry until you master these!";
+        analysisText.innerHTML = "❌ <strong>Far from AIR 1 target.</strong> Deep revision needed immediately. Go back to the formula sheet, reattempt PYQs topic-by-topic, and do not attempt mocks until your accuracy is above 85%.";
     }
 }
 
@@ -84541,20 +84542,22 @@ function finishQuiz() {
     // Feedback copy
     const feedback = document.getElementById("result-feedback-message");
     if (activeQuiz.isFullMock) {
-        if (finalScore >= 130) {
-            feedback.innerText = "🔥 Outstanding! You're in the safe zone for CGL Tier-I clearance.";
-        } else if (finalScore >= 100) {
-            feedback.innerText = "👍 Good! Borderline clearance. Focus on improving accuracy in your weak subjects.";
+        if (finalScore >= 160) {
+            feedback.innerText = "🏆 AIR 1 Zone! 160+ is elite territory. This is the score that wins the top rank. Perfect your speed now.";
+        } else if (finalScore >= 140) {
+            feedback.innerText = "⚡ Very close to AIR 1. Push past 160 with tighter accuracy and faster mental math. Analyze every lost mark.";
+        } else if (finalScore >= 120) {
+            feedback.innerText = "⚠️ Clearance level, but far from AIR 1. You need 30-40 more marks. Identify and eliminate weak spots immediately.";
         } else {
-            feedback.innerText = "📚 Keep practicing! You need to push your score above 130+ to be safe.";
+            feedback.innerText = "❌ Below AIR 1 requirement. Serious revision needed. Focus on high-weightage topics and rebuild accuracy from scratch.";
         }
     } else {
-        if (pct >= 80) {
-            feedback.innerText = "🔥 Fantastic! You scored well above CGL expectations. Focus on speed now!";
-        } else if (pct >= 60) {
-            feedback.innerText = "👍 Good job! You've passed CGL sectional expectations, but practicing shortcuts will build speed.";
+        if (pct >= 90) {
+            feedback.innerText = "🏆 AIR 1 Standard! 90%+ accuracy is exactly where a rank 1 candidate operates. Now focus on speed — solve 20% faster.";
+        } else if (pct >= 75) {
+            feedback.innerText = "⚡ Good, but not AIR 1 yet. 75% means you are losing 1 in 4 — that's too many for the top rank. Drill your weak topics harder.";
         } else {
-            feedback.innerText = "📚 Keep practicing! Review the formulas and shortcuts in the solution breakdown.";
+            feedback.innerText = "❌ Below AIR 1 threshold. Review formulas, shortcuts and reattempt until accuracy is consistently above 90%.";
         }
     }
 
@@ -85631,6 +85634,14 @@ function endReasoningDrill() {
     document.getElementById('reasoning-active-screen').classList.add('hidden');
     document.getElementById('reasoning-results-screen').classList.remove('hidden');
     document.getElementById('reasoning-final-score').innerText = reasoningState.score;
+    const s = reasoningState.score;
+    const msg = document.getElementById('reasoning-result-msg');
+    if (msg) {
+        if (s >= 9) msg.innerHTML = "🏆 <strong>AIR 1 Standard!</strong> 9-10/10 in Reasoning is flawless. Maintain this accuracy at speed.";
+        else if (s >= 7) msg.innerHTML = "⚡ <strong>Close, not AIR 1 yet.</strong> You need 9+ consistently. Find the pattern in questions you're getting wrong.";
+        else if (s >= 5) msg.innerHTML = "⚠️ <strong>Danger Zone for AIR 1.</strong> 5-6/10 means Reasoning is losing you crucial marks in the merit list.";
+        else msg.innerHTML = "❌ <strong>Critical weak area.</strong> Reasoning must be a strength for AIR 1. Reattempt and focus on logic pattern recognition.";
+    }
 }
 
 function quitReasoningDrill() {

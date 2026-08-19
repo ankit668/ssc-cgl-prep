@@ -1073,20 +1073,22 @@ function finishQuiz() {
     // Feedback copy
     const feedback = document.getElementById("result-feedback-message");
     if (activeQuiz.isFullMock) {
-        if (finalScore >= 130) {
-            feedback.innerText = "🔥 Outstanding! You're in the safe zone for CGL Tier-I clearance.";
-        } else if (finalScore >= 100) {
-            feedback.innerText = "👍 Good! Borderline clearance. Focus on improving accuracy in your weak subjects.";
+        if (finalScore >= 160) {
+            feedback.innerText = "🏆 AIR 1 Zone! 160+ is elite territory. This is the score that wins the top rank. Perfect your speed now.";
+        } else if (finalScore >= 140) {
+            feedback.innerText = "⚡ Very close to AIR 1. Push past 160 with tighter accuracy and faster mental math. Analyze every lost mark.";
+        } else if (finalScore >= 120) {
+            feedback.innerText = "⚠️ Clearance level, but far from AIR 1. You need 30-40 more marks. Identify and eliminate weak spots immediately.";
         } else {
-            feedback.innerText = "📚 Keep practicing! You need to push your score above 130+ to be safe.";
+            feedback.innerText = "❌ Below AIR 1 requirement. Serious revision needed. Focus on high-weightage topics and rebuild accuracy from scratch.";
         }
     } else {
-        if (pct >= 80) {
-            feedback.innerText = "🔥 Fantastic! You scored well above CGL expectations. Focus on speed now!";
-        } else if (pct >= 60) {
-            feedback.innerText = "👍 Good job! You've passed CGL sectional expectations, but practicing shortcuts will build speed.";
+        if (pct >= 90) {
+            feedback.innerText = "🏆 AIR 1 Standard! 90%+ accuracy is exactly where a rank 1 candidate operates. Now focus on speed — solve 20% faster.";
+        } else if (pct >= 75) {
+            feedback.innerText = "⚡ Good, but not AIR 1 yet. 75% means you are losing 1 in 4 — that's too many for the top rank. Drill your weak topics harder.";
         } else {
-            feedback.innerText = "📚 Keep practicing! Review the formulas and shortcuts in the solution breakdown.";
+            feedback.innerText = "❌ Below AIR 1 threshold. Review formulas, shortcuts and reattempt until accuracy is consistently above 90%.";
         }
     }
 
@@ -2163,6 +2165,14 @@ function endReasoningDrill() {
     document.getElementById('reasoning-active-screen').classList.add('hidden');
     document.getElementById('reasoning-results-screen').classList.remove('hidden');
     document.getElementById('reasoning-final-score').innerText = reasoningState.score;
+    const s = reasoningState.score;
+    const msg = document.getElementById('reasoning-result-msg');
+    if (msg) {
+        if (s >= 9) msg.innerHTML = "🏆 <strong>AIR 1 Standard!</strong> 9-10/10 in Reasoning is flawless. Maintain this accuracy at speed.";
+        else if (s >= 7) msg.innerHTML = "⚡ <strong>Close, not AIR 1 yet.</strong> You need 9+ consistently. Find the pattern in questions you're getting wrong.";
+        else if (s >= 5) msg.innerHTML = "⚠️ <strong>Danger Zone for AIR 1.</strong> 5-6/10 means Reasoning is losing you crucial marks in the merit list.";
+        else msg.innerHTML = "❌ <strong>Critical weak area.</strong> Reasoning must be a strength for AIR 1. Reattempt and focus on logic pattern recognition.";
+    }
 }
 
 function quitReasoningDrill() {
