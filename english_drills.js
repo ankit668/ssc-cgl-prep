@@ -66,8 +66,8 @@ function startEnglishDrill(mode) {
 
     // Shuffle questions
     englishDrillQuestions.sort(() => Math.random() - 0.5);
-    // Limit to 10 for a rapid drill
-    englishDrillQuestions = englishDrillQuestions.slice(0, 10);
+    // 25 questions - matches real SSC CGL section size
+    englishDrillQuestions = englishDrillQuestions.slice(0, 25);
 
     // Switch UI
     document.getElementById('english-drills-select-screen').classList.add('hidden');
@@ -81,8 +81,8 @@ function startEnglishDrill(mode) {
     }
 
     clearInterval(englishDrillTimerInterval);
-    englishDrillTimeLeft = 420; // 7 minutes
-    document.getElementById('english-drill-timer').textContent = '07:00';
+    englishDrillTimeLeft = 900; // 15 minutes - real SSC CGL section time
+    document.getElementById('english-drill-timer').textContent = '15:00';
     englishDrillTimerInterval = setInterval(() => {
         englishDrillTimeLeft--;
         if (englishDrillTimeLeft <= 0) {

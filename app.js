@@ -2079,14 +2079,14 @@ function startReasoningDrill(mode) {
     activeReasoningMode = mode;
     reasoningState.score = 0;
     reasoningState.questionCount = 0;
-    reasoningState.timeLeft = 300; // 5 mins
+    reasoningState.timeLeft = 900; // 15 mins - real SSC CGL section time
 
     document.getElementById('reasoning-select-screen').classList.add('hidden');
     document.getElementById('reasoning-results-screen').classList.add('hidden');
     document.getElementById('reasoning-active-screen').classList.remove('hidden');
 
     document.getElementById('reasoning-current-score').innerText = '0';
-    document.getElementById('reasoning-timer').innerText = '05:00';
+    document.getElementById('reasoning-timer').innerText = '15:00';
     
     clearInterval(reasoningState.timer);
     reasoningState.timer = setInterval(() => {
@@ -2104,7 +2104,7 @@ function startReasoningDrill(mode) {
 }
 
 function renderReasoningQuestion() {
-    if (reasoningState.questionCount >= 10) {
+    if (reasoningState.questionCount >= 25) {
         endReasoningDrill();
         return;
     }
@@ -2168,10 +2168,10 @@ function endReasoningDrill() {
     const s = reasoningState.score;
     const msg = document.getElementById('reasoning-result-msg');
     if (msg) {
-        if (s >= 9) msg.innerHTML = "🏆 <strong>AIR 1 Standard!</strong> 9-10/10 in Reasoning is flawless. Maintain this accuracy at speed.";
-        else if (s >= 7) msg.innerHTML = "⚡ <strong>Close, not AIR 1 yet.</strong> You need 9+ consistently. Find the pattern in questions you're getting wrong.";
-        else if (s >= 5) msg.innerHTML = "⚠️ <strong>Danger Zone for AIR 1.</strong> 5-6/10 means Reasoning is losing you crucial marks in the merit list.";
-        else msg.innerHTML = "❌ <strong>Critical weak area.</strong> Reasoning must be a strength for AIR 1. Reattempt and focus on logic pattern recognition.";
+        if (s >= 23) msg.innerHTML = "🏆 <strong>AIR 1 Standard!</strong> 23+/25 in Reasoning is elite. Maintain this accuracy at full speed.";
+        else if (s >= 20) msg.innerHTML = "⚡ <strong>Close, not AIR 1 yet.</strong> Need 23+ consistently. Identify the pattern in questions you're losing.";
+        else if (s >= 15) msg.innerHTML = "⚠️ <strong>Danger Zone for AIR 1.</strong> This score will clear the cutoff but won't win the top rank. Zero errors is the goal.";
+        else msg.innerHTML = "❌ <strong>Critical weak area.</strong> Reasoning must be a strength for AIR 1. Reattempt immediately and focus on logic pattern recognition.";
     }
 }
 

@@ -2313,8 +2313,8 @@ body {
                 <div id="reasoning-active-screen" class="hidden">
                     <div class="trainer-game-header">
                         <button class="btn btn-secondary btn-sm" onclick="quitReasoningDrill()">← Quit</button>
-                        <div class="trainer-score-badge">Score: <span id="reasoning-current-score">0</span>/10</div>
-                        <div class="trainer-timer-badge">Timer: <span id="reasoning-timer">05:00</span></div>
+                        <div class="trainer-score-badge">Score: <span id="reasoning-current-score">0</span>/25</div>
+                        <div class="trainer-timer-badge">Timer: <span id="reasoning-timer">15:00</span></div>
                     </div>
                     
                     <div class="trainer-drill-card" style="min-height:300px;">
@@ -2330,7 +2330,7 @@ body {
                         <div class="result-illustration">🏆</div>
                         <h2>Drill Complete!</h2>
                         <div class="result-score-display">
-                            <span id="reasoning-final-score">0</span> / 10
+                            <span id="reasoning-final-score">0</span> / 25
                         </div>
                         <p id="reasoning-result-msg" style="font-size:1rem; margin: 12px 0 20px; color: var(--text-secondary);"></p>
                         <div class="result-actions">
@@ -2395,7 +2395,7 @@ body {
                         <button class="btn btn-secondary btn-sm" onclick="quitEnglishDrill()">← Quit</button>
                         <div class="trainer-score-badge">Question: <span id="english-drill-current-q">1</span></div>
                         <div class="trainer-timer-badge">Correct: <span id="english-drill-score">0</span></div>
-                        <div class="trainer-timer-badge" style="background: rgba(245, 158, 11, 0.1); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.3);">Timer: <span id="english-drill-timer">07:00</span></div>
+                        <div class="trainer-timer-badge" style="background: rgba(245, 158, 11, 0.1); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.3);">Timer: <span id="english-drill-timer">15:00</span></div>
                     </div>
                     
                     <div class="english-drill-split-layout" style="display:flex; gap:20px; align-items:flex-start; margin-top:20px;">
@@ -78308,8 +78308,8 @@ function startEnglishDrill(mode) {
 
     // Shuffle questions
     englishDrillQuestions.sort(() => Math.random() - 0.5);
-    // Limit to 10 for a rapid drill
-    englishDrillQuestions = englishDrillQuestions.slice(0, 10);
+    // 25 questions - matches real SSC CGL section size
+    englishDrillQuestions = englishDrillQuestions.slice(0, 25);
 
     // Switch UI
     document.getElementById('english-drills-select-screen').classList.add('hidden');
@@ -78323,8 +78323,8 @@ function startEnglishDrill(mode) {
     }
 
     clearInterval(englishDrillTimerInterval);
-    englishDrillTimeLeft = 420; // 7 minutes
-    document.getElementById('english-drill-timer').textContent = '07:00';
+    englishDrillTimeLeft = 900; // 15 minutes - real SSC CGL section time
+    document.getElementById('english-drill-timer').textContent = '15:00';
     englishDrillTimerInterval = setInterval(() => {
         englishDrillTimeLeft--;
         if (englishDrillTimeLeft <= 0) {
@@ -85548,14 +85548,14 @@ function startReasoningDrill(mode) {
     activeReasoningMode = mode;
     reasoningState.score = 0;
     reasoningState.questionCount = 0;
-    reasoningState.timeLeft = 300; // 5 mins
+    reasoningState.timeLeft = 900; // 15 mins - real SSC CGL section time
 
     document.getElementById('reasoning-select-screen').classList.add('hidden');
     document.getElementById('reasoning-results-screen').classList.add('hidden');
     document.getElementById('reasoning-active-screen').classList.remove('hidden');
 
     document.getElementById('reasoning-current-score').innerText = '0';
-    document.getElementById('reasoning-timer').innerText = '05:00';
+    document.getElementById('reasoning-timer').innerText = '15:00';
     
     clearInterval(reasoningState.timer);
     reasoningState.timer = setInterval(() => {
@@ -85573,7 +85573,7 @@ function startReasoningDrill(mode) {
 }
 
 function renderReasoningQuestion() {
-    if (reasoningState.questionCount >= 10) {
+    if (reasoningState.questionCount >= 25) {
         endReasoningDrill();
         return;
     }
@@ -85637,10 +85637,10 @@ function endReasoningDrill() {
     const s = reasoningState.score;
     const msg = document.getElementById('reasoning-result-msg');
     if (msg) {
-        if (s >= 9) msg.innerHTML = "🏆 <strong>AIR 1 Standard!</strong> 9-10/10 in Reasoning is flawless. Maintain this accuracy at speed.";
-        else if (s >= 7) msg.innerHTML = "⚡ <strong>Close, not AIR 1 yet.</strong> You need 9+ consistently. Find the pattern in questions you're getting wrong.";
-        else if (s >= 5) msg.innerHTML = "⚠️ <strong>Danger Zone for AIR 1.</strong> 5-6/10 means Reasoning is losing you crucial marks in the merit list.";
-        else msg.innerHTML = "❌ <strong>Critical weak area.</strong> Reasoning must be a strength for AIR 1. Reattempt and focus on logic pattern recognition.";
+        if (s >= 23) msg.innerHTML = "🏆 <strong>AIR 1 Standard!</strong> 23+/25 in Reasoning is elite. Maintain this accuracy at full speed.";
+        else if (s >= 20) msg.innerHTML = "⚡ <strong>Close, not AIR 1 yet.</strong> Need 23+ consistently. Identify the pattern in questions you're losing.";
+        else if (s >= 15) msg.innerHTML = "⚠️ <strong>Danger Zone for AIR 1.</strong> This score will clear the cutoff but won't win the top rank. Zero errors is the goal.";
+        else msg.innerHTML = "❌ <strong>Critical weak area.</strong> Reasoning must be a strength for AIR 1. Reattempt immediately and focus on logic pattern recognition.";
     }
 }
 
