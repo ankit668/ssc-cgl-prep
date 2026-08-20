@@ -55,12 +55,31 @@
     `;
     document.body.appendChild(modal);
 
+    // Ensure CSS is loaded once
+    if(!document.getElementById('fatman-css')) {
+        const style = document.createElement('style');
+        style.id = 'fatman-css';
+        style.textContent = `
+            .fatman-card.flipped { transform: rotateY(180deg); }
+            #fatman-content ul { padding-left: 20px; }
+            #fatman-content li { margin-bottom: 10px; color: #CBD5E1; }
+            #fatman-content h3 { color: #F87171; margin-top: 25px; border-bottom: 1px solid #334155; padding-bottom: 8px;}
+            .mock-opt.selected { background: #38BDF8 !important; color: white !important; border-color: #38BDF8 !important; }
+            .mock-opt.correct { background: #10B981 !important; color: white !important; border-color: #10B981 !important; }
+            .mock-opt.wrong { background: #EF4444 !important; color: white !important; border-color: #EF4444 !important; }
+        `;
+        document.head.appendChild(style);
+    }
+
     // 3. Logic & Events
     document.getElementById('fatman-fab').onclick = () => {
         modal.style.display = 'flex';
         renderFatmanNotes(); // Default view
     };
-    document.getElementById('fatman-close').onclick = () => modal.style.display = 'none';
+    document.getElementById('fatman-close').onclick = () => {
+        modal.style.display = 'none';
+        if (window.mockTimerInterval) clearInterval(window.mockTimerInterval);
+    };
 
     const tabs = document.querySelectorAll('.fatman-tab');
     tabs.forEach(tab => {
@@ -70,10 +89,12 @@
             e.target.style.border = 'none';
             e.target.classList.add('active');
             
+            if (window.mockTimerInterval) clearInterval(window.mockTimerInterval); // clear timer if leaving tab
+            
             const target = e.target.getAttribute('data-target');
             if (target === 'fatman-notes') renderFatmanNotes();
             if (target === 'fatman-flashcards') renderFatmanFlashcards();
-            if (target === 'fatman-mcqs') renderFatmanMCQs();
+            if (target === 'fatman-mcqs') renderFatmanMCQMenu();
         };
     });
 
@@ -113,22 +134,27 @@
         });
         html += '</div>';
         content.innerHTML = html;
-        
-        // Add CSS for flip animation
-        if(!document.getElementById('fatman-css')) {
-            const style = document.createElement('style');
-            style.id = 'fatman-css';
-            style.textContent = `
-                .fatman-card.flipped { transform: rotateY(180deg); }
-                #fatman-content ul { padding-left: 20px; }
-                #fatman-content li { margin-bottom: 10px; color: #CBD5E1; }
-                #fatman-content h3 { color: #F87171; margin-top: 25px; border-bottom: 1px solid #334155; padding-bottom: 8px;}
-            `;
-            document.head.appendChild(style);
-        }
     }
 
-    function renderFatmanMCQs() {
+    function renderFatmanMCQMenu() {
+        const content = document.getElementById('fatman-content');
+        content.innerHTML = `
+            <div style="max-width:800px; margin: 0 auto; text-align:center; margin-top: 40px;">
+                <h2 style="color:white; margin-bottom:10px;">Select Drill Mode</h2>
+                <p style="color:#94A3B8; margin-bottom: 30px;">Choose how you want to conquer the ${window.fatmanGeography.mcqs.length} questions.</p>
+                
+                <button onclick="window.startFatmanPractice()" style="background:#334155; border:1px solid #475569; color:white; padding: 15px 30px; font-size:18px; border-radius:12px; width: 100%; max-width: 400px; margin-bottom:15px; cursor:pointer; font-family:'Outfit';">
+                    📚 Practice Mode (All Qs)
+                </button>
+                <br>
+                <button onclick="window.startFatmanMock()" style="background: linear-gradient(135deg, #FF416C 0%, #FF4B2B 100%); border:none; color:white; padding: 15px 30px; font-size:18px; font-weight:bold; border-radius:12px; width: 100%; max-width: 400px; cursor:pointer; font-family:'Outfit'; box-shadow: 0 4px 15px rgba(255, 65, 108, 0.4);">
+                    ⏱️ Fatman Grand Test (20 Qs, 5 Mins)
+                </button>
+            </div>
+        `;
+    }
+
+    window.startFatmanPractice = function() {
         const content = document.getElementById('fatman-content');
         const mcqs = window.fatmanGeography.mcqs;
         let html = '<div style="max-width:800px; margin: 0 auto;">';
@@ -157,5 +183,127 @@
         });
         html += '</div>';
         content.innerHTML = html;
-    }
+    };
+
+    window.startFatmanMock = function() {
+        // Randomly select 20 questions
+        let allQs = [...window.fatmanGeography.mcqs];
+        allQs.sort(() => 0.5 - Math.random());
+        window.mockQs = allQs.slice(0, 20);
+        window.mockAnswers = new Array(20).fill(-1); // -1 means unattempted
+        
+        const content = document.getElementById('fatman-content');
+        let html = `
+            <div id="mock-header" style="position: sticky; top: -20px; background: #0F172A; padding: 15px; border-bottom: 2px solid #334155; z-index: 10; display:flex; justify-content: space-between; align-items:center; border-radius: 0 0 12px 12px; margin-bottom:20px;">
+                <div style="font-weight:bold; color: #F87171; font-size: 18px;">Grand Test</div>
+                <div id="mock-timer" style="font-weight:bold; color: #10B981; font-size: 20px; font-family: monospace;">05:00</div>
+                <button onclick="window.submitFatmanMock()" style="background:#38BDF8; color:white; border:none; padding:8px 16px; border-radius:8px; font-weight:bold; cursor:pointer;">Submit</button>
+            </div>
+            <div style="max-width:800px; margin: 0 auto;" id="mock-questions-container">
+        `;
+        
+        window.mockQs.forEach((q, qidx) => {
+            html += `
+                <div class="mock-q-card" id="mock-q-${qidx}" style="background: #1E293B; margin-bottom: 20px; padding: 20px; border-radius: 12px; border: 1px solid #334155;">
+                    <h3 style="margin-top:0; color:#F1F5F9; font-size: 16px; font-weight:600;">Q${qidx+1}: ${q.question}</h3>
+                    <div style="display:flex; flex-direction:column; gap:10px; margin-top:15px;">
+            `;
+            q.options.forEach((opt, optidx) => {
+                html += `
+                    <button class="mock-opt mock-opt-${qidx}" onclick="window.selectMockAnswer(${qidx}, ${optidx})" style="padding: 12px; text-align: left; background: #334155; color: #CBD5E1; border: 2px solid transparent; border-radius: 8px; cursor: pointer; transition: 0.2s;">
+                        ${String.fromCharCode(65+optidx)}. ${opt}
+                    </button>
+                `;
+            });
+            html += `
+                    </div>
+                    <div class="mock-exp" id="mock-exp-${qidx}" style="display:none; margin-top: 15px; padding: 15px; background: rgba(16, 185, 129, 0.1); border-left: 4px solid #10B981; color: #A7F3D0; font-size: 14px; border-radius: 0 8px 8px 0;">
+                        <strong>Explanation:</strong> ${q.explanation}
+                    </div>
+                </div>
+            `;
+        });
+        html += '</div>';
+        content.innerHTML = html;
+
+        // Start Timer
+        let timeRemaining = 300; // 5 minutes in seconds
+        window.mockTimerInterval = setInterval(() => {
+            timeRemaining--;
+            let m = Math.floor(timeRemaining / 60).toString().padStart(2, '0');
+            let s = (timeRemaining % 60).toString().padStart(2, '0');
+            document.getElementById('mock-timer').innerText = `${m}:${s}`;
+            
+            if(timeRemaining <= 60) document.getElementById('mock-timer').style.color = '#EF4444';
+            
+            if(timeRemaining <= 0) {
+                clearInterval(window.mockTimerInterval);
+                window.submitFatmanMock();
+            }
+        }, 1000);
+    };
+
+    window.selectMockAnswer = function(qidx, optidx) {
+        // Unselect others
+        const btns = document.querySelectorAll(`.mock-opt-${qidx}`);
+        btns.forEach(b => b.classList.remove('selected'));
+        
+        // Select current
+        btns[optidx].classList.add('selected');
+        window.mockAnswers[qidx] = optidx;
+    };
+
+    window.submitFatmanMock = function() {
+        if(window.mockTimerInterval) clearInterval(window.mockTimerInterval);
+        document.getElementById('mock-timer').innerText = "TEST OVER";
+        
+        let correct = 0;
+        let incorrect = 0;
+        let unattempted = 0;
+
+        window.mockQs.forEach((q, qidx) => {
+            const btns = document.querySelectorAll(`.mock-opt-${qidx}`);
+            const userAns = window.mockAnswers[qidx];
+            
+            // Show correct answer explicitly
+            btns[q.correct].classList.add('correct');
+            
+            if(userAns === -1) {
+                unattempted++;
+            } else if(userAns === q.correct) {
+                correct++;
+            } else {
+                incorrect++;
+                btns[userAns].classList.add('wrong');
+            }
+            
+            // Show explanation
+            document.getElementById(`mock-exp-${qidx}`).style.display = 'block';
+            
+            // Disable buttons
+            btns.forEach(b => { b.style.pointerEvents = 'none'; });
+        });
+
+        // SSC CGL Marking: +2 for correct, -0.5 for wrong
+        let score = (correct * 2) - (incorrect * 0.5);
+        let maxScore = 40;
+        let accuracy = correct + incorrect > 0 ? Math.round((correct / (correct + incorrect)) * 100) : 0;
+
+        const resultHtml = `
+            <div style="background: linear-gradient(135deg, #1E293B 0%, #0F172A 100%); padding: 30px; border-radius: 12px; border: 2px solid #38BDF8; margin-bottom: 30px; text-align: center;">
+                <h2 style="color:white; margin:0 0 10px 0;">Test Results</h2>
+                <div style="font-size: 36px; font-weight: 800; color: #38BDF8; margin-bottom: 20px;">Score: ${score} / ${maxScore}</div>
+                <div style="display:flex; justify-content: center; gap: 20px; font-size: 14px; color: #CBD5E1;">
+                    <div>✅ Correct: <span style="color:#10B981; font-weight:bold;">${correct}</span></div>
+                    <div>❌ Wrong: <span style="color:#EF4444; font-weight:bold;">${incorrect}</span></div>
+                    <div>⚪ Skipped: <span style="font-weight:bold;">${unattempted}</span></div>
+                </div>
+                <div style="margin-top: 15px; font-size: 14px; color: #94A3B8;">Accuracy: ${accuracy}%</div>
+            </div>
+        `;
+        
+        document.getElementById('mock-questions-container').insertAdjacentHTML('afterbegin', resultHtml);
+        document.getElementById('fatman-content').scrollTo(0, 0);
+    };
+
 })();
