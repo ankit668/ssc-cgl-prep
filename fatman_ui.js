@@ -148,7 +148,7 @@
                 </button>
                 <br>
                 <button onclick="window.startFatmanMock()" style="background: linear-gradient(135deg, #FF416C 0%, #FF4B2B 100%); border:none; color:white; padding: 15px 30px; font-size:18px; font-weight:bold; border-radius:12px; width: 100%; max-width: 400px; cursor:pointer; font-family:'Outfit'; box-shadow: 0 4px 15px rgba(255, 65, 108, 0.4);">
-                    ⏱️ Fatman Grand Test (20 Qs, 5 Mins)
+                    ⏱️ Fatman Grand Test (25 Qs, 5 Mins)
                 </button>
             </div>
         `;
@@ -189,8 +189,8 @@
         // Randomly select 20 questions
         let allQs = [...window.fatmanGeography.mcqs];
         allQs.sort(() => 0.5 - Math.random());
-        window.mockQs = allQs.slice(0, 20);
-        window.mockAnswers = new Array(20).fill(-1); // -1 means unattempted
+        window.mockQs = allQs.slice(0, 25);
+        window.mockAnswers = new Array(25).fill(-1); // -1 means unattempted
         
         const content = document.getElementById('fatman-content');
         let html = `
@@ -286,7 +286,7 @@
 
         // SSC CGL Marking: +2 for correct, -0.5 for wrong
         let score = (correct * 2) - (incorrect * 0.5);
-        let maxScore = 40;
+        let maxScore = 50;
         let accuracy = correct + incorrect > 0 ? Math.round((correct / (correct + incorrect)) * 100) : 0;
 
         const resultHtml = `
