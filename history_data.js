@@ -53,27 +53,55 @@ const historyData = {
             <li><strong>Atharva Veda:</strong> Book of Magical charms and spells.</li>
         </ul>
 
-        <h3>3. Buddhism</h3>
+        
+        <h3>3. Sangam Age (Deep South) - Exhaustive Extraction</h3>
         <ul>
-            <li><strong>Gautama Buddha:</strong> Born in Lumbini (563 BC). Father: Suddhodana (Shakya clan). Mother: Mahamaya. Wife: Yashodhara. Son: Rahula.</li>
-            <li><strong>Great Events:</strong> Mahabhinishkramana (Leaving home - Symbol: Horse), Nirvana (Enlightenment at Bodh Gaya under Peepal tree - Symbol: Bodhi Tree), Dharmachakra Pravartana (First sermon at Sarnath - Symbol: Wheel), Mahaparinirvana (Death at Kushinagar - Symbol: Stupa).</li>
-            <li><strong>Buddhist Councils:</strong>
-                <ol>
-                    <li>Rajagriha (Ajatashatru)</li>
-                    <li>Vaishali (Kalasoka)</li>
-                    <li>Pataliputra (Ashoka - Abhidhamma Pitaka added)</li>
-                    <li>Kashmir (Kanishka - Buddhism split into Hinayana and Mahayana)</li>
-                </ol>
+            <li><strong>Basics:</strong> South India did not experience a Bronze Age, it directly transitioned to <strong>Megalithic Age (Iron Age)</strong>. 'Sangam' means Assemblies. Held at Tamil Nadu, known as <em>Muchchangam</em>.</li>
+            <li><strong>Sangams:</strong>
+                <ul>
+                    <li>1st: Madurai (Chairman: Rishi Agastya). No text found.</li>
+                    <li>2nd: Kapadapuram (Chairman: Tolkappiyar). Text: <strong>Tolkapiyyam</strong> (earliest grammatical Tamil text).</li>
+                    <li>3rd: Madurai (Chairman: Nakkirar).</li>
+                </ul>
             </li>
-            <li><strong>Tripitakas:</strong> Sutta Pitaka (Buddha's teachings), Vinaya Pitaka (Monastic rules), Abhidhamma Pitaka (Philosophy).</li>
+            <li><strong>Sangam Literature:</strong> Narrative (Melkannakku - 18 major works) & Didactic (Kilkanakku - 18 minor works like <em>Tirukkural</em>).</li>
+            <li><strong>Epics:</strong> <strong>Silapathikaram</strong> (by Ilango Adigal - story of Kovalan and Kannagi). <strong>Manimekalai</strong> (by Chithalai Chathanar).</li>
+            <li><strong>Five Thinais (Landscapes):</strong> 
+                <ul>
+                    <li><em>Kurinci:</em> Hunting/gathering.</li>
+                    <li><em>Palai:</em> Cattle lifters/plunderers.</li>
+                    <li><em>Mullai:</em> Animal husbandry.</li>
+                    <li><em>Marutam:</em> Agriculture.</li>
+                    <li><em>Neytal:</em> Fishing/salt collection.</li>
+                </ul>
+            </li>
+            <li><strong>Dynasties:</strong>
+                <ul>
+                    <li><strong>Cheras:</strong> Kerala/TN. Capital: Vanji. Emblem: <strong>Bow and Arrow</strong>. Greatest ruler: <em>Senguttuvan</em> (Red Chera, founded Pattini cult - worshipping Kannagi).</li>
+                    <li><strong>Cholas:</strong> Coromandels. Capital: Uraiyur/Puhar. Emblem: <strong>Tiger</strong>. Greatest ruler: <em>Karikala</em> (Battle of Venni). Efficient Naval power.</li>
+                    <li><strong>Pandyas:</strong> TN. Capital: Madurai. Emblem: <strong>Fish</strong>. Famous for <strong>pearl trade</strong> (mentioned by Megasthenes). Traded with Roman Empire.</li>
+                </ul>
+            </li>
+            <li><strong>Society Terms:</strong> <em>Arasar</em> (Ruling class), <em>Vellalar</em> (Rich landlords), <em>Uzhavur</em> (Ordinary Ploughmen), <em>Vattakirutal</em> (Ritual suicide by starving).</li>
         </ul>
 
-        <h3>4. Jainism</h3>
+        <h3>4. Jainism - Exhaustive Extraction</h3>
         <ul>
-            <li><strong>Tirthankaras:</strong> 24 in total. 1st: Rishabhanatha (Bull). 23rd: Parshvanatha (Serpent). 24th: Vardhamana Mahavira (Lion).</li>
-            <li><strong>Mahavira:</strong> Born in Kundagrama (near Vaishali) in 540 BC. Jnatrika clan. Attained Kaivalya (enlightenment) at Jrimbhikagrama under a Sal tree.</li>
-            <li><strong>Triratnas (Three Jewels):</strong> Right Faith, Right Knowledge, Right Conduct.</li>
-            <li><strong>Councils:</strong> 1st at Pataliputra (Chandragupta Maurya), 2nd at Valabhi (Gujarat). Split into Shvetambaras (white-clad, led by Sthulabhadra) and Digambaras (sky-clad, led by Bhadrabahu).</li>
+            <li><strong>Origin Causes:</strong> Opposition to Brahminical dominance, Rise of Agricultural economy (Vaishyas funded them), rejection of Varna system (linked Varna to karma, not birth). Rejected infallibility of Vedas.</li>
+            <li><strong>Tirthankaras (24):</strong>
+                <ul>
+                    <li><strong>1st:</strong> Rishabh Dev / Adinath (Bull). Born in Ayodhya.</li>
+                    <li><strong>22nd:</strong> Arishtanemi (Conch/Shankh).</li>
+                    <li><strong>23rd:</strong> Parshavnath (Serpent). Varanasi.</li>
+                    <li><strong>24th:</strong> Vardhaman Mahavir (Lion). Kundagram (Vaishali).</li>
+                    <li><em>Note:</em> Only Rishabh Dev and Arishtanemi are mentioned in the Vedas.</li>
+                </ul>
+            </li>
+            <li><strong>Vardhaman Mahavir:</strong> Born 540 BC. Clan: Jnatrika. Left home at 30 with <strong>Makkhali Gosala</strong> (who later founded the fatalistic <strong>Ajivika Sect</strong>). Attained <em>Kaivalya</em> at 42 under a <strong>Sal tree</strong> at Jambhikagrama near river <strong>Rijupalika</strong>. First sermon at <strong>Rajgir</strong>. Died at <strong>Pavapuri</strong> (468 BC).</li>
+            <li><strong>Terms:</strong> <em>Moksha</em> (Salvation), <em>Asrava</em> (Inflow of karmic practices), <em>Basadis</em> (Jain monasteries), <em>Jina</em> (Conqueror).</li>
+            <li><strong>Philosophy (Triratnas):</strong> Right Knowledge (Samyaka Jnana), Right Faith (Samyaka Darshana), Right Conduct (Samyaka Charitra).</li>
+            <li><strong>Five Vows (Panch Vrata):</strong> Ahimsa (Non-violence), Satya (Truth), Asteya (Non-stealing), Aparigraha (Non-possession). Mahavira added the 5th: <strong>Brahmacharya (Celibacy)</strong> to the existing four (Chaturyama Dharma).</li>
+            <li><strong>Division:</strong> During a famine in Magadha, Bhadrabahu led followers to Shravanabelagola (Karnataka). They became <strong>Digambaras</strong> (sky-clad/naked). Those who stayed in Magadha under Sthulabhadra became <strong>Shvetambaras</strong> (white-clad).</li>
         </ul>
 
         <h3>5. Mahajanapadas & Magadha Empire</h3>
