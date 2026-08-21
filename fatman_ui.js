@@ -156,6 +156,7 @@ function renderFatmanNotes() {
     const content = document.getElementById('fatman-content');
         window.currentFatmanTopic = window.currentFatmanTopic || 'All';
     const allCards = window.getFatmanData().flashcards;
+    let uniqueTopics = ['All', ...new Set(allCards.map(c => c.topic))];
     
     // Load mastered cards from localStorage
     let masteredStr = localStorage.getItem('fatman_mastered_cards');
@@ -165,7 +166,9 @@ function renderFatmanNotes() {
     let deck = [];
     allCards.forEach((c, idx) => {
         if (!mastered.includes(idx)) {
-            deck.push({ card: c, originalIndex: idx });
+            if (window.currentFatmanTopic === 'All' || c.topic === window.currentFatmanTopic) {
+                deck.push({ card: c, originalIndex: idx });
+            }
         }
     });
 
