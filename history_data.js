@@ -1,25 +1,56 @@
 const historyData = {
     chapter: "Ancient History (Complete SSC Coverage)",
     notes: `
-        <h3>1. Indus Valley Civilization (IVC)</h3>
+        
+        <h3>1. Indus Valley Civilization (IVC) - Exhaustive Extraction</h3>
         <ul>
-            <li><strong>Timeline:</strong> 2500 BC – 1750 BC (Carbon-14 dating). Discovered by Dayaram Sahni (Harappa, 1921) and R.D. Banerjee (Mohenjo-Daro, 1922).</li>
-            <li><strong>Harappa:</strong> Situated on the banks of River Ravi. Found: 6 Granaries, Coffin burial.</li>
-            <li><strong>Mohenjo-Daro (Mound of Dead):</strong> On River Indus. Found: Great Bath, Great Granary, Bronze Dancing Girl, Pashupati Seal, Priest King statue.</li>
-            <li><strong>Lothal:</strong> Artificial Dockyard (Manchester of IVC) in Gujarat on Bhogava river. Evidence of rice husk, fire altars, and double burial.</li>
-            <li><strong>Kalibangan (Black Bangles):</strong> Rajasthan on Ghaggar river. Ploughed field, fire altars, camel bones.</li>
-            <li><strong>Dholavira:</strong> Gujarat. Famous for water harvesting system and stadium. Divided into 3 parts.</li>
-            <li><strong>Key Facts:</strong> Bronze Age civilization. Urban planning (grid system, burnt bricks). Script was Boustrophedon (pictographic, right to left then left to right) and is undeciphered. Main crops: Wheat & Barley. Iron was UNKNOWN.</li>
+            <li><strong>Basics:</strong> Time Period: 2500-1750 BCE. Bronze Age. Named by <strong>John Marshall</strong>. <strong>Alexander Cunningham</strong> was the First Chairman of ASI (Father of Indian Archaeology). <strong>Debala Mitra</strong> was the first female director.</li>
+            <li><strong>Agriculture & Tech:</strong> Ploughed field at <strong>Kalibangan</strong>. Terracotta model of plough at <strong>Banawali</strong> and Cholistan. Greeks used the word <em>"Sindon"</em> for cotton.</li>
+            <li><strong>Animals:</strong> Evidence of horse and cow are generally NOT found, EXCEPT for a <strong>bone of a horse discovered at Surkotada</strong> (Gujarat).</li>
+            <li><strong>Town Planning:</strong> Urban centres. Divided into Citadel (higher/smaller) and Lower Town. <em>Exceptions:</em> <strong>Dholavira</strong> was divided into THREE parts. <strong>Chanhudaro</strong> had NO Citadel. The Citadel in <strong>Lothal</strong> was not fortified but built on a mud-brick platform.</li>
+            <li><strong>Architecture:</strong> Gypsum-based mortar used for waterproofing the Great Bath. Bricks had a standardized ratio of <strong>1:2:4</strong>. Sumps or Cesspits used for solid waste. Canal traces found at <strong>Shortugai</strong> (Afghanistan).</li>
+            <li><strong>Burial Habits:</strong> Urn burials. Dogs buried with masters at <strong>Ropar</strong> (Punjab). Double/Joint burial at <strong>Lothal</strong>. Extended burial at <strong>Sonauli</strong>.</li>
+            <li><strong>Trade:</strong> Meluhha was the Mesopotamian name for IVC. Lapis Lazuli from Shortugai. Carnelian from Gujarat.</li>
+            <li><strong>Seals & Script:</strong> Made of <strong>steatite</strong>. They were <strong>NOT aware of the lion</strong>. Ships portrayed on seals. Script was <strong>Boustrophedon</strong> (Right to Left, then Left to Right), pictographic (not alphabetical). Longest inscription has 26 signs.</li>
+            <li><strong>Religion:</strong> Lingas worshipped. Proto-Shiva (Pashupati) seal. Bronze Dancing Girl is in the <strong>Tribhanga Mudra</strong>. Fire altars found at Kalibangan and Lothal.</li>
+            <li><strong>Weights:</strong> Made of <strong>Chert</strong>. Lower denominations were Binary, higher were Decimal. Regulated in multiples of 16.</li>
         </ul>
+        <h4 style="color:#F59E0B; margin-top:20px;">Detailed Sites Table (Extremely High-Yield):</h4>
+        <table border="1" style="border-collapse: collapse; width: 100%; border-color:#334155; margin-bottom:20px;">
+            <tr style="background:#0F172A;"><th>Site & Year</th><th>Excavator</th><th>River</th><th>Key Findings</th></tr>
+            <tr><td><strong>Harappa (1921)</strong></td><td>D.R. Sahni</td><td>Ravi</td><td>12 Granaries (6 in a row), Male Torso Sculpture (Red Stone), Coffin burial.</td></tr>
+            <tr><td><strong>Mohenjodaro (1922)</strong></td><td>R.D. Banerjee</td><td>Indus</td><td>Great Bath, Great Granary (Largest building), Pashupati Seal, Bronze Dancing Girl, Priest King. Known as Oasis of Sindh.</td></tr>
+            <tr><td><strong>Lothal</strong></td><td>S.R. Rao</td><td>Bhogava</td><td>Ancient Dockyard, Fire altar, Double burial, Grid intersecting at 90 degrees.</td></tr>
+            <tr><td><strong>Kalibangan</strong></td><td>A. Ghosh</td><td>Ghaggar</td><td>Fire altars, Black bangles, Ploughed field, Two crops grown together.</td></tr>
+            <tr><td><strong>Dholavira</strong></td><td>J.P. Joshi & R.S. Bisht</td><td>-</td><td>Giant water reservoir, Divided into 3 parts, Dams. India's 40th UNESCO site (2021).</td></tr>
+            <tr><td><strong>Banawali</strong></td><td>R.S. Bisht</td><td>Saraswati</td><td>Lack of grid pattern, Terracotta plough, Toilet in house.</td></tr>
+            <tr><td><strong>Surkotada</strong></td><td>J.P. Joshi</td><td>-</td><td>Evidence of horse remains found.</td></tr>
+            <tr><td><strong>Bhirrana</strong></td><td>-</td><td>-</td><td>Oldest IVC site (earliest radiocarbon dates).</td></tr>
+            <tr><td><strong>Chanhudaro</strong></td><td>N.G. Majumdar</td><td>Indus</td><td>City without Citadel. Bead making, shell cutting.</td></tr>
+            <tr><td><strong>Rakhigarhi</strong></td><td>Amarendra Nath</td><td>Ghaggar</td><td>Largest IVC site, Terracotta wheel, Toys.</td></tr>
+        </table>
 
-        <h3>2. The Vedic Age</h3>
+        
+        <h3>2. The Vedic Age - Exhaustive Extraction</h3>
         <ul>
-            <li><strong>Rig Veda:</strong> Oldest. 1028 hymns, 10 Mandalas. 3rd Mandala contains Gayatri Mantra (by Vishwamitra to Sun god Savitri). 10th Mandala contains Purusha Sukta (Varna system).</li>
-            <li><strong>Sama Veda:</strong> Book of Chants/Music.</li>
-            <li><strong>Yajur Veda:</strong> Book of Sacrificial rituals (contains prose and poetry).</li>
+            <li><strong>Basics:</strong> 1500-600 BC. Early Vedic (pastoral) & Later Vedic. <strong>Boghazkoi Inscription</strong> (Turkiye) mentions Indra, Varun. Oldest text of Aryans is <strong>Avesta/Zend-Avesta</strong> (Iran). Vedas are <em>Apaurusheya</em> (not created by man) and <em>Shruti</em> (orally passed).</li>
+            <li><strong>Subdivisions of Vedas:</strong> <em>Samhita</em> (Hymns), <em>Brahmanas</em> (Sacrifices/Rituals), <em>Aranyakas</em> (Hermits in jungles), <em>Upanishads</em> (Bhakti Marga).</li>
+            <li><strong>Rig Veda:</strong> Oldest. 1028 hymns, 10,600 verses. Recited by <strong>Hotri</strong>. 
+                <ul>
+                    <li><strong>Female Deities & Sages:</strong> Aditi, Raka, Sinivali, Usha. Learned ladies who composed mantras: <strong>Ghosha, Apala, Viswavara</strong>.</li>
+                    <li><strong>Key Terms:</strong> <em>nrti</em> (dancer), <em>nrtu</em> (danseuse), <em>Ishukrit/Isukara</em> (maker of arrows).</li>
+                    <li><strong>Mandalas:</strong> 10 Mandalas (2-7 created first). 3rd = Gayatri Mantra (by Vishwamitra to Savitri). 9th = Lord Soma (Lord of Plants). 10th = Purusha Sukta (4 Varnas).</li>
+                </ul>
+            </li>
+            <li><strong>Sama Veda:</strong> Book of Music. Recited by <strong>Udgatri</strong>. Paired with Upaveda known as <strong>Gandharvaveda</strong>. Contains two Upanishads: <em>Chandogya</em> and <em>Kena</em>.</li>
+            <li><strong>Yajur Veda:</strong> Book of Rituals. Recited by <strong>Adhvaryu</strong>. 
+                <ul>
+                    <li>Divided into <strong>Shukla</strong> (White/Pure - mantras only) and <strong>Krishna</strong> (Black/Mixed - mantra & explanation).</li>
+                    <li><strong>Brahmana texts:</strong> Taittiriya (Black) and <strong>Shatapatha Brahmana</strong> (Largest).</li>
+                    <li><strong>Upanishads of Yajurveda:</strong> <em>Brihadaranyaka</em> (Oldest, mentions female sage Gargi), <em>Katha Upanishad</em> (Story of Nachiketa and Yama - God of Death), <em>Jabala Upanishad</em>.</li>
+                </ul>
+            </li>
             <li><strong>Atharva Veda:</strong> Book of Magical charms and spells.</li>
-            <li><strong>Upanishads:</strong> 108 in number. Philosophical texts. 'Satyameva Jayate' taken from Mundaka Upanishad.</li>
-            <li><strong>Rivers:</strong> Sindhu (Indus), Vitasta (Jhelum), Asikni (Chenab), Purushni (Ravi), Vipasha (Beas), Sutudri (Sutlej).</li>
         </ul>
 
         <h3>3. Buddhism</h3>
