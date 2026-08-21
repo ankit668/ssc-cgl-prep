@@ -113,30 +113,110 @@
     }
 
     function renderFatmanFlashcards() {
-        const content = document.getElementById('fatman-content');
-        const cards = window.fatmanGeography.flashcards;
-        let html = '<div style="max-width:600px; margin: 0 auto; text-align:center;">';
-        html += '<h3 style="color:#94A3B8; margin-bottom: 20px;">Tap a card to flip it.</h3>';
-        
-        cards.forEach((c, idx) => {
-            html += `
-                <div class="fatman-card-container" style="perspective: 1000px; margin-bottom: 20px; height: 150px; cursor: pointer;" onclick="this.querySelector('.fatman-card').classList.toggle('flipped')">
-                    <div class="fatman-card" style="width: 100%; height: 100%; transition: transform 0.6s; transform-style: preserve-3d; position: relative;">
-                        <div style="position: absolute; width: 100%; height: 100%; backface-visibility: hidden; background: #334155; border-radius: 12px; display:flex; align-items:center; justify-content:center; padding: 20px; box-sizing: border-box; font-size: 18px; border: 1px solid #475569;">
-                            ${c.front}
-                        </div>
-                        <div style="position: absolute; width: 100%; height: 100%; backface-visibility: hidden; background: #10B981; color: white; border-radius: 12px; display:flex; align-items:center; justify-content:center; padding: 20px; box-sizing: border-box; font-size: 18px; font-weight: bold; transform: rotateY(180deg);">
-                            ${c.back}
-                        </div>
-                    </div>
-                </div>
-            `;
-        });
-        html += '</div>';
-        content.innerHTML = html;
+    const content = document.getElementById('fatman-content');
+    const allCards = window.fatmanGeography.flashcards;
+    
+    // Load mastered cards from localStorage
+    let masteredStr = localStorage.getItem('fatman_mastered_cards');
+    let mastered = masteredStr ? JSON.parse(masteredStr) : [];
+    
+    // Filter to get only unmastered cards
+    let deck = [];
+    allCards.forEach((c, idx) => {
+        if (!mastered.includes(idx)) {
+            deck.push({ card: c, originalIndex: idx });
+        }
+    });
+
+    if (deck.length === 0) {
+        content.innerHTML = `
+            <div style="max-width:600px; margin: 40px auto; text-align:center; background:#1E293B; padding:30px; border-radius:12px; border:1px solid #334155;">
+                <h2 style="color:#10B981; font-family:'Outfit';">🎉 Deck Conquered!</h2>
+                <p style="color:#CBD5E1; margin-bottom:20px;">You have successfully mastered all ${allCards.length} facts in this section.</p>
+                <button onclick="window.resetFatmanDeck()" style="background:#38BDF8; color:white; border:none; padding:12px 24px; border-radius:8px; font-weight:bold; cursor:pointer;">🔄 Reset Deck & Practice Again</button>
+            </div>
+        `;
+        return;
     }
 
-    function renderFatmanMCQMenu() {
+    // Shuffle deck for varied practice
+    deck.sort(() => 0.5 - Math.random());
+    
+    // Render the first card in the deck
+    const activeCard = deck[0];
+    const totalLeft = deck.length;
+    const progress = Math.round((mastered.length / allCards.length) * 100);
+
+    let html = `
+        <div style="max-width:600px; margin: 0 auto; text-align:center;">
+            
+            <!-- Progress Bar -->
+            <div style="display:flex; justify-content:space-between; color:#94A3B8; font-size:14px; margin-bottom:8px;">
+                <span>Mastered: ${mastered.length} / ${allCards.length}</span>
+                <span>Remaining: ${totalLeft}</span>
+            </div>
+            <div style="width:100%; background:#334155; border-radius:10px; height:8px; margin-bottom: 25px; overflow:hidden;">
+                <div style="width:${progress}%; background:#10B981; height:100%; transition: width 0.3s;"></div>
+            </div>
+
+            <!-- The Card -->
+            <div id="active-fc-container" style="perspective: 1000px; height: 250px; cursor: pointer;" onclick="this.querySelector('.fatman-card').classList.toggle('flipped'); document.getElementById('fc-actions').style.display='flex';">
+                <div class="fatman-card" style="width: 100%; height: 100%; transition: transform 0.6s; transform-style: preserve-3d; position: relative;">
+                    <!-- FRONT -->
+                    <div style="position: absolute; width: 100%; height: 100%; backface-visibility: hidden; background: #1E293B; border-radius: 16px; display:flex; flex-direction:column; align-items:center; justify-content:center; padding: 30px; box-sizing: border-box; font-size: 22px; border: 2px solid #475569; color: white;">
+                        <span style="font-size:12px; color:#94A3B8; position:absolute; top:15px;">Tap to Flip</span>
+                        ${activeCard.card.front}
+                    </div>
+                    <!-- BACK -->
+                    <div style="position: absolute; width: 100%; height: 100%; backface-visibility: hidden; background: #38BDF8; color: white; border-radius: 16px; display:flex; flex-direction:column; align-items:center; justify-content:center; padding: 30px; box-sizing: border-box; font-size: 22px; font-weight: bold; transform: rotateY(180deg); box-shadow: 0 10px 25px rgba(56,189,248,0.3);">
+                        ${activeCard.card.back}
+                    </div>
+                </div>
+            </div>
+
+            <!-- Action Buttons (Hidden until flipped) -->
+            <div id="fc-actions" style="display:none; justify-content:space-between; gap:15px; margin-top:30px;">
+                <button onclick="event.stopPropagation(); window.markFatmanReview()" style="flex:1; background:#EF4444; color:white; border:none; padding:15px; border-radius:10px; font-size:16px; font-weight:bold; cursor:pointer; box-shadow: 0 4px 15px rgba(239, 68, 68, 0.4);">
+                    ❌ Needs Review
+                </button>
+                <button onclick="event.stopPropagation(); window.markFatmanGotIt(${activeCard.originalIndex})" style="flex:1; background:#10B981; color:white; border:none; padding:15px; border-radius:10px; font-size:16px; font-weight:bold; cursor:pointer; box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4);">
+                    ✅ Got It!
+                </button>
+            </div>
+            
+            <button onclick="window.resetFatmanDeck()" style="margin-top:40px; background:transparent; color:#94A3B8; border:1px solid #475569; padding:8px 16px; border-radius:8px; cursor:pointer; font-size:12px;">Reset Deck Progress</button>
+
+        </div>
+    `;
+    content.innerHTML = html;
+}
+
+window.markFatmanGotIt = function(originalIndex) {
+    let masteredStr = localStorage.getItem('fatman_mastered_cards');
+    let mastered = masteredStr ? JSON.parse(masteredStr) : [];
+    
+    if(!mastered.includes(originalIndex)) {
+        mastered.push(originalIndex);
+        localStorage.setItem('fatman_mastered_cards', JSON.stringify(mastered));
+    }
+    
+    // Re-render to show next card
+    renderFatmanFlashcards();
+};
+
+window.markFatmanReview = function() {
+    // Doesn't add to mastered list. Just re-renders to pull another random unmastered card.
+    renderFatmanFlashcards();
+};
+
+window.resetFatmanDeck = function() {
+    if(confirm("Are you sure you want to reset your flashcard progress?")) {
+        localStorage.removeItem('fatman_mastered_cards');
+        renderFatmanFlashcards();
+    }
+};
+
+function renderFatmanMCQMenu() {
         const content = document.getElementById('fatman-content');
         content.innerHTML = `
             <div style="max-width:800px; margin: 0 auto; text-align:center; margin-top: 40px;">
