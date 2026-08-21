@@ -91,7 +91,7 @@ const historyData = {
             </li>
         </ul>
 
-        <h3>10. Stone Age & Pre-Historic Sites</h3>
+        <!-- REPLACED -->
         <ul>
             <li><strong>Paleolithic Age:</strong> Discovery of Fire. Hunter-gatherers. <em>Key Site:</em> Bhimbetka Caves (MP) known for ancient rock paintings.</li>
             <li><strong>Mesolithic Age:</strong> Use of Microliths (tiny stone tools). Domestication of animals began. <em>Key Sites:</em> Bagor (Rajasthan), Adamgarh (MP).</li>
@@ -136,6 +136,27 @@ const historyData = {
             <li><strong>Chola Empire (Brief):</strong> Founder: Vijayalaya. Rajaraja I built the Brihadeshwara Temple (Thanjavur). Rajendra I assumed the title <em>Gangaikondachola</em>. Known for local self-government and bronze Nataraja statues.</li>
         </ul>
 
+
+        <h3>10. Stone Age & Pre-Historic Sites (Fatman Deep-Cuts)</h3>
+        <ul>
+            <li><strong>James Mill:</strong> Divided Indian History into Hindu, Muslim, and British in his book <em>The History of British India (1817)</em>.</li>
+            <li><strong>C.J. Thomson:</strong> Developed the Three Age System: Stone, Bronze, and Iron Age.</li>
+            <li><strong>Paleolithic Age (Old Stone):</strong> Characterized by large, rough stone tools.
+                <ul>
+                    <li><strong>Lower Paleolithic:</strong> Ice Age. Tools: Cleavers and hand axes. <em>Sites:</em> Bori (Maharashtra - earliest site), Belan Valley (UP).</li>
+                    <li><strong>Middle Paleolithic:</strong> Based on <em>'flake technology'</em>.</li>
+                    <li><strong>Upper Paleolithic:</strong> Use of flint stone. <em>Sites:</em> Inamgaon, Patne (Maharashtra - <strong>Ostrich evidence</strong> found for the first time here).</li>
+                </ul>
+            </li>
+            <li><strong>Vital Cave Discoveries:</strong>
+                <ul>
+                    <li><strong>Bhimbetka Caves (MP):</strong> India's oldest paintings. Discovered by <strong>V.S. Wakankar</strong> (Father of Indian Rock Art) in 1957.</li>
+                    <li><strong>Kurnool Caves (AP):</strong> Ash traces were discovered here.</li>
+                    <li><strong>Lakhudiyar Cave Paintings:</strong> Located in Almora, Uttarakhand.</li>
+                    <li><strong>Hathnora (MP):</strong> The skull of <em>Homo Erectus</em> was found here near the Narmada river.</li>
+                    <li><strong>Archibald Campbell Carlleyle:</strong> First one to identify/discover rock paintings in India in Sohagighat (UP) in 1867-68.</li>
+                </ul>
+            </li>
     `,
     mcqs: [
 
