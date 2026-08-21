@@ -11,7 +11,8 @@ window.fatmanGeography = {
                 "Edwin Hubble"
             ],
             "correct": 1,
-            "explanation": "Kant (1755) and Laplace (1796) proposed the Nebular Hypothesis."
+            "explanation": "Kant (1755) and Laplace (1796) proposed the Nebular Hypothesis.",
+            "topic": "Physical Geography"
         },
         {
             "question": "Which constellation is shaped like a hunter and contains the bright star Rigel?",
@@ -22,7 +23,8 @@ window.fatmanGeography = {
                 "Cygnus"
             ],
             "correct": 2,
-            "explanation": "Orion is known as The Hunter and its brightest star is Rigel."
+            "explanation": "Orion is known as The Hunter and its brightest star is Rigel.",
+            "topic": "General Geography"
         },
         {
             "question": "The Sun's core temperature is approximately:",
@@ -33,7 +35,8 @@ window.fatmanGeography = {
                 "15,000 K"
             ],
             "correct": 2,
-            "explanation": "The surface is 5800 K, but the core is 15.7 Million K."
+            "explanation": "The surface is 5800 K, but the core is 15.7 Million K.",
+            "topic": "Physical Geography"
         },
         {
             "question": "Which is the smallest and fastest planet in our solar system?",
@@ -44,7 +47,8 @@ window.fatmanGeography = {
                 "Pluto"
             ],
             "correct": 1,
-            "explanation": "Mercury is the smallest planet and completes a revolution in just 88 days."
+            "explanation": "Mercury is the smallest planet and completes a revolution in just 88 days.",
+            "topic": "Physical Geography"
         },
         {
             "question": "What gas gives Uranus and Neptune their characteristic greenish-blue color?",
@@ -55,7 +59,8 @@ window.fatmanGeography = {
                 "Carbon Dioxide"
             ],
             "correct": 2,
-            "explanation": "Methane (CH4) absorbs red light and reflects blue/green light."
+            "explanation": "Methane (CH4) absorbs red light and reflects blue/green light.",
+            "topic": "Agriculture, Soils & Minerals"
         },
         {
             "question": "Who discovered the planet Neptune in 1846?",
@@ -66,7 +71,8 @@ window.fatmanGeography = {
                 "Galileo"
             ],
             "correct": 1,
-            "explanation": "Neptune was mathematically predicted and observed by Johann Galle in 1846."
+            "explanation": "Neptune was mathematically predicted and observed by Johann Galle in 1846.",
+            "topic": "Physical Geography"
         },
         {
             "question": "What is the highest peak on the Moon?",
@@ -77,7 +83,8 @@ window.fatmanGeography = {
                 "Maxwell Montes"
             ],
             "correct": 1,
-            "explanation": "Mt. Leibniz is the highest peak on the Moon."
+            "explanation": "Mt. Leibniz is the highest peak on the Moon.",
+            "topic": "General Geography"
         },
         {
             "question": "At what astronomical position is the Earth closest to the Sun?",
@@ -88,7 +95,8 @@ window.fatmanGeography = {
                 "Apogee"
             ],
             "correct": 2,
-            "explanation": "Perihelion occurs around January 3 when Earth is closest to the Sun."
+            "explanation": "Perihelion occurs around January 3 when Earth is closest to the Sun.",
+            "topic": "Physical Geography"
         },
         {
             "question": "What is the distance between two latitudes?",
@@ -99,7 +107,8 @@ window.fatmanGeography = {
                 "180 km"
             ],
             "correct": 0,
-            "explanation": "1 degree of latitude corresponds to approximately 111 km."
+            "explanation": "1 degree of latitude corresponds to approximately 111 km.",
+            "topic": "Physical Geography"
         },
         {
             "question": "If it is 12 Noon at Greenwich (0\u00b0), what time is it at 30\u00b0 East?",
@@ -110,7 +119,8 @@ window.fatmanGeography = {
                 "1:00 PM"
             ],
             "correct": 1,
-            "explanation": "1\u00b0 = 4 mins. 30\u00b0 x 4 = 120 mins (2 hours). East is ahead, so it is 2:00 PM."
+            "explanation": "1\u00b0 = 4 mins. 30\u00b0 x 4 = 120 mins (2 hours). East is ahead, so it is 2:00 PM.",
+            "topic": "General Geography"
         },
         {
             "question": "Which discontinuity separates the Upper Crust from the Lower Crust?",
@@ -121,7 +131,8 @@ window.fatmanGeography = {
                 "Repetti"
             ],
             "correct": 2,
-            "explanation": "Conrad Discontinuity separates the upper (SIAL) and lower (SIMA) crust."
+            "explanation": "Conrad Discontinuity separates the upper (SIAL) and lower (SIMA) crust.",
+            "topic": "Physical Geography"
         },
         {
             "question": "Which earthquake waves can travel ONLY through solid mediums?",
@@ -132,7 +143,8 @@ window.fatmanGeography = {
                 "Rayleigh Waves"
             ],
             "correct": 1,
-            "explanation": "Secondary (S) waves are transverse and cannot travel through liquids or gases."
+            "explanation": "Secondary (S) waves are transverse and cannot travel through liquids or gases.",
+            "topic": "Physical Geography"
         },
         {
             "question": "Which type of igneous intrusion is lens-shaped and found at anticlines and synclines?",
@@ -143,7 +155,8 @@ window.fatmanGeography = {
                 "Lopolith"
             ],
             "correct": 2,
-            "explanation": "Phacoliths are lens-shaped intrusions associated with folded sedimentary rocks."
+            "explanation": "Phacoliths are lens-shaped intrusions associated with folded sedimentary rocks.",
+            "topic": "Physical Geography"
         },
         {
             "question": "When Granite undergoes metamorphism, it transforms into which rock?",
@@ -154,7 +167,8 @@ window.fatmanGeography = {
                 "Gneiss"
             ],
             "correct": 3,
-            "explanation": "Granite (igneous) metamorphoses into Gneiss under heat and pressure."
+            "explanation": "Granite (igneous) metamorphoses into Gneiss under heat and pressure.",
+            "topic": "Physical Geography"
         },
         {
             "question": "Which of the following is considered the 'Lighthouse of the Mediterranean'?",
@@ -165,7 +179,8 @@ window.fatmanGeography = {
                 "Ojas del Salado"
             ],
             "correct": 2,
-            "explanation": "Mt. Stromboli is a continuously active volcano, acting like a lighthouse."
+            "explanation": "Mt. Stromboli is a continuously active volcano, acting like a lighthouse.",
+            "topic": "Physical Geography"
         },
         {
             "question": "Drumlins, which resemble a 'basket of eggs', are landforms created by which agent?",
@@ -176,7 +191,8 @@ window.fatmanGeography = {
                 "Wind"
             ],
             "correct": 2,
-            "explanation": "Drumlins are elongated hills formed by glacial deposition."
+            "explanation": "Drumlins are elongated hills formed by glacial deposition.",
+            "topic": "Physical Geography"
         },
         {
             "question": "Which atmospheric layer contains the Ionosphere and reflects radio waves?",
@@ -187,7 +203,8 @@ window.fatmanGeography = {
                 "Thermosphere"
             ],
             "correct": 3,
-            "explanation": "The Thermosphere contains the electrically charged particles of the Ionosphere."
+            "explanation": "The Thermosphere contains the electrically charged particles of the Ionosphere.",
+            "topic": "Physical Geography"
         },
         {
             "question": "Which of the following is NOT a greenhouse gas?",
@@ -198,7 +215,8 @@ window.fatmanGeography = {
                 "Nitrogen Dioxide (NO2)"
             ],
             "correct": 3,
-            "explanation": "NO2 and SO2 are NOT greenhouse gases, though they cause acid rain."
+            "explanation": "NO2 and SO2 are NOT greenhouse gases, though they cause acid rain.",
+            "topic": "General Geography"
         },
         {
             "question": "Which local wind is notoriously known as the 'Blood Rain' in Southern Europe?",
@@ -209,7 +227,8 @@ window.fatmanGeography = {
                 "Bora"
             ],
             "correct": 1,
-            "explanation": "Sirocco picks up red sand from the Sahara Desert and drops it in Europe with rain."
+            "explanation": "Sirocco picks up red sand from the Sahara Desert and drops it in Europe with rain.",
+            "topic": "Physical Geography"
         },
         {
             "question": "Which of the following is a Cold Ocean Current?",
@@ -220,7 +239,8 @@ window.fatmanGeography = {
                 "Agulhas"
             ],
             "correct": 2,
-            "explanation": "Oyashio is a cold current. (Trick: BP GOLF World Cup California - O for Oyashio)."
+            "explanation": "Oyashio is a cold current. (Trick: BP GOLF World Cup California - O for Oyashio).",
+            "topic": "Physical Geography"
         },
         {
             "question": "The Tropic of Cancer does NOT pass through which state?",
@@ -231,7 +251,8 @@ window.fatmanGeography = {
                 "Tripura"
             ],
             "correct": 2,
-            "explanation": "It passes through Mizoram and Tripura, but NOT Manipur."
+            "explanation": "It passes through Mizoram and Tripura, but NOT Manipur.",
+            "topic": "Indian Geography"
         },
         {
             "question": "The Indian Standard Time (IST) meridian (82\u00b030'E) passes through which of these states?",
@@ -242,7 +263,8 @@ window.fatmanGeography = {
                 "Telangana"
             ],
             "correct": 1,
-            "explanation": "IST passes through UP, MP, Chhattisgarh, Odisha, and AP."
+            "explanation": "IST passes through UP, MP, Chhattisgarh, Odisha, and AP.",
+            "topic": "Indian Geography"
         },
         {
             "question": "Which boundary line separates India and China?",
@@ -253,7 +275,8 @@ window.fatmanGeography = {
                 "Maginot Line"
             ],
             "correct": 2,
-            "explanation": "The McMahon Line defines the boundary in the Eastern sector between India and Tibet/China."
+            "explanation": "The McMahon Line defines the boundary in the Eastern sector between India and Tibet/China.",
+            "topic": "Indian Geography"
         },
         {
             "question": "Which Himalayan pass connects Srinagar to Leh-Ladakh?",
@@ -264,7 +287,8 @@ window.fatmanGeography = {
                 "Shipki La"
             ],
             "correct": 0,
-            "explanation": "Zoji La connects Srinagar (Kashmir) to Leh (Ladakh)."
+            "explanation": "Zoji La connects Srinagar (Kashmir) to Leh (Ladakh).",
+            "topic": "Indian Geography"
         },
         {
             "question": "Saffron (Zafran) cultivation in Kashmir relies on which type of glacial deposits?",
@@ -275,7 +299,8 @@ window.fatmanGeography = {
                 "Khadar"
             ],
             "correct": 1,
-            "explanation": "Karewas are glacial/lacustrine deposits ideal for Saffron cultivation."
+            "explanation": "Karewas are glacial/lacustrine deposits ideal for Saffron cultivation.",
+            "topic": "General Geography"
         },
         {
             "question": "Which is the highest peak of the Aravalli range?",
@@ -286,7 +311,8 @@ window.fatmanGeography = {
                 "Dhupgarh"
             ],
             "correct": 2,
-            "explanation": "Guru Shikhar (in Mt. Abu) is the highest peak of the old fold Aravalli mountains."
+            "explanation": "Guru Shikhar (in Mt. Abu) is the highest peak of the old fold Aravalli mountains.",
+            "topic": "Indian Geography"
         },
         {
             "question": "Through which pass does the Sutlej river enter India?",
@@ -297,7 +323,8 @@ window.fatmanGeography = {
                 "Niti Pass"
             ],
             "correct": 1,
-            "explanation": "Sutlej enters Himachal Pradesh from Tibet through Shipki La."
+            "explanation": "Sutlej enters Himachal Pradesh from Tibet through Shipki La.",
+            "topic": "Indian Geography"
         },
         {
             "question": "What is the name of the longest non-polar glacier in India, located in the Karakoram range?",
@@ -308,7 +335,8 @@ window.fatmanGeography = {
                 "Biafo"
             ],
             "correct": 1,
-            "explanation": "Siachen Glacier is the longest in India and highest battlefield in the world."
+            "explanation": "Siachen Glacier is the longest in India and highest battlefield in the world.",
+            "topic": "Physical Geography"
         },
         {
             "question": "Which layer of Earth's interior is primarily composed of Nickel and Iron (NiFe)?",
@@ -319,7 +347,8 @@ window.fatmanGeography = {
                 "Core"
             ],
             "correct": 3,
-            "explanation": "The Core is made of heavy metals Nickel and Iron (NiFe)."
+            "explanation": "The Core is made of heavy metals Nickel and Iron (NiFe).",
+            "topic": "Physical Geography"
         },
         {
             "question": "What is the term for a crescent-shaped sand dune?",
@@ -330,7 +359,8 @@ window.fatmanGeography = {
                 "Zeugen"
             ],
             "correct": 0,
-            "explanation": "Barchans are crescent-shaped dunes found in deserts."
+            "explanation": "Barchans are crescent-shaped dunes found in deserts.",
+            "topic": "World Geography"
         },
         {
             "question": "Which region of the Northern Plains is a marshy area where streams reappear, and is home to Jim Corbett National Park?",
@@ -341,7 +371,8 @@ window.fatmanGeography = {
                 "Khadar"
             ],
             "correct": 1,
-            "explanation": "The Terai region is a damp, marshy area south of the Bhabar where underground streams reappear."
+            "explanation": "The Terai region is a damp, marshy area south of the Bhabar where underground streams reappear.",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "question": "Which of the following is the only corporate-owned major port in India?",
@@ -352,7 +383,8 @@ window.fatmanGeography = {
                 "Mormugao Port"
             ],
             "correct": 2,
-            "explanation": "Kamarajar Port (formerly Ennore Port) in Tamil Nadu is India's first corporate port."
+            "explanation": "Kamarajar Port (formerly Ennore Port) in Tamil Nadu is India's first corporate port.",
+            "topic": "Indian Geography"
         },
         {
             "question": "Which channel separates the Andaman Islands from the Nicobar Islands?",
@@ -363,7 +395,8 @@ window.fatmanGeography = {
                 "Duncan Passage"
             ],
             "correct": 2,
-            "explanation": "The 10 Degree Channel separates the Andaman group from the Nicobar group."
+            "explanation": "The 10 Degree Channel separates the Andaman group from the Nicobar group.",
+            "topic": "Indian Geography"
         },
         {
             "question": "Which is the highest peak in the Western Ghats and all of South India?",
@@ -374,7 +407,8 @@ window.fatmanGeography = {
                 "Mahendragiri"
             ],
             "correct": 2,
-            "explanation": "Anamudi (2695m) in Kerala is the highest peak in the Western Ghats and South India."
+            "explanation": "Anamudi (2695m) in Kerala is the highest peak in the Western Ghats and South India.",
+            "topic": "Indian Geography"
         },
         {
             "question": "The Eastern Ghats and Western Ghats meet at which mountain range?",
@@ -385,7 +419,8 @@ window.fatmanGeography = {
                 "Nallamala Hills"
             ],
             "correct": 1,
-            "explanation": "The Eastern and Western Ghats converge at the Nilgiri Hills in Tamil Nadu."
+            "explanation": "The Eastern and Western Ghats converge at the Nilgiri Hills in Tamil Nadu.",
+            "topic": "Indian Geography"
         },
         {
             "question": "A drainage pattern that resembles the branching roots of a tree (like the Ganga river system) is called?",
@@ -396,7 +431,8 @@ window.fatmanGeography = {
                 "Centripetal"
             ],
             "correct": 2,
-            "explanation": "A Dendritic drainage pattern looks like the branching roots or branches of a tree."
+            "explanation": "A Dendritic drainage pattern looks like the branching roots or branches of a tree.",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "question": "According to the Indus Water Treaty (1960), India has control over the waters of which three rivers?",
@@ -407,7 +443,8 @@ window.fatmanGeography = {
                 "Indus, Sutlej, Beas"
             ],
             "correct": 1,
-            "explanation": "India controls the eastern rivers: Ravi, Beas, and Sutlej. Pakistan controls the western rivers: Indus, Jhelum, Chenab."
+            "explanation": "India controls the eastern rivers: Ravi, Beas, and Sutlej. Pakistan controls the western rivers: Indus, Jhelum, Chenab.",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "question": "Which river is known as the 'Dakshin Ganga' and is the largest peninsular river in India?",
@@ -418,7 +455,8 @@ window.fatmanGeography = {
                 "Godavari"
             ],
             "correct": 3,
-            "explanation": "Godavari (1465km) is the longest peninsular river and is known as Dakshin Ganga or Vridha Ganga."
+            "explanation": "Godavari (1465km) is the longest peninsular river and is known as Dakshin Ganga or Vridha Ganga.",
+            "topic": "Indian Geography"
         },
         {
             "question": "Which of the following rivers flows through a rift valley and forms an estuary?",
@@ -429,7 +467,8 @@ window.fatmanGeography = {
                 "Krishna"
             ],
             "correct": 0,
-            "explanation": "Narmada and Tapti flow west through rift valleys and form estuaries instead of deltas."
+            "explanation": "Narmada and Tapti flow west through rift valleys and form estuaries instead of deltas.",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "question": "Which river crosses the Tropic of Cancer twice?",
@@ -440,7 +479,8 @@ window.fatmanGeography = {
                 "Damodar"
             ],
             "correct": 2,
-            "explanation": "The Mahi river originates in the Vindhyas and crosses the Tropic of Cancer twice."
+            "explanation": "The Mahi river originates in the Vindhyas and crosses the Tropic of Cancer twice.",
+            "topic": "Indian Geography"
         },
         {
             "question": "Which is the highest dam in India?",
@@ -451,7 +491,8 @@ window.fatmanGeography = {
                 "Sardar Sarovar Dam"
             ],
             "correct": 2,
-            "explanation": "The Tehri Dam on the Bhagirathi River in Uttarakhand is the highest dam in India (261m)."
+            "explanation": "The Tehri Dam on the Bhagirathi River in Uttarakhand is the highest dam in India (261m).",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "question": "The pre-monsoon showers in West Bengal and Assam that help in the growth of jute and tea crops are known as?",
@@ -462,7 +503,8 @@ window.fatmanGeography = {
                 "Loo"
             ],
             "correct": 2,
-            "explanation": "Nor'westers, locally known as Kal Baisakhi, bring pre-monsoon rain to Bengal and Assam."
+            "explanation": "Nor'westers, locally known as Kal Baisakhi, bring pre-monsoon rain to Bengal and Assam.",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "question": "The El Ni\u00f1o phenomenon, which negatively impacts the Indian Monsoon, is characterized by?",
@@ -473,7 +515,8 @@ window.fatmanGeography = {
                 "Warming of the Mediterranean Sea"
             ],
             "correct": 1,
-            "explanation": "El Ni\u00f1o is the abnormal warming of surface waters in the equatorial Pacific, which causes droughts in India."
+            "explanation": "El Ni\u00f1o is the abnormal warming of surface waters in the equatorial Pacific, which causes droughts in India.",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "question": "Which type of forest is characterized by trees like Teak, Sal, and Sandalwood, and sheds its leaves for 6-8 weeks during summer?",
@@ -484,7 +527,8 @@ window.fatmanGeography = {
                 "Mangrove Forests"
             ],
             "correct": 1,
-            "explanation": "Tropical Deciduous Forests (Monsoon forests) shed their leaves to conserve water in summer."
+            "explanation": "Tropical Deciduous Forests (Monsoon forests) shed their leaves to conserve water in summer.",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "question": "Temperate grasslands located in North America, known as the 'wheat granaries of the world', are called?",
@@ -495,7 +539,8 @@ window.fatmanGeography = {
                 "Prairies"
             ],
             "correct": 3,
-            "explanation": "Prairies are the temperate grasslands of North America."
+            "explanation": "Prairies are the temperate grasslands of North America.",
+            "topic": "World Geography"
         },
         {
             "question": "Which type of soil is also known as 'Regur' and is highly suitable for cotton cultivation?",
@@ -506,7 +551,8 @@ window.fatmanGeography = {
                 "Red Soil"
             ],
             "correct": 2,
-            "explanation": "Black soil, formed from basaltic lava (Deccan traps), is known as Regur and is ideal for cotton."
+            "explanation": "Black soil, formed from basaltic lava (Deccan traps), is known as Regur and is ideal for cotton.",
+            "topic": "Agriculture, Soils & Minerals"
         },
         {
             "question": "Laterite soil, which is brick-like and rich in iron and aluminum, is formed primarily due to?",
@@ -517,7 +563,8 @@ window.fatmanGeography = {
                 "Wind erosion"
             ],
             "correct": 1,
-            "explanation": "Laterite soil is formed under conditions of high temperature and heavy rainfall, causing intense leaching."
+            "explanation": "Laterite soil is formed under conditions of high temperature and heavy rainfall, causing intense leaching.",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "question": "According to the USDA Soil Classification System, Black soil falls under which order because of its clay-rich, shrinking/swelling properties?",
@@ -528,7 +575,8 @@ window.fatmanGeography = {
                 "Alfisol"
             ],
             "correct": 2,
-            "explanation": "Vertisols are clay-rich soils that swell when wet and shrink/crack when dry (self-ploughing)."
+            "explanation": "Vertisols are clay-rich soils that swell when wet and shrink/crack when dry (self-ploughing).",
+            "topic": "Agriculture, Soils & Minerals"
         },
         {
             "question": "Which is the highest waterfall in India?",
@@ -539,7 +587,8 @@ window.fatmanGeography = {
                 "Shivanasamudra Falls"
             ],
             "correct": 2,
-            "explanation": "Kunchikal Falls (455m) on the Varahi River in Karnataka is the highest waterfall in India."
+            "explanation": "Kunchikal Falls (455m) on the Varahi River in Karnataka is the highest waterfall in India.",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "question": "What is the name of the longest earthen dam in the world?",
@@ -550,7 +599,8 @@ window.fatmanGeography = {
                 "Nagarjuna Sagar"
             ],
             "correct": 1,
-            "explanation": "Hirakud Dam, built on the Mahanadi River in Odisha, is the longest earthen dam in the world."
+            "explanation": "Hirakud Dam, built on the Mahanadi River in Odisha, is the longest earthen dam in the world.",
+            "topic": "Physical Geography"
         },
         {
             "question": "The Roaring Forties, Furious Fifties, and Shrieking Sixties are associated with which planetary winds?",
@@ -561,7 +611,8 @@ window.fatmanGeography = {
                 "Monsoon Winds"
             ],
             "correct": 2,
-            "explanation": "These are high-speed Westerlies in the Southern Hemisphere, blowing fiercely due to the lack of landmass interference."
+            "explanation": "These are high-speed Westerlies in the Southern Hemisphere, blowing fiercely due to the lack of landmass interference.",
+            "topic": "Physical Geography"
         },
         {
             "question": "Which of the following represents the land between the Beas and Sutlej rivers?",
@@ -572,7 +623,8 @@ window.fatmanGeography = {
                 "Jech Doab"
             ],
             "correct": 1,
-            "explanation": "Bist Doab is between Beas and Sutlej. (Trick: B for Beas, st for Sutlej)."
+            "explanation": "Bist Doab is between Beas and Sutlej. (Trick: B for Beas, st for Sutlej).",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "question": "What was the ancient name of the Chenab river in the Vedic period?",
@@ -583,7 +635,8 @@ window.fatmanGeography = {
                 "Shutudri"
             ],
             "correct": 2,
-            "explanation": "The ancient name of Chenab is Askini. Jhelum is Vitasta, Ravi is Purushni, Sutlej is Shutudri."
+            "explanation": "The ancient name of Chenab is Askini. Jhelum is Vitasta, Ravi is Purushni, Sutlej is Shutudri.",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "question": "Keibul Lamjao, the world's only floating national park, is located on which lake?",
@@ -594,7 +647,8 @@ window.fatmanGeography = {
                 "Loktak Lake"
             ],
             "correct": 3,
-            "explanation": "Keibul Lamjao National Park is located on Loktak Lake in Manipur, famous for floating islands called phumdis."
+            "explanation": "Keibul Lamjao National Park is located on Loktak Lake in Manipur, famous for floating islands called phumdis.",
+            "topic": "Indian Geography"
         },
         {
             "question": "Which strait/passage separates South Andaman from Little Andaman?",
@@ -605,7 +659,8 @@ window.fatmanGeography = {
                 "9 Degree Channel"
             ],
             "correct": 1,
-            "explanation": "The Duncan Passage separates South Andaman and Little Andaman."
+            "explanation": "The Duncan Passage separates South Andaman and Little Andaman.",
+            "topic": "Indian Geography"
         },
         {
             "question": "The region known as 'Doldrums' is characterized by calm winds and lies between?",
@@ -616,7 +671,8 @@ window.fatmanGeography = {
                 "45\u00b0N and 45\u00b0S"
             ],
             "correct": 0,
-            "explanation": "The Doldrums is the equatorial low-pressure belt (10\u00b0N to 10\u00b0S) where prevailing winds are calm."
+            "explanation": "The Doldrums is the equatorial low-pressure belt (10\u00b0N to 10\u00b0S) where prevailing winds are calm.",
+            "topic": "Physical Geography"
         },
         {
             "question": "Which glacial landform is defined as a sharp, narrow ridge formed between two adjacent cirques?",
@@ -627,7 +683,8 @@ window.fatmanGeography = {
                 "Horn"
             ],
             "correct": 2,
-            "explanation": "An Ar\u00eate is a sharp, narrow ridge formed by glacial erosion between two cirques."
+            "explanation": "An Ar\u00eate is a sharp, narrow ridge formed by glacial erosion between two cirques.",
+            "topic": "Physical Geography"
         },
         {
             "question": "Winter rainfall in northwestern India, which is crucial for Rabi crops, is caused by?",
@@ -638,7 +695,8 @@ window.fatmanGeography = {
                 "Tropical Cyclones"
             ],
             "correct": 2,
-            "explanation": "Western Disturbances are extratropical storms originating in the Mediterranean region that bring sudden winter rain to NW India."
+            "explanation": "Western Disturbances are extratropical storms originating in the Mediterranean region that bring sudden winter rain to NW India.",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "question": "Which type of landform includes Stalactites and Stalagmites?",
@@ -649,7 +707,8 @@ window.fatmanGeography = {
                 "Glacial Landforms"
             ],
             "correct": 2,
-            "explanation": "Stalactites and stalagmites are depositional Karst landforms found in limestone caves formed by groundwater."
+            "explanation": "Stalactites and stalagmites are depositional Karst landforms found in limestone caves formed by groundwater.",
+            "topic": "Physical Geography"
         },
         {
             "question": "The Grand Channel (or Six Degree Channel) separates Great Nicobar Island from which country?",
@@ -660,7 +719,8 @@ window.fatmanGeography = {
                 "Indonesia (Sumatra)"
             ],
             "correct": 3,
-            "explanation": "The Great Channel separates India's Great Nicobar from Indonesia's Sumatra island."
+            "explanation": "The Great Channel separates India's Great Nicobar from Indonesia's Sumatra island.",
+            "topic": "Indian Geography"
         },
         {
             "question": "Which of the following is the local name for 'slash and burn' agriculture (shifting cultivation) in the Western Ghats?",
@@ -671,7 +731,8 @@ window.fatmanGeography = {
                 "Dipa"
             ],
             "correct": 1,
-            "explanation": "Shifting cultivation is called Kumari in the Western Ghats, Jhum in North-East, and Podu in Andhra Pradesh."
+            "explanation": "Shifting cultivation is called Kumari in the Western Ghats, Jhum in North-East, and Podu in Andhra Pradesh.",
+            "topic": "Indian Geography"
         },
         {
             "question": "Which crop is known as the 'Golden Fiber' of India?",
@@ -682,7 +743,8 @@ window.fatmanGeography = {
                 "Hemp"
             ],
             "correct": 2,
-            "explanation": "Jute is known as the Golden Fiber, and West Bengal is the top producer."
+            "explanation": "Jute is known as the Golden Fiber, and West Bengal is the top producer.",
+            "topic": "Agriculture, Soils & Minerals"
         },
         {
             "question": "Who is known as the Father of the White Revolution (Operation Flood) in India?",
@@ -693,7 +755,8 @@ window.fatmanGeography = {
                 "Sam Pitroda"
             ],
             "correct": 2,
-            "explanation": "Dr. Verghese Kurien is the Father of the White Revolution (Amul/Milk)."
+            "explanation": "Dr. Verghese Kurien is the Father of the White Revolution (Amul/Milk).",
+            "topic": "Agriculture, Soils & Minerals"
         },
         {
             "question": "Which is the highest quality of coal with 80-90% carbon content?",
@@ -704,7 +767,8 @@ window.fatmanGeography = {
                 "Peat"
             ],
             "correct": 1,
-            "explanation": "Anthracite is the highest quality hard coal. Lignite is brown coal, and Peat has the lowest carbon."
+            "explanation": "Anthracite is the highest quality hard coal. Lignite is brown coal, and Peat has the lowest carbon.",
+            "topic": "Agriculture, Soils & Minerals"
         },
         {
             "question": "Where was India's first oil refinery commissioned in 1901?",
@@ -715,7 +779,8 @@ window.fatmanGeography = {
                 "Naharkatiya"
             ],
             "correct": 2,
-            "explanation": "Digboi in Assam is the oldest oil-producing field in India (1901)."
+            "explanation": "Digboi in Assam is the oldest oil-producing field in India (1901).",
+            "topic": "General Geography"
         },
         {
             "question": "Which nuclear power plant was the first to be commissioned in India (1969)?",
@@ -726,7 +791,8 @@ window.fatmanGeography = {
                 "Tarapur"
             ],
             "correct": 3,
-            "explanation": "Tarapur in Maharashtra was India's first nuclear power plant."
+            "explanation": "Tarapur in Maharashtra was India's first nuclear power plant.",
+            "topic": "Agriculture, Soils & Minerals"
         },
         {
             "question": "The Andes mountain range, which is the longest continental mountain range in the world, is located in?",
@@ -737,7 +803,8 @@ window.fatmanGeography = {
                 "South America"
             ],
             "correct": 3,
-            "explanation": "The Andes run along the western coast of South America."
+            "explanation": "The Andes run along the western coast of South America.",
+            "topic": "Indian Geography"
         },
         {
             "question": "Which river crosses the Equator twice?",
@@ -748,7 +815,8 @@ window.fatmanGeography = {
                 "Orange River"
             ],
             "correct": 2,
-            "explanation": "The Congo (or Zaire) River in Africa crosses the equator twice."
+            "explanation": "The Congo (or Zaire) River in Africa crosses the equator twice.",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "question": "Which strait connects the Mediterranean Sea to the Atlantic Ocean and separates Europe from Africa?",
@@ -759,7 +827,8 @@ window.fatmanGeography = {
                 "Bosphorus Strait"
             ],
             "correct": 1,
-            "explanation": "The Strait of Gibraltar connects the Mediterranean Sea to the Atlantic Ocean."
+            "explanation": "The Strait of Gibraltar connects the Mediterranean Sea to the Atlantic Ocean.",
+            "topic": "World Geography"
         },
         {
             "question": "Which is the longest National Waterway (NW-1) in India?",
@@ -770,7 +839,8 @@ window.fatmanGeography = {
                 "Godavari stretch"
             ],
             "correct": 2,
-            "explanation": "NW-1 is the longest waterway (1,620 km) located on the Ganga-Bhagirathi-Hooghly river system from Allahabad (Prayagraj) to Haldia."
+            "explanation": "NW-1 is the longest waterway (1,620 km) located on the Ganga-Bhagirathi-Hooghly river system from Allahabad (Prayagraj) to Haldia.",
+            "topic": "Indian Geography"
         },
         {
             "question": "Which line of latitude serves as the international boundary between the USA and Canada?",
@@ -781,7 +851,8 @@ window.fatmanGeography = {
                 "24th Parallel"
             ],
             "correct": 1,
-            "explanation": "The 49th Parallel North is the boundary between the USA and Canada (the longest international border)."
+            "explanation": "The 49th Parallel North is the boundary between the USA and Canada (the longest international border).",
+            "topic": "Physical Geography"
         },
         {
             "question": "What is the name of the longest train route in India?",
@@ -792,7 +863,8 @@ window.fatmanGeography = {
                 "Rajdhani Express"
             ],
             "correct": 2,
-            "explanation": "Vivek Express runs from Dibrugarh (Assam) to Kanyakumari (Tamil Nadu), covering the longest route."
+            "explanation": "Vivek Express runs from Dibrugarh (Assam) to Kanyakumari (Tamil Nadu), covering the longest route.",
+            "topic": "General Geography"
         },
         {
             "question": "Which is the deepest lake in the world?",
@@ -803,7 +875,8 @@ window.fatmanGeography = {
                 "Lake Baikal"
             ],
             "correct": 3,
-            "explanation": "Lake Baikal in Russia is the deepest and oldest freshwater lake in the world."
+            "explanation": "Lake Baikal in Russia is the deepest and oldest freshwater lake in the world.",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "question": "Cotton cultivation requires which specific climatic condition to mature properly?",
@@ -814,7 +887,8 @@ window.fatmanGeography = {
                 "Marshy soil"
             ],
             "correct": 1,
-            "explanation": "Cotton requires black soil, high temperature, and strictly 210 frost-free days."
+            "explanation": "Cotton requires black soil, high temperature, and strictly 210 frost-free days.",
+            "topic": "Agriculture, Soils & Minerals"
         },
         {
             "question": "The Golden Quadrilateral highway network connects which four major cities?",
@@ -825,7 +899,8 @@ window.fatmanGeography = {
                 "Delhi, Jaipur, Bhopal, Indore"
             ],
             "correct": 0,
-            "explanation": "The Golden Quadrilateral connects Delhi (North), Kolkata (East), Mumbai (West), and Chennai (South)."
+            "explanation": "The Golden Quadrilateral connects Delhi (North), Kolkata (East), Mumbai (West), and Chennai (South).",
+            "topic": "Indian Geography"
         },
         {
             "question": "According to the Government of India, the Agriculture Census is conducted at an interval of how many years?",
@@ -836,7 +911,8 @@ window.fatmanGeography = {
                 "Every year"
             ],
             "correct": 1,
-            "explanation": "The Agriculture Census in India is conducted every 5 years."
+            "explanation": "The Agriculture Census in India is conducted every 5 years.",
+            "topic": "Agriculture, Soils & Minerals"
         },
         {
             "question": "Which layer of the ocean is characterized by a rapid decline in temperature?",
@@ -847,7 +923,8 @@ window.fatmanGeography = {
                 "Epipelagic zone"
             ],
             "correct": 1,
-            "explanation": "The Thermocline is the transition layer between the warmer mixed water at the surface and the cooler deep water below, where temperature declines suddenly."
+            "explanation": "The Thermocline is the transition layer between the warmer mixed water at the surface and the cooler deep water below, where temperature declines suddenly.",
+            "topic": "Physical Geography"
         },
         {
             "question": "The Bosphorus Strait connects the Black Sea to which other body of water?",
@@ -858,7 +935,8 @@ window.fatmanGeography = {
                 "Caspian Sea"
             ],
             "correct": 2,
-            "explanation": "The Bosphorus Strait connects the Black Sea to the Sea of Marmara in Turkey."
+            "explanation": "The Bosphorus Strait connects the Black Sea to the Sea of Marmara in Turkey.",
+            "topic": "Agriculture, Soils & Minerals"
         },
         {
             "question": "Which of the following is the highest peak in the Andaman and Nicobar Islands?",
@@ -869,7 +947,8 @@ window.fatmanGeography = {
                 "Mount Diavolo"
             ],
             "correct": 2,
-            "explanation": "Saddle Peak (732m), located in North Andaman, is the highest peak of the Andaman and Nicobar Islands."
+            "explanation": "Saddle Peak (732m), located in North Andaman, is the highest peak of the Andaman and Nicobar Islands.",
+            "topic": "Indian Geography"
         },
         {
             "question": "The Kerch Strait separates the Black Sea from which of the following?",
@@ -880,7 +959,8 @@ window.fatmanGeography = {
                 "Caspian Sea",
                 "Mediterranean Sea",
                 "Red Sea"
-            ]
+            ],
+            "topic": "Agriculture, Soils & Minerals"
         },
         {
             "question": "Which of the following deserts is NOT located in Australia?",
@@ -891,7 +971,8 @@ window.fatmanGeography = {
                 "Mojave Desert"
             ],
             "correct": 3,
-            "explanation": "The Mojave Desert is located in North America. The others are part of the Great Australian Desert system."
+            "explanation": "The Mojave Desert is located in North America. The others are part of the Great Australian Desert system.",
+            "topic": "World Geography"
         },
         {
             "question": "What is 'IR8', which was introduced in India during the Green Revolution?",
@@ -902,7 +983,8 @@ window.fatmanGeography = {
                 "A genetically modified Cotton"
             ],
             "correct": 1,
-            "explanation": "IR8 is a high-yielding variety of rice seed developed by IRRI, known as 'Miracle Rice'."
+            "explanation": "IR8 is a high-yielding variety of rice seed developed by IRRI, known as 'Miracle Rice'.",
+            "topic": "Agriculture, Soils & Minerals"
         },
         {
             "question": "Which of the following straits separates the Indonesian islands of Java and Sumatra?",
@@ -913,7 +995,8 @@ window.fatmanGeography = {
                 "Makassar Strait"
             ],
             "correct": 1,
-            "explanation": "The Sunda Strait connects the Java Sea to the Indian Ocean and separates Java and Sumatra."
+            "explanation": "The Sunda Strait connects the Java Sea to the Indian Ocean and separates Java and Sumatra.",
+            "topic": "Indian Geography"
         },
         {
             "question": "Which layer of the ocean experiences a rapid increase in salinity with depth?",
@@ -924,7 +1007,8 @@ window.fatmanGeography = {
                 "Bathypelagic"
             ],
             "correct": 1,
-            "explanation": "The Halocline is the layer where salinity increases rapidly with depth."
+            "explanation": "The Halocline is the layer where salinity increases rapidly with depth.",
+            "topic": "Physical Geography"
         },
         {
             "question": "Who is known as the Father of the Yellow Revolution (Oilseeds) in India?",
@@ -935,7 +1019,8 @@ window.fatmanGeography = {
                 "Hiralal Chaudhuri"
             ],
             "correct": 1,
-            "explanation": "Sam Pitroda is considered the father of the Yellow Revolution, which aimed to increase the production of edible oilseeds."
+            "explanation": "Sam Pitroda is considered the father of the Yellow Revolution, which aimed to increase the production of edible oilseeds.",
+            "topic": "Agriculture, Soils & Minerals"
         },
         {
             "question": "Halley's Comet, which has a highly elliptical orbit, is visible from Earth once every how many years?",
@@ -946,7 +1031,8 @@ window.fatmanGeography = {
                 "96 years"
             ],
             "correct": 1,
-            "explanation": "Halley's Comet is a short-period comet visible every 75-76 years (last seen in 1986, next in 2061)."
+            "explanation": "Halley's Comet is a short-period comet visible every 75-76 years (last seen in 1986, next in 2061).",
+            "topic": "Physical Geography"
         },
         {
             "question": "The asteroid belt, a torus-shaped region in the Solar System, is located roughly between the orbits of which two planets?",
@@ -957,7 +1043,8 @@ window.fatmanGeography = {
                 "Venus and Earth"
             ],
             "correct": 1,
-            "explanation": "The asteroid belt is found between the orbits of Mars and Jupiter."
+            "explanation": "The asteroid belt is found between the orbits of Mars and Jupiter.",
+            "topic": "Physical Geography"
         },
         {
             "question": "How much time does the light reflected from the Moon take to reach Earth?",
@@ -968,7 +1055,8 @@ window.fatmanGeography = {
                 "10 seconds"
             ],
             "correct": 0,
-            "explanation": "Light from the Moon takes approximately 1.26 to 1.3 seconds to reach Earth."
+            "explanation": "Light from the Moon takes approximately 1.26 to 1.3 seconds to reach Earth.",
+            "topic": "Physical Geography"
         },
         {
             "question": "What is the total number of latitudes on the globe (excluding the circles, just the points/lines)?",
@@ -979,7 +1067,8 @@ window.fatmanGeography = {
                 "360"
             ],
             "correct": 2,
-            "explanation": "There are 90 latitudes in the north, 90 in the south, and 1 equator. 90+90+1 = 181 latitudes (though only 179 are circles, as poles are points)."
+            "explanation": "There are 90 latitudes in the north, 90 in the south, and 1 equator. 90+90+1 = 181 latitudes (though only 179 are circles, as poles are points).",
+            "topic": "Physical Geography"
         },
         {
             "question": "What is the axial tilt of the Earth relative to its orbital plane?",
@@ -990,7 +1079,8 @@ window.fatmanGeography = {
                 "0\u00b0"
             ],
             "correct": 1,
-            "explanation": "The Earth is tilted on its axis at an angle of 23.5 degrees."
+            "explanation": "The Earth is tilted on its axis at an angle of 23.5 degrees.",
+            "topic": "Physical Geography"
         },
         {
             "question": "What is the most abundant element found in the Earth's crust by weight?",
@@ -1001,7 +1091,8 @@ window.fatmanGeography = {
                 "Oxygen"
             ],
             "correct": 3,
-            "explanation": "Oxygen is the most abundant element (46.6%), followed by Silicon (27.7%) and Aluminium (8.1%)."
+            "explanation": "Oxygen is the most abundant element (46.6%), followed by Silicon (27.7%) and Aluminium (8.1%).",
+            "topic": "Physical Geography"
         },
         {
             "question": "What is the most abundant METAL found in the Earth's crust?",
@@ -1012,7 +1103,8 @@ window.fatmanGeography = {
                 "Zinc"
             ],
             "correct": 2,
-            "explanation": "Aluminium (8.1%) is the most abundant metal in the crust, followed by Iron (5%)."
+            "explanation": "Aluminium (8.1%) is the most abundant metal in the crust, followed by Iron (5%).",
+            "topic": "Physical Geography"
         },
         {
             "question": "A U-shaped valley is a typical geographical feature formed by the action of?",
@@ -1023,7 +1115,8 @@ window.fatmanGeography = {
                 "Groundwater (Karst)"
             ],
             "correct": 2,
-            "explanation": "Glaciers erode valleys into a U-shape, whereas fast-flowing rivers create V-shaped valleys."
+            "explanation": "Glaciers erode valleys into a U-shape, whereas fast-flowing rivers create V-shaped valleys.",
+            "topic": "Physical Geography"
         },
         {
             "question": "Ox-bow lakes are formed in which stage of a river's course?",
@@ -1034,7 +1127,8 @@ window.fatmanGeography = {
                 "Delta stage"
             ],
             "correct": 2,
-            "explanation": "Ox-bow lakes are formed in the old stage (or late mature stage) of a river when a meander gets cut off from the main channel."
+            "explanation": "Ox-bow lakes are formed in the old stage (or late mature stage) of a river when a meander gets cut off from the main channel.",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "question": "Mushroom rocks (pedestal rocks) and Yardangs are prominent erosional landforms created by?",
@@ -1045,7 +1139,8 @@ window.fatmanGeography = {
                 "Groundwater"
             ],
             "correct": 2,
-            "explanation": "Wind (aeolian) erosion in desert areas forms mushroom rocks and yardangs."
+            "explanation": "Wind (aeolian) erosion in desert areas forms mushroom rocks and yardangs.",
+            "topic": "Physical Geography"
         },
         {
             "question": "Which of the following gases is the third most abundant in the Earth's atmosphere?",
@@ -1056,7 +1151,8 @@ window.fatmanGeography = {
                 "Ozone"
             ],
             "correct": 1,
-            "explanation": "Nitrogen (78%), Oxygen (21%), and Argon (0.93%) are the top three. Carbon Dioxide is 0.04%."
+            "explanation": "Nitrogen (78%), Oxygen (21%), and Argon (0.93%) are the top three. Carbon Dioxide is 0.04%.",
+            "topic": "Physical Geography"
         },
         {
             "question": "What is the term for the temperature at which air becomes fully saturated with moisture, causing water vapor to condense?",
@@ -1067,7 +1163,8 @@ window.fatmanGeography = {
                 "Lapse Rate"
             ],
             "correct": 0,
-            "explanation": "The Dew Point is the temperature where air is fully saturated and water vapor condenses into liquid droplets."
+            "explanation": "The Dew Point is the temperature where air is fully saturated and water vapor condenses into liquid droplets.",
+            "topic": "General Geography"
         },
         {
             "question": "The Sargasso Sea, known for its unique brown algae and being the only sea without a land boundary, is located in which ocean?",
@@ -1078,7 +1175,8 @@ window.fatmanGeography = {
                 "Arctic Ocean"
             ],
             "correct": 2,
-            "explanation": "The Sargasso Sea is a borderless sea located in the North Atlantic Ocean."
+            "explanation": "The Sargasso Sea is a borderless sea located in the North Atlantic Ocean.",
+            "topic": "Indian Geography"
         },
         {
             "question": "Which local wind is known as 'The Doctor' because it provides relief from the humid heat in the Gulf of Guinea?",
@@ -1089,7 +1187,8 @@ window.fatmanGeography = {
                 "Foehn"
             ],
             "correct": 2,
-            "explanation": "The Harmattan is a dry, dusty wind from the Sahara that brings relief to the humid West African coast."
+            "explanation": "The Harmattan is a dry, dusty wind from the Sahara that brings relief to the humid West African coast.",
+            "topic": "Physical Geography"
         },
         {
             "question": "What is the north-south extent of India's mainland?",
@@ -1100,7 +1199,8 @@ window.fatmanGeography = {
                 "7516 km"
             ],
             "correct": 1,
-            "explanation": "India extends 3,214 km from North to South and 2,933 km from East to West."
+            "explanation": "India extends 3,214 km from North to South and 2,933 km from East to West.",
+            "topic": "General Geography"
         },
         {
             "question": "Which is the southernmost point of India's territory?",
@@ -1111,7 +1211,8 @@ window.fatmanGeography = {
                 "Kibithu"
             ],
             "correct": 2,
-            "explanation": "Indira Point (formerly Pygmalion Point) in the Great Nicobar Island is the southernmost point of India."
+            "explanation": "Indira Point (formerly Pygmalion Point) in the Great Nicobar Island is the southernmost point of India.",
+            "topic": "Indian Geography"
         },
         {
             "question": "Which is the highest peak in India (undisputed territory)?",
@@ -1122,7 +1223,8 @@ window.fatmanGeography = {
                 "Mount Everest"
             ],
             "correct": 2,
-            "explanation": "Kanchenjunga (8,598m) in Sikkim is the highest peak strictly within India's undisputed territory. K2 is in PoK."
+            "explanation": "Kanchenjunga (8,598m) in Sikkim is the highest peak strictly within India's undisputed territory. K2 is in PoK.",
+            "topic": "General Geography"
         },
         {
             "question": "The Pir Panjal and Dhauladhar ranges are part of which Himalayan division?",
@@ -1133,7 +1235,8 @@ window.fatmanGeography = {
                 "Greater Himalayas (Himadri)",
                 "Lesser Himalayas (Himachal)",
                 "Shiwaliks"
-            ]
+            ],
+            "topic": "Indian Geography"
         },
         {
             "question": "The 'Ruhr of India', famously known for its rich mineral deposits, refers to which plateau?",
@@ -1144,7 +1247,8 @@ window.fatmanGeography = {
                 "Meghalaya Plateau"
             ],
             "correct": 2,
-            "explanation": "The Chotanagpur Plateau in Jharkhand is called the Ruhr of India due to its massive coal and iron ore deposits."
+            "explanation": "The Chotanagpur Plateau in Jharkhand is called the Ruhr of India due to its massive coal and iron ore deposits.",
+            "topic": "Agriculture, Soils & Minerals"
         },
         {
             "question": "Which lake in India is famous for being a meteor crater lake?",
@@ -1155,7 +1259,8 @@ window.fatmanGeography = {
                 "Pulicat Lake"
             ],
             "correct": 1,
-            "explanation": "Lonar Lake in Buldhana district, Maharashtra, was created by a meteor impact."
+            "explanation": "Lonar Lake in Buldhana district, Maharashtra, was created by a meteor impact.",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "question": "The famous Jog Falls (Gersoppa) is located on which river?",
@@ -1166,7 +1271,8 @@ window.fatmanGeography = {
                 "Godavari"
             ],
             "correct": 2,
-            "explanation": "Jog Falls is created by the Sharavati River in Karnataka."
+            "explanation": "Jog Falls is created by the Sharavati River in Karnataka.",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "question": "Which of the following lakes is situated on the border of Andhra Pradesh and Tamil Nadu?",
@@ -1177,7 +1283,8 @@ window.fatmanGeography = {
                 "Hussain Sagar"
             ],
             "correct": 1,
-            "explanation": "Pulicat Lake is India's second-largest brackish water lake, located on the border of AP and TN."
+            "explanation": "Pulicat Lake is India's second-largest brackish water lake, located on the border of AP and TN.",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "question": "Which soil type is formed primarily by the weathering of ancient crystalline and metamorphic rocks and gets its color from iron diffusion?",
@@ -1188,7 +1295,8 @@ window.fatmanGeography = {
                 "Laterite Soil"
             ],
             "correct": 2,
-            "explanation": "Red soil is formed from crystalline igneous/metamorphic rocks and is red due to the presence of iron oxide."
+            "explanation": "Red soil is formed from crystalline igneous/metamorphic rocks and is red due to the presence of iron oxide.",
+            "topic": "Physical Geography"
         },
         {
             "question": "Pneumatophores (breathing roots) and vivipary (seeds germinating on the tree) are characteristic features of which vegetation?",
@@ -1199,7 +1307,8 @@ window.fatmanGeography = {
                 "Thorn Forests"
             ],
             "correct": 2,
-            "explanation": "Mangrove (littoral/swamp) forests, like the Sundarbans, have pneumatophores to breathe in waterlogged soils."
+            "explanation": "Mangrove (littoral/swamp) forests, like the Sundarbans, have pneumatophores to breathe in waterlogged soils.",
+            "topic": "Agriculture, Soils & Minerals"
         },
         {
             "question": "Which port in India is uniquely known as the deepest landlocked and protected port?",
@@ -1210,429 +1319,535 @@ window.fatmanGeography = {
                 "Paradip Port"
             ],
             "correct": 2,
-            "explanation": "Visakhapatnam (Vizag) in Andhra Pradesh is the deepest landlocked port in India."
+            "explanation": "Visakhapatnam (Vizag) in Andhra Pradesh is the deepest landlocked port in India.",
+            "topic": "Indian Geography"
         }
     ],
     "flashcards": [
         {
             "front": "What is the closest galaxy to the Milky Way?",
-            "back": "Andromeda (M-31)."
+            "back": "Andromeda (M-31).",
+            "topic": "General Geography"
         },
         {
             "front": "Which star is nearest to Earth after the Sun?",
-            "back": "Proxima Centauri."
+            "back": "Proxima Centauri.",
+            "topic": "Physical Geography"
         },
         {
             "front": "What is the Chandrasekhar Limit?",
-            "back": "1.44 times the mass of the Sun."
+            "back": "1.44 times the mass of the Sun.",
+            "topic": "General Geography"
         },
         {
             "front": "Which planet rotates the fastest?",
-            "back": "Jupiter (9 hours 55 minutes)."
+            "back": "Jupiter (9 hours 55 minutes).",
+            "topic": "Physical Geography"
         },
         {
             "front": "Which planet is known as the Green Planet?",
-            "back": "Uranus (due to Methane)."
+            "back": "Uranus (due to Methane).",
+            "topic": "Physical Geography"
         },
         {
             "front": "Who discovered Pluto?",
-            "back": "Clyde Tombaugh."
+            "back": "Clyde Tombaugh.",
+            "topic": "Agriculture, Soils & Minerals"
         },
         {
             "front": "What is the shape of the Earth called?",
-            "back": "Geoid or Oblate Spheroid."
+            "back": "Geoid or Oblate Spheroid.",
+            "topic": "Physical Geography"
         },
         {
             "front": "What happens during Perihelion?",
-            "back": "Earth is closest to the Sun (Jan 3)."
+            "back": "Earth is closest to the Sun (Jan 3).",
+            "topic": "Physical Geography"
         },
         {
             "front": "How many kilometers are in 1 degree of latitude?",
-            "back": "111 km."
+            "back": "111 km.",
+            "topic": "Physical Geography"
         },
         {
             "front": "What is a Syzygy?",
-            "back": "Sun, Moon, and Earth aligned in a straight line."
+            "back": "Sun, Moon, and Earth aligned in a straight line.",
+            "topic": "Physical Geography"
         },
         {
             "front": "What separates the Crust from the Mantle?",
-            "back": "Mohorovicic (Moho) Discontinuity."
+            "back": "Mohorovicic (Moho) Discontinuity.",
+            "topic": "Physical Geography"
         },
         {
             "front": "Which seismic waves are the most destructive?",
-            "back": "Surface Waves (Love and Rayleigh)."
+            "back": "Surface Waves (Love and Rayleigh).",
+            "topic": "General Geography"
         },
         {
             "front": "What kind of rock is a Batholith?",
-            "back": "Intrusive Igneous Rock."
+            "back": "Intrusive Igneous Rock.",
+            "topic": "Physical Geography"
         },
         {
             "front": "Limestone metamorphoses into which rock?",
-            "back": "Marble."
+            "back": "Marble.",
+            "topic": "Physical Geography"
         },
         {
             "front": "Which volcano is called the Lighthouse of the Mediterranean?",
-            "back": "Mt. Stromboli."
+            "back": "Mt. Stromboli.",
+            "topic": "Physical Geography"
         },
         {
             "front": "Who gave the Continental Drift Theory?",
-            "back": "Alfred Wegener (1912)."
+            "back": "Alfred Wegener (1912).",
+            "topic": "Agriculture, Soils & Minerals"
         },
         {
             "front": "What are Corals primarily made of?",
-            "back": "Calcium Carbonate (CaCO3)."
+            "back": "Calcium Carbonate (CaCO3).",
+            "topic": "General Geography"
         },
         {
             "front": "What is the 'Basket of eggs' topography?",
-            "back": "Drumlins (Glacial landform)."
+            "back": "Drumlins (Glacial landform).",
+            "topic": "Physical Geography"
         },
         {
             "front": "Which layer of the atmosphere contains the Ozone layer?",
-            "back": "Stratosphere."
+            "back": "Stratosphere.",
+            "topic": "Physical Geography"
         },
         {
             "front": "In which atmospheric layer do meteors burn up?",
-            "back": "Mesosphere."
+            "back": "Mesosphere.",
+            "topic": "Physical Geography"
         },
         {
             "front": "Which local wind is known as the 'Snow Eater'?",
-            "back": "Chinook (Rockies, North America)."
+            "back": "Chinook (Rockies, North America).",
+            "topic": "Physical Geography"
         },
         {
             "front": "Which local wind is known as the 'Doctor Wind'?",
-            "back": "Harmattan (Gulf of Guinea)."
+            "back": "Harmattan (Gulf of Guinea).",
+            "topic": "Physical Geography"
         },
         {
             "front": "Is the Gulf Stream a warm or cold ocean current?",
-            "back": "Warm Current."
+            "back": "Warm Current.",
+            "topic": "Physical Geography"
         },
         {
             "front": "Which is the longest international border of India?",
-            "back": "Bangladesh (4096.7 km)."
+            "back": "Bangladesh (4096.7 km).",
+            "topic": "General Geography"
         },
         {
             "front": "Which Indian state has the longest coastline?",
-            "back": "Gujarat (2340.62 km)."
+            "back": "Gujarat (2340.62 km).",
+            "topic": "Indian Geography"
         },
         {
             "front": "Which line separates India and China?",
-            "back": "McMahon Line."
+            "back": "McMahon Line.",
+            "topic": "General Geography"
         },
         {
             "front": "What are 'Karewas' in Kashmir famous for?",
-            "back": "Saffron (Zafran) cultivation."
+            "back": "Saffron (Zafran) cultivation.",
+            "topic": "General Geography"
         },
         {
             "front": "Which pass connects Srinagar to Leh-Ladakh?",
-            "back": "Zoji La."
+            "back": "Zoji La.",
+            "topic": "Indian Geography"
         },
         {
             "front": "Through which pass does the Sutlej river enter India?",
-            "back": "Shipki La (Himachal Pradesh)."
+            "back": "Shipki La (Himachal Pradesh).",
+            "topic": "Indian Geography"
         },
         {
             "front": "Which is the highest peak in the Aravalli range?",
-            "back": "Guru Shikhar."
+            "back": "Guru Shikhar.",
+            "topic": "Indian Geography"
         },
         {
             "front": "Which channel separates Minicoy and Maldives?",
-            "back": "8 Degree Channel."
+            "back": "8 Degree Channel.",
+            "topic": "General Geography"
         },
         {
             "front": "Which channel separates Andaman and Nicobar?",
-            "back": "10 Degree Channel."
+            "back": "10 Degree Channel.",
+            "topic": "Indian Geography"
         },
         {
             "front": "What is India's only active volcano?",
-            "back": "Barren Island (Andaman)."
+            "back": "Barren Island (Andaman).",
+            "topic": "Physical Geography"
         },
         {
             "front": "Which is the highest peak in South India?",
-            "back": "Anamudi (Kerala)."
+            "back": "Anamudi (Kerala).",
+            "topic": "General Geography"
         },
         {
             "front": "Where do the Eastern and Western Ghats meet?",
-            "back": "Nilgiri Hills."
+            "back": "Nilgiri Hills.",
+            "topic": "Indian Geography"
         },
         {
             "front": "Which pass connects Mumbai to Pune?",
-            "back": "Bhor Ghat."
+            "back": "Bhor Ghat.",
+            "topic": "Indian Geography"
         },
         {
             "front": "Which river crosses the Tropic of Cancer twice?",
-            "back": "Mahi River."
+            "back": "Mahi River.",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "front": "Which river is known as 'Dakshin Ganga'?",
-            "back": "Godavari."
+            "back": "Godavari.",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "front": "Which two major peninsular rivers flow west into the Arabian Sea?",
-            "back": "Narmada and Tapti."
+            "back": "Narmada and Tapti.",
+            "topic": "Indian Geography"
         },
         {
             "front": "Which is the highest dam in India?",
-            "back": "Tehri Dam (Uttarakhand)."
+            "back": "Tehri Dam (Uttarakhand).",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "front": "Which is the longest earthen dam in the world?",
-            "back": "Hirakud Dam (Odisha)."
+            "back": "Hirakud Dam (Odisha).",
+            "topic": "Physical Geography"
         },
         {
             "front": "Which is the largest freshwater lake in India?",
-            "back": "Wular Lake (J&K)."
+            "back": "Wular Lake (J&K).",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "front": "What does El Ni\u00f1o do to the Indian Monsoon?",
-            "back": "Weakens it, causing droughts."
+            "back": "Weakens it, causing droughts.",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "front": "What are the temperate grasslands of South Africa called?",
-            "back": "Velds."
+            "back": "Velds.",
+            "topic": "World Geography"
         },
         {
             "front": "What are the temperate grasslands of Argentina called?",
-            "back": "Pampas."
+            "back": "Pampas.",
+            "topic": "General Geography"
         },
         {
             "front": "Which soil is known as 'Regur' and is ideal for cotton?",
-            "back": "Black Soil."
+            "back": "Black Soil.",
+            "topic": "Agriculture, Soils & Minerals"
         },
         {
             "front": "Which soil undergoes intense leaching and is used to make bricks?",
-            "back": "Laterite Soil."
+            "back": "Laterite Soil.",
+            "topic": "Agriculture, Soils & Minerals"
         },
         {
             "front": "Which port is known as the oldest riverine port in India?",
-            "back": "Kolkata Port (Shyama Prasad Mukherjee Port)."
+            "back": "Kolkata Port (Shyama Prasad Mukherjee Port).",
+            "topic": "Indian Geography"
         },
         {
             "front": "What is the longest tributary of the Ganga?",
-            "back": "Yamuna River."
+            "back": "Yamuna River.",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "front": "Where does the Alaknanda meet the Bhagirathi to form the Ganga?",
-            "back": "Devprayag."
+            "back": "Devprayag.",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "front": "What is the ancient name of the Jhelum river?",
-            "back": "Vitasta."
+            "back": "Vitasta.",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "front": "What is the ancient name of the Ravi river?",
-            "back": "Purushni."
+            "back": "Purushni.",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "front": "Which Doab lies between the Ravi and Chenab rivers?",
-            "back": "Rechna Doab."
+            "back": "Rechna Doab.",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "front": "What is the highest navigable lake in the world?",
-            "back": "Lake Titicaca (Bolivia/Peru border)."
+            "back": "Lake Titicaca (Bolivia/Peru border).",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "front": "What is the deepest lake in the world?",
-            "back": "Lake Baikal (Russia)."
+            "back": "Lake Baikal (Russia).",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "front": "What separates South Andaman from Little Andaman?",
-            "back": "Duncan Passage."
+            "back": "Duncan Passage.",
+            "topic": "Indian Geography"
         },
         {
             "front": "What separates Great Nicobar from Sumatra (Indonesia)?",
-            "back": "Great Channel (Six Degree Channel)."
+            "back": "Great Channel (Six Degree Channel).",
+            "topic": "Indian Geography"
         },
         {
             "front": "Which pressure belt is known as the 'Horse Latitudes'?",
-            "back": "Sub-tropical high-pressure belt (30\u00b0N and 30\u00b0S)."
+            "back": "Sub-tropical high-pressure belt (30\u00b0N and 30\u00b0S).",
+            "topic": "Physical Geography"
         },
         {
             "front": "What causes winter rainfall in Northwestern India (beneficial for Rabi crops)?",
-            "back": "Western Disturbances."
+            "back": "Western Disturbances.",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "front": "What are Stalactites and Stalagmites?",
-            "back": "Karst (Groundwater) depositional features in limestone caves."
+            "back": "Karst (Groundwater) depositional features in limestone caves.",
+            "topic": "Physical Geography"
         },
         {
             "front": "What is the shifting cultivation known as in North-East India?",
-            "back": "Jhum cultivation."
+            "back": "Jhum cultivation.",
+            "topic": "General Geography"
         },
         {
             "front": "Which crop is known as the Silver Fiber?",
-            "back": "Cotton."
+            "back": "Cotton.",
+            "topic": "Agriculture, Soils & Minerals"
         },
         {
             "front": "Who is the Father of the Green Revolution in India?",
-            "back": "M. S. Swaminathan."
+            "back": "M. S. Swaminathan.",
+            "topic": "Agriculture, Soils & Minerals"
         },
         {
             "front": "What is the cultivation of grapes called?",
-            "back": "Viticulture."
+            "back": "Viticulture.",
+            "topic": "General Geography"
         },
         {
             "front": "Which state is the largest producer of Bauxite in India?",
-            "back": "Odisha."
+            "back": "Odisha.",
+            "topic": "Indian Geography"
         },
         {
             "front": "What is brown coal called?",
-            "back": "Lignite."
+            "back": "Lignite.",
+            "topic": "Agriculture, Soils & Minerals"
         },
         {
             "front": "Where is the Narora Nuclear Power Plant located?",
-            "back": "Uttar Pradesh."
+            "back": "Uttar Pradesh.",
+            "topic": "Agriculture, Soils & Minerals"
         },
         {
             "front": "Which river crosses the Equator twice?",
-            "back": "Congo (Zaire) River."
+            "back": "Congo (Zaire) River.",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "front": "Which is the largest hot desert in the world?",
-            "back": "Sahara Desert (North Africa)."
+            "back": "Sahara Desert (North Africa).",
+            "topic": "World Geography"
         },
         {
             "front": "Which is the driest desert in the world?",
-            "back": "Atacama Desert (South America)."
+            "back": "Atacama Desert (South America).",
+            "topic": "World Geography"
         },
         {
             "front": "Which strait is known as the 'Gate of Tears'?",
-            "back": "Bab-al-Mandab Strait."
+            "back": "Bab-al-Mandab Strait.",
+            "topic": "World Geography"
         },
         {
             "front": "What does the 38th Parallel separate?",
-            "back": "North Korea and South Korea."
+            "back": "North Korea and South Korea.",
+            "topic": "General Geography"
         },
         {
             "front": "What is the longest National Highway in India?",
-            "back": "NH44 (Srinagar to Kanyakumari)."
+            "back": "NH44 (Srinagar to Kanyakumari).",
+            "topic": "Indian Geography"
         },
         {
             "front": "Where is the longest railway platform in India located?",
-            "back": "Hubballi (Karnataka)."
+            "back": "Hubballi (Karnataka).",
+            "topic": "Indian Geography"
         },
         {
             "front": "Which National Waterway is situated on the Brahmaputra River?",
-            "back": "NW-2 (Sadiya to Dhubri)."
+            "back": "NW-2 (Sadiya to Dhubri).",
+            "topic": "Indian Geography"
         },
         {
             "front": "How often is the Agriculture Census conducted in India?",
-            "back": "Every 5 years."
+            "back": "Every 5 years.",
+            "topic": "Agriculture, Soils & Minerals"
         },
         {
             "front": "Which strait connects the Black Sea to the Sea of Azov?",
-            "back": "Kerch Strait."
+            "back": "Kerch Strait.",
+            "topic": "Agriculture, Soils & Minerals"
         },
         {
             "front": "Which strait connects the Black Sea to the Sea of Marmara?",
-            "back": "Bosphorus Strait."
+            "back": "Bosphorus Strait.",
+            "topic": "Agriculture, Soils & Minerals"
         },
         {
             "front": "What separates the Indonesian islands of Java and Sumatra?",
-            "back": "Sunda Strait."
+            "back": "Sunda Strait.",
+            "topic": "Indian Geography"
         },
         {
             "front": "What is the highest peak of the Nicobar group of islands?",
-            "back": "Mount Thullier (642m)."
+            "back": "Mount Thullier (642m).",
+            "topic": "Indian Geography"
         },
         {
             "front": "What is the Halocline?",
-            "back": "Ocean layer where salinity increases rapidly."
+            "back": "Ocean layer where salinity increases rapidly.",
+            "topic": "Physical Geography"
         },
         {
             "front": "Who is the Father of the Yellow Revolution (Oilseeds)?",
-            "back": "Sam Pitroda."
+            "back": "Sam Pitroda.",
+            "topic": "Agriculture, Soils & Minerals"
         },
         {
             "front": "Where are the Gibson and Simpson deserts located?",
-            "back": "Australia."
+            "back": "Australia.",
+            "topic": "World Geography"
         },
         {
             "front": "What is 'IR8'?",
-            "back": "High-Yielding Variety of Rice ('Miracle Rice')."
+            "back": "High-Yielding Variety of Rice ('Miracle Rice').",
+            "topic": "General Geography"
         },
         {
             "front": "What is the longest railway platform in India?",
-            "back": "Hubballi (Karnataka)."
+            "back": "Hubballi (Karnataka).",
+            "topic": "Indian Geography"
         },
         {
             "front": "What is the time difference between Gujarat (West) and Arunachal Pradesh (East)?",
-            "back": "Approximately 2 hours (30\u00b0 longitude diff)."
+            "back": "Approximately 2 hours (30\u00b0 longitude diff).",
+            "topic": "Physical Geography"
         },
         {
             "front": "Which state has the shortest coastline in India?",
-            "back": "Goa (193.95 km)."
+            "back": "Goa (193.95 km).",
+            "topic": "Indian Geography"
         },
         {
             "front": "What is the name of the boundary line between India and Afghanistan?",
-            "back": "Durand Line."
+            "back": "Durand Line.",
+            "topic": "Indian Geography"
         },
         {
             "front": "Which is the highest peak in the Aravalli Range?",
-            "back": "Guru Shikhar (Mt. Abu)."
+            "back": "Guru Shikhar (Mt. Abu).",
+            "topic": "Indian Geography"
         },
         {
             "front": "Which is the highest peak of the Satpura Range?",
-            "back": "Dhupgarh."
+            "back": "Dhupgarh.",
+            "topic": "Indian Geography"
         },
         {
             "front": "What are 'Duns' in the Himalayas?",
-            "back": "Longitudinal valleys between Lesser Himalayas and Shiwaliks (e.g., Dehradun)."
+            "back": "Longitudinal valleys between Lesser Himalayas and Shiwaliks (e.g., Dehradun).",
+            "topic": "Indian Geography"
         },
         {
             "front": "Which river forms the world's largest riverine island, Majuli?",
-            "back": "Brahmaputra."
+            "back": "Brahmaputra.",
+            "topic": "Indian Geography"
         },
         {
             "front": "Which river is known as the 'Sorrow of Bengal'?",
-            "back": "Damodar River."
+            "back": "Damodar River.",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "front": "Which river is known as the 'Sorrow of Bihar'?",
-            "back": "Kosi River."
+            "back": "Kosi River.",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "front": "What is an endorheic river? Give an Indian example.",
-            "back": "A river that drains inland and doesn't reach the sea. Example: Luni River."
+            "back": "A river that drains inland and doesn't reach the sea. Example: Luni River.",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "front": "Which Indian waterfall is known as the 'Niagara of India'?",
-            "back": "Chitrakote Falls (Indravati River, Chhattisgarh)."
+            "back": "Chitrakote Falls (Indravati River, Chhattisgarh).",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "front": "Where is the largest inland saltwater lake in India?",
-            "back": "Sambhar Lake (Rajasthan)."
+            "back": "Sambhar Lake (Rajasthan).",
+            "topic": "Rivers, Lakes & Climate"
         },
         {
             "front": "What is the scientific name for 'Slash and Burn' agriculture?",
-            "back": "Shifting Cultivation."
+            "back": "Shifting Cultivation.",
+            "topic": "Agriculture, Soils & Minerals"
         },
         {
             "front": "Which revolution is related to Potato production?",
-            "back": "Round Revolution."
+            "back": "Round Revolution.",
+            "topic": "Agriculture, Soils & Minerals"
         },
         {
             "front": "Which revolution is related to Fertilizer production?",
-            "back": "Grey Revolution."
+            "back": "Grey Revolution.",
+            "topic": "Agriculture, Soils & Minerals"
         },
         {
             "front": "What is 'Sericulture'?",
-            "back": "Rearing of silkworms for silk production."
+            "back": "Rearing of silkworms for silk production.",
+            "topic": "General Geography"
         },
         {
             "front": "Where is the oldest oil refinery in India located?",
-            "back": "Digboi, Assam (1901)."
+            "back": "Digboi, Assam (1901).",
+            "topic": "General Geography"
         },
         {
             "front": "Which country is the largest producer of Mica?",
-            "back": "India."
+            "back": "India.",
+            "topic": "Agriculture, Soils & Minerals"
         },
         {
             "front": "What is the longest National Highway in India?",
-            "back": "NH-44 (Srinagar to Kanyakumari, 4112 km)."
+            "back": "NH-44 (Srinagar to Kanyakumari, 4112 km).",
+            "topic": "Indian Geography"
         },
         {
             "front": "Which is the largest natural harbor port in India?",
-            "back": "Mumbai Port."
+            "back": "Mumbai Port.",
+            "topic": "Indian Geography"
         }
     ]
 };

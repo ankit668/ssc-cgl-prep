@@ -115,6 +115,7 @@
 
     function renderFatmanNotes() {
         const content = document.getElementById('fatman-content');
+        window.currentFatmanTopic = window.currentFatmanTopic || 'All';
         if(!window.fatmanGeography) {
             content.innerHTML = "<p>Data not found. Did fatman_data.js load?</p>";
             return;
@@ -127,8 +128,10 @@
         `;
     }
 
+    window.renderFatmanFlashcards = renderFatmanFlashcards;
     function renderFatmanFlashcards() {
     const content = document.getElementById('fatman-content');
+        window.currentFatmanTopic = window.currentFatmanTopic || 'All';
     const allCards = window.fatmanGeography.flashcards;
     
     // Load mastered cards from localStorage
@@ -165,7 +168,17 @@
     let html = `
         <div style="max-width:600px; margin: 0 auto; text-align:center;">
             
+            
+            <!-- Topic Filter -->
+            <div style="margin-bottom: 20px; text-align: left;">
+                <label style="color:#94A3B8; font-size:14px; margin-right:10px;">Filter Topic:</label>
+                <select id="fc-topic-filter" onchange="window.currentFatmanTopic = this.value; window.renderFatmanFlashcards()" style="background:#334155; color:white; border:1px solid #475569; padding:8px; border-radius:8px; outline:none; font-family:'Inter'; width:200px;">
+                    ${uniqueTopics.map(t => `<option value="${t}" ${window.currentFatmanTopic === t ? 'selected' : ''}>${t}</option>`).join('')}
+                </select>
+            </div>
+            
             <!-- Progress Bar -->
+
             <div style="display:flex; justify-content:space-between; color:#94A3B8; font-size:14px; margin-bottom:8px;">
                 <span>Mastered: ${mastered.length} / ${allCards.length}</span>
                 <span>Remaining: ${totalLeft}</span>
@@ -231,8 +244,10 @@ window.resetFatmanDeck = function() {
     }
 };
 
-function renderFatmanMCQMenu() {
+window.renderFatmanMCQMenu = renderFatmanMCQMenu;
+    function renderFatmanMCQMenu() {
         const content = document.getElementById('fatman-content');
+        window.currentFatmanTopic = window.currentFatmanTopic || 'All';
         content.innerHTML = `
             <div style="max-width:800px; margin: 0 auto; text-align:center; margin-top: 40px;">
                 <h2 style="color:white; margin-bottom:10px;">Select Drill Mode</h2>
@@ -251,6 +266,7 @@ function renderFatmanMCQMenu() {
 
     window.startFatmanPractice = function() {
         const content = document.getElementById('fatman-content');
+        window.currentFatmanTopic = window.currentFatmanTopic || 'All';
         const mcqs = window.fatmanGeography.mcqs;
         let html = '<div style="max-width:800px; margin: 0 auto;">';
         
@@ -288,6 +304,7 @@ function renderFatmanMCQMenu() {
         window.mockAnswers = new Array(25).fill(-1); // -1 means unattempted
         
         const content = document.getElementById('fatman-content');
+        window.currentFatmanTopic = window.currentFatmanTopic || 'All';
         let html = `
             <div id="mock-header" style="position: sticky; top: -20px; background: #0F172A; padding: 15px; border-bottom: 2px solid #334155; z-index: 10; display:flex; justify-content: space-between; align-items:center; border-radius: 0 0 12px 12px; margin-bottom:20px;">
                 <div style="font-weight:bold; color: #F87171; font-size: 18px;">Grand Test</div>
