@@ -90,8 +90,96 @@ const historyData = {
                 </ul>
             </li>
         </ul>
+
+        <h3>10. Stone Age & Pre-Historic Sites</h3>
+        <ul>
+            <li><strong>Paleolithic Age:</strong> Discovery of Fire. Hunter-gatherers. <em>Key Site:</em> Bhimbetka Caves (MP) known for ancient rock paintings.</li>
+            <li><strong>Mesolithic Age:</strong> Use of Microliths (tiny stone tools). Domestication of animals began. <em>Key Sites:</em> Bagor (Rajasthan), Adamgarh (MP).</li>
+            <li><strong>Neolithic Age:</strong> Discovery of Agriculture and Wheel. Settled life began. <em>Key Sites:</em> Mehrgarh (Pakistan - earliest evidence of agriculture/cotton), Burzahom (Kashmir - pit dwellings and dog burials with owners), Chirand (Bihar - bone tools).</li>
+            <li><strong>Chalcolithic Age:</strong> Copper was the first metal used by humans.</li>
+        </ul>
+
+        <h3>11. Ancient Books, Authors & Philosophies (Darshanas)</h3>
+        <ul>
+            <li><strong>Six Schools of Indian Philosophy (Shad Darshana):</strong> Highly tested by SSC!
+                <ul>
+                    <li><strong>Samkhya:</strong> Founded by Kapila.</li>
+                    <li><strong>Yoga:</strong> Founded by Patanjali.</li>
+                    <li><strong>Nyaya:</strong> Founded by Gautama.</li>
+                    <li><strong>Vaisheshika:</strong> Founded by Kanada.</li>
+                    <li><strong>Purva Mimamsa:</strong> Founded by Jaimini.</li>
+                    <li><strong>Vedanta (Uttara Mimamsa):</strong> Founded by Badarayana.</li>
+                </ul>
+            </li>
+            <li><strong>Vital Books & Authors:</strong>
+                <ul>
+                    <li><em>Ashtadhyayi:</em> Panini (Oldest Sanskrit grammar).</li>
+                    <li><em>Mahabhashya:</em> Patanjali.</li>
+                    <li><em>Mudrarakshasa:</em> Vishakhadatta (Describes Chandragupta defeating Nandas).</li>
+                    <li><em>Mricchakatika (The Little Clay Cart):</em> Shudraka.</li>
+                    <li><em>Panchatantra:</em> Vishnu Sharma.</li>
+                    <li><em>Rajatarangini:</em> Kalhana (History of Kashmir).</li>
+                    <li><em>Kalidasa's works:</em> Abhijnanasakuntalam, Meghaduta, Kumarasambhava, Malavikagnimitram.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>12. Chalukyas, Pallavas & Temple Architecture</h3>
+        <ul>
+            <li><strong>Chalukyas of Badami:</strong> Founded by Pulakeshin I. Greatest ruler: <strong>Pulakeshin II</strong> (Defeated Harshavardhana). His achievements are recorded in the <strong>Aihole Inscription</strong> written by his court poet <em>Ravikirti</em>.</li>
+            <li><strong>Pallava Dynasty:</strong> Capital: Kanchipuram. 
+                <ul>
+                    <li><strong>Narasimhavarman I:</strong> Defeated and killed Pulakeshin II, assuming the title <em>Vatapikonda</em>. Founded Mahabalipuram and built the Monolithic Ratha temples (Seven Pagodas).</li>
+                    <li><strong>Narasimhavarman II:</strong> Built the Shore Temple (Mahabalipuram) and Kailasanatha Temple (Kanchipuram).</li>
+                </ul>
+            </li>
+            <li><strong>Chola Empire (Brief):</strong> Founder: Vijayalaya. Rajaraja I built the Brihadeshwara Temple (Thanjavur). Rajendra I assumed the title <em>Gangaikondachola</em>. Known for local self-government and bronze Nataraja statues.</li>
+        </ul>
+
     `,
     mcqs: [
+
+        {
+            id: "hist_16",
+            topic: "Ancient Books & Authors",
+            question: "Who is the author of the ancient Sanskrit play 'Mudrarakshasa'?",
+            options: ["Kalidasa", "Vishakhadatta", "Shudraka", "Banabhatta"],
+            answer: 1,
+            explanation: "Correct Answer: Vishakhadatta. It narrates the ascent of king Chandragupta Maurya to power."
+        },
+        {
+            id: "hist_17",
+            topic: "Ancient Indian Philosophies",
+            question: "The 'Nyaya' school of ancient Indian philosophy was propounded by:",
+            options: ["Kapila", "Patanjali", "Gautama", "Kanada"],
+            answer: 2,
+            explanation: "Correct Answer: Gautama. Kapila founded Samkhya, Patanjali founded Yoga, and Kanada founded Vaisheshika."
+        },
+        {
+            id: "hist_18",
+            topic: "Chalukyas & Pallavas",
+            question: "The famous 'Aihole Inscription', which details the victories of Pulakeshin II, was composed by:",
+            options: ["Harisena", "Ravikirti", "Banabhatta", "Kalhana"],
+            answer: 1,
+            explanation: "Correct Answer: Ravikirti. Harisena composed the Allahabad Pillar Inscription for Samudragupta."
+        },
+        {
+            id: "hist_19",
+            topic: "Stone Age",
+            question: "In which of the following archaeological sites were pit-dwellings and dog burials with their masters found?",
+            options: ["Mehrgarh", "Burzahom", "Bhimbetka", "Lothal"],
+            answer: 1,
+            explanation: "Correct Answer: Burzahom (located in Kashmir). It is a prominent Neolithic site."
+        },
+        {
+            id: "hist_20",
+            topic: "Chalukyas & Pallavas",
+            question: "Which Pallava ruler took the title 'Vatapikonda' after defeating the Chalukya king Pulakeshin II?",
+            options: ["Mahendravarman I", "Narasimhavarman I", "Narasimhavarman II", "Simhavishnu"],
+            answer: 1,
+            explanation: "Correct Answer: Narasimhavarman I. He captured the Chalukya capital Vatapi (Badami)."
+        },
+
         {
             id: "hist_1",
             topic: "Indus Valley Civilization",
@@ -214,6 +302,33 @@ const historyData = {
         }
     ],
     flashcards: [
+
+        {
+            topic: "Stone Age",
+            front: "Which Paleolithic site in Madhya Pradesh is famous for prehistoric rock paintings?",
+            back: "Bhimbetka Caves."
+        },
+        {
+            topic: "Ancient Books & Authors",
+            front: "Who wrote 'Ashtadhyayi', the earliest known grammar of the Sanskrit language?",
+            back: "Panini."
+        },
+        {
+            topic: "Ancient Indian Philosophies",
+            front: "Who is the founder of the 'Samkhya' school of philosophy?",
+            back: "Kapila."
+        },
+        {
+            topic: "Ancient Books & Authors",
+            front: "Who authored 'Rajatarangini', a historical chronicle of the kings of Kashmir?",
+            back: "Kalhana."
+        },
+        {
+            topic: "Chalukyas & Pallavas",
+            front: "Which king built the famous Shore Temple at Mahabalipuram?",
+            back: "Narasimhavarman II (Rajasimha) of the Pallava Dynasty."
+        },
+
         {
             topic: "Indus Valley Civilization",
             front: "What was the script of the Indus Valley Civilization?",
