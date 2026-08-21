@@ -159,7 +159,7 @@ function renderFatmanNotes() {
     let uniqueTopics = ['All', ...new Set(allCards.map(c => c.topic))];
     
     // Load mastered cards from localStorage
-    let masteredStr = localStorage.getItem('fatman_mastered_cards');
+    let masteredStr = localStorage.getItem(`fatman_mastered_cards_${window.currentFatmanSubject}`);
     let mastered = masteredStr ? JSON.parse(masteredStr) : [];
     
     // Filter to get only unmastered cards
@@ -246,12 +246,12 @@ function renderFatmanNotes() {
 }
 
 window.markFatmanGotIt = function(originalIndex) {
-    let masteredStr = localStorage.getItem('fatman_mastered_cards');
+    let masteredStr = localStorage.getItem(`fatman_mastered_cards_${window.currentFatmanSubject}`);
     let mastered = masteredStr ? JSON.parse(masteredStr) : [];
     
     if(!mastered.includes(originalIndex)) {
         mastered.push(originalIndex);
-        localStorage.setItem('fatman_mastered_cards', JSON.stringify(mastered));
+        localStorage.setItem(`fatman_mastered_cards_${window.currentFatmanSubject}`, JSON.stringify(mastered));
     }
     
     // Re-render to show next card
@@ -265,7 +265,7 @@ window.markFatmanReview = function() {
 
 window.resetFatmanDeck = function() {
     if(confirm("Are you sure you want to reset your flashcard progress?")) {
-        localStorage.removeItem('fatman_mastered_cards');
+        localStorage.removeItem(`fatman_mastered_cards_${window.currentFatmanSubject}`);
         renderFatmanFlashcards();
     }
 };
