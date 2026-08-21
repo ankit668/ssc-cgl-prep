@@ -1,3 +1,17 @@
+
+window.currentFatmanSubject = "geography";
+window.getFatmanData = function() {
+    return window.currentFatmanSubject === "history" ? window.fatmanHistory : window.fatmanGeography;
+};
+window.switchFatmanSubject = function(subject) {
+    window.currentFatmanSubject = subject;
+    window.currentFatmanTopic = 'All'; // Reset topic filter
+    // Re-render the current tab
+    const tabs = document.querySelectorAll('.fatman-tab');
+    let activeTab = 'notes';
+    tabs.forEach(t => { if(t.classList.contains('active')) activeTab = t.dataset.tab; });
+    window.switchFatmanTab(activeTab);
+};
 // Fatman Special UI Injector
 (function() {
     // 1. Inject the Floating Action Button
@@ -122,8 +136,8 @@
         }
         content.innerHTML = `
             <div style="max-width: 800px; margin: 0 auto; background: #1E293B; padding: 20px; border-radius: 12px; line-height: 1.6;">
-                <h1 style="color:#38BDF8; margin-top:0;">${window.fatmanGeography.chapter}</h1>
-                ${window.fatmanGeography.notes}
+                <h1 style="color:#38BDF8; margin-top:0;">${window.getFatmanData().chapter}</h1>
+                ${window.getFatmanData().notes}
             </div>
         `;
     }
@@ -132,7 +146,7 @@
     function renderFatmanFlashcards() {
     const content = document.getElementById('fatman-content');
         window.currentFatmanTopic = window.currentFatmanTopic || 'All';
-    const allCards = window.fatmanGeography.flashcards;
+    const allCards = window.getFatmanData().flashcards;
     
     // Load mastered cards from localStorage
     let masteredStr = localStorage.getItem('fatman_mastered_cards');
@@ -251,7 +265,7 @@ window.renderFatmanMCQMenu = renderFatmanMCQMenu;
         content.innerHTML = `
             <div style="max-width:800px; margin: 0 auto; text-align:center; margin-top: 40px;">
                 <h2 style="color:white; margin-bottom:10px;">Select Drill Mode</h2>
-                <p style="color:#94A3B8; margin-bottom: 30px;">Choose how you want to conquer the ${window.fatmanGeography.mcqs.length} questions.</p>
+                <p style="color:#94A3B8; margin-bottom: 30px;">Choose how you want to conquer the ${window.getFatmanData().mcqs.length} questions.</p>
                 
                 <button onclick="window.startFatmanPractice()" style="background:#334155; border:1px solid #475569; color:white; padding: 15px 30px; font-size:18px; border-radius:12px; width: 100%; max-width: 400px; margin-bottom:15px; cursor:pointer; font-family:'Outfit';">
                     📚 Practice Mode (All Qs)
@@ -267,7 +281,7 @@ window.renderFatmanMCQMenu = renderFatmanMCQMenu;
     window.startFatmanPractice = function() {
         const content = document.getElementById('fatman-content');
         window.currentFatmanTopic = window.currentFatmanTopic || 'All';
-        const mcqs = window.fatmanGeography.mcqs;
+        const mcqs = window.getFatmanData().mcqs;
         let html = '<div style="max-width:800px; margin: 0 auto;">';
         
         mcqs.forEach((q, qidx) => {
@@ -298,7 +312,7 @@ window.renderFatmanMCQMenu = renderFatmanMCQMenu;
 
     window.startFatmanMock = function() {
         // Randomly select 20 questions
-        let allQs = [...window.fatmanGeography.mcqs];
+        let allQs = [...window.getFatmanData().mcqs];
         allQs.sort(() => 0.5 - Math.random());
         window.mockQs = allQs.slice(0, 25);
         window.mockAnswers = new Array(25).fill(-1); // -1 means unattempted
