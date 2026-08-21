@@ -139,6 +139,28 @@ const historyData = {
     `,
     mcqs: [
 
+        { id: "hist_21", topic: "Indus Valley Civilization", question: "Which Indus Valley site has provided evidence of a ploughed field and fire altars?", options: ["Mohenjo-Daro", "Harappa", "Kalibangan", "Lothal"], answer: 2, explanation: "Correct Answer: Kalibangan (Rajasthan)." },
+        { id: "hist_22", topic: "Indus Valley Civilization", question: "The famous 'Bronze Dancing Girl' statue was excavated from:", options: ["Lothal", "Mohenjo-Daro", "Dholavira", "Harappa"], answer: 1, explanation: "Correct Answer: Mohenjo-Daro." },
+        { id: "hist_23", topic: "The Vedic Age", question: "Which river was known as 'Vitasta' in the Rig Vedic period?", options: ["Jhelum", "Chenab", "Ravi", "Sutlej"], answer: 0, explanation: "Correct Answer: Jhelum." },
+        { id: "hist_24", topic: "The Vedic Age", question: "Which of the following Vedas is a collection of magical charms and spells?", options: ["Rig Veda", "Sama Veda", "Yajur Veda", "Atharva Veda"], answer: 3, explanation: "Correct Answer: Atharva Veda." },
+        { id: "hist_25", topic: "Buddhism", question: "Who presided over the First Buddhist Council held at Rajagriha?", options: ["Mahakashyapa", "Sabbakami", "Moggaliputta Tissa", "Vasumitra"], answer: 0, explanation: "Correct Answer: Mahakashyapa (under the patronage of King Ajatashatru)." },
+        { id: "hist_26", topic: "Buddhism", question: "In Buddhism, what does the symbol of the 'Horse' represent?", options: ["Birth", "Renunciation (Mahabhinishkramana)", "Enlightenment", "Death"], answer: 1, explanation: "Correct Answer: Renunciation (Mahabhinishkramana)." },
+        { id: "hist_27", topic: "Jainism", question: "At which place did Vardhamana Mahavira attain Kaivalya (Enlightenment)?", options: ["Bodh Gaya", "Sarnath", "Jrimbhikagrama", "Kushinagar"], answer: 2, explanation: "Correct Answer: Jrimbhikagrama, under a Sal tree." },
+        { id: "hist_28", topic: "Jainism", question: "The first Jain Council was held at Pataliputra under the patronage of:", options: ["Kalasoka", "Chandragupta Maurya", "Ashoka", "Bimbisara"], answer: 1, explanation: "Correct Answer: Chandragupta Maurya." },
+        { id: "hist_29", topic: "Mahajanapadas & Magadha Empire", question: "Which ruler of the Haryanka dynasty is credited with founding the city of Pataliputra?", options: ["Bimbisara", "Ajatashatru", "Udayin", "Shishunaga"], answer: 2, explanation: "Correct Answer: Udayin." },
+        { id: "hist_30", topic: "Mauryan Empire", question: "Who was the Greek ambassador sent by Seleucus Nicator to the court of Chandragupta Maurya?", options: ["Deimachus", "Ptolemy", "Megasthenes", "Fa-Hien"], answer: 2, explanation: "Correct Answer: Megasthenes." },
+        { id: "hist_31", topic: "Mauryan Empire", question: "Bindusara, the Mauryan emperor, was a follower of which religious sect?", options: ["Buddhism", "Jainism", "Ajivika", "Charvaka"], answer: 2, explanation: "Correct Answer: Ajivika sect." },
+        { id: "hist_32", topic: "Post-Mauryan & Foreign Invasions", question: "Who assassinated the last Mauryan king Brihadratha and founded the Sunga Dynasty?", options: ["Vasudeva", "Simuka", "Pushyamitra Sunga", "Agnimitra"], answer: 2, explanation: "Correct Answer: Pushyamitra Sunga." },
+        { id: "hist_33", topic: "Post-Mauryan & Foreign Invasions", question: "The greatest ruler of the Satavahana dynasty, who issued lead coins, was:", options: ["Simuka", "Hala", "Gautamiputra Satakarni", "Sri Satakarni"], answer: 2, explanation: "Correct Answer: Gautamiputra Satakarni." },
+        { id: "hist_34", topic: "Gupta Empire", question: "Who is known as the 'Real Founder' of the Gupta Empire and was the first to adopt the title Maharajadhiraja?", options: ["Sri Gupta", "Chandragupta I", "Samudragupta", "Chandragupta II"], answer: 1, explanation: "Correct Answer: Chandragupta I." },
+        { id: "hist_35", topic: "Gupta Empire", question: "The famous Navaratnas (Nine Gems), including Kalidasa and Varahamihira, were in the court of:", options: ["Samudragupta", "Kumaragupta", "Skandagupta", "Chandragupta II (Vikramaditya)"], answer: 3, explanation: "Correct Answer: Chandragupta II." },
+        { id: "hist_36", topic: "Harshavardhana & Sangam Age", question: "The Sangam Age Chera dynasty had its capital at Vanji. What was their royal emblem?", options: ["Tiger", "Fish", "Bow and Arrow", "Lion"], answer: 2, explanation: "Correct Answer: Bow and Arrow. (Tiger = Cholas, Fish = Pandyas)." },
+        { id: "hist_37", topic: "Stone Age", question: "Which Neolithic site is renowned for providing the earliest evidence of agriculture and cotton in the Indian subcontinent?", options: ["Burzahom", "Mehrgarh", "Bhimbetka", "Chirand"], answer: 1, explanation: "Correct Answer: Mehrgarh (located in present-day Pakistan)." },
+        { id: "hist_38", topic: "Ancient Books & Authors", question: "The famous ancient Indian treatise on statecraft, 'Arthashastra', was written by:", options: ["Vishakhadatta", "Megasthenes", "Chanakya", "Panini"], answer: 2, explanation: "Correct Answer: Chanakya (also known as Kautilya or Vishnugupta)." },
+        { id: "hist_39", topic: "Ancient Indian Philosophies", question: "Which ancient Indian sage is credited with founding the 'Vaisheshika' school of philosophy?", options: ["Gautama", "Kanada", "Jaimini", "Badarayana"], answer: 1, explanation: "Correct Answer: Kanada." },
+        { id: "hist_40", topic: "Chalukyas & Pallavas", question: "The Brihadeshwara Temple at Thanjavur, a masterpiece of Dravidian architecture, was built by which Chola king?", options: ["Vijayalaya", "Rajendra I", "Rajaraja I", "Aditya I"], answer: 2, explanation: "Correct Answer: Rajaraja I." }
+,
+
         {
             id: "hist_16",
             topic: "Ancient Books & Authors",
@@ -302,6 +324,28 @@ const historyData = {
         }
     ],
     flashcards: [
+
+        { topic: "Indus Valley Civilization", front: "Which IVC site in Gujarat is famous for its advanced water harvesting system?", back: "Dholavira." },
+        { topic: "Indus Valley Civilization", front: "Who discovered the Harappa site in 1921?", back: "Dayaram Sahni." },
+        { topic: "The Vedic Age", front: "What was the ancient name of the river Chenab in the Rig Veda?", back: "Asikni." },
+        { topic: "The Vedic Age", front: "Which Veda deals with sacrificial rituals and is divided into Shukla and Krishna?", back: "Yajur Veda." },
+        { topic: "Buddhism", front: "Under which tree did Gautama Buddha attain enlightenment at Bodh Gaya?", back: "Peepal tree (Bodhi Tree)." },
+        { topic: "Buddhism", front: "Who patronized the Third Buddhist Council at Pataliputra?", back: "Ashoka the Great." },
+        { topic: "Jainism", front: "What is the collective term for the Jain doctrines: Right Faith, Right Knowledge, and Right Conduct?", back: "Triratnas (Three Jewels)." },
+        { topic: "Jainism", front: "Following the first Jain Council, Jainism split into two sects. Name them.", back: "Shvetambaras (white-clad) and Digambaras (sky-clad)." },
+        { topic: "Mahajanapadas & Magadha Empire", front: "Who was the last ruler of the Nanda Dynasty, defeated by Chandragupta Maurya?", back: "Dhana Nanda." },
+        { topic: "Mauryan Empire", front: "In which ancient text did Megasthenes document Mauryan administration?", back: "Indica." },
+        { topic: "Mauryan Empire", front: "Which son and daughter did Ashoka send to Sri Lanka to propagate Buddhism?", back: "Mahendra (son) and Sanghamitra (daughter)." },
+        { topic: "Post-Mauryan & Foreign Invasions", front: "Which Indo-Greek king was converted to Buddhism by the monk Nagasena?", back: "Menander (Milinda)." },
+        { topic: "Post-Mauryan & Foreign Invasions", front: "Which Kushana king patronized the physician Charaka and the scholar Ashvaghosha?", back: "Kanishka." },
+        { topic: "Gupta Empire", front: "Which Chinese pilgrim visited India during the reign of Chandragupta II?", back: "Fa-Hien." },
+        { topic: "Gupta Empire", front: "Which university was founded by the Gupta ruler Kumaragupta I?", back: "Nalanda University." },
+        { topic: "Harshavardhana & Sangam Age", front: "Name the three plays written by King Harshavardhana himself.", back: "Ratnavali, Priyadarshika, and Nagananda." },
+        { topic: "Stone Age", front: "During which Pre-Historic Age did humans first discover fire?", back: "Paleolithic Age." },
+        { topic: "Ancient Books & Authors", front: "Who authored 'Mricchakatika' (The Little Clay Cart)?", back: "Shudraka." },
+        { topic: "Ancient Indian Philosophies", front: "Which ancient school of philosophy was founded by Jaimini?", back: "Purva Mimamsa." },
+        { topic: "Chalukyas & Pallavas", front: "Which Pallava king built the Monolithic Ratha temples (Seven Pagodas) at Mahabalipuram?", back: "Narasimhavarman I." }
+,
 
         {
             topic: "Stone Age",
