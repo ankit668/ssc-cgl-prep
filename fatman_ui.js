@@ -3,25 +3,9 @@
     // 1. Inject the Floating Action Button
     const fab = document.createElement('div');
     fab.innerHTML = `
-        <div id="fatman-fab" style="
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background: linear-gradient(135deg, #FF416C 0%, #FF4B2B 100%);
-            color: white;
-            padding: 12px 20px;
-            border-radius: 30px;
-            font-family: 'Outfit', sans-serif;
-            font-weight: bold;
-            font-size: 14px;
-            box-shadow: 0 4px 15px rgba(255, 65, 108, 0.4);
-            cursor: pointer;
-            z-index: 9999;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            transition: transform 0.2s;
-        ">
+        <div id="fatman-fab">
+            <span>🔥</span> Fatman Special
+        </div>
             <span>🔥</span> Fatman Special
         </div>
     `;
@@ -67,6 +51,37 @@
             .mock-opt.selected { background: #38BDF8 !important; color: white !important; border-color: #38BDF8 !important; }
             .mock-opt.correct { background: #10B981 !important; color: white !important; border-color: #10B981 !important; }
             .mock-opt.wrong { background: #EF4444 !important; color: white !important; border-color: #EF4444 !important; }
+            #fatman-fab {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                background: linear-gradient(135deg, #FF416C 0%, #FF4B2B 100%);
+                color: white;
+                padding: 12px 20px;
+                border-radius: 30px;
+                font-family: 'Outfit', sans-serif;
+                font-weight: bold;
+                font-size: 14px;
+                box-shadow: 0 4px 15px rgba(255, 65, 108, 0.4);
+                cursor: pointer;
+                z-index: 9999;
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                transition: transform 0.2s, bottom 0.3s;
+            }
+            #fatman-fab:active {
+                transform: scale(0.95);
+            }
+            @media (max-width: 768px) {
+                #fatman-fab {
+                    bottom: 85px; /* Floats above the mobile bottom nav bar */
+                    right: 15px;
+                    padding: 10px 16px;
+                    font-size: 13px;
+                }
+            }
+
         `;
         document.head.appendChild(style);
     }
