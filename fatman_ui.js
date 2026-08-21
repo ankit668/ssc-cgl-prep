@@ -39,9 +39,15 @@ window.switchFatmanSubject = function(subject) {
     `;
     modal.innerHTML = `
         <div style="padding: 20px; border-bottom: 1px solid #334155; display: flex; justify-content: space-between; align-items: center; background: #0F172A;">
-            <h2 style="margin:0; font-family:'Outfit'; color:#FF4B2B;">🔥 Fatman Module: Geography</h2>
-            <button id="fatman-close" style="background:none; border:none; color:white; font-size:24px; cursor:pointer;">&times;</button>
-        </div>
+    <div style="display:flex; align-items:center; gap: 15px;">
+        <h2 style="margin:0; font-family:'Outfit'; color:#FF4B2B;">Fatman Module</h2>
+        <select id="fatman-subject-select" onchange="window.switchFatmanSubject(this.value)" style="background:#1E293B; color:white; border:1px solid #475569; padding:5px 10px; border-radius:5px; font-family:'Inter'; outline:none; cursor:pointer;">
+            <option value="geography">Geography</option>
+            <option value="history">Ancient History</option>
+        </select>
+    </div>
+    <button id="fatman-close" style="background:none; border:none; color:white; font-size:24px; cursor:pointer;">&times;</button>
+</div>
         <div style="display:flex; gap: 10px; padding: 15px 20px; background: #1E293B; overflow-x: auto;">
             <button class="fatman-tab active" data-target="fatman-notes" style="padding: 8px 16px; border-radius: 20px; border:none; background:#FF4B2B; color:white; font-weight:bold; cursor:pointer;">📖 Bite-Sized Notes</button>
             <button class="fatman-tab" data-target="fatman-flashcards" style="padding: 8px 16px; border-radius: 20px; border:1px solid #475569; background:transparent; color:white; font-weight:bold; cursor:pointer;">🃏 Flashcards</button>
