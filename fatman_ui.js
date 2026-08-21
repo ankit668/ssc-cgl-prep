@@ -4,13 +4,15 @@ window.getFatmanData = function() {
     return window.currentFatmanSubject === "history" ? window.fatmanHistory : window.fatmanGeography;
 };
 window.switchFatmanSubject = function(subject) {
-    window.currentFatmanSubject = subject;
-    window.currentFatmanTopic = 'All'; // Reset topic filter
-    // Re-render the current tab
-    const tabs = document.querySelectorAll('.fatman-tab');
-    let activeTab = 'notes';
-    tabs.forEach(t => { if(t.classList.contains('active')) activeTab = t.dataset.tab; });
-    window.switchFatmanTab(activeTab);
+window.currentFatmanSubject = subject;
+window.currentFatmanTopic = 'All'; // Reset topic filter
+// Re-render the current tab
+const tabs = document.querySelectorAll('.fatman-tab');
+let activeTarget = 'fatman-notes';
+tabs.forEach(t => { if(t.classList.contains('active')) activeTarget = t.getAttribute('data-target'); });
+if (activeTarget === 'fatman-notes') { if(typeof renderFatmanNotes === 'function') renderFatmanNotes(); }
+if (activeTarget === 'fatman-flashcards') { if(typeof renderFatmanFlashcards === 'function') renderFatmanFlashcards(); }
+if (activeTarget === 'fatman-mcqs') { if(typeof renderFatmanMCQMenu === 'function') renderFatmanMCQMenu(); }
 };
 // Fatman Special UI Injector
 (function() {
