@@ -10,9 +10,9 @@ window.currentFatmanTopic = 'All'; // Reset topic filter
 const tabs = document.querySelectorAll('.fatman-tab');
 let activeTarget = 'fatman-notes';
 tabs.forEach(t => { if(t.classList.contains('active')) activeTarget = t.getAttribute('data-target'); });
-if (activeTarget === 'fatman-notes') { if(typeof renderFatmanNotes === 'function') renderFatmanNotes(); }
-if (activeTarget === 'fatman-flashcards') { if(typeof renderFatmanFlashcards === 'function') renderFatmanFlashcards(); }
-if (activeTarget === 'fatman-mcqs') { if(typeof renderFatmanMCQMenu === 'function') renderFatmanMCQMenu(); }
+if (activeTarget === 'fatman-notes') { if(typeof window.renderFatmanNotes === 'function') window.renderFatmanNotes(); }
+if (activeTarget === 'fatman-flashcards') { if(typeof window.renderFatmanFlashcards === 'function') window.renderFatmanFlashcards(); }
+if (activeTarget === 'fatman-mcqs') { if(typeof window.renderFatmanMCQMenu === 'function') window.renderFatmanMCQMenu(); }
 };
 // Fatman Special UI Injector
 (function() {
@@ -135,7 +135,8 @@ if (activeTarget === 'fatman-mcqs') { if(typeof renderFatmanMCQMenu === 'functio
         };
     });
 
-    function renderFatmanNotes() {
+    window.renderFatmanNotes = renderFatmanNotes;
+function renderFatmanNotes() {
         const content = document.getElementById('fatman-content');
         window.currentFatmanTopic = window.currentFatmanTopic || 'All';
         if(!window.fatmanGeography) {
