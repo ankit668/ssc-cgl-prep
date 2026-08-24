@@ -6,6 +6,20 @@ window.getFatmanData = function() {
 window.switchFatmanSubject = function(subject) {
 window.currentFatmanSubject = subject;
 window.currentFatmanTopic = 'All'; // Reset topic filter
+
+const timelineBtn = document.getElementById('fatman-tab-timeline');
+if (timelineBtn) {
+    if (subject === 'history') {
+        timelineBtn.style.display = 'inline-block';
+    } else {
+        timelineBtn.style.display = 'none';
+        if (timelineBtn.classList.contains('active')) {
+            timelineBtn.classList.remove('active');
+            document.querySelector('.fatman-tab[data-target="fatman-notes"]').classList.add('active');
+        }
+    }
+}
+
 // Re-render the current tab
 const tabs = document.querySelectorAll('.fatman-tab');
 let activeTarget = 'fatman-notes';
@@ -13,6 +27,7 @@ tabs.forEach(t => { if(t.classList.contains('active')) activeTarget = t.getAttri
 if (activeTarget === 'fatman-notes') { if(typeof window.renderFatmanNotes === 'function') window.renderFatmanNotes(); }
 if (activeTarget === 'fatman-flashcards') { if(typeof window.renderFatmanFlashcards === 'function') window.renderFatmanFlashcards(); }
 if (activeTarget === 'fatman-mcqs') { if(typeof window.renderFatmanMCQMenu === 'function') window.renderFatmanMCQMenu(); }
+if (activeTarget === 'fatman-timeline') { if(typeof window.renderFatmanTimeline === 'function') window.renderFatmanTimeline(); }
 };
 // Fatman Special UI Injector
 (function() {
@@ -54,6 +69,7 @@ if (activeTarget === 'fatman-mcqs') { if(typeof window.renderFatmanMCQMenu === '
             <button class="fatman-tab active" data-target="fatman-notes" style="padding: 8px 16px; border-radius: 20px; border:none; background:#FF4B2B; color:white; font-weight:bold; cursor:pointer;">📖 Bite-Sized Notes</button>
             <button class="fatman-tab" data-target="fatman-flashcards" style="padding: 8px 16px; border-radius: 20px; border:1px solid #475569; background:transparent; color:white; font-weight:bold; cursor:pointer;">🃏 Flashcards</button>
             <button class="fatman-tab" data-target="fatman-mcqs" style="padding: 8px 16px; border-radius: 20px; border:1px solid #475569; background:transparent; color:white; font-weight:bold; cursor:pointer;">🎯 GS Drills (MCQs)</button>
+                            <button class="fatman-tab" id="fatman-tab-timeline" data-target="fatman-timeline" style="padding: 8px 16px; border-radius: 20px; border:1px solid #475569; background:transparent; color:white; font-weight:bold; cursor:pointer; display:none;">&#8987; Timeline</button>
         </div>
         <div id="fatman-content" style="flex: 1; overflow-y: auto; padding: 20px;">
             <!-- Content injects here -->
