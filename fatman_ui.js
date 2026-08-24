@@ -251,7 +251,37 @@ window.toggleFatmanAudio = function() {
     window.fatmanUtterance.pitch = 1.0;
     
     const voices = window.speechSynthesis.getVoices();
-    const preferredVoice = voices.find(v => v.lang.includes('en-IN') || v.lang.includes('en-GB') || v.lang.includes('en-US'));
+    
+    // Look for explicitly female English voices (especially Indian accents like Heera/Veena)
+    let preferredVoice = voices.find(v => 
+        (v.lang.includes('en-') ) && 
+        (v.name.toLowerCase().includes('female') || 
+         v.name.toLowerCase().includes('zira') || 
+         v.name.toLowerCase().includes('heera') || 
+         v.name.toLowerCase().includes('veena') || 
+         v.name.toLowerCase().includes('samantha') || 
+         v.name.toLowerCase().includes('victoria') ||
+         v.name.toLowerCase().includes('karen') ||
+         v.name.toLowerCase().includes('hazel'))
+    );
+    
+    // Fallback: Any English voice that is NOT explicitly male (David, Ravi, Rishi, Daniel)
+    if (!preferredVoice) {
+        preferredVoice = voices.find(v => 
+            (v.lang.includes('en-')) && 
+            !(v.name.toLowerCase().includes('male') || 
+              v.name.toLowerCase().includes('david') || 
+              v.name.toLowerCase().includes('ravi') || 
+              v.name.toLowerCase().includes('rishi') || 
+              v.name.toLowerCase().includes('daniel'))
+        );
+    }
+    
+    // Last resort fallback
+    if (!preferredVoice) {
+        preferredVoice = voices.find(v => v.lang.includes('en-'));
+    }
+
     if (preferredVoice) window.fatmanUtterance.voice = preferredVoice;
 
     window.fatmanUtterance.onend = function() {
