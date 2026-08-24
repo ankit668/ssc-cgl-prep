@@ -166,6 +166,54 @@ function renderFatmanNotes() {
         `;
     }
 
+
+// ===== SPACED REPETITION SYSTEM =====
+window.getFatmanSRSKey = function() {
+    return 'fatman_srs_' + (window.currentFatmanSubject || 'geography');
+};
+window.getFatmanSRS = function() {
+    try { return JSON.parse(localStorage.getItem(window.getFatmanSRSKey()) || '{}'); } catch(e) { return {}; }
+};
+window.saveFatmanSRS = function(srs) {
+    localStorage.setItem(window.getFatmanSRSKey(), JSON.stringify(srs));
+};
+window.getSRSScore = function(cardFront) {
+    const srs = window.getFatmanSRS();
+    return srs[cardFront] || { interval: 1, ease: 2.5, due: 0, streak: 0 };
+};
+window.updateSRSCard = function(cardFront, quality) {
+    // quality: 0=Again, 3=Hard, 4=Good, 5=Easy (SM-2 algorithm simplified)
+    const srs = window.getFatmanSRS();
+    let card = srs[cardFront] || { interval: 1, ease: 2.5, due: 0, streak: 0 };
+    
+    if (quality < 3) {
+        card.interval = 1;
+        card.streak = 0;
+    } else {
+        if (card.streak === 0) card.interval = 1;
+        else if (card.streak === 1) card.interval = 6;
+        else card.interval = Math.round(card.interval * card.ease);
+        card.ease = Math.max(1.3, card.ease + 0.1 - (5 - quality) * 0.08);
+        card.streak++;
+    }
+    card.due = Date.now() + card.interval * 86400000;
+    srs[cardFront] = card;
+    window.saveFatmanSRS(srs);
+};
+// Sort flashcards by SRS due date (overdue first, new first, well-spaced last)
+window.getSRSSortedFlashcards = function(cards) {
+    const now = Date.now();
+    return [...cards].sort((a, b) => {
+        const cardA = a.card || a;
+        const cardB = b.card || b;
+        const sa = window.getSRSScore(cardA.front || cardA.question || '');
+        const sb = window.getSRSScore(cardB.front || cardB.question || '');
+        const aDue = sa.due - now;
+        const bDue = sb.due - now;
+        return aDue - bDue; // Overdue cards first
+    });
+};
+
     window.renderFatmanFlashcards = renderFatmanFlashcards;
     function renderFatmanFlashcards() {
     const content = document.getElementById('fatman-content');
@@ -198,8 +246,12 @@ function renderFatmanNotes() {
         return;
     }
 
-    // Shuffle deck for varied practice
-    deck.sort(() => 0.5 - Math.random());
+    // Sort deck by SRS logic instead of purely random
+    if (typeof window.getSRSSortedFlashcards === 'function') {
+        deck = window.getSRSSortedFlashcards(deck);
+    } else {
+        deck.sort(() => 0.5 - Math.random());
+    }
     
     // Render the first card in the deck
     const activeCard = deck[0];
@@ -244,12 +296,18 @@ function renderFatmanNotes() {
             </div>
 
             <!-- Action Buttons (Hidden until flipped) -->
-            <div id="fc-actions" style="display:none; justify-content:space-between; gap:15px; margin-top:30px;">
-                <button onclick="event.stopPropagation(); window.markFatmanReview()" style="flex:1; background:#EF4444; color:white; border:none; padding:15px; border-radius:10px; font-size:16px; font-weight:bold; cursor:pointer; box-shadow: 0 4px 15px rgba(239, 68, 68, 0.4);">
-                    ❌ Needs Review
+            <div id="fc-actions" style="display:none; justify-content:center; gap:10px; margin-top:30px; flex-wrap:wrap;">
+                <button onclick="event.stopPropagation(); window.updateSRSCard(String.raw\`${activeCard.card.front.replace(/`/g, '\\`')}\`, 0); window.nextFatmanCard();" style="flex:1; min-width:80px; padding: 12px 10px; border-radius: 8px; border:none; background:#EF4444; color:white; cursor:pointer; font-weight:bold; font-size:13px; line-height:1.4;">
+                    &#128257; Again<br><span style="font-size:10px; opacity:0.8;">&lt;1 d</span>
                 </button>
-                <button onclick="event.stopPropagation(); window.markFatmanGotIt(${activeCard.originalIndex})" style="flex:1; background:#10B981; color:white; border:none; padding:15px; border-radius:10px; font-size:16px; font-weight:bold; cursor:pointer; box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4);">
-                    ✅ Got It!
+                <button onclick="event.stopPropagation(); window.updateSRSCard(String.raw\`${activeCard.card.front.replace(/`/g, '\\`')}\`, 3); window.nextFatmanCard();" style="flex:1; min-width:80px; padding: 12px 10px; border-radius: 8px; border:none; background:#F59E0B; color:white; cursor:pointer; font-weight:bold; font-size:13px; line-height:1.4;">
+                    &#128165; Hard<br><span style="font-size:10px; opacity:0.8;">~1 d</span>
+                </button>
+                <button onclick="event.stopPropagation(); window.updateSRSCard(String.raw\`${activeCard.card.front.replace(/`/g, '\\`')}\`, 4); window.nextFatmanCard();" style="flex:1; min-width:80px; padding: 12px 10px; border-radius: 8px; border:none; background:#10B981; color:white; cursor:pointer; font-weight:bold; font-size:13px; line-height:1.4;">
+                    &#128077; Good<br><span style="font-size:10px; opacity:0.8;">+3 d</span>
+                </button>
+                <button onclick="event.stopPropagation(); window.updateSRSCard(String.raw\`${activeCard.card.front.replace(/`/g, '\\`')}\`, 5); window.markFatmanGotIt(${activeCard.originalIndex}); window.nextFatmanCard();" style="flex:1; min-width:80px; padding: 12px 10px; border-radius: 8px; border:none; background:#38BDF8; color:#0F172A; cursor:pointer; font-weight:bold; font-size:13px; line-height:1.4;">
+                    &#9889; Easy<br><span style="font-size:10px; opacity:0.8;">Master</span>
                 </button>
             </div>
             
@@ -289,6 +347,45 @@ window.renderFatmanMCQMenu = renderFatmanMCQMenu;
     function renderFatmanMCQMenu() {
         const content = document.getElementById('fatman-content');
         window.currentFatmanTopic = window.currentFatmanTopic || 'All';
+        const allMcqs = window.getFatmanData().mcqs;
+        
+        // Get unique topics
+        const topics = ['All', ...new Set(allMcqs.map(q => q.topic).filter(Boolean))].sort();
+        
+        const topicPills = topics.map(t => `
+            <button onclick="window.currentFatmanTopic='${t}'; renderFatmanMCQMenu();" 
+                style="padding: 6px 14px; border-radius: 20px; border: 1px solid ${t === window.currentFatmanTopic ? 'none' : '#475569'}; 
+                background: ${t === window.currentFatmanTopic ? '#FF4B2B' : '#1E293B'}; 
+                color:white; cursor:pointer; font-size:13px; font-family:'Inter'; white-space:nowrap;">
+                ${t}
+            </button>`).join('');
+        
+        const filteredCount = window.currentFatmanTopic === 'All' ? allMcqs.length : allMcqs.filter(q => q.topic === window.currentFatmanTopic).length;
+        
+        content.innerHTML = `
+            <div style="max-width:800px; margin: 0 auto; margin-top: 20px;">
+                <h2 style="color:white; margin-bottom:8px; text-align:center;">&#127919; GS Drills</h2>
+                <p style="color:#94A3B8; margin-bottom: 15px; text-align:center;">Filter by topic, then choose mode.</p>
+                
+                <div style="display:flex; gap:8px; flex-wrap:wrap; margin-bottom: 20px; padding: 12px; background:#1E293B; border-radius:12px;">
+                    ${topicPills}
+                </div>
+                
+                <p style="color:#38BDF8; text-align:center; font-size:14px; margin-bottom:20px;">
+                    <strong>${filteredCount}</strong> questions ${window.currentFatmanTopic !== 'All' ? 'in <strong style=color:#F59E0B>' + window.currentFatmanTopic + '</strong>' : 'total'}
+                </p>
+                
+                <div style="display:flex; gap:15px; flex-direction:column; align-items:center;">
+                    <button onclick="window.startFatmanPractice()" style="background:#334155; border:1px solid #475569; color:white; padding: 15px 30px; font-size:18px; border-radius:12px; width: 100%; max-width: 400px; cursor:pointer; font-family:'Outfit';">
+                        &#128218; Practice Mode (${filteredCount} Qs)
+                    </button>
+                    <button onclick="window.startFatmanMock()" style="background: linear-gradient(135deg, #FF416C 0%, #FF4B2B 100%); border:none; color:white; padding: 15px 30px; font-size:18px; font-weight:bold; border-radius:12px; width: 100%; max-width: 400px; cursor:pointer; font-family:'Outfit'; box-shadow: 0 4px 15px rgba(255, 65, 108, 0.4);">
+                        &#9889; Grand Test (25 Qs, 5 Mins)
+                    </button>
+                </div>
+            </div>
+        `; // Keep the old code below unreachable by returning early
+        return; // PATCHED
         content.innerHTML = `
             <div style="max-width:800px; margin: 0 auto; text-align:center; margin-top: 40px;">
                 <h2 style="color:white; margin-bottom:10px;">Select Drill Mode</h2>
@@ -305,10 +402,13 @@ window.renderFatmanMCQMenu = renderFatmanMCQMenu;
         `;
     }
 
-    window.startFatmanPractice = function() {
+    window.startFatmanPractice = function(topicFilter) {
         const content = document.getElementById('fatman-content');
-        window.currentFatmanTopic = window.currentFatmanTopic || 'All';
-        const mcqs = window.getFatmanData().mcqs;
+        window.currentFatmanTopic = topicFilter || window.currentFatmanTopic || 'All';
+        let mcqs = window.getFatmanData().mcqs;
+        if (window.currentFatmanTopic !== 'All') {
+            mcqs = mcqs.filter(q => q.topic === window.currentFatmanTopic);
+        }
         let html = '<div style="max-width:800px; margin: 0 auto;">';
         
         mcqs.forEach((q, qidx) => {
@@ -509,3 +609,5 @@ window.renderFatmanTimeline = function() {
     
     document.getElementById("fatman-content").innerHTML = html;
 };
+
+window.nextFatmanCard = function() { window.renderFatmanFlashcards(); };
