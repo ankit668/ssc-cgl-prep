@@ -212,6 +212,42 @@ window.updateAudioUI = function() {
     }
 };
 
+window.generateTeacherScript = function(htmlStr, chapterName) {
+    const tempDiv = document.createElement('div');
+    tempDiv.innerHTML = htmlStr;
+    
+    let script = "Alright, let's master " + chapterName + ". I'll highlight the key points and repeat them twice to lock them into your memory. Let's begin. ... ";
+    
+    const elements = tempDiv.querySelectorAll('h2, h3, h4, p, li');
+    
+    elements.forEach(el => {
+        if (el.tagName.match(/^H[1-6]$/)) {
+            script += " ... Moving on to topic: " + el.innerText + ". ";
+        } else if (el.tagName === 'P') {
+            script += el.innerText + ". ";
+        } else if (el.tagName === 'LI') {
+            let strongEl = el.querySelector('strong, b');
+            if (strongEl) {
+                let concept = strongEl.innerText.replace(/:/g, '').trim();
+                let detail = el.innerText.replace(strongEl.innerText, '').replace(/^[:\-\s]+/, '').trim();
+                
+                script += " Key point: " + concept + ". Let me repeat. " + concept + ". ";
+                if (detail.length > 0) {
+                    script += detail + ". Again, " + detail + ". ";
+                }
+            } else {
+                let txt = el.innerText.trim();
+                if (txt.length > 0) {
+                    script += " Note this: " + txt + ". I repeat. " + txt + ". ";
+                }
+            }
+        }
+    });
+    
+    script += " ... And that concludes this chapter. Great job!";
+    return script;
+};
+
 window.stopFatmanAudio = function() {
     if ('speechSynthesis' in window) {
         window.speechSynthesis.cancel();
@@ -246,14 +282,8 @@ window.toggleFatmanAudio = function() {
     const contentDiv = document.getElementById('fatman-notes-content');
     if (!contentDiv) return;
     
-    // Create a temporary div to parse HTML to clean text
-    const tempDiv = document.createElement('div');
-    tempDiv.innerHTML = contentDiv.innerHTML;
-    // Replace li tags with pauses for better reading flow
-    const lis = tempDiv.querySelectorAll('li');
-    lis.forEach(li => li.innerText = li.innerText + ". ");
-    
-    let textToRead = window.getFatmanData().chapter + ". " + tempDiv.innerText;
+    // Generate the Smart Teacher audio script
+    let textToRead = window.generateTeacherScript(contentDiv.innerHTML, window.getFatmanData().chapter);
 
     window.fatmanUtterance = new SpeechSynthesisUtterance(textToRead);
     window.fatmanUtterance.rate = 0.9;
