@@ -24,6 +24,7 @@ if (timelineBtn) {
 const tabs = document.querySelectorAll('.fatman-tab');
 let activeTarget = 'fatman-notes';
 tabs.forEach(t => { if(t.classList.contains('active')) activeTarget = t.getAttribute('data-target'); });
+if(typeof window.stopFatmanAudio === 'function') window.stopFatmanAudio(); // Stop audio when changing tabs
 if (activeTarget === 'fatman-notes') { if(typeof window.renderFatmanNotes === 'function') window.renderFatmanNotes(); }
 if (activeTarget === 'fatman-flashcards') { if(typeof window.renderFatmanFlashcards === 'function') window.renderFatmanFlashcards(); }
 if (activeTarget === 'fatman-mcqs') { if(typeof window.renderFatmanMCQMenu === 'function') window.renderFatmanMCQMenu(); }
@@ -159,12 +160,88 @@ function renderFatmanNotes() {
             return;
         }
         content.innerHTML = `
-            <div style="max-width: 800px; margin: 0 auto; background: #1E293B; padding: 20px; border-radius: 12px; line-height: 1.6;">
-                <h1 style="color:#38BDF8; margin-top:0;">${window.getFatmanData().chapter}</h1>
-                ${window.getFatmanData().notes}
+            <div style="max-width: 800px; margin: 0 auto; background: #1E293B; padding: 20px; border-radius: 12px; line-height: 1.6; position:relative;">
+                <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #334155; padding-bottom:15px; margin-bottom:15px;">
+                    <h1 style="color:#38BDF8; margin:0; font-size:24px;">${window.getFatmanData().chapter}</h1>
+                    <div style="display:flex; gap:10px;">
+                        <button id="btn-listen" onclick="window.toggleFatmanAudio()" style="background:#10B981; color:white; border:none; padding:8px 15px; border-radius:8px; cursor:pointer; font-weight:bold; font-family:'Inter'; display:flex; align-items:center; gap:5px;">
+                            &#128266; Listen
+                        </button>
+                    </div>
+                </div>
+                <div id="fatman-notes-content">
+                    ${window.getFatmanData().notes}
+                </div>
             </div>
         `;
     }
+
+// ===== TEXT TO SPEECH ENGINE =====
+window.fatmanUtterance = null;
+window.isFatmanPlaying = false;
+
+window.stopFatmanAudio = function() {
+    if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+    }
+    window.isFatmanPlaying = false;
+    const btn = document.getElementById('btn-listen');
+    if (btn) btn.innerHTML = '&#128266; Listen';
+};
+
+window.toggleFatmanAudio = function() {
+    if (!('speechSynthesis' in window)) {
+        alert("Sorry, your browser doesn't support text-to-speech!");
+        return;
+    }
+
+    const btn = document.getElementById('btn-listen');
+    
+    if (window.isFatmanPlaying) {
+        window.stopFatmanAudio();
+        return;
+    }
+
+    // Grab clean text from the HTML
+    const contentDiv = document.getElementById('fatman-notes-content');
+    if (!contentDiv) return;
+    
+    // Create a temporary div to parse HTML to clean text
+    const tempDiv = document.createElement('div');
+    tempDiv.innerHTML = contentDiv.innerHTML;
+    // Replace li tags with pauses for better reading flow
+    const lis = tempDiv.querySelectorAll('li');
+    lis.forEach(li => li.innerText = li.innerText + ". ");
+    
+    // Get text and clean it up a bit
+    let textToRead = tempDiv.innerText;
+    
+    // Add chapter name at start
+    textToRead = window.getFatmanData().chapter + ". " + textToRead;
+
+    window.fatmanUtterance = new SpeechSynthesisUtterance(textToRead);
+    window.fatmanUtterance.rate = 0.9; // Slightly slower for learning
+    window.fatmanUtterance.pitch = 1.0;
+    
+    // Try to pick an English voice
+    const voices = window.speechSynthesis.getVoices();
+    const preferredVoice = voices.find(v => v.lang.includes('en-IN') || v.lang.includes('en-GB') || v.lang.includes('en-US'));
+    if (preferredVoice) window.fatmanUtterance.voice = preferredVoice;
+
+    window.fatmanUtterance.onend = function() {
+        window.isFatmanPlaying = false;
+        if (btn) btn.innerHTML = '&#128266; Listen';
+    };
+
+    window.speechSynthesis.speak(window.fatmanUtterance);
+    window.isFatmanPlaying = true;
+    if (btn) btn.innerHTML = '&#9209; Stop Listening';
+};
+
+// Stop audio if they change tabs or close module
+const originalClose = document.getElementById('fatman-close') ? document.getElementById('fatman-close').onclick : null;
+// We'll hook into switchFatmanSubject and the close button via an event listener instead of overriding globals to be safe.
+
 
 
 // ===== SPACED REPETITION SYSTEM =====
