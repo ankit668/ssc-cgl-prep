@@ -462,3 +462,52 @@ window.renderFatmanMCQMenu = renderFatmanMCQMenu;
     };
 
 })();
+
+
+window.renderFatmanTimeline = function() {
+    if (window.currentFatmanSubject !== 'history') return;
+    
+    let html = `
+        <div style="max-width:800px; margin: 0 auto; color: white;">
+            <h3 style="color:#F59E0B; text-align:center; margin-bottom: 30px; font-size: 1.8rem; font-family: 'Outfit';">Ancient India Chronology</h3>
+            <div class="timeline-container" style="padding-bottom: 50px;">
+    `;
+
+    const timelineData = [
+        { period: "2500 BC - 1750 BC", title: "Indus Valley Civilization", desc: "Bronze Age civilization. Major sites: Harappa, Mohenjo-Daro, Lothal, Dholavira. Known for urban planning and drainage." },
+        { period: "1500 BC - 1000 BC", title: "Early Vedic Age", desc: "Rig Veda composed. Pastoral society. Sapta Sindhu region." },
+        { period: "1000 BC - 600 BC", title: "Later Vedic Age", desc: "Sama, Yajur, Atharva Vedas. Iron discovered. Shift to Gangetic plains. Varna system rigidifies." },
+        { period: "6th Century BC", title: "Age of Mahajanapadas & Religious Reforms", desc: "16 Mahajanapadas emerge (Magadha most powerful). Birth of Buddhism (Gautama Buddha) and Jainism (Mahavira)." },
+        { period: "544 BC - 412 BC", title: "Haryanka Dynasty", desc: "Bimbisara, Ajatashatru, Udayin. Capital shifted from Rajgir to Pataliputra." },
+        { period: "412 BC - 344 BC", title: "Shishunaga Dynasty", desc: "Shishunaga and Kalashoka. 2nd Buddhist Council held." },
+        { period: "344 BC - 322 BC", title: "Nanda Dynasty", desc: "Founded by Mahapadma Nanda. Alexander's invasion (326 BC) during Dhana Nanda's reign." },
+        { period: "322 BC - 185 BC", title: "Mauryan Empire", desc: "Founded by Chandragupta Maurya (defeated Seleucus Nicator). Ashoka (268-232 BC) embraces Buddhism after Kalinga War." },
+        { period: "300 BC - 300 AD", title: "Sangam Age", desc: "Three early kingdoms in South India: Cheras (Kerala), Cholas (Tamil Nadu), Pandyas (Madurai)." },
+        { period: "185 BC - 300 AD", title: "Post-Mauryan & Foreign Invasions", desc: "Shungas, Kanvas, Satavahanas (Deccan). Indo-Greeks (Menander), Shakas (Rudradaman), Parthians, Kushanas (Kanishka)." },
+        { period: "319 AD - 540 AD", title: "Gupta Empire (Golden Age)", desc: "Founded by Sri Gupta. Chandragupta I (started Gupta Era). Samudragupta (Napoleon of India). Chandragupta II (Navaratnas, Fa-Hien). Kalidasa, Aryabhata." },
+        { period: "550 AD - 750 AD", title: "Chalukyas & Pallavas", desc: "Chalukyas of Badami (Pulakesin II). Pallavas of Kanchi (Narasimhavarman). Dravidian temple architecture begins." },
+        { period: "606 AD - 647 AD", title: "Harshavardhana (Pushyabhuti)", desc: "Capital at Kannauj. Hiuen Tsang visits India. Defeated by Pulakesin II on Narmada banks." }
+    ];
+
+    timelineData.forEach((item, index) => {
+        const isLast = index === timelineData.length - 1;
+        html += `
+            <div style="display:flex; margin-bottom: 0px; position: relative; min-height: 80px;">
+                <div style="width: 150px; text-align: right; padding-right: 20px; font-weight: bold; color: #38BDF8; font-size: 1.1rem; flex-shrink: 0;">${item.period}</div>
+                <div style="width: 16px; height: 16px; border-radius: 50%; background: #F59E0B; position: relative; z-index: 2; margin-top: 3px; flex-shrink: 0; box-shadow: 0 0 10px rgba(245, 158, 11, 0.5);"></div>
+                ${!isLast ? '<div style="border-left: 2px dashed #475569; position: absolute; left: 157px; top: 19px; bottom: -3px; z-index: 1;"></div>' : ''}
+                <div style="flex: 1; padding-left: 30px; padding-bottom: 30px; margin-top: -3px;">
+                    <h4 style="margin: 0 0 8px 0; color: #F1F5F9; font-size: 1.25rem;">${item.title}</h4>
+                    <p style="margin: 0; color: #94A3B8; font-size: 1rem; line-height: 1.5;">${item.desc}</p>
+                </div>
+            </div>
+        `;
+    });
+
+    html += `
+            </div>
+        </div>
+    `;
+    
+    document.getElementById("fatman-content").innerHTML = html;
+};
