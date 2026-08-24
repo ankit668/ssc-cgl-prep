@@ -31,6 +31,15 @@ if (activeTarget === 'fatman-mcqs') { if(typeof window.renderFatmanMCQMenu === '
 if (activeTarget === 'fatman-timeline') { if(typeof window.renderFatmanTimeline === 'function') window.renderFatmanTimeline(); }
 };
 // Fatman Special UI Injector
+// Eagerly load voices for Web Speech API
+window.fatmanVoices = [];
+if ('speechSynthesis' in window) {
+    window.fatmanVoices = window.speechSynthesis.getVoices();
+    window.speechSynthesis.onvoiceschanged = () => {
+        window.fatmanVoices = window.speechSynthesis.getVoices();
+    };
+}
+
 (function() {
     // 1. Inject the Floating Action Button
     const fab = document.createElement('div');
@@ -193,7 +202,7 @@ window.updateAudioUI = function() {
         btnListen.style.background = '#10B981'; // Green
         if(btnStop) btnStop.style.display = 'none';
     } else if (window.fatmanAudioState === 'playing') {
-        btnListen.innerHTML = '&#10074;&#10074; Pause';
+        btnListen.innerHTML = '&#9208; Pause';
         btnListen.style.background = '#F59E0B'; // Orange
         if(btnStop) btnStop.style.display = 'flex';
     } else if (window.fatmanAudioState === 'paused') {
@@ -250,7 +259,7 @@ window.toggleFatmanAudio = function() {
     window.fatmanUtterance.rate = 0.9;
     window.fatmanUtterance.pitch = 1.0;
     
-    const voices = window.speechSynthesis.getVoices();
+    const voices = window.fatmanVoices.length > 0 ? window.fatmanVoices : window.speechSynthesis.getVoices();
     
     // Look for explicitly female English voices (especially Indian accents like Heera/Veena)
     let preferredVoice = voices.find(v => 
