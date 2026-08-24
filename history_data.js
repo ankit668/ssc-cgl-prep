@@ -85,6 +85,23 @@ const historyData = {
             <li><strong>Society Terms:</strong> <em>Arasar</em> (Ruling class), <em>Vellalar</em> (Rich landlords), <em>Uzhavur</em> (Ordinary Ploughmen), <em>Vattakirutal</em> (Ritual suicide by starving).</li>
         </ul>
 
+        
+        <h3>3B. Buddhism - Exhaustive Extraction</h3>
+        <ul>
+            <li><strong>Life of Gautama Buddha:</strong> Born in 563 BCE in Lumbini to Suddhodana and Mahamaya. Childhood name was Siddhartha. Left home at 29 (<strong>Mahabhinishkramana</strong>, symbolized by Horse). Attained Nirvana at 35 at Bodh Gaya under a Pipal tree (Bodhi Tree).</li>
+            <li><strong>First Sermon:</strong> Given at Sarnath (Deer Park) to 5 disciples. Known as <strong>Dharmachakrapravartana</strong> (symbolized by the Wheel).</li>
+            <li><strong>Death:</strong> Died at age 80 in Kushinagar (483 BCE). Known as <strong>Mahaparinirvana</strong> (symbolized by a Stupa).</li>
+            <li><strong>Four Noble Truths:</strong> World is full of sorrow, Desire causes sorrow, Destroying desire ends sorrow, Follow the Eightfold Path.</li>
+            <li><strong>Triratnas (Three Jewels):</strong> Buddha, Dhamma (Teachings), Sangha (Monk order).</li>
+            <li><strong>Tripitakas (Buddhist Texts):</strong> Written in Pali. <strong>Vinaya Pitaka</strong> (monastic rules), <strong>Sutta Pitaka</strong> (Buddha's teachings/sermons), <strong>Abhidhamma Pitaka</strong> (philosophical analysis).</li>
+            <li><strong>First Council (483 BCE):</strong> Rajgriha. Patron: Ajatashatru. President: Mahakashyapa.</li>
+            <li><strong>Second Council (383 BCE):</strong> Vaishali. Patron: Kalashoka. President: Sabbakami.</li>
+            <li><strong>Third Council (250 BCE):</strong> Pataliputra. Patron: Ashoka. President: Moggaliputta Tissa. Compilation of Abhidhamma Pitaka.</li>
+            <li><strong>Fourth Council (72 CE):</strong> Kashmir. Patron: Kanishka. President: Vasumitra. Buddhism split into Hinayana and Mahayana.</li>
+            <li><strong>Sects:</strong> <strong>Hinayana</strong> (orthodox, no idol worship, Pali language) vs <strong>Mahayana</strong> (Buddha as God, idol worship, Sanskrit, belief in Bodhisattvas) vs <strong>Vajrayana</strong> (Tantric magic).</li>
+            <li><strong>Key Sites:</strong> <strong>Sanchi Stupa</strong> (MP, built by Ashoka), <strong>Nalanda University</strong> (built by Kumaragupta I), <strong>Vikramashila University</strong> (built by Dharmapala).</li>
+        </ul>
+
         <h3>4. Jainism - Exhaustive Extraction</h3>
         <ul>
             <li><strong>Origin Causes:</strong> Opposition to Brahminical dominance, Rise of Agricultural economy (Vaishyas funded them), rejection of Varna system (linked Varna to karma, not birth). Rejected infallibility of Vedas.</li>
