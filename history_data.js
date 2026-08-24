@@ -86,20 +86,81 @@ const historyData = {
         </ul>
 
         
-        <h3>3B. Buddhism - Exhaustive Extraction</h3>
+        
+        <h3>3B. Buddhism - Exhaustive Extraction (AIR 1 Mode)</h3>
         <ul>
-            <li><strong>Life of Gautama Buddha:</strong> Born in 563 BCE in Lumbini to Suddhodana and Mahamaya. Childhood name was Siddhartha. Left home at 29 (<strong>Mahabhinishkramana</strong>, symbolized by Horse). Attained Nirvana at 35 at Bodh Gaya under a Pipal tree (Bodhi Tree).</li>
-            <li><strong>First Sermon:</strong> Given at Sarnath (Deer Park) to 5 disciples. Known as <strong>Dharmachakrapravartana</strong> (symbolized by the Wheel).</li>
-            <li><strong>Death:</strong> Died at age 80 in Kushinagar (483 BCE). Known as <strong>Mahaparinirvana</strong> (symbolized by a Stupa).</li>
-            <li><strong>Four Noble Truths:</strong> World is full of sorrow, Desire causes sorrow, Destroying desire ends sorrow, Follow the Eightfold Path.</li>
-            <li><strong>Triratnas (Three Jewels):</strong> Buddha, Dhamma (Teachings), Sangha (Monk order).</li>
-            <li><strong>Tripitakas (Buddhist Texts):</strong> Written in Pali. <strong>Vinaya Pitaka</strong> (monastic rules), <strong>Sutta Pitaka</strong> (Buddha's teachings/sermons), <strong>Abhidhamma Pitaka</strong> (philosophical analysis).</li>
-            <li><strong>First Council (483 BCE):</strong> Rajgriha. Patron: Ajatashatru. President: Mahakashyapa.</li>
-            <li><strong>Second Council (383 BCE):</strong> Vaishali. Patron: Kalashoka. President: Sabbakami.</li>
-            <li><strong>Third Council (250 BCE):</strong> Pataliputra. Patron: Ashoka. President: Moggaliputta Tissa. Compilation of Abhidhamma Pitaka.</li>
-            <li><strong>Fourth Council (72 CE):</strong> Kashmir. Patron: Kanishka. President: Vasumitra. Buddhism split into Hinayana and Mahayana.</li>
-            <li><strong>Sects:</strong> <strong>Hinayana</strong> (orthodox, no idol worship, Pali language) vs <strong>Mahayana</strong> (Buddha as God, idol worship, Sanskrit, belief in Bodhisattvas) vs <strong>Vajrayana</strong> (Tantric magic).</li>
-            <li><strong>Key Sites:</strong> <strong>Sanchi Stupa</strong> (MP, built by Ashoka), <strong>Nalanda University</strong> (built by Kumaragupta I), <strong>Vikramashila University</strong> (built by Dharmapala).</li>
+            <li><strong>Basics & Family:</strong> Founder: Gautam Buddha (Shakya Clan, known as <em>Shakyamuni</em>, <em>Tathagat</em>). Born in 563 BCE in Lumbini (Nepal). Childhood name: Siddhartha. Father: Suddhodhana (Kshatriya). Mother: Mahamaya (Koliya tribe). Step-mother: Mahaprajapati Goutami (first Bhikkhuni). Wife: Yashodhara. Son: Rahul.</li>
+            <li><strong>Key Events & Symbols:</strong> 
+                <ul>
+                    <li><em>Janma (Birth):</em> Symbolized by <strong>Lotus/Bull</strong>.</li>
+                    <li><em>Maha Bhinishkramana (Great Departure):</em> Left home at age 29. Symbolized by <strong>Horse (Kanthak)</strong>.</li>
+                    <li><em>Nirvana (Enlightenment):</em> At age 35 in Uruvela (Bodh Gaya) under a Peepal (Bodhi) tree for 49 days near river Niranjana. Symbolized by <strong>Bodhi tree</strong>. First teacher: Alara Kalama. Second teacher: Udraka Ramputra.</li>
+                    <li><em>Dharmachakra Pravartana (First Sermon):</em> At Sarnath (Varanasi) to 5 disciples. Symbolized by <strong>Wheel</strong>.</li>
+                    <li><em>Mahaparinirvana (Death):</em> Died at Kushinagara (UP) at age 80 (483 BCE). Symbolized by <strong>Stupa</strong>.</li>
+                </ul>
+                <br><em>Note:</em> <strong>Buddha Purnima</strong> commemorates his birth, enlightenment, and death. He is considered the <em>"Light of Asia"</em>. Early Buddhism used <strong>aniconic (symbolic) forms</strong> like the empty throne (seat), footprints (Buddhapada), Dharma Chakra (wheel), Bodhi tree, and Stupa.
+            </li>
+            <li><strong>Key Disciples:</strong> Sariputta, Moggallana, Mahakasyapa, Upali, Ananda, and Subhuti.</li>
+            <li><strong>Philosophy & Teachings:</strong> 
+                <ul>
+                    <li><strong>Four Noble Truths:</strong> 1) Truth of suffering, 2) Cause of suffering (desire), 3) End of suffering, 4) Path to end suffering (Eight Fold Path).</li>
+                    <li><strong>Eight Fold Path (Ashtangika Marga):</strong> Right mindfulness, Right livelihood, Right view, Right intention, Right concentration, Right speech, Right action, Right effort.</li>
+                    <li><strong>Triratnas:</strong> Buddha, Dhamma, Sangha. <strong>Anatta:</strong> Doctrine that a permanent soul or self does not exist.</li>
+                </ul>
+            </li>
+            <li><strong>Mudras of the Buddha:</strong> 
+                <ul>
+                    <li><em>Dharmachakra:</em> "Teaching Wheel" (represents Buddha's teachings).</li>
+                    <li><em>Abhaya:</em> "Fearless" (protection and overcoming fear).</li>
+                    <li><em>Bhumisparsha:</em> "Touching the Earth" (represents enlightenment).</li>
+                    <li><em>Varad:</em> "Generosity" (giving and compassion).</li>
+                    <li><em>Dhyana:</em> "Meditation" (contemplation and inner peace).</li>
+                    <li><em>Vitarka:</em> "Wheel of Law" (reasoned discussion and transmission of teachings).</li>
+                </ul>
+            </li>
+            <li><strong>Buddhist Texts (Tripitaka / Pali Canon):</strong> "Pitaka" means Basket.
+                <ul>
+                    <li><strong>Sutta Pitaka:</strong> Buddha's teachings and dialogues. Compiled by Ananda. Divided into 5 Nikayas: Digha, Majjhima, Samyutta, Anguttara, Khuddaka. The <em>Dhammapada</em> (called the "Gita of Buddhism") is a part of the Khuddaka Nikaya.</li>
+                    <li><strong>Vinaya Pitaka:</strong> Monastic courts and rules. Compiled by Upali.</li>
+                    <li><strong>Abhidhamma Pitaka:</strong> Interpretation of Sutta Pitaka and philosophical matters.</li>
+                </ul>
+                <em>Other Pali Literature:</em> Milindpanho (dialogue between Milinda and Nagasena), Visuddhimagga (written by Buddhaghosa), Nettipakarana, Dipavamsa, Mahavamsa.<br>
+                <em>Sanskrit Literature:</em> Buddhacharita (by Ashvaghosha), Jataka Tales (about previous births of Buddha in human and animal forms), Avadanasataka, Divyavadana, Arya Manjushri mula kalpa.
+            </li>
+            <li><strong>Buddhist Councils:</strong>
+                <ul>
+                    <li><strong>1st (483 BC):</strong> Rajgriha (Sattapani cave). Patron: Ajatshatru. President: Mahakashyapa.</li>
+                    <li><strong>2nd (383 BC):</strong> Vaishali. Patron: Kalashoka. President: Sabakami.</li>
+                    <li><strong>3rd (250 BC):</strong> Pataliputra. Patron: Ashoka. President: Moggaliputta Tissa.</li>
+                    <li><strong>4th (72 AD):</strong> Kashmir (Kundalvana). Patron: Kanishka. President: Vasumitra. (Buddhism divided into Mahayana and Hinayana).</li>
+                </ul>
+            </li>
+            <li><strong>Sects of Buddhism:</strong>
+                <ul>
+                    <li><strong>Hinayana:</strong> No idol worship. Pali text. Believe in rebirth of Buddha. Seen mostly in Southern India, Sri Lanka, Cambodia. <em>Theravada:</em> A subtype of Hinayana meaning "Doctrine of the Elders" (Thera = Senior Monk, Theri = Senior Nun). Originated in India.</li>
+                    <li><strong>Mahayana:</strong> Idol worship. Sanskrit text. Believe in rebirth of Buddha. Seen mostly in Japan, China, South Korea.</li>
+                    <li><strong>Vajrayana:</strong> Tantric Buddhism. Roots in Tibet. Seen mostly in Sikkim, West Bengal, Nepal, Tibet, East Asia.</li>
+                </ul>
+            </li>
+            <li><strong>Important Bodhisattvas (Mahayana):</strong> Beings who seek enlightenment for all sentient beings, delaying their own Nirvana.
+                <ul>
+                    <li><em>Padmapani:</em> Also known as Avalokiteshvara.</li>
+                    <li><em>Vajrapani:</em> A protector and a guide.</li>
+                    <li><em>Manjusri:</em> Represents wisdom and considered the Buddha-to-be.</li>
+                    <li><em>Amitabh:</em> Represents light.</li>
+                </ul>
+            </li>
+            <li><strong>Architecture, Terms & Monasteries:</strong> 
+                <em>Chaitya:</em> Place of worship. <em>Vihara:</em> Place of residence. <em>Dhamma:</em> Dharma. <em>Stupa:</em> Mount where relics of Buddha are placed. <em>Sramanas:</em> Wandering ascetics or monks in ancient India who renounced worldly life (non-Vedic traditions).
+                <ul>
+                    <li><strong>Eight holy places:</strong> Lumbini, Bodh Gaya, Sarnath, Kushinagara, Rajgir, Vaishali, Shravasti, Sankosia.</li>
+                    <li><strong>Sanchi Stupa:</strong> Oldest Stupa (Madhya Pradesh). Built by King Ashoka (3rd Century BC). Enlargement done using Sandstone by Shunga Dynasty. Four Gateways (cardinal points) added by Satavahanas. Discovered by Henry Taylor in 1818. Hosts the <em>Chethiyagiri festival</em>. Relics of Sariputta and Moggallana are kept here.</li>
+                    <li><strong>Parts of a Stupa:</strong> <em>Anda</em> (Hemispherical dome), <em>Torana</em> (Gateway), <em>Medhi</em> (Processional / Ambulatory Path), <em>Vedika</em> (Railings), <em>Pradakshina patha</em> (circular path), <em>Harmika</em> (railed pavilion), <em>Chattra</em> (umbrella), <em>Yasti</em> (spire). <strong>Yakshi:</strong> Female nature spirit symbolizing fertility, abundance, prosperity (appears on Sanchi Stupa Toranas as guardian).</li>
+                    <li><strong>Major Stupas:</strong> Kesariya (Bihar, Largest Stupa in India), Borobudur (Java, Indonesia, Largest Stupa in the world), Dhamek (Sarnath, Cylindrical shape), Ramabhar (Kushinagara), Piprahwa (UP, First built by Sakya Dynasty), Shanti (Ladakh, White in colour), Chir Tope / Dharmarajika (Taxila, Pakistan), Bharhut (MP).</li>
+                    <li><strong>Important Monasteries:</strong> Ladakh (Thiksey, Hemis, Alchi Gompa); Himachal Pradesh (Kye Gompa); Sikkim (Rumtek); Andhra Pradesh (Guntapalle Buddhists Caves, built during Satavahanas); Madhya Pradesh (Bagh Caves); Karnataka (Namdroling Monastery in Bylakuppe, known as "The Golden Temple").</li>
+                    <li><strong>Key Yakshi Figures:</strong> <em>Hariti</em> (bloodthirsty yakshi converted to maternal figure), <em>Gaj Lakshmi</em> (yakshi surrounded by lotuses/elephants), <em>Didarganj Yakshi</em> (polished stone statue in Patna museum, holds a fly whisk "Chauri", lower garment is "Antari"), <em>Salabhanjika Yakshi</em> (reference to Buddha's mother Maya under sala tree), <em>Prajnaparamita Yakshi</em> (female deity, source of omniscience).</li>
+                </ul>
+            </li>
         </ul>
 
         <h3>4. Jainism - Exhaustive Extraction</h3>
@@ -238,6 +299,72 @@ const historyData = {
             </li>
     `,
     mcqs: [
+    {
+        "id": "hist_buddhism_air1_1",
+        "topic": "Buddhism",
+        "question": "Which of the following Pitakas is divided into five 'Nikayas', including the Digha Nikaya and Khuddaka Nikaya?",
+        "options": [
+            "Vinaya Pitaka",
+            "Sutta Pitaka",
+            "Abhidhamma Pitaka",
+            "Jataka Pitaka"
+        ],
+        "correct": 1,
+        "explanation": "The Sutta Pitaka is divided into five Nikayas. The Dhammapada is a part of the Khuddaka Nikaya."
+    },
+    {
+        "id": "hist_buddhism_air1_2",
+        "topic": "Buddhism",
+        "question": "The famous Didarganj Yakshi, a polished stone female statue holding a fly whisk (Chauri), is preserved in a museum in which state?",
+        "options": [
+            "Madhya Pradesh",
+            "Uttar Pradesh",
+            "Bihar",
+            "Karnataka"
+        ],
+        "correct": 2,
+        "explanation": "The Didarganj Yakshi was found in Patna, Bihar. She holds a fly whisk called a 'Chauri' and wears an 'Antari'."
+    },
+    {
+        "id": "hist_buddhism_air1_3",
+        "topic": "Buddhism",
+        "question": "In the context of Buddha's Mudras, which mudra represents the Buddha calling the earth as a witness to his enlightenment?",
+        "options": [
+            "Dharmachakra",
+            "Abhaya",
+            "Bhumisparsha",
+            "Vitarka"
+        ],
+        "correct": 2,
+        "explanation": "The Bhumisparsha Mudra literally translates to 'Touching the Earth' and represents enlightenment."
+    },
+    {
+        "id": "hist_buddhism_air1_4",
+        "topic": "Buddhism",
+        "question": "Which of the following is considered the largest Stupa in India?",
+        "options": [
+            "Sanchi Stupa",
+            "Kesariya Stupa",
+            "Dhamek Stupa",
+            "Bharhut Stupa"
+        ],
+        "correct": 1,
+        "explanation": "The Kesariya Stupa in Bihar is the largest Stupa in India. Borobudur in Java is the largest in the world."
+    },
+    {
+        "id": "hist_buddhism_air1_5",
+        "topic": "Buddhism",
+        "question": "The Buddhist doctrine of 'Anatta' fundamentally teaches that:",
+        "options": [
+            "Idol worship is mandatory",
+            "A permanent soul or self does not exist",
+            "Only monks can attain Nirvana",
+            "The universe was created by Brahma"
+        ],
+        "correct": 1,
+        "explanation": "Anatta (or Anatman) is the core doctrine stating that there is no underlying permanent substance or soul."
+    }
+,
     {
         "id": "hist_extra_1",
         "topic": "Indus Valley Civilization",
