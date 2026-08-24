@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ssc-prep-cache-v39';
+const CACHE_NAME = 'ssc-prep-cache-v40';
 const urlsToCache = [
   './',
   './index.html',
@@ -33,6 +33,7 @@ const urlsToCache = [
 ];
 
 self.addEventListener('install', event => {
+  self.skipWaiting();
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then(cache => {
@@ -73,6 +74,7 @@ self.addEventListener('fetch', event => {
 
 // Activate event: cleanup old caches
 self.addEventListener('activate', event => {
+  self.clients.claim();
   const cacheWhitelist = [CACHE_NAME];
   event.waitUntil(
     caches.keys().then(cacheNames => {
