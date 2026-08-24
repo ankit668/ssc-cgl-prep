@@ -37,8 +37,6 @@ if (activeTarget === 'fatman-timeline') { if(typeof window.renderFatmanTimeline 
         <div id="fatman-fab">
             <span>🔥</span> Fatman Special
         </div>
-            <span>🔥</span> Fatman Special
-        </div>
     `;
     document.body.appendChild(fab);
 
@@ -156,7 +154,7 @@ if (activeTarget === 'fatman-timeline') { if(typeof window.renderFatmanTimeline 
 function renderFatmanNotes() {
         const content = document.getElementById('fatman-content');
         window.currentFatmanTopic = window.currentFatmanTopic || 'All';
-        if(!window.fatmanGeography) {
+        if(!window.fatmanGeography && !window.fatmanHistory) {
             content.innerHTML = "<p>Data not found. Did fatman_data.js load?</p>";
             return;
         }
