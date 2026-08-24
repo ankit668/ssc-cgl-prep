@@ -186,6 +186,12 @@ function renderFatmanNotes() {
                 </div>
             </div>
         `;
+        
+        // Prepare the clickable audio blocks
+        const contentDiv = document.getElementById('fatman-notes-content');
+        if (contentDiv) {
+            window.prepareTeacherAudio(contentDiv, window.getFatmanData().chapter);
+        }
     }
 
 // ===== TEXT TO SPEECH ENGINE =====
@@ -212,40 +218,40 @@ window.updateAudioUI = function() {
     }
 };
 
-window.generateTeacherScript = function(htmlStr, chapterName) {
-    const tempDiv = document.createElement('div');
-    tempDiv.innerHTML = htmlStr;
-    
-    let script = "Alright, let's master " + chapterName + ". I'll highlight the key points and repeat them twice to lock them into your memory. Let's begin. ... ";
-    
-    const elements = tempDiv.querySelectorAll('h2, h3, h4, p, li');
-    
-    elements.forEach(el => {
-        if (el.tagName.match(/^H[1-6]$/)) {
-            script += " ... Moving on to topic: " + el.innerText + ". ";
-        } else if (el.tagName === 'P') {
-            script += el.innerText + ". ";
-        } else if (el.tagName === 'LI') {
-            let strongEl = el.querySelector('strong, b');
-            if (strongEl) {
-                let concept = strongEl.innerText.replace(/:/g, '').trim();
-                let detail = el.innerText.replace(strongEl.innerText, '').replace(/^[:\-\s]+/, '').trim();
-                
-                script += " Key point: " + concept + ". Let me repeat. " + concept + ". ";
-                if (detail.length > 0) {
-                    script += detail + ". Again, " + detail + ". ";
-                }
-            } else {
-                let txt = el.innerText.trim();
-                if (txt.length > 0) {
-                    script += " Note this: " + txt + ". I repeat. " + txt + ". ";
-                }
+
+
+// ===== SMART TEACHER TTS ENGINE (CLICK-TO-PLAY) =====
+window.fatmanAudioQueue = [];
+window.fatmanAudioElements = [];
+window.fatmanAudioCurrentIndex = 0;
+window.fatmanAudioState = 'stopped'; // 'stopped', 'playing', 'paused'
+
+window.updateAudioUI = function() {
+    const btnListen = document.getElementById('btn-listen');
+    const btnStop = document.getElementById('btn-stop-audio');
+    if (!btnListen) return;
+
+    if (window.fatmanAudioState === 'stopped') {
+        btnListen.innerHTML = '&#128266; Listen';
+        btnListen.style.background = '#10B981'; // Green
+        if(btnStop) btnStop.style.display = 'none';
+        
+        // Remove highlights
+        window.fatmanAudioElements.forEach(el => {
+            if(el) {
+                el.style.borderLeft = 'none';
+                el.style.paddingLeft = '0';
             }
-        }
-    });
-    
-    script += " ... And that concludes this chapter. Great job!";
-    return script;
+        });
+    } else if (window.fatmanAudioState === 'playing') {
+        btnListen.innerHTML = '&#9208; Pause';
+        btnListen.style.background = '#F59E0B'; // Orange
+        if(btnStop) btnStop.style.display = 'flex';
+    } else if (window.fatmanAudioState === 'paused') {
+        btnListen.innerHTML = '&#9654; Resume';
+        btnListen.style.background = '#38BDF8'; // Blue
+        if(btnStop) btnStop.style.display = 'flex';
+    }
 };
 
 window.stopFatmanAudio = function() {
@@ -253,6 +259,80 @@ window.stopFatmanAudio = function() {
         window.speechSynthesis.cancel();
     }
     window.fatmanAudioState = 'stopped';
+    window.updateAudioUI();
+};
+
+window.playFatmanAudioFromIndex = function(index) {
+    if (!('speechSynthesis' in window)) return;
+    window.speechSynthesis.cancel();
+    window.fatmanAudioCurrentIndex = index;
+    window.speakNextFatmanAudio();
+};
+
+window.speakNextFatmanAudio = function() {
+    if (window.fatmanAudioCurrentIndex >= window.fatmanAudioQueue.length) {
+        window.fatmanAudioState = 'stopped';
+        window.updateAudioUI();
+        return;
+    }
+    
+    // Highlight current element
+    window.fatmanAudioElements.forEach((el, i) => {
+        if (!el) return;
+        if (i === window.fatmanAudioCurrentIndex) {
+            el.style.borderLeft = '4px solid #10B981';
+            el.style.paddingLeft = '10px';
+            el.style.backgroundColor = 'rgba(16, 185, 129, 0.05)';
+            // Scroll into view if needed smoothly
+            el.scrollIntoView({behavior: "smooth", block: "center", inline: "nearest"});
+        } else {
+            el.style.borderLeft = 'none';
+            el.style.paddingLeft = '0';
+            el.style.backgroundColor = 'transparent';
+        }
+    });
+
+    let textToRead = window.fatmanAudioQueue[window.fatmanAudioCurrentIndex];
+    let utterance = new SpeechSynthesisUtterance(textToRead);
+    utterance.rate = 0.95;
+    utterance.pitch = 1.0;
+    
+    const voices = window.fatmanVoices.length > 0 ? window.fatmanVoices : window.speechSynthesis.getVoices();
+    let preferredVoice = voices.find(v => 
+        (v.lang.includes('en-') ) && 
+        (v.name.toLowerCase().includes('female') || 
+         v.name.toLowerCase().includes('zira') || 
+         v.name.toLowerCase().includes('heera') || 
+         v.name.toLowerCase().includes('veena') || 
+         v.name.toLowerCase().includes('samantha') || 
+         v.name.toLowerCase().includes('victoria') ||
+         v.name.toLowerCase().includes('karen') ||
+         v.name.toLowerCase().includes('hazel'))
+    );
+    if (!preferredVoice) {
+        preferredVoice = voices.find(v => (v.lang.includes('en-')) && !(v.name.toLowerCase().includes('male') || v.name.toLowerCase().includes('david') || v.name.toLowerCase().includes('ravi') || v.name.toLowerCase().includes('rishi') || v.name.toLowerCase().includes('daniel')));
+    }
+    if (!preferredVoice) preferredVoice = voices.find(v => v.lang.includes('en-'));
+    if (preferredVoice) utterance.voice = preferredVoice;
+
+    utterance.onend = function() {
+        // Only proceed if we are still playing (not stopped or paused)
+        if (window.fatmanAudioState === 'playing') {
+            window.fatmanAudioCurrentIndex++;
+            window.speakNextFatmanAudio();
+        }
+    };
+    
+    utterance.onerror = function(e) {
+        if(e.error !== 'canceled') {
+            console.error("SpeechSynthesis error:", e);
+            window.fatmanAudioState = 'stopped';
+            window.updateAudioUI();
+        }
+    };
+
+    window.speechSynthesis.speak(utterance);
+    window.fatmanAudioState = 'playing';
     window.updateAudioUI();
 };
 
@@ -276,72 +356,75 @@ window.toggleFatmanAudio = function() {
         return;
     }
 
-    // If stopped, we need to start fresh
-    window.speechSynthesis.cancel(); // Clear any hung states
-
-    const contentDiv = document.getElementById('fatman-notes-content');
-    if (!contentDiv) return;
-    
-    // Generate the Smart Teacher audio script
-    let textToRead = window.generateTeacherScript(contentDiv.innerHTML, window.getFatmanData().chapter);
-
-    window.fatmanUtterance = new SpeechSynthesisUtterance(textToRead);
-    window.fatmanUtterance.rate = 0.9;
-    window.fatmanUtterance.pitch = 1.0;
-    
-    const voices = window.fatmanVoices.length > 0 ? window.fatmanVoices : window.speechSynthesis.getVoices();
-    
-    // Look for explicitly female English voices (especially Indian accents like Heera/Veena)
-    let preferredVoice = voices.find(v => 
-        (v.lang.includes('en-') ) && 
-        (v.name.toLowerCase().includes('female') || 
-         v.name.toLowerCase().includes('zira') || 
-         v.name.toLowerCase().includes('heera') || 
-         v.name.toLowerCase().includes('veena') || 
-         v.name.toLowerCase().includes('samantha') || 
-         v.name.toLowerCase().includes('victoria') ||
-         v.name.toLowerCase().includes('karen') ||
-         v.name.toLowerCase().includes('hazel'))
-    );
-    
-    // Fallback: Any English voice that is NOT explicitly male (David, Ravi, Rishi, Daniel)
-    if (!preferredVoice) {
-        preferredVoice = voices.find(v => 
-            (v.lang.includes('en-')) && 
-            !(v.name.toLowerCase().includes('male') || 
-              v.name.toLowerCase().includes('david') || 
-              v.name.toLowerCase().includes('ravi') || 
-              v.name.toLowerCase().includes('rishi') || 
-              v.name.toLowerCase().includes('daniel'))
-        );
-    }
-    
-    // Last resort fallback
-    if (!preferredVoice) {
-        preferredVoice = voices.find(v => v.lang.includes('en-'));
-    }
-
-    if (preferredVoice) window.fatmanUtterance.voice = preferredVoice;
-
-    window.fatmanUtterance.onend = function() {
-        window.fatmanAudioState = 'stopped';
-        window.updateAudioUI();
-    };
-    
-    window.fatmanUtterance.onerror = function(e) {
-        console.error("SpeechSynthesis error:", e);
-        window.fatmanAudioState = 'stopped';
-        window.updateAudioUI();
-    };
-
-    window.speechSynthesis.speak(window.fatmanUtterance);
-    window.fatmanAudioState = 'playing';
-    window.updateAudioUI();
+    // If stopped, start from the beginning
+    window.playFatmanAudioFromIndex(0);
 };
 
-// Stop audio if they change tabs or close module
-const originalClose = document.getElementById('fatman-close') ? document.getElementById('fatman-close').onclick : null;
-// We'll hook into switchFatmanSubject and the close button via an event listener instead of overriding globals to be safe.
+window.prepareTeacherAudio = function(contentDiv, chapterName) {
+    window.fatmanAudioQueue = [];
+    window.fatmanAudioElements = [];
+    
+    // First item is the welcome message (we map it to the title or first element)
+    const elements = Array.from(contentDiv.querySelectorAll('h2, h3, h4, p, li'));
+    
+    if(elements.length === 0) return;
+
+    elements.forEach((el, index) => {
+        let script = "";
+        
+        // Add welcome message to the very first element
+        if (index === 0) {
+            script += "Alright, let's master " + chapterName + ". I'll highlight the key points. Click any sentence to jump around. Here we go. ... ";
+        }
+
+        if (el.tagName.match(/^H[1-6]$/)) {
+            script += " Moving on to topic: " + el.innerText + ". ";
+        } else if (el.tagName === 'P') {
+            script += el.innerText + ". ";
+        } else if (el.tagName === 'LI') {
+            let strongEl = el.querySelector('strong, b');
+            if (strongEl) {
+                let concept = strongEl.innerText.replace(/:/g, '').trim();
+                let detail = el.innerText.replace(strongEl.innerText, '').replace(/^[:\-\s]+/, '').trim();
+                
+                script += " Key point: " + concept + ". Let me repeat. " + concept + ". ";
+                if (detail.length > 0) {
+                    script += detail + ". Again, " + detail + ". ";
+                }
+            } else {
+                let txt = el.innerText.trim();
+                if (txt.length > 0) {
+                    script += " Note this: " + txt + ". I repeat. " + txt + ". ";
+                }
+            }
+        }
+        
+        window.fatmanAudioQueue.push(script);
+        window.fatmanAudioElements.push(el);
+        
+        // Make it clickable
+        el.style.cursor = 'pointer';
+        el.title = 'Click to read from here';
+        el.style.transition = 'all 0.2s';
+        
+        el.addEventListener('mouseenter', function() {
+            if (window.fatmanAudioCurrentIndex !== index || window.fatmanAudioState === 'stopped') {
+                this.style.backgroundColor = 'rgba(56, 189, 248, 0.1)';
+            }
+        });
+        
+        el.addEventListener('mouseleave', function() {
+            if (window.fatmanAudioCurrentIndex !== index || window.fatmanAudioState === 'stopped') {
+                this.style.backgroundColor = 'transparent';
+            }
+        });
+        
+        el.addEventListener('click', function(e) {
+            e.stopPropagation();
+            window.playFatmanAudioFromIndex(index);
+        });
+    });
+};
 
 
 
