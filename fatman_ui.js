@@ -194,32 +194,6 @@ function renderFatmanNotes() {
         }
     }
 
-// ===== TEXT TO SPEECH ENGINE =====
-window.fatmanUtterance = null;
-window.fatmanAudioState = 'stopped'; // 'stopped', 'playing', 'paused'
-
-window.updateAudioUI = function() {
-    const btnListen = document.getElementById('btn-listen');
-    const btnStop = document.getElementById('btn-stop-audio');
-    if (!btnListen) return;
-
-    if (window.fatmanAudioState === 'stopped') {
-        btnListen.innerHTML = '&#128266; Listen';
-        btnListen.style.background = '#10B981'; // Green
-        if(btnStop) btnStop.style.display = 'none';
-    } else if (window.fatmanAudioState === 'playing') {
-        btnListen.innerHTML = '&#9208; Pause';
-        btnListen.style.background = '#F59E0B'; // Orange
-        if(btnStop) btnStop.style.display = 'flex';
-    } else if (window.fatmanAudioState === 'paused') {
-        btnListen.innerHTML = '&#9654; Resume';
-        btnListen.style.background = '#38BDF8'; // Blue
-        if(btnStop) btnStop.style.display = 'flex';
-    }
-};
-
-
-
 // ===== SMART TEACHER TTS ENGINE (CLICK-TO-PLAY) =====
 window.fatmanAudioQueue = [];
 window.fatmanAudioElements = [];
@@ -264,9 +238,17 @@ window.stopFatmanAudio = function() {
 
 window.playFatmanAudioFromIndex = function(index) {
     if (!('speechSynthesis' in window)) return;
+    
+    // Temporarily set state to stopped so onend doesn't trigger a skip
+    window.fatmanAudioState = 'stopped'; 
     window.speechSynthesis.cancel();
     window.fatmanAudioCurrentIndex = index;
-    window.speakNextFatmanAudio();
+    
+    // Slight delay to allow cancel() to fully clear browser TTS queue
+    setTimeout(() => {
+        window.fatmanAudioState = 'playing'; // Re-engage state
+        window.speakNextFatmanAudio();
+    }, 100);
 };
 
 window.speakNextFatmanAudio = function() {
@@ -409,13 +391,17 @@ window.prepareTeacherAudio = function(contentDiv, chapterName) {
         
         el.addEventListener('mouseenter', function() {
             if (window.fatmanAudioCurrentIndex !== index || window.fatmanAudioState === 'stopped') {
-                this.style.backgroundColor = 'rgba(56, 189, 248, 0.1)';
+                this.style.backgroundColor = 'rgba(16, 185, 129, 0.2)'; // Brighter green highlight
+                this.style.borderLeft = '4px solid #10B981';
+                this.style.paddingLeft = '10px';
             }
         });
         
         el.addEventListener('mouseleave', function() {
             if (window.fatmanAudioCurrentIndex !== index || window.fatmanAudioState === 'stopped') {
                 this.style.backgroundColor = 'transparent';
+                this.style.borderLeft = 'none';
+                this.style.paddingLeft = '0';
             }
         });
         
