@@ -148,6 +148,7 @@ if (activeTarget === 'fatman-timeline') { if(typeof window.renderFatmanTimeline 
             if (target === 'fatman-notes') renderFatmanNotes();
             if (target === 'fatman-flashcards') renderFatmanFlashcards();
             if (target === 'fatman-mcqs') renderFatmanMCQMenu();
+            if (target === 'fatman-timeline') { if(typeof window.renderFatmanTimeline === 'function') window.renderFatmanTimeline(); }
         };
     });
 
