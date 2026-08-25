@@ -1593,6 +1593,49 @@ const historyData = {
             answer: 1,
             explanation: "Correct Answer: Banabhatta, who was the court poet of Harsha."
         }
+    ,
+
+    {
+        "id": "hist_deep_1",
+        topic: "Harshavardhana & Sangam Age",
+        "question": "In the Chola administration as described by the Uttaramerur inscriptions, what was the 'Eri Variyam'?",
+        "options": ["Gold and finance committee", "Justice committee", "Tank and irrigation management committee", "Garden committee"],
+        "correct": 2,
+        "explanation": "Eri Variyam managed tanks and irrigation. Tottavariyam managed gardens, Pon Variyam managed gold/finance, and Nyaya Variyam managed justice."
+    },
+    {
+        "id": "hist_deep_2",
+        topic: "Harshavardhana & Sangam Age",
+        "question": "According to Chola land donation records, land donated to non-Brahman peasants was known as:",
+        "options": ["Brahmadeya", "Vellanvagai", "Devadana", "Pallichchhandam"],
+        "correct": 1,
+        "explanation": "Vellanvagai was land donated to non-Brahman peasants. Brahmadeya was for Brahmans, Devadana for temples, and Pallichchhandam for Jain institutions."
+    },
+    {
+        "id": "hist_deep_3",
+        topic: "Harshavardhana & Sangam Age",
+        "question": "What was 'Shalabhoga' in the Chola Empire?",
+        "options": ["A tax on agricultural produce", "Land donated for the maintenance of a school", "A military title given to naval commanders", "A forced labor tax"],
+        "correct": 1,
+        "explanation": "Shalabhoga was land donated for the maintenance of a school. Forced labor was called 'Vetti' and land revenue tax was 'Kadamai'."
+    },
+    {
+        "id": "hist_deep_4",
+        topic: "Post-Mauryan & Foreign Invasions",
+        "question": "Which ancient Indian dynasty is known to have traded 'lead coins' extensively with the Romans?",
+        "options": ["Shunga Dynasty", "Kanva Dynasty", "Satavahana Dynasty", "Kushana Dynasty"],
+        "correct": 2,
+        "explanation": "The Satavahanas traded lead coins with the Romans. They also used copper, bronze, and potin coins."
+    },
+    {
+        "id": "hist_deep_5",
+        topic: "Chalukyas & Pallavas",
+        "question": "Who was the first ruler (founder) of the Badami Chalukya dynasty?",
+        "options": ["Pulakeshin I", "Jayasimha", "Kirtivarman I", "Vikramaditya I"],
+        "correct": 1,
+        "explanation": "Jayasimha was the first ruler of the dynasty. Pulakeshin I was the formal founder who established the capital at Vatapi."
+    }
+
     ],
     flashcards: [
     {
@@ -2685,6 +2728,14 @@ const historyData = {
     { topic: "Ancient Books & Authors", front: "Charaka Samhita = ?", back: "Ayurveda (medicine). Author: Charaka (Kanishka's court physician)." },
     { topic: "Ancient Indian Philosophies", front: "6 Shad Darshanas and founders?", back: "Nyaya (Gautama), Vaisheshika (Kanada), Samkhya (Kapila), Yoga (Patanjali), Mimamsa (Jaimini), Vedanta (Badarayana)." },
     { topic: "Chalukyas & Pallavas", front: "Pallava king called 'Vatapikonda'?", back: "Narasimhavarman I (Mamalla). Defeated and killed Pulakeshin II, captured Vatapi." }
+
+    ,
+
+    { topic: "Harshavardhana & Sangam Age", front: "Chola Taxes: What were 'Vetti' and 'Kadamai'?", back: "Vetti was forced labour. Kadamai was land revenue tax." },
+    { topic: "Chalukyas & Pallavas", front: "Which ancient site is known as the 'Laboratory of Indian Temple Architecture'?", back: "Aihole (Karnataka), built by the Early Chalukyas." },
+    { topic: "Chalukyas & Pallavas", front: "Which group of temples is known as the 'Cradle of Indian Architecture'?", back: "Pattadakal group of temples (UNESCO World Heritage Site)." },
+    { topic: "Post-Mauryan & Foreign Invasions", front: "Who defeated the last Shunga ruler Devbhuti to found the Kanva dynasty?", back: "Vasudeva Kanva." },
+    { topic: "Post-Mauryan & Foreign Invasions", front: "Which Satavahana ruler was defeated by the Saka ruler Rudradaman I?", back: "Vasisthiputra Pulumavi (mentioned in the Junagadh Inscription)." }
 
     ]
 };
