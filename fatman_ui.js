@@ -140,6 +140,7 @@ if ('speechSynthesis' in window) {
     document.getElementById('fatman-close').onclick = () => {
         modal.style.display = 'none';
         if (window.mockTimerInterval) clearInterval(window.mockTimerInterval);
+        if (typeof window.stopFatmanAudio === 'function') window.stopFatmanAudio();
     };
 
     const tabs = document.querySelectorAll('.fatman-tab');
@@ -630,21 +631,6 @@ window.renderFatmanMCQMenu = renderFatmanMCQMenu;
                         &#9889; Grand Test (25 Qs, 5 Mins)
                     </button>
                 </div>
-            </div>
-        `; // Keep the old code below unreachable by returning early
-        return; // PATCHED
-        content.innerHTML = `
-            <div style="max-width:800px; margin: 0 auto; text-align:center; margin-top: 40px;">
-                <h2 style="color:white; margin-bottom:10px;">Select Drill Mode</h2>
-                <p style="color:#94A3B8; margin-bottom: 30px;">Choose how you want to conquer the ${window.getFatmanData().mcqs.length} questions.</p>
-                
-                <button onclick="window.startFatmanPractice()" style="background:#334155; border:1px solid #475569; color:white; padding: 15px 30px; font-size:18px; border-radius:12px; width: 100%; max-width: 400px; margin-bottom:15px; cursor:pointer; font-family:'Outfit';">
-                    📚 Practice Mode (All Qs)
-                </button>
-                <br>
-                <button onclick="window.startFatmanMock()" style="background: linear-gradient(135deg, #FF416C 0%, #FF4B2B 100%); border:none; color:white; padding: 15px 30px; font-size:18px; font-weight:bold; border-radius:12px; width: 100%; max-width: 400px; cursor:pointer; font-family:'Outfit'; box-shadow: 0 4px 15px rgba(255, 65, 108, 0.4);">
-                    ⏱️ Fatman Grand Test (25 Qs, 5 Mins)
-                </button>
             </div>
         `;
     }

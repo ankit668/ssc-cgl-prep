@@ -403,7 +403,7 @@ const historyData = {
     mcqs: [
     {
         "id": "hist_buddhism_air1_1",
-        "topic": "Buddhism",
+        topic: "Buddhism",
         "question": "Which of the following Pitakas is divided into five 'Nikayas', including the Digha Nikaya and Khuddaka Nikaya?",
         "options": [
             "Vinaya Pitaka",
@@ -416,7 +416,7 @@ const historyData = {
     },
     {
         "id": "hist_buddhism_air1_2",
-        "topic": "Buddhism",
+        topic: "Buddhism",
         "question": "The famous Didarganj Yakshi, a polished stone female statue holding a fly whisk (Chauri), is preserved in a museum in which state?",
         "options": [
             "Madhya Pradesh",
@@ -429,7 +429,7 @@ const historyData = {
     },
     {
         "id": "hist_buddhism_air1_3",
-        "topic": "Buddhism",
+        topic: "Buddhism",
         "question": "In the context of Buddha's Mudras, which mudra represents the Buddha calling the earth as a witness to his enlightenment?",
         "options": [
             "Dharmachakra",
@@ -442,7 +442,7 @@ const historyData = {
     },
     {
         "id": "hist_buddhism_air1_4",
-        "topic": "Buddhism",
+        topic: "Buddhism",
         "question": "Which of the following is considered the largest Stupa in India?",
         "options": [
             "Sanchi Stupa",
@@ -455,7 +455,7 @@ const historyData = {
     },
     {
         "id": "hist_buddhism_air1_5",
-        "topic": "Buddhism",
+        topic: "Buddhism",
         "question": "The Buddhist doctrine of 'Anatta' fundamentally teaches that:",
         "options": [
             "Idol worship is mandatory",
@@ -469,7 +469,7 @@ const historyData = {
 ,
     {
         "id": "hist_extra_1",
-        "topic": "Indus Valley Civilization",
+        topic: "Indus Valley Civilization",
         "question": "The Indus Valley site of Dholavira is located in which Indian state?",
         "options": [
             "Rajasthan",
@@ -482,7 +482,7 @@ const historyData = {
     },
     {
         "id": "hist_extra_2",
-        "topic": "Indus Valley Civilization",
+        topic: "Indus Valley Civilization",
         "question": "The famous 'Dancing Girl' bronze statue was found at:",
         "options": [
             "Harappa",
@@ -495,7 +495,7 @@ const historyData = {
     },
     {
         "id": "hist_extra_3",
-        "topic": "Vedic Age",
+        topic: "The Vedic Age",
         "question": "Which Veda is considered the oldest and consists of 1028 hymns?",
         "options": [
             "Rig Veda",
@@ -508,7 +508,7 @@ const historyData = {
     },
     {
         "id": "hist_extra_4",
-        "topic": "Vedic Age",
+        topic: "The Vedic Age",
         "question": "The Gayatri Mantra, addressed to the solar deity Savitr, is found in which Mandala of the Rig Veda?",
         "options": [
             "3rd Mandala",
@@ -521,7 +521,7 @@ const historyData = {
     },
     {
         "id": "hist_extra_5",
-        "topic": "Mahajanapadas",
+        topic: "Mahajanapadas & Magadha Empire",
         "question": "The capital of the Mahajanapada 'Avanti' was:",
         "options": [
             "Taxila",
@@ -534,7 +534,7 @@ const historyData = {
     },
     {
         "id": "hist_extra_6",
-        "topic": "Mahajanapadas",
+        topic: "Mahajanapadas & Magadha Empire",
         "question": "Who was the founder of the Nanda Dynasty?",
         "options": [
             "Bimbisara",
@@ -547,7 +547,7 @@ const historyData = {
     },
     {
         "id": "hist_extra_7",
-        "topic": "Mauryan Empire",
+        topic: "Mauryan Empire",
         "question": "Megasthenes, the Greek ambassador who wrote 'Indica', visited the court of:",
         "options": [
             "Ashoka",
@@ -560,7 +560,7 @@ const historyData = {
     },
     {
         "id": "hist_extra_8",
-        "topic": "Mauryan Empire",
+        topic: "Mauryan Empire",
         "question": "Which rock edict of Ashoka mentions the Kalinga War?",
         "options": [
             "Major Rock Edict XI",
@@ -573,7 +573,7 @@ const historyData = {
     },
     {
         "id": "hist_extra_9",
-        "topic": "Post-Mauryan",
+        topic: "Post-Mauryan & Foreign Invasions",
         "question": "Who was the founder of the Shunga dynasty?",
         "options": [
             "Agnimitra",
@@ -586,7 +586,7 @@ const historyData = {
     },
     {
         "id": "hist_extra_10",
-        "topic": "Post-Mauryan",
+        topic: "Post-Mauryan & Foreign Invasions",
         "question": "The Satavahana dynasty was founded by:",
         "options": [
             "Gautamiputra Satakarni",
@@ -599,7 +599,7 @@ const historyData = {
     },
     {
         "id": "hist_extra_11",
-        "topic": "Gupta Empire",
+        topic: "Gupta Empire",
         "question": "Who was the court poet of Samudragupta who composed the Allahabad Pillar Inscription (Prayag Prashasti)?",
         "options": [
             "Kalidasa",
@@ -612,7 +612,7 @@ const historyData = {
     },
     {
         "id": "hist_extra_12",
-        "topic": "Gupta Empire",
+        topic: "Gupta Empire",
         "question": "Which Gupta ruler is known for defeating the Hunas?",
         "options": [
             "Chandragupta II",
@@ -625,7 +625,7 @@ const historyData = {
     },
     {
         "id": "hist_extra_13",
-        "topic": "Gupta Empire",
+        topic: "Gupta Empire",
         "question": "The iron pillar at Mehrauli (Delhi) is associated with which Gupta king?",
         "options": [
             "Samudragupta",
@@ -638,7 +638,7 @@ const historyData = {
     },
     {
         "id": "hist_extra_14",
-        "topic": "Chalukyas",
+        topic: "Chalukyas & Pallavas",
         "question": "The Aihole Inscription, detailing the victory of Pulakesin II over Harshavardhana, was composed by:",
         "options": [
             "Harishena",
@@ -651,7 +651,7 @@ const historyData = {
     },
     {
         "id": "hist_extra_15",
-        "topic": "Ancient Literature",
+        topic: "Ancient Books & Authors",
         "question": "Who is the author of the medical treatise 'Charaka Samhita'?",
         "options": [
             "Sushruta",
@@ -664,7 +664,7 @@ const historyData = {
     },
     {
         "id": "hist_extra_16",
-        "topic": "Buddhism",
+        topic: "Buddhism",
         "question": "The Second Buddhist Council was held at:",
         "options": [
             "Rajgriha",
@@ -677,7 +677,7 @@ const historyData = {
     },
     {
         "id": "hist_extra_17",
-        "topic": "Jainism",
+        topic: "Jainism",
         "question": "Where did Mahavira attain Kaivalya (Enlightenment)?",
         "options": [
             "Bodh Gaya",
@@ -690,7 +690,7 @@ const historyData = {
     },
     {
         "id": "hist_extra_18",
-        "topic": "Sangam Age",
+        topic: "Harshavardhana & Sangam Age",
         "question": "The Third Sangam was held at which location?",
         "options": [
             "Madurai",
@@ -703,7 +703,7 @@ const historyData = {
     },
     {
         "id": "hist_extra_19",
-        "topic": "Temple Architecture",
+        topic: "Chalukyas & Pallavas",
         "question": "The Vithala Temple, famous for its musical pillars, is located in:",
         "options": [
             "Thanjavur",
@@ -716,7 +716,7 @@ const historyData = {
     },
     {
         "id": "hist_extra_20",
-        "topic": "Post-Mauryan",
+        topic: "Post-Mauryan & Foreign Invasions",
         "question": "The Indo-Greek king Menander was converted to Buddhism by which monk?",
         "options": [
             "Vasumitra",
@@ -729,7 +729,7 @@ const historyData = {
     },
     {
         "id": "hist_extra_21",
-        "topic": "Indus Valley Civilization",
+        topic: "Indus Valley Civilization",
         "question": "Which IVC site provided evidence of a ploughed field?",
         "options": [
             "Lothal",
@@ -743,7 +743,7 @@ const historyData = {
 ,
     {
         "id": "hist_buddhism_1",
-        "topic": "Buddhism",
+        topic: "Buddhism",
         "question": "Where did the First Buddhist Council take place?",
         "options": [
             "Rajgriha",
@@ -756,7 +756,7 @@ const historyData = {
     },
     {
         "id": "hist_buddhism_2",
-        "topic": "Buddhism",
+        topic: "Buddhism",
         "question": "Who presided over the Fourth Buddhist Council in Kashmir?",
         "options": [
             "Mahakashyapa",
@@ -769,7 +769,7 @@ const historyData = {
     },
     {
         "id": "hist_buddhism_3",
-        "topic": "Buddhism",
+        topic: "Buddhism",
         "question": "Which of the following Pitakas deals with the philosophical doctrines of Buddhism?",
         "options": [
             "Vinaya Pitaka",
@@ -782,7 +782,7 @@ const historyData = {
     },
     {
         "id": "hist_buddhism_4",
-        "topic": "Buddhism",
+        topic: "Buddhism",
         "question": "The concept of 'Ashtangika Marg' (Eightfold Path) forms the core theme of:",
         "options": [
             "Dipavamsa",
@@ -795,7 +795,7 @@ const historyData = {
     },
     {
         "id": "hist_buddhism_5",
-        "topic": "Buddhism",
+        topic: "Buddhism",
         "question": "What is the primary difference between Hinayana and Mahayana Buddhism?",
         "options": [
             "Belief in rebirth",
@@ -808,7 +808,7 @@ const historyData = {
     },
     {
         "id": "hist_buddhism_6",
-        "topic": "Buddhism",
+        topic: "Buddhism",
         "question": "The famous Sanchi Stupa was originally built by:",
         "options": [
             "Bimbisara",
@@ -821,7 +821,7 @@ const historyData = {
     },
     {
         "id": "hist_buddhism_7",
-        "topic": "Buddhism",
+        topic: "Buddhism",
         "question": "The university of Nalanda, a major center of Mahayana Buddhism, was founded by:",
         "options": [
             "Chandragupta II",
@@ -834,7 +834,7 @@ const historyData = {
     },
     {
         "id": "hist_buddhism_8",
-        "topic": "Buddhism",
+        topic: "Buddhism",
         "question": "What event does the 'Mahabhinishkramana' represent in Buddha's life?",
         "options": [
             "His birth",
@@ -847,7 +847,7 @@ const historyData = {
     },
     {
         "id": "hist_buddhism_9",
-        "topic": "Buddhism",
+        topic: "Buddhism",
         "question": "The Vikramashila University was founded by:",
         "options": [
             "Gopala",
@@ -860,7 +860,7 @@ const historyData = {
     },
     {
         "id": "hist_buddhism_10",
-        "topic": "Buddhism",
+        topic: "Buddhism",
         "question": "In Buddhism, what does the symbol 'Stupa' represent?",
         "options": [
             "Birth",
@@ -873,7 +873,7 @@ const historyData = {
     },
     {
         "id": "hist_jainism_1",
-        "topic": "Jainism",
+        topic: "Jainism",
         "question": "Who was the 23rd Tirthankara of Jainism?",
         "options": [
             "Rishabhanatha",
@@ -886,7 +886,7 @@ const historyData = {
     },
     {
         "id": "hist_jainism_2",
-        "topic": "Jainism",
+        topic: "Jainism",
         "question": "Which of the following is NOT part of the Jain 'Triratna' (Three Jewels)?",
         "options": [
             "Right Faith",
@@ -899,7 +899,7 @@ const historyData = {
     },
     {
         "id": "hist_jainism_3",
-        "topic": "Jainism",
+        topic: "Jainism",
         "question": "The concept of 'Syadvada' (Theory of maybe / relative truth) is a core philosophy of:",
         "options": [
             "Buddhism",
@@ -912,7 +912,7 @@ const historyData = {
     },
     {
         "id": "hist_jainism_4",
-        "topic": "Jainism",
+        topic: "Jainism",
         "question": "Which vow (Mahavrata) was added by Mahavira to the four vows given by Parshvanatha?",
         "options": [
             "Ahimsa (Non-violence)",
@@ -925,7 +925,7 @@ const historyData = {
     },
     {
         "id": "hist_jainism_5",
-        "topic": "Jainism",
+        topic: "Jainism",
         "question": "The first Jain Council was held at Pataliputra under the leadership of:",
         "options": [
             "Sthulabhadra",
@@ -938,7 +938,7 @@ const historyData = {
     },
     {
         "id": "hist_jainism_6",
-        "topic": "Jainism",
+        topic: "Jainism",
         "question": "The division of Jainism into Digambara and Shvetambara sects occurred primarily due to:",
         "options": [
             "Disagreement over ahimsa",
@@ -951,7 +951,7 @@ const historyData = {
     },
     {
         "id": "hist_jainism_7",
-        "topic": "Jainism",
+        topic: "Jainism",
         "question": "The earliest Jain texts (Agamas) were written in which language?",
         "options": [
             "Sanskrit",
@@ -964,7 +964,7 @@ const historyData = {
     },
     {
         "id": "hist_jainism_8",
-        "topic": "Jainism",
+        topic: "Jainism",
         "question": "The famous Dilwara Temples at Mount Abu are associated with:",
         "options": [
             "Buddhism",
@@ -977,7 +977,7 @@ const historyData = {
     },
     {
         "id": "hist_sangam_1",
-        "topic": "Sangam Age",
+        topic: "Harshavardhana & Sangam Age",
         "question": "Which of the following is the earliest available Tamil literary work, focusing on grammar and poetics?",
         "options": [
             "Tolkappiyam",
@@ -990,7 +990,7 @@ const historyData = {
     },
     {
         "id": "hist_sangam_2",
-        "topic": "Sangam Age",
+        topic: "Harshavardhana & Sangam Age",
         "question": "The epic 'Silappadikaram', the story of Kannagi and Kovalan, was written by:",
         "options": [
             "Tiruvalluvar",
@@ -1003,7 +1003,7 @@ const historyData = {
     },
     {
         "id": "hist_sangam_3",
-        "topic": "Sangam Age",
+        topic: "Harshavardhana & Sangam Age",
         "question": "In the Sangam Age, the Chola dynasty's most famous king, known for building the Kallanai Dam, was:",
         "options": [
             "Nedunjeliyan",
@@ -1016,7 +1016,7 @@ const historyData = {
     },
     {
         "id": "hist_sangam_4",
-        "topic": "Sangam Age",
+        topic: "Harshavardhana & Sangam Age",
         "question": "Which Sangam kingdom had its capital at Madurai and its emblem as the 'Fish'?",
         "options": [
             "Cholas",
@@ -1029,7 +1029,7 @@ const historyData = {
     },
     {
         "id": "hist_sangam_5",
-        "topic": "Sangam Age",
+        topic: "Harshavardhana & Sangam Age",
         "question": "The greatest Chera king, Senguttuvan, is famous for initiating the worship of which deity?",
         "options": [
             "Murugan",
@@ -1042,7 +1042,7 @@ const historyData = {
     },
     {
         "id": "hist_temple_1",
-        "topic": "Temple Architecture",
+        topic: "Chalukyas & Pallavas",
         "question": "The Brihadeeswara Temple at Thanjavur, a pinnacle of Dravidian architecture, was built by:",
         "options": [
             "Rajendra Chola",
@@ -1055,7 +1055,7 @@ const historyData = {
     },
     {
         "id": "hist_temple_2",
-        "topic": "Temple Architecture",
+        topic: "Chalukyas & Pallavas",
         "question": "The Kailasanatha Temple at Ellora, carved out of a single rock, was commissioned by which Rashtrakuta king?",
         "options": [
             "Dantidurga",
@@ -1068,7 +1068,7 @@ const historyData = {
     },
     {
         "id": "hist_temple_3",
-        "topic": "Temple Architecture",
+        topic: "Chalukyas & Pallavas",
         "question": "Which Pallava king is credited with building the monolithic Rathas (Pancha Rathas) at Mahabalipuram?",
         "options": [
             "Mahendravarman I",
@@ -1081,7 +1081,7 @@ const historyData = {
     },
     {
         "id": "hist_temple_4",
-        "topic": "Temple Architecture",
+        topic: "Chalukyas & Pallavas",
         "question": "The 'Vesara' style of temple architecture is a hybrid of Nagara and Dravida styles. Which dynasty is most famous for developing it?",
         "options": [
             "Cholas",
@@ -1094,7 +1094,7 @@ const historyData = {
     },
     {
         "id": "hist_temple_5",
-        "topic": "Temple Architecture",
+        topic: "Chalukyas & Pallavas",
         "question": "Which of the following is a key feature of the 'Nagara' style of temple architecture?",
         "options": [
             "Gopuram (gateway)",
@@ -1107,7 +1107,7 @@ const historyData = {
     },
     {
         "id": "hist_temple_6",
-        "topic": "Temple Architecture",
+        topic: "Chalukyas & Pallavas",
         "question": "The Shore Temple at Mahabalipuram and the Kailasanatha Temple at Kanchipuram were built by:",
         "options": [
             "Mahendravarman I",
@@ -1120,7 +1120,7 @@ const historyData = {
     },
     {
         "id": "hist_lit_1",
-        "topic": "Ancient Literature",
+        topic: "Ancient Books & Authors",
         "question": "Who is the author of 'Ashtadhyayi', the earliest known work on Sanskrit grammar?",
         "options": [
             "Patanjali",
@@ -1133,7 +1133,7 @@ const historyData = {
     },
     {
         "id": "hist_lit_2",
-        "topic": "Ancient Literature",
+        topic: "Ancient Books & Authors",
         "question": "The play 'Mricchakatika' (The Little Clay Cart), which gives insights into Gupta-era society, was written by:",
         "options": [
             "Kalidasa",
@@ -1146,7 +1146,7 @@ const historyData = {
     },
     {
         "id": "hist_lit_3",
-        "topic": "Ancient Literature",
+        topic: "Ancient Books & Authors",
         "question": "Which text is considered a manual on statecraft, economic policy, and military strategy?",
         "options": [
             "Manusmriti",
@@ -1159,7 +1159,7 @@ const historyData = {
     },
     {
         "id": "hist_lit_4",
-        "topic": "Ancient Literature",
+        topic: "Ancient Books & Authors",
         "question": "The 'Panchatantra', a collection of ancient Indian animal fables, is attributed to:",
         "options": [
             "Vishnu Sharma",
@@ -1172,7 +1172,7 @@ const historyData = {
     },
     {
         "id": "hist_lit_5",
-        "topic": "Ancient Literature",
+        topic: "Ancient Books & Authors",
         "question": "Who among the Navaratnas of Chandragupta II authored 'Amarkosh' (a Sanskrit lexicon)?",
         "options": [
             "Kalidasa",
@@ -1185,7 +1185,7 @@ const historyData = {
     },
     {
         "id": "hist_lit_6",
-        "topic": "Ancient Literature",
+        topic: "Ancient Books & Authors",
         "question": "The author of 'Mudrarakshasa', a play detailing how Chandragupta Maurya overthrew the Nandas, is:",
         "options": [
             "Sudraka",
@@ -1198,7 +1198,7 @@ const historyData = {
     },
     {
         "id": "hist_stone_1",
-        "topic": "Stone Age",
+        topic: "Stone Age",
         "question": "The famous rock shelters of Bhimbetka, exhibiting Paleolithic and Mesolithic cave paintings, are located in:",
         "options": [
             "Maharashtra",
@@ -1211,7 +1211,7 @@ const historyData = {
     },
     {
         "id": "hist_stone_2",
-        "topic": "Stone Age",
+        topic: "Stone Age",
         "question": "Which of the following is one of the earliest known Neolithic sites in the Indian subcontinent, showing evidence of agriculture (wheat/barley)?",
         "options": [
             "Burzahom",
@@ -1224,7 +1224,7 @@ const historyData = {
     },
     {
         "id": "hist_stone_3",
-        "topic": "Stone Age",
+        topic: "Stone Age",
         "question": "The Neolithic site of Burzahom is famous for its 'pit dwellings' and burying dogs with their masters. Where is it located?",
         "options": [
             "Kashmir",
@@ -1237,7 +1237,7 @@ const historyData = {
     },
     {
         "id": "hist_stone_4",
-        "topic": "Stone Age",
+        topic: "Stone Age",
         "question": "Microliths (tiny stone tools) are the characteristic tools of which prehistoric period?",
         "options": [
             "Paleolithic",
@@ -1250,7 +1250,7 @@ const historyData = {
     },
     {
         "id": "hist_stone_5",
-        "topic": "Stone Age",
+        topic: "Stone Age",
         "question": "The first metal used by prehistoric humans in India was:",
         "options": [
             "Iron",
@@ -1263,7 +1263,7 @@ const historyData = {
     },
     {
         "id": "hist_vedic_1",
-        "topic": "Vedic Age",
+        topic: "The Vedic Age",
         "question": "Which of the six orthodox schools of Indian philosophy (Darshanas) was founded by Kapila?",
         "options": [
             "Nyaya",
@@ -1276,7 +1276,7 @@ const historyData = {
     },
     {
         "id": "hist_vedic_2",
-        "topic": "Vedic Age",
+        topic: "The Vedic Age",
         "question": "The 'Satyameva Jayate' (Truth alone triumphs) motto is taken from which Upanishad?",
         "options": [
             "Katha Upanishad",
@@ -1289,7 +1289,7 @@ const historyData = {
     },
     {
         "id": "hist_vedic_3",
-        "topic": "Vedic Age",
+        topic: "The Vedic Age",
         "question": "Which of the following Vedangas deals with 'Metrics' (Poetic meter)?",
         "options": [
             "Shiksha",
@@ -1302,7 +1302,7 @@ const historyData = {
     },
     {
         "id": "hist_vedic_4",
-        "topic": "Vedic Age",
+        topic: "The Vedic Age",
         "question": "The Battle of Ten Kings (Dasharajna) mentioned in the Rig Veda was fought on the banks of which river?",
         "options": [
             "Sindhu (Indus)",
@@ -1315,7 +1315,7 @@ const historyData = {
     },
     {
         "id": "hist_vedic_5",
-        "topic": "Vedic Age",
+        topic: "The Vedic Age",
         "question": "In the Rigvedic society, the term 'Nishka' originally referred to:",
         "options": [
             "A gold ornament/coin",
@@ -1328,7 +1328,7 @@ const historyData = {
     },
     {
         "id": "hist_deep_1",
-        "topic": "Post-Mauryan",
+        topic: "Post-Mauryan & Foreign Invasions",
         "question": "The Shaka Era (78 AD), which is the official civil calendar of India, was founded by:",
         "options": [
             "Vikramaditya",
@@ -1341,7 +1341,7 @@ const historyData = {
     },
     {
         "id": "hist_deep_2",
-        "topic": "Post-Mauryan",
+        topic: "Post-Mauryan & Foreign Invasions",
         "question": "The greatest Shaka ruler, known for repairing the Sudarshana Lake in Gujarat, was:",
         "options": [
             "Nahapana",
@@ -1354,7 +1354,7 @@ const historyData = {
     },
     {
         "id": "hist_deep_3",
-        "topic": "Gupta Empire",
+        topic: "Gupta Empire",
         "question": "Who was the first Gupta ruler to issue silver coins?",
         "options": [
             "Chandragupta I",
@@ -1367,7 +1367,7 @@ const historyData = {
     },
     {
         "id": "hist_deep_4",
-        "topic": "Harshavardhana",
+        topic: "Harshavardhana & Sangam Age",
         "question": "The Chinese traveler Hiuen Tsang (Xuanzang) visited India during the reign of:",
         "options": [
             "Chandragupta II",
@@ -1379,36 +1379,36 @@ const historyData = {
         "explanation": "Hiuen Tsang visited during Harsha's reign. Fa-Hien visited during Chandragupta II's reign."
     }
 ,
-{"id": "hist_fc_1", "topic": "Indus Valley Civilization", "question": "The Indus Valley Civilization was initially called:", "options": ["Harappan Civilization", "Mohenjo-Daro Civilization", "Aryan Civilization", "Vedic Civilization"], "correct": 0, "explanation": "It was first discovered at Harappa."},
-{"id": "hist_fc_2", "topic": "Indus Valley Civilization", "question": "Which of the following was the southernmost site of the IVC?", "options": ["Alamgirpur", "Daimabad", "Manda", "Sutkagendor"], "correct": 1, "explanation": "Daimabad in Maharashtra is the southernmost site."},
-{"id": "hist_fc_3", "topic": "Indus Valley Civilization", "question": "The script of the Indus Valley Civilization was:", "options": ["Brahmi", "Kharoshthi", "Boustrophedon", "Devanagari"], "correct": 2, "explanation": "Written right to left in first line and left to right in the second (Boustrophedon). Undeciphered."},
-{"id": "hist_fc_4", "topic": "Indus Valley Civilization", "question": "Which site provides evidence of a stadium?", "options": ["Lothal", "Dholavira", "Harappa", "Kalibangan"], "correct": 1, "explanation": "Dholavira, known for its unique water management and stadium."},
-{"id": "hist_fc_5", "topic": "Indus Valley Civilization", "question": "The famous 'Pashupati Seal' was found at:", "options": ["Harappa", "Lothal", "Mohenjo-Daro", "Ropar"], "correct": 2, "explanation": "Found at Mohenjo-Daro, depicting a seated figure surrounded by animals."},
-{"id": "hist_fc_6", "topic": "Vedic Age", "question": "The term 'Arya' denotes:", "options": ["A speech group/noble", "A nomadic people", "A racial group", "A cultivating class"], "correct": 0, "explanation": "Arya means a noble person or a linguistic group."},
-{"id": "hist_fc_7", "topic": "Vedic Age", "question": "Which river is praised most frequently in the Rig Veda?", "options": ["Ganga", "Yamuna", "Saraswati", "Sindhu (Indus)"], "correct": 3, "explanation": "Sindhu is mentioned most, while Saraswati is considered the holiest."},
-{"id": "hist_fc_8", "topic": "Vedic Age", "question": "What was the main form of wealth in the Early Vedic period?", "options": ["Gold", "Land", "Cows (Godhan)", "Coins"], "correct": 2, "explanation": "Cattle was the primary measure of wealth."},
-{"id": "hist_fc_9", "topic": "Vedic Age", "question": "The 10th Mandala of the Rig Veda contains the Purusha Sukta which explains:", "options": ["Gayatri Mantra", "Varna System", "Battle of Ten Kings", "Creation of Universe"], "correct": 1, "explanation": "The Purusha Sukta mentions the origin of the 4 varnas."},
-{"id": "hist_fc_10", "topic": "Vedic Age", "question": "Which Veda is considered the origin of Indian Music?", "options": ["Rig Veda", "Sama Veda", "Yajur Veda", "Atharva Veda"], "correct": 1, "explanation": "Sama Veda is the book of chants and melodies."},
-{"id": "hist_fc_11", "topic": "Mahajanapadas", "question": "Bimbisara belonged to which dynasty?", "options": ["Haryanka", "Shishunaga", "Nanda", "Maurya"], "correct": 0, "explanation": "Founder of the Haryanka dynasty."},
-{"id": "hist_fc_12", "topic": "Mahajanapadas", "question": "Who was the ruler of Magadha during Alexander's invasion?", "options": ["Bimbisara", "Chandragupta Maurya", "Dhana Nanda", "Ajatashatru"], "correct": 2, "explanation": "Alexander invaded in 326 BC during the reign of Dhana Nanda."},
-{"id": "hist_fc_13", "topic": "Mahajanapadas", "question": "Which Mahajanapada was situated on the banks of Godavari?", "options": ["Avanti", "Vatsa", "Ashmaka", "Kamboja"], "correct": 2, "explanation": "Ashmaka was the only Mahajanapada in South India."},
-{"id": "hist_fc_14", "topic": "Mahajanapadas", "question": "The capital of Kosala Mahajanapada was:", "options": ["Shravasti", "Mathura", "Ujjain", "Kaushambi"], "correct": 0, "explanation": "Shravasti was the capital of Kosala."},
-{"id": "hist_fc_15", "topic": "Mauryan Empire", "question": "Who was the Greek ambassador sent by Seleucus Nicator to Chandragupta Maurya's court?", "options": ["Ptolemy", "Deimachus", "Megasthenes", "Pliny"], "correct": 2, "explanation": "Megasthenes wrote 'Indica'."},
-{"id": "hist_fc_16", "topic": "Mauryan Empire", "question": "In which edict did Ashoka declare his faith in Buddha, Dhamma, and Sangha?", "options": ["Maski Edict", "Bhabru Edict", "Kalinga Edict", "Rumindei Pillar Edict"], "correct": 1, "explanation": "Bhabru (Bairat) Edict."},
-{"id": "hist_fc_17", "topic": "Mauryan Empire", "question": "The Third Buddhist Council at Pataliputra was presided over by:", "options": ["Mahakassapa", "Sabakami", "Moggaliputta Tissa", "Vasumitra"], "correct": 2, "explanation": "Convened by Ashoka, presided by Moggaliputta Tissa."},
-{"id": "hist_fc_18", "topic": "Mauryan Empire", "question": "The last Mauryan king Brihadratha was assassinated by his commander-in-chief:", "options": ["Agnimitra", "Pushyamitra Shunga", "Vasudeva", "Simuka"], "correct": 1, "explanation": "Pushyamitra founded the Shunga dynasty."},
-{"id": "hist_fc_19", "topic": "Post-Mauryan", "question": "The Shaka Era (78 AD) was founded by:", "options": ["Rudradaman", "Kanishka", "Vikramaditya", "Kadphises"], "correct": 1, "explanation": "Kanishka, the greatest Kushana ruler, started the Shaka Era."},
-{"id": "hist_fc_20", "topic": "Post-Mauryan", "question": "Who was the founder of the Satavahana Dynasty?", "options": ["Gautamiputra Satakarni", "Hala", "Simuka", "Sri Yajna Satakarni"], "correct": 2, "explanation": "Simuka founded the Satavahana dynasty."},
-{"id": "hist_fc_21", "topic": "Post-Mauryan", "question": "The Junagarh rock inscription is associated with which ruler?", "options": ["Ashoka", "Rudradaman I", "Chandragupta II", "Skandagupta"], "correct": 1, "explanation": "It mentions the repair of the Sudarshana Lake by Rudradaman."},
-{"id": "hist_fc_22", "topic": "Gupta Empire", "question": "Who assumed the title of 'Vikramaditya'?", "options": ["Samudragupta", "Chandragupta I", "Chandragupta II", "Skandagupta"], "correct": 2, "explanation": "He defeated the Shakas and took this title."},
-{"id": "hist_fc_23", "topic": "Gupta Empire", "question": "The Allahabad Pillar inscription (Prayag Prashasti) was composed by:", "options": ["Kalidasa", "Harishena", "Banabhatta", "Ravikirti"], "correct": 1, "explanation": "Harishena was the court poet of Samudragupta."},
-{"id": "hist_fc_24", "topic": "Gupta Empire", "question": "Which Gupta ruler successfully repulsed the Huna invasion?", "options": ["Kumaragupta", "Skandagupta", "Samudragupta", "Bhanugupta"], "correct": 1, "explanation": "Skandagupta saved the empire from the ferocious Hunas."},
-{"id": "hist_fc_25", "topic": "Gupta Empire", "question": "Who is known as the 'Indian Shakespeare'?", "options": ["Bhasa", "Kalidasa", "Sudraka", "Vishakhadatta"], "correct": 1, "explanation": "Kalidasa wrote masterpieces like Abhijnanasakuntalam."},
-{"id": "hist_fc_26", "topic": "Harshavardhana", "question": "Harshavardhana organized a grand religious assembly every five years at:", "options": ["Kannauj", "Thanesar", "Prayag", "Ujjain"], "correct": 2, "explanation": "The Maha Moksha Parishad at Prayag (Allahabad)."},
-{"id": "hist_fc_27", "topic": "Harshavardhana", "question": "Who was the author of the Aihole Inscription?", "options": ["Harishena", "Ravikirti", "Banabhatta", "Dandin"], "correct": 1, "explanation": "Ravikirti was the court poet of Pulakesin II."},
-{"id": "hist_fc_28", "topic": "Sangam Age", "question": "The epic 'Silappadikaram' was written by:", "options": ["Ilango Adigal", "Sattanar", "Tolkappiyar", "Tiruvalluvar"], "correct": 0, "explanation": "Ilango Adigal wrote the story of Kovalan and Kannagi."},
-{"id": "hist_fc_29", "topic": "Sangam Age", "question": "Which of the following was the capital of the Cholas during the Sangam Age?", "options": ["Madurai", "Uraiyur", "Vanji", "Kanchi"], "correct": 1, "explanation": "Uraiyur was famous for cotton trade."},
-{"id": "hist_fc_30", "topic": "Sangam Age", "question": "Who wrote the 'Tirukkural', a masterpiece of Tamil literature?", "options": ["Tolkappiyar", "Tiruvalluvar", "Kambar", "Avvaiyar"], "correct": 1, "explanation": "Tiruvalluvar."},
+{"id": "hist_fc_1", topic: "Indus Valley Civilization", "question": "The Indus Valley Civilization was initially called:", "options": ["Harappan Civilization", "Mohenjo-Daro Civilization", "Aryan Civilization", "Vedic Civilization"], "correct": 0, "explanation": "It was first discovered at Harappa."},
+{"id": "hist_fc_2", topic: "Indus Valley Civilization", "question": "Which of the following was the southernmost site of the IVC?", "options": ["Alamgirpur", "Daimabad", "Manda", "Sutkagendor"], "correct": 1, "explanation": "Daimabad in Maharashtra is the southernmost site."},
+{"id": "hist_fc_3", topic: "Indus Valley Civilization", "question": "The script of the Indus Valley Civilization was:", "options": ["Brahmi", "Kharoshthi", "Boustrophedon", "Devanagari"], "correct": 2, "explanation": "Written right to left in first line and left to right in the second (Boustrophedon). Undeciphered."},
+{"id": "hist_fc_4", topic: "Indus Valley Civilization", "question": "Which site provides evidence of a stadium?", "options": ["Lothal", "Dholavira", "Harappa", "Kalibangan"], "correct": 1, "explanation": "Dholavira, known for its unique water management and stadium."},
+{"id": "hist_fc_5", topic: "Indus Valley Civilization", "question": "The famous 'Pashupati Seal' was found at:", "options": ["Harappa", "Lothal", "Mohenjo-Daro", "Ropar"], "correct": 2, "explanation": "Found at Mohenjo-Daro, depicting a seated figure surrounded by animals."},
+{"id": "hist_fc_6", topic: "The Vedic Age", "question": "The term 'Arya' denotes:", "options": ["A speech group/noble", "A nomadic people", "A racial group", "A cultivating class"], "correct": 0, "explanation": "Arya means a noble person or a linguistic group."},
+{"id": "hist_fc_7", topic: "The Vedic Age", "question": "Which river is praised most frequently in the Rig Veda?", "options": ["Ganga", "Yamuna", "Saraswati", "Sindhu (Indus)"], "correct": 3, "explanation": "Sindhu is mentioned most, while Saraswati is considered the holiest."},
+{"id": "hist_fc_8", topic: "The Vedic Age", "question": "What was the main form of wealth in the Early Vedic period?", "options": ["Gold", "Land", "Cows (Godhan)", "Coins"], "correct": 2, "explanation": "Cattle was the primary measure of wealth."},
+{"id": "hist_fc_9", topic: "The Vedic Age", "question": "The 10th Mandala of the Rig Veda contains the Purusha Sukta which explains:", "options": ["Gayatri Mantra", "Varna System", "Battle of Ten Kings", "Creation of Universe"], "correct": 1, "explanation": "The Purusha Sukta mentions the origin of the 4 varnas."},
+{"id": "hist_fc_10", topic: "The Vedic Age", "question": "Which Veda is considered the origin of Indian Music?", "options": ["Rig Veda", "Sama Veda", "Yajur Veda", "Atharva Veda"], "correct": 1, "explanation": "Sama Veda is the book of chants and melodies."},
+{"id": "hist_fc_11", topic: "Mahajanapadas & Magadha Empire", "question": "Bimbisara belonged to which dynasty?", "options": ["Haryanka", "Shishunaga", "Nanda", "Maurya"], "correct": 0, "explanation": "Founder of the Haryanka dynasty."},
+{"id": "hist_fc_12", topic: "Mahajanapadas & Magadha Empire", "question": "Who was the ruler of Magadha during Alexander's invasion?", "options": ["Bimbisara", "Chandragupta Maurya", "Dhana Nanda", "Ajatashatru"], "correct": 2, "explanation": "Alexander invaded in 326 BC during the reign of Dhana Nanda."},
+{"id": "hist_fc_13", topic: "Mahajanapadas & Magadha Empire", "question": "Which Mahajanapada was situated on the banks of Godavari?", "options": ["Avanti", "Vatsa", "Ashmaka", "Kamboja"], "correct": 2, "explanation": "Ashmaka was the only Mahajanapada in South India."},
+{"id": "hist_fc_14", topic: "Mahajanapadas & Magadha Empire", "question": "The capital of Kosala Mahajanapada was:", "options": ["Shravasti", "Mathura", "Ujjain", "Kaushambi"], "correct": 0, "explanation": "Shravasti was the capital of Kosala."},
+{"id": "hist_fc_15", topic: "Mauryan Empire", "question": "Who was the Greek ambassador sent by Seleucus Nicator to Chandragupta Maurya's court?", "options": ["Ptolemy", "Deimachus", "Megasthenes", "Pliny"], "correct": 2, "explanation": "Megasthenes wrote 'Indica'."},
+{"id": "hist_fc_16", topic: "Mauryan Empire", "question": "In which edict did Ashoka declare his faith in Buddha, Dhamma, and Sangha?", "options": ["Maski Edict", "Bhabru Edict", "Kalinga Edict", "Rumindei Pillar Edict"], "correct": 1, "explanation": "Bhabru (Bairat) Edict."},
+{"id": "hist_fc_17", topic: "Mauryan Empire", "question": "The Third Buddhist Council at Pataliputra was presided over by:", "options": ["Mahakassapa", "Sabakami", "Moggaliputta Tissa", "Vasumitra"], "correct": 2, "explanation": "Convened by Ashoka, presided by Moggaliputta Tissa."},
+{"id": "hist_fc_18", topic: "Mauryan Empire", "question": "The last Mauryan king Brihadratha was assassinated by his commander-in-chief:", "options": ["Agnimitra", "Pushyamitra Shunga", "Vasudeva", "Simuka"], "correct": 1, "explanation": "Pushyamitra founded the Shunga dynasty."},
+{"id": "hist_fc_19", topic: "Post-Mauryan & Foreign Invasions", "question": "The Shaka Era (78 AD) was founded by:", "options": ["Rudradaman", "Kanishka", "Vikramaditya", "Kadphises"], "correct": 1, "explanation": "Kanishka, the greatest Kushana ruler, started the Shaka Era."},
+{"id": "hist_fc_20", topic: "Post-Mauryan & Foreign Invasions", "question": "Who was the founder of the Satavahana Dynasty?", "options": ["Gautamiputra Satakarni", "Hala", "Simuka", "Sri Yajna Satakarni"], "correct": 2, "explanation": "Simuka founded the Satavahana dynasty."},
+{"id": "hist_fc_21", topic: "Post-Mauryan & Foreign Invasions", "question": "The Junagarh rock inscription is associated with which ruler?", "options": ["Ashoka", "Rudradaman I", "Chandragupta II", "Skandagupta"], "correct": 1, "explanation": "It mentions the repair of the Sudarshana Lake by Rudradaman."},
+{"id": "hist_fc_22", topic: "Gupta Empire", "question": "Who assumed the title of 'Vikramaditya'?", "options": ["Samudragupta", "Chandragupta I", "Chandragupta II", "Skandagupta"], "correct": 2, "explanation": "He defeated the Shakas and took this title."},
+{"id": "hist_fc_23", topic: "Gupta Empire", "question": "The Allahabad Pillar inscription (Prayag Prashasti) was composed by:", "options": ["Kalidasa", "Harishena", "Banabhatta", "Ravikirti"], "correct": 1, "explanation": "Harishena was the court poet of Samudragupta."},
+{"id": "hist_fc_24", topic: "Gupta Empire", "question": "Which Gupta ruler successfully repulsed the Huna invasion?", "options": ["Kumaragupta", "Skandagupta", "Samudragupta", "Bhanugupta"], "correct": 1, "explanation": "Skandagupta saved the empire from the ferocious Hunas."},
+{"id": "hist_fc_25", topic: "Gupta Empire", "question": "Who is known as the 'Indian Shakespeare'?", "options": ["Bhasa", "Kalidasa", "Sudraka", "Vishakhadatta"], "correct": 1, "explanation": "Kalidasa wrote masterpieces like Abhijnanasakuntalam."},
+{"id": "hist_fc_26", topic: "Harshavardhana & Sangam Age", "question": "Harshavardhana organized a grand religious assembly every five years at:", "options": ["Kannauj", "Thanesar", "Prayag", "Ujjain"], "correct": 2, "explanation": "The Maha Moksha Parishad at Prayag (Allahabad)."},
+{"id": "hist_fc_27", topic: "Harshavardhana & Sangam Age", "question": "Who was the author of the Aihole Inscription?", "options": ["Harishena", "Ravikirti", "Banabhatta", "Dandin"], "correct": 1, "explanation": "Ravikirti was the court poet of Pulakesin II."},
+{"id": "hist_fc_28", topic: "Harshavardhana & Sangam Age", "question": "The epic 'Silappadikaram' was written by:", "options": ["Ilango Adigal", "Sattanar", "Tolkappiyar", "Tiruvalluvar"], "correct": 0, "explanation": "Ilango Adigal wrote the story of Kovalan and Kannagi."},
+{"id": "hist_fc_29", topic: "Harshavardhana & Sangam Age", "question": "Which of the following was the capital of the Cholas during the Sangam Age?", "options": ["Madurai", "Uraiyur", "Vanji", "Kanchi"], "correct": 1, "explanation": "Uraiyur was famous for cotton trade."},
+{"id": "hist_fc_30", topic: "Harshavardhana & Sangam Age", "question": "Who wrote the 'Tirukkural', a masterpiece of Tamil literature?", "options": ["Tolkappiyar", "Tiruvalluvar", "Kambar", "Avvaiyar"], "correct": 1, "explanation": "Tiruvalluvar."},
 
         { id: "hist_21", topic: "Indus Valley Civilization", question: "Which Indus Valley site has provided evidence of a ploughed field and fire altars?", options: ["Mohenjo-Daro", "Harappa", "Kalibangan", "Lothal"], answer: 2, explanation: "Correct Answer: Kalibangan (Rajasthan)." },
         { id: "hist_22", topic: "Indus Valley Civilization", question: "The famous 'Bronze Dancing Girl' statue was excavated from:", options: ["Lothal", "Mohenjo-Daro", "Dholavira", "Harappa"], answer: 1, explanation: "Correct Answer: Mohenjo-Daro." },
@@ -1596,299 +1596,299 @@ const historyData = {
     ],
     flashcards: [
     {
-        "topic": "Indus Valley Civilization",
+        topic: "Indus Valley Civilization",
         "front": "Which IVC site is located in Gujarat and has a 3-part division?",
         "back": "Dholavira."
     },
     {
-        "topic": "Indus Valley Civilization",
+        topic: "Indus Valley Civilization",
         "front": "Where was the 'Dancing Girl' bronze statue found?",
         "back": "Mohenjo-Daro."
     },
     {
-        "topic": "Vedic Age",
+        topic: "The Vedic Age",
         "front": "Which Mandala of the Rig Veda contains the Gayatri Mantra?",
         "back": "3rd Mandala (composed by Vishvamitra)."
     },
     {
-        "topic": "Mahajanapadas",
+        topic: "Mahajanapadas & Magadha Empire",
         "front": "Who was the founder of the Nanda Dynasty?",
         "back": "Mahapadma Nanda."
     },
     {
-        "topic": "Mauryan Empire",
+        topic: "Mauryan Empire",
         "front": "Which Greek ambassador wrote 'Indica' in Chandragupta Maurya's court?",
         "back": "Megasthenes."
     },
     {
-        "topic": "Mauryan Empire",
+        topic: "Mauryan Empire",
         "front": "Which Rock Edict mentions the Kalinga War?",
         "back": "Major Rock Edict XIII."
     },
     {
-        "topic": "Gupta Empire",
+        topic: "Gupta Empire",
         "front": "Who composed the Allahabad Pillar Inscription (Prayag Prashasti)?",
         "back": "Harishena (court poet of Samudragupta)."
     },
     {
-        "topic": "Chalukyas",
+        topic: "Chalukyas & Pallavas",
         "front": "Who composed the Aihole Inscription for Pulakesin II?",
         "back": "Ravikirti."
     },
     {
-        "topic": "Ancient Literature",
+        topic: "Ancient Books & Authors",
         "front": "Who wrote the medical text Charaka Samhita?",
         "back": "Charaka (physician to Kanishka)."
     }
 ,
     {
-        "topic": "Buddhism",
+        topic: "Buddhism",
         "front": "Who presided over the 1st Buddhist Council?",
         "back": "Mahakashyapa (Patron: Ajatashatru, Place: Rajgriha)."
     },
     {
-        "topic": "Buddhism",
+        topic: "Buddhism",
         "front": "Which Council split Buddhism into Hinayana and Mahayana?",
         "back": "4th Buddhist Council (Kashmir, Patron: Kanishka, President: Vasumitra)."
     },
     {
-        "topic": "Buddhism",
+        topic: "Buddhism",
         "front": "What does the Abhidhamma Pitaka contain?",
         "back": "Philosophical and psychological discourses of Buddhism."
     },
     {
-        "topic": "Buddhism",
+        topic: "Buddhism",
         "front": "What does the Wheel (Chakra) symbolize in Buddha's life?",
         "back": "First Sermon (Dharmachakrapravartana) at Sarnath."
     },
     {
-        "topic": "Buddhism",
+        topic: "Buddhism",
         "front": "Which language was mostly used for early Buddhist texts?",
         "back": "Pali language."
     },
     {
-        "topic": "Buddhism",
+        topic: "Buddhism",
         "front": "Who founded the Vikramashila University?",
         "back": "Dharmapala (Pala Dynasty)."
     },
     {
-        "topic": "Jainism",
+        topic: "Jainism",
         "front": "Who was the 23rd Tirthankara?",
         "back": "Parshvanatha (symbol: snake)."
     },
     {
-        "topic": "Jainism",
+        topic: "Jainism",
         "front": "What are the Triratna (Three Jewels) of Jainism?",
         "back": "Right Faith (Samyak Darshana), Right Knowledge (Samyak Jnana), Right Conduct (Samyak Charitra)."
     },
     {
-        "topic": "Jainism",
+        topic: "Jainism",
         "front": "What is Syadvada?",
         "back": "Jain doctrine of 'relative truth' or 'maybe' (Anekantavada)."
     },
     {
-        "topic": "Jainism",
+        topic: "Jainism",
         "front": "Which vow was added by Mahavira to the Jain Mahavratas?",
         "back": "Brahmacharya (Celibacy)."
     },
     {
-        "topic": "Jainism",
+        topic: "Jainism",
         "front": "Who led the Digambara sect south during the Magadha famine?",
         "back": "Bhadrabahu."
     },
     {
-        "topic": "Sangam Age",
+        topic: "Harshavardhana & Sangam Age",
         "front": "What is the Tolkappiyam?",
         "back": "The earliest extant Tamil work, focusing on grammar and poetics."
     },
     {
-        "topic": "Sangam Age",
+        topic: "Harshavardhana & Sangam Age",
         "front": "Who wrote Silappadikaram?",
         "back": "Ilango Adigal."
     },
     {
-        "topic": "Sangam Age",
+        topic: "Harshavardhana & Sangam Age",
         "front": "Which Sangam king built the Kallanai Dam?",
         "back": "Karikala (Chola dynasty)."
     },
     {
-        "topic": "Sangam Age",
+        topic: "Harshavardhana & Sangam Age",
         "front": "What was the emblem of the Pandya kingdom?",
         "back": "Fish (Capital: Madurai)."
     },
     {
-        "topic": "Sangam Age",
+        topic: "Harshavardhana & Sangam Age",
         "front": "Who started the Pattini Cult (worship of Kannagi)?",
         "back": "Senguttuvan (The Red Chera)."
     },
     {
-        "topic": "Temple Architecture",
+        topic: "Chalukyas & Pallavas",
         "front": "Who built the Brihadeeswara Temple at Thanjavur?",
         "back": "Rajaraja Chola I."
     },
     {
-        "topic": "Temple Architecture",
+        topic: "Chalukyas & Pallavas",
         "front": "Who built the rock-cut Kailasanatha Temple at Ellora?",
         "back": "Krishna I (Rashtrakuta dynasty)."
     },
     {
-        "topic": "Temple Architecture",
+        topic: "Chalukyas & Pallavas",
         "front": "Which Pallava king built the Pancha Rathas at Mahabalipuram?",
         "back": "Narasimhavarman I (Mamalla)."
     },
     {
-        "topic": "Temple Architecture",
+        topic: "Chalukyas & Pallavas",
         "front": "Which style mixes Nagara (North) and Dravida (South) features?",
         "back": "Vesara style (pioneered by Chalukyas)."
     },
     {
-        "topic": "Temple Architecture",
+        topic: "Chalukyas & Pallavas",
         "front": "Who built the Shore Temple at Mahabalipuram?",
         "back": "Narasimhavarman II (Rajasimha)."
     },
     {
-        "topic": "Ancient Literature",
+        topic: "Ancient Books & Authors",
         "front": "Who wrote Ashtadhyayi (Sanskrit grammar)?",
         "back": "Panini."
     },
     {
-        "topic": "Ancient Literature",
+        topic: "Ancient Books & Authors",
         "front": "Who wrote Mricchakatika (The Little Clay Cart)?",
         "back": "Sudraka."
     },
     {
-        "topic": "Ancient Literature",
+        topic: "Ancient Books & Authors",
         "front": "Who wrote Panchatantra?",
         "back": "Vishnu Sharma."
     },
     {
-        "topic": "Ancient Literature",
+        topic: "Ancient Books & Authors",
         "front": "Who wrote Mudrarakshasa?",
         "back": "Vishakhadatta."
     },
     {
-        "topic": "Ancient Literature",
+        topic: "Ancient Books & Authors",
         "front": "Which Navaratna wrote the Sanskrit lexicon 'Amarkosh'?",
         "back": "Amarasimha."
     },
     {
-        "topic": "Stone Age",
+        topic: "Stone Age",
         "front": "Which prehistoric site is famous for Paleolithic cave paintings?",
         "back": "Bhimbetka (Madhya Pradesh)."
     },
     {
-        "topic": "Stone Age",
+        topic: "Stone Age",
         "front": "Which early Neolithic site shows the first evidence of agriculture?",
         "back": "Mehrgarh (Balochistan, Pakistan)."
     },
     {
-        "topic": "Stone Age",
+        topic: "Stone Age",
         "front": "Which Neolithic site is known for pit dwellings and burying dogs with masters?",
         "back": "Burzahom (Kashmir)."
     },
     {
-        "topic": "Stone Age",
+        topic: "Stone Age",
         "front": "Microliths are the hallmark of which Stone Age period?",
         "back": "Mesolithic (Middle Stone Age)."
     },
     {
-        "topic": "Vedic Age",
+        topic: "The Vedic Age",
         "front": "Who founded the Sankhya philosophy?",
         "back": "Kapila."
     },
     {
-        "topic": "Vedic Age",
+        topic: "The Vedic Age",
         "front": "From which Upanishad is 'Satyameva Jayate' derived?",
         "back": "Mundaka Upanishad."
     },
     {
-        "topic": "Vedic Age",
+        topic: "The Vedic Age",
         "front": "What does the Vedanga 'Chhanda' deal with?",
         "back": "Metrics (Poetic meter)."
     },
     {
-        "topic": "Vedic Age",
+        topic: "The Vedic Age",
         "front": "On which river was the Battle of Ten Kings (Dasharajna) fought?",
         "back": "Parushni (Ravi) river."
     },
     {
-        "topic": "Vedic Age",
+        topic: "The Vedic Age",
         "front": "What was 'Nishka' in the Rigvedic period?",
         "back": "A gold ornament/necklace (later used as currency)."
     },
     {
-        "topic": "Post-Mauryan",
+        topic: "Post-Mauryan & Foreign Invasions",
         "front": "Who founded the Shaka Era (78 AD)?",
         "back": "Kanishka (Kushana)."
     },
     {
-        "topic": "Post-Mauryan",
+        topic: "Post-Mauryan & Foreign Invasions",
         "front": "Which Shaka ruler repaired the Sudarshana Lake and left a Sanskrit inscription?",
         "back": "Rudradaman I."
     },
     {
-        "topic": "Gupta Empire",
+        topic: "Gupta Empire",
         "front": "Who was the first Gupta ruler to issue silver coins?",
         "back": "Chandragupta II (Vikramaditya)."
     },
     {
-        "topic": "Harshavardhana",
+        topic: "Harshavardhana & Sangam Age",
         "front": "Which Chinese traveler visited India during Harsha's reign?",
         "back": "Hiuen Tsang (Xuanzang)."
     }
 ,
-{"topic": "Indus Valley Civilization", "front": "Which Indus Valley site is known for having NO Citadel?", "back": "Chanhudaro."},
-{"topic": "Indus Valley Civilization", "front": "Where was the 'Great Bath' and 'Great Granary' found?", "back": "Mohenjo-Daro."},
-{"topic": "Indus Valley Civilization", "front": "Which IVC site is uniquely divided into THREE parts?", "back": "Dholavira (Gujarat)."},
-{"topic": "Indus Valley Civilization", "front": "Evidence of ploughed field and fire altars was found where?", "back": "Kalibangan (Rajasthan)."},
-{"topic": "Indus Valley Civilization", "front": "The dockyard was found at which IVC site?", "back": "Lothal (Gujarat) - situated on the Bhogava river."},
-{"topic": "Indus Valley Civilization", "front": "Which animal was NOT known to the Indus Valley people?", "back": "Horse (mostly absent) and Lion (unknown)."},
-{"topic": "Indus Valley Civilization", "front": "What was the main staple crop of the IVC?", "back": "Wheat and Barley."},
-{"topic": "Vedic Age", "front": "What is the oldest Veda containing the Gayatri Mantra?", "back": "Rig Veda (3rd Mandala)."},
-{"topic": "Vedic Age", "front": "Which Veda deals with magical formulas and spells?", "back": "Atharva Veda."},
-{"topic": "Vedic Age", "front": "The Battle of Ten Kings (Dasarajna) was fought on the banks of which river?", "back": "Parushni (modern Ravi)."},
-{"topic": "Vedic Age", "front": "What does 'Satyameva Jayate' translate to and where is it from?", "back": "Truth alone triumphs, from the Mundaka Upanishad."},
-{"topic": "Vedic Age", "front": "Who is the god of plants in the Rig Veda (9th Mandala)?", "back": "Soma."},
-{"topic": "Vedic Age", "front": "What was the basic unit of political organization in the Rig Vedic period?", "back": "Kula (family)."},
-{"topic": "Vedic Age", "front": "What is the primary theme of the Upanishads?", "back": "Philosophy and spiritual knowledge."},
-{"topic": "Mahajanapadas", "front": "What were the two types of Mahajanapadas?", "back": "Monarchies and Republics (Ganas/Sanghas)."},
-{"topic": "Mahajanapadas", "front": "Which was the most powerful Mahajanapada?", "back": "Magadha (Capital: Rajgir, later Pataliputra)."},
-{"topic": "Mahajanapadas", "front": "What was the capital of the Gandhara Mahajanapada?", "back": "Taxila."},
-{"topic": "Mahajanapadas", "front": "Who was the founder of the Haryanka dynasty?", "back": "Bimbisara."},
-{"topic": "Mahajanapadas", "front": "Which ruler convened the 1st Buddhist Council?", "back": "Ajatashatru."},
-{"topic": "Mahajanapadas", "front": "Who overthrew the Nanda dynasty?", "back": "Chandragupta Maurya with the help of Chanakya."},
-{"topic": "Mahajanapadas", "front": "What was the capital of Avanti?", "back": "Ujjain."},
-{"topic": "Buddhism & Jainism", "front": "Where did Gautama Buddha attain enlightenment?", "back": "Bodh Gaya (under a Pipal tree)."},
-{"topic": "Buddhism & Jainism", "front": "Where was the 4th Buddhist Council held?", "back": "Kundalvana, Kashmir (during Kanishka's reign)."},
-{"topic": "Buddhism & Jainism", "front": "What are the two sects of Jainism?", "back": "Svetambaras (white-clad) and Digambaras (sky-clad)."},
-{"topic": "Buddhism & Jainism", "front": "Who was the 24th and last Tirthankara of Jainism?", "back": "Vardhamana Mahavira."},
-{"topic": "Buddhism & Jainism", "front": "What does the term 'Tirthankara' mean?", "back": "Ford-maker (spiritual teacher)."},
-{"topic": "Mauryan Empire", "front": "Who wrote the 'Arthashastra'?", "back": "Chanakya (Kautilya)."},
-{"topic": "Mauryan Empire", "front": "Which Greek ambassador visited Chandragupta Maurya's court?", "back": "Megasthenes (author of 'Indica')."},
-{"topic": "Mauryan Empire", "front": "The Kalinga War (261 BC) is mentioned in which of Ashoka's edicts?", "back": "Major Rock Edict XIII."},
-{"topic": "Mauryan Empire", "front": "What language and script were mostly used in Ashokan Edicts?", "back": "Prakrit language, Brahmi script."},
-{"topic": "Mauryan Empire", "front": "Who was the last Mauryan ruler, assassinated by Pushyamitra Shunga?", "back": "Brihadratha."},
-{"topic": "Mauryan Empire", "front": "What was the 'Dhamma' policy of Ashoka?", "back": "A code of conduct based on peace, tolerance, and respect."},
-{"topic": "Post-Mauryan", "front": "Who issued the first gold coins in India?", "back": "The Indo-Greeks."},
-{"topic": "Post-Mauryan", "front": "Who was the greatest Kushana ruler who started the Shaka Era (78 AD)?", "back": "Kanishka."},
-{"topic": "Post-Mauryan", "front": "Which dynasty is known for the Junagarh Rock Inscription (Rudradaman I)?", "back": "The Shakas (Scythians)."},
-{"topic": "Post-Mauryan", "front": "The Satavahana dynasty was primarily located in which region?", "back": "Deccan and Central India."},
-{"topic": "Post-Mauryan", "front": "Who wrote 'Mahabhashya'?", "back": "Patanjali (during the Shunga period)."},
-{"topic": "Sangam Age", "front": "What was the emblem of the Chola dynasty in the Sangam Age?", "back": "Tiger."},
-{"topic": "Sangam Age", "front": "What was the emblem of the Chera dynasty?", "back": "Bow and Arrow."},
-{"topic": "Sangam Age", "front": "Who authored the Tamil grammatical treatise 'Tolkappiyam'?", "back": "Tolkappiyar."},
-{"topic": "Sangam Age", "front": "What was the capital of the Pandya dynasty?", "back": "Madurai."},
-{"topic": "Gupta Empire", "front": "Who is known as the 'Napoleon of India'?", "back": "Samudragupta (coined by V.A. Smith)."},
-{"topic": "Gupta Empire", "front": "The Iron Pillar of Delhi (Mehrauli) is attributed to which Gupta ruler?", "back": "Chandragupta II (Vikramaditya)."},
-{"topic": "Gupta Empire", "front": "Which Chinese traveler visited India during Chandragupta II's reign?", "back": "Fa-Hien (Faxian)."},
-{"topic": "Gupta Empire", "front": "Who founded the Nalanda University?", "back": "Kumaragupta I."},
-{"topic": "Gupta Empire", "front": "Who wrote 'Abhijnanasakuntalam' and 'Meghaduta'?", "back": "Kalidasa."},
-{"topic": "Gupta Empire", "front": "Who proved that the earth revolves around its own axis during the Gupta period?", "back": "Aryabhata."},
-{"topic": "Gupta Empire", "front": "Who was the founder of the Gupta Empire?", "back": "Sri Gupta."},
-{"topic": "Harshavardhana & Chalukyas", "front": "Who defeated Harshavardhana on the banks of the Narmada?", "back": "Pulakesin II (Chalukya king)."},
-{"topic": "Harshavardhana & Chalukyas", "front": "Who was Harsha's court poet and what did he write?", "back": "Banabhatta (wrote Harshacharita and Kadambari)."},
-{"topic": "Harshavardhana & Chalukyas", "front": "Which Chinese pilgrim visited Harsha's court?", "back": "Hiuen Tsang (Xuanzang)."},
-{"topic": "Harshavardhana & Chalukyas", "front": "The Rathas of Mahabalipuram were built by which dynasty?", "back": "Pallavas (Narasimhavarman I)."},
+{topic: "Indus Valley Civilization", "front": "Which Indus Valley site is known for having NO Citadel?", "back": "Chanhudaro."},
+{topic: "Indus Valley Civilization", "front": "Where was the 'Great Bath' and 'Great Granary' found?", "back": "Mohenjo-Daro."},
+{topic: "Indus Valley Civilization", "front": "Which IVC site is uniquely divided into THREE parts?", "back": "Dholavira (Gujarat)."},
+{topic: "Indus Valley Civilization", "front": "Evidence of ploughed field and fire altars was found where?", "back": "Kalibangan (Rajasthan)."},
+{topic: "Indus Valley Civilization", "front": "The dockyard was found at which IVC site?", "back": "Lothal (Gujarat) - situated on the Bhogava river."},
+{topic: "Indus Valley Civilization", "front": "Which animal was NOT known to the Indus Valley people?", "back": "Horse (mostly absent) and Lion (unknown)."},
+{topic: "Indus Valley Civilization", "front": "What was the main staple crop of the IVC?", "back": "Wheat and Barley."},
+{topic: "The Vedic Age", "front": "What is the oldest Veda containing the Gayatri Mantra?", "back": "Rig Veda (3rd Mandala)."},
+{topic: "The Vedic Age", "front": "Which Veda deals with magical formulas and spells?", "back": "Atharva Veda."},
+{topic: "The Vedic Age", "front": "The Battle of Ten Kings (Dasarajna) was fought on the banks of which river?", "back": "Parushni (modern Ravi)."},
+{topic: "The Vedic Age", "front": "What does 'Satyameva Jayate' translate to and where is it from?", "back": "Truth alone triumphs, from the Mundaka Upanishad."},
+{topic: "The Vedic Age", "front": "Who is the god of plants in the Rig Veda (9th Mandala)?", "back": "Soma."},
+{topic: "The Vedic Age", "front": "What was the basic unit of political organization in the Rig Vedic period?", "back": "Kula (family)."},
+{topic: "The Vedic Age", "front": "What is the primary theme of the Upanishads?", "back": "Philosophy and spiritual knowledge."},
+{topic: "Mahajanapadas & Magadha Empire", "front": "What were the two types of Mahajanapadas?", "back": "Monarchies and Republics (Ganas/Sanghas)."},
+{topic: "Mahajanapadas & Magadha Empire", "front": "Which was the most powerful Mahajanapada?", "back": "Magadha (Capital: Rajgir, later Pataliputra)."},
+{topic: "Mahajanapadas & Magadha Empire", "front": "What was the capital of the Gandhara Mahajanapada?", "back": "Taxila."},
+{topic: "Mahajanapadas & Magadha Empire", "front": "Who was the founder of the Haryanka dynasty?", "back": "Bimbisara."},
+{topic: "Mahajanapadas & Magadha Empire", "front": "Which ruler convened the 1st Buddhist Council?", "back": "Ajatashatru."},
+{topic: "Mahajanapadas & Magadha Empire", "front": "Who overthrew the Nanda dynasty?", "back": "Chandragupta Maurya with the help of Chanakya."},
+{topic: "Mahajanapadas & Magadha Empire", "front": "What was the capital of Avanti?", "back": "Ujjain."},
+{topic: "Buddhism", "front": "Where did Gautama Buddha attain enlightenment?", "back": "Bodh Gaya (under a Pipal tree)."},
+{topic: "Buddhism", "front": "Where was the 4th Buddhist Council held?", "back": "Kundalvana, Kashmir (during Kanishka's reign)."},
+{topic: "Buddhism", "front": "What are the two sects of Jainism?", "back": "Svetambaras (white-clad) and Digambaras (sky-clad)."},
+{topic: "Buddhism", "front": "Who was the 24th and last Tirthankara of Jainism?", "back": "Vardhamana Mahavira."},
+{topic: "Buddhism", "front": "What does the term 'Tirthankara' mean?", "back": "Ford-maker (spiritual teacher)."},
+{topic: "Mauryan Empire", "front": "Who wrote the 'Arthashastra'?", "back": "Chanakya (Kautilya)."},
+{topic: "Mauryan Empire", "front": "Which Greek ambassador visited Chandragupta Maurya's court?", "back": "Megasthenes (author of 'Indica')."},
+{topic: "Mauryan Empire", "front": "The Kalinga War (261 BC) is mentioned in which of Ashoka's edicts?", "back": "Major Rock Edict XIII."},
+{topic: "Mauryan Empire", "front": "What language and script were mostly used in Ashokan Edicts?", "back": "Prakrit language, Brahmi script."},
+{topic: "Mauryan Empire", "front": "Who was the last Mauryan ruler, assassinated by Pushyamitra Shunga?", "back": "Brihadratha."},
+{topic: "Mauryan Empire", "front": "What was the 'Dhamma' policy of Ashoka?", "back": "A code of conduct based on peace, tolerance, and respect."},
+{topic: "Post-Mauryan & Foreign Invasions", "front": "Who issued the first gold coins in India?", "back": "The Indo-Greeks."},
+{topic: "Post-Mauryan & Foreign Invasions", "front": "Who was the greatest Kushana ruler who started the Shaka Era (78 AD)?", "back": "Kanishka."},
+{topic: "Post-Mauryan & Foreign Invasions", "front": "Which dynasty is known for the Junagarh Rock Inscription (Rudradaman I)?", "back": "The Shakas (Scythians)."},
+{topic: "Post-Mauryan & Foreign Invasions", "front": "The Satavahana dynasty was primarily located in which region?", "back": "Deccan and Central India."},
+{topic: "Post-Mauryan & Foreign Invasions", "front": "Who wrote 'Mahabhashya'?", "back": "Patanjali (during the Shunga period)."},
+{topic: "Harshavardhana & Sangam Age", "front": "What was the emblem of the Chola dynasty in the Sangam Age?", "back": "Tiger."},
+{topic: "Harshavardhana & Sangam Age", "front": "What was the emblem of the Chera dynasty?", "back": "Bow and Arrow."},
+{topic: "Harshavardhana & Sangam Age", "front": "Who authored the Tamil grammatical treatise 'Tolkappiyam'?", "back": "Tolkappiyar."},
+{topic: "Harshavardhana & Sangam Age", "front": "What was the capital of the Pandya dynasty?", "back": "Madurai."},
+{topic: "Gupta Empire", "front": "Who is known as the 'Napoleon of India'?", "back": "Samudragupta (coined by V.A. Smith)."},
+{topic: "Gupta Empire", "front": "The Iron Pillar of Delhi (Mehrauli) is attributed to which Gupta ruler?", "back": "Chandragupta II (Vikramaditya)."},
+{topic: "Gupta Empire", "front": "Which Chinese traveler visited India during Chandragupta II's reign?", "back": "Fa-Hien (Faxian)."},
+{topic: "Gupta Empire", "front": "Who founded the Nalanda University?", "back": "Kumaragupta I."},
+{topic: "Gupta Empire", "front": "Who wrote 'Abhijnanasakuntalam' and 'Meghaduta'?", "back": "Kalidasa."},
+{topic: "Gupta Empire", "front": "Who proved that the earth revolves around its own axis during the Gupta period?", "back": "Aryabhata."},
+{topic: "Gupta Empire", "front": "Who was the founder of the Gupta Empire?", "back": "Sri Gupta."},
+{topic: "Harshavardhana & Sangam Age", "front": "Who defeated Harshavardhana on the banks of the Narmada?", "back": "Pulakesin II (Chalukya king)."},
+{topic: "Harshavardhana & Sangam Age", "front": "Who was Harsha's court poet and what did he write?", "back": "Banabhatta (wrote Harshacharita and Kadambari)."},
+{topic: "Harshavardhana & Sangam Age", "front": "Which Chinese pilgrim visited Harsha's court?", "back": "Hiuen Tsang (Xuanzang)."},
+{topic: "Harshavardhana & Sangam Age", "front": "The Rathas of Mahabalipuram were built by which dynasty?", "back": "Pallavas (Narasimhavarman I)."},
 
         { topic: "Indus Valley Civilization", front: "Which IVC site in Gujarat is famous for its advanced water harvesting system?", back: "Dholavira." },
         { topic: "Indus Valley Civilization", front: "Who discovered the Harappa site in 1921?", back: "Dayaram Sahni." },
