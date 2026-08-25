@@ -254,113 +254,152 @@ const historyData = {
         </ul>
 
 
+        
         <h3>6. Mauryan Empire</h3>
-<div style='margin: 20px 0; background: #0F172A; padding: 20px; border-radius: 10px; border: 1px solid #334155;'>\n<h4 style='color:#38BDF8; text-align:center; margin-top:0;'>Extent of Mauryan Empire & Ashoka's Edicts</h4>\n<svg viewBox='0 0 800 500' style='width: 100%; height: auto; background: #1E293B; border-radius: 8px;'>\n    <!-- Abstract India Outline -->\n    <path d='M 250,50 L 350,20 L 450,50 L 550,150 L 650,250 L 700,300 L 600,450 L 450,480 L 300,400 L 150,250 Z' fill='#0F172A' stroke='#475569' stroke-width='2'/>\n    \n    <!-- Mauryan Extent Area -->\n    <path d='M 230,80 L 450,60 L 650,220 L 600,400 L 450,450 L 350,380 L 180,240 Z' fill='#22C55E' opacity='0.2'/>\n    \n    <!-- Key Sites / Edicts -->\n    <circle cx='530' cy='250' r='6' fill='#10B981'/><text x='545' y='255' fill='#10B981' font-size='14' font-weight='bold'>Pataliputra (Capital)</text>\n    <circle cx='220' cy='120' r='4' fill='#38BDF8'/><text x='230' y='125' fill='#E2E8F0' font-size='12'>Taxila</text>\n    <circle cx='490' cy='230' r='4' fill='#38BDF8'/><text x='500' y='235' fill='#E2E8F0' font-size='12'>Sarnath (Lion Capital)</text>\n    <circle cx='430' cy='260' r='4' fill='#38BDF8'/><text x='440' y='265' fill='#E2E8F0' font-size='12'>Sanchi (Stupa)</text>\n    <circle cx='340' cy='280' r='4' fill='#38BDF8'/><text x='350' y='285' fill='#E2E8F0' font-size='12'>Ujjain</text>\n    <circle cx='250' cy='300' r='4' fill='#38BDF8'/><text x='260' y='305' fill='#E2E8F0' font-size='12'>Girnar (Major Rock Edict)</text>\n    <circle cx='610' cy='320' r='6' fill='#EF4444'/><text x='625' y='325' fill='#EF4444' font-size='14' font-weight='bold'>Kalinga (261 BC)</text>\n    <circle cx='450' cy='420' r='4' fill='#38BDF8'/><text x='460' y='425' fill='#E2E8F0' font-size='12'>Maski / Brahmagiri</text>\n    \n</svg>\n<p style='text-align:center; color:#94A3B8; font-size:0.9rem; margin-top:10px;'>The Mauryan Empire reached its greatest extent under Ashoka. Blue dots represent major Ashokan rock/pillar edict sites.</p>\n</div>
         <ul>
-            <li><strong>Chandragupta Maurya:</strong> Defeated Dhana Nanda with Chanakya's help. Megasthenes (Greek ambassador sent by Seleucus Nicator) wrote 'Indica'. Converted to Jainism and died at Sravanabelagola via Sallekhana.</li>
-            <li><strong>Bindusara:</strong> Known as Amitraghata (slayer of foes). Follower of Ajivika sect.</li>
-            <li><strong>Ashoka the Great:</strong> Kalinga War (261 BC) mentioned in 13th Major Rock Edict. Embraced Buddhism under Upagupta. Sent son Mahendra and daughter Sanghamitra to Sri Lanka.</li>
-            <li><strong>Chanakya (Kautilya):</strong> Wrote 'Arthashastra' (treatise on statecraft).</li>
+            <li><strong>Sources:</strong> 
+                <ul>
+                    <li><em>Arthashastra</em> by Kautilya (Chanakya/Vishnugupta). Describes administration and state policies. Contains 15 books (Adhikaranas) based on "Tantra" (internal) and "Avapa" (interstate). Kautilya is compared to Machiavelli.</li>
+                    <li><em>Mudrarakshasa</em> by Vishakhadatta. Sanskrit play narrating Chandragupta's ascent and lower caste origins.</li>
+                    <li><em>Indica</em> by Megasthenes. Detailed account of Mauryan society and administration.</li>
+                    <li><em>Buddhist Literature:</em> Jataka tales, Dipavamsa, Mahavamsa, Divyadana.</li>
+                    <li><em>Archeological:</em> Pillar edicts, Rock edicts. Wooden architecture found at Bulandi Bagh and Kumhrar (discovered by L.A. Waddell).</li>
+                </ul>
+            </li>
+            <li><strong>Chandragupta Maurya (322-298 BC):</strong> Founder. Defeated Dhanananda with Kautilya's help. Vishnu Purana connects him to Mura (Shudra concubine). Built "Kosthagara" for grain storage (mentioned in Sohgaura Copper Plate). Defeated Seleucus Nicator, married his daughter Helena. Seleucus sent Megasthenes. Converted to Jainism.</li>
+            <li><strong>Bindusara (298-273 BC):</strong> Known as <em>Amitrochates</em> (destroyer of enemies) by Greeks. Asked Antiochus I for sweet wine, dry figs, and a philosopher. Patronised Ajivikas. Deimachus visited.</li>
+            <li><strong>Ashoka (268-232 BC):</strong> Ascended with help of Radhagupta. Was governor of Taxila and Ujjain. Fought <strong>Kalinga War</strong> (261 BC, 7 years after coronation) against Raja Anantha Padmanabha. Replaced Bherighosha with Dhammagosha. Sent son Mahendra and daughter Sanghamitra to Ceylon.</li>
+            <li><strong>Ashokan Edicts:</strong> 14 Major Rock Edicts, 7 Pillar Edicts. Scripts: Brahmi (Prakrit language) in India, Kharoshthi in NW India, Greek and Aramaic in Afghanistan. Deciphered by James Princep in 1837.
+                <ul>
+                    <li><em>Major Rock Edict 1:</em> Prohibits animal slaughter.</li>
+                    <li><em>Major Rock Edict 4:</em> Dhammagosha over bherighosha.</li>
+                    <li><em>Major Rock Edict 8:</em> First Dhammayatra to Bodh Gaya.</li>
+                    <li><em>Major Rock Edict 13:</em> Ashoka's victory over Kalinga.</li>
+                    <li><em>Minor Rock Edicts:</em> Name "Ashoka" mentioned in Maski, Nettur, Brahmagiri, Gujjara. (Maski discovered by C. Beadon). Ashoka mentioned as <em>Devanami Piyadassi</em> (Beloved of God).</li>
+                    <li><em>Pillar Edicts:</em> Delhi Topra (longest, transferred by Firoz Shah Tughlaq). Sarnath Pillar (National Emblem, 4 lions, wheel, animals). Rummindei Pillar (Lumbini, reduced taxes). Nigali Sagar (enlarged stupa of Kanakamuni Buddha).</li>
+                </ul>
+            </li>
+            <li><strong>Mauryan Administration:</strong> 
+                <ul>
+                    <li><em>Saptanga Theory:</em> 7 elements of state (Raja, Amatya, Janpada, Kosha, Danda, Mitra, Durga).</li>
+                    <li><em>Provinces:</em> Prachyapatha (Tosali), Avantipatha (Ujjain), Uttarapatha (Taxila), Dakshinapatha (Suvarnagiri), Prachi (Pataliputra).</li>
+                    <li><em>Taxes:</em> Hiranya (gold), Pranaya (emergency), Pindakara (kind), Senabhaktam (army).</li>
+                    <li><em>Courts:</em> Dharmasthiya (personal), Kantakasodhana (criminal/state).</li>
+                    <li><em>Officers:</em> Sannidhata (Chief Treasury), Samaharta (Collector General), Sitadhyaksha (Agriculture), Navadhyaksha (Ships), Akaradhyaksha (Mines), Dhamma Mahamatta.</li>
+                    <li><em>Society:</em> Megasthenes divided society into 7 classes (Philosophers, Farmers, Herdsmen, Artisans, Military, Overseers, Councillors). Slavery was reportedly absent according to him. Silver coins (Punch marked).</li>
+                </ul>
+            </li>
         </ul>
 
         <h3>7. Post-Mauryan & Foreign Invasions</h3>
         <ul>
-            <li><strong>Sunga Dynasty:</strong> Pushyamitra Sunga (assassinated last Mauryan king Brihadratha). Patanjali was his contemporary.</li>
-            <li><strong>Satavahanas:</strong> Founder: Simuka. Greatest ruler: Gautamiputra Satakarni. Issued lead coins. Capital: Pratishthana (Paithan).</li>
-            <li><strong>Indo-Greeks:</strong> First to issue gold coins in India. Menander (Milinda) was converted to Buddhism by Nagasena (book: Milinda Panho).</li>
-            <li><strong>Kushanas:</strong> Founder: Kujula Kadphises. Greatest ruler: Kanishka (started Saka Era in 78 AD). 4th Buddhist Council held in his reign. Patronized Charaka (physician) and Ashvaghosha.</li>
+            <li><strong>Shunga Dynasty:</strong> Founder: <strong>Pushyamitra Shunga</strong> (assassinated Brihadratha). Capital: Vidisha. Performed Ashwamedha Yagya (Patanjali was contemporary). Agnimitra (son) is the hero of Kalidasa's <em>Malvikagnimitra</em>. Last ruler Devbhuti killed by Vasudev.</li>
+            <li><strong>Kanva Dynasty:</strong> Founder: Vasudeva Kanva. Brahman dynasty. Known as "Shungabhrityas".</li>
+            <li><strong>Satavahana Dynasty (60 BC - 225 AD):</strong> Founder: <strong>Simuka</strong>. Capital: Paithan/Pratisthan (Maharashtra). Also known as Andhras. Greatest ruler: <strong>Gautamiputra Satakarni</strong> (Destroyer of Kshatriyas, defeated Nahapana). Started donating land to Brahmans. Matrilineal society (took names of mothers). Lead coins used. Architecture: Amravati Stupa, Karle Caves.</li>
+            <li><strong>Chedi Dynasty:</strong> Ruler: <strong>King Kharavela</strong> (associated with Hathigumpha inscription). Region: Kalinga.</li>
+            <li><strong>Foreign Invasions (NW India):</strong>
+                <ul>
+                    <li><strong>Indo-Greeks (Bactrians):</strong> First to cross Hindu Kush. Most famous ruler: <strong>Menander/Milinda</strong> (converted to Buddhism by Nagasena, <em>Milindapanho</em>). First to issue Gold coins and coins attributed to kings. Introduced Hellenistic art (Gandhara).</li>
+                    <li><strong>Sakas (Scythians):</strong> Defeated by Yueh-chis. Most famous ruler: <strong>Rudradaman I</strong>. Junagarh Rock Inscription (earliest Sanskrit inscription, repaired Sudarshan Lake). Defeated by Vikramaditya of Ujjain in 57 BC (started Vikram Samvat).</li>
+                    <li><strong>Parthians:</strong> St. Thomas visited during reign of Gondophernes.</li>
+                    <li><strong>Kushans (Yuehzhis):</strong> Capital: Purushpura (Peshawar) & Mathura. Called themselves Devaputra. First Dynasty founders: Kujula & Vima Kadphises. Greatest ruler: <strong>Kanishka</strong> (started Saka Era in 78 AD, purest gold coins, 4th Buddhist Council, Rabatak Inscription). Controlled the Silk Route.</li>
+                </ul>
+            </li>
+            <li><strong>Art & Culture:</strong> 
+                <ul>
+                    <li><em>Gandhara Art:</em> Hellenistic, Grey sandstone, spiritual Buddha, half-closed eyes.</li>
+                    <li><em>Mathura Art:</em> Indigenous, Red sandstone, smiling Buddha, eyes open, carved in Abhay mudra.</li>
+                    <li><em>Medicine:</em> Charaka (Charaksamhita), Sushruta (Surgery).</li>
+                </ul>
+            </li>
         </ul>
 
         <h3>8. Gupta Empire (Golden Age)</h3>
-<div style='margin: 20px 0; background: #0F172A; padding: 20px; border-radius: 10px; border: 1px solid #334155;'>\n<h4 style='color:#38BDF8; text-align:center; margin-top:0;'>Gupta Empire (The Golden Age)</h4>\n<svg viewBox='0 0 800 500' style='width: 100%; height: auto; background: #1E293B; border-radius: 8px;'>\n    <!-- Abstract India Outline -->\n    <path d='M 250,50 L 350,20 L 450,50 L 550,150 L 650,250 L 700,300 L 600,450 L 450,480 L 300,400 L 150,250 Z' fill='#0F172A' stroke='#475569' stroke-width='2'/>\n    \n    <!-- Gupta Core Area -->\n    <path d='M 350,150 L 450,120 L 620,240 L 580,300 L 420,320 L 300,260 Z' fill='#EAB308' opacity='0.2'/>\n    \n    <!-- Samudragupta's Southern Campaign Arrows -->\n    <path d='M 530,250 Q 550,350 480,420' fill='none' stroke='#F59E0B' stroke-width='2' stroke-dasharray='5,5' marker-end='url(#arrowhead)'/>\n    <defs>\n        <marker id='arrowhead' markerWidth='10' markerHeight='7' refX='9' refY='3.5' orient='auto'>\n            <polygon points='0 0, 10 3.5, 0 7' fill='#F59E0B' />\n        </marker>\n    </defs>\n    <text x='530' y='360' fill='#F59E0B' font-size='12' font-style='italic'>Samudragupta's Dakshinapatha Campaign</text>\n\n    <!-- Key Sites -->\n    <circle cx='530' cy='250' r='6' fill='#EAB308'/><text x='545' y='255' fill='#EAB308' font-size='14' font-weight='bold'>Pataliputra</text>\n    <circle cx='480' cy='230' r='4' fill='#38BDF8'/><text x='490' y='225' fill='#E2E8F0' font-size='12'>Prayag (Allahabad Pillar)</text>\n    <circle cx='340' cy='280' r='6' fill='#EAB308'/><text x='355' y='285' fill='#EAB308' font-size='14' font-weight='bold'>Ujjain (2nd Capital)</text>\n    <circle cx='320' cy='220' r='4' fill='#38BDF8'/><text x='330' y='215' fill='#E2E8F0' font-size='12'>Mathura</text>\n    \n    <!-- Vakatakas & Pallavas Context -->\n    <text x='380' y='380' fill='#94A3B8' font-size='14' font-weight='bold'>Vakatakas</text>\n    <text x='480' y='440' fill='#94A3B8' font-size='14' font-weight='bold'>Pallavas</text>\n</svg>\n<p style='text-align:center; color:#94A3B8; font-size:0.9rem; margin-top:10px;'>The Gupta Empire core area (yellow) and Samudragupta's southern campaign. Ujjain became the second capital under Chandragupta II.</p>\n</div>
         <ul>
-            <li><strong>Founder:</strong> Sri Gupta. Real founder: Chandragupta I.</li>
-            <li><strong>Samudragupta:</strong> 'Napoleon of India' (called by V.A. Smith). Allahabad Pillar Inscription (Prayag Prashasti) written by his court poet Harisena. Depicted playing Veena on coins.</li>
-            <li><strong>Chandragupta II (Vikramaditya):</strong> Defeated Sakas. Fa-Hien (Chinese pilgrim) visited. Navaratnas in his court included Kalidasa, Varahamihira, Dhanvantari.</li>
-            <li><strong>Kumaragupta:</strong> Founded Nalanda University.</li>
-            <li><strong>Skandagupta:</strong> Repulsed Huna invasions. Restored Sudarshana Lake.</li>
-            <li><strong>Aryabhata:</strong> Authored Aryabhatiya and Surya Siddhanta. Discovered zero and rotation of Earth.</li>
+            <li><strong>Overview:</strong> Founded by <strong>Sri Gupta</strong>. Sanskrit was official language. Capital: Pataliputra.</li>
+            <li><strong>Chandragupta I (319 - 335 AD):</strong> Title: Maharajadhiraja. Married Kumaradevi (Lichchavi). Started Gupta Era in 319/320 AD. Introduced gold coins called <em>Dinars</em>.</li>
+            <li><strong>Samudragupta (335 - 375 AD):</strong> "Napoleon of India" (V.A. Smith). Prayag Prasasti (Allahabad Pillar) composed by Harisena. Shown playing Veena on coins. Granted permission to Meghavarman (Ceylon) to build monastery in Bodh Gaya. Undefeated.</li>
+            <li><strong>Chandragupta II (380 - 415 AD):</strong> Title: <strong>Vikramaditya</strong>. Defeated Sakas. First to issue Silver coins. Mehrauli Iron Pillar. Navratnas in court: Kalidasa, Dhanvantari, Varahamihira, Amarasimha, etc. Visited by <strong>Fa-Hien</strong> (first Chinese traveler).</li>
+            <li><strong>Kumaragupta I (415 - 455 AD):</strong> Founded <strong>Nalanda University</strong>. Attacked by Huns.</li>
+            <li><strong>Skandagupta (455 - 467 AD):</strong> Resisted Huns. Repaired Sudarshan lake. Bhitari Pillar Inscription.</li>
+            <li><strong>Administration & Officers:</strong> 
+                <ul>
+                    <li>Empire divided into Bhuktis (Uparika) &rarr; Vishayas (Vishaya Patis) &rarr; Vithis &rarr; Villages (Gramika).</li>
+                    <li>Kumarmatyas (Provincial Officer), Mahadanda Nayaka (Justice), Sandhivigrahika (War and Peace).</li>
+                    <li>Taxes: Bhaga (1/6th), Bhoga (fruit/flowers), Vishti (forced labour), Hirayana (gold/special).</li>
+                    <li>Land: Kshetra (cultivable), Khila (wasteland), Aprahata (jungle).</li>
+                </ul>
+            </li>
+            <li><strong>Culture & Temples:</strong> Dashavatara Temple (Deogarh), Bhitargaon Temple (Brick). Eran Inscription (510 CE, earliest evidence of Sati).</li>
+            <li><strong>Vakataka Dynasty:</strong> Contemporaries of Guptas in Deccan. Founder: Vindhyashakti. Pravarasena (Samrat). Built Ajanta Caves (caves 16, 17).</li>
         </ul>
 
-        <h3>9. Harshavardhana & Sangam Age</h3>
+        <h3>9. Post-Gupta Dynasties (Harshavardhana & Chalukyas)</h3>
         <ul>
-            <li><strong>Harshavardhana:</strong> Pushyabhuti dynasty. Capital: Kannauj. Defeated by Pulakeshin II (Chalukya king) on the banks of Narmada. Hiuen Tsang (Xuanzang) visited him. Banabhatta wrote 'Harshacharita'. Harsha himself wrote: Ratnavali, Priyadarshika, Nagananda.</li>
-            <li><strong>Sangam Age (Deep South):</strong> 
+            <li><strong>Pushyabhuti / Vardhana Dynasty:</strong> Capital: Thaneshwar &rarr; Kannauj. Greatest ruler: <strong>Harshavardhana (606-647 AD)</strong>. 
                 <ul>
-                    <li>Cheras (Capital: Vanji, Symbol: Bow & Arrow).</li>
-                    <li>Cholas (Capital: Uraiyur, Symbol: Tiger. Karikala was the greatest king).</li>
-                    <li>Pandyas (Capital: Madurai, Symbol: Fish).</li>
+                    <li>Defeated Shashanka (Gauda King) to avenge his brother.</li>
+                    <li>Authored: <em>Ratnavali, Nagananda, Priyadarshika</em>.</li>
+                    <li>Biography <em>Harshacharita</em> and <em>Kadambari</em> written by court poet Banabhatta.</li>
+                    <li>Visited by Hiuen-Tsang. Organized Kannauj assembly and Prayag Kumbh.</li>
+                    <li>Defeated by <strong>Pulakeshin II</strong> (Chalukya) on banks of Narmada.</li>
+                </ul>
+            </li>
+            <li><strong>Badami Chalukyas (Karnataka):</strong> Capital: Vatapi. Founder: Pulakeshin I.
+                <ul>
+                    <li><strong>Pulakeshin II:</strong> Greatest ruler. Aihole Pillar Inscription composed by Ravikirti. Defeated Harsha. Defeated Mahendravarman I (Pallava). Later defeated and killed by Narasimhavarman I (Pallava) who took title <em>Vatapikonda</em>.</li>
+                    <li><em>Architecture:</em> Vesara style. Aihole (Cradle of Indian Architecture, Durga Temple - Gaja Prishta shape). Badami caves. Pattadakal (UNESCO site, Virupaksha Temple by Queen Lokamahadevi).</li>
+                </ul>
+            </li>
+            <li><strong>Pallava Dynasty (Tamil Nadu):</strong> Capital: Kanchipuram. Founder: Simha Vishnu.
+                <ul>
+                    <li><strong>Mahendravarman I:</strong> Patron of Rock-cut architecture.</li>
+                    <li><strong>Narasimhavarman I:</strong> Title: <em>Mahamalla</em> and <em>Vatapikonda</em>. Founded Mahabalipuram. Started Monolithic Rathas.</li>
+                    <li><strong>Narasimhavarman II:</strong> Built Shore Temple (Mahabalipuram) and Kailasanathar Temple (Kanchipuram).</li>
+                    <li><em>Seven Ratha Temple:</em> Dharmaraja Ratha (largest), Draupadi Ratha (smallest). Known as Seven Pagodas.</li>
+                </ul>
+            </li>
+            <li><strong>Rashtrakuta Dynasty (Deccan):</strong> Capital: Manyakheta. Founder: Dantidurga (performed Hiranyagarbha at Ujjain).
+                <ul>
+                    <li><strong>Krishna I:</strong> Built Kailasha Temple at Ellora (largest monolithic rock-cut temple).</li>
+                    <li><strong>Dhruva:</strong> Initiated Tripartite Struggle.</li>
+                    <li><strong>Amoghavarsha I:</strong> Wrote <em>Kavirajamarga</em> (first Kannada literary work). Converted to Jainism.</li>
+                    <li><strong>Krishna III:</strong> Defeated Cholas at Battle of Tokkolam.</li>
+                    <li><em>Ellora Caves:</em> 34 caves (Buddhist, Hindu, Jain).</li>
                 </ul>
             </li>
         </ul>
 
-        <!-- REPLACED -->
+        <h3>10. Tripartite Struggle & Chola Empire</h3>
         <ul>
-            <li><strong>Paleolithic Age:</strong> Discovery of Fire. Hunter-gatherers. <em>Key Site:</em> Bhimbetka Caves (MP) known for ancient rock paintings.</li>
-            <li><strong>Mesolithic Age:</strong> Use of Microliths (tiny stone tools). Domestication of animals began. <em>Key Sites:</em> Bagor (Rajasthan), Adamgarh (MP).</li>
-            <li><strong>Neolithic Age:</strong> Discovery of Agriculture and Wheel. Settled life began. <em>Key Sites:</em> Mehrgarh (Pakistan - earliest evidence of agriculture/cotton), Burzahom (Kashmir - pit dwellings and dog burials with owners), Chirand (Bihar - bone tools).</li>
-            <li><strong>Chalcolithic Age:</strong> Copper was the first metal used by humans.</li>
-        </ul>
-
-        <h3>11. Ancient Books, Authors & Philosophies (Darshanas)</h3>
-        <ul>
-            <li><strong>Six Schools of Indian Philosophy (Shad Darshana):</strong> Highly tested by SSC!
+            <li><strong>The Tripartite Struggle:</strong> 8th-10th CE conflict to control <strong>Kannauj</strong> (symbol of imperial power). Fought between:
+                <ol>
+                    <li><strong>Palas (East):</strong> Founder: Gopala. Dharmapala founded Vikramashila University. Devapala expanded empire. Patronized Buddhism. Defeated by Senas (Vijaysena).</li>
+                    <li><strong>Gurjara Pratiharas (West/Central):</strong> Founder: Nagabhatta I. Greatest ruler: Mihir Bhoja (Adivaraha title). Ruled from Kannauj. Defeated by Arab invasions.</li>
+                    <li><strong>Rashtrakutas (Deccan):</strong> Dhruva, Govinda III, Amoghavarsha.</li>
+                </ol>
+            </li>
+            <li><strong>Chola Dynasty (850 - 1280 AD):</strong> Known for strong naval power and local self-government.
                 <ul>
-                    <li><strong>Samkhya:</strong> Founded by Kapila.</li>
-                    <li><strong>Yoga:</strong> Founded by Patanjali.</li>
-                    <li><strong>Nyaya:</strong> Founded by Gautama.</li>
-                    <li><strong>Vaisheshika:</strong> Founded by Kanada.</li>
-                    <li><strong>Purva Mimamsa:</strong> Founded by Jaimini.</li>
-                    <li><strong>Vedanta (Uttara Mimamsa):</strong> Founded by Badarayana.</li>
+                    <li><strong>Vijayalaya:</strong> Founder. Captured Thanjavur from Muttaraiyars.</li>
+                    <li><strong>Raja Raja I (985-1014 AD):</strong> Conquered Maldives, Sri Lanka. Permitted Shailendra king to build Chudamani Vihara at Nagapattinam. Built <strong>Brihadeeshwara Temple</strong> (Tanjore) - massive Dravida temple with 81-ton capstone.</li>
+                    <li><strong>Rajendra I (1014-1044 AD):</strong> "Napoleon of South India". Crossed Ganga, took title <em>Gangaikondachola</em>, built new capital Gangaikondacholapuram. Conquered Southeast Asia (Srivijaya) with massive navy.</li>
+                    <li><strong>Administration:</strong> Mandalam (province) &rarr; Valandu &rarr; Nadus &rarr; Kurram &rarr; Ur.</li>
+                    <li><strong>Local Government:</strong> <em>Uttaramerur Inscriptions</em> detail the Kudavolai system (lottery method for committees). Sabhas for Brahmins, Ur for commoners.</li>
+                    <li><strong>Taxes & Land:</strong> Vetti (forced labour), Kadamai (land tax). Brahmadeya (land to Brahmans), Devadana (land to temples), Pallichchhandam (to Jains).</li>
+                    <li><strong>Bronze Sculpture:</strong> Nataraja (Dancing Shiva) using <em>Lost-wax technique (Cire perdue)</em>.</li>
                 </ul>
             </li>
-            <li><strong>Vital Books & Authors:</strong>
+            <li><strong>Other Medieval Architecture:</strong>
                 <ul>
-                    <li><em>Ashtadhyayi:</em> Panini (Oldest Sanskrit grammar).</li>
-                    <li><em>Mahabhashya:</em> Patanjali.</li>
-                    <li><em>Mudrarakshasa:</em> Vishakhadatta (Describes Chandragupta defeating Nandas).</li>
-                    <li><em>Mricchakatika (The Little Clay Cart):</em> Shudraka.</li>
-                    <li><em>Panchatantra:</em> Vishnu Sharma.</li>
-                    <li><em>Rajatarangini:</em> Kalhana (History of Kashmir).</li>
-                    <li><em>Kalidasa's works:</em> Abhijnanasakuntalam, Meghaduta, Kumarasambhava, Malavikagnimitram.</li>
+                    <li><em>Hoysalas:</em> Capital: Halebidu. Stellate (star-shaped) soapstone temples. Chennakeshava Temple, Hoysaleswara Temple.</li>
+                    <li><em>Chandela Dynasty:</em> Khajuraho Temples (Kandariya Mahadeva). Nagara style.</li>
+                    <li><em>Solankis:</em> Dilwara Jain Temple (Mt Abu), Modhera Sun Temple (Gujarat). Maru Gurjara style.</li>
+                    <li><em>Kalinga Architecture:</em> Rekha Deula (sanctum), Pidha Deula (mandapa), Khakhara Deula. Konark Sun Temple (Black Pagoda, built by Narasingha Deva I). Jagannath Puri (White Pagoda, built by Anantavarman). Lingaraj Temple.</li>
                 </ul>
             </li>
         </ul>
-
-        <h3>12. Chalukyas, Pallavas & Temple Architecture</h3>
-        <ul>
-            <li><strong>Chalukyas of Badami:</strong> Founded by Pulakeshin I. Greatest ruler: <strong>Pulakeshin II</strong> (Defeated Harshavardhana). His achievements are recorded in the <strong>Aihole Inscription</strong> written by his court poet <em>Ravikirti</em>.</li>
-            <li><strong>Pallava Dynasty:</strong> Capital: Kanchipuram. 
-                <ul>
-                    <li><strong>Narasimhavarman I:</strong> Defeated and killed Pulakeshin II, assuming the title <em>Vatapikonda</em>. Founded Mahabalipuram and built the Monolithic Ratha temples (Seven Pagodas).</li>
-                    <li><strong>Narasimhavarman II:</strong> Built the Shore Temple (Mahabalipuram) and Kailasanatha Temple (Kanchipuram).</li>
-                </ul>
-            </li>
-            <li><strong>Chola Empire (Brief):</strong> Founder: Vijayalaya. Rajaraja I built the Brihadeshwara Temple (Thanjavur). Rajendra I assumed the title <em>Gangaikondachola</em>. Known for local self-government and bronze Nataraja statues.</li>
-        </ul>
-
-
-        <h3>10. Stone Age & Pre-Historic Sites (Fatman Deep-Cuts)</h3>
-        <ul>
-            <li><strong>James Mill:</strong> Divided Indian History into Hindu, Muslim, and British in his book <em>The History of British India (1817)</em>.</li>
-            <li><strong>C.J. Thomson:</strong> Developed the Three Age System: Stone, Bronze, and Iron Age.</li>
-            <li><strong>Paleolithic Age (Old Stone):</strong> Characterized by large, rough stone tools.
-                <ul>
-                    <li><strong>Lower Paleolithic:</strong> Ice Age. Tools: Cleavers and hand axes. <em>Sites:</em> Bori (Maharashtra - earliest site), Belan Valley (UP).</li>
-                    <li><strong>Middle Paleolithic:</strong> Based on <em>'flake technology'</em>.</li>
-                    <li><strong>Upper Paleolithic:</strong> Use of flint stone. <em>Sites:</em> Inamgaon, Patne (Maharashtra - <strong>Ostrich evidence</strong> found for the first time here).</li>
-                </ul>
-            </li>
-            <li><strong>Vital Cave Discoveries:</strong>
-                <ul>
-                    <li><strong>Bhimbetka Caves (MP):</strong> India's oldest paintings. Discovered by <strong>V.S. Wakankar</strong> (Father of Indian Rock Art) in 1957.</li>
-                    <li><strong>Kurnool Caves (AP):</strong> Ash traces were discovered here.</li>
-                    <li><strong>Lakhudiyar Cave Paintings:</strong> Located in Almora, Uttarakhand.</li>
-                    <li><strong>Hathnora (MP):</strong> The skull of <em>Homo Erectus</em> was found here near the Narmada river.</li>
-                    <li><strong>Archibald Campbell Carlleyle:</strong> First one to identify/discover rock paintings in India in Sohagighat (UP) in 1867-68.</li>
-                </ul>
-            </li>
-    `,
+`,
     mcqs: [
     {
         "id": "hist_buddhism_air1_1",
