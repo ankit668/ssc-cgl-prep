@@ -2013,6 +2013,679 @@ const historyData = {
             front: "Name the three Pitakas (Tripitakas) of Buddhism.",
             back: "Sutta Pitaka, Vinaya Pitaka, Abhidhamma Pitaka."
         }
+    ,
+
+    // ===== STONE AGE - EXPANDED =====
+    {
+        topic: "Stone Age",
+        question: "Who discovered the Bhimbetka rock shelters?",
+        options: ["V.N. Misra", "V.S. Wakankar", "A.C. Carlleyle", "H.D. Sankalia"],
+        correct: 1,
+        explanation: "V.S. Wakankar discovered Bhimbetka in 1957. He is known as the 'Father of Indian Rock Art'."
+    },
+    {
+        topic: "Stone Age",
+        question: "Who was the first person to discover rock paintings in India?",
+        options: ["V.S. Wakankar", "H.D. Sankalia", "Archibald Campbell Carlleyle", "Alexander Cunningham"],
+        correct: 2,
+        explanation: "Archibald Campbell Carlleyle discovered rock paintings in Sohagighat, UP in 1867-68."
+    },
+    {
+        topic: "Stone Age",
+        question: "At which site were the traces of ash (evidence of fire) first discovered in India?",
+        options: ["Bhimbetka", "Kurnool Caves", "Burzahom", "Patne"],
+        correct: 1,
+        explanation: "Kurnool Caves (Andhra Pradesh) is the site where traces of ash were first discovered."
+    },
+    {
+        topic: "Stone Age",
+        question: "The site 'Burzahom' in Kashmir is famous for which unique practice?",
+        options: ["Rock Art", "Pit dwellings and dog burials", "Terracotta figurines", "Iron smelting"],
+        correct: 1,
+        explanation: "Burzahom (Kashmir) is famous for pit dwellings and the burial of dogs with their masters."
+    },
+    {
+        topic: "Stone Age",
+        question: "At which site in Maharashtra was evidence of Ostrich found for the first time in India?",
+        options: ["Bhimbetka", "Inamgaon", "Patne", "Nevasa"],
+        correct: 2,
+        explanation: "Patne (Maharashtra) is the Upper Paleolithic site where evidence of Ostrich was found for the first time."
+    },
+    {
+        topic: "Stone Age",
+        question: "Who developed the 'Three Age System' (Stone, Bronze, Iron)?",
+        options: ["V.S. Wakankar", "C.J. Thomson", "Gordon Childe", "Robert Bruce Foote"],
+        correct: 1,
+        explanation: "C.J. Thomson (Christian Jürgensen Thomsen) developed the Three Age System."
+    },
+    {
+        topic: "Stone Age",
+        question: "Robert Bruce Foote discovered the first Palaeolithic tool in India at which site?",
+        options: ["Pallavaram (Madras)", "Bhimbetka (MP)", "Burzahom (Kashmir)", "Attirampakkam (TN)"],
+        correct: 0,
+        explanation: "Robert Bruce Foote discovered the first Palaeolithic (hand-axe) tool in India at Pallavaram near Madras in 1863."
+    },
+    {
+        topic: "Stone Age",
+        question: "At which site was the skull of Homo Erectus (Narmada Man) found?",
+        options: ["Bhimbetka", "Hathnora", "Kurnool", "Burzahom"],
+        correct: 1,
+        explanation: "The skull of Homo Erectus ('Narmada Man') was discovered at Hathnora in Madhya Pradesh."
+    },
+    {
+        topic: "Stone Age",
+        question: "The Neolithic site of Mehrgarh is located in which modern country?",
+        options: ["India", "Afghanistan", "Pakistan", "Iran"],
+        correct: 2,
+        explanation: "Mehrgarh is located in Balochistan, Pakistan. It is one of the world's earliest sites with evidence of farming and herding (7000 BCE)."
+    },
+    {
+        topic: "Stone Age",
+        question: "Which of the following is the correct chronological order of Stone Ages?",
+        options: [
+            "Neolithic → Palaeolithic → Mesolithic",
+            "Palaeolithic → Mesolithic → Neolithic",
+            "Mesolithic → Palaeolithic → Neolithic",
+            "Palaeolithic → Neolithic → Mesolithic"
+        ],
+        correct: 1,
+        explanation: "The correct order is Palaeolithic (Old Stone) → Mesolithic (Middle Stone) → Neolithic (New Stone Age)."
+    },
+    // ===== IVC - EXPANDED =====
+    {
+        topic: "Indus Valley Civilization",
+        question: "What was the Mesopotamian name for the Indus Valley Civilization?",
+        options: ["Melukkha", "Meluhha", "Magan", "Dilmun"],
+        correct: 1,
+        explanation: "Mesopotamian records referred to the IVC as 'Meluhha'. 'Magan' referred to Oman and 'Dilmun' to Bahrain."
+    },
+    {
+        topic: "Indus Valley Civilization",
+        question: "The IVC script was written in which style?",
+        options: ["Left to right", "Right to left", "Boustrophedon (alternating directions)", "Top to bottom"],
+        correct: 2,
+        explanation: "IVC script was Boustrophedon — written Right to Left in one line, then Left to Right in the next."
+    },
+    {
+        topic: "Indus Valley Civilization",
+        question: "Which IVC site was divided into THREE distinct parts (unlike the standard two-part structure)?",
+        options: ["Harappa", "Mohenjo-Daro", "Dholavira", "Kalibangan"],
+        correct: 2,
+        explanation: "Dholavira (Gujarat) was uniquely divided into three parts: Citadel, Middle Town, and Lower Town. All other cities had two parts."
+    },
+    {
+        topic: "Indus Valley Civilization",
+        question: "Which IVC site has NO Citadel, making it unique?",
+        options: ["Lothal", "Chanhudaro", "Banawali", "Surkotada"],
+        correct: 1,
+        explanation: "Chanhudaro (excavated by N.G. Majumdar) is the only major IVC city without a Citadel."
+    },
+    {
+        topic: "Indus Valley Civilization",
+        question: "What were IVC weighing measures made of?",
+        options: ["Bronze", "Stone", "Chert", "Clay"],
+        correct: 2,
+        explanation: "IVC weights were made of Chert (a fine-grained silica rock). Lower denominations were binary, higher were decimal."
+    },
+    {
+        topic: "Indus Valley Civilization",
+        question: "The Greeks used the word 'Sindon' for which IVC product?",
+        options: ["Copper", "Cotton", "Sesame oil", "Indigo"],
+        correct: 1,
+        explanation: "The Greeks called cotton 'Sindon' — derived from 'Sindh', where cotton was extensively produced and traded."
+    },
+    {
+        topic: "Indus Valley Civilization",
+        question: "What is the standardized brick ratio of the IVC?",
+        options: ["1:2:3", "1:2:4", "2:4:8", "1:3:6"],
+        correct: 1,
+        explanation: "IVC bricks had a perfect standardized ratio of 1:2:4 (Height:Width:Length), ensuring structural uniformity."
+    },
+    {
+        topic: "Indus Valley Civilization",
+        question: "Which IVC site is known as the 'Oasis of Sindh'?",
+        options: ["Harappa", "Mohenjo-Daro", "Lothal", "Chanhudaro"],
+        correct: 1,
+        explanation: "Mohenjo-Daro (Mound of the Dead) is called the 'Oasis of Sindh'. It was excavated by R.D. Banerjee in 1922."
+    },
+    {
+        topic: "Indus Valley Civilization",
+        question: "Canal irrigation traces have been found at which IVC site, the northernmost?",
+        options: ["Ropar", "Manda", "Shortugai (Afghanistan)", "Alamgirpur"],
+        correct: 2,
+        explanation: "Shortugai in Afghanistan is the northernmost IVC site, where canal irrigation traces and Lapis Lazuli sources were found."
+    },
+    {
+        topic: "Indus Valley Civilization",
+        question: "Dholavira was designated India's 40th UNESCO World Heritage Site in which year?",
+        options: ["2014", "2017", "2021", "2023"],
+        correct: 2,
+        explanation: "Dholavira was inscribed as India's 40th UNESCO World Heritage Site in 2021."
+    },
+    // ===== VEDIC AGE - EXPANDED =====
+    {
+        topic: "The Vedic Age",
+        question: "The Boghazkoi inscription (found in Turkey) mentions which Vedic gods?",
+        options: ["Brahma, Vishnu, Shiva", "Indra, Varuna, Mitra, Nasatya", "Agni, Surya, Soma, Vayu", "Indra, Agni, Soma, Pushan"],
+        correct: 1,
+        explanation: "The Boghazkoi inscription mentions Indra, Varuna, Mitra (Mithra), and Nasatya — proving Vedic Aryans had contact with West Asia."
+    },
+    {
+        topic: "The Vedic Age",
+        question: "Which is the oldest Veda?",
+        options: ["Sama Veda", "Yajur Veda", "Rig Veda", "Atharva Veda"],
+        correct: 2,
+        explanation: "Rig Veda is the oldest Veda, consisting of 1028 hymns and 10,600 verses organized into 10 Mandalas."
+    },
+    {
+        topic: "The Vedic Age",
+        question: "The Gayatri Mantra is addressed to which deity, and is found in which Mandala?",
+        options: ["Indra, 1st Mandala", "Savitri (Sun), 3rd Mandala", "Agni, 7th Mandala", "Varuna, 10th Mandala"],
+        correct: 1,
+        explanation: "The Gayatri Mantra is addressed to Savitri (Sun god) and is found in the 3rd Mandala of the Rig Veda, composed by Vishwamitra."
+    },
+    {
+        topic: "The Vedic Age",
+        question: "Which of the following is the correct match of Vedas and their reciting priests?",
+        options: [
+            "Rig Veda - Adhvaryu, Sama Veda - Hotri",
+            "Rig Veda - Hotri, Sama Veda - Udgatri, Yajur Veda - Adhvaryu",
+            "Rig Veda - Udgatri, Yajur Veda - Hotri",
+            "Rig Veda - Brahma, Sama Veda - Hotri"
+        ],
+        correct: 1,
+        explanation: "Rig Veda → Hotri (reciter), Sama Veda → Udgatri (chanter), Yajur Veda → Adhvaryu (performer of rituals), Atharva Veda → Brahma (supervisor)."
+    },
+    {
+        topic: "The Vedic Age",
+        question: "The Katha Upanishad contains the famous dialogue between whom?",
+        options: ["Gargi and Yajnavalkya", "Nachiketa and Yama", "Arjuna and Krishna", "Janaka and Sita"],
+        correct: 1,
+        explanation: "The Katha Upanishad (from Yajur Veda) contains the famous philosophical dialogue between Nachiketa and Yama (God of Death)."
+    },
+    {
+        topic: "The Vedic Age",
+        question: "Which of the following were learned female sages (Brahmavadinis) who composed mantras in the Rig Veda?",
+        options: ["Gargi, Maitreyi, Lopamudra", "Ghosha, Apala, Viswavara", "Savitri, Draupadi, Sita", "Ahalya, Anusuya, Anasuya"],
+        correct: 1,
+        explanation: "Ghosha, Apala, and Viswavara were female sages (Brahmavadinis) who composed hymns in the Rig Veda. Gargi and Maitreyi were philosophers in the Upanishadic era."
+    },
+    {
+        topic: "The Vedic Age",
+        question: "The Upaveda of Atharva Veda is:",
+        options: ["Dhanurveda", "Gandharvaveda", "Ayurveda", "Shilpaveda"],
+        correct: 2,
+        explanation: "Ayurveda (medicine) is the Upaveda of Atharva Veda. Dhanurveda (archery) → Yajur Veda; Gandharvaveda (music) → Sama Veda."
+    },
+    {
+        topic: "The Vedic Age",
+        question: "Which Vedanga deals with astronomy and auspicious times?",
+        options: ["Nirukta", "Chandas", "Jyotisha", "Kalpa"],
+        correct: 2,
+        explanation: "Jyotisha (Astronomy/Astrology) is the Vedanga dealing with astronomical calculations and fixing auspicious times for rituals. There are 6 Vedangas: Shiksha, Chandas, Vyakarana, Nirukta, Kalpa, Jyotisha."
+    },
+    {
+        topic: "The Vedic Age",
+        question: "Which of the following terms was used for the 'spy' in the Vedic administrative system?",
+        options: ["Bhojaka", "Spasha", "Gramini", "Purohita"],
+        correct: 1,
+        explanation: "Spasha was the term used for 'spy' or 'secret agent' in the Vedic administrative system. Gramini = Village headman."
+    },
+    {
+        topic: "The Vedic Age",
+        question: "The Shatapatha Brahmana, the largest of all Brahmana texts, belongs to which Veda?",
+        options: ["Rig Veda", "Sama Veda", "Yajur Veda", "Atharva Veda"],
+        correct: 2,
+        explanation: "Shatapatha Brahmana is the largest Brahmana text and belongs to the Shukla (White) Yajur Veda."
+    },
+    // ===== BUDDHISM - EXPANDED =====
+    {
+        topic: "Buddhism",
+        question: "What was the name of the tree under which Gautama Buddha attained Enlightenment?",
+        options: ["Ashoka tree", "Peepal tree (Bodhi tree)", "Banyan tree", "Sal tree"],
+        correct: 1,
+        explanation: "Buddha attained enlightenment under a Peepal tree (Ficus religiosa), called the 'Bodhi Tree', at Bodh Gaya (on the banks of river Niranjana/Falgu)."
+    },
+    {
+        topic: "Buddhism",
+        question: "Which Mudra of Buddha represents 'Touching the Earth' (as witness to his enlightenment)?",
+        options: ["Dharmachakra Mudra", "Abhaya Mudra", "Bhumisparsha Mudra", "Dhyana Mudra"],
+        correct: 2,
+        explanation: "Bhumisparsha Mudra = Right hand touching the earth. Other key mudras: Dharmachakra = First Sermon (Dharma Wheel). Dhyana = Meditation. Varad = Charity. Abhaya = Protection."
+    },
+    {
+        topic: "Buddhism",
+        question: "The 4th Buddhist Council was held under the patronage of Kanishka. Where was it held and who presided?",
+        options: ["Pataliputra, Mogaliputta Tissa", "Vaishali, Sabakami", "Kashmir (Kundalvana), Vasumitra", "Rajagriha, Mahakashyapa"],
+        correct: 2,
+        explanation: "4th Buddhist Council: Held at Kundalvana, Kashmir. Patron: Kanishka. President: Vasumitra (Assistant: Ashvaghosha). Resulted in the split into Hinayana and Mahayana."
+    },
+    {
+        topic: "Buddhism",
+        question: "Which Pitaka deals with the rules of conduct for monks and nuns?",
+        options: ["Sutta Pitaka", "Abhidhamma Pitaka", "Vinaya Pitaka", "Jataka"],
+        correct: 2,
+        explanation: "Vinaya Pitaka contains the rules (Vinaya) of conduct for the Buddhist Sangha (monks and nuns). Sutta = teachings/dialogues. Abhidhamma = Buddhist philosophy/psychology."
+    },
+    {
+        topic: "Buddhism",
+        question: "The Didarganj Yakshi (famous Mauryan-era sculpture) depicts a woman holding what?",
+        options: ["A lotus flower", "A chauri (flywhisk)", "A water pot", "A sword"],
+        correct: 1,
+        explanation: "The Didarganj Yakshi, a masterpiece of Mauryan polished stone art, depicts a woman holding a Chauri (flywhisk/fan) and wearing an Antari (lower garment)."
+    },
+    {
+        topic: "Buddhism",
+        question: "Dhammapada, a famous Buddhist text, is part of which Pitaka?",
+        options: ["Vinaya Pitaka", "Khuddaka Nikaya of Sutta Pitaka", "Abhidhamma Pitaka", "Digha Nikaya"],
+        correct: 1,
+        explanation: "Dhammapada (compiled at the 3rd Buddhist Council) is part of the Khuddaka Nikaya — one of the 5 Nikayas of the Sutta Pitaka."
+    },
+    {
+        topic: "Buddhism",
+        question: "What are the 'Triratnas' (Three Jewels) of Buddhism?",
+        options: ["Truth, Non-violence, Detachment", "Buddha, Dhamma, Sangha", "Ahimsa, Satya, Asteya", "Thought, Word, Deed"],
+        correct: 1,
+        explanation: "The Triratnas (Three Jewels/Ratnas) of Buddhism are Buddha (the teacher), Dhamma (the teachings), and Sangha (the community of monks)."
+    },
+    {
+        topic: "Buddhism",
+        question: "The concept of 'Anatta' in Buddhism refers to:",
+        options: ["Impermanence of all things", "The absence of a permanent soul/self", "The reality of suffering", "The cycle of rebirth"],
+        correct: 1,
+        explanation: "Anatta (No-Self) is the Buddhist doctrine that there is no permanent, unchanging soul or self. The other key concepts are Anicca (Impermanence) and Dukkha (Suffering)."
+    },
+    {
+        topic: "Buddhism",
+        question: "Which is the largest Stupa in India?",
+        options: ["Sanchi Stupa", "Bharhut Stupa", "Amaravati Stupa", "Sarnath Stupa"],
+        correct: 0,
+        explanation: "The Great Stupa at Sanchi (Madhya Pradesh) is the largest in India. It was originally built by Ashoka and later enlarged by the Satavahanas. Its southern gateway (Torana) is famous."
+    },
+    {
+        topic: "Buddhism",
+        question: "The 1st Buddhist Council was held at Rajagriha right after Buddha's death. Who presided?",
+        options: ["Vasumitra", "Moggaliputta Tissa", "Mahakashyapa", "Sabakami"],
+        correct: 2,
+        explanation: "1st Council: Rajagriha (486 BC), Patron: Ajatashatru, President: Mahakashyapa. The Tripitakas were compiled here."
+    },
+    // ===== JAINISM - EXPANDED =====
+    {
+        topic: "Jainism",
+        question: "Who was the 23rd Tirthankara of Jainism whose symbol was a Horse?",
+        options: ["Parsvanath", "Rishabhanath", "Neminatha", "Malli"],
+        correct: 2,
+        explanation: "Neminatha was the 23rd Tirthankara. His symbol was a Conch shell. The 22nd was Nemi/Aristanemi. Parsvanath (23rd) had a serpent as symbol. Key Tirthankaras: 1st Rishabhanath (Bull), 23rd Parsvanath (Serpent), 24th Mahavira (Lion)."
+    },
+    {
+        topic: "Jainism",
+        question: "Which Jain text mentions all 16 Mahajanapadas?",
+        options: ["Acharanga Sutra", "Bhagavati Sutra", "Kalpa Sutra", "Uttaradhyayana Sutra"],
+        correct: 1,
+        explanation: "The Bhagavati Sutra (Vyakhyaprajnapti), a Jain text, is the most important source for the list of all 16 Mahajanapadas."
+    },
+    {
+        topic: "Jainism",
+        question: "Under which tree did Mahavira attain Kaivalya (Nirvana/Omniscience)?",
+        options: ["Ashoka tree", "Banyan tree", "Sal tree", "Peepal tree"],
+        correct: 2,
+        explanation: "Mahavira attained Kaivalya on the banks of the river Rijupalika under a Sal tree, at Jrmbhikagrama."
+    },
+    {
+        topic: "Jainism",
+        question: "The Syadvada (theory of maybe/perhaps) and Anekantavada (many-sidedness of truth) are doctrines of which religion?",
+        options: ["Buddhism", "Jainism", "Ajivika sect", "Charvaka school"],
+        correct: 1,
+        explanation: "Syadvada (Saptabhangi — 7 modes of prediction) and Anekantavada (non-absolutism) are key philosophical doctrines of Jainism."
+    },
+    {
+        topic: "Jainism",
+        question: "Who was the founder of the Ajivika sect, which left home with Mahavira?",
+        options: ["Gosala Maskariputra (Makkhali Gosala)", "Ajita Kesakambali", "Pakudha Kaccayana", "Sanjaya Belatthiputta"],
+        correct: 0,
+        explanation: "Makkhali Gosala (Gosala Maskariputra) founded the Ajivika sect. He initially left home with Mahavira but later separated. Ajivikas believed in Niyati (fate/destiny)."
+    },
+    {
+        topic: "Jainism",
+        question: "The Digambara and Shvetambara sects of Jainism split after which council?",
+        options: ["Council of Pataliputra (300 BC)", "Council of Vallabhi (5th century AD)", "Council of Vaishali", "Council of Kashmir"],
+        correct: 0,
+        explanation: "The split between Digambara (sky-clad, followed Bhadrabahu) and Shvetambara (white-clad, followed Sthulabahu) happened at the Council of Pataliputra (~300 BC) when Bhadrabahu went to Karnataka."
+    },
+    {
+        topic: "Jainism",
+        question: "Which is the correct set of Panchamahavrata (5 Great Vows) in Jainism?",
+        options: [
+            "Ahimsa, Satya, Asteya, Aparigraha, Brahmacharya",
+            "Ahimsa, Satya, Asteya, Tapas, Brahmacharya",
+            "Satya, Asteya, Brahmacharya, Dana, Tapas",
+            "Ahimsa, Karuna, Mudita, Upeksha, Satya"
+        ],
+        correct: 0,
+        explanation: "The 5 Mahavrats of Jainism are: Ahimsa (non-violence), Satya (truth), Asteya (non-stealing), Aparigraha (non-possession), Brahmacharya (celibacy). The first 4 were from Parsvanath; Mahavira added Brahmacharya."
+    },
+    // ===== MAHAJANAPADAS - EXPANDED =====
+    {
+        topic: "Mahajanapadas & Magadha Empire",
+        question: "On the banks of which river was Asmaka Mahajanapada situated?",
+        options: ["Narmada", "Godavari", "Krishna", "Chambal"],
+        correct: 1,
+        explanation: "Asmaka was the only Mahajanapada south of the Vindhyas, situated on the banks of the Godavari river. Its capital was Pratisthan/Potana."
+    },
+    {
+        topic: "Mahajanapadas & Magadha Empire",
+        question: "Which Mahajanapada consisted of 8 clans, of which the Lichchhavi and Videha were the most important?",
+        options: ["Malla", "Kuru", "Vajji", "Kamboja"],
+        correct: 2,
+        explanation: "Vajji (Vrijji) was a confederacy of 8 clans — including the Lichchhavi (capital Vaishali) and Videha (Mithila). It was India's first known republic."
+    },
+    {
+        topic: "Mahajanapadas & Magadha Empire",
+        question: "Which specific weapon/war engine did Ajatashatru (Haryanka dynasty) use to conquer Vaishali?",
+        options: ["Only the Mahashilakantaka (catapult)", "Only the Rathmoosai (chariot)", "Both Mahashilakantaka and Rathmoosai", "A fleet of warships"],
+        correct: 2,
+        explanation: "Ajatashatru used two new military technologies: Mahashilakantaka (stone-throwing catapult) and Rathmoosai (a scythe chariot) to conquer the Vajji confederacy."
+    },
+    {
+        topic: "Mahajanapadas & Magadha Empire",
+        question: "Who was the last ruler of the Nanda dynasty and why was he hated?",
+        options: ["Mahapadmananda, for his cruelty", "Dhanananda, for heavy taxation", "Ugrasena, for religious persecution", "Chandragupta, for his low birth"],
+        correct: 1,
+        explanation: "Dhanananda was the last Nanda king, hated for his excessive and oppressive taxation. He also introduced the Nandopakramani (a new standard measure)."
+    },
+    {
+        topic: "Mahajanapadas & Magadha Empire",
+        question: "The capital of Matsya Mahajanapada was:",
+        options: ["Kausambi", "Viratnagar (Bairat)", "Indraprastha", "Ahichchhatra"],
+        correct: 1,
+        explanation: "Viratnagar (modern Bairat in Rajasthan) was the capital of the Matsya Mahajanapada. The Pandavas spent their 13th year (Agyatvas) here."
+    },
+    // ===== MAURYAN EMPIRE - EXPANDED =====
+    {
+        topic: "Mauryan Empire",
+        question: "Ashoka's name is explicitly mentioned (not just 'Priyadarshi') in which of the following Minor Rock Edicts?",
+        options: ["Dhauli and Girnar", "Maski, Nettur, Brahmagiri, Gujjara", "Kalsi and Shahbazgarhi", "Mansehra and Yerragudi"],
+        correct: 1,
+        explanation: "Ashoka's name 'Asoka' is explicitly mentioned in 4 Minor Rock Edicts: Maski (Raichur, Karnataka), Nettur, Brahmagiri, and Gujjara."
+    },
+    {
+        topic: "Mauryan Empire",
+        question: "Which Greek name was given to Bindusara?",
+        options: ["Sandrokottos", "Amitrochates", "Megasthenes", "Deimachos"],
+        correct: 1,
+        explanation: "Bindusara was called 'Amitrochates' by the Greeks (meaning 'slayer of enemies', from Sanskrit 'Amitraghata'). Chandragupta Maurya was called 'Sandrokottos'."
+    },
+    {
+        topic: "Mauryan Empire",
+        question: "The 'Saptanga Theory' of the state was given by Kautilya. Which of the following is NOT one of the 7 elements?",
+        options: ["Swami (King)", "Amatya (Minister)", "Danda (Army)", "Dharma (Religion)"],
+        correct: 3,
+        explanation: "The 7 elements of state (Saptanga): Swami (King), Amatya (Ministers), Janapada (Territory), Durga (Fort), Kosha (Treasury), Danda (Army), Mitra (Ally). Dharma is NOT one of them."
+    },
+    {
+        topic: "Mauryan Empire",
+        question: "In the Mauryan system, which tax was paid in kind (grain) as opposed to cash?",
+        options: ["Hiranya", "Pindakara", "Bhaga", "Bali"],
+        correct: 1,
+        explanation: "Pindakara was a tax paid in kind (produce/grain). Hiranya was paid in gold/cash. Bhaga was the king's share (1/6th of produce). Bali was a voluntary tribute."
+    },
+    {
+        topic: "Mauryan Empire",
+        question: "Which of Ashoka's Major Rock Edicts mentions the 'Dhamma Mahamattas' (officers to propagate Dhamma)?",
+        options: ["Rock Edict V", "Rock Edict XIII", "Rock Edict I", "Rock Edict XII"],
+        correct: 0,
+        explanation: "Ashoka's 5th Major Rock Edict mentions the appointment of Dhamma Mahamattas. Rock Edict 1 bans animal slaughter. Rock Edict 13 discusses the Kalinga War and Dhamma conquest."
+    },
+    {
+        topic: "Mauryan Empire",
+        question: "The Arthashastra is divided into how many Adhikaranas (books/chapters)?",
+        options: ["10", "12", "15", "18"],
+        correct: 2,
+        explanation: "Kautilya's Arthashastra is divided into 15 Adhikaranas (books/chapters) covering statecraft, economics, military strategy, and more."
+    },
+    // ===== POST-MAURYAN - EXPANDED =====
+    {
+        topic: "Post-Mauryan & Foreign Invasions",
+        question: "Who were the first foreign rulers to issue GOLD COINS in India?",
+        options: ["Kushanas", "Indo-Greeks", "Shakas", "Satavahanas"],
+        correct: 1,
+        explanation: "The Indo-Greeks (Yavanas) were the first foreign rulers to issue gold coins in India. Menander (Milinda) is the most famous Indo-Greek ruler (asked questions to Nagasena in 'Milindapanha')."
+    },
+    {
+        topic: "Post-Mauryan & Foreign Invasions",
+        question: "The Gandhara School of Art used which type of stone and was influenced by which tradition?",
+        options: ["Red sandstone, indigenous", "Grey schist/limestone, Hellenistic (Greco-Roman)", "Black stone, Persian", "White marble, Buddhist"],
+        correct: 1,
+        explanation: "Gandhara Art (NW India/Afghanistan) used grey schist (also bluish-grey limestone), was Hellenistic in technique, and Buddhist in theme. In contrast, Mathura School used red sandstone and was indigenous."
+    },
+    {
+        topic: "Post-Mauryan & Foreign Invasions",
+        question: "Which Satavahana king is celebrated for defeating the Shaka ruler Nahapana and is called 'Ekabrahman'?",
+        options: ["Simuka", "Satakarni I", "Gautamiputra Satakarni", "Yajna Sri Satakarni"],
+        correct: 2,
+        explanation: "Gautamiputra Satakarni (106-130 AD) is the greatest Satavahana king. He defeated Nahapana (Shaka), and is called 'Ekabrahman' in the Nashik Inscription. The Satavahanas used lead coins."
+    },
+    {
+        topic: "Post-Mauryan & Foreign Invasions",
+        question: "The Saka Era, used as the Indian National Calendar, begins from:",
+        options: ["57 BC (Vikram Samvat)", "78 AD", "319 AD (Gupta Era)", "606 AD (Harsha Era)"],
+        correct: 1,
+        explanation: "The Saka Era begins from 78 AD, associated with Kanishka's accession. India adopted a reformed version of this for the National Calendar (Saka Samvat) in 1957."
+    },
+    // ===== GUPTA EMPIRE - EXPANDED =====
+    {
+        topic: "Gupta Empire",
+        question: "The Allahabad Pillar Inscription (Prayagpraasti) was composed by which Gupta court poet?",
+        options: ["Kalidasa", "Harishena", "Varahamihira", "Aryabhata"],
+        correct: 1,
+        explanation: "The famous Allahabad (Prayag) Pillar Inscription, describing the military conquests of Samudragupta, was composed by his court poet Harishena."
+    },
+    {
+        topic: "Gupta Empire",
+        question: "Chandragupta II (Vikramaditya) defeated the Shakas. What was the name of the last Shaka ruler he defeated?",
+        options: ["Rudradaman I", "Rudrasimha III", "Nahapana", "Chastana"],
+        correct: 1,
+        explanation: "Chandragupta II (Vikramaditya) defeated and killed Rudrasimha III, the last Shaka ruler of Western India, around 409 AD, earning the title Shakari (destroyer of Shakas)."
+    },
+    {
+        topic: "Gupta Empire",
+        question: "Which Gupta king is known by the title 'Param Bhagavat' (Great Devotee of Vishnu)?",
+        options: ["Chandragupta I", "Samudragupta", "Chandragupta II", "Kumaragupta I"],
+        correct: 2,
+        explanation: "Chandragupta II (Vikramaditya) held the title 'Param Bhagavat'. The Gupta dynasty was primarily Vaishnava (devoted to Vishnu). Samudragupta was 'Kaviraja' (King of Poets)."
+    },
+    {
+        topic: "Gupta Empire",
+        question: "In the Gupta administrative system, what was 'Khila'?",
+        options: ["Cultivated land", "Fallow/waste land", "Forest land", "Donated/gifted land"],
+        correct: 1,
+        explanation: "Gupta land classification: Kshetra = cultivated land. Khila = fallow/waste land. Aprahata = wild forest. Vasti = habitation. Charagah = pasture land."
+    },
+    {
+        topic: "Gupta Empire",
+        question: "The Nalanda University was established by which Gupta king?",
+        options: ["Chandragupta II", "Kumaragupta I", "Skandagupta", "Buddhagupta"],
+        correct: 1,
+        explanation: "Nalanda University was established by Kumaragupta I (Mahendraditya). It became the greatest Buddhist learning centre (studied by Xuanzang in 7th century)."
+    },
+    {
+        topic: "Gupta Empire",
+        question: "Varahamihira, the famous astronomer in Chandragupta II's Navratnas, wrote which book?",
+        options: ["Panchatantra", "Brihat Samhita", "Kama Sutra", "Ashtadhyayi"],
+        correct: 1,
+        explanation: "Varahamihira composed Brihat Samhita (encyclopaedia of astronomy) and Pancha Siddhantika. Panchatantra was by Vishnu Sharma. Kama Sutra by Vatsyayana."
+    },
+    // ===== POST-GUPTA/HARSHA - EXPANDED =====
+    {
+        topic: "Harshavardhana & Sangam Age",
+        question: "The Aihole Inscription (634 AD) was composed by Ravikirti to celebrate the victory of which Chalukya king?",
+        options: ["Vikramaditya I", "Pulakeshin II over Harshavardhana", "Vikramaditya II over Arabs", "Mangalesa"],
+        correct: 1,
+        explanation: "The Aihole Inscription was composed by court poet Ravikirti, celebrating Chalukya King Pulakeshin II's victory over Harshavardhana on the banks of the Narmada River."
+    },
+    {
+        topic: "Harshavardhana & Sangam Age",
+        question: "Which Chinese pilgrim visited India during Harsha's reign and wrote 'Si-yu-ki' (Record of Western Regions)?",
+        options: ["Fa Hian", "Xuanzang (Hiuen Tsang)", "I-tsing", "Wang Dayuan"],
+        correct: 1,
+        explanation: "Xuanzang (Hiuen Tsang) visited India during Harsha's reign (630-643 AD). He wrote Si-yu-ki. Fa Hian visited during Chandragupta II's reign. I-tsing visited post-Harsha."
+    },
+    {
+        topic: "Harshavardhana & Sangam Age",
+        question: "The Shore Temple at Mahabalipuram was built by which Pallava king?",
+        options: ["Mahendravarman I", "Narasimhavarman I", "Rajasimha (Narasimhavarman II)", "Aparajita"],
+        correct: 2,
+        explanation: "The Shore Temple at Mahabalipuram (Mammalapuram) was built by Rajasimha (Narasimhavarman II). The Pancha Rathas (Monolithic) were built by Narasimhavarman I (Vatapikonda)."
+    },
+    {
+        topic: "Harshavardhana & Sangam Age",
+        question: "The Kailasanatha Temple at Ellora was carved out of a single rock by which Rashtrakuta king?",
+        options: ["Dantidurga", "Krishna I", "Amoghavarsha", "Govinda III"],
+        correct: 1,
+        explanation: "The famous Kailasanatha Temple (Cave 16) at Ellora was carved from a single monolithic rock by Krishna I (Rashtrakuta dynasty). It is the largest monolithic structure in the world."
+    },
+    {
+        topic: "Harshavardhana & Sangam Age",
+        question: "The 'Uttaramerur Inscription' (Chola period) describes which famous local self-governance system?",
+        options: ["The Panchayat system", "The Kudavolai (lottery) system for electing village assemblies", "The Zamindari system", "The Jajmani system"],
+        correct: 1,
+        explanation: "The Uttaramerur Inscription (from the reign of Parantaka I) describes the Kudavolai system — a lottery-based election for the Uttaramerur Sabhas (village assemblies), a form of early democracy."
+    },
+    // ===== ANCIENT BOOKS & PHILOSOPHIES - EXPANDED =====
+    {
+        topic: "Ancient Books & Authors",
+        question: "Which is the correct author-book match: Mudrarakshasa?",
+        options: ["Panini", "Vishakhadatta", "Kalhana", "Bana Bhatta"],
+        correct: 1,
+        explanation: "Vishakhadatta wrote Mudrarakshasa (a Sanskrit play about Chandragupta Maurya). Other key matches: Ashtadhyayi → Panini, Rajatarangini → Kalhana, Harshacharita → Bana Bhatta."
+    },
+    {
+        topic: "Ancient Books & Authors",
+        question: "Charaka Samhita is related to which ancient Indian field?",
+        options: ["Astronomy", "Grammar", "Medicine (Ayurveda)", "Architecture"],
+        correct: 2,
+        explanation: "Charaka Samhita (by Charaka) is the foundational text of Ayurveda (Indian medicine). Sushruta Samhita is related to surgery."
+    },
+    {
+        topic: "Ancient Books & Authors",
+        question: "Which book by Kalidasa is a biography/play dealing with the life of Chandragupta II?",
+        options: ["Meghaduta", "Abhijnanashakuntalam", "Kumarasambhava", "Devichandraguptam"],
+        correct: 3,
+        explanation: "Devichandraguptam by Vishakhadatta describes Chandragupta II. Kalidasa's masterworks include: Abhijnanashakuntalam (play), Meghaduta (poem), Raghuvamsha, Kumarasambhava."
+    },
+    {
+        topic: "Ancient Indian Philosophies",
+        question: "Which of the 6 Schools (Shad Darshana) of Indian Philosophy was founded by Kapila?",
+        options: ["Nyaya", "Vaisheshika", "Samkhya", "Yoga"],
+        correct: 2,
+        explanation: "Samkhya (dualistic) philosophy was founded by Kapila. The 6 Darshanas: Nyaya (Gautama), Vaisheshika (Kanada), Samkhya (Kapila), Yoga (Patanjali), Mimamsa (Jaimini), Vedanta/Uttara Mimamsa (Badarayana)."
+    },
+    {
+        topic: "Ancient Indian Philosophies",
+        question: "Who founded the Yoga school of philosophy?",
+        options: ["Kapila", "Kanada", "Jaimini", "Patanjali"],
+        correct: 3,
+        explanation: "Patanjali founded the Yoga Darshana. His Yoga Sutras describe the 8-fold path (Ashtanga Yoga): Yama, Niyama, Asana, Pranayama, Pratyahara, Dharana, Dhyana, Samadhi."
+    },
+    {
+        topic: "Chalukyas & Pallavas",
+        question: "Which Pallava king is known as 'Vatapikonda' (Conqueror of Vatapi) for defeating the Chalukya king Pulakeshin II?",
+        options: ["Mahendravarman I", "Narasimhavarman I", "Rajasimha", "Simhavishnu"],
+        correct: 1,
+        explanation: "Narasimhavarman I (Mamalla, 630-668 AD) defeated and killed Pulakeshin II and captured Vatapi (Badami), earning the title 'Vatapikonda'. He also built the Mahabalipuram Rathas."
+    },
+    {
+        topic: "Chalukyas & Pallavas",
+        question: "The famous bronze Nataraja (Shiva as Lord of Dance) sculpture was produced by which dynasty using which technique?",
+        options: ["Pallavas, stone-carving", "Cholas, Cire Perdue (lost-wax) technique", "Rashtrakutas, casting", "Chalukyas, hammering"],
+        correct: 1,
+        explanation: "The Chola dynasty produced the famous Nataraja bronzes using the Cire Perdue (Lost-Wax) casting technique. These are masterpieces of South Indian art."
+    }
+
+,
+
+    // ===== STONE AGE FC =====
+    { topic: "Stone Age", front: "Who discovered Bhimbetka caves (1957)?", back: "V.S. Wakankar — 'Father of Indian Rock Art'." },
+    { topic: "Stone Age", front: "Who was the first to discover rock paintings in India (1867-68)?", back: "Archibald Campbell Carlleyle at Sohagighat, UP." },
+    { topic: "Stone Age", front: "Which site = skull of Homo Erectus found?", back: "Hathnora, Madhya Pradesh (Narmada Man)." },
+    { topic: "Stone Age", front: "Burzahom (Kashmir) is famous for?", back: "Pit dwellings + dog burials with masters." },
+    { topic: "Stone Age", front: "Which site = Ostrich evidence first found in India?", back: "Patne, Maharashtra (Upper Palaeolithic)." },
+    { topic: "Stone Age", front: "Which site = traces of ash/fire first discovered?", back: "Kurnool Caves, Andhra Pradesh." },
+    { topic: "Stone Age", front: "Three Age System (Stone/Bronze/Iron) developed by?", back: "C.J. Thomson (Christian Jürgensen Thomsen)." },
+    { topic: "Stone Age", front: "First Palaeolithic tool in India — where and by whom?", back: "Pallavaram (near Madras), Robert Bruce Foote, 1863." },
+    { topic: "Stone Age", front: "Mehrgarh (oldest farming evidence, 7000 BCE) is in which country?", back: "Pakistan (Balochistan)." },
+    // ===== IVC FC =====
+    { topic: "Indus Valley Civilization", front: "Mesopotamian name for IVC?", back: "Meluhha. (Magan = Oman, Dilmun = Bahrain)" },
+    { topic: "Indus Valley Civilization", front: "IVC script style?", back: "Boustrophedon — Right to Left, then Left to Right alternately." },
+    { topic: "Indus Valley Civilization", front: "IVC city with NO Citadel?", back: "Chanhudaro (excavated by N.G. Majumdar)." },
+    { topic: "Indus Valley Civilization", front: "IVC brick ratio?", back: "1:2:4 (Height:Width:Length) — perfectly standardised." },
+    { topic: "Indus Valley Civilization", front: "Greeks called cotton by what name?", back: "Sindon (derived from Sindh)." },
+    { topic: "Indus Valley Civilization", front: "IVC weights made of?", back: "Chert. Binary for lower, Decimal for higher denominations." },
+    { topic: "Indus Valley Civilization", front: "Canal irrigation traces at which IVC site?", back: "Shortugai, Afghanistan (northernmost IVC site)." },
+    { topic: "Indus Valley Civilization", front: "Dholavira = India's UNESCO site number?", back: "40th UNESCO World Heritage Site (2021)." },
+    { topic: "Indus Valley Civilization", front: "Horse bones found at which IVC site?", back: "Surkotada (Gujarat) — only IVC site with horse remains." },
+    // ===== VEDIC FC =====
+    { topic: "The Vedic Age", front: "Boghazkoi Inscription (Turkey) mentions which 4 Vedic gods?", back: "Indra, Varuna, Mitra, Nasatya — proves Aryan-West Asia contact." },
+    { topic: "The Vedic Age", front: "Vedic priests for each Veda?", back: "Hotri (Rig), Udgatri (Sama), Adhvaryu (Yajur), Brahma (Atharva)." },
+    { topic: "The Vedic Age", front: "Gayatri Mantra — Mandala, Rishi, Deity?", back: "3rd Mandala. Composed by Vishwamitra. Addressed to Savitri (Sun)." },
+    { topic: "The Vedic Age", front: "3 female sages who composed Rig Vedic hymns?", back: "Ghosha, Apala, and Viswavara." },
+    { topic: "The Vedic Age", front: "Katha Upanishad contains the story of?", back: "Nachiketa and Yama (God of Death). From Yajur Veda." },
+    { topic: "The Vedic Age", front: "6 Vedangas (limbs of the Vedas)?", back: "Shiksha, Chandas, Vyakarana, Nirukta, Kalpa, Jyotisha." },
+    { topic: "The Vedic Age", front: "Shatapatha Brahmana (largest) belongs to which Veda?", back: "Shukla (White) Yajur Veda." },
+    { topic: "The Vedic Age", front: "Vedic term for 'spy'?", back: "Spasha." },
+    // ===== BUDDHISM FC =====
+    { topic: "Buddhism", front: "5 symbols of Buddha's life events?", back: "Lotus (Birth), Horse (Renunciation), Bodhi Tree (Enlightenment), Wheel (1st Sermon), Stupa (Death)." },
+    { topic: "Buddhism", front: "Bhumisparsha Mudra means?", back: "Right hand touches earth = witness to enlightenment at Bodh Gaya." },
+    { topic: "Buddhism", front: "Parts of a Stupa?", back: "Anda (dome), Harmika (railing on top), Yasti (pillar), Torana (gateway), Medhi (terrace), Vedika (outer railing)." },
+    { topic: "Buddhism", front: "4 Buddhist Councils — Location, Patron, President?", back: "1: Rajagriha-Ajatashatru-Mahakashyapa. 2: Vaishali-Kalashoka-Sabakami. 3: Pataliputra-Ashoka-Moggaliputta Tissa. 4: Kashmir-Kanishka-Vasumitra." },
+    { topic: "Buddhism", front: "Dhammapada is part of which Pitaka and Nikaya?", back: "Khuddaka Nikaya of Sutta Pitaka. (5 Nikayas: Digha, Majjhima, Samyutta, Anguttara, Khuddaka)" },
+    { topic: "Buddhism", front: "Didarganj Yakshi holds what and wears what?", back: "Holds a Chauri (flywhisk). Wears an Antari (lower garment). Finest Mauryan polished stone sculpture." },
+    { topic: "Buddhism", front: "3 Sects of Buddhism?", back: "Hinayana (no idol worship), Mahayana (idol worship, Bodhisattva), Vajrayana (Tantric)." },
+    { topic: "Buddhism", front: "Anatta (Buddhist concept)?", back: "No permanent self/soul. 3 marks of existence: Anicca (Impermanence), Dukkha (Suffering), Anatta (No-Self)." },
+    // ===== JAINISM FC =====
+    { topic: "Jainism", front: "5 Mahavrats (Great Vows) of Jainism?", back: "Ahimsa, Satya, Asteya, Aparigraha, Brahmacharya. First 4 from Parsvanath; Mahavira added Brahmacharya." },
+    { topic: "Jainism", front: "Mahavira attained Kaivalya under which tree, on which river?", back: "Sal tree, banks of river Rijupalika, at Jrmbhikagrama." },
+    { topic: "Jainism", front: "Makkhali Gosala founded which sect?", back: "Ajivika sect. Initially left home with Mahavira. Believed in Niyati (absolute fate)." },
+    { topic: "Jainism", front: "Syadvada and Anekantavada are doctrines of?", back: "Jainism. Syadvada = 7 modes of predication. Anekantavada = Non-absolutism." },
+    { topic: "Jainism", front: "Which Jain text lists all 16 Mahajanapadas?", back: "Bhagavati Sutra (Vyakhyaprajnapti)." },
+    { topic: "Jainism", front: "Digambara vs Shvetambara split?", back: "Split at Pataliputra Council (~300 BC). Digambara = sky-clad, went to Karnataka (Bhadrabahu). Shvetambara = white-clad (Sthulabahu)." },
+    // ===== MAHAJANAPADAS FC =====
+    { topic: "Mahajanapadas & Magadha Empire", front: "Only Mahajanapada south of the Vindhyas?", back: "Asmaka (on Godavari river). Capital: Pratisthan/Potana." },
+    { topic: "Mahajanapadas & Magadha Empire", front: "Ajatashatru used which 2 war machines?", back: "Mahashilakantaka (catapult) and Rathmoosai (scythe chariot)." },
+    { topic: "Mahajanapadas & Magadha Empire", front: "Capital of Matsya Mahajanapada?", back: "Viratnagar (modern Bairat, Rajasthan). Pandavas lived here in Agyatvas." },
+    { topic: "Mahajanapadas & Magadha Empire", front: "Vajji confederacy — how many clans, 2 most important?", back: "8 clans. Lichchhavi (Vaishali) and Videha (Mithila) were most important." },
+    { topic: "Mahajanapadas & Magadha Empire", front: "Last Nanda king and why hated?", back: "Dhanananda — hated for heavy taxation. Introduced Nandopakramani (standard measure)." },
+    // ===== MAURYAN FC =====
+    { topic: "Mauryan Empire", front: "Ashoka's name explicitly in which 4 Minor Rock Edicts?", back: "Maski, Nettur, Brahmagiri, Gujjara." },
+    { topic: "Mauryan Empire", front: "Greek name for Bindusara?", back: "Amitrochates (Slayer of enemies)." },
+    { topic: "Mauryan Empire", front: "7 elements of Kautilya's Saptanga Theory?", back: "Swami, Amatya, Janapada, Durga, Kosha, Danda, Mitra." },
+    { topic: "Mauryan Empire", front: "Mauryan tax paid in kind vs in cash?", back: "Pindakara = in kind. Hiranya = in gold/cash. Bhaga = 1/6th produce. Bali = voluntary." },
+    { topic: "Mauryan Empire", front: "Kautilya's Arthashastra has how many Adhikaranas?", back: "15 Adhikaranas (books)." },
+    // ===== POST-MAURYAN FC =====
+    { topic: "Post-Mauryan & Foreign Invasions", front: "First rulers to issue gold coins in India?", back: "Indo-Greeks (Yavanas). Most famous: Menander (Milinda)." },
+    { topic: "Post-Mauryan & Foreign Invasions", front: "Gandhara vs Mathura Art?", back: "Gandhara: Grey schist, Hellenistic style. Mathura: Red sandstone, indigenous style." },
+    { topic: "Post-Mauryan & Foreign Invasions", front: "Greatest Satavahana king + title?", back: "Gautamiputra Satakarni — defeated Nahapana. Called 'Ekabrahman'." },
+    { topic: "Post-Mauryan & Foreign Invasions", front: "Saka Era begins from?", back: "78 AD (Kanishka's coronation). Used as Indian National Calendar since 1957." },
+    // ===== GUPTA FC =====
+    { topic: "Gupta Empire", front: "Who composed Allahabad Pillar Inscription?", back: "Harishena (court poet of Samudragupta)." },
+    { topic: "Gupta Empire", front: "Last Shaka ruler defeated by Chandragupta II?", back: "Rudrasimha III (~409 AD). Earned title 'Shakari'." },
+    { topic: "Gupta Empire", front: "Gupta title 'Param Bhagavat'?", back: "Chandragupta II. 'Kaviraja' (King of Poets) = Samudragupta." },
+    { topic: "Gupta Empire", front: "Gupta land classification?", back: "Kshetra (cultivated), Khila (fallow/waste), Aprahata (wild forest)." },
+    { topic: "Gupta Empire", front: "Nalanda University founded by?", back: "Kumaragupta I (Mahendraditya)." },
+    { topic: "Gupta Empire", front: "Varahamihira's 2 key works?", back: "Brihat Samhita + Pancha Siddhantika." },
+    // ===== POST-GUPTA FC =====
+    { topic: "Harshavardhana & Sangam Age", front: "Aihole Inscription composed by whom, celebrating whom?", back: "Ravikirti — celebrating Chalukya Pulakeshin II's victory over Harsha (Narmada battle)." },
+    { topic: "Harshavardhana & Sangam Age", front: "Shore Temple (Mahabalipuram) built by?", back: "Rajasimha (Narasimhavarman II). Pancha Rathas = Narasimhavarman I." },
+    { topic: "Harshavardhana & Sangam Age", front: "Kailasanatha Temple (Ellora, Cave 16) carved by?", back: "Krishna I (Rashtrakuta). Largest monolithic structure in the world." },
+    { topic: "Harshavardhana & Sangam Age", front: "Uttaramerur Inscription describes?", back: "Kudavolai (lottery) system for electing Chola village assemblies — earliest democracy in India." },
+    { topic: "Harshavardhana & Sangam Age", front: "Chola Nataraja bronze made using?", back: "Cire Perdue (Lost-Wax) casting technique." },
+    // ===== BOOKS & PHILOSOPHY FC =====
+    { topic: "Ancient Books & Authors", front: "Author of Mudrarakshasa?", back: "Vishakhadatta (Sanskrit play on Chandragupta Maurya's rise)." },
+    { topic: "Ancient Books & Authors", front: "Ashtadhyayi, Rajatarangini, Harshacharita, Mricchakatika authors?", back: "Panini, Kalhana, Bana Bhatta, Shudraka respectively." },
+    { topic: "Ancient Books & Authors", front: "Charaka Samhita = ?", back: "Ayurveda (medicine). Author: Charaka (Kanishka's court physician)." },
+    { topic: "Ancient Indian Philosophies", front: "6 Shad Darshanas and founders?", back: "Nyaya (Gautama), Vaisheshika (Kanada), Samkhya (Kapila), Yoga (Patanjali), Mimamsa (Jaimini), Vedanta (Badarayana)." },
+    { topic: "Chalukyas & Pallavas", front: "Pallava king called 'Vatapikonda'?", back: "Narasimhavarman I (Mamalla). Defeated and killed Pulakeshin II, captured Vatapi." }
+
     ]
 };
 

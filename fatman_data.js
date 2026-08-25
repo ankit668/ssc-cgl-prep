@@ -2056,6 +2056,24 @@ window.fatmanGeography = {
             "front": "Which is the largest natural harbor port in India?",
             "back": "Mumbai Port.",
             "topic": "Indian Geography"
-        }
+        },
+
+    // ===== WORLD GEOGRAPHY FC (was only 9 entries) =====
+    { "front": "Strait of Malacca connects which two bodies of water?", "back": "Andaman Sea (Indian Ocean) and South China Sea. It is the busiest strait in the world.", "topic": "World Geography" },
+    { "front": "Which is the largest hot desert in the world?", "back": "Sahara Desert, Africa (~9.2 million sq km). Antarctic is the largest cold desert.", "topic": "World Geography" },
+    { "front": "Name the 5 ocean gyres and what they are.", "back": "Rotating systems of ocean currents. 5 major gyres: North/South Atlantic, North/South Pacific, Indian Ocean.", "topic": "World Geography" },
+    { "front": "What is the Coriolis Effect?", "back": "Deflection of moving objects/winds due to Earth's rotation. Deflects to the RIGHT in Northern Hemisphere, LEFT in Southern.", "topic": "World Geography" },
+    { "front": "What are 'Roaring Forties', 'Furious Fifties', 'Screaming Sixties'?", "back": "Extremely strong westerly winds found at latitudes 40°, 50°, 60° South in the Southern Hemisphere.", "topic": "World Geography" },
+    { "front": "Which ocean is the deepest, and what is its deepest point?", "back": "Pacific Ocean. Deepest point: Mariana Trench (Challenger Deep) ~11,034 m.", "topic": "World Geography" },
+    { "front": "What is the Sirocco wind and where does it blow?", "back": "A hot, dry, dusty wind blowing from Sahara desert across the Mediterranean into Southern Europe. Called 'Blood Rain' wind (carries red dust).", "topic": "World Geography" },
+    { "front": "What is the Harmattan wind called and where does it blow?", "back": "Hot, dry wind blowing from Sahara westward to West African coast. Called the 'Doctor Wind' for its drying effect reducing humidity.", "topic": "World Geography" },
+    { "front": "Which current is the world's fastest ocean current?", "back": "The Agulhas Current (off Southeast Africa) is the fastest. The Gulf Stream is the most voluminous.", "topic": "World Geography" },
+    { "front": "Difference between Warm and Cold ocean currents?", "back": "Warm currents flow from Equatorial/Tropical regions toward poles (e.g., Gulf Stream, Kuroshio). Cold currents flow from polar regions toward Equator (e.g., Benguela, Labrador, California, Humboldt).", "topic": "World Geography" },
+    { "front": "What are the 'Horse Latitudes'?", "back": "Sub-tropical High Pressure belts (~30° N and S) — calm, descending air. Named because sailors threw horses overboard when becalmed.", "topic": "World Geography" },
+    { "front": "What is El Niño and its effect on India?", "back": "Abnormal warming of Central/East Pacific Ocean. Effect on India: Weakens the Southwest Monsoon → causes drought.", "topic": "World Geography" },
+    { "front": "Deepest lake in the world?", "back": "Lake Baikal, Siberia, Russia (~1,642 m deep). Also the world's largest freshwater lake by volume.", "topic": "World Geography" },
+    { "front": "What is the Ring of Fire?", "back": "A horseshoe-shaped zone in the Pacific Ocean basin where ~90% of the world's earthquakes occur and ~75% of volcanoes are located.", "topic": "World Geography" },
+    { "front": "What is a 'Fjord'?", "back": "A narrow, deep inlet of the sea between high cliffs, formed by glacial erosion. Most famous: Norway's fjords.", "topic": "World Geography" },
+
     ]
 };

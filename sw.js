@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ssc-prep-cache-v58';
+const CACHE_NAME = 'ssc-prep-cache-v59';
 const urlsToCache = [
   './',
   './index.html',
@@ -28,6 +28,7 @@ const urlsToCache = [
   './study_notes.js',
   './fatman_data.js',
   './fatman_ui.js',
+  './history_data.js',
   './icon-192.png',
   './icon-512.png'
 ];
