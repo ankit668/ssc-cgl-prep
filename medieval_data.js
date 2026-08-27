@@ -1,4 +1,4 @@
-const historyData = {
+const medievalData = {
     chapter: "Medieval History Complete",
     notes: `
         <!-- STRICT PDF EXTRACTION: MEDIEVAL HISTORY -->
@@ -88,4 +88,4 @@ const historyData = {
     flashcards: []
 };
 
-window.fatmanMedieval = historyData;
+window.fatmanMedieval = medievalData;
