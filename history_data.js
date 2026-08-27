@@ -420,196 +420,83 @@ const historyData = {
             </li>
         </ul>
 
-        <!-- MEDIEVAL HISTORY INJECTION -->
-        <h3>11. Early Invasions & The Rajputs</h3>
+        <h3>11. Invasion of Islam & Rajput Rulers</h3>
         <ul>
-            <li><strong>Arab Invasion (712 AD):</strong> Muhammad bin Qasim defeated Dahir (King of Sind) at the Battle of Rewar.</li>
-            <li><strong>Mahmud of Ghazni (998-1030 AD):</strong> Led 17 expeditions into India. Most famous: Destruction of <strong>Somnath Temple</strong> in 1025 AD (during reign of Bhima I of Solanki dynasty). <span class='pyq-badge'>CGL '23</span>
+            <li><strong>Invasion of Islam:</strong> Islam originated around 610 AD in the 7th Century AD. <em>Khalifa</em>: The Uppermost Islamist Ruler. <em>Manshur</em>: A formal letter issued by Khalifa to Sultans (ruler) to rule over a certain region.</li>
+            <li><strong>Ghaznavid Dynasty:</strong> <em>Alap-Tigin</em> (a Turk slave) initially captured Ghaznavid region. <em>Sabuktigin</em> set an independent dynasty (the real founder). Jayapala of Hindu Shahi Dynasty was defeated by Sabuktigin.</li>
+            <li><strong>Muhammad Bin Qasim &rarr; 1st Islamic Invasion (712 AD):</strong> This invasion took place in Sindh. He came from Arab and killed <em>Raja Dahir</em>. He was the first to introduce <strong>jizya</strong> in Indian subcontinent.</li>
+            <li><strong>Mahmud of Ghazni &rarr; 2nd Islamic/1st Turk Invasion (998 AD-1030 AD):</strong> 
                 <ul>
-                    <li><em>Court Scholars:</em> <strong>Al-Biruni</strong> (wrote <em>Kitab-ul-Hind</em>), <strong>Firdausi</strong> (wrote <em>Shahnameh</em>), <strong>Utbi</strong> (wrote <em>Kitab-ud-Yamini</em>).</li>
+                    <li>Court language of Turks was Persian. He attacked <strong>17 times</strong> (1001 AD-1027 AD).</li>
+                    <li><em>Battle of Peshawar (1001 AD):</em> Defeated Jayapala (who committed suicide called 'Funeral Pyre').</li>
+                    <li><em>Battle of Waihind or Chaach (1008 AD):</em> Defeated Anandapal (Son of Jayapala).</li>
+                    <li><em>Attack on Somnath Temple (1025 AD):</em> Invaded Somnath in his 16th attack.</li>
+                    <li><em>Writers:</em> <strong>Firdausi</strong> (wrote <em>Shahnama</em>), <strong>Al Biruni</strong> (wrote <em>Tahqiq-i-Hind / Kitab-al-Hind</em>). <strong>Al-Utbi</strong> wrote <em>Kitab al-Yamini</em>.</li>
                 </ul>
             </li>
-            <li><strong>Muhammad Ghori:</strong> 
+            <li><strong>Muhammad Ghori &rarr; 3rd Islamic/2nd Turk Invasion (1175 AD-1206 AD):</strong> 
                 <ul>
-                    <li><em>First Battle of Tarain (1191):</em> Defeated by Prithviraj Chauhan.</li>
-                    <li><em>Second Battle of Tarain (1192):</em> Defeated Prithviraj Chauhan (established Turkish rule). <span class='pyq-badge'>SSC Fav</span></li>
-                    <li><em>Battle of Chandawar (1194):</em> Defeated Jaichand (Ruler of Kannauj).</li>
+                    <li>Persian name: Mu'izz al-Din Muhammad. <em>His first attack took place in: 1175 AD</em> (in Multan).</li>
+                    <li><em>1st Battle of Tarain (1191 AD):</em> Defeated by Prithviraj Chauhan.</li>
+                    <li><em>2nd Battle of Tarain (1192 AD):</em> Defeated Prithviraj Chauhan. Qutb-ud-din Aibak helped him.</li>
+                    <li><em>Battle of Chandawar (1194 AD):</em> Fought between Ghori and Raja Jaichand, where Ghori won.</li>
+                    <li><strong>Bakhtiyar Khilji:</strong> Destroyed <strong>Nalanda</strong> and <strong>Vikramashila University</strong>. Assassinated by his own Military General Ali Mardan Khan at Devkot in 1206 CE.</li>
                 </ul>
             </li>
         </ul>
 
-        <h3>12. The Delhi Sultanate (1206 - 1526 AD)</h3>
-        <p>Trick to remember dynasty order: <strong>S</strong>ab <strong>K</strong>hao <strong>T</strong>amatar <strong>S</strong>ab <strong>L</strong>aal (Slave &rarr; Khalji &rarr; Tughlaq &rarr; Sayyid &rarr; Lodi).</p>
+        <h3>12. Delhi Sultanate Period (1206 AD - 1526 AD)</h3>
+        <p><strong>TRICK TO REMEMBER &rarr; Sab Khatarnak The Saare Log</strong><br>
+        Slave Dynasty (S) &rarr; Khilji Dynasty (K) &rarr; Tughlaq Dynasty (T) &rarr; Sayyid Dynasty (Sa) &rarr; Lodhi Dynasty (Lo)</p>
+
+        <h4>A. SLAVE DYNASTY (1206 AD-1290 AD)</h4>
         <ul>
-            <li><strong>1. Slave Dynasty / Mamluk (1206-1290):</strong>
+            <li>Also known as <strong>Mamluk Dynasty</strong>. Rulers belonged to <em>Ilbari tribe/Shamsi tribe</em>.</li>
+            <li><strong>Qutb-ud-din Aibak (1206 AD-1210 AD):</strong> 
                 <ul>
-                    <li><strong>Qutbuddin Aibak:</strong> Founder. Capital: Lahore. Titles: <em>Lakh Bakhsh</em> (Giver of Lakhs). Built Quwwat-ul-Islam (Delhi) & Adhai Din Ka Jhonpra (Ajmer). Died playing <em>Chaugan</em> (Polo).</li>
-                    <li><strong>Iltutmish:</strong> Real founder. Capital shifted to Delhi. Introduced <em>Iqta</em> system and <em>Turkan-i-Chahalgani</em> (Group of 40 nobles). Coins: Silver <em>Tanka</em> and Copper <em>Jital</em>. <span class='pyq-badge'>CGL '24</span></li>
-                    <li><strong>Razia Sultana:</strong> First and only female Muslim ruler of medieval India.</li>
-                    <li><strong>Balban:</strong> Destroyed the Group of 40. Introduced <em>Sijda</em> (prostration) and <em>Paibos</em> (kissing the Sultan's feet). Policy of <em>Blood and Iron</em>. Established military department <strong>Diwan-i-Arz</strong>.</li>
+                    <li>Ruled from Lahore. Title: <em>'Lakh Baksh'</em> (the giver of Lakhs).</li>
+                    <li>Death: 1210 AD, while playing <strong>Chaugan</strong> (Polo).</li>
+                    <li><em>Architecture:</em> Mosques: <strong>Quwwat-ul-Islam</strong> (made in corbel arch technique) at Delhi and <strong>Adhai din ka Jhonpra</strong> (earlier it had Jain Basadis) at Ajmer. Laid foundation of Qutub Minar (73 or 72.5 m high) in honour of Sufi Saint Khwaja Qutbuddin Bakhtiar Kaki.</li>
                 </ul>
             </li>
-            <li><strong>2. Khalji Dynasty (1290-1320):</strong> (Shortest ruling dynasty)
+            <li><strong>Shamsuddin Iltutmish (1211 AD-1236 AD):</strong> 
                 <ul>
-                    <li><strong>Alauddin Khalji:</strong> Greatest sultan. Separated religion from politics. 
-                        <ul>
-                            <li><em>Reforms:</em> Introduced <em>Dagh</em> (branding of horses) and <em>Chehra</em> (descriptive roll of soldiers). First to pay standing army in cash.</li>
-                            <li><em>Market Control:</em> Established <strong>Diwan-i-Riyasat</strong> and Shahna-i-Mandi to control prices.</li>
-                            <li><em>Architecture:</em> Built Alai Darwaza, Siri Fort, Hauz Khas. <span class='pyq-badge'>CHSL '23</span></li>
-                        </ul>
-                    </li>
+                    <li>Shifted his capital from Lahore to <strong>Delhi</strong>. Saved Delhi Sultanate from the wrath of <strong>Genghis Khan</strong>.</li>
+                    <li>He set up the official nobility of 40 loyal slaves known as <strong>Chahalgani</strong> (Turkish slaves).</li>
+                    <li>He introduced Silver coin (<strong>Tanka</strong>) and Copper coin (<strong>Jital</strong>).</li>
+                    <li>He introduced the <strong>Iqta system</strong> (transferable revenue assignments).</li>
+                    <li>Patronized Minhaj-i-Siraj (wrote: <em>Tabaqat-i-Nasiri</em>).</li>
                 </ul>
             </li>
-            <li><strong>3. Tughlaq Dynasty (1320-1414):</strong> (Longest ruling dynasty)
+            <li><strong>Razia Sultana (1236 AD-1240 AD):</strong> 
                 <ul>
-                    <li><strong>Ghiyasuddin Tughlaq:</strong> Built Tughlaqabad. Died when a wooden pavilion collapsed.</li>
-                    <li><strong>Muhammad bin Tughlaq (Jauna Khan):</strong> Highly educated but disastrous projects.
-                        <ul>
-                            <li>Shifted capital from Delhi to Daulatabad (Devagiri) in 1327.</li>
-                            <li>Introduced <em>Token Currency</em> (copper/brass coins at par with silver).</li>
-                            <li>Created agriculture department <strong>Diwan-i-Amir Kohi</strong>. <span class='pyq-badge'>CGL '23</span></li>
-                            <li>Ibn Battuta (Moroccan traveler) visited his court, wrote <em>Rihla</em>.</li>
-                        </ul>
-                    </li>
-                    <li><strong>Firoz Shah Tughlaq:</strong> Built maximum canals. Established <strong>Diwan-i-Bandagan</strong> (for slaves) and <em>Diwan-i-Khairat</em> (charity). First to impose Jizya on Brahmins. Built Firoz Shah Kotla.</li>
+                    <li>First and the only woman ruler of the Delhi Sultanate. Daughter of Iltutmish.</li>
+                    <li>Murdered in 1240 AD near Kaithal (Haryana) by Khokhar tribe conspiracy with her husband Altunia.</li>
                 </ul>
             </li>
-            <li><strong>4. Sayyid Dynasty (1414-1451):</strong> Founder: Khizr Khan (Timur's nominee).</li>
-            <li><strong>5. Lodi Dynasty (1451-1526):</strong> First Afghan dynasty.
+            <li><strong>Ghiyasuddin Balban (1266 AD-1287 AD):</strong> 
                 <ul>
-                    <li><strong>Sikandar Lodi:</strong> Founded <strong>Agra</strong> (1504) and shifted capital there. Introduced <em>Gaj-i-Sikandari</em> (measuring unit). Wrote poetry under pen name <em>Gulrukhi</em>.</li>
-                    <li><strong>Ibrahim Lodi:</strong> Defeated by Babur in the <strong>First Battle of Panipat (1526)</strong>. End of Delhi Sultanate.</li>
+                    <li>Original name: Baha-ud-Din. He broke the power of Chalisa (abolished Chahalgani system).</li>
+                    <li>Established the military department <strong>Diwan-i-Arz</strong>.</li>
+                    <li>Title taken: <strong>Zil-i-Ilahi</strong> (Shadow of Allah) and Ulugh Khan.</li>
+                    <li>Introduced <strong>Sijda</strong> (prostration) and <strong>Paibos</strong> (kissing the feet of monarch).</li>
+                    <li>Started <strong>"Blood and Iron Policy"</strong> and <strong>Nowruz</strong> (Parsi New Year).</li>
                 </ul>
             </li>
+            <li><strong>Important Officers:</strong> Wazir (Prime Minister/Finance), Amil (Collected revenue), Amir (Governor), Barid (Spies), Muqti/Wali/Iqtedar (Hold iqta).</li>
         </ul>
 
-        <h3>13. Provincial Kingdoms: Vijayanagara & Bahmani</h3>
+        <h4>B. KHILJI DYNASTY (1290 AD-1320 AD)</h4>
         <ul>
-            <li><strong>Vijayanagara Empire (1336 - 1646):</strong> Founded by Harihara & Bukka (Sangama dynasty) on banks of Tungabhadra. Capital: Hampi (UNESCO).
+            <li>Khiljis were Turks but did not belong to the Ilbari tribe. Founder: Jalal-ud-din Khilji.</li>
+            <li><strong>Alauddin Khilji (1296 AD-1316 AD):</strong> 
                 <ul>
-                    <li><strong>Four Dynasties:</strong> Sangama &rarr; Saluva &rarr; Tuluva &rarr; Aravidu.</li>
-                    <li><strong>Krishnadevaraya (Tuluva Dynasty):</strong> Greatest ruler. Title: <em>Andhra Bhoja</em>. Contemporary of Babur. 
-                        <ul>
-                            <li>Authored <strong>Amuktamalyada</strong> (Telugu) and <em>Jambavati Kalyanam</em> (Sanskrit). <span class='pyq-badge'>SSC Fav</span></li>
-                            <li>Court adorned by <em>Ashtadiggajas</em> (8 Telugu poets, including Tenali Rama and Allasani Peddana).</li>
-                            <li>Built Vittalaswamy Temple and Hazara Rama Temple.</li>
-                        </ul>
-                    </li>
-                    <li><strong>Battle of Talikota (1565):</strong> Also called Battle of Rakshasa Tangadi. Bahmani coalition destroyed Vijayanagara (Aliya Rama Raya).</li>
-                    <li><em>Foreign Travelers:</em> Nicolo Conti (Italy - Deva Raya I), Abdur Razzaq (Persia - Deva Raya II), Domingo Paes & Fernao Nuniz (Portugal - Krishnadevaraya).</li>
-                </ul>
-            </li>
-            <li><strong>Bahmani Kingdom:</strong> Founded by Alauddin Hasan Bahman Shah (Hasan Gangu) in 1347. Capital: Gulbarga, later Bidar.
-                <ul>
-                    <li>Fractured into 5 Sultanates: Ahmadnagar (Nizam Shahi), Bijapur (Adil Shahi - built Gol Gumbaz), Golconda (Qutb Shahi - built Charminar), Bidar, Berar.</li>
-                </ul>
-            </li>
-        </ul>
-
-        <h3>14. The Mughal Empire (1526 - 1857 AD)</h3>
-        <ul>
-            <li><strong>Babur (1526-1530):</strong> Founder. Introduced gunpowder and artillery. 
-                <ul>
-                    <li>Battles: Panipat I (1526, vs Ibrahim Lodi), Khanwa (1527, vs Rana Sanga), Chanderi (1528, vs Medini Rai), Ghaghra (1529, vs Afghans).</li>
-                    <li>Autobiography: <em>Tuzuk-i-Baburi</em> (Baburnama) written in Chagatai <strong>Turki</strong>. <span class='pyq-badge'>CGL '24</span></li>
-                </ul>
-            </li>
-            <li><strong>Humayun (1530-1556):</strong> Defeated by Sher Shah Suri at Chausa (1539) and Kannauj/Bilgram (1540). Died falling from library stairs (Sher Mandal). Sister Gulbadan Begum wrote <em>Humayun-nama</em>.</li>
-            <li><strong>Sher Shah Suri (Sur Empire):</strong> Built the Grand Trunk (GT) Road (Sadak-i-Azam). Introduced the silver coin <em>Rupiya</em>. Tomb is at Sasaram (Bihar).</li>
-            <li><strong>Akbar (1556-1605):</strong> Crowned at Kalanaur (age 13) by Bairam Khan.
-                <ul>
-                    <li><em>Second Battle of Panipat (1556):</em> Bairam Khan defeated Hemu.</li>
-                    <li><em>Battle of Haldighati (1576):</em> Raja Man Singh defeated Maharana Pratap.</li>
-                    <li><em>Admin:</em> Introduced <strong>Mansabdari System</strong> (rank/salary based on Zat and Sawar). Abolished Jizya (1564). Introduced <em>Dahsala</em> land revenue system (Todar Mal).</li>
-                    <li><em>Religion:</em> Built Ibadat Khana (Fatehpur Sikri). Promulgated <em>Din-i-Ilahi</em> (Birbal was first to accept).</li>
-                    <li><em>Navratnas:</em> Birbal, Tansen (Ramtanu Pandey), Todar Mal, Abul Fazl (wrote <em>Akbarnama</em>), Faizi, Man Singh, Abdur Rahim Khan-i-Khana, Mullah Do-Piyaza, Fakir Aziao-Din.</li>
-                </ul>
-            </li>
-            <li><strong>Jahangir (1605-1627):</strong> "Golden Age of Painting". Installed <em>Zanjir-i-Adl</em> (Chain of Justice). Executed 5th Sikh Guru, Guru Arjan Dev. Captain William Hawkins and Sir Thomas Roe visited his court.</li>
-            <li><strong>Shah Jahan (1628-1658):</strong> "Golden Age of Architecture". Built Taj Mahal, Jama Masjid, Red Fort, Peacock Throne (Takht-e-Taus).</li>
-            <li><strong>Aurangzeb (1658-1707):</strong> Title: <em>Alamgir</em> & <em>Zinda Pir</em>. Re-imposed Jizya (1679). Executed 9th Sikh Guru, Guru Tegh Bahadur. Built Bibi Ka Maqbara (Aurangabad) and Moti Masjid (Red Fort). Died in Ahmednagar (1707).</li>
-        </ul>
-
-        <h3>15. The Maratha Empire & Shivaji</h3>
-        <ul>
-            <li><strong>Chhatrapati Shivaji Maharaj (1630-1680):</strong> Born at Shivneri Fort. Coronation at Raigad (1674). 
-                <ul>
-                    <li><em>Treaty of Purandar (1665):</em> Signed with Raja Jai Singh (Aurangzeb's general).</li>
-                    <li><em>Admin:</em> <strong>Ashtapradhan</strong> (Council of 8 Ministers). Head was <em>Peshwa</em> (Prime Minister), <em>Amatya/Majumdar</em> (Finance), <em>Sumant</em> (Foreign).</li>
-                    <li><em>Taxes:</em> <strong>Chauth</strong> (1/4th of land revenue to avoid Maratha raids) and <strong>Sardeshmukhi</strong> (additional 1/10th as supreme head). <span class='pyq-badge'>CGL '23</span></li>
-                </ul>
-            </li>
-            <li><strong>The Peshwas:</strong>
-                <ul>
-                    <li><em>Balaji Vishwanath:</em> First Peshwa.</li>
-                    <li><em>Baji Rao I:</em> Greatest guerrilla fighter after Shivaji. Never lost a battle.</li>
-                    <li><em>Third Battle of Panipat (1761):</em> Ahmad Shah Abdali defeated Marathas (led by Sadashivrao Bhau).</li>
-                </ul>
-            </li>
-        </ul>
-
-
-        <!-- MEDIEVAL DEEP CUTS INJECTION -->
-        <h3>16. The 10 Sikh Gurus & Khalsa Panth <span class='pyq-badge'>SSC Fav</span></h3>
-        <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
-            <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>Guru</th><th style='border:1px solid #334155;padding:5px;'>Key Contributions (TCS Deep Cuts)</th></tr>
-            <tr><td style='border:1px solid #334155;padding:5px;'>1. Guru Nanak Dev</td><td style='border:1px solid #334155;padding:5px;'>Founder of Sikhism. Introduced <em>Langar</em> (community kitchen). Born at Talwandi (Nankana Sahib).</td></tr>
-            <tr><td style='border:1px solid #334155;padding:5px;'>2. Guru Angad Dev</td><td style='border:1px solid #334155;padding:5px;'>Invented the <strong>Gurmukhi</strong> script. Standardized Langar.</td></tr>
-            <tr><td style='border:1px solid #334155;padding:5px;'>3. Guru Amar Das</td><td style='border:1px solid #334155;padding:5px;'>Introduced the <em>Manji</em> system (religious administration) and Anand Karaj (marriage ceremony).</td></tr>
-            <tr><td style='border:1px solid #334155;padding:5px;'>4. Guru Ram Das</td><td style='border:1px solid #334155;padding:5px;'>Founded the city of <strong>Amritsar</strong> (on land gifted by Akbar). Composed the Lavan.</td></tr>
-            <tr><td style='border:1px solid #334155;padding:5px;'>5. Guru Arjan Dev</td><td style='border:1px solid #334155;padding:5px;'>Compiled the <strong>Adi Granth</strong>. Built the Harmandir Sahib (Golden Temple). Executed by Jahangir. <span class='pyq-badge'>CGL '23</span></td></tr>
-            <tr><td style='border:1px solid #334155;padding:5px;'>6. Guru Hargobind</td><td style='border:1px solid #334155;padding:5px;'>Built the <strong>Akal Takht</strong>. Transformed Sikhs into a martial race (Miri and Piri swords).</td></tr>
-            <tr><td style='border:1px solid #334155;padding:5px;'>7. Guru Har Rai</td><td style='border:1px solid #334155;padding:5px;'>Maintained a large army. Sheltered Dara Shikoh.</td></tr>
-            <tr><td style='border:1px solid #334155;padding:5px;'>8. Guru Har Krishan</td><td style='border:1px solid #334155;padding:5px;'>Youngest Guru (became Guru at age 5). Died of smallpox in Delhi.</td></tr>
-            <tr><td style='border:1px solid #334155;padding:5px;'>9. Guru Tegh Bahadur</td><td style='border:1px solid #334155;padding:5px;'>Founded Anandpur Sahib. Executed by Aurangzeb at Chandni Chowk (Gurdwara Sis Ganj Sahib).</td></tr>
-            <tr><td style='border:1px solid #334155;padding:5px;'>10. Guru Gobind Singh</td><td style='border:1px solid #334155;padding:5px;'>Founded the <strong>Khalsa Panth</strong> (1699). Introduced the 5 Ks (Kesh, Kangha, Kara, Kachera, Kirpan). Declared Guru Granth Sahib as the eternal Guru.</td></tr>
-        </table>
-
-        <h3>17. Bhakti & Sufi Movements</h3>
-        <ul>
-            <li><strong>Bhakti Philosophy:</strong>
-                <ul>
-                    <li><em>Advaita</em> (Non-dualism) by <strong>Shankaracharya</strong>. <span class='pyq-badge'>CGL '24</span></li>
-                    <li><em>Vishishtadvaita</em> (Qualified Non-dualism) by <strong>Ramanuja</strong>.</li>
-                    <li><em>Dvaita</em> (Dualism) by <strong>Madhvacharya</strong>.</li>
-                    <li><em>Shuddhadvaita</em> (Pure Non-dualism) by <strong>Vallabhacharya</strong>.</li>
-                </ul>
-            </li>
-            <li><strong>Saints (Nirguna vs Saguna):</strong>
-                <ul>
-                    <li><strong>Nirguna (Formless God):</strong> Kabir (disciple of Ramananda, works collected in <em>Bijak</em>), Guru Nanak, Dadu Dayal.</li>
-                    <li><strong>Saguna (God with Form):</strong> Tulsidas (wrote <em>Ramcharitmanas</em>), Mirabai, Surdas, Chaitanya Mahaprabhu (popularized <em>Sankirtan</em> in Bengal), Shankaradeva (Assam - introduced <em>Sattriya</em> dance).</li>
-                </ul>
-            </li>
-            <li><strong>Sufi Silsilas (Orders):</strong>
-                <ul>
-                    <li><strong>Chishti Order:</strong> Most popular. Founded in India by Khwaja Moinuddin Chishti (Dargah at Ajmer). Other saints: Nizamuddin Auliya, Baba Farid.</li>
-                    <li><strong>Suhrawardi Order:</strong> Confined mostly to Punjab and Multan. Accepted state patronage (unlike Chishtis).</li>
-                </ul>
-            </li>
-        </ul>
-
-        <h3>18. Mughal Literature, Art & Regional Kingdoms</h3>
-        <ul>
-            <li><strong>Mughal Literature (TCS Deep Cuts):</strong>
-                <ul>
-                    <li><em>Razmnama:</em> Persian translation of the <strong>Mahabharata</strong> (translated by Badauni, Faizi, and others under Akbar).</li>
-                    <li><em>Sirr-i-Akbar:</em> Persian translation of 50 <strong>Upanishads</strong> by Dara Shikoh (Shah Jahan's eldest son). <span class='pyq-badge'>CHSL '23</span></li>
-                    <li><em>Ain-i-Akbari & Akbarnama:</em> Written by Abul Fazl.</li>
-                    <li><em>Hamzanama:</em> Massive illustrated manuscript detailing the adventures of Amir Hamza (started by Humayun, completed by Akbar).</li>
-                </ul>
-            </li>
-            <li><strong>Mughal Painters:</strong>
-                <ul>
-                    <li><em>Akbar's Court:</em> Daswanth and Basawan (known for illustrating the Razmnama).</li>
-                    <li><em>Jahangir's Court:</em> <strong>Ustad Mansur</strong> (expert in flora and fauna/bird paintings) and Abul Hasan (portrait expert).</li>
-                </ul>
-            </li>
-            <li><strong>Regional Kingdoms:</strong>
-                <ul>
-                    <li><strong>Kashmir:</strong> Zain-ul-Abidin is called the <em>"Akbar of Kashmir"</em> because he abolished the Jizya tax and cow slaughter, and promoted religious tolerance.</li>
-                    <li><strong>Jaunpur:</strong> Known as the <em>"Shiraz of the East"</em> (due to its education/culture). Ruled by the Sharqi dynasty. Built the famous <strong>Atala Mosque</strong>.</li>
-                    <li><strong>Mewar:</strong> Rana Kumbha built the <strong>Vijay Stambha</strong> (Tower of Victory) in Chittorgarh to commemorate his victory over Mahmud Khalji of Malwa.</li>
+                    <li>Real name: <strong>Ali Gurshasp</strong>. Killed his uncle Jalaluddin after raid on Devagiri.</li>
+                    <li>He <strong>abolished iqta system</strong> in the Delhi Sultanate.</li>
+                    <li>Title taken after Deccan expedition: <strong>Sikandar-i-Sani</strong> (Second Alexander).</li>
+                    <li><em>Expeditions:</em> Gujarat (1298 AD), Ranthambore (1301 AD - Evidence of first Jauhar), Mewar (1303 AD - Capital Chittor, King Ratan Singh).</li>
+                    <li><em>Deccan Expeditions:</em> Army was led by <strong>Malik Kafur</strong> (also known as <em>'Hazar Dinari'</em> - bought from Gujarat Market at 1000 dinars).</li>
+                    <li>Defeated: Ramachandra (Yadava of Devagiri), Prataparudra Deva (Kakatiya of Warangal), Vira Ballala III (Hoysala), Vira Pandya (Pandya of Madurai).</li>
                 </ul>
             </li>
         </ul>
@@ -1891,104 +1778,8 @@ const historyData = {
         "options": ["Badami", "Aihole", "Pattadakal", "Kanchipuram"],
         "correct": 1,
         "explanation": "Aihole is called the 'Laboratory of Indian Temple Architecture'. Pattadakal (a blend of Nagara and Dravida) is called the 'Cradle of Indian Architecture' and is a UNESCO World Heritage Site."
-    },
-    {
-        "id": "hist_med_1",
-        "topic": "Medieval: Delhi Sultanate",
-        "question": "Which Delhi Sultan is known for establishing the 'Diwan-i-Arz' (military department)?",
-        "options": ["Qutbuddin Aibak", "Iltutmish", "Balban", "Alauddin Khalji"],
-        "correct": 2,
-        "explanation": "Balban established the Diwan-i-Arz to strengthen the army. He also introduced the policies of Blood & Iron and Sijda/Paibos."
-    },
-    {
-        "id": "hist_med_2",
-        "topic": "Medieval: Delhi Sultanate",
-        "question": "The token currency of copper/brass coins at par with silver was introduced by?",
-        "options": ["Firoz Shah Tughlaq", "Muhammad bin Tughlaq", "Alauddin Khalji", "Iltutmish"],
-        "correct": 1,
-        "explanation": "Muhammad bin Tughlaq introduced token currency, which failed disastrously due to mass forgery."
-    },
-    {
-        "id": "hist_med_3",
-        "topic": "Medieval: Mughals",
-        "question": "Who among the following wrote 'Tuzuk-i-Baburi' and in which language?",
-        "options": ["Abul Fazl in Persian", "Babur in Persian", "Babur in Turki (Chagatai)", "Gulbadan Begum in Turki"],
-        "correct": 2,
-        "explanation": "Babur wrote his own autobiography 'Baburnama' (Tuzuk-i-Baburi) in his native Chagatai Turki language."
-    },
-    {
-        "id": "hist_med_4",
-        "topic": "Medieval: Marathas",
-        "question": "In the Maratha administration (Ashtapradhan), what was the title of the Prime Minister?",
-        "options": ["Amatya", "Sumant", "Peshwa", "Sachiv"],
-        "correct": 2,
-        "explanation": "The Peshwa was the Prime Minister in Shivaji's Ashtapradhan. The Amatya handled finance, and the Sumant handled foreign affairs."
-    },
-    {
-        "id": "hist_med_5",
-        "topic": "Medieval: Vijayanagara",
-        "question": "The famous literary work 'Amuktamalyada' was written by Krishnadevaraya in which language?",
-        "options": ["Sanskrit", "Kannada", "Telugu", "Tamil"],
-        "correct": 2,
-        "explanation": "Krishnadevaraya was a great scholar and wrote 'Amuktamalyada' in Telugu, and 'Jambavati Kalyanam' in Sanskrit."
-    },
-    {
-        "id": "hist_deep_1",
-        "topic": "Medieval: Deep Cuts",
-        "question": "Who translated 50 Upanishads into Persian under the title 'Sirr-i-Akbar'?",
-        "options": ["Abul Fazl", "Badauni", "Dara Shikoh", "Faizi"],
-        "correct": 2,
-        "explanation": "Dara Shikoh, the eldest son of Shah Jahan, was a great scholar who translated the Upanishads into Persian as 'Sirr-i-Akbar'."
-    },
-    {
-        "id": "hist_deep_2",
-        "topic": "Medieval: Deep Cuts",
-        "question": "The 'Razmnama' is the Persian translation of which ancient Indian text?",
-        "options": ["Ramayana", "Mahabharata", "Upanishads", "Panchatantra"],
-        "correct": 1,
-        "explanation": "The Razmnama (Book of War) is the Persian translation of the Mahabharata, commissioned by Akbar."
-    },
-    {
-        "id": "hist_deep_3",
-        "topic": "Medieval: Sikhism",
-        "question": "Which Sikh Guru invented the Gurmukhi script?",
-        "options": ["Guru Nanak Dev", "Guru Angad Dev", "Guru Ram Das", "Guru Arjan Dev"],
-        "correct": 1,
-        "explanation": "Guru Angad Dev (the second Guru) invented the Gurmukhi script and standardized the Langar system."
-    },
-    {
-        "id": "hist_deep_4",
-        "topic": "Medieval: Sikhism",
-        "question": "Who built the Akal Takht at Amritsar?",
-        "options": ["Guru Arjan Dev", "Guru Hargobind", "Guru Tegh Bahadur", "Guru Gobind Singh"],
-        "correct": 1,
-        "explanation": "Guru Hargobind built the Akal Takht (Throne of the Timeless One) to represent the political and military authority of the Sikhs."
-    },
-    {
-        "id": "hist_deep_5",
-        "topic": "Medieval: Regional Kingdoms",
-        "question": "Who is known as the 'Akbar of Kashmir'?",
-        "options": ["Sikandar Butshikan", "Zain-ul-Abidin", "Hari Singh", "Shah Mir"],
-        "correct": 1,
-        "explanation": "Zain-ul-Abidin is called the Akbar of Kashmir for his religious tolerance, abolishing the Jizya, and banning cow slaughter."
-    },
-    {
-        "id": "hist_deep_6",
-        "topic": "Medieval: Regional Kingdoms",
-        "question": "The Atala Mosque is a famous architectural marvel located in which medieval kingdom?",
-        "options": ["Malwa", "Gujarat", "Jaunpur", "Bengal"],
-        "correct": 2,
-        "explanation": "The Atala Mosque was built by the Sharqi dynasty in Jaunpur, which was known as the 'Shiraz of the East'."
-    },
-    {
-        "id": "hist_deep_7",
-        "topic": "Medieval: Bhakti Movement",
-        "question": "Which Bhakti saint propounded the philosophy of 'Vishishtadvaita' (Qualified Non-dualism)?",
-        "options": ["Shankaracharya", "Ramanuja", "Madhvacharya", "Vallabhacharya"],
-        "correct": 1,
-        "explanation": "Ramanuja gave the philosophy of Vishishtadvaita. Shankaracharya gave Advaita (Non-dualism)."
-    },
-],
+    }
+    ],
     flashcards: [
     {
         topic: "Indus Valley Civilization",
@@ -3093,16 +2884,8 @@ const historyData = {
     { topic: "Harshavardhana & Sangam Age", front: "4 Chola Variyams and their functions?", back: "Eri Variyam (tanks/irrigation), Tottavariyam (gardens), Pon Variyam (gold/finance), Nyaya Variyam (justice)." },
     { topic: "Harshavardhana & Sangam Age", front: "Chola land grants: Vellanvagai, Shalabhoga, Pallichchhandam?", back: "Vellanvagai = non-Brahman peasants. Shalabhoga = schools. Pallichchhandam = Jain community." },
     { topic: "Post-Mauryan & Foreign Invasions", front: "Which dynasty traded lead coins with the Romans?", back: "Satavahana Dynasty. Port used: Ghantasala (Andhra Pradesh)." },
-    { topic: "Chalukyas & Pallavas", front: "Which site is 'Cradle of Indian Architecture'?", back: "Pattadakal group of temples (Karnataka) — UNESCO World Heritage Site. 4 Nagara + 6 Dravida style temples." },
-    { "front": "Which Sultan introduced the market control policy and Diwan-i-Riyasat?", "back": "Alauddin Khalji", "topic": "Medieval: Delhi Sultanate" },
-    { "front": "What was 'Iqta' and who introduced it?", "back": "A land grant system introduced by Iltutmish.", "topic": "Medieval: Delhi Sultanate" },
-    { "front": "Who built the Charminar in Hyderabad?", "back": "Muhammad Quli Qutb Shah (Qutb Shahi dynasty of Golconda)", "topic": "Medieval: Bahmani Kingdom" },
-    { "front": "Name the two famous taxes collected by Shivaji.", "back": "Chauth (1/4th) and Sardeshmukhi (1/10th).", "topic": "Medieval: Marathas" },
-    { "front": "Which Mughal Emperor abolished the Jizya tax in 1564?", "back": "Akbar (though it was later re-imposed by Aurangzeb in 1679)", "topic": "Medieval: Mughals" },
-    { "front": "Who was the founder of the Sayyid Dynasty?", "back": "Khizr Khan", "topic": "Medieval: Delhi Sultanate" },
-    { "front": "Which foreign traveler visited India during the reign of Muhammad bin Tughlaq?", "back": "Ibn Battuta (from Morocco), he wrote the book 'Rihla'.", "topic": "Medieval: Delhi Sultanate" },
-    { "front": "What was the 'Turkan-i-Chahalgani'?", "back": "The Group of 40 Turkish nobles created by Iltutmish. It was later destroyed by Balban.", "topic": "Medieval: Delhi Sultanate" },
-]
+    { topic: "Chalukyas & Pallavas", front: "Which site is 'Cradle of Indian Architecture'?", back: "Pattadakal group of temples (Karnataka) — UNESCO World Heritage Site. 4 Nagara + 6 Dravida style temples." }
+    ]
 };
 
 window.fatmanHistory = historyData;
