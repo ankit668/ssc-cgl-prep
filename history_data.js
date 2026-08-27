@@ -345,28 +345,48 @@ const historyData = {
                     <li>Defeated by <strong>Pulakeshin II</strong> (Chalukya) on banks of Narmada.</li>
                 </ul>
             </li>
-            <li><strong>Badami Chalukyas (Karnataka):</strong> Capital: Vatapi. Founder: Pulakeshin I.
+            <li><strong>The Chalukyas (Three Branches):</strong>
                 <ul>
-                    <li><strong>Pulakeshin II:</strong> Greatest ruler. Aihole Pillar Inscription composed by Ravikirti. Defeated Harsha. Defeated Mahendravarman I (Pallava). Later defeated and killed by Narasimhavarman I (Pallava) who took title <em>Vatapikonda</em>.</li>
-                    <li><em>Architecture:</em> Vesara style. Aihole (Cradle of Indian Architecture, Durga Temple - Gaja Prishta shape). Badami caves. Pattadakal (UNESCO site, Virupaksha Temple by Queen Lokamahadevi).</li>
+                    <li><strong>1. Badami Chalukyas (Karnataka):</strong> Capital: Vatapi. Founder: Pulakeshin I. 
+                        <ul>
+                            <li><strong>Pulakeshin II:</strong> Greatest ruler. Defeated Harsha at Narmada. <em>Aihole Pillar Inscription</em> composed by Ravikirti. Defeated Mahendravarman I (Pallava). Later defeated and killed by Narasimhavarman I (Pallava) who took the title <em>Vatapikonda</em>.</li>
+                            <li><em>Architecture (Vesara Style):</em> <strong>Aihole</strong> (Cradle of Indian Architecture, Durga Temple - Gaja Prishta shape). <strong>Badami Caves</strong>. <strong>Pattadakal</strong> (UNESCO site, Virupaksha Temple built by Queen Lokamahadevi).</li>
+                        </ul>
+                    </li>
+                    <li><strong>2. Eastern Chalukyas:</strong> Capital: Vengi (Andhra Pradesh). Founder: Vishnuvardhana.</li>
+                    <li><strong>3. Western Chalukyas (Kalyani):</strong> Capital: Basavakalyan. Founder: Tailapa II. 
+                        <ul>
+                            <li><strong>Vikramaditya VI (Vikramanka):</strong> Patronized <em>Bilhana</em> (wrote Vikramankadevacharita) and <em>Vijnaneshwara</em> (wrote <em>Mitakshara</em> - Hindu law book).</li>
+                        </ul>
+                    </li>
                 </ul>
             </li>
-            <li><strong>Pallava Dynasty (Tamil Nadu):</strong> Capital: Kanchipuram. Founder: Simha Vishnu.
+            <li><strong>Pallava Dynasty (Tamil Nadu):</strong> Capital: Kanchipuram. Founder: Simha Vishnu (destroyed the Kalabhras).
+                <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
+                    <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>Ruler / Phase</th><th style='border:1px solid #334155;padding:5px;'>Architecture Style & Monuments</th><th style='border:1px solid #334155;padding:5px;'>SSC Deep Cuts</th></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'><strong>Mahendravarman I</strong></td><td style='border:1px solid #334155;padding:5px;'><strong>Rock-cut Temples</strong> (Mandapas)</td><td style='border:1px solid #334155;padding:5px;'>Defeated by Pulakeshin II. Wrote <em>Mattavilasa Prahasana</em>.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'><strong>Narasimhavarman I</strong> (Mahamalla)</td><td style='border:1px solid #334155;padding:5px;'><strong>Monolithic Rathas</strong> (Mahabalipuram). Seven Pagodas.</td><td style='border:1px solid #334155;padding:5px;'>Titles: <em>Mahamalla</em> & <em>Vatapikonda</em> (avenged his father). Dharmaraja Ratha is largest; Draupadi is smallest.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'><strong>Narasimhavarman II</strong> (Rajasimha)</td><td style='border:1px solid #334155;padding:5px;'><strong>Structural Temples:</strong> <em>Shore Temple</em> (Mahabalipuram) & <em>Kailasanathar Temple</em> (Kanchipuram). <span class='pyq-badge'>CGL '24</span></td><td style='border:1px solid #334155;padding:5px;'>Sent embassies to China. Patronized Dandin (Dashakumaracharita).</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'><strong>Nandivarman II</strong></td><td style='border:1px solid #334155;padding:5px;'><em>Vaikuntha Perumal Temple</em> (Kanchi)</td><td style='border:1px solid #334155;padding:5px;'>Last great phase of Pallava structures.</td></tr>
+                </table>
+            </li>
+            <li><strong>Rashtrakuta Dynasty (Deccan):</strong> Capital: Manyakheta (Malkhed). Founder: Dantidurga (performed <em>Hiranyagarbha</em> ritual at Ujjain).
                 <ul>
-                    <li><strong>Mahendravarman I:</strong> Patron of Rock-cut architecture.</li>
-                    <li><strong>Narasimhavarman I:</strong> Title: <em>Mahamalla</em> and <em>Vatapikonda</em>. Founded Mahabalipuram. Started Monolithic Rathas.</li>
-                    <li><strong>Narasimhavarman II:</strong> Built Shore Temple (Mahabalipuram) and Kailasanathar Temple (Kanchipuram).</li>
-                    <li><em>Seven Ratha Temple:</em> Dharmaraja Ratha (largest), Draupadi Ratha (smallest). Known as Seven Pagodas.</li>
+                    <li><strong>Krishna I:</strong> Built the <strong>Kailasha Temple at Ellora</strong> (carved out of a single monolithic rock). <span class='pyq-badge'>CGL '23</span></li>
+                    <li><strong>Dhruva:</strong> Initiated the Tripartite Struggle.</li>
+                    <li><strong>Amoghavarsha I:</strong> Ruled for 64 years. Wrote <em>Kavirajamarga</em> (first Kannada literary work). Converted to Jainism (Jinasena). Built Manyakheta.</li>
+                    <li><strong>Krishna III:</strong> Defeated the Cholas at the <em>Battle of Takkolam</em> (949 AD).</li>
+                    <li><em>Ellora Caves:</em> 34 caves (Buddhist, Hindu, Jain). Elephanta Caves (Trimurti Shiva) also built by them.</li>
                 </ul>
             </li>
-            <li><strong>Rashtrakuta Dynasty (Deccan):</strong> Capital: Manyakheta. Founder: Dantidurga (performed Hiranyagarbha at Ujjain).
-                <ul>
-                    <li><strong>Krishna I:</strong> Built Kailasha Temple at Ellora (largest monolithic rock-cut temple).</li>
-                    <li><strong>Dhruva:</strong> Initiated Tripartite Struggle.</li>
-                    <li><strong>Amoghavarsha I:</strong> Wrote <em>Kavirajamarga</em> (first Kannada literary work). Converted to Jainism.</li>
-                    <li><strong>Krishna III:</strong> Defeated Cholas at Battle of Tokkolam.</li>
-                    <li><em>Ellora Caves:</em> 34 caves (Buddhist, Hindu, Jain).</li>
-                </ul>
+            <li><strong>Other Key Deccan/South Dynasties (SSC Targets):</strong>
+                <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
+                    <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>Dynasty</th><th style='border:1px solid #334155;padding:5px;'>Capital</th><th style='border:1px solid #334155;padding:5px;'>Key Architecture / Facts</th></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'><strong>Hoysalas</strong></td><td style='border:1px solid #334155;padding:5px;'>Dwarasamudra (Halebidu)</td><td style='border:1px solid #334155;padding:5px;'>Vesara style built on <em>Star-shaped</em> platforms. Hoysaleshwara Temple (Halebidu), Chennakeshava Temple (Belur).</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'><strong>Kakatiyas</strong></td><td style='border:1px solid #334155;padding:5px;'>Warangal</td><td style='border:1px solid #334155;padding:5px;'>Famous rulers: Ganapatideva, Rudrama Devi. Built <em>Ramappa Temple</em> (UNESCO site) and Thousand Pillar Temple.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'><strong>Yadavas</strong></td><td style='border:1px solid #334155;padding:5px;'>Devagiri (Daulatabad)</td><td style='border:1px solid #334155;padding:5px;'>Bhillama V (Founder). Destroyed by Alauddin Khalji.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'><strong>Pandyas</strong></td><td style='border:1px solid #334155;padding:5px;'>Korkai (Early), Madurai (Later)</td><td style='border:1px solid #334155;padding:5px;'>Emblem: Fish. Patronized Sangams. Built <em>Meenakshi Amman Temple</em> (Madurai).</td></tr>
+                </table>
             </li>
         </ul>
 
