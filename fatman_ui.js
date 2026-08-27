@@ -650,6 +650,9 @@ window.renderFatmanMCQMenu = renderFatmanMCQMenu;
                     <button onclick="window.startFatmanMock()" style="background: linear-gradient(135deg, #FF416C 0%, #FF4B2B 100%); border:none; color:white; padding: 15px 30px; font-size:18px; font-weight:bold; border-radius:12px; width: 100%; max-width: 400px; cursor:pointer; font-family:'Outfit'; box-shadow: 0 4px 15px rgba(255, 65, 108, 0.4);">
                         &#9889; Grand Test (25 Qs, 5 Mins)
                     </button>
+                    <button onclick="window.renderFatmanMistakeNotebook()" style="background: #0F172A; border:1px solid #EF4444; color:#FCA5A5; padding: 15px 30px; font-size:18px; border-radius:12px; width: 100%; max-width: 400px; cursor:pointer; font-family:'Outfit'; margin-top:10px;">
+                        &#128211; Mistake Notebook
+                    </button>
                 </div>
             </div>
         `;
@@ -673,7 +676,7 @@ window.renderFatmanMCQMenu = renderFatmanMCQMenu;
             q.options.forEach((opt, optidx) => {
                 const isCorrect = (optidx === q.correct);
                 html += `
-                    <button onclick="this.parentElement.nextElementSibling.style.display='block'; this.style.background='${isCorrect ? '#10B981' : '#EF4444'}'; this.style.color='white';" style="padding: 12px; text-align: left; background: #334155; color: #CBD5E1; border: none; border-radius: 8px; cursor: pointer; transition: 0.2s;">
+                    <button onclick="window.logFatmanMistake(window.getFatmanData().mcqs.indexOf(q), ${isCorrect}); this.parentElement.nextElementSibling.style.display='block'; this.style.background='${isCorrect ? '#10B981' : '#EF4444'}'; this.style.color='white';" style="padding: 12px; text-align: left; background: #334155; color: #CBD5E1; border: none; border-radius: 8px; cursor: pointer; transition: 0.2s;">
                         ${String.fromCharCode(65+optidx)}. ${opt}
                     </button>
                 `;
@@ -778,9 +781,11 @@ window.renderFatmanMCQMenu = renderFatmanMCQMenu;
                 unattempted++;
             } else if(userAns === q.correct) {
                 correct++;
+                window.logFatmanMistake(window.getFatmanData().mcqs.indexOf(q), true);
             } else {
                 incorrect++;
                 btns[userAns].classList.add('wrong');
+                window.logFatmanMistake(window.getFatmanData().mcqs.indexOf(q), false);
             }
             
             // Show explanation
@@ -864,3 +869,85 @@ window.renderFatmanTimeline = function() {
 };
 
 window.nextFatmanCard = function() { window.renderFatmanFlashcards(); };
+
+// --- MISTAKE NOTEBOOK ENGINE ---
+window.logFatmanMistake = function(qIndex, isCorrect) {
+    if (qIndex === -1 || qIndex === undefined) return;
+    const key = 'fatman_mistakes_' + window.currentFatmanSubject;
+    let mistakes = JSON.parse(localStorage.getItem(key) || '{}');
+    
+    if (!isCorrect) {
+        mistakes[qIndex] = 0; 
+    } else {
+        if (mistakes[qIndex] !== undefined) {
+            mistakes[qIndex]++;
+            if (mistakes[qIndex] >= 3) {
+                delete mistakes[qIndex];
+            }
+        }
+    }
+    localStorage.setItem(key, JSON.stringify(mistakes));
+};
+
+window.renderFatmanMistakeNotebook = function() {
+    const content = document.getElementById('fatman-content');
+    const key = 'fatman_mistakes_' + window.currentFatmanSubject;
+    const mistakes = JSON.parse(localStorage.getItem(key) || '{}');
+    const allMcqs = window.getFatmanData().mcqs;
+    
+    const mistakeIndices = Object.keys(mistakes).map(Number);
+    
+    if (mistakeIndices.length === 0) {
+        content.innerHTML = `
+            <div style="text-align:center; padding: 50px 20px;">
+                <div style="font-size:48px; margin-bottom:20px;">🎉</div>
+                <h2 style="color:#10B981;">Notebook Empty!</h2>
+                <p style="color:#94A3B8;">You have no active mistakes. Keep smashing those Grand Tests!</p>
+                <button onclick="window.renderFatmanMCQMenu()" style="margin-top:20px; background:#38BDF8; color:white; border:none; padding:10px 20px; border-radius:8px; font-weight:bold; cursor:pointer;">Back to Drills</button>
+            </div>
+        `;
+        return;
+    }
+    
+    let html = `
+        <div style="max-width:800px; margin: 0 auto; position:relative;">
+            <button onclick="window.renderFatmanMCQMenu()" style="position:absolute; top:0; left:0; background:#334155; color:white; border:none; padding:8px 12px; border-radius:8px; cursor:pointer;">← Back</button>
+            <div style="text-align:center; margin-bottom: 20px; padding-top:10px;">
+                <h2 style="color:#EF4444; margin-bottom:5px;">Mistake Notebook</h2>
+                <p style="color:#94A3B8;">Get a question right 3 times in a row to banish it.</p>
+            </div>
+    `;
+    
+    mistakeIndices.forEach(idx => {
+        const q = allMcqs[idx];
+        if(!q) return;
+        const streak = mistakes[idx];
+        html += `
+            <div style="background: #1E293B; margin-bottom: 20px; padding: 20px; border-radius: 12px; border: 1px solid #EF4444; position:relative;">
+                <div style="position:absolute; top: 10px; right: 10px; font-size:12px; background:#EF4444; padding: 2px 8px; border-radius:10px; color:white; font-weight:bold;">Streak: ${streak}/3</div>
+                <h3 style="margin-top:0; color:#F1F5F9; font-size: 16px; font-weight:600; padding-right:60px;">${q.question}</h3>
+                <div style="display:flex; flex-direction:column; gap:10px; margin-top:15px;">
+        `;
+        q.options.forEach((opt, optidx) => {
+            const isCorrect = (optidx === q.correct);
+            // On correct answer, we wait 1 second then re-render to update the streak or remove it
+            const clickLogic = `window.logFatmanMistake(${idx}, ${isCorrect}); this.parentElement.nextElementSibling.style.display='block'; this.style.background='${isCorrect ? '#10B981' : '#EF4444'}'; this.style.color='white'; if(${isCorrect}) setTimeout(window.renderFatmanMistakeNotebook, 1000);`;
+            
+            html += `
+                <button onclick="${clickLogic}" style="padding: 12px; text-align: left; background: #334155; color: #CBD5E1; border: none; border-radius: 8px; cursor: pointer; transition: 0.2s;">
+                    ${String.fromCharCode(65+optidx)}. ${opt}
+                </button>
+            `;
+        });
+        html += `
+                </div>
+                <div style="display:none; margin-top: 15px; padding: 15px; background: rgba(16, 185, 129, 0.1); border-left: 4px solid #10B981; color: #A7F3D0; font-size: 14px; border-radius: 0 8px 8px 0;">
+                    <strong>Explanation:</strong> ${q.explanation}
+                </div>
+            </div>
+        `;
+    });
+    
+    html += '</div>';
+    content.innerHTML = html;
+};

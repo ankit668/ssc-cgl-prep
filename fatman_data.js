@@ -181,7 +181,7 @@ window.fatmanGeography = {
                             <tr><td style='border:1px solid #334155;padding:5px;'>Nandaprayag</td><td style='border:1px solid #334155;padding:5px;'>Nandakini meets Alaknanda</td><td style='border:1px solid #334155;padding:5px;'>Chamoli, Uttarakhand</td></tr>
                             <tr><td style='border:1px solid #334155;padding:5px;'>Karnaprayag</td><td style='border:1px solid #334155;padding:5px;'>Pindar meets Alaknanda</td><td style='border:1px solid #334155;padding:5px;'>Chamoli, Uttarakhand</td></tr>
                             <tr><td style='border:1px solid #334155;padding:5px;'>Rudraprayag</td><td style='border:1px solid #334155;padding:5px;'>Mandakini meets Alaknanda</td><td style='border:1px solid #334155;padding:5px;'>Rudraprayag, Uttarakhand</td></tr>
-                            <tr><td style='border:1px solid #334155;padding:5px;'><strong>Devprayag</strong></td><td style='border:1px solid #334155;padding:5px;'><strong>Bhagirathi meets Alaknanda = GANGA IS BORN</strong></td><td style='border:1px solid #334155;padding:5px;'>Tehri, Uttarakhand</td></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'><strong>Devprayag</strong> <span class='pyq-badge'>CGL '23</span></td><td style='border:1px solid #334155;padding:5px;'><strong>Bhagirathi meets Alaknanda = GANGA IS BORN</strong></td><td style='border:1px solid #334155;padding:5px;'>Tehri, Uttarakhand</td></tr>
                         </table>
                     </li>
                     <li><em>Indus System:</em> Originates near Mansarovar Lake (Tibet). Tributaries (east to west): Jhelum (Verinag Spring), Chenab (Chandra+Bhaga), Ravi (Himachal), Beas (Beas Kund/Rohtang), Sutlej (Rakas Lake, Tibet). Combined called <em>Panchnad</em>. Falls into Arabian Sea near Karachi.</li>
@@ -317,18 +317,129 @@ window.fatmanGeography = {
             </li>
         </ul>
 
-        <h3>9. Transport & Demographics (Census 2011)</h3>
+        <h3>9. Transport Networks <span class='pyq-badge'>CGL '24</span></h3>
         <ul>
-            <li><strong>Railways:</strong> First train: Bombay to Thane (1853, Lord Dalhousie). Longest route: Vivek Express (Dibrugarh to Kanyakumari). Konkan Railway (Roha to Mangaluru, engineering marvel).</li>
-            <li><strong>Waterways (NWs):</strong> NW-1 (Ganga: Haldia-Allahabad, longest), NW-2 (Brahmaputra: Dhubri-Sadiya), NW-3 (West Coast Canal, Kerala), NW-4 (Godavari-Krishna).</li>
-            <li><strong>Census 2011 Highlights:</strong>
+            <li><strong>Roadways:</strong>
                 <ul>
-                    <li><em>Population:</em> UP (Highest), Sikkim (Lowest), Lakshadweep (Lowest UT).</li>
-                    <li><em>Density:</em> Bihar (Highest), Arunachal Pradesh (Lowest).</li>
-                    <li><em>Sex Ratio:</em> Kerala (Highest - 1084), Haryana (Lowest - 879). National average: 943.</li>
-                    <li><em>Literacy:</em> Kerala (Highest - 94%), Bihar (Lowest - 61.8%). National average: 74.04%.</li>
-                    <li><em>Decadal Growth Rate:</em> Meghalaya (Highest - 27.9%), Nagaland (Negative growth - -0.6%).</li>
+                    <li><em>Longest NH:</em> NH-44 (Srinagar to Kanyakumari, 4112 km). Formed by merging 7 old NHs (including old NH-7). <span class='pyq-badge'>SSC Fav</span></li>
+                    <li><em>Shortest NH:</em> NH-327B (West Bengal). (Previously NH-47A in Willingdon Island, Kochi).</li>
+                    <li><em>Golden Quadrilateral:</em> Connects Delhi - Kolkata - Chennai - Mumbai. Total length: 5846 km.</li>
+                    <li><em>North-South & East-West Corridor:</em> NS (Srinagar to Kanyakumari), EW (Porbandar to Silchar). They intersect at <strong>Jhansi (UP)</strong>.</li>
                 </ul>
+            </li>
+            <li><strong>Railways (18 Zones & HQs):</strong>
+                <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
+                    <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>Zone</th><th style='border:1px solid #334155;padding:5px;'>Headquarters</th><th style='border:1px solid #334155;padding:5px;'>Zone</th><th style='border:1px solid #334155;padding:5px;'>Headquarters</th></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Northern</td><td style='border:1px solid #334155;padding:5px;'>New Delhi</td><td style='border:1px solid #334155;padding:5px;'>Southern</td><td style='border:1px solid #334155;padding:5px;'>Chennai</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Eastern</td><td style='border:1px solid #334155;padding:5px;'>Kolkata</td><td style='border:1px solid #334155;padding:5px;'>Western</td><td style='border:1px solid #334155;padding:5px;'>Mumbai (Churchgate)</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Central</td><td style='border:1px solid #334155;padding:5px;'>Mumbai (CSTM)</td><td style='border:1px solid #334155;padding:5px;'>South Central</td><td style='border:1px solid #334155;padding:5px;'>Secunderabad</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>South Eastern</td><td style='border:1px solid #334155;padding:5px;'>Kolkata</td><td style='border:1px solid #334155;padding:5px;'>East Central</td><td style='border:1px solid #334155;padding:5px;'><strong>Hajipur</strong> <span class='pyq-badge'>CGL '23</span></td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>North Central</td><td style='border:1px solid #334155;padding:5px;'>Prayagraj (Allahabad)</td><td style='border:1px solid #334155;padding:5px;'>North Eastern</td><td style='border:1px solid #334155;padding:5px;'>Gorakhpur</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>North Western</td><td style='border:1px solid #334155;padding:5px;'>Jaipur</td><td style='border:1px solid #334155;padding:5px;'>East Coast</td><td style='border:1px solid #334155;padding:5px;'>Bhubaneswar</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>South Western</td><td style='border:1px solid #334155;padding:5px;'>Hubballi</td><td style='border:1px solid #334155;padding:5px;'>West Central</td><td style='border:1px solid #334155;padding:5px;'>Jabalpur</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>South East Central</td><td style='border:1px solid #334155;padding:5px;'>Bilaspur</td><td style='border:1px solid #334155;padding:5px;'>Northeast Frontier</td><td style='border:1px solid #334155;padding:5px;'>Maligaon (Guwahati)</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Kolkata Metro</td><td style='border:1px solid #334155;padding:5px;'>Kolkata</td><td style='border:1px solid #334155;padding:5px;'><strong>South Coast (18th)</strong></td><td style='border:1px solid #334155;padding:5px;'><strong>Visakhapatnam</strong> <span class='pyq-badge'>New</span></td></tr>
+                </table>
+            </li>
+            <li><strong>Major Sea Ports (13):</strong>
+                <ul>
+                    <li><em>West Coast:</em> Kandla (Deendayal Port, Tidal port, Gujarat), Mumbai (Largest natural), JNPT (Nhava Sheva, largest artificial, MH), Mormugao (Goa, estuary of Zuari), New Mangalore (Karnataka), Kochi (Kerala).</li>
+                    <li><em>East Coast:</em> Kolkata-Haldia (Riverine port on Hooghly), Paradip (Odisha), Visakhapatnam (Deepest landlocked, AP), Chennai (Oldest artificial), Ennore (First corporatized), Tuticorin (V.O. Chidambaranar, Pearl City).</li>
+                    <li><em>13th Port:</em> Port Blair (Andaman & Nicobar).</li>
+                </ul>
+            </li>
+            <li><strong>Inland Waterways (NWs):</strong>
+                <ul>
+                    <li><strong>NW-1:</strong> Ganga-Bhagirathi-Hooghly (Prayagraj to Haldia, 1620 km). Longest. <span class='pyq-badge'>CGL '23</span></li>
+                    <li><strong>NW-2:</strong> Brahmaputra (Sadiya to Dhubri, 891 km).</li>
+                    <li><strong>NW-3:</strong> West Coast Canal (Kollam to Kottapuram, Kerala).</li>
+                    <li><strong>NW-4:</strong> Krishna-Godavari (Kakinada to Puducherry).</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>10. Census 2011 — THE ULTIMATE AIR 1 DATA <span class='pyq-badge'>CGL '23</span></h3>
+        <ul>
+            <li><strong>Slogan:</strong> "Our Census, Our Future" (15th National Census, 7th Post-Independence). Conducted under C. Chandramouli.</li>
+            <li><strong>Population:</strong> Total: 1.21 Billion. UP > Maharashtra > Bihar > West Bengal. Lowest: Sikkim. Lowest UT: Lakshadweep.</li>
+            <li><strong>Sex Ratio:</strong> National Average = <strong>943</strong> females/1000 males. Child Sex Ratio = <strong>919</strong>.
+                <ul>
+                    <li><em>Highest:</em> Kerala (1084), Puducherry (1037), Tamil Nadu (996).</li>
+                    <li><em>Lowest:</em> Daman & Diu (618), Haryana (879) <span class='pyq-badge'>SSC Fav</span>.</li>
+                </ul>
+            </li>
+            <li><strong>Literacy Rate:</strong> National Average = <strong>74.04%</strong> (Male 82.14%, Female 65.46%).
+                <ul>
+                    <li><em>Highest:</em> Kerala (94%), Lakshadweep (91.8%), Mizoram (91.3%).</li>
+                    <li><em>Lowest:</em> Bihar (61.8%), Arunachal Pradesh (65.3%), Rajasthan (66.1%).</li>
+                </ul>
+            </li>
+            <li><strong>Population Density:</strong> National Average = <strong>382</strong> persons/sq km.
+                <ul>
+                    <li><em>Highest:</em> Bihar (1106), West Bengal (1028), Kerala (860). UT: Delhi (11,320).</li>
+                    <li><em>Lowest:</em> Arunachal Pradesh (17) <span class='pyq-badge'>CGL '24</span>, Andaman (46), Mizoram (52).</li>
+                </ul>
+            </li>
+            <li><strong>Decadal Growth Rate:</strong> National Average = <strong>17.7%</strong>.
+                <ul>
+                    <li><em>Highest:</em> Meghalaya (27.9%), Arunachal Pradesh (26%).</li>
+                    <li><em>Lowest / Negative:</em> <strong>Nagaland (-0.6%)</strong> <span class='pyq-badge'>CGL '23</span>, Kerala (4.9%).</li>
+                </ul>
+            </li>
+            <li><strong>SC/ST Population:</strong>
+                <ul>
+                    <li><strong>SC (16.6%):</strong> Highest absolute = UP. Highest % = Punjab (31.9%). No SC in: Nagaland, Arunachal, Lakshadweep, A&N.</li>
+                    <li><strong>ST (8.6%):</strong> Highest absolute = MP. Highest % = Lakshadweep (94.8%), Mizoram (94.4%). No ST in: Punjab, Haryana, Delhi, Chandigarh, Puducherry.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>11. National Parks & Biosphere Reserves <span class='pyq-badge'>CGL '24</span></h3>
+        <ul>
+            <li><strong>Firsts & Largest:</strong>
+                <ul>
+                    <li><em>First National Park:</em> Jim Corbett (1936, Hailey NP), Uttarakhand. Ramganga flows through it.</li>
+                    <li><em>Largest National Park:</em> Hemis National Park (Ladakh). Snow Leopards.</li>
+                    <li><em>Smallest National Park:</em> South Button Island (Andaman).</li>
+                    <li><em>Floating National Park:</em> Keibul Lamjao (Manipur) on Loktak Lake. Home to Sangai (dancing deer).</li>
+                </ul>
+            </li>
+            <li><strong>Important Parks by State:</strong>
+                <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
+                    <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>State</th><th style='border:1px solid #334155;padding:5px;'>National Parks / Reserves</th></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Madhya Pradesh</td><td style='border:1px solid #334155;padding:5px;'>Kanha, Bandhavgarh, Panna, Pench, Kuno (Cheetahs)</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Assam</td><td style='border:1px solid #334155;padding:5px;'>Kaziranga (1-horned rhino), Manas, Nameri, Orang, Dibru-Saikhowa</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Uttarakhand</td><td style='border:1px solid #334155;padding:5px;'>Corbett, Nanda Devi, Valley of Flowers, Rajaji</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Kerala</td><td style='border:1px solid #334155;padding:5px;'>Periyar (Elephants), Silent Valley, Eravikulam</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Rajasthan</td><td style='border:1px solid #334155;padding:5px;'>Ranthambore, Keoladeo Ghana (Bharatpur), Sariska</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Gujarat</td><td style='border:1px solid #334155;padding:5px;'>Gir (Asiatic Lion), Marine (Gulf of Kutch), Blackbuck (Velavadar)</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Odisha</td><td style='border:1px solid #334155;padding:5px;'>Simlipal, Bhitarkanika (Saltwater Crocodiles)</td></tr>
+                </table>
+            </li>
+            <li><strong>UNESCO Biosphere Reserves (18 total, 12 in MAB):</strong>
+                <ul>
+                    <li><em>First:</em> Nilgiri Biosphere Reserve (1986). Tri-junction of TN, Kerala, Karnataka.</li>
+                    <li><em>Largest:</em> Gulf of Kachchh (Gujarat).</li>
+                    <li><em>Smallest:</em> Dibru-Saikhowa (Assam).</li>
+                    <li><em>Latest MAB Addition:</em> Panna (MP, 2020).</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>12. Tribes of India (Anthropology) <span class='pyq-badge'>CHSL '23</span></h3>
+        <ul>
+            <li><strong>Largest Tribes:</strong> <strong>Bhil</strong> is the largest tribal group in India (mostly in MP, RJ, GJ, MH), followed by <strong>Gonds</strong> (Central India) and <strong>Santhals</strong> (Jharkhand). <span class='pyq-badge'>CGL '23</span></li>
+            <li><strong>PVTGs:</strong> Particularly Vulnerable Tribal Groups. Total 75. Highest in Odisha (13). Dhebar Commission created the category.</li>
+            <li><strong>Specific Regional Tribes:</strong>
+                <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
+                    <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>Region / State</th><th style='border:1px solid #334155;padding:5px;'>Tribes</th></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Andaman & Nicobar</td><td style='border:1px solid #334155;padding:5px;'>Sentinelese, Jarawa, Onge, Great Andamanese, Shompen</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Nilgiris (Tamil Nadu)</td><td style='border:1px solid #334155;padding:5px;'>Toda (pastoralists, polyandry), Kota, Irula, Kurumba</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Meghalaya</td><td style='border:1px solid #334155;padding:5px;'>Garo, Khasi, Jaintia (Matrilineal society)</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Sikkim</td><td style='border:1px solid #334155;padding:5px;'>Bhutia, Lepcha</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Jharkhand / Bihar</td><td style='border:1px solid #334155;padding:5px;'>Santhal, Munda, Oraon, Ho</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Himachal Pradesh</td><td style='border:1px solid #334155;padding:5px;'>Gaddi, Gujjar (transhumance pastoralists), Kinnara</td></tr>
+                </table>
             </li>
         </ul>
 
