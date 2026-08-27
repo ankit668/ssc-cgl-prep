@@ -107,76 +107,200 @@ window.fatmanGeography = {
             <li><strong>Tides:</strong> Spring Tide (High amplitude, sun/moon/earth in straight line - Syzygy). Neap Tide (Low amplitude, sun/moon at right angles). Bay of Fundy (Canada) has highest tides.</li>
         </ul>
 
-        <h3>5. Physical Geography of India</h3>
+        <h3>5. Physical Geography of India — THE COMPLETE PARMAR TABLE</h3>
         <ul>
-            <li><strong>Basic Facts:</strong> Area: 3.28 million sq km (2.4% of world, 7th largest). Latitudinal extent: 8°4'N to 37°6'N. Standard Meridian: 82°30'E (passes through Mirzapur, UP). Tropic of Cancer passes through 8 states (GJ, RJ, MP, CG, JH, WB, TR, MZ).</li>
-            <li><strong>Borders:</strong> Longest land border with Bangladesh (4096 km). Followed by China, Pakistan, Nepal, Myanmar, Bhutan, Afghanistan (shortest, 106 km). Durand Line (Ind-Afg), MacMahon Line (Afg-Pak), Radcliffe Line (Ind-Pak), McMahon Line (Ind-China).</li>
-            <li><strong>The Himalayas (Fold Mountains):</strong>
+            <li><strong>Basic Facts:</strong> Area: 3.28 million sq km (2.4% of world, 7th largest). Latitudinal extent: 8°4'N to 37°6'N. Longitudinal extent: 68°7'E to 97°25'E. Standard Meridian: 82°30'E (passes through Mirzapur, UP). East-West width: ~2933 km. North-South length: ~3214 km.</li>
+            <li><strong>Tropic of Cancer (23.5°N) passes through 8 states:</strong> GJ → RJ → MP → CG → JH → WB → TR → MZ (Mnemonic: <em>Gujarat Rajasthan MP CG Jhar WB Tripura Mizoram</em>).</li>
+            <li><strong>Borders:</strong> Longest: Bangladesh (4096 km). China (3488), Pakistan (3323), Nepal (1751), Myanmar (1643), Bhutan (699), Afghanistan (106 km — shortest). Lines: Durand (India-Afghanistan), Radcliffe (India-Pakistan), McMahon (India-China/Arunachal).</li>
+            <li><strong>Southernmost Point:</strong> Indira Point / Pygmalion Point (Nicobar Islands). Southernmost point of mainland India: Kanyakumari.</li>
+
+            <li><strong>The Himalayas — COMPLETE BREAK-UP:</strong>
+                <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
+                    <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>Range</th><th style='border:1px solid #334155;padding:5px;'>Key Sub-Ranges / Peaks</th><th style='border:1px solid #334155;padding:5px;'>Special Notes</th></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'><strong>Trans-Himalayas</strong></td><td style='border:1px solid #334155;padding:5px;'>Karakoram, Ladakh, Zaskar, Kailash</td><td style='border:1px solid #334155;padding:5px;'>K2 / Godwin Austen (8611m) — highest in India. Siachen Glacier. Karakoram Pass.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'><strong>Greater Himalayas (Himadri)</strong></td><td style='border:1px solid #334155;padding:5px;'>Everest (8848m), Kanchenjunga (8586m, highest entirely in India), Nanda Devi (7817m)</td><td style='border:1px solid #334155;padding:5px;'>Core is Granitic. Permanent snow line. Kanchenjunga is highest peak in India proper.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'><strong>Lesser Himalayas (Himachal)</strong></td><td style='border:1px solid #334155;padding:5px;'>Pir Panjal, Dhauladhar, Mahabharat range</td><td style='border:1px solid #334155;padding:5px;'>Famous hill stations: Shimla, Mussoorie, Nainital, Darjeeling, Ooty. <em>Karewa formations</em> in Kashmir Valley (good for saffron cultivation).</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'><strong>Outer Himalayas (Shiwaliks)</strong></td><td style='border:1px solid #334155;padding:5px;'>Manak Point, Margalla Hills</td><td style='border:1px solid #334155;padding:5px;'>Made of unconsolidated sediments (Molasse). <em>Doons/Duns</em> — longitudinal valleys between Shiwaliks &amp; Lesser Himalayas (e.g., Dehradun, Patli Dun, Kotli Dun).</td></tr>
+                </table>
+            </li>
+
+            <li><strong>Mountain Passes — COMPLETE TABLE (SSC Favourite):</strong>
+                <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
+                    <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>State</th><th style='border:1px solid #334155;padding:5px;'>Pass</th><th style='border:1px solid #334155;padding:5px;'>Connects</th></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>J&amp;K / Ladakh</td><td style='border:1px solid #334155;padding:5px;'>Zoji La, Karakoram Pass, Banihal Pass</td><td style='border:1px solid #334155;padding:5px;'>Srinagar-Leh; Leh-Xinjiang; Jammu-Srinagar (NH 44)</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Himachal Pradesh</td><td style='border:1px solid #334155;padding:5px;'>Shipki La, Rohtang Pass, Baralacha La</td><td style='border:1px solid #334155;padding:5px;'>Kinnaur-Tibet; Kullu-Lahaul; Lahaul-Ladakh</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Uttarakhand</td><td style='border:1px solid #334155;padding:5px;'>Niti Pass, Mana Pass, Lipu Lekh, Traill Pass, Mangsha Dhura</td><td style='border:1px solid #334155;padding:5px;'>India-Tibet border; Kailash Mansarovar route via Lipu Lekh</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Sikkim</td><td style='border:1px solid #334155;padding:5px;'>Nathu La, Jelep La</td><td style='border:1px solid #334155;padding:5px;'>India-China trade; Sikkim-Chumbi Valley (Tibet)</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Arunachal Pradesh</td><td style='border:1px solid #334155;padding:5px;'>Bum La, Diphu Pass, Pangsau Pass, Sela Pass</td><td style='border:1px solid #334155;padding:5px;'>Tawang-China; Arunachal-Myanmar; Arunachal-Assam</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Western Ghats</td><td style='border:1px solid #334155;padding:5px;'>Thal Ghat (Kasara Ghat), Bhor Ghat (Khambatki), Pal Ghat (Palakkad)</td><td style='border:1px solid #334155;padding:5px;'>Mumbai-Nashik; Mumbai-Pune; Coimbatore-Thrissur (Lowest/widest WG pass)</td></tr>
+                </table>
+            </li>
+
+            <li><strong>Peninsular Plateau — EXHAUSTIVE DEEP CUTS:</strong>
                 <ul>
-                    <li><em>Trans-Himalayas:</em> Karakoram, Ladakh, Zaskar, Kailash. Contains K2 (Godwin Austen) - highest peak in India. Siachen Glacier.</li>
-                    <li><em>Greater Himalayas (Himadri):</em> Highest ranges. Mt. Everest (8848m), Kanchenjunga, Nanda Devi. Core is granitic.</li>
-                    <li><em>Lesser Himalayas (Himachal):</em> Pir Panjal, Dhauladhar, Mahabharat. Famous hill stations (Shimla, Mussoorie, Darjeeling). Karewa formations in Kashmir (saffron cultivation).</li>
-                    <li><em>Outer Himalayas (Shiwaliks):</em> Made of unconsolidated sediments. Doons/Duns (Dehradun) lie between Shiwaliks and Lesser Himalayas.</li>
+                    <li><em>Central Highlands:</em> North of Narmada. Includes Malwa Plateau, Bundelkhand, Baghelkhand, Chota Nagpur Plateau (mineral treasure of India).</li>
+                    <li><em>Deccan Plateau:</em> South of Narmada. Triangular shape. Lava-covered Deccan Trap basalt (Maharashtra). Western part higher (rain shadow).</li>
+                    <li><em>Aravallis:</em> Oldest fold mountains in India (and world). Run NE-SW from Delhi to Gujarat. Highest peak: <strong>Guru Shikhar</strong> (1722m, Mt. Abu, Rajasthan). Act as rain shadow barrier — Thar desert to the west.</li>
+                    <li><em>Vindhya Range:</em> Block mountains (Fault scarp). Highest point: <strong>Sadbhawna Shikhar</strong>. Separates Indo-Gangetic plain from Deccan. River Son originates here.</li>
+                    <li><em>Satpura Range:</em> Block mountains parallel to Vindhyas. Highest peak: <strong>Dhupgarh</strong> (1350m, Pachmarhi, MP). Pachmarhi called <em>"Queen of Satpura"</em>. Narmada flows in rift valley between Vindhya &amp; Satpura.</li>
+                    <li><em>Asirgarh Fort (Burhanpur, MP):</em> Called <em>"Key to the Deccan"</em> — controls strategic gap between Vindhyas and Satpuras.</li>
+                    <li><em>Panna (MP):</em> Only diamond mines in India.</li>
+                    <li><em>Western Ghats (Sahyadris) vs Eastern Ghats — COMPARISON TABLE:</em>
+                        <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
+                            <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>Feature</th><th style='border:1px solid #334155;padding:5px;'>Western Ghats</th><th style='border:1px solid #334155;padding:5px;'>Eastern Ghats</th></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'>Continuity</td><td style='border:1px solid #334155;padding:5px;'>Continuous</td><td style='border:1px solid #334155;padding:5px;'>Discontinuous (cut by rivers)</td></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'>Avg. Height</td><td style='border:1px solid #334155;padding:5px;'>~1200 m</td><td style='border:1px solid #334155;padding:5px;'>~600 m (lower)</td></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'>Highest Peak</td><td style='border:1px solid #334155;padding:5px;'>Anamudi / Anai Mudi (2695m, Kerala)</td><td style='border:1px solid #334155;padding:5px;'>Jindhagada / Arma Konda (1690m, AP)</td></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'>Type</td><td style='border:1px solid #334155;padding:5px;'>Block mountains (fault scarp)</td><td style='border:1px solid #334155;padding:5px;'>Erosional remnants</td></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'>Rivers</td><td style='border:1px solid #334155;padding:5px;'>Short westward rivers into Arabian Sea</td><td style='border:1px solid #334155;padding:5px;'>Long eastward rivers forming deltas in Bay of Bengal</td></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'>UNESCO</td><td style='border:1px solid #334155;padding:5px;'>Biodiversity Hotspot (8 sites, 2012)</td><td style='border:1px solid #334155;padding:5px;'>Not a UNESCO hotspot</td></tr>
+                        </table>
+                    </li>
+                    <li><em>Nilgiris (Blue Mountains):</em> Connect WG &amp; EG. Highest: <strong>Doddabetta</strong> (2637m, Ooty). Ooty = Queen of Hill Stations.</li>
                 </ul>
             </li>
-            <li><strong>Peninsular Plateau:</strong> Oldest landmass (part of Gondwanaland).
+
+            <li><strong>Coastal Plains &amp; Islands — Deep Cuts:</strong>
                 <ul>
-                    <li><em>Aravallis:</em> Oldest fold mountains in the world. Highest peak: Guru Shikhar (Mt. Abu).</li>
-                    <li><em>Vindhyas & Satpuras:</em> Block mountains. Narmada flows in the rift valley between them.</li>
-                    <li><em>Western Ghats (Sahyadris):</em> Continuous. Highest peak: Anamudi / Anai Mudi (Kerala). Major passes: Thal Ghat (Mumbai-Nashik), Bhor Ghat (Mumbai-Pune), Pal Ghat (Palakkad-Coimbatore).</li>
-                    <li><em>Eastern Ghats:</em> Discontinuous. Highest peak: Jindhagada / Arma Konda. Nilgiris (Blue Mountains) connect Western and Eastern Ghats (Highest peak: Doddabetta).</li>
-                </ul>
-            </li>
-            <li><strong>Coastal Plains & Islands:</strong>
-                <ul>
-                    <li><em>West Coast:</em> Konkan (Maharashtra), Kanara (Karnataka), Malabar (Kerala - famous for backwaters/Kayals).</li>
-                    <li><em>East Coast:</em> Northern Circars (Odisha/AP), Coromandel (TN).</li>
-                    <li><em>Andaman & Nicobar:</em> Volcanic origin. 10 Degree Channel separates Andaman and Nicobar. Highest peak: Saddle Peak.</li>
-                    <li><em>Lakshadweep:</em> Coral origin. 8 Degree Channel separates Minicoy and Maldives. 9 Degree Channel separates Minicoy and Lakshadweep.</li>
+                    <li><em>West Coast (Narrower):</em> Konkan (Maharashtra), Kanara (Karnataka), Malabar (Kerala — backwaters/Kayals). Khazan wetlands (Goa).</li>
+                    <li><em>East Coast (Wider):</em> Northern Circars (Odisha/AP), Coromandel (TN). Large river deltas. Chilika Lake (largest brackish lagoon) here.</li>
+                    <li><em>Andaman &amp; Nicobar:</em> 572 islands. 10° Channel separates A&amp;N groups. Highest: <strong>Saddle Peak</strong> (732m, North Andaman). Duncan Passage (South Andaman-Little Andaman). <em>Barren Island</em> (India's only active volcano). <em>Narcondam</em> (dormant volcano). <em>APJ Abdul Kalam Island / Wheeler Island</em> (Odisha, missile testing).</li>
+                    <li><em>Lakshadweep:</em> 36 coral islands. 8° Channel: Minicoy-Maldives. 9° Channel: Minicoy-main Lakshadweep. Smallest UT of India. Capital: Kavaratti.</li>
                 </ul>
             </li>
         </ul>
 
-        <h3>6. Indian River Systems (Drainage)</h3>
+        <h3>6. Indian River Systems — COMPLETE PARMAR DEEP-CUTS</h3>
         <ul>
-            <li><strong>Himalayan Rivers (Antecedent & Perennial):</strong>
+            <li><strong>Himalayan Rivers (Antecedent &amp; Perennial):</strong>
                 <ul>
-                    <li><em>Indus System:</em> Originates near Mansarovar (Tibet). Tributaries: Jhelum, Chenab, Ravi, Beas, Sutlej (Panchnad). Flows into Arabian Sea.</li>
-                    <li><em>Ganga System:</em> Originates at Gangotri (Bhagirathi) and meets Alaknanda at <strong>Devprayag</strong> to form Ganga. Longest river of India (2525 km). Left bank tributaries: Ramganga, Gomti, Ghaghra, Gandak, Kosi. Right bank: Yamuna, Son.</li>
-                    <li><em>Brahmaputra System:</em> Originates at Chemayungdung glacier (Tibet) as <em>Tsangpo</em>. Enters India at Namcha Barwa as <em>Dihang</em>. Meets Ganga (Padma) in Bangladesh to form <em>Meghna</em>. Forms Majuli (largest river island).</li>
+                    <li><em>The Panchhprayag (Five Confluences that form Ganga):</em>
+                        <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
+                            <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>Prayag</th><th style='border:1px solid #334155;padding:5px;'>Junction</th><th style='border:1px solid #334155;padding:5px;'>Location</th></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'>Vishnuprayag</td><td style='border:1px solid #334155;padding:5px;'>Dhauliganga meets Alaknanda</td><td style='border:1px solid #334155;padding:5px;'>Chamoli, Uttarakhand</td></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'>Nandaprayag</td><td style='border:1px solid #334155;padding:5px;'>Nandakini meets Alaknanda</td><td style='border:1px solid #334155;padding:5px;'>Chamoli, Uttarakhand</td></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'>Karnaprayag</td><td style='border:1px solid #334155;padding:5px;'>Pindar meets Alaknanda</td><td style='border:1px solid #334155;padding:5px;'>Chamoli, Uttarakhand</td></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'>Rudraprayag</td><td style='border:1px solid #334155;padding:5px;'>Mandakini meets Alaknanda</td><td style='border:1px solid #334155;padding:5px;'>Rudraprayag, Uttarakhand</td></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'><strong>Devprayag</strong></td><td style='border:1px solid #334155;padding:5px;'><strong>Bhagirathi meets Alaknanda = GANGA IS BORN</strong></td><td style='border:1px solid #334155;padding:5px;'>Tehri, Uttarakhand</td></tr>
+                        </table>
+                    </li>
+                    <li><em>Indus System:</em> Originates near Mansarovar Lake (Tibet). Tributaries (east to west): Jhelum (Verinag Spring), Chenab (Chandra+Bhaga), Ravi (Himachal), Beas (Beas Kund/Rohtang), Sutlej (Rakas Lake, Tibet). Combined called <em>Panchnad</em>. Falls into Arabian Sea near Karachi.</li>
+                    <li><em>Ganga System:</em> Longest river of India (2525 km). Gangotri → Bhagirathi → Devprayag → Ganga → Haridwar → enters plains. Left bank: Ramganga, Gomti, Ghaghra, Gandak, Kosi (<em>Sorrow of Bihar</em>), Mahananda. Right bank: Yamuna, Son, Damodar. Enters Bangladesh as <em>Padma</em>.</li>
+                    <li><em>Brahmaputra:</em> Originates Chemayungdung glacier (Tibet) → <em>Tsangpo</em> → gorge at Namcha Barwa → enters India as <em>Dihang</em> → Sadiya (meets Dibang + Lohit) → <em>Brahmaputra</em> → Bangladesh as <em>Jamuna</em> → joins Padma → <em>Meghna</em>. Forms Majuli (world's largest river island, Assam).</li>
+                    <li><em>Important Dams Table:</em>
+                        <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
+                            <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>Dam</th><th style='border:1px solid #334155;padding:5px;'>River</th><th style='border:1px solid #334155;padding:5px;'>State</th><th style='border:1px solid #334155;padding:5px;'>Notable</th></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'>Tehri Dam</td><td style='border:1px solid #334155;padding:5px;'>Bhagirathi</td><td style='border:1px solid #334155;padding:5px;'>Uttarakhand</td><td style='border:1px solid #334155;padding:5px;'>Highest dam in India (260m). Rockfill type.</td></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'>Bhakra Nangal</td><td style='border:1px solid #334155;padding:5px;'>Sutlej</td><td style='border:1px solid #334155;padding:5px;'>HP/Punjab border</td><td style='border:1px solid #334155;padding:5px;'>Highest straight gravity dam. Gobind Sagar reservoir.</td></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'>Hirakud Dam</td><td style='border:1px solid #334155;padding:5px;'>Mahanadi</td><td style='border:1px solid #334155;padding:5px;'>Odisha</td><td style='border:1px solid #334155;padding:5px;'>Longest dam in India (25.8 km). First major multipurpose dam.</td></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'>Nagarjuna Sagar</td><td style='border:1px solid #334155;padding:5px;'>Krishna</td><td style='border:1px solid #334155;padding:5px;'>Telangana</td><td style='border:1px solid #334155;padding:5px;'>Largest masonry dam in the world.</td></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'>Sardar Sarovar</td><td style='border:1px solid #334155;padding:5px;'>Narmada</td><td style='border:1px solid #334155;padding:5px;'>Gujarat</td><td style='border:1px solid #334155;padding:5px;'>2nd largest concrete gravity dam. NBA movement (Medha Patkar).</td></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'>Idukki</td><td style='border:1px solid #334155;padding:5px;'>Periyar</td><td style='border:1px solid #334155;padding:5px;'>Kerala</td><td style='border:1px solid #334155;padding:5px;'>Largest arch dam in India (169m).</td></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'>Mettur / Stanley</td><td style='border:1px solid #334155;padding:5px;'>Cauvery</td><td style='border:1px solid #334155;padding:5px;'>Tamil Nadu</td><td style='border:1px solid #334155;padding:5px;'>Stanley Reservoir. Major irrigation dam.</td></tr>
+                        </table>
+                    </li>
                 </ul>
             </li>
-            <li><strong>Peninsular Rivers (Consequent & Seasonal):</strong>
+            <li><strong>Peninsular Rivers:</strong>
                 <ul>
-                    <li><em>East Flowing (Form Deltas):</em> Mahanadi, Godavari (Dakshin Ganga/Vridha Ganga, largest peninsular river), Krishna, Cauveri (only perennial peninsular river), Pennar.</li>
-                    <li><em>West Flowing (Form Estuaries):</em> Narmada (originates at Amarkantak, flows through rift valley), Tapi (originates at Multai), Mahi, Sabarmati (crosses Tropic of Cancer twice), Luni (inland drainage in Rann of Kutch).</li>
+                    <li><em>East-Flowing (Deltas):</em>
+                        <ul>
+                            <li><strong>Mahanadi</strong> (980 km, Chhattisgarh → Odisha). Hirakud Dam. Called <em>Sorrow of Odisha</em>.</li>
+                            <li><strong>Godavari</strong> (1465 km, longest peninsular). Originates Nashik (Trimbak). Called <em>Dakshin Ganga / Vridha Ganga</em>. Tributaries: Manjra, Sabari, Wainganga, Wardha, Indravati, Penganga, Purna, Pranhita (Mnemonic: M S W W I P P P).</li>
+                            <li><strong>Krishna</strong> (1400 km). Originates Mahabaleshwar. Nagarjuna Sagar + Srisailam dams. Tributaries: Bhima, Tungabhadra, Koyna, Ghataprabha, Malaprabha.</li>
+                            <li><strong>Cauvery</strong> (805 km). Originates Talakaveri (Kodagu/Coorg, Karnataka). <em>Only perennial peninsular river</em>. Sivasamudram Falls (Asia's first hydro-power plant, 1902). Tributaries: Hemavati, Kabini, Shimsha, Bhavani, Amravati.</li>
+                            <li><strong>Damodar</strong> — rift valley river. <em>Sorrow of Bengal</em>. DVC (Damodar Valley Corporation) modelled on USA's Tennessee Valley Authority.</li>
+                            <li><strong>Subarnarekha</strong> — <em>Streak of Gold</em>. Sand contains gold particles. Originates Ranchi Plateau. Hundru Falls on it.</li>
+                            <li><strong>Brahmani</strong> — Formed by Sankh + South Koel at Rourkela.</li>
+                        </ul>
+                    </li>
+                    <li><em>West-Flowing (Estuaries):</em>
+                        <ul>
+                            <li><strong>Narmada</strong> (1312 km). Originates Amarkantak (MP). Rift valley (Vindhya-Satpura). Dhuandhar Falls (Jabalpur). Sardar Sarovar Dam. Enters Gulf of Khambhat.</li>
+                            <li><strong>Tapi / Tapti</strong> (724 km). Originates Multai (Betul, MP). Flows through rift valley. Ukai Dam. Enters Gulf of Khambhat.</li>
+                            <li><strong>Mahi</strong>. Originates Vindhya Range (Dhar, MP). Crosses Tropic of Cancer <strong>twice</strong>. Enters Gulf of Khambhat.</li>
+                            <li><strong>Sabarmati</strong>. Originates Aravalli (Udaipur, Rajasthan). Gandhi Ashram on banks. Dharoi Dam.</li>
+                            <li><strong>Luni</strong>. Originates Pushkar, Rajasthan. <em>Endorheic/inland drainage</em> — drains into Rann of Kutch (not sea). Called <em>Lavanavati (Salt River)</em>. Becomes saline after Balotara.</li>
+                        </ul>
+                    </li>
                 </ul>
             </li>
-            <li><strong>Important Lakes:</strong> Wular (J&K, largest freshwater), Chilika (Odisha, largest brackish water lagoon), Vembanad (Kerala, longest), Sambhar (Rajasthan, highest salinity), Loktak (Manipur, floating national park Keibul Lamjao), Lonar (Maharashtra, meteorite crater).</li>
+            <li><strong>Important Lakes:</strong>
+                <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
+                    <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>Lake</th><th style='border:1px solid #334155;padding:5px;'>State</th><th style='border:1px solid #334155;padding:5px;'>Notable</th></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Wular</td><td style='border:1px solid #334155;padding:5px;'>J&amp;K</td><td style='border:1px solid #334155;padding:5px;'>Largest freshwater lake in India. Tectonic origin.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Chilika</td><td style='border:1px solid #334155;padding:5px;'>Odisha</td><td style='border:1px solid #334155;padding:5px;'>Largest brackish lagoon (1100 sq km). Irrawaddy dolphins. Ramsar site.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Vembanad</td><td style='border:1px solid #334155;padding:5px;'>Kerala</td><td style='border:1px solid #334155;padding:5px;'>Longest lake in India. Nehru Trophy Boat Race on Punnamada Lake. Ramsar site.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Sambhar</td><td style='border:1px solid #334155;padding:5px;'>Rajasthan</td><td style='border:1px solid #334155;padding:5px;'>Largest saline lake in India. Salt production. Migratory flamingos.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Loktak</td><td style='border:1px solid #334155;padding:5px;'>Manipur</td><td style='border:1px solid #334155;padding:5px;'>Largest freshwater lake in NE India. Floating phumdis. Keibul Lamjao — world's only floating NP.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Lonar</td><td style='border:1px solid #334155;padding:5px;'>Maharashtra</td><td style='border:1px solid #334155;padding:5px;'>Meteorite crater lake. Saline &amp; alkaline. Ramsar site (2020).</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Pangong Tso</td><td style='border:1px solid #334155;padding:5px;'>Ladakh</td><td style='border:1px solid #334155;padding:5px;'>Endorheic. 60% in China. Famous 3 Idiots lake. High altitude brackish water.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Hussain Sagar</td><td style='border:1px solid #334155;padding:5px;'>Telangana</td><td style='border:1px solid #334155;padding:5px;'>Built by Ibrahim Quli Qutb Shah (1562). Large Buddha statue on island.</td></tr>
+                </table>
+            </li>
+            <li><strong>Waterfalls of India — COMPLETE TABLE:</strong>
+                <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
+                    <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>Waterfall</th><th style='border:1px solid #334155;padding:5px;'>River</th><th style='border:1px solid #334155;padding:5px;'>State</th><th style='border:1px solid #334155;padding:5px;'>Notable</th></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Nohkalikai</td><td style='border:1px solid #334155;padding:5px;'>—</td><td style='border:1px solid #334155;padding:5px;'>Meghalaya</td><td style='border:1px solid #334155;padding:5px;'><strong>Tallest plunge waterfall in India (340m)</strong>. Near Cherrapunji.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Jog / Gersoppa</td><td style='border:1px solid #334155;padding:5px;'>Sharavati</td><td style='border:1px solid #334155;padding:5px;'>Karnataka</td><td style='border:1px solid #334155;padding:5px;'>Highest in Karnataka (253m). 4 cascades: Raja, Rani, Rover, Rocket.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Chitrakote</td><td style='border:1px solid #334155;padding:5px;'>Indravati</td><td style='border:1px solid #334155;padding:5px;'>Chhattisgarh</td><td style='border:1px solid #334155;padding:5px;'><strong>Niagara of India</strong> — widest waterfall in India.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Dhuandhar</td><td style='border:1px solid #334155;padding:5px;'>Narmada</td><td style='border:1px solid #334155;padding:5px;'>MP (Jabalpur)</td><td style='border:1px solid #334155;padding:5px;'>Sea of Smoke. Bhedaghat marble gorge nearby.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Sivasamudram</td><td style='border:1px solid #334155;padding:5px;'>Cauvery</td><td style='border:1px solid #334155;padding:5px;'>Karnataka</td><td style='border:1px solid #334155;padding:5px;'>Asia's first hydroelectric plant (1902). Powers Kolar Gold Fields.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Athirapally</td><td style='border:1px solid #334155;padding:5px;'>Chalakudy</td><td style='border:1px solid #334155;padding:5px;'>Kerala</td><td style='border:1px solid #334155;padding:5px;'>Niagara of Kerala. Near Silent Valley.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Hundru</td><td style='border:1px solid #334155;padding:5px;'>Subarnarekha</td><td style='border:1px solid #334155;padding:5px;'>Jharkhand</td><td style='border:1px solid #334155;padding:5px;'>73m high. Near Ranchi.</td></tr>
+                </table>
+            </li>
         </ul>
 
-        <h3>7. Climate, Soils & Vegetation of India</h3>
+        <h3>7. Climate of India — MONSOON DEEP CUTS (Fatman Pages 58-65)</h3>
         <ul>
-            <li><strong>Climate:</strong> Tropical Monsoon. ITCZ (Inter Tropical Convergence Zone) shifts north in summer pulling the SW Monsoon. Winter rain in NW India is caused by <em>Western Disturbances</em> from Mediterranean Sea. Winter rain in Tamil Nadu (Coromandel coast) is caused by <em>Retreating (NE) Monsoon</em>. El Nino weakens Indian Monsoon; La Nina strengthens it.</li>
-            <li><strong>Soils of India (ICAR Classification):</strong>
+            <li><strong>Indian Climate Type:</strong> Tropical Monsoon. Koppen: Aw (most of India), Cwg (Ganga plains), BShw (Rajasthan semi-arid), ET (Himalayan highlands).</li>
+            <li><strong>SW Monsoon (June-September):</strong>
                 <ul>
-                    <li><em>Alluvial (43%):</em> Most fertile. Khadar (new alluvium, near river), Bhangar (old alluvium, contains kankar). Rich in potash, poor in N & P.</li>
-                    <li><em>Red Soil (18%):</em> Red color due to Ferric Oxide. Good for pulses, coarse grains.</li>
-                    <li><em>Black Soil / Regur (15%):</em> Found in Deccan trap (basaltic rock). High clay content, highly retentive of moisture (self-ploughing). Ideal for Cotton.</li>
-                    <li><em>Laterite Soil:</em> Formed under high temp and heavy rain (leaching). Rich in iron oxide, poor in silica. Used for making bricks, cashew, tapioca.</li>
+                    <li>ITCZ shifts to ~20-25°N over Indo-Gangetic Plain in June → creates low pressure → pulls moist SW winds.</li>
+                    <li><em>Two branches:</em> Arabian Sea branch (hits WG first → Kerala ~June 1) and Bay of Bengal branch (NE India first, then reverses westward).</li>
+                    <li>Onset dates: Kerala (June 1), Mumbai (June 10), Delhi (June 29), Rajasthan (July).</li>
+                    <li>Wettest places: Mawsynram (11,872 mm) and Cherrapunji (11,430 mm) — both Meghalaya, windward side of Khasi Hills.</li>
                 </ul>
             </li>
-            <li><strong>Natural Vegetation:</strong>
+            <li><strong>Retreating (NE) Monsoon (Oct-Dec):</strong> Monsoon retreats from NW India, picks up moisture from Bay of Bengal → winter rainfall to Tamil Nadu (Coromandel Coast) and SE AP.</li>
+            <li><strong>Local Storms — COMPLETE TABLE (SSC Deep Cuts):</strong>
+                <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
+                    <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>Storm</th><th style='border:1px solid #334155;padding:5px;'>Region</th><th style='border:1px solid #334155;padding:5px;'>Season</th><th style='border:1px solid #334155;padding:5px;'>Significance</th></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'><strong>Kal Baisakhi / Nor'westers</strong></td><td style='border:1px solid #334155;padding:5px;'>WB, Assam, Bangladesh</td><td style='border:1px solid #334155;padding:5px;'>Pre-monsoon (April-May)</td><td style='border:1px solid #334155;padding:5px;'>Violent thunderstorm from NW. Beneficial for Jute &amp; Tea.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'><strong>Mango Showers</strong></td><td style='border:1px solid #334155;padding:5px;'>Kerala, Karnataka</td><td style='border:1px solid #334155;padding:5px;'>Pre-monsoon</td><td style='border:1px solid #334155;padding:5px;'>Helps ripen mangoes. Called Cherry Blossom in Karnataka.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'><strong>Blossom Showers</strong></td><td style='border:1px solid #334155;padding:5px;'>Kerala</td><td style='border:1px solid #334155;padding:5px;'>Pre-monsoon</td><td style='border:1px solid #334155;padding:5px;'>Helps coffee blossoms. Critical for Wayanad &amp; Coorg coffee.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'><strong>Andhis</strong></td><td style='border:1px solid #334155;padding:5px;'>Rajasthan, UP, MP</td><td style='border:1px solid #334155;padding:5px;'>Pre-monsoon (May)</td><td style='border:1px solid #334155;padding:5px;'>Violent dust storm. Reduces temperatures drastically.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'><strong>Western Disturbances</strong></td><td style='border:1px solid #334155;padding:5px;'>J&amp;K, HP, Punjab, Delhi</td><td style='border:1px solid #334155;padding:5px;'>Winter (Dec-Feb)</td><td style='border:1px solid #334155;padding:5px;'>Temperate cyclones from Mediterranean/Caspian Sea. Snowfall in hills, winter rain in plains. Critical for Wheat (Rabi).</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'><strong>Loo</strong></td><td style='border:1px solid #334155;padding:5px;'>Rajasthan, UP, Haryana, Delhi</td><td style='border:1px solid #334155;padding:5px;'>Summer (May-June)</td><td style='border:1px solid #334155;padding:5px;'>Hot, dry, oppressive wind. Causes fatal heat strokes.</td></tr>
+                </table>
+            </li>
+            <li><strong>El Niño / La Niña / ENSO / IOD:</strong>
                 <ul>
-                    <li><em>Tropical Evergreen:</em> >200cm rain. Western Ghats, NE India, Andamans. Mahogany, Ebony, Rosewood, Rubber.</li>
-                    <li><em>Tropical Deciduous (Monsoon Forests):</em> 70-200cm rain. Most widespread in India. Teak, Sal, Sandalwood, Shisham, Peepal.</li>
-                    <li><em>Dry/Thorn Forests:</em> <70cm rain. Babul, Kikar, Cactus.</li>
-                    <li><em>Mangrove (Tidal):</em> Deltas of Ganga, Mahanadi, Krishna. Sundari trees (Sundarbans). Has pneumatophores (breathing roots).</li>
+                    <li><em>El Niño:</em> Abnormal WARMING of Central/Eastern Pacific. WEAKENS Indian SW Monsoon → drought.</li>
+                    <li><em>La Niña:</em> Abnormal COOLING of Pacific. STRENGTHENS Indian Monsoon → floods in India.</li>
+                    <li><em>ENSO:</em> El Niño Southern Oscillation — combined system.</li>
+                    <li><em>IOD (Indian Ocean Dipole):</em> Positive IOD (Western Indian Ocean warmer than east) = GOOD monsoon for India.</li>
                 </ul>
+            </li>
+
+            <li><strong>Soils of India — COMPLETE TABLE (8 Types):</strong>
+                <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
+                    <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>Soil</th><th style='border:1px solid #334155;padding:5px;'>%</th><th style='border:1px solid #334155;padding:5px;'>Key Regions</th><th style='border:1px solid #334155;padding:5px;'>Rich In / Poor In</th><th style='border:1px solid #334155;padding:5px;'>Best Crop</th></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Alluvial</td><td style='border:1px solid #334155;padding:5px;'>43%</td><td style='border:1px solid #334155;padding:5px;'>Indo-Gangetic plain, river deltas</td><td style='border:1px solid #334155;padding:5px;'>Potash (rich), N &amp; P (poor). Khadar (new), Bhangar (old, kankar)</td><td style='border:1px solid #334155;padding:5px;'>Wheat, Rice, Sugarcane</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Black (Regur)</td><td style='border:1px solid #334155;padding:5px;'>15%</td><td style='border:1px solid #334155;padding:5px;'>Deccan Trap (MH, MP, GJ, AP, TN)</td><td style='border:1px solid #334155;padding:5px;'>Ca, Mg, Fe (rich), N &amp; P (poor). High moisture retention — self-ploughing</td><td style='border:1px solid #334155;padding:5px;'>Cotton (ideal)</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Red</td><td style='border:1px solid #334155;padding:5px;'>18%</td><td style='border:1px solid #334155;padding:5px;'>Eastern Deccan, TN, AP, Odisha</td><td style='border:1px solid #334155;padding:5px;'>Ferric oxide (red). Poor in lime, nitrogen, humus</td><td style='border:1px solid #334155;padding:5px;'>Pulses, coarse grains</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Laterite</td><td style='border:1px solid #334155;padding:5px;'>—</td><td style='border:1px solid #334155;padding:5px;'>Kerala, Karnataka, TN Hills, EG</td><td style='border:1px solid #334155;padding:5px;'>Rich in Fe &amp; Al. Poor in silica (leaching). Porous.</td><td style='border:1px solid #334155;padding:5px;'>Cashew, Tapioca, Tea, Coffee</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Arid/Desert</td><td style='border:1px solid #334155;padding:5px;'>—</td><td style='border:1px solid #334155;padding:5px;'>Rajasthan, W Gujarat</td><td style='border:1px solid #334155;padding:5px;'>High soluble salts. Low humus. Sandy. Kankar layer.</td><td style='border:1px solid #334155;padding:5px;'>Millets (with irrigation)</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Forest/Mountain</td><td style='border:1px solid #334155;padding:5px;'>—</td><td style='border:1px solid #334155;padding:5px;'>Himalayas, NE India</td><td style='border:1px solid #334155;padding:5px;'>Rich in humus &amp; organic matter. Acidic.</td><td style='border:1px solid #334155;padding:5px;'>Tea, Coffee (lower slopes)</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Saline/Alkaline (Usar)</td><td style='border:1px solid #334155;padding:5px;'>—</td><td style='border:1px solid #334155;padding:5px;'>Semi-arid UP, Rajasthan, Punjab</td><td style='border:1px solid #334155;padding:5px;'>High Na, K, Mg. Infertile. Called Reh / Kallar / Usar.</td><td style='border:1px solid #334155;padding:5px;'>Rice (after reclamation)</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Peaty/Marshy</td><td style='border:1px solid #334155;padding:5px;'>—</td><td style='border:1px solid #334155;padding:5px;'>Sundarbans, Kerala coast, Odisha</td><td style='border:1px solid #334155;padding:5px;'>High organic matter. Highly acidic.</td><td style='border:1px solid #334155;padding:5px;'>Rice</td></tr>
+                </table>
             </li>
         </ul>
 
-        <h3>8. Agriculture & Minerals</h3>
+
+                <h3>8. Agriculture & Minerals</h3>
         <ul>
             <li><strong>Cropping Seasons:</strong> Kharif (Sown June-July, Harvest Sept-Oct; Rice, Maize, Cotton, Sugarcane). Rabi (Sown Oct-Dec, Harvest April-May; Wheat, Barley, Mustard, Gram). Zaid (Summer crops; Watermelon, Cucumber).</li>
             <li><strong>Agricultural Revolutions:</strong> Green (Food grains), White (Milk/Verghese Kurien), Yellow (Oilseeds), Blue (Fish), Pink (Meat/Poultry), Golden (Horticulture/Honey), Silver (Eggs/Poultry), Round (Potato).</li>
@@ -1571,6 +1695,182 @@ window.fatmanGeography = {
         "correct": 2,
         "explanation": "The Damodar River originates and flows through a rift valley in the Chotanagpur Plateau. It joins the Hugli river. Also known as the 'Sorrow of Bengal'."
     }
+    ,
+        {
+            "question": "Which pass in Arunachal Pradesh connects the Tawang district with China?",
+            "options": ["Zoji La", "Bum La", "Nathu La", "Shipki La"],
+            "correct": 1,
+            "explanation": "Bum La connects Tawang district (Arunachal Pradesh) with China at 5,100m altitude.",
+            "topic": "Indian Geography"
+        },
+        {
+            "question": "The 'Queen of Satpura' hill station is in which state?",
+            "options": ["Maharashtra", "Gujarat", "Madhya Pradesh", "Chhattisgarh"],
+            "correct": 2,
+            "explanation": "Pachmarhi (MP) is the 'Queen of Satpura'. Dhupgarh (1350m) is its highest point.",
+            "topic": "Indian Geography"
+        },
+        {
+            "question": "Asirgarh Fort, called 'Key to the Deccan', is in which state?",
+            "options": ["Maharashtra", "Gujarat", "Telangana", "Madhya Pradesh"],
+            "correct": 3,
+            "explanation": "Asirgarh Fort (Burhanpur, MP) controls the gap between Vindhya and Satpura ranges.",
+            "topic": "Indian Geography"
+        },
+        {
+            "question": "Which is the highest plunge waterfall in India?",
+            "options": ["Jog Falls", "Chitrakote Falls", "Nohkalikai Falls", "Dhuandhar Falls"],
+            "correct": 2,
+            "explanation": "Nohkalikai Falls (340m) near Cherrapunji, Meghalaya is tallest. Jog Falls (253m) is Karnataka's highest but not overall.",
+            "topic": "Indian Geography"
+        },
+        {
+            "question": "At which confluence is the Ganga formally born from Bhagirathi and Alaknanda?",
+            "options": ["Vishnuprayag", "Karnaprayag", "Rudraprayag", "Devprayag"],
+            "correct": 3,
+            "explanation": "Devprayag (Tehri, Uttarakhand) — Bhagirathi meets Alaknanda here to become the Ganga.",
+            "topic": "Rivers, Lakes & Climate"
+        },
+        {
+            "question": "At Rudraprayag, which river meets Alaknanda?",
+            "options": ["Bhagirathi", "Mandakini", "Pindar", "Nandakini"],
+            "correct": 1,
+            "explanation": "Mandakini (from Kedarnath) meets Alaknanda at Rudraprayag.",
+            "topic": "Rivers, Lakes & Climate"
+        },
+        {
+            "question": "Chitrakote Falls ('Niagara of India') is on which river?",
+            "options": ["Narmada", "Mahanadi", "Indravati", "Godavari"],
+            "correct": 2,
+            "explanation": "Chitrakote Falls on Indravati River (Chhattisgarh) is the widest waterfall in India.",
+            "topic": "Rivers, Lakes & Climate"
+        },
+        {
+            "question": "Hirakud Dam (longest dam in India) is on which river?",
+            "options": ["Godavari", "Mahanadi", "Krishna", "Subarnarekha"],
+            "correct": 1,
+            "explanation": "Hirakud Dam (25.8 km long) on Mahanadi River, Odisha. India's first major multipurpose dam.",
+            "topic": "Rivers, Lakes & Climate"
+        },
+        {
+            "question": "Which river is called the 'Sorrow of Bengal'?",
+            "options": ["Kosi", "Damodar", "Subarnarekha", "Mahanadi"],
+            "correct": 1,
+            "explanation": "Damodar = Sorrow of Bengal. Kosi = Sorrow of Bihar. Mahanadi = Sorrow of Odisha.",
+            "topic": "Rivers, Lakes & Climate"
+        },
+        {
+            "question": "Luni river drains into which water body?",
+            "options": ["Arabian Sea", "Bay of Bengal", "Rann of Kutch", "Gulf of Cambay"],
+            "correct": 2,
+            "explanation": "Luni is an endorheic river — it drains into the Rann of Kutch (inland drainage). Becomes saline after Balotara.",
+            "topic": "Rivers, Lakes & Climate"
+        },
+        {
+            "question": "Kal Baisakhi storms are beneficial for which crops in West Bengal?",
+            "options": ["Cotton and Wheat", "Jute and Tea", "Rice and Sugarcane", "Mango and Coffee"],
+            "correct": 1,
+            "explanation": "Kal Baisakhi (pre-monsoon violent thunderstorms) in WB, Assam, Bangladesh are beneficial for Jute and Tea.",
+            "topic": "Rivers, Lakes & Climate"
+        },
+        {
+            "question": "Western Disturbances causing winter rainfall in NW India originate from:",
+            "options": ["Arabian Sea", "Bay of Bengal", "Mediterranean/Caspian Sea", "South China Sea"],
+            "correct": 2,
+            "explanation": "Western Disturbances are extra-tropical cyclones from the Mediterranean/Caspian/Black Sea — bring winter snow and rain to NW India.",
+            "topic": "Rivers, Lakes & Climate"
+        },
+        {
+            "question": "El Nino is associated with abnormal warming of which ocean and what effect does it have on India?",
+            "options": ["Indian Ocean — Strengthens monsoon", "Atlantic Ocean — Weakens monsoon", "Pacific Ocean — Weakens monsoon", "Pacific Ocean — Strengthens monsoon"],
+            "correct": 2,
+            "explanation": "El Nino = abnormal warming of Central/Eastern Pacific Ocean. Weakens Indian SW Monsoon → drought.",
+            "topic": "Rivers, Lakes & Climate"
+        },
+        {
+            "question": "Pal Ghat (Palakkad Gap) connects which two cities and is the widest pass of the Western Ghats?",
+            "options": ["Mumbai to Nashik", "Mumbai to Pune", "Coimbatore to Thrissur", "Goa to Belgaum"],
+            "correct": 2,
+            "explanation": "Palakkad Gap (30 km wide) connects Coimbatore (TN) with Thrissur (Kerala). Widest and lowest pass in Western Ghats.",
+            "topic": "Indian Geography"
+        },
+        {
+            "question": "Largest masonry dam in the world is located in India. Which dam?",
+            "options": ["Bhakra Nangal", "Tehri Dam", "Nagarjuna Sagar Dam", "Sardar Sarovar"],
+            "correct": 2,
+            "explanation": "Nagarjuna Sagar Dam on Krishna River (Telangana) is the world's largest masonry dam.",
+            "topic": "Indian Geography"
+        },
+        {
+            "question": "Sivasamudram Falls is historically important because:",
+            "options": ["Highest waterfall in India", "Asia's first hydroelectric power plant was built here (1902)", "Widest waterfall in India", "First Indian dam was built here"],
+            "correct": 1,
+            "explanation": "Sivasamudram (Karnataka) on Cauvery River was site of Asia's first hydroelectric plant (1902) — powered Kolar Gold Fields.",
+            "topic": "Rivers, Lakes & Climate"
+        },
+        {
+            "question": "Loktak Lake in Manipur is famous for:",
+            "options": ["Being the highest altitude lake", "Floating phumdis and world's only floating National Park", "India's largest freshwater lake", "Largest saline lake"],
+            "correct": 1,
+            "explanation": "Loktak has floating vegetation islands called 'phumdis'. Keibul Lamjao is the world's only floating National Park.",
+            "topic": "Rivers, Lakes & Climate"
+        },
+        {
+            "question": "Which soil type is called 'self-ploughing' due to its ability to expand and crack?",
+            "options": ["Alluvial Soil", "Red Soil", "Laterite Soil", "Black (Regur) Soil"],
+            "correct": 3,
+            "explanation": "Black Soil / Regur has Montmorillonite clay — swells when wet, cracks (self-ploughs) when dry.",
+            "topic": "Agriculture, Soils & Minerals"
+        },
+        {
+            "question": "Brahmani River is formed by the confluence of which two rivers?",
+            "options": ["Sankh and North Koel", "Sankh and South Koel at Rourkela", "Gomti and Son", "Indravati and Wainganga"],
+            "correct": 1,
+            "explanation": "Brahmani is formed by junction of Sankh + South Koel at Rourkela (Odisha).",
+            "topic": "Rivers, Lakes & Climate"
+        },
+        {
+            "question": "Pangong Tso is shared between India and which country?",
+            "options": ["Pakistan", "Nepal", "China", "Bhutan"],
+            "correct": 2,
+            "explanation": "Pangong Tso — 60% in China (Tibet), 40% in India (Ladakh). Endorheic brackish high-altitude lake.",
+            "topic": "Indian Geography"
+        },
+        {
+            "question": "Jog Falls (Gersoppa) is on which river in Karnataka?",
+            "options": ["Cauvery", "Tungabhadra", "Sharavati", "Bedti"],
+            "correct": 2,
+            "explanation": "Jog Falls (253m) is on the Sharavati River. 4 cascades: Raja, Rani, Rover, Rocket.",
+            "topic": "Indian Geography"
+        },
+        {
+            "question": "The Nathu La Pass connects India with which country?",
+            "options": ["Nepal", "Bhutan", "China (Tibet)", "Myanmar"],
+            "correct": 2,
+            "explanation": "Nathu La (4,310m) connects Sikkim with Chumbi Valley in Tibet (China). Reopened for trade in 2006.",
+            "topic": "Indian Geography"
+        },
+        {
+            "question": "Mahi River is notable for which geographical distinction?",
+            "options": ["It is longest west-flowing river", "It drains into Rann of Kutch", "It crosses the Tropic of Cancer twice", "It flows between Vindhya and Satpura"],
+            "correct": 2,
+            "explanation": "Mahi River (originates Dhar, MP) crosses the Tropic of Cancer TWICE on its way to the Gulf of Khambhat.",
+            "topic": "Rivers, Lakes & Climate"
+        },
+        {
+            "question": "What is the Sadbhawna Shikhar?",
+            "options": ["Highest peak of Satpura", "Highest peak of Vindhya Range", "Highest peak of Eastern Ghats", "Highest peak of Aravallis"],
+            "correct": 1,
+            "explanation": "Sadbhawna Shikhar is the highest point of the Vindhya Range. Vindhyas are block mountains that separate the Indo-Gangetic plain from the Deccan.",
+            "topic": "Indian Geography"
+        },
+        {
+            "question": "Lonar Lake in Maharashtra is what type of lake?",
+            "options": ["Glacial lake", "Tectonic lake", "Meteorite crater lake", "Ox-bow lake"],
+            "correct": 2,
+            "explanation": "Lonar Lake (Maharashtra) is formed by a meteorite impact. It is both saline and alkaline and was declared a Ramsar site in 2020.",
+            "topic": "Rivers, Lakes & Climate"
+        }
     ],
     "flashcards": [
         {
@@ -2121,6 +2421,34 @@ window.fatmanGeography = {
     { "topic": "Rivers, Lakes & Climate", "front": "Which river's sand contains gold particles, giving it the name 'Streak of Gold'?", "back": "Subarnarekha River (originates in Ranchi Plateau, Jharkhand)." },
     { "topic": "Rivers, Lakes & Climate", "front": "Godavari tributaries trick (M S W W I P P P)?", "back": "Manjira, Sabari, Wainganga, Wardha, Indravati, Penganga, Purna, Pranhita." },
     { "topic": "Physical Geography", "front": "Bum La pass connects which two regions?", "back": "China and Tawang district of Arunachal Pradesh." },
-    { "topic": "Physical Geography", "front": "Which passes are in Uttarakhand connecting to Tibet?", "back": "Mangsha Dhura, Traill's Pass, Mana Pass, Niti Pass, Lipu Lekh." }
+    { "topic": "Physical Geography", "front": "Which passes are in Uttarakhand connecting to Tibet?", "back": "Mangsha Dhura, Traill's Pass, Mana Pass, Niti Pass, Lipu Lekh." },
+        { "front": "Name all 5 Panchhprayags from upstream to Devprayag.", "back": "1. Vishnuprayag (Dhauliganga+Alaknanda), 2. Nandaprayag (Nandakini+Alaknanda), 3. Karnaprayag (Pindar+Alaknanda), 4. Rudraprayag (Mandakini+Alaknanda), 5. Devprayag (Bhagirathi+Alaknanda = GANGA IS BORN).", "topic": "Rivers, Lakes & Climate" },
+        { "front": "What is Kal Baisakhi and for which crops is it beneficial?", "back": "Kal Baisakhi (Nor'westers) = violent pre-monsoon thunderstorms in WB, Assam, Bangladesh. Beneficial for Jute and Tea.", "topic": "Rivers, Lakes & Climate" },
+        { "front": "Name the 4 cascades of Jog (Gersoppa) Falls.", "back": "Raja, Rani, Rover, Rocket — on the Sharavati River, Karnataka (253m). Asia's second highest plunge waterfall.", "topic": "Indian Geography" },
+        { "front": "Mango Showers vs Blossom Showers — difference?", "back": "Mango Showers = pre-monsoon rain in Kerala/Karnataka helping ripen mangoes (also called Cherry Blossom in KA). Blossom Showers = pre-monsoon rain in Kerala helping coffee flower.", "topic": "Rivers, Lakes & Climate" },
+        { "front": "Bhakra Nangal Dam — river, state, reservoir name?", "back": "Sutlej River, HP/Punjab border. Gobind Sagar Reservoir. Highest straight gravity dam in Asia.", "topic": "Rivers, Lakes & Climate" },
+        { "front": "What is Asirgarh Fort and why is it called 'Key to the Deccan'?", "back": "Asirgarh Fort (Burhanpur, MP) controls the strategic gap/passage between the Vindhya and Satpura mountain ranges.", "topic": "Indian Geography" },
+        { "front": "Sadbhawna Shikhar — which mountain range and what separates these ranges from the Deccan?", "back": "Sadbhawna Shikhar = highest point of Vindhya Range. Vindhya Range (block mountains) separates the Indo-Gangetic Plain from the Deccan Plateau.", "topic": "Indian Geography" },
+        { "front": "Nohkalikai Falls — height and location?", "back": "340m tall — TALLEST plunge waterfall in India. Near Cherrapunji, Meghalaya.", "topic": "Indian Geography" },
+        { "front": "What are Doons/Duns in the Himalayan context?", "back": "Longitudinal valleys between the Shiwalik (Outer Himalaya) and Lesser Himalaya ranges. Examples: Dehradun, Patli Dun, Kotli Dun.", "topic": "Indian Geography" },
+        { "front": "Sivasamudram Falls — river and historical importance?", "back": "On Cauvery River, Karnataka. Site of Asia's FIRST hydroelectric power plant (1902). Power supplied to Kolar Gold Fields.", "topic": "Rivers, Lakes & Climate" },
+        { "front": "Nagarjuna Sagar Dam — river and world record?", "back": "On Krishna River (Telangana). WORLD'S largest masonry dam.", "topic": "Rivers, Lakes & Climate" },
+        { "front": "Tehri Dam — river, state, type?", "back": "Bhagirathi River, Uttarakhand. Highest dam in India (260m). Rockfill type. Submerged old Tehri town.", "topic": "Rivers, Lakes & Climate" },
+        { "front": "Damodar River — why is it the 'Sorrow of Bengal'?", "back": "Flows through rift valley, frequently flooded. DVC (Damodar Valley Corporation) modelled on USA's Tennessee Valley Authority to control it.", "topic": "Rivers, Lakes & Climate" },
+        { "front": "Subarnarekha River — why called 'Streak of Gold'?", "back": "Sand of Subarnarekha River contains gold particles. Originates Ranchi Plateau, Jharkhand. Hundru Falls on it.", "topic": "Rivers, Lakes & Climate" },
+        { "front": "El Nino vs La Nina — which weakens Indian monsoon?", "back": "El Nino (Pacific warming) WEAKENS Indian Monsoon → drought. La Nina (Pacific cooling) STRENGTHENS Monsoon → floods.", "topic": "Rivers, Lakes & Climate" },
+        { "front": "Palakkad Gap (Pal Ghat) — width and what it connects?", "back": "30 km wide — widest and lowest pass in Western Ghats. Connects Coimbatore (TN) with Thrissur (Kerala). Railway and highway pass through here.", "topic": "Indian Geography" },
+        { "front": "Aravallis vs Satpuras — highest peaks?", "back": "Aravallis: Guru Shikhar (1722m, Mt. Abu, Rajasthan). Satpuras: Dhupgarh (1350m, Pachmarhi, MP).", "topic": "Indian Geography" },
+        { "front": "Lonar Lake — type, state, special status?", "back": "Meteorite crater lake in Maharashtra. Both saline AND alkaline. Declared Ramsar site in 2020.", "topic": "Rivers, Lakes & Climate" },
+        { "front": "Luni River — origin, drainage, and other name?", "back": "Originates near Pushkar, Rajasthan. Drains into Rann of Kutch (endorheic — no sea outlet). Called 'Lavanavati' (salt river). Becomes saline after Balotara.", "topic": "Rivers, Lakes & Climate" },
+        { "front": "Loktak Lake — state and special feature?", "back": "Manipur. Largest freshwater lake in NE India. Floating phumdis (vegetation islands). Keibul Lamjao = world's only floating National Park.", "topic": "Rivers, Lakes & Climate" },
+        { "front": "What are Karewa formations and why are they important?", "back": "Ancient lacustrine (lake) deposits in Kashmir Valley. Important for Saffron (Kesar) cultivation.", "topic": "Indian Geography" },
+        { "front": "Hirakud Dam — river, state, record?", "back": "Mahanadi River, Odisha. Longest dam in India (25.8 km). India's first major multipurpose river valley project.", "topic": "Rivers, Lakes & Climate" },
+        { "front": "What is Black Soil called scientifically and what crop is it best for?", "back": "Called Regur Soil. Contains Montmorillonite clay — self-ploughing property. BEST for Cotton. Also called 'Cotton Soil'.", "topic": "Agriculture, Soils & Minerals" },
+        { "front": "Peaty/Marshy soil — where found and crop?", "back": "Sundarbans (WB), Kerala backwaters, Odisha coast. High organic matter, highly acidic. Best for Rice.", "topic": "Agriculture, Soils & Minerals" },
+        { "front": "Arid/Desert soil — key characteristics?", "back": "Found in Rajasthan and W Gujarat. Sandy, low humus, high soluble salts. Has Kankar (CaCO3) layer. Infertile without irrigation. Good for millets.", "topic": "Agriculture, Soils & Minerals" },
+        { "front": "Mahi River's unique geographic feature?", "back": "Mahi River (Dhar, MP → Gulf of Khambhat) crosses the Tropic of Cancer TWICE during its course.", "topic": "Rivers, Lakes & Climate" },
+        { "front": "Brahmani River — formation?", "back": "Formed by the junction of Sankh + South Koel rivers at Rourkela (Odisha). Flows into Bay of Bengal.", "topic": "Rivers, Lakes & Climate" }
+
     ]
 };
