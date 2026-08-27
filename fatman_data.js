@@ -1530,6 +1530,47 @@ window.fatmanGeography = {
             "explanation": "Visakhapatnam (Vizag) in Andhra Pradesh is the deepest landlocked port in India.",
             "topic": "Indian Geography"
         }
+        ,
+    {
+        "id": "geo_deep_1",
+        "topic": "Physical Geography",
+        "question": "Which of the following passes connects Arunachal Pradesh with Myanmar?",
+        "options": ["Diphu Pass", "Jelep La", "Nathu La", "Lipu Lekh"],
+        "correct": 0,
+        "explanation": "Diphu Pass, Pangsau Pass, and Dihang Pass connect Arunachal Pradesh with Myanmar. Nathu La and Jelep La are in Sikkim."
+    },
+    {
+        "id": "geo_deep_2",
+        "topic": "Physical Geography",
+        "question": "Mangsha Dhura and Traill's Pass are located in which Indian state?",
+        "options": ["Himachal Pradesh", "Uttarakhand", "Sikkim", "Arunachal Pradesh"],
+        "correct": 1,
+        "explanation": "Mangsha Dhura, Traill's Pass, Mana Pass, Niti Pass, and Lipu Lekh are major passes in Uttarakhand."
+    },
+    {
+        "id": "geo_deep_3",
+        "topic": "Rivers, Lakes & Climate",
+        "question": "Which river is formed by the confluence of the Sankh and South Koel rivers near Rourkela?",
+        "options": ["Baitarani", "Brahmani", "Subarnarekha", "Damodar"],
+        "correct": 1,
+        "explanation": "The Brahmani river is formed by the confluence of Sankh and South Koel rivers near Rourkela. APJ Abdul Kalam Island is located near the mouth of the Dhamra river (confluence of Baitarani and Brahmani)."
+    },
+    {
+        "id": "geo_deep_4",
+        "topic": "Rivers, Lakes & Climate",
+        "question": "The Baitarani river originates from the Gonasika/Guptaganga hills in which state?",
+        "options": ["Jharkhand", "Chhattisgarh", "Odisha", "West Bengal"],
+        "correct": 2,
+        "explanation": "Baitarani originates from the Gonasika/Guptaganga hills in Odisha."
+    },
+    {
+        "id": "geo_deep_5",
+        "topic": "Rivers, Lakes & Climate",
+        "question": "Which Peninsular river flows through a rift valley in the Chotanagpur Plateau of Jharkhand?",
+        "options": ["Mahanadi", "Godavari", "Damodar", "Subarnarekha"],
+        "correct": 2,
+        "explanation": "The Damodar River originates and flows through a rift valley in the Chotanagpur Plateau. It joins the Hugli river. Also known as the 'Sorrow of Bengal'."
+    }
     ],
     "flashcards": [
         {
@@ -2075,56 +2116,11 @@ window.fatmanGeography = {
     { "front": "What is the Ring of Fire?", "back": "A horseshoe-shaped zone in the Pacific Ocean basin where ~90% of the world's earthquakes occur and ~75% of volcanoes are located.", "topic": "World Geography" },
     { "front": "What is a 'Fjord'?", "back": "A narrow, deep inlet of the sea between high cliffs, formed by glacial erosion. Most famous: Norway's fjords.", "topic": "World Geography" },
 
-    ,
-
-    {
-        "id": "geo_deep_1",
-        "topic": "Physical Geography",
-        "question": "Which of the following passes connects Arunachal Pradesh with Myanmar?",
-        "options": ["Diphu Pass", "Jelep La", "Nathu La", "Lipu Lekh"],
-        "correct": 0,
-        "explanation": "Diphu Pass, Pangsau Pass, and Dihang Pass connect Arunachal Pradesh with Myanmar. Nathu La and Jelep La are in Sikkim."
-    },
-    {
-        "id": "geo_deep_2",
-        "topic": "Physical Geography",
-        "question": "Mangsha Dhura and Traill's Pass are located in which Indian state?",
-        "options": ["Himachal Pradesh", "Uttarakhand", "Sikkim", "Arunachal Pradesh"],
-        "correct": 1,
-        "explanation": "Mangsha Dhura, Traill's Pass, Mana Pass, Niti Pass, and Lipu Lekh are major passes in Uttarakhand."
-    },
-    {
-        "id": "geo_deep_3",
-        "topic": "Rivers, Lakes & Climate",
-        "question": "Which river is formed by the confluence of the Sankh and South Koel rivers near Rourkela?",
-        "options": ["Baitarani", "Brahmani", "Subarnarekha", "Damodar"],
-        "correct": 1,
-        "explanation": "The Brahmani river is formed by the confluence of Sankh and South Koel. APJ Abdul Kalam Island is located near the mouth of the Dhamra river (confluence of Baitarani and Brahmani)."
-    },
-    {
-        "id": "geo_deep_4",
-        "topic": "Rivers, Lakes & Climate",
-        "question": "The Baitarani river originates from the Gonasika/Guptaganga hills in which state?",
-        "options": ["Jharkhand", "Chhattisgarh", "Odisha", "West Bengal"],
-        "correct": 2,
-        "explanation": "Baitarani originates from the Gonasika/Guptaganga hills in Odisha."
-    },
-    {
-        "id": "geo_deep_5",
-        "topic": "Rivers, Lakes & Climate",
-        "question": "Which Peninsular river flows through a rift valley in the Chotanagpur Plateau?",
-        "options": ["Mahanadi", "Godavari", "Damodar", "Subarnarekha"],
-        "correct": 2,
-        "explanation": "The Damodar River originates and flows through a rift valley in the Chotanagpur Plateau. It was known as the 'Sorrow of Bengal'."
-    }
-
+        ,
+    { "topic": "Rivers, Lakes & Climate", "front": "Which National Park is in the delta of Brahmani, Baitarani, and Dhamra rivers?", "back": "Bhitarkanika National Park, Odisha." },
+    { "topic": "Rivers, Lakes & Climate", "front": "Which river's sand contains gold particles, giving it the name 'Streak of Gold'?", "back": "Subarnarekha River (originates in Ranchi Plateau, Jharkhand)." },
+    { "topic": "Rivers, Lakes & Climate", "front": "Godavari tributaries trick (M S W W I P P P)?", "back": "Manjira, Sabari, Wainganga, Wardha, Indravati, Penganga, Purna, Pranhita." },
+    { "topic": "Physical Geography", "front": "Bum La pass connects which two regions?", "back": "China and Tawang district of Arunachal Pradesh." },
+    { "topic": "Physical Geography", "front": "Which passes are in Uttarakhand connecting to Tibet?", "back": "Mangsha Dhura, Traill's Pass, Mana Pass, Niti Pass, Lipu Lekh." }
     ]
-};,
-
-    { "topic": "Rivers, Lakes & Climate", "front": "Bhitarkanika National Park is located in the delta of which rivers?", "back": "Brahmani, Baitarani, and Dhamra rivers (Odisha)." },
-    { "topic": "Rivers, Lakes & Climate", "front": "Which river's name means 'Streak of Gold' because its sand contains gold particles?", "back": "Subarnarekha River (originates in Ranchi Plateau, Jharkhand)." },
-    { "topic": "Rivers, Lakes & Climate", "front": "Name the major tributaries of the Godavari river.", "back": "Manjira, Sabari, Wainganga, Wardha, Indravati, Penganga, Purna, Pranhita (Trick: M S W W I P P P)." },
-    { "topic": "Physical Geography", "front": "Bum La pass connects which two regions?", "back": "It is a border pass between China and Tawang district of Arunachal Pradesh." },
-    { "topic": "Physical Geography", "front": "Where are Mana Pass, Niti Pass, and Lipu Lekh located?", "back": "Uttarakhand. They connect Uttarakhand with Tibet." }
-
-    
+};

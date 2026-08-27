@@ -1636,6 +1636,47 @@ const historyData = {
         "explanation": "Jayasimha was the first ruler of the dynasty. Pulakeshin I was the formal founder who established the capital at Vatapi."
     }
 
+        ,
+    {
+        "id": "hist_deep_1",
+        topic: "Harshavardhana & Sangam Age",
+        "question": "In the Chola administration, which 'Variyam' was responsible for tank and irrigation management?",
+        "options": ["Pon Variyam", "Nyaya Variyam", "Eri Variyam", "Tottavariyam"],
+        "correct": 2,
+        "explanation": "Eri Variyam managed tanks and irrigation. Tottavariyam managed gardens, Pon Variyam managed gold/finance, and Nyaya Variyam managed justice."
+    },
+    {
+        "id": "hist_deep_2",
+        topic: "Harshavardhana & Sangam Age",
+        "question": "In Chola land donation records, land donated to non-Brahman peasants was known as:",
+        "options": ["Brahmadeya", "Vellanvagai", "Devadana", "Pallichchhandam"],
+        "correct": 1,
+        "explanation": "Vellanvagai was land donated to non-Brahman peasants. Brahmadeya was for Brahmans, Devadana for temples, and Pallichchhandam for Jain institutions. Shalabhoga was land for schools."
+    },
+    {
+        "id": "hist_deep_3",
+        topic: "Harshavardhana & Sangam Age",
+        "question": "What was 'Shalabhoga' in the Chola land grant system?",
+        "options": ["A tax on produce", "Land donated for maintaining a school", "A military title", "Forced labor tax"],
+        "correct": 1,
+        "explanation": "Shalabhoga was land donated for the maintenance of a school. Forced labor was 'Vetti' and land revenue tax was 'Kadamai'."
+    },
+    {
+        "id": "hist_deep_4",
+        topic: "Post-Mauryan & Foreign Invasions",
+        "question": "Which ancient Indian dynasty is known to have traded 'lead coins' extensively with the Romans?",
+        "options": ["Shunga Dynasty", "Kanva Dynasty", "Satavahana Dynasty", "Kushana Dynasty"],
+        "correct": 2,
+        "explanation": "The Satavahanas traded lead coins with the Romans. They also issued copper, bronze, and potin coins. Their port Ghantasala was a major trading center."
+    },
+    {
+        "id": "hist_deep_5",
+        topic: "Chalukyas & Pallavas",
+        "question": "Which temple complex is known as the 'Laboratory of Indian Temple Architecture'?",
+        "options": ["Badami", "Aihole", "Pattadakal", "Kanchipuram"],
+        "correct": 1,
+        "explanation": "Aihole is called the 'Laboratory of Indian Temple Architecture'. Pattadakal (a blend of Nagara and Dravida) is called the 'Cradle of Indian Architecture' and is a UNESCO World Heritage Site."
+    }
     ],
     flashcards: [
     {
@@ -2737,6 +2778,11 @@ const historyData = {
     { topic: "Post-Mauryan & Foreign Invasions", front: "Who defeated the last Shunga ruler Devbhuti to found the Kanva dynasty?", back: "Vasudeva Kanva." },
     { topic: "Post-Mauryan & Foreign Invasions", front: "Which Satavahana ruler was defeated by the Saka ruler Rudradaman I?", back: "Vasisthiputra Pulumavi (mentioned in the Junagadh Inscription)." }
 
+        ,
+    { topic: "Harshavardhana & Sangam Age", front: "4 Chola Variyams and their functions?", back: "Eri Variyam (tanks/irrigation), Tottavariyam (gardens), Pon Variyam (gold/finance), Nyaya Variyam (justice)." },
+    { topic: "Harshavardhana & Sangam Age", front: "Chola land grants: Vellanvagai, Shalabhoga, Pallichchhandam?", back: "Vellanvagai = non-Brahman peasants. Shalabhoga = schools. Pallichchhandam = Jain community." },
+    { topic: "Post-Mauryan & Foreign Invasions", front: "Which dynasty traded lead coins with the Romans?", back: "Satavahana Dynasty. Port used: Ghantasala (Andhra Pradesh)." },
+    { topic: "Chalukyas & Pallavas", front: "Which site is 'Cradle of Indian Architecture'?", back: "Pattadakal group of temples (Karnataka) — UNESCO World Heritage Site. 4 Nagara + 6 Dravida style temples." }
     ]
 };
 
