@@ -281,21 +281,41 @@ window.speakNextFatmanAudio = function() {
     utterance.pitch = 1.0;
     
     const voices = window.fatmanVoices.length > 0 ? window.fatmanVoices : window.speechSynthesis.getVoices();
-    let preferredVoice = voices.find(v => 
-        (v.lang.includes('en-') ) && 
-        (v.name.toLowerCase().includes('female') || 
-         v.name.toLowerCase().includes('zira') || 
-         v.name.toLowerCase().includes('heera') || 
-         v.name.toLowerCase().includes('veena') || 
-         v.name.toLowerCase().includes('samantha') || 
-         v.name.toLowerCase().includes('victoria') ||
-         v.name.toLowerCase().includes('karen') ||
-         v.name.toLowerCase().includes('hazel'))
-    );
+    
+    // Tier 1: Exact Indian English voices (en-IN locale)
+    let preferredVoice = voices.find(v => v.lang === 'en-IN');
+    
+    // Tier 2: Known Indian voice names on different platforms
     if (!preferredVoice) {
-        preferredVoice = voices.find(v => (v.lang.includes('en-')) && !(v.name.toLowerCase().includes('male') || v.name.toLowerCase().includes('david') || v.name.toLowerCase().includes('ravi') || v.name.toLowerCase().includes('rishi') || v.name.toLowerCase().includes('daniel')));
+        preferredVoice = voices.find(v =>
+            v.name.toLowerCase().includes('raveena') ||   // Apple iOS Indian
+            v.name.toLowerCase().includes('heera') ||     // Microsoft Indian
+            v.name.toLowerCase().includes('veena') ||     // Apple macOS Indian
+            v.name.toLowerCase().includes('priya') ||     // Common Indian name
+            v.name.toLowerCase().includes('neerja') ||    // Indian voice
+            v.name.toLowerCase().includes('google हिन्दी') === false && v.lang.includes('en-IN')
+        );
     }
-    if (!preferredVoice) preferredVoice = voices.find(v => v.lang.includes('en-'));
+    
+    // Tier 3: Any en-IN variant
+    if (!preferredVoice) {
+        preferredVoice = voices.find(v => v.lang.startsWith('en-IN'));
+    }
+    
+    // Tier 4: Any non-US English (British, Australian etc.) — still better than robotic US
+    if (!preferredVoice) {
+        preferredVoice = voices.find(v =>
+            v.lang.includes('en-') && !v.lang.includes('en-US')
+        );
+    }
+    
+    // Tier 5: Any English voice as last resort
+    if (!preferredVoice) {
+        preferredVoice = voices.find(v => v.lang.includes('en-'));
+    }
+    
+    // Force Indian English locale on the utterance so the engine uses Indian accent rules
+    utterance.lang = 'en-IN';
     if (preferredVoice) utterance.voice = preferredVoice;
 
     utterance.onend = function() {
