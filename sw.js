@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ssc-prep-cache-v70';
+const CACHE_NAME = 'ssc-prep-cache-v71';
 const urlsToCache = [
   './',
   './index.html',
