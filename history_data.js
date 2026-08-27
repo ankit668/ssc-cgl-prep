@@ -548,6 +548,72 @@ const historyData = {
             </li>
         </ul>
 
+
+        <!-- MEDIEVAL DEEP CUTS INJECTION -->
+        <h3>16. The 10 Sikh Gurus & Khalsa Panth <span class='pyq-badge'>SSC Fav</span></h3>
+        <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
+            <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>Guru</th><th style='border:1px solid #334155;padding:5px;'>Key Contributions (TCS Deep Cuts)</th></tr>
+            <tr><td style='border:1px solid #334155;padding:5px;'>1. Guru Nanak Dev</td><td style='border:1px solid #334155;padding:5px;'>Founder of Sikhism. Introduced <em>Langar</em> (community kitchen). Born at Talwandi (Nankana Sahib).</td></tr>
+            <tr><td style='border:1px solid #334155;padding:5px;'>2. Guru Angad Dev</td><td style='border:1px solid #334155;padding:5px;'>Invented the <strong>Gurmukhi</strong> script. Standardized Langar.</td></tr>
+            <tr><td style='border:1px solid #334155;padding:5px;'>3. Guru Amar Das</td><td style='border:1px solid #334155;padding:5px;'>Introduced the <em>Manji</em> system (religious administration) and Anand Karaj (marriage ceremony).</td></tr>
+            <tr><td style='border:1px solid #334155;padding:5px;'>4. Guru Ram Das</td><td style='border:1px solid #334155;padding:5px;'>Founded the city of <strong>Amritsar</strong> (on land gifted by Akbar). Composed the Lavan.</td></tr>
+            <tr><td style='border:1px solid #334155;padding:5px;'>5. Guru Arjan Dev</td><td style='border:1px solid #334155;padding:5px;'>Compiled the <strong>Adi Granth</strong>. Built the Harmandir Sahib (Golden Temple). Executed by Jahangir. <span class='pyq-badge'>CGL '23</span></td></tr>
+            <tr><td style='border:1px solid #334155;padding:5px;'>6. Guru Hargobind</td><td style='border:1px solid #334155;padding:5px;'>Built the <strong>Akal Takht</strong>. Transformed Sikhs into a martial race (Miri and Piri swords).</td></tr>
+            <tr><td style='border:1px solid #334155;padding:5px;'>7. Guru Har Rai</td><td style='border:1px solid #334155;padding:5px;'>Maintained a large army. Sheltered Dara Shikoh.</td></tr>
+            <tr><td style='border:1px solid #334155;padding:5px;'>8. Guru Har Krishan</td><td style='border:1px solid #334155;padding:5px;'>Youngest Guru (became Guru at age 5). Died of smallpox in Delhi.</td></tr>
+            <tr><td style='border:1px solid #334155;padding:5px;'>9. Guru Tegh Bahadur</td><td style='border:1px solid #334155;padding:5px;'>Founded Anandpur Sahib. Executed by Aurangzeb at Chandni Chowk (Gurdwara Sis Ganj Sahib).</td></tr>
+            <tr><td style='border:1px solid #334155;padding:5px;'>10. Guru Gobind Singh</td><td style='border:1px solid #334155;padding:5px;'>Founded the <strong>Khalsa Panth</strong> (1699). Introduced the 5 Ks (Kesh, Kangha, Kara, Kachera, Kirpan). Declared Guru Granth Sahib as the eternal Guru.</td></tr>
+        </table>
+
+        <h3>17. Bhakti & Sufi Movements</h3>
+        <ul>
+            <li><strong>Bhakti Philosophy:</strong>
+                <ul>
+                    <li><em>Advaita</em> (Non-dualism) by <strong>Shankaracharya</strong>. <span class='pyq-badge'>CGL '24</span></li>
+                    <li><em>Vishishtadvaita</em> (Qualified Non-dualism) by <strong>Ramanuja</strong>.</li>
+                    <li><em>Dvaita</em> (Dualism) by <strong>Madhvacharya</strong>.</li>
+                    <li><em>Shuddhadvaita</em> (Pure Non-dualism) by <strong>Vallabhacharya</strong>.</li>
+                </ul>
+            </li>
+            <li><strong>Saints (Nirguna vs Saguna):</strong>
+                <ul>
+                    <li><strong>Nirguna (Formless God):</strong> Kabir (disciple of Ramananda, works collected in <em>Bijak</em>), Guru Nanak, Dadu Dayal.</li>
+                    <li><strong>Saguna (God with Form):</strong> Tulsidas (wrote <em>Ramcharitmanas</em>), Mirabai, Surdas, Chaitanya Mahaprabhu (popularized <em>Sankirtan</em> in Bengal), Shankaradeva (Assam - introduced <em>Sattriya</em> dance).</li>
+                </ul>
+            </li>
+            <li><strong>Sufi Silsilas (Orders):</strong>
+                <ul>
+                    <li><strong>Chishti Order:</strong> Most popular. Founded in India by Khwaja Moinuddin Chishti (Dargah at Ajmer). Other saints: Nizamuddin Auliya, Baba Farid.</li>
+                    <li><strong>Suhrawardi Order:</strong> Confined mostly to Punjab and Multan. Accepted state patronage (unlike Chishtis).</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>18. Mughal Literature, Art & Regional Kingdoms</h3>
+        <ul>
+            <li><strong>Mughal Literature (TCS Deep Cuts):</strong>
+                <ul>
+                    <li><em>Razmnama:</em> Persian translation of the <strong>Mahabharata</strong> (translated by Badauni, Faizi, and others under Akbar).</li>
+                    <li><em>Sirr-i-Akbar:</em> Persian translation of 50 <strong>Upanishads</strong> by Dara Shikoh (Shah Jahan's eldest son). <span class='pyq-badge'>CHSL '23</span></li>
+                    <li><em>Ain-i-Akbari & Akbarnama:</em> Written by Abul Fazl.</li>
+                    <li><em>Hamzanama:</em> Massive illustrated manuscript detailing the adventures of Amir Hamza (started by Humayun, completed by Akbar).</li>
+                </ul>
+            </li>
+            <li><strong>Mughal Painters:</strong>
+                <ul>
+                    <li><em>Akbar's Court:</em> Daswanth and Basawan (known for illustrating the Razmnama).</li>
+                    <li><em>Jahangir's Court:</em> <strong>Ustad Mansur</strong> (expert in flora and fauna/bird paintings) and Abul Hasan (portrait expert).</li>
+                </ul>
+            </li>
+            <li><strong>Regional Kingdoms:</strong>
+                <ul>
+                    <li><strong>Kashmir:</strong> Zain-ul-Abidin is called the <em>"Akbar of Kashmir"</em> because he abolished the Jizya tax and cow slaughter, and promoted religious tolerance.</li>
+                    <li><strong>Jaunpur:</strong> Known as the <em>"Shiraz of the East"</em> (due to its education/culture). Ruled by the Sharqi dynasty. Built the famous <strong>Atala Mosque</strong>.</li>
+                    <li><strong>Mewar:</strong> Rana Kumbha built the <strong>Vijay Stambha</strong> (Tower of Victory) in Chittorgarh to commemorate his victory over Mahmud Khalji of Malwa.</li>
+                </ul>
+            </li>
+        </ul>
+
 `,
     mcqs: [
     {
@@ -1865,6 +1931,62 @@ const historyData = {
         "options": ["Sanskrit", "Kannada", "Telugu", "Tamil"],
         "correct": 2,
         "explanation": "Krishnadevaraya was a great scholar and wrote 'Amuktamalyada' in Telugu, and 'Jambavati Kalyanam' in Sanskrit."
+    },
+    {
+        "id": "hist_deep_1",
+        "topic": "Medieval: Deep Cuts",
+        "question": "Who translated 50 Upanishads into Persian under the title 'Sirr-i-Akbar'?",
+        "options": ["Abul Fazl", "Badauni", "Dara Shikoh", "Faizi"],
+        "correct": 2,
+        "explanation": "Dara Shikoh, the eldest son of Shah Jahan, was a great scholar who translated the Upanishads into Persian as 'Sirr-i-Akbar'."
+    },
+    {
+        "id": "hist_deep_2",
+        "topic": "Medieval: Deep Cuts",
+        "question": "The 'Razmnama' is the Persian translation of which ancient Indian text?",
+        "options": ["Ramayana", "Mahabharata", "Upanishads", "Panchatantra"],
+        "correct": 1,
+        "explanation": "The Razmnama (Book of War) is the Persian translation of the Mahabharata, commissioned by Akbar."
+    },
+    {
+        "id": "hist_deep_3",
+        "topic": "Medieval: Sikhism",
+        "question": "Which Sikh Guru invented the Gurmukhi script?",
+        "options": ["Guru Nanak Dev", "Guru Angad Dev", "Guru Ram Das", "Guru Arjan Dev"],
+        "correct": 1,
+        "explanation": "Guru Angad Dev (the second Guru) invented the Gurmukhi script and standardized the Langar system."
+    },
+    {
+        "id": "hist_deep_4",
+        "topic": "Medieval: Sikhism",
+        "question": "Who built the Akal Takht at Amritsar?",
+        "options": ["Guru Arjan Dev", "Guru Hargobind", "Guru Tegh Bahadur", "Guru Gobind Singh"],
+        "correct": 1,
+        "explanation": "Guru Hargobind built the Akal Takht (Throne of the Timeless One) to represent the political and military authority of the Sikhs."
+    },
+    {
+        "id": "hist_deep_5",
+        "topic": "Medieval: Regional Kingdoms",
+        "question": "Who is known as the 'Akbar of Kashmir'?",
+        "options": ["Sikandar Butshikan", "Zain-ul-Abidin", "Hari Singh", "Shah Mir"],
+        "correct": 1,
+        "explanation": "Zain-ul-Abidin is called the Akbar of Kashmir for his religious tolerance, abolishing the Jizya, and banning cow slaughter."
+    },
+    {
+        "id": "hist_deep_6",
+        "topic": "Medieval: Regional Kingdoms",
+        "question": "The Atala Mosque is a famous architectural marvel located in which medieval kingdom?",
+        "options": ["Malwa", "Gujarat", "Jaunpur", "Bengal"],
+        "correct": 2,
+        "explanation": "The Atala Mosque was built by the Sharqi dynasty in Jaunpur, which was known as the 'Shiraz of the East'."
+    },
+    {
+        "id": "hist_deep_7",
+        "topic": "Medieval: Bhakti Movement",
+        "question": "Which Bhakti saint propounded the philosophy of 'Vishishtadvaita' (Qualified Non-dualism)?",
+        "options": ["Shankaracharya", "Ramanuja", "Madhvacharya", "Vallabhacharya"],
+        "correct": 1,
+        "explanation": "Ramanuja gave the philosophy of Vishishtadvaita. Shankaracharya gave Advaita (Non-dualism)."
     },
 ],
     flashcards: [
