@@ -1,7 +1,10 @@
 
 window.currentFatmanSubject = "geography";
 window.getFatmanData = function() {
-    return window.currentFatmanSubject === "history" ? window.fatmanHistory : (window.currentFatmanSubject === "medieval" ? window.fatmanMedieval : window.fatmanGeography);
+    if (window.currentFatmanSubject === "history") return window.fatmanHistory;
+    if (window.currentFatmanSubject === "medieval") return window.fatmanMedieval;
+    if (window.currentFatmanSubject === "modern") return window.fatmanModern;
+    return window.fatmanGeography;
 };
 window.switchFatmanSubject = function(subject) {
 window.currentFatmanSubject = subject;
@@ -70,6 +73,7 @@ if ('speechSynthesis' in window) {
             <option value="geography">Geography</option>
             <option value="history">Ancient History</option>
             <option value="medieval">Medieval History</option>
+            <option value="modern">Modern History</option>
         </select>
     </div>
     <button id="fatman-close" style="background:none; border:none; color:white; font-size:24px; cursor:pointer;">&times;</button>
@@ -166,7 +170,7 @@ if ('speechSynthesis' in window) {
 function renderFatmanNotes() {
         const content = document.getElementById('fatman-content');
         window.currentFatmanTopic = window.currentFatmanTopic || 'All';
-        if(!window.fatmanGeography && !window.fatmanHistory && !window.fatmanMedieval) {
+        if(!window.fatmanGeography && !window.fatmanHistory && !window.fatmanMedieval && !window.fatmanModern) {
             content.innerHTML = "<p>Data not found. Did fatman_data.js load?</p>";
             return;
         }

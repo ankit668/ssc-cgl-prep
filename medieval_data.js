@@ -422,6 +422,88 @@ const medievalData = {
             <li><strong>3rd Anglo-Maratha War (1817-1818):</strong> Often regarded as "Pindari War". Pindaris were tribal people that supported Marathas during raids. Baji Rao II was captured and sent to Bithoor (Kanpur). <em>Treaty of Mandsaur (1818)</em> signed between British and the Holkar chief. From 1818, <em>Peshwaship was abolished</em>.</li>
         </ul>
 
+
+        <!-- PDF Pages 161-163: BHAKTI AND SUFI MOVEMENTS -->
+        <h3>16. Bhakti and Sufi Movements</h3>
+        <h4>A. Bhakti Movements</h4>
+        <ul>
+            <li>Opposed complicated rituals, sacrifices. Promoted <strong>Monotheism</strong> (worship of single God).</li>
+            <li><strong>Saguna</strong> sect worshipped God with form. <strong>Nirguna</strong> sect believed God has no form.</li>
+            <li><strong>Saguna Branches:</strong>
+                <ul>
+                    <li><strong>Vaishnavism:</strong> Worshipped Lord Vishnu (has 10 avatars). Saints called <em>Alvars</em> (12 Alvars). <strong>Andal</strong> was the first female Alvar. Garuda is the chariot (National emblem of Indonesia).</li>
+                    <li><strong>Shaivism:</strong> Worshipped Lord Shiva. Saints called <em>Nayanars</em> (63 saints, 3 females: Karaikkal Ammaiyar, Mangayarkkarasiyar, Isaignaniyar). Sects include Kapalikas, Kalamukhas, Nathas.</li>
+                </ul>
+            </li>
+            <li><strong>Philosophy and Founder:</strong>
+                <ul>
+                    <li>Vishishtadvaita &rarr; Ramanuj Acharya</li>
+                    <li>Dvaitadvaita / Bhedabhed &rarr; Nimbark Acharya</li>
+                    <li>Dvaita &rarr; Madhva Acharya</li>
+                    <li>Shuddhadvaita &rarr; Vallabhacharya (teaches world is real, worship through idols)</li>
+                    <li>Advaita &rarr; Sri Adi Shankaracharya (believed world is a myth, did not support idol worship)</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h4>Important Bhakti Saints</h4>
+        <ul>
+            <li><strong>Kabir (1440-1510):</strong> Born in Varanasi. Disciple of Ramananda. His Doha criticises contradictions in both Hindu and Islamic Dharma. Belonged to <em>Nirguna</em> sect. <strong>Bijaka</strong> is a compilation of his preachings.</li>
+            <li><strong>Ramananda (14th-15th Century):</strong> Nirguna sect from North India. Kabir Das was his disciple.</li>
+            <li><strong>Vallabhacharya (1479-1531):</strong> Gave Shuddhadvaita philosophy and "Pushti Marg". Said Ram and Krishna are avatars of Vishnu.</li>
+            <li><strong>Vidyapati:</strong> Composed <em>Padavali</em> (love ballads of Krishna and Radha).</li>
+            <li><strong>Chaitanya (1486-1533):</strong> Propounded Bhakti in Bengal (Bengal Vaishnavism). Known as "King of Gaudiya". Founded Gaudiya Vaishnavism.</li>
+            <li><strong>Purandar Das:</strong> Known as "Father of Carnatic music".</li>
+            <li><strong>Mirabai (1498-1546):</strong> Disciple of Raidas/Ravidas. Daughter-in-law of Rana Sanga. Rathore princess. Bhakt of Krishna.</li>
+            <li><strong>Surdas (1483-1563):</strong> Blind saint from Agra. Dedicated lifetime to bhakti of Krishna.</li>
+            <li><strong>Tulsi Das (1532-1623):</strong> Bhakt of Ram. Wrote <em>Ramcharitramanas, Kavitawali, Gitawali</em>.</li>
+            <li><strong>Dadu Dayal:</strong> Nirguna sect, founder of Dadu Panth.</li>
+            <li><strong>Sankaradeva (1449-1568):</strong> Spread Bhakti across Assam. Founder of Sattriya dance. Gave <em>Borgeet</em>.</li>
+            <li><strong>Thyagaraja:</strong> From Tamil Nadu, bhakt of Rama.</li>
+        </ul>
+        
+        <h4>Bhakti Saints of Maharashtra &amp; Karnataka</h4>
+        <ul>
+            <li><strong>Jnanesvara/Jnanadeva:</strong> Founder of Bhakti Movement in Maharashtra. Wrote commentary on Bhagvad Geeta (<em>Bhavarthadipika</em>). Composed <em>Abhangas</em>.</li>
+            <li><strong>Namadeva:</strong> Founder of <em>Varkari sect</em> (worshipped Vitthal).</li>
+            <li><strong>Ramdas:</strong> Wrote <em>Dasabodha</em>.</li>
+            <li><strong>Basavana:</strong> Founded <em>Lingayat/Virshaiva sect</em> in Karnataka. Minister in Chalukya court (12th Century). Believed in Lord Shiva (Monotheism). Against caste system/Vedic rituals.</li>
+        </ul>
+
+        <h4>C. Sikh Gurus &amp; Sikhism</h4>
+        <ul>
+            <li>Sikhs believed in three things to abolish untouchability: <strong>Langar</strong> (Community kitchen), <strong>Pangat</strong> (Eating together), <strong>Sangat</strong> (Decision making).</li>
+            <li><strong>1. Guru Nanak Dev (1469-1539):</strong> Born at Nankana Sahib (Pakistan). Founded Sikh faith. Started <em>Guru Ka Langar</em>. Contemporary of Babur.</li>
+            <li><strong>2. Guru Angad Dev (1539-1552):</strong> Created <em>Gurmukhi</em> script. Compiled writings of Nanak in Guru Granth Sahib. Started <em>Mall Akhara</em> (wrestling arena).</li>
+            <li><strong>3. Guru Amardas Sahib (1552-1574):</strong> Introduced <em>Anand Karaj</em> marriage ceremony. Established Manji and Piri systems. Contemporary of Akbar.</li>
+            <li><strong>4. Guru Ram Das (1574-1581):</strong> Founded city of <strong>Amritsar</strong>.</li>
+            <li><strong>5. Guru Arjan Dev (1581-1606):</strong> Compiled <em>Adi Granth</em>. Started construction of Golden Temple. Requested Muslim Sufi <em>Mian Mir</em> to lay cornerstone of Harmandir Sahib. Executed by Jahangir for sheltering Khusrau. Hailed as <em>Shaheedan-de-Sartaj</em>.</li>
+            <li><strong>6. Guru Har Gobind Sahib (1606-1644):</strong> Known as "Soldier Saint". First to take up arms. Waged wars against Jahangir and Shah Jahan. Established <em>Akal Takht</em>.</li>
+            <li><strong>7. Guru Har Rai Sahib (1644-1661):</strong> Gave shelter to Dara Shikoh.</li>
+            <li><strong>8. Guru Har Krishan Sahib (1661-1664):</strong> Youngest Guru (age 5). Summoned to Delhi by Aurangzeb. Died of Smallpox.</li>
+            <li><strong>9. Guru Tegh Bahadur Sahib (1665-1675):</strong> Established Anandpur. Killed by Aurangzeb for resisting forced conversion of Hindu Kashmiri Pandits.</li>
+            <li><strong>10. Guru Gobind Singh Sahib (1675-1708):</strong> Established <strong>Khalsa Panth</strong> in 1699 (on Vaisakhi). Last human Guru, passed Guruship to Guru Granth Sahib. Assassinated by two Afghans sent by Wazir Khan. Succeeded by Banda Bahadur (not a Guru).</li>
+        </ul>
+
+        <h4>D. Sufi Movements</h4>
+        <ul>
+            <li>Early Islamic teachings: <em>Dar al-Harb</em> (Land of War) could become <em>Dar al-Islam</em> (Land of Islam) through <em>Jihad</em>. Sufi saints changed this belief.</li>
+            <li><strong>Khwaja Ali Hujjwiri (11th Century):</strong> Also known as "Data Ganj Baksh".</li>
+            <li><strong>Shaikh Bahauddin Zakaria (1182-1262):</strong> Founded leading <em>Khanqah</em> in Multan. Founder of Suhara-Wardi order.</li>
+            <li><strong>Khwaja Moinuddin Chisti (1141-1236):</strong> Founder of the <em>Chisti order</em>. Ajmer Sharif built in his honour. Muhammad Bin Tughlaq was first Sultan to visit it.</li>
+            <li><strong>Other Saints of Chisti Order:</strong>
+                <ul>
+                    <li>Sheikh Hamiduddin Nagauri</li>
+                    <li>Khwaja Qutubuddin Bhaktiyar Kaki (Disciple Qutubuddin Aibak started Qutub Minar on his name).</li>
+                    <li>Baba Jariuddin/Ganj-i-Shankar (Baba Farid).</li>
+                    <li>Shaikh Nizamuddin Auliya (Mehboob-i-Illahi).</li>
+                    <li>Syed Muhammad Gesu Daraz (Bandanawaz).</li>
+                    <li>Shaikh Nasiruddin Mahmud (Chirag-i-Delhi).</li>
+                </ul>
+            </li>
+            <li><strong>Sufi Words:</strong> Tasawwuf (Sufism), Shaikh/Pir/Murshid (Spiritual teacher), Murid (Disciple), Khalifah (Successor), Khanqah (Hospice), Sama (Musical recital), Raksa (Dance), Fana (Self annihilation), Ziyarat (Pilgrimage to tombs).</li>
+        </ul>
+
 `,
     mcqs: [],
     flashcards: []
