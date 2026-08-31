@@ -187,7 +187,7 @@
         <ul>
             <li>Aryans are considered the most powerful tribes during the Vedic period, and gradually transitioned to <strong>"Mahajanapadas"</strong> (great kingdoms) by the end of <strong>later Vedic Period</strong>. By forming territorial units called <strong>"Janapadas"</strong>.</li>
             <li>Aryans lived in the land known as <strong>"Sapta Sindhu"</strong>.</li>
-            <li>Aryans &ryarr; Tribes &ryarr; Jana &ryarr; Janapadas &ryarr; Mahajanapadas (consolidation of Jana (Aryans))</li>
+            <li>Aryans &rarr; Tribes &rarr; Jana &rarr; Janapadas &rarr; Mahajanapadas (consolidation of Jana (Aryans))</li>
             <li><strong>Total:</strong> 16 Mahajanapadas.</li>
         </ul>
         <h4 style="color:#F59E0B;">Sources</h4>
@@ -205,7 +205,7 @@
         </ul>
         <ul>
             <li>Mahajanapadas were either <strong>Monarchial</strong> (single decision makers) or Republic (multiple decision makers), also known as <strong>oligarchy</strong>.</li>
-            <li>The following Mahajanapadas were Republic &ryarr; <strong>Kuru, Kamboja, Vajji, Malla</strong>.</li>
+            <li>The following Mahajanapadas were Republic &rarr; <strong>Kuru, Kamboja, Vajji, Malla</strong>.</li>
         </ul>
 
         <h4 style="color:#F59E0B;">16 Mahajanapadas and Capitals</h4>
@@ -229,7 +229,7 @@
             <tr><td>Malla</td><td>Kusinara (Sarayu)</td></tr>
         </table>
         <ul>
-            <li><strong>Vajji</strong> consisted of <strong>eight clans</strong> and three of them were the most powerful kingdoms &ryarr; <strong>Jnatrika, Videha, Lichchavi</strong>.</li>
+            <li><strong>Vajji</strong> consisted of <strong>eight clans</strong> and three of them were the most powerful kingdoms &rarr; <strong>Jnatrika, Videha, Lichchavi</strong>.</li>
             <li>In the beginning <strong>Kasi</strong> was the most powerful Mahajanapada followed by <strong>Kosala</strong> then <strong>Magadha</strong> became the most powerful one.</li>
         </ul>
 
@@ -246,7 +246,7 @@
 
         <h4 style="color:#F59E0B;">Reasons for the Rise of Magadha</h4>
         <ul>
-            <li>Its advantageous position &ryarr; situated <strong>south of Ganga</strong>.</li>
+            <li>Its advantageous position &rarr; situated <strong>south of Ganga</strong>.</li>
             <li>The capital <strong>Rajgriha</strong> was surrounded by <strong>five hills</strong> and <strong>Pataliputra</strong> was situated at the confluence of <strong>Ganga</strong> and <strong>Son</strong>.</li>
             <li>The availability of large number of <strong>elephants</strong> (as it was marshy-doab region).</li>
             <li>It had many great leaders.</li>
@@ -261,9 +261,9 @@
             <li>He led military campaign against <strong>Anga</strong>.</li>
             <li>He had <strong>three wives:</strong>
                 <ul>
-                    <li><strong>Kosala Devi</strong> &ryarr; Sister of <strong>Prasenjit</strong> (son of Kosala King)</li>
+                    <li><strong>Kosala Devi</strong> &rarr; Sister of <strong>Prasenjit</strong> (son of Kosala King)</li>
                     <li><strong>Chellana</strong> (Lichchavi princess)</li>
-                    <li><strong>Khema</strong> &ryarr; Madra Clan (Punjab)</li>
+                    <li><strong>Khema</strong> &rarr; Madra Clan (Punjab)</li>
                 </ul>
             </li>
             <li>He sent physician <em>'jivaka'</em> to <strong>Ujjain</strong> king <strong>Pradyota</strong>, who was suffering from <strong>jaundice</strong>.</li>
@@ -349,7 +349,7 @@
             <li>He asked for sweet wine, dry figs and a philosopher from <strong>Antiochus I</strong> of Syria.</li>
             <li>He is known for conquering the land between the two seas, extending the Mauryan Empire up to the southern tip of India.</li>
             <li>He patronised <strong>Ajivikas</strong>.</li>
-            <li>He was visited by Greek ambassador &ryarr; <strong>Deimachus</strong>.</li>
+            <li>He was visited by Greek ambassador &rarr; <strong>Deimachus</strong>.</li>
             <li>Mother: <strong>Durdhara</strong>. Son: <strong>Ashoka</strong>.</li>
         </ul>
 
@@ -379,20 +379,20 @@
             <li><strong>Script used in Northwestern parts of India:</strong> Kharosthi</li>
             <li><strong>Ashoka's Dhamma</strong> was <strong>inspired</strong> by the Buddhist <strong>"Upashaka Dhamma"</strong>, which refers to the Buddhist teaching for laymen.</li>
             <li>In Ashoka's Greek and Aramaic inscriptions no reference to teaching of Buddha was found but in his <strong>Brahmi Khroshthi, and Prakrit inscription Buddhism was mentioned</strong>.</li>
-            <li>In inscriptions he is mentioned as: <strong>Devanami Piyadassi</strong> (Meaning: Devon ka Priya &ryarr; Beloved of God)</li>
+            <li>In inscriptions he is mentioned as: <strong>Devanami Piyadassi</strong> (Meaning: Devon ka Priya &rarr; Beloved of God)</li>
         </ul>
         <p><strong>10 Places where Ashokan Rock Edicts have been Found</strong></p>
         <ul>
-            <li><strong>Kandahar Bilingual Inscription</strong> &ryarr; Kandahar, Afghanistan</li>
-            <li><strong>Shahbazgarhi in Kharoshthi script</strong> &ryarr; Khyber Pakhtunkhwa, Pakistan</li>
-            <li><strong>Mansehra Rock Edicts</strong> &ryarr; Mansehra, Khyber Pakhtunkhwa province, Pakistan</li>
-            <li><strong>Kalsi</strong> &ryarr; Dehradun, Uttarakhand</li>
-            <li><strong>Girnar</strong> &ryarr; Gujarat (14 lines are inscribed in Girnar major Rock Edicts).</li>
-            <li><strong>Sopara</strong> &ryarr; Maharashtra</li>
-            <li><strong>Dhauli</strong> &ryarr; Bhubaneshwar, Odisha</li>
-            <li><strong>Jaugada</strong> &ryarr; Odisha</li>
-            <li><strong>Sannati</strong> &ryarr; Karnataka</li>
-            <li><strong>Yerragudi</strong> &ryarr; Kurnool district, Andhra Pradesh</li>
+            <li><strong>Kandahar Bilingual Inscription</strong> &rarr; Kandahar, Afghanistan</li>
+            <li><strong>Shahbazgarhi in Kharoshthi script</strong> &rarr; Khyber Pakhtunkhwa, Pakistan</li>
+            <li><strong>Mansehra Rock Edicts</strong> &rarr; Mansehra, Khyber Pakhtunkhwa province, Pakistan</li>
+            <li><strong>Kalsi</strong> &rarr; Dehradun, Uttarakhand</li>
+            <li><strong>Girnar</strong> &rarr; Gujarat (14 lines are inscribed in Girnar major Rock Edicts).</li>
+            <li><strong>Sopara</strong> &rarr; Maharashtra</li>
+            <li><strong>Dhauli</strong> &rarr; Bhubaneshwar, Odisha</li>
+            <li><strong>Jaugada</strong> &rarr; Odisha</li>
+            <li><strong>Sannati</strong> &rarr; Karnataka</li>
+            <li><strong>Yerragudi</strong> &rarr; Kurnool district, Andhra Pradesh</li>
         </ul>
         <p><strong>14 Major Rock Edicts of Ashoka</strong></p>
         <table border="1" style="border-collapse: collapse< width: 100%; border-color:#334155; margin-bottom:20px;">
@@ -415,7 +415,7 @@
         <p><strong>Minor Rock Edicts</strong></p>
         <ul>
             <li>Minor Rock edict 1 provides the evidence of gradual religious transformation of Ashoka to Buddhism.</li>
-            <li>Four Edicts where Ashoka has been mentioned by his name. These four are: <strong>Maski</strong> &ryarr; Karnataka, <strong>Nettur</strong> &ryarr; Karnataka, <strong>Brahmagiri</strong> &ryarr; Karnataka, <strong>Gujjara</strong> &ryarr; Madhya Pradesh.</li>
+            <li>Four Edicts where Ashoka has been mentioned by his name. These four are: <strong>Maski</strong> &rarr; Karnataka, <strong>Nettur</strong> &rarr; Karnataka, <strong>Brahmagiri</strong> &rarr; Karnataka, <strong>Gujjara</strong> &rarr; Madhya Pradesh.</li>
             <li>Maski Ashoka inscription was discovered by <strong>C. Beadon</strong>.</li>
         </ul>
 
@@ -428,7 +428,7 @@
             <li><strong>Bihar Edicts:</strong> <em>Lauriya Areraj</em> (capital not found), <em>Lauriya Nandangarh</em>.</li>
             <li><strong>Barabar Hill Caves</strong> (Built by Ashoka for Buddhist monks) and <strong>Nagarjuni Caves</strong> (Built by Dashrath Maurya, grandson of Ashoka) in Bihar are considered as the oldest surviving rock-cut caves in India.</li>
             <li><strong>Lomas Rishi Caves</strong> in Bihar.</li>
-            <li><strong>Konagamana/Kanakamuni Stupa</strong> &ryarr; Rebuilt by Ashoka (after he visited <strong>Nigali Sagar</strong>).</li>
+            <li><strong>Konagamana/Kanakamuni Stupa</strong> &rarr; Rebuilt by Ashoka (after he visited <strong>Nigali Sagar</strong>).</li>
             <li><strong>Nigali Sagar Inscription (Nepal):</strong> It confirms that Ashoka enlarged the stupa of the Kanakamuni Buddha.</li>
             <li><strong>Rummindei Pillar inscription:</strong> Also known as <strong>Lumbini Pillar Edict</strong> located in <strong>Nepal</strong>. It depicts that Ashoka traveled to the Buddha's birthplace. He <strong>reduced taxes</strong> of the people living in that area.</li>
         </ul>
@@ -439,11 +439,11 @@
         </ul>
         <p><strong>Provinces under Mauryan Administration</strong></p>
         <ul>
-            <li>Prachyapatha (East) &ryarr; Tosali</li>
-            <li>Avantipatha (West) &ryarr; Ujjain</li>
-            <li>Uttarapatha (North) &ryarr; Taxila</li>
-            <li>Dakshinapatha (South) &ryarr; Suvarnagiri</li>
-            <li>Prachi (Imperial Capital) &ryarr; Pataliputra</li>
+            <li>Prachyapatha (East) &rarr; Tosali</li>
+            <li>Avantipatha (West) &rarr; Ujjain</li>
+            <li>Uttarapatha (North) &rarr; Taxila</li>
+            <li>Dakshinapatha (South) &rarr; Suvarnagiri</li>
+            <li>Prachi (Imperial Capital) &rarr; Pataliputra</li>
         </ul>
         <p><strong>Tax System</strong></p>
         <ul>
@@ -478,7 +478,7 @@
             <li>It mentions about administration and society of Mauryan period.</li>
             <li><strong>Municipal Administration:</strong> Managed by 6 committees, each consisting of 5 members.</li>
             <li><strong>Military Administration:</strong> The army was also organized under 6 committees, each with 5 members.</li>
-            <li>Megasthenes divided Mauryan society into <strong>7 classes</strong>. (TRICK: PCS TWO C) &ryarr; 1. Philosophers, 2. Cultivators/Farmers, 3. Hunters and Shepherd, 4. Traders, 5. Warrior, 6. Overseer (spy), 7. Councillor.</li>
+            <li>Megasthenes divided Mauryan society into <strong>7 classes</strong>. (TRICK: PCS TWO C) &rarr; 1. Philosophers, 2. Cultivators/Farmers, 3. Hunters and Shepherd, 4. Traders, 5. Warrior, 6. Overseer (spy), 7. Councillor.</li>
             <li>Megasthenes described Pataliputra as a large and beautiful city, surrounded by a massive wall. The city had 570 towers and 64 gates, showcasing its grandeur and strategic importance.</li>
         </ul>
         <p><strong>Arthashastra</strong></p>
@@ -558,9 +558,9 @@
             <li>Chalukya Dynasty rulers were feudatories of <strong>Kadambas of Banavasi</strong>.</li>
             <li>They were divided into three distinct dynasties:
                 <ul>
-                    <li><strong>Badami Chalukya</strong> (Early Chalukya) &ryarr; Capital: Vatapi</li>
-                    <li><strong>Eastern Chalukya</strong> &ryarr; Capital: Vengi</li>
-                    <li><strong>Western Chalukya</strong> (Later Chalukya) &ryarr; Capital: Kalyani</li>
+                    <li><strong>Badami Chalukya</strong> (Early Chalukya) &rarr; Capital: Vatapi</li>
+                    <li><strong>Eastern Chalukya</strong> &rarr; Capital: Vengi</li>
+                    <li><strong>Western Chalukya</strong> (Later Chalukya) &rarr; Capital: Kalyani</li>
                 </ul>
             </li>
         </ul>
@@ -604,7 +604,7 @@
         <ul>
             <li><strong>Shore temple, Mahabalipuram:</strong> Added to UNESCO World Heritage Site in <strong>1984</strong>. Dedicated to: Lord Shiva. Built by: <strong>Narasimhavarman II</strong> (known as: Rajasimha, known for: Structured Stone temples). Located at <strong>Mahabalipuram</strong> facing towards Bay of Bengal in the Coromandal Coast.</li>
             <li><strong>Kailasanathar temple:</strong> Built by: <strong>Narasimhavarman II</strong>. Made up of Granite Rock. Dedicated to Shiva. <strong>Narsimhavarman II</strong> started standing Rock cut Architecture.</li>
-            <li><strong>Seven Ratha temple, Mahabalipuram, Tamil Nadu:</strong> Built by: <strong>Narasimhavarman I</strong>. These temples are also known as <strong>Pancha Rathas</strong> or <strong>Pandava Rathas</strong>. Called <strong>Seven Pagoda</strong> by <em>"Marco Polo"</em>. Each ratha has a distinct plan, showcasing architectural diversity: 1. <strong>Draupadi Ratha</strong> &ryarr; Simple hut-like shrine, 2. <strong>Arjuna Ratha</strong> &ryarr; Square-plan shrine, 3. <strong>Bhima Ratha</strong> &ryarr; Elongated hall (mandapa type), 4. <strong>Dharmaraja Ratha</strong> &ryarr; Multi-storeyed vimana, 5. <strong>Nakula-Sahadeva Ratha</strong> &ryarr; Apsidal (semi-circular) plan.</li>
+            <li><strong>Seven Ratha temple, Mahabalipuram, Tamil Nadu:</strong> Built by: <strong>Narasimhavarman I</strong>. These temples are also known as <strong>Pancha Rathas</strong> or <strong>Pandava Rathas</strong>. Called <strong>Seven Pagoda</strong> by <em>"Marco Polo"</em>. Each ratha has a distinct plan, showcasing architectural diversity: 1. <strong>Draupadi Ratha</strong> &rarr; Simple hut-like shrine, 2. <strong>Arjuna Ratha</strong> &rarr; Square-plan shrine, 3. <strong>Bhima Ratha</strong> &rarr; Elongated hall (mandapa type), 4. <strong>Dharmaraja Ratha</strong> &rarr; Multi-storeyed vimana, 5. <strong>Nakula-Sahadeva Ratha</strong> &rarr; Apsidal (semi-circular) plan.</li>
         </ul>
 
         <h4 style="color:#F59E0B;">Rashtrakuta Dynasty (755 AD - 982 AP)</h4>
@@ -731,12 +731,12 @@
         <p><strong>Pala Dynasty</strong></p>
         <ul>
             <li><strong>Founder:</strong> <strong>Gopala</strong>. They were followers of <strong>Mahayana Buddhism</strong>.</li>
-            <li><strong>Rulers:</strong> Gopala &ryarr; Dharmapala &ryarr; Devapala &ryarr; Mahipala &ryarr; Ramapala.</li>
+            <li><strong>Rulers:</strong> Gopala &rarr; Dharmapala &rarr; Devapala &rarr; Mahipala &rarr; Ramapala.</li>
             <li><strong>Gopala (750 AD - 770 AD):</strong> Elected by local leaders to end anarchy in Bengal. He was founder of <strong>Odantapuri University</strong>.</li>
             <li><strong>Dharmapala (770 AD - 810 AD):</strong> Most expansionist Pala rulers. <strong>Title: Paramsaugat</strong>. Founded <strong>Vikramashila University</strong> (famous for Vajrayana or Tantrik Buddhism studies (Bhagalpur, <strong>Bihar</strong>)) & <strong>Sompura University</strong>. He defeated <strong:Indrayudh</strong> and conquered Kannauj for a brief time and established Chakrayudh as puppet ruler. After winning Kannauj, he assumed the title <strong>"Uttarapath Swami"</strong> (Lord of the North). He was defeated by <strong>Dhruva Dharavarsha</strong> (Rashtrakuta king) in a battle near Munger, Bihar. Fought against <strong>Vatsaraja</strong> (Pratiharas) and <strong>Govinda III</strong> (Rashtrakuta).</li>
             <li><strong>Devapala (810 AD - 850 AD):</strong> He expanded the Pala Empire to its greatest extent, conquering Assam, Odisha, and parts of the Deccan. Sent Buddhist missions to Sri Lanka, Burma, and Java. Strengthened the Pala navy for overseas missions and coastal control. Continued patronage of Nalanda and Vikramashila universities. The <strong>Shailendra king Balaputradeva</strong> (from Srivijaya, Southeast Asia) requested and received grants for a monastery at <strong>Nalanda</strong> from Devapala. Devapala granted land revenue from 5 villages for this monastery. Notable Buddhist monks during his reign: <strong>Dipankar Atisha</strong> came from Tibet, studied at Vikramashila and Nalanda, <strong>Dharmasvami</strong> - Another respected monk active during this period.</li>
             <li><strong>Mahipala I (988 AD - 1038 AD):</strong> He revived the Pala dynasty after decline, recovering northern and eastern Bengal and Bihar. Mentioned in the <strong>Kalhana's Rajatarangini</strong> (written in <strong>Sanskrit</strong> language in 12th century AD).</li>
-            <li><strong>Successors:</strong> Nayapala &ryarr; Vigrahapala III &ryarr; Mahipala II &ryarr; Ramapala (The period of decline began). Faced attacks from the <strong>Kalachuri</strong> and <strong>Sena dynasties</strong>. Among them, Ramapala was the last notable ruler who tried to revive the empire.</li>
+            <li><strong>Successors:</strong> Nayapala &rarr; Vigrahapala III &rarr; Mahipala II &rarr; Ramapala (The period of decline began). Faced attacks from the <strong>Kalachuri</strong> and <strong>Sena dynasties</strong>. Among them, Ramapala was the last notable ruler who tried to revive the empire.</li>
             <li><strong>Madana Pala:</strong> Defeated by <strong>Vijayasena</strong> of the Sena dynasty. His defeat marked the end of Pala rule in Bengal.</li>
         </ul>
         <p><strong>Sena Dynasty</strong></p>
@@ -772,7 +772,7 @@
         <ul>
             <li><strong>Capital:</strong> <strong>Uraiyur</strong> and later <strong>Thanjavur</strong> (Established by <strong>Vijayalaya</strong> as the capital in the 9th century).</li>
             <li>They were feudatories of the <strong>Pallavas</strong>.</li>
-            <li><strong>Chola Administration:</strong> <strong>Mandalam</strong> (Province) &ryarr; <strong>Valanadu</strong> (Divisions) &ryarr; <strong>Nadu</strong> (Districts) &ryarr; <strong>Karrum</strong> (Villages).</li>
+            <li><strong>Chola Administration:</strong> <strong>Mandalam</strong> (Province) &rarr; <strong>Valanadu</strong> (Divisions) &rarr; <strong>Nadu</strong> (Districts) &rarr; <strong>Karrum</strong> (Villages).</li>
             <li>Most significant feature of the Chola Administration was <strong>Local Self-government</strong> (Decentralised).</li>
             <li>Source: <strong>Uttaramerur Inscription</strong> in Kanchipuram (Tamil Nadu) gives details of the Chola Administration.</li>
         </ul>
@@ -875,19 +875,19 @@
             <li>It is broadly divided into three styles: Nagara (North India), Dravida (South India) & Vesara (Mix of Nagara and Dravida).</li>
             <li><strong>Nagara Style:</strong>
                 <ul>
-                    <li><strong>Features:</strong> Cruciform ground plan. Curvilinear tower (<strong>Shikhara</strong>) over the main sanctum (<strong>Garbhagriha</strong>). Mandapos (Assembly halls) in front of the sanctum. &ryarr; Presence of <strong>Amalaka</strong> (a fluted disc-like structure) and <strong>Kalasha</strong> (vase) on top of the Shikhara.</li>
+                    <li><strong>Features:</strong> Cruciform ground plan. Curvilinear tower (<strong>Shikhara</strong>) over the main sanctum (<strong>Garbhagriha</strong>). Mandapos (Assembly halls) in front of the sanctum. &rarr; Presence of <strong>Amalaka</strong> (a fluted disc-like structure) and <strong>Kalasha</strong> (vase) on top of the Shikhara.</li>
                     <li><strong>Examples:</strong> <strong>Khajuraho Temples</strong>, Madhya Pradesh (Built by Chandela dynasty, eg., Kandariya Mahadeva Temple). <strong>Sun Temple, Konark</strong>, Odisha (Built by King Narasimhadeva I of Eastern Ganga Dynasty, 13th century). <strong>Lingaraja Temple, Bhubaneshwar</strong>, Odisha (Built by King Jajati Keshari of Somavamshi dynasty, 11th century).</li>
                 </ul>
             </li>
             <li><strong>Dravida Style:</strong>
                 <ul>
-                    <li><strong>Features:</strong> Pyramidal tower (<strong>Vimana</strong>) over the main sanctum. Presence of <strong>Gopurams</strong> (gateways) at the entrance. Enclosed within compound walls. &ryarr; Presence of <strong>Kalyana Mandapas</strong>(marriage halls) and temple tanks (Kalyani).</li>
+                    <li><strong>Features:</strong> Pyramidal tower (<strong>Vimana</strong>) over the main sanctum. Presence of <strong>Gopurams</strong> (gateways) at the entrance. Enclosed within compound walls. &rarr; Presence of <strong>Kalyana Mandapas</strong>(marriage halls) and temple tanks (Kalyani).</li>
                     <li><strong>Examples:</strong> <strong>Brihadisvara Temple, Thanjavur</strong>, Tamil Nadu (Built by Rajaraja Chola I, 11th century). <strong>Meenakshi Amman Temple, Madurai</strong>, Tamil Nadu (Built by Nayakas, 17th century). <strong>Shore Temple, Mahabalipuram</strong>, Tamil Nadu (Built by Narasimhavarman II of Pallava dynasty, 8th century).</li>
                 </ul>
             </li>
             <li><strong>Vesara Style:</strong>
                 <ul>
-                    <li><strong>Features:</strong> Blend of Nagara and Dravida styles. Stellate (star-shaped) plan. Intricate carvings and scumptures. &ryarr; Presence of both <strong>Shikhara</strong> and <strong>Vimana</strong> elements.</li>
+                    <li><strong>Features:</strong> Blend of Nagara and Dravida styles. Stellate (star-shaped) plan. Intricate carvings and scumptures. &rarr; Presence of both <strong>Shikhara</strong> and <strong>Vimana</strong> elements.</li>
                     <li><strong>Examples:</strong> <strong>Hoysaleswara Temple, Halebidu</strong>, Karnataka (Built by King Vishnuvardhana of Hoysala dynasty, 12th century). <strong>Chennakeshava Temple, Belur</strong>, Karnataka (Built by King Vishnuvardhana of Hoysala dynasty, 12th century). <strong>Durga Temple, Aihole</strong>, Karnataka (Built by Chalukyas of Badami, 7th-8th century).</li>
                 </ul>
             </li>
