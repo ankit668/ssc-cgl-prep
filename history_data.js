@@ -679,7 +679,7 @@
         <ul>
             <li><strong>Ellora caves:</strong> Location: <strong>Sambhajinagar, Maharashtra</strong>. Build time: 6th - 11th century AD. Total <strong>34 caves</strong>.</li>
             <li><strong>Cave 1 - 12:</strong> Associated to <strong>Buddhism</strong> (Patronised by Kalachuris and Early Chalukya).</li>
-            <li><strong>Cave 13 - 29:</strong> Associated to <strong:Hinduism</strong> (Patronised by Rashtrakutas).</li>
+            <li><strong>Cave 13 - 29:</strong> Associated to <strong>Hinduism</strong> (Patronised by Rashtrakutas).</li>
             <li><strong>Cave 30 - 34:</strong> Associated to <strong>Digambar Jainism</strong> (Patronised by Rashtrakutas).</li>
             <li><strong>Elephanta Caves:</strong> Build time: 5th- 7th century AD. Total <strong>7 caves</strong>. Built by <strong>Rashtrakutas</strong> and later <strong>Kalachuri Dynasty</strong>. Three - head idol of Shiva (<strong>Trimurti</strong>) can be seen here. Added to UNESCO world heritage in <strong>1987</strong>.</li>
             <li><strong>Dashavatara Temple:</strong> Dedicated to: Lord Vishnu. It is studied as a bridge between Gupta art and post-Gupta temple culture.</li>
