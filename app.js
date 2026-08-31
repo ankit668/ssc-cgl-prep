@@ -707,7 +707,11 @@ function renderQuizYears() {
         yearSection.style.marginBottom = "30px";
 
         const yearHeader = document.createElement('h3');
-        yearHeader.innerHTML = `SSC CGL ${year} &nbsp;<span style="font-size:0.8rem; font-weight:400; color:var(--text-muted);">${activeLabel} Mocks</span>`;
+        let headerText = `SSC CGL ${year}`;
+        if (year === 'NCERT') {
+            headerText = `NCERT Vault`;
+        }
+        yearHeader.innerHTML = `${headerText} &nbsp;<span style="font-size:0.8rem; font-weight:400; color:var(--text-muted);">${activeLabel} Mocks</span>`;
         yearHeader.style.cssText = "color: var(--primary-light); margin-bottom: 15px; font-size: 1.2rem; border-bottom: 1px solid var(--border-card); padding-bottom: 8px;";
         yearSection.appendChild(yearHeader);
 
@@ -720,14 +724,21 @@ function renderQuizYears() {
             const card = document.createElement('div');
             card.className = "topic-card";
             card.onclick = () => startQuizByShift(s.year, s.shift);
+            let displayDate = s.date;
+            let displayShift = s.shift;
+            if (s.year === 'NCERT' || s.date === 'NA') {
+                displayDate = "Complete Subject Mock";
+                displayShift = "Mixed Content";
+            }
+            
             card.innerHTML = `
                 <div class="topic-meta">
                     <span class="topic-badge">${activeLabel} Mock</span>
-                    <h3>${s.date}</h3>
-                    <span class="topic-questions-count">${s.shift} &nbsp;·&nbsp; ${s.count} Qs</span>
+                    <h3>${displayDate}</h3>
+                    <span class="topic-questions-count">${displayShift} &nbsp;&nbsp;&middot;&nbsp;&nbsp; ${s.count} Qs</span>
                 </div>
                 <div class="topic-card-footer">
-                    <span class="topic-card-progress">Start Mock →</span>
+                    <span class="topic-card-progress">Start Mock &rarr;</span>
                 </div>
             `;
             grid.appendChild(card);
