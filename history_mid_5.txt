@@ -1,0 +1,115 @@
+
+        <h4 style="color:#F59E0B;">Rashtrakuta Dynasty (755 AD - 982 AP)</h4>
+        <ul>
+            <li><strong>Capital:</strong> <strong>Manyakheta</strong> (Modern day Malkhed, Karnataka).</li>
+            <li>Known for their military strength, patronage of literature, and support of Jainism and Shaivism.</li>
+        </ul>
+        <p><strong>Dantidurga (735 AD - 756 AP)</strong></p>
+        <ul>
+            <li>Founded the Rashtrakuta dynasty by overthrowing the Chalukyas of Badami.</li>
+            <li><strong>Assumed titles:</strong> <strong>Prithvivallabha, Rajadhiraj</strong>.</li>
+            <li><strong>Sanjan Plates</strong> (Copper-plate inscription of Dantidurga): Records victories over Kalinga, Malava, Lata, Tanka, Koshala, and the Gurjara king Nagabhata I.</li>
+            <li>Performed the <strong>Hiranyagarbha</strong> Mahadana ritual at Ujjain to assert <strong>Kshatriya</strong> status.</li>
+            <li>Defeated <strong>Kirtivarman II</strong>, the last ruler of the Badami Chalukyas.</li>
+        </ul>
+        <p><strong>Krishna I (756 AD - 774 AP)</strong></p>
+        <ul>
+            <li>He was the successor and paternal uncle of Dantidurga. Patron of Shaivism. Continued military campaigns against Chalukyas and Pallavas.</li>
+            <li>Constructed <strong>Kailashnatha temple</strong> at Ellora. Built by <strong>Krishna I</strong>, it is the World's <strong>largest Monolithic</strong> Rock Cut Temple. Present at <strong>16th</strong> Ellora cave. Added to UNESCO World Heritage site in <strong>1983</strong> along with Ajanta - Ellora caves. <strong>Aurangzeb</strong>, the Mughal Emperor, once attempted to destroy the temple.</li>
+        </ul>
+        <p><strong>Govinda II:</strong> Son of Krishna I, weak ruler, short reign, no significant conquests.</p>
+        <p><strong>Dhruva Dharavarsha (780 AD - 793 AD)</strong></p>
+        <ul>
+            <li>He expanded Rashtrakuta power into North India and initiated their role in the <strong>Tripartite Struggle</strong>.</li>
+            <li>Dhruv Dharavarsha Defeated: <strong>Vatsaraja</strong> (Gurjara-Pratihara ruler), <strong>Dharmapala</strong> (Pala ruler), <strong>Pallavas</strong> in the south.</li>
+        </ul>
+        <|p><strong>Govinda III (793 AD - 814 AD)</strong></p>
+        <ul>
+            <li>Son of Dhruva Dharavarsha. <strong>Title Assumed:</strong> <strong>Sarvabhauma</strong> (Universal Monarch).</li>
+            <li>He defeated <strong>Pratihara king Nagabhatta II</strong> and <strong>Dharmapala</strong> of Pala dynasty.</li>
+            <li>Considered the most aggressive Rashtrakuta ruler during the Tripartite Struggle.</li>
+            <li>Inscriptions claim victories over Gurjaras, Andhra Pradesh, Kerala and even Lanka. He conquered <strong>Himalaya to Kaveri</strong>.</li>
+        </ul>
+        <p><strong>Amoghavarsha I (814 AD - 878 AD)</strong></p>
+        <ul>
+            <li>Son of Govinda III and great grandson of Krishna 1. <strong>Real name:</strong> <strong>Sarva</strong> (before coronation). <strong>Assumed title:</strong> <strong>"Nripatunga"</strong>.</li>
+            <li>He converted to Jainism and patronised Jainism. Patron of literature and grammar.</li>
+            <li>He was disciple of <strong>Acharya Jinasena</strong>, who authored the <strong>Adi Purana</strong> during his reign.</li>
+            <li><strong>Saktayana</strong>, grammarian in his court, composed <strong>Amoghavritti</strong> (Sanskrit grammar).</li>
+            <li>Amoghavarsha himself authored: <strong>Kavirajamarga</strong> (earliest known Kannada literary work) and <strong>Prashnottara Ratnamalika</strong> (in Sanskrit).</li>
+            <li>Referred to as <strong>"Ashoka of the South"</strong> for his non-violent policies and Jain influence.</li>
+        </ul>
+        <p><strong>Krishna II:</strong> Faced stiff resistance from <strong>Eastern Chalukyas</strong> and <strong>Cholas</strong>. Could not expand the empire like his predecessors and saw stagnation in territorial expansion.</p>
+        <p><strong>Indra III (914 AD - 928 AD)</strong></p>
+        <ul>
+            <li>Briefly restored Rashtrakuta supremacy by occupying Kannauj during the Tripartite Struggle, defeating Pratihara <strong>Mahipala I</strong>.</li>
+            <li><strong>Assumed titles:</strong> <strong>Ratta Kandarpa</strong> (meaning "Rashtrakuta Cupid") and <strong>Nityovarsha</strong> (symbolizing prosperity).</li>
+            <li>Described by <strong>Arab traveler Al-Masudi</strong> in his book <strong>Muraj ul-Zuhab</strong> (Book of Golden Meadows).</li>
+        </ul>
+        <|p><strong>Govinda IV:</strong> His reign marks the beginning of the decline of the Rashtrakuta empire.</p>
+        <|p><strong>Amoghavarsha II:</strong> Short and insignificant reign, overshadowed by internal conflicts.</p>
+        <|p><strong>Krishna III (939 AD - 967 AD)</strong></p>
+        <ul>
+            <li>Considered the last great Rashtrakuta ruler.</li>
+            <li>Successfully invaded the Chola territory and captured <strong>Tanjore</strong> (Thanjavur) by defeating Chola king <strong>Prantaka I</strong> in the <strong>Battle of Tokkolam</strong> in 949 AD.</li>
+            <li>Took the grand imperial <strong>title: Akhilakshtrakuta Chakravartin</strong> (Universal Emperor of all Rashtrakutas).</li>
+            <li>Defeated <strong>Eastern Chalukyas</strong>, maintaining supremacy in the Deccan.</li>
+            <li>At the peak of his reign, controlled territory from <strong>Gujarat</strong> to <strong>Tanjore</strong>.</li>
+        </ul>
+        <p><strong>Khottiga (967 AD - 972 AP)</strong></p>
+        <ul>
+            <li>Also Known as <strong>Karka II</strong>. Karka II Defeated by <strong>Tailopa II</strong> who established Later Chalukya.</li>
+            <li>Faced attack from Paramara ruler <strong>Siyaka II</strong>, who sacked the Rashtrakuta capital Manyakheta, marking the start of Rashtrakuta decline. This attack significantly weakened the dynasty. Manyakheta was destroyed, marking a symbolic end of Rashtrakuta power.</li>
+        </ul>
+        <p><strong>Indra IV (973 AD - 982 AP)</strong></p>
+        <ul>
+            <li>Last Rashtrakuta Ruler. Committed <strong>Sallekhana</strong>, the Jain ritual of voluntary death by <strong>fasting</strong>.</li>
+            <li>Power passed to the Western Chalukyas of Kalyani, under Tailapa II.</li>
+            <li>Tailapa II was once a feudatory of the Rashtrakutas and founded a new dynasty, Chalukyas of Kalyani.</li>
+        </ul>
+        <p><strong>Architecture (Rashtrakutas)</strong></p>
+        <ul>
+            <li><strong>Ellora caves:</strong> Location: <strong>Sambhajinagar, Maharashtra</strong>. Build time: 6th - 11th century AD. Total <strong>34 caves</strong>.</li>
+            <li><strong>Cave 1 - 12:</strong> Associated to <strong>Buddhism</strong> (Patronised by Kalachuris and Early Chalukya).</li>
+            <li><strong>Cave 13 - 29:</strong> Associated to <strong:Hinduism</strong> (Patronised by Rashtrakutas).</li>
+            <li><strong>Cave 30 - 34:</strong> Associated to <strong>Digambar Jainism</strong> (Patronised by Rashtrakutas).</li>
+            <li><strong>Elephanta Caves:</strong> Build time: 5th- 7th century AD. Total <strong>7 caves</strong>. Built by <strong>Rashtrakutas</strong> and later <strong>Kalachuri Dynasty</strong>. Three - head idol of Shiva (<strong>Trimurti</strong>) can be seen here. Added to UNESCO world heritage in <strong>1987</strong>.</li>
+            <li><strong>Dashavatara Temple:</strong> Dedicated to: Lord Vishnu. It is studied as a bridge between Gupta art and post-Gupta temple culture.</li>
+        </ul>
+        <h4 style="color:#F59E0B;">Dynasties that emerged after the Rashtrakutas and Their Regional Influence</h4>
+        <table border="1" style="border-collapse: collapse; width: 100%; border-color:#334155; margin-bottom:20px;">
+            <tr style="background:#0F172A;"><th>Dynasty</th><th>Region</th><th>Relation to Rashtrakutas</th></tr>
+            <tr><td>Western Chalukyas (Kalyani)</td><td>Karnataka</td><td>Direct successors</td></tr>
+            <tr><td>Paramaras</td><td>Malwa</td><td>Former Feudatories</td></tr>
+            <tr><td>Kalachuris (Tripuri)</td><td>Madhya Pradesh</td><td>Regional beneficiaries</td></tr>
+            <tr><td>Yadavas (Seuna)</td><td>Maharashtra</td><td>Former Feudatories</td></tr>
+            <tr><td>Eastern Chalukyas</td><td>Andhra Pradesh</td><td>Strengthened & Expanded due to vacuum</td></tr>
+            <tr><td>Cholas</td><td>Tamil Nadu</td><td></td></tr>
+        </table>
+        
+        <p><strong>Chalukyas of Kalyani (Later Chalukyas)</strong></p>
+        <ul>
+            <li><strong>Period:</strong>973-1189 CE. <strong>Founder:</strong> Tailapa II. <strong>Capital:</strong> Kalyani. <strongFamous Ruler:</strong> Vikramaditya VI. <strong>Architecture:</strong> Gadag style. <strong>Successors:</strong> Hoysalas.</li>
+        </ul>
+        <p><strong>Parmar Dynasty</strong></p>
+        <ul>
+            <li><strong>Region:</strong> Malwa. <strong>Capital:</strong> Dhara. <strong>Famous Ruler:</strong> Raja Bhoja. <strong>Architecture:</strong> Malwa Nagara style. <strong>Origin:</strong> Ex-feudatories of Rashtrakutas.</li>
+            <li>Statue of <strong>Raja Bhoja</strong>, a legendary Indian king from the 11th century. Location: The 32-foot-high bronze statue is located at the Upper Lake in <strong>Bhopal</strong>, Madhya Pradesh, India.</li>
+            <li>Raja Bhoja wrote a book <strong>"Sarasvatikanthabharana"</strong>. <strong>Bhojatal Lake</strong> of Bhopal provides 40% water supply. Paramaras were devotees of Shiva.</li>
+        </ul>
+        <p><strong>Kalachuri Dynasty</strong></p>
+        <ul>
+            <li><strong>Capital:</strong> Tripuri (MP). <strong>Period:</strong> 9th-12th CE. <strong>Religion:</strong> Shaivism. <strong>Architecture:</strong> Central Indian Nagara. <strong>Key Ruler:</strong> Lakshmikarna. <strong>Famous Region:</strong> Amarkantak.</li>
+        </ul>
+        <p><strong:Hoysala Dynasty</strong></p>
+        <ul>
+            <li>They were feudatory to <strong>Chalukyas of Kalyani</strong>. <strong>Capital:</strong> <strong>Dwarasamudra (Halebidu)</strong>. <strong>Founder:</strong> <strong>Nripa Kama II</strong>.</li>
+            <li><strong>Period:</strong> 10th-14th CE. <strong>Greatest Ruler:</strong> Vishnuvardhana. <strong>Architecture:</strong> Stellate soapstone temples, Gadag style. <strong>Successors:</strong> Vijayanagara Empire.</li>
+            <li><strong>Lakkundi Temple (Vesara style):</strong> Developed during later Chalukyas (Kalyani).</li>
+            <li><strong>Somnathpura Temple (Karnataka):</strong> Built by: Hoysala Dynasty.</li>
+            <li><strong>Chennakeshava Temple (Belur, Karnataka):</strong> Star-shaped temple. Built by: <strong>King Vishnuvardhana</strong>. Style of architecture: <strong>Bhumija style</strong> of architecture. Dedicated to: Lord Vishnu. Chenna means <em>'Beautiful'</em> and Keshava means <em>'Vishnu'</em>. Built in <strong>soapstone</strong> (chloritic schist).</li>
+            <li><strong:Hoysaleswara Temple (Halebidu, Karnataka):</strong> <strong>42nd UNESCO World Heritage</strong> site. Dedicated to: Lord Shiva. <strong>3 Jain Basadis</strong> are within the complex.</li>
+        </ul>
+        <p><strong>Yadava Dynasty:</strong> Capital: <strong>Devagiri</strong>.</p>
+        <p><strong>Kakatiyas:</strong> Capital: <strong>Warangal</strong>.</p>
+        <p><em>Quick Revisions:</em> Pulakeshin II defeated Harshavardhana. Pulakeshin II defeated Mahendravarman I. Narsimhavarman I defeated Pulakesin II.</p>

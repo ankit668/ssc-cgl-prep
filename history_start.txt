@@ -1,0 +1,185 @@
+const historyData = {
+    chapter: "Ancient History (Complete SSC Coverage)",
+    notes: `
+        
+        <h3>1. Indus Valley Civilization (IVC) - Exhaustive Extraction</h3>
+        <ul>
+            <li><strong>Basics:</strong> Time Period: 2500-1750 BCE. Bronze Age. Named by <strong>John Marshall</strong>. <strong>Alexander Cunningham</strong> was the First Chairman of ASI (Father of Indian Archaeology). <strong>Debala Mitra</strong> was the first female director.</li>
+            <li><strong>Agriculture & Tech:</strong> Ploughed field at <strong>Kalibangan</strong>. Terracotta model of plough at <strong>Banawali</strong> and Cholistan. Greeks used the word <em>"Sindon"</em> for cotton.</li>
+            <li><strong>Animals:</strong> Evidence of horse and cow are generally NOT found, EXCEPT for a <strong>bone of a horse discovered at Surkotada</strong> (Gujarat).</li>
+            <li><strong>Town Planning:</strong> Urban centres. Divided into Citadel (higher/smaller) and Lower Town. <em>Exceptions:</em> <strong>Dholavira</strong> was divided into THREE parts. <strong>Chanhudaro</strong> had NO Citadel. The Citadel in <strong>Lothal</strong> was not fortified but built on a mud-brick platform.</li>
+            <li><strong>Architecture:</strong> Gypsum-based mortar used for waterproofing the Great Bath. Bricks had a standardized ratio of <strong>1:2:4</strong>. Sumps or Cesspits used for solid waste. Canal traces found at <strong>Shortugai</strong> (Afghanistan).</li>
+            <li><strong>Burial Habits:</strong> Urn burials. Dogs buried with masters at <strong>Ropar</strong> (Punjab). Double/Joint burial at <strong>Lothal</strong>. Extended burial at <strong>Sonauli</strong>.</li>
+            <li><strong>Trade:</strong> Meluhha was the Mesopotamian name for IVC. Lapis Lazuli from Shortugai. Carnelian from Gujarat.</li>
+            <li><strong>Seals & Script:</strong> Made of <strong>steatite</strong>. They were <strong>NOT aware of the lion</strong>. Ships portrayed on seals. Script was <strong>Boustrophedon</strong> (Right to Left, then Left to Right), pictographic (not alphabetical). Longest inscription has 26 signs.</li>
+            <li><strong>Religion:</strong> Lingas worshipped. Proto-Shiva (Pashupati) seal. Bronze Dancing Girl is in the <strong>Tribhanga Mudra</strong>. Fire altars found at Kalibangan and Lothal.</li>
+            <li><strong>Weights:</strong> Made of <strong>Chert</strong>. Lower denominations were Binary, higher were Decimal. Regulated in multiples of 16.</li>
+        </ul>
+        <h4 style="color:#F59E0B; margin-top:20px;">Detailed Sites Table (Extremely High-Yield):</h4>
+        <table border="1" style="border-collapse: collapse; width: 100%; border-color:#334155; margin-bottom:20px;">
+            <tr style="background:#0F172A;"><th>Site & Year</th><th>Excavator</th><th>River</th><th>Key Findings</th></tr>
+            <tr><td><strong>Harappa (1921)</strong></td><td>D.R. Sahni</td><td>Ravi</td><td>12 Granaries (6 in a row), Male Torso Sculpture (Red Stone), Coffin burial.</td></tr>
+            <tr><td><strong>Mohenjodaro (1922)</strong></td><td>R.D. Banerjee</td><td>Indus</td><td>Great Bath, Great Granary (Largest building), Pashupati Seal, Bronze Dancing Girl, Priest King. Known as Oasis of Sindh.</td></tr>
+            <tr><td><strong>Lothal</strong></td><td>S.R. Rao</td><td>Bhogava</td><td>Ancient Dockyard, Fire altar, Double burial, Grid intersecting at 90 degrees.</td></tr>
+            <tr><td><strong>Kalibangan</strong></td><td>A. Ghosh</td><td>Ghaggar</td><td>Fire altars, Black bangles, Ploughed field, Two crops grown together.</td></tr>
+            <tr><td><strong>Dholavira</strong></td><td>J.P. Joshi & R.S. Bisht</td><td>-</td><td>Giant water reservoir, Divided into 3 parts, Dams. India's 40th UNESCO site (2021).</td></tr>
+            <tr><td><strong>Banawali</strong></td><td>R.S. Bisht</td><td>Saraswati</td><td>Lack of grid pattern, Terracotta plough, Toilet in house.</td></tr>
+            <tr><td><strong>Surkotada</strong></td><td>J.P. Joshi</td><td>-</td><td>Evidence of horse remains found.</td></tr>
+            <tr><td><strong>Bhirrana</strong></td><td>-</td><td>-</td><td>Oldest IVC site (earliest radiocarbon dates).</td></tr>
+            <tr><td><strong>Chanhudaro</strong></td><td>N.G. Majumdar</td><td>Indus</td><td>City without Citadel. Bead making, shell cutting.</td></tr>
+            <tr><td><strong>Rakhigarhi</strong></td><td>Amarendra Nath</td><td>Ghaggar</td><td>Largest IVC site, Terracotta wheel, Toys.</td></tr>
+        </table>
+
+        
+        <h3>2. The Vedic Age - Exhaustive Extraction</h3>
+        <ul>
+            <li><strong>Basics:</strong> 1500-600 BC. Early Vedic (pastoral) & Later Vedic. <strong>Boghazkoi Inscription</strong> (Turkiye) mentions Indra, Varun. Oldest text of Aryans is <strong>Avesta/Zend-Avesta</strong> (Iran). Vedas are <em>Apaurusheya</em> (not created by man) and <em>Shruti</em> (orally passed).</li>
+            <li><strong>Subdivisions of Vedas:</strong> <em>Samhita</em> (Hymns), <em>Brahmanas</em> (Sacrifices/Rituals), <em>Aranyakas</em> (Hermits in jungles), <em>Upanishads</em> (Bhakti Marga).</li>
+            <li><strong>Rig Veda:</strong> Oldest. 1028 hymns, 10,600 verses. Recited by <strong>Hotri</strong>. 
+                <ul>
+                    <li><strong>Female Deities & Sages:</strong> Aditi, Raka, Sinivali, Usha. Learned ladies who composed mantras: <strong>Ghosha, Apala, Viswavara</strong>.</li>
+                    <li><strong>Key Terms:</strong> <em>nrti</em> (dancer), <em>nrtu</em> (danseuse), <em>Ishukrit/Isukara</em> (maker of arrows).</li>
+                    <li><strong>Mandalas:</strong> 10 Mandalas (2-7 created first). 3rd = Gayatri Mantra (by Vishwamitra to Savitri). 9th = Lord Soma (Lord of Plants). 10th = Purusha Sukta (4 Varnas).</li>
+                </ul>
+            </li>
+            <li><strong>Sama Veda:</strong> Book of Music. Recited by <strong>Udgatri</strong>. Paired with Upaveda known as <strong>Gandharvaveda</strong>. Contains two Upanishads: <em>Chandogya</em> and <em>Kena</em>.</li>
+            <li><strong>Yajur Veda:</strong> Book of Rituals. Recited by <strong>Adhvaryu</strong>. 
+                <ul>
+                    <li>Divided into <strong>Shukla</strong> (White/Pure - mantras only) and <strong>Krishna</strong> (Black/Mixed - mantra & explanation).</li>
+                    <li><strong>Brahmana texts:</strong> Taittiriya (Black) and <strong>Shatapatha Brahmana</strong> (Largest).</li>
+                    <li><strong>Upanishads of Yajurveda:</strong> <em>Brihadaranyaka</em> (Oldest, mentions female sage Gargi), <em>Katha Upanishad</em> (Story of Nachiketa and Yama - God of Death), <em>Jabala Upanishad</em>.</li>
+                </ul>
+            </li>
+            <li><strong>Atharva Veda:</strong> Book of Magical charms and spells.</li>
+        </ul>
+
+        
+        <h3>3. Sangam Age (Deep South) - Exhaustive Extraction</h3>
+        <ul>
+            <li><strong>Basics:</strong> South India did not experience a Bronze Age, it directly transitioned to <strong>Megalithic Age (Iron Age)</strong>. 'Sangam' means Assemblies. Held at Tamil Nadu, known as <em>Muchchangam</em>.</li>
+            <li><strong>Sangams:</strong>
+                <ul>
+                    <li>1st: Madurai (Chairman: Rishi Agastya). No text found.</li>
+                    <li>2nd: Kapadapuram (Chairman: Tolkappiyar). Text: <strong>Tolkapiyyam</strong> (earliest grammatical Tamil text).</li>
+                    <li>3rd: Madurai (Chairman: Nakkirar).</li>
+                </ul>
+            </li>
+            <li><strong>Sangam Literature:</strong> Narrative (Melkannakku - 18 major works) & Didactic (Kilkanakku - 18 minor works like <em>Tirukkural</em>).</li>
+            <li><strong>Epics:</strong> <strong>Silapathikaram</strong> (by Ilango Adigal - story of Kovalan and Kannagi). <strong>Manimekalai</strong> (by Chithalai Chathanar).</li>
+            <li><strong>Five Thinais (Landscapes):</strong> 
+                <ul>
+                    <li><em>Kurinci:</em> Hunting/gathering.</li>
+                    <li><em>Palai:</em> Cattle lifters/plunderers.</li>
+                    <li><em>Mullai:</em> Animal husbandry.</li>
+                    <li><em>Marutam:</em> Agriculture.</li>
+                    <li><em>Neytal:</em> Fishing/salt collection.</li>
+                </ul>
+            </li>
+            <li><strong>Dynasties:</strong>
+                <ul>
+                    <li><strong>Cheras:</strong> Kerala/TN. Capital: Vanji. Emblem: <strong>Bow and Arrow</strong>. Greatest ruler: <em>Senguttuvan</em> (Red Chera, founded Pattini cult - worshipping Kannagi).</li>
+                    <li><strong>Cholas:</strong> Coromandels. Capital: Uraiyur/Puhar. Emblem: <strong>Tiger</strong>. Greatest ruler: <em>Karikala</em> (Battle of Venni). Efficient Naval power.</li>
+                    <li><strong>Pandyas:</strong> TN. Capital: Madurai. Emblem: <strong>Fish</strong>. Famous for <strong>pearl trade</strong> (mentioned by Megasthenes). Traded with Roman Empire.</li>
+                </ul>
+            </li>
+            <li><strong>Society Terms:</strong> <em>Arasar</em> (Ruling class), <em>Vellalar</em> (Rich landlords), <em>Uzhavur</em> (Ordinary Ploughmen), <em>Vattakirutal</em> (Ritual suicide by starving).</li>
+        </ul>
+
+        
+        
+        <h3>3B. Buddhism - Exhaustive Extraction (AIR 1 Mode)</h3>
+        <ul>
+            <li><strong>Basics & Family:</strong> Founder: Gautam Buddha (Shakya Clan, known as <em>Shakyamuni</em>, <em>Tathagat</em>). Born in 563 BCE in Lumbini (Nepal). Childhood name: Siddhartha. Father: Suddhodhana (Kshatriya). Mother: Mahamaya (Koliya tribe). Step-mother: Mahaprajapati Goutami (first Bhikkhuni). Wife: Yashodhara. Son: Rahul.</li>
+            <li><strong>Key Events & Symbols:</strong> 
+                <ul>
+                    <li><em>Janma (Birth):</em> Symbolized by <strong>Lotus/Bull</strong>.</li>
+                    <li><em>Maha Bhinishkramana (Great Departure):</em> Left home at age 29. Symbolized by <strong>Horse (Kanthak)</strong>.</li>
+                    <li><em>Nirvana (Enlightenment):</em> At age 35 in Uruvela (Bodh Gaya) under a Peepal (Bodhi) tree for 49 days near river Niranjana. Symbolized by <strong>Bodhi tree</strong>. First teacher: Alara Kalama. Second teacher: Udraka Ramputra.</li>
+                    <li><em>Dharmachakra Pravartana (First Sermon):</em> At Sarnath (Varanasi) to 5 disciples. Symbolized by <strong>Wheel</strong>.</li>
+                    <li><em>Mahaparinirvana (Death):</em> Died at Kushinagara (UP) at age 80 (483 BCE). Symbolized by <strong>Stupa</strong>.</li>
+                </ul>
+                <br><em>Note:</em> <strong>Buddha Purnima</strong> commemorates his birth, enlightenment, and death. He is considered the <em>"Light of Asia"</em>. Early Buddhism used <strong>aniconic (symbolic) forms</strong> like the empty throne (seat), footprints (Buddhapada), Dharma Chakra (wheel), Bodhi tree, and Stupa.
+            </li>
+            <li><strong>Key Disciples:</strong> Sariputta, Moggallana, Mahakasyapa, Upali, Ananda, and Subhuti.</li>
+            <li><strong>Philosophy & Teachings:</strong> 
+                <ul>
+                    <li><strong>Four Noble Truths:</strong> 1) Truth of suffering, 2) Cause of suffering (desire), 3) End of suffering, 4) Path to end suffering (Eight Fold Path).</li>
+                    <li><strong>Eight Fold Path (Ashtangika Marga):</strong> Right mindfulness, Right livelihood, Right view, Right intention, Right concentration, Right speech, Right action, Right effort.</li>
+                    <li><strong>Triratnas:</strong> Buddha, Dhamma, Sangha. <strong>Anatta:</strong> Doctrine that a permanent soul or self does not exist.</li>
+                </ul>
+            </li>
+            <li><strong>Mudras of the Buddha:</strong> 
+                <ul>
+                    <li><em>Dharmachakra:</em> "Teaching Wheel" (represents Buddha's teachings).</li>
+                    <li><em>Abhaya:</em> "Fearless" (protection and overcoming fear).</li>
+                    <li><em>Bhumisparsha:</em> "Touching the Earth" (represents enlightenment).</li>
+                    <li><em>Varad:</em> "Generosity" (giving and compassion).</li>
+                    <li><em>Dhyana:</em> "Meditation" (contemplation and inner peace).</li>
+                    <li><em>Vitarka:</em> "Wheel of Law" (reasoned discussion and transmission of teachings).</li>
+                </ul>
+            </li>
+            <li><strong>Buddhist Texts (Tripitaka / Pali Canon):</strong> "Pitaka" means Basket.
+                <ul>
+                    <li><strong>Sutta Pitaka:</strong> Buddha's teachings and dialogues. Compiled by Ananda. Divided into 5 Nikayas: Digha, Majjhima, Samyutta, Anguttara, Khuddaka. The <em>Dhammapada</em> (called the "Gita of Buddhism") is a part of the Khuddaka Nikaya.</li>
+                    <li><strong>Vinaya Pitaka:</strong> Monastic courts and rules. Compiled by Upali.</li>
+                    <li><strong>Abhidhamma Pitaka:</strong> Interpretation of Sutta Pitaka and philosophical matters.</li>
+                </ul>
+                <em>Other Pali Literature:</em> Milindpanho (dialogue between Milinda and Nagasena), Visuddhimagga (written by Buddhaghosa), Nettipakarana, Dipavamsa, Mahavamsa.<br>
+                <em>Sanskrit Literature:</em> Buddhacharita (by Ashvaghosha), Jataka Tales (about previous births of Buddha in human and animal forms), Avadanasataka, Divyavadana, Arya Manjushri mula kalpa.
+            </li>
+            <li><strong>Buddhist Councils:</strong>
+                <ul>
+                    <li><strong>1st (483 BC):</strong> Rajgriha (Sattapani cave). Patron: Ajatshatru. President: Mahakashyapa.</li>
+                    <li><strong>2nd (383 BC):</strong> Vaishali. Patron: Kalashoka. President: Sabakami.</li>
+                    <li><strong>3rd (250 BC):</strong> Pataliputra. Patron: Ashoka. President: Moggaliputta Tissa.</li>
+                    <li><strong>4th (72 AD):</strong> Kashmir (Kundalvana). Patron: Kanishka. President: Vasumitra. (Buddhism divided into Mahayana and Hinayana).</li>
+                </ul>
+            </li>
+            <li><strong>Sects of Buddhism:</strong>
+                <ul>
+                    <li><strong>Hinayana:</strong> No idol worship. Pali text. Believe in rebirth of Buddha. Seen mostly in Southern India, Sri Lanka, Cambodia. <em>Theravada:</em> A subtype of Hinayana meaning "Doctrine of the Elders" (Thera = Senior Monk, Theri = Senior Nun). Originated in India.</li>
+                    <li><strong>Mahayana:</strong> Idol worship. Sanskrit text. Believe in rebirth of Buddha. Seen mostly in Japan, China, South Korea.</li>
+                    <li><strong>Vajrayana:</strong> Tantric Buddhism. Roots in Tibet. Seen mostly in Sikkim, West Bengal, Nepal, Tibet, East Asia.</li>
+                </ul>
+            </li>
+            <li><strong>Important Bodhisattvas (Mahayana):</strong> Beings who seek enlightenment for all sentient beings, delaying their own Nirvana.
+                <ul>
+                    <li><em>Padmapani:</em> Also known as Avalokiteshvara.</li>
+                    <li><em>Vajrapani:</em> A protector and a guide.</li>
+                    <li><em>Manjusri:</em> Represents wisdom and considered the Buddha-to-be.</li>
+                    <li><em>Amitabh:</em> Represents light.</li>
+                </ul>
+            </li>
+            <li><strong>Architecture, Terms & Monasteries:</strong> 
+                <em>Chaitya:</em> Place of worship. <em>Vihara:</em> Place of residence. <em>Dhamma:</em> Dharma. <em>Stupa:</em> Mount where relics of Buddha are placed. <em>Sramanas:</em> Wandering ascetics or monks in ancient India who renounced worldly life (non-Vedic traditions).
+                <ul>
+                    <li><strong>Eight holy places:</strong> Lumbini, Bodh Gaya, Sarnath, Kushinagara, Rajgir, Vaishali, Shravasti, Sankosia.</li>
+                    <li><strong>Sanchi Stupa:</strong> Oldest Stupa (Madhya Pradesh). Built by King Ashoka (3rd Century BC). Enlargement done using Sandstone by Shunga Dynasty. Four Gateways (cardinal points) added by Satavahanas. Discovered by Henry Taylor in 1818. Hosts the <em>Chethiyagiri festival</em>. Relics of Sariputta and Moggallana are kept here.</li>
+                    <li><strong>Parts of a Stupa:</strong> <em>Anda</em> (Hemispherical dome), <em>Torana</em> (Gateway), <em>Medhi</em> (Processional / Ambulatory Path), <em>Vedika</em> (Railings), <em>Pradakshina patha</em> (circular path), <em>Harmika</em> (railed pavilion), <em>Chattra</em> (umbrella), <em>Yasti</em> (spire). <strong>Yakshi:</strong> Female nature spirit symbolizing fertility, abundance, prosperity (appears on Sanchi Stupa Toranas as guardian).</li>
+                    <li><strong>Major Stupas:</strong> Kesariya (Bihar, Largest Stupa in India), Borobudur (Java, Indonesia, Largest Stupa in the world), Dhamek (Sarnath, Cylindrical shape), Ramabhar (Kushinagara), Piprahwa (UP, First built by Sakya Dynasty), Shanti (Ladakh, White in colour), Chir Tope / Dharmarajika (Taxila, Pakistan), Bharhut (MP).</li>
+                    <li><strong>Important Monasteries:</strong> Ladakh (Thiksey, Hemis, Alchi Gompa); Himachal Pradesh (Kye Gompa); Sikkim (Rumtek); Andhra Pradesh (Guntapalle Buddhists Caves, built during Satavahanas); Madhya Pradesh (Bagh Caves); Karnataka (Namdroling Monastery in Bylakuppe, known as "The Golden Temple").</li>
+                    <li><strong>Key Yakshi Figures:</strong> <em>Hariti</em> (bloodthirsty yakshi converted to maternal figure), <em>Gaj Lakshmi</em> (yakshi surrounded by lotuses/elephants), <em>Didarganj Yakshi</em> (polished stone statue in Patna museum, holds a fly whisk "Chauri", lower garment is "Antari"), <em>Salabhanjika Yakshi</em> (reference to Buddha's mother Maya under sala tree), <em>Prajnaparamita Yakshi</em> (female deity, source of omniscience).</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>4. Jainism - Exhaustive Extraction</h3>
+        <ul>
+            <li><strong>Origin Causes:</strong> Opposition to Brahminical dominance, Rise of Agricultural economy (Vaishyas funded them), rejection of Varna system (linked Varna to karma, not birth). Rejected infallibility of Vedas.</li>
+            <li><strong>Tirthankaras (24):</strong>
+                <ul>
+                    <li><strong>1st:</strong> Rishabh Dev / Adinath (Bull). Born in Ayodhya.</li>
+                    <li><strong>22nd:</strong> Arishtanemi (Conch/Shankh).</li>
+                    <li><strong>23rd:</strong> Parshavnath (Serpent). Varanasi.</li>
+                    <li><strong>24th:</strong> Vardhaman Mahavir (Lion). Kundagram (Vaishali).</li>
+                    <li><em>Note:</em> Only Rishabh Dev and Arishtanemi are mentioned in the Vedas.</li>
+                </ul>
+            </li>
+            <li><strong>Vardhaman Mahavir:</strong> Born 540 BC. Clan: Jnatrika. Left home at 30 with <strong>Makkhali Gosala</strong> (who later founded the fatalistic <strong>Ajivika Sect</strong>). Attained <em>Kaivalya</em> at 42 under a <strong>Sal tree</strong> at Jambhikagrama near river <strong>Rijupalika</strong>. First sermon at <strong>Rajgir</strong>. Died at <strong>Pavapuri</strong> (468 BC).</li>
+            <li><strong>Terms:</strong> <em>Moksha</em> (Salvation), <em>Asrava</em> (Inflow of karmic practices), <em>Basadis</em> (Jain monasteries), <em>Jina</em> (Conqueror).</li>
+            <li><strong>Philosophy (Triratnas):</strong> Right Knowledge (Samyaka Jnana), Right Faith (Samyaka Darshana), Right Conduct (Samyaka Charitra).</li>
+            <li><strong>Five Vows (Panch Vrata):</strong> Ahimsa (Non-violence), Satya (Truth), Asteya (Non-stealing), Aparigraha (Non-possession). Mahavira added the 5th: <strong>Brahmacharya (Celibacy)</strong> to the existing four (Chaturyama Dharma).</li>
+            <li><strong>Division:</strong> During a famine in Magadha, Bhadrabahu led followers to Shravanabelagola (Karnataka). They became <strong>Digambaras</strong> (sky-clad/naked). Those who stayed in Magadha under Sthulabhadra became <strong>Shvetambaras</strong> (white-clad).</li>
+        </ul>
+
+        

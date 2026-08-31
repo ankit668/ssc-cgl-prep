@@ -1,897 +1,3 @@
-﻿const historyData = {
-    chapter: "Ancient History (Complete SSC Coverage)",
-    notes: `
-        
-        <h3>1. Indus Valley Civilization (IVC) - Exhaustive Extraction</h3>
-        <ul>
-            <li><strong>Basics:</strong> Time Period: 2500-1750 BCE. Bronze Age. Named by <strong>John Marshall</strong>. <strong>Alexander Cunningham</strong> was the First Chairman of ASI (Father of Indian Archaeology). <strong>Debala Mitra</strong> was the first female director.</li>
-            <li><strong>Agriculture & Tech:</strong> Ploughed field at <strong>Kalibangan</strong>. Terracotta model of plough at <strong>Banawali</strong> and Cholistan. Greeks used the word <em>"Sindon"</em> for cotton.</li>
-            <li><strong>Animals:</strong> Evidence of horse and cow are generally NOT found, EXCEPT for a <strong>bone of a horse discovered at Surkotada</strong> (Gujarat).</li>
-            <li><strong>Town Planning:</strong> Urban centres. Divided into Citadel (higher/smaller) and Lower Town. <em>Exceptions:</em> <strong>Dholavira</strong> was divided into THREE parts. <strong>Chanhudaro</strong> had NO Citadel. The Citadel in <strong>Lothal</strong> was not fortified but built on a mud-brick platform.</li>
-            <li><strong>Architecture:</strong> Gypsum-based mortar used for waterproofing the Great Bath. Bricks had a standardized ratio of <strong>1:2:4</strong>. Sumps or Cesspits used for solid waste. Canal traces found at <strong>Shortugai</strong> (Afghanistan).</li>
-            <li><strong>Burial Habits:</strong> Urn burials. Dogs buried with masters at <strong>Ropar</strong> (Punjab). Double/Joint burial at <strong>Lothal</strong>. Extended burial at <strong>Sonauli</strong>.</li>
-            <li><strong>Trade:</strong> Meluhha was the Mesopotamian name for IVC. Lapis Lazuli from Shortugai. Carnelian from Gujarat.</li>
-            <li><strong>Seals & Script:</strong> Made of <strong>steatite</strong>. They were <strong>NOT aware of the lion</strong>. Ships portrayed on seals. Script was <strong>Boustrophedon</strong> (Right to Left, then Left to Right), pictographic (not alphabetical). Longest inscription has 26 signs.</li>
-            <li><strong>Religion:</strong> Lingas worshipped. Proto-Shiva (Pashupati) seal. Bronze Dancing Girl is in the <strong>Tribhanga Mudra</strong>. Fire altars found at Kalibangan and Lothal.</li>
-            <li><strong>Weights:</strong> Made of <strong>Chert</strong>. Lower denominations were Binary, higher were Decimal. Regulated in multiples of 16.</li>
-        </ul>
-        <h4 style="color:#F59E0B; margin-top:20px;">Detailed Sites Table (Extremely High-Yield):</h4>
-        <table border="1" style="border-collapse: collapse; width: 100%; border-color:#334155; margin-bottom:20px;">
-            <tr style="background:#0F172A;"><th>Site & Year</th><th>Excavator</th><th>River</th><th>Key Findings</th></tr>
-            <tr><td><strong>Harappa (1921)</strong></td><td>D.R. Sahni</td><td>Ravi</td><td>12 Granaries (6 in a row), Male Torso Sculpture (Red Stone), Coffin burial.</td></tr>
-            <tr><td><strong>Mohenjodaro (1922)</strong></td><td>R.D. Banerjee</td><td>Indus</td><td>Great Bath, Great Granary (Largest building), Pashupati Seal, Bronze Dancing Girl, Priest King. Known as Oasis of Sindh.</td></tr>
-            <tr><td><strong>Lothal</strong></td><td>S.R. Rao</td><td>Bhogava</td><td>Ancient Dockyard, Fire altar, Double burial, Grid intersecting at 90 degrees.</td></tr>
-            <tr><td><strong>Kalibangan</strong></td><td>A. Ghosh</td><td>Ghaggar</td><td>Fire altars, Black bangles, Ploughed field, Two crops grown together.</td></tr>
-            <tr><td><strong>Dholavira</strong></td><td>J.P. Joshi & R.S. Bisht</td><td>-</td><td>Giant water reservoir, Divided into 3 parts, Dams. India's 40th UNESCO site (2021).</td></tr>
-            <tr><td><strong>Banawali</strong></td><td>R.S. Bisht</td><td>Saraswati</td><td>Lack of grid pattern, Terracotta plough, Toilet in house.</td></tr>
-            <tr><td><strong>Surkotada</strong></td><td>J.P. Joshi</td><td>-</td><td>Evidence of horse remains found.</td></tr>
-            <tr><td><strong>Bhirrana</strong></td><td>-</td><td>-</td><td>Oldest IVC site (earliest radiocarbon dates).</td></tr>
-            <tr><td><strong>Chanhudaro</strong></td><td>N.G. Majumdar</td><td>Indus</td><td>City without Citadel. Bead making, shell cutting.</td></tr>
-            <tr><td><strong>Rakhigarhi</strong></td><td>Amarendra Nath</td><td>Ghaggar</td><td>Largest IVC site, Terracotta wheel, Toys.</td></tr>
-        </table>
-
-        
-        <h3>2. The Vedic Age - Exhaustive Extraction</h3>
-        <ul>
-            <li><strong>Basics:</strong> 1500-600 BC. Early Vedic (pastoral) & Later Vedic. <strong>Boghazkoi Inscription</strong> (Turkiye) mentions Indra, Varun. Oldest text of Aryans is <strong>Avesta/Zend-Avesta</strong> (Iran). Vedas are <em>Apaurusheya</em> (not created by man) and <em>Shruti</em> (orally passed).</li>
-            <li><strong>Subdivisions of Vedas:</strong> <em>Samhita</em> (Hymns), <em>Brahmanas</em> (Sacrifices/Rituals), <em>Aranyakas</em> (Hermits in jungles), <em>Upanishads</em> (Bhakti Marga).</li>
-            <li><strong>Rig Veda:</strong> Oldest. 1028 hymns, 10,600 verses. Recited by <strong>Hotri</strong>. 
-                <ul>
-                    <li><strong>Female Deities & Sages:</strong> Aditi, Raka, Sinivali, Usha. Learned ladies who composed mantras: <strong>Ghosha, Apala, Viswavara</strong>.</li>
-                    <li><strong>Key Terms:</strong> <em>nrti</em> (dancer), <em>nrtu</em> (danseuse), <em>Ishukrit/Isukara</em> (maker of arrows).</li>
-                    <li><strong>Mandalas:</strong> 10 Mandalas (2-7 created first). 3rd = Gayatri Mantra (by Vishwamitra to Savitri). 9th = Lord Soma (Lord of Plants). 10th = Purusha Sukta (4 Varnas).</li>
-                </ul>
-            </li>
-            <li><strong>Sama Veda:</strong> Book of Music. Recited by <strong>Udgatri</strong>. Paired with Upaveda known as <strong>Gandharvaveda</strong>. Contains two Upanishads: <em>Chandogya</em> and <em>Kena</em>.</li>
-            <li><strong>Yajur Veda:</strong> Book of Rituals. Recited by <strong>Adhvaryu</strong>. 
-                <ul>
-                    <li>Divided into <strong>Shukla</strong> (White/Pure - mantras only) and <strong>Krishna</strong> (Black/Mixed - mantra & explanation).</li>
-                    <li><strong>Brahmana texts:</strong> Taittiriya (Black) and <strong>Shatapatha Brahmana</strong> (Largest).</li>
-                    <li><strong>Upanishads of Yajurveda:</strong> <em>Brihadaranyaka</em> (Oldest, mentions female sage Gargi), <em>Katha Upanishad</em> (Story of Nachiketa and Yama - God of Death), <em>Jabala Upanishad</em>.</li>
-                </ul>
-            </li>
-            <li><strong>Atharva Veda:</strong> Book of Magical charms and spells.</li>
-        </ul>
-
-        
-        <h3>3. Sangam Age (Deep South) - Exhaustive Extraction</h3>
-        <ul>
-            <li><strong>Basics:</strong> South India did not experience a Bronze Age, it directly transitioned to <strong>Megalithic Age (Iron Age)</strong>. 'Sangam' means Assemblies. Held at Tamil Nadu, known as <em>Muchchangam</em>.</li>
-            <li><strong>Sangams:</strong>
-                <ul>
-                    <li>1st: Madurai (Chairman: Rishi Agastya). No text found.</li>
-                    <li>2nd: Kapadapuram (Chairman: Tolkappiyar). Text: <strong>Tolkapiyyam</strong> (earliest grammatical Tamil text).</li>
-                    <li>3rd: Madurai (Chairman: Nakkirar).</li>
-                </ul>
-            </li>
-            <li><strong>Sangam Literature:</strong> Narrative (Melkannakku - 18 major works) & Didactic (Kilkanakku - 18 minor works like <em>Tirukkural</em>).</li>
-            <li><strong>Epics:</strong> <strong>Silapathikaram</strong> (by Ilango Adigal - story of Kovalan and Kannagi). <strong>Manimekalai</strong> (by Chithalai Chathanar).</li>
-            <li><strong>Five Thinais (Landscapes):</strong> 
-                <ul>
-                    <li><em>Kurinci:</em> Hunting/gathering.</li>
-                    <li><em>Palai:</em> Cattle lifters/plunderers.</li>
-                    <li><em>Mullai:</em> Animal husbandry.</li>
-                    <li><em>Marutam:</em> Agriculture.</li>
-                    <li><em>Neytal:</em> Fishing/salt collection.</li>
-                </ul>
-            </li>
-            <li><strong>Dynasties:</strong>
-                <ul>
-                    <li><strong>Cheras:</strong> Kerala/TN. Capital: Vanji. Emblem: <strong>Bow and Arrow</strong>. Greatest ruler: <em>Senguttuvan</em> (Red Chera, founded Pattini cult - worshipping Kannagi).</li>
-                    <li><strong>Cholas:</strong> Coromandels. Capital: Uraiyur/Puhar. Emblem: <strong>Tiger</strong>. Greatest ruler: <em>Karikala</em> (Battle of Venni). Efficient Naval power.</li>
-                    <li><strong>Pandyas:</strong> TN. Capital: Madurai. Emblem: <strong>Fish</strong>. Famous for <strong>pearl trade</strong> (mentioned by Megasthenes). Traded with Roman Empire.</li>
-                </ul>
-            </li>
-            <li><strong>Society Terms:</strong> <em>Arasar</em> (Ruling class), <em>Vellalar</em> (Rich landlords), <em>Uzhavur</em> (Ordinary Ploughmen), <em>Vattakirutal</em> (Ritual suicide by starving).</li>
-        </ul>
-
-        
-        
-        <h3>3B. Buddhism - Exhaustive Extraction (AIR 1 Mode)</h3>
-        <ul>
-            <li><strong>Basics & Family:</strong> Founder: Gautam Buddha (Shakya Clan, known as <em>Shakyamuni</em>, <em>Tathagat</em>). Born in 563 BCE in Lumbini (Nepal). Childhood name: Siddhartha. Father: Suddhodhana (Kshatriya). Mother: Mahamaya (Koliya tribe). Step-mother: Mahaprajapati Goutami (first Bhikkhuni). Wife: Yashodhara. Son: Rahul.</li>
-            <li><strong>Key Events & Symbols:</strong> 
-                <ul>
-                    <li><em>Janma (Birth):</em> Symbolized by <strong>Lotus/Bull</strong>.</li>
-                    <li><em>Maha Bhinishkramana (Great Departure):</em> Left home at age 29. Symbolized by <strong>Horse (Kanthak)</strong>.</li>
-                    <li><em>Nirvana (Enlightenment):</em> At age 35 in Uruvela (Bodh Gaya) under a Peepal (Bodhi) tree for 49 days near river Niranjana. Symbolized by <strong>Bodhi tree</strong>. First teacher: Alara Kalama. Second teacher: Udraka Ramputra.</li>
-                    <li><em>Dharmachakra Pravartana (First Sermon):</em> At Sarnath (Varanasi) to 5 disciples. Symbolized by <strong>Wheel</strong>.</li>
-                    <li><em>Mahaparinirvana (Death):</em> Died at Kushinagara (UP) at age 80 (483 BCE). Symbolized by <strong>Stupa</strong>.</li>
-                </ul>
-                <br><em>Note:</em> <strong>Buddha Purnima</strong> commemorates his birth, enlightenment, and death. He is considered the <em>"Light of Asia"</em>. Early Buddhism used <strong>aniconic (symbolic) forms</strong> like the empty throne (seat), footprints (Buddhapada), Dharma Chakra (wheel), Bodhi tree, and Stupa.
-            </li>
-            <li><strong>Key Disciples:</strong> Sariputta, Moggallana, Mahakasyapa, Upali, Ananda, and Subhuti.</li>
-            <li><strong>Philosophy & Teachings:</strong> 
-                <ul>
-                    <li><strong>Four Noble Truths:</strong> 1) Truth of suffering, 2) Cause of suffering (desire), 3) End of suffering, 4) Path to end suffering (Eight Fold Path).</li>
-                    <li><strong>Eight Fold Path (Ashtangika Marga):</strong> Right mindfulness, Right livelihood, Right view, Right intention, Right concentration, Right speech, Right action, Right effort.</li>
-                    <li><strong>Triratnas:</strong> Buddha, Dhamma, Sangha. <strong>Anatta:</strong> Doctrine that a permanent soul or self does not exist.</li>
-                </ul>
-            </li>
-            <li><strong>Mudras of the Buddha:</strong> 
-                <ul>
-                    <li><em>Dharmachakra:</em> "Teaching Wheel" (represents Buddha's teachings).</li>
-                    <li><em>Abhaya:</em> "Fearless" (protection and overcoming fear).</li>
-                    <li><em>Bhumisparsha:</em> "Touching the Earth" (represents enlightenment).</li>
-                    <li><em>Varad:</em> "Generosity" (giving and compassion).</li>
-                    <li><em>Dhyana:</em> "Meditation" (contemplation and inner peace).</li>
-                    <li><em>Vitarka:</em> "Wheel of Law" (reasoned discussion and transmission of teachings).</li>
-                </ul>
-            </li>
-            <li><strong>Buddhist Texts (Tripitaka / Pali Canon):</strong> "Pitaka" means Basket.
-                <ul>
-                    <li><strong>Sutta Pitaka:</strong> Buddha's teachings and dialogues. Compiled by Ananda. Divided into 5 Nikayas: Digha, Majjhima, Samyutta, Anguttara, Khuddaka. The <em>Dhammapada</em> (called the "Gita of Buddhism") is a part of the Khuddaka Nikaya.</li>
-                    <li><strong>Vinaya Pitaka:</strong> Monastic courts and rules. Compiled by Upali.</li>
-                    <li><strong>Abhidhamma Pitaka:</strong> Interpretation of Sutta Pitaka and philosophical matters.</li>
-                </ul>
-                <em>Other Pali Literature:</em> Milindpanho (dialogue between Milinda and Nagasena), Visuddhimagga (written by Buddhaghosa), Nettipakarana, Dipavamsa, Mahavamsa.<br>
-                <em>Sanskrit Literature:</em> Buddhacharita (by Ashvaghosha), Jataka Tales (about previous births of Buddha in human and animal forms), Avadanasataka, Divyavadana, Arya Manjushri mula kalpa.
-            </li>
-            <li><strong>Buddhist Councils:</strong>
-                <ul>
-                    <li><strong>1st (483 BC):</strong> Rajgriha (Sattapani cave). Patron: Ajatshatru. President: Mahakashyapa.</li>
-                    <li><strong>2nd (383 BC):</strong> Vaishali. Patron: Kalashoka. President: Sabakami.</li>
-                    <li><strong>3rd (250 BC):</strong> Pataliputra. Patron: Ashoka. President: Moggaliputta Tissa.</li>
-                    <li><strong>4th (72 AD):</strong> Kashmir (Kundalvana). Patron: Kanishka. President: Vasumitra. (Buddhism divided into Mahayana and Hinayana).</li>
-                </ul>
-            </li>
-            <li><strong>Sects of Buddhism:</strong>
-                <ul>
-                    <li><strong>Hinayana:</strong> No idol worship. Pali text. Believe in rebirth of Buddha. Seen mostly in Southern India, Sri Lanka, Cambodia. <em>Theravada:</em> A subtype of Hinayana meaning "Doctrine of the Elders" (Thera = Senior Monk, Theri = Senior Nun). Originated in India.</li>
-                    <li><strong>Mahayana:</strong> Idol worship. Sanskrit text. Believe in rebirth of Buddha. Seen mostly in Japan, China, South Korea.</li>
-                    <li><strong>Vajrayana:</strong> Tantric Buddhism. Roots in Tibet. Seen mostly in Sikkim, West Bengal, Nepal, Tibet, East Asia.</li>
-                </ul>
-            </li>
-            <li><strong>Important Bodhisattvas (Mahayana):</strong> Beings who seek enlightenment for all sentient beings, delaying their own Nirvana.
-                <ul>
-                    <li><em>Padmapani:</em> Also known as Avalokiteshvara.</li>
-                    <li><em>Vajrapani:</em> A protector and a guide.</li>
-                    <li><em>Manjusri:</em> Represents wisdom and considered the Buddha-to-be.</li>
-                    <li><em>Amitabh:</em> Represents light.</li>
-                </ul>
-            </li>
-            <li><strong>Architecture, Terms & Monasteries:</strong> 
-                <em>Chaitya:</em> Place of worship. <em>Vihara:</em> Place of residence. <em>Dhamma:</em> Dharma. <em>Stupa:</em> Mount where relics of Buddha are placed. <em>Sramanas:</em> Wandering ascetics or monks in ancient India who renounced worldly life (non-Vedic traditions).
-                <ul>
-                    <li><strong>Eight holy places:</strong> Lumbini, Bodh Gaya, Sarnath, Kushinagara, Rajgir, Vaishali, Shravasti, Sankosia.</li>
-                    <li><strong>Sanchi Stupa:</strong> Oldest Stupa (Madhya Pradesh). Built by King Ashoka (3rd Century BC). Enlargement done using Sandstone by Shunga Dynasty. Four Gateways (cardinal points) added by Satavahanas. Discovered by Henry Taylor in 1818. Hosts the <em>Chethiyagiri festival</em>. Relics of Sariputta and Moggallana are kept here.</li>
-                    <li><strong>Parts of a Stupa:</strong> <em>Anda</em> (Hemispherical dome), <em>Torana</em> (Gateway), <em>Medhi</em> (Processional / Ambulatory Path), <em>Vedika</em> (Railings), <em>Pradakshina patha</em> (circular path), <em>Harmika</em> (railed pavilion), <em>Chattra</em> (umbrella), <em>Yasti</em> (spire). <strong>Yakshi:</strong> Female nature spirit symbolizing fertility, abundance, prosperity (appears on Sanchi Stupa Toranas as guardian).</li>
-                    <li><strong>Major Stupas:</strong> Kesariya (Bihar, Largest Stupa in India), Borobudur (Java, Indonesia, Largest Stupa in the world), Dhamek (Sarnath, Cylindrical shape), Ramabhar (Kushinagara), Piprahwa (UP, First built by Sakya Dynasty), Shanti (Ladakh, White in colour), Chir Tope / Dharmarajika (Taxila, Pakistan), Bharhut (MP).</li>
-                    <li><strong>Important Monasteries:</strong> Ladakh (Thiksey, Hemis, Alchi Gompa); Himachal Pradesh (Kye Gompa); Sikkim (Rumtek); Andhra Pradesh (Guntapalle Buddhists Caves, built during Satavahanas); Madhya Pradesh (Bagh Caves); Karnataka (Namdroling Monastery in Bylakuppe, known as "The Golden Temple").</li>
-                    <li><strong>Key Yakshi Figures:</strong> <em>Hariti</em> (bloodthirsty yakshi converted to maternal figure), <em>Gaj Lakshmi</em> (yakshi surrounded by lotuses/elephants), <em>Didarganj Yakshi</em> (polished stone statue in Patna museum, holds a fly whisk "Chauri", lower garment is "Antari"), <em>Salabhanjika Yakshi</em> (reference to Buddha's mother Maya under sala tree), <em>Prajnaparamita Yakshi</em> (female deity, source of omniscience).</li>
-                </ul>
-            </li>
-        </ul>
-
-        <h3>4. Jainism - Exhaustive Extraction</h3>
-        <ul>
-            <li><strong>Origin Causes:</strong> Opposition to Brahminical dominance, Rise of Agricultural economy (Vaishyas funded them), rejection of Varna system (linked Varna to karma, not birth). Rejected infallibility of Vedas.</li>
-            <li><strong>Tirthankaras (24):</strong>
-                <ul>
-                    <li><strong>1st:</strong> Rishabh Dev / Adinath (Bull). Born in Ayodhya.</li>
-                    <li><strong>22nd:</strong> Arishtanemi (Conch/Shankh).</li>
-                    <li><strong>23rd:</strong> Parshavnath (Serpent). Varanasi.</li>
-                    <li><strong>24th:</strong> Vardhaman Mahavir (Lion). Kundagram (Vaishali).</li>
-                    <li><em>Note:</em> Only Rishabh Dev and Arishtanemi are mentioned in the Vedas.</li>
-                </ul>
-            </li>
-            <li><strong>Vardhaman Mahavir:</strong> Born 540 BC. Clan: Jnatrika. Left home at 30 with <strong>Makkhali Gosala</strong> (who later founded the fatalistic <strong>Ajivika Sect</strong>). Attained <em>Kaivalya</em> at 42 under a <strong>Sal tree</strong> at Jambhikagrama near river <strong>Rijupalika</strong>. First sermon at <strong>Rajgir</strong>. Died at <strong>Pavapuri</strong> (468 BC).</li>
-            <li><strong>Terms:</strong> <em>Moksha</em> (Salvation), <em>Asrava</em> (Inflow of karmic practices), <em>Basadis</em> (Jain monasteries), <em>Jina</em> (Conqueror).</li>
-            <li><strong>Philosophy (Triratnas):</strong> Right Knowledge (Samyaka Jnana), Right Faith (Samyaka Darshana), Right Conduct (Samyaka Charitra).</li>
-            <li><strong>Five Vows (Panch Vrata):</strong> Ahimsa (Non-violence), Satya (Truth), Asteya (Non-stealing), Aparigraha (Non-possession). Mahavira added the 5th: <strong>Brahmacharya (Celibacy)</strong> to the existing four (Chaturyama Dharma).</li>
-            <li><strong>Division:</strong> During a famine in Magadha, Bhadrabahu led followers to Shravanabelagola (Karnataka). They became <strong>Digambaras</strong> (sky-clad/naked). Those who stayed in Magadha under Sthulabhadra became <strong>Shvetambaras</strong> (white-clad).</li>
-        </ul>
-
-        
-        <h3>5. Mahajanapadas</h3>
-        <ul>
-            <li>Aryans are considered the most powerful tribes during the Vedic period, and gradually transitioned to <strong>"Mahajanapadas"</strong> (great kingdoms) by the end of <strong>later Vedic Period</strong>. By forming territorial units called <strong>"Janapadas"</strong>.</li>
-            <li>Aryans lived in the land known as <strong>"Sapta Sindhu"</strong>.</li>
-            <li>Aryans &ryarr; Tribes &ryarr; Jana &ryarr; Janapadas &ryarr; Mahajanapadas (consolidation of Jana (Aryans))</li>
-            <li><strong>Total:</strong> 16 Mahajanapadas.</li>
-        </ul>
-        <h4 style="color:#F59E0B;">Sources</h4>
-        <ul>
-            <li><strong>Texts:</strong> <em>Ashtadhyayi</em> (in Sanskrit) written by <strong>Panini</strong> (oldest book on <strong>Sanskrit Grammar</strong> written in 600 BC to 300 BC).</li>
-        </ul>
-        <h4 style="color:#F59E0B;">Buddhist Literature</h4>
-        <ul>
-            <li><em>Anguttara Nikaya</em> (In it 16 Mahajanapadas are mentioned).</li>
-            <li><em>Digha Nikaya</em> (In it 12 Mahajanapadas are mentioned).</li>
-        </ul>
-        <h4 style="color:#F59E0B;">Jain Literature</h4>
-        <ul>
-            <li><em>Bhagavati Sutra</em>.</li>
-        </ul>
-        <ul>
-            <li>Mahajanapadas were either <strong>Monarchial</strong> (single decision makers) or Republic (multiple decision makers), also known as <strong>oligarchy</strong>.</li>
-            <li>The following Mahajanapadas were Republic &ryarr; <strong>Kuru, Kamboja, Vajji, Malla</strong>.</li>
-        </ul>
-
-        <h4 style="color:#F59E0B;">16 Mahajanapadas and Capitals</h4>
-        <table border="1" style="border-collapse: collapse; width: 100%; border-color:#334155; margin-bottom:20px;">
-            <tr style="background:#0F172A;"><th>Mahajanapadas</th><th>Capital & River</th></tr>
-            <tr><td>Anga</td><td>Champa (Ganga)</td></tr>
-            <tr><td>Magadh</td><td>Rajagir/ Pataliputra (Ganga & Son)</td></tr>
-            <tr><td>Kasi</td><td>Varanasi (Gomti)</td></tr>
-            <tr><td>Vatsa</td><td>Kausambi (Ganga)</td></tr>
-            <tr><td>Kosala</td><td>Sravasti / Ayodhya (Sarayu)</td></tr>
-            <tr><td>Surasena</td><td>Mathura (Yamuna)</td></tr>
-            <tr><td>Panchala</td><td>Ahichchhatra / Kampilya (Ganga)</td></tr>
-            <tr><td>Kuru</td><td>Indraprastha (Yamuna)</td></tr>
-            <tr><td>Matsya</td><td>Viratnagar (Yamuna)</td></tr>
-            <tr><td>Chedi/Chetiya</td><td>Sothivati/ Banda (Ken & Betwa)</td></tr>
-            <tr><td>Avanti</td><td>Ujjain (North)/ Mahismati (South) (Kshipra & Narmada)</td></tr>
-            <tr><td>Gandhar</td><td>Taxila (Indus)</td></tr>
-            <tr><td>Kamboj</td><td>Pooncha (Kabul & Kurram)</td></tr>
-            <tr><td>Asmaka/Assaka</td><td>Pratishtan/ Paithan/ Potana (Godavari)</td></tr>
-            <tr><td>Vajji</td><td>Vaishali (Gandak)</td></tr>
-            <tr><td>Malla</td><td>Kusinara (Sarayu)</td></tr>
-        </table>
-        <ul>
-            <li><strong>Vajji</strong> consisted of <strong>eight clans</strong> and three of them were the most powerful kingdoms &ryarr; <strong>Jnatrika, Videha, Lichchavi</strong>.</li>
-            <li>In the beginning <strong>Kasi</strong> was the most powerful Mahajanapada followed by <strong>Kosala</strong> then <strong>Magadha</strong> became the most powerful one.</li>
-        </ul>
-
-        <h4 style="color:#F59E0B;">Factors Contributing to the Rise of Mahajanapadas</h4>
-        <ul>
-            <li><strong>Use of Iron:</strong> Iron tools increased agricultural productivity and supported larger population.</li>
-            <li><strong>Urbanisation:</strong> Growth of cities like Rajagriha, Vaishali, Varanasi, Ujjain, Taxila.</li>
-            <li><strong>Rise of trade:</strong> Trade got boosted due to trade route and these routes were started to get controlled.</li>
-            <li><strong>Decline of Tribal polity:</strong> As the population grew, there was a need to set permanent boundaries.</li>
-            <li><strong>Strong military Organisation:</strong> To solve conflicts over fertile land armies need to be organized.</li>
-            <li><strong>Social Stratification (Varna System):</strong> Varna system supported the emergences of Kshatriya who controlled territories.</li>
-            <li><strong>Geographical Factors:</strong> Ganga plain had fertile alluvial soil which gave more productivity in agriculture.</li>
-        </ul>
-
-        <h4 style="color:#F59E0B;">Reasons for the Rise of Magadha</h4>
-        <ul>
-            <li>Its advantageous position &ryarr; situated <strong>south of Ganga</strong>.</li>
-            <li>The capital <strong>Rajgriha</strong> was surrounded by <strong>five hills</strong> and <strong>Pataliputra</strong> was situated at the confluence of <strong>Ganga</strong> and <strong>Son</strong>.</li>
-            <li>The availability of large number of <strong>elephants</strong> (as it was marshy-doab region).</li>
-            <li>It had many great leaders.</li>
-            <li>Availability of <strong>Iron mines</strong> (in <strong>Jharkhand region</strong>).</li>
-        </ul>
-
-        <h3>6. Dynasties That Ruled Magadha</h3>
-        <h4 style="color:#F59E0B;">Haryanka Dynasty</h4>
-        <p><strong>Bimbisara (544 BC-492 BC)</strong></p>
-        <ul>
-            <li>Title: <strong>Seniya</strong></li>
-            <li>He led military campaign against <strong>Anga</strong>.</li>
-            <li>He had <strong>three wives:</strong>
-                <ul>
-                    <li><strong>Kosala Devi</strong> &ryarr; Sister of <strong>Prasenjit</strong> (son of Kosala King)</li>
-                    <li><strong>Chellana</strong> (Lichchavi princess)</li>
-                    <li><strong>Khema</strong> &ryarr; Madra Clan (Punjab)</li>
-                </ul>
-            </li>
-            <li>He sent physician <em>'jivaka'</em> to <strong>Ujjain</strong> king <strong>Pradyota</strong>, who was suffering from <strong>jaundice</strong>.</li>
-        </ul>
-        <p><strong>Ajatshatru</strong></p>
-        <ul>
-            <li>He was the son of <strong>Chellana</strong> and <strong>Bimbisara</strong>.</li>
-            <li>He established <strong>Patliputra</strong>.</li>
-            <li>He introduced advanced military tech including the <strong>Mahashilakantaka</strong> (a giant catapult) and <strong>Rathmoosai</strong> (a scythe chariot).</li>
-            <li>He conquered <strong>Lichchavi</strong> and <strong>Vaishali</strong>.</li>
-            <li>He defeated Kosala King and married to his daughter.</li>
-            <li>He patronised the <strong>1st Buddhist Council</strong>.</li>
-            <li>He later <strong>killed</strong> his father <strong>Bimbisara</strong>.</li>
-            <li><strong>He was contemporary of Buddha and Mahavira.</strong></li>
-        </ul>
-        <p><strong>Udayin</strong></p>
-        <ul>
-            <li>He shifted the capital temporarily from <strong>Rajgriha to Patliputra</strong> (now: "Patna").</li>
-        </ul>
-        <h4 style="color:#F59E0B;">Shishunaga Dynasty</h4>
-        <ul>
-            <li><strong>Founder:</strong> <strong>Shishunaga</strong></li>
-            <li>Shishunaga defeated <strong>Nagadasaka</strong>, the last ruler of the Haryanka Dynasty.</li>
-            <li>He defeated <strong>Avanti</strong> and merged it with <strong>Magadha</strong>.</li>
-            <li><strong>Kalashoka</strong>, the second ruler of the Shishunaga dynasty, permanently shifted the capital to Pataliputra and patronized the <strong>Second Buddhist Council</strong> at Vaishali.</li>
-        </ul>
-        <h4 style="color:#F59E0B;">Nanda Dynasty</h4>
-        <p><strong>Mahapadmananda</strong></p>
-        <ul>
-            <li>He was the founder of <strong>Nanda dynasty</strong>.</li>
-            <li><strong>Title taken:</strong> <strong>Ekarat</strong> (Sole Sovereign) and <strong>Sarvakshatrantaka</strong> (Destroyer of all Kshatriyas).</li>
-        </ul>
-        <p><strong>Dhananada</strong></p>
-        <ul>
-            <li>Alexander invaded India during his reign (326 BC). In the battle of Hydaspes Alexander defeated Porus on the banks of Hydaspes (Jhelum) in 326BC.</li>
-            <li>He introduced <strong>"Nandopakramani"</strong>, a measuring unit.</li>
-            <li>He was the <strong>last king</strong> of Nanda Dynasty.</li>
-        </ul>
-        <h4 style="color:#F59E0B;">Pottery, Coins, Trade, Terms</h4>
-        <ul>
-            <li><strong>Pottery:</strong> <strong>Northern black polished wares (NBPW)</strong> were used for pottery.</li>
-            <li><strong>Coins:</strong> <strong>Punch-marked coins</strong> made of <strong>silver</strong> were used as the form of money for trade purposes. Gold coins such as <strong>Nishka</strong> and <strong>Satmana</strong> were also used.</li>
-            <li><strong>Trade:</strong> Artisans and merchants formed associations called <strong>Shrenis (Guilds)</strong> that were collectively referred to as <strong>Nigama</strong>.</li>
-            <li><strong>Craft and Architecture:</strong> Craft was <strong>hereditary</strong>. Iron ploughshare played a crucial role in the empire's agricultural success (<strong>second urbanization after Harappa</strong>).</li>
-        </ul>
-        <table border="1" style="border-collapse: collapse; width: 100%; border-color:#334155; margin-bottom:20px;">
-            <tr style="background:#0F172A;"><th>Terms</th><th>Meaning</th></tr>
-            <tr><td>Bhojaka/ Gramabhojaka</td><td>Village Headman</td></tr>
-            <tr><td>Gahapatis</td><td>Wealthy property owners, who employed Slaves or Hired Labourers</td></tr>
-            <tr><td>Shaulkika/Shulkadhyaksha</td><td>Toll-tax collecting officers</td></tr>
-            <tr><td>Bhaga</td><td>Tax (1/6th of produced)</td></tr>
-            <tr><td>Bali</td><td>Voluntary Offerings to the king</td></tr>
-        </table>
-        <h3>7. Maurya Dynasty</h3>
-        <h4 style="color:#F59E0B;">Sources for the Mauryan Empire</h4>
-        <ul>
-            <li><strong>Kautilya's Arthashastra:</strong> Arthashastra describes the <strong>administration</strong> and <strong>state policies</strong> of Mauryan Empire during Chandragupta Maurya's time. Consists of <strong>15 books</strong>, called <em>"Adhikaranas"</em>; first 5 books were based on <em>"Tantra"</em> - internal administration and next 8 books were on <em>"Avapa"</em> - interstate relation, last 2 books were miscellaneous. (<em>Chanakya is often compared with Italian Renaissance writer - Niccolo Machiavelli (author of Prince)</em>).</li>
-            <li><strong>Vishakhadatta Mudrarakshasa:</strong> It is a <strong>Sanskrit</strong> play that narrates the ascent of emperor Chandragupta Maurya to power in India. This play describes he belonged to <strong>lower caste</strong>.</li>
-            <li><strong>Indica</strong> written by <strong>Megasthenes</strong>: It includes all the detailed account of how things were run in Mauryan Empire.</li>
-            <li><strong>Buddhist Literature:</strong> Jataka tales, Dipavamsa/Mahavamsa, Divyadana.</li>
-            <li><strong>Archeological Evidence:</strong> Pillar edicts, Rock edicts.</li>
-            <li>Wooden architecture of Chandragupta Maurya found at <strong>Bulandi Bagh</strong> and <strong>Kumhrar</strong>, discovered by <strong>L. A. Waddell</strong>.</li>
-        </ul>
-
-        <h4 style="color:#F59E0B;">Chandragupta Maurya (322 BC-298 BC)</h4>
-        <ul>
-            <li>He was the <strong>founder of Mauryan Dynasty</strong> and ascended the throne by defeating the last ruler of Nanda Dynasty <strong>Dhanananda</strong>, with the help of <strong>Kautilya</strong> (also known as <strong>Chanakya/Vishnugupta</strong>) in <strong>322 BCE</strong>.</li>
-            <li>The Vishnu Purana, explicitly connects Chandragupta to the Nanda dynasty through his mother, Mura, a Shudra concubine of Dhanananda.</li>
-            <li><strong>Son:</strong> <strong>Bindusara</strong>.</li>
-            <li>He built a department <strong>"Kosthagara"</strong>: For storage of grains (mentioned in <strong>Sohgaura: Copper Plate inscription in Gorakhpur, Uttar Pradesh</strong>).</li>
-            <li>He defeated <strong>Seleucus Nicator</strong> (General & Successor Alexander).</li>
-        </ul>
-        <p><strong>About Seleucus Nicator</strong></p>
-        <ul>
-            <li>Seleucus Nicator founded <strong>Seleucid Dynasty</strong> (member of Macedonian Greek Dynasty) ruling in Northwestern parts of the Indian subcontinent.</li>
-            <li><strong>Megasthenes</strong> was in the court of Seleucus Nicator.</li>
-            <li>Chandragupta Maurya defeated Seleucus Nicator and married to his daughter <strong:Helena</strong>.</li>
-        </ul>
-        
-        <h4 style="color:#F59E0B;">Bindusara (297BC-273 BC)</h4>
-        <ul>
-            <li>He is also known as <strong>Amitrochates</strong> (destroyer of enemies) by the <strong>Greek</strong>.</li>
-            <li>He asked for sweet wine, dry figs and a philosopher from <strong>Antiochus I</strong> of Syria.</li>
-            <li>He is known for conquering the land between the two seas, extending the Mauryan Empire up to the southern tip of India.</li>
-            <li>He patronised <strong>Ajivikas</strong>.</li>
-            <li>He was visited by Greek ambassador &ryarr; <strong>Deimachus</strong>.</li>
-            <li>Mother: <strong>Durdhara</strong>. Son: <strong>Ashoka</strong>.</li>
-        </ul>
-
-        <h4 style="color:#F59E0B;">Ashoka (268 BC-232 BC)</h4>
-        <ul>
-            <li>Ashoka ascended the throne with the help of <strong>Radhagupta (Minister)</strong>.</li>
-            <li>During his father's reign, Ashoka was <strong>governor of Taxila and Ujjain</strong>.</li>
-            <li>He fought <strong>Kalinga War</strong> with <strong>Raja Anantha Padmanabha</strong>, the ruler of the <strong>independent kingdom</strong> of Kalinga in 261 BC, <strong>7 years</strong> after his coronation.</li>
-            <li>He replaced <strong>Berighosha</strong> (physical conquest) with <strong>Dhammagosha</strong> (cultural conquest) after the Kalinga War.</li>
-            <li>He sent his son <strong>Mahendra</strong> and daughter <strong>Sanghamitra</strong> to <strong>Ceylon</strong> (now known as <strong>Sri Lanka</strong>) to spread Buddhism.</li>
-            <li>He was succeeded by <strong>Dashrath Maurya</strong> (grandson of Ashoka).</li>
-        </ul>
-
-        <h4 style="color:#F59E0B;">Ashokan Edicts</h4>
-        <ul>
-            <li>Edicts of Ashoka are found in <strong>Rocks and Pillars</strong>.</li>
-            <li>There are <strong>14 Major Rock Edicts</strong> of Ashoka meaning a maximum of <strong>14 lines</strong> are engraved in Rocks.</li>
-            <li>William Jones (founder of Asiatic Society of Bengal, 1784). <strong>James Princep</strong> was the 1st to decipher Ashokan inscriptions in <strong>1837</strong>.</li>
-        </ul>
-        <p><strong>Major Rock Edicts</strong></p>
-        <ul>
-            <li><strong>Total:</strong> 14</li>
-            <li><strong>Total languages:</strong> 3 (Prakrit, Greek, Aramaic)</li>
-            <li><strong>Total scripts used:</strong> 4 (Brahmi, Kharosthi, Greek, Aramaic)</li>
-            <li><strong>Most inscriptions were in:</strong> <strong>Prakrit language in Brahmi script</strong></li>
-            <li><strong>Script used in Afghanistan:</strong> Greek and Aramaic</li>
-            <li><strong>Script used in Northwestern parts of India:</strong> Kharosthi</li>
-            <li><strong>Ashoka's Dhamma</strong> was <strong>inspired</strong> by the Buddhist <strong>"Upashaka Dhamma"</strong>, which refers to the Buddhist teaching for laymen.</li>
-            <li>In Ashoka's Greek and Aramaic inscriptions no reference to teaching of Buddha was found but in his <strong>Brahmi Khroshthi, and Prakrit inscription Buddhism was mentioned</strong>.</li>
-            <li>In inscriptions he is mentioned as: <strong>Devanami Piyadassi</strong> (Meaning: Devon ka Priya &ryarr; Beloved of God)</li>
-        </ul>
-        <p><strong>10 Places where Ashokan Rock Edicts have been Found</strong></p>
-        <ul>
-            <li><strong>Kandahar Bilingual Inscription</strong> &ryarr; Kandahar, Afghanistan</li>
-            <li><strong>Shahbazgarhi in Kharoshthi script</strong> &ryarr; Khyber Pakhtunkhwa, Pakistan</li>
-            <li><strong>Mansehra Rock Edicts</strong> &ryarr; Mansehra, Khyber Pakhtunkhwa province, Pakistan</li>
-            <li><strong>Kalsi</strong> &ryarr; Dehradun, Uttarakhand</li>
-            <li><strong>Girnar</strong> &ryarr; Gujarat (14 lines are inscribed in Girnar major Rock Edicts).</li>
-            <li><strong>Sopara</strong> &ryarr; Maharashtra</li>
-            <li><strong>Dhauli</strong> &ryarr; Bhubaneshwar, Odisha</li>
-            <li><strong>Jaugada</strong> &ryarr; Odisha</li>
-            <li><strong>Sannati</strong> &ryarr; Karnataka</li>
-            <li><strong>Yerragudi</strong> &ryarr; Kurnool district, Andhra Pradesh</li>
-        </ul>
-        <p><strong>14 Major Rock Edicts of Ashoka</strong></p>
-        <table border="1" style="border-collapse: collapse< width: 100%; border-color:#334155; margin-bottom:20px;">
-            <tr><td><strong>** Edict 1</strong></td><td>Prohibits animal slaughter. Ban festive gatherings and the killing of animals. Only two peacocks and one deer were killed in Ashoka's kitchen. He wished to discontinue this practice also.</td></tr>
-            <tr><td>Edict 2</td><td>Providing care for man and animals describes Chola, Pandaya, kingdoms of south India.</td></tr>
-            <tr><td>Edict 3</td><td>Generosity to Brahmans.</td></tr>
-            <tr><td><strong>** Edict 4</strong></td><td><strong>Dhammaghosa over bherighosa.</strong></td></tr>
-            <tr><td>Edict 5</td><td>Concerns over policy towards slaves.</td></tr>
-            <tr><td>Edict 6</td><td>Welfare measures</td></tr>
-            <tr><td><strong>** Edict 7</strong></td><td><strong>Requests tolerance for all religions</strong></td></tr>
-            <tr><td>Edict 8</td><td>Describes Ashoka's first Dhammayatra to Bodh Gaya and Bodhi tree</td></tr>
-            <tr><td>Edict 9</td><td>Condemns popular ceremonies. Stress on ceremonies of dhamma.</td></tr>
-            <tr><td>Edict 10</td><td>Condemns the desire for fame and glory. It stresses the popularity of Dhamma.</td></tr>
-            <tr><td>Edict 11</td><td>Elaborates dhamma.</td></tr>
-            <tr><td><strong>** Edict 12</strong></td><td><strong>Directed and determined requests for tolerance among different religious sects.</strong></td></tr>
-            <tr><td><strong>** Edict 13</trong></td><td><strong>Ashoka's victory over Kalinga (old name of Odisha)</strong></td></tr>
-            <tr><td>Edict 14</td><td>Describes engraving of inscriptions in different parts of the country.</td></tr>
-        </table>
-        
-        <p><strong>Minor Rock Edicts</strong></p>
-        <ul>
-            <li>Minor Rock edict 1 provides the evidence of gradual religious transformation of Ashoka to Buddhism.</li>
-            <li>Four Edicts where Ashoka has been mentioned by his name. These four are: <strong>Maski</strong> &ryarr; Karnataka, <strong>Nettur</strong> &ryarr; Karnataka, <strong>Brahmagiri</strong> &ryarr; Karnataka, <strong>Gujjara</strong> &ryarr; Madhya Pradesh.</li>
-            <li>Maski Ashoka inscription was discovered by <strong>C. Beadon</strong>.</li>
-        </ul>
-
-        <p><strong>Pillar Edicts</strong></p>
-        <ul>
-            <li><strong>Total: 7</strong> (meaning: 7 lines)</li>
-            <li><strong>Delhi Topra Pillar Edict:</strong> It comprises all the 7 Ashokan Pillar Edicts and the <strong>7th Edict</strong> is considered as the <strong>longest</strong> amongst them all. Only one language <strong>(Prakrit)</strong> and only one script <strong>(Brahmi)</strong> is used. Delhi Topra Pillar was transferred from <strong>Haryana</strong> to in <strong>Delhi</strong> by <strong>Firoz Shah Tughlaq</strong>. The painted illustration of the moving of the Ashoka Pillar at Topra is found in <strong>Sirat-i-Firuz Shahi</strong>.</li>
-            <li><strong>Ashoka Pillar, Sarnath:</strong> It was adopted as the National Emblem on <strong>26th Jan 1950</strong>. Here, Ashoka commemorated the first Sermon of Buddha. <strong>Animals: Lion, Elephants, Horse, Bull</strong>.</li>
-            <li><strong>Rampurva Bull:</strong> Placed in President House. Found in Bihar.</li>
-            <li><strong>Bihar Edicts:</strong> <em>Lauriya Areraj</em> (capital not found), <em>Lauriya Nandangarh</em>.</li>
-            <li><strong>Barabar Hill Caves</strong> (Built by Ashoka for Buddhist monks) and <strong>Nagarjuni Caves</strong> (Built by Dashrath Maurya, grandson of Ashoka) in Bihar are considered as the oldest surviving rock-cut caves in India.</li>
-            <li><strong>Lomas Rishi Caves</strong> in Bihar.</li>
-            <li><strong>Konagamana/Kanakamuni Stupa</strong> &ryarr; Rebuilt by Ashoka (after he visited <strong>Nigali Sagar</strong>).</li>
-            <li><strong>Nigali Sagar Inscription (Nepal):</strong> It confirms that Ashoka enlarged the stupa of the Kanakamuni Buddha.</li>
-            <li><strong>Rummindei Pillar inscription:</strong> Also known as <strong>Lumbini Pillar Edict</strong> located in <strong>Nepal</strong>. It depicts that Ashoka traveled to the Buddha's birthplace. He <strong>reduced taxes</strong> of the people living in that area.</li>
-        </ul>
-
-        <h4 style="color:#F59E0B;">Mauryan Administration</h4>
-        <ul>
-            <li><strong>Saptanga Theory by Kautilya:</strong> He mentioned <strong>7 elements</strong> to rule an administration effectively. 1. Raja: King, 2. Amatya: Secretary, 3. Janpada: Territory, 4. Durga: Fort, 5. Kosha: Treasury, 6. Danda: Army, 7. Mitra: Friend.</li>
-        </ul>
-        <p><strong>Provinces under Mauryan Administration</strong></p>
-        <ul>
-            <li>Prachyapatha (East) &ryarr; Tosali</li>
-            <li>Avantipatha (West) &ryarr; Ujjain</li>
-            <li>Uttarapatha (North) &ryarr; Taxila</li>
-            <li>Dakshinapatha (South) &ryarr; Suvarnagiri</li>
-            <li>Prachi (Imperial Capital) &ryarr; Pataliputra</li>
-        </ul>
-        <p><strong>Tax System</strong></p>
-        <ul>
-            <li>Tax paid in gold: <strong>Hiranya</strong>.</li>
-            <li>Emergency tax: <strong>Pranaya</strong>.</li>
-            <li>Taxes paid in kind by villages: <strong>Pindakara</strong>.</li>
-            <li>Army maintenance tax: <strong>Senabhaktam</strong>.</li>
-            <li>Extra tax: <strong>Parsvam</strong>.</li>
-        </ul>
-        <p><strong>Two Types of Courts</strong></p>
-        <ul>
-            <li>1. <strong>Dharmasthiya Nyayalaya:</strong> Presided by <strong>Vyavaharika</strong> (personal disputes).</li>
-            <li>2. <strong>Kantakasodhana Nyayalaya:</strong> Presided by <strong>Pradeshta</strong> (disputes between state and people).</li>
-        </ul>
-        <p><strong>Officers</strong></p>
-        <ul>
-            <li><strong>Sannidhata:</strong> Chief treasury officer (CTO)</li>
-            <li><strong>Samaharta:</strong> Collector general of revenue</li>
-            <li><strong>Gopa:</strong> Responsible for account</li>
-            <li><strong>Akshapatalik:</strong> Accountant General/ Audit Officer</li>
-            <li><strong>Nagaraka:</strong> Responsible for city administration</li>
-            <li><strong>Sitadhyaksha:</strong> Superintendent of Agriculture</li>
-            <li><strong>Samsthadhyaksha:</strong> Responsible for market</li>
-            <li><strong>Navadhyaksha:</strong> Superintendent of ships</li>
-            <li><strong>Ashwadhyaksha:</strong> Commanding officer of the cavalry</li>
-            <li><strong>Shulkadhyaksha:</strong> Superintendent of Toll Tax</li>
-            <li><strong>Akaradhyaksha:</strong> Superintendent of Mines</li>
-            <li><strong>Dhamma Mahamatta:</strong> New post created by Ashoka to check if people are following the concepts of Dhamma</li>
-        </ul>
-        <p><strong>Indica - Account of the Mauryan Empire by Megasthenes</strong></p>
-        <ul>
-            <li>It mentions about administration and society of Mauryan period.</li>
-            <li><strong>Municipal Administration:</strong> Managed by 6 committees, each consisting of 5 members.</li>
-            <li><strong>Military Administration:</strong> The army was also organized under 6 committees, each with 5 members.</li>
-            <li>Megasthenes divided Mauryan society into <strong>7 classes</strong>. (TRICK: PCS TWO C) &ryarr; 1. Philosophers, 2. Cultivators/Farmers, 3. Hunters and Shepherd, 4. Traders, 5. Warrior, 6. Overseer (spy), 7. Councillor.</li>
-            <li>Megasthenes described Pataliputra as a large and beautiful city, surrounded by a massive wall. The city had 570 towers and 64 gates, showcasing its grandeur and strategic importance.</li>
-        </ul>
-        <p><strong>Arthashastra</strong></p>
-        <ul>
-            <li><strong>Kautilya</strong> proposes a <strong>seven-part structure</strong> for the state including the king, ministers, territory, forts, treasury, military, and allies (also known as <strong>saptanga theory</strong>)</li>
-            <li><strong>Women</strong> occupied <strong>higher positions</strong> in society and were a part of <strong>Army</strong>.</li>
-        </ul>
-        <p><strong>Society & Administration</strong></p>
-        <ul>
-            <li>Society was divided into <strong>4 varnas</strong>. Social order based on the <strong>Dharma, Varna</strong> and <strong>Ashrama</strong> systems.</li>
-            <li><strong>Antyaja:</strong> Without any caste.</li>
-            <li><strong>8 types</strong> of marriages were mentioned and <strong>divorce was allowed</strong></li>
-            <li><strong>Provincial Administration:</strong> Divided in: <strong>Centre, Province</strong> and <strong>District</strong> Unit. District Unit (<strong>Vishaya and Ahara</strong>).</li>
-            <li><strong>Silver</strong> was extensively used for <strong>coinage</strong> in the Mauryan Empire.</li>
-            <li><strong>Sthanika:</strong> Head of several villages. <strong>Gramika:</strong> Head of the village.</li>
-            <li><strong>Provincial Officers:</strong> <strong>Kumar or Aryaputra or Pradeshika:</strong> Provincial head. <strong>Mahamatya:</strong> Senior Administration officer. <strong>Amatya:</strong> Executive officials. <strong>Yukta:</strong> Revenue Assessment. <strong>Rajjuka:</strong> Judicial officers.</li>
-            <li><strong>Recruitment:</strong> Tribes used as troops, spies, and assassins.</li>
-            <li><strong>Ports:</strong> West: <strong>Bharuch (Gujarat), Sopara (Maharashtra)</strong>. East: <strong>Tamralipti (Bengal)</strong>.</li>
-            <li>Note: The last ruler of Mauryan Dynasty <strong>Brihadratha Maurya</strong> was <strong>killed</strong> by his military commander <strong>Pushyamitra Shunga</strong> which led to the start of Shunga Dynasty.</li>
-        </ul>
-
-        <h3>11. Post-Gupta Dynasties</h3>
-        <h4 style="color:#F59E0B;">Pushyabhuti / Vardhana Dynasty</h4>
-        <ul>
-            <li><strong>Founder:</strong> <strong>Pushyabhuti</strong>. They were ruling in <strong>Thaneshwar</strong> (now in Haryana).</li>
-            <li><strong>Son:</strong> <strong>Prabhakarvardhan</strong>. <em>Prabhakarvardhan had two sons and a daughter:</em> <strong>Rajyavardhana</strong> (eldest), <strong>Harshavardhana</strong> (youngest), <strong>Rajyashri</strong> (daughter) who married <strong>Grahavarman</strong> (he was a member of the Maukhari Dynasty, ruling at kannauj).</li>
-            <li>Grahavarman was killed by the combined armies of <strong>Devgupta</strong> (Ruler of Malwa) and <strong>Shashanka</strong> (Ruler of Gauda). Subsequently, Rajyavardhana was also killed. Harshvardhana took revenge by defeating the Gauda King Shashanka.</li>
-        </ul>
-        <p><strong>Harshavardhana (606 AD-647 AD)</strong></p>
-        <ul>
-            <li><strong>Capital:</strong> <strong>Kannauj</strong>.</li>
-            <li><strong>Defeated:</strong> <strong>Dhruvasena II</strong> (ruler of <strong>Maitraka Dynasty</strong> and then married his daughter to him to secure the western boundary).</li>
-            <li>He was a <strong>shaivite</strong> and patronised <strong>Buddhist</strong> religion.</li>
-            <li><strong>He authored 3 books:</strong> <strong>Ratnavali, Nagananda</strong>, and <strong>Priyadarshika</strong>.</li>
-            <li>Biography of Harshavardhana <strong>"Harshacharita"</strong> written by his court poet <strong>Banabhatta</strong> (he also wrote: <strong>Kadambari</strong>).</li>
-            <li><strong>"Sakalottarapathanatha"</strong> title given to Harshvardhana which means Lord of North India (mentioned in Chalukyan inscription).</li>
-            <li>He was defeated by <strong>Pulakeshin II</strong> (Chalukyan king) on the banks of Narmada river (<strong>Battle of Narmada</strong> in 618 AD).</li>
-            <li>His administrative empire was divided into two parts: directly <strong>administered territories</strong> and <strong>feudatory states</strong>.</li>
-            <li><strong>Arunashva</strong> (Governor under Harsha) ruled after Harsha but could not establish a dynasty.</li>
-        </ul>
-        <p><strong>Hiuen-Tsang / Xuang-Zang:</strong></p>
-        <ul>
-            <li><strong>"nd</strong> Chinese Traveller (1400 years ago). He stayed in India for about 15 years.</li>
-            <li>He traveled extensively under the patronage of Emperor <strong>Harshavardhana</strong>.</li>
-            <li>His writings, <strong>"Si-yu-ki" (Records of the Western World)</strong>, provide invaluable insights into Indian society, religion, education, and administration.</li>
-        </ul>
-        <p><strong>Assemblies:</strong></p>
-        <ul>
-            <li><strong>Kannauj:</strong> To honour Hiuen -Tsang.</li>
-            <li><strong>Prayag:</strong> Organised every 5 years at the confluence of Ganga, Yamuna, and Saraswati. Known as the origin of the Kumbh tradition (first historical evidence of Kumbh Mela).</li>
-        </ul>
-        <p><strong>Inscription:</strong></p>
-        <ul>
-            <li><strong>Banskhera inscription:</strong> it is a 7th-century CE (628 CE) <strong>copper plate</strong> grant issued by Harshavardhana, discovered in <strong>Shahjahanpur</strong>, Uttar Pradesh. It has Harshavardhan's <strong>personal signature</strong>.</li>
-            <li><strong>Madhuban copper plate inscription & Sonpat inscription</strong> - are also <strong>epigraphical sources</strong> about Harsha's reign.</li>
-            <li>Harshavardhan's <strong>Vallabhi conquest</strong> is found in - <strong>Navsari copper plate Inscription</strong>.</li>
-        </ul>
-        <h4 style="color:#F59E0B;">Maukhari Dynasty</h4>
-        <ul>
-            <li><strong>Ishanvarman</strong>, an important ruler of Maukhari Dynasty took title of <strong>Maharajadhiraja</strong>.</li>
-        </ul>
-        <h4 style="color:#F59E0B;">Ikshvaku Dynasty</h4>
-        <ul>
-            <li><strong>Founder:</strong> <strong>Chintamula 1</strong>.</li>
-            <li><strong>Time period:</strong> 3rd - 4th century CE.</li>
-            <li><strong>Capital:</strong> <strong>Vijayapuri</strong> (identified with Nagarjunkonda).</li>
-            <li><strong>Region:</strong> Lower Krishna - Guntur valley (modern Andhra Pradesh).</li>
-        </ul>
-        <h4 style="color:#F59E0B;">Vishnukundin Dynasty</h4>
-        <ul>
-            <li><strong>Capital:</strong> Amarapuram or Amravati.</li>
-        </ul>
-
-        <h3>12. Chalukyas & Pallavas</h3>
-        <h4 style="color:#F59E0B;">Chalukya Dynasty</h4>
-        <ul>
-            <li>Chalukya Dynasty rulers were feudatories of <strong>Kadambas of Banavasi</strong>.</li>
-            <li>They were divided into three distinct dynasties:
-                <ul>
-                    <li><strong>Badami Chalukya</strong> (Early Chalukya) &ryarr; Capital: Vatapi</li>
-                    <li><strong>Eastern Chalukya</strong> &ryarr; Capital: Vengi</li>
-                    <li><strong>Western Chalukya</strong> (Later Chalukya) &ryarr; Capital: Kalyani</li>
-                </ul>
-            </li>
-        </ul>
-        <p><strong>Badami Chalukya</strong></p>
-        <ul>
-            <li><strong>Jayasimha:</strong> He was the first ruler of this dynasty. <strong>Capital: Vatapi</strong>.</li>
-            <li><strong>Pulakeshin I (543 AD-566 AD):</strong> He was the founder of <strong>Badami Chalukya Dynasty</strong>. <strong>Pulakeshin I had two son: Kirtivarman I</strong> and <strong>Mangalesha</strong> (Mangalesh was killed by Kirtivarman I's son <strong>Pulakeshin II</strong>, who later ascended the throne).</li>
-            <li><strong>Pulakeshin II (610 AD-642 AP):</strong> He is considered the <strong>greatest ruler</strong> of this dynasty. After defeating Harshavardhana, <strong>Pulakeshin II</strong> took the title of <strong>"Dakshinapatheshwara"</strong> (Lord of South). <strong>Titles of Pulakeshin II:</strong> Satyashraya, Bhattaraka, Maharajadhiraja, Parameshwara, Prithvivallabha. He also defeated <strong>Mahendravarman I</strong> (Pallava ruler) in the <strong>Battle of Pullalur</strong>. He was defeated in the <strong>Battle of Vatapi</strong> (642 CE) by <strong>Narasimhavarman I</strong> (son of Mahendravarman I), who then assumed the title <strong>"Vatapikonda"</strong> (Conqueror of Vatapi). <strong>Aihole Pillar Inscription</strong> (Karnataka) was about Pulakeshin II, composed by his court poet <strong>Ravikirti</strong>.</li>
-            <li><strong>Vikramaditya I:</strong> He was the third son of Pulakeshin II. He recovered <strong>Vatapi</strong> from Pallavas. His great grandson <strongKirtivarman II (last ruler of Badami Chalukya)</strong> was defeated by <strong>Dantidurga</strong> who later founded Rashtrakuta Dynasty.</li>
-        </ul>
-        <p><strong>Chalukyan Architecture</strong></p>
-        <ul>
-            <li>Chalukyan Temple architecture is divided into three groups:</li>
-            <li><strong>Aihole:</strong> Known as Laboratory of Indian Temple Architecture. Examples: <strong>Ravana Phadi Caves</strong>, <strong>Lad Khan Temple</strong> (Dedicated to Shiva), <strong>Durga Temple</strong> (Example of <strong>Gaja-Prishta</strong> form of architecture, Originally dedicated to God 'Surya', Located in 'Bagalkot', Karnataka, Known for its unique apical design. <em>Gaja-Prishta: Elliptical shaped formation seen in Dravid or Vesara form of Architecture</em>), <strong>Huchimalligudi temple, Aihole</strong> (Shiva Temple built around the 7th century by the Early Chalukyas), <strong>Meguti Jain Temple</strong> (Only Jain temple at Aihole. Contains the <strong>Aihole inscription</strong> of Ravikirti).</li>
-            <li><strong>Badami:</strong> Famous for rock-cut cave temples. <strong>Badami Rock Cut Caves:</strong> Four major rock-cut caves carved into sandstone cliffs showcasing Shaiva, Vaishnava, and Jain traditions side by side.</li>
-            <li><strong>Pattadakal:</strong> Blend of Nagara (North Indian) and Dravida (South Indian) styles. <strong>Pattadakal group of temple:</strong> A total of 10 temples seen here: 4 (Nagara style) and 6 (Dravida style). Declared as <strong>UNESCO World Heritage Site</strong> in 1987. Pattadakal group of temples are known as <strong>"Cradle of Indian Architecture"</strong>. Examples: <strong>Virupaksha Temple</strong> (Dedicated to Lord Shiva. Built in: Dravida style. Built by: <strong>Queen Lokamahadevi</strong>), <strong>Papanatha temple</strong> (Based on Mixed architecture style: Nagara+Dravid. Part of Pattadakal group), <strong>Sangameshwara Temple</strong> (Dravida style. Dedicated to Lord Shiva), <strong>Galaganatha Temple</strong> (Nagara style), <strong>Mallikarjuna temple</strong> (Built by <strong>Trilokadevi</strong>, wife of Vikramaditya 2).</li>
-        </ul>
-
-        <h4 style="color:#F59E0B;">Pallava Dynasty (575 AD-897 AD)</h4>
-        <ul>
-            <li><strong>Founder:</strong> <strong>Simha Vishnu</strong>.</li>
-            <li><strong>Capital:</strong> <strong>Kanchipuram</strong>.</li>
-            <li>Pallavas were feudatories to <strong>Kalabhras</strong>.</li>
-            <li>They developed the Dravida architecture temples.</li>
-            <li><strongGreatest ruler:</strong> Mahendravarman I.</li>
-        </ul>
-        <p><strong>Mahendravarman I (600 AD - 630 AP)</strong></p>
-        <ul>
-            <li>Patron of Rock-cut Architecture.</li>
-            <li>Initially Mahendravarman was Jain then converted to Hinduism (Shaivaites).</li>
-            <li>Son: Narasimhavarman 1.</li>
-        </ul>
-        <p><strong>Narasimhavarman I (630 AD - 668 AD)</strong></p>
-        <ul>
-            <li><strong>Title taken:</strong> <strong>Mahamalla</strong> and <strong>Vatapikonda</strong>.</li>
-            <li>He started the <strong>Monolithic Rock</strong> cut temple.</li>
-            <li>He founded the <strong:port city Mahabalipuram</strong>.</li>
-            <li><strong>Last ruler:</strong> <strong>Aparajitavarman</strong> defeated by Chola king <strong>Aditya I</strong> in 897 AD.</li>
-        </ul>
-        <p><strong>Pallava Architecture</strong></p>
-        <ul>
-            <li><strong>Shore temple, Mahabalipuram:</strong> Added to UNESCO World Heritage Site in <strong>1984</strong>. Dedicated to: Lord Shiva. Built by: <strong>Narasimhavarman II</strong> (known as: Rajasimha, known for: Structured Stone temples). Located at <strong>Mahabalipuram</strong> facing towards Bay of Bengal in the Coromandal Coast.</li>
-            <li><strong>Kailasanathar temple:</strong> Built by: <strong>Narasimhavarman II</strong>. Made up of Granite Rock. Dedicated to Shiva. <strong>Narsimhavarman II</strong> started standing Rock cut Architecture.</li>
-            <li><strong>Seven Ratha temple, Mahabalipuram, Tamil Nadu:</strong> Built by: <strong>Narasimhavarman I</strong>. These temples are also known as <strong>Pancha Rathas</strong> or <strong>Pandava Rathas</strong>. Called <strong>Seven Pagoda</strong> by <em>"Marco Polo"</em>. Each ratha has a distinct plan, showcasing architectural diversity: 1. <strong>Draupadi Ratha</strong> &ryarr; Simple hut-like shrine, 2. <strong>Arjuna Ratha</strong> &ryarr; Square-plan shrine, 3. <strong>Bhima Ratha</strong> &ryarr; Elongated hall (mandapa type), 4. <strong>Dharmaraja Ratha</strong> &ryarr; Multi-storeyed vimana, 5. <strong>Nakula-Sahadeva Ratha</strong> &ryarr; Apsidal (semi-circular) plan.</li>
-        </ul>
-
-        <h4 style="color:#F59E0B;">Rashtrakuta Dynasty (755 AD - 982 AP)</h4>
-        <ul>
-            <li><strong>Capital:</strong> <strong>Manyakheta</strong> (Modern day Malkhed, Karnataka).</li>
-            <li>Known for their military strength, patronage of literature, and support of Jainism and Shaivism.</li>
-        </ul>
-        <p><strong>Dantidurga (735 AD - 756 AP)</strong></p>
-        <ul>
-            <li>Founded the Rashtrakuta dynasty by overthrowing the Chalukyas of Badami.</li>
-            <li><strong>Assumed titles:</strong> <strong>Prithvivallabha, Rajadhiraj</strong>.</li>
-            <li><strong>Sanjan Plates</strong> (Copper-plate inscription of Dantidurga): Records victories over Kalinga, Malava, Lata, Tanka, Koshala, and the Gurjara king Nagabhata I.</li>
-            <li>Performed the <strong>Hiranyagarbha</strong> Mahadana ritual at Ujjain to assert <strong>Kshatriya</strong> status.</li>
-            <li>Defeated <strong>Kirtivarman II</strong>, the last ruler of the Badami Chalukyas.</li>
-        </ul>
-        <p><strong>Krishna I (756 AD - 774 AP)</strong></p>
-        <ul>
-            <li>He was the successor and paternal uncle of Dantidurga. Patron of Shaivism. Continued military campaigns against Chalukyas and Pallavas.</li>
-            <li>Constructed <strong>Kailashnatha temple</strong> at Ellora. Built by <strong>Krishna I</strong>, it is the World's <strong>largest Monolithic</strong> Rock Cut Temple. Present at <strong>16th</strong> Ellora cave. Added to UNESCO World Heritage site in <strong>1983</strong> along with Ajanta - Ellora caves. <strong>Aurangzeb</strong>, the Mughal Emperor, once attempted to destroy the temple.</li>
-        </ul>
-        <p><strong>Govinda II:</strong> Son of Krishna I, weak ruler, short reign, no significant conquests.</p>
-        <p><strong>Dhruva Dharavarsha (780 AD - 793 AD)</strong></p>
-        <ul>
-            <li>He expanded Rashtrakuta power into North India and initiated their role in the <strong>Tripartite Struggle</strong>.</li>
-            <li>Dhruv Dharavarsha Defeated: <strong>Vatsaraja</strong> (Gurjara-Pratihara ruler), <strong>Dharmapala</strong> (Pala ruler), <strong>Pallavas</strong> in the south.</li>
-        </ul>
-        <|p><strong>Govinda III (793 AD - 814 AD)</strong></p>
-        <ul>
-            <li>Son of Dhruva Dharavarsha. <strong>Title Assumed:</strong> <strong>Sarvabhauma</strong> (Universal Monarch).</li>
-            <li>He defeated <strong>Pratihara king Nagabhatta II</strong> and <strong>Dharmapala</strong> of Pala dynasty.</li>
-            <li>Considered the most aggressive Rashtrakuta ruler during the Tripartite Struggle.</li>
-            <li>Inscriptions claim victories over Gurjaras, Andhra Pradesh, Kerala and even Lanka. He conquered <strong>Himalaya to Kaveri</strong>.</li>
-        </ul>
-        <p><strong>Amoghavarsha I (814 AD - 878 AD)</strong></p>
-        <ul>
-            <li>Son of Govinda III and great grandson of Krishna 1. <strong>Real name:</strong> <strong>Sarva</strong> (before coronation). <strong>Assumed title:</strong> <strong>"Nripatunga"</strong>.</li>
-            <li>He converted to Jainism and patronised Jainism. Patron of literature and grammar.</li>
-            <li>He was disciple of <strong>Acharya Jinasena</strong>, who authored the <strong>Adi Purana</strong> during his reign.</li>
-            <li><strong>Saktayana</strong>, grammarian in his court, composed <strong>Amoghavritti</strong> (Sanskrit grammar).</li>
-            <li>Amoghavarsha himself authored: <strong>Kavirajamarga</strong> (earliest known Kannada literary work) and <strong>Prashnottara Ratnamalika</strong> (in Sanskrit).</li>
-            <li>Referred to as <strong>"Ashoka of the South"</strong> for his non-violent policies and Jain influence.</li>
-        </ul>
-        <p><strong>Krishna II:</strong> Faced stiff resistance from <strong>Eastern Chalukyas</strong> and <strong>Cholas</strong>. Could not expand the empire like his predecessors and saw stagnation in territorial expansion.</p>
-        <p><strong>Indra III (914 AD - 928 AD)</strong></p>
-        <ul>
-            <li>Briefly restored Rashtrakuta supremacy by occupying Kannauj during the Tripartite Struggle, defeating Pratihara <strong>Mahipala I</strong>.</li>
-            <li><strong>Assumed titles:</strong> <strong>Ratta Kandarpa</strong> (meaning "Rashtrakuta Cupid") and <strong>Nityovarsha</strong> (symbolizing prosperity).</li>
-            <li>Described by <strong>Arab traveler Al-Masudi</strong> in his book <strong>Muraj ul-Zuhab</strong> (Book of Golden Meadows).</li>
-        </ul>
-        <|p><strong>Govinda IV:</strong> His reign marks the beginning of the decline of the Rashtrakuta empire.</p>
-        <|p><strong>Amoghavarsha II:</strong> Short and insignificant reign, overshadowed by internal conflicts.</p>
-        <|p><strong>Krishna III (939 AD - 967 AD)</strong></p>
-        <ul>
-            <li>Considered the last great Rashtrakuta ruler.</li>
-            <li>Successfully invaded the Chola territory and captured <strong>Tanjore</strong> (Thanjavur) by defeating Chola king <strong>Prantaka I</strong> in the <strong>Battle of Tokkolam</strong> in 949 AD.</li>
-            <li>Took the grand imperial <strong>title: Akhilakshtrakuta Chakravartin</strong> (Universal Emperor of all Rashtrakutas).</li>
-            <li>Defeated <strong>Eastern Chalukyas</strong>, maintaining supremacy in the Deccan.</li>
-            <li>At the peak of his reign, controlled territory from <strong>Gujarat</strong> to <strong>Tanjore</strong>.</li>
-        </ul>
-        <p><strong>Khottiga (967 AD - 972 AP)</strong></p>
-        <ul>
-            <li>Also Known as <strong>Karka II</strong>. Karka II Defeated by <strong>Tailopa II</strong> who established Later Chalukya.</li>
-            <li>Faced attack from Paramara ruler <strong>Siyaka II</strong>, who sacked the Rashtrakuta capital Manyakheta, marking the start of Rashtrakuta decline. This attack significantly weakened the dynasty. Manyakheta was destroyed, marking a symbolic end of Rashtrakuta power.</li>
-        </ul>
-        <p><strong>Indra IV (973 AD - 982 AP)</strong></p>
-        <ul>
-            <li>Last Rashtrakuta Ruler. Committed <strong>Sallekhana</strong>, the Jain ritual of voluntary death by <strong>fasting</strong>.</li>
-            <li>Power passed to the Western Chalukyas of Kalyani, under Tailapa II.</li>
-            <li>Tailapa II was once a feudatory of the Rashtrakutas and founded a new dynasty, Chalukyas of Kalyani.</li>
-        </ul>
-        <p><strong>Architecture (Rashtrakutas)</strong></p>
-        <ul>
-            <li><strong>Ellora caves:</strong> Location: <strong>Sambhajinagar, Maharashtra</strong>. Build time: 6th - 11th century AD. Total <strong>34 caves</strong>.</li>
-            <li><strong>Cave 1 - 12:</strong> Associated to <strong>Buddhism</strong> (Patronised by Kalachuris and Early Chalukya).</li>
-            <li><strong>Cave 13 - 29:</strong> Associated to <strong:Hinduism</strong> (Patronised by Rashtrakutas).</li>
-            <li><strong>Cave 30 - 34:</strong> Associated to <strong>Digambar Jainism</strong> (Patronised by Rashtrakutas).</li>
-            <li><strong>Elephanta Caves:</strong> Build time: 5th- 7th century AD. Total <strong>7 caves</strong>. Built by <strong>Rashtrakutas</strong> and later <strong>Kalachuri Dynasty</strong>. Three - head idol of Shiva (<strong>Trimurti</strong>) can be seen here. Added to UNESCO world heritage in <strong>1987</strong>.</li>
-            <li><strong>Dashavatara Temple:</strong> Dedicated to: Lord Vishnu. It is studied as a bridge between Gupta art and post-Gupta temple culture.</li>
-        </ul>
-        <h4 style="color:#F59E0B;">Dynasties that emerged after the Rashtrakutas and Their Regional Influence</h4>
-        <table border="1" style="border-collapse: collapse; width: 100%; border-color:#334155; margin-bottom:20px;">
-            <tr style="background:#0F172A;"><th>Dynasty</th><th>Region</th><th>Relation to Rashtrakutas</th></tr>
-            <tr><td>Western Chalukyas (Kalyani)</td><td>Karnataka</td><td>Direct successors</td></tr>
-            <tr><td>Paramaras</td><td>Malwa</td><td>Former Feudatories</td></tr>
-            <tr><td>Kalachuris (Tripuri)</td><td>Madhya Pradesh</td><td>Regional beneficiaries</td></tr>
-            <tr><td>Yadavas (Seuna)</td><td>Maharashtra</td><td>Former Feudatories</td></tr>
-            <tr><td>Eastern Chalukyas</td><td>Andhra Pradesh</td><td>Strengthened & Expanded due to vacuum</td></tr>
-            <tr><td>Cholas</td><td>Tamil Nadu</td><td></td></tr>
-        </table>
-        
-        <p><strong>Chalukyas of Kalyani (Later Chalukyas)</strong></p>
-        <ul>
-            <li><strong>Period:</strong>973-1189 CE. <strong>Founder:</strong> Tailapa II. <strong>Capital:</strong> Kalyani. <strongFamous Ruler:</strong> Vikramaditya VI. <strong>Architecture:</strong> Gadag style. <strong>Successors:</strong> Hoysalas.</li>
-        </ul>
-        <p><strong>Parmar Dynasty</strong></p>
-        <ul>
-            <li><strong>Region:</strong> Malwa. <strong>Capital:</strong> Dhara. <strong>Famous Ruler:</strong> Raja Bhoja. <strong>Architecture:</strong> Malwa Nagara style. <strong>Origin:</strong> Ex-feudatories of Rashtrakutas.</li>
-            <li>Statue of <strong>Raja Bhoja</strong>, a legendary Indian king from the 11th century. Location: The 32-foot-high bronze statue is located at the Upper Lake in <strong>Bhopal</strong>, Madhya Pradesh, India.</li>
-            <li>Raja Bhoja wrote a book <strong>"Sarasvatikanthabharana"</strong>. <strong>Bhojatal Lake</strong> of Bhopal provides 40% water supply. Paramaras were devotees of Shiva.</li>
-        </ul>
-        <p><strong>Kalachuri Dynasty</strong></p>
-        <ul>
-            <li><strong>Capital:</strong> Tripuri (MP). <strong>Period:</strong> 9th-12th CE. <strong>Religion:</strong> Shaivism. <strong>Architecture:</strong> Central Indian Nagara. <strong>Key Ruler:</strong> Lakshmikarna. <strong>Famous Region:</strong> Amarkantak.</li>
-        </ul>
-        <p><strong:Hoysala Dynasty</strong></p>
-        <ul>
-            <li>They were feudatory to <strong>Chalukyas of Kalyani</strong>. <strong>Capital:</strong> <strong>Dwarasamudra (Halebidu)</strong>. <strong>Founder:</strong> <strong>Nripa Kama II</strong>.</li>
-            <li><strong>Period:</strong> 10th-14th CE. <strong>Greatest Ruler:</strong> Vishnuvardhana. <strong>Architecture:</strong> Stellate soapstone temples, Gadag style. <strong>Successors:</strong> Vijayanagara Empire.</li>
-            <li><strong>Lakkundi Temple (Vesara style):</strong> Developed during later Chalukyas (Kalyani).</li>
-            <li><strong>Somnathpura Temple (Karnataka):</strong> Built by: Hoysala Dynasty.</li>
-            <li><strong>Chennakeshava Temple (Belur, Karnataka):</strong> Star-shaped temple. Built by: <strong>King Vishnuvardhana</strong>. Style of architecture: <strong>Bhumija style</strong> of architecture. Dedicated to: Lord Vishnu. Chenna means <em>'Beautiful'</em> and Keshava means <em>'Vishnu'</em>. Built in <strong>soapstone</strong> (chloritic schist).</li>
-            <li><strong:Hoysaleswara Temple (Halebidu, Karnataka):</strong> <strong>42nd UNESCO World Heritage</strong> site. Dedicated to: Lord Shiva. <strong>3 Jain Basadis</strong> are within the complex.</li>
-        </ul>
-        <p><strong>Yadava Dynasty:</strong> Capital: <strong>Devagiri</strong>.</p>
-        <p><strong>Kakatiyas:</strong> Capital: <strong>Warangal</strong>.</p>
-        <p><em>Quick Revisions:</em> Pulakeshin II defeated Harshavardhana. Pulakeshin II defeated Mahendravarman I. Narsimhavarman I defeated Pulakesin II.</p>
-
-        <h3>13. Tripartite Struggle and Cholas</h3>
-        <h4 style="color:#F59E0B;">Tripartite Struggle</h4>
-        <ul>
-            <li>A prolonged political and military conflict between 8th - 10th CE to control Kannauj, a symbol of imperial legitimacy in North India. It is also known as <strong>Kannauj Triangle War</strong>.</li>
-            <li>Fought among three powerful dynasties: 1. <strong>Palas:</strong> East India (Bengal region). 2. <strong>Pratiharas:</strong> West and Central India (Rajasthan, MP, Gujarat). 3. <strong>Rashtrakutas:</strong> Deccan (Maharashtra and Karnataka).</li>
-        </ul>
-        <p><strong>Pala Dynasty</strong></p>
-        <ul>
-            <li><strong>Founder:</strong> <strong>Gopala</strong>. They were followers of <strong>Mahayana Buddhism</strong>.</li>
-            <li><strong>Rulers:</strong> Gopala &ryarr; Dharmapala &ryarr; Devapala &ryarr; Mahipala &ryarr; Ramapala.</li>
-            <li><strong>Gopala (750 AD - 770 AD):</strong> Elected by local leaders to end anarchy in Bengal. He was founder of <strong>Odantapuri University</strong>.</li>
-            <li><strong>Dharmapala (770 AD - 810 AD):</strong> Most expansionist Pala rulers. <strong>Title: Paramsaugat</strong>. Founded <strong>Vikramashila University</strong> (famous for Vajrayana or Tantrik Buddhism studies (Bhagalpur, <strong>Bihar</strong>)) & <strong>Sompura University</strong>. He defeated <strong:Indrayudh</strong> and conquered Kannauj for a brief time and established Chakrayudh as puppet ruler. After winning Kannauj, he assumed the title <strong>"Uttarapath Swami"</strong> (Lord of the North). He was defeated by <strong>Dhruva Dharavarsha</strong> (Rashtrakuta king) in a battle near Munger, Bihar. Fought against <strong>Vatsaraja</strong> (Pratiharas) and <strong>Govinda III</strong> (Rashtrakuta).</li>
-            <li><strong>Devapala (810 AD - 850 AD):</strong> He expanded the Pala Empire to its greatest extent, conquering Assam, Odisha, and parts of the Deccan. Sent Buddhist missions to Sri Lanka, Burma, and Java. Strengthened the Pala navy for overseas missions and coastal control. Continued patronage of Nalanda and Vikramashila universities. The <strong>Shailendra king Balaputradeva</strong> (from Srivijaya, Southeast Asia) requested and received grants for a monastery at <strong>Nalanda</strong> from Devapala. Devapala granted land revenue from 5 villages for this monastery. Notable Buddhist monks during his reign: <strong>Dipankar Atisha</strong> came from Tibet, studied at Vikramashila and Nalanda, <strong>Dharmasvami</strong> - Another respected monk active during this period.</li>
-            <li><strong>Mahipala I (988 AD - 1038 AD):</strong> He revived the Pala dynasty after decline, recovering northern and eastern Bengal and Bihar. Mentioned in the <strong>Kalhana's Rajatarangini</strong> (written in <strong>Sanskrit</strong> language in 12th century AD).</li>
-            <li><strong>Successors:</strong> Nayapala &ryarr; Vigrahapala III &ryarr; Mahipala II &ryarr; Ramapala (The period of decline began). Faced attacks from the <strong>Kalachuri</strong> and <strong>Sena dynasties</strong>. Among them, Ramapala was the last notable ruler who tried to revive the empire.</li>
-            <li><strong>Madana Pala:</strong> Defeated by <strong>Vijayasena</strong> of the Sena dynasty. His defeat marked the end of Pala rule in Bengal.</li>
-        </ul>
-        <p><strong>Sena Dynasty</strong></p>
-        <ul>
-            <li><strong>Founder:</strong> <strong>Hemanta Sena</strong> (c. 1095 AD). <strong>Real Founder:</strong> <strong>Vijaysena</strong>.</li>
-            <li><strong>Capital:</strong> <strong>Vijayapura</strong>. Highly Centralised Monarchy. The Sena Dynasty ruled Bengal after the Pala dynasty (11th-12th century AD. </li>
-            <li>During Sena Dynasty rule <strong>Jaydeva</strong> wrote <strong>Gita Govinda</strong>. They revived Brahmanism (orthodox Hinduism) in Bengal.</li>
-            <li><strong>Rulers:</strong> Ballala Sena, Lakshman Sena. Ballala Sena introduced <strong>'Kulinism'</strong>. His successor, Vijaya Sena, reigned for over 60 years, solidifying the dynasty's control.</li>
-            <li><strong>Dhakeshwari Temple</strong> in Dhaka was built in the 12th century CE by King <strong>Ballala Sen</strong>.</li>
-            <li>In 1204 <strong>Bakhtiyar Khilji</strong> attacked <strong>Lakshman sena</strong> and ended the Sena Dynasty.</li>
-        </ul>
-        <p><strong>Gurjara Pratihara</strong></p>
-        <ul>
-            <li><strong>Capital:</strong> <strong>Kannauj/Bhinmal</strong>. Founder of the dynasty: Nagabhatta I. Defeated Arab forces in Rajasthan (Battle near Broach) in the 8th century. <em>Agnikul Theory related to Gurjar Pratihars is written in the Prithviraj Raso.</em></li>
-            <li><strong>Nagabhatta I (730 AD - 760 AD)</strong>.</li>
-            <li><strong>Vatsaraja:</strong> First Pratihara king to enter the <strong>Tripartite Struggle</strong> for Kannauj. Faced defeat by <strong>Dharmapala</strong> (Pala king).</li>
-            <li><strong>Nagabhatta II:</strong> He recovered Kannauj. He defeated <strong>Dharmapala</strong> but was defeated by <strong>Govinda III</strong> (Rashtrakuta ruler).</li>
-            <li><strong>Ramabhadra:</strong> Son of Nagabhata II (a weak ruler, short reign).</li>
-            <li><strong>Mihir Bhoja or Bhoja I (836 AD - 885 AD):</strong> <strong>Most powerful ruler</strong> of the Gurjara-Pratihara dynasty. He extended the empire from Gujarat to Bengal. <strong>Adopted divine title: Adivaraha</strong> (Boar incarnation of Vishnu). Coins issued with Varaha Image (boar symbol). Described by Arab travelers (like <strong>Sulaiman</strong
-) as: <em>"Enemy of Islam"</em> and one of the four great kings of the world in their view.</li>
-            <li><strong>Gwalior Inscription:</strong> Record defeat of <strong>Govinda III's</strong> army at <strong>Sagar Tal</strong> (though Rashtrakutas claim the opposite). Proclaims Bhoja's power and victory in <strong>Madhya Bharat</strong>. Defeated Devapala (Pala ruler) in battle. Reasserted Pratihara supremacy in the Kannauj region.</li>
-            <li><strong>Mahendrapala (885 AD - 910 AD):</strong> Son of Mihira Bhoja. Successfully maintained the strength and prosperity of the Pratihara empire. Ruled over a vast territory from Punjab to Bengal. Launched a <strong>military campaign</strong> against <strong>Kashmir</strong>: Fought with <strong>Shankaravarman</strong> (Karkota ruler of Kashmir) and was defeated in the campaign. His court became a major center of Sanskrit learning and literature. He patronized <strong>Rajashekhara</strong>, a celebrated Sanskrit poet and dramatist, often called the <em>"Kalidasa of the Pratiharas."</em></li>
-            <li>Under Mahendrapala's patronage, Rajashekhara composed several important works: <strong:Karpuramanjari</strong> - Prakrit play (the only known Prakrit drama of that time). <strong>Viddhasalabhanjika</strong> - Sanskrit drama. <strong>Bal Ramayana</strong> - Condensed version of the Ramayana. <strong>Bal Mahabharata</strong> - Condensed version of the Mahabharata. <strong>Harivilasa</strong> - Epic work on Lord Krishna. <strong>Bhuvanakosha</strong> - Descriptive geography of the known world. <strong>Kavyamimamsa</strong> - Treatise on literary criticism and theory.</li>
-            <li><strong>Mahipala I:</strong> He was defeated by <strong>Indra III</strong>, the Rashtrakuta ruler, around 915 CE. This defeat led to the loss of Kannauj and marked the beginning of the Pratihara Empire's decline.</li>
-            <li><strong>Bhoja II:</strong> A weak ruler, under whose reign internal conflicts weakened the empire.</li>
-            <li><strong>Vijayapala:</strong> He ruled during the decline of the Pala dynasty and lost many territories to rival powers.</li>
-            <li><strong>Rajyapala:</strong> Led during <strong>Mahmud of Ghazni's</strong> invasion in 1018 CE, offering no resistance. His inaction was widely condemned, and he was later killed by the Chandela ruler <strong>Vidyadhara</strong> for capitulating to Mahmud.</li>
-            <li><strong>Trilochanapala:</strong> He ruled during the collapse of the Pratihara state.</li>
-            <li><strong>End of Dynasty:</strong> The Pratiharas lost power due to <strong>external invasions</strong>, and <strong>internal fragmentation</strong> among feudatories. Their decline marked the end of the Tripartite Struggle (Pratiharas-Palas-Rashtrakutas) for control of Kannauj.</li>
-        </ul>
-
-        <h4 style="color:#F59E0B;">Chola Dynasty (300 BC-1279 AD)</h4>
-        <ul>
-            <li><strong>Capital:</strong> <strong>Uraiyur</strong> and later <strong>Thanjavur</strong> (Established by <strong>Vijayalaya</strong> as the capital in the 9th century).</li>
-            <li>They were feudatories of the <strong>Pallavas</strong>.</li>
-            <li><strong>Chola Administration:</strong> <strong>Mandalam</strong> (Province) &ryarr; <strong>Valanadu</strong> (Divisions) &ryarr; <strong>Nadu</strong> (Districts) &ryarr; <strong>Karrum</strong> (Villages).</li>
-            <li>Most significant feature of the Chola Administration was <strong>Local Self-government</strong> (Decentralised).</li>
-            <li>Source: <strong>Uttaramerur Inscription</strong> in Kanchipuram (Tamil Nadu) gives details of the Chola Administration.</li>
-        </ul>
-        <p><strong>Rulers of Chola Dynasty</strong></p>
-        <ul>
-            <li><strong>Vijayalaya:</strong> He is the <strong>founder</strong> of Imperial Chola Dynasty. He built the <strong>Nishumbhasudini</strong> Temple in <strong>Thanjavur</strong>.</li>
-            <li><strong>Aditya I:</strong> Son of Vijayalaya. Defeated <strong>Aparajita</strong>, the last Pallava ruler, and established the Chola supremacy.</li>
-            <li><strong>Parantaka I:</strong> He defeated the <strong>Pandya</strong> King and the <strong>Ruler of Sri Lanka</strong>. Took the title <strong>Maduraikonda</strong>. Built the <strong>Netaraja Temple</strong> in <strong>Chidambaram</strong> (Tamil Nadu).</li>
-        </ul>
-        <p><strong>Rajaraja Chola I (985 AD-1014 AD)</strong></p>
-        <ul>
-            <li>He was the <strong>greatest ruler</strong> of the Chola Dynasty. <strong>Titles:</strong> Mummidi Chola, Maltanda Chola.</li>
-            <li>He conquered <strong>No Republic of Maldives</strong> and <strong>Northern Sri Lanka</strong>.</li>
-            <li>He built <strong>Brihadeshwara Temple</strong> also known as <strong>Rajarajeshwara Temple</strong> in Thanjavur (Tamil Nadu). Dedicated to Lord Shiva.</li>
-        </ul>
-        <p><strong>Rajendra Chola I (1014 AD-1044 AD)</strong></p>
-        <ul>
-            <li>He was the son of Rajaraja Chola I.</li>
-            <li>He annexed the whole of <strong>Sri Lanka</strong>.</li>
-            <li>Rajendra I was the first Indian king to take his army across the <strong>Bay of Bengal</strong> to defeated <strong>Srivijaya</strong> or <strong>Sailendra Empire</strong> (Indonesia).</li>
-            <li>He defeated <strong>Mahipala</strong> (Pala ruler) in Bengal. And assumed the title of <strong>"Gangaikonda" or "Gangaikondachola"</strong>.</li>
-            <li>After winning over Palas, He established a new capital called <strong>Gangaikondacholapuram</strong> and built a <strong>Shiva Temple</strong>.</li>
-        </ul>
-        <p><strong>Rajendra Chola II</strong></p>
-        <ul>
-            <li>He defeated the <strong>Chalukya King</strong> <strong>Someshwara</strong>.</li>
-            <li>He provided a significant grant to a music dynasty, facilitating the establishment of a <strong>Music School</strong>.</li>
-        </ul>
-        <p><strong>Last Ruler:</strong> <strong>Rajendra III</strong>.</p>
-        <p><strong>Culture and Architecture</strong></p>
-        <ul>
-            <li><strong>Artapakitti:</strong> Bronze Image of Lord Shiva made during Chola dynasty.</li>
-            <li><strong>Tirumurai:</strong> A Compilation of poems and hymns in praise of Lord Shiva by the <strong>Nayanar</strong> saints in the <strong>Tamil language</strong>. The eleventh volume is composed by <strong>Karaikkal Ammaiyar</strong>.</li>
-            <li><strong>Great Living Chola Temples:</strong> These were built during the Chola Empire in the <strong>Dravidian</strong> style of temple architecture. Built by Chola kings between 11th and 12th centuries CE. Collectively, they are a <strong>UNESCO World Heritage</strong> Site (added in 1987 and 2004).</li>
-            <li><strong>Three Major Temples:</strong>
-                <ul>
-                    <li><strong>Brihadisvara Temple</strong> at Thanjavur.</li>
-                    <li><strong>Brihadisvara Temple</strong> at Gangaikondacholapuram.</li>
-                    <li><strong>Airavatesvara Temple</strong> at Darasuram.</li>
-                </ul>
-            </li>
-        </ul>
-        <h3>14. Chandels, Chauhans &amp; Temple Architecture</h3>
-        <h4 style="color:#F59E0B;">Chandel Dynasty</h4>
-        <ul>
-            <li><strong>Founder:</strong> Nannuka. <strong>Capital:</strong> Khajuraho.</li>
-            <li>They were feudatories of the <strong>Gurjara Pratiharas</strong> and ruled in the <strong>Jejakabhukti</strong> region (Bundelkhand, modern day MP - UP) for about 500 years (from the 9th to the 13th century).</li>
-        </ul>
-        <p><strong>Yashovarman (925 - 950 CE)</strong></p>
-        <ul>
-            <li>Established Chandela power by independengly ruling the Bundelkhand region, uprooting the supremacy of the <strong>Gurjara-Pratiharas</strong>.</li>
-            <li>Commissioned the construction of the <strong>Lakshmana Temple</strong> at Khajuraho, a manifestation of his growing power and devotion to Lord Vishnu.</li>
-        </ul>
-        <|p><strong>Dhangadeva (950 - 999 CE)</strong></p>
-        <ul>
-            <li>The <strong>greatest ruler</strong> of the Chandela dynasty, under whom the kingdom reached its zenith.</li>
-            <li>Assumed the title of <strong>"Maharajadhiraja"</strong>.</li>
-            <li>Built several magnificent temples at Khajuraho, including the <strong>Vishvanatha Temple</strong> and <strong>Parshvanatha Temple</strong>, reflecting his patronage of both <strong>Shaivism</strong> and <strong>Jainism</strong>.</li>
-            <li>Ended his life by voluntary drowning in the sacred confluence of Prayag (Allahabad), a ritual known as <em>Jal Samadhi</em>.</li>
-        </ul>
-        <p><strong>Vidyadhara (1003 - 1035 CE)</strong></p>
-        <ul>
-            <li>Defended the Khajuraho region against <strong>Mahmud of Ghazni's</strong> invasions, emerging as one of the few Indian rulers to successfully resist him.</li>
-            <li>Commissioned the construction of the <strong>Kandariya Mahadeva Temple</strong>, the largest and most ornate of the Khajuraho group of temples.</li>
-        </ul>
-        <h4 style="color:#F59E0B;">Chauhan Dynasty (8th - 12th CE)</h4>
-        <ul>
-            <li><strong>Founder:</strong> <strong>Vasudeva Chauhan</strong>.</li>
-            <li><strong>Capital:</strong> Shakambhari (present-day Sambhar, Rajasthan) and later <strong>Ajmer</strong>.</li>
-            <li>Grew in power as feudatories of the <strong>Gurjara-Pratiharas</strong>, eventually asserting independence.</li>
-            <li>Commanded a strategic position in North-central India (Rajasthan, parts of Gujarat, and Haryana).</li>
-        </ul>
-        <p><strong>Ajayaraja II (1110 - 1135 CE)</strong></p>
-        <ul>
-            <li>Established the city of <strong>Ajayameru</strong> (present-day <strong>Ajmer</strong>), making it the new Chauhan capital.</li>
-            <li>Constructed the <strong>Taragarh Fort</strong> (Also known as Ajaymeru Durg) on a hilltop in Ajmer, strengthening the dynasty's defenses.</li>
-            <li>Issued silver coins bearing his name and the name of his queen, Somalladevi, signifying his sovereign status.</li>
-        </ul>
-        <p><strong>Arnoraja (1135 - 1150 CE)</strong></p>
-        <ul>
-            <li>Son of Ajayaraja II. Continued the expansion of the Chauhan empire, conflicting with the Chalukyas of Gujarat.</li>
-            <li>Commissioned the construction of <strong>Ana Sagar Lake</strong> in Ajmer.</li>
-        </ul>
-        <p><strong>Vigraharaja IV (Bisaldew) (1150 - 1164 CE)</strong></p>
-        <ul>
-            <li>Expanded the Chauhan empire to its zenith, capturing Delhi (Dhillika) from the <strong>Tomaras</strong> and controlling a vast territory from the Vindhyas to the Himalayas.</li>
-            <li>Authored the Sanskrit play <strong>Harikeli</strong> Nataka.</li>
-            <li>Patronized scholars like <strong>Somadeva</strong>, who composed the <strong>Lalita Vigraharaja Nataka</strong>.</li>
-            <li>Built a Sanscrit college at Ajmer, which was later converted into the <strong>Adhai Din Ka Jhonpra</strong> mosque by Qutb-ud-din Aibak.</li>
-        </ul>
-        <|p><strong>Prithviraj Chauhan III (1178 - 1192 CE)</strong></p>
-        <ul>
-            <li>The most celebrated Chauhan ruler, renewed for his military valor and romantic tales (eg. elopement with Sanyogita, daughter of Jaichand of Kannauj*.</li>
-            <li><strong>First Battle of Tarain (1191 CE):</strong> Defeated <strong>Muhammad Ghori</strong>, forcing him the retreat.</li>
-            <li><strong>Second Battle of Tarain (1192 CE):</strong> Defeated by <strong>Muhammad Ghori</strong>, marking a decisive turning point in Indian history and paving the way for Islamic rule in North India.</li>
-            <li>His life and exploits are romanticized in the epic poem <strong>Prithviraj Raso</strong>, composed by his court poet <strong>Chand Bardai</strong>.</li>
-        </ul>
-        <h4 style="color:#F59E0B;">Temple Architecture</h4>
-        <ul>
-            <li>It is broadly divided into three styles: Nagara (North India), Dravida (South India) & Vesara (Mix of Nagara and Dravida).</li>
-            <li><strong>Nagara Style:</strong>
-                <ul>
-                    <li><strong>Features:</strong> Cruciform ground plan. Curvilinear tower (<strong>Shikhara</strong>) over the main sanctum (<strong>Garbhagriha</strong>). Mandapos (Assembly halls) in front of the sanctum. &ryarr; Presence of <strong>Amalaka</strong> (a fluted disc-like structure) and <strong>Kalasha</strong> (vase) on top of the Shikhara.</li>
-                    <li><strong>Examples:</strong> <strong>Khajuraho Temples</strong>, Madhya Pradesh (Built by Chandela dynasty, eg., Kandariya Mahadeva Temple). <strong>Sun Temple, Konark</strong>, Odisha (Built by King Narasimhadeva I of Eastern Ganga Dynasty, 13th century). <strong>Lingaraja Temple, Bhubaneshwar</strong>, Odisha (Built by King Jajati Keshari of Somavamshi dynasty, 11th century).</li>
-                </ul>
-            </li>
-            <li><strong>Dravida Style:</strong>
-                <ul>
-                    <li><strong>Features:</strong> Pyramidal tower (<strong>Vimana</strong>) over the main sanctum. Presence of <strong>Gopurams</strong> (gateways) at the entrance. Enclosed within compound walls. &ryarr; Presence of <strong>Kalyana Mandapas</strong>(marriage halls) and temple tanks (Kalyani).</li>
-                    <li><strong>Examples:</strong> <strong>Brihadisvara Temple, Thanjavur</strong>, Tamil Nadu (Built by Rajaraja Chola I, 11th century). <strong>Meenakshi Amman Temple, Madurai</strong>, Tamil Nadu (Built by Nayakas, 17th century). <strong>Shore Temple, Mahabalipuram</strong>, Tamil Nadu (Built by Narasimhavarman II of Pallava dynasty, 8th century).</li>
-                </ul>
-            </li>
-            <li><strong>Vesara Style:</strong>
-                <ul>
-                    <li><strong>Features:</strong> Blend of Nagara and Dravida styles. Stellate (star-shaped) plan. Intricate carvings and scumptures. &ryarr; Presence of both <strong>Shikhara</strong> and <strong>Vimana</strong> elements.</li>
-                    <li><strong>Examples:</strong> <strong>Hoysaleswara Temple, Halebidu</strong>, Karnataka (Built by King Vishnuvardhana of Hoysala dynasty, 12th century). <strong>Chennakeshava Temple, Belur</strong>, Karnataka (Built by King Vishnuvardhana of Hoysala dynasty, 12th century). <strong>Durga Temple, Aihole</strong>, Karnataka (Built by Chalukyas of Badami, 7th-8th century).</li>
-                </ul>
-            </li>
-        </ul>
 ,
     mcqs: [
     {
@@ -2633,7 +1739,7 @@
         question: "Who developed the 'Three Age System' (Stone, Bronze, Iron)?",
         options: ["V.S. Wakankar", "C.J. Thomson", "Gordon Childe", "Robert Bruce Foote"],
         correct: 1,
-        explanation: "C.J. Thomson (Christian JÃ¼rgensen Thomsen) developed the Three Age System."
+        explanation: "C.J. Thomson (Christian Jürgensen Thomsen) developed the Three Age System."
     },
     {
         topic: "Stone Age",
@@ -2660,13 +1766,13 @@
         topic: "Stone Age",
         question: "Which of the following is the correct chronological order of Stone Ages?",
         options: [
-            "Neolithic â†’ Palaeolithic â†’ Mesolithic",
-            "Palaeolithic â†’ Mesolithic â†’ Neolithic",
-            "Mesolithic â†’ Palaeolithic â†’ Neolithic",
-            "Palaeolithic â†’ Neolithic â†’ Mesolithic"
+            "Neolithic → Palaeolithic → Mesolithic",
+            "Palaeolithic → Mesolithic → Neolithic",
+            "Mesolithic → Palaeolithic → Neolithic",
+            "Palaeolithic → Neolithic → Mesolithic"
         ],
         correct: 1,
-        explanation: "The correct order is Palaeolithic (Old Stone) â†’ Mesolithic (Middle Stone) â†’ Neolithic (New Stone Age)."
+        explanation: "The correct order is Palaeolithic (Old Stone) → Mesolithic (Middle Stone) → Neolithic (New Stone Age)."
     },
     // ===== IVC - EXPANDED =====
     {
@@ -2681,7 +1787,7 @@
         question: "The IVC script was written in which style?",
         options: ["Left to right", "Right to left", "Boustrophedon (alternating directions)", "Top to bottom"],
         correct: 2,
-        explanation: "IVC script was Boustrophedon â€” written Right to Left in one line, then Left to Right in the next."
+        explanation: "IVC script was Boustrophedon — written Right to Left in one line, then Left to Right in the next."
     },
     {
         topic: "Indus Valley Civilization",
@@ -2709,7 +1815,7 @@
         question: "The Greeks used the word 'Sindon' for which IVC product?",
         options: ["Copper", "Cotton", "Sesame oil", "Indigo"],
         correct: 1,
-        explanation: "The Greeks called cotton 'Sindon' â€” derived from 'Sindh', where cotton was extensively produced and traded."
+        explanation: "The Greeks called cotton 'Sindon' — derived from 'Sindh', where cotton was extensively produced and traded."
     },
     {
         topic: "Indus Valley Civilization",
@@ -2745,7 +1851,7 @@
         question: "The Boghazkoi inscription (found in Turkey) mentions which Vedic gods?",
         options: ["Brahma, Vishnu, Shiva", "Indra, Varuna, Mitra, Nasatya", "Agni, Surya, Soma, Vayu", "Indra, Agni, Soma, Pushan"],
         correct: 1,
-        explanation: "The Boghazkoi inscription mentions Indra, Varuna, Mitra (Mithra), and Nasatya â€” proving Vedic Aryans had contact with West Asia."
+        explanation: "The Boghazkoi inscription mentions Indra, Varuna, Mitra (Mithra), and Nasatya — proving Vedic Aryans had contact with West Asia."
     },
     {
         topic: "The Vedic Age",
@@ -2771,7 +1877,7 @@
             "Rig Veda - Brahma, Sama Veda - Hotri"
         ],
         correct: 1,
-        explanation: "Rig Veda â†’ Hotri (reciter), Sama Veda â†’ Udgatri (chanter), Yajur Veda â†’ Adhvaryu (performer of rituals), Atharva Veda â†’ Brahma (supervisor)."
+        explanation: "Rig Veda → Hotri (reciter), Sama Veda → Udgatri (chanter), Yajur Veda → Adhvaryu (performer of rituals), Atharva Veda → Brahma (supervisor)."
     },
     {
         topic: "The Vedic Age",
@@ -2792,7 +1898,7 @@
         question: "The Upaveda of Atharva Veda is:",
         options: ["Dhanurveda", "Gandharvaveda", "Ayurveda", "Shilpaveda"],
         correct: 2,
-        explanation: "Ayurveda (medicine) is the Upaveda of Atharva Veda. Dhanurveda (archery) â†’ Yajur Veda; Gandharvaveda (music) â†’ Sama Veda."
+        explanation: "Ayurveda (medicine) is the Upaveda of Atharva Veda. Dhanurveda (archery) → Yajur Veda; Gandharvaveda (music) → Sama Veda."
     },
     {
         topic: "The Vedic Age",
@@ -2856,7 +1962,7 @@
         question: "Dhammapada, a famous Buddhist text, is part of which Pitaka?",
         options: ["Vinaya Pitaka", "Khuddaka Nikaya of Sutta Pitaka", "Abhidhamma Pitaka", "Digha Nikaya"],
         correct: 1,
-        explanation: "Dhammapada (compiled at the 3rd Buddhist Council) is part of the Khuddaka Nikaya â€” one of the 5 Nikayas of the Sutta Pitaka."
+        explanation: "Dhammapada (compiled at the 3rd Buddhist Council) is part of the Khuddaka Nikaya — one of the 5 Nikayas of the Sutta Pitaka."
     },
     {
         topic: "Buddhism",
@@ -2913,7 +2019,7 @@
         question: "The Syadvada (theory of maybe/perhaps) and Anekantavada (many-sidedness of truth) are doctrines of which religion?",
         options: ["Buddhism", "Jainism", "Ajivika sect", "Charvaka school"],
         correct: 1,
-        explanation: "Syadvada (Saptabhangi â€” 7 modes of prediction) and Anekantavada (non-absolutism) are key philosophical doctrines of Jainism."
+        explanation: "Syadvada (Saptabhangi — 7 modes of prediction) and Anekantavada (non-absolutism) are key philosophical doctrines of Jainism."
     },
     {
         topic: "Jainism",
@@ -2954,7 +2060,7 @@
         question: "Which Mahajanapada consisted of 8 clans, of which the Lichchhavi and Videha were the most important?",
         options: ["Malla", "Kuru", "Vajji", "Kamboja"],
         correct: 2,
-        explanation: "Vajji (Vrijji) was a confederacy of 8 clans â€” including the Lichchhavi (capital Vaishali) and Videha (Mithila). It was India's first known republic."
+        explanation: "Vajji (Vrijji) was a confederacy of 8 clans — including the Lichchhavi (capital Vaishali) and Videha (Mithila). It was India's first known republic."
     },
     {
         topic: "Mahajanapadas & Magadha Empire",
@@ -3126,7 +2232,7 @@
         question: "The 'Uttaramerur Inscription' (Chola period) describes which famous local self-governance system?",
         options: ["The Panchayat system", "The Kudavolai (lottery) system for electing village assemblies", "The Zamindari system", "The Jajmani system"],
         correct: 1,
-        explanation: "The Uttaramerur Inscription (from the reign of Parantaka I) describes the Kudavolai system â€” a lottery-based election for the Uttaramerur Sabhas (village assemblies), a form of early democracy."
+        explanation: "The Uttaramerur Inscription (from the reign of Parantaka I) describes the Kudavolai system — a lottery-based election for the Uttaramerur Sabhas (village assemblies), a form of early democracy."
     },
     // ===== ANCIENT BOOKS & PHILOSOPHIES - EXPANDED =====
     {
@@ -3134,7 +2240,7 @@
         question: "Which is the correct author-book match: Mudrarakshasa?",
         options: ["Panini", "Vishakhadatta", "Kalhana", "Bana Bhatta"],
         correct: 1,
-        explanation: "Vishakhadatta wrote Mudrarakshasa (a Sanskrit play about Chandragupta Maurya). Other key matches: Ashtadhyayi â†’ Panini, Rajatarangini â†’ Kalhana, Harshacharita â†’ Bana Bhatta."
+        explanation: "Vishakhadatta wrote Mudrarakshasa (a Sanskrit play about Chandragupta Maurya). Other key matches: Ashtadhyayi → Panini, Rajatarangini → Kalhana, Harshacharita → Bana Bhatta."
     },
     {
         topic: "Ancient Books & Authors",
@@ -3182,29 +2288,29 @@
 ,
 
     // ===== STONE AGE FC =====
-    { topic: "Stone Age", front: "Who discovered Bhimbetka caves (1957)?", back: "V.S. Wakankar â€” 'Father of Indian Rock Art'." },
+    { topic: "Stone Age", front: "Who discovered Bhimbetka caves (1957)?", back: "V.S. Wakankar — 'Father of Indian Rock Art'." },
     { topic: "Stone Age", front: "Who was the first to discover rock paintings in India (1867-68)?", back: "Archibald Campbell Carlleyle at Sohagighat, UP." },
     { topic: "Stone Age", front: "Which site = skull of Homo Erectus found?", back: "Hathnora, Madhya Pradesh (Narmada Man)." },
     { topic: "Stone Age", front: "Burzahom (Kashmir) is famous for?", back: "Pit dwellings + dog burials with masters." },
     { topic: "Stone Age", front: "Which site = Ostrich evidence first found in India?", back: "Patne, Maharashtra (Upper Palaeolithic)." },
     { topic: "Stone Age", front: "Which site = traces of ash/fire first discovered?", back: "Kurnool Caves, Andhra Pradesh." },
-    { topic: "Stone Age", front: "Three Age System (Stone/Bronze/Iron) developed by?", back: "C.J. Thomson (Christian JÃ¼rgensen Thomsen)." },
-    { topic: "Stone Age", front: "First Palaeolithic tool in India â€” where and by whom?", back: "Pallavaram (near Madras), Robert Bruce Foote, 1863." },
+    { topic: "Stone Age", front: "Three Age System (Stone/Bronze/Iron) developed by?", back: "C.J. Thomson (Christian Jürgensen Thomsen)." },
+    { topic: "Stone Age", front: "First Palaeolithic tool in India — where and by whom?", back: "Pallavaram (near Madras), Robert Bruce Foote, 1863." },
     { topic: "Stone Age", front: "Mehrgarh (oldest farming evidence, 7000 BCE) is in which country?", back: "Pakistan (Balochistan)." },
     // ===== IVC FC =====
     { topic: "Indus Valley Civilization", front: "Mesopotamian name for IVC?", back: "Meluhha. (Magan = Oman, Dilmun = Bahrain)" },
-    { topic: "Indus Valley Civilization", front: "IVC script style?", back: "Boustrophedon â€” Right to Left, then Left to Right alternately." },
+    { topic: "Indus Valley Civilization", front: "IVC script style?", back: "Boustrophedon — Right to Left, then Left to Right alternately." },
     { topic: "Indus Valley Civilization", front: "IVC city with NO Citadel?", back: "Chanhudaro (excavated by N.G. Majumdar)." },
-    { topic: "Indus Valley Civilization", front: "IVC brick ratio?", back: "1:2:4 (Height:Width:Length) â€” perfectly standardised." },
+    { topic: "Indus Valley Civilization", front: "IVC brick ratio?", back: "1:2:4 (Height:Width:Length) — perfectly standardised." },
     { topic: "Indus Valley Civilization", front: "Greeks called cotton by what name?", back: "Sindon (derived from Sindh)." },
     { topic: "Indus Valley Civilization", front: "IVC weights made of?", back: "Chert. Binary for lower, Decimal for higher denominations." },
     { topic: "Indus Valley Civilization", front: "Canal irrigation traces at which IVC site?", back: "Shortugai, Afghanistan (northernmost IVC site)." },
     { topic: "Indus Valley Civilization", front: "Dholavira = India's UNESCO site number?", back: "40th UNESCO World Heritage Site (2021)." },
-    { topic: "Indus Valley Civilization", front: "Horse bones found at which IVC site?", back: "Surkotada (Gujarat) â€” only IVC site with horse remains." },
+    { topic: "Indus Valley Civilization", front: "Horse bones found at which IVC site?", back: "Surkotada (Gujarat) — only IVC site with horse remains." },
     // ===== VEDIC FC =====
-    { topic: "The Vedic Age", front: "Boghazkoi Inscription (Turkey) mentions which 4 Vedic gods?", back: "Indra, Varuna, Mitra, Nasatya â€” proves Aryan-West Asia contact." },
+    { topic: "The Vedic Age", front: "Boghazkoi Inscription (Turkey) mentions which 4 Vedic gods?", back: "Indra, Varuna, Mitra, Nasatya — proves Aryan-West Asia contact." },
     { topic: "The Vedic Age", front: "Vedic priests for each Veda?", back: "Hotri (Rig), Udgatri (Sama), Adhvaryu (Yajur), Brahma (Atharva)." },
-    { topic: "The Vedic Age", front: "Gayatri Mantra â€” Mandala, Rishi, Deity?", back: "3rd Mandala. Composed by Vishwamitra. Addressed to Savitri (Sun)." },
+    { topic: "The Vedic Age", front: "Gayatri Mantra — Mandala, Rishi, Deity?", back: "3rd Mandala. Composed by Vishwamitra. Addressed to Savitri (Sun)." },
     { topic: "The Vedic Age", front: "3 female sages who composed Rig Vedic hymns?", back: "Ghosha, Apala, and Viswavara." },
     { topic: "The Vedic Age", front: "Katha Upanishad contains the story of?", back: "Nachiketa and Yama (God of Death). From Yajur Veda." },
     { topic: "The Vedic Age", front: "6 Vedangas (limbs of the Vedas)?", back: "Shiksha, Chandas, Vyakarana, Nirukta, Kalpa, Jyotisha." },
@@ -3214,7 +2320,7 @@
     { topic: "Buddhism", front: "5 symbols of Buddha's life events?", back: "Lotus (Birth), Horse (Renunciation), Bodhi Tree (Enlightenment), Wheel (1st Sermon), Stupa (Death)." },
     { topic: "Buddhism", front: "Bhumisparsha Mudra means?", back: "Right hand touches earth = witness to enlightenment at Bodh Gaya." },
     { topic: "Buddhism", front: "Parts of a Stupa?", back: "Anda (dome), Harmika (railing on top), Yasti (pillar), Torana (gateway), Medhi (terrace), Vedika (outer railing)." },
-    { topic: "Buddhism", front: "4 Buddhist Councils â€” Location, Patron, President?", back: "1: Rajagriha-Ajatashatru-Mahakashyapa. 2: Vaishali-Kalashoka-Sabakami. 3: Pataliputra-Ashoka-Moggaliputta Tissa. 4: Kashmir-Kanishka-Vasumitra." },
+    { topic: "Buddhism", front: "4 Buddhist Councils — Location, Patron, President?", back: "1: Rajagriha-Ajatashatru-Mahakashyapa. 2: Vaishali-Kalashoka-Sabakami. 3: Pataliputra-Ashoka-Moggaliputta Tissa. 4: Kashmir-Kanishka-Vasumitra." },
     { topic: "Buddhism", front: "Dhammapada is part of which Pitaka and Nikaya?", back: "Khuddaka Nikaya of Sutta Pitaka. (5 Nikayas: Digha, Majjhima, Samyutta, Anguttara, Khuddaka)" },
     { topic: "Buddhism", front: "Didarganj Yakshi holds what and wears what?", back: "Holds a Chauri (flywhisk). Wears an Antari (lower garment). Finest Mauryan polished stone sculpture." },
     { topic: "Buddhism", front: "3 Sects of Buddhism?", back: "Hinayana (no idol worship), Mahayana (idol worship, Bodhisattva), Vajrayana (Tantric)." },
@@ -3230,8 +2336,8 @@
     { topic: "Mahajanapadas & Magadha Empire", front: "Only Mahajanapada south of the Vindhyas?", back: "Asmaka (on Godavari river). Capital: Pratisthan/Potana." },
     { topic: "Mahajanapadas & Magadha Empire", front: "Ajatashatru used which 2 war machines?", back: "Mahashilakantaka (catapult) and Rathmoosai (scythe chariot)." },
     { topic: "Mahajanapadas & Magadha Empire", front: "Capital of Matsya Mahajanapada?", back: "Viratnagar (modern Bairat, Rajasthan). Pandavas lived here in Agyatvas." },
-    { topic: "Mahajanapadas & Magadha Empire", front: "Vajji confederacy â€” how many clans, 2 most important?", back: "8 clans. Lichchhavi (Vaishali) and Videha (Mithila) were most important." },
-    { topic: "Mahajanapadas & Magadha Empire", front: "Last Nanda king and why hated?", back: "Dhanananda â€” hated for heavy taxation. Introduced Nandopakramani (standard measure)." },
+    { topic: "Mahajanapadas & Magadha Empire", front: "Vajji confederacy — how many clans, 2 most important?", back: "8 clans. Lichchhavi (Vaishali) and Videha (Mithila) were most important." },
+    { topic: "Mahajanapadas & Magadha Empire", front: "Last Nanda king and why hated?", back: "Dhanananda — hated for heavy taxation. Introduced Nandopakramani (standard measure)." },
     // ===== MAURYAN FC =====
     { topic: "Mauryan Empire", front: "Ashoka's name explicitly in which 4 Minor Rock Edicts?", back: "Maski, Nettur, Brahmagiri, Gujjara." },
     { topic: "Mauryan Empire", front: "Greek name for Bindusara?", back: "Amitrochates (Slayer of enemies)." },
@@ -3241,7 +2347,7 @@
     // ===== POST-MAURYAN FC =====
     { topic: "Post-Mauryan & Foreign Invasions", front: "First rulers to issue gold coins in India?", back: "Indo-Greeks (Yavanas). Most famous: Menander (Milinda)." },
     { topic: "Post-Mauryan & Foreign Invasions", front: "Gandhara vs Mathura Art?", back: "Gandhara: Grey schist, Hellenistic style. Mathura: Red sandstone, indigenous style." },
-    { topic: "Post-Mauryan & Foreign Invasions", front: "Greatest Satavahana king + title?", back: "Gautamiputra Satakarni â€” defeated Nahapana. Called 'Ekabrahman'." },
+    { topic: "Post-Mauryan & Foreign Invasions", front: "Greatest Satavahana king + title?", back: "Gautamiputra Satakarni — defeated Nahapana. Called 'Ekabrahman'." },
     { topic: "Post-Mauryan & Foreign Invasions", front: "Saka Era begins from?", back: "78 AD (Kanishka's coronation). Used as Indian National Calendar since 1957." },
     // ===== GUPTA FC =====
     { topic: "Gupta Empire", front: "Who composed Allahabad Pillar Inscription?", back: "Harishena (court poet of Samudragupta)." },
@@ -3251,10 +2357,10 @@
     { topic: "Gupta Empire", front: "Nalanda University founded by?", back: "Kumaragupta I (Mahendraditya)." },
     { topic: "Gupta Empire", front: "Varahamihira's 2 key works?", back: "Brihat Samhita + Pancha Siddhantika." },
     // ===== POST-GUPTA FC =====
-    { topic: "Harshavardhana & Sangam Age", front: "Aihole Inscription composed by whom, celebrating whom?", back: "Ravikirti â€” celebrating Chalukya Pulakeshin II's victory over Harsha (Narmada battle)." },
+    { topic: "Harshavardhana & Sangam Age", front: "Aihole Inscription composed by whom, celebrating whom?", back: "Ravikirti — celebrating Chalukya Pulakeshin II's victory over Harsha (Narmada battle)." },
     { topic: "Harshavardhana & Sangam Age", front: "Shore Temple (Mahabalipuram) built by?", back: "Rajasimha (Narasimhavarman II). Pancha Rathas = Narasimhavarman I." },
     { topic: "Harshavardhana & Sangam Age", front: "Kailasanatha Temple (Ellora, Cave 16) carved by?", back: "Krishna I (Rashtrakuta). Largest monolithic structure in the world." },
-    { topic: "Harshavardhana & Sangam Age", front: "Uttaramerur Inscription describes?", back: "Kudavolai (lottery) system for electing Chola village assemblies â€” earliest democracy in India." },
+    { topic: "Harshavardhana & Sangam Age", front: "Uttaramerur Inscription describes?", back: "Kudavolai (lottery) system for electing Chola village assemblies — earliest democracy in India." },
     { topic: "Harshavardhana & Sangam Age", front: "Chola Nataraja bronze made using?", back: "Cire Perdue (Lost-Wax) casting technique." },
     // ===== BOOKS & PHILOSOPHY FC =====
     { topic: "Ancient Books & Authors", front: "Author of Mudrarakshasa?", back: "Vishakhadatta (Sanskrit play on Chandragupta Maurya's rise)." },
@@ -3275,7 +2381,7 @@
     { topic: "Harshavardhana & Sangam Age", front: "4 Chola Variyams and their functions?", back: "Eri Variyam (tanks/irrigation), Tottavariyam (gardens), Pon Variyam (gold/finance), Nyaya Variyam (justice)." },
     { topic: "Harshavardhana & Sangam Age", front: "Chola land grants: Vellanvagai, Shalabhoga, Pallichchhandam?", back: "Vellanvagai = non-Brahman peasants. Shalabhoga = schools. Pallichchhandam = Jain community." },
     { topic: "Post-Mauryan & Foreign Invasions", front: "Which dynasty traded lead coins with the Romans?", back: "Satavahana Dynasty. Port used: Ghantasala (Andhra Pradesh)." },
-    { topic: "Chalukyas & Pallavas", front: "Which site is 'Cradle of Indian Architecture'?", back: "Pattadakal group of temples (Karnataka) â€” UNESCO World Heritage Site. 4 Nagara + 6 Dravida style temples." }
+    { topic: "Chalukyas & Pallavas", front: "Which site is 'Cradle of Indian Architecture'?", back: "Pattadakal group of temples (Karnataka) — UNESCO World Heritage Site. 4 Nagara + 6 Dravida style temples." }
     ]
 };
 

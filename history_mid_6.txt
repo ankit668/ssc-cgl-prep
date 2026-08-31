@@ -1,0 +1,46 @@
+
+        <h3>13. Tripartite Struggle and Cholas</h3>
+        <h4 style="color:#F59E0B;">Tripartite Struggle</h4>
+        <ul>
+            <li>A prolonged political and military conflict between 8th - 10th CE to control Kannauj, a symbol of imperial legitimacy in North India. It is also known as <strong>Kannauj Triangle War</strong>.</li>
+            <li>Fought among three powerful dynasties: 1. <strong>Palas:</strong> East India (Bengal region). 2. <strong>Pratiharas:</strong> West and Central India (Rajasthan, MP, Gujarat). 3. <strong>Rashtrakutas:</strong> Deccan (Maharashtra and Karnataka).</li>
+        </ul>
+        <p><strong>Pala Dynasty</strong></p>
+        <ul>
+            <li><strong>Founder:</strong> <strong>Gopala</strong>. They were followers of <strong>Mahayana Buddhism</strong>.</li>
+            <li><strong>Rulers:</strong> Gopala &ryarr; Dharmapala &ryarr; Devapala &ryarr; Mahipala &ryarr; Ramapala.</li>
+            <li><strong>Gopala (750 AD - 770 AD):</strong> Elected by local leaders to end anarchy in Bengal. He was founder of <strong>Odantapuri University</strong>.</li>
+            <li><strong>Dharmapala (770 AD - 810 AD):</strong> Most expansionist Pala rulers. <strong>Title: Paramsaugat</strong>. Founded <strong>Vikramashila University</strong> (famous for Vajrayana or Tantrik Buddhism studies (Bhagalpur, <strong>Bihar</strong>)) & <strong>Sompura University</strong>. He defeated <strong:Indrayudh</strong> and conquered Kannauj for a brief time and established Chakrayudh as puppet ruler. After winning Kannauj, he assumed the title <strong>"Uttarapath Swami"</strong> (Lord of the North). He was defeated by <strong>Dhruva Dharavarsha</strong> (Rashtrakuta king) in a battle near Munger, Bihar. Fought against <strong>Vatsaraja</strong> (Pratiharas) and <strong>Govinda III</strong> (Rashtrakuta).</li>
+            <li><strong>Devapala (810 AD - 850 AD):</strong> He expanded the Pala Empire to its greatest extent, conquering Assam, Odisha, and parts of the Deccan. Sent Buddhist missions to Sri Lanka, Burma, and Java. Strengthened the Pala navy for overseas missions and coastal control. Continued patronage of Nalanda and Vikramashila universities. The <strong>Shailendra king Balaputradeva</strong> (from Srivijaya, Southeast Asia) requested and received grants for a monastery at <strong>Nalanda</strong> from Devapala. Devapala granted land revenue from 5 villages for this monastery. Notable Buddhist monks during his reign: <strong>Dipankar Atisha</strong> came from Tibet, studied at Vikramashila and Nalanda, <strong>Dharmasvami</strong> - Another respected monk active during this period.</li>
+            <li><strong>Mahipala I (988 AD - 1038 AD):</strong> He revived the Pala dynasty after decline, recovering northern and eastern Bengal and Bihar. Mentioned in the <strong>Kalhana's Rajatarangini</strong> (written in <strong>Sanskrit</strong> language in 12th century AD).</li>
+            <li><strong>Successors:</strong> Nayapala &ryarr; Vigrahapala III &ryarr; Mahipala II &ryarr; Ramapala (The period of decline began). Faced attacks from the <strong>Kalachuri</strong> and <strong>Sena dynasties</strong>. Among them, Ramapala was the last notable ruler who tried to revive the empire.</li>
+            <li><strong>Madana Pala:</strong> Defeated by <strong>Vijayasena</strong> of the Sena dynasty. His defeat marked the end of Pala rule in Bengal.</li>
+        </ul>
+        <p><strong>Sena Dynasty</strong></p>
+        <ul>
+            <li><strong>Founder:</strong> <strong>Hemanta Sena</strong> (c. 1095 AD). <strong>Real Founder:</strong> <strong>Vijaysena</strong>.</li>
+            <li><strong>Capital:</strong> <strong>Vijayapura</strong>. Highly Centralised Monarchy. The Sena Dynasty ruled Bengal after the Pala dynasty (11th-12th century AD. </li>
+            <li>During Sena Dynasty rule <strong>Jaydeva</strong> wrote <strong>Gita Govinda</strong>. They revived Brahmanism (orthodox Hinduism) in Bengal.</li>
+            <li><strong>Rulers:</strong> Ballala Sena, Lakshman Sena. Ballala Sena introduced <strong>'Kulinism'</strong>. His successor, Vijaya Sena, reigned for over 60 years, solidifying the dynasty's control.</li>
+            <li><strong>Dhakeshwari Temple</strong> in Dhaka was built in the 12th century CE by King <strong>Ballala Sen</strong>.</li>
+            <li>In 1204 <strong>Bakhtiyar Khilji</strong> attacked <strong>Lakshman sena</strong> and ended the Sena Dynasty.</li>
+        </ul>
+        <p><strong>Gurjara Pratihara</strong></p>
+        <ul>
+            <li><strong>Capital:</strong> <strong>Kannauj/Bhinmal</strong>. Founder of the dynasty: Nagabhatta I. Defeated Arab forces in Rajasthan (Battle near Broach) in the 8th century. <em>Agnikul Theory related to Gurjar Pratihars is written in the Prithviraj Raso.</em></li>
+            <li><strong>Nagabhatta I (730 AD - 760 AD)</strong>.</li>
+            <li><strong>Vatsaraja:</strong> First Pratihara king to enter the <strong>Tripartite Struggle</strong> for Kannauj. Faced defeat by <strong>Dharmapala</strong> (Pala king).</li>
+            <li><strong>Nagabhatta II:</strong> He recovered Kannauj. He defeated <strong>Dharmapala</strong> but was defeated by <strong>Govinda III</strong> (Rashtrakuta ruler).</li>
+            <li><strong>Ramabhadra:</strong> Son of Nagabhata II (a weak ruler, short reign).</li>
+            <li><strong>Mihir Bhoja or Bhoja I (836 AD - 885 AD):</strong> <strong>Most powerful ruler</strong> of the Gurjara-Pratihara dynasty. He extended the empire from Gujarat to Bengal. <strong>Adopted divine title: Adivaraha</strong> (Boar incarnation of Vishnu). Coins issued with Varaha Image (boar symbol). Described by Arab travelers (like <strong>Sulaiman</strong
+) as: <em>"Enemy of Islam"</em> and one of the four great kings of the world in their view.</li>
+            <li><strong>Gwalior Inscription:</strong> Record defeat of <strong>Govinda III's</strong> army at <strong>Sagar Tal</strong> (though Rashtrakutas claim the opposite). Proclaims Bhoja's power and victory in <strong>Madhya Bharat</strong>. Defeated Devapala (Pala ruler) in battle. Reasserted Pratihara supremacy in the Kannauj region.</li>
+            <li><strong>Mahendrapala (885 AD - 910 AD):</strong> Son of Mihira Bhoja. Successfully maintained the strength and prosperity of the Pratihara empire. Ruled over a vast territory from Punjab to Bengal. Launched a <strong>military campaign</strong> against <strong>Kashmir</strong>: Fought with <strong>Shankaravarman</strong> (Karkota ruler of Kashmir) and was defeated in the campaign. His court became a major center of Sanskrit learning and literature. He patronized <strong>Rajashekhara</strong>, a celebrated Sanskrit poet and dramatist, often called the <em>"Kalidasa of the Pratiharas."</em></li>
+            <li>Under Mahendrapala's patronage, Rajashekhara composed several important works: <strong:Karpuramanjari</strong> - Prakrit play (the only known Prakrit drama of that time). <strong>Viddhasalabhanjika</strong> - Sanskrit drama. <strong>Bal Ramayana</strong> - Condensed version of the Ramayana. <strong>Bal Mahabharata</strong> - Condensed version of the Mahabharata. <strong>Harivilasa</strong> - Epic work on Lord Krishna. <strong>Bhuvanakosha</strong> - Descriptive geography of the known world. <strong>Kavyamimamsa</strong> - Treatise on literary criticism and theory.</li>
+            <li><strong>Mahipala I:</strong> He was defeated by <strong>Indra III</strong>, the Rashtrakuta ruler, around 915 CE. This defeat led to the loss of Kannauj and marked the beginning of the Pratihara Empire's decline.</li>
+            <li><strong>Bhoja II:</strong> A weak ruler, under whose reign internal conflicts weakened the empire.</li>
+            <li><strong>Vijayapala:</strong> He ruled during the decline of the Pala dynasty and lost many territories to rival powers.</li>
+            <li><strong>Rajyapala:</strong> Led during <strong>Mahmud of Ghazni's</strong> invasion in 1018 CE, offering no resistance. His inaction was widely condemned, and he was later killed by the Chandela ruler <strong>Vidyadhara</strong> for capitulating to Mahmud.</li>
+            <li><strong>Trilochanapala:</strong> He ruled during the collapse of the Pratihara state.</li>
+            <li><strong>End of Dynasty:</strong> The Pratiharas lost power due to <strong>external invasions</strong>, and <strong>internal fragmentation</strong> among feudatories. Their decline marked the end of the Tripartite Struggle (Pratiharas-Palas-Rashtrakutas) for control of Kannauj.</li>
+        </ul>

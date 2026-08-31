@@ -1,0 +1,134 @@
+        <h3>5. Mahajanapadas</h3>
+        <ul>
+            <li>Aryans are considered the most powerful tribes during the Vedic period, and gradually transitioned to <strong>"Mahajanapadas"</strong> (great kingdoms) by the end of <strong>later Vedic Period</strong>. By forming territorial units called <strong>"Janapadas"</strong>.</li>
+            <li>Aryans lived in the land known as <strong>"Sapta Sindhu"</strong>.</li>
+            <li>Aryans &ryarr; Tribes &ryarr; Jana &ryarr; Janapadas &ryarr; Mahajanapadas (consolidation of Jana (Aryans))</li>
+            <li><strong>Total:</strong> 16 Mahajanapadas.</li>
+        </ul>
+        <h4 style="color:#F59E0B;">Sources</h4>
+        <ul>
+            <li><strong>Texts:</strong> <em>Ashtadhyayi</em> (in Sanskrit) written by <strong>Panini</strong> (oldest book on <strong>Sanskrit Grammar</strong> written in 600 BC to 300 BC).</li>
+        </ul>
+        <h4 style="color:#F59E0B;">Buddhist Literature</h4>
+        <ul>
+            <li><em>Anguttara Nikaya</em> (In it 16 Mahajanapadas are mentioned).</li>
+            <li><em>Digha Nikaya</em> (In it 12 Mahajanapadas are mentioned).</li>
+        </ul>
+        <h4 style="color:#F59E0B;">Jain Literature</h4>
+        <ul>
+            <li><em>Bhagavati Sutra</em>.</li>
+        </ul>
+        <ul>
+            <li>Mahajanapadas were either <strong>Monarchial</strong> (single decision makers) or Republic (multiple decision makers), also known as <strong>oligarchy</strong>.</li>
+            <li>The following Mahajanapadas were Republic &ryarr; <strong>Kuru, Kamboja, Vajji, Malla</strong>.</li>
+        </ul>
+
+        <h4 style="color:#F59E0B;">16 Mahajanapadas and Capitals</h4>
+        <table border="1" style="border-collapse: collapse; width: 100%; border-color:#334155; margin-bottom:20px;">
+            <tr style="background:#0F172A;"><th>Mahajanapadas</th><th>Capital & River</th></tr>
+            <tr><td>Anga</td><td>Champa (Ganga)</td></tr>
+            <tr><td>Magadh</td><td>Rajagir/ Pataliputra (Ganga & Son)</td></tr>
+            <tr><td>Kasi</td><td>Varanasi (Gomti)</td></tr>
+            <tr><td>Vatsa</td><td>Kausambi (Ganga)</td></tr>
+            <tr><td>Kosala</td><td>Sravasti / Ayodhya (Sarayu)</td></tr>
+            <tr><td>Surasena</td><td>Mathura (Yamuna)</td></tr>
+            <tr><td>Panchala</td><td>Ahichchhatra / Kampilya (Ganga)</td></tr>
+            <tr><td>Kuru</td><td>Indraprastha (Yamuna)</td></tr>
+            <tr><td>Matsya</td><td>Viratnagar (Yamuna)</td></tr>
+            <tr><td>Chedi/Chetiya</td><td>Sothivati/ Banda (Ken & Betwa)</td></tr>
+            <tr><td>Avanti</td><td>Ujjain (North)/ Mahismati (South) (Kshipra & Narmada)</td></tr>
+            <tr><td>Gandhar</td><td>Taxila (Indus)</td></tr>
+            <tr><td>Kamboj</td><td>Pooncha (Kabul & Kurram)</td></tr>
+            <tr><td>Asmaka/Assaka</td><td>Pratishtan/ Paithan/ Potana (Godavari)</td></tr>
+            <tr><td>Vajji</td><td>Vaishali (Gandak)</td></tr>
+            <tr><td>Malla</td><td>Kusinara (Sarayu)</td></tr>
+        </table>
+        <ul>
+            <li><strong>Vajji</strong> consisted of <strong>eight clans</strong> and three of them were the most powerful kingdoms &ryarr; <strong>Jnatrika, Videha, Lichchavi</strong>.</li>
+            <li>In the beginning <strong>Kasi</strong> was the most powerful Mahajanapada followed by <strong>Kosala</strong> then <strong>Magadha</strong> became the most powerful one.</li>
+        </ul>
+
+        <h4 style="color:#F59E0B;">Factors Contributing to the Rise of Mahajanapadas</h4>
+        <ul>
+            <li><strong>Use of Iron:</strong> Iron tools increased agricultural productivity and supported larger population.</li>
+            <li><strong>Urbanisation:</strong> Growth of cities like Rajagriha, Vaishali, Varanasi, Ujjain, Taxila.</li>
+            <li><strong>Rise of trade:</strong> Trade got boosted due to trade route and these routes were started to get controlled.</li>
+            <li><strong>Decline of Tribal polity:</strong> As the population grew, there was a need to set permanent boundaries.</li>
+            <li><strong>Strong military Organisation:</strong> To solve conflicts over fertile land armies need to be organized.</li>
+            <li><strong>Social Stratification (Varna System):</strong> Varna system supported the emergences of Kshatriya who controlled territories.</li>
+            <li><strong>Geographical Factors:</strong> Ganga plain had fertile alluvial soil which gave more productivity in agriculture.</li>
+        </ul>
+
+        <h4 style="color:#F59E0B;">Reasons for the Rise of Magadha</h4>
+        <ul>
+            <li>Its advantageous position &ryarr; situated <strong>south of Ganga</strong>.</li>
+            <li>The capital <strong>Rajgriha</strong> was surrounded by <strong>five hills</strong> and <strong>Pataliputra</strong> was situated at the confluence of <strong>Ganga</strong> and <strong>Son</strong>.</li>
+            <li>The availability of large number of <strong>elephants</strong> (as it was marshy-doab region).</li>
+            <li>It had many great leaders.</li>
+            <li>Availability of <strong>Iron mines</strong> (in <strong>Jharkhand region</strong>).</li>
+        </ul>
+
+        <h3>6. Dynasties That Ruled Magadha</h3>
+        <h4 style="color:#F59E0B;">Haryanka Dynasty</h4>
+        <p><strong>Bimbisara (544 BC-492 BC)</strong></p>
+        <ul>
+            <li>Title: <strong>Seniya</strong></li>
+            <li>He led military campaign against <strong>Anga</strong>.</li>
+            <li>He had <strong>three wives:</strong>
+                <ul>
+                    <li><strong>Kosala Devi</strong> &ryarr; Sister of <strong>Prasenjit</strong> (son of Kosala King)</li>
+                    <li><strong>Chellana</strong> (Lichchavi princess)</li>
+                    <li><strong>Khema</strong> &ryarr; Madra Clan (Punjab)</li>
+                </ul>
+            </li>
+            <li>He sent physician <em>'jivaka'</em> to <strong>Ujjain</strong> king <strong>Pradyota</strong>, who was suffering from <strong>jaundice</strong>.</li>
+        </ul>
+        <p><strong>Ajatshatru</strong></p>
+        <ul>
+            <li>He was the son of <strong>Chellana</strong> and <strong>Bimbisara</strong>.</li>
+            <li>He established <strong>Patliputra</strong>.</li>
+            <li>He introduced advanced military tech including the <strong>Mahashilakantaka</strong> (a giant catapult) and <strong>Rathmoosai</strong> (a scythe chariot).</li>
+            <li>He conquered <strong>Lichchavi</strong> and <strong>Vaishali</strong>.</li>
+            <li>He defeated Kosala King and married to his daughter.</li>
+            <li>He patronised the <strong>1st Buddhist Council</strong>.</li>
+            <li>He later <strong>killed</strong> his father <strong>Bimbisara</strong>.</li>
+            <li><strong>He was contemporary of Buddha and Mahavira.</strong></li>
+        </ul>
+        <p><strong>Udayin</strong></p>
+        <ul>
+            <li>He shifted the capital temporarily from <strong>Rajgriha to Patliputra</strong> (now: "Patna").</li>
+        </ul>
+        <h4 style="color:#F59E0B;">Shishunaga Dynasty</h4>
+        <ul>
+            <li><strong>Founder:</strong> <strong>Shishunaga</strong></li>
+            <li>Shishunaga defeated <strong>Nagadasaka</strong>, the last ruler of the Haryanka Dynasty.</li>
+            <li>He defeated <strong>Avanti</strong> and merged it with <strong>Magadha</strong>.</li>
+            <li><strong>Kalashoka</strong>, the second ruler of the Shishunaga dynasty, permanently shifted the capital to Pataliputra and patronized the <strong>Second Buddhist Council</strong> at Vaishali.</li>
+        </ul>
+        <h4 style="color:#F59E0B;">Nanda Dynasty</h4>
+        <p><strong>Mahapadmananda</strong></p>
+        <ul>
+            <li>He was the founder of <strong>Nanda dynasty</strong>.</li>
+            <li><strong>Title taken:</strong> <strong>Ekarat</strong> (Sole Sovereign) and <strong>Sarvakshatrantaka</strong> (Destroyer of all Kshatriyas).</li>
+        </ul>
+        <p><strong>Dhananada</strong></p>
+        <ul>
+            <li>Alexander invaded India during his reign (326 BC). In the battle of Hydaspes Alexander defeated Porus on the banks of Hydaspes (Jhelum) in 326BC.</li>
+            <li>He introduced <strong>"Nandopakramani"</strong>, a measuring unit.</li>
+            <li>He was the <strong>last king</strong> of Nanda Dynasty.</li>
+        </ul>
+        <h4 style="color:#F59E0B;">Pottery, Coins, Trade, Terms</h4>
+        <ul>
+            <li><strong>Pottery:</strong> <strong>Northern black polished wares (NBPW)</strong> were used for pottery.</li>
+            <li><strong>Coins:</strong> <strong>Punch-marked coins</strong> made of <strong>silver</strong> were used as the form of money for trade purposes. Gold coins such as <strong>Nishka</strong> and <strong>Satmana</strong> were also used.</li>
+            <li><strong>Trade:</strong> Artisans and merchants formed associations called <strong>Shrenis (Guilds)</strong> that were collectively referred to as <strong>Nigama</strong>.</li>
+            <li><strong>Craft and Architecture:</strong> Craft was <strong>hereditary</strong>. Iron ploughshare played a crucial role in the empire's agricultural success (<strong>second urbanization after Harappa</strong>).</li>
+        </ul>
+        <table border="1" style="border-collapse: collapse; width: 100%; border-color:#334155; margin-bottom:20px;">
+            <tr style="background:#0F172A;"><th>Terms</th><th>Meaning</th></tr>
+            <tr><td>Bhojaka/ Gramabhojaka</td><td>Village Headman</td></tr>
+            <tr><td>Gahapatis</td><td>Wealthy property owners, who employed Slaves or Hired Labourers</td></tr>
+            <tr><td>Shaulkika/Shulkadhyaksha</td><td>Toll-tax collecting officers</td></tr>
+            <tr><td>Bhaga</td><td>Tax (1/6th of produced)</td></tr>
+            <tr><td>Bali</td><td>Voluntary Offerings to the king</td></tr>
+        </table>

@@ -1,0 +1,107 @@
+
+        <h3>11. Post-Gupta Dynasties</h3>
+        <h4 style="color:#F59E0B;">Pushyabhuti / Vardhana Dynasty</h4>
+        <ul>
+            <li><strong>Founder:</strong> <strong>Pushyabhuti</strong>. They were ruling in <strong>Thaneshwar</strong> (now in Haryana).</li>
+            <li><strong>Son:</strong> <strong>Prabhakarvardhan</strong>. <em>Prabhakarvardhan had two sons and a daughter:</em> <strong>Rajyavardhana</strong> (eldest), <strong>Harshavardhana</strong> (youngest), <strong>Rajyashri</strong> (daughter) who married <strong>Grahavarman</strong> (he was a member of the Maukhari Dynasty, ruling at kannauj).</li>
+            <li>Grahavarman was killed by the combined armies of <strong>Devgupta</strong> (Ruler of Malwa) and <strong>Shashanka</strong> (Ruler of Gauda). Subsequently, Rajyavardhana was also killed. Harshvardhana took revenge by defeating the Gauda King Shashanka.</li>
+        </ul>
+        <p><strong>Harshavardhana (606 AD-647 AD)</strong></p>
+        <ul>
+            <li><strong>Capital:</strong> <strong>Kannauj</strong>.</li>
+            <li><strong>Defeated:</strong> <strong>Dhruvasena II</strong> (ruler of <strong>Maitraka Dynasty</strong> and then married his daughter to him to secure the western boundary).</li>
+            <li>He was a <strong>shaivite</strong> and patronised <strong>Buddhist</strong> religion.</li>
+            <li><strong>He authored 3 books:</strong> <strong>Ratnavali, Nagananda</strong>, and <strong>Priyadarshika</strong>.</li>
+            <li>Biography of Harshavardhana <strong>"Harshacharita"</strong> written by his court poet <strong>Banabhatta</strong> (he also wrote: <strong>Kadambari</strong>).</li>
+            <li><strong>"Sakalottarapathanatha"</strong> title given to Harshvardhana which means Lord of North India (mentioned in Chalukyan inscription).</li>
+            <li>He was defeated by <strong>Pulakeshin II</strong> (Chalukyan king) on the banks of Narmada river (<strong>Battle of Narmada</strong> in 618 AD).</li>
+            <li>His administrative empire was divided into two parts: directly <strong>administered territories</strong> and <strong>feudatory states</strong>.</li>
+            <li><strong>Arunashva</strong> (Governor under Harsha) ruled after Harsha but could not establish a dynasty.</li>
+        </ul>
+        <p><strong>Hiuen-Tsang / Xuang-Zang:</strong></p>
+        <ul>
+            <li><strong>"nd</strong> Chinese Traveller (1400 years ago). He stayed in India for about 15 years.</li>
+            <li>He traveled extensively under the patronage of Emperor <strong>Harshavardhana</strong>.</li>
+            <li>His writings, <strong>"Si-yu-ki" (Records of the Western World)</strong>, provide invaluable insights into Indian society, religion, education, and administration.</li>
+        </ul>
+        <p><strong>Assemblies:</strong></p>
+        <ul>
+            <li><strong>Kannauj:</strong> To honour Hiuen -Tsang.</li>
+            <li><strong>Prayag:</strong> Organised every 5 years at the confluence of Ganga, Yamuna, and Saraswati. Known as the origin of the Kumbh tradition (first historical evidence of Kumbh Mela).</li>
+        </ul>
+        <p><strong>Inscription:</strong></p>
+        <ul>
+            <li><strong>Banskhera inscription:</strong> it is a 7th-century CE (628 CE) <strong>copper plate</strong> grant issued by Harshavardhana, discovered in <strong>Shahjahanpur</strong>, Uttar Pradesh. It has Harshavardhan's <strong>personal signature</strong>.</li>
+            <li><strong>Madhuban copper plate inscription & Sonpat inscription</strong> - are also <strong>epigraphical sources</strong> about Harsha's reign.</li>
+            <li>Harshavardhan's <strong>Vallabhi conquest</strong> is found in - <strong>Navsari copper plate Inscription</strong>.</li>
+        </ul>
+        <h4 style="color:#F59E0B;">Maukhari Dynasty</h4>
+        <ul>
+            <li><strong>Ishanvarman</strong>, an important ruler of Maukhari Dynasty took title of <strong>Maharajadhiraja</strong>.</li>
+        </ul>
+        <h4 style="color:#F59E0B;">Ikshvaku Dynasty</h4>
+        <ul>
+            <li><strong>Founder:</strong> <strong>Chintamula 1</strong>.</li>
+            <li><strong>Time period:</strong> 3rd - 4th century CE.</li>
+            <li><strong>Capital:</strong> <strong>Vijayapuri</strong> (identified with Nagarjunkonda).</li>
+            <li><strong>Region:</strong> Lower Krishna - Guntur valley (modern Andhra Pradesh).</li>
+        </ul>
+        <h4 style="color:#F59E0B;">Vishnukundin Dynasty</h4>
+        <ul>
+            <li><strong>Capital:</strong> Amarapuram or Amravati.</li>
+        </ul>
+
+        <h3>12. Chalukyas & Pallavas</h3>
+        <h4 style="color:#F59E0B;">Chalukya Dynasty</h4>
+        <ul>
+            <li>Chalukya Dynasty rulers were feudatories of <strong>Kadambas of Banavasi</strong>.</li>
+            <li>They were divided into three distinct dynasties:
+                <ul>
+                    <li><strong>Badami Chalukya</strong> (Early Chalukya) &ryarr; Capital: Vatapi</li>
+                    <li><strong>Eastern Chalukya</strong> &ryarr; Capital: Vengi</li>
+                    <li><strong>Western Chalukya</strong> (Later Chalukya) &ryarr; Capital: Kalyani</li>
+                </ul>
+            </li>
+        </ul>
+        <p><strong>Badami Chalukya</strong></p>
+        <ul>
+            <li><strong>Jayasimha:</strong> He was the first ruler of this dynasty. <strong>Capital: Vatapi</strong>.</li>
+            <li><strong>Pulakeshin I (543 AD-566 AD):</strong> He was the founder of <strong>Badami Chalukya Dynasty</strong>. <strong>Pulakeshin I had two son: Kirtivarman I</strong> and <strong>Mangalesha</strong> (Mangalesh was killed by Kirtivarman I's son <strong>Pulakeshin II</strong>, who later ascended the throne).</li>
+            <li><strong>Pulakeshin II (610 AD-642 AP):</strong> He is considered the <strong>greatest ruler</strong> of this dynasty. After defeating Harshavardhana, <strong>Pulakeshin II</strong> took the title of <strong>"Dakshinapatheshwara"</strong> (Lord of South). <strong>Titles of Pulakeshin II:</strong> Satyashraya, Bhattaraka, Maharajadhiraja, Parameshwara, Prithvivallabha. He also defeated <strong>Mahendravarman I</strong> (Pallava ruler) in the <strong>Battle of Pullalur</strong>. He was defeated in the <strong>Battle of Vatapi</strong> (642 CE) by <strong>Narasimhavarman I</strong> (son of Mahendravarman I), who then assumed the title <strong>"Vatapikonda"</strong> (Conqueror of Vatapi). <strong>Aihole Pillar Inscription</strong> (Karnataka) was about Pulakeshin II, composed by his court poet <strong>Ravikirti</strong>.</li>
+            <li><strong>Vikramaditya I:</strong> He was the third son of Pulakeshin II. He recovered <strong>Vatapi</strong> from Pallavas. His great grandson <strongKirtivarman II (last ruler of Badami Chalukya)</strong> was defeated by <strong>Dantidurga</strong> who later founded Rashtrakuta Dynasty.</li>
+        </ul>
+        <p><strong>Chalukyan Architecture</strong></p>
+        <ul>
+            <li>Chalukyan Temple architecture is divided into three groups:</li>
+            <li><strong>Aihole:</strong> Known as Laboratory of Indian Temple Architecture. Examples: <strong>Ravana Phadi Caves</strong>, <strong>Lad Khan Temple</strong> (Dedicated to Shiva), <strong>Durga Temple</strong> (Example of <strong>Gaja-Prishta</strong> form of architecture, Originally dedicated to God 'Surya', Located in 'Bagalkot', Karnataka, Known for its unique apical design. <em>Gaja-Prishta: Elliptical shaped formation seen in Dravid or Vesara form of Architecture</em>), <strong>Huchimalligudi temple, Aihole</strong> (Shiva Temple built around the 7th century by the Early Chalukyas), <strong>Meguti Jain Temple</strong> (Only Jain temple at Aihole. Contains the <strong>Aihole inscription</strong> of Ravikirti).</li>
+            <li><strong>Badami:</strong> Famous for rock-cut cave temples. <strong>Badami Rock Cut Caves:</strong> Four major rock-cut caves carved into sandstone cliffs showcasing Shaiva, Vaishnava, and Jain traditions side by side.</li>
+            <li><strong>Pattadakal:</strong> Blend of Nagara (North Indian) and Dravida (South Indian) styles. <strong>Pattadakal group of temple:</strong> A total of 10 temples seen here: 4 (Nagara style) and 6 (Dravida style). Declared as <strong>UNESCO World Heritage Site</strong> in 1987. Pattadakal group of temples are known as <strong>"Cradle of Indian Architecture"</strong>. Examples: <strong>Virupaksha Temple</strong> (Dedicated to Lord Shiva. Built in: Dravida style. Built by: <strong>Queen Lokamahadevi</strong>), <strong>Papanatha temple</strong> (Based on Mixed architecture style: Nagara+Dravid. Part of Pattadakal group), <strong>Sangameshwara Temple</strong> (Dravida style. Dedicated to Lord Shiva), <strong>Galaganatha Temple</strong> (Nagara style), <strong>Mallikarjuna temple</strong> (Built by <strong>Trilokadevi</strong>, wife of Vikramaditya 2).</li>
+        </ul>
+
+        <h4 style="color:#F59E0B;">Pallava Dynasty (575 AD-897 AD)</h4>
+        <ul>
+            <li><strong>Founder:</strong> <strong>Simha Vishnu</strong>.</li>
+            <li><strong>Capital:</strong> <strong>Kanchipuram</strong>.</li>
+            <li>Pallavas were feudatories to <strong>Kalabhras</strong>.</li>
+            <li>They developed the Dravida architecture temples.</li>
+            <li><strongGreatest ruler:</strong> Mahendravarman I.</li>
+        </ul>
+        <p><strong>Mahendravarman I (600 AD - 630 AP)</strong></p>
+        <ul>
+            <li>Patron of Rock-cut Architecture.</li>
+            <li>Initially Mahendravarman was Jain then converted to Hinduism (Shaivaites).</li>
+            <li>Son: Narasimhavarman 1.</li>
+        </ul>
+        <p><strong>Narasimhavarman I (630 AD - 668 AD)</strong></p>
+        <ul>
+            <li><strong>Title taken:</strong> <strong>Mahamalla</strong> and <strong>Vatapikonda</strong>.</li>
+            <li>He started the <strong>Monolithic Rock</strong> cut temple.</li>
+            <li>He founded the <strong:port city Mahabalipuram</strong>.</li>
+            <li><strong>Last ruler:</strong> <strong>Aparajitavarman</strong> defeated by Chola king <strong>Aditya I</strong> in 897 AD.</li>
+        </ul>
+        <p><strong>Pallava Architecture</strong></p>
+        <ul>
+            <li><strong>Shore temple, Mahabalipuram:</strong> Added to UNESCO World Heritage Site in <strong>1984</strong>. Dedicated to: Lord Shiva. Built by: <strong>Narasimhavarman II</strong> (known as: Rajasimha, known for: Structured Stone temples). Located at <strong>Mahabalipuram</strong> facing towards Bay of Bengal in the Coromandal Coast.</li>
+            <li><strong>Kailasanathar temple:</strong> Built by: <strong>Narasimhavarman II</strong>. Made up of Granite Rock. Dedicated to Shiva. <strong>Narsimhavarman II</strong> started standing Rock cut Architecture.</li>
+            <li><strong>Seven Ratha temple, Mahabalipuram, Tamil Nadu:</strong> Built by: <strong>Narasimhavarman I</strong>. These temples are also known as <strong>Pancha Rathas</strong> or <strong>Pandava Rathas</strong>. Called <strong>Seven Pagoda</strong> by <em>"Marco Polo"</em>. Each ratha has a distinct plan, showcasing architectural diversity: 1. <strong>Draupadi Ratha</strong> &ryarr; Simple hut-like shrine, 2. <strong>Arjuna Ratha</strong> &ryarr; Square-plan shrine, 3. <strong>Bhima Ratha</strong> &ryarr; Elongated hall (mandapa type), 4. <strong>Dharmaraja Ratha</strong> &ryarr; Multi-storeyed vimana, 5. <strong>Nakula-Sahadeva Ratha</strong> &ryarr; Apsidal (semi-circular) plan.</li>
+        </ul>

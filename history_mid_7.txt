@@ -1,0 +1,125 @@
+
+        <h4 style="color:#F59E0B;">Chola Dynasty (300 BC-1279 AD)</h4>
+        <ul>
+            <li><strong>Capital:</strong> <strong>Uraiyur</strong> and later <strong>Thanjavur</strong> (Established by <strong>Vijayalaya</strong> as the capital in the 9th century).</li>
+            <li>They were feudatories of the <strong>Pallavas</strong>.</li>
+            <li><strong>Chola Administration:</strong> <strong>Mandalam</strong> (Province) &ryarr; <strong>Valanadu</strong> (Divisions) &ryarr; <strong>Nadu</strong> (Districts) &ryarr; <strong>Karrum</strong> (Villages).</li>
+            <li>Most significant feature of the Chola Administration was <strong>Local Self-government</strong> (Decentralised).</li>
+            <li>Source: <strong>Uttaramerur Inscription</strong> in Kanchipuram (Tamil Nadu) gives details of the Chola Administration.</li>
+        </ul>
+        <p><strong>Rulers of Chola Dynasty</strong></p>
+        <ul>
+            <li><strong>Vijayalaya:</strong> He is the <strong>founder</strong> of Imperial Chola Dynasty. He built the <strong>Nishumbhasudini</strong> Temple in <strong>Thanjavur</strong>.</li>
+            <li><strong>Aditya I:</strong> Son of Vijayalaya. Defeated <strong>Aparajita</strong>, the last Pallava ruler, and established the Chola supremacy.</li>
+            <li><strong>Parantaka I:</strong> He defeated the <strong>Pandya</strong> King and the <strong>Ruler of Sri Lanka</strong>. Took the title <strong>Maduraikonda</strong>. Built the <strong>Netaraja Temple</strong> in <strong>Chidambaram</strong> (Tamil Nadu).</li>
+        </ul>
+        <p><strong>Rajaraja Chola I (985 AD-1014 AD)</strong></p>
+        <ul>
+            <li>He was the <strong>greatest ruler</strong> of the Chola Dynasty. <strong>Titles:</strong> Mummidi Chola, Maltanda Chola.</li>
+            <li>He conquered <strong>No Republic of Maldives</strong> and <strong>Northern Sri Lanka</strong>.</li>
+            <li>He built <strong>Brihadeshwara Temple</strong> also known as <strong>Rajarajeshwara Temple</strong> in Thanjavur (Tamil Nadu). Dedicated to Lord Shiva.</li>
+        </ul>
+        <p><strong>Rajendra Chola I (1014 AD-1044 AD)</strong></p>
+        <ul>
+            <li>He was the son of Rajaraja Chola I.</li>
+            <li>He annexed the whole of <strong>Sri Lanka</strong>.</li>
+            <li>Rajendra I was the first Indian king to take his army across the <strong>Bay of Bengal</strong> to defeated <strong>Srivijaya</strong> or <strong>Sailendra Empire</strong> (Indonesia).</li>
+            <li>He defeated <strong>Mahipala</strong> (Pala ruler) in Bengal. And assumed the title of <strong>"Gangaikonda" or "Gangaikondachola"</strong>.</li>
+            <li>After winning over Palas, He established a new capital called <strong>Gangaikondacholapuram</strong> and built a <strong>Shiva Temple</strong>.</li>
+        </ul>
+        <p><strong>Rajendra Chola II</strong></p>
+        <ul>
+            <li>He defeated the <strong>Chalukya King</strong> <strong>Someshwara</strong>.</li>
+            <li>He provided a significant grant to a music dynasty, facilitating the establishment of a <strong>Music School</strong>.</li>
+        </ul>
+        <p><strong>Last Ruler:</strong> <strong>Rajendra III</strong>.</p>
+        <p><strong>Culture and Architecture</strong></p>
+        <ul>
+            <li><strong>Artapakitti:</strong> Bronze Image of Lord Shiva made during Chola dynasty.</li>
+            <li><strong>Tirumurai:</strong> A Compilation of poems and hymns in praise of Lord Shiva by the <strong>Nayanar</strong> saints in the <strong>Tamil language</strong>. The eleventh volume is composed by <strong>Karaikkal Ammaiyar</strong>.</li>
+            <li><strong>Great Living Chola Temples:</strong> These were built during the Chola Empire in the <strong>Dravidian</strong> style of temple architecture. Built by Chola kings between 11th and 12th centuries CE. Collectively, they are a <strong>UNESCO World Heritage</strong> Site (added in 1987 and 2004).</li>
+            <li><strong>Three Major Temples:</strong>
+                <ul>
+                    <li><strong>Brihadisvara Temple</strong> at Thanjavur.</li>
+                    <li><strong>Brihadisvara Temple</strong> at Gangaikondacholapuram.</li>
+                    <li><strong>Airavatesvara Temple</strong> at Darasuram.</li>
+                </ul>
+            </li>
+        </ul>
+        <h3>14. Chandels, Chauhans &amp; Temple Architecture</h3>
+        <h4 style="color:#F59E0B;">Chandel Dynasty</h4>
+        <ul>
+            <li><strong>Founder:</strong> Nannuka. <strong>Capital:</strong> Khajuraho.</li>
+            <li>They were feudatories of the <strong>Gurjara Pratiharas</strong> and ruled in the <strong>Jejakabhukti</strong> region (Bundelkhand, modern day MP - UP) for about 500 years (from the 9th to the 13th century).</li>
+        </ul>
+        <p><strong>Yashovarman (925 - 950 CE)</strong></p>
+        <ul>
+            <li>Established Chandela power by independengly ruling the Bundelkhand region, uprooting the supremacy of the <strong>Gurjara-Pratiharas</strong>.</li>
+            <li>Commissioned the construction of the <strong>Lakshmana Temple</strong> at Khajuraho, a manifestation of his growing power and devotion to Lord Vishnu.</li>
+        </ul>
+        <|p><strong>Dhangadeva (950 - 999 CE)</strong></p>
+        <ul>
+            <li>The <strong>greatest ruler</strong> of the Chandela dynasty, under whom the kingdom reached its zenith.</li>
+            <li>Assumed the title of <strong>"Maharajadhiraja"</strong>.</li>
+            <li>Built several magnificent temples at Khajuraho, including the <strong>Vishvanatha Temple</strong> and <strong>Parshvanatha Temple</strong>, reflecting his patronage of both <strong>Shaivism</strong> and <strong>Jainism</strong>.</li>
+            <li>Ended his life by voluntary drowning in the sacred confluence of Prayag (Allahabad), a ritual known as <em>Jal Samadhi</em>.</li>
+        </ul>
+        <p><strong>Vidyadhara (1003 - 1035 CE)</strong></p>
+        <ul>
+            <li>Defended the Khajuraho region against <strong>Mahmud of Ghazni's</strong> invasions, emerging as one of the few Indian rulers to successfully resist him.</li>
+            <li>Commissioned the construction of the <strong>Kandariya Mahadeva Temple</strong>, the largest and most ornate of the Khajuraho group of temples.</li>
+        </ul>
+        <h4 style="color:#F59E0B;">Chauhan Dynasty (8th - 12th CE)</h4>
+        <ul>
+            <li><strong>Founder:</strong> <strong>Vasudeva Chauhan</strong>.</li>
+            <li><strong>Capital:</strong> Shakambhari (present-day Sambhar, Rajasthan) and later <strong>Ajmer</strong>.</li>
+            <li>Grew in power as feudatories of the <strong>Gurjara-Pratiharas</strong>, eventually asserting independence.</li>
+            <li>Commanded a strategic position in North-central India (Rajasthan, parts of Gujarat, and Haryana).</li>
+        </ul>
+        <p><strong>Ajayaraja II (1110 - 1135 CE)</strong></p>
+        <ul>
+            <li>Established the city of <strong>Ajayameru</strong> (present-day <strong>Ajmer</strong>), making it the new Chauhan capital.</li>
+            <li>Constructed the <strong>Taragarh Fort</strong> (Also known as Ajaymeru Durg) on a hilltop in Ajmer, strengthening the dynasty's defenses.</li>
+            <li>Issued silver coins bearing his name and the name of his queen, Somalladevi, signifying his sovereign status.</li>
+        </ul>
+        <p><strong>Arnoraja (1135 - 1150 CE)</strong></p>
+        <ul>
+            <li>Son of Ajayaraja II. Continued the expansion of the Chauhan empire, conflicting with the Chalukyas of Gujarat.</li>
+            <li>Commissioned the construction of <strong>Ana Sagar Lake</strong> in Ajmer.</li>
+        </ul>
+        <p><strong>Vigraharaja IV (Bisaldew) (1150 - 1164 CE)</strong></p>
+        <ul>
+            <li>Expanded the Chauhan empire to its zenith, capturing Delhi (Dhillika) from the <strong>Tomaras</strong> and controlling a vast territory from the Vindhyas to the Himalayas.</li>
+            <li>Authored the Sanskrit play <strong>Harikeli</strong> Nataka.</li>
+            <li>Patronized scholars like <strong>Somadeva</strong>, who composed the <strong>Lalita Vigraharaja Nataka</strong>.</li>
+            <li>Built a Sanscrit college at Ajmer, which was later converted into the <strong>Adhai Din Ka Jhonpra</strong> mosque by Qutb-ud-din Aibak.</li>
+        </ul>
+        <|p><strong>Prithviraj Chauhan III (1178 - 1192 CE)</strong></p>
+        <ul>
+            <li>The most celebrated Chauhan ruler, renewed for his military valor and romantic tales (eg. elopement with Sanyogita, daughter of Jaichand of Kannauj*.</li>
+            <li><strong>First Battle of Tarain (1191 CE):</strong> Defeated <strong>Muhammad Ghori</strong>, forcing him the retreat.</li>
+            <li><strong>Second Battle of Tarain (1192 CE):</strong> Defeated by <strong>Muhammad Ghori</strong>, marking a decisive turning point in Indian history and paving the way for Islamic rule in North India.</li>
+            <li>His life and exploits are romanticized in the epic poem <strong>Prithviraj Raso</strong>, composed by his court poet <strong>Chand Bardai</strong>.</li>
+        </ul>
+        <h4 style="color:#F59E0B;">Temple Architecture</h4>
+        <ul>
+            <li>It is broadly divided into three styles: Nagara (North India), Dravida (South India) & Vesara (Mix of Nagara and Dravida).</li>
+            <li><strong>Nagara Style:</strong>
+                <ul>
+                    <li><strong>Features:</strong> Cruciform ground plan. Curvilinear tower (<strong>Shikhara</strong>) over the main sanctum (<strong>Garbhagriha</strong>). Mandapos (Assembly halls) in front of the sanctum. &ryarr; Presence of <strong>Amalaka</strong> (a fluted disc-like structure) and <strong>Kalasha</strong> (vase) on top of the Shikhara.</li>
+                    <li><strong>Examples:</strong> <strong>Khajuraho Temples</strong>, Madhya Pradesh (Built by Chandela dynasty, eg., Kandariya Mahadeva Temple). <strong>Sun Temple, Konark</strong>, Odisha (Built by King Narasimhadeva I of Eastern Ganga Dynasty, 13th century). <strong>Lingaraja Temple, Bhubaneshwar</strong>, Odisha (Built by King Jajati Keshari of Somavamshi dynasty, 11th century).</li>
+                </ul>
+            </li>
+            <li><strong>Dravida Style:</strong>
+                <ul>
+                    <li><strong>Features:</strong> Pyramidal tower (<strong>Vimana</strong>) over the main sanctum. Presence of <strong>Gopurams</strong> (gateways) at the entrance. Enclosed within compound walls. &ryarr; Presence of <strong>Kalyana Mandapas</strong>(marriage halls) and temple tanks (Kalyani).</li>
+                    <li><strong>Examples:</strong> <strong>Brihadisvara Temple, Thanjavur</strong>, Tamil Nadu (Built by Rajaraja Chola I, 11th century). <strong>Meenakshi Amman Temple, Madurai</strong>, Tamil Nadu (Built by Nayakas, 17th century). <strong>Shore Temple, Mahabalipuram</strong>, Tamil Nadu (Built by Narasimhavarman II of Pallava dynasty, 8th century).</li>
+                </ul>
+            </li>
+            <li><strong>Vesara Style:</strong>
+                <ul>
+                    <li><strong>Features:</strong> Blend of Nagara and Dravida styles. Stellate (star-shaped) plan. Intricate carvings and scumptures. &ryarr; Presence of both <strong>Shikhara</strong> and <strong>Vimana</strong> elements.</li>
+                    <li><strong>Examples:</strong> <strong>Hoysaleswara Temple, Halebidu</strong>, Karnataka (Built by King Vishnuvardhana of Hoysala dynasty, 12th century). <strong>Chennakeshava Temple, Belur</strong>, Karnataka (Built by King Vishnuvardhana of Hoysala dynasty, 12th century). <strong>Durga Temple, Aihole</strong>, Karnataka (Built by Chalukyas of Badami, 7th-8th century).</li>
+                </ul>
+            </li>
+        </ul>

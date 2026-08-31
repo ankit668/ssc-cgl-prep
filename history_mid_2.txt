@@ -1,0 +1,182 @@
+        <h3>7. Maurya Dynasty</h3>
+        <h4 style="color:#F59E0B;">Sources for the Mauryan Empire</h4>
+        <ul>
+            <li><strong>Kautilya's Arthashastra:</strong> Arthashastra describes the <strong>administration</strong> and <strong>state policies</strong> of Mauryan Empire during Chandragupta Maurya's time. Consists of <strong>15 books</strong>, called <em>"Adhikaranas"</em>; first 5 books were based on <em>"Tantra"</em> - internal administration and next 8 books were on <em>"Avapa"</em> - interstate relation, last 2 books were miscellaneous. (<em>Chanakya is often compared with Italian Renaissance writer - Niccolo Machiavelli (author of Prince)</em>).</li>
+            <li><strong>Vishakhadatta Mudrarakshasa:</strong> It is a <strong>Sanskrit</strong> play that narrates the ascent of emperor Chandragupta Maurya to power in India. This play describes he belonged to <strong>lower caste</strong>.</li>
+            <li><strong>Indica</strong> written by <strong>Megasthenes</strong>: It includes all the detailed account of how things were run in Mauryan Empire.</li>
+            <li><strong>Buddhist Literature:</strong> Jataka tales, Dipavamsa/Mahavamsa, Divyadana.</li>
+            <li><strong>Archeological Evidence:</strong> Pillar edicts, Rock edicts.</li>
+            <li>Wooden architecture of Chandragupta Maurya found at <strong>Bulandi Bagh</strong> and <strong>Kumhrar</strong>, discovered by <strong>L. A. Waddell</strong>.</li>
+        </ul>
+
+        <h4 style="color:#F59E0B;">Chandragupta Maurya (322 BC-298 BC)</h4>
+        <ul>
+            <li>He was the <strong>founder of Mauryan Dynasty</strong> and ascended the throne by defeating the last ruler of Nanda Dynasty <strong>Dhanananda</strong>, with the help of <strong>Kautilya</strong> (also known as <strong>Chanakya/Vishnugupta</strong>) in <strong>322 BCE</strong>.</li>
+            <li>The Vishnu Purana, explicitly connects Chandragupta to the Nanda dynasty through his mother, Mura, a Shudra concubine of Dhanananda.</li>
+            <li><strong>Son:</strong> <strong>Bindusara</strong>.</li>
+            <li>He built a department <strong>"Kosthagara"</strong>: For storage of grains (mentioned in <strong>Sohgaura: Copper Plate inscription in Gorakhpur, Uttar Pradesh</strong>).</li>
+            <li>He defeated <strong>Seleucus Nicator</strong> (General & Successor Alexander).</li>
+        </ul>
+        <p><strong>About Seleucus Nicator</strong></p>
+        <ul>
+            <li>Seleucus Nicator founded <strong>Seleucid Dynasty</strong> (member of Macedonian Greek Dynasty) ruling in Northwestern parts of the Indian subcontinent.</li>
+            <li><strong>Megasthenes</strong> was in the court of Seleucus Nicator.</li>
+            <li>Chandragupta Maurya defeated Seleucus Nicator and married to his daughter <strong:Helena</strong>.</li>
+        </ul>
+        
+        <h4 style="color:#F59E0B;">Bindusara (297BC-273 BC)</h4>
+        <ul>
+            <li>He is also known as <strong>Amitrochates</strong> (destroyer of enemies) by the <strong>Greek</strong>.</li>
+            <li>He asked for sweet wine, dry figs and a philosopher from <strong>Antiochus I</strong> of Syria.</li>
+            <li>He is known for conquering the land between the two seas, extending the Mauryan Empire up to the southern tip of India.</li>
+            <li>He patronised <strong>Ajivikas</strong>.</li>
+            <li>He was visited by Greek ambassador &ryarr; <strong>Deimachus</strong>.</li>
+            <li>Mother: <strong>Durdhara</strong>. Son: <strong>Ashoka</strong>.</li>
+        </ul>
+
+        <h4 style="color:#F59E0B;">Ashoka (268 BC-232 BC)</h4>
+        <ul>
+            <li>Ashoka ascended the throne with the help of <strong>Radhagupta (Minister)</strong>.</li>
+            <li>During his father's reign, Ashoka was <strong>governor of Taxila and Ujjain</strong>.</li>
+            <li>He fought <strong>Kalinga War</strong> with <strong>Raja Anantha Padmanabha</strong>, the ruler of the <strong>independent kingdom</strong> of Kalinga in 261 BC, <strong>7 years</strong> after his coronation.</li>
+            <li>He replaced <strong>Berighosha</strong> (physical conquest) with <strong>Dhammagosha</strong> (cultural conquest) after the Kalinga War.</li>
+            <li>He sent his son <strong>Mahendra</strong> and daughter <strong>Sanghamitra</strong> to <strong>Ceylon</strong> (now known as <strong>Sri Lanka</strong>) to spread Buddhism.</li>
+            <li>He was succeeded by <strong>Dashrath Maurya</strong> (grandson of Ashoka).</li>
+        </ul>
+
+        <h4 style="color:#F59E0B;">Ashokan Edicts</h4>
+        <ul>
+            <li>Edicts of Ashoka are found in <strong>Rocks and Pillars</strong>.</li>
+            <li>There are <strong>14 Major Rock Edicts</strong> of Ashoka meaning a maximum of <strong>14 lines</strong> are engraved in Rocks.</li>
+            <li>William Jones (founder of Asiatic Society of Bengal, 1784). <strong>James Princep</strong> was the 1st to decipher Ashokan inscriptions in <strong>1837</strong>.</li>
+        </ul>
+        <p><strong>Major Rock Edicts</strong></p>
+        <ul>
+            <li><strong>Total:</strong> 14</li>
+            <li><strong>Total languages:</strong> 3 (Prakrit, Greek, Aramaic)</li>
+            <li><strong>Total scripts used:</strong> 4 (Brahmi, Kharosthi, Greek, Aramaic)</li>
+            <li><strong>Most inscriptions were in:</strong> <strong>Prakrit language in Brahmi script</strong></li>
+            <li><strong>Script used in Afghanistan:</strong> Greek and Aramaic</li>
+            <li><strong>Script used in Northwestern parts of India:</strong> Kharosthi</li>
+            <li><strong>Ashoka's Dhamma</strong> was <strong>inspired</strong> by the Buddhist <strong>"Upashaka Dhamma"</strong>, which refers to the Buddhist teaching for laymen.</li>
+            <li>In Ashoka's Greek and Aramaic inscriptions no reference to teaching of Buddha was found but in his <strong>Brahmi Khroshthi, and Prakrit inscription Buddhism was mentioned</strong>.</li>
+            <li>In inscriptions he is mentioned as: <strong>Devanami Piyadassi</strong> (Meaning: Devon ka Priya &ryarr; Beloved of God)</li>
+        </ul>
+        <p><strong>10 Places where Ashokan Rock Edicts have been Found</strong></p>
+        <ul>
+            <li><strong>Kandahar Bilingual Inscription</strong> &ryarr; Kandahar, Afghanistan</li>
+            <li><strong>Shahbazgarhi in Kharoshthi script</strong> &ryarr; Khyber Pakhtunkhwa, Pakistan</li>
+            <li><strong>Mansehra Rock Edicts</strong> &ryarr; Mansehra, Khyber Pakhtunkhwa province, Pakistan</li>
+            <li><strong>Kalsi</strong> &ryarr; Dehradun, Uttarakhand</li>
+            <li><strong>Girnar</strong> &ryarr; Gujarat (14 lines are inscribed in Girnar major Rock Edicts).</li>
+            <li><strong>Sopara</strong> &ryarr; Maharashtra</li>
+            <li><strong>Dhauli</strong> &ryarr; Bhubaneshwar, Odisha</li>
+            <li><strong>Jaugada</strong> &ryarr; Odisha</li>
+            <li><strong>Sannati</strong> &ryarr; Karnataka</li>
+            <li><strong>Yerragudi</strong> &ryarr; Kurnool district, Andhra Pradesh</li>
+        </ul>
+        <p><strong>14 Major Rock Edicts of Ashoka</strong></p>
+        <table border="1" style="border-collapse: collapse< width: 100%; border-color:#334155; margin-bottom:20px;">
+            <tr><td><strong>** Edict 1</strong></td><td>Prohibits animal slaughter. Ban festive gatherings and the killing of animals. Only two peacocks and one deer were killed in Ashoka's kitchen. He wished to discontinue this practice also.</td></tr>
+            <tr><td>Edict 2</td><td>Providing care for man and animals describes Chola, Pandaya, kingdoms of south India.</td></tr>
+            <tr><td>Edict 3</td><td>Generosity to Brahmans.</td></tr>
+            <tr><td><strong>** Edict 4</strong></td><td><strong>Dhammaghosa over bherighosa.</strong></td></tr>
+            <tr><td>Edict 5</td><td>Concerns over policy towards slaves.</td></tr>
+            <tr><td>Edict 6</td><td>Welfare measures</td></tr>
+            <tr><td><strong>** Edict 7</strong></td><td><strong>Requests tolerance for all religions</strong></td></tr>
+            <tr><td>Edict 8</td><td>Describes Ashoka's first Dhammayatra to Bodh Gaya and Bodhi tree</td></tr>
+            <tr><td>Edict 9</td><td>Condemns popular ceremonies. Stress on ceremonies of dhamma.</td></tr>
+            <tr><td>Edict 10</td><td>Condemns the desire for fame and glory. It stresses the popularity of Dhamma.</td></tr>
+            <tr><td>Edict 11</td><td>Elaborates dhamma.</td></tr>
+            <tr><td><strong>** Edict 12</strong></td><td><strong>Directed and determined requests for tolerance among different religious sects.</strong></td></tr>
+            <tr><td><strong>** Edict 13</trong></td><td><strong>Ashoka's victory over Kalinga (old name of Odisha)</strong></td></tr>
+            <tr><td>Edict 14</td><td>Describes engraving of inscriptions in different parts of the country.</td></tr>
+        </table>
+        
+        <p><strong>Minor Rock Edicts</strong></p>
+        <ul>
+            <li>Minor Rock edict 1 provides the evidence of gradual religious transformation of Ashoka to Buddhism.</li>
+            <li>Four Edicts where Ashoka has been mentioned by his name. These four are: <strong>Maski</strong> &ryarr; Karnataka, <strong>Nettur</strong> &ryarr; Karnataka, <strong>Brahmagiri</strong> &ryarr; Karnataka, <strong>Gujjara</strong> &ryarr; Madhya Pradesh.</li>
+            <li>Maski Ashoka inscription was discovered by <strong>C. Beadon</strong>.</li>
+        </ul>
+
+        <p><strong>Pillar Edicts</strong></p>
+        <ul>
+            <li><strong>Total: 7</strong> (meaning: 7 lines)</li>
+            <li><strong>Delhi Topra Pillar Edict:</strong> It comprises all the 7 Ashokan Pillar Edicts and the <strong>7th Edict</strong> is considered as the <strong>longest</strong> amongst them all. Only one language <strong>(Prakrit)</strong> and only one script <strong>(Brahmi)</strong> is used. Delhi Topra Pillar was transferred from <strong>Haryana</strong> to in <strong>Delhi</strong> by <strong>Firoz Shah Tughlaq</strong>. The painted illustration of the moving of the Ashoka Pillar at Topra is found in <strong>Sirat-i-Firuz Shahi</strong>.</li>
+            <li><strong>Ashoka Pillar, Sarnath:</strong> It was adopted as the National Emblem on <strong>26th Jan 1950</strong>. Here, Ashoka commemorated the first Sermon of Buddha. <strong>Animals: Lion, Elephants, Horse, Bull</strong>.</li>
+            <li><strong>Rampurva Bull:</strong> Placed in President House. Found in Bihar.</li>
+            <li><strong>Bihar Edicts:</strong> <em>Lauriya Areraj</em> (capital not found), <em>Lauriya Nandangarh</em>.</li>
+            <li><strong>Barabar Hill Caves</strong> (Built by Ashoka for Buddhist monks) and <strong>Nagarjuni Caves</strong> (Built by Dashrath Maurya, grandson of Ashoka) in Bihar are considered as the oldest surviving rock-cut caves in India.</li>
+            <li><strong>Lomas Rishi Caves</strong> in Bihar.</li>
+            <li><strong>Konagamana/Kanakamuni Stupa</strong> &ryarr; Rebuilt by Ashoka (after he visited <strong>Nigali Sagar</strong>).</li>
+            <li><strong>Nigali Sagar Inscription (Nepal):</strong> It confirms that Ashoka enlarged the stupa of the Kanakamuni Buddha.</li>
+            <li><strong>Rummindei Pillar inscription:</strong> Also known as <strong>Lumbini Pillar Edict</strong> located in <strong>Nepal</strong>. It depicts that Ashoka traveled to the Buddha's birthplace. He <strong>reduced taxes</strong> of the people living in that area.</li>
+        </ul>
+
+        <h4 style="color:#F59E0B;">Mauryan Administration</h4>
+        <ul>
+            <li><strong>Saptanga Theory by Kautilya:</strong> He mentioned <strong>7 elements</strong> to rule an administration effectively. 1. Raja: King, 2. Amatya: Secretary, 3. Janpada: Territory, 4. Durga: Fort, 5. Kosha: Treasury, 6. Danda: Army, 7. Mitra: Friend.</li>
+        </ul>
+        <p><strong>Provinces under Mauryan Administration</strong></p>
+        <ul>
+            <li>Prachyapatha (East) &ryarr; Tosali</li>
+            <li>Avantipatha (West) &ryarr; Ujjain</li>
+            <li>Uttarapatha (North) &ryarr; Taxila</li>
+            <li>Dakshinapatha (South) &ryarr; Suvarnagiri</li>
+            <li>Prachi (Imperial Capital) &ryarr; Pataliputra</li>
+        </ul>
+        <p><strong>Tax System</strong></p>
+        <ul>
+            <li>Tax paid in gold: <strong>Hiranya</strong>.</li>
+            <li>Emergency tax: <strong>Pranaya</strong>.</li>
+            <li>Taxes paid in kind by villages: <strong>Pindakara</strong>.</li>
+            <li>Army maintenance tax: <strong>Senabhaktam</strong>.</li>
+            <li>Extra tax: <strong>Parsvam</strong>.</li>
+        </ul>
+        <p><strong>Two Types of Courts</strong></p>
+        <ul>
+            <li>1. <strong>Dharmasthiya Nyayalaya:</strong> Presided by <strong>Vyavaharika</strong> (personal disputes).</li>
+            <li>2. <strong>Kantakasodhana Nyayalaya:</strong> Presided by <strong>Pradeshta</strong> (disputes between state and people).</li>
+        </ul>
+        <p><strong>Officers</strong></p>
+        <ul>
+            <li><strong>Sannidhata:</strong> Chief treasury officer (CTO)</li>
+            <li><strong>Samaharta:</strong> Collector general of revenue</li>
+            <li><strong>Gopa:</strong> Responsible for account</li>
+            <li><strong>Akshapatalik:</strong> Accountant General/ Audit Officer</li>
+            <li><strong>Nagaraka:</strong> Responsible for city administration</li>
+            <li><strong>Sitadhyaksha:</strong> Superintendent of Agriculture</li>
+            <li><strong>Samsthadhyaksha:</strong> Responsible for market</li>
+            <li><strong>Navadhyaksha:</strong> Superintendent of ships</li>
+            <li><strong>Ashwadhyaksha:</strong> Commanding officer of the cavalry</li>
+            <li><strong>Shulkadhyaksha:</strong> Superintendent of Toll Tax</li>
+            <li><strong>Akaradhyaksha:</strong> Superintendent of Mines</li>
+            <li><strong>Dhamma Mahamatta:</strong> New post created by Ashoka to check if people are following the concepts of Dhamma</li>
+        </ul>
+        <p><strong>Indica - Account of the Mauryan Empire by Megasthenes</strong></p>
+        <ul>
+            <li>It mentions about administration and society of Mauryan period.</li>
+            <li><strong>Municipal Administration:</strong> Managed by 6 committees, each consisting of 5 members.</li>
+            <li><strong>Military Administration:</strong> The army was also organized under 6 committees, each with 5 members.</li>
+            <li>Megasthenes divided Mauryan society into <strong>7 classes</strong>. (TRICK: PCS TWO C) &ryarr; 1. Philosophers, 2. Cultivators/Farmers, 3. Hunters and Shepherd, 4. Traders, 5. Warrior, 6. Overseer (spy), 7. Councillor.</li>
+            <li>Megasthenes described Pataliputra as a large and beautiful city, surrounded by a massive wall. The city had 570 towers and 64 gates, showcasing its grandeur and strategic importance.</li>
+        </ul>
+        <p><strong>Arthashastra</strong></p>
+        <ul>
+            <li><strong>Kautilya</strong> proposes a <strong>seven-part structure</strong> for the state including the king, ministers, territory, forts, treasury, military, and allies (also known as <strong>saptanga theory</strong>)</li>
+            <li><strong>Women</strong> occupied <strong>higher positions</strong> in society and were a part of <strong>Army</strong>.</li>
+        </ul>
+        <p><strong>Society & Administration</strong></p>
+        <ul>
+            <li>Society was divided into <strong>4 varnas</strong>. Social order based on the <strong>Dharma, Varna</strong> and <strong>Ashrama</strong> systems.</li>
+            <li><strong>Antyaja:</strong> Without any caste.</li>
+            <li><strong>8 types</strong> of marriages were mentioned and <strong>divorce was allowed</strong></li>
+            <li><strong>Provincial Administration:</strong> Divided in: <strong>Centre, Province</strong> and <strong>District</strong> Unit. District Unit (<strong>Vishaya and Ahara</strong>).</li>
+            <li><strong>Silver</strong> was extensively used for <strong>coinage</strong> in the Mauryan Empire.</li>
+            <li><strong>Sthanika:</strong> Head of several villages. <strong>Gramika:</strong> Head of the village.</li>
+            <li><strong>Provincial Officers:</strong> <strong>Kumar or Aryaputra or Pradeshika:</strong> Provincial head. <strong>Mahamatya:</strong> Senior Administration officer. <strong>Amatya:</strong> Executive officials. <strong>Yukta:</strong> Revenue Assessment. <strong>Rajjuka:</strong> Judicial officers.</li>
+            <li><strong>Recruitment:</strong> Tribes used as troops, spies, and assassins.</li>
+            <li><strong>Ports:</strong> West: <strong>Bharuch (Gujarat), Sopara (Maharashtra)</strong>. East: <strong>Tamralipti (Bengal)</strong>.</li>
+            <li>Note: The last ruler of Mauryan Dynasty <strong>Brihadratha Maurya</strong> was <strong>killed</strong> by his military commander <strong>Pushyamitra Shunga</strong> which led to the start of Shunga Dynasty.</li>
+        </ul>
