@@ -390,6 +390,8 @@ let activeQuiz = {
 };
 
 const TOPIC_LABELS = {
+    all_mixed: "🔀 Mixed Practice (All Topics)",
+    ncert_mixed: "📚 Complete NCERT Practice",
     // Maths
     percentage: "📊 Percentages",
     ratio: "⚖️ Ratio & Proportion",
@@ -447,6 +449,7 @@ const SUBJECT_TOPICS = {
     maths: ["percentage","ratio","profit_loss","time_work","time_distance","si_ci","algebra","trigonometry","mensuration","number_system","average","mixture","geometry","general"],
     gk:    ["history","polity","geography","economy","science","current","culture","environment","general_awareness"],
     english: ["vocabulary","grammar","reading_comprehension","idioms_phrases","sentence_improvement","cloze_test","english_misc"],
+    ncert: ["ncert_mixed"],
     reasoning: ["analogy","series","coding_decoding","blood_relation","direction","syllogism","odd_one_out","ranking","mathematical_ops","venn_diagram","matrix","mirror_image","paper_folding","assumption","statement_conclusion","puzzle","reasoning_misc"]
 };
 
@@ -476,7 +479,7 @@ function renderQuizTopics() {
     // Determine which topics to show based on activeSubjectFilter
     let topicsToShow;
     if (activeSubjectFilter === 'all') {
-        topicsToShow = Object.keys(TOPIC_LABELS);
+        topicsToShow = ['all_mixed', ...Object.keys(TOPIC_LABELS).filter(k => k !== 'all_mixed' && k !== 'ncert_mixed')];
     } else {
         topicsToShow = SUBJECT_TOPICS[activeSubjectFilter] || Object.keys(TOPIC_LABELS);
     }
@@ -504,7 +507,17 @@ function renderQuizTopics() {
 
 function startQuiz(topicKey) {
     // Filter questions by topic
-    const pool = QUESTIONS_DB.filter(q => q.topic === topicKey);
+    let pool = [];
+    if (topicKey === 'all_mixed') {
+        pool = QUESTIONS_DB.filter(q => q.subject !== 'ncert'); // All standard SSC questions
+        // Shuffle pool for mixed practice
+        pool = pool.sort(() => Math.random() - 0.5);
+    } else if (topicKey === 'ncert_mixed') {
+        pool = QUESTIONS_DB.filter(q => q.subject === 'ncert');
+        pool = pool.sort(() => Math.random() - 0.5);
+    } else {
+        pool = QUESTIONS_DB.filter(q => q.topic === topicKey);
+    }
     if (pool.length === 0) return alert("No questions available for this topic yet!");
 
     activeQuiz.category = topicKey;
