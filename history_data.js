@@ -631,7 +631,7 @@
             <li>He expanded Rashtrakuta power into North India and initiated their role in the <strong>Tripartite Struggle</strong>.</li>
             <li>Dhruv Dharavarsha Defeated: <strong>Vatsaraja</strong> (Gurjara-Pratihara ruler), <strong>Dharmapala</strong> (Pala ruler), <strong>Pallavas</strong> in the south.</li>
         </ul>
-        <|p><strong>Govinda III (793 AD - 814 AD)</strong></p>
+        <p><strong>Govinda III (793 AD - 814 AD)</strong></p>
         <ul>
             <li>Son of Dhruva Dharavarsha. <strong>Title Assumed:</strong> <strong>Sarvabhauma</strong> (Universal Monarch).</li>
             <li>He defeated <strong>Pratihara king Nagabhatta II</strong> and <strong>Dharmapala</strong> of Pala dynasty.</li>
@@ -654,9 +654,9 @@
             <li><strong>Assumed titles:</strong> <strong>Ratta Kandarpa</strong> (meaning "Rashtrakuta Cupid") and <strong>Nityovarsha</strong> (symbolizing prosperity).</li>
             <li>Described by <strong>Arab traveler Al-Masudi</strong> in his book <strong>Muraj ul-Zuhab</strong> (Book of Golden Meadows).</li>
         </ul>
-        <|p><strong>Govinda IV:</strong> His reign marks the beginning of the decline of the Rashtrakuta empire.</p>
-        <|p><strong>Amoghavarsha II:</strong> Short and insignificant reign, overshadowed by internal conflicts.</p>
-        <|p><strong>Krishna III (939 AD - 967 AD)</strong></p>
+        <p><strong>Govinda IV:</strong> His reign marks the beginning of the decline of the Rashtrakuta empire.</p>
+        <p><strong>Amoghavarsha II:</strong> Short and insignificant reign, overshadowed by internal conflicts.</p>
+        <p><strong>Krishna III (939 AD - 967 AD)</strong></p>
         <ul>
             <li>Considered the last great Rashtrakuta ruler.</li>
             <li>Successfully invaded the Chola territory and captured <strong>Tanjore</strong> (Thanjavur) by defeating Chola king <strong>Prantaka I</strong> in the <strong>Battle of Tokkolam</strong> in 949 AD.</li>
@@ -826,7 +826,7 @@
             <li>Established Chandela power by independengly ruling the Bundelkhand region, uprooting the supremacy of the <strong>Gurjara-Pratiharas</strong>.</li>
             <li>Commissioned the construction of the <strong>Lakshmana Temple</strong> at Khajuraho, a manifestation of his growing power and devotion to Lord Vishnu.</li>
         </ul>
-        <|p><strong>Dhangadeva (950 - 999 CE)</strong></p>
+        <p><strong>Dhangadeva (950 - 999 CE)</strong></p>
         <ul>
             <li>The <strong>greatest ruler</strong> of the Chandela dynasty, under whom the kingdom reached its zenith.</li>
             <li>Assumed the title of <strong>"Maharajadhiraja"</strong>.</li>
@@ -863,7 +863,7 @@
             <li>Patronized scholars like <strong>Somadeva</strong>, who composed the <strong>Lalita Vigraharaja Nataka</strong>.</li>
             <li>Built a Sanscrit college at Ajmer, which was later converted into the <strong>Adhai Din Ka Jhonpra</strong> mosque by Qutb-ud-din Aibak.</li>
         </ul>
-        <|p><strong>Prithviraj Chauhan III (1178 - 1192 CE)</strong></p>
+        <p><strong>Prithviraj Chauhan III (1178 - 1192 CE)</strong></p>
         <ul>
             <li>The most celebrated Chauhan ruler, renewed for his military valor and romantic tales (eg. elopement with Sanyogita, daughter of Jaichand of Kannauj*.</li>
             <li><strong>First Battle of Tarain (1191 CE):</strong> Defeated <strong>Muhammad Ghori</strong>, forcing him the retreat.</li>
