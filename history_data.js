@@ -892,7 +892,7 @@
                 </ul>
             </li>
         </ul>
-,
+`,
     mcqs: [
     {
         "id": "hist_buddhism_air1_1",
