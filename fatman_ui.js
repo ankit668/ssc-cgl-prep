@@ -433,7 +433,13 @@ window.prepareTeacherAudio = function(contentDiv, chapterName) {
         
         el.addEventListener('click', function(e) {
             e.stopPropagation();
-            window.playFatmanAudioFromIndex(index);
+            if (window.fatmanAudioCurrentIndex === index && window.fatmanAudioState === 'playing') {
+                window.toggleFatmanAudio(); // Pause it if they click the active one
+            } else if (window.fatmanAudioCurrentIndex === index && window.fatmanAudioState === 'paused') {
+                window.toggleFatmanAudio(); // Resume if they click the paused one
+            } else {
+                window.playFatmanAudioFromIndex(index);
+            }
         });
     });
 };
