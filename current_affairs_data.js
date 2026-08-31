@@ -1,82 +1,81 @@
 ﻿window.currentAffairsData = {
-    chapter: "July 2024 Current Affairs",
+    chapter: "July 2026 Current Affairs",
     notes: `
         <h2>National News & Schemes</h2>
-        <p><strong>Union Budget 2024-25:</strong> Presented by Finance Minister Nirmala Sitharaman. It became her 7th consecutive budget, surpassing Morarji Desai's record. The budget focused on Employment, Skilling, MSMEs, and Middle-class relief.</p>
-        <p><strong>PM Surya Ghar Muft Bijli Yojana:</strong> Pushed heavily in the budget to provide up to 300 units of free electricity to 1 crore households.</p>
-        <p><strong>Project PARI:</strong> The Ministry of Culture launched Project PARI (Public Art of India) to beautify Delhi ahead of the World Heritage Committee meeting.</p>
-        <p><strong>NITI Aayog SDG India Index 2023-24:</strong> Kerala and Uttarakhand emerged as top-performing states, while Bihar was at the bottom.</p>
+        <p><strong>Government Initiatives:</strong> The "Viksit Bharat Guarantee for Rojgar & Ajeevika Mission" was enforced on July 1, 2026, offering 125 days of guaranteed unskilled employment (replacing MGNREGA). The "Mobile Phone Manufacturing Scheme" was approved with a ₹62,500 crore outlay.</p>
+        <p><strong>State News:</strong> Uttarakhand became the 6th fully literate state under NEP 2020. Madhya Pradesh passed the Uniform Civil Code (UCC), becoming the 4th state to do so. Chhattisgarh became the first state to adopt a risk-based regulatory framework under the Ease of Doing Business Act 2026.</p>
+        <p><strong>Science & Infrastructure:</strong> India's first hydrogen-powered passenger train was launched on the Jind-Sonipat route in Haryana. Skyroot Aerospace successfully launched Vikram-1 from Sriharikota under Mission Aagman. Sarnath was inscribed as India's 45th UNESCO World Heritage property.</p>
 
-        <h2>International News</h2>
-        <p><strong>PM Modi's Russia Visit:</strong> PM Modi visited Moscow for the 22nd India-Russia Annual Summit and received Russia's highest civilian honor, the <strong>Order of St Andrew the Apostle</strong>.</p>
-        <p><strong>PM Modi's Austria Visit:</strong> First visit by an Indian PM to Austria in 41 years (last was Indira Gandhi in 1983).</p>
-        <p><strong>SCO Summit 2024:</strong> Hosted by Kazakhstan in Astana. Belarus officially became the 10th member state of the Shanghai Cooperation Organisation.</p>
-        <p><strong>NATO Summit 2024:</strong> Held in Washington D.C. to mark its 75th anniversary.</p>
+        <h2>International News & Summits</h2>
+        <p><strong>India-Indonesia Relations:</strong> PM Modi became the first Indian PM to address the Indonesian Parliament and received Indonesia's highest civilian award, "Bintang Republik Indonesia Adipurna". Indonesia also signed to acquire BrahMos missiles from India.</p>
+        <p><strong>Global Summits:</strong> India hosted multiple 2026 BRICS meetings across various cities. New Delhi hosted the 5th BIMSTEC National Security Advisors meeting.</p>
+        <p><strong>UK Politics:</strong> Andy Burnham assumed office as the new UK Prime Minister. Kanishka Narayan (Indian-origin) became the UK's first Minister for AI. The India-UK CETA came into force.</p>
+        <p><strong>Defense:</strong> The Indian Navy commissioned 'Malvan' (Mahe class Anti-Submarine Warfare Shallow Water Craft). DRDO tested 'Kusha', a Long-Range Surface-to-Air Missile (LR-SAM).</p>
 
         <h2>Sports (Khel)</h2>
-        <p><strong>Wimbledon 2024:</strong> Carlos Alcaraz won the Men's Singles (defeating Novak Djokovic), and Barbora Krejcikova won the Women's Singles.</p>
-        <p><strong>T20 World Cup 2024 Retirement:</strong> Following India's victory in June, Rohit Sharma, Virat Kohli, and Ravindra Jadeja officially retired from T20 Internationals.</p>
-        <p><strong>Paris Olympics 2024:</strong> Officially kicked off in July. Manu Bhaker became the first Indian woman to win an Olympic shooting medal (Bronze in 10m air pistol).</p>
-        <p><strong>Copa America 2024:</strong> Argentina defeated Colombia to win a record 16th Copa America title.</p>
-        <p><strong>Euro 2024:</strong> Spain defeated England to win a record 4th European Championship.</p>
+        <p><strong>FIFA Men's World Cup 2026:</strong> Hosted by USA, Canada, and Mexico. Spain won the World Cup by defeating Argentina in the final. Kylian Mbappe won the Golden Boot, and Rodri won the Golden Ball.</p>
+        <p><strong>Wimbledon 2026:</strong> Jannik Sinner won the Men's Singles (defeating Alexander Zverev), and Linda Noskova won the Women's Singles.</p>
+        <p><strong>Commonwealth Games 2026:</strong> Held in Glasgow, Scotland. In Javelin, Neeraj Chopra won Silver (Sri Lanka's Ramesh won Gold). Preeti Pawar and Jasmine Lamboria won Boxing Golds for India.</p>
+        <p><strong>Cricket:</strong> Australia won the ICC Women's T20 World Cup for the 7th time, defeating England (Beth Mooney was Player of the Series).</p>
 
-        <h2>Awards & Honours (Puraskar)</h2>
-        <p><strong>Kalinga Fellowship 2024:</strong> Awarded to outstanding individuals in science.</p>
-        <p><strong>Best Agriculture State Award 2024:</strong> Maharashtra won the award for outstanding agricultural growth.</p>
+        <h2>Awards & Appointments</h2>
+        <p><strong>72nd National Film Awards:</strong> Best Feature Film was awarded to <em>Article 370</em>. Mammootty and Kartik Aaryan shared Best Actor, and Yami Gautam won Best Actress.</p>
+        <p><strong>Other Awards:</strong> NSA Ajit Doval received the Lokmanya Tilak National Award. Tamil poet Vairamuthu received the 60th Jnanpith Award.</p>
+        <p><strong>Appointments:</strong> Anurag Jain was appointed CEO of NITI Aayog. Viswanathan Anand became Interim President of FIDE. Vikram Misri received a 1-year extension as Foreign Secretary.</p>
     `,
     mcqs: [
         {
-            id: "ca_jul_1",
+            id: "ca_jul26_1",
             subject: "current_affairs",
-            topic: "July 2024",
-            question: "Who won the Men's Singles title at Wimbledon 2024?",
-            options: ["Novak Djokovic", "Carlos Alcaraz", "Rafael Nadal", "Jannik Sinner"],
+            topic: "July 2026",
+            question: "Which country won the FIFA Men's World Cup 2026?",
+            options: ["Argentina", "France", "Spain", "Brazil"],
+            correct: 2,
+            explanation: "Spain won the 2026 FIFA World Cup by defeating Argentina in the final."
+        },
+        {
+            id: "ca_jul26_2",
+            subject: "current_affairs",
+            topic: "July 2026",
+            question: "Which state passed the Uniform Civil Code (UCC) in July 2026, becoming the 4th state in India to do so?",
+            options: ["Gujarat", "Madhya Pradesh", "Assam", "Haryana"],
             correct: 1,
-            explanation: "Carlos Alcaraz defeated Novak Djokovic to win his second consecutive Wimbledon title."
+            explanation: "Madhya Pradesh passed the UCC and also declared 2027 as the 'Year of Youth'."
         },
         {
-            id: "ca_jul_2",
+            id: "ca_jul26_3",
             subject: "current_affairs",
-            topic: "July 2024",
-            question: "Which country became the 10th member of the Shanghai Cooperation Organisation (SCO) in July 2024?",
-            options: ["Iran", "Saudi Arabia", "Belarus", "Egypt"],
+            topic: "July 2026",
+            question: "Who was awarded the 60th Jnanpith Award?",
+            options: ["Gulzar", "Javed Akhtar", "Vairamuthu", "Amitav Ghosh"],
             correct: 2,
-            explanation: "Belarus was officially admitted as the 10th member state at the SCO Summit in Astana, Kazakhstan."
+            explanation: "Tamil poet and lyricist Vairamuthu was awarded the 60th Jnanpith Award."
         },
         {
-            id: "ca_jul_3",
+            id: "ca_jul26_4",
             subject: "current_affairs",
-            topic: "July 2024",
-            question: "PM Modi received the 'Order of St Andrew the Apostle', which is the highest civilian honour of which country?",
-            options: ["France", "UAE", "Russia", "Austria"],
-            correct: 2,
-            explanation: "PM Modi was awarded this honour during his visit to Russia for the 22nd India-Russia Annual Summit."
-        },
-        {
-            id: "ca_jul_4",
-            subject: "current_affairs",
-            topic: "July 2024",
-            question: "Which country won the UEFA Euro 2024 football championship?",
-            options: ["England", "France", "Spain", "Germany"],
-            correct: 2,
-            explanation: "Spain defeated England 2-1 in the final to win a record 4th Euro title."
-        },
-        {
-            id: "ca_jul_5",
-            subject: "current_affairs",
-            topic: "July 2024",
-            question: "Which state topped the NITI Aayog SDG India Index 2023-24 along with Uttarakhand?",
-            options: ["Tamil Nadu", "Kerala", "Gujarat", "Himachal Pradesh"],
+            topic: "July 2026",
+            question: "Which scheme replaced MGNREGA on July 1, 2026?",
+            options: ["PM Rojgar Yojana", "Viksit Bharat Guarantee for Rojgar & Ajeevika Mission", "National Urban Livelihood Mission", "Atmanirbhar Bharat Rojgar Abhiyan"],
             correct: 1,
-            explanation: "Kerala and Uttarakhand emerged as the top-performing states in the SDG India Index."
+            explanation: "It was enforced on July 1, 2026, offering 125 days of guaranteed unskilled employment."
+        },
+        {
+            id: "ca_jul26_5",
+            subject: "current_affairs",
+            topic: "July 2026",
+            question: "Which Indian historical site was inscribed as India's 45th UNESCO World Heritage property in July 2026?",
+            options: ["Sarnath", "Konark Sun Temple", "Hampi", "Ajanta Caves"],
+            correct: 0,
+            explanation: "Sarnath, the ancient Buddhist site, was inscribed as India's 45th UNESCO property at the session in Busan."
         }
     ],
     flashcards: [
-        { topic: "July 2024", front: "Order of St Andrew the Apostle received by PM Modi from?", back: "Russia" },
-        { topic: "July 2024", front: "Wimbledon 2024 Women's Singles winner?", back: "Barbora Krejcikova" },
-        { topic: "July 2024", front: "Copa America 2024 winner?", back: "Argentina (16th title)" },
-        { topic: "July 2024", front: "10th member state of SCO?", back: "Belarus" },
-        { topic: "July 2024", front: "First Indian woman to win Olympic shooting medal?", back: "Manu Bhaker (Paris 2024)" }
+        { topic: "July 2026", front: "Who became the new UK Prime Minister in July 2026?", back: "Andy Burnham" },
+        { topic: "July 2026", front: "Wimbledon 2026 Men's Singles winner?", back: "Jannik Sinner" },
+        { topic: "July 2026", front: "Best Feature Film at the 72nd National Film Awards?", back: "Article 370" },
+        { topic: "July 2026", front: "Indonesia's highest civilian award received by PM Modi?", back: "Bintang Republik Indonesia Adipurna" },
+        { topic: "July 2026", front: "India's first hydrogen-powered passenger train route?", back: "Jind-Sonipat (Haryana)" }
     ]
 };
 window.fatmanCurrentAffairs = window.currentAffairsData;
