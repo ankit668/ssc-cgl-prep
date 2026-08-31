@@ -4,6 +4,7 @@ window.getFatmanData = function() {
     if (window.currentFatmanSubject === "history") return window.fatmanHistory;
     if (window.currentFatmanSubject === "medieval") return window.fatmanMedieval;
     if (window.currentFatmanSubject === "modern") return window.fatmanModern;
+    if (window.currentFatmanSubject === "current_affairs") return window.fatmanCurrentAffairs;
     return window.fatmanGeography;
 };
 window.switchFatmanSubject = function(subject) {
@@ -74,6 +75,7 @@ if ('speechSynthesis' in window) {
             <option value="history">Ancient History</option>
             <option value="medieval">Medieval History</option>
             <option value="modern">Modern History</option>
+            <option value="current_affairs">Current Affairs (July 2024)</option>
         </select>
     </div>
     <button id="fatman-close" style="background:none; border:none; color:white; font-size:24px; cursor:pointer;">&times;</button>
