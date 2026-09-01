@@ -81,6 +81,9 @@
         { id: "ca_jul26_7", subject: "current_affairs", topic: "July 2026", question: "Which state enacted the Women Farmers Empowerment Act 2026?", options: ["Maharashtra", "Punjab", "Haryana", "Madhya Pradesh"], correct: 0, explanation: "Maharashtra enacted the act to recognize women as independent farmers." }
     ],
     flashcards: [
+        { topic: "July 2026", front: "Which ministry launched the 'DAANVEER' initiative?", back: "Ministry of Panchayati Raj" },
+        { topic: "July 2026", front: "Proposed sanctioned strength of Supreme Court judges (July 2026 bill)?", back: "38 Judges" },
+    
         { topic: "July 2026", front: "Who became the new UK Prime Minister in July 2026?", back: "Andy Burnham" },
         { topic: "July 2026", front: "Wimbledon 2026 Men's Singles winner?", back: "Jannik Sinner" },
         { topic: "July 2026", front: "Best Feature Film at the 72nd National Film Awards?", back: "Article 370" },
