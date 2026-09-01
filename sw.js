@@ -1,4 +1,4 @@
-﻿const CACHE_NAME = 'ssc-prep-v94';
+﻿const CACHE_NAME = 'ssc-prep-v95';
 const urlsToCache = [
   './',
   './index.html',
@@ -92,6 +92,7 @@ self.addEventListener('activate', event => {
     })
   );
 });
+
 
 
 
