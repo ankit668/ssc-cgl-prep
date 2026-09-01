@@ -591,7 +591,7 @@ const modernData = {
         { id: "mod_13", subject: "history", topic: "Modern", question: "When was the Quit India Movement launched?", options: ["1939", "1940", "1942", "1945"], correct: 2, explanation: "The Quit India Movement was launched in August 1942 at the Bombay session of the INC." },
         { id: "mod_14", subject: "history", topic: "Modern", question: "Who was the founder of the Indian National Army (INA) / Azad Hind Fauj?", options: ["Subhas Chandra Bose", "Mohan Singh", "Rash Behari Bose", "Both B and C"], correct: 3, explanation: "The INA was initially formed by Captain Mohan Singh and Rash Behari Bose, and later revived by Subhas Chandra Bose." },
         { id: "mod_15", subject: "history", topic: "Modern", question: "Who was the first Governor-General of independent India?", options: ["C. Rajagopalachari", "Lord Mountbatten", "Jawaharlal Nehru", "Rajendra Prasad"], correct: 1, explanation: "Lord Mountbatten was the first Governor-General of independent India. C. Rajagopalachari was the first and only Indian Governor-General." }
-    ],,
+    ],
     flashcards: [
         { topic: "Modern", front: "First European to reach India by sea?", back: "Vasco da Gama (1498)" },
         { topic: "Modern", front: "Battle of Plassey (1757) was fought between?", back: "Robert Clive and Siraj-ud-Daulah" },

@@ -521,7 +521,7 @@ const medievalData = {
         { id: "med_13", subject: "history", topic: "Medieval", question: "The Treaty of Purandar (1665) was signed between Shivaji and?", options: ["Aurangzeb", "Afzal Khan", "Jai Singh I", "Shaista Khan"], correct: 2, explanation: "The treaty was signed between Shivaji and Raja Jai Singh I (representing the Mughal Emperor Aurangzeb)." },
         { id: "med_14", subject: "history", topic: "Medieval", question: "Who built the Red Fort in Delhi?", options: ["Akbar", "Jahangir", "Shah Jahan", "Aurangzeb"], correct: 2, explanation: "Shah Jahan commissioned the construction of the Red Fort in 1638 when he decided to shift his capital from Agra to Delhi." },
         { id: "med_15", subject: "history", topic: "Medieval", question: "The token currency of copper and brass was introduced by?", options: ["Muhammad bin Tughlaq", "Alauddin Khalji", "Iltutmish", "Sher Shah Suri"], correct: 0, explanation: "Muhammad bin Tughlaq introduced a token currency in 1330, which ultimately failed due to widespread counterfeiting." }
-    ],,
+    ],
     flashcards: [
         { topic: "Medieval", front: "Founder of Slave Dynasty?", back: "Qutb-ud-din Aibak (1206 AD)" },
         { topic: "Medieval", front: "Who completed the construction of Qutub Minar?", back: "Iltutmish" },
