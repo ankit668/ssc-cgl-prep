@@ -320,7 +320,7 @@
         <h3>7. Maurya Dynasty</h3>
         <h4 style="color:#F59E0B;">Sources for the Mauryan Empire</h4>
         <ul>
-            <li><strong>Kautilya's Arthashastra:</strong> Arthashastra describes the <strong>administration</strong> and <strong>state policies</strong> of Mauryan Empire during Chandragupta Maurya's time. Consists of <strong>15 books</strong>, called <em>"Adhikaranas"</em>; first 5 books were based on <em>"Tantra"</em> - internal administration and next 8 books were on <em>"Avapa"</em> - interstate relation, last 2 books were miscellaneous. (<em>Chanakya is often compared with Italian Renaissance writer - Niccolo Machiavelli (author of Prince)</em>).</li>
+            <li><strong>Kautilya\'s Arthashastra:</strong> Arthashastra describes the <strong>administration</strong> and <strong>state policies</strong> of Mauryan Empire during Chandragupta Maurya's time. Consists of <strong>15 books</strong>, called <em>"Adhikaranas"</em>; first 5 books were based on <em>"Tantra"</em> - internal administration and next 8 books were on <em>"Avapa"</em> - interstate relation, last 2 books were miscellaneous. (<em>Chanakya is often compared with Italian Renaissance writer - Niccolo Machiavelli (author of Prince)</em>).</li>
             <li><strong>Vishakhadatta Mudrarakshasa:</strong> It is a <strong>Sanskrit</strong> play that narrates the ascent of emperor Chandragupta Maurya to power in India. This play describes he belonged to <strong>lower caste</strong>.</li>
             <li><strong>Indica</strong> written by <strong>Megasthenes</strong>: It includes all the detailed account of how things were run in Mauryan Empire.</li>
             <li><strong>Buddhist Literature:</strong> Jataka tales, Dipavamsa/Mahavamsa, Divyadana.</li>
@@ -1886,7 +1886,7 @@
 {"id": "hist_fc_12", topic: "Mahajanapadas & Magadha Empire", "question": "Who was the ruler of Magadha during Alexander's invasion?", "options": ["Bimbisara", "Chandragupta Maurya", "Dhana Nanda", "Ajatashatru"], "correct": 2, "explanation": "Alexander invaded in 326 BC during the reign of Dhana Nanda."},
 {"id": "hist_fc_13", topic: "Mahajanapadas & Magadha Empire", "question": "Which Mahajanapada was situated on the banks of Godavari?", "options": ["Avanti", "Vatsa", "Ashmaka", "Kamboja"], "correct": 2, "explanation": "Ashmaka was the only Mahajanapada in South India."},
 {"id": "hist_fc_14", topic: "Mahajanapadas & Magadha Empire", "question": "The capital of Kosala Mahajanapada was:", "options": ["Shravasti", "Mathura", "Ujjain", "Kaushambi"], "correct": 0, "explanation": "Shravasti was the capital of Kosala."},
-{"id": "hist_fc_15", topic: "Mauryan Empire", "question": "Who was the Greek ambassador sent by Seleucus Nicator to Chandragupta Maurya's court?", "options": ["Ptolemy", "Deimachus", "Megasthenes", "Pliny"], "correct": 2, "explanation": "Megasthenes wrote 'Indica'."},
+{"id": "hist_fc_15", topic: "Mauryan Empire", "question": "Who was the Greek ambassador sent by Seleucus Nicator to Chandragupta Maurya\'s court?", "options": ["Ptolemy", "Deimachus", "Megasthenes", "Pliny"], "correct": 2, "explanation": "Megasthenes wrote 'Indica'."},
 {"id": "hist_fc_16", topic: "Mauryan Empire", "question": "In which edict did Ashoka declare his faith in Buddha, Dhamma, and Sangha?", "options": ["Maski Edict", "Bhabru Edict", "Kalinga Edict", "Rumindei Pillar Edict"], "correct": 1, "explanation": "Bhabru (Bairat) Edict."},
 {"id": "hist_fc_17", topic: "Mauryan Empire", "question": "The Third Buddhist Council at Pataliputra was presided over by:", "options": ["Mahakassapa", "Sabakami", "Moggaliputta Tissa", "Vasumitra"], "correct": 2, "explanation": "Convened by Ashoka, presided by Moggaliputta Tissa."},
 {"id": "hist_fc_18", topic: "Mauryan Empire", "question": "The last Mauryan king Brihadratha was assassinated by his commander-in-chief:", "options": ["Agnimitra", "Pushyamitra Shunga", "Vasudeva", "Simuka"], "correct": 1, "explanation": "Pushyamitra founded the Shunga dynasty."},
@@ -2173,7 +2173,7 @@
     ],
 
     { id: 'anc_1', subject: 'history', topic: 'The Vedic Age', question: 'Which type of pottery is most distinctively associated with the Later Vedic period?', options: ['Ochre Coloured Pottery (OCP)', 'Black and Red Ware (BRW)', 'Painted Grey Ware (PGW)', 'Northern Black Polished Ware (NBPW)'], correct: 2, explanation: 'Painted Grey Ware (PGW) is the characteristic pottery of the Later Vedic period, found in the Ganga-Yamuna doab.' },
-    { id: 'anc_2', subject: 'history', topic: 'Mauryan Empire', question: 'What was the term used for the espionage system or secret spies in Kautilya's Arthashastra?', options: ['Amatyas', 'Gudhapurushas', 'Antapalas', 'Sannidhata'], correct: 1, explanation: 'Gudhapurushas were the secret agents or spies in the highly developed Mauryan intelligence network.' },
+    { id: 'anc_2', subject: 'history', topic: 'Mauryan Empire', question: 'What was the term used for the espionage system or secret spies in Kautilya\'s Arthashastra?', options: ['Amatyas', 'Gudhapurushas', 'Antapalas', 'Sannidhata'], correct: 1, explanation: 'Gudhapurushas were the secret agents or spies in the highly developed Mauryan intelligence network.' },
     { id: 'anc_3', subject: 'history', topic: 'Mauryan Empire', question: 'The sculptural masterpiece "Didarganj Yakshi", carved out of polished sandstone, belongs to which period?', options: ['Kushana period', 'Gupta period', 'Mauryan period', 'Shunga period'], correct: 2, explanation: 'The Didarganj Yakshi is a prime example of Mauryan art, characterized by the brilliant Mauryan polish.' },
     { id: 'anc_4', subject: 'history', topic: 'Mauryan Empire', question: 'Which Rock Edict of Ashoka mentions the Cholas, Pandyas, Satyaputras, and Keralaputras?', options: ['Major Rock Edict I', 'Major Rock Edict II', 'Major Rock Edict XIII', 'Pillar Edict VII'], correct: 1, explanation: 'Major Rock Edict II mentions southern kingdoms where Ashoka made provisions for medical treatment for humans and animals.' },
     { id: 'anc_5', subject: 'history', topic: 'Post-Mauryan & Foreign Invasions', question: 'The Mathura School of Art, which flourished during the Kushana period, predominantly used which material?', options: ['Bluish-grey schist', 'Spotted red sandstone', 'White marble', 'Granite'], correct: 1, explanation: 'Unlike the Gandhara school which used bluish-grey schist, the Mathura school primarily used spotted red sandstone.' },
@@ -2185,7 +2185,7 @@
     { id: 'anc_11', subject: 'history', topic: 'Ancient Books & Authors', question: 'Which ancient play authored by Shudraka shows realistic city life focusing on merchant and courtesan society?', options: ['Malavikagnimitram', 'Mrichchhakatika', 'Ratnavali', 'Uttaramacarita'], correct: 1, explanation: 'Mrichchhakatika (The Little Clay Cart) by Shudraka revolves around merchant Charudatta and courtesan Vasantasena.' },
     { id: 'anc_12', subject: 'history', topic: 'Ancient Indian Philosophies', question: 'Which school of ancient Indian philosophy is closely associated with the atomic theory of matter (Parmanu)?', options: ['Samkhya', 'Vaisheshika', 'Nyaya', 'Mimamsa'], correct: 1, explanation: 'The Vaisheshika school, founded by sage Kanada, posited that the universe is made up of indestructible atoms (anu/parmanu).' },
     { id: 'anc_13', subject: 'history', topic: 'Ancient Indian Philosophies', question: 'Which ancient philosophy strictly rejected the authority of the Vedas, karma, and afterlife, focusing on materialism?', options: ['Yoga', 'Vedanta', 'Charvaka (Lokayata)', 'Samkhya'], correct: 2, explanation: 'The Charvaka or Lokayata school is an ancient Indian materialistic philosophy that rejected supernaturalism.' },
-    { id: 'anc_14', subject: 'history', topic: 'Indus Valley Civilization', question: 'Which Harappan site provides the earliest evidence of ploughed agricultural fields?', options: ['Dholavira', 'Mohenjo-Daro', 'Kalibangan', 'Lothal'], correct: 2, explanation: 'Kalibangan in Rajasthan shows evidence of ploughed fields (possibly the world's oldest), fire altars, and ancient earthquake damage.' },
+    { id: 'anc_14', subject: 'history', topic: 'Indus Valley Civilization', question: 'Which Harappan site provides the earliest evidence of ploughed agricultural fields?', options: ['Dholavira', 'Mohenjo-Daro', 'Kalibangan', 'Lothal'], correct: 2, explanation: 'Kalibangan in Rajasthan shows evidence of ploughed fields (possibly the world\'s oldest), fire altars, and ancient earthquake damage.' },
     { id: 'anc_15', subject: 'history', topic: 'Indus Valley Civilization', question: 'The Harappan seals were mostly made of?', options: ['Terracotta', 'Bronze', 'Steatite', 'Limestone'], correct: 2, explanation: 'Most Harappan seals were made of steatite (soapstone), easy to carve before hardening by heating.' },
     { id: 'anc_16', subject: 'history', topic: 'Stone Age', question: 'Bhimbetka caves in Madhya Pradesh — the most prolific rock paintings date to which period?', options: ['Lower Paleolithic', 'Mesolithic', 'Neolithic', 'Chalcolithic'], correct: 1, explanation: 'The most detailed rock paintings at Bhimbetka date to the Mesolithic period, depicting hunting and group activities.' },
     { id: 'anc_17', subject: 'history', topic: 'Buddhism', question: 'In Buddhist Stupa architecture, what does the "Harmika" represent?', options: ['The hemispherical dome', 'The circumambulatory path', 'Balcony-like structure at top representing abode of gods', 'The central mast'], correct: 2, explanation: 'The Harmika is a square, fence-like enclosure atop the dome (Anda) of a stupa, symbolizing the sacred domain of gods.' },
@@ -2221,7 +2221,7 @@
     },
     {
         topic: "Mauryan Empire",
-        "front": "Which Greek ambassador wrote 'Indica' in Chandragupta Maurya's court?",
+        "front": "Which Greek ambassador wrote 'Indica' in Chandragupta Maurya\'s court?",
         "back": "Megasthenes."
     },
     {
@@ -2468,7 +2468,7 @@
 {topic: "Buddhism", "front": "Who was the 24th and last Tirthankara of Jainism?", "back": "Vardhamana Mahavira."},
 {topic: "Buddhism", "front": "What does the term 'Tirthankara' mean?", "back": "Ford-maker (spiritual teacher)."},
 {topic: "Mauryan Empire", "front": "Who wrote the 'Arthashastra'?", "back": "Chanakya (Kautilya)."},
-{topic: "Mauryan Empire", "front": "Which Greek ambassador visited Chandragupta Maurya's court?", "back": "Megasthenes (author of 'Indica')."},
+{topic: "Mauryan Empire", "front": "Which Greek ambassador visited Chandragupta Maurya\'s court?", "back": "Megasthenes (author of 'Indica')."},
 {topic: "Mauryan Empire", "front": "The Kalinga War (261 BC) is mentioned in which of Ashoka's edicts?", "back": "Major Rock Edict XIII."},
 {topic: "Mauryan Empire", "front": "What language and script were mostly used in Ashokan Edicts?", "back": "Prakrit language, Brahmi script."},
 {topic: "Mauryan Empire", "front": "Who was the last Mauryan ruler, assassinated by Pushyamitra Shunga?", "back": "Brihadratha."},
@@ -3045,7 +3045,7 @@
         question: "The Arthashastra is divided into how many Adhikaranas (books/chapters)?",
         options: ["10", "12", "15", "18"],
         correct: 2,
-        explanation: "Kautilya's Arthashastra is divided into 15 Adhikaranas (books/chapters) covering statecraft, economics, military strategy, and more."
+        explanation: "Kautilya\'s Arthashastra is divided into 15 Adhikaranas (books/chapters) covering statecraft, economics, military strategy, and more."
     },
     // ===== POST-MAURYAN - EXPANDED =====
     {
@@ -3264,7 +3264,7 @@
     { topic: "Mauryan Empire", front: "Greek name for Bindusara?", back: "Amitrochates (Slayer of enemies)." },
     { topic: "Mauryan Empire", front: "7 elements of Kautilya's Saptanga Theory?", back: "Swami, Amatya, Janapada, Durga, Kosha, Danda, Mitra." },
     { topic: "Mauryan Empire", front: "Mauryan tax paid in kind vs in cash?", back: "Pindakara = in kind. Hiranya = in gold/cash. Bhaga = 1/6th produce. Bali = voluntary." },
-    { topic: "Mauryan Empire", front: "Kautilya's Arthashastra has how many Adhikaranas?", back: "15 Adhikaranas (books)." },
+    { topic: "Mauryan Empire", front: "Kautilya\'s Arthashastra has how many Adhikaranas?", back: "15 Adhikaranas (books)." },
     // ===== POST-MAURYAN FC =====
     { topic: "Post-Mauryan & Foreign Invasions", front: "First rulers to issue gold coins in India?", back: "Indo-Greeks (Yavanas). Most famous: Menander (Milinda)." },
     { topic: "Post-Mauryan & Foreign Invasions", front: "Gandhara vs Mathura Art?", back: "Gandhara: Grey schist, Hellenistic style. Mathura: Red sandstone, indigenous style." },
@@ -3317,7 +3317,7 @@
     { topic: 'Mahajanapadas & Magadha Empire', front: 'Which Mahajanapada was a republic (Gana-Sangha) with capital at Vaishali?', back: 'Vajji (Vrijji)' },
     { topic: 'Mauryan Empire', front: 'Ashokan Rock Edict that describes the Kalinga War?', back: 'Major Rock Edict XIII' },
     { topic: 'Mauryan Empire', front: 'Script used for Ashokan inscriptions in north-western India?', back: 'Kharoshthi' },
-    { topic: 'Mauryan Empire', front: 'Greek ambassador in Chandragupta Maurya's court who wrote "Indica"?', back: 'Megasthenes' },
+    { topic: 'Mauryan Empire', front: 'Greek ambassador in Chandragupta Maurya\'s court who wrote "Indica"?', back: 'Megasthenes' },
     { topic: 'Post-Mauryan & Foreign Invasions', front: 'Greatest Indo-Greek ruler, famous for dialogues with monk Nagasena?', back: 'Menander (Milinda)' },
     { topic: 'Post-Mauryan & Foreign Invasions', front: 'Founder of the Shunga dynasty?', back: 'Pushyamitra Shunga (assassinated last Mauryan ruler)' },
     { topic: 'Post-Mauryan & Foreign Invasions', front: 'Shaka Era began in which year?', back: '78 AD' },
@@ -3326,7 +3326,7 @@
     { topic: 'Gupta Empire', front: 'Who wrote Abhijnanashakuntalam?', back: 'Kalidasa' },
     { topic: 'Gupta Empire', front: 'Which ancient university was founded by Kumaragupta I?', back: 'Nalanda University' },
     { topic: 'Gupta Empire', front: 'Gupta ruler who assumed the title "Vikramaditya"?', back: 'Chandragupta II' },
-    { topic: 'Harshavardhana & Sangam Age', front: 'Capital of Harshavardhana's empire?', back: 'Kannauj' },
+    { topic: 'Harshavardhana & Sangam Age', front: 'Capital of Harshavardhana\'s empire?', back: 'Kannauj' },
     { topic: 'Harshavardhana & Sangam Age', front: 'Who authored "Harshacharita"?', back: 'Banabhatta' },
     { topic: 'Sangam Age', front: 'Venue of the First Sangam (Tamil literary assembly)?', back: 'Madurai' },
     { topic: 'Sangam Age', front: 'Oldest surviving work of Sangam literature?', back: 'Tolkappiyam' },
