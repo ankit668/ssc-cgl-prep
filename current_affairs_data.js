@@ -2,6 +2,9 @@
     chapter: "July 2026 Current Affairs",
     notes: `
         <h2>Government Schemes & Infrastructure</h2>
+        <p><strong>DAANVEER Initiative:</strong> Launched by the Ministry of Panchayati Raj on July 29, 2026, to strengthen the digital infrastructure of Gram Panchayats through citizen contributions (Tagline: "Give Back to Your Village").</p>
+        <p><strong>Judiciary Expansion:</strong> The government introduced a bill to increase the number of Supreme Court judges to 38.</p>
+        
         <p><strong>Mobile Phone Manufacturing Scheme:</strong> Approved with a ₹62,500 crore outlay (2026-27 to 2030-31).</p>
         <p><strong>Viksit Bharat Guarantee for Rojgar & Ajeevika Mission:</strong> Enforced July 1, 2026, offering 125 days of guaranteed unskilled employment (replacing MGNREGA).</p>
         <p><strong>Semicon 2.0:</strong> Approved to develop the semiconductor ecosystem.</p>
@@ -15,6 +18,9 @@
         <p><strong>Infrastructure:</strong> SC approved India's first urban Night Safari in Kukrail, Lucknow. First Space Exploration Gallery inaugurated in Bhopal, MP. India's first 100 MW Vanadium Redox Flow Battery Energy Storage System approved at Khavda Solar Park, Gujarat. India's first hydrogen-powered passenger train launched on the Jind-Sonipat route in Haryana.</p>
         <p><strong>PM Surya Ghar Muft Bijli Yojana:</strong> World Bank approved an $890M package for this scheme.</p>
 
+        <h2>Important Days & Observances</h2>
+        <p><strong>July 1:</strong> National Doctors' Day (honoring Dr. Bidhan Chandra Roy) and Chartered Accountants Day.</p>
+        <p><strong>July 26:</strong> Kargil Vijay Diwas (commemorating the 1999 Kargil War victory).</p>
         <h2>State News</h2>
         <p><strong>Uttarakhand:</strong> Became the 6th fully literate state under NEP 2020 and the ULLAS program.</p>
         <p><strong>Maharashtra:</strong> Enacted the Women Farmers Empowerment Act 2026, recognizing women as independent farmers. Proposed an AI-enabled bird conservation project at Thane Creek.</p>
@@ -63,6 +69,9 @@
         <p><strong>Guy Thomson:</strong> FATF President (2026-28).</p>
     `,
     mcqs: [
+        { id: "ca_jul26_8", subject: "current_affairs", topic: "July 2026", question: "Which ministry launched the 'DAANVEER' initiative in July 2026?", options: ["Ministry of Education", "Ministry of Panchayati Raj", "Ministry of Finance", "Ministry of Rural Development"], correct: 1, explanation: "The Ministry of Panchayati Raj launched DAANVEER to digitize Gram Panchayats." },
+        { id: "ca_jul26_9", subject: "current_affairs", topic: "July 2026", question: "In July 2026, a bill was introduced to increase the number of Supreme Court judges to?", options: ["34", "36", "38", "40"], correct: 2, explanation: "The sanctioned strength of the Supreme Court was proposed to be increased to 38." },
+    
         { id: "ca_jul26_1", subject: "current_affairs", topic: "July 2026", question: "Which country won the FIFA Men's World Cup 2026?", options: ["Argentina", "France", "Spain", "Brazil"], correct: 2, explanation: "Spain won the 2026 FIFA World Cup by defeating Argentina in the final." },
         { id: "ca_jul26_2", subject: "current_affairs", topic: "July 2026", question: "Which state passed the Uniform Civil Code (UCC) in July 2026, becoming the 4th state in India to do so?", options: ["Gujarat", "Madhya Pradesh", "Assam", "Haryana"], correct: 1, explanation: "Madhya Pradesh passed the UCC and also declared 2027 as the 'Year of Youth'." },
         { id: "ca_jul26_3", subject: "current_affairs", topic: "July 2026", question: "Who was awarded the 60th Jnanpith Award?", options: ["Gulzar", "Javed Akhtar", "Vairamuthu", "Amitav Ghosh"], correct: 2, explanation: "Tamil poet and lyricist Vairamuthu was awarded the 60th Jnanpith Award." },

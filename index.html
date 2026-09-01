@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -126,10 +126,10 @@
                     <h2 id="current-tab-title">Dashboard</h2>
                 </div>
                 <div class="user-profile">
-                    <button class="theme-toggle-btn" onclick="toggleSound()" id="sound-toggle-btn" title="Toggle Sound Effects">🔊</button>
-                    <button class="theme-toggle-btn" onclick="toggleTheme()" id="theme-toggle-btn" title="Toggle Light / Dark Mode">🌙</button>
+                    <button class="theme-toggle-btn" onclick="toggleSound()" id="sound-toggle-btn" title="Toggle Sound Effects">ðŸ”Š</button>
+                    <button class="theme-toggle-btn" onclick="toggleTheme()" id="theme-toggle-btn" title="Toggle Light / Dark Mode">ðŸŒ™</button>
                     <div class="streak-counter" title="Daily study streak">
-                        🔥 <span id="streak-days">0</span> Days
+                        ðŸ”¥ <span id="streak-days">0</span> Days
                     </div>
                 </div>
             </header>
@@ -138,7 +138,7 @@
             <section id="dashboard-view" class="tab-panel active">
                 <div class="welcome-banner">
                     <div class="welcome-text">
-                        <h1>Welcome back, Kumar Ankit! 🏆</h1>
+                        <h1>Welcome back, Kumar Ankit! ðŸ†</h1>
                         <p>AIR 1 Mode activated. Target: 23/25 in Maths, 23/25 in Reasoning, 23/25 in English. Zero tolerance for mistakes.</p>
                     </div>
                     <div class="welcome-action">
@@ -187,21 +187,21 @@
                         <p class="card-desc">Quick daily micro-habits designed to sharpen speed for weak maths students.</p>
                         <div class="booster-actions">
                             <div class="booster-item" onclick="startBooster('fractions')">
-                                <div class="booster-logo">⚡</div>
+                                <div class="booster-logo">âš¡</div>
                                 <div class="booster-info">
                                     <h4>Fraction Practice</h4>
                                     <p>Memorize division conversions instantly</p>
                                 </div>
                             </div>
                             <div class="booster-item" onclick="startBooster('squares')">
-                                <div class="booster-logo">🔢</div>
+                                <div class="booster-logo">ðŸ”¢</div>
                                 <div class="booster-info">
                                     <h4>Squares & Cubes</h4>
-                                    <p>Speed up calculations up to 30² and 15³</p>
+                                    <p>Speed up calculations up to 30Â² and 15Â³</p>
                                 </div>
                             </div>
                             <div class="booster-item" onclick="document.querySelector('[data-tab=formulas]').click()">
-                                <div class="booster-logo">📖</div>
+                                <div class="booster-logo">ðŸ“–</div>
                                 <div class="booster-info">
                                     <h4>Formula Cheat Sheet</h4>
                                     <p>Review key algebraic and geometry rules</p>
@@ -214,7 +214,7 @@
                 <!-- Score History Chart -->
                 <div class="dashboard-card" style="margin-top: 20px;">
                     <div class="card-header">
-                        <h3>📈 Score History</h3>
+                        <h3>ðŸ“ˆ Score History</h3>
                         <span style="font-size:12px; opacity:0.5;">Last 15 quizzes</span>
                     </div>
                     <div id="score-history-chart" style="min-height:180px; padding: 10px 0 0 0;">
@@ -234,18 +234,18 @@
                     
                     <!-- Subject Filter -->
                     <div style="display: flex; gap: 10px; margin-bottom: 18px; flex-wrap: wrap;">
-                        <button class="btn btn-secondary active" id="filter-subject-maths" onclick="setSubjectFilter('maths')">📐 Maths</button>
-                        <button class="btn btn-secondary" id="filter-subject-reasoning" onclick="setSubjectFilter('reasoning')">🧠 Reasoning</button>
-                        <button class="btn btn-secondary" id="filter-subject-gk" onclick="setSubjectFilter('gk')">🌍 General Knowledge</button>
-                        <button class="btn btn-secondary" id="filter-subject-english" onclick="setSubjectFilter('english')">📝 English</button>
-                        <button class="btn btn-secondary" id="filter-subject-all" onclick="setSubjectFilter('all')">🔀 Mixed (All)</button>
-                        <button class="btn btn-secondary" id="filter-subject-ncert" onclick="setSubjectFilter('ncert')">📚 NCERT Practice</button>
+                        <button class="btn btn-secondary active" id="filter-subject-maths" onclick="setSubjectFilter('maths')">ðŸ“ Maths</button>
+                        <button class="btn btn-secondary" id="filter-subject-reasoning" onclick="setSubjectFilter('reasoning')">ðŸ§  Reasoning</button>
+                        <button class="btn btn-secondary" id="filter-subject-gk" onclick="setSubjectFilter('gk')">ðŸŒ General Knowledge</button>
+                        <button class="btn btn-secondary" id="filter-subject-english" onclick="setSubjectFilter('english')">ðŸ“ English</button>
+                        <button class="btn btn-secondary" id="filter-subject-all" onclick="setSubjectFilter('all')">ðŸ”€ Mixed (All)</button>
+                        <button class="btn btn-secondary" id="filter-subject-ncert" onclick="setSubjectFilter('ncert')">ðŸ“š NCERT Practice</button>
                     </div>
 
                     <div class="quiz-mode-selector">
                         <button class="btn btn-secondary active" id="btn-mode-topic">Practice by Topic</button>
                         <button class="btn btn-secondary" id="btn-mode-year">Year &amp; Shift Mocks</button>
-                        <button class="btn btn-primary" id="btn-mode-full-mock" style="box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);" onclick="startFullMock()">🏆 Full Mock (60 Mins)</button>
+                        <button class="btn btn-primary" id="btn-mode-full-mock" style="box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);" onclick="startFullMock()">ðŸ† Full Mock (60 Mins)</button>
                     </div>
 
                     <div class="topic-grid" id="quiz-topic-grid">
@@ -263,7 +263,7 @@
                         <div class="eduqity-main-col">
                             <div class="quiz-header">
                                 <button class="btn btn-secondary btn-sm" id="btn-quit-quiz">
-                                    ← Quit
+                                    â† Quit
                                 </button>
                                 <div class="quiz-progress-indicator" style="font-weight: 600;">
                                     Question <span id="quiz-current-num">1</span> of <span id="quiz-total-num">x</span>
@@ -306,7 +306,7 @@
                                         <h4>Detailed Solution:</h4>
                                         <p id="solution-steps-text">Steps...</p>
                                         <div class="shortcut-tip-box" id="solution-shortcut-box">
-                                            <strong>⚡ Quick CGL Shortcut:</strong>
+                                            <strong>âš¡ Quick CGL Shortcut:</strong>
                                             <span id="solution-shortcut-text">Shortcut...</span>
                                         </div>
                                     </div>
@@ -333,7 +333,7 @@
                         <div class="eduqity-sidebar">
                             <div class="palette-header">
                                 <div style="display:flex; align-items:center; gap: 10px; margin-bottom: 15px;">
-                                    <div style="width: 40px; height: 40px; background: #334155; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 20px;">👤</div>
+                                    <div style="width: 40px; height: 40px; background: #334155; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 20px;">ðŸ‘¤</div>
                                     <div>
                                         <div style="font-weight: 600; font-size: 14px;">Candidate Name</div>
                                         <div style="font-size: 12px; color: var(--text-muted);">Kumar Ankit</div>
@@ -373,8 +373,8 @@
                 <!-- Quiz Results Page -->
                 <div id="quiz-results-screen" class="hidden">
                     <div class="result-card">
-                        <div class="result-illustration">🏆</div>
-                        <div id="result-personal-best" style="display:none; background: linear-gradient(135deg,#f59e0b,#ef4444); color:#fff; font-weight:700; font-size:13px; padding: 5px 14px; border-radius:20px; margin-bottom:10px; text-align:center; letter-spacing:0.5px;">⭐ NEW PERSONAL BEST!</div>
+                        <div class="result-illustration">ðŸ†</div>
+                        <div id="result-personal-best" style="display:none; background: linear-gradient(135deg,#f59e0b,#ef4444); color:#fff; font-weight:700; font-size:13px; padding: 5px 14px; border-radius:20px; margin-bottom:10px; text-align:center; letter-spacing:0.5px;">â­ NEW PERSONAL BEST!</div>
                         <h2>Quiz Completed!</h2>
                         <div class="result-score-display">
                             <span id="result-score-value">4 / 5</span> Correct
@@ -409,31 +409,31 @@
             <section id="reasoning-view" class="tab-panel">
                 <div id="reasoning-select-screen">
                     <div class="view-header-desc">
-                        <h3>🧠 Reasoning Pattern Drills</h3>
+                        <h3>ðŸ§  Reasoning Pattern Drills</h3>
                         <p>Master the core SSC reasoning logic. These procedural generators create infinite practice questions!</p>
                     </div>
                     
                     <div class="trainer-modes-grid">
                         <div class="trainer-mode-card" onclick="startReasoningDrill('series')">
-                            <div class="mode-emoji">📈</div>
+                            <div class="mode-emoji">ðŸ“ˆ</div>
                             <h3>Number Series</h3>
                             <p>Identify missing numbers in AP, GP, Squares, and Alternating series.</p>
                             <button class="btn btn-primary btn-sm">Start Drill</button>
                         </div>
                         <div class="trainer-mode-card" onclick="startReasoningDrill('coding')">
-                            <div class="mode-emoji">🔐</div>
+                            <div class="mode-emoji">ðŸ”</div>
                             <h3>Coding-Decoding</h3>
                             <p>Practice rapid alphabet shifts and reverse patterns.</p>
                             <button class="btn btn-primary btn-sm">Start Drill</button>
                         </div>
                         <div class="trainer-mode-card" onclick="startReasoningDrill('matrix')">
-                            <div class="mode-emoji">🔢</div>
+                            <div class="mode-emoji">ðŸ”¢</div>
                             <h3>Missing Matrix</h3>
                             <p>Spot column/row mathematical relationships quickly.</p>
                             <button class="btn btn-primary btn-sm">Start Drill</button>
                         </div>
                         <div class="trainer-mode-card" onclick="startReasoningDrill('syllogism')">
-                            <div class="mode-emoji">⭕</div>
+                            <div class="mode-emoji">â­•</div>
                             <h3>Syllogisms</h3>
                             <p>Master Venn-diagram logic with high-yield statements.</p>
                             <button class="btn btn-primary btn-sm">Start Drill</button>
@@ -443,7 +443,7 @@
 
                 <div id="reasoning-active-screen" class="hidden">
                     <div class="trainer-game-header">
-                        <button class="btn btn-secondary btn-sm" onclick="quitReasoningDrill()">← Quit</button>
+                        <button class="btn btn-secondary btn-sm" onclick="quitReasoningDrill()">â† Quit</button>
                         <div class="trainer-score-badge">Score: <span id="reasoning-current-score">0</span>/25</div>
                         <div class="trainer-timer-badge">Timer: <span id="reasoning-timer">15:00</span></div>
                     </div>
@@ -452,13 +452,13 @@
                         <div class="ncert-question" id="reasoning-q-text" style="font-size:1.2rem; margin-bottom:20px;"></div>
                         <div class="ncert-options" id="reasoning-options"></div>
                         <div class="ncert-explanation hidden" id="reasoning-explanation"></div>
-                        <button class="btn btn-primary hidden" id="reasoning-next-btn" style="margin-top:15px;" onclick="nextReasoningQ()">Next Question →</button>
+                        <button class="btn btn-primary hidden" id="reasoning-next-btn" style="margin-top:15px;" onclick="nextReasoningQ()">Next Question â†’</button>
                     </div>
                 </div>
 
                 <div id="reasoning-results-screen" class="hidden">
                     <div class="result-card">
-                        <div class="result-illustration">🏆</div>
+                        <div class="result-illustration">ðŸ†</div>
                         <h2>Drill Complete!</h2>
                         <div class="result-score-display">
                             <span id="reasoning-final-score">0</span> / 25
@@ -476,43 +476,43 @@
             <section id="english-drills-view" class="tab-panel">
                 <div id="english-drills-select-screen">
                     <div class="view-header-desc">
-                        <h3>📝 English Advanced Drills</h3>
+                        <h3>ðŸ“ English Advanced Drills</h3>
                         <p>Master Tier-1's hardest sections using actual 2024 & 2025 PYQs. Rapidly solve Cloze Tests and Parajumbles.</p>
                     </div>
                     
                     <div class="trainer-modes-grid">
                         <div class="trainer-mode-card" onclick="startEnglishDrill('ows')">
-                            <div class="mode-emoji">🎓</div>
+                            <div class="mode-emoji">ðŸŽ“</div>
                             <h3>One Word Substitution</h3>
                             <p>Rapid-fire drills on essential 1-word substitutes for SSC CGL.</p>
                             <button class="btn btn-primary btn-sm">Start Drill</button>
                         </div>
                         <div class="trainer-mode-card" onclick="startEnglishDrill('affixes')">
-                            <div class="mode-emoji">🧩</div>
+                            <div class="mode-emoji">ðŸ§©</div>
                             <h3>Affix Vocab</h3>
                             <p>Test your ability to guess word meanings using prefixes and suffixes.</p>
                             <button class="btn btn-primary btn-sm">Start Drill</button>
                         </div>
                         <div class="trainer-mode-card" onclick="startEnglishDrill('roots')">
-                            <div class="mode-emoji">🧬</div>
+                            <div class="mode-emoji">ðŸ§¬</div>
                             <h3>Root Word Vocab</h3>
                             <p>Master complex SSC CGL vocabulary using Etymology & Root words.</p>
                             <button class="btn btn-primary btn-sm">Start Drill</button>
                         </div>
                         <div class="trainer-mode-card" onclick="startEnglishDrill('spotting')">
-                            <div class="mode-emoji">🎯</div>
+                            <div class="mode-emoji">ðŸŽ¯</div>
                             <h3>Spot the Error</h3>
                             <p>120 Grammar Rules applied in 200+ exclusive spot-the-error MCQs.</p>
                             <button class="btn btn-primary btn-sm">Start Drill</button>
                         </div>
                         <div class="trainer-mode-card" onclick="startEnglishDrill('cloze')">
-                            <div class="mode-emoji">📖</div>
+                            <div class="mode-emoji">ðŸ“–</div>
                             <h3>Cloze Test Drill</h3>
                             <p>Read the passage on the left, answer the blanks on the right.</p>
                             <button class="btn btn-primary btn-sm">Start Drill</button>
                         </div>
                         <div class="trainer-mode-card" onclick="startEnglishDrill('pqrs')">
-                            <div class="mode-emoji">🔀</div>
+                            <div class="mode-emoji">ðŸ”€</div>
                             <h3>PQRS Parajumbles</h3>
                             <p>Rapidly order jumbled sentences from recent tier 1 shifts.</p>
                             <button class="btn btn-primary btn-sm">Start Drill</button>
@@ -523,7 +523,7 @@
                 <!-- Active Drill UI -->
                 <div id="english-drills-active-screen" class="hidden">
                     <div class="trainer-game-header">
-                        <button class="btn btn-secondary btn-sm" onclick="quitEnglishDrill()">← Quit</button>
+                        <button class="btn btn-secondary btn-sm" onclick="quitEnglishDrill()">â† Quit</button>
                         <div class="trainer-score-badge">Question: <span id="english-drill-current-q">1</span></div>
                         <div class="trainer-timer-badge">Correct: <span id="english-drill-score">0</span></div>
                         <div class="trainer-timer-badge" style="background: rgba(245, 158, 11, 0.1); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.3);">Timer: <span id="english-drill-timer">15:00</span></div>
@@ -544,7 +544,7 @@
                                 <div class="ncert-options" id="english-drill-options"></div>
                                 <div id="english-drill-result-banner" class="hidden" style="margin-top:14px; padding:12px 16px; border-radius:10px; font-size:1rem; font-weight:700; text-align:center;"></div>
                                 <div class="ncert-explanation hidden" id="english-drill-explanation"></div>
-                                <button class="btn btn-primary hidden" id="english-drill-next-btn" style="margin-top:15px;" onclick="nextEnglishDrillQ()">Next Question →</button>
+                                <button class="btn btn-primary hidden" id="english-drill-next-btn" style="margin-top:15px;" onclick="nextEnglishDrillQ()">Next Question â†’</button>
                             </div>
                         </div>
                     </div>
@@ -553,7 +553,7 @@
                 <!-- Drill Results Screen -->
                 <div id="english-drills-results-screen" class="hidden">
                     <div class="result-card">
-                        <div class="result-illustration">🏆</div>
+                        <div class="result-illustration">ðŸ†</div>
                         <h2>Drill Complete!</h2>
                         <div class="result-score-display">
                             <span id="english-drill-final-score">0</span> Correct
@@ -576,49 +576,49 @@
                     </div>
                     <div class="trainer-modes-grid">
                         <div class="trainer-mode-card" onclick="startTrainerMode('squares')">
-                            <div class="mode-emoji">🔢</div>
-                            <h3>Perfect Squares (11² to 30²)</h3>
+                            <div class="mode-emoji">ðŸ”¢</div>
+                            <h3>Perfect Squares (11Â² to 30Â²)</h3>
                             <p>Instantly recall square values to save time in Algebra and Mensuration.</p>
                             <button class="btn btn-primary btn-sm">Start Drill</button>
                         </div>
                         <div class="trainer-mode-card" onclick="startTrainerMode('cubes')">
-                            <div class="mode-emoji">🎲</div>
-                            <h3>Cubes (2³ to 15³)</h3>
+                            <div class="mode-emoji">ðŸŽ²</div>
+                            <h3>Cubes (2Â³ to 15Â³)</h3>
                             <p>Speed up Compound Interest and 3D Volume calculations.</p>
                             <button class="btn btn-primary btn-sm">Start Drill</button>
                         </div>
                         <div class="trainer-mode-card" onclick="startTrainerMode('fractions')">
-                            <div class="mode-emoji">⚡</div>
+                            <div class="mode-emoji">âš¡</div>
                             <h3>Fractions to Percent</h3>
                             <p>Instantly convert 1/6, 3/8, 1/7 etc. for Percentages and DI.</p>
                             <button class="btn btn-primary btn-sm">Start Drill</button>
                         </div>
                         <div class="trainer-mode-card" onclick="startTrainerMode('triplets')">
-                            <div class="mode-emoji">📐</div>
+                            <div class="mode-emoji">ðŸ“</div>
                             <h3>Pythagorean Triplets</h3>
                             <p>Recall right-triangle sides instantly for Height & Distance and Geometry.</p>
                             <button class="btn btn-primary btn-sm">Start Drill</button>
                         </div>
                         <div class="trainer-mode-card" onclick="startTrainerMode('addition')">
-                            <div class="mode-emoji">➕</div>
+                            <div class="mode-emoji">âž•</div>
                             <h3>Addition/Subtraction</h3>
                             <p>Mental arithmetic chains to speed up DI and simplifications.</p>
                             <button class="btn btn-primary btn-sm">Start Drill</button>
                         </div>
                         <div class="trainer-mode-card" onclick="startTrainerMode('multiplication')">
-                            <div class="mode-emoji">✖️</div>
+                            <div class="mode-emoji">âœ–ï¸</div>
                             <h3>Multiplication Tables</h3>
                             <p>Random products up to 30x30 to instantly break down factors.</p>
                             <button class="btn btn-primary btn-sm">Start Drill</button>
                         </div>
                         <div class="trainer-mode-card" onclick="startTrainerMode('percentages')">
-                            <div class="mode-emoji">💯</div>
+                            <div class="mode-emoji">ðŸ’¯</div>
                             <h3>Percentages</h3>
                             <p>Calculate X% of Y mentally using fraction techniques.</p>
                             <button class="btn btn-primary btn-sm">Start Drill</button>
                         </div>
                         <div class="trainer-mode-card" onclick="startTrainerMode('roots')">
-                            <div class="mode-emoji">√</div>
+                            <div class="mode-emoji">âˆš</div>
                             <h3>Square & Cube Roots</h3>
                             <p>Identify roots of perfect squares and cubes rapidly.</p>
                             <button class="btn btn-primary btn-sm">Start Drill</button>
@@ -629,7 +629,7 @@
                 <!-- Active Trainer Game Screen -->
                 <div id="trainer-active-screen" class="hidden">
                     <div class="trainer-game-header">
-                        <button class="btn btn-secondary btn-sm" onclick="quitTrainerGame()">← Quit</button>
+                        <button class="btn btn-secondary btn-sm" onclick="quitTrainerGame()">â† Quit</button>
                         <div class="trainer-score-badge">Score: <span id="trainer-current-score">0</span></div>
                         <div class="trainer-timer-badge">Streak: <span id="trainer-streak">0</span></div>
                     </div>
@@ -641,7 +641,7 @@
 
                     <div class="trainer-drill-card">
                         <div class="drill-question" id="drill-question-display">
-                            17² = ?
+                            17Â² = ?
                         </div>
                         <div class="options-container" id="drill-options-container">
                             <!-- Populated via JS -->
@@ -652,13 +652,13 @@
                 <!-- Trainer Game Over Screen -->
                 <div id="trainer-gameover-screen" class="hidden">
                     <div class="result-card">
-                        <div class="result-illustration">💥</div>
+                        <div class="result-illustration">ðŸ’¥</div>
                         <h2>Time's Up!</h2>
                         <p>You did well. Let's see how you scored:</p>
                         <div class="result-score-display">
                             Score: <span id="trainer-final-score">0</span>
                         </div>
-                        <p class="high-score-announcement hidden" id="trainer-new-highscore">🎉 New High Score! Key arithmetic speed is improving!</p>
+                        <p class="high-score-announcement hidden" id="trainer-new-highscore">ðŸŽ‰ New High Score! Key arithmetic speed is improving!</p>
                         
                         <div class="result-actions">
                             <button class="btn btn-primary" id="btn-restart-trainer">Play Again</button>
@@ -683,8 +683,8 @@
             <!-- NCERT GA Vault -->
             <section id="ncert-view" class="tab-panel">
                 <div class="view-header-desc">
-                    <h3>📚 NCERT General Awareness Vault</h3>
-                    <p>High-yield Class 6–10 MCQs across Science, History, Polity & Geography. Instant answer validation with detailed explanations.</p>
+                    <h3>ðŸ“š NCERT General Awareness Vault</h3>
+                    <p>High-yield Class 6â€“10 MCQs across Science, History, Polity & Geography. Instant answer validation with detailed explanations.</p>
                 </div>
 
                 <!-- Filter Pills -->
@@ -779,8 +779,8 @@
             <!-- Study Notes View -->
             <section id="study-view" class="tab-panel">
                 <div class="view-header-desc">
-                    <h3>📚 NCERT Study Notes</h3>
-                    <p>High-yield revision flashcards and facts from Class 6–12 NCERTs.</p>
+                    <h3>ðŸ“š NCERT Study Notes</h3>
+                    <p>High-yield revision flashcards and facts from Class 6â€“12 NCERTs.</p>
                 </div>
                 
                 <div class="ncert-filters">
@@ -803,7 +803,7 @@
             <!-- Vocab Flashcard Vault -->
             <section id="vocab-view" class="tab-panel">
                 <div class="view-header-desc">
-                    <h3>🃏 English Vocab Flashcard Vault</h3>
+                    <h3>ðŸƒ English Vocab Flashcard Vault</h3>
                     <p>Top repeated One-Word Substitutions, Idioms & Phrases, and Misspelled Words for SSC CGL. Tap any card to flip it!</p>
                 </div>
 
@@ -835,19 +835,19 @@
                     </div>
                     <div class="trainer-modes-grid">
                         <div class="trainer-mode-card" onclick="startTypingTest(1)">
-                            <div class="mode-emoji">⏱️</div>
+                            <div class="mode-emoji">â±ï¸</div>
                             <h3>1 Minute Sprint</h3>
                             <p>Quick warmup for speed and finger placement.</p>
                             <button class="btn btn-primary btn-sm">Start 1 Min</button>
                         </div>
                         <div class="trainer-mode-card" onclick="startTypingTest(5)">
-                            <div class="mode-emoji">🔥</div>
+                            <div class="mode-emoji">ðŸ”¥</div>
                             <h3>5 Minute Test</h3>
                             <p>Build stamina and accuracy over medium duration.</p>
                             <button class="btn btn-primary btn-sm">Start 5 Min</button>
                         </div>
                         <div class="trainer-mode-card" onclick="startTypingTest(15)">
-                            <div class="mode-emoji">🏆</div>
+                            <div class="mode-emoji">ðŸ†</div>
                             <h3>15 Min (CGL Real)</h3>
                             <p>Exact CGL DEST replica. 15 mins, target 2000 keystrokes.</p>
                             <button class="btn btn-primary btn-sm">Start 15 Min</button>
@@ -866,12 +866,12 @@
                     <!-- Exam-style top bar: ONLY timer, no live metrics -->
                     <div class="exam-topbar">
                         <div class="exam-topbar-left">
-                            <span class="exam-label">📝 SSC CGL DEST Mock Test</span>
-                            <span class="exam-instruction">Type the passage below in the text area. Do NOT look for metrics — focus on speed &amp; accuracy.</span>
+                            <span class="exam-label">ðŸ“ SSC CGL DEST Mock Test</span>
+                            <span class="exam-instruction">Type the passage below in the text area. Do NOT look for metrics â€” focus on speed &amp; accuracy.</span>
                         </div>
                         <div class="exam-topbar-right">
                             <div class="exam-timer" id="typing-timer-display">15:00</div>
-                            <button class="btn btn-primary btn-sm" onclick="finishTypingTest()">Submit Test →</button>
+                            <button class="btn btn-primary btn-sm" onclick="finishTypingTest()">Submit Test â†’</button>
                             <button class="btn btn-secondary btn-sm" onclick="quitTypingTest()">Quit</button>
                         </div>
                     </div>
@@ -896,7 +896,7 @@
 
                 <div id="typing-result-screen" class="hidden">
                     <div class="result-card">
-                        <div class="result-illustration">⌨️</div>
+                        <div class="result-illustration">âŒ¨ï¸</div>
                         <h2>Test Submitted!</h2>
                         <div id="result-typing-verdict" style="margin: 8px auto 16px; padding: 6px 20px; border-radius: 20px; font-size: 13px; font-weight: 700; display: inline-block;">Calculating...</div>
 
@@ -950,12 +950,12 @@
             <section id="mistakes-view" class="tab-panel">
                 <div class="mistake-book-header">
                     <div>
-                        <h3>Your Mistake Book <span style="font-size:14px; font-weight:400; opacity:0.6;">— <span id="mistake-book-count">0</span> questions</span></h3>
+                        <h3>Your Mistake Book <span style="font-size:14px; font-weight:400; opacity:0.6;">â€” <span id="mistake-book-count">0</span> questions</span></h3>
                         <p style="font-size:13px; color:var(--text-muted); margin-top:4px;">Every wrong or skipped answer is saved here automatically. Re-practice them to master your weak spots!</p>
                     </div>
                     <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:12px;">
-                        <button class="btn btn-primary" onclick="startMistakeQuiz()">⚡ Practice All Mistakes</button>
-                        <button class="btn btn-secondary" onclick="clearAllMistakes()" style="opacity:0.7;">🗑 Clear All</button>
+                        <button class="btn btn-primary" onclick="startMistakeQuiz()">âš¡ Practice All Mistakes</button>
+                        <button class="btn btn-secondary" onclick="clearAllMistakes()" style="opacity:0.7;">ðŸ—‘ Clear All</button>
                     </div>
                 </div>
                 <div id="mistake-book-list" style="margin-top:16px;">
@@ -966,7 +966,7 @@
             <!-- Tab: Analytics -->
             <section id="analytics-view" class="tab-panel">
                 <div class="analytics-header">
-                    <h3>📊 Performance Analytics</h3>
+                    <h3>ðŸ“Š Performance Analytics</h3>
                     <p>Deep-dive into your strengths and weaknesses across all subjects and topics.</p>
                 </div>
 
@@ -994,28 +994,28 @@
                 <div class="analytics-charts-row">
                     <!-- Radar Chart -->
                     <div class="analytics-chart-card">
-                        <h4>🕸️ Topic Competency Radar</h4>
+                        <h4>ðŸ•¸ï¸ Topic Competency Radar</h4>
                         <p class="chart-desc">Your performance across topics. Bigger shape = stronger across more areas.</p>
                         <canvas id="radar-chart" width="320" height="320"></canvas>
                     </div>
 
                     <!-- Speed vs Accuracy Scatter -->
                     <div class="analytics-chart-card">
-                        <h4>⚡ Speed vs. Accuracy Matrix</h4>
+                        <h4>âš¡ Speed vs. Accuracy Matrix</h4>
                         <p class="chart-desc">Each dot = one question. See if you're fast+accurate or slow+wrong.</p>
                         <canvas id="scatter-chart" width="320" height="320"></canvas>
                         <div class="scatter-legend">
-                            <span class="legend-item fast-accurate">⬤ Fast & Accurate</span>
-                            <span class="legend-item time-sink">⬤ Time Sink</span>
-                            <span class="legend-item blind-guess">⬤ Blind Guess</span>
-                            <span class="legend-item hard-miss">⬤ Hard Miss</span>
+                            <span class="legend-item fast-accurate">â¬¤ Fast & Accurate</span>
+                            <span class="legend-item time-sink">â¬¤ Time Sink</span>
+                            <span class="legend-item blind-guess">â¬¤ Blind Guess</span>
+                            <span class="legend-item hard-miss">â¬¤ Hard Miss</span>
                         </div>
                     </div>
                 </div>
 
                 <!-- Topic Breakdown Table -->
                 <div class="analytics-chart-card" style="margin-top:20px;">
-                    <h4>📊 Topic-wise Accuracy Breakdown</h4>
+                    <h4>ðŸ“Š Topic-wise Accuracy Breakdown</h4>
                     <div id="topic-breakdown-table"></div>
                 </div>
             </section>
@@ -1023,14 +1023,14 @@
             <!-- Data Backup Tab -->
             <section id="backup-view" class="tab-panel">
                 <div class="view-header-desc">
-                    <h3>💾 Data Backup & Restore</h3>
+                    <h3>ðŸ’¾ Data Backup & Restore</h3>
                     <p>Export your quiz history, mistake book, and analytics so you don't lose your progress when switching devices.</p>
                 </div>
                 
                 <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px; margin-top:30px;">
                     <!-- EXPORT -->
                     <div class="result-card" style="text-align:center; padding:30px;">
-                        <div class="result-illustration" style="font-size:3rem; margin-bottom:15px;">📤</div>
+                        <div class="result-illustration" style="font-size:3rem; margin-bottom:15px;">ðŸ“¤</div>
                         <h4>Export Data</h4>
                         <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:20px;">Download your current progress as a JSON file.</p>
                         <button class="btn btn-primary" onclick="downloadProgressJSON()">Download Backup</button>
@@ -1038,7 +1038,7 @@
 
                     <!-- IMPORT -->
                     <div class="result-card" style="text-align:center; padding:30px;">
-                        <div class="result-illustration" style="font-size:3rem; margin-bottom:15px;">📥</div>
+                        <div class="result-illustration" style="font-size:3rem; margin-bottom:15px;">ðŸ“¥</div>
                         <h4>Import Data</h4>
                         <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:20px;">Upload a previously saved backup file to restore your progress.</p>
                         <input type="file" id="backup-file-input" accept=".json" style="display:none;" onchange="uploadProgressJSON(event)">
@@ -1050,13 +1050,13 @@
             <section id="quant-drills-view" class="tab-panel">
                 <div id="quant-drills-start-screen">
                     <div class="view-header-desc">
-                        <h3>🎯 Quant Target 20 Drills</h3>
+                        <h3>ðŸŽ¯ Quant Target 20 Drills</h3>
                         <p>Master Tier-1's highest yielding Maths topics to secure 15-20 correct answers. No complex geometry, just pure scoring topics.</p>
                     </div>
                     
                     <div class="drill-modes-grid" style="grid-template-columns: 1fr;">
                         <div class="drill-mode-card" onclick="startQuantDrill()">
-                            <div class="drill-icon">⏱️</div>
+                            <div class="drill-icon">â±ï¸</div>
                             <h4>Target 20 Rapid Drill</h4>
                             <p>25 Randomized questions from Percentage, Ratio, Average, Time & Work, Algebra & more.</p>
                             <span class="btn btn-primary" style="margin-top: 15px; display: inline-block;">Start Drill</span>
@@ -1079,13 +1079,13 @@
                             <div class="drill-question" id="quant-drill-q-text" style="font-size: 1.5rem; text-align: left; margin-bottom: 30px;"></div>
                             <div class="ncert-options" id="quant-drill-options"></div>
                             <div id="quant-drill-exp" class="drill-exp hidden" style="margin-top: 20px; font-size: 1rem; color: #a1a1aa;"></div>
-                            <button id="quant-drill-next-btn" class="btn btn-primary hidden" style="margin-top:20px; width:100%;" onclick="nextQuantDrillQuestion()">Next Question ➡️</button>
+                            <button id="quant-drill-next-btn" class="btn btn-primary hidden" style="margin-top:20px; width:100%;" onclick="nextQuantDrillQuestion()">Next Question âž¡ï¸</button>
                         </div>
                     </div>
                 </div>
 
                 <div id="quant-drills-results-screen" class="hidden" style="padding: 40px 20px; text-align: center;">
-                    <h2>🎯 Drill Complete</h2>
+                    <h2>ðŸŽ¯ Drill Complete</h2>
                     <h1 id="quant-drills-final-score" style="font-size: 3rem; margin: 20px 0; color: var(--primary);">You scored 0 out of 25!</h1>
                     <p id="quant-drills-analysis" style="font-size: 1.2rem; margin-bottom: 30px;"></p>
                     <button class="btn btn-secondary" onclick="startQuantDrill()">Retry Drill</button>
@@ -1137,7 +1137,7 @@
     <script src="history_data.js?v=3"></script>
     <script src="medieval_data.js"></script>
     <script src="modern_data.js"></script>
-    <script src="current_affairs_data.js?v=3"></script>
+    <script src="current_affairs_data.js?v=4"></script>
     <script src="fatman_ui.js?v=4"></script>
     
     <!-- Register Service Worker for PWA -->
@@ -1152,3 +1152,4 @@
     </script>
 </body>
 </html>
+

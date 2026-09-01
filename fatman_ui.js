@@ -1,4 +1,4 @@
-﻿
+
 window.currentFatmanSubject = "geography";
 window.getFatmanData = function() {
     if (window.currentFatmanSubject === "history") return window.fatmanHistory;
@@ -49,7 +49,7 @@ if ('speechSynthesis' in window) {
     const fab = document.createElement('div');
     fab.innerHTML = `
         <div id="fatman-fab">
-            <span>ðŸ”¥</span> Fatman Special
+            <span>🔥</span> Fatman Special
         </div>
     `;
     document.body.appendChild(fab);
@@ -75,15 +75,15 @@ if ('speechSynthesis' in window) {
             <option value="history">Ancient History</option>
             <option value="medieval">Medieval History</option>
             <option value="modern">Modern History</option>
-            <option value="current_affairs">Current Affairs (July 2026)</option>
+            <option value="current_affairs">Current Affairs (July 2024)</option>
         </select>
     </div>
     <button id="fatman-close" style="background:none; border:none; color:white; font-size:24px; cursor:pointer;">&times;</button>
 </div>
         <div style="display:flex; gap: 10px; padding: 15px 20px; background: #1E293B; overflow-x: auto;">
-            <button class="fatman-tab active" data-target="fatman-notes" style="padding: 8px 16px; border-radius: 20px; border:none; background:#FF4B2B; color:white; font-weight:bold; cursor:pointer;">ðŸ“– Bite-Sized Notes</button>
-            <button class="fatman-tab" data-target="fatman-flashcards" style="padding: 8px 16px; border-radius: 20px; border:1px solid #475569; background:transparent; color:white; font-weight:bold; cursor:pointer;">ðŸƒ Flashcards</button>
-            <button class="fatman-tab" data-target="fatman-mcqs" style="padding: 8px 16px; border-radius: 20px; border:1px solid #475569; background:transparent; color:white; font-weight:bold; cursor:pointer;">ðŸŽ¯ GS Drills (MCQs)</button>
+            <button class="fatman-tab active" data-target="fatman-notes" style="padding: 8px 16px; border-radius: 20px; border:none; background:#FF4B2B; color:white; font-weight:bold; cursor:pointer;">📖 Bite-Sized Notes</button>
+            <button class="fatman-tab" data-target="fatman-flashcards" style="padding: 8px 16px; border-radius: 20px; border:1px solid #475569; background:transparent; color:white; font-weight:bold; cursor:pointer;">🃏 Flashcards</button>
+            <button class="fatman-tab" data-target="fatman-mcqs" style="padding: 8px 16px; border-radius: 20px; border:1px solid #475569; background:transparent; color:white; font-weight:bold; cursor:pointer;">🎯 GS Drills (MCQs)</button>
                             <button class="fatman-tab" id="fatman-tab-timeline" data-target="fatman-timeline" style="padding: 8px 16px; border-radius: 20px; border:1px solid #475569; background:transparent; color:white; font-weight:bold; cursor:pointer; display:none;">&#8987; Timeline</button>
         </div>
         <div id="fatman-content" style="flex: 1; overflow-y: auto; padding: 20px;">
@@ -300,7 +300,7 @@ window.speakNextFatmanAudio = function() {
             v.name.toLowerCase().includes('veena') ||     // Apple macOS Indian
             v.name.toLowerCase().includes('priya') ||     // Common Indian name
             v.name.toLowerCase().includes('neerja') ||    // Indian voice
-            v.name.toLowerCase().includes('google à¤¹à¤¿à¤¨à¥à¤¦à¥€') === false && v.lang.includes('en-IN')
+            v.name.toLowerCase().includes('google हिन्दी') === false && v.lang.includes('en-IN')
         );
     }
     
@@ -309,7 +309,7 @@ window.speakNextFatmanAudio = function() {
         preferredVoice = voices.find(v => v.lang.startsWith('en-IN'));
     }
     
-    // Tier 4: Any non-US English (British, Australian etc.) â€” still better than robotic US
+    // Tier 4: Any non-US English (British, Australian etc.) — still better than robotic US
     if (!preferredVoice) {
         preferredVoice = voices.find(v =>
             v.lang.includes('en-') && !v.lang.includes('en-US')
@@ -519,9 +519,9 @@ window.getSRSSortedFlashcards = function(cards) {
     if (deck.length === 0) {
         content.innerHTML = `
             <div style="max-width:600px; margin: 40px auto; text-align:center; background:#1E293B; padding:30px; border-radius:12px; border:1px solid #334155;">
-                <h2 style="color:#10B981; font-family:'Outfit';">ðŸŽ‰ Deck Conquered!</h2>
+                <h2 style="color:#10B981; font-family:'Outfit';">🎉 Deck Conquered!</h2>
                 <p style="color:#CBD5E1; margin-bottom:20px;">You have successfully mastered all ${allCards.length} facts in this section.</p>
-                <button onclick="window.resetFatmanDeck()" style="background:#38BDF8; color:white; border:none; padding:12px 24px; border-radius:8px; font-weight:bold; cursor:pointer;">ðŸ”„ Reset Deck & Practice Again</button>
+                <button onclick="window.resetFatmanDeck()" style="background:#38BDF8; color:white; border:none; padding:12px 24px; border-radius:8px; font-weight:bold; cursor:pointer;">🔄 Reset Deck & Practice Again</button>
             </div>
         `;
         return;
@@ -818,9 +818,9 @@ window.renderFatmanMCQMenu = renderFatmanMCQMenu;
                 <h2 style="color:white; margin:0 0 10px 0;">Test Results</h2>
                 <div style="font-size: 36px; font-weight: 800; color: #38BDF8; margin-bottom: 20px;">Score: ${score} / ${maxScore}</div>
                 <div style="display:flex; justify-content: center; gap: 20px; font-size: 14px; color: #CBD5E1;">
-                    <div>âœ… Correct: <span style="color:#10B981; font-weight:bold;">${correct}</span></div>
-                    <div>âŒ Wrong: <span style="color:#EF4444; font-weight:bold;">${incorrect}</span></div>
-                    <div>âšª Skipped: <span style="font-weight:bold;">${unattempted}</span></div>
+                    <div>✅ Correct: <span style="color:#10B981; font-weight:bold;">${correct}</span></div>
+                    <div>❌ Wrong: <span style="color:#EF4444; font-weight:bold;">${incorrect}</span></div>
+                    <div>⚪ Skipped: <span style="font-weight:bold;">${unattempted}</span></div>
                 </div>
                 <div style="margin-top: 15px; font-size: 14px; color: #94A3B8;">Accuracy: ${accuracy}%</div>
             </div>
@@ -913,7 +913,7 @@ window.renderFatmanMistakeNotebook = function() {
     if (mistakeIndices.length === 0) {
         content.innerHTML = `
             <div style="text-align:center; padding: 50px 20px;">
-                <div style="font-size:48px; margin-bottom:20px;">ðŸŽ‰</div>
+                <div style="font-size:48px; margin-bottom:20px;">🎉</div>
                 <h2 style="color:#10B981;">Notebook Empty!</h2>
                 <p style="color:#94A3B8;">You have no active mistakes. Keep smashing those Grand Tests!</p>
                 <button onclick="window.renderFatmanMCQMenu()" style="margin-top:20px; background:#38BDF8; color:white; border:none; padding:10px 20px; border-radius:8px; font-weight:bold; cursor:pointer;">Back to Drills</button>
@@ -924,7 +924,7 @@ window.renderFatmanMistakeNotebook = function() {
     
     let html = `
         <div style="max-width:800px; margin: 0 auto; position:relative;">
-            <button onclick="window.renderFatmanMCQMenu()" style="position:absolute; top:0; left:0; background:#334155; color:white; border:none; padding:8px 12px; border-radius:8px; cursor:pointer;">â† Back</button>
+            <button onclick="window.renderFatmanMCQMenu()" style="position:absolute; top:0; left:0; background:#334155; color:white; border:none; padding:8px 12px; border-radius:8px; cursor:pointer;">← Back</button>
             <div style="text-align:center; margin-bottom: 20px; padding-top:10px;">
                 <h2 style="color:#EF4444; margin-bottom:5px;">Mistake Notebook</h2>
                 <p style="color:#94A3B8;">Get a question right 3 times in a row to banish it.</p>
@@ -964,4 +964,3 @@ window.renderFatmanMistakeNotebook = function() {
     html += '</div>';
     content.innerHTML = html;
 };
-
