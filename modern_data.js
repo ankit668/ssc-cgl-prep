@@ -575,8 +575,40 @@ const modernData = {
         </ul>
 
 `,
-    mcqs: [],
-    flashcards: []
+    mcqs: [
+        { id: "mod_1", subject: "history", topic: "Modern", question: "Who was the first European to reach India by sea in 1498?", options: ["Christopher Columbus", "Vasco da Gama", "Ferdinand Magellan", "Bartholomew Diaz"], correct: 1, explanation: "Vasco da Gama reached Calicut on the Malabar Coast in 1498." },
+        { id: "mod_2", subject: "history", topic: "Modern", question: "The Battle of Plassey (1757) was fought between the British East India Company and?", options: ["Siraj-ud-Daulah", "Mir Jafar", "Tipu Sultan", "Mir Qasim"], correct: 0, explanation: "Robert Clive defeated Siraj-ud-Daulah, the Nawab of Bengal, in the Battle of Plassey." },
+        { id: "mod_3", subject: "history", topic: "Modern", question: "Who introduced the Doctrine of Lapse?", options: ["Lord Cornwallis", "Lord Wellesley", "Lord Dalhousie", "Lord Hastings"], correct: 2, explanation: "Lord Dalhousie introduced the Doctrine of Lapse to annex Indian states lacking a natural heir." },
+        { id: "mod_4", subject: "history", topic: "Modern", question: "Who was the Governor-General of India during the Revolt of 1857?", options: ["Lord Dalhousie", "Lord Canning", "Lord Mayo", "Lord Ripon"], correct: 1, explanation: "Lord Canning was the Governor-General during the 1857 mutiny and became the first Viceroy of India." },
+        { id: "mod_5", subject: "history", topic: "Modern", question: "Who founded the Brahmo Samaj?", options: ["Swami Vivekananda", "Dayananda Saraswati", "Raja Ram Mohan Roy", "Ishwar Chandra Vidyasagar"], correct: 2, explanation: "Raja Ram Mohan Roy founded the Brahmo Samaj in 1828." },
+        { id: "mod_6", subject: "history", topic: "Modern", question: "When was the Indian National Congress (INC) founded?", options: ["1857", "1885", "1905", "1919"], correct: 1, explanation: "The INC was founded in 1885 by A.O. Hume in Bombay." },
+        { id: "mod_7", subject: "history", topic: "Modern", question: "Who was the first woman President of the Indian National Congress?", options: ["Sarojini Naidu", "Annie Besant", "Indira Gandhi", "Sucheta Kripalani"], correct: 1, explanation: "Annie Besant became the first woman president in 1917. Sarojini Naidu was the first Indian woman president (1925)." },
+        { id: "mod_8", subject: "history", topic: "Modern", question: "The partition of Bengal (1905) was carried out by?", options: ["Lord Curzon", "Lord Minto", "Lord Hardinge", "Lord Chelmsford"], correct: 0, explanation: "Lord Curzon partitioned Bengal in 1905, leading to the Swadeshi Movement." },
+        { id: "mod_9", subject: "history", topic: "Modern", question: "In which year did the Jallianwala Bagh massacre take place?", options: ["1917", "1919", "1920", "1922"], correct: 1, explanation: "The Jallianwala Bagh massacre took place on April 13, 1919, in Amritsar." },
+        { id: "mod_10", subject: "history", topic: "Modern", question: "Who started the Non-Cooperation Movement in 1920?", options: ["Subhas Chandra Bose", "Jawaharlal Nehru", "Mahatma Gandhi", "Bhagat Singh"], correct: 2, explanation: "Mahatma Gandhi launched the Non-Cooperation Movement in 1920 to protest the Rowlatt Act and Jallianwala Bagh massacre." },
+        { id: "mod_11", subject: "history", topic: "Modern", question: "Which incident led Gandhi to call off the Non-Cooperation Movement?", options: ["Kakori Conspiracy", "Chauri Chaura Incident", "Simon Commission", "Dandi March"], correct: 1, explanation: "The Chauri Chaura incident (1922) where a police station was burnt down led Gandhi to call off the movement." },
+        { id: "mod_12", subject: "history", topic: "Modern", question: "Who gave the slogan 'Inquilab Zindabad'?", options: ["Subhas Chandra Bose", "Bhagat Singh", "Chandra Shekhar Azad", "Hasrat Mohani"], correct: 3, explanation: "The slogan was coined by Maulana Hasrat Mohani in 1921, but popularized by Bhagat Singh." },
+        { id: "mod_13", subject: "history", topic: "Modern", question: "When was the Quit India Movement launched?", options: ["1939", "1940", "1942", "1945"], correct: 2, explanation: "The Quit India Movement was launched in August 1942 at the Bombay session of the INC." },
+        { id: "mod_14", subject: "history", topic: "Modern", question: "Who was the founder of the Indian National Army (INA) / Azad Hind Fauj?", options: ["Subhas Chandra Bose", "Mohan Singh", "Rash Behari Bose", "Both B and C"], correct: 3, explanation: "The INA was initially formed by Captain Mohan Singh and Rash Behari Bose, and later revived by Subhas Chandra Bose." },
+        { id: "mod_15", subject: "history", topic: "Modern", question: "Who was the first Governor-General of independent India?", options: ["C. Rajagopalachari", "Lord Mountbatten", "Jawaharlal Nehru", "Rajendra Prasad"], correct: 1, explanation: "Lord Mountbatten was the first Governor-General of independent India. C. Rajagopalachari was the first and only Indian Governor-General." }
+    ],,
+    flashcards: [
+        { topic: "Modern", front: "First European to reach India by sea?", back: "Vasco da Gama (1498)" },
+        { topic: "Modern", front: "Battle of Plassey (1757) was fought between?", back: "Robert Clive and Siraj-ud-Daulah" },
+        { topic: "Modern", front: "Who introduced the Subsidiary Alliance system?", back: "Lord Wellesley" },
+        { topic: "Modern", front: "Who introduced the Doctrine of Lapse?", back: "Lord Dalhousie" },
+        { topic: "Modern", front: "Governor-General during the 1857 Revolt?", back: "Lord Canning" },
+        { topic: "Modern", front: "Founder of Brahmo Samaj (1828)?", back: "Raja Ram Mohan Roy" },
+        { topic: "Modern", front: "Founder of Arya Samaj (1875)?", back: "Dayananda Saraswati" },
+        { topic: "Modern", front: "Year the Indian National Congress (INC) was founded?", back: "1885 (by A.O. Hume)" },
+        { topic: "Modern", front: "First woman President of INC?", back: "Annie Besant (1917)" },
+        { topic: "Modern", front: "Viceroy who partitioned Bengal in 1905?", back: "Lord Curzon" },
+        { topic: "Modern", front: "Year of the Jallianwala Bagh massacre?", back: "1919 (April 13)" },
+        { topic: "Modern", front: "Incident that caused Gandhi to call off Non-Cooperation Movement?", back: "Chauri Chaura incident (1922)" },
+        { topic: "Modern", front: "Who gave the slogan 'Give me blood, and I shall give you freedom'?", back: "Subhas Chandra Bose" },
+        { topic: "Modern", front: "Year the Quit India Movement was launched?", back: "1942" },
+        { topic: "Modern", front: "First Governor-General of Independent India?", back: "Lord Mountbatten" }
+    ]
 };
 
 window.fatmanModern = modernData;

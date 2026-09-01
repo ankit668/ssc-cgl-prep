@@ -505,8 +505,40 @@ const medievalData = {
         </ul>
 
 `,
-    mcqs: [],
-    flashcards: []
+    mcqs: [
+        { id: "med_1", subject: "history", topic: "Medieval", question: "Who was the founder of the Slave Dynasty in India?", options: ["Iltutmish", "Qutb-ud-din Aibak", "Balban", "Razia Sultan"], correct: 1, explanation: "Qutb-ud-din Aibak founded the Slave Dynasty in 1206 AD after the death of Muhammad Ghori." },
+        { id: "med_2", subject: "history", topic: "Medieval", question: "Who introduced the market control policy in the Delhi Sultanate?", options: ["Balban", "Alauddin Khalji", "Muhammad bin Tughlaq", "Firoz Shah Tughlaq"], correct: 1, explanation: "Alauddin Khalji introduced strict market control measures and fixed the prices of essential commodities." },
+        { id: "med_3", subject: "history", topic: "Medieval", question: "Which ruler shifted his capital from Delhi to Daulatabad?", options: ["Alauddin Khalji", "Ibrahim Lodi", "Muhammad bin Tughlaq", "Sikandar Lodi"], correct: 2, explanation: "Muhammad bin Tughlaq shifted the capital to Daulatabad (Devagiri) in 1327 but later returned to Delhi." },
+        { id: "med_4", subject: "history", topic: "Medieval", question: "The famous traveler Ibn Battuta visited India during the reign of?", options: ["Alauddin Khalji", "Muhammad bin Tughlaq", "Akbar", "Iltutmish"], correct: 1, explanation: "Ibn Battuta, a Moroccan traveler, visited India during Muhammad bin Tughlaq's reign and wrote 'Rihla'." },
+        { id: "med_5", subject: "history", topic: "Medieval", question: "Who founded the Vijayanagara Empire?", options: ["Krishna Deva Raya", "Harihara and Bukka", "Raja Raja Chola", "Shivaji"], correct: 1, explanation: "Harihara and Bukka founded the Vijayanagara Empire in 1336 AD." },
+        { id: "med_6", subject: "history", topic: "Medieval", question: "The First Battle of Panipat (1526) was fought between Babur and?", options: ["Rana Sanga", "Ibrahim Lodi", "Hemu", "Sher Shah Suri"], correct: 1, explanation: "Babur defeated Ibrahim Lodi in the First Battle of Panipat, marking the beginning of the Mughal Empire." },
+        { id: "med_7", subject: "history", topic: "Medieval", question: "Who built the Grand Trunk Road?", options: ["Akbar", "Ashoka", "Sher Shah Suri", "Shah Jahan"], correct: 2, explanation: "Sher Shah Suri rebuilt and extended the Grand Trunk Road (Sadak-e-Azam) connecting Sonargaon to Peshawar." },
+        { id: "med_8", subject: "history", topic: "Medieval", question: "What was the new religion started by Akbar?", options: ["Din-i-Ilahi", "Sikhism", "Sufism", "Zoroastrianism"], correct: 0, explanation: "Din-i-Ilahi was a syncretic religion founded by Akbar in 1582, aiming to merge the best elements of various religions." },
+        { id: "med_9", subject: "history", topic: "Medieval", question: "Who was the revenue minister of Akbar?", options: ["Birbal", "Todar Mal", "Tansen", "Abul Fazl"], correct: 1, explanation: "Raja Todar Mal was the Finance Minister (Diwan) of Akbar and introduced the Dahsala system of land revenue." },
+        { id: "med_10", subject: "history", topic: "Medieval", question: "The Battle of Haldighati (1576) was fought between?", options: ["Akbar and Maharana Pratap", "Babur and Rana Sanga", "Humayun and Sher Shah", "Aurangzeb and Shivaji"], correct: 0, explanation: "It was fought between Maharana Pratap of Mewar and the Mughal emperor Akbar's forces led by Man Singh." },
+        { id: "med_11", subject: "history", topic: "Medieval", question: "Which Mughal Emperor assumed the title 'Alamgir'?", options: ["Akbar", "Jahangir", "Shah Jahan", "Aurangzeb"], correct: 3, explanation: "Aurangzeb assumed the title Alamgir, which means 'Conqueror of the World'." },
+        { id: "med_12", subject: "history", topic: "Medieval", question: "Who was the founder of the Maratha Empire?", options: ["Baji Rao I", "Balaji Vishwanath", "Shivaji", "Sambhaji"], correct: 2, explanation: "Chhatrapati Shivaji Maharaj carved out an enclave from the declining Adilshahi sultanate, forming the genesis of the Maratha Empire." },
+        { id: "med_13", subject: "history", topic: "Medieval", question: "The Treaty of Purandar (1665) was signed between Shivaji and?", options: ["Aurangzeb", "Afzal Khan", "Jai Singh I", "Shaista Khan"], correct: 2, explanation: "The treaty was signed between Shivaji and Raja Jai Singh I (representing the Mughal Emperor Aurangzeb)." },
+        { id: "med_14", subject: "history", topic: "Medieval", question: "Who built the Red Fort in Delhi?", options: ["Akbar", "Jahangir", "Shah Jahan", "Aurangzeb"], correct: 2, explanation: "Shah Jahan commissioned the construction of the Red Fort in 1638 when he decided to shift his capital from Agra to Delhi." },
+        { id: "med_15", subject: "history", topic: "Medieval", question: "The token currency of copper and brass was introduced by?", options: ["Muhammad bin Tughlaq", "Alauddin Khalji", "Iltutmish", "Sher Shah Suri"], correct: 0, explanation: "Muhammad bin Tughlaq introduced a token currency in 1330, which ultimately failed due to widespread counterfeiting." }
+    ],,
+    flashcards: [
+        { topic: "Medieval", front: "Founder of Slave Dynasty?", back: "Qutb-ud-din Aibak (1206 AD)" },
+        { topic: "Medieval", front: "Who completed the construction of Qutub Minar?", back: "Iltutmish" },
+        { topic: "Medieval", front: "Who introduced the 'Blood and Iron' policy?", back: "Balban" },
+        { topic: "Medieval", front: "Who introduced market control policy in Delhi Sultanate?", back: "Alauddin Khalji" },
+        { topic: "Medieval", front: "Ruler who shifted capital from Delhi to Daulatabad?", back: "Muhammad bin Tughlaq" },
+        { topic: "Medieval", front: "Foreign traveler who visited during Muhammad bin Tughlaq's reign?", back: "Ibn Battuta (from Morocco)" },
+        { topic: "Medieval", front: "Founders of Vijayanagara Empire?", back: "Harihara and Bukka (1336)" },
+        { topic: "Medieval", front: "Battle of Panipat I (1526) was between?", back: "Babur and Ibrahim Lodi" },
+        { topic: "Medieval", front: "Who defeated Humayun in the Battle of Chausa (1539)?", back: "Sher Shah Suri" },
+        { topic: "Medieval", front: "Revenue minister of Akbar?", back: "Raja Todar Mal" },
+        { topic: "Medieval", front: "New religion introduced by Akbar?", back: "Din-i-Ilahi" },
+        { topic: "Medieval", front: "Battle of Haldighati (1576) participants?", back: "Akbar (Man Singh) vs Maharana Pratap" },
+        { topic: "Medieval", front: "Mughal Emperor known as 'Alamgir'?", back: "Aurangzeb" },
+        { topic: "Medieval", front: "Who signed the Treaty of Purandar (1665) with Shivaji?", back: "Raja Jai Singh I" },
+        { topic: "Medieval", front: "Who built the Red Fort and Taj Mahal?", back: "Shah Jahan" }
+    ]
 };
 
 window.fatmanMedieval = medievalData;
