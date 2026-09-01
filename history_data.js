@@ -2171,6 +2171,33 @@
         "explanation": "Aihole is called the 'Laboratory of Indian Temple Architecture'. Pattadakal (a blend of Nagara and Dravida) is called the 'Cradle of Indian Architecture' and is a UNESCO World Heritage Site."
     }
     ],
+
+    { id: 'anc_1', subject: 'history', topic: 'The Vedic Age', question: 'Which type of pottery is most distinctively associated with the Later Vedic period?', options: ['Ochre Coloured Pottery (OCP)', 'Black and Red Ware (BRW)', 'Painted Grey Ware (PGW)', 'Northern Black Polished Ware (NBPW)'], correct: 2, explanation: 'Painted Grey Ware (PGW) is the characteristic pottery of the Later Vedic period, found in the Ganga-Yamuna doab.' },
+    { id: 'anc_2', subject: 'history', topic: 'Mauryan Empire', question: 'What was the term used for the espionage system or secret spies in Kautilya's Arthashastra?', options: ['Amatyas', 'Gudhapurushas', 'Antapalas', 'Sannidhata'], correct: 1, explanation: 'Gudhapurushas were the secret agents or spies in the highly developed Mauryan intelligence network.' },
+    { id: 'anc_3', subject: 'history', topic: 'Mauryan Empire', question: 'The sculptural masterpiece "Didarganj Yakshi", carved out of polished sandstone, belongs to which period?', options: ['Kushana period', 'Gupta period', 'Mauryan period', 'Shunga period'], correct: 2, explanation: 'The Didarganj Yakshi is a prime example of Mauryan art, characterized by the brilliant Mauryan polish.' },
+    { id: 'anc_4', subject: 'history', topic: 'Mauryan Empire', question: 'Which Rock Edict of Ashoka mentions the Cholas, Pandyas, Satyaputras, and Keralaputras?', options: ['Major Rock Edict I', 'Major Rock Edict II', 'Major Rock Edict XIII', 'Pillar Edict VII'], correct: 1, explanation: 'Major Rock Edict II mentions southern kingdoms where Ashoka made provisions for medical treatment for humans and animals.' },
+    { id: 'anc_5', subject: 'history', topic: 'Post-Mauryan & Foreign Invasions', question: 'The Mathura School of Art, which flourished during the Kushana period, predominantly used which material?', options: ['Bluish-grey schist', 'Spotted red sandstone', 'White marble', 'Granite'], correct: 1, explanation: 'Unlike the Gandhara school which used bluish-grey schist, the Mathura school primarily used spotted red sandstone.' },
+    { id: 'anc_6', subject: 'history', topic: 'Post-Mauryan & Foreign Invasions', question: 'The Junagarh Rock Inscription of Rudradaman I is historically significant because it is the first major inscription in?', options: ['Prakrit', 'Pali', 'Brahmi', 'Chaste Sanskrit'], correct: 3, explanation: 'The Junagarh Inscription (150 AD) of Shaka ruler Rudradaman I is the earliest extensive inscription in standard Sanskrit.' },
+    { id: 'anc_7', subject: 'history', topic: 'Post-Mauryan & Foreign Invasions', question: 'Who was the Greek ambassador who erected a Garuda pillar at Besnagar declaring himself a Bhagavata?', options: ['Megasthenes', 'Deimachus', 'Heliodorus', 'Menander'], correct: 2, explanation: 'Heliodorus, Greek ambassador from Indo-Greek king Antialcidas, erected the Besnagar Garuda Pillar and declared himself a worshipper of Vishnu.' },
+    { id: 'anc_8', subject: 'history', topic: 'Gupta Empire', question: 'In the Gupta administrative structure, who headed a Bhukti (province)?', options: ['Vishayapati', 'Uparika', 'Kumaramatya', 'Gopas'], correct: 1, explanation: 'A Bhukti (province) was governed by an Uparika, while a Vishaya (district) was headed by a Vishayapati.' },
+    { id: 'anc_9', subject: 'history', topic: 'Gupta Empire', question: 'Which Gupta rulers defeated the Hunas and stopped their invasion into India?', options: ['Samudragupta', 'Chandragupta II', 'Skandagupta', 'Kumargupta I'], correct: 2, explanation: 'Skandagupta successfully repelled the Huna invasions, saving the Gupta empire from collapse.' },
+    { id: 'anc_10', subject: 'history', topic: 'Ancient Books & Authors', question: 'Who authored "Panchasiddhantika", a foundational text on ancient Indian mathematical astronomy?', options: ['Aryabhata', 'Brahmagupta', 'Varahamihira', 'Bhaskaracharya'], correct: 2, explanation: 'Varahamihira authored the Panchasiddhantika, summarizing five earlier astronomical treatises (siddhantas).' },
+    { id: 'anc_11', subject: 'history', topic: 'Ancient Books & Authors', question: 'Which ancient play authored by Shudraka shows realistic city life focusing on merchant and courtesan society?', options: ['Malavikagnimitram', 'Mrichchhakatika', 'Ratnavali', 'Uttaramacarita'], correct: 1, explanation: 'Mrichchhakatika (The Little Clay Cart) by Shudraka revolves around merchant Charudatta and courtesan Vasantasena.' },
+    { id: 'anc_12', subject: 'history', topic: 'Ancient Indian Philosophies', question: 'Which school of ancient Indian philosophy is closely associated with the atomic theory of matter (Parmanu)?', options: ['Samkhya', 'Vaisheshika', 'Nyaya', 'Mimamsa'], correct: 1, explanation: 'The Vaisheshika school, founded by sage Kanada, posited that the universe is made up of indestructible atoms (anu/parmanu).' },
+    { id: 'anc_13', subject: 'history', topic: 'Ancient Indian Philosophies', question: 'Which ancient philosophy strictly rejected the authority of the Vedas, karma, and afterlife, focusing on materialism?', options: ['Yoga', 'Vedanta', 'Charvaka (Lokayata)', 'Samkhya'], correct: 2, explanation: 'The Charvaka or Lokayata school is an ancient Indian materialistic philosophy that rejected supernaturalism.' },
+    { id: 'anc_14', subject: 'history', topic: 'Indus Valley Civilization', question: 'Which Harappan site provides the earliest evidence of ploughed agricultural fields?', options: ['Dholavira', 'Mohenjo-Daro', 'Kalibangan', 'Lothal'], correct: 2, explanation: 'Kalibangan in Rajasthan shows evidence of ploughed fields (possibly the world's oldest), fire altars, and ancient earthquake damage.' },
+    { id: 'anc_15', subject: 'history', topic: 'Indus Valley Civilization', question: 'The Harappan seals were mostly made of?', options: ['Terracotta', 'Bronze', 'Steatite', 'Limestone'], correct: 2, explanation: 'Most Harappan seals were made of steatite (soapstone), easy to carve before hardening by heating.' },
+    { id: 'anc_16', subject: 'history', topic: 'Stone Age', question: 'Bhimbetka caves in Madhya Pradesh — the most prolific rock paintings date to which period?', options: ['Lower Paleolithic', 'Mesolithic', 'Neolithic', 'Chalcolithic'], correct: 1, explanation: 'The most detailed rock paintings at Bhimbetka date to the Mesolithic period, depicting hunting and group activities.' },
+    { id: 'anc_17', subject: 'history', topic: 'Buddhism', question: 'In Buddhist Stupa architecture, what does the "Harmika" represent?', options: ['The hemispherical dome', 'The circumambulatory path', 'Balcony-like structure at top representing abode of gods', 'The central mast'], correct: 2, explanation: 'The Harmika is a square, fence-like enclosure atop the dome (Anda) of a stupa, symbolizing the sacred domain of gods.' },
+    { id: 'anc_18', subject: 'history', topic: 'Jainism', question: 'The famous Dilwara Temples at Mount Abu are built by the ministers of which dynasty?', options: ['Chandela dynasty', 'Solanki dynasty', 'Paramara dynasty', 'Rashtrakuta dynasty'], correct: 1, explanation: 'The Dilwara Jain temples (11th-13th century) were built by ministers of the Solanki (Chalukya) dynasty of Gujarat.' },
+    { id: 'anc_19', subject: 'history', topic: 'Mahajanapadas & Magadha Empire', question: 'The early "Punch-marked coins" (Karshapanas) during the Mahajanapada period were primarily made of?', options: ['Gold', 'Silver', 'Bronze', 'Lead'], correct: 1, explanation: 'The earliest Indian coins were punch-marked, typically made of silver bearing symbols like the sun, bull, and trees.' },
+    { id: 'anc_20', subject: 'history', topic: 'Harshavardhana & Sangam Age', question: 'The Aihole Inscription recording defeat of Harshavardhana by Pulakeshin II was composed by?', options: ['Banabhatta', 'Harisena', 'Ravikirti', 'Dandin'], correct: 2, explanation: 'Ravikirti, court poet of Chalukya king Pulakeshin II, composed the Aihole inscription.' },
+    { id: 'anc_21', subject: 'history', topic: 'Chalukyas & Pallavas', question: 'The Shore Temple at Mahabalipuram was built during the reign of which Pallava king?', options: ['Mahendravarman I', 'Narasimhavarman I', 'Narasimhavarman II (Rajasimha)', 'Nandivarman II'], correct: 2, explanation: 'Narasimhavarman II (Rajasimha) constructed the Shore Temple at Mahabalipuram in the early 8th century CE.' },
+    { id: 'anc_22', subject: 'history', topic: 'Chalukyas & Pallavas', question: 'Who authored the satirical Sanskrit play "Mattavilasa Prahasana"?', options: ['Dandin', 'Bhavabhuti', 'Mahendravarman I', 'Appar'], correct: 2, explanation: 'Pallava King Mahendravarman I authored Mattavilasa Prahasana, satirizing degenerate Buddhist and Kapalika ascetics.' },
+    { id: 'anc_23', subject: 'history', topic: 'Sangam Age', question: 'The famous Tamil epic "Silappatikaram", about the tragic story of Kovalan and Kannagi, was composed by?', options: ['Tiruvalluvar', 'Sattanar', 'Ilango Adigal', 'Kapilar'], correct: 2, explanation: 'Ilango Adigal, a Jain monk and brother of Chera king Senguttuvan, authored the Silappatikaram.' },
+    { id: 'anc_24', subject: 'history', topic: 'Sangam Age', question: 'During Sangam Age, "Yavanapriya" was used to describe which commodity highly valued by Romans?', options: ['Silk', 'Pearls', 'Black Pepper', 'Muslin'], correct: 2, explanation: 'Black pepper was so loved by the Greeks/Romans that it was termed Yavanapriya in Sanskrit texts.' },
+    { id: 'anc_25', subject: 'history', topic: 'Gupta Empire', question: 'The Allahabad Pillar Inscription detailing Samudragupta's military conquests was composed by his court poet?', options: ['Harisena', 'Kalidasa', 'Ravikirti', 'Vasumitra'], correct: 0, explanation: 'Harisena composed the Allahabad Prasasti (eulogy) engraved on an Ashokan pillar, detailing Samudragupta's victories.' },
+
     flashcards: [
     {
         topic: "Indus Valley Civilization",
@@ -3276,7 +3303,46 @@
     { topic: "Harshavardhana & Sangam Age", front: "Chola land grants: Vellanvagai, Shalabhoga, Pallichchhandam?", back: "Vellanvagai = non-Brahman peasants. Shalabhoga = schools. Pallichchhandam = Jain community." },
     { topic: "Post-Mauryan & Foreign Invasions", front: "Which dynasty traded lead coins with the Romans?", back: "Satavahana Dynasty. Port used: Ghantasala (Andhra Pradesh)." },
     { topic: "Chalukyas & Pallavas", front: "Which site is 'Cradle of Indian Architecture'?", back: "Pattadakal group of temples (Karnataka) â€” UNESCO World Heritage Site. 4 Nagara + 6 Dravida style temples." }
-    ]
+    
+    { topic: 'Stone Age', front: 'Neolithic site in Kashmir known for pit dwellings and dog burials?', back: 'Burzahom' },
+    { topic: 'Stone Age', front: 'Earliest known farming village in the Indian subcontinent (7000 BCE)?', back: 'Mehrgarh (Balochistan)' },
+    { topic: 'Indus Valley Civilization', front: 'At which IVC site was a dockyard found, indicating maritime trade?', back: 'Lothal (Gujarat)' },
+    { topic: 'Indus Valley Civilization', front: 'IVC site with most elaborate water harvesting system?', back: 'Dholavira' },
+    { topic: 'Indus Valley Civilization', front: 'Metal unknown to Indus Valley people?', back: 'Iron' },
+    { topic: 'The Vedic Age', front: 'Which Veda is the primary source of Indian music?', back: 'Sama Veda' },
+    { topic: 'The Vedic Age', front: 'Which Upanishad contains "Satyameva Jayate"?', back: 'Mundaka Upanishad' },
+    { topic: 'Buddhism', front: 'Where did Buddha deliver his first sermon (Dharmachakrapravartana)?', back: 'Sarnath (Deer Park)' },
+    { topic: 'Buddhism', front: 'What is a "Chaitya" in Buddhist architecture?', back: 'A prayer hall/shrine with a stupa at one end' },
+    { topic: 'Jainism', front: '23rd Tirthankara of Jainism?', back: 'Parshvanatha' },
+    { topic: 'Mahajanapadas & Magadha Empire', front: 'Which Mahajanapada was a republic (Gana-Sangha) with capital at Vaishali?', back: 'Vajji (Vrijji)' },
+    { topic: 'Mauryan Empire', front: 'Ashokan Rock Edict that describes the Kalinga War?', back: 'Major Rock Edict XIII' },
+    { topic: 'Mauryan Empire', front: 'Script used for Ashokan inscriptions in north-western India?', back: 'Kharoshthi' },
+    { topic: 'Mauryan Empire', front: 'Greek ambassador in Chandragupta Maurya's court who wrote "Indica"?', back: 'Megasthenes' },
+    { topic: 'Post-Mauryan & Foreign Invasions', front: 'Greatest Indo-Greek ruler, famous for dialogues with monk Nagasena?', back: 'Menander (Milinda)' },
+    { topic: 'Post-Mauryan & Foreign Invasions', front: 'Founder of the Shunga dynasty?', back: 'Pushyamitra Shunga (assassinated last Mauryan ruler)' },
+    { topic: 'Post-Mauryan & Foreign Invasions', front: 'Shaka Era began in which year?', back: '78 AD' },
+    { topic: 'Gupta Empire', front: '"Napoleon of India" — which Gupta ruler?', back: 'Samudragupta' },
+    { topic: 'Gupta Empire', front: 'Chinese pilgrim Fa-Hien visited India during the reign of?', back: 'Chandragupta II (Vikramaditya)' },
+    { topic: 'Gupta Empire', front: 'Who wrote Abhijnanashakuntalam?', back: 'Kalidasa' },
+    { topic: 'Gupta Empire', front: 'Which ancient university was founded by Kumaragupta I?', back: 'Nalanda University' },
+    { topic: 'Gupta Empire', front: 'Gupta ruler who assumed the title "Vikramaditya"?', back: 'Chandragupta II' },
+    { topic: 'Harshavardhana & Sangam Age', front: 'Capital of Harshavardhana's empire?', back: 'Kannauj' },
+    { topic: 'Harshavardhana & Sangam Age', front: 'Who authored "Harshacharita"?', back: 'Banabhatta' },
+    { topic: 'Sangam Age', front: 'Venue of the First Sangam (Tamil literary assembly)?', back: 'Madurai' },
+    { topic: 'Sangam Age', front: 'Oldest surviving work of Sangam literature?', back: 'Tolkappiyam' },
+    { topic: 'Chalukyas & Pallavas', front: 'Monolithic Rathas of Mahabalipuram carved during reign of?', back: 'Narasimhavarman I' },
+    { topic: 'Chalukyas & Pallavas', front: 'Chalukyan capital called "cradle of Indian temple architecture"?', back: 'Aihole' },
+    { topic: 'Ancient Books & Authors', front: 'Author of Arthashastra?', back: 'Kautilya (Chanakya)' },
+    { topic: 'Ancient Books & Authors', front: 'Author of Sushruta Samhita (surgery text)?', back: 'Sushruta (father of surgery)' },
+    { topic: 'Ancient Books & Authors', front: 'Author of Ashtadhyayi (Sanskrit grammar)?', back: 'Panini' },
+    { topic: 'Ancient Books & Authors', front: 'Author of Buddhacharita?', back: 'Ashvaghosha' },
+    { topic: 'Ancient Books & Authors', front: 'Oldest treatise on dramaturgy and performing arts?', back: 'Natyashastra (by Bharata Muni)' },
+    { topic: 'Ancient Indian Philosophies', front: 'Founder of the Nyaya school of philosophy?', back: 'Gautama (Akshapada)' },
+    { topic: 'Ancient Indian Philosophies', front: 'Yoga Sutras compiled by?', back: 'Patanjali' },
+    { topic: 'Mahajanapadas & Magadha Empire', front: 'Last ruler of the Nanda dynasty?', back: 'Dhana Nanda' },
+    { topic: 'Post-Mauryan & Foreign Invasions', front: 'Author of Mahabhashya (commentary on Panini)?', back: 'Patanjali' },
+
+]
 };
 
 window.fatmanHistory = historyData;
