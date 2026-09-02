@@ -4,6 +4,7 @@ window.getFatmanData = function() {
     if (window.currentFatmanSubject === "history") return window.fatmanHistory;
     if (window.currentFatmanSubject === "medieval") return window.fatmanMedieval;
     if (window.currentFatmanSubject === "modern") return window.fatmanModern;
+    if (window.currentFatmanSubject === "polity") return window.polityData;
     if (window.currentFatmanSubject === "current_affairs") return window.fatmanCurrentAffairs;
     return window.fatmanGeography;
 };
@@ -75,7 +76,8 @@ if ('speechSynthesis' in window) {
             <option value="history">Ancient History</option>
             <option value="medieval">Medieval History</option>
             <option value="modern">Modern History</option>
-            <option value="current_affairs">Current Affairs (July 2024)</option>
+            <option value="polity">🏛️ Polity</option>
+            <option value="current_affairs">Current Affairs (July 2026)</option>
         </select>
     </div>
     <button id="fatman-close" style="background:none; border:none; color:white; font-size:24px; cursor:pointer;">&times;</button>
@@ -172,7 +174,7 @@ if ('speechSynthesis' in window) {
 function renderFatmanNotes() {
         const content = document.getElementById('fatman-content');
         window.currentFatmanTopic = window.currentFatmanTopic || 'All';
-        if(!window.fatmanGeography && !window.fatmanHistory && !window.fatmanMedieval && !window.fatmanModern) {
+        if(!window.fatmanGeography && !window.fatmanHistory && !window.fatmanMedieval && !window.fatmanModern && !window.polityData) {
             content.innerHTML = "<p>Data not found. Did fatman_data.js load?</p>";
             return;
         }
