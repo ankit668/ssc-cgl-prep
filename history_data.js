@@ -2186,7 +2186,7 @@
     { id: "anc_13", "subject": "history", "topic": "Ancient Indian Philosophies", "question": "Which ancient philosophy strictly rejected the authority of the Vedas, karma, and afterlife, focusing on materialism?", options: ["Yoga", "Vedanta", "Charvaka (Lokayata)", "Samkhya"], correct: 2, "explanation": "The Charvaka or Lokayata school is an ancient Indian materialistic philosophy that rejected supernaturalism." },
     { id: "anc_14", "subject": "history", "topic": "Indus Valley Civilization", "question": "Which Harappan site provides the earliest evidence of ploughed agricultural fields?", options: ["Dholavira", "Mohenjo-Daro", "Kalibangan", "Lothal"], correct: 2, explanation: "Kalibangan in Rajasthan shows evidence of ploughed fields (possibly the world\'s oldest), fire altars, and ancient earthquake damage." },
     { id: "anc_15", "subject": "history", "topic": "Indus Valley Civilization", "question": "The Harappan seals were mostly made of?", options: ["Terracotta", "Bronze", "Steatite", "Limestone"], correct: 2, explanation: "Most Harappan seals were made of steatite (soapstone), easy to carve before hardening by heating." },
-    { id: "anc_16", "subject": "history", "topic": "Stone Age", "question": "Bhimbetka caves in Madhya Pradesh — the most prolific rock paintings date to which period?", options: ["Lower Paleolithic", "Mesolithic", "Neolithic", "Chalcolithic"], correct: 1, explanation: "The most detailed rock paintings at Bhimbetka date to the Mesolithic period, depicting hunting and group activities." },
+    { id: "anc_16", "subject": "history", "topic": "Stone Age", "question": "Bhimbetka caves in Madhya Pradesh � the most prolific rock paintings date to which period?", options: ["Lower Paleolithic", "Mesolithic", "Neolithic", "Chalcolithic"], correct: 1, explanation: "The most detailed rock paintings at Bhimbetka date to the Mesolithic period, depicting hunting and group activities." },
     { id: "anc_17", "subject": "history", "topic": "Buddhism", "question": "In Buddhist Stupa architecture, what does the 'Harmika' represent?", options: ["The hemispherical dome", "The circumambulatory path", "Balcony-like structure at top representing abode of gods", "The central mast"], correct: 2, explanation: "The Harmika is a square, fence-like enclosure atop the dome (Anda) of a stupa, symbolizing the sacred domain of gods." },
     { id: "anc_18", "subject": "history", "topic": "Jainism", "question": "The famous Dilwara Temples at Mount Abu are built by the ministers of which dynasty?", options: ["Chandela dynasty", "Solanki dynasty", "Paramara dynasty", "Rashtrakuta dynasty"], correct: 1, explanation: "The Dilwara Jain temples (11th-13th century) were built by ministers of the Solanki (Chalukya) dynasty of Gujarat." },
     { id: "anc_19", "subject": "history", "topic": "Mahajanapadas & Magadha Empire", "question": "The early 'Punch-marked coins' (Karshapanas) during the Mahajanapada period were primarily made of?", options: ["Gold", "Silver", "Bronze", "Lead"], correct: 1, explanation: "The earliest Indian coins were punch-marked, typically made of silver bearing symbols like the sun, bull, and trees." },
@@ -2659,7 +2659,7 @@
         question: "Who developed the 'Three Age System' (Stone, Bronze, Iron)?",
         options: ["V.S. Wakankar", "C.J. Thomson", "Gordon Childe", "Robert Bruce Foote"],
         correct: 1,
-        explanation: "C.J. Thomson (Christian JÃ¼rgensen Thomsen) developed the Three Age System."
+        explanation: "C.J. Thomson (Christian Jürgensen Thomsen) developed the Three Age System."
     },
     {
         topic: "Stone Age",
@@ -2686,13 +2686,13 @@
         topic: "Stone Age",
         question: "Which of the following is the correct chronological order of Stone Ages?",
         options: [
-            "Neolithic â†’ Palaeolithic â†’ Mesolithic",
-            "Palaeolithic â†’ Mesolithic â†’ Neolithic",
-            "Mesolithic â†’ Palaeolithic â†’ Neolithic",
-            "Palaeolithic â†’ Neolithic â†’ Mesolithic"
+            "Neolithic → Palaeolithic → Mesolithic",
+            "Palaeolithic → Mesolithic → Neolithic",
+            "Mesolithic → Palaeolithic → Neolithic",
+            "Palaeolithic → Neolithic → Mesolithic"
         ],
         correct: 1,
-        explanation: "The correct order is Palaeolithic (Old Stone) â†’ Mesolithic (Middle Stone) â†’ Neolithic (New Stone Age)."
+        explanation: "The correct order is Palaeolithic (Old Stone) → Mesolithic (Middle Stone) → Neolithic (New Stone Age)."
     },
     // ===== IVC - EXPANDED =====
     {
@@ -2707,7 +2707,7 @@
         question: "The IVC script was written in which style?",
         options: ["Left to right", "Right to left", "Boustrophedon (alternating directions)", "Top to bottom"],
         correct: 2,
-        explanation: "IVC script was Boustrophedon â€” written Right to Left in one line, then Left to Right in the next."
+        explanation: "IVC script was Boustrophedon — written Right to Left in one line, then Left to Right in the next."
     },
     {
         topic: "Indus Valley Civilization",
@@ -2735,7 +2735,7 @@
         question: "The Greeks used the word 'Sindon' for which IVC product?",
         options: ["Copper", "Cotton", "Sesame oil", "Indigo"],
         correct: 1,
-        explanation: "The Greeks called cotton 'Sindon' â€” derived from 'Sindh', where cotton was extensively produced and traded."
+        explanation: "The Greeks called cotton 'Sindon' — derived from 'Sindh', where cotton was extensively produced and traded."
     },
     {
         topic: "Indus Valley Civilization",
@@ -2771,7 +2771,7 @@
         question: "The Boghazkoi inscription (found in Turkey) mentions which Vedic gods?",
         options: ["Brahma, Vishnu, Shiva", "Indra, Varuna, Mitra, Nasatya", "Agni, Surya, Soma, Vayu", "Indra, Agni, Soma, Pushan"],
         correct: 1,
-        explanation: "The Boghazkoi inscription mentions Indra, Varuna, Mitra (Mithra), and Nasatya â€” proving Vedic Aryans had contact with West Asia."
+        explanation: "The Boghazkoi inscription mentions Indra, Varuna, Mitra (Mithra), and Nasatya — proving Vedic Aryans had contact with West Asia."
     },
     {
         topic: "The Vedic Age",
@@ -2797,7 +2797,7 @@
             "Rig Veda - Brahma, Sama Veda - Hotri"
         ],
         correct: 1,
-        explanation: "Rig Veda â†’ Hotri (reciter), Sama Veda â†’ Udgatri (chanter), Yajur Veda â†’ Adhvaryu (performer of rituals), Atharva Veda â†’ Brahma (supervisor)."
+        explanation: "Rig Veda → Hotri (reciter), Sama Veda → Udgatri (chanter), Yajur Veda → Adhvaryu (performer of rituals), Atharva Veda → Brahma (supervisor)."
     },
     {
         topic: "The Vedic Age",
@@ -2818,7 +2818,7 @@
         question: "The Upaveda of Atharva Veda is:",
         options: ["Dhanurveda", "Gandharvaveda", "Ayurveda", "Shilpaveda"],
         correct: 2,
-        explanation: "Ayurveda (medicine) is the Upaveda of Atharva Veda. Dhanurveda (archery) â†’ Yajur Veda; Gandharvaveda (music) â†’ Sama Veda."
+        explanation: "Ayurveda (medicine) is the Upaveda of Atharva Veda. Dhanurveda (archery) → Yajur Veda; Gandharvaveda (music) → Sama Veda."
     },
     {
         topic: "The Vedic Age",
@@ -2882,7 +2882,7 @@
         question: "Dhammapada, a famous Buddhist text, is part of which Pitaka?",
         options: ["Vinaya Pitaka", "Khuddaka Nikaya of Sutta Pitaka", "Abhidhamma Pitaka", "Digha Nikaya"],
         correct: 1,
-        explanation: "Dhammapada (compiled at the 3rd Buddhist Council) is part of the Khuddaka Nikaya â€” one of the 5 Nikayas of the Sutta Pitaka."
+        explanation: "Dhammapada (compiled at the 3rd Buddhist Council) is part of the Khuddaka Nikaya — one of the 5 Nikayas of the Sutta Pitaka."
     },
     {
         topic: "Buddhism",
@@ -2939,7 +2939,7 @@
         question: "The Syadvada (theory of maybe/perhaps) and Anekantavada (many-sidedness of truth) are doctrines of which religion?",
         options: ["Buddhism", "Jainism", "Ajivika sect", "Charvaka school"],
         correct: 1,
-        explanation: "Syadvada (Saptabhangi â€” 7 modes of prediction) and Anekantavada (non-absolutism) are key philosophical doctrines of Jainism."
+        explanation: "Syadvada (Saptabhangi — 7 modes of prediction) and Anekantavada (non-absolutism) are key philosophical doctrines of Jainism."
     },
     {
         topic: "Jainism",
@@ -2980,7 +2980,7 @@
         question: "Which Mahajanapada consisted of 8 clans, of which the Lichchhavi and Videha were the most important?",
         options: ["Malla", "Kuru", "Vajji", "Kamboja"],
         correct: 2,
-        explanation: "Vajji (Vrijji) was a confederacy of 8 clans â€” including the Lichchhavi (capital Vaishali) and Videha (Mithila). It was India's first known republic."
+        explanation: "Vajji (Vrijji) was a confederacy of 8 clans — including the Lichchhavi (capital Vaishali) and Videha (Mithila). It was India's first known republic."
     },
     {
         topic: "Mahajanapadas & Magadha Empire",
@@ -3152,7 +3152,7 @@
         question: "The 'Uttaramerur Inscription' (Chola period) describes which famous local self-governance system?",
         options: ["The Panchayat system", "The Kudavolai (lottery) system for electing village assemblies", "The Zamindari system", "The Jajmani system"],
         correct: 1,
-        explanation: "The Uttaramerur Inscription (from the reign of Parantaka I) describes the Kudavolai system â€” a lottery-based election for the Uttaramerur Sabhas (village assemblies), a form of early democracy."
+        explanation: "The Uttaramerur Inscription (from the reign of Parantaka I) describes the Kudavolai system — a lottery-based election for the Uttaramerur Sabhas (village assemblies), a form of early democracy."
     },
     // ===== ANCIENT BOOKS & PHILOSOPHIES - EXPANDED =====
     {
@@ -3160,7 +3160,7 @@
         question: "Which is the correct author-book match: Mudrarakshasa?",
         options: ["Panini", "Vishakhadatta", "Kalhana", "Bana Bhatta"],
         correct: 1,
-        explanation: "Vishakhadatta wrote Mudrarakshasa (a Sanskrit play about Chandragupta Maurya). Other key matches: Ashtadhyayi â†’ Panini, Rajatarangini â†’ Kalhana, Harshacharita â†’ Bana Bhatta."
+        explanation: "Vishakhadatta wrote Mudrarakshasa (a Sanskrit play about Chandragupta Maurya). Other key matches: Ashtadhyayi → Panini, Rajatarangini → Kalhana, Harshacharita → Bana Bhatta."
     },
     {
         topic: "Ancient Books & Authors",
@@ -3208,29 +3208,29 @@
 ,
 
     // ===== STONE AGE FC =====
-    { topic: "Stone Age", front: "Who discovered Bhimbetka caves (1957)?", back: "V.S. Wakankar â€” 'Father of Indian Rock Art'." },
+    { topic: "Stone Age", front: "Who discovered Bhimbetka caves (1957)?", back: "V.S. Wakankar — 'Father of Indian Rock Art'." },
     { topic: "Stone Age", front: "Who was the first to discover rock paintings in India (1867-68)?", back: "Archibald Campbell Carlleyle at Sohagighat, UP." },
     { topic: "Stone Age", front: "Which site = skull of Homo Erectus found?", back: "Hathnora, Madhya Pradesh (Narmada Man)." },
     { topic: "Stone Age", front: "Burzahom (Kashmir) is famous for?", back: "Pit dwellings + dog burials with masters." },
     { topic: "Stone Age", front: "Which site = Ostrich evidence first found in India?", back: "Patne, Maharashtra (Upper Palaeolithic)." },
     { topic: "Stone Age", front: "Which site = traces of ash/fire first discovered?", back: "Kurnool Caves, Andhra Pradesh." },
-    { topic: "Stone Age", front: "Three Age System (Stone/Bronze/Iron) developed by?", back: "C.J. Thomson (Christian JÃ¼rgensen Thomsen)." },
-    { topic: "Stone Age", front: "First Palaeolithic tool in India â€” where and by whom?", back: "Pallavaram (near Madras), Robert Bruce Foote, 1863." },
+    { topic: "Stone Age", front: "Three Age System (Stone/Bronze/Iron) developed by?", back: "C.J. Thomson (Christian Jürgensen Thomsen)." },
+    { topic: "Stone Age", front: "First Palaeolithic tool in India — where and by whom?", back: "Pallavaram (near Madras), Robert Bruce Foote, 1863." },
     { topic: "Stone Age", front: "Mehrgarh (oldest farming evidence, 7000 BCE) is in which country?", back: "Pakistan (Balochistan)." },
     // ===== IVC FC =====
     { topic: "Indus Valley Civilization", front: "Mesopotamian name for IVC?", back: "Meluhha. (Magan = Oman, Dilmun = Bahrain)" },
-    { topic: "Indus Valley Civilization", front: "IVC script style?", back: "Boustrophedon â€” Right to Left, then Left to Right alternately." },
+    { topic: "Indus Valley Civilization", front: "IVC script style?", back: "Boustrophedon — Right to Left, then Left to Right alternately." },
     { topic: "Indus Valley Civilization", front: "IVC city with NO Citadel?", back: "Chanhudaro (excavated by N.G. Majumdar)." },
-    { topic: "Indus Valley Civilization", front: "IVC brick ratio?", back: "1:2:4 (Height:Width:Length) â€” perfectly standardised." },
+    { topic: "Indus Valley Civilization", front: "IVC brick ratio?", back: "1:2:4 (Height:Width:Length) — perfectly standardised." },
     { topic: "Indus Valley Civilization", front: "Greeks called cotton by what name?", back: "Sindon (derived from Sindh)." },
     { topic: "Indus Valley Civilization", front: "IVC weights made of?", back: "Chert. Binary for lower, Decimal for higher denominations." },
     { topic: "Indus Valley Civilization", front: "Canal irrigation traces at which IVC site?", back: "Shortugai, Afghanistan (northernmost IVC site)." },
     { topic: "Indus Valley Civilization", front: "Dholavira = India's UNESCO site number?", back: "40th UNESCO World Heritage Site (2021)." },
-    { topic: "Indus Valley Civilization", front: "Horse bones found at which IVC site?", back: "Surkotada (Gujarat) â€” only IVC site with horse remains." },
+    { topic: "Indus Valley Civilization", front: "Horse bones found at which IVC site?", back: "Surkotada (Gujarat) — only IVC site with horse remains." },
     // ===== VEDIC FC =====
-    { topic: "The Vedic Age", front: "Boghazkoi Inscription (Turkey) mentions which 4 Vedic gods?", back: "Indra, Varuna, Mitra, Nasatya â€” proves Aryan-West Asia contact." },
+    { topic: "The Vedic Age", front: "Boghazkoi Inscription (Turkey) mentions which 4 Vedic gods?", back: "Indra, Varuna, Mitra, Nasatya — proves Aryan-West Asia contact." },
     { topic: "The Vedic Age", front: "Vedic priests for each Veda?", back: "Hotri (Rig), Udgatri (Sama), Adhvaryu (Yajur), Brahma (Atharva)." },
-    { topic: "The Vedic Age", front: "Gayatri Mantra â€” Mandala, Rishi, Deity?", back: "3rd Mandala. Composed by Vishwamitra. Addressed to Savitri (Sun)." },
+    { topic: "The Vedic Age", front: "Gayatri Mantra — Mandala, Rishi, Deity?", back: "3rd Mandala. Composed by Vishwamitra. Addressed to Savitri (Sun)." },
     { topic: "The Vedic Age", front: "3 female sages who composed Rig Vedic hymns?", back: "Ghosha, Apala, and Viswavara." },
     { topic: "The Vedic Age", front: "Katha Upanishad contains the story of?", back: "Nachiketa and Yama (God of Death). From Yajur Veda." },
     { topic: "The Vedic Age", front: "6 Vedangas (limbs of the Vedas)?", back: "Shiksha, Chandas, Vyakarana, Nirukta, Kalpa, Jyotisha." },
@@ -3240,7 +3240,7 @@
     { topic: "Buddhism", front: "5 symbols of Buddha's life events?", back: "Lotus (Birth), Horse (Renunciation), Bodhi Tree (Enlightenment), Wheel (1st Sermon), Stupa (Death)." },
     { topic: "Buddhism", front: "Bhumisparsha Mudra means?", back: "Right hand touches earth = witness to enlightenment at Bodh Gaya." },
     { topic: "Buddhism", front: "Parts of a Stupa?", back: "Anda (dome), Harmika (railing on top), Yasti (pillar), Torana (gateway), Medhi (terrace), Vedika (outer railing)." },
-    { topic: "Buddhism", front: "4 Buddhist Councils â€” Location, Patron, President?", back: "1: Rajagriha-Ajatashatru-Mahakashyapa. 2: Vaishali-Kalashoka-Sabakami. 3: Pataliputra-Ashoka-Moggaliputta Tissa. 4: Kashmir-Kanishka-Vasumitra." },
+    { topic: "Buddhism", front: "4 Buddhist Councils — Location, Patron, President?", back: "1: Rajagriha-Ajatashatru-Mahakashyapa. 2: Vaishali-Kalashoka-Sabakami. 3: Pataliputra-Ashoka-Moggaliputta Tissa. 4: Kashmir-Kanishka-Vasumitra." },
     { topic: "Buddhism", front: "Dhammapada is part of which Pitaka and Nikaya?", back: "Khuddaka Nikaya of Sutta Pitaka. (5 Nikayas: Digha, Majjhima, Samyutta, Anguttara, Khuddaka)" },
     { topic: "Buddhism", front: "Didarganj Yakshi holds what and wears what?", back: "Holds a Chauri (flywhisk). Wears an Antari (lower garment). Finest Mauryan polished stone sculpture." },
     { topic: "Buddhism", front: "3 Sects of Buddhism?", back: "Hinayana (no idol worship), Mahayana (idol worship, Bodhisattva), Vajrayana (Tantric)." },
@@ -3256,8 +3256,8 @@
     { topic: "Mahajanapadas & Magadha Empire", front: "Only Mahajanapada south of the Vindhyas?", back: "Asmaka (on Godavari river). Capital: Pratisthan/Potana." },
     { topic: "Mahajanapadas & Magadha Empire", front: "Ajatashatru used which 2 war machines?", back: "Mahashilakantaka (catapult) and Rathmoosai (scythe chariot)." },
     { topic: "Mahajanapadas & Magadha Empire", front: "Capital of Matsya Mahajanapada?", back: "Viratnagar (modern Bairat, Rajasthan). Pandavas lived here in Agyatvas." },
-    { topic: "Mahajanapadas & Magadha Empire", front: "Vajji confederacy â€” how many clans, 2 most important?", back: "8 clans. Lichchhavi (Vaishali) and Videha (Mithila) were most important." },
-    { topic: "Mahajanapadas & Magadha Empire", front: "Last Nanda king and why hated?", back: "Dhanananda â€” hated for heavy taxation. Introduced Nandopakramani (standard measure)." },
+    { topic: "Mahajanapadas & Magadha Empire", front: "Vajji confederacy — how many clans, 2 most important?", back: "8 clans. Lichchhavi (Vaishali) and Videha (Mithila) were most important." },
+    { topic: "Mahajanapadas & Magadha Empire", front: "Last Nanda king and why hated?", back: "Dhanananda — hated for heavy taxation. Introduced Nandopakramani (standard measure)." },
     // ===== MAURYAN FC =====
     { topic: "Mauryan Empire", front: "Ashoka's name explicitly in which 4 Minor Rock Edicts?", back: "Maski, Nettur, Brahmagiri, Gujjara." },
     { topic: "Mauryan Empire", front: "Greek name for Bindusara?", back: "Amitrochates (Slayer of enemies)." },
@@ -3267,7 +3267,7 @@
     // ===== POST-MAURYAN FC =====
     { topic: "Post-Mauryan & Foreign Invasions", front: "First rulers to issue gold coins in India?", back: "Indo-Greeks (Yavanas). Most famous: Menander (Milinda)." },
     { topic: "Post-Mauryan & Foreign Invasions", front: "Gandhara vs Mathura Art?", back: "Gandhara: Grey schist, Hellenistic style. Mathura: Red sandstone, indigenous style." },
-    { topic: "Post-Mauryan & Foreign Invasions", front: "Greatest Satavahana king + title?", back: "Gautamiputra Satakarni â€” defeated Nahapana. Called 'Ekabrahman'." },
+    { topic: "Post-Mauryan & Foreign Invasions", front: "Greatest Satavahana king + title?", back: "Gautamiputra Satakarni — defeated Nahapana. Called 'Ekabrahman'." },
     { topic: "Post-Mauryan & Foreign Invasions", front: "Saka Era begins from?", back: "78 AD (Kanishka's coronation). Used as Indian National Calendar since 1957." },
     // ===== GUPTA FC =====
     { topic: "Gupta Empire", front: "Who composed Allahabad Pillar Inscription?", back: "Harishena (court poet of Samudragupta)." },
@@ -3277,10 +3277,10 @@
     { topic: "Gupta Empire", front: "Nalanda University founded by?", back: "Kumaragupta I (Mahendraditya)." },
     { topic: "Gupta Empire", front: "Varahamihira's 2 key works?", back: "Brihat Samhita + Pancha Siddhantika." },
     // ===== POST-GUPTA FC =====
-    { topic: "Harshavardhana & Sangam Age", front: "Aihole Inscription composed by whom, celebrating whom?", back: "Ravikirti â€” celebrating Chalukya Pulakeshin II's victory over Harsha (Narmada battle)." },
+    { topic: "Harshavardhana & Sangam Age", front: "Aihole Inscription composed by whom, celebrating whom?", back: "Ravikirti — celebrating Chalukya Pulakeshin II's victory over Harsha (Narmada battle)." },
     { topic: "Harshavardhana & Sangam Age", front: "Shore Temple (Mahabalipuram) built by?", back: "Rajasimha (Narasimhavarman II). Pancha Rathas = Narasimhavarman I." },
     { topic: "Harshavardhana & Sangam Age", front: "Kailasanatha Temple (Ellora, Cave 16) carved by?", back: "Krishna I (Rashtrakuta). Largest monolithic structure in the world." },
-    { topic: "Harshavardhana & Sangam Age", front: "Uttaramerur Inscription describes?", back: "Kudavolai (lottery) system for electing Chola village assemblies â€” earliest democracy in India." },
+    { topic: "Harshavardhana & Sangam Age", front: "Uttaramerur Inscription describes?", back: "Kudavolai (lottery) system for electing Chola village assemblies — earliest democracy in India." },
     { topic: "Harshavardhana & Sangam Age", front: "Chola Nataraja bronze made using?", back: "Cire Perdue (Lost-Wax) casting technique." },
     // ===== BOOKS & PHILOSOPHY FC =====
     { topic: "Ancient Books & Authors", front: "Author of Mudrarakshasa?", back: "Vishakhadatta (Sanskrit play on Chandragupta Maurya's rise)." },
@@ -3301,7 +3301,7 @@
     { topic: "Harshavardhana & Sangam Age", front: "4 Chola Variyams and their functions?", back: "Eri Variyam (tanks/irrigation), Tottavariyam (gardens), Pon Variyam (gold/finance), Nyaya Variyam (justice)." },
     { topic: "Harshavardhana & Sangam Age", front: "Chola land grants: Vellanvagai, Shalabhoga, Pallichchhandam?", back: "Vellanvagai = non-Brahman peasants. Shalabhoga = schools. Pallichchhandam = Jain community." },
     { topic: "Post-Mauryan & Foreign Invasions", front: "Which dynasty traded lead coins with the Romans?", back: "Satavahana Dynasty. Port used: Ghantasala (Andhra Pradesh)." },
-    { topic: "Chalukyas & Pallavas", front: "Which site is 'Cradle of Indian Architecture'?", back: "Pattadakal group of temples (Karnataka) â€” UNESCO World Heritage Site. 4 Nagara + 6 Dravida style temples." }
+    { topic: "Chalukyas & Pallavas", front: "Which site is 'Cradle of Indian Architecture'?", back: "Pattadakal group of temples (Karnataka) — UNESCO World Heritage Site. 4 Nagara + 6 Dravida style temples." }
     ,
     { topic: "Stone Age", front: "Neolithic site in Kashmir known for pit dwellings and dog burials?", back: "Burzahom" },
     { topic: "Stone Age", front: "Earliest known farming village in the Indian subcontinent (7000 BCE)?", back: "Mehrgarh (Balochistan)" },
@@ -3320,7 +3320,7 @@
     { topic: "Post-Mauryan & Foreign Invasions", front: "Greatest Indo-Greek ruler, famous for dialogues with monk Nagasena?", back: "Menander (Milinda)" },
     { topic: "Post-Mauryan & Foreign Invasions", front: "Founder of the Shunga dynasty?", back: "Pushyamitra Shunga (assassinated last Mauryan ruler)" },
     { topic: "Post-Mauryan & Foreign Invasions", front: "Shaka Era began in which year?", back: "78 AD" },
-    { topic: "Gupta Empire", front: "'Napoleon of India' — which Gupta ruler?", back: "Samudragupta" },
+    { topic: "Gupta Empire", front: "'Napoleon of India' � which Gupta ruler?", back: "Samudragupta" },
     { topic: "Gupta Empire", front: "Chinese pilgrim Fa-Hien visited India during the reign of?", back: "Chandragupta II (Vikramaditya)" },
     { topic: "Gupta Empire", front: "Who wrote Abhijnanashakuntalam?", back: "Kalidasa" },
     { topic: "Gupta Empire", front: "Which ancient university was founded by Kumaragupta I?", back: "Nalanda University" },

@@ -311,7 +311,7 @@ window.speakNextFatmanAudio = function() {
         preferredVoice = voices.find(v => v.lang.startsWith('en-IN'));
     }
     
-    // Tier 4: Any non-US English (British, Australian etc.) — still better than robotic US
+    // Tier 4: Any non-US English (British, Australian etc.) � still better than robotic US
     if (!preferredVoice) {
         preferredVoice = voices.find(v =>
             v.lang.includes('en-') && !v.lang.includes('en-US')
