@@ -1,16 +1,20 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>SSC CGL 2026 - Offline Prep & Speed Trainer | Kumar Ankit</title>
     <meta name="description" content="SSC CGL 2026 Offline Prep App with 4600+ PYQs across Maths, Reasoning, GK and English.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="icon-192.png">
+    <link rel="apple-touch-icon" href="icon-192.png">
+    <meta name="theme-color" content="#4f46e5">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="eduqity.css">
+    <link rel="stylesheet" href="eduqity.css?v=3">
 </head>
 <body>
     <!-- DEBUG error trap: remove after fixing -->
@@ -50,9 +54,25 @@
                     <span>NCERT GA Vault</span>
                 </button>
 
+                                <button class="nav-item" data-tab="study">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+                    <span>Study Notes</span>
+                </button>
                 <button class="nav-item" data-tab="vocab">
                     <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path><line x1="12" y1="9" x2="16" y2="9"></line><line x1="12" y1="13" x2="16" y2="13"></line><line x1="8" y1="9" x2="8.01" y2="9"></line></svg>
                     <span>Vocab Flashcards</span>
+                </button>
+                <button class="nav-item" data-tab="roots">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2L2 22h20L12 2z"></path><path d="M12 22V2"></path></svg>
+                    <span>Etymology Vault</span>
+                </button>
+                <button class="nav-item" data-tab="ows">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg>
+                    <span>One Word Subs</span>
+                </button>
+                <button class="nav-item" data-tab="affixes">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+                    <span>Prefixes / Suffixes</span>
                 </button>
 
                 <button class="nav-item" data-tab="mistakes" style="position:relative;">
@@ -67,6 +87,18 @@
                 <button class="nav-item" data-tab="reasoning">
                     <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2l3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z"></path></svg>
                     <span>Reasoning Drills</span>
+                </button>
+                <button class="nav-item" data-tab="english-drills">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+                    <span>English Drills</span>
+                </button>
+                <button class="nav-item" data-tab="grammar">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                    <span>120 Grammar Rules</span>
+                </button>
+                <button class="nav-item" data-tab="quant-drills">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="16"></line><line x1="8" y1="12" x2="16" y2="12"></line></svg>
+                    <span>Quant Target 20</span>
                 </button>
 
                 <button class="nav-item" data-tab="analytics">
@@ -106,8 +138,8 @@
             <section id="dashboard-view" class="tab-panel active">
                 <div class="welcome-banner">
                     <div class="welcome-text">
-                        <h1>Welcome back, Kumar Ankit! 👋</h1>
-                        <p>Let's make today count. Your target: 12-15 correct maths questions to secure CGL qualifying status.</p>
+                        <h1>Welcome back, Kumar Ankit! 🏆</h1>
+                        <p>AIR 1 Mode activated. Target: 23/25 in Maths, 23/25 in Reasoning, 23/25 in English. Zero tolerance for mistakes.</p>
                     </div>
                     <div class="welcome-action">
                         <button class="btn btn-accent" onclick="document.querySelector('[data-tab=trainer]').click()">Start Speed Trainer</button>
@@ -148,24 +180,6 @@
                 <!-- Main dashboard layout split -->
                 <div class="dashboard-split">
                     <!-- Study Plan Tracker -->
-                    <div class="dashboard-card plan-tracker">
-                        <div class="card-header">
-                            <h3>5-Week Study Planner Status</h3>
-                            <span class="active-week-badge" id="active-week-label">Week 1</span>
-                        </div>
-                        <div class="plan-progress">
-                            <div class="progress-info">
-                                <span id="progress-percent-label">0% Complete</span>
-                                <span id="progress-days-left">35 Days to Exam</span>
-                            </div>
-                            <div class="progress-bar-bg">
-                                <div class="progress-bar-fill" id="dashboard-progress-fill" style="width: 0%"></div>
-                            </div>
-                        </div>
-                        <div class="week-tasks-list" id="current-week-tasks">
-                            <!-- Populated dynamically via JS -->
-                        </div>
-                    </div>
 
                     <!-- Recommended Quick Action -->
                     <div class="dashboard-card recommended-card">
@@ -225,6 +239,7 @@
                         <button class="btn btn-secondary" id="filter-subject-gk" onclick="setSubjectFilter('gk')">🌍 General Knowledge</button>
                         <button class="btn btn-secondary" id="filter-subject-english" onclick="setSubjectFilter('english')">📝 English</button>
                         <button class="btn btn-secondary" id="filter-subject-all" onclick="setSubjectFilter('all')">🔀 Mixed (All)</button>
+                        <button class="btn btn-secondary" id="filter-subject-ncert" onclick="setSubjectFilter('ncert')">📚 NCERT Practice</button>
                     </div>
 
                     <div class="quiz-mode-selector">
@@ -251,13 +266,22 @@
                                     ← Quit
                                 </button>
                                 <div class="quiz-progress-indicator" style="font-weight: 600;">
-                                    Question <span id="quiz-current-num">1</span>
+                                    Question <span id="quiz-current-num">1</span> of <span id="quiz-total-num">x</span>
                                 </div>
                                 <div style="display: flex; gap: 10px;">
                                     <div class="quiz-timer" id="quiz-question-timer-display" style="background-color: rgba(245, 158, 11, 0.1); border-color: rgba(245, 158, 11, 0.2); color: var(--accent-light);" title="Time spent on this question">00:00</div>
                                     <div class="quiz-timer" id="quiz-timer-display" title="Time remaining in section" style="background-color: rgba(239, 68, 68, 0.1); border-color: rgba(239, 68, 68, 0.3); color: #ef4444; font-weight: bold;">20:00</div>
                                 </div>
                             </div>
+
+                            <!-- Section Tabs (Hidden by default, shown in Full Mock mode) -->
+                            <div id="quiz-section-tabs" style="display: none; background: #1e293b; padding: 0 10px; border-bottom: 1px solid var(--border-card); overflow-x: auto; white-space: nowrap;">
+                                <div class="section-tab active" id="tab-reasoning">General Intelligence</div>
+                                <div class="section-tab" id="tab-gk">General Awareness</div>
+                                <div class="section-tab" id="tab-maths">Quantitative Aptitude</div>
+                                <div class="section-tab" id="tab-english">English Comprehension</div>
+                            </div>
+                            
 
                             <div class="eduqity-question-area">
                                 <!-- Question Panel -->
@@ -332,7 +356,7 @@
                                 </div>
                             </div>
                             
-                            <div class="palette-section-title">Quantitative Aptitude</div>
+                            <div class="palette-section-title" id="palette-section-title">General Intelligence</div>
                             
                             <div class="question-palette-grid" id="question-palette-grid">
                                 <!-- Populated dynamically -->
@@ -420,8 +444,8 @@
                 <div id="reasoning-active-screen" class="hidden">
                     <div class="trainer-game-header">
                         <button class="btn btn-secondary btn-sm" onclick="quitReasoningDrill()">← Quit</button>
-                        <div class="trainer-score-badge">Score: <span id="reasoning-current-score">0</span>/10</div>
-                        <div class="trainer-timer-badge">Timer: <span id="reasoning-timer">05:00</span></div>
+                        <div class="trainer-score-badge">Score: <span id="reasoning-current-score">0</span>/25</div>
+                        <div class="trainer-timer-badge">Timer: <span id="reasoning-timer">15:00</span></div>
                     </div>
                     
                     <div class="trainer-drill-card" style="min-height:300px;">
@@ -437,11 +461,106 @@
                         <div class="result-illustration">🏆</div>
                         <h2>Drill Complete!</h2>
                         <div class="result-score-display">
-                            <span id="reasoning-final-score">0</span> / 10
+                            <span id="reasoning-final-score">0</span> / 25
                         </div>
+                        <p id="reasoning-result-msg" style="font-size:1rem; margin: 12px 0 20px; color: var(--text-secondary);"></p>
                         <div class="result-actions">
                             <button class="btn btn-primary" onclick="startReasoningDrill(activeReasoningMode)">Retry Mode</button>
                             <button class="btn btn-secondary" onclick="quitReasoningDrill()">Back to Menu</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- English Drills View -->
+            <section id="english-drills-view" class="tab-panel">
+                <div id="english-drills-select-screen">
+                    <div class="view-header-desc">
+                        <h3>📝 English Advanced Drills</h3>
+                        <p>Master Tier-1's hardest sections using actual 2024 & 2025 PYQs. Rapidly solve Cloze Tests and Parajumbles.</p>
+                    </div>
+                    
+                    <div class="trainer-modes-grid">
+                        <div class="trainer-mode-card" onclick="startEnglishDrill('ows')">
+                            <div class="mode-emoji">🎓</div>
+                            <h3>One Word Substitution</h3>
+                            <p>Rapid-fire drills on essential 1-word substitutes for SSC CGL.</p>
+                            <button class="btn btn-primary btn-sm">Start Drill</button>
+                        </div>
+                        <div class="trainer-mode-card" onclick="startEnglishDrill('affixes')">
+                            <div class="mode-emoji">🧩</div>
+                            <h3>Affix Vocab</h3>
+                            <p>Test your ability to guess word meanings using prefixes and suffixes.</p>
+                            <button class="btn btn-primary btn-sm">Start Drill</button>
+                        </div>
+                        <div class="trainer-mode-card" onclick="startEnglishDrill('roots')">
+                            <div class="mode-emoji">🧬</div>
+                            <h3>Root Word Vocab</h3>
+                            <p>Master complex SSC CGL vocabulary using Etymology & Root words.</p>
+                            <button class="btn btn-primary btn-sm">Start Drill</button>
+                        </div>
+                        <div class="trainer-mode-card" onclick="startEnglishDrill('spotting')">
+                            <div class="mode-emoji">🎯</div>
+                            <h3>Spot the Error</h3>
+                            <p>120 Grammar Rules applied in 200+ exclusive spot-the-error MCQs.</p>
+                            <button class="btn btn-primary btn-sm">Start Drill</button>
+                        </div>
+                        <div class="trainer-mode-card" onclick="startEnglishDrill('cloze')">
+                            <div class="mode-emoji">📖</div>
+                            <h3>Cloze Test Drill</h3>
+                            <p>Read the passage on the left, answer the blanks on the right.</p>
+                            <button class="btn btn-primary btn-sm">Start Drill</button>
+                        </div>
+                        <div class="trainer-mode-card" onclick="startEnglishDrill('pqrs')">
+                            <div class="mode-emoji">🔀</div>
+                            <h3>PQRS Parajumbles</h3>
+                            <p>Rapidly order jumbled sentences from recent tier 1 shifts.</p>
+                            <button class="btn btn-primary btn-sm">Start Drill</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Active Drill UI -->
+                <div id="english-drills-active-screen" class="hidden">
+                    <div class="trainer-game-header">
+                        <button class="btn btn-secondary btn-sm" onclick="quitEnglishDrill()">← Quit</button>
+                        <div class="trainer-score-badge">Question: <span id="english-drill-current-q">1</span></div>
+                        <div class="trainer-timer-badge">Correct: <span id="english-drill-score">0</span></div>
+                        <div class="trainer-timer-badge" style="background: rgba(245, 158, 11, 0.1); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.3);">Timer: <span id="english-drill-timer">15:00</span></div>
+                    </div>
+                    
+                    <div class="english-drill-split-layout" style="display:flex; gap:20px; align-items:flex-start; margin-top:20px;">
+                        
+                        <!-- Left Panel: Passage (Only shown for Cloze Tests) -->
+                        <div id="english-drill-passage-panel" class="hidden" style="flex:1; background:var(--bg-card); border:1px solid var(--border-card); border-radius:12px; padding:20px;">
+                            <h4 style="margin-bottom:15px; color:var(--text-primary); border-bottom:1px solid var(--border-card); padding-bottom:10px;">Comprehension Passage</h4>
+                            <div id="english-drill-passage-text" style="font-size:15px; line-height:1.6; color:var(--text-secondary); white-space:pre-wrap;"></div>
+                        </div>
+
+                        <!-- Right Panel: Question & Options -->
+                        <div style="flex:1;">
+                            <div class="trainer-drill-card" style="margin:0;">
+                                <div class="ncert-question" id="english-drill-q-text" style="font-size:1.1rem; margin-bottom:20px; font-weight:600;"></div>
+                                <div class="ncert-options" id="english-drill-options"></div>
+                                <div id="english-drill-result-banner" class="hidden" style="margin-top:14px; padding:12px 16px; border-radius:10px; font-size:1rem; font-weight:700; text-align:center;"></div>
+                                <div class="ncert-explanation hidden" id="english-drill-explanation"></div>
+                                <button class="btn btn-primary hidden" id="english-drill-next-btn" style="margin-top:15px;" onclick="nextEnglishDrillQ()">Next Question →</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Drill Results Screen -->
+                <div id="english-drills-results-screen" class="hidden">
+                    <div class="result-card">
+                        <div class="result-illustration">🏆</div>
+                        <h2>Drill Complete!</h2>
+                        <div class="result-score-display">
+                            <span id="english-drill-final-score">0</span> Correct
+                        </div>
+                        <div class="result-actions">
+                            <button class="btn btn-primary" onclick="startEnglishDrill(activeEnglishDrillMode)">Retry Mode</button>
+                            <button class="btn btn-secondary" onclick="quitEnglishDrill()">Back to Menu</button>
                         </div>
                     </div>
                 </div>
@@ -601,6 +720,86 @@
                 </div>
             </section>
 
+            <!-- Grammar Vault View -->
+            <div id="grammar-view" class="tab-panel">
+                <div class="header-actions">
+                    <div class="search-box">
+                        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                        <input type="text" id="grammar-search" placeholder="Search rules (e.g. 'Since vs For', 'Subject Verb')...">
+                    </div>
+                </div>
+
+                <div class="vocab-grid" id="grammar-container">
+                    <!-- Grammar rule cards will be generated here -->
+                </div>
+            </div>
+
+            <!-- Etymology Vault View -->
+            <div id="roots-view" class="tab-panel">
+                <div class="header-actions">
+                    <div class="search-box">
+                        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                        <input type="text" id="roots-search" placeholder="Search roots or words (e.g. 'Chron', 'Time')...">
+                    </div>
+                </div>
+
+                <div class="vocab-grid" id="roots-container">
+                    <!-- Root cards will be generated here -->
+                </div>
+            </div>
+
+            <!-- One Word Substitution View -->
+            <div id="ows-view" class="tab-panel">
+                <div class="header-actions">
+                    <div class="search-box">
+                        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                        <input type="text" id="ows-search" placeholder="Search word, meaning, or category...">
+                    </div>
+                </div>
+                
+                <!-- We will render the OWS categories here -->
+                <div id="ows-container" style="display:flex; flex-direction:column; gap:2rem;">
+                </div>
+            </div>
+
+            <!-- Affixes View -->
+            <div id="affixes-view" class="tab-panel">
+                <div class="header-actions">
+                    <div class="search-box">
+                        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                        <input type="text" id="affixes-search" placeholder="Search prefix, suffix, or meaning...">
+                    </div>
+                </div>
+                
+                <!-- We will render the Affixes categories here -->
+                <div id="affixes-container" style="display:flex; flex-direction:column; gap:2rem;">
+                </div>
+            </div>
+
+            <!-- Study Notes View -->
+            <section id="study-view" class="tab-panel">
+                <div class="view-header-desc">
+                    <h3>📚 NCERT Study Notes</h3>
+                    <p>High-yield revision flashcards and facts from Class 6–12 NCERTs.</p>
+                </div>
+                
+                <div class="ncert-filters">
+                    <div class="filter-group">
+                        <span class="filter-label">Subject:</span>
+                        <div class="pill-group" id="study-subject-pills">
+                            <button class="pill active" data-filter="study-sub" data-val="science_physics">Physics</button>
+                            <button class="pill" data-filter="study-sub" data-val="science_chemistry">Chemistry</button>
+                            <button class="pill" data-filter="study-sub" data-val="science_biology">Biology</button>
+                            <button class="pill" data-filter="study-sub" data-val="history">History</button>
+                            <button class="pill" data-filter="study-sub" data-val="geography">Geography</button>
+                            <button class="pill" data-filter="study-sub" data-val="polity">Polity</button>
+                            <button class="pill" data-filter="study-sub" data-val="economics">Economics</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="study-cards-container" class="ncert-cards-container"></div>
+            </section>
+
             <!-- Vocab Flashcard Vault -->
             <section id="vocab-view" class="tab-panel">
                 <div class="view-header-desc">
@@ -747,9 +946,6 @@
                 </div>
             </section>
 
-            </section>
-
-
             <!-- Mistake Book Tab -->
             <section id="mistakes-view" class="tab-panel">
                 <div class="mistake-book-header">
@@ -850,6 +1046,51 @@
                     </div>
                 </div>
             </section>
+            <!-- Quant Drills View -->
+            <section id="quant-drills-view" class="tab-panel">
+                <div id="quant-drills-start-screen">
+                    <div class="view-header-desc">
+                        <h3>🎯 Quant Target 20 Drills</h3>
+                        <p>Master Tier-1's highest yielding Maths topics to secure 15-20 correct answers. No complex geometry, just pure scoring topics.</p>
+                    </div>
+                    
+                    <div class="drill-modes-grid" style="grid-template-columns: 1fr;">
+                        <div class="drill-mode-card" onclick="startQuantDrill()">
+                            <div class="drill-icon">⏱️</div>
+                            <h4>Target 20 Rapid Drill</h4>
+                            <p>25 Randomized questions from Percentage, Ratio, Average, Time & Work, Algebra & more.</p>
+                            <span class="btn btn-primary" style="margin-top: 15px; display: inline-block;">Start Drill</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="quant-drills-active-screen" class="hidden">
+                    <div class="drill-header">
+                        <span id="quant-drill-progress" class="drill-progress">Question 1 of 25</span>
+                        <div id="quant-drill-milestone-tracker" class="milestone-tracker milestone-normal">
+                            <span id="quant-drill-target">0 / 20 Target Correct</span>
+                        </div>
+                        <span id="quant-drill-topic-badge" class="ncert-tag" style="background: rgba(239, 68, 68, 0.15); color: #ef4444;">MATHS</span>
+                        <div class="trainer-timer-badge" style="background: rgba(245, 158, 11, 0.1); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.3); margin-left: auto;">Timer: <span id="quant-drill-timer">15:00</span></div>
+                    </div>
+
+                    <div class="split-view">
+                        <div class="split-content" style="max-width: 800px; margin: 0 auto; width: 100%;">
+                            <div class="drill-question" id="quant-drill-q-text" style="font-size: 1.5rem; text-align: left; margin-bottom: 30px;"></div>
+                            <div class="ncert-options" id="quant-drill-options"></div>
+                            <div id="quant-drill-exp" class="drill-exp hidden" style="margin-top: 20px; font-size: 1rem; color: #a1a1aa;"></div>
+                            <button id="quant-drill-next-btn" class="btn btn-primary hidden" style="margin-top:20px; width:100%;" onclick="nextQuantDrillQuestion()">Next Question ➡️</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="quant-drills-results-screen" class="hidden" style="padding: 40px 20px; text-align: center;">
+                    <h2>🎯 Drill Complete</h2>
+                    <h1 id="quant-drills-final-score" style="font-size: 3rem; margin: 20px 0; color: var(--primary);">You scored 0 out of 25!</h1>
+                    <p id="quant-drills-analysis" style="font-size: 1.2rem; margin-bottom: 30px;"></p>
+                    <button class="btn btn-secondary" onclick="startQuantDrill()">Retry Drill</button>
+                </div>
+            </section>
         </main>
     </div>
 
@@ -857,14 +1098,68 @@
     <canvas id="confetti-canvas" style="position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:9999;display:none;"></canvas>
 
     <!-- Scripts -->
-    <script src="questions.js?v=3"></script>
+    <script src="questions.js?v=4"></script>
+    <script src="cgl2025_questions.js"></script>
+    <script>
+        // Merge the 2025 questions into the main database!
+        if (typeof CGL2025_QUESTIONS !== 'undefined') {
+            for (let i = 0; i < CGL2025_QUESTIONS.length; i++) {
+                QUESTIONS_DB.push(CGL2025_QUESTIONS[i]);
+            }
+            console.log("Merged 2025 questions! Total questions:", QUESTIONS_DB.length);
+        }
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
-    <script src="app.js?v=3"></script>
-    <script src="ncert_qs.js?v=3"></script>
+    <script src="quant_drills.js?v=1"></script>
+    <script src="grammar_rules.js"></script>
+    <script src="grammar_mcqs.js"></script>
+    <script src="grammar_ui.js"></script>
+    <script src="root_words.js"></script>
+    <script src="root_mcqs.js"></script>
+    <script src="roots_ui.js"></script>
+    <script src="ows_data.js"></script>
+    <script src="ows_mcqs.js"></script>
+    <script src="ows_ui.js"></script>
+    <script src="affixes_data.js"></script>
+    <script src="affixes_mcqs.js"></script>
+    <script src="affixes_ui.js"></script>
+    <script src="app.js?v=11"></script>
+    <script src="ncert_notes.js?v=1"></script>
+    <script src="ncert_qs.js?v=5"></script>
+    <script src="study_notes.js?v=1"></script>
     <script src="vocab_data.js?v=3"></script>
     <script src="ncert_vocab.js?v=3"></script>
     <script src="reasoning_generator.js?v=3"></script>
     <script src="enhancements.js?v=3"></script>
+    <script src="english_drills.js"></script>
+    <script src="fatman_data.js?v=2"></script>
+    <script src="history_data.js?v=5"></script>
+    <script src="medieval_data.js?v=6"></script>
+    <script src="modern_data.js?v=4"></script>
+    <script src="polity_data.js?v=4"></script>
+    <script src="current_affairs_data.js?v=5"></script>
+    <script src="fatman_ui.js?v=6"></script>
+    
+    <!-- Register Service Worker for PWA -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./sw.js')
+            .then(reg => console.log('Service Worker registered!', reg))
+            .catch(err => console.log('Service Worker registration failed: ', err));
+        });
+      }
+    </script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
