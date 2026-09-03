@@ -1,11 +1,35 @@
-const fatmanCurrentAffairs = {
-  subject: 'current_affairs',
-  topics: [
-    {
-      id: 'jan_2026',
-      title: 'January 2026',
-      notes: `<ul><li>V.S. Wakankar discovered the Bhimbetka rock caves in Madhya Pradesh (while traveling from Itarsi to Bhopal).</li><li>Alexander Carlyle discovered the first rock paintings in India at Suhagighat, UP in 1886-1887.</li><li>Justice R.M. Dere took oath as the first woman Chief Justice of the Meghalaya High Court.</li><li>Kerala Government renamed the Aralam Wildlife Sanctuary (Kannur district) to Aralam Butterfly Sanctuary.</li><li>Dugong (Sea Cow) is primarily found in the Gulf of Mannar Biosphere Reserve (Tamil Nadu) and is protected under Schedule I of the Wildlife Protection Act, 1972.</li><li>Jharkhand implemented the PESA (Panchayats Extension to Scheduled Areas) Act.</li></ul>`,
-      mcqs: [
+window.fatmanCurrentAffairs = {
+    chapter: "Current Affairs 2026",
+    notes: `
+<h2>January 2026</h2>
+<ul><li>V.S. Wakankar discovered the Bhimbetka rock caves in Madhya Pradesh (while traveling from Itarsi to Bhopal).</li><li>Alexander Carlyle discovered the first rock paintings in India at Suhagighat, UP in 1886-1887.</li><li>Justice R.M. Dere took oath as the first woman Chief Justice of the Meghalaya High Court.</li><li>Kerala Government renamed the Aralam Wildlife Sanctuary (Kannur district) to Aralam Butterfly Sanctuary.</li><li>Dugong (Sea Cow) is primarily found in the Gulf of Mannar Biosphere Reserve (Tamil Nadu) and is protected under Schedule I of the Wildlife Protection Act, 1972.</li><li>Jharkhand implemented the PESA (Panchayats Extension to Scheduled Areas) Act.</li></ul>
+<h2>February 2026</h2>
+<ul><li>The Union Budget of India is traditionally presented on February 1.</li><li>World Wetlands Day is observed globally on February 2.</li><li>World Cancer Day is marked on February 4 to raise awareness.</li><li>National Science Day is celebrated on February 28 to mark the discovery of the Raman Effect.</li><li>Surajkund International Crafts Mela is held in February in Haryana.</li><li>Kala Ghoda Arts Festival takes place in Mumbai every February.</li><li>Safer Internet Day is observed on the second day of the second week of February.</li><li>World Radio Day is celebrated on February 13.</li><li>International Mother Language Day is observed on February 21.</li><li>Central Excise Day in India is observed on February 24.</li><li>World NGO Day is recognized on February 27.</li><li>Taj Mahotsav is an annual 10-day festival held in Agra in February.</li><li>National Women's Day of India is celebrated on February 13, marking Sarojini Naidu's birth anniversary.</li><li>Arunachal Pradesh and Mizoram celebrate their Statehood Day on February 20.</li><li>World Pulses Day is recognized by the UN on February 10.</li><li>International Day of Women and Girls in Science is on February 11.</li><li>Darwin Day, celebrating Charles Darwin's birth, is on February 12.</li><li>World Day of Social Justice is observed on February 20.</li><li>World Thinking Day is celebrated by Scout and Guide organizations on February 22.</li><li>Rare Disease Day is observed on the last day of February.</li></ul>
+<h2>March 2026</h2>
+<ul><li>Waiting for processing...</li></ul>
+<h2>April 2026</h2>
+<ul><li>File apr.txt could not be read due to permission timeout.</li><li>Placeholder fact 1 for SSC CGL.</li><li>Placeholder fact 2 for SSC CGL.</li></ul>
+<h2>May 2026</h2>
+
+<ul>
+    <li>Uttar Pradesh has the highest crime rate in India, while Nagaland has the lowest.</li>
+    <li>TERI published 'India's Nuclear Energy Vision', targeting 100 GW nuclear capacity by 2047 and Net Zero emissions by 2070.</li>
+    <li>NISAR (NASA-ISRO Synthetic Aperture Radar) features dual bands (S and L band).</li>
+    <li>New Delhi hosted the 68th session of the Asian Productivity Organization (APO). APO is headquartered in Tokyo, Japan.</li>
+    <li>The Ministry of Ayush launched the 'Ayush Anudan' portal.</li>
+    <li>The Ministry of Social Justice and Empowerment launched 'Jeevan' and 'Shatayu' mobile applications for elderly citizens.</li>
+    <li>India's first Multi-Lane Free Flow (MLFF) barrier-less tolling system was introduced at the Surat-Bharuch section of NH-48.</li>
+    <li>ICMR and ICAR jointly launched SEHAT (Science Excellence for Health through Agricultural Transformation).</li>
+    <li>India leads the International Big Cat Alliance (IBCA) with its headquarters in New Delhi, focusing on conserving seven big cats.</li>
+    <li>Asiatic Lion Conservation program is focused in Gir, Gujarat.</li>
+    <li>Cheetah Conservation activities are concentrated in Madhya Pradesh (e.g., Bhopal, Kuno National Park).</li>
+</ul>
+
+<h2>June 2026</h2>
+<ul><li>Waiting for processing...</li></ul>
+<h2>July 2026</h2>
+<ul><li>Waiting for processing...</li></ul>`,
+    mcqs: [
     {
         "id": "jan_1",
         "subject": "current_affairs",
@@ -33,26 +57,7 @@ const fatmanCurrentAffairs = {
         ],
         "correct": 1,
         "explanation": "Justice R.M. Dere took oath as the first woman Chief Justice of the Meghalaya High Court on 10th January 2026."
-    }
-],
-      flashcards: [
-    {
-        "topic": "January 2026",
-        "front": "Which state renamed Aralam Wildlife Sanctuary to Aralam Butterfly Sanctuary?",
-        "back": "Kerala (Kannur District)"
     },
-    {
-        "topic": "January 2026",
-        "front": "Who discovered the Bhimbetka rock caves?",
-        "back": "V.S. Wakankar (1957)"
-    }
-]
-    },
-    {
-      id: 'feb_2026',
-      title: 'February 2026',
-      notes: `<ul><li>The Union Budget of India is traditionally presented on February 1.</li><li>World Wetlands Day is observed globally on February 2.</li><li>World Cancer Day is marked on February 4 to raise awareness.</li><li>National Science Day is celebrated on February 28 to mark the discovery of the Raman Effect.</li><li>Surajkund International Crafts Mela is held in February in Haryana.</li><li>Kala Ghoda Arts Festival takes place in Mumbai every February.</li><li>Safer Internet Day is observed on the second day of the second week of February.</li><li>World Radio Day is celebrated on February 13.</li><li>International Mother Language Day is observed on February 21.</li><li>Central Excise Day in India is observed on February 24.</li><li>World NGO Day is recognized on February 27.</li><li>Taj Mahotsav is an annual 10-day festival held in Agra in February.</li><li>National Women's Day of India is celebrated on February 13, marking Sarojini Naidu's birth anniversary.</li><li>Arunachal Pradesh and Mizoram celebrate their Statehood Day on February 20.</li><li>World Pulses Day is recognized by the UN on February 10.</li><li>International Day of Women and Girls in Science is on February 11.</li><li>Darwin Day, celebrating Charles Darwin's birth, is on February 12.</li><li>World Day of Social Justice is observed on February 20.</li><li>World Thinking Day is celebrated by Scout and Guide organizations on February 22.</li><li>Rare Disease Day is observed on the last day of February.</li></ul>`,
-      mcqs: [
     {
         "question": "When is the Union Budget typically presented in India?",
         "options": [
@@ -252,103 +257,7 @@ const fatmanCurrentAffairs = {
             "Feb 27"
         ],
         "answer": "Feb 27"
-    }
-],
-      flashcards: [
-    {
-        "front": "Union Budget of India Date",
-        "back": "February 1"
     },
-    {
-        "front": "World Wetlands Day",
-        "back": "February 2"
-    },
-    {
-        "front": "World Cancer Day",
-        "back": "February 4"
-    },
-    {
-        "front": "National Science Day",
-        "back": "February 28"
-    },
-    {
-        "front": "National Science Day commemorates",
-        "back": "Discovery of the Raman Effect"
-    },
-    {
-        "front": "Surajkund International Crafts Mela Location",
-        "back": "Haryana"
-    },
-    {
-        "front": "Kala Ghoda Arts Festival Location",
-        "back": "Mumbai"
-    },
-    {
-        "front": "World Radio Day",
-        "back": "February 13"
-    },
-    {
-        "front": "International Mother Language Day",
-        "back": "February 21"
-    },
-    {
-        "front": "Central Excise Day (India)",
-        "back": "February 24"
-    },
-    {
-        "front": "Taj Mahotsav Location",
-        "back": "Agra"
-    },
-    {
-        "front": "National Women's Day (India)",
-        "back": "February 13"
-    },
-    {
-        "front": "National Women's Day honors",
-        "back": "Sarojini Naidu's birth anniversary"
-    },
-    {
-        "front": "Statehood Day of Arunachal Pradesh & Mizoram",
-        "back": "February 20"
-    },
-    {
-        "front": "World Pulses Day",
-        "back": "February 10"
-    },
-    {
-        "front": "International Day of Women and Girls in Science",
-        "back": "February 11"
-    },
-    {
-        "front": "Darwin Day",
-        "back": "February 12"
-    },
-    {
-        "front": "World Day of Social Justice",
-        "back": "February 20"
-    },
-    {
-        "front": "World Thinking Day",
-        "back": "February 22"
-    },
-    {
-        "front": "Rare Disease Day",
-        "back": "Last day of February"
-    }
-]
-    },
-    {
-      id: 'mar_2026',
-      title: 'March 2026',
-      notes: `<ul><li>Waiting for processing...</li></ul>`,
-      mcqs: [],
-      flashcards: []
-    },
-    {
-      id: 'apr_2026',
-      title: 'April 2026',
-      notes: `<ul><li>File apr.txt could not be read due to permission timeout.</li><li>Placeholder fact 1 for SSC CGL.</li><li>Placeholder fact 2 for SSC CGL.</li></ul>`,
-      mcqs: [
     {
         "question": "Which of the following could not be read?",
         "options": [
@@ -548,110 +457,7 @@ const fatmanCurrentAffairs = {
             "D"
         ],
         "answer": "A"
-    }
-],
-      flashcards: [
-    {
-        "front": "File unreadable",
-        "back": "apr.txt"
     },
-    {
-        "front": "F2",
-        "back": "B2"
-    },
-    {
-        "front": "F3",
-        "back": "B3"
-    },
-    {
-        "front": "F4",
-        "back": "B4"
-    },
-    {
-        "front": "F5",
-        "back": "B5"
-    },
-    {
-        "front": "F6",
-        "back": "B6"
-    },
-    {
-        "front": "F7",
-        "back": "B7"
-    },
-    {
-        "front": "F8",
-        "back": "B8"
-    },
-    {
-        "front": "F9",
-        "back": "B9"
-    },
-    {
-        "front": "F10",
-        "back": "B10"
-    },
-    {
-        "front": "F11",
-        "back": "B11"
-    },
-    {
-        "front": "F12",
-        "back": "B12"
-    },
-    {
-        "front": "F13",
-        "back": "B13"
-    },
-    {
-        "front": "F14",
-        "back": "B14"
-    },
-    {
-        "front": "F15",
-        "back": "B15"
-    },
-    {
-        "front": "F16",
-        "back": "B16"
-    },
-    {
-        "front": "F17",
-        "back": "B17"
-    },
-    {
-        "front": "F18",
-        "back": "B18"
-    },
-    {
-        "front": "F19",
-        "back": "B19"
-    },
-    {
-        "front": "F20",
-        "back": "B20"
-    }
-]
-    },
-    {
-      id: 'may_2026',
-      title: 'May 2026',
-      notes: `
-<ul>
-    <li>Uttar Pradesh has the highest crime rate in India, while Nagaland has the lowest.</li>
-    <li>TERI published 'India's Nuclear Energy Vision', targeting 100 GW nuclear capacity by 2047 and Net Zero emissions by 2070.</li>
-    <li>NISAR (NASA-ISRO Synthetic Aperture Radar) features dual bands (S and L band).</li>
-    <li>New Delhi hosted the 68th session of the Asian Productivity Organization (APO). APO is headquartered in Tokyo, Japan.</li>
-    <li>The Ministry of Ayush launched the 'Ayush Anudan' portal.</li>
-    <li>The Ministry of Social Justice and Empowerment launched 'Jeevan' and 'Shatayu' mobile applications for elderly citizens.</li>
-    <li>India's first Multi-Lane Free Flow (MLFF) barrier-less tolling system was introduced at the Surat-Bharuch section of NH-48.</li>
-    <li>ICMR and ICAR jointly launched SEHAT (Science Excellence for Health through Agricultural Transformation).</li>
-    <li>India leads the International Big Cat Alliance (IBCA) with its headquarters in New Delhi, focusing on conserving seven big cats.</li>
-    <li>Asiatic Lion Conservation program is focused in Gir, Gujarat.</li>
-    <li>Cheetah Conservation activities are concentrated in Madhya Pradesh (e.g., Bhopal, Kuno National Park).</li>
-</ul>
-`,
-      mcqs: [
     {
         "question": "Which state recorded the highest crime rate according to recent reports?",
         "options": [
@@ -873,7 +679,177 @@ const fatmanCurrentAffairs = {
         "explanation": "Explanation for the answer."
     }
 ],
-      flashcards: [
+    flashcards: [
+    {
+        "topic": "January 2026",
+        "front": "Which state renamed Aralam Wildlife Sanctuary to Aralam Butterfly Sanctuary?",
+        "back": "Kerala (Kannur District)"
+    },
+    {
+        "topic": "January 2026",
+        "front": "Who discovered the Bhimbetka rock caves?",
+        "back": "V.S. Wakankar (1957)"
+    },
+    {
+        "front": "Union Budget of India Date",
+        "back": "February 1"
+    },
+    {
+        "front": "World Wetlands Day",
+        "back": "February 2"
+    },
+    {
+        "front": "World Cancer Day",
+        "back": "February 4"
+    },
+    {
+        "front": "National Science Day",
+        "back": "February 28"
+    },
+    {
+        "front": "National Science Day commemorates",
+        "back": "Discovery of the Raman Effect"
+    },
+    {
+        "front": "Surajkund International Crafts Mela Location",
+        "back": "Haryana"
+    },
+    {
+        "front": "Kala Ghoda Arts Festival Location",
+        "back": "Mumbai"
+    },
+    {
+        "front": "World Radio Day",
+        "back": "February 13"
+    },
+    {
+        "front": "International Mother Language Day",
+        "back": "February 21"
+    },
+    {
+        "front": "Central Excise Day (India)",
+        "back": "February 24"
+    },
+    {
+        "front": "Taj Mahotsav Location",
+        "back": "Agra"
+    },
+    {
+        "front": "National Women's Day (India)",
+        "back": "February 13"
+    },
+    {
+        "front": "National Women's Day honors",
+        "back": "Sarojini Naidu's birth anniversary"
+    },
+    {
+        "front": "Statehood Day of Arunachal Pradesh & Mizoram",
+        "back": "February 20"
+    },
+    {
+        "front": "World Pulses Day",
+        "back": "February 10"
+    },
+    {
+        "front": "International Day of Women and Girls in Science",
+        "back": "February 11"
+    },
+    {
+        "front": "Darwin Day",
+        "back": "February 12"
+    },
+    {
+        "front": "World Day of Social Justice",
+        "back": "February 20"
+    },
+    {
+        "front": "World Thinking Day",
+        "back": "February 22"
+    },
+    {
+        "front": "Rare Disease Day",
+        "back": "Last day of February"
+    },
+    {
+        "front": "File unreadable",
+        "back": "apr.txt"
+    },
+    {
+        "front": "F2",
+        "back": "B2"
+    },
+    {
+        "front": "F3",
+        "back": "B3"
+    },
+    {
+        "front": "F4",
+        "back": "B4"
+    },
+    {
+        "front": "F5",
+        "back": "B5"
+    },
+    {
+        "front": "F6",
+        "back": "B6"
+    },
+    {
+        "front": "F7",
+        "back": "B7"
+    },
+    {
+        "front": "F8",
+        "back": "B8"
+    },
+    {
+        "front": "F9",
+        "back": "B9"
+    },
+    {
+        "front": "F10",
+        "back": "B10"
+    },
+    {
+        "front": "F11",
+        "back": "B11"
+    },
+    {
+        "front": "F12",
+        "back": "B12"
+    },
+    {
+        "front": "F13",
+        "back": "B13"
+    },
+    {
+        "front": "F14",
+        "back": "B14"
+    },
+    {
+        "front": "F15",
+        "back": "B15"
+    },
+    {
+        "front": "F16",
+        "back": "B16"
+    },
+    {
+        "front": "F17",
+        "back": "B17"
+    },
+    {
+        "front": "F18",
+        "back": "B18"
+    },
+    {
+        "front": "F19",
+        "back": "B19"
+    },
+    {
+        "front": "F20",
+        "back": "B20"
+    },
     {
         "front": "Which state has the lowest crime rate?",
         "back": "Nagaland"
@@ -955,24 +931,4 @@ const fatmanCurrentAffairs = {
         "back": "Flashcard Answer 20"
     }
 ]
-    },
-    {
-      id: 'jun_2026',
-      title: 'June 2026',
-      notes: `<ul><li>Waiting for processing...</li></ul>`,
-      mcqs: [],
-      flashcards: []
-    },
-    {
-      id: 'jul_2026',
-      title: 'July 2026',
-      notes: `<ul><li>Waiting for processing...</li></ul>`,
-      mcqs: [],
-      flashcards: []
-    },
-  ]
 };
-
-if (typeof window !== 'undefined') {
-    window.fatmanCurrentAffairs = fatmanCurrentAffairs;
-}
