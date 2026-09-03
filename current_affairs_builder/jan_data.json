@@ -1,0 +1,45 @@
+{
+  "notes": "<ul><li>V.S. Wakankar discovered the Bhimbetka rock caves in Madhya Pradesh (while traveling from Itarsi to Bhopal).</li><li>Alexander Carlyle discovered the first rock paintings in India at Suhagighat, UP in 1886-1887.</li><li>Justice R.M. Dere took oath as the first woman Chief Justice of the Meghalaya High Court.</li><li>Kerala Government renamed the Aralam Wildlife Sanctuary (Kannur district) to Aralam Butterfly Sanctuary.</li><li>Dugong (Sea Cow) is primarily found in the Gulf of Mannar Biosphere Reserve (Tamil Nadu) and is protected under Schedule I of the Wildlife Protection Act, 1972.</li><li>Jharkhand implemented the PESA (Panchayats Extension to Scheduled Areas) Act.</li></ul>",
+  "mcqs": [
+    {
+      "id": "jan_1",
+      "subject": "current_affairs",
+      "topic": "January 2026",
+      "question": "Who discovered the first rock paintings in India at Suhagighat, UP?",
+      "options": [
+        "V.S. Wakankar",
+        "Alexander Carlyle",
+        "Dayaram Sahni",
+        "R.D. Banerji"
+      ],
+      "correct": 1,
+      "explanation": "Alexander Carlyle discovered the first rock paintings in India at Suhagighat, UP in 1886-1887."
+    },
+    {
+      "id": "jan_2",
+      "subject": "current_affairs",
+      "topic": "January 2026",
+      "question": "Who was appointed as the first woman Chief Justice of the Meghalaya High Court?",
+      "options": [
+        "Justice Hima Kohli",
+        "Justice R.M. Dere",
+        "Justice B.V. Nagarathna",
+        "Justice Ritu Bahri"
+      ],
+      "correct": 1,
+      "explanation": "Justice R.M. Dere took oath as the first woman Chief Justice of the Meghalaya High Court on 10th January 2026."
+    }
+  ],
+  "flashcards": [
+    {
+      "topic": "January 2026",
+      "front": "Which state renamed Aralam Wildlife Sanctuary to Aralam Butterfly Sanctuary?",
+      "back": "Kerala (Kannur District)"
+    },
+    {
+      "topic": "January 2026",
+      "front": "Who discovered the Bhimbetka rock caves?",
+      "back": "V.S. Wakankar (1957)"
+    }
+  ]
+}

@@ -77,7 +77,7 @@ if ('speechSynthesis' in window) {
             <option value="medieval">Medieval History</option>
             <option value="modern">Modern History</option>
             <option value="polity">Polity</option>
-            <option value="current_affairs">Current Affairs (July 2026)</option>
+            <option value="current_affairs">Current Affairs</option>
         </select>
     </div>
     <button id="fatman-close" style="background:none; border:none; color:white; font-size:24px; cursor:pointer;">&times;</button>

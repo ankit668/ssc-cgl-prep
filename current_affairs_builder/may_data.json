@@ -1,0 +1,307 @@
+{
+    "notes": "\n<ul>\n    <li>Uttar Pradesh has the highest crime rate in India, while Nagaland has the lowest.</li>\n    <li>TERI published 'India's Nuclear Energy Vision', targeting 100 GW nuclear capacity by 2047 and Net Zero emissions by 2070.</li>\n    <li>NISAR (NASA-ISRO Synthetic Aperture Radar) features dual bands (S and L band).</li>\n    <li>New Delhi hosted the 68th session of the Asian Productivity Organization (APO). APO is headquartered in Tokyo, Japan.</li>\n    <li>The Ministry of Ayush launched the 'Ayush Anudan' portal.</li>\n    <li>The Ministry of Social Justice and Empowerment launched 'Jeevan' and 'Shatayu' mobile applications for elderly citizens.</li>\n    <li>India's first Multi-Lane Free Flow (MLFF) barrier-less tolling system was introduced at the Surat-Bharuch section of NH-48.</li>\n    <li>ICMR and ICAR jointly launched SEHAT (Science Excellence for Health through Agricultural Transformation).</li>\n    <li>India leads the International Big Cat Alliance (IBCA) with its headquarters in New Delhi, focusing on conserving seven big cats.</li>\n    <li>Asiatic Lion Conservation program is focused in Gir, Gujarat.</li>\n    <li>Cheetah Conservation activities are concentrated in Madhya Pradesh (e.g., Bhopal, Kuno National Park).</li>\n</ul>\n",
+    "mcqs": [
+        {
+            "question": "Which state recorded the highest crime rate according to recent reports?",
+            "options": [
+                "Uttar Pradesh",
+                "Nagaland",
+                "Bihar",
+                "Maharashtra"
+            ],
+            "answer": "Uttar Pradesh",
+            "explanation": "UP has the highest crime rate, while Nagaland is the lowest."
+        },
+        {
+            "question": "What is India\u2019s target for nuclear capacity by 2047 as per TERI\u2019s report?",
+            "options": [
+                "50 GW",
+                "75 GW",
+                "100 GW",
+                "150 GW"
+            ],
+            "answer": "100 GW",
+            "explanation": "The target is 100 GW by 2047, supporting the Net Zero goal by 2070."
+        },
+        {
+            "question": "Which two space agencies collaborated for the NISAR satellite?",
+            "options": [
+                "ISRO and ESA",
+                "ISRO and JAXA",
+                "NASA and ISRO",
+                "NASA and Roscosmos"
+            ],
+            "answer": "NASA and ISRO",
+            "explanation": "NISAR stands for NASA-ISRO Synthetic Aperture Radar."
+        },
+        {
+            "question": "Where is the headquarters of the Asian Productivity Organization (APO)?",
+            "options": [
+                "New Delhi",
+                "Tokyo",
+                "Beijing",
+                "Seoul"
+            ],
+            "answer": "Tokyo",
+            "explanation": "The APO was established in 1961 with its HQ in Tokyo, Japan."
+        },
+        {
+            "question": "Which ministry launched the Jeevan and Shatayu apps?",
+            "options": [
+                "Ministry of Health",
+                "Ministry of Social Justice and Empowerment",
+                "Ministry of Ayush",
+                "Ministry of Home Affairs"
+            ],
+            "answer": "Ministry of Social Justice and Empowerment",
+            "explanation": "These apps were launched for the welfare of elderly citizens."
+        },
+        {
+            "question": "Where was India\u2019s first barrier-less tolling system (MLFF) implemented?",
+            "options": [
+                "Delhi-Meerut Expressway",
+                "Mumbai-Pune Expressway",
+                "Surat-Bharuch section of NH-48",
+                "Bengaluru-Mysuru Expressway"
+            ],
+            "answer": "Surat-Bharuch section of NH-48",
+            "explanation": "It is India\u2019s first multi-lane free flow barrier-less tolling."
+        },
+        {
+            "question": "SEHAT program was launched jointly by ICMR and which other organization?",
+            "options": [
+                "DRDO",
+                "CSIR",
+                "ICAR",
+                "NITI Aayog"
+            ],
+            "answer": "ICAR",
+            "explanation": "ICMR and ICAR launched SEHAT (Science Excellence for Health through Agricultural Transformation)."
+        },
+        {
+            "question": "Where is the headquarters of the International Big Cat Alliance (IBCA) located?",
+            "options": [
+                "Nairobi",
+                "New Delhi",
+                "Johannesburg",
+                "London"
+            ],
+            "answer": "New Delhi",
+            "explanation": "India spearheaded the IBCA, with its headquarters in New Delhi."
+        },
+        {
+            "question": "Sample MCQ 9 related to May Current Affairs?",
+            "options": [
+                "Option A",
+                "Option B",
+                "Option C",
+                "Option D"
+            ],
+            "answer": "Option A",
+            "explanation": "Explanation for the answer."
+        },
+        {
+            "question": "Sample MCQ 10 related to May Current Affairs?",
+            "options": [
+                "Option A",
+                "Option B",
+                "Option C",
+                "Option D"
+            ],
+            "answer": "Option A",
+            "explanation": "Explanation for the answer."
+        },
+        {
+            "question": "Sample MCQ 11 related to May Current Affairs?",
+            "options": [
+                "Option A",
+                "Option B",
+                "Option C",
+                "Option D"
+            ],
+            "answer": "Option A",
+            "explanation": "Explanation for the answer."
+        },
+        {
+            "question": "Sample MCQ 12 related to May Current Affairs?",
+            "options": [
+                "Option A",
+                "Option B",
+                "Option C",
+                "Option D"
+            ],
+            "answer": "Option A",
+            "explanation": "Explanation for the answer."
+        },
+        {
+            "question": "Sample MCQ 13 related to May Current Affairs?",
+            "options": [
+                "Option A",
+                "Option B",
+                "Option C",
+                "Option D"
+            ],
+            "answer": "Option A",
+            "explanation": "Explanation for the answer."
+        },
+        {
+            "question": "Sample MCQ 14 related to May Current Affairs?",
+            "options": [
+                "Option A",
+                "Option B",
+                "Option C",
+                "Option D"
+            ],
+            "answer": "Option A",
+            "explanation": "Explanation for the answer."
+        },
+        {
+            "question": "Sample MCQ 15 related to May Current Affairs?",
+            "options": [
+                "Option A",
+                "Option B",
+                "Option C",
+                "Option D"
+            ],
+            "answer": "Option A",
+            "explanation": "Explanation for the answer."
+        },
+        {
+            "question": "Sample MCQ 16 related to May Current Affairs?",
+            "options": [
+                "Option A",
+                "Option B",
+                "Option C",
+                "Option D"
+            ],
+            "answer": "Option A",
+            "explanation": "Explanation for the answer."
+        },
+        {
+            "question": "Sample MCQ 17 related to May Current Affairs?",
+            "options": [
+                "Option A",
+                "Option B",
+                "Option C",
+                "Option D"
+            ],
+            "answer": "Option A",
+            "explanation": "Explanation for the answer."
+        },
+        {
+            "question": "Sample MCQ 18 related to May Current Affairs?",
+            "options": [
+                "Option A",
+                "Option B",
+                "Option C",
+                "Option D"
+            ],
+            "answer": "Option A",
+            "explanation": "Explanation for the answer."
+        },
+        {
+            "question": "Sample MCQ 19 related to May Current Affairs?",
+            "options": [
+                "Option A",
+                "Option B",
+                "Option C",
+                "Option D"
+            ],
+            "answer": "Option A",
+            "explanation": "Explanation for the answer."
+        },
+        {
+            "question": "Sample MCQ 20 related to May Current Affairs?",
+            "options": [
+                "Option A",
+                "Option B",
+                "Option C",
+                "Option D"
+            ],
+            "answer": "Option A",
+            "explanation": "Explanation for the answer."
+        }
+    ],
+    "flashcards": [
+        {
+            "front": "Which state has the lowest crime rate?",
+            "back": "Nagaland"
+        },
+        {
+            "front": "What is India\u2019s Net Zero emissions target year?",
+            "back": "2070"
+        },
+        {
+            "front": "What bands does the NISAR satellite use?",
+            "back": "S-band and L-band"
+        },
+        {
+            "front": "Which city hosted the 68th session of the APO?",
+            "back": "New Delhi"
+        },
+        {
+            "front": "What is the full form of MLFF in tolling?",
+            "back": "Multi-Lane Free Flow"
+        },
+        {
+            "front": "Which portal was launched by the Ministry of Ayush?",
+            "back": "Ayush Anudan"
+        },
+        {
+            "front": "Who launched the SEHAT initiative?",
+            "back": "ICMR and ICAR"
+        },
+        {
+            "front": "How many species of big cats are protected under IBCA?",
+            "back": "Seven (7)"
+        },
+        {
+            "front": "Where is the Asiatic Lion Conservation program focused?",
+            "back": "Gir, Gujarat"
+        },
+        {
+            "front": "Where are cheetahs being reintroduced and conserved in India?",
+            "back": "Madhya Pradesh (Kuno, Bhopal)"
+        },
+        {
+            "front": "Flashcard Question 11?",
+            "back": "Flashcard Answer 11"
+        },
+        {
+            "front": "Flashcard Question 12?",
+            "back": "Flashcard Answer 12"
+        },
+        {
+            "front": "Flashcard Question 13?",
+            "back": "Flashcard Answer 13"
+        },
+        {
+            "front": "Flashcard Question 14?",
+            "back": "Flashcard Answer 14"
+        },
+        {
+            "front": "Flashcard Question 15?",
+            "back": "Flashcard Answer 15"
+        },
+        {
+            "front": "Flashcard Question 16?",
+            "back": "Flashcard Answer 16"
+        },
+        {
+            "front": "Flashcard Question 17?",
+            "back": "Flashcard Answer 17"
+        },
+        {
+            "front": "Flashcard Question 18?",
+            "back": "Flashcard Answer 18"
+        },
+        {
+            "front": "Flashcard Question 19?",
+            "back": "Flashcard Answer 19"
+        },
+        {
+            "front": "Flashcard Question 20?",
+            "back": "Flashcard Answer 20"
+        }
+    ]
+}
