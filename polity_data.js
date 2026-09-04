@@ -2019,6 +2019,1718 @@ window.polityData = { chapter: "Polity Complete", notes: `
 
 `,
  mcqs: [
-{ id: 'pol_1', subject: 'polity', topic: 'Making of the Constitution', question: 'Who first proposed the idea of a Constituent Assembly for India in 1934?', options: ['Mahatma Gandhi', 'Jawaharlal Nehru', 'M. N. Roy', 'B. R. Ambedkar'], correct: 2, explanation: 'M. N. Roy first proposed the idea of a Constituent Assembly for India in 1934.' }, { id: 'pol_2', subject: 'polity', topic: 'Making of the Constitution', question: 'Which plan was accepted by both the Congress and the Muslim League for forming the Constituent Assembly?', options: ['August Offer', 'Wavell Plan', 'Cripps Proposal', 'Cabinet Mission Plan'], correct: 3, explanation: 'Only the Cabinet Mission Plan (1946) was accepted by both the Congress and the Muslim League.' }, { id: 'pol_3', subject: 'polity', topic: 'Making of the Constitution', question: 'When was the Objective Resolution moved by Jawaharlal Nehru in the Constituent Assembly?', options: ['9 December 1946', '13 December 1946', '22 January 1947', '26 November 1949'], correct: 1, explanation: 'The Objective Resolution was moved by Jawaharlal Nehru on 13 December 1946 and adopted on 22 January 1947.' }, { id: 'pol_4', subject: 'polity', topic: 'Making of the Constitution', question: 'Who was the calligrapher of the English version of the Indian Constitution?', options: ['Nand Lal Bose', 'Prem Bihari Narain Raizada', 'Vasant Krishan Vaidya', 'Beohar Rammanohar Sinha'], correct: 1, explanation: 'Prem Bihari Narain Raizada was the calligrapher of the English version of the Constitution.' }, { id: 'pol_5', subject: 'polity', topic: 'Making of the Constitution', question: 'How much time did it take to draft the Indian Constitution?', options: ['2 years, 11 months, 18 days', '3 years, 1 month, 15 days', '2 years, 9 months, 12 days', '1 year, 11 months, 18 days'], correct: 0, explanation: 'It took exactly 2 years, 11 months, and 18 days to draft the Constitution.' }, { id: 'pol_6', subject: 'polity', topic: 'Making of the Constitution', question: 'On which date was the National Flag of India adopted?', options: ['15 August 1947', '26 January 1950', '22 July 1947', '24 January 1950'], correct: 2, explanation: 'The National Flag was adopted on 22 July 1947.' }, { id: 'pol_7', subject: 'polity', topic: 'Making of the Constitution', question: 'Who was the Chairman of the Drafting Committee?', options: ['Dr. Rajendra Prasad', 'Jawaharlal Nehru', 'Sardar Patel', 'Dr. B. R. Ambedkar'], correct: 3, explanation: 'Dr. B. R. Ambedkar was the Chairman of the Drafting Committee set up on 29th August 1947.' }, { id: 'pol_8', subject: 'polity', topic: 'Making of the Constitution', question: 'Originally, how many Articles and Schedules did the Indian Constitution contain?', options: ['395 Articles, 8 Schedules', '448 Articles, 12 Schedules', '395 Articles, 10 Schedules', '390 Articles, 8 Schedules'], correct: 0, explanation: 'Originally, the Constitution consisted of 395 Articles, 8 Schedules, 22 Parts and a <strong>Preamble</strong>.' },{ id: 'pol_9', subject: 'polity', topic: 'Salient Features of the Constitution', question: 'Which schedule of the Indian Constitution contains the anti-defection law?', options: ['<strong>8th Schedule</strong>', '<strong>9th Schedule</strong>', '<strong>10th Schedule</strong>', '<strong>11th Schedule</strong>'], correct: 2, explanation: 'The <strong>10th Schedule</strong> contains provisions relating to disqualification of MPs and MLAs on grounds of defection. It was added by the <strong>52nd Amendment</strong> in 1985.' }, { id: 'pol_10', subject: 'polity', topic: 'Salient Features of the Constitution', question: 'Which states are covered under the <strong>6th Schedule</strong> of the Indian Constitution?', options: ['Assam, Meghalaya, Tripura, Mizoram', 'Assam, Manipur, Tripura, Meghalaya', 'Arunachal Pradesh, Assam, Meghalaya, Nagaland', 'Assam, Sikkim, Tripura, Mizoram'], correct: 0, explanation: 'The <strong>6th Schedule</strong> covers the tribal areas of Assam, Meghalaya, Tripura, and Mizoram (Trick: ATM without Money - Manipur is not included).' }, { id: 'pol_11', subject: 'polity', topic: 'Salient Features of the Constitution', question: 'Who described the Indian Constitution as \'Quasi-Federal\'?', options: ['Granville Austin', 'Ivor Jennings', 'Morris Jones', 'K.C. Wheare'], correct: 3, explanation: 'K.C. Wheare described the Indian Constitution as Quasi-Federal.' }, { id: 'pol_12', subject: 'polity', topic: 'Salient Features of the Constitution', question: 'Which amendment added the <strong>9th Schedule</strong> to the Indian Constitution?', options: ['<strong>1st Amendment</strong>', '<strong>42nd Amendment</strong>', '<strong>44th Amendment</strong>', '<strong>52nd Amendment</strong>'], correct: 0, explanation: 'The <strong>9th Schedule</strong>, related to land reforms, was added by the 1st Constitutional Amendment in 1951.' }, { id: 'pol_13', subject: 'polity', topic: 'Salient Features of the Constitution', question: 'How many subjects are present in the Concurrent List currently?', options: ['47', '52', '61', '100'], correct: 1, explanation: 'The Concurrent List initially had 47 subjects, but presently it contains 52 subjects.' }, { id: 'pol_14', subject: 'polity', topic: 'Salient Features of the Constitution', question: 'The Parliamentary form of Government in India is borrowed from which country?', options: ['USA', 'USSR', 'UK', 'Australia'], correct: 2, explanation: 'India borrowed the Parliamentary form of Government from the United Kingdom (UK).' }, { id: 'pol_15', subject: 'polity', topic: 'Salient Features of the Constitution', question: 'Which schedule allocates seats in the Rajya Sabha to the States and Union Territories?', options: ['<strong>2nd Schedule</strong>', '<strong>3rd Schedule</strong>', '<strong>4th Schedule</strong>', '<strong>5th Schedule</strong>'], correct: 2, explanation: 'The <strong>4th Schedule</strong> contains provisions for the allocation of seats in the Rajya Sabha.' }, { id: 'pol_16', subject: 'polity', topic: 'Salient Features of the Constitution', question: 'What does the <strong>11th Schedule</strong> of the Indian Constitution deal with?', options: ['Municipalities', 'Panchayats', 'Languages', 'Land Reforms'], correct: 1, explanation: 'The <strong>11th Schedule</strong> deals with Panchayats and was added by the <strong>73rd Amendment</strong> in 1992. It contains 29 functional items.' },{ id: 'pol_17', subject: 'polity', topic: '<strong>Preamble</strong>', question: 'Which words were added to the <strong>Preamble</strong> by the 42nd Constitutional Amendment in 1976?', options: ['Sovereign, Socialist, Secular', 'Socialist, Secular, Integrity', 'Liberty, Equality, Fraternity', 'Justice, Liberty, Equality'], correct: 1, explanation: 'The <strong>42nd Amendment</strong> added \'Socialist\', \'Secular\', and \'Integrity\' to the <strong>Preamble</strong>.' }, { id: 'pol_18', subject: 'polity', topic: '<strong>Preamble</strong>', question: 'In which case did the <strong>Supreme Court</strong> hold that the <strong>Preamble</strong> is a part of the Constitution?', options: ['Berubari Union Case', 'Kesavananda Bharati Case', 'Golaknath Case', 'Minerva Mills Case'], correct: 1, explanation: 'In the Kesavananda Bharati Case (1973), the SC held that the <strong>Preamble</strong> is a part of the Constitution.' }, { id: 'pol_19', subject: 'polity', topic: '<strong>Preamble</strong>', question: 'The ideals of Liberty, Equality, and Fraternity in the <strong>Preamble</strong> are borrowed from which revolution?', options: ['Russian Revolution', 'French Revolution', 'American Revolution', 'Industrial Revolution'], correct: 1, explanation: 'Liberty, Equality, and Fraternity are borrowed from the French Revolution.' }, { id: 'pol_20', subject: 'polity', topic: '<strong>Preamble</strong>', question: 'Who called the <strong>Preamble</strong> the \'Identity Card of the Constitution\'?', options: ['K.M. Munshi', 'Dr. B.R. Ambedkar', 'N.A. Palkhivala', 'Jawaharlal Nehru'], correct: 2, explanation: 'N.A. Palkhivala referred to the <strong>Preamble</strong> as the Identity Card of the Constitution.' }, { id: 'pol_21', subject: 'polity', topic: '<strong>Preamble</strong>', question: 'How many types of Justice are mentioned in the <strong>Preamble</strong>?', options: ['One', 'Two', 'Three', 'Four'], correct: 2, explanation: 'Three types of Justice are mentioned: Social, Economic, and Political.' }, { id: 'pol_22', subject: 'polity', topic: '<strong>Preamble</strong>', question: 'Is the <strong>Preamble</strong> enforceable in a court of law?', options: ['Yes, completely', 'Yes, under <strong>Article 32</strong>', 'No, it is non-justiciable', 'Yes, only during emergencies'], correct: 2, explanation: 'The <strong>Preamble</strong> is not legally enforceable in a court of law; it is non-justiciable.' }, { id: 'pol_23', subject: 'polity', topic: '<strong>Preamble</strong>', question: 'The phrase \'We the people of India\' is inspired by the Constitution of which country?', options: ['UK', 'USA', 'USSR', 'Ireland'], correct: 1, explanation: 'The phrase \'We the people...\' is taken from the Constitution of the USA.' }, { id: 'pol_24', subject: 'polity', topic: '<strong>Preamble</strong>', question: 'What does the term \'Republic\' signify in the Indian context?', options: ['Rule of the majority', 'State has no official religion', 'Head of the state is elected', 'Equal distribution of wealth'], correct: 2, explanation: 'Republic means that the head of the state (<strong>President</strong>) is elected by the people, not a hereditary monarch.' },{ id: 'pol_25', subject: 'polity', topic: 'Part 1 and Part 2 (Union Territory, Citizenship)', question: 'Which article deals with the formation of new states and alteration of boundaries?', options: ['<strong>Article 1</strong>', '<strong>Article 2</strong>', '<strong>Article 3</strong>', '<strong>Article 4</strong>'], correct: 2, explanation: '<strong>Article 3</strong> empowers the <strong>Parliament</strong> to form new States and alter the boundaries or names of existing States.' }, { id: 'pol_26', subject: 'polity', topic: 'Part 1 and Part 2 (Union Territory, Citizenship)', question: 'Under which operation was Hyderabad integrated into India?', options: ['Operation Vijay', 'Operation Polo', 'Operation Blue Star', 'Operation Meghdoot'], correct: 1, explanation: 'Hyderabad was integrated into India through a military action known as Operation Polo.' }, { id: 'pol_27', subject: 'polity', topic: 'Part 1 and Part 2 (Union Territory, Citizenship)', question: 'Which committee was the first to examine the linguistic reorganization of states in 1948?', options: ['JVP Committee', 'Fazl Ali Commission', 'Dhar Committee', 'Kothari Commission'], correct: 2, explanation: 'The S.K. Dhar Committee (1948) was the first to examine this and it recommended administrative convenience over linguistic factors.' }, { id: 'pol_28', subject: 'polity', topic: 'Part 1 and Part 2 (Union Territory, Citizenship)', question: 'How many ways to acquire citizenship are mentioned in the Citizenship Act 1955?', options: ['Three', 'Four', 'Five', 'Six'], correct: 2, explanation: 'There are five ways to acquire citizenship: Birth, Descent, Registration, Naturalisation, and Incorporation of territory.' }, { id: 'pol_29', subject: 'polity', topic: 'Part 1 and Part 2 (Union Territory, Citizenship)', question: 'Which amendment facilitated the land boundary agreement between India and Bangladesh?', options: ['<strong>99th Amendment</strong>', '<strong>100th Amendment</strong>', '<strong>101st Amendment</strong>', '<strong>102nd Amendment</strong>'], correct: 1, explanation: 'The 100th Constitutional Amendment (2015) implemented the land boundary agreement between India and Bangladesh.' },{ id: 'pol_30', subject: 'polity', topic: '<strong>Fundamental Rights</strong>', question: 'Which article of the Indian Constitution abolishes untouchability?', options: ['<strong>Article 15</strong>', '<strong>Article 16</strong>', '<strong>Article 17</strong>', '<strong>Article 18</strong>'], correct: 2, explanation: '<strong>Article 17</strong> abolishes untouchability and forbids its practice in any form.' }, { id: 'pol_31', subject: 'polity', topic: '<strong>Fundamental Rights</strong>', question: 'Which of the following <strong>Fundamental Rights</strong> cannot be suspended even during a National Emergency?', options: ['Articles 14 and 15', 'Articles 19 and 20', 'Articles 20 and 21', 'Articles 21 and 22'], correct: 2, explanation: 'Articles 20 (protection in respect of conviction) and 21 (protection of life and personal liberty) cannot be suspended during an emergency.' }, { id: 'pol_32', subject: 'polity', topic: '<strong>Fundamental Rights</strong>', question: 'By which amendment was the Right to Property removed from the list of <strong>Fundamental Rights</strong>?', options: ['<strong>42nd Amendment</strong>', '<strong>44th Amendment</strong>', '<strong>73rd Amendment</strong>', '<strong>86th Amendment</strong>'], correct: 1, explanation: 'The 44th Constitutional Amendment (1978) removed the Right to Property from <strong>Part III</strong>.' }, { id: 'pol_33', subject: 'polity', topic: '<strong>Fundamental Rights</strong>', question: 'Who called <strong>Article 32</strong> the \'Heart and Soul of the Constitution\'?', options: ['Jawaharlal Nehru', 'Mahatma Gandhi', 'Dr. B.R. Ambedkar', 'Sardar Patel'], correct: 2, explanation: 'Dr. B.R. Ambedkar described <strong>Article 32</strong> (Right to Constitutional Remedies) as the heart and soul of the Constitution.' }, { id: 'pol_34', subject: 'polity', topic: '<strong>Fundamental Rights</strong>', question: 'Right to Education (<strong>Article 21A</strong>) was added to the Constitution by which amendment?', options: ['<strong>42nd Amendment</strong>', '<strong>44th Amendment</strong>', '<strong>86th Amendment</strong>', '<strong>92nd Amendment</strong>'], correct: 2, explanation: 'The 86th Constitutional Amendment Act of 2002 added <strong>Article 21A</strong>, making education a fundamental right for children aged 6 to 14.' },{ id: 'pol_35', subject: 'polity', topic: '<strong>DPSP</strong> and <strong>Fundamental Duties</strong>', question: 'From which country are the <strong>DPSP</strong> borrowed?', options: ['Ireland', 'USA', 'UK', 'USSR'], correct: 0, explanation: '<strong>DPSP</strong> are borrowed from the Irish Constitution.' }, { id: 'pol_36', subject: 'polity', topic: '<strong>DPSP</strong> and <strong>Fundamental Duties</strong>', question: 'Which article relates to the Uniform Civil Code?', options: ['<strong>Article 40</strong>', '<strong>Article 44</strong>', '<strong>Article 50</strong>', '<strong>Article 51A</strong>'], correct: 1, explanation: '<strong>Article 44</strong> of <strong>DPSP</strong> deals with the Uniform Civil Code.' },{ id: 'pol_37', subject: 'polity', topic: '<strong>President</strong> and Vice <strong>President</strong>', question: 'Which article deals with the impeachment of the <strong>President</strong>?', options: ['<strong>Article 54</strong>', '<strong>Article 61</strong>', '<strong>Article 72</strong>', '<strong>Article 74</strong>'], correct: 1, explanation: '<strong>Article 61</strong> contains the procedure for impeachment of the <strong>President</strong>.' }, { id: 'pol_38', subject: 'polity', topic: '<strong>President</strong> and Vice <strong>President</strong>', question: 'Who is the ex-officio Chairman of the Rajya Sabha?', options: ['<strong>President</strong>', 'Vice-<strong>President</strong>', '<strong>Prime Minister</strong>', 'Speaker'], correct: 1, explanation: 'The Vice-<strong>President</strong> acts as the ex-officio Chairman of the Rajya Sabha.' },{ id: 'pol_39', subject: 'polity', topic: '<strong>Prime Minister</strong> and Council of Ministers', question: 'To whom is the Council of Ministers collectively responsible?', options: ['<strong>President</strong>', '<strong>Prime Minister</strong>', 'Rajya Sabha', 'Lok Sabha'], correct: 3, explanation: 'The Council of Ministers is collectively responsible to the Lok Sabha.' }, { id: 'pol_40', subject: 'polity', topic: '<strong>Prime Minister</strong> and Council of Ministers', question: 'Who appoints the <strong>Prime Minister</strong>?', options: ['Chief Justice', '<strong>President</strong>', 'Lok Sabha', 'Vice-<strong>President</strong>'], correct: 1, explanation: 'The <strong>Prime Minister</strong> is appointed by the <strong>President</strong> under <strong>Article 75</strong>.' },{ id: 'pol_41', subject: 'polity', topic: '<strong>Parliament</strong>', question: 'Which article defines a Money Bill?', options: ['<strong>Article 108</strong>', '<strong>Article 110</strong>', '<strong>Article 112</strong>', '<strong>Article 123</strong>'], correct: 1, explanation: '<strong>Article 110</strong> defines a Money Bill.' }, { id: 'pol_42', subject: 'polity', topic: '<strong>Parliament</strong>', question: 'How many members are nominated to the Rajya Sabha by the <strong>President</strong>?', options: ['2', '10', '12', '15'], correct: 2, explanation: 'The <strong>President</strong> nominates 12 members to the Rajya Sabha from fields of art, literature, science, etc.' },{ id: 'pol_43', subject: 'polity', topic: 'State Legislature', question: 'How many states currently have a bicameral legislature?', options: ['5', '6', '7', '8'], correct: 1, explanation: 'Currently, 6 states have a Legislative Council (Vidhan Parishad).' }, { id: 'pol_44', subject: 'polity', topic: 'State Legislature', question: 'Who appoints the Governor of a state?', options: ['Chief Minister', '<strong>President</strong>', 'Chief Justice of India', '<strong>Prime Minister</strong>'], correct: 1, explanation: 'The Governor is appointed by the <strong>President</strong> under <strong>Article 155</strong>.' },{ id: 'pol_45', subject: 'polity', topic: 'Centre-State Relations', question: 'Which schedule contains the Union, State, and Concurrent lists?', options: ['<strong>5th Schedule</strong>', '<strong>6th Schedule</strong>', '<strong>7th Schedule</strong>', '<strong>8th Schedule</strong>'], correct: 2, explanation: 'The <strong>7th Schedule</strong> contains the three lists that distribute legislative powers.' }, { id: 'pol_46', subject: 'polity', topic: 'Centre-State Relations', question: 'Which article relates to the Inter-State Council?', options: ['<strong>Article 262</strong>', '<strong>Article 263</strong>', '<strong>Article 280</strong>', '<strong>Article 315</strong>'], correct: 1, explanation: '<strong>Article 263</strong> deals with the establishment of an Inter-State Council.' },{ id: 'pol_47', subject: 'polity', topic: 'Emergency and Constitutional Amendment', question: 'Which article deals with Financial Emergency?', options: ['<strong>Article 352</strong>', '<strong>Article 356</strong>', '<strong>Article 360</strong>', '<strong>Article 368</strong>'], correct: 2, explanation: '<strong>Article 360</strong> empowers the <strong>President</strong> to proclaim a Financial Emergency.' }, { id: 'pol_48', subject: 'polity', topic: 'Emergency and Constitutional Amendment', question: 'From which country is the constitutional amendment procedure borrowed?', options: ['USA', 'UK', 'South Africa', 'Germany'], correct: 2, explanation: 'The procedure for amending the constitution is borrowed from South Africa.' },{ id: 'pol_49', subject: 'polity', topic: '<strong>Supreme Court</strong> and <strong>High Court</strong>', question: 'What is the retirement age of a <strong>Supreme Court</strong> judge?', options: ['60 years', '62 years', '65 years', '70 years'], correct: 2, explanation: 'The retirement age for <strong>Supreme Court</strong> judges is 65 years.' }, { id: 'pol_50', subject: 'polity', topic: '<strong>Supreme Court</strong> and <strong>High Court</strong>', question: 'Under which article can the <strong>High Court</strong> issue writs?', options: ['<strong>Article 32</strong>', '<strong>Article 124</strong>', '<strong>Article 214</strong>', '<strong>Article 226</strong>'], correct: 3, explanation: '<strong>Article 226</strong> grants writ jurisdiction to the High Courts.' },{ id: 'pol_51', subject: 'polity', topic: 'Local Government', question: 'Which committee recommended the three-tier <strong>Panchayati Raj</strong> system?', options: ['Ashok Mehta Committee', 'Balwant Rai Mehta Committee', 'L.M. Singhvi Committee', 'G.V.K. Rao Committee'], correct: 1, explanation: 'The Balwant Rai Mehta Committee recommended the three-tier system in 1957.' }, { id: 'pol_52', subject: 'polity', topic: 'Local Government', question: 'Which state was the first to implement the <strong>Panchayati Raj</strong> system?', options: ['Andhra Pradesh', 'Rajasthan', 'Gujarat', 'Maharashtra'], correct: 1, explanation: 'Rajasthan was the first state to adopt the <strong>Panchayati Raj</strong> system in 1959.' },{ id: 'pol_53', subject: 'polity', topic: 'Constitutional Bodies', question: 'Which article deals with the Finance Commission?', options: ['<strong>Article 148</strong>', '<strong>Article 280</strong>', '<strong>Article 315</strong>', '<strong>Article 324</strong>'], correct: 1, explanation: '<strong>Article 280</strong> provides for the establishment of the Finance Commission.' }, { id: 'pol_54', subject: 'polity', topic: 'Constitutional Bodies', question: 'Who is the Chairman of NITI Aayog?', options: ['<strong>President</strong>', 'Finance Minister', '<strong>Prime Minister</strong>', 'Chief Justice'], correct: 2, explanation: 'The <strong>Prime Minister</strong> of India serves as the ex-officio Chairman of NITI Aayog.' },{ id: 'pol_55', subject: 'polity', topic: 'New Criminal Laws', question: 'The Bharatiya Nyaya Sanhita (BNS) replaces which colonial-era law?', options: ['CrPC 1973', 'IPC 1860', 'Evidence Act 1872', 'Police Act 1861'], correct: 1, explanation: 'The BNS replaces the Indian Penal Code (IPC) of 1860.' }, { id: 'pol_56', subject: 'polity', topic: 'New Criminal Laws', question: 'Which new law replaces the Indian Evidence Act 1872?', options: ['Bharatiya Nyaya Sanhita', 'Bharatiya Nagarik Suraksha Sanhita', 'Bharatiya Sakshya Adhiniyam', 'None of the above'], correct: 2, explanation: 'The Bharatiya Sakshya Adhiniyam (BSA) replaces the Indian Evidence Act.' },{ id: 'pol_57', subject: 'polity', topic: 'Important Acts', question: 'Which act made the Governor-General of Bengal the Governor-General of India?', options: ['Regulating Act 1773', 'Charter Act 1833', 'Government of India Act 1858', 'Indian Councils Act 1909'], correct: 1, explanation: 'The Charter Act of 1833 elevated the Governor-General of Bengal to Governor-General of India.' }, { id: 'pol_58', subject: 'polity', topic: 'Important Acts', question: 'Which act introduced separate electorates for Muslims?', options: ['Charter Act 1853', 'Indian Councils Act 1909', 'Government of India Act 1919', 'Government of India Act 1935'], correct: 1, explanation: 'The Indian Councils Act 1909 (Morley-Minto Reforms) introduced communal representation for Muslims.' },{ id: 'pol_39', subject: 'polity', topic: 'Sources of the Indian Constitution', question: 'The concept of Concurrent List is borrowed from which country?', options: ['USA', 'UK', 'Australia', 'Canada'], correct: 2, explanation: 'The Concurrent List is borrowed from the Australian Constitution.' }, { id: 'pol_40', subject: 'polity', topic: 'Sources of the Indian Constitution', question: 'The concept of <strong>Fundamental Rights</strong> was borrowed from?', options: ['USSR', 'USA', 'UK', 'Ireland'], correct: 1, explanation: '<strong>Fundamental Rights</strong> are borrowed from the Constitution of the USA.' } ], flashcards: [
-{ topic: 'Making of the Constitution', front: 'Who proposed the idea of a Constituent Assembly in 1934?', back: 'M. N. Roy' }, { topic: 'Making of the Constitution', front: 'Which plan led to the formation of the Constituent Assembly?', back: 'Cabinet Mission Plan (1946)' }, { topic: 'Making of the Constitution', front: 'When was the Objective Resolution adopted?', back: '22 January 1947' }, { topic: 'Making of the Constitution', front: 'Who was the Chairman of the Drafting Committee?', back: 'Dr. B. R. Ambedkar' }, { topic: 'Making of the Constitution', front: 'When was the National Flag adopted?', back: '22 July 1947' }, { topic: 'Making of the Constitution', front: 'When was the Constitution adopted?', back: '26 November 1949' }, { topic: 'Making of the Constitution', front: 'How much time did it take to frame the Constitution?', back: '2 years, 11 months, and 18 days' }, { topic: 'Making of the Constitution', front: 'Who was the calligrapher of the English Constitution?', back: 'Prem Bihari Narain Raizada' },{ topic: 'Salient Features of the Constitution', front: 'What does the <strong>10th Schedule</strong> deal with?', back: 'Anti-defection law' }, { topic: 'Salient Features of the Constitution', front: 'Which states are in the <strong>6th Schedule</strong>?', back: 'Assam, Meghalaya, Tripura, Mizoram' }, { topic: 'Salient Features of the Constitution', front: 'Who called India\'s federalism \'Cooperative Federalism\'?', back: 'Granville Austin' }, { topic: 'Salient Features of the Constitution', front: 'How many subjects are in the <strong>11th Schedule</strong> (Panchayats)?', back: '29 functional items' }, { topic: 'Salient Features of the Constitution', front: 'Which amendment added the <strong>9th Schedule</strong>?', back: '1st Constitutional Amendment (1951)' }, { topic: 'Salient Features of the Constitution', front: 'What is the mnemonic for remembering the Schedules?', back: 'TEARS OF OLD PM' }, { topic: 'Salient Features of the Constitution', front: 'Where did India borrow the Parliamentary system from?', back: 'United Kingdom (UK)' }, { topic: 'Salient Features of the Constitution', front: 'Currently, how many Official Languages are in the <strong>8th Schedule</strong>?', back: '22 languages' },{ topic: '<strong>Preamble</strong>', front: 'Which amendment added \'Socialist, Secular, Integrity\' to the <strong>Preamble</strong>?', back: '42nd Constitutional Amendment (1976)' }, { topic: '<strong>Preamble</strong>', front: 'In which case did SC rule that <strong>Preamble</strong> is NOT a part of the Constitution?', back: 'Berubari Union Case (1960)' }, { topic: '<strong>Preamble</strong>', front: 'In which case did SC rule that <strong>Preamble</strong> IS a part of the Constitution?', back: 'Kesavananda Bharati Case (1973)' }, { topic: '<strong>Preamble</strong>', front: 'Where are the ideals of Justice (Social, Economic, Political) taken from?', back: 'Russian Revolution' }, { topic: '<strong>Preamble</strong>', front: 'Who called the <strong>Preamble</strong> the \'Political Horoscope of the Constitution\'?', back: 'K.M. Munshi' }, { topic: '<strong>Preamble</strong>', front: 'Is the <strong>Preamble</strong> legally enforceable in courts?', back: 'No' }, { topic: '<strong>Preamble</strong>', front: 'Where are the ideals of Liberty, Equality, and Fraternity taken from?', back: 'French Revolution' }, { topic: '<strong>Preamble</strong>', front: 'Who called the <strong>Preamble</strong> the \'ID Card of the Constitution\'?', back: 'N.A. Palkhivala' },{ topic: 'Part 1 and Part 2', front: 'Which article declares India as a Union of States?', back: '<strong>Article 1</strong>' }, { topic: 'Part 1 and Part 2', front: 'Which commission recommended the State Reorganisation Act of 1956?', back: 'Fazl Ali Commission' }, { topic: 'Part 1 and Part 2', front: 'How many states and UTs were created by the State Reorganisation Act 1956?', back: '14 States and 6 Union Territories' }, { topic: 'Part 1 and Part 2', front: 'From which country is the concept of Single Citizenship borrowed?', back: 'United Kingdom (UK)' }, { topic: 'Part 1 and Part 2', front: 'Which article gives <strong>Parliament</strong> the power to regulate citizenship?', back: '<strong>Article 11</strong>' },{ topic: '<strong>Fundamental Rights</strong>', front: 'Which part of the Constitution contains the <strong>Fundamental Rights</strong>?', back: '<strong>Part III</strong>' }, { topic: '<strong>Fundamental Rights</strong>', front: 'From which country are <strong>Fundamental Rights</strong> borrowed?', back: 'USA (Bill of Rights)' }, { topic: '<strong>Fundamental Rights</strong>', front: 'Which article provides the Right to Constitutional Remedies?', back: '<strong>Article 32</strong>' }, { topic: '<strong>Fundamental Rights</strong>', front: 'What does <strong>Article 24</strong> prohibit?', back: 'Employment of children in factories' }, { topic: '<strong>Fundamental Rights</strong>', front: 'Which article guarantees 6 democratic freedoms?', back: '<strong>Article 19</strong>' },{ topic: '<strong>DPSP</strong> and <strong>Fundamental Duties</strong>', front: 'Which part contains <strong>Fundamental Duties</strong>?', back: 'Part IVA' }, { topic: '<strong>DPSP</strong> and <strong>Fundamental Duties</strong>', front: 'Which committee recommended <strong>Fundamental Duties</strong>?', back: 'Swaran Singh Committee' },{ topic: '<strong>President</strong> and Vice <strong>President</strong>', front: 'Which article gives pardoning powers to the <strong>President</strong>?', back: '<strong>Article 72</strong>' }, { topic: '<strong>President</strong> and Vice <strong>President</strong>', front: 'Who elects the <strong>President</strong>?', back: 'Elected members of <strong>Parliament</strong> and State Assemblies' },{ topic: '<strong>Prime Minister</strong> and Council of Ministers', front: 'Which article relates to the appointment of the PM?', back: '<strong>Article 75</strong>' }, { topic: '<strong>Prime Minister</strong> and Council of Ministers', front: 'What is the maximum period a non-MP can serve as a minister?', back: '6 months' },{ topic: '<strong>Parliament</strong>', front: 'Which house is called the Council of States?', back: 'Rajya Sabha' }, { topic: '<strong>Parliament</strong>', front: 'Under which article is a joint sitting of <strong>Parliament</strong> summoned?', back: '<strong>Article 108</strong>' },{ topic: 'State Legislature', front: 'What is the lower house of the state legislature called?', back: 'Vidhan Sabha (Legislative Assembly)' }, { topic: 'State Legislature', front: 'Which article deals with the appointment of the Governor?', back: '<strong>Article 155</strong>' },{ topic: 'Centre-State Relations', front: 'Which part deals with Centre-State relations?', back: '<strong>Part XI</strong>' }, { topic: 'Centre-State Relations', front: 'Which article deals with inter-state water disputes?', back: '<strong>Article 262</strong>' },{ topic: 'Emergency and Constitutional Amendment', front: 'Which article is invoked for <strong>President</strong>\'s Rule in a state?', back: '<strong>Article 356</strong>' }, { topic: 'Emergency and Constitutional Amendment', front: 'Which part deals with Emergency Provisions?', back: '<strong>Part XVIII</strong>' },{ topic: '<strong>Supreme Court</strong> and <strong>High Court</strong>', front: 'What is the retirement age for <strong>High Court</strong> judges?', back: '62 years' }, { topic: '<strong>Supreme Court</strong> and <strong>High Court</strong>', front: 'Which article establishes the <strong>Supreme Court</strong>?', back: '<strong>Article 124</strong>' },{ topic: 'Local Government', front: 'Which schedule was added for Municipalities?', back: '<strong>12th Schedule</strong>' }, { topic: 'Local Government', front: 'How many functional items are in the <strong>11th Schedule</strong> (Panchayats)?', back: '29' },{ topic: 'Constitutional Bodies', front: 'Which article provides for the Election Commission?', back: '<strong>Article 324</strong>' }, { topic: 'Constitutional Bodies', front: 'Which body is the guardian of the public purse?', back: 'CAG (Comptroller and Auditor General)' },{ topic: 'New Criminal Laws', front: 'What does the BNSS 2023 replace?', back: 'CrPC (Code of Criminal Procedure)' }, { topic: 'New Criminal Laws', front: 'What does the BSA 2023 replace?', back: 'Indian Evidence Act 1872' },{ topic: 'Important Acts', front: 'Who was the first Governor-General of India?', back: 'Lord William Bentinck' }, { topic: 'Important Acts', front: 'Which act ended the rule of the East India Company?', back: 'Government of India Act 1858' },{ topic: 'Sources of the Indian Constitution', front: 'From where is the \'Suspension of <strong>Fundamental Rights</strong> during Emergency\' borrowed?', back: 'Weimar Constitution of Germany' }, { topic: 'Sources of the Indian Constitution', front: 'Which country is the source for the \'Procedure established by Law\'?', back: 'Japan' } ]
+{ id: 'pol_1', subject: 'polity', topic: 'Making of the Constitution', question: 'Who first proposed the idea of a Constituent Assembly for India in 1934?', options: ['Mahatma Gandhi', 'Jawaharlal Nehru', 'M. N. Roy', 'B. R. Ambedkar'], correct: 2, explanation: 'M. N. Roy first proposed the idea of a Constituent Assembly for India in 1934.' }, { id: 'pol_2', subject: 'polity', topic: 'Making of the Constitution', question: 'Which plan was accepted by both the Congress and the Muslim League for forming the Constituent Assembly?', options: ['August Offer', 'Wavell Plan', 'Cripps Proposal', 'Cabinet Mission Plan'], correct: 3, explanation: 'Only the Cabinet Mission Plan (1946) was accepted by both the Congress and the Muslim League.' }, { id: 'pol_3', subject: 'polity', topic: 'Making of the Constitution', question: 'When was the Objective Resolution moved by Jawaharlal Nehru in the Constituent Assembly?', options: ['9 December 1946', '13 December 1946', '22 January 1947', '26 November 1949'], correct: 1, explanation: 'The Objective Resolution was moved by Jawaharlal Nehru on 13 December 1946 and adopted on 22 January 1947.' }, { id: 'pol_4', subject: 'polity', topic: 'Making of the Constitution', question: 'Who was the calligrapher of the English version of the Indian Constitution?', options: ['Nand Lal Bose', 'Prem Bihari Narain Raizada', 'Vasant Krishan Vaidya', 'Beohar Rammanohar Sinha'], correct: 1, explanation: 'Prem Bihari Narain Raizada was the calligrapher of the English version of the Constitution.' }, { id: 'pol_5', subject: 'polity', topic: 'Making of the Constitution', question: 'How much time did it take to draft the Indian Constitution?', options: ['2 years, 11 months, 18 days', '3 years, 1 month, 15 days', '2 years, 9 months, 12 days', '1 year, 11 months, 18 days'], correct: 0, explanation: 'It took exactly 2 years, 11 months, and 18 days to draft the Constitution.' }, { id: 'pol_6', subject: 'polity', topic: 'Making of the Constitution', question: 'On which date was the National Flag of India adopted?', options: ['15 August 1947', '26 January 1950', '22 July 1947', '24 January 1950'], correct: 2, explanation: 'The National Flag was adopted on 22 July 1947.' }, { id: 'pol_7', subject: 'polity', topic: 'Making of the Constitution', question: 'Who was the Chairman of the Drafting Committee?', options: ['Dr. Rajendra Prasad', 'Jawaharlal Nehru', 'Sardar Patel', 'Dr. B. R. Ambedkar'], correct: 3, explanation: 'Dr. B. R. Ambedkar was the Chairman of the Drafting Committee set up on 29th August 1947.' }, { id: 'pol_8', subject: 'polity', topic: 'Making of the Constitution', question: 'Originally, how many Articles and Schedules did the Indian Constitution contain?', options: ['395 Articles, 8 Schedules', '448 Articles, 12 Schedules', '395 Articles, 10 Schedules', '390 Articles, 8 Schedules'], correct: 0, explanation: 'Originally, the Constitution consisted of 395 Articles, 8 Schedules, 22 Parts and a <strong>Preamble</strong>.' },{ id: 'pol_9', subject: 'polity', topic: 'Salient Features of the Constitution', question: 'Which schedule of the Indian Constitution contains the anti-defection law?', options: ['<strong>8th Schedule</strong>', '<strong>9th Schedule</strong>', '<strong>10th Schedule</strong>', '<strong>11th Schedule</strong>'], correct: 2, explanation: 'The <strong>10th Schedule</strong> contains provisions relating to disqualification of MPs and MLAs on grounds of defection. It was added by the <strong>52nd Amendment</strong> in 1985.' }, { id: 'pol_10', subject: 'polity', topic: 'Salient Features of the Constitution', question: 'Which states are covered under the <strong>6th Schedule</strong> of the Indian Constitution?', options: ['Assam, Meghalaya, Tripura, Mizoram', 'Assam, Manipur, Tripura, Meghalaya', 'Arunachal Pradesh, Assam, Meghalaya, Nagaland', 'Assam, Sikkim, Tripura, Mizoram'], correct: 0, explanation: 'The <strong>6th Schedule</strong> covers the tribal areas of Assam, Meghalaya, Tripura, and Mizoram (Trick: ATM without Money - Manipur is not included).' }, { id: 'pol_11', subject: 'polity', topic: 'Salient Features of the Constitution', question: 'Who described the Indian Constitution as \'Quasi-Federal\'?', options: ['Granville Austin', 'Ivor Jennings', 'Morris Jones', 'K.C. Wheare'], correct: 3, explanation: 'K.C. Wheare described the Indian Constitution as Quasi-Federal.' }, { id: 'pol_12', subject: 'polity', topic: 'Salient Features of the Constitution', question: 'Which amendment added the <strong>9th Schedule</strong> to the Indian Constitution?', options: ['<strong>1st Amendment</strong>', '<strong>42nd Amendment</strong>', '<strong>44th Amendment</strong>', '<strong>52nd Amendment</strong>'], correct: 0, explanation: 'The <strong>9th Schedule</strong>, related to land reforms, was added by the 1st Constitutional Amendment in 1951.' }, { id: 'pol_13', subject: 'polity', topic: 'Salient Features of the Constitution', question: 'How many subjects are present in the Concurrent List currently?', options: ['47', '52', '61', '100'], correct: 1, explanation: 'The Concurrent List initially had 47 subjects, but presently it contains 52 subjects.' }, { id: 'pol_14', subject: 'polity', topic: 'Salient Features of the Constitution', question: 'The Parliamentary form of Government in India is borrowed from which country?', options: ['USA', 'USSR', 'UK', 'Australia'], correct: 2, explanation: 'India borrowed the Parliamentary form of Government from the United Kingdom (UK).' }, { id: 'pol_15', subject: 'polity', topic: 'Salient Features of the Constitution', question: 'Which schedule allocates seats in the Rajya Sabha to the States and Union Territories?', options: ['<strong>2nd Schedule</strong>', '<strong>3rd Schedule</strong>', '<strong>4th Schedule</strong>', '<strong>5th Schedule</strong>'], correct: 2, explanation: 'The <strong>4th Schedule</strong> contains provisions for the allocation of seats in the Rajya Sabha.' }, { id: 'pol_16', subject: 'polity', topic: 'Salient Features of the Constitution', question: 'What does the <strong>11th Schedule</strong> of the Indian Constitution deal with?', options: ['Municipalities', 'Panchayats', 'Languages', 'Land Reforms'], correct: 1, explanation: 'The <strong>11th Schedule</strong> deals with Panchayats and was added by the <strong>73rd Amendment</strong> in 1992. It contains 29 functional items.' },{ id: 'pol_17', subject: 'polity', topic: '<strong>Preamble</strong>', question: 'Which words were added to the <strong>Preamble</strong> by the 42nd Constitutional Amendment in 1976?', options: ['Sovereign, Socialist, Secular', 'Socialist, Secular, Integrity', 'Liberty, Equality, Fraternity', 'Justice, Liberty, Equality'], correct: 1, explanation: 'The <strong>42nd Amendment</strong> added \'Socialist\', \'Secular\', and \'Integrity\' to the <strong>Preamble</strong>.' }, { id: 'pol_18', subject: 'polity', topic: '<strong>Preamble</strong>', question: 'In which case did the <strong>Supreme Court</strong> hold that the <strong>Preamble</strong> is a part of the Constitution?', options: ['Berubari Union Case', 'Kesavananda Bharati Case', 'Golaknath Case', 'Minerva Mills Case'], correct: 1, explanation: 'In the Kesavananda Bharati Case (1973), the SC held that the <strong>Preamble</strong> is a part of the Constitution.' }, { id: 'pol_19', subject: 'polity', topic: '<strong>Preamble</strong>', question: 'The ideals of Liberty, Equality, and Fraternity in the <strong>Preamble</strong> are borrowed from which revolution?', options: ['Russian Revolution', 'French Revolution', 'American Revolution', 'Industrial Revolution'], correct: 1, explanation: 'Liberty, Equality, and Fraternity are borrowed from the French Revolution.' }, { id: 'pol_20', subject: 'polity', topic: '<strong>Preamble</strong>', question: 'Who called the <strong>Preamble</strong> the \'Identity Card of the Constitution\'?', options: ['K.M. Munshi', 'Dr. B.R. Ambedkar', 'N.A. Palkhivala', 'Jawaharlal Nehru'], correct: 2, explanation: 'N.A. Palkhivala referred to the <strong>Preamble</strong> as the Identity Card of the Constitution.' }, { id: 'pol_21', subject: 'polity', topic: '<strong>Preamble</strong>', question: 'How many types of Justice are mentioned in the <strong>Preamble</strong>?', options: ['One', 'Two', 'Three', 'Four'], correct: 2, explanation: 'Three types of Justice are mentioned: Social, Economic, and Political.' }, { id: 'pol_22', subject: 'polity', topic: '<strong>Preamble</strong>', question: 'Is the <strong>Preamble</strong> enforceable in a court of law?', options: ['Yes, completely', 'Yes, under <strong>Article 32</strong>', 'No, it is non-justiciable', 'Yes, only during emergencies'], correct: 2, explanation: 'The <strong>Preamble</strong> is not legally enforceable in a court of law; it is non-justiciable.' }, { id: 'pol_23', subject: 'polity', topic: '<strong>Preamble</strong>', question: 'The phrase \'We the people of India\' is inspired by the Constitution of which country?', options: ['UK', 'USA', 'USSR', 'Ireland'], correct: 1, explanation: 'The phrase \'We the people...\' is taken from the Constitution of the USA.' }, { id: 'pol_24', subject: 'polity', topic: '<strong>Preamble</strong>', question: 'What does the term \'Republic\' signify in the Indian context?', options: ['Rule of the majority', 'State has no official religion', 'Head of the state is elected', 'Equal distribution of wealth'], correct: 2, explanation: 'Republic means that the head of the state (<strong>President</strong>) is elected by the people, not a hereditary monarch.' },{ id: 'pol_25', subject: 'polity', topic: 'Part 1 and Part 2 (Union Territory, Citizenship)', question: 'Which article deals with the formation of new states and alteration of boundaries?', options: ['<strong>Article 1</strong>', '<strong>Article 2</strong>', '<strong>Article 3</strong>', '<strong>Article 4</strong>'], correct: 2, explanation: '<strong>Article 3</strong> empowers the <strong>Parliament</strong> to form new States and alter the boundaries or names of existing States.' }, { id: 'pol_26', subject: 'polity', topic: 'Part 1 and Part 2 (Union Territory, Citizenship)', question: 'Under which operation was Hyderabad integrated into India?', options: ['Operation Vijay', 'Operation Polo', 'Operation Blue Star', 'Operation Meghdoot'], correct: 1, explanation: 'Hyderabad was integrated into India through a military action known as Operation Polo.' }, { id: 'pol_27', subject: 'polity', topic: 'Part 1 and Part 2 (Union Territory, Citizenship)', question: 'Which committee was the first to examine the linguistic reorganization of states in 1948?', options: ['JVP Committee', 'Fazl Ali Commission', 'Dhar Committee', 'Kothari Commission'], correct: 2, explanation: 'The S.K. Dhar Committee (1948) was the first to examine this and it recommended administrative convenience over linguistic factors.' }, { id: 'pol_28', subject: 'polity', topic: 'Part 1 and Part 2 (Union Territory, Citizenship)', question: 'How many ways to acquire citizenship are mentioned in the Citizenship Act 1955?', options: ['Three', 'Four', 'Five', 'Six'], correct: 2, explanation: 'There are five ways to acquire citizenship: Birth, Descent, Registration, Naturalisation, and Incorporation of territory.' }, { id: 'pol_29', subject: 'polity', topic: 'Part 1 and Part 2 (Union Territory, Citizenship)', question: 'Which amendment facilitated the land boundary agreement between India and Bangladesh?', options: ['<strong>99th Amendment</strong>', '<strong>100th Amendment</strong>', '<strong>101st Amendment</strong>', '<strong>102nd Amendment</strong>'], correct: 1, explanation: 'The 100th Constitutional Amendment (2015) implemented the land boundary agreement between India and Bangladesh.' },{ id: 'pol_30', subject: 'polity', topic: '<strong>Fundamental Rights</strong>', question: 'Which article of the Indian Constitution abolishes untouchability?', options: ['<strong>Article 15</strong>', '<strong>Article 16</strong>', '<strong>Article 17</strong>', '<strong>Article 18</strong>'], correct: 2, explanation: '<strong>Article 17</strong> abolishes untouchability and forbids its practice in any form.' }, { id: 'pol_31', subject: 'polity', topic: '<strong>Fundamental Rights</strong>', question: 'Which of the following <strong>Fundamental Rights</strong> cannot be suspended even during a National Emergency?', options: ['Articles 14 and 15', 'Articles 19 and 20', 'Articles 20 and 21', 'Articles 21 and 22'], correct: 2, explanation: 'Articles 20 (protection in respect of conviction) and 21 (protection of life and personal liberty) cannot be suspended during an emergency.' }, { id: 'pol_32', subject: 'polity', topic: '<strong>Fundamental Rights</strong>', question: 'By which amendment was the Right to Property removed from the list of <strong>Fundamental Rights</strong>?', options: ['<strong>42nd Amendment</strong>', '<strong>44th Amendment</strong>', '<strong>73rd Amendment</strong>', '<strong>86th Amendment</strong>'], correct: 1, explanation: 'The 44th Constitutional Amendment (1978) removed the Right to Property from <strong>Part III</strong>.' }, { id: 'pol_33', subject: 'polity', topic: '<strong>Fundamental Rights</strong>', question: 'Who called <strong>Article 32</strong> the \'Heart and Soul of the Constitution\'?', options: ['Jawaharlal Nehru', 'Mahatma Gandhi', 'Dr. B.R. Ambedkar', 'Sardar Patel'], correct: 2, explanation: 'Dr. B.R. Ambedkar described <strong>Article 32</strong> (Right to Constitutional Remedies) as the heart and soul of the Constitution.' }, { id: 'pol_34', subject: 'polity', topic: '<strong>Fundamental Rights</strong>', question: 'Right to Education (<strong>Article 21A</strong>) was added to the Constitution by which amendment?', options: ['<strong>42nd Amendment</strong>', '<strong>44th Amendment</strong>', '<strong>86th Amendment</strong>', '<strong>92nd Amendment</strong>'], correct: 2, explanation: 'The 86th Constitutional Amendment Act of 2002 added <strong>Article 21A</strong>, making education a fundamental right for children aged 6 to 14.' },{ id: 'pol_35', subject: 'polity', topic: '<strong>DPSP</strong> and <strong>Fundamental Duties</strong>', question: 'From which country are the <strong>DPSP</strong> borrowed?', options: ['Ireland', 'USA', 'UK', 'USSR'], correct: 0, explanation: '<strong>DPSP</strong> are borrowed from the Irish Constitution.' }, { id: 'pol_36', subject: 'polity', topic: '<strong>DPSP</strong> and <strong>Fundamental Duties</strong>', question: 'Which article relates to the Uniform Civil Code?', options: ['<strong>Article 40</strong>', '<strong>Article 44</strong>', '<strong>Article 50</strong>', '<strong>Article 51A</strong>'], correct: 1, explanation: '<strong>Article 44</strong> of <strong>DPSP</strong> deals with the Uniform Civil Code.' },{ id: 'pol_37', subject: 'polity', topic: '<strong>President</strong> and Vice <strong>President</strong>', question: 'Which article deals with the impeachment of the <strong>President</strong>?', options: ['<strong>Article 54</strong>', '<strong>Article 61</strong>', '<strong>Article 72</strong>', '<strong>Article 74</strong>'], correct: 1, explanation: '<strong>Article 61</strong> contains the procedure for impeachment of the <strong>President</strong>.' }, { id: 'pol_38', subject: 'polity', topic: '<strong>President</strong> and Vice <strong>President</strong>', question: 'Who is the ex-officio Chairman of the Rajya Sabha?', options: ['<strong>President</strong>', 'Vice-<strong>President</strong>', '<strong>Prime Minister</strong>', 'Speaker'], correct: 1, explanation: 'The Vice-<strong>President</strong> acts as the ex-officio Chairman of the Rajya Sabha.' },{ id: 'pol_39', subject: 'polity', topic: '<strong>Prime Minister</strong> and Council of Ministers', question: 'To whom is the Council of Ministers collectively responsible?', options: ['<strong>President</strong>', '<strong>Prime Minister</strong>', 'Rajya Sabha', 'Lok Sabha'], correct: 3, explanation: 'The Council of Ministers is collectively responsible to the Lok Sabha.' }, { id: 'pol_40', subject: 'polity', topic: '<strong>Prime Minister</strong> and Council of Ministers', question: 'Who appoints the <strong>Prime Minister</strong>?', options: ['Chief Justice', '<strong>President</strong>', 'Lok Sabha', 'Vice-<strong>President</strong>'], correct: 1, explanation: 'The <strong>Prime Minister</strong> is appointed by the <strong>President</strong> under <strong>Article 75</strong>.' },{ id: 'pol_41', subject: 'polity', topic: '<strong>Parliament</strong>', question: 'Which article defines a Money Bill?', options: ['<strong>Article 108</strong>', '<strong>Article 110</strong>', '<strong>Article 112</strong>', '<strong>Article 123</strong>'], correct: 1, explanation: '<strong>Article 110</strong> defines a Money Bill.' }, { id: 'pol_42', subject: 'polity', topic: '<strong>Parliament</strong>', question: 'How many members are nominated to the Rajya Sabha by the <strong>President</strong>?', options: ['2', '10', '12', '15'], correct: 2, explanation: 'The <strong>President</strong> nominates 12 members to the Rajya Sabha from fields of art, literature, science, etc.' },{ id: 'pol_43', subject: 'polity', topic: 'State Legislature', question: 'How many states currently have a bicameral legislature?', options: ['5', '6', '7', '8'], correct: 1, explanation: 'Currently, 6 states have a Legislative Council (Vidhan Parishad).' }, { id: 'pol_44', subject: 'polity', topic: 'State Legislature', question: 'Who appoints the Governor of a state?', options: ['Chief Minister', '<strong>President</strong>', 'Chief Justice of India', '<strong>Prime Minister</strong>'], correct: 1, explanation: 'The Governor is appointed by the <strong>President</strong> under <strong>Article 155</strong>.' },{ id: 'pol_45', subject: 'polity', topic: 'Centre-State Relations', question: 'Which schedule contains the Union, State, and Concurrent lists?', options: ['<strong>5th Schedule</strong>', '<strong>6th Schedule</strong>', '<strong>7th Schedule</strong>', '<strong>8th Schedule</strong>'], correct: 2, explanation: 'The <strong>7th Schedule</strong> contains the three lists that distribute legislative powers.' }, { id: 'pol_46', subject: 'polity', topic: 'Centre-State Relations', question: 'Which article relates to the Inter-State Council?', options: ['<strong>Article 262</strong>', '<strong>Article 263</strong>', '<strong>Article 280</strong>', '<strong>Article 315</strong>'], correct: 1, explanation: '<strong>Article 263</strong> deals with the establishment of an Inter-State Council.' },{ id: 'pol_47', subject: 'polity', topic: 'Emergency and Constitutional Amendment', question: 'Which article deals with Financial Emergency?', options: ['<strong>Article 352</strong>', '<strong>Article 356</strong>', '<strong>Article 360</strong>', '<strong>Article 368</strong>'], correct: 2, explanation: '<strong>Article 360</strong> empowers the <strong>President</strong> to proclaim a Financial Emergency.' }, { id: 'pol_48', subject: 'polity', topic: 'Emergency and Constitutional Amendment', question: 'From which country is the constitutional amendment procedure borrowed?', options: ['USA', 'UK', 'South Africa', 'Germany'], correct: 2, explanation: 'The procedure for amending the constitution is borrowed from South Africa.' },{ id: 'pol_49', subject: 'polity', topic: '<strong>Supreme Court</strong> and <strong>High Court</strong>', question: 'What is the retirement age of a <strong>Supreme Court</strong> judge?', options: ['60 years', '62 years', '65 years', '70 years'], correct: 2, explanation: 'The retirement age for <strong>Supreme Court</strong> judges is 65 years.' }, { id: 'pol_50', subject: 'polity', topic: '<strong>Supreme Court</strong> and <strong>High Court</strong>', question: 'Under which article can the <strong>High Court</strong> issue writs?', options: ['<strong>Article 32</strong>', '<strong>Article 124</strong>', '<strong>Article 214</strong>', '<strong>Article 226</strong>'], correct: 3, explanation: '<strong>Article 226</strong> grants writ jurisdiction to the High Courts.' },{ id: 'pol_51', subject: 'polity', topic: 'Local Government', question: 'Which committee recommended the three-tier <strong>Panchayati Raj</strong> system?', options: ['Ashok Mehta Committee', 'Balwant Rai Mehta Committee', 'L.M. Singhvi Committee', 'G.V.K. Rao Committee'], correct: 1, explanation: 'The Balwant Rai Mehta Committee recommended the three-tier system in 1957.' }, { id: 'pol_52', subject: 'polity', topic: 'Local Government', question: 'Which state was the first to implement the <strong>Panchayati Raj</strong> system?', options: ['Andhra Pradesh', 'Rajasthan', 'Gujarat', 'Maharashtra'], correct: 1, explanation: 'Rajasthan was the first state to adopt the <strong>Panchayati Raj</strong> system in 1959.' },{ id: 'pol_53', subject: 'polity', topic: 'Constitutional Bodies', question: 'Which article deals with the Finance Commission?', options: ['<strong>Article 148</strong>', '<strong>Article 280</strong>', '<strong>Article 315</strong>', '<strong>Article 324</strong>'], correct: 1, explanation: '<strong>Article 280</strong> provides for the establishment of the Finance Commission.' }, { id: 'pol_54', subject: 'polity', topic: 'Constitutional Bodies', question: 'Who is the Chairman of NITI Aayog?', options: ['<strong>President</strong>', 'Finance Minister', '<strong>Prime Minister</strong>', 'Chief Justice'], correct: 2, explanation: 'The <strong>Prime Minister</strong> of India serves as the ex-officio Chairman of NITI Aayog.' },{ id: 'pol_55', subject: 'polity', topic: 'New Criminal Laws', question: 'The Bharatiya Nyaya Sanhita (BNS) replaces which colonial-era law?', options: ['CrPC 1973', 'IPC 1860', 'Evidence Act 1872', 'Police Act 1861'], correct: 1, explanation: 'The BNS replaces the Indian Penal Code (IPC) of 1860.' }, { id: 'pol_56', subject: 'polity', topic: 'New Criminal Laws', question: 'Which new law replaces the Indian Evidence Act 1872?', options: ['Bharatiya Nyaya Sanhita', 'Bharatiya Nagarik Suraksha Sanhita', 'Bharatiya Sakshya Adhiniyam', 'None of the above'], correct: 2, explanation: 'The Bharatiya Sakshya Adhiniyam (BSA) replaces the Indian Evidence Act.' },{ id: 'pol_57', subject: 'polity', topic: 'Important Acts', question: 'Which act made the Governor-General of Bengal the Governor-General of India?', options: ['Regulating Act 1773', 'Charter Act 1833', 'Government of India Act 1858', 'Indian Councils Act 1909'], correct: 1, explanation: 'The Charter Act of 1833 elevated the Governor-General of Bengal to Governor-General of India.' }, { id: 'pol_58', subject: 'polity', topic: 'Important Acts', question: 'Which act introduced separate electorates for Muslims?', options: ['Charter Act 1853', 'Indian Councils Act 1909', 'Government of India Act 1919', 'Government of India Act 1935'], correct: 1, explanation: 'The Indian Councils Act 1909 (Morley-Minto Reforms) introduced communal representation for Muslims.' },{ id: 'pol_39', subject: 'polity', topic: 'Sources of the Indian Constitution', question: 'The concept of Concurrent List is borrowed from which country?', options: ['USA', 'UK', 'Australia', 'Canada'], correct: 2, explanation: 'The Concurrent List is borrowed from the Australian Constitution.' }, { id: 'pol_40', subject: 'polity', topic: 'Sources of the Indian Constitution', question: 'The concept of <strong>Fundamental Rights</strong> was borrowed from?', options: ['USSR', 'USA', 'UK', 'Ireland'], correct: 1, explanation: '<strong>Fundamental Rights</strong> are borrowed from the Constitution of the USA.' } ,
+{
+    "id": "pol_ext_1",
+    "subject": "polity",
+    "topic": "Union Executive & Parliament",
+    "question": "Which Article of the Indian Constitution states that there shall be a President of India?",
+    "options": [
+        "Article 52",
+        "Article 54",
+        "Article 61",
+        "Article 72"
+    ],
+    "correct": "Article 52",
+    "explanation": "Article 52 of the Indian Constitution states that there shall be a President of India, who is the head of the Indian State."
+},
+{
+    "id": "pol_ext_2",
+    "subject": "polity",
+    "topic": "Union Executive & Parliament",
+    "question": "Who administers the oath of office to the President of India?",
+    "options": [
+        "The Prime Minister",
+        "The Vice President",
+        "The Chief Justice of India",
+        "The Speaker of Lok Sabha"
+    ],
+    "correct": "The Chief Justice of India",
+    "explanation": "The oath of office to the President is administered by the Chief Justice of India, and in their absence, by the senior-most judge of the Supreme Court."
+},
+{
+    "id": "pol_ext_3",
+    "subject": "polity",
+    "topic": "Union Executive & Parliament",
+    "question": "Under which Article is the procedure for the impeachment of the President detailed?",
+    "options": [
+        "Article 58",
+        "Article 61",
+        "Article 72",
+        "Article 123"
+    ],
+    "correct": "Article 61",
+    "explanation": "Article 61 outlines the procedure for the impeachment of the President on the grounds of violation of the Constitution."
+},
+{
+    "id": "pol_ext_4",
+    "subject": "polity",
+    "topic": "Union Executive & Parliament",
+    "question": "To whom does the President of India submit their resignation?",
+    "options": [
+        "Chief Justice of India",
+        "Prime Minister",
+        "Vice President",
+        "Speaker of Lok Sabha"
+    ],
+    "correct": "Vice President",
+    "explanation": "The President can resign from office at any time by addressing the resignation letter to the Vice President of India."
+},
+{
+    "id": "pol_ext_5",
+    "subject": "polity",
+    "topic": "Union Executive & Parliament",
+    "question": "Which of the following members do NOT participate in the election of the President?",
+    "options": [
+        "Elected members of Lok Sabha",
+        "Elected members of Rajya Sabha",
+        "Nominated members of both Houses of Parliament",
+        "Elected members of the Legislative Assemblies of States"
+    ],
+    "correct": "Nominated members of both Houses of Parliament",
+    "explanation": "The Electoral College for the President consists only of elected members of Parliament and State Legislative Assemblies."
+},
+{
+    "id": "pol_ext_6",
+    "subject": "polity",
+    "topic": "Union Executive & Parliament",
+    "question": "What is the minimum age prescribed by the Constitution to become the President of India?",
+    "options": [
+        "25 years",
+        "30 years",
+        "35 years",
+        "40 years"
+    ],
+    "correct": "35 years",
+    "explanation": "Article 58 sets the minimum age qualification for election as President at 35 years."
+},
+{
+    "id": "pol_ext_7",
+    "subject": "polity",
+    "topic": "Union Executive & Parliament",
+    "question": "Which Article grants the President the power to promulgate Ordinances during the recess of Parliament?",
+    "options": [
+        "Article 123",
+        "Article 143",
+        "Article 213",
+        "Article 352"
+    ],
+    "correct": "Article 123",
+    "explanation": "Article 123 empowers the President to promulgate ordinances when either of the two Houses of Parliament is not in session."
+},
+{
+    "id": "pol_ext_8",
+    "subject": "polity",
+    "topic": "Union Executive & Parliament",
+    "question": "Under which Article does the President possess the pardoning power?",
+    "options": [
+        "Article 63",
+        "Article 72",
+        "Article 74",
+        "Article 161"
+    ],
+    "correct": "Article 72",
+    "explanation": "Article 72 gives the President the power to grant pardons, reprieves, respites, or remissions of punishment."
+},
+{
+    "id": "pol_ext_9",
+    "subject": "polity",
+    "topic": "Union Executive & Parliament",
+    "question": "Who is the ex-officio Chairman of the Rajya Sabha?",
+    "options": [
+        "President",
+        "Vice President",
+        "Prime Minister",
+        "Speaker of Lok Sabha"
+    ],
+    "correct": "Vice President",
+    "explanation": "Article 64 states that the Vice President of India shall be the ex-officio Chairman of the Council of States (Rajya Sabha)."
+},
+{
+    "id": "pol_ext_10",
+    "subject": "polity",
+    "topic": "Union Executive & Parliament",
+    "question": "What is the maximum period for which the Vice President can act as President?",
+    "options": [
+        "3 months",
+        "6 months",
+        "1 year",
+        "For the remaining term of the President"
+    ],
+    "correct": "6 months",
+    "explanation": "The Vice President can act as President for a maximum period of 6 months, within which a new President must be elected."
+},
+{
+    "id": "pol_ext_11",
+    "subject": "polity",
+    "topic": "Union Executive & Parliament",
+    "question": "According to Article 74, who heads the Council of Ministers to aid and advise the President?",
+    "options": [
+        "Cabinet Secretary",
+        "Home Minister",
+        "Prime Minister",
+        "Chief Justice of India"
+    ],
+    "correct": "Prime Minister",
+    "explanation": "Article 74 provides for a Council of Ministers with the Prime Minister at the head to aid and advise the President."
+},
+{
+    "id": "pol_ext_12",
+    "subject": "polity",
+    "topic": "Union Executive & Parliament",
+    "question": "The Council of Ministers is collectively responsible to which institution?",
+    "options": [
+        "The President",
+        "The Parliament",
+        "The Lok Sabha",
+        "The Rajya Sabha"
+    ],
+    "correct": "The Lok Sabha",
+    "explanation": "According to Article 75(3), the Council of Ministers is collectively responsible to the House of the People (Lok Sabha)."
+},
+{
+    "id": "pol_ext_13",
+    "subject": "polity",
+    "topic": "Union Executive & Parliament",
+    "question": "Who appoints the Prime Minister of India?",
+    "options": [
+        "The Parliament",
+        "The Chief Justice of India",
+        "The President",
+        "The Electoral College"
+    ],
+    "correct": "The President",
+    "explanation": "According to Article 75, the Prime Minister is appointed by the President of India."
+},
+{
+    "id": "pol_ext_14",
+    "subject": "polity",
+    "topic": "Union Executive & Parliament",
+    "question": "What is the maximum strength of the Lok Sabha as per the Constitution (excluding Anglo-Indians)?",
+    "options": [
+        "545",
+        "550",
+        "552",
+        "250"
+    ],
+    "correct": "550",
+    "explanation": "The maximum strength of the Lok Sabha is fixed at 550 (530 from States and 20 from UTs) after the 104th Amendment act abolished the 2 Anglo-Indian seats."
+},
+{
+    "id": "pol_ext_15",
+    "subject": "polity",
+    "topic": "Union Executive & Parliament",
+    "question": "What is the maximum strength of the Rajya Sabha?",
+    "options": [
+        "238",
+        "245",
+        "250",
+        "252"
+    ],
+    "correct": "250",
+    "explanation": "The maximum strength of the Rajya Sabha is 250, out of which 238 are representatives of states & UTs and 12 are nominated by the President."
+},
+{
+    "id": "pol_ext_16",
+    "subject": "polity",
+    "topic": "Union Executive & Parliament",
+    "question": "What is the quorum required to hold a meeting of either House of Parliament?",
+    "options": [
+        "1/5th of total members",
+        "1/10th of total members",
+        "1/6th of total members",
+        "1/3rd of total members"
+    ],
+    "correct": "1/10th of total members",
+    "explanation": "The quorum to constitute a meeting of either House of Parliament is one-tenth of the total number of members of the House."
+},
+{
+    "id": "pol_ext_17",
+    "subject": "polity",
+    "topic": "Union Executive & Parliament",
+    "question": "Which Article of the Constitution deals with the definition of a Money Bill?",
+    "options": [
+        "Article 108",
+        "Article 110",
+        "Article 112",
+        "Article 117"
+    ],
+    "correct": "Article 110",
+    "explanation": "Article 110 of the Constitution deals specifically with the definition of a Money Bill."
+},
+{
+    "id": "pol_ext_18",
+    "subject": "polity",
+    "topic": "Union Executive & Parliament",
+    "question": "Who decides whether a particular bill is a Money Bill or not?",
+    "options": [
+        "President",
+        "Prime Minister",
+        "Speaker of Lok Sabha",
+        "Finance Minister"
+    ],
+    "correct": "Speaker of Lok Sabha",
+    "explanation": "The decision of the Speaker of the Lok Sabha is final on whether a bill is a Money Bill or not."
+},
+{
+    "id": "pol_ext_19",
+    "subject": "polity",
+    "topic": "Union Executive & Parliament",
+    "question": "Who presides over the joint sitting of the two Houses of Parliament?",
+    "options": [
+        "President",
+        "Vice President",
+        "Speaker of Lok Sabha",
+        "Chief Justice of India"
+    ],
+    "correct": "Speaker of Lok Sabha",
+    "explanation": "A joint sitting of Parliament is called by the President (Article 108) but is presided over by the Speaker of the Lok Sabha."
+},
+{
+    "id": "pol_ext_20",
+    "subject": "polity",
+    "topic": "Union Executive & Parliament",
+    "question": "What is the normal term of a member of the Rajya Sabha?",
+    "options": [
+        "4 years",
+        "5 years",
+        "6 years",
+        "Life term"
+    ],
+    "correct": "6 years",
+    "explanation": "Rajya Sabha is a permanent body and not subject to dissolution. However, one-third of its members retire every second year, giving them a 6-year term."
+},
+{
+    "id": "pol_ext_21",
+    "subject": "polity",
+    "topic": "Union Executive & Parliament",
+    "question": "What is the maximum gap allowed between two sessions of Parliament?",
+    "options": [
+        "3 months",
+        "6 months",
+        "9 months",
+        "1 year"
+    ],
+    "correct": "6 months",
+    "explanation": "The Constitution specifies that the maximum gap between two sessions of Parliament cannot exceed six months."
+},
+{
+    "id": "pol_ext_22",
+    "subject": "polity",
+    "topic": "Union Executive & Parliament",
+    "question": "Which Article empowers the Rajya Sabha to create a new All India Service?",
+    "options": [
+        "Article 249",
+        "Article 312",
+        "Article 352",
+        "Article 368"
+    ],
+    "correct": "Article 312",
+    "explanation": "Article 312 empowers the Parliament to create one or more All India Services if the Rajya Sabha passes a resolution supported by not less than two-thirds of the members present and voting."
+},
+{
+    "id": "pol_ext_23",
+    "subject": "polity",
+    "topic": "Union Executive & Parliament",
+    "question": "The 'Annual Financial Statement' (Budget) is laid before Parliament under which Article?",
+    "options": [
+        "Article 110",
+        "Article 112",
+        "Article 114",
+        "Article 266"
+    ],
+    "correct": "Article 112",
+    "explanation": "Article 112 of the Constitution requires the President to lay before both Houses of Parliament an 'Annual Financial Statement' (commonly called the Budget)."
+},
+{
+    "id": "pol_ext_24",
+    "subject": "polity",
+    "topic": "Union Executive & Parliament",
+    "question": "Who has the power to prorogue the Lok Sabha?",
+    "options": [
+        "Speaker of Lok Sabha",
+        "Prime Minister",
+        "President",
+        "Vice President"
+    ],
+    "correct": "President",
+    "explanation": "The President has the power to summon, prorogue both Houses of Parliament, and to dissolve the Lok Sabha."
+},
+{
+    "id": "pol_ext_25",
+    "subject": "polity",
+    "topic": "Union Executive & Parliament",
+    "question": "Who appoints the Attorney General for India?",
+    "options": [
+        "Chief Justice of India",
+        "Prime Minister",
+        "President",
+        "Minister of Law and Justice"
+    ],
+    "correct": "President",
+    "explanation": "The Attorney General for India is appointed by the President under Article 76 of the Constitution."
+},
+{
+    "id": "pol_ext_26",
+    "subject": "polity",
+    "topic": "Union Executive & Parliament",
+    "question": "A minister who is not a member of either House of Parliament must become a member within what period to retain their position?",
+    "options": [
+        "1 month",
+        "3 months",
+        "6 months",
+        "1 year"
+    ],
+    "correct": "6 months",
+    "explanation": "According to Article 75(5), a Minister who for any period of six consecutive months is not a member of either House of Parliament shall cease to be a Minister."
+},
+{
+    "id": "pol_ext_27",
+    "subject": "polity",
+    "topic": "Union Executive & Parliament",
+    "question": "How many members can the President nominate to the Rajya Sabha?",
+    "options": [
+        "2",
+        "10",
+        "12",
+        "15"
+    ],
+    "correct": "12",
+    "explanation": "The President nominates 12 members to the Rajya Sabha from people who have special knowledge or practical experience in art, literature, science, or social service."
+},
+{
+    "id": "pol_ext_28",
+    "subject": "polity",
+    "topic": "Union Executive & Parliament",
+    "question": "Which of the following is NOT a part of the Parliament of India?",
+    "options": [
+        "President",
+        "Lok Sabha",
+        "Rajya Sabha",
+        "Vice President"
+    ],
+    "correct": "Vice President",
+    "explanation": "Under Article 79, the Parliament of India consists of the President and two Houses: the Council of States (Rajya Sabha) and the House of the People (Lok Sabha)."
+},
+{
+    "id": "pol_ext_29",
+    "subject": "polity",
+    "topic": "Union Executive & Parliament",
+    "question": "What is the minimum age required to become a member of the Lok Sabha?",
+    "options": [
+        "21 years",
+        "25 years",
+        "30 years",
+        "35 years"
+    ],
+    "correct": "25 years",
+    "explanation": "Article 84 establishes the minimum age to become a member of the Lok Sabha as 25 years (and 30 years for the Rajya Sabha)."
+},
+{
+    "id": "pol_ext_30",
+    "subject": "polity",
+    "topic": "Union Executive & Parliament",
+    "question": "Who acts as the ex-officio Chairman of the NITI Aayog?",
+    "options": [
+        "President",
+        "Vice President",
+        "Prime Minister",
+        "Finance Minister"
+    ],
+    "correct": "Prime Minister",
+    "explanation": "The Prime Minister of India serves as the ex-officio Chairman of the NITI Aayog (National Institution for Transforming India)."
+},
+{
+    "id": "pol_ext_61",
+    "subject": "polity",
+    "topic": "Bodies, Rights & Amendments",
+    "question": "Which Article of the Indian Constitution deals with the Comptroller and Auditor General (CAG) of India?",
+    "options": [
+        "Article 148",
+        "Article 149",
+        "Article 150",
+        "Article 151"
+    ],
+    "correct": "Article 148",
+    "explanation": "Article 148 provides for an independent office of the Comptroller and Auditor General of India."
+},
+{
+    "id": "pol_ext_62",
+    "subject": "polity",
+    "topic": "Bodies, Rights & Amendments",
+    "question": "The Election Commission of India is established under which Article of the Constitution?",
+    "options": [
+        "Article 320",
+        "Article 322",
+        "Article 324",
+        "Article 326"
+    ],
+    "correct": "Article 324",
+    "explanation": "Article 324 of the Constitution provides that the power of superintendence, direction, and control of elections shall be vested in the Election Commission."
+},
+{
+    "id": "pol_ext_63",
+    "subject": "polity",
+    "topic": "Bodies, Rights & Amendments",
+    "question": "Which Article mandates the President of India to constitute a Finance Commission every five years?",
+    "options": [
+        "Article 275",
+        "Article 280",
+        "Article 282",
+        "Article 293"
+    ],
+    "correct": "Article 280",
+    "explanation": "Article 280 provides for a Finance Commission as a quasi-judicial body constituted by the President every five years."
+},
+{
+    "id": "pol_ext_64",
+    "subject": "polity",
+    "topic": "Bodies, Rights & Amendments",
+    "question": "Who is the highest law officer in India as per Article 76 of the Constitution?",
+    "options": [
+        "Solicitor General",
+        "Chief Justice of India",
+        "Attorney General",
+        "Advocate General"
+    ],
+    "correct": "Attorney General",
+    "explanation": "The Attorney General for India is appointed by the President under Article 76 and is the highest law officer in the country."
+},
+{
+    "id": "pol_ext_65",
+    "subject": "polity",
+    "topic": "Bodies, Rights & Amendments",
+    "question": "Which Article of the Constitution deals with the establishment of the Union Public Service Commission (UPSC)?",
+    "options": [
+        "Article 312",
+        "Article 315",
+        "Article 320",
+        "Article 323"
+    ],
+    "correct": "Article 315",
+    "explanation": "Article 315 deals with the Public Service Commissions for the Union and for the States."
+},
+{
+    "id": "pol_ext_66",
+    "subject": "polity",
+    "topic": "Bodies, Rights & Amendments",
+    "question": "The National Commission for Scheduled Castes (NCSC) is a constitutional body under which Article?",
+    "options": [
+        "Article 338",
+        "Article 338A",
+        "Article 338B",
+        "Article 340"
+    ],
+    "correct": "Article 338",
+    "explanation": "Article 338 provides for a National Commission for the Scheduled Castes."
+},
+{
+    "id": "pol_ext_67",
+    "subject": "polity",
+    "topic": "Bodies, Rights & Amendments",
+    "question": "Which constitutional amendment established the separate National Commission for Scheduled Tribes (NCST) under Article 338A?",
+    "options": [
+        "89th Amendment Act, 2003",
+        "91st Amendment Act, 2003",
+        "92nd Amendment Act, 2003",
+        "93rd Amendment Act, 2005"
+    ],
+    "correct": "89th Amendment Act, 2003",
+    "explanation": "The 89th Constitutional Amendment Act of 2003 bifurcated the combined National Commission for SCs and STs into two separate bodies."
+},
+{
+    "id": "pol_ext_68",
+    "subject": "polity",
+    "topic": "Bodies, Rights & Amendments",
+    "question": "Which Article grants constitutional status to the National Commission for Backward Classes (NCBC)?",
+    "options": [
+        "Article 338",
+        "Article 338A",
+        "Article 338B",
+        "Article 342A"
+    ],
+    "correct": "Article 338B",
+    "explanation": "The 102nd Amendment Act of 2018 inserted Article 338B, granting constitutional status to the NCBC."
+},
+{
+    "id": "pol_ext_69",
+    "subject": "polity",
+    "topic": "Bodies, Rights & Amendments",
+    "question": "Article 165 of the Indian Constitution is related to which of the following offices?",
+    "options": [
+        "Advocate General of the State",
+        "State Election Commissioner",
+        "Chairman of State Public Service Commission",
+        "Chief Minister"
+    ],
+    "correct": "Advocate General of the State",
+    "explanation": "Article 165 provides for the office of the Advocate General for the State, who is the highest law officer in the state."
+},
+{
+    "id": "pol_ext_70",
+    "subject": "polity",
+    "topic": "Bodies, Rights & Amendments",
+    "question": "The Inter-State Council, a constitutional body to enhance coordination between states, is formed under which Article?",
+    "options": [
+        "Article 260",
+        "Article 261",
+        "Article 262",
+        "Article 263"
+    ],
+    "correct": "Article 263",
+    "explanation": "Article 263 contemplates the establishment of an Inter-State Council to effect coordination between the states and between Centre and states."
+},
+{
+    "id": "pol_ext_71",
+    "subject": "polity",
+    "topic": "Bodies, Rights & Amendments",
+    "question": "The concept of Fundamental Rights in the Indian Constitution was borrowed from the constitution of which country?",
+    "options": [
+        "UK",
+        "USA",
+        "USSR",
+        "Ireland"
+    ],
+    "correct": "USA",
+    "explanation": "The Fundamental Rights in Part III of the Indian Constitution are inspired by the Bill of Rights of the USA."
+},
+{
+    "id": "pol_ext_72",
+    "subject": "polity",
+    "topic": "Bodies, Rights & Amendments",
+    "question": "Which Article of the Indian Constitution abolishes the practice of untouchability?",
+    "options": [
+        "Article 15",
+        "Article 16",
+        "Article 17",
+        "Article 18"
+    ],
+    "correct": "Article 17",
+    "explanation": "Article 17 abolishes 'untouchability' and forbids its practice in any form."
+},
+{
+    "id": "pol_ext_73",
+    "subject": "polity",
+    "topic": "Bodies, Rights & Amendments",
+    "question": "Which Article guarantees equality before the law and equal protection of laws to all persons within the territory of India?",
+    "options": [
+        "Article 14",
+        "Article 19",
+        "Article 21",
+        "Article 22"
+    ],
+    "correct": "Article 14",
+    "explanation": "Article 14 says that the State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India."
+},
+{
+    "id": "pol_ext_74",
+    "subject": "polity",
+    "topic": "Bodies, Rights & Amendments",
+    "question": "Which Article protects the right to life and personal liberty?",
+    "options": [
+        "Article 19",
+        "Article 20",
+        "Article 21",
+        "Article 22"
+    ],
+    "correct": "Article 21",
+    "explanation": "Article 21 declares that no person shall be deprived of his life or personal liberty except according to procedure established by law."
+},
+{
+    "id": "pol_ext_75",
+    "subject": "polity",
+    "topic": "Bodies, Rights & Amendments",
+    "question": "Article 21A, which provides for the Right to Education, was added by which constitutional amendment?",
+    "options": [
+        "44th Amendment Act",
+        "86th Amendment Act",
+        "92nd Amendment Act",
+        "97th Amendment Act"
+    ],
+    "correct": "86th Amendment Act",
+    "explanation": "The 86th Constitutional Amendment Act of 2002 inserted Article 21A, making elementary education a Fundamental Right."
+},
+{
+    "id": "pol_ext_76",
+    "subject": "polity",
+    "topic": "Bodies, Rights & Amendments",
+    "question": "Which Article is described by Dr. B.R. Ambedkar as the 'heart and soul of the Constitution'?",
+    "options": [
+        "Article 19",
+        "Article 21",
+        "Article 32",
+        "Article 226"
+    ],
+    "correct": "Article 32",
+    "explanation": "Article 32 (Right to Constitutional Remedies) is considered the heart and soul of the Constitution as it provides the mechanism to enforce fundamental rights."
+},
+{
+    "id": "pol_ext_77",
+    "subject": "polity",
+    "topic": "Bodies, Rights & Amendments",
+    "question": "Which writ literally means 'we command'?",
+    "options": [
+        "Habeas Corpus",
+        "Mandamus",
+        "Prohibition",
+        "Quo-Warranto"
+    ],
+    "correct": "Mandamus",
+    "explanation": "Mandamus means 'we command'. It is a command issued by the court to a public official asking him to perform his official duties."
+},
+{
+    "id": "pol_ext_78",
+    "subject": "polity",
+    "topic": "Bodies, Rights & Amendments",
+    "question": "Which writ is issued to inquire into the legality of a claim of a person to a public office?",
+    "options": [
+        "Certiorari",
+        "Prohibition",
+        "Quo-Warranto",
+        "Habeas Corpus"
+    ],
+    "correct": "Quo-Warranto",
+    "explanation": "Quo-Warranto literally means 'by what authority or warrant'. It is issued to prevent illegal usurpation of a public office by a person."
+},
+{
+    "id": "pol_ext_79",
+    "subject": "polity",
+    "topic": "Bodies, Rights & Amendments",
+    "question": "Which of the following Articles deals with the Abolition of Titles?",
+    "options": [
+        "Article 15",
+        "Article 16",
+        "Article 17",
+        "Article 18"
+    ],
+    "correct": "Article 18",
+    "explanation": "Article 18 abolishes titles (except military and academic) and prohibits the State from conferring them."
+},
+{
+    "id": "pol_ext_80",
+    "subject": "polity",
+    "topic": "Bodies, Rights & Amendments",
+    "question": "The literal meaning of the writ 'Habeas Corpus' is:",
+    "options": [
+        "We command",
+        "To have the body of",
+        "To be certified",
+        "By what authority"
+    ],
+    "correct": "To have the body of",
+    "explanation": "Habeas Corpus is a Latin term which literally means 'to have the body of'. It protects against arbitrary or unlawful detention."
+},
+{
+    "id": "pol_ext_81",
+    "subject": "polity",
+    "topic": "Bodies, Rights & Amendments",
+    "question": "Fundamental Duties were added to the Indian Constitution on the recommendation of which committee?",
+    "options": [
+        "Santhanam Committee",
+        "Swaran Singh Committee",
+        "Ashok Mehta Committee",
+        "Balwant Rai Mehta Committee"
+    ],
+    "correct": "Swaran Singh Committee",
+    "explanation": "The Sardar Swaran Singh Committee was set up in 1976 to make recommendations about fundamental duties."
+},
+{
+    "id": "pol_ext_82",
+    "subject": "polity",
+    "topic": "Bodies, Rights & Amendments",
+    "question": "The concept of Fundamental Duties was borrowed from which country's constitution?",
+    "options": [
+        "USA",
+        "Japan",
+        "USSR (Russia)",
+        "Germany"
+    ],
+    "correct": "USSR (Russia)",
+    "explanation": "The Fundamental Duties in the Indian Constitution are inspired by the Constitution of erstwhile USSR."
+},
+{
+    "id": "pol_ext_83",
+    "subject": "polity",
+    "topic": "Bodies, Rights & Amendments",
+    "question": "Which Constitutional Amendment is famously known as the 'Mini Constitution'?",
+    "options": [
+        "24th Amendment",
+        "42nd Amendment",
+        "44th Amendment",
+        "73rd Amendment"
+    ],
+    "correct": "42nd Amendment",
+    "explanation": "The 42nd Amendment Act of 1976 is known as the Mini Constitution due to the extensive changes it brought to the Constitution."
+},
+{
+    "id": "pol_ext_84",
+    "subject": "polity",
+    "topic": "Bodies, Rights & Amendments",
+    "question": "Which Amendment removed the Right to Property from the list of Fundamental Rights?",
+    "options": [
+        "42nd Amendment",
+        "44th Amendment",
+        "78th Amendment",
+        "86th Amendment"
+    ],
+    "correct": "44th Amendment",
+    "explanation": "The 44th Amendment Act of 1978 deleted the right to property from the list of Fundamental Rights and made it a legal right under Article 300A."
+},
+{
+    "id": "pol_ext_85",
+    "subject": "polity",
+    "topic": "Bodies, Rights & Amendments",
+    "question": "The voting age was reduced from 21 years to 18 years by which Constitutional Amendment?",
+    "options": [
+        "61st Amendment",
+        "69th Amendment",
+        "71st Amendment",
+        "73rd Amendment"
+    ],
+    "correct": "61st Amendment",
+    "explanation": "The 61st Amendment Act of 1989 reduced the voting age from 21 to 18 years for the Lok Sabha and assembly elections."
+},
+{
+    "id": "pol_ext_86",
+    "subject": "polity",
+    "topic": "Bodies, Rights & Amendments",
+    "question": "The 73rd Constitutional Amendment Act is related to which of the following?",
+    "options": [
+        "Municipalities",
+        "Panchayati Raj Institutions",
+        "Anti-Defection Law",
+        "Co-operative Societies"
+    ],
+    "correct": "Panchayati Raj Institutions",
+    "explanation": "The 73rd Amendment Act of 1992 granted constitutional status to Panchayati Raj Institutions."
+},
+{
+    "id": "pol_ext_87",
+    "subject": "polity",
+    "topic": "Bodies, Rights & Amendments",
+    "question": "Which Constitutional Amendment paved the way for the introduction of the Goods and Services Tax (GST)?",
+    "options": [
+        "99th Amendment",
+        "100th Amendment",
+        "101st Amendment",
+        "102nd Amendment"
+    ],
+    "correct": "101st Amendment",
+    "explanation": "The 101st Amendment Act of 2016 paved the way for the introduction of the Goods and Services Tax (GST) regime in India."
+},
+{
+    "id": "pol_ext_88",
+    "subject": "polity",
+    "topic": "Bodies, Rights & Amendments",
+    "question": "Which Amendment provided a 10% reservation for Economically Weaker Sections (EWS)?",
+    "options": [
+        "102nd Amendment",
+        "103rd Amendment",
+        "104th Amendment",
+        "105th Amendment"
+    ],
+    "correct": "103rd Amendment",
+    "explanation": "The 103rd Amendment Act of 2019 provided a 10% quota for the Economically Weaker Sections (EWS) in government jobs and educational institutions."
+},
+{
+    "id": "pol_ext_89",
+    "subject": "polity",
+    "topic": "Bodies, Rights & Amendments",
+    "question": "The 104th Constitutional Amendment Act ended the nomination of which community to the Lok Sabha and State Assemblies?",
+    "options": [
+        "Scheduled Castes",
+        "Scheduled Tribes",
+        "Anglo-Indians",
+        "Other Backward Classes"
+    ],
+    "correct": "Anglo-Indians",
+    "explanation": "The 104th Amendment Act extended the reservation for SCs and STs by 10 years but ceased the nomination of Anglo-Indians to the Lok Sabha and State Legislative Assemblies."
+},
+{
+    "id": "pol_ext_90",
+    "subject": "polity",
+    "topic": "Bodies, Rights & Amendments",
+    "question": "Under which Part of the Indian Constitution are Fundamental Duties mentioned?",
+    "options": [
+        "Part III",
+        "Part IV",
+        "Part IVA",
+        "Part V"
+    ],
+    "correct": "Part IVA",
+    "explanation": "Fundamental Duties are mentioned in Part IVA (Article 51A) of the Constitution, which was added by the 42nd Amendment Act in 1976."
+},
+{
+    "id": "pol_ext_01",
+    "subject": "polity",
+    "topic": "Judiciary & State Legislature",
+    "question": "Which Article of the Indian Constitution empowers the Supreme Court to issue writs for the enforcement of Fundamental Rights?",
+    "options": [
+        "Article 32",
+        "Article 226",
+        "Article 131",
+        "Article 143"
+    ],
+    "correct": "Article 32",
+    "explanation": "Article 32 grants the Supreme Court the power to issue writs (Habeas Corpus, Mandamus, Prohibition, Certiorari, and Quo-Warranto) for the enforcement of Fundamental Rights."
+},
+{
+    "id": "pol_ext_02",
+    "subject": "polity",
+    "topic": "Judiciary & State Legislature",
+    "question": "Under which Article do the High Courts have the power to issue writs?",
+    "options": [
+        "Article 32",
+        "Article 131",
+        "Article 214",
+        "Article 226"
+    ],
+    "correct": "Article 226",
+    "explanation": "Article 226 empowers High Courts to issue writs for the enforcement of Fundamental Rights as well as for any other purpose."
+},
+{
+    "id": "pol_ext_03",
+    "subject": "polity",
+    "topic": "Judiciary & State Legislature",
+    "question": "Under which Article can Parliament create or abolish a State Legislative Council?",
+    "options": [
+        "Article 168",
+        "Article 169",
+        "Article 170",
+        "Article 171"
+    ],
+    "correct": "Article 169",
+    "explanation": "Article 169 of the Constitution provides for the abolition or creation of Legislative Councils in states if the Legislative Assembly of the state passes a resolution to that effect by a special majority."
+},
+{
+    "id": "pol_ext_04",
+    "subject": "polity",
+    "topic": "Judiciary & State Legislature",
+    "question": "What is the retirement age of a Judge of the Supreme Court of India?",
+    "options": [
+        "60 years",
+        "62 years",
+        "65 years",
+        "70 years"
+    ],
+    "correct": "65 years",
+    "explanation": "According to the Constitution of India, a judge of the Supreme Court holds office until they attain the age of 65 years."
+},
+{
+    "id": "pol_ext_05",
+    "subject": "polity",
+    "topic": "Judiciary & State Legislature",
+    "question": "What is the retirement age of a Judge of a High Court in India?",
+    "options": [
+        "60 years",
+        "62 years",
+        "65 years",
+        "68 years"
+    ],
+    "correct": "62 years",
+    "explanation": "The retirement age for High Court judges is 62 years, raised from 60 years by the 15th Constitutional Amendment Act, 1963."
+},
+{
+    "id": "pol_ext_06",
+    "subject": "polity",
+    "topic": "Judiciary & State Legislature",
+    "question": "Who appoints the Judges of the Supreme Court of India?",
+    "options": [
+        "Prime Minister",
+        "Chief Justice of India",
+        "President of India",
+        "Parliament"
+    ],
+    "correct": "President of India",
+    "explanation": "The Judges of the Supreme Court are appointed by the President under Article 124(2) of the Constitution."
+},
+{
+    "id": "pol_ext_07",
+    "subject": "polity",
+    "topic": "Judiciary & State Legislature",
+    "question": "What is the maximum permitted strength of a State Legislative Assembly (Vidhan Sabha)?",
+    "options": [
+        "400",
+        "450",
+        "500",
+        "550"
+    ],
+    "correct": "500",
+    "explanation": "Article 170 states that the Legislative Assembly of each state shall consist of not more than 500 and not less than 60 members."
+},
+{
+    "id": "pol_ext_08",
+    "subject": "polity",
+    "topic": "Judiciary & State Legislature",
+    "question": "What is the minimum permitted strength of a State Legislative Assembly (subject to special exceptions)?",
+    "options": [
+        "40",
+        "50",
+        "60",
+        "70"
+    ],
+    "correct": "60",
+    "explanation": "The minimum strength is generally fixed at 60 members. However, states like Goa, Sikkim, and Mizoram have special provisions allowing fewer members."
+},
+{
+    "id": "pol_ext_09",
+    "subject": "polity",
+    "topic": "Judiciary & State Legislature",
+    "question": "The dispute between the Government of India and one or more States falls under which jurisdiction of the Supreme Court?",
+    "options": [
+        "Appellate Jurisdiction",
+        "Original Jurisdiction",
+        "Advisory Jurisdiction",
+        "Writ Jurisdiction"
+    ],
+    "correct": "Original Jurisdiction",
+    "explanation": "Article 131 gives the Supreme Court original jurisdiction in any dispute between the Centre and States, or between two or more States."
+},
+{
+    "id": "pol_ext_10",
+    "subject": "polity",
+    "topic": "Judiciary & State Legislature",
+    "question": "Under which Article does the President have the power to consult the Supreme Court?",
+    "options": [
+        "Article 129",
+        "Article 131",
+        "Article 137",
+        "Article 143"
+    ],
+    "correct": "Article 143",
+    "explanation": "Article 143 confers Advisory Jurisdiction on the Supreme Court, allowing the President to seek its opinion on matters of public importance."
+},
+{
+    "id": "pol_ext_11",
+    "subject": "polity",
+    "topic": "Judiciary & State Legislature",
+    "question": "A Judge of a High Court can be removed from office during his tenure by?",
+    "options": [
+        "The Governor",
+        "The President on the recommendation of Parliament",
+        "The Chief Justice of India",
+        "The State Legislature"
+    ],
+    "correct": "The President on the recommendation of Parliament",
+    "explanation": "A High Court judge can be removed by the President only after a resolution is passed by both Houses of Parliament with a special majority."
+},
+{
+    "id": "pol_ext_12",
+    "subject": "polity",
+    "topic": "Judiciary & State Legislature",
+    "question": "In a State Legislature, a Money Bill can be introduced only in?",
+    "options": [
+        "Legislative Council",
+        "Legislative Assembly",
+        "Both Houses",
+        "Joint Sitting"
+    ],
+    "correct": "Legislative Assembly",
+    "explanation": "Like the Lok Sabha at the Centre, a Money Bill in a state can only be introduced in the Legislative Assembly (Vidhan Sabha)."
+},
+{
+    "id": "pol_ext_13",
+    "subject": "polity",
+    "topic": "Judiciary & State Legislature",
+    "question": "Who decides whether a bill introduced in the State Legislature is a Money Bill or not?",
+    "options": [
+        "Governor",
+        "Chief Minister",
+        "Speaker of Legislative Assembly",
+        "Chairman of Legislative Council"
+    ],
+    "correct": "Speaker of Legislative Assembly",
+    "explanation": "The decision of the Speaker of the Legislative Assembly is final on whether a bill is a Money Bill or not."
+},
+{
+    "id": "pol_ext_14",
+    "subject": "polity",
+    "topic": "Judiciary & State Legislature",
+    "question": "What is the minimum age required to become a member of the State Legislative Council?",
+    "options": [
+        "21 years",
+        "25 years",
+        "30 years",
+        "35 years"
+    ],
+    "correct": "30 years",
+    "explanation": "To become a member of the Legislative Council (Vidhan Parishad), a person must be at least 30 years old."
+},
+{
+    "id": "pol_ext_15",
+    "subject": "polity",
+    "topic": "Judiciary & State Legislature",
+    "question": "What is the minimum age required to become a member of the State Legislative Assembly?",
+    "options": [
+        "21 years",
+        "25 years",
+        "30 years",
+        "35 years"
+    ],
+    "correct": "25 years",
+    "explanation": "To become an MLA (member of the Legislative Assembly), a person must be at least 25 years old."
+},
+{
+    "id": "pol_ext_16",
+    "subject": "polity",
+    "topic": "Judiciary & State Legislature",
+    "question": "The salary and allowances of High Court Judges are charged on?",
+    "options": [
+        "Consolidated Fund of India",
+        "Consolidated Fund of the State",
+        "Contingency Fund of India",
+        "Public Accounts of the State"
+    ],
+    "correct": "Consolidated Fund of the State",
+    "explanation": "The salaries and allowances of High Court judges are charged upon the Consolidated Fund of the respective state."
+},
+{
+    "id": "pol_ext_17",
+    "subject": "polity",
+    "topic": "Judiciary & State Legislature",
+    "question": "The pension of a retired High Court Judge is charged on?",
+    "options": [
+        "Consolidated Fund of India",
+        "Consolidated Fund of the State",
+        "Contingency Fund of India",
+        "Contingency Fund of the State"
+    ],
+    "correct": "Consolidated Fund of India",
+    "explanation": "While the salary of a High Court judge comes from the State, their pension is charged on the Consolidated Fund of India."
+},
+{
+    "id": "pol_ext_18",
+    "subject": "polity",
+    "topic": "Judiciary & State Legislature",
+    "question": "According to Article 130, where is the seat of the Supreme Court of India?",
+    "options": [
+        "Mumbai",
+        "Kolkata",
+        "Delhi",
+        "Chennai"
+    ],
+    "correct": "Delhi",
+    "explanation": "Article 130 declares Delhi as the seat of the Supreme Court, though the CJI can establish it elsewhere with the President's approval."
+},
+{
+    "id": "pol_ext_19",
+    "subject": "polity",
+    "topic": "Judiciary & State Legislature",
+    "question": "Which Article grants the Supreme Court the power to review its own judgments or orders?",
+    "options": [
+        "Article 136",
+        "Article 137",
+        "Article 141",
+        "Article 143"
+    ],
+    "correct": "Article 137",
+    "explanation": "Article 137 of the Constitution expressly grants the Supreme Court the power to review any judgment pronounced or order made by it."
+},
+{
+    "id": "pol_ext_20",
+    "subject": "polity",
+    "topic": "Judiciary & State Legislature",
+    "question": "Who has the power to transfer a Judge from one High Court to another?",
+    "options": [
+        "Chief Justice of India",
+        "President of India",
+        "Parliament",
+        "Law Minister"
+    ],
+    "correct": "President of India",
+    "explanation": "The President of India can transfer a judge from one High Court to another after consulting the Chief Justice of India."
+},
+{
+    "id": "pol_ext_21",
+    "subject": "polity",
+    "topic": "Judiciary & State Legislature",
+    "question": "What is the quorum required to hold a meeting of the State Legislature?",
+    "options": [
+        "1/10th of total membership or 10 members, whichever is greater",
+        "1/10th of total membership",
+        "1/6th of total membership",
+        "2/3rd of total membership"
+    ],
+    "correct": "1/10th of total membership or 10 members, whichever is greater",
+    "explanation": "The quorum to constitute a meeting of a House of the State Legislature is 10 members or one-tenth of the total membership, whichever is greater."
+},
+{
+    "id": "pol_ext_22",
+    "subject": "polity",
+    "topic": "Judiciary & State Legislature",
+    "question": "What is the maximum allowed gap between two sessions of a State Legislature?",
+    "options": [
+        "3 months",
+        "4 months",
+        "6 months",
+        "1 year"
+    ],
+    "correct": "6 months",
+    "explanation": "The Governor must summon the state legislature such that there is a gap of no more than six months between its last sitting in one session and the first sitting in the next."
+},
+{
+    "id": "pol_ext_23",
+    "subject": "polity",
+    "topic": "Judiciary & State Legislature",
+    "question": "Who appoints the District Judges in a State?",
+    "options": [
+        "Governor",
+        "Chief Justice of High Court",
+        "President",
+        "Chief Minister"
+    ],
+    "correct": "Governor",
+    "explanation": "Appointments of persons to be, and the posting and promotion of, district judges in any State shall be made by the Governor of the State in consultation with the High Court."
+},
+{
+    "id": "pol_ext_24",
+    "subject": "polity",
+    "topic": "Judiciary & State Legislature",
+    "question": "What is the term of a member of the State Legislative Council?",
+    "options": [
+        "4 years",
+        "5 years",
+        "6 years",
+        "No fixed term"
+    ],
+    "correct": "6 years",
+    "explanation": "The Legislative Council is a permanent body, but each of its members is elected for a term of 6 years, with one-third retiring every two years."
+},
+{
+    "id": "pol_ext_25",
+    "subject": "polity",
+    "topic": "Judiciary & State Legislature",
+    "question": "What proportion of the members of a State Legislative Council are elected by local bodies?",
+    "options": [
+        "1/3rd",
+        "1/6th",
+        "1/12th",
+        "1/4th"
+    ],
+    "correct": "1/3rd",
+    "explanation": "One-third (1/3) of the members of the State Legislative Council are elected by electorates consisting of members of local bodies like municipalities, district boards, etc."
+},
+{
+    "id": "pol_ext_26",
+    "subject": "polity",
+    "topic": "Judiciary & State Legislature",
+    "question": "What proportion of the members of a State Legislative Council are nominated by the Governor?",
+    "options": [
+        "1/3rd",
+        "1/4th",
+        "1/6th",
+        "1/12th"
+    ],
+    "correct": "1/6th",
+    "explanation": "One-sixth (1/6) of the total members of the Legislative Council are nominated by the Governor from people with special knowledge in literature, science, art, cooperative movement, and social service."
+},
+{
+    "id": "pol_ext_27",
+    "subject": "polity",
+    "topic": "Judiciary & State Legislature",
+    "question": "Who has the power to establish a common High Court for two or more States?",
+    "options": [
+        "President",
+        "Supreme Court",
+        "Parliament",
+        "Governors jointly"
+    ],
+    "correct": "Parliament",
+    "explanation": "The Parliament has the power by law to establish a common High Court for two or more states or for two or more states and a union territory (7th Amendment Act, 1956)."
+},
+{
+    "id": "pol_ext_28",
+    "subject": "polity",
+    "topic": "Judiciary & State Legislature",
+    "question": "In which year were the first High Courts established in Calcutta, Bombay, and Madras?",
+    "options": [
+        "1857",
+        "1861",
+        "1862",
+        "1935"
+    ],
+    "correct": "1862",
+    "explanation": "The first High Courts in India were established in 1862 at Calcutta, Bombay, and Madras under the Indian High Courts Act of 1861."
+},
+{
+    "id": "pol_ext_29",
+    "subject": "polity",
+    "topic": "Judiciary & State Legislature",
+    "question": "The power of 'Judicial Review' in the Indian Constitution is borrowed from which country?",
+    "options": [
+        "UK",
+        "USA",
+        "USSR",
+        "Ireland"
+    ],
+    "correct": "USA",
+    "explanation": "The concept of Judicial Review, along with the independence of the judiciary and fundamental rights, is borrowed from the Constitution of the USA."
+},
+{
+    "id": "pol_ext_30",
+    "subject": "polity",
+    "topic": "Judiciary & State Legislature",
+    "question": "Who administers the oath of office to a High Court Judge?",
+    "options": [
+        "Chief Justice of India",
+        "President of India",
+        "Governor of the State",
+        "Chief Justice of the High Court"
+    ],
+    "correct": "Governor of the State",
+    "explanation": "Before taking his seat, a judge of a High Court must make and subscribe an oath or affirmation before the Governor of the state or an appointed person."
+}
+], flashcards: [
+{ topic: 'Making of the Constitution', front: 'Who proposed the idea of a Constituent Assembly in 1934?', back: 'M. N. Roy' }, { topic: 'Making of the Constitution', front: 'Which plan led to the formation of the Constituent Assembly?', back: 'Cabinet Mission Plan (1946)' }, { topic: 'Making of the Constitution', front: 'When was the Objective Resolution adopted?', back: '22 January 1947' }, { topic: 'Making of the Constitution', front: 'Who was the Chairman of the Drafting Committee?', back: 'Dr. B. R. Ambedkar' }, { topic: 'Making of the Constitution', front: 'When was the National Flag adopted?', back: '22 July 1947' }, { topic: 'Making of the Constitution', front: 'When was the Constitution adopted?', back: '26 November 1949' }, { topic: 'Making of the Constitution', front: 'How much time did it take to frame the Constitution?', back: '2 years, 11 months, and 18 days' }, { topic: 'Making of the Constitution', front: 'Who was the calligrapher of the English Constitution?', back: 'Prem Bihari Narain Raizada' },{ topic: 'Salient Features of the Constitution', front: 'What does the <strong>10th Schedule</strong> deal with?', back: 'Anti-defection law' }, { topic: 'Salient Features of the Constitution', front: 'Which states are in the <strong>6th Schedule</strong>?', back: 'Assam, Meghalaya, Tripura, Mizoram' }, { topic: 'Salient Features of the Constitution', front: 'Who called India\'s federalism \'Cooperative Federalism\'?', back: 'Granville Austin' }, { topic: 'Salient Features of the Constitution', front: 'How many subjects are in the <strong>11th Schedule</strong> (Panchayats)?', back: '29 functional items' }, { topic: 'Salient Features of the Constitution', front: 'Which amendment added the <strong>9th Schedule</strong>?', back: '1st Constitutional Amendment (1951)' }, { topic: 'Salient Features of the Constitution', front: 'What is the mnemonic for remembering the Schedules?', back: 'TEARS OF OLD PM' }, { topic: 'Salient Features of the Constitution', front: 'Where did India borrow the Parliamentary system from?', back: 'United Kingdom (UK)' }, { topic: 'Salient Features of the Constitution', front: 'Currently, how many Official Languages are in the <strong>8th Schedule</strong>?', back: '22 languages' },{ topic: '<strong>Preamble</strong>', front: 'Which amendment added \'Socialist, Secular, Integrity\' to the <strong>Preamble</strong>?', back: '42nd Constitutional Amendment (1976)' }, { topic: '<strong>Preamble</strong>', front: 'In which case did SC rule that <strong>Preamble</strong> is NOT a part of the Constitution?', back: 'Berubari Union Case (1960)' }, { topic: '<strong>Preamble</strong>', front: 'In which case did SC rule that <strong>Preamble</strong> IS a part of the Constitution?', back: 'Kesavananda Bharati Case (1973)' }, { topic: '<strong>Preamble</strong>', front: 'Where are the ideals of Justice (Social, Economic, Political) taken from?', back: 'Russian Revolution' }, { topic: '<strong>Preamble</strong>', front: 'Who called the <strong>Preamble</strong> the \'Political Horoscope of the Constitution\'?', back: 'K.M. Munshi' }, { topic: '<strong>Preamble</strong>', front: 'Is the <strong>Preamble</strong> legally enforceable in courts?', back: 'No' }, { topic: '<strong>Preamble</strong>', front: 'Where are the ideals of Liberty, Equality, and Fraternity taken from?', back: 'French Revolution' }, { topic: '<strong>Preamble</strong>', front: 'Who called the <strong>Preamble</strong> the \'ID Card of the Constitution\'?', back: 'N.A. Palkhivala' },{ topic: 'Part 1 and Part 2', front: 'Which article declares India as a Union of States?', back: '<strong>Article 1</strong>' }, { topic: 'Part 1 and Part 2', front: 'Which commission recommended the State Reorganisation Act of 1956?', back: 'Fazl Ali Commission' }, { topic: 'Part 1 and Part 2', front: 'How many states and UTs were created by the State Reorganisation Act 1956?', back: '14 States and 6 Union Territories' }, { topic: 'Part 1 and Part 2', front: 'From which country is the concept of Single Citizenship borrowed?', back: 'United Kingdom (UK)' }, { topic: 'Part 1 and Part 2', front: 'Which article gives <strong>Parliament</strong> the power to regulate citizenship?', back: '<strong>Article 11</strong>' },{ topic: '<strong>Fundamental Rights</strong>', front: 'Which part of the Constitution contains the <strong>Fundamental Rights</strong>?', back: '<strong>Part III</strong>' }, { topic: '<strong>Fundamental Rights</strong>', front: 'From which country are <strong>Fundamental Rights</strong> borrowed?', back: 'USA (Bill of Rights)' }, { topic: '<strong>Fundamental Rights</strong>', front: 'Which article provides the Right to Constitutional Remedies?', back: '<strong>Article 32</strong>' }, { topic: '<strong>Fundamental Rights</strong>', front: 'What does <strong>Article 24</strong> prohibit?', back: 'Employment of children in factories' }, { topic: '<strong>Fundamental Rights</strong>', front: 'Which article guarantees 6 democratic freedoms?', back: '<strong>Article 19</strong>' },{ topic: '<strong>DPSP</strong> and <strong>Fundamental Duties</strong>', front: 'Which part contains <strong>Fundamental Duties</strong>?', back: 'Part IVA' }, { topic: '<strong>DPSP</strong> and <strong>Fundamental Duties</strong>', front: 'Which committee recommended <strong>Fundamental Duties</strong>?', back: 'Swaran Singh Committee' },{ topic: '<strong>President</strong> and Vice <strong>President</strong>', front: 'Which article gives pardoning powers to the <strong>President</strong>?', back: '<strong>Article 72</strong>' }, { topic: '<strong>President</strong> and Vice <strong>President</strong>', front: 'Who elects the <strong>President</strong>?', back: 'Elected members of <strong>Parliament</strong> and State Assemblies' },{ topic: '<strong>Prime Minister</strong> and Council of Ministers', front: 'Which article relates to the appointment of the PM?', back: '<strong>Article 75</strong>' }, { topic: '<strong>Prime Minister</strong> and Council of Ministers', front: 'What is the maximum period a non-MP can serve as a minister?', back: '6 months' },{ topic: '<strong>Parliament</strong>', front: 'Which house is called the Council of States?', back: 'Rajya Sabha' }, { topic: '<strong>Parliament</strong>', front: 'Under which article is a joint sitting of <strong>Parliament</strong> summoned?', back: '<strong>Article 108</strong>' },{ topic: 'State Legislature', front: 'What is the lower house of the state legislature called?', back: 'Vidhan Sabha (Legislative Assembly)' }, { topic: 'State Legislature', front: 'Which article deals with the appointment of the Governor?', back: '<strong>Article 155</strong>' },{ topic: 'Centre-State Relations', front: 'Which part deals with Centre-State relations?', back: '<strong>Part XI</strong>' }, { topic: 'Centre-State Relations', front: 'Which article deals with inter-state water disputes?', back: '<strong>Article 262</strong>' },{ topic: 'Emergency and Constitutional Amendment', front: 'Which article is invoked for <strong>President</strong>\'s Rule in a state?', back: '<strong>Article 356</strong>' }, { topic: 'Emergency and Constitutional Amendment', front: 'Which part deals with Emergency Provisions?', back: '<strong>Part XVIII</strong>' },{ topic: '<strong>Supreme Court</strong> and <strong>High Court</strong>', front: 'What is the retirement age for <strong>High Court</strong> judges?', back: '62 years' }, { topic: '<strong>Supreme Court</strong> and <strong>High Court</strong>', front: 'Which article establishes the <strong>Supreme Court</strong>?', back: '<strong>Article 124</strong>' },{ topic: 'Local Government', front: 'Which schedule was added for Municipalities?', back: '<strong>12th Schedule</strong>' }, { topic: 'Local Government', front: 'How many functional items are in the <strong>11th Schedule</strong> (Panchayats)?', back: '29' },{ topic: 'Constitutional Bodies', front: 'Which article provides for the Election Commission?', back: '<strong>Article 324</strong>' }, { topic: 'Constitutional Bodies', front: 'Which body is the guardian of the public purse?', back: 'CAG (Comptroller and Auditor General)' },{ topic: 'New Criminal Laws', front: 'What does the BNSS 2023 replace?', back: 'CrPC (Code of Criminal Procedure)' }, { topic: 'New Criminal Laws', front: 'What does the BSA 2023 replace?', back: 'Indian Evidence Act 1872' },{ topic: 'Important Acts', front: 'Who was the first Governor-General of India?', back: 'Lord William Bentinck' }, { topic: 'Important Acts', front: 'Which act ended the rule of the East India Company?', back: 'Government of India Act 1858' },{ topic: 'Sources of the Indian Constitution', front: 'From where is the \'Suspension of <strong>Fundamental Rights</strong> during Emergency\' borrowed?', back: 'Weimar Constitution of Germany' }, { topic: 'Sources of the Indian Constitution', front: 'Which country is the source for the \'Procedure established by Law\'?', back: 'Japan' } ,
+{
+    "topic": "Union Executive & Parliament",
+    "front": "Which Article mandates that there shall be a President of India?",
+    "back": "Article 52"
+},
+{
+    "topic": "Union Executive & Parliament",
+    "front": "Who administers the oath to the President?",
+    "back": "The Chief Justice of India"
+},
+{
+    "topic": "Union Executive & Parliament",
+    "front": "What is the minimum age to be eligible for election as President?",
+    "back": "35 years"
+},
+{
+    "topic": "Union Executive & Parliament",
+    "front": "Which Article deals with the impeachment of the President?",
+    "back": "Article 61"
+},
+{
+    "topic": "Union Executive & Parliament",
+    "front": "Who does the President submit their resignation to?",
+    "back": "The Vice President of India"
+},
+{
+    "topic": "Union Executive & Parliament",
+    "front": "Which Article grants pardoning powers to the President?",
+    "back": "Article 72"
+},
+{
+    "topic": "Union Executive & Parliament",
+    "front": "Which Article empowers the President to issue Ordinances?",
+    "back": "Article 123"
+},
+{
+    "topic": "Union Executive & Parliament",
+    "front": "Who are the members of the Electoral College for the President's election?",
+    "back": "Elected members of both Houses of Parliament and elected members of State Legislative Assemblies."
+},
+{
+    "topic": "Union Executive & Parliament",
+    "front": "Who is the ex-officio Chairman of the Rajya Sabha?",
+    "back": "The Vice President of India"
+},
+{
+    "topic": "Union Executive & Parliament",
+    "front": "What is the maximum period a Vice President can act as President?",
+    "back": "6 months"
+},
+{
+    "topic": "Union Executive & Parliament",
+    "front": "Who appoints the Prime Minister?",
+    "back": "The President of India"
+},
+{
+    "topic": "Union Executive & Parliament",
+    "front": "To whom is the Council of Ministers collectively responsible?",
+    "back": "The Lok Sabha"
+},
+{
+    "topic": "Union Executive & Parliament",
+    "front": "What are the three components of the Indian Parliament?",
+    "back": "The President, the Lok Sabha, and the Rajya Sabha"
+},
+{
+    "topic": "Union Executive & Parliament",
+    "front": "What is the maximum strength of the Rajya Sabha?",
+    "back": "250 members"
+},
+{
+    "topic": "Union Executive & Parliament",
+    "front": "What is the maximum strength of the Lok Sabha?",
+    "back": "550 members"
+},
+{
+    "topic": "Union Executive & Parliament",
+    "front": "What is the quorum required for a meeting of either House of Parliament?",
+    "back": "1/10th of the total members"
+},
+{
+    "topic": "Union Executive & Parliament",
+    "front": "Which Article defines a Money Bill?",
+    "back": "Article 110"
+},
+{
+    "topic": "Union Executive & Parliament",
+    "front": "Who decides whether a bill is a Money Bill?",
+    "back": "The Speaker of the Lok Sabha"
+},
+{
+    "topic": "Union Executive & Parliament",
+    "front": "Which Article deals with the joint sitting of both Houses of Parliament?",
+    "back": "Article 108"
+},
+{
+    "topic": "Union Executive & Parliament",
+    "front": "Who presides over a joint sitting of Parliament?",
+    "back": "The Speaker of the Lok Sabha"
+},
+{
+    "topic": "Union Executive & Parliament",
+    "front": "What is the normal term of a Rajya Sabha member?",
+    "back": "6 years"
+},
+{
+    "topic": "Union Executive & Parliament",
+    "front": "What is the maximum gap allowed between two sessions of Parliament?",
+    "back": "6 months"
+},
+{
+    "topic": "Union Executive & Parliament",
+    "front": "Which Article allows the Rajya Sabha to create an All India Service?",
+    "back": "Article 312"
+},
+{
+    "topic": "Union Executive & Parliament",
+    "front": "Under which Article is the Annual Financial Statement (Budget) presented?",
+    "back": "Article 112"
+},
+{
+    "topic": "Union Executive & Parliament",
+    "front": "Who has the power to dissolve the Lok Sabha?",
+    "back": "The President of India"
+},
+{
+    "topic": "Union Executive & Parliament",
+    "front": "Who appoints the Attorney General for India?",
+    "back": "The President of India"
+},
+{
+    "topic": "Union Executive & Parliament",
+    "front": "How many members are nominated to the Rajya Sabha by the President?",
+    "back": "12 members"
+},
+{
+    "topic": "Union Executive & Parliament",
+    "front": "What is the minimum age to become a Lok Sabha member?",
+    "back": "25 years"
+},
+{
+    "topic": "Union Executive & Parliament",
+    "front": "What is the minimum age to become a Rajya Sabha member?",
+    "back": "30 years"
+},
+{
+    "topic": "Union Executive & Parliament",
+    "front": "Who is the ex-officio Chairman of NITI Aayog?",
+    "back": "The Prime Minister of India"
+},
+{
+    "topic": "Bodies, Rights & Amendments",
+    "front": "Who appoints the Comptroller and Auditor General (CAG) of India?",
+    "back": "The President of India"
+},
+{
+    "topic": "Bodies, Rights & Amendments",
+    "front": "Which Article deals with the establishment of the Election Commission of India?",
+    "back": "Article 324"
+},
+{
+    "topic": "Bodies, Rights & Amendments",
+    "front": "What is the tenure of the Chief Election Commissioner?",
+    "back": "6 years or up to 65 years of age, whichever is earlier."
+},
+{
+    "topic": "Bodies, Rights & Amendments",
+    "front": "Which Article mandates the constitution of a Finance Commission every 5 years?",
+    "back": "Article 280"
+},
+{
+    "topic": "Bodies, Rights & Amendments",
+    "front": "Who is the highest law officer in India (Article 76)?",
+    "back": "The Attorney General for India"
+},
+{
+    "topic": "Bodies, Rights & Amendments",
+    "front": "Who determines the strength of the Union Public Service Commission (UPSC)?",
+    "back": "The President of India"
+},
+{
+    "topic": "Bodies, Rights & Amendments",
+    "front": "Which constitutional amendment granted constitutional status to the National Commission for Backward Classes (NCBC)?",
+    "back": "102nd Amendment Act, 2018"
+},
+{
+    "topic": "Bodies, Rights & Amendments",
+    "front": "Which Article deals with the Advocate General of the State?",
+    "back": "Article 165"
+},
+{
+    "topic": "Bodies, Rights & Amendments",
+    "front": "What is the constitutional body established under Article 263 to enhance coordination between states?",
+    "back": "Inter-State Council"
+},
+{
+    "topic": "Bodies, Rights & Amendments",
+    "front": "The concept of Fundamental Rights was borrowed from which country's constitution?",
+    "back": "United States of America (USA)"
+},
+{
+    "topic": "Bodies, Rights & Amendments",
+    "front": "Which group of Articles deals with the Right to Equality?",
+    "back": "Articles 14 to 18"
+},
+{
+    "topic": "Bodies, Rights & Amendments",
+    "front": "Which group of Articles deals with the Right to Freedom?",
+    "back": "Articles 19 to 22"
+},
+{
+    "topic": "Bodies, Rights & Amendments",
+    "front": "Which Articles deal with the Right against Exploitation?",
+    "back": "Articles 23 and 24"
+},
+{
+    "topic": "Bodies, Rights & Amendments",
+    "front": "Which group of Articles deals with the Right to Freedom of Religion?",
+    "back": "Articles 25 to 28"
+},
+{
+    "topic": "Bodies, Rights & Amendments",
+    "front": "Which Article did Dr. B.R. Ambedkar call the 'heart and soul of the Constitution'?",
+    "back": "Article 32 (Right to Constitutional Remedies)"
+},
+{
+    "topic": "Bodies, Rights & Amendments",
+    "front": "What was the original number of Fundamental Rights in the Constitution?",
+    "back": "7 (Now 6, as the Right to Property was removed)"
+},
+{
+    "topic": "Bodies, Rights & Amendments",
+    "front": "Which amendment removed the Right to Property from the list of Fundamental Rights?",
+    "back": "44th Amendment Act, 1978"
+},
+{
+    "topic": "Bodies, Rights & Amendments",
+    "front": "What is the present constitutional status of the Right to Property?",
+    "back": "It is a Legal Right under Article 300A in Part XII of the Constitution."
+},
+{
+    "topic": "Bodies, Rights & Amendments",
+    "front": "Which writ is issued to a person who has detained another unlawfully?",
+    "back": "Habeas Corpus"
+},
+{
+    "topic": "Bodies, Rights & Amendments",
+    "front": "Which writ means 'We Command' and is issued to a public official to perform their duties?",
+    "back": "Mandamus"
+},
+{
+    "topic": "Bodies, Rights & Amendments",
+    "front": "Which committee recommended the addition of Fundamental Duties to the Constitution?",
+    "back": "Sardar Swaran Singh Committee"
+},
+{
+    "topic": "Bodies, Rights & Amendments",
+    "front": "Which constitutional amendment added Fundamental Duties to the Constitution?",
+    "back": "42nd Amendment Act, 1976"
+},
+{
+    "topic": "Bodies, Rights & Amendments",
+    "front": "How many Fundamental Duties are currently in the Indian Constitution?",
+    "back": "11"
+},
+{
+    "topic": "Bodies, Rights & Amendments",
+    "front": "The 11th Fundamental Duty (providing opportunities for education to children aged 6-14) was added by which amendment?",
+    "back": "86th Amendment Act, 2002"
+},
+{
+    "topic": "Bodies, Rights & Amendments",
+    "front": "Which constitutional amendment is known as the 'Mini Constitution'?",
+    "back": "42nd Amendment Act, 1976"
+},
+{
+    "topic": "Bodies, Rights & Amendments",
+    "front": "The voting age was reduced from 21 years to 18 years by which amendment?",
+    "back": "61st Amendment Act, 1989"
+},
+{
+    "topic": "Bodies, Rights & Amendments",
+    "front": "Which amendment provided constitutional status to Panchayati Raj Institutions?",
+    "back": "73rd Amendment Act, 1992"
+},
+{
+    "topic": "Bodies, Rights & Amendments",
+    "front": "Which constitutional amendment introduced the Goods and Services Tax (GST)?",
+    "back": "101st Amendment Act, 2016"
+},
+{
+    "topic": "Bodies, Rights & Amendments",
+    "front": "Which constitutional amendment provided a 10% reservation for Economically Weaker Sections (EWS)?",
+    "back": "103rd Amendment Act, 2019"
+},
+{
+    "topic": "Bodies, Rights & Amendments",
+    "front": "The nomination of Anglo-Indians to the Lok Sabha and State Assemblies was abolished by which amendment?",
+    "back": "104th Amendment Act, 2020"
+},
+{
+    "topic": "Judiciary",
+    "front": "Which article deals with the establishment and constitution of the Supreme Court?",
+    "back": "Article 124"
+},
+{
+    "topic": "Judiciary",
+    "front": "Which article covers the advisory jurisdiction of the Supreme Court?",
+    "back": "Article 143"
+},
+{
+    "topic": "Judiciary",
+    "front": "Original jurisdiction of the Supreme Court is covered under which Article?",
+    "back": "Article 131"
+},
+{
+    "topic": "Judiciary",
+    "front": "Which Article empowers the High Courts to issue writs?",
+    "back": "Article 226"
+},
+{
+    "topic": "Judiciary",
+    "front": "Which Article mandates that there shall be a High Court for each state?",
+    "back": "Article 214"
+},
+{
+    "topic": "State Legislature",
+    "front": "Which Article deals with the abolition or creation of Legislative Councils in States?",
+    "back": "Article 169"
+},
+{
+    "topic": "State Legislature",
+    "front": "What is the maximum strength of a State Legislative Council?",
+    "back": "One-third of the total strength of the State Legislative Assembly"
+},
+{
+    "topic": "State Legislature",
+    "front": "What is the minimum strength of a State Legislative Council?",
+    "back": "40 members"
+},
+{
+    "topic": "State Legislature",
+    "front": "Can the Governor dissolve the State Legislative Council?",
+    "back": "No, it is a permanent body and not subject to dissolution."
+},
+{
+    "topic": "Judiciary",
+    "front": "Who administers the oath of office to a High Court Judge?",
+    "back": "The Governor of the state"
+},
+{
+    "topic": "Judiciary",
+    "front": "Who administers the oath of office to a Supreme Court Judge?",
+    "back": "The President of India"
+},
+{
+    "topic": "Judiciary",
+    "front": "To whom does a High Court Judge submit their resignation?",
+    "back": "The President of India"
+},
+{
+    "topic": "Judiciary",
+    "front": "To whom does a Supreme Court Judge submit their resignation?",
+    "back": "The President of India"
+},
+{
+    "topic": "Judiciary",
+    "front": "Who determines the strength of a High Court?",
+    "back": "The President of India, depending on the workload"
+},
+{
+    "topic": "Judiciary",
+    "front": "What is the term used for the power of courts to examine the constitutionality of legislative enactments?",
+    "back": "Judicial Review"
+},
+{
+    "topic": "Judiciary",
+    "front": "What is the system called for the appointment and transfer of judges in India?",
+    "back": "The Collegium System"
+},
+{
+    "topic": "Judiciary",
+    "front": "What does 'Court of Record' mean for the Supreme Court and High Courts?",
+    "back": "Their judgments and proceedings are recorded for perpetual memory and testimony."
+},
+{
+    "topic": "Judiciary",
+    "front": "Under which Article can one file a Special Leave Petition (SLP) in the Supreme Court?",
+    "back": "Article 136"
+},
+{
+    "topic": "Judiciary",
+    "front": "Where did the concept of Public Interest Litigation (PIL) originate?",
+    "back": "United States of America"
+},
+{
+    "topic": "Judiciary",
+    "front": "Who is considered the Father of Public Interest Litigation (PIL) in India?",
+    "back": "Justice P.N. Bhagwati"
+},
+{
+    "topic": "Judiciary",
+    "front": "How many High Courts are currently functioning in India?",
+    "back": "25 High Courts"
+},
+{
+    "topic": "Judiciary",
+    "front": "Which is the highest judicial authority within a State?",
+    "back": "The High Court"
+},
+{
+    "topic": "State Legislature",
+    "front": "What happens if a State Legislative Assembly rejects a Money Bill?",
+    "back": "The State Government (Council of Ministers) must resign."
+},
+{
+    "topic": "State Legislature",
+    "front": "Who presides over the joint sitting of the State Legislature?",
+    "back": "There is no provision for a joint sitting in the State Legislature."
+},
+{
+    "topic": "State Legislature",
+    "front": "What is the maximum time limit for the Legislative Council to delay a Money Bill?",
+    "back": "14 days"
+},
+{
+    "topic": "State Legislature",
+    "front": "What is the maximum time the Legislative Council can delay an Ordinary Bill in total?",
+    "back": "4 months (3 months in the first instance, 1 month in the second instance)"
+},
+{
+    "topic": "Judiciary",
+    "front": "Which Union Territories have their own independent High Courts?",
+    "back": "Delhi and Jammu & Kashmir"
+},
+{
+    "topic": "State Legislature",
+    "front": "Who decides the disqualification of members of the State Legislature under the Anti-Defection Law?",
+    "back": "The Presiding Officer (Speaker or Chairman) of the House"
+},
+{
+    "topic": "Judiciary",
+    "front": "Who has the power to grant pardon in the case of a death sentence?",
+    "back": "Only the President of India"
+},
+{
+    "topic": "Judiciary",
+    "front": "On what grounds can a Supreme Court judge be removed?",
+    "back": "Proved misbehavior or incapacity"
+}
+]
 };
