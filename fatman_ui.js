@@ -77,6 +77,7 @@ if ('speechSynthesis' in window) {
             <option value="medieval">Medieval History</option>
             <option value="modern">Modern History</option>
             <option value="polity">Polity</option>
+        <option value="static">Static GK</option>
             <option value="current_affairs">Current Affairs</option>
         </select>
     </div>
