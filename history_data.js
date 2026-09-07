@@ -500,6 +500,36 @@
             <li>Note: The last ruler of Mauryan Dynasty <strong>Brihadratha Maurya</strong> was <strong>killed</strong> by his military commander <strong>Pushyamitra Shunga</strong> which led to the start of Shunga Dynasty.</li>
         </ul>
 
+        
+        <h3>8. Post-Mauryan & Foreign Invasions</h3>
+        <ul>
+            <li><strong>Shunga Dynasty:</strong> Founded by <strong>Pushyamitra Shunga</strong> (assassinated Brihadratha Maurya). He was a staunch Brahmin and performed two Ashvamedha Yajnas (presided by Patanjali). Famous king: Agnimitra (hero of Kalidasa's <em>Malavikagnimitram</em>).</li>
+            <li><strong>Kanva Dynasty:</strong> Founded by <strong>Vasudeva Kanva</strong> (killed the last Shunga ruler Devabhuti).</li>
+            <li><strong>Satavahana Dynasty:</strong> Founded by <strong>Simuka</strong>. Capital: Pratishthana (Paithan). Greatest ruler: <strong>Gautamiputra Satakarni</strong>. They issued <strong>Lead coins</strong>. Used matronymics (mother's name).</li>
+            <li><strong>Indo-Greeks:</strong> First to issue <strong>Gold Coins</strong> in India. Most famous ruler: <strong>Menander (Milinda)</strong>. He was converted to Buddhism by Nagasena (recorded in <em>Milindapanho</em>).</li>
+            <li><strong>Shakas (Scythians):</strong> Most famous ruler: <strong>Rudradaman I</strong>. He repaired the Sudarshana Lake (originally built by Chandragupta Maurya) and issued the first long inscription in chaste Sanskrit (Junagarh Rock Inscription).</li>
+            <li><strong>Kushanas:</strong> Founded by Kujula Kadphises. Greatest ruler: <strong>Kanishka</strong>. He started the <strong>Saka Era in 78 AD</strong> (used by Govt of India). Organized the 4th Buddhist Council in Kashmir. Court scholars: Ashvaghosha, Vasumitra, Nagarjuna, Charaka. Known for issuing the purest gold coins.</li>
+        </ul>
+
+        <h3>9. Gupta Empire (The Golden Age)</h3>
+        <ul>
+            <li><strong>Founder:</strong> Sri Gupta. Real founder: <strong>Chandragupta I</strong> (started the Gupta Era in 319-320 AD).</li>
+            <li><strong>Samudragupta:</strong> Known as the <em>"Napoleon of India"</em> (called so by V.A. Smith). Court poet <strong>Harishena</strong> wrote the <strong>Allahabad Pillar Inscription (Prayag Prashasti)</strong>. Assumed titles like Kaviraja. Represented playing the Veena on his coins.</li>
+            <li><strong>Chandragupta II (Vikramaditya):</strong> Defeated the Shakas (Rudrasimha III) and assumed the title <em>Shakari</em>. Made Ujjain his second capital. Chinese traveler <strong>Fa-Hien</strong> visited during his reign. His court had the <strong>Navaratnas (Nine Gems)</strong> including Kalidasa, Varahamihira, Amarasimha, and Dhanvantari. Iron Pillar at Mehrauli is associated with him.</li>
+            <li><strong>Kumaragupta I:</strong> Founded the <strong>Nalanda University</strong>. Assumed title <em>Mahendraditya</em>.</li>
+            <li><strong>Skandagupta:</strong> Defeated the invading <strong>Hunas</strong>. Restored the Sudarshana Lake again.</li>
+            <li><strong>Administration & Economy:</strong> Vishti = Forced labour. Dinara = Gold coins. Rupayaka = Silver coins. The official language was <strong>Sanskrit</strong>. Uparika = Provincial governor.</li>
+            <li><strong>Literature & Science:</strong> Aryabhata wrote <em>Aryabhatiya</em> (solar/lunar eclipses, value of pi). Sushruta (Surgery), Charaka (Medicine). Vishakhadatta wrote <em>Mudrarakshasa</em>. Vishnu Sharma wrote <em>Panchatantra</em>.</li>
+        </ul>
+
+        <h3>10. The Vakatakas & Harshavardhana</h3>
+        <ul>
+            <li><strong>Vakatakas:</strong> Ruled Deccan contemporaneously with Guptas. Founder: Vindhyashakti. Pravarasena I was the only ruler to assume the title of Samrat. They were Brahmins and great patrons of art (Ajanta Caves XVI, XVII, XIX are Vakataka era).</li>
+            <li><strong>Pushyabhuti / Vardhana Dynasty:</strong> Capital moved from Thanesar to Kannauj.</li>
+            <li><strong>Harshavardhana (606-647 AD):</strong> Ascended the throne in 606 AD (started Harsha Era). Chinese pilgrim <strong>Hiuen Tsang (Xuanzang)</strong> visited and attended the Kannauj Assembly. Harsha was defeated by Chalukya king <strong>Pulakesin II</strong> on the banks of Narmada river (recorded in Aihole Inscription by Ravikirti).</li>
+            <li><strong>Court & Literature:</strong> Harsha's court poet was <strong>Banabhatta</strong> (wrote <em>Harshacharita</em> and <em>Kadambari</em>). Harsha himself wrote three plays: <em>Ratnavali</em>, <em>Priyadarshika</em>, and <em>Nagananda</em>.</li>
+        </ul>
+
         <h3>11. Post-Gupta Dynasties</h3>
         <h4 style="color:#F59E0B;">Pushyabhuti / Vardhana Dynasty</h4>
         <ul>
