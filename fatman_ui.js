@@ -5,6 +5,7 @@ window.getFatmanData = function() {
     if (window.currentFatmanSubject === "medieval") return window.fatmanMedieval;
     if (window.currentFatmanSubject === "modern") return window.fatmanModern;
     if (window.currentFatmanSubject === "polity") return window.polityData;
+    if (window.currentFatmanSubject === "static") return window.fatmanStatic;
     if (window.currentFatmanSubject === "current_affairs") return window.fatmanCurrentAffairs;
     return window.fatmanGeography;
 };
