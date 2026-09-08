@@ -145,6 +145,42 @@ const fatmanStatic = {
             </tbody>
         </table>
 
+        
+        <!-- SECTION 4B: PAINTINGS -->
+        <h2>🎨 4B. PAINTINGS OF INDIA</h2>
+
+        <div style="background:#1C1917;border:2px solid #F59E0B;padding:12px 16px;border-radius:8px;margin:10px 0;">
+            <b style="color:#F59E0B;">🎯 PYQ Alert — Top Painting Styles!</b><br>
+            <b>Madhubani</b> → Bihar | <b>Kalighat / Patachitra</b> → West Bengal | <b>Pattachitra</b> → Odisha<br>
+            <b>Kalamkari</b> → Andhra Pradesh | <b>Cheriyal Scroll</b> → Telangana | <b>Tanjore</b> → Tamil Nadu<br>
+            <b>Warli</b> → Maharashtra | <b>Phad / Pichwai</b> → Rajasthan | <b>Thangka</b> → Sikkim
+        </div>
+
+        <div style="display:grid; grid-template-columns: 1fr 1fr; gap:8px; margin:10px 0;">
+            <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #F87171;"><b>Bihar</b><br>Madhubani (Mithila), Manjusha, Tikuli Art</div>
+            <div style="background:#0F172A;padding:10px;border-radius:6px;border-left:3px solid #34D399;"><b>Jharkhand</b><br>Paitkar, Sohrai and Khovar Art</div>
+            <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #60A5FA;"><b>West Bengal</b><br>Kalighat, Patachitra, Patua Dokra</div>
+            <div style="background:#0F172A;padding:10px;border-radius:6px;border-left:3px solid #FBBF24;"><b>Odisha</b><br>Pattachitra, Saura, Palm Leaf Etchings</div>
+            <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #A78BFA;"><b>Andhra Pradesh</b><br>Kalamkari, Nirmal Paintings</div>
+            <div style="background:#0F172A;padding:10px;border-radius:6px;border-left:3px solid #38BDF8;"><b>Telangana</b><br>Cheriyal Scroll Painting</div>
+            <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #FB923C;"><b>Karnataka</b><br>Mysore Painting, Chittara</div>
+            <div style="background:#0F172A;padding:10px;border-radius:6px;border-left:3px solid #4ADE80;"><b>Tamil Nadu</b><br>Tanjore (Thanjavur)</div>
+            <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #F59E0B;"><b>Kerala</b><br>Kalamezhuthu (Floor art), Mural Paintings</div>
+            <div style="background:#0F172A;padding:10px;border-radius:6px;border-left:3px solid #F87171;"><b>Sikkim</b><br>Thangka (Buddhist Scrolls)</div>
+            <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #34D399;"><b>Assam</b><br>Manuscript Paintings (Hasti Vidyarnava)</div>
+            <div style="background:#0F172A;padding:10px;border-radius:6px;border-left:3px solid #60A5FA;"><b>Arunachal Pradesh</b><br>Monpa wood carvings/paintings</div>
+            <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #FBBF24;"><b>Himachal Pradesh</b><br>Kangra, Guler, Chamba (Pahari Styles)</div>
+            <div style="background:#0F172A;padding:10px;border-radius:6px;border-left:3px solid #A78BFA;"><b>Punjab</b><br>Phulkari (Art on fabric), Sikh School of Art</div>
+            <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #38BDF8;"><b>Uttarakhand</b><br>Aipan (Ritualistic floor/wall art)</div>
+            <div style="background:#0F172A;padding:10px;border-radius:6px;border-left:3px solid #FB923C;"><b>Uttar Pradesh</b><br>Sanjhi, Braj Art, Chikankari, Choke Poorna</div>
+            <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #4ADE80;"><b>Rajasthan</b><br>Phad, Pichwai, Kishangarh, Miniature Paintings</div>
+            <div style="background:#0F172A;padding:10px;border-radius:6px;border-left:3px solid #F59E0B;"><b>Gujarat</b><br>Pithora, Rogan Art, Mata ni Pachedi</div>
+            <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #F87171;"><b>Goa</b><br>Kaavi Art (Red oxide murals)</div>
+            <div style="background:#0F172A;padding:10px;border-radius:6px;border-left:3px solid #34D399;"><b>Madhya Pradesh</b><br>Gond, Bagh Murals</div>
+            <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #60A5FA;"><b>Chhattisgarh</b><br>Rajwar, Bhitti Chitra</div>
+            <div style="background:#0F172A;padding:10px;border-radius:6px;border-left:3px solid #FBBF24;"><b>Maharashtra</b><br>Warli Painting</div>
+        </div>
+
         <!-- SECTION 5: FESTIVALS -->
         <h2>🎉 5. FESTIVALS OF INDIA</h2>
 
