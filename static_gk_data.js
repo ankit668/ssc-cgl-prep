@@ -4,154 +4,204 @@ const fatmanStatic = {
         <h1 style="color:#F59E0B; text-align:center;">⭐ STATIC GK MASTER FILE</h1>
         <p style="text-align:center; color:#94A3B8;">Complete compilation from Parmar Fatman — Every point is a PYQ!</p>
 
+        <!-- SECTION 1: CLASSICAL MUSIC -->
         <h2>🎵 1. INDIAN CLASSICAL MUSIC</h2>
-        <h3>Two Major Traditions</h3>
-        <ul>
-            <li>Indian classical music is divided into <strong>Hindustani</strong> (North India) and <strong>Carnatic</strong> (South India).</li>
-            <li><strong>Hindustani</strong>: Sung in Hindi, Braj, Avadhi, Rajasthani, Marathi.</li>
-            <li><strong>Carnatic</strong>: Sung in Sanskrit, Kannada, Telugu, Malayalam, Tamil.</li>
-        </ul>
 
-        <h3>Common Elements</h3>
-        <ul>
-            <li><strong>Raga</strong>: Melodic framework; each associated with a specific emotion or time. E.g. <em>Miyan ki Todi</em> (late morning).</li>
-            <li><strong>Taal</strong>: Rhythmic framework based on cyclic time units.</li>
-            <li><strong>Sruti</strong>: Smallest measurable difference between musical pitches.</li>
-            <li><strong>7 Basic Swaras (Sargam)</strong>: Sa (Shadjam) · Re (Rishabham) · Ga (Gandharam) · Ma (Madhyamam) · Pa (Panchamam) · Da (Dhaivatham) · Ni (Nishadham)</li>
-        </ul>
+        <div style="background:linear-gradient(135deg,#1E3A5F,#0F172A);border-left:4px solid #38BDF8;padding:12px 16px;border-radius:8px;margin:10px 0;">
+            <b style="color:#38BDF8;">⚡ Quick Recall</b><br>
+            • Two streams: <b>Hindustani</b> (North) | <b>Carnatic</b> (South)<br>
+            • Common: <b>Raga</b> (melodic) · <b>Taal</b> (rhythmic) · <b>Sruti</b> (smallest pitch difference)<br>
+            • Father of Carnatic: <b>Purandar Das</b> | First Bharat Ratna musician: <b>M.S. Subbulakshmi (1998)</b>
+        </div>
 
-        <h3>3 Major Vocal Forms of Hindustani Music</h3>
+        <div style="background:#1C1917;border:2px solid #F59E0B;padding:12px 16px;border-radius:8px;margin:10px 0;">
+            <b style="color:#F59E0B;">🎯 PYQ Alert — Most Tested!</b><br>
+            "Who first composed <b>Dhrupad</b>?" → <b>Miyan Tansen</b><br>
+            "Who first composed <b>Khayal</b>?" → <b>Amir Khusrau</b><br>
+            "Trinity of Carnatic Music?" → <b>Tyagaraja · Muthuswami Dikshitar · Syama Sastri</b>
+        </div>
+
+        <h3>3 Major Vocal Forms of Hindustani</h3>
         <table style="width:100%; border-collapse:collapse; margin:10px 0;">
-            <thead><tr style="background:#1E40AF;color:white;"><th style="padding:8px;text-align:left;">Form</th><th style="padding:8px;text-align:left;">Key Facts</th></tr></thead>
+            <thead><tr style="background:#1E40AF;color:white;"><th style="padding:8px;">Form</th><th style="padding:8px;">Instrument</th><th style="padding:8px;">Composer / Key Fact</th></tr></thead>
             <tbody>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Dhrupad</strong></td><td style="padding:8px;">Sung with Tanpura &amp; Pankhawaj. First composed by <strong>Miyan Tansen</strong>. Propounded by Dagar family &amp; Darbhanga Gharana.</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Khayal</strong></td><td style="padding:8px;">Lyrical/expressive. First composed by <strong>Amir Khusrau</strong>.</td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Tarana</strong></td><td style="padding:8px;">Performed at end of concert to convey elation. Basis for <strong>Tillana</strong> of Carnatic.</td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Dhrupad</strong></td><td style="padding:8px;">Tanpura + Pankhawaj</td><td style="padding:8px;">First composed by <strong>Miyan Tansen</strong>; Dagar family &amp; Darbhanga Gharana</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Khayal</strong></td><td style="padding:8px;">—</td><td style="padding:8px;">First composed by <strong>Amir Khusrau</strong>; lyrical &amp; expressive</td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Tarana</strong></td><td style="padding:8px;">—</td><td style="padding:8px;">End of concert; conveys elation; basis for Carnatic <strong>Tillana</strong></td></tr>
             </tbody>
         </table>
-        <p>Semi-classical Hindustani forms: <strong>Thumri, Ghazal, Bhajan, Kajari, Tappa, Dhamar, Chaiti, Kajri.</strong></p>
+        <p>Semi-classical: <strong>Thumri · Ghazal · Bhajan · Kajari · Tappa · Dhamar · Chaiti</strong></p>
 
-        <h3>Major Styles of Carnatic Music</h3>
-        <ul>
-            <li><strong>Gitam</strong> → <strong>Svarajati</strong> → <strong>Kirtanam</strong> (devotional) → <strong>Tillana</strong> (like Tarana) → <strong>Kriti</strong> (evolved from Kirtana) → <strong>Suladi</strong> → <strong>Padam</strong> (love poem).</li>
-        </ul>
-
-        <h3>Hindustani vs Carnatic</h3>
+        <h3>Hindustani vs Carnatic — Comparison</h3>
         <table style="width:100%; border-collapse:collapse; margin:10px 0;">
             <thead><tr style="background:#1E40AF;color:white;"><th style="padding:8px;">Feature</th><th style="padding:8px;">Hindustani</th><th style="padding:8px;">Carnatic</th></tr></thead>
             <tbody>
                 <tr style="background:#1E293B;"><td style="padding:8px;">Influence</td><td style="padding:8px;">Arab, Persian, Afghan</td><td style="padding:8px;">Indigenous</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;">Improvisation</td><td style="padding:8px;">High scope (artists vary freely)</td><td style="padding:8px;">Less scope; one prescribed style</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;">Improvisation</td><td style="padding:8px;">High (artists freely vary)</td><td style="padding:8px;">Less; one prescribed style</td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;">Ragas</td><td style="padding:8px;">6 major ragas</td><td style="padding:8px;">72 Melakartas + Janya ragas</td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;">Styles</td><td style="padding:8px;">Several Gharanas</td><td style="padding:8px;">One particular style</td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;">Emphasis</td><td style="padding:8px;">Vocals + Instruments equally important</td><td style="padding:8px;">More emphasis on vocals</td></tr>
             </tbody>
         </table>
 
-        <h3>Important Personalities</h3>
+        <h3>Key Personalities</h3>
         <table style="width:100%; border-collapse:collapse; margin:10px 0;">
-            <thead><tr style="background:#166534;color:white;"><th style="padding:8px;">Personality</th><th style="padding:8px;">Contribution</th></tr></thead>
+            <thead><tr style="background:#166534;color:white;"><th style="padding:8px;">Person</th><th style="padding:8px;">Contribution</th></tr></thead>
             <tbody>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Vishnu Narayan Bhatkhande</strong></td><td style="padding:8px;">Categorised ragas into 10 basic scales called <strong>Thaats</strong></td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Vishnu Narayan Bhatkhande</strong></td><td style="padding:8px;">Categorised ragas into 10 <strong>Thaats</strong></td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Vishnu Digambar Paluskar</strong></td><td style="padding:8px;">Founded <strong>Gandharva Mahavidyalaya</strong> (1901, Lahore)</td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Purandar Das</strong></td><td style="padding:8px;">Father of <strong>Carnatic Music</strong></td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>M. S. Subbulakshmi</strong></td><td style="padding:8px;">Queen of Carnatic Music. First musician to receive <strong>Bharat Ratna (1998)</strong></td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Trinity of Carnatic (18th C.)</strong></td><td style="padding:8px;">Tyagaraja · Muthuswami Dikshitar · Syama Sastri</td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Purandar Das</strong></td><td style="padding:8px;"><strong>Father of Carnatic Music</strong></td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>M. S. Subbulakshmi</strong></td><td style="padding:8px;">Queen of Carnatic; <strong>1st musician → Bharat Ratna (1998)</strong></td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Trinity of Carnatic</strong></td><td style="padding:8px;">Tyagaraja · Muthuswami Dikshitar · Syama Sastri (18th C.)</td></tr>
             </tbody>
         </table>
 
+        <!-- SECTION 2: CLASSICAL DANCES -->
         <h2>💃 2. CLASSICAL DANCES OF INDIA</h2>
+
+        <div style="background:linear-gradient(135deg,#3B1D6E,#0F172A);border-left:4px solid #A855F7;padding:12px 16px;border-radius:8px;margin:10px 0;">
+            <b style="color:#A855F7;">🧠 Mnemonic — All 8 Classical Dances</b><br>
+            <b style="font-size:1.1em; color:white;">"BKK KOMMS"</b><br>
+            <b>B</b>haratanatyam (TN) · <b>K</b>athak (UP) · <b>K</b>athakali (KL) · <b>K</b>uchipudi (AP) · <b>O</b>dissi (OD) · <b>M</b>anipuri (MN) · <b>M</b>ohiniyattam (KL) · <b>S</b>attriya (AS)
+        </div>
+
+        <div style="background:#1C1917;border:2px solid #F59E0B;padding:12px 16px;border-radius:8px;margin:10px 0;">
+            <b style="color:#F59E0B;">🎯 PYQ Alert</b><br>
+            • <b>Oldest</b> classical dance = <b>Bharatanatyam</b> (evolved from Sadir; source: <b>Abhinaya Darpana</b>)<br>
+            • <b>Brass plate dancing</b> = <b>Kuchipudi</b> (Tarangam)<br>
+            • <b>Kathakali face colors</b>: Green=Noble · Red=Evil · Black=Demon<br>
+            • <b>Sattriya</b> introduced by <b>Srimanta Sankardev</b> (15th century, Assam)
+        </div>
+
         <table style="width:100%; border-collapse:collapse; margin:10px 0;">
-            <thead><tr style="background:#7C3AED;color:white;"><th style="padding:8px;">Dance</th><th style="padding:8px;">State</th><th style="padding:8px;">Key Facts</th><th style="padding:8px;">Famous Exponents</th></tr></thead>
+            <thead><tr style="background:#7C3AED;color:white;"><th style="padding:8px;">Dance</th><th style="padding:8px;">State</th><th style="padding:8px;">Key Identifier</th><th style="padding:8px;">Famous Exponents</th></tr></thead>
             <tbody>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Bharatanatyam</strong></td><td style="padding:8px;">Tamil Nadu</td><td style="padding:8px;">Oldest. Evolved from <strong>Sadir</strong>. Source: <strong>Abhinaya Darpana</strong> (Nandikeshwara)</td><td style="padding:8px;">Rukmini Devi Arundale, Yamini Krishnamurthy, Mrinalini Sarabhai</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Kathak</strong></td><td style="padding:8px;">Uttar Pradesh</td><td style="padding:8px;">Radha-Krishna theme. Gharanas: Lucknow, Jaipur, Benares</td><td style="padding:8px;">Birju Maharaj, Lacchu Maharaj, Sitara Devi</td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Kathakali</strong></td><td style="padding:8px;">Kerala</td><td style="padding:8px;">Story play. Face colors: Green=Noble, Red=Evil, Black=Demon</td><td style="padding:8px;">Kalamandalam Gopi, Rita Ganguly</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Kuchipudi</strong></td><td style="padding:8px;">Andhra Pradesh</td><td style="padding:8px;">Brass plate dancing = <strong>Tarangam</strong></td><td style="padding:8px;">Radha Reddy, Raja Reddy, Yamini Krishnamurthy</td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Odissi</strong></td><td style="padding:8px;">Odisha</td><td style="padding:8px;"><strong>Tribhanga</strong> posture</td><td style="padding:8px;">Kelucharan Mohapatra, Sonal Mansingh, Sujata Mohapatra</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Manipuri</strong></td><td style="padding:8px;">Manipur</td><td style="padding:8px;">Lai Haraoba festival; Vaishnavism theme</td><td style="padding:8px;">Jhaveri Sisters</td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Mohiniyattam</strong></td><td style="padding:8px;">Kerala</td><td style="padding:8px;">'Dance of the Enchantress'</td><td style="padding:8px;">Kanak Rele, Sunanda Nair</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Sattriya</strong></td><td style="padding:8px;">Assam</td><td style="padding:8px;">Introduced by <strong>Srimanta Sankardev</strong> (15th century)</td><td style="padding:8px;">Jatin Goswami</td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Bharatanatyam</strong></td><td style="padding:8px;">Tamil Nadu 🏛️</td><td style="padding:8px;">Oldest; from Sadir; Abhinaya Darpana</td><td style="padding:8px;">Rukmini Devi Arundale, Yamini Krishnamurthy</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Kathak</strong></td><td style="padding:8px;">Uttar Pradesh 🕌</td><td style="padding:8px;">Radha-Krishna; Lucknow/Jaipur/Benares Gharanas</td><td style="padding:8px;">Birju Maharaj, Sitara Devi</td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Kathakali</strong></td><td style="padding:8px;">Kerala 🌴</td><td style="padding:8px;">Story play; Green=Noble, Red=Evil, Black=Demon</td><td style="padding:8px;">Kalamandalam Gopi</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Kuchipudi</strong></td><td style="padding:8px;">Andhra Pradesh 🌶️</td><td style="padding:8px;">Brass plate dancing = Tarangam</td><td style="padding:8px;">Radha Reddy, Raja Reddy</td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Odissi</strong></td><td style="padding:8px;">Odisha 🐚</td><td style="padding:8px;">Tribhanga posture</td><td style="padding:8px;">Kelucharan Mohapatra, Sonal Mansingh</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Manipuri</strong></td><td style="padding:8px;">Manipur 🎋</td><td style="padding:8px;">Lai Haraoba festival; Vaishnavism</td><td style="padding:8px;">Jhaveri Sisters</td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Mohiniyattam</strong></td><td style="padding:8px;">Kerala 🌴</td><td style="padding:8px;">Dance of the Enchantress</td><td style="padding:8px;">Kanak Rele, Sunanda Nair</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Sattriya</strong></td><td style="padding:8px;">Assam 🎏</td><td style="padding:8px;">Srimanta Sankardev (15th century)</td><td style="padding:8px;">Jatin Goswami</td></tr>
             </tbody>
         </table>
 
+        <!-- SECTION 3: FOLK DANCES -->
         <h2>🎭 3. FOLK DANCES OF INDIA</h2>
-        <table style="width:100%; border-collapse:collapse; margin:10px 0;">
-            <thead><tr style="background:#9D174D;color:white;"><th style="padding:8px;">State</th><th style="padding:8px;">Folk Dances</th></tr></thead>
-            <tbody>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Andhra Pradesh</strong></td><td style="padding:8px;">Vilasini Natyam, Bhamakalpam, Veeranatyam, Dhimsa, Kolattam, Lambadi</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Assam</strong></td><td style="padding:8px;"><strong>Bihu</strong>, Bichhua, Natpuja, Maharas, Kaligopal, <strong>Bagurumba</strong>, Jhumura Hobjanai</td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Bihar</strong></td><td style="padding:8px;">Jata-Jatin, Bakho-Bakhain, Panwariya, Sama Chakwa, Bidesia</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Gujarat</strong></td><td style="padding:8px;"><strong>Garba</strong>, Dandiya Ras, Tippani Juriun, Bhavai</td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Haryana</strong></td><td style="padding:8px;">Jhumar, Phag, Daph, Dhamal, <strong>Loor</strong>, Gugga, Khor</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Himachal Pradesh</strong></td><td style="padding:8px;">Jhora, Jhali, Chharhi, Dhaman, Chhapeli, Mahasu, <strong>Nati</strong></td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>J&amp;K</strong></td><td style="padding:8px;"><strong>Rauf</strong>, Hikat, Mandjas, Kud Dandi Nach, Damali</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Karnataka</strong></td><td style="padding:8px;"><strong>Yakshagana</strong>, Huttari, Suggi, Kunitha, Karga</td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Kerala</strong></td><td style="padding:8px;">Ottam Thullal, Kaikottikali</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Maharashtra</strong></td><td style="padding:8px;"><strong>Lavani</strong>, Nakata, Koli, Lezim, Gafa, Dahikala Dasavtar</td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Odisha</strong></td><td style="padding:8px;">Savari, Ghumara, Painka, Munari, <strong>Chhau</strong></td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Punjab</strong></td><td style="padding:8px;"><strong>Bhangra</strong>, <strong>Giddha</strong>, Daff, Dhaman, Bhand, Naqual</td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Rajasthan</strong></td><td style="padding:8px;"><strong>Ghumar</strong>, Chakri, Ganagor, Jhulan Leela, <strong>Kalbeliya</strong></td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Tamil Nadu</strong></td><td style="padding:8px;"><strong>Karagam</strong>, Kavadi, Kummi, Kolattam</td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Uttar Pradesh</strong></td><td style="padding:8px;"><strong>Nautanki</strong>, Raslila, Kajri, Jhora</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Chhattisgarh</strong></td><td style="padding:8px;">Gaur Maria, <strong>Panthi</strong>, Raut Nacha, Pandwani, Vedamati</td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Jharkhand</strong></td><td style="padding:8px;">Alkap, Karma Munda, Agni, Jhumar, Paika, <strong>Phagua</strong></td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Goa</strong></td><td style="padding:8px;">Tarangamel, Koli, Dekhni, Fugdi, <strong>Shigmo</strong></td></tr>
-            </tbody>
-        </table>
 
+        <div style="background:linear-gradient(135deg,#5C1A1A,#0F172A);border-left:4px solid #F87171;padding:12px 16px;border-radius:8px;margin:10px 0;">
+            <b style="color:#F87171;">🧠 Top Folk Dance Mnemonics</b><br>
+            • <b>Garba/Dandiya</b> = Gujarat (Navratri) 🪔<br>
+            • <b>Bhangra/Giddha</b> = Punjab 🌾<br>
+            • <b>Bihu</b> = Assam (Bohag/Magh/Kati — 3 types!) 🎍<br>
+            • <b>Yakshagana</b> = Karnataka; <b>Lavani</b> = Maharashtra<br>
+            • <b>Kalbelia/Ghumar</b> = Rajasthan 🐍; <b>Rauf</b> = J&amp;K<br>
+            • <b>Chhau</b> = Odisha; <b>Chhath Puja</b> dance ≠ folk dance (it's a festival!)
+        </div>
+
+        <div style="display:grid; grid-template-columns: 1fr 1fr; gap:8px; margin:10px 0;">
+            <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #60A5FA;"><b>🌾 Andhra Pradesh</b><br>Vilasini Natyam, Bhamakalpam, Veeranatyam, Dhimsa, Kolattam, Lambadi</div>
+            <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #34D399;"><b>🎍 Assam</b><br><b>Bihu</b>, Bichhua, Natpuja, Maharas, <b>Bagurumba</b>, Jhumura Hobjanai</div>
+            <div style="background:#0F172A;padding:10px;border-radius:6px;border-left:3px solid #F87171;"><b>🪁 Bihar</b><br>Jata-Jatin, Bakho-Bakhain, Panwariya, Sama Chakwa, Bidesia</div>
+            <div style="background:#0F172A;padding:10px;border-radius:6px;border-left:3px solid #FBBF24;"><b>🪔 Gujarat</b><br><b>Garba</b>, Dandiya Ras, Tippani Juriun, Bhavai</div>
+            <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #A78BFA;"><b>🌻 Haryana</b><br>Jhumar, Phag, Daph, Dhamal, <b>Loor</b>, Gugga, Khor</div>
+            <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #38BDF8;"><b>⛰️ Himachal Pradesh</b><br>Jhora, Jhali, Chharhi, Dhaman, Chhapeli, <b>Nati</b></div>
+            <div style="background:#0F172A;padding:10px;border-radius:6px;border-left:3px solid #FB923C;"><b>🏔️ J&amp;K</b><br><b>Rauf</b>, Hikat, Mandjas, Kud Dandi Nach, Damali</div>
+            <div style="background:#0F172A;padding:10px;border-radius:6px;border-left:3px solid #4ADE80;"><b>🦁 Karnataka</b><br><b>Yakshagana</b>, Huttari, Suggi, Kunitha, Karga</div>
+            <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #34D399;"><b>🌴 Kerala</b><br>Ottam Thullal, Kaikottikali</div>
+            <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #F59E0B;"><b>🎡 Maharashtra</b><br><b>Lavani</b>, Nakata, Koli, Lezim, Gafa, Dahikala Dasavtar</div>
+            <div style="background:#0F172A;padding:10px;border-radius:6px;border-left:3px solid #60A5FA;"><b>🐚 Odisha</b><br>Savari, Ghumara, Painka, Munari, <b>Chhau</b></div>
+            <div style="background:#0F172A;padding:10px;border-radius:6px;border-left:3px solid #FBBF24;"><b>🌾 Punjab</b><br><b>Bhangra</b>, <b>Giddha</b>, Daff, Dhaman, Bhand, Naqual</div>
+            <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #F87171;"><b>🐪 Rajasthan</b><br><b>Ghumar</b>, Chakri, Ganagor, Jhulan Leela, <b>Kalbeliya</b></div>
+            <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #A78BFA;"><b>🌺 Tamil Nadu</b><br><b>Karagam</b>, Kavadi, Kummi, Kolattam</div>
+            <div style="background:#0F172A;padding:10px;border-radius:6px;border-left:3px solid #38BDF8;"><b>🕌 Uttar Pradesh</b><br><b>Nautanki</b>, Raslila, Kajri, Jhora</div>
+            <div style="background:#0F172A;padding:10px;border-radius:6px;border-left:3px solid #4ADE80;"><b>🌿 Chhattisgarh</b><br>Gaur Maria, <b>Panthi</b>, Raut Nacha, Pandwani</div>
+            <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #FB923C;"><b>⛏️ Jharkhand</b><br>Alkap, Karma Munda, Agni, Jhumar, Paika, <b>Phagua</b></div>
+            <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #F59E0B;"><b>🏖️ Goa</b><br>Tarangamel, Koli, Dekhni, Fugdi, <b>Shigmo</b></div>
+        </div>
+
+        <!-- SECTION 4: INSTRUMENTS -->
         <h2>🪘 4. MUSICAL INSTRUMENTS &amp; MAESTROS</h2>
+
+        <div style="background:#1C1917;border:2px solid #F59E0B;padding:12px 16px;border-radius:8px;margin:10px 0;">
+            <b style="color:#F59E0B;">🎯 PYQ Alert — Instrument-Person pairs are exam favourites!</b><br>
+            <b>Sitar → Ravi Shankar</b> | <b>Tabla → Zakir Hussain</b> | <b>Shehnai → Bismillah Khan</b><br>
+            <b>Flute → Hariprasad Chaurasia</b> | <b>Sarod → Amjad Ali Khan</b> | <b>Santoor → Shivkumar Sharma</b>
+        </div>
+
         <table style="width:100%; border-collapse:collapse; margin:10px 0;">
-            <thead><tr style="background:#0E7490;color:white;"><th style="padding:8px;">Instrument</th><th style="padding:8px;">Type</th><th style="padding:8px;">Famous Maestros</th></tr></thead>
+            <thead><tr style="background:#0E7490;color:white;"><th style="padding:8px;">Instrument</th><th style="padding:8px;">Type</th><th style="padding:8px;">Maestros</th></tr></thead>
             <tbody>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Sitar</strong></td><td style="padding:8px;">String</td><td style="padding:8px;"><strong>Ravi Shankar</strong>, Vilayat Khan, Nikhil Banerjee, Annapurna Devi</td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Sitar</strong></td><td style="padding:8px;">String (Plucked)</td><td style="padding:8px;"><strong>Ravi Shankar</strong>, Vilayat Khan, Nikhil Banerjee, Annapurna Devi</td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Tabla</strong></td><td style="padding:8px;">Percussion</td><td style="padding:8px;"><strong>Zakir Hussain</strong>, Alla Rakha, Kishan Maharaj</td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Flute</strong></td><td style="padding:8px;">Wind</td><td style="padding:8px;"><strong>Hariprasad Chaurasia</strong>, Pannalal Ghosh</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Sarod</strong></td><td style="padding:8px;">String</td><td style="padding:8px;"><strong>Amjad Ali Khan</strong>, Ali Akbar Khan</td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Shehnai</strong></td><td style="padding:8px;">Wind</td><td style="padding:8px;"><strong>Bismillah Khan</strong>, Ali Ahmad Hussain</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Veena</strong></td><td style="padding:8px;">String</td><td style="padding:8px;">S. Balachander; Asad Ali Khan (Rudra Veena)</td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Santoor</strong></td><td style="padding:8px;">String (Percussion)</td><td style="padding:8px;"><strong>Shivkumar Sharma</strong>, Bhajan Sopori</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Sarangi</strong></td><td style="padding:8px;">String</td><td style="padding:8px;"><strong>Ram Narayan</strong>, Sultan Khan, Sabri Khan</td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Flute (Bansuri)</strong></td><td style="padding:8px;">Wind</td><td style="padding:8px;"><strong>Hariprasad Chaurasia</strong>, Pannalal Ghosh</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Sarod</strong></td><td style="padding:8px;">String (Plucked)</td><td style="padding:8px;"><strong>Amjad Ali Khan</strong>, Ali Akbar Khan</td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Shehnai</strong></td><td style="padding:8px;">Wind (Reed)</td><td style="padding:8px;"><strong>Bismillah Khan</strong>, Ali Ahmad Hussain</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Veena</strong></td><td style="padding:8px;">String (Plucked)</td><td style="padding:8px;">S. Balachander; <em>Rudra Veena</em>: Asad Ali Khan</td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Santoor</strong></td><td style="padding:8px;">String (Struck)</td><td style="padding:8px;"><strong>Shivkumar Sharma</strong>, Bhajan Sopori</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Sarangi</strong></td><td style="padding:8px;">String (Bowed)</td><td style="padding:8px;"><strong>Ram Narayan</strong>, Sultan Khan, Sabri Khan</td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Mridangam</strong></td><td style="padding:8px;">Percussion</td><td style="padding:8px;"><strong>Palghat Mani Iyer</strong>, T. R. Murthy</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Pakhawaj</strong></td><td style="padding:8px;">Percussion</td><td style="padding:8px;">Totaram Sharma, Ayodhya Prasad</td></tr>
             </tbody>
         </table>
 
-        <h2>🎉 5. FESTIVALS OF INDIA (State-wise)</h2>
+        <!-- SECTION 5: FESTIVALS -->
+        <h2>🎉 5. FESTIVALS OF INDIA</h2>
+
+        <div style="background:linear-gradient(135deg,#78350F,#0F172A);border-left:4px solid #FBBF24;padding:12px 16px;border-radius:8px;margin:10px 0;">
+            <b style="color:#FBBF24;">🧠 Festival Mnemonics</b><br>
+            • <b>Bihu</b> (3 types) = Assam: <b>B</b>ohag (spring) · <b>M</b>agh (winter) · <b>K</b>ati (autumn) → <b>"BMK"</b><br>
+            • <b>Onam</b> = Kerala (King Mahabali returns 🎊)<br>
+            • <b>Pongal</b> = Tamil Nadu (harvest); <b>Baisakhi</b> = Punjab (harvest)<br>
+            • <b>Hornbill</b> = Nagaland; <b>Chapchar Kut</b> = Mizoram; <b>Nongkrem</b> = Meghalaya<br>
+            • <b>Rath Yatra</b> = Odisha (Lord Jagannath); <b>Chhath Puja</b> = Bihar (Sun worship)
+        </div>
+
         <table style="width:100%; border-collapse:collapse; margin:10px 0;">
-            <thead><tr style="background:#92400E;color:white;"><th style="padding:8px;">State / UT</th><th style="padding:8px;">Major Festivals</th></tr></thead>
+            <thead><tr style="background:#92400E;color:white;"><th style="padding:8px;">State</th><th style="padding:8px;">Festival(s)</th></tr></thead>
             <tbody>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Assam</strong></td><td style="padding:8px;"><strong>Bihu</strong> (Bohag/Rongali, Magh/Bhogali, Kati/Kongali), Ambubachi, Baishagu, Dehing Patkai</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Bihar</strong></td><td style="padding:8px;"><strong>Chhath Puja</strong>, Bihula</td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Gujarat</strong></td><td style="padding:8px;"><strong>Navratri</strong>, Janmashtami, Kutch Utsav, <strong>Uttarayana</strong> (Kite Festival)</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Haryana</strong></td><td style="padding:8px;">Surajkund Crafts Mela</td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Karnataka</strong></td><td style="padding:8px;"><strong>Mysore Dasara</strong>, Ugadi, Kambala</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Kerala</strong></td><td style="padding:8px;"><strong>Onam</strong>, Vishu, <strong>Thrissur Pooram</strong></td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Maharashtra</strong></td><td style="padding:8px;"><strong>Ganesh Chaturthi</strong>, Gudi Padwa</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Manipur</strong></td><td style="padding:8px;">Yaoshang, Porag, Chavang Kut</td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Meghalaya</strong></td><td style="padding:8px;"><strong>Nongkrem</strong>, Wangala</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Mizoram</strong></td><td style="padding:8px;"><strong>Chapchar Kut</strong></td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Nagaland</strong></td><td style="padding:8px;"><strong>Hornbill</strong>, Moatsu</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Odisha</strong></td><td style="padding:8px;"><strong>Rath Yatra</strong>, Raja Parba, Nuakhai</td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Punjab</strong></td><td style="padding:8px;"><strong>Lohri, Baisakhi</strong>, Bandi Chhor Divas</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Rajasthan</strong></td><td style="padding:8px;"><strong>Gangaur</strong>, Teej, Pushkar Fair</td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Tamil Nadu</strong></td><td style="padding:8px;"><strong>Pongal</strong>, Thaipusam, Natyanjali</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Telangana</strong></td><td style="padding:8px;"><strong>Bonalu</strong>, Bathukamma</td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>West Bengal</strong></td><td style="padding:8px;"><strong>Durga Puja</strong></td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Goa</strong></td><td style="padding:8px;">Sunburn, Shigmo, Sao Joao</td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Arunachal Pradesh</strong></td><td style="padding:8px;"><strong>Losar</strong>, Mopin, Solung</td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>🎍 Assam</strong></td><td style="padding:8px;"><strong>Bihu</strong> (Bohag/Magh/Kati), Ambubachi, Baishagu, Dehing Patkai</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>🪁 Bihar</strong></td><td style="padding:8px;"><strong>Chhath Puja</strong>, Bihula</td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>🪔 Gujarat</strong></td><td style="padding:8px;"><strong>Navratri</strong>, Janmashtami, Kutch Utsav, <strong>Uttarayana</strong> (Kite Festival)</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>🦁 Karnataka</strong></td><td style="padding:8px;"><strong>Mysore Dasara</strong>, Ugadi, Kambala</td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>🌴 Kerala</strong></td><td style="padding:8px;"><strong>Onam</strong>, Vishu, <strong>Thrissur Pooram</strong></td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>🎡 Maharashtra</strong></td><td style="padding:8px;"><strong>Ganesh Chaturthi</strong>, Gudi Padwa</td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>🎋 Manipur</strong></td><td style="padding:8px;">Yaoshang, Porag, Chavang Kut</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>🌿 Meghalaya</strong></td><td style="padding:8px;"><strong>Nongkrem</strong>, Wangala</td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>🏔️ Mizoram</strong></td><td style="padding:8px;"><strong>Chapchar Kut</strong></td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>🦅 Nagaland</strong></td><td style="padding:8px;"><strong>Hornbill</strong>, Moatsu</td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>🐚 Odisha</strong></td><td style="padding:8px;"><strong>Rath Yatra</strong>, Raja Parba, Nuakhai</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>🌾 Punjab</strong></td><td style="padding:8px;"><strong>Lohri · Baisakhi</strong>, Bandi Chhor Divas</td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>🐪 Rajasthan</strong></td><td style="padding:8px;"><strong>Gangaur</strong>, Teej, Pushkar Fair</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>🌺 Tamil Nadu</strong></td><td style="padding:8px;"><strong>Pongal</strong>, Thaipusam, Natyanjali</td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>🌶️ Telangana</strong></td><td style="padding:8px;"><strong>Bonalu</strong>, Bathukamma</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>🐯 West Bengal</strong></td><td style="padding:8px;"><strong>Durga Puja</strong></td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>🏖️ Goa</strong></td><td style="padding:8px;">Sunburn, Shigmo, Sao Joao</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>❄️ Arunachal Pradesh</strong></td><td style="padding:8px;"><strong>Losar</strong>, Mopin, Solung</td></tr>
             </tbody>
         </table>
 
+        <!-- SECTION 6: IMPORTANT DAYS -->
         <h2>📅 6. IMPORTANT DAYS</h2>
+
+        <div style="background:linear-gradient(135deg,#064E3B,#0F172A);border-left:4px solid #34D399;padding:12px 16px;border-radius:8px;margin:10px 0;">
+            <b style="color:#34D399;">⚡ Quick Recall — Top 5 most tested!</b><br>
+            • <b>Feb 28</b> = National Science Day (Raman Effect) 🔬<br>
+            • <b>Aug 29</b> = National Sports Day (Dhyan Chand birthday) 🏑<br>
+            • <b>Sep 5</b> = Teachers' Day (Dr. Radhakrishnan birthday) 📖<br>
+            • <b>Oct 2</b> = Gandhi Jayanti + Non-Violence Day 🕊️<br>
+            • <b>Nov 26</b> = Constitution Day / Samvidhan Divas 📜
+        </div>
+
         <table style="width:100%; border-collapse:collapse; margin:10px 0;">
             <thead><tr style="background:#065F46;color:white;"><th style="padding:8px;">Date</th><th style="padding:8px;">Day</th><th style="padding:8px;">Note</th></tr></thead>
             <tbody>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Jan 9</strong></td><td style="padding:8px;">Pravasi Bharatiya Divas (NRI Day)</td><td style="padding:8px;"></td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Jan 12</strong></td><td style="padding:8px;">National Youth Day</td><td style="padding:8px;">Birthday of <strong>Swami Vivekananda</strong></td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Jan 12</strong></td><td style="padding:8px;">National Youth Day</td><td style="padding:8px;">🧘 Swami Vivekananda birthday</td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Jan 24</strong></td><td style="padding:8px;">National Girl Child Day</td><td style="padding:8px;"></td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Jan 25</strong></td><td style="padding:8px;">National Voters Day</td><td style="padding:8px;"></td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Feb 2</strong></td><td style="padding:8px;">World Wetlands Day</td><td style="padding:8px;">Ramsar Convention adopted in 1971</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Feb 28</strong></td><td style="padding:8px;">National Science Day</td><td style="padding:8px;"><strong>Raman Effect</strong> discovery</td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Feb 2</strong></td><td style="padding:8px;">World Wetlands Day</td><td style="padding:8px;">Ramsar Convention adopted 1971</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Feb 28 ⭐</strong></td><td style="padding:8px;">National Science Day</td><td style="padding:8px;"><strong>Raman Effect</strong> discovery</td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Mar 8</strong></td><td style="padding:8px;">International Women's Day</td><td style="padding:8px;"></td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Mar 22</strong></td><td style="padding:8px;">World Water Day</td><td style="padding:8px;"></td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Apr 7</strong></td><td style="padding:8px;">World Health Day</td><td style="padding:8px;">WHO established 1948</td></tr>
@@ -160,20 +210,29 @@ const fatmanStatic = {
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Jun 5</strong></td><td style="padding:8px;">World Environment Day</td><td style="padding:8px;"></td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Jun 21</strong></td><td style="padding:8px;">International Yoga Day</td><td style="padding:8px;"></td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Jul 11</strong></td><td style="padding:8px;">World Population Day</td><td style="padding:8px;"></td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Aug 29</strong></td><td style="padding:8px;">National Sports Day</td><td style="padding:8px;">Birthday of <strong>Major Dhyan Chand</strong></td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Sep 5</strong></td><td style="padding:8px;">Teachers' Day</td><td style="padding:8px;">Birthday of <strong>Dr. S Radhakrishnan</strong></td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Aug 29 ⭐</strong></td><td style="padding:8px;">National Sports Day</td><td style="padding:8px;"><strong>Major Dhyan Chand</strong> birthday 🏑</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Sep 5 ⭐</strong></td><td style="padding:8px;">Teachers' Day</td><td style="padding:8px;"><strong>Dr. S Radhakrishnan</strong> birthday 📖</td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Sep 14</strong></td><td style="padding:8px;">Hindi Diwas</td><td style="padding:8px;"></td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Sep 16</strong></td><td style="padding:8px;">World Ozone Day</td><td style="padding:8px;"></td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Oct 2</strong></td><td style="padding:8px;">Gandhi Jayanti &amp; Non-Violence Day</td><td style="padding:8px;"></td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Oct 2 ⭐</strong></td><td style="padding:8px;">Gandhi Jayanti + Non-Violence Day</td><td style="padding:8px;">🕊️</td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Oct 24</strong></td><td style="padding:8px;">UN Day</td><td style="padding:8px;">UN established Oct 24, 1945</td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Nov 26</strong></td><td style="padding:8px;">Constitution Day (Samvidhan Divas)</td><td style="padding:8px;"></td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Nov 26 ⭐</strong></td><td style="padding:8px;">Constitution Day (Samvidhan Divas)</td><td style="padding:8px;">📜</td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Dec 1</strong></td><td style="padding:8px;">World AIDS Day</td><td style="padding:8px;"></td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Dec 10</strong></td><td style="padding:8px;">Human Rights Day</td><td style="padding:8px;"></td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Dec 25</strong></td><td style="padding:8px;">Good Governance Day</td><td style="padding:8px;">Birthday of <strong>Atal Bihari Vajpayee</strong></td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Dec 25</strong></td><td style="padding:8px;">Good Governance Day</td><td style="padding:8px;"><strong>Atal Bihari Vajpayee</strong> birthday</td></tr>
             </tbody>
         </table>
 
+        <!-- SECTION 7: BOOKS & AUTHORS -->
         <h2>📚 7. BOOKS &amp; AUTHORS</h2>
+
+        <div style="background:#1C1917;border:2px solid #F59E0B;padding:12px 16px;border-radius:8px;margin:10px 0;">
+            <b style="color:#F59E0B;">🎯 PYQ Alert — Most Tested Book-Author Pairs</b><br>
+            <b>Arthashastra</b> → Kautilya | <b>Panchatantra</b> → Vishnu Sharma | <b>Rajatarangini</b> → Kalhana (History of Kashmir)<br>
+            <b>Indica</b> → Megasthenes | <b>Anandmath</b> → Bankim Chandra (contains Vande Mataram!)<br>
+            <b>Discovery of India</b> → Nehru | <b>Gitanjali</b> → Tagore (Nobel 1913)
+        </div>
+
         <table style="width:100%; border-collapse:collapse; margin:10px 0;">
             <thead><tr style="background:#1E40AF;color:white;"><th style="padding:8px;">Book</th><th style="padding:8px;">Author</th><th style="padding:8px;">Note</th></tr></thead>
             <tbody>
@@ -184,7 +243,7 @@ const fatmanStatic = {
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Rajatarangini</strong></td><td style="padding:8px;">Kalhana</td><td style="padding:8px;">History of Kashmir</td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Harshacharita &amp; Kadambari</strong></td><td style="padding:8px;">Banabhatta</td><td style="padding:8px;"></td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Abhijnanashakuntalam, Meghaduta</strong></td><td style="padding:8px;">Kalidasa</td><td style="padding:8px;"></td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Indica</strong></td><td style="padding:8px;">Megasthenes</td><td style="padding:8px;">Greek ambassador's account</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Indica</strong></td><td style="padding:8px;">Megasthenes</td><td style="padding:8px;">Greek ambassador's account of India</td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Baburnama</strong></td><td style="padding:8px;">Babur</td><td style="padding:8px;">In Chagatai Turkic</td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Ain-i-Akbari &amp; Akbarnama</strong></td><td style="padding:8px;">Abul Fazl</td><td style="padding:8px;">Court of Akbar</td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Gita Rahasya</strong></td><td style="padding:8px;">Bal Gangadhar Tilak</td><td style="padding:8px;"></td></tr>
@@ -192,73 +251,128 @@ const fatmanStatic = {
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>My Experiments with Truth</strong></td><td style="padding:8px;">Mahatma Gandhi</td><td style="padding:8px;">Autobiography</td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>India Wins Freedom</strong></td><td style="padding:8px;">Maulana Abul Kalam Azad</td><td style="padding:8px;"></td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Poverty &amp; Un-British Rule in India</strong></td><td style="padding:8px;">Dadabhai Naoroji</td><td style="padding:8px;">Drain of Wealth theory</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Anandmath</strong></td><td style="padding:8px;">Bankim Chandra Chatterjee</td><td style="padding:8px;">Contains <strong>Vande Mataram</strong></td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Gitanjali</strong></td><td style="padding:8px;">Rabindranath Tagore</td><td style="padding:8px;">Nobel Prize 1913</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Anandmath ⭐</strong></td><td style="padding:8px;">Bankim Chandra Chatterjee</td><td style="padding:8px;">Contains <strong>Vande Mataram</strong></td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Gitanjali ⭐</strong></td><td style="padding:8px;">Rabindranath Tagore</td><td style="padding:8px;">Nobel Prize 1913</td></tr>
             </tbody>
         </table>
 
+        <!-- SECTION 8: SPORTS -->
         <h2>🏅 8. SPORTS — TROPHIES &amp; TERMS</h2>
+
+        <div style="background:#1C1917;border:2px solid #F59E0B;padding:12px 16px;border-radius:8px;margin:10px 0;">
+            <b style="color:#F59E0B;">🎯 PYQ Alert — Sport = Term/Trophy</b><br>
+            <b>Bully</b> → Hockey | <b>Googly</b> → Cricket | <b>Deuce</b> → Tennis | <b>Bogey</b> → Golf | <b>Love</b> → Badminton/Tennis<br>
+            <b>Durand Cup</b> (oldest) → Football | <b>Thomas Cup</b> → Men's Badminton | <b>Uber Cup</b> → Women's Badminton<br>
+            <b>French Open</b> → Clay | <b>Wimbledon</b> → Grass | <b>Australian/US Open</b> → Hard court
+        </div>
+
         <table style="width:100%; border-collapse:collapse; margin:10px 0;">
-            <thead><tr style="background:#7C3AED;color:white;"><th style="padding:8px;">Sport</th><th style="padding:8px;">Trophies / Tournaments</th><th style="padding:8px;">Key Terms</th></tr></thead>
+            <thead><tr style="background:#7C3AED;color:white;"><th style="padding:8px;">Sport</th><th style="padding:8px;">Major Trophies</th><th style="padding:8px;">Key Terms</th></tr></thead>
             <tbody>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Cricket</strong></td><td style="padding:8px;">Ashes, Ranji, Irani, Duleep, Vijay Hazare, Deodhar</td><td style="padding:8px;">Silly point, Gully, LBW, Googly, Yorker</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Football</strong></td><td style="padding:8px;">Durand Cup (oldest), Santosh Trophy, Rovers Cup, Subroto Cup</td><td style="padding:8px;">Offside, Penalty kick, Yellow card, Striker</td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Hockey</strong></td><td style="padding:8px;">Aga Khan Cup, Dhyan Chand Trophy, Sultan Azlan Shah Cup</td><td style="padding:8px;">Bully, Scoop, Short corner, Penalty stroke</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Tennis</strong></td><td style="padding:8px;">Davis Cup. Grand Slams: Australian (Hard), French (Clay), Wimbledon (Grass), US Open (Hard)</td><td style="padding:8px;">Deuce, Advantage, Let, Fault, Ace</td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Badminton</strong></td><td style="padding:8px;">Thomas Cup (Men), Uber Cup (Women), Sudirman Cup</td><td style="padding:8px;">Smash, Drop, Let, Love</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Golf</strong></td><td style="padding:8px;">Ryder Cup, Walker Cup</td><td style="padding:8px;">Bogey, Birdie, Par, Hole-in-one, Tee, Putt</td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>🏏 Cricket</strong></td><td style="padding:8px;">Ashes, Ranji, Irani, Duleep, Vijay Hazare, Deodhar</td><td style="padding:8px;">Silly point, Gully, LBW, Googly, Yorker</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>⚽ Football</strong></td><td style="padding:8px;"><strong>Durand Cup</strong> (oldest), Santosh Trophy, Rovers Cup, Subroto Cup</td><td style="padding:8px;">Offside, Penalty kick, Yellow card, Striker</td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>🏑 Hockey</strong></td><td style="padding:8px;">Aga Khan Cup, Dhyan Chand Trophy, Sultan Azlan Shah Cup</td><td style="padding:8px;">Bully, Scoop, Short corner, Penalty stroke</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>🎾 Tennis</strong></td><td style="padding:8px;">Davis Cup; Grand Slams: Australian (Hard), French (Clay), Wimbledon (Grass), US (Hard)</td><td style="padding:8px;">Deuce, Advantage, Let, Fault, Ace</td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>🏸 Badminton</strong></td><td style="padding:8px;">Thomas Cup (Men), Uber Cup (Women), Sudirman Cup</td><td style="padding:8px;">Smash, Drop, Let, Love</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>⛳ Golf</strong></td><td style="padding:8px;">Ryder Cup, Walker Cup</td><td style="padding:8px;">Bogey, Birdie, Par, Hole-in-one, Tee, Putt</td></tr>
             </tbody>
         </table>
 
-        <h2>🏛️ 9. INTERNATIONAL &amp; NATIONAL ORGANISATIONS</h2>
+        <!-- SECTION 9: ORGANISATIONS -->
+        <h2>🏛️ 9. ORGANISATIONS — HQs</h2>
+
+        <div style="background:linear-gradient(135deg,#1E3A5F,#0F172A);border-left:4px solid #38BDF8;padding:12px 16px;border-radius:8px;margin:10px 0;">
+            <b style="color:#38BDF8;">🧠 Mnemonic — Geneva Cluster (3 big ones!)</b><br>
+            <b>WHO · WTO · ILO</b> = all in <b>Geneva</b> 🇨🇭<br>
+            <b>IMF + World Bank</b> = <b>Washington D.C.</b> 🇺🇸 | <b>FAO</b> = <b>Rome</b> 🇮🇹 | <b>ICJ</b> = <b>The Hague</b> 🇳🇱<br>
+            <b>SAARC</b> = Kathmandu 🇳🇵 | <b>ASEAN</b> = Jakarta 🇮🇩 | <b>NATO</b> = Brussels 🇧🇪
+        </div>
+
         <table style="width:100%; border-collapse:collapse; margin:10px 0;">
-            <thead><tr style="background:#1E40AF;color:white;"><th style="padding:8px;">Organisation</th><th style="padding:8px;">HQ</th><th style="padding:8px;">Est. / Key Fact</th></tr></thead>
+            <thead><tr style="background:#1E40AF;color:white;"><th style="padding:8px;">Organisation</th><th style="padding:8px;">HQ</th><th style="padding:8px;">Key Fact</th></tr></thead>
             <tbody>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>United Nations (UN)</strong></td><td style="padding:8px;">New York</td><td style="padding:8px;">Oct 24, 1945</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>UNESCO</strong></td><td style="padding:8px;">Paris, France</td><td style="padding:8px;"></td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>WHO</strong></td><td style="padding:8px;">Geneva, Switzerland</td><td style="padding:8px;">Est. 1948</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>WTO</strong></td><td style="padding:8px;">Geneva, Switzerland</td><td style="padding:8px;"></td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>ILO</strong></td><td style="padding:8px;">Geneva, Switzerland</td><td style="padding:8px;"></td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>IMF</strong></td><td style="padding:8px;">Washington D.C.</td><td style="padding:8px;"></td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>World Bank</strong></td><td style="padding:8px;">Washington D.C.</td><td style="padding:8px;"></td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>FAO</strong></td><td style="padding:8px;">Rome, Italy</td><td style="padding:8px;"></td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>ICJ</strong></td><td style="padding:8px;">The Hague, Netherlands</td><td style="padding:8px;"></td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>SAARC</strong></td><td style="padding:8px;">Kathmandu, Nepal</td><td style="padding:8px;"></td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>ASEAN</strong></td><td style="padding:8px;">Jakarta, Indonesia</td><td style="padding:8px;"></td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>NATO</strong></td><td style="padding:8px;">Brussels, Belgium</td><td style="padding:8px;"></td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>NDB (BRICS Bank)</strong></td><td style="padding:8px;">Shanghai, China</td><td style="padding:8px;"></td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>ISRO</strong></td><td style="padding:8px;">Bengaluru</td><td style="padding:8px;">Founded 1969</td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>DRDO</strong></td><td style="padding:8px;">New Delhi</td><td style="padding:8px;">Founded 1958</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>RBI</strong></td><td style="padding:8px;">Mumbai</td><td style="padding:8px;">Founded 1935 in Kolkata; moved to Mumbai 1937</td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>SEBI</strong></td><td style="padding:8px;">Mumbai</td><td style="padding:8px;">Est. 1988; Statutory body 1992</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>NABARD</strong></td><td style="padding:8px;">Mumbai</td><td style="padding:8px;">Founded 1982; Sivaraman Committee</td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>UN</strong></td><td style="padding:8px;">New York 🇺🇸</td><td style="padding:8px;">Oct 24, 1945</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>UNESCO</strong></td><td style="padding:8px;">Paris, France 🇫🇷</td><td style="padding:8px;"></td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>WHO · WTO · ILO</strong></td><td style="padding:8px;">Geneva, Switzerland 🇨🇭</td><td style="padding:8px;">WHO est. 1948</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>IMF · World Bank</strong></td><td style="padding:8px;">Washington D.C. 🇺🇸</td><td style="padding:8px;"></td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>FAO</strong></td><td style="padding:8px;">Rome, Italy 🇮🇹</td><td style="padding:8px;"></td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>ICJ</strong></td><td style="padding:8px;">The Hague, Netherlands 🇳🇱</td><td style="padding:8px;"></td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>SAARC</strong></td><td style="padding:8px;">Kathmandu, Nepal 🇳🇵</td><td style="padding:8px;"></td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>ASEAN</strong></td><td style="padding:8px;">Jakarta, Indonesia 🇮🇩</td><td style="padding:8px;"></td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>NATO</strong></td><td style="padding:8px;">Brussels, Belgium 🇧🇪</td><td style="padding:8px;"></td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>NDB (BRICS Bank)</strong></td><td style="padding:8px;">Shanghai, China 🇨🇳</td><td style="padding:8px;"></td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>ISRO</strong></td><td style="padding:8px;">Bengaluru 🚀</td><td style="padding:8px;">Founded 1969</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>DRDO</strong></td><td style="padding:8px;">New Delhi 🛡️</td><td style="padding:8px;">Founded 1958</td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>RBI</strong></td><td style="padding:8px;">Mumbai 🏦</td><td style="padding:8px;">Founded 1935 in Kolkata; moved to Mumbai 1937</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>SEBI</strong></td><td style="padding:8px;">Mumbai 📈</td><td style="padding:8px;">Est. 1988; Statutory body 1992</td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>NABARD</strong></td><td style="padding:8px;">Mumbai 🌾</td><td style="padding:8px;">Founded 1982; Sivaraman Committee</td></tr>
             </tbody>
         </table>
 
-        <h2>🏆 10. CENSUS 2011 — KEY STATISTICS</h2>
-        <table style="width:100%; border-collapse:collapse; margin:10px 0;">
-            <thead><tr style="background:#065F46;color:white;"><th style="padding:8px;">Category</th><th style="padding:8px;">Highest</th><th style="padding:8px;">Lowest</th></tr></thead>
-            <tbody>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Population (State)</strong></td><td style="padding:8px;"><strong>Uttar Pradesh</strong></td><td style="padding:8px;"><strong>Sikkim</strong></td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Population (UT)</strong></td><td style="padding:8px;"><strong>Delhi</strong></td><td style="padding:8px;"><strong>Lakshadweep</strong></td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Sex Ratio (State)</strong></td><td style="padding:8px;"><strong>Kerala</strong> (1084)</td><td style="padding:8px;"><strong>Haryana</strong> (879)</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Sex Ratio (UT)</strong></td><td style="padding:8px;"><strong>Puducherry</strong> (1037)</td><td style="padding:8px;"><strong>Daman &amp; Diu</strong> (618)</td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Child Sex Ratio</strong></td><td style="padding:8px;"><strong>Arunachal Pradesh</strong> (972)</td><td style="padding:8px;"><strong>Haryana</strong> (834)</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Literacy Rate (State)</strong></td><td style="padding:8px;"><strong>Kerala</strong> (94%)</td><td style="padding:8px;"><strong>Bihar</strong> (61.8%)</td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Literacy Rate (UT)</strong></td><td style="padding:8px;"><strong>Lakshadweep</strong> (91.8%)</td><td style="padding:8px;">Dadra &amp; Nagar Haveli</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Population Density (State)</strong></td><td style="padding:8px;"><strong>Bihar</strong> (1106)</td><td style="padding:8px;"><strong>Arunachal Pradesh</strong> (17)</td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Population Density (UT)</strong></td><td style="padding:8px;"><strong>Delhi</strong> (11320)</td><td style="padding:8px;"><strong>A&amp;N Islands</strong> (46)</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Decadal Growth Rate</strong></td><td style="padding:8px;"><strong>Meghalaya</strong> (27.9%)</td><td style="padding:8px;"><strong>Nagaland</strong> (-0.6%)</td></tr>
-            </tbody>
-        </table>
-        <ul>
-            <li>Census 2011 = <strong>15th overall</strong>, <strong>7th after independence</strong>. Slogan: <strong>'Our Census, Our Future'</strong>. Commissioner: <strong>C. Chandramouli</strong>.</li>
-            <li>First census in India: <strong>1872</strong> (Lord Mayo). First synchronous census: <strong>1881</strong> (Lord Ripon).</li>
-            <li>India Population: <strong>1.21 Billion</strong> (17.5% of world). Most spoken language: <strong>Hindi (43.6%)</strong>.</li>
-            <li>Overall Decadal Growth: <strong>17.7%</strong>.</li>
-        </ul>
+        <!-- SECTION 10: CENSUS -->
+        <h2>📊 10. CENSUS 2011 — SMART COMPARE</h2>
 
-        <h2>🏅 11. AWARDS &amp; HONOURS</h2>
+        <div style="background:linear-gradient(135deg,#064E3B,#0F172A);border-left:4px solid #34D399;padding:12px 16px;border-radius:8px;margin:10px 0;">
+            <b style="color:#34D399;">⚡ Quick Recall — Core Census Facts</b><br>
+            • 1st Census: <b>1872</b> (Lord Mayo) | 1st Synchronous: <b>1881</b> (Lord Ripon)<br>
+            • Census 2011 = <b>15th overall</b>, <b>7th after independence</b><br>
+            • Slogan: <b>'Our Census, Our Future'</b> | Commissioner: <b>C. Chandramouli</b><br>
+            • India Population: <b>1.21 Billion</b> | Decadal Growth: <b>17.7%</b> | Most spoken: <b>Hindi (43.6%)</b>
+        </div>
+
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px; margin:10px 0;">
+            <div style="background:#1E3A1E;border:1px solid #34D399;border-radius:8px;padding:12px;">
+                <b style="color:#34D399; font-size:1.05em;">📈 HIGHEST</b>
+                <ul style="margin:8px 0; padding-left:16px;">
+                    <li><b>Population (State):</b> Uttar Pradesh</li>
+                    <li><b>Population (UT):</b> Delhi</li>
+                    <li><b>Sex Ratio (State):</b> Kerala (1084)</li>
+                    <li><b>Sex Ratio (UT):</b> Puducherry (1037)</li>
+                    <li><b>Child Sex Ratio:</b> Arunachal Pradesh (972)</li>
+                    <li><b>Literacy (State):</b> Kerala (94%)</li>
+                    <li><b>Literacy (UT):</b> Lakshadweep (91.8%)</li>
+                    <li><b>Density (State):</b> Bihar (1106/km²)</li>
+                    <li><b>Density (UT):</b> Delhi (11320/km²)</li>
+                    <li><b>Decadal Growth:</b> Meghalaya (27.9%)</li>
+                </ul>
+            </div>
+            <div style="background:#3A1E1E;border:1px solid #F87171;border-radius:8px;padding:12px;">
+                <b style="color:#F87171; font-size:1.05em;">📉 LOWEST</b>
+                <ul style="margin:8px 0; padding-left:16px;">
+                    <li><b>Population (State):</b> Sikkim</li>
+                    <li><b>Population (UT):</b> Lakshadweep</li>
+                    <li><b>Sex Ratio (State):</b> Haryana (879)</li>
+                    <li><b>Sex Ratio (UT):</b> Daman &amp; Diu (618)</li>
+                    <li><b>Child Sex Ratio:</b> Haryana (834)</li>
+                    <li><b>Literacy (State):</b> Bihar (61.8%)</li>
+                    <li><b>Literacy (UT):</b> Dadra &amp; NH</li>
+                    <li><b>Density (State):</b> Arunachal Pradesh (17/km²)</li>
+                    <li><b>Density (UT):</b> A&amp;N Islands (46/km²)</li>
+                    <li><b>Decadal Growth:</b> Nagaland (-0.6%)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div style="background:#1C1917;border:2px solid #FBBF24;padding:12px 16px;border-radius:8px;margin:10px 0;">
+            <b style="color:#FBBF24;">🧠 Mnemonic — Census Top 5</b><br>
+            <b>Kerala</b> = always HIGHEST (sex ratio, literacy) 🥇<br>
+            <b>Bihar</b> = HIGHEST density · LOWEST literacy (remember: Bihar = dense but less literate)<br>
+            <b>Haryana</b> = LOWEST sex ratio (879) — always tested!<br>
+            <b>Arunachal Pradesh</b> = LOWEST density (just 17!); HIGHEST child sex ratio<br>
+            <b>Meghalaya</b> = HIGHEST decadal growth · <b>Nagaland</b> = NEGATIVE growth
+        </div>
+
+        <!-- SECTION 11: AWARDS -->
+        <h2>🏆 11. AWARDS &amp; HONOURS</h2>
+
+        <div style="background:#1C1917;border:2px solid #F59E0B;padding:12px 16px;border-radius:8px;margin:10px 0;">
+            <b style="color:#F59E0B;">🎯 PYQ Alert — First Winners are always asked!</b><br>
+            <b>Bharat Ratna</b> (1954) → C. Rajagopalachari · S. Radhakrishnan · C.V. Raman (all 3 together!)<br>
+            <b>Jnanpith</b> (1st) → G. Sankara Kurup (Malayalam) | (1st woman) → Ashapoorna Devi (Bengali)<br>
+            <b>Saraswati Samman</b> (1st) → Harivansh Rai Bachchan | <b>Dada Saheb Phalke</b> (1st) → Devika Rani (1969)<br>
+            <b>Khel Ratna</b> (1st) → Viswanathan Anand (1991-92) | <b>Magsaysay</b> (1st Indian) → Vinoba Bhave (1958)
+        </div>
+
         <table style="width:100%; border-collapse:collapse; margin:10px 0;">
             <thead><tr style="background:#92400E;color:white;"><th style="padding:8px;">Award</th><th style="padding:8px;">Key Facts</th></tr></thead>
             <tbody>
