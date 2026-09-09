@@ -235,6 +235,7 @@ function setupNavigation() {
             if (tabId === "ows") label = "One Word Substitutions";
             if (tabId === "affixes") label = "Prefixes & Suffixes";
             if (tabId === "quant-drills") label = "Quant Drills";
+            if (tabId === "jja") label = "⚖️ JJA Mains Prep";
             title.innerText = label;
 
             // Trigger conditional renders
@@ -256,6 +257,8 @@ function setupNavigation() {
                 if (typeof quitReasoningDrill === 'function') quitReasoningDrill();
             } else if (tabId === "english-drills") {
                 if (typeof quitEnglishDrill === 'function') quitEnglishDrill();
+            } else if (tabId === "jja") {
+                if (typeof renderJJAPanel === 'function') renderJJAPanel();
             }
         });
     });
