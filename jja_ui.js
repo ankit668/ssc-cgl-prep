@@ -55,6 +55,13 @@
             background:linear-gradient(135deg,#F59E0B,#D97706); color:#000; 
         }
         .jja-tab-btn:hover:not(.jja-active) { background:#334155; color:#E2E8F0; }
+        .gram-mini-tab {
+            background:#1E293B; border:1px solid #334155; color:#94A3B8;
+            padding:6px 12px; border-radius:12px; cursor:pointer;
+            font-size:0.85em; font-weight:600; white-space:nowrap;
+            transition:all 0.2s;
+        }
+        .gram-mini-tab.active { background:#F43F5E; color:#FFF; border-color:#E11D48; }
         .jja-card {
             background:#1E293B; border-radius:12px; padding:16px; margin-bottom:14px;
             border-left:4px solid #F59E0B;
@@ -266,11 +273,19 @@ Yours faithfully,<br>
             <b style="color:#F43F5E;">📝 Descriptive Grammar Transformations</b>
             <p style="margin-top:6px; font-size:0.85em; color:#94A3B8;">Practicing 'Do as directed' (Voice, Narration, Synthesis). Click to reveal answers and rules.</p>
         </div>
+        <div style="display:flex; gap:8px; margin-bottom:16px; overflow-x:auto; padding-bottom:8px;">
+            <button class="gram-mini-tab active" onclick="filterGrammar('All', this)">All</button>
+            <button class="gram-mini-tab" onclick="filterGrammar('Voice', this)">Voice</button>
+            <button class="gram-mini-tab" onclick="filterGrammar('Narration', this)">Narration</button>
+            <button class="gram-mini-tab" onclick="filterGrammar('Transformation', this)">Transformation</button>
+            <button class="gram-mini-tab" onclick="filterGrammar('Synthesis', this)">Synthesis</button>
+            <button class="gram-mini-tab" onclick="filterGrammar('Fill in the Blanks', this)">Fill in Blanks</button>
+        </div>
         `;
 
         window.jjaData.grammar.forEach((g, i) => {
             html += `
-            <div class="jja-card" style="border-left-color:#F43F5E;">
+            <div class="jja-card gram-item" data-cat="${g.category}" style="border-left-color:#F43F5E;">
                 <div style="display:flex; align-items:flex-start; gap:8px;">
                     <span style="color:#94A3B8; font-size:0.8em; font-weight:700; padding-top:2px;">${i + 1}.</span>
                     <div style="flex:1;">
@@ -289,6 +304,18 @@ Yours faithfully,<br>
 
         container.innerHTML = html;
     }
+
+    window.filterGrammar = function(cat, btn) {
+        document.querySelectorAll('.gram-mini-tab').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        document.querySelectorAll('.gram-item').forEach(el => {
+            if (cat === 'All' || el.getAttribute('data-cat') === cat) {
+                el.style.display = 'block';
+            } else {
+                el.style.display = 'none';
+            }
+        });
+    };
 
     // ── TRANSLATION TAB ───────────────────────────────────────
     function renderTranslations(container) {
