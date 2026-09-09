@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -109,6 +109,10 @@
                 <button class="nav-item" data-tab="backup">
                     <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
                     <span>Data Backup</span>
+                </button>
+                <button class="nav-item" data-tab="jja" style="background:linear-gradient(135deg,#78350F20,#0F172A); border:1px solid #F59E0B40;">
+                    <svg width="20" height="20" fill="none" stroke="#F59E0B" stroke-width="2" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                    <span style="color:#F59E0B;">JJA Mains</span>
                 </button>
             </nav>
             <div class="sidebar-footer">
@@ -1094,6 +1098,9 @@
         </main>
     </div>
 
+    <!-- JJA Mains Section (outside main grid so it takes full width) -->
+    <section id="jja-view" class="tab-panel" style="display:none; padding:16px;"></section>
+
     <!-- Confetti Canvas Overlay -->
     <canvas id="confetti-canvas" style="position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:9999;display:none;"></canvas>
 
@@ -1141,7 +1148,38 @@
     <script src="current_affairs_data.js?v=8"></script>
     <script src="static_gk_data.js?v=120"></script>
     <script src="fatman_ui.js?v=117"></script>
-    
+    <script src="jja_data.js?v=1"></script>
+    <script src="jja_ui.js?v=1"></script>
+    <script>
+    // Wire JJA tab into existing tab switcher
+    (function() {
+        var appLayout = document.querySelector('.app-layout');
+        var jjaSection = document.getElementById('jja-view');
+
+        document.querySelectorAll('.nav-item[data-tab]').forEach(function(btn) {
+            btn.addEventListener('click', function() {
+                var tab = this.getAttribute('data-tab');
+                if (tab === 'jja') {
+                    // Hide the main content, show JJA
+                    var mainContent = document.querySelector('.main-content');
+                    if (mainContent) mainContent.style.display = 'none';
+                    if (jjaSection) {
+                        jjaSection.style.display = 'block';
+                        if (window.renderJJAPanel) window.renderJJAPanel();
+                    }
+                    document.querySelectorAll('.nav-item').forEach(function(b) { b.classList.remove('active'); });
+                    this.classList.add('active');
+                } else {
+                    // Show main content, hide JJA
+                    var mainContent = document.querySelector('.main-content');
+                    if (mainContent) mainContent.style.display = '';
+                    if (jjaSection) jjaSection.style.display = 'none';
+                }
+            });
+        });
+    })();
+    </script>
+
     <!-- Register Service Worker for PWA -->
     <script>
       if ('serviceWorker' in navigator) {
