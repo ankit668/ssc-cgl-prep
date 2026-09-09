@@ -1,5 +1,5 @@
 // JJA MAINS DATA — jja_data.js
-// Essays: 15 | Letters: 15 | Translations: 12 | Legal GK: 35 | Typing Passages: 10
+// Essays: 15 | Letters: 15 | Grammar: 60 | Translations: 12 | Legal GK: 35 | Typing Passages: 10
 
 const jjaData = {
   "essays": [
@@ -816,6 +816,428 @@ const jjaData = {
       "id": "passage_10",
       "difficulty": "Medium",
       "text": "The Right to Information Act, enacted by the Parliament of India in the year 2005, is a transformative piece of legislation that has significantly enhanced the transparency and accountability of government institutions in the country. The Act empowers every citizen of India with the right to request information from a public authority, which is any authority or body established or constituted by the Constitution of India or by any other law made by Parliament or a State Legislature. A public authority is obligated to provide the requested information within thirty days of the receipt of the application. If the request pertains to the life or liberty of a person, the information must be provided within forty-eight hours. The Act also mandates the proactive disclosure of certain categories of information by all public authorities on their official websites, so that citizens can access it without even having to formally apply. Each public authority is required to designate a Public Information Officer (PIO) who is responsible for receiving and processing RTI applications. An applicant who is aggrieved by the response received, or by the failure of the PIO to respond within the stipulated time, can file a first appeal with a designated officer in the same public authority. A further second appeal can be filed with the Information Commission, which is an independent statutory body established at the central and state levels. The Right to Information Act has been widely celebrated as a landmark victory for participatory democracy and the empowerment of ordinary citizens."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "gram_1",
+      "category": "Voice",
+      "question": "Change to Passive Voice: The Chief Justice administered the oath of office.",
+      "answer": "The oath of office was administered by the Chief Justice.",
+      "rule": "In the passive voice, the object of the active sentence becomes the subject, and the verb takes the 'to be + past participle' form."
+    },
+    {
+      "id": "gram_2",
+      "category": "Voice",
+      "question": "Change to Passive Voice: They are examining the key witnesses in the courtroom.",
+      "answer": "The key witnesses are being examined in the courtroom.",
+      "rule": "For present continuous tense, the passive verb form is 'is/are being + past participle'."
+    },
+    {
+      "id": "gram_3",
+      "category": "Voice",
+      "question": "Change to Active Voice: The final verdict will be pronounced by the bench tomorrow.",
+      "answer": "The bench will pronounce the final verdict tomorrow.",
+      "rule": "In the active voice, the doer of the action (the bench) becomes the subject."
+    },
+    {
+      "id": "gram_4",
+      "category": "Voice",
+      "question": "Change to Passive Voice: The defense attorney had already submitted the written arguments.",
+      "answer": "The written arguments had already been submitted by the defense attorney.",
+      "rule": "For past perfect tense, the passive form uses 'had been + past participle'."
+    },
+    {
+      "id": "gram_5",
+      "category": "Voice",
+      "question": "Change to Passive Voice: Did the committee approve the new legal framework?",
+      "answer": "Was the new legal framework approved by the committee?",
+      "rule": "In interrogative sentences, the auxiliary verb starts the passive sentence, followed by the subject and past participle."
+    },
+    {
+      "id": "gram_6",
+      "category": "Voice",
+      "question": "Change to Active Voice: The petition was dismissed by the High Court due to lack of evidence.",
+      "answer": "The High Court dismissed the petition due to lack of evidence.",
+      "rule": "The passive past simple 'was dismissed' becomes the active past simple 'dismissed' with the agent as the subject."
+    },
+    {
+      "id": "gram_7",
+      "category": "Voice",
+      "question": "Change to Passive Voice: The clerk is typing the official transcript.",
+      "answer": "The official transcript is being typed by the clerk.",
+      "rule": "Present continuous changes to 'is being + past participle' in passive."
+    },
+    {
+      "id": "gram_8",
+      "category": "Voice",
+      "question": "Change to Passive Voice: Do not violate the rules of the court.",
+      "answer": "Let the rules of the court not be violated.",
+      "rule": "For imperative sentences, the passive is formed using 'Let + object + be + past participle'."
+    },
+    {
+      "id": "gram_9",
+      "category": "Voice",
+      "question": "Change to Active Voice: The summons has been issued by the magistrate.",
+      "answer": "The magistrate has issued the summons.",
+      "rule": "Present perfect passive 'has been issued' reverts to active 'has issued' with the agent as subject."
+    },
+    {
+      "id": "gram_10",
+      "category": "Voice",
+      "question": "Change to Passive Voice: The jury found the defendant guilty.",
+      "answer": "The defendant was found guilty by the jury.",
+      "rule": "The simple past 'found' becomes 'was found' in passive voice."
+    },
+    {
+      "id": "gram_11",
+      "category": "Voice",
+      "question": "Change to Passive Voice: No one has signed the affidavit yet.",
+      "answer": "The affidavit has not been signed yet.",
+      "rule": "When the active subject is indefinite like 'no one', it makes the passive sentence negative."
+    },
+    {
+      "id": "gram_12",
+      "category": "Voice",
+      "question": "Change to Active Voice: A life sentence was awarded to the convict by the judge.",
+      "answer": "The judge awarded a life sentence to the convict.",
+      "rule": "The agent 'the judge' becomes the subject of the active sentence."
+    },
+    {
+      "id": "gram_13",
+      "category": "Voice",
+      "question": "Change to Passive Voice: People expect justice to be swift.",
+      "answer": "It is expected that justice will be swift.",
+      "rule": "Verbs like expect, believe, and report can be changed to passive using 'It is + past participle'."
+    },
+    {
+      "id": "gram_14",
+      "category": "Voice",
+      "question": "Change to Active Voice: The files are being reviewed by the audit team.",
+      "answer": "The audit team is reviewing the files.",
+      "rule": "Passive 'are being reviewed' changes to active present continuous 'is reviewing'."
+    },
+    {
+      "id": "gram_15",
+      "category": "Voice",
+      "question": "Change to Passive Voice: Who drafted this amendment?",
+      "answer": "By whom was this amendment drafted?",
+      "rule": "Questions beginning with 'Who' change to 'By whom' in passive voice."
+    },
+    {
+      "id": "gram_16",
+      "category": "Narration",
+      "question": "Change to Indirect Speech: The lawyer said, \"The witness is lying under oath.\"",
+      "answer": "The lawyer said that the witness was lying under oath.",
+      "rule": "Present continuous tense changes to past continuous in indirect speech."
+    },
+    {
+      "id": "gram_17",
+      "category": "Narration",
+      "question": "Change to Indirect Speech: The judge said to the prosecutor, \"Have you gathered all the necessary evidence?\"",
+      "answer": "The judge asked the prosecutor if he had gathered all the necessary evidence.",
+      "rule": "Interrogative sentences starting with auxiliary verbs are connected using 'if' or 'whether', and present perfect changes to past perfect."
+    },
+    {
+      "id": "gram_18",
+      "category": "Narration",
+      "question": "Change to Direct Speech: The client asked the advocate when the hearing would commence.",
+      "answer": "The client said to the advocate, \"When will the hearing commence?\"",
+      "rule": "'Would' reverts to 'will', and indirect questions become direct questions using the exact words spoken."
+    },
+    {
+      "id": "gram_19",
+      "category": "Narration",
+      "question": "Change to Indirect Speech: The inspector said, \"I arrested the suspect yesterday.\"",
+      "answer": "The inspector said that he had arrested the suspect the previous day.",
+      "rule": "Simple past changes to past perfect, and 'yesterday' changes to 'the previous day'."
+    },
+    {
+      "id": "gram_20",
+      "category": "Narration",
+      "question": "Change to Indirect Speech: The judge commanded, \"Maintain silence in the courtroom.\"",
+      "answer": "The judge commanded them to maintain silence in the courtroom.",
+      "rule": "In imperative sentences, the reporting verb is followed by an object + infinitive ('to' + verb)."
+    },
+    {
+      "id": "gram_21",
+      "category": "Narration",
+      "question": "Change to Indirect Speech: He said, \"Alas! The appeal has been rejected.\"",
+      "answer": "He exclaimed with sorrow that the appeal had been rejected.",
+      "rule": "Exclamatory sentences expressing sorrow use 'exclaimed with sorrow', and the tense backshifts."
+    },
+    {
+      "id": "gram_22",
+      "category": "Narration",
+      "question": "Change to Direct Speech: The magistrate ordered the police to release the accused on bail.",
+      "answer": "The magistrate said to the police, \"Release the accused on bail.\"",
+      "rule": "The infinitive phrase 'to release' is changed back into a direct command."
+    },
+    {
+      "id": "gram_23",
+      "category": "Narration",
+      "question": "Change to Indirect Speech: She said to me, \"I will draft the legal notice tomorrow.\"",
+      "answer": "She told me that she would draft the legal notice the next day.",
+      "rule": "'Said to' becomes 'told', 'will' becomes 'would', and 'tomorrow' changes to 'the next day'."
+    },
+    {
+      "id": "gram_24",
+      "category": "Narration",
+      "question": "Change to Indirect Speech: The witness said, \"I do not know anything about this crime.\"",
+      "answer": "The witness said that he did not know anything about that crime.",
+      "rule": "Simple present 'do not know' changes to simple past 'did not know', and 'this' changes to 'that'."
+    },
+    {
+      "id": "gram_25",
+      "category": "Narration",
+      "question": "Change to Indirect Speech: The attorney general stated, \"The Constitution is the supreme law of the land.\"",
+      "answer": "The attorney general stated that the Constitution is the supreme law of the land.",
+      "rule": "Universal truths or facts do not change tense in indirect speech."
+    },
+    {
+      "id": "gram_26",
+      "category": "Narration",
+      "question": "Change to Direct Speech: She requested the clerk to give her a copy of the order.",
+      "answer": "She said to the clerk, \"Please give me a copy of the order.\"",
+      "rule": "The reporting verb 'requested' is represented by the word 'please' in direct speech."
+    },
+    {
+      "id": "gram_27",
+      "category": "Narration",
+      "question": "Change to Indirect Speech: He said, \"Let us adjourn the meeting for today.\"",
+      "answer": "He proposed that they should adjourn the meeting for that day.",
+      "rule": "Sentences starting with 'Let us' are changed using 'proposed' or 'suggested', followed by 'should'."
+    },
+    {
+      "id": "gram_28",
+      "category": "Narration",
+      "question": "Change to Indirect Speech: The principal said to the student, \"Why were you absent from the tribunal yesterday?\"",
+      "answer": "The principal asked the student why he had been absent from the tribunal the previous day.",
+      "rule": "In 'wh-' questions, the question word is used as the conjunction, and past simple changes to past perfect."
+    },
+    {
+      "id": "gram_29",
+      "category": "Narration",
+      "question": "Change to Direct Speech: The officer warned the public not to cross the barricades.",
+      "answer": "The officer said to the public, \"Do not cross the barricades.\"",
+      "rule": "Negative commands in indirect speech ('not to cross') revert to 'Do not + verb' in direct speech."
+    },
+    {
+      "id": "gram_30",
+      "category": "Narration",
+      "question": "Change to Indirect Speech: The applicant said, \"I have submitted all the documents.\"",
+      "answer": "The applicant said that he had submitted all the documents.",
+      "rule": "Present perfect 'have submitted' changes to past perfect 'had submitted'."
+    },
+    {
+      "id": "gram_31",
+      "category": "Transformation",
+      "question": "Remove 'too': The penalty is too severe to be paid by a common man.",
+      "answer": "The penalty is so severe that it cannot be paid by a common man.",
+      "rule": "'Too...to' is replaced with 'so...that' followed by a negative clause."
+    },
+    {
+      "id": "gram_32",
+      "category": "Transformation",
+      "question": "Change from Affirmative to Negative (without changing meaning): The judgment was entirely fair.",
+      "answer": "The judgment was not at all unfair.",
+      "rule": "An affirmative sentence can be made negative by using a negative word with an antonym."
+    },
+    {
+      "id": "gram_33",
+      "category": "Transformation",
+      "question": "Change to Comparative Degree: No other lawyer in the firm is as brilliant as Mr. Sharma.",
+      "answer": "Mr. Sharma is more brilliant than any other lawyer in the firm.",
+      "rule": "Positive degree 'as brilliant as' is transformed to comparative using 'more brilliant than any other'."
+    },
+    {
+      "id": "gram_34",
+      "category": "Transformation",
+      "question": "Change from Simple to Complex sentence: In spite of his innocence, he was detained.",
+      "answer": "Although he was innocent, he was detained.",
+      "rule": "A simple phrase 'In spite of' is changed to a subordinate clause beginning with 'Although' to make a complex sentence."
+    },
+    {
+      "id": "gram_35",
+      "category": "Transformation",
+      "question": "Change to Interrogative: Everyone respects a just judge.",
+      "answer": "Who does not respect a just judge?",
+      "rule": "An assertive sentence starting with 'Everyone' can be changed into a rhetorical question starting with 'Who does not'."
+    },
+    {
+      "id": "gram_36",
+      "category": "Transformation",
+      "question": "Change from Complex to Simple sentence: He confessed that he was guilty.",
+      "answer": "He confessed his guilt.",
+      "rule": "A noun clause 'that he was guilty' is replaced by a noun phrase 'his guilt' to form a simple sentence."
+    },
+    {
+      "id": "gram_37",
+      "category": "Transformation",
+      "question": "Change from Negative to Affirmative: He did not fail to attend the court hearing.",
+      "answer": "He attended the court hearing.",
+      "rule": "A double negative 'did not fail to attend' translates to a positive affirmative 'attended'."
+    },
+    {
+      "id": "gram_38",
+      "category": "Transformation",
+      "question": "Remove 'too': The evidence is too vague to prove his involvement.",
+      "answer": "The evidence is so vague that it cannot prove his involvement.",
+      "rule": "Replace 'too' with 'so', and 'to' with 'that' followed by 'cannot'."
+    },
+    {
+      "id": "gram_39",
+      "category": "Transformation",
+      "question": "Change to Superlative Degree: Very few decisions are as landmark as this one.",
+      "answer": "This is one of the most landmark decisions.",
+      "rule": "The structure 'Very few...as' in positive degree changes to 'one of the + superlative degree'."
+    },
+    {
+      "id": "gram_40",
+      "category": "Transformation",
+      "question": "Change from Assertive to Exclamatory: It was a highly controversial ruling.",
+      "answer": "What a highly controversial ruling it was!",
+      "rule": "Assertive sentences with noun phrases can be changed to exclamatory starting with 'What a'."
+    },
+    {
+      "id": "gram_41",
+      "category": "Transformation",
+      "question": "Change to Simple Sentence: As soon as the judge arrived, the proceedings began.",
+      "answer": "On the arrival of the judge, the proceedings began.",
+      "rule": "The adverb clause of time 'As soon as' is replaced by a prepositional phrase 'On the arrival of'."
+    },
+    {
+      "id": "gram_42",
+      "category": "Transformation",
+      "question": "Change to Negative: As soon as the bell rang, the court adjourned.",
+      "answer": "No sooner did the bell ring than the court adjourned.",
+      "rule": "An affirmative 'As soon as' is changed to a negative 'No sooner...than'."
+    },
+    {
+      "id": "gram_43",
+      "category": "Transformation",
+      "question": "Change to Affirmative: Only a trained advocate can argue this complex case.",
+      "answer": "None but a trained advocate can argue this complex case.",
+      "rule": "'Only' referring to a person can be replaced by 'None but' to form a negative sentence, which when reversed can form a rule."
+    },
+    {
+      "id": "gram_44",
+      "category": "Transformation",
+      "question": "Change from Compound to Complex sentence: Do your duty, and you will be rewarded.",
+      "answer": "If you do your duty, you will be rewarded.",
+      "rule": "A compound sentence with 'and' indicating a condition is changed to complex using an 'If' clause."
+    },
+    {
+      "id": "gram_45",
+      "category": "Transformation",
+      "question": "Change from Exclamatory to Assertive: How elegantly she drafted the petition!",
+      "answer": "She drafted the petition very elegantly.",
+      "rule": "Exclamatory sentences starting with 'How' are changed into assertive sentences using 'very' before the adverb."
+    },
+    {
+      "id": "gram_46",
+      "category": "Synthesis",
+      "question": "Combine the sentences into a Simple Sentence: The thief saw the police. He ran away.",
+      "answer": "Seeing the police, the thief ran away.",
+      "rule": "Two sentences with the same subject can be combined using a present participle ('Seeing')."
+    },
+    {
+      "id": "gram_47",
+      "category": "Synthesis",
+      "question": "Combine the sentences into a Complex Sentence: The judge gave his verdict. The courtroom erupted in chaos.",
+      "answer": "When the judge gave his verdict, the courtroom erupted in chaos.",
+      "rule": "Use a subordinating conjunction like 'When' to show the time relationship between the two clauses."
+    },
+    {
+      "id": "gram_48",
+      "category": "Synthesis",
+      "question": "Combine into a Compound Sentence: He must pay the fine. He will face imprisonment.",
+      "answer": "He must pay the fine, or he will face imprisonment.",
+      "rule": "Alternative options can be combined using the coordinating conjunction 'or'."
+    },
+    {
+      "id": "gram_49",
+      "category": "Synthesis",
+      "question": "Combine into a Simple Sentence: He was found guilty of fraud. He was sentenced to five years in prison.",
+      "answer": "Having been found guilty of fraud, he was sentenced to five years in prison.",
+      "rule": "A perfect participle phrase ('Having been found') can combine sentences where one action precedes another."
+    },
+    {
+      "id": "gram_50",
+      "category": "Synthesis",
+      "question": "Combine into a Complex Sentence: This is the exact location. The crime took place here.",
+      "answer": "This is the exact location where the crime took place.",
+      "rule": "A relative adverb 'where' is used to connect sentences describing a place."
+    },
+    {
+      "id": "gram_51",
+      "category": "Synthesis",
+      "question": "Combine into a Simple Sentence: He is very weak. He cannot stand in the witness box.",
+      "answer": "He is too weak to stand in the witness box.",
+      "rule": "Sentences showing cause and effect can be combined using 'too...to'."
+    },
+    {
+      "id": "gram_52",
+      "category": "Synthesis",
+      "question": "Combine into a Compound Sentence: The lawyer was experienced. He lost the case.",
+      "answer": "The lawyer was experienced, yet he lost the case.",
+      "rule": "Contrasting statements can be combined using a coordinating conjunction like 'yet' or 'but'."
+    },
+    {
+      "id": "gram_53",
+      "category": "Synthesis",
+      "question": "Combine into a Complex Sentence: You must work hard. You will not pass the judicial exam.",
+      "answer": "Unless you work hard, you will not pass the judicial exam.",
+      "rule": "A condition can be expressed using a subordinating conjunction like 'Unless'."
+    },
+    {
+      "id": "gram_54",
+      "category": "Synthesis",
+      "question": "Combine into a Simple Sentence: The court adjourned. The lawyers left the premises.",
+      "answer": "The court having adjourned, the lawyers left the premises.",
+      "rule": "When subjects are different and one action follows another, use the absolute phrase construction."
+    },
+    {
+      "id": "gram_55",
+      "category": "Synthesis",
+      "question": "Combine into a Complex Sentence: A man was arrested. He had stolen the documents.",
+      "answer": "The man who had stolen the documents was arrested.",
+      "rule": "Use a relative pronoun ('who') to combine sentences by creating an adjective clause."
+    },
+    {
+      "id": "gram_56",
+      "category": "Fill in the Blanks",
+      "question": "The accused was absolved ___ all the charges levied against him.",
+      "answer": "of",
+      "rule": "The verb 'absolve' is followed by the preposition 'of'."
+    },
+    {
+      "id": "gram_57",
+      "category": "Fill in the Blanks",
+      "question": "The constitution ensures that all citizens are equal ___ the law.",
+      "answer": "before",
+      "rule": "The correct phrase in legal contexts is 'equal before the law'."
+    },
+    {
+      "id": "gram_58",
+      "category": "Fill in the Blanks",
+      "question": "The newly appointed judge will preside ___ the session tomorrow.",
+      "answer": "over",
+      "rule": "The verb 'preside' takes the preposition 'over' when indicating authority over a meeting or trial."
+    },
+    {
+      "id": "gram_59",
+      "category": "Fill in the Blanks",
+      "question": "He has decided to appeal ___ the High Court against the lower court's decision.",
+      "answer": "to",
+      "rule": "You appeal 'to' a higher authority or court."
+    },
+    {
+      "id": "gram_60",
+      "category": "Fill in the Blanks",
+      "question": "Failure to comply ___ the court's order will result in a penalty.",
+      "answer": "with",
+      "rule": "The verb 'comply' is always followed by the preposition 'with'."
     }
   ]
 };

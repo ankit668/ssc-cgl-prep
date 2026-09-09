@@ -35,6 +35,7 @@
             <div id="jja-tab-bar" style="display:flex; gap:6px; flex-wrap:wrap; margin-bottom:20px; background:#0F172A; padding:8px; border-radius:12px;">
                 <button onclick="jjaTab('essay')" id="jja-tab-essay" class="jja-tab-btn jja-active">✍️ Essay</button>
                 <button onclick="jjaTab('letter')" id="jja-tab-letter" class="jja-tab-btn">✉️ Letter</button>
+                <button onclick="jjaTab('grammar')" id="jja-tab-grammar" class="jja-tab-btn">📝 Grammar</button>
                 <button onclick="jjaTab('translation')" id="jja-tab-translation" class="jja-tab-btn">🔄 Translation</button>
                 <button onclick="jjaTab('legal')" id="jja-tab-legal" class="jja-tab-btn">⚖️ Legal GK</button>
                 <button onclick="jjaTab('typing')" id="jja-tab-typing" class="jja-tab-btn">⌨️ Typing Test</button>
@@ -136,6 +137,7 @@
 
         if (tab === 'essay') renderEssays(content);
         else if (tab === 'letter') renderLetters(content);
+        else if (tab === 'grammar') renderGrammar(content);
         else if (tab === 'translation') renderTranslations(content);
         else if (tab === 'legal') renderLegalGK(content);
         else if (tab === 'typing') renderTypingTest(content);
@@ -246,6 +248,41 @@ Yours faithfully,<br>
                 </div>
                 <div id="letter-${l.id}" class="jja-hidden" style="margin-top:12px; background:#0F172A; padding:14px; border-radius:8px; color:#CBD5E1; font-size:0.85em; line-height:1.9; white-space:pre-wrap; font-family:'Courier New', monospace;">${l.modelAnswer}</div>
                 <button class="jja-reveal-btn" onclick="jjaToggle('letter-${l.id}', this)" data-open="0">📖 Show Model Letter</button>
+            </div>
+            `;
+        });
+        container.innerHTML = html;
+    }
+
+    // ── GRAMMAR TAB ───────────────────────────────────────────
+    function renderGrammar(container) {
+        if (!window.jjaData || !window.jjaData.grammar) {
+            container.innerHTML = '<p style="color:#94A3B8; text-align:center; padding:30px;">Grammar content loading...</p>';
+            return;
+        }
+
+        let html = `
+        <div class="jja-card" style="margin-bottom:16px; border-left-color:#F43F5E;">
+            <b style="color:#F43F5E;">📝 Descriptive Grammar Transformations</b>
+            <p style="margin-top:6px; font-size:0.85em; color:#94A3B8;">Practicing 'Do as directed' (Voice, Narration, Synthesis). Click to reveal answers and rules.</p>
+        </div>
+        `;
+
+        window.jjaData.grammar.forEach((g, i) => {
+            html += `
+            <div class="jja-card" style="border-left-color:#F43F5E;">
+                <div style="display:flex; align-items:flex-start; gap:8px;">
+                    <span style="color:#94A3B8; font-size:0.8em; font-weight:700; padding-top:2px;">${i + 1}.</span>
+                    <div style="flex:1;">
+                        <span class="jja-badge" style="background:#4C0519; color:#F43F5E; margin:0 0 8px 0; display:inline-block;">${g.category}</span>
+                        <b style="color:#E2E8F0; display:block;">${g.question}</b>
+                    </div>
+                </div>
+                <div id="gram-${g.id}" class="jja-hidden" style="margin-top:12px; background:#0F172A; padding:14px; border-radius:8px; border:1px solid #334155;">
+                    <div style="color:#34D399; font-weight:600; font-size:0.95em; margin-bottom:8px;">Ans: ${g.answer}</div>
+                    <div style="color:#94A3B8; font-size:0.82em;"><i>Rule: ${g.rule}</i></div>
+                </div>
+                <button class="jja-reveal-btn" onclick="jjaToggle('gram-${g.id}', this)" data-open="0">👁️ Show Answer</button>
             </div>
             `;
         });
@@ -558,7 +595,8 @@ Yours faithfully,<br>
             'outline': ['📋 Show Outline', '📋 Hide Outline'],
             'essay': ['📖 Show Model Essay', '📖 Hide Model Essay'],
             'letter': ['📖 Show Model Letter', '📖 Hide Model Letter'],
-            'trans': ['👁️ Show Translation', '👁️ Hide Translation']
+            'trans': ['👁️ Show Translation', '👁️ Hide Translation'],
+            'gram': ['👁️ Show Answer', '👁️ Hide Answer']
         };
         const prefix = id.split('-')[0];
         if (labels[prefix]) btn.textContent = isOpen ? labels[prefix][0] : labels[prefix][1];
