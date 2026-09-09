@@ -25,7 +25,7 @@
         if (!container) return;
 
         container.innerHTML = `
-        <div style="padding:16px; max-width:900px; margin:0 auto;">
+        <div style="padding:0 8px 24px 8px; width:100%; box-sizing:border-box;">
             <div style="text-align:center; margin-bottom:20px;">
                 <h2 style="color:#F59E0B; font-size:1.4em; margin:0;">⚖️ JJA Mains Prep Centre</h2>
                 <p style="color:#94A3B8; margin:4px 0 0 0; font-size:0.9em;">Delhi High Court · Mains Exam: October 4, 2026</p>
@@ -46,9 +46,9 @@
 
         <style>
         .jja-tab-btn {
-            flex:1; min-width:90px; padding:10px 8px; border:none; border-radius:8px;
-            background:#1E293B; color:#94A3B8; cursor:pointer; font-size:0.8em;
-            font-weight:600; transition:all 0.2s; text-align:center;
+            flex:none; padding:10px 18px; border:none; border-radius:8px;
+            background:#1E293B; color:#94A3B8; cursor:pointer; font-size:0.85em;
+            font-weight:600; transition:all 0.2s; text-align:center; white-space:nowrap;
         }
         .jja-tab-btn.jja-active {
             background:linear-gradient(135deg,#F59E0B,#D97706); color:#000; 
@@ -564,19 +564,7 @@ Yours faithfully,<br>
         if (labels[prefix]) btn.textContent = isOpen ? labels[prefix][0] : labels[prefix][1];
     };
 
-    // ── Init ──────────────────────────────────────────────────
-    document.addEventListener('DOMContentLoaded', function () {
-        const panel = el('jja-view');
-        if (panel) renderJJAPanel();
-    });
-
-    // Also render if already mounted
-    if (document.readyState !== 'loading') {
-        const panel = el('jja-view');
-        if (panel) renderJJAPanel();
-    }
-
-    // Expose for app.js tab switcher
+    // ── Expose ONLY — app.js calls this when tab is clicked ──
     window.renderJJAPanel = renderJJAPanel;
 
 })();
