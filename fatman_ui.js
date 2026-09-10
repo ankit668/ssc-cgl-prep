@@ -791,8 +791,8 @@ window.renderFatmanMCQMenu = renderFatmanMCQMenu;
             const btns = document.querySelectorAll(`.mock-opt-${qidx}`);
             const userAns = window.mockAnswers[qidx];
             
-            // Show correct answer explicitly
-            btns[q.correct].classList.add('correct');
+            // Show correct answer explicitly (guard against malformed questions)
+            if (btns[q.correct]) btns[q.correct].classList.add('correct');
             
             if(userAns === -1) {
                 unattempted++;
@@ -801,7 +801,7 @@ window.renderFatmanMCQMenu = renderFatmanMCQMenu;
                 window.logFatmanMistake(window.getFatmanData().mcqs.indexOf(q), true);
             } else {
                 incorrect++;
-                btns[userAns].classList.add('wrong');
+                if (btns[userAns]) btns[userAns].classList.add('wrong');
                 window.logFatmanMistake(window.getFatmanData().mcqs.indexOf(q), false);
             }
             
