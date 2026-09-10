@@ -6,6 +6,7 @@ window.getFatmanData = function() {
     if (window.currentFatmanSubject === "modern") return window.fatmanModern;
     if (window.currentFatmanSubject === "polity") return window.polityData;
     if (window.currentFatmanSubject === "static") return window.fatmanStatic;
+    if (window.currentFatmanSubject === "economics") return window.fatmanEconomics;
     if (window.currentFatmanSubject === "current_affairs") return window.fatmanCurrentAffairs;
     return window.fatmanGeography;
 };
@@ -79,6 +80,7 @@ if ('speechSynthesis' in window) {
             <option value="modern">Modern History</option>
             <option value="polity">Polity</option>
         <option value="static">Static GK</option>
+            <option value="economics">Economics</option>
             <option value="current_affairs">Current Affairs</option>
         </select>
     </div>
