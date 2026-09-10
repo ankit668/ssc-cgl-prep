@@ -2031,7 +2031,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Article 61",
         "Article 72"
     ],
-    "correct": "Article 52",
+    "correct": 0,
     "explanation": "Article 52 of the Indian Constitution states that there shall be a President of India, who is the head of the Indian State."
 },
 {
@@ -2045,7 +2045,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "The Chief Justice of India",
         "The Speaker of Lok Sabha"
     ],
-    "correct": "The Chief Justice of India",
+    "correct": 2,
     "explanation": "The oath of office to the President is administered by the Chief Justice of India, and in their absence, by the senior-most judge of the Supreme Court."
 },
 {
@@ -2059,7 +2059,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Article 72",
         "Article 123"
     ],
-    "correct": "Article 61",
+    "correct": 1,
     "explanation": "Article 61 outlines the procedure for the impeachment of the President on the grounds of violation of the Constitution."
 },
 {
@@ -2073,7 +2073,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Vice President",
         "Speaker of Lok Sabha"
     ],
-    "correct": "Vice President",
+    "correct": 2,
     "explanation": "The President can resign from office at any time by addressing the resignation letter to the Vice President of India."
 },
 {
@@ -2087,7 +2087,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Nominated members of both Houses of Parliament",
         "Elected members of the Legislative Assemblies of States"
     ],
-    "correct": "Nominated members of both Houses of Parliament",
+    "correct": 2,
     "explanation": "The Electoral College for the President consists only of elected members of Parliament and State Legislative Assemblies."
 },
 {
@@ -2101,7 +2101,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "35 years",
         "40 years"
     ],
-    "correct": "35 years",
+    "correct": 2,
     "explanation": "Article 58 sets the minimum age qualification for election as President at 35 years."
 },
 {
@@ -2115,7 +2115,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Article 213",
         "Article 352"
     ],
-    "correct": "Article 123",
+    "correct": 0,
     "explanation": "Article 123 empowers the President to promulgate ordinances when either of the two Houses of Parliament is not in session."
 },
 {
@@ -2129,7 +2129,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Article 74",
         "Article 161"
     ],
-    "correct": "Article 72",
+    "correct": 1,
     "explanation": "Article 72 gives the President the power to grant pardons, reprieves, respites, or remissions of punishment."
 },
 {
@@ -2143,7 +2143,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Prime Minister",
         "Speaker of Lok Sabha"
     ],
-    "correct": "Vice President",
+    "correct": 1,
     "explanation": "Article 64 states that the Vice President of India shall be the ex-officio Chairman of the Council of States (Rajya Sabha)."
 },
 {
@@ -2157,7 +2157,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "1 year",
         "For the remaining term of the President"
     ],
-    "correct": "6 months",
+    "correct": 1,
     "explanation": "The Vice President can act as President for a maximum period of 6 months, within which a new President must be elected."
 },
 {
@@ -2171,7 +2171,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Prime Minister",
         "Chief Justice of India"
     ],
-    "correct": "Prime Minister",
+    "correct": 2,
     "explanation": "Article 74 provides for a Council of Ministers with the Prime Minister at the head to aid and advise the President."
 },
 {
@@ -2185,7 +2185,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "The Lok Sabha",
         "The Rajya Sabha"
     ],
-    "correct": "The Lok Sabha",
+    "correct": 2,
     "explanation": "According to Article 75(3), the Council of Ministers is collectively responsible to the House of the People (Lok Sabha)."
 },
 {
@@ -2199,7 +2199,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "The President",
         "The Electoral College"
     ],
-    "correct": "The President",
+    "correct": 2,
     "explanation": "According to Article 75, the Prime Minister is appointed by the President of India."
 },
 {
@@ -2213,7 +2213,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "552",
         "250"
     ],
-    "correct": "550",
+    "correct": 1,
     "explanation": "The maximum strength of the Lok Sabha is fixed at 550 (530 from States and 20 from UTs) after the 104th Amendment act abolished the 2 Anglo-Indian seats."
 },
 {
@@ -2227,7 +2227,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "250",
         "252"
     ],
-    "correct": "250",
+    "correct": 2,
     "explanation": "The maximum strength of the Rajya Sabha is 250, out of which 238 are representatives of states & UTs and 12 are nominated by the President."
 },
 {
@@ -2241,7 +2241,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "1/6th of total members",
         "1/3rd of total members"
     ],
-    "correct": "1/10th of total members",
+    "correct": 1,
     "explanation": "The quorum to constitute a meeting of either House of Parliament is one-tenth of the total number of members of the House."
 },
 {
@@ -2255,7 +2255,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Article 112",
         "Article 117"
     ],
-    "correct": "Article 110",
+    "correct": 1,
     "explanation": "Article 110 of the Constitution deals specifically with the definition of a Money Bill."
 },
 {
@@ -2269,7 +2269,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Speaker of Lok Sabha",
         "Finance Minister"
     ],
-    "correct": "Speaker of Lok Sabha",
+    "correct": 2,
     "explanation": "The decision of the Speaker of the Lok Sabha is final on whether a bill is a Money Bill or not."
 },
 {
@@ -2283,7 +2283,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Speaker of Lok Sabha",
         "Chief Justice of India"
     ],
-    "correct": "Speaker of Lok Sabha",
+    "correct": 2,
     "explanation": "A joint sitting of Parliament is called by the President (Article 108) but is presided over by the Speaker of the Lok Sabha."
 },
 {
@@ -2297,7 +2297,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "6 years",
         "Life term"
     ],
-    "correct": "6 years",
+    "correct": 2,
     "explanation": "Rajya Sabha is a permanent body and not subject to dissolution. However, one-third of its members retire every second year, giving them a 6-year term."
 },
 {
@@ -2311,7 +2311,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "9 months",
         "1 year"
     ],
-    "correct": "6 months",
+    "correct": 1,
     "explanation": "The Constitution specifies that the maximum gap between two sessions of Parliament cannot exceed six months."
 },
 {
@@ -2325,7 +2325,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Article 352",
         "Article 368"
     ],
-    "correct": "Article 312",
+    "correct": 1,
     "explanation": "Article 312 empowers the Parliament to create one or more All India Services if the Rajya Sabha passes a resolution supported by not less than two-thirds of the members present and voting."
 },
 {
@@ -2339,7 +2339,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Article 114",
         "Article 266"
     ],
-    "correct": "Article 112",
+    "correct": 1,
     "explanation": "Article 112 of the Constitution requires the President to lay before both Houses of Parliament an 'Annual Financial Statement' (commonly called the Budget)."
 },
 {
@@ -2353,7 +2353,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "President",
         "Vice President"
     ],
-    "correct": "President",
+    "correct": 2,
     "explanation": "The President has the power to summon, prorogue both Houses of Parliament, and to dissolve the Lok Sabha."
 },
 {
@@ -2367,7 +2367,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "President",
         "Minister of Law and Justice"
     ],
-    "correct": "President",
+    "correct": 2,
     "explanation": "The Attorney General for India is appointed by the President under Article 76 of the Constitution."
 },
 {
@@ -2381,7 +2381,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "6 months",
         "1 year"
     ],
-    "correct": "6 months",
+    "correct": 2,
     "explanation": "According to Article 75(5), a Minister who for any period of six consecutive months is not a member of either House of Parliament shall cease to be a Minister."
 },
 {
@@ -2409,7 +2409,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Rajya Sabha",
         "Vice President"
     ],
-    "correct": "Vice President",
+    "correct": 3,
     "explanation": "Under Article 79, the Parliament of India consists of the President and two Houses: the Council of States (Rajya Sabha) and the House of the People (Lok Sabha)."
 },
 {
@@ -2423,7 +2423,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "30 years",
         "35 years"
     ],
-    "correct": "25 years",
+    "correct": 1,
     "explanation": "Article 84 establishes the minimum age to become a member of the Lok Sabha as 25 years (and 30 years for the Rajya Sabha)."
 },
 {
@@ -2437,7 +2437,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Prime Minister",
         "Finance Minister"
     ],
-    "correct": "Prime Minister",
+    "correct": 2,
     "explanation": "The Prime Minister of India serves as the ex-officio Chairman of the NITI Aayog (National Institution for Transforming India)."
 },
 {
@@ -2451,7 +2451,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Article 150",
         "Article 151"
     ],
-    "correct": "Article 148",
+    "correct": 0,
     "explanation": "Article 148 provides for an independent office of the Comptroller and Auditor General of India."
 },
 {
@@ -2465,7 +2465,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Article 324",
         "Article 326"
     ],
-    "correct": "Article 324",
+    "correct": 2,
     "explanation": "Article 324 of the Constitution provides that the power of superintendence, direction, and control of elections shall be vested in the Election Commission."
 },
 {
@@ -2479,7 +2479,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Article 282",
         "Article 293"
     ],
-    "correct": "Article 280",
+    "correct": 1,
     "explanation": "Article 280 provides for a Finance Commission as a quasi-judicial body constituted by the President every five years."
 },
 {
@@ -2493,7 +2493,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Attorney General",
         "Advocate General"
     ],
-    "correct": "Attorney General",
+    "correct": 2,
     "explanation": "The Attorney General for India is appointed by the President under Article 76 and is the highest law officer in the country."
 },
 {
@@ -2507,7 +2507,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Article 320",
         "Article 323"
     ],
-    "correct": "Article 315",
+    "correct": 1,
     "explanation": "Article 315 deals with the Public Service Commissions for the Union and for the States."
 },
 {
@@ -2521,7 +2521,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Article 338B",
         "Article 340"
     ],
-    "correct": "Article 338",
+    "correct": 0,
     "explanation": "Article 338 provides for a National Commission for the Scheduled Castes."
 },
 {
@@ -2535,7 +2535,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "92nd Amendment Act, 2003",
         "93rd Amendment Act, 2005"
     ],
-    "correct": "89th Amendment Act, 2003",
+    "correct": 0,
     "explanation": "The 89th Constitutional Amendment Act of 2003 bifurcated the combined National Commission for SCs and STs into two separate bodies."
 },
 {
@@ -2549,7 +2549,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Article 338B",
         "Article 342A"
     ],
-    "correct": "Article 338B",
+    "correct": 2,
     "explanation": "The 102nd Amendment Act of 2018 inserted Article 338B, granting constitutional status to the NCBC."
 },
 {
@@ -2563,7 +2563,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Chairman of State Public Service Commission",
         "Chief Minister"
     ],
-    "correct": "Advocate General of the State",
+    "correct": 0,
     "explanation": "Article 165 provides for the office of the Advocate General for the State, who is the highest law officer in the state."
 },
 {
@@ -2577,7 +2577,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Article 262",
         "Article 263"
     ],
-    "correct": "Article 263",
+    "correct": 3,
     "explanation": "Article 263 contemplates the establishment of an Inter-State Council to effect coordination between the states and between Centre and states."
 },
 {
@@ -2591,7 +2591,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "USSR",
         "Ireland"
     ],
-    "correct": "USA",
+    "correct": 1,
     "explanation": "The Fundamental Rights in Part III of the Indian Constitution are inspired by the Bill of Rights of the USA."
 },
 {
@@ -2605,7 +2605,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Article 17",
         "Article 18"
     ],
-    "correct": "Article 17",
+    "correct": 2,
     "explanation": "Article 17 abolishes 'untouchability' and forbids its practice in any form."
 },
 {
@@ -2619,7 +2619,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Article 21",
         "Article 22"
     ],
-    "correct": "Article 14",
+    "correct": 0,
     "explanation": "Article 14 says that the State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India."
 },
 {
@@ -2633,7 +2633,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Article 21",
         "Article 22"
     ],
-    "correct": "Article 21",
+    "correct": 2,
     "explanation": "Article 21 declares that no person shall be deprived of his life or personal liberty except according to procedure established by law."
 },
 {
@@ -2647,7 +2647,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "92nd Amendment Act",
         "97th Amendment Act"
     ],
-    "correct": "86th Amendment Act",
+    "correct": 1,
     "explanation": "The 86th Constitutional Amendment Act of 2002 inserted Article 21A, making elementary education a Fundamental Right."
 },
 {
@@ -2661,7 +2661,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Article 32",
         "Article 226"
     ],
-    "correct": "Article 32",
+    "correct": 2,
     "explanation": "Article 32 (Right to Constitutional Remedies) is considered the heart and soul of the Constitution as it provides the mechanism to enforce fundamental rights."
 },
 {
@@ -2675,7 +2675,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Prohibition",
         "Quo-Warranto"
     ],
-    "correct": "Mandamus",
+    "correct": 1,
     "explanation": "Mandamus means 'we command'. It is a command issued by the court to a public official asking him to perform his official duties."
 },
 {
@@ -2689,7 +2689,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Quo-Warranto",
         "Habeas Corpus"
     ],
-    "correct": "Quo-Warranto",
+    "correct": 2,
     "explanation": "Quo-Warranto literally means 'by what authority or warrant'. It is issued to prevent illegal usurpation of a public office by a person."
 },
 {
@@ -2703,7 +2703,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Article 17",
         "Article 18"
     ],
-    "correct": "Article 18",
+    "correct": 3,
     "explanation": "Article 18 abolishes titles (except military and academic) and prohibits the State from conferring them."
 },
 {
@@ -2717,7 +2717,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "To be certified",
         "By what authority"
     ],
-    "correct": "To have the body of",
+    "correct": 1,
     "explanation": "Habeas Corpus is a Latin term which literally means 'to have the body of'. It protects against arbitrary or unlawful detention."
 },
 {
@@ -2731,7 +2731,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Ashok Mehta Committee",
         "Balwant Rai Mehta Committee"
     ],
-    "correct": "Swaran Singh Committee",
+    "correct": 1,
     "explanation": "The Sardar Swaran Singh Committee was set up in 1976 to make recommendations about fundamental duties."
 },
 {
@@ -2745,7 +2745,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "USSR (Russia)",
         "Germany"
     ],
-    "correct": "USSR (Russia)",
+    "correct": 2,
     "explanation": "The Fundamental Duties in the Indian Constitution are inspired by the Constitution of erstwhile USSR."
 },
 {
@@ -2759,7 +2759,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "44th Amendment",
         "73rd Amendment"
     ],
-    "correct": "42nd Amendment",
+    "correct": 1,
     "explanation": "The 42nd Amendment Act of 1976 is known as the Mini Constitution due to the extensive changes it brought to the Constitution."
 },
 {
@@ -2773,7 +2773,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "78th Amendment",
         "86th Amendment"
     ],
-    "correct": "44th Amendment",
+    "correct": 1,
     "explanation": "The 44th Amendment Act of 1978 deleted the right to property from the list of Fundamental Rights and made it a legal right under Article 300A."
 },
 {
@@ -2787,7 +2787,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "71st Amendment",
         "73rd Amendment"
     ],
-    "correct": "61st Amendment",
+    "correct": 0,
     "explanation": "The 61st Amendment Act of 1989 reduced the voting age from 21 to 18 years for the Lok Sabha and assembly elections."
 },
 {
@@ -2801,7 +2801,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Anti-Defection Law",
         "Co-operative Societies"
     ],
-    "correct": "Panchayati Raj Institutions",
+    "correct": 1,
     "explanation": "The 73rd Amendment Act of 1992 granted constitutional status to Panchayati Raj Institutions."
 },
 {
@@ -2815,7 +2815,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "101st Amendment",
         "102nd Amendment"
     ],
-    "correct": "101st Amendment",
+    "correct": 2,
     "explanation": "The 101st Amendment Act of 2016 paved the way for the introduction of the Goods and Services Tax (GST) regime in India."
 },
 {
@@ -2829,7 +2829,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "104th Amendment",
         "105th Amendment"
     ],
-    "correct": "103rd Amendment",
+    "correct": 1,
     "explanation": "The 103rd Amendment Act of 2019 provided a 10% quota for the Economically Weaker Sections (EWS) in government jobs and educational institutions."
 },
 {
@@ -2843,7 +2843,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Anglo-Indians",
         "Other Backward Classes"
     ],
-    "correct": "Anglo-Indians",
+    "correct": 2,
     "explanation": "The 104th Amendment Act extended the reservation for SCs and STs by 10 years but ceased the nomination of Anglo-Indians to the Lok Sabha and State Legislative Assemblies."
 },
 {
@@ -2857,7 +2857,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Part IVA",
         "Part V"
     ],
-    "correct": "Part IVA",
+    "correct": 2,
     "explanation": "Fundamental Duties are mentioned in Part IVA (Article 51A) of the Constitution, which was added by the 42nd Amendment Act in 1976."
 },
 {
@@ -2871,7 +2871,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Article 131",
         "Article 143"
     ],
-    "correct": "Article 32",
+    "correct": 0,
     "explanation": "Article 32 grants the Supreme Court the power to issue writs (Habeas Corpus, Mandamus, Prohibition, Certiorari, and Quo-Warranto) for the enforcement of Fundamental Rights."
 },
 {
@@ -2885,7 +2885,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Article 214",
         "Article 226"
     ],
-    "correct": "Article 226",
+    "correct": 3,
     "explanation": "Article 226 empowers High Courts to issue writs for the enforcement of Fundamental Rights as well as for any other purpose."
 },
 {
@@ -2899,7 +2899,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Article 170",
         "Article 171"
     ],
-    "correct": "Article 169",
+    "correct": 1,
     "explanation": "Article 169 of the Constitution provides for the abolition or creation of Legislative Councils in states if the Legislative Assembly of the state passes a resolution to that effect by a special majority."
 },
 {
@@ -2913,7 +2913,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "65 years",
         "70 years"
     ],
-    "correct": "65 years",
+    "correct": 2,
     "explanation": "According to the Constitution of India, a judge of the Supreme Court holds office until they attain the age of 65 years."
 },
 {
@@ -2927,7 +2927,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "65 years",
         "68 years"
     ],
-    "correct": "62 years",
+    "correct": 1,
     "explanation": "The retirement age for High Court judges is 62 years, raised from 60 years by the 15th Constitutional Amendment Act, 1963."
 },
 {
@@ -2941,7 +2941,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "President of India",
         "Parliament"
     ],
-    "correct": "President of India",
+    "correct": 2,
     "explanation": "The Judges of the Supreme Court are appointed by the President under Article 124(2) of the Constitution."
 },
 {
@@ -2955,7 +2955,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "500",
         "550"
     ],
-    "correct": "500",
+    "correct": 2,
     "explanation": "Article 170 states that the Legislative Assembly of each state shall consist of not more than 500 and not less than 60 members."
 },
 {
@@ -2983,7 +2983,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Advisory Jurisdiction",
         "Writ Jurisdiction"
     ],
-    "correct": "Original Jurisdiction",
+    "correct": 1,
     "explanation": "Article 131 gives the Supreme Court original jurisdiction in any dispute between the Centre and States, or between two or more States."
 },
 {
@@ -2997,7 +2997,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Article 137",
         "Article 143"
     ],
-    "correct": "Article 143",
+    "correct": 3,
     "explanation": "Article 143 confers Advisory Jurisdiction on the Supreme Court, allowing the President to seek its opinion on matters of public importance."
 },
 {
@@ -3011,7 +3011,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "The Chief Justice of India",
         "The State Legislature"
     ],
-    "correct": "The President on the recommendation of Parliament",
+    "correct": 1,
     "explanation": "A High Court judge can be removed by the President only after a resolution is passed by both Houses of Parliament with a special majority."
 },
 {
@@ -3025,7 +3025,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Both Houses",
         "Joint Sitting"
     ],
-    "correct": "Legislative Assembly",
+    "correct": 1,
     "explanation": "Like the Lok Sabha at the Centre, a Money Bill in a state can only be introduced in the Legislative Assembly (Vidhan Sabha)."
 },
 {
@@ -3039,7 +3039,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Speaker of Legislative Assembly",
         "Chairman of Legislative Council"
     ],
-    "correct": "Speaker of Legislative Assembly",
+    "correct": 2,
     "explanation": "The decision of the Speaker of the Legislative Assembly is final on whether a bill is a Money Bill or not."
 },
 {
@@ -3053,7 +3053,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "30 years",
         "35 years"
     ],
-    "correct": "30 years",
+    "correct": 2,
     "explanation": "To become a member of the Legislative Council (Vidhan Parishad), a person must be at least 30 years old."
 },
 {
@@ -3067,7 +3067,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "30 years",
         "35 years"
     ],
-    "correct": "25 years",
+    "correct": 1,
     "explanation": "To become an MLA (member of the Legislative Assembly), a person must be at least 25 years old."
 },
 {
@@ -3081,7 +3081,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Contingency Fund of India",
         "Public Accounts of the State"
     ],
-    "correct": "Consolidated Fund of the State",
+    "correct": 1,
     "explanation": "The salaries and allowances of High Court judges are charged upon the Consolidated Fund of the respective state."
 },
 {
@@ -3095,7 +3095,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Contingency Fund of India",
         "Contingency Fund of the State"
     ],
-    "correct": "Consolidated Fund of India",
+    "correct": 0,
     "explanation": "While the salary of a High Court judge comes from the State, their pension is charged on the Consolidated Fund of India."
 },
 {
@@ -3109,7 +3109,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Delhi",
         "Chennai"
     ],
-    "correct": "Delhi",
+    "correct": 2,
     "explanation": "Article 130 declares Delhi as the seat of the Supreme Court, though the CJI can establish it elsewhere with the President's approval."
 },
 {
@@ -3123,7 +3123,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Article 141",
         "Article 143"
     ],
-    "correct": "Article 137",
+    "correct": 1,
     "explanation": "Article 137 of the Constitution expressly grants the Supreme Court the power to review any judgment pronounced or order made by it."
 },
 {
@@ -3137,7 +3137,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Parliament",
         "Law Minister"
     ],
-    "correct": "President of India",
+    "correct": 1,
     "explanation": "The President of India can transfer a judge from one High Court to another after consulting the Chief Justice of India."
 },
 {
@@ -3151,7 +3151,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "1/6th of total membership",
         "2/3rd of total membership"
     ],
-    "correct": "1/10th of total membership or 10 members, whichever is greater",
+    "correct": 0,
     "explanation": "The quorum to constitute a meeting of a House of the State Legislature is 10 members or one-tenth of the total membership, whichever is greater."
 },
 {
@@ -3165,7 +3165,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "6 months",
         "1 year"
     ],
-    "correct": "6 months",
+    "correct": 2,
     "explanation": "The Governor must summon the state legislature such that there is a gap of no more than six months between its last sitting in one session and the first sitting in the next."
 },
 {
@@ -3179,7 +3179,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "President",
         "Chief Minister"
     ],
-    "correct": "Governor",
+    "correct": 0,
     "explanation": "Appointments of persons to be, and the posting and promotion of, district judges in any State shall be made by the Governor of the State in consultation with the High Court."
 },
 {
@@ -3193,7 +3193,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "6 years",
         "No fixed term"
     ],
-    "correct": "6 years",
+    "correct": 2,
     "explanation": "The Legislative Council is a permanent body, but each of its members is elected for a term of 6 years, with one-third retiring every two years."
 },
 {
@@ -3207,7 +3207,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "1/12th",
         "1/4th"
     ],
-    "correct": "1/3rd",
+    "correct": 0,
     "explanation": "One-third (1/3) of the members of the State Legislative Council are elected by electorates consisting of members of local bodies like municipalities, district boards, etc."
 },
 {
@@ -3221,7 +3221,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "1/6th",
         "1/12th"
     ],
-    "correct": "1/6th",
+    "correct": 2,
     "explanation": "One-sixth (1/6) of the total members of the Legislative Council are nominated by the Governor from people with special knowledge in literature, science, art, cooperative movement, and social service."
 },
 {
@@ -3235,7 +3235,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Parliament",
         "Governors jointly"
     ],
-    "correct": "Parliament",
+    "correct": 2,
     "explanation": "The Parliament has the power by law to establish a common High Court for two or more states or for two or more states and a union territory (7th Amendment Act, 1956)."
 },
 {
@@ -3249,7 +3249,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "1862",
         "1935"
     ],
-    "correct": "1862",
+    "correct": 2,
     "explanation": "The first High Courts in India were established in 1862 at Calcutta, Bombay, and Madras under the Indian High Courts Act of 1861."
 },
 {
@@ -3263,7 +3263,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "USSR",
         "Ireland"
     ],
-    "correct": "USA",
+    "correct": 1,
     "explanation": "The concept of Judicial Review, along with the independence of the judiciary and fundamental rights, is borrowed from the Constitution of the USA."
 },
 {
@@ -3277,7 +3277,7 @@ window.polityData = { chapter: "Polity Complete", notes: `
         "Governor of the State",
         "Chief Justice of the High Court"
     ],
-    "correct": "Governor of the State",
+    "correct": 2,
     "explanation": "Before taking his seat, a judge of a High Court must make and subscribe an oath or affirmation before the Governor of the state or an appointed person."
 }
 ], flashcards: [
