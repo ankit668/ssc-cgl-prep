@@ -4,6 +4,29 @@
 const jjaData = {
   "essays": [
     {
+        "id": "essay_36",
+        "topic": "The Impact of Social Media on Individual Privacy: Legal and Ethical Concerns",
+        "category": "Technology/Legal",
+        "difficulty": "Medium",
+        "outline": {
+            "intro": "Define the era of social media. Briefly state how sharing information online has blurred the lines between public life and private boundaries.",
+            "body1_heading": "The Core Problem & Ethical Concerns",
+            "body1_points": [
+                "Data mining and unauthorized profiling by tech companies.",
+                "Issues of identity theft, cyberbullying, and lack of informed consent.",
+                "The psychological pressure of maintaining an online persona."
+            ],
+            "body2_heading": "Legal Angle and Remedies",
+            "body2_points": [
+                "Reference to the fundamental 'Right to Privacy' (Article 21).",
+                "The need for robust Data Protection laws (e.g., DPDP Act).",
+                "Holding tech giants accountable for data breaches."
+            ],
+            "conclusion": "Summarize the need for a balance. End with a strong closing thought on how digital literacy and robust legal frameworks are the need of the hour."
+        },
+        "modelEssay": "We live in an intensely interconnected digital era where social media platforms have become an integral part of daily life. While these platforms have revolutionized communication, democratized information, and connected global communities, they have simultaneously blurred the lines between public life and private boundaries. The rapid expansion of social media has brought the issue of individual privacy to the forefront, raising profound legal and ethical concerns.\n\nEthically, the core problem lies in the commodification of personal data. Tech giants frequently engage in data mining, tracking user behavior, preferences, and locations, often without explicit or informed consent. This data is monetized for targeted advertising or political profiling. Furthermore, the oversharing of personal information exposes individuals to severe risks such as identity theft, cyberbullying, and stalking. The constant psychological pressure to maintain a public online persona further erodes the concept of a private, sheltered life.\n\nFrom a legal standpoint, protecting digital privacy is a complex challenge. In India, the Supreme Court has explicitly recognized the Right to Privacy as a fundamental right under Article 21 of the Constitution. However, enforcing this right in the digital realm requires stringent statutory frameworks. While the introduction of the Digital Personal Data Protection (DPDP) Act is a significant step forward, regulating multinational tech conglomerates and ensuring compliance remains difficult. There is an urgent need to establish strict liabilities for data breaches and unauthorized data sharing.\n\nIn conclusion, while social media is a powerful tool for modern connectivity, it cannot come at the cost of individual privacy. Striking a balance requires a dual approach: empowering citizens through digital literacy to be mindful of their digital footprints, and enacting robust, future-ready legal frameworks to hold platforms accountable. Ultimately, protecting digital privacy is essential to safeguarding individual liberty."
+    },
+    {
       "id": "essay_1",
       "topic": "Role of Judiciary in Protecting Fundamental Rights",
       "category": "Legal/Constitutional",
