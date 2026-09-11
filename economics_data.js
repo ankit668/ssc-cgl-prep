@@ -3,192 +3,340 @@ const economicsData = {
     notes: `
         <h2>ECONOMICS (Comprehensive SSC CGL Depth)</h2>
         
-        <div style="background: rgba(255, 75, 43, 0.1); padding: 15px; border-left: 4px solid #FF4B2B; border-radius: 8px; margin-bottom: 20px;">
-            <strong>Note:</strong> The raw OCR extraction from the PDF contained heavy flowchart and diagram artifacts which corrupted the text. This section has been manually expanded to match the exact depth and syllabus of the Fatman PDF without the visual corruption.
+        <div style="background: rgba(16, 185, 129, 0.1); padding: 15px; border-left: 4px solid #10B981; border-radius: 8px; margin-bottom: 20px;">
+            <strong>Note:</strong> Since the PDF heavily relied on un-OCR-able flowcharts, this section has been manually expanded into a massive, textbook-level deep dive covering every single SSC CGL/Fatman economics concept in extreme detail.
         </div>
 
-        <h3>1. BASICS OF ECONOMY</h3>
+        <h3>1. INTRODUCTION TO ECONOMICS & ECONOMY</h3>
+        <p><strong>Economics</strong> is the social science that studies the production, distribution, and consumption of goods and services. It focuses on the behavior and interactions of economic agents and how economies work. The fundamental economic problem is <strong>scarcity</strong>—human wants are unlimited, but resources are limited.</p>
+        
+        <h4>Fathers of Economics</h4>
         <ul>
-            <li><strong>Economics:</strong> The study of how entities use limited resources to satisfy unlimited wants. Derived from the Greek word 'Oikonomia' (household management).</li>
-            <li><strong>Fathers of Economics:</strong>
-                <ul>
-                    <li><strong>Adam Smith:</strong> Father of Modern Economics. Authored <em>'An Inquiry into the Nature and Causes of the Wealth of Nations' (1776)</em>. Introduced the concept of the 'Invisible Hand'.</li>
-                    <li><strong>John Maynard Keynes:</strong> Father of Macroeconomics. Authored <em>'The General Theory of Employment, Interest and Money' (1936)</em>.</li>
-                    <li><strong>Alfred Marshall:</strong> Father of Microeconomics. Authored <em>'Principles of Economics' (1890)</em>.</li>
-                </ul>
-            </li>
-            <li><strong>Sectors of Economy:</strong>
-                <ul>
-                    <li><strong>Primary Sector:</strong> Raw material extraction (Agriculture, Mining, Forestry, Fishing). <em>Workers: Red-collar.</em></li>
-                    <li><strong>Secondary Sector:</strong> Manufacturing and construction (Industries). <em>Workers: Blue-collar.</em></li>
-                    <li><strong>Tertiary Sector:</strong> Service industry (Banking, Transport, Trade, Tourism). <em>Workers: White-collar.</em></li>
-                    <li><strong>Quaternary Sector:</strong> Knowledge-based sector (IT, R&D, Education).</li>
-                    <li><strong>Quinary Sector:</strong> Top-level decision making (Govt officials, CEOs). <em>Workers: Gold-collar.</em></li>
-                </ul>
-            </li>
-            <li><strong>Types of Economies:</strong>
-                <ul>
-                    <li><strong>Capitalist (Market):</strong> Means of production owned by private individuals. Motive is profit. Prices determined by market forces (USA).</li>
-                    <li><strong>Socialist (Command):</strong> Means of production owned by the State. Motive is social welfare (USSR).</li>
-                    <li><strong>Mixed Economy:</strong> Coexistence of public and private sectors. Promoted by Keynes. India adopted a mixed economy after Independence.</li>
-                </ul>
-            </li>
+            <li><strong>Adam Smith:</strong> Known as the Father of Modern Economics. In 1776, he published <em>"An Inquiry into the Nature and Causes of the Wealth of Nations"</em>. He introduced the concept of the <strong>"Invisible Hand"</strong>, suggesting that free markets regulate themselves through supply and demand.</li>
+            <li><strong>John Maynard Keynes:</strong> Father of Macroeconomics. His 1936 book, <em>"The General Theory of Employment, Interest and Money"</em>, argued that government intervention is necessary to stabilize the economy, especially during depressions.</li>
+            <li><strong>Alfred Marshall:</strong> Father of Microeconomics. His 1890 book, <em>"Principles of Economics"</em>, formalized concepts like supply and demand, marginal utility, and costs of production.</li>
+        </ul>
+
+        <h4>Branches of Economics</h4>
+        <ul>
+            <li><strong>Microeconomics:</strong> Focuses on individual entities (consumers, firms) and markets. Key concepts: Theory of Demand and Supply, Consumer Behavior, Pricing.</li>
+            <li><strong>Macroeconomics:</strong> Focuses on the economy as a whole. Key concepts: National Income (GDP), Inflation, Unemployment, Monetary Policy, Fiscal Policy.</li>
+            <li><strong>Positive Economics:</strong> Deals with "what is" (facts and data). E.g., "The inflation rate is 6%."</li>
+            <li><strong>Normative Economics:</strong> Deals with "what ought to be" (opinions and value judgments). E.g., "The government should lower taxes."</li>
+        </ul>
+
+        <h4>Sectors of the Economy</h4>
+        <ul>
+            <li><strong>Primary Sector (Red-Collar Workers):</strong> Extraction and harvesting of natural products. Includes Agriculture, Mining, Forestry, Animal Husbandry, and Fishing. <em>(Contributes ~18% to India's GDP but employs ~45% of the workforce).</em></li>
+            <li><strong>Secondary Sector (Blue-Collar Workers):</strong> Manufacturing, processing, and construction. Transforms raw materials into finished goods. Includes heavy industries, textiles, and automobiles.</li>
+            <li><strong>Tertiary Sector (White-Collar Workers):</strong> Service industry. Includes Banking, Insurance, Transport, Tourism, Healthcare, and Trade. <em>(Contributes the most to India's GDP, ~53%).</em></li>
+            <li><strong>Quaternary Sector:</strong> Knowledge-based activities. Includes Information Technology (IT), Research and Development (R&D), and education.</li>
+            <li><strong>Quinary Sector (Gold-Collar Workers):</strong> Top-level decision-making. Includes high-level government officials, CEOs, and top scientists.</li>
+        </ul>
+
+        <h4>Types of Economic Systems</h4>
+        <ul>
+            <li><strong>Capitalist Economy (Market Economy):</strong> Means of production are owned by private individuals. The primary motive is profit. Prices are determined by the market forces of demand and supply without government interference (Laissez-faire). Examples: USA, UK.</li>
+            <li><strong>Socialist Economy (Command Economy):</strong> Means of production are owned by the State/Government. The primary motive is social welfare. The government decides what to produce and at what price. Examples: Former USSR, North Korea.</li>
+            <li><strong>Mixed Economy:</strong> A combination of Capitalism and Socialism. Both private and public (government) sectors coexist. The government regulates the market to prevent monopolies and protect consumer rights. <strong>India adopted a Mixed Economy after independence.</strong></li>
         </ul>
 
         <hr style="border: 1px solid #334155; margin: 20px 0;">
 
-        <h3>2. MICROECONOMICS</h3>
+        <h3>2. MICROECONOMICS IN DETAIL</h3>
+        
+        <h4>Theory of Demand and Supply</h4>
         <ul>
-            <li><strong>Law of Demand:</strong> Other things remaining constant (Ceteris Paribus), price and quantity demanded are <strong>inversely proportional</strong>. Demand curve slopes downward.</li>
-            <li><strong>Law of Supply:</strong> Price and quantity supplied are <strong>directly proportional</strong>. Supply curve slopes upward.</li>
-            <li><strong>Types of Goods:</strong>
-                <ul>
-                    <li><strong>Substitute Goods:</strong> Used in place of one another (Tea & Coffee). If price of Tea increases, demand for Coffee increases (Positive cross-elasticity).</li>
-                    <li><strong>Complementary Goods:</strong> Used together (Car & Petrol). If price of Petrol increases, demand for Cars decreases (Negative cross-elasticity).</li>
-                    <li><strong>Normal Goods:</strong> Demand increases as consumer income increases.</li>
-                    <li><strong>Inferior Goods:</strong> Demand decreases as consumer income increases (e.g., coarse cereals).</li>
-                    <li><strong>Giffen Goods:</strong> Highly inferior goods where demand increases when price increases (violates Law of Demand).</li>
-                    <li><strong>Veblen Goods:</strong> Luxury goods used for status symbol. Demand increases as price increases.</li>
-                </ul>
-            </li>
-            <li><strong>Market Structures:</strong>
-                <ul>
-                    <li><strong>Perfect Competition:</strong> Large number of buyers and sellers, homogeneous products, firms are price <em>takers</em>. AR = MR.</li>
-                    <li><strong>Monopoly:</strong> Single seller, unique product, strict barriers to entry. Firm is a price <em>maker</em>.</li>
-                    <li><strong>Monopolistic Competition:</strong> Many sellers, <em>differentiated products</em> (e.g., soaps, toothpaste), heavy advertising.</li>
-                    <li><strong>Oligopoly:</strong> Few large sellers (e.g., telecom, automobiles). Intense competition, kinked demand curve.</li>
-                    <li><strong>Monopsony:</strong> Single buyer in the market (e.g., Govt buying defense equipment).</li>
-                </ul>
-            </li>
+            <li><strong>Law of Demand:</strong> <em>Ceteris Paribus</em> (other things being equal), the quantity demanded of a good falls when its price rises, and vice versa. There is an <strong>inverse relationship</strong> between price and demand. The demand curve slopes <strong>downward</strong> from left to right.</li>
+            <li><strong>Law of Supply:</strong> <em>Ceteris Paribus</em>, the quantity supplied of a good rises when its price rises. There is a <strong>direct relationship</strong> between price and supply. The supply curve slopes <strong>upward</strong> from left to right.</li>
+            <li><strong>Equilibrium Price:</strong> The price at which quantity demanded equals quantity supplied.</li>
+        </ul>
+
+        <h4>Exceptions to the Law of Demand</h4>
+        <ul>
+            <li><strong>Giffen Goods:</strong> Highly inferior goods. When the price of a Giffen good increases, people consume *more* of it (because they can no longer afford better substitutes like meat, they buy more bread). Violates the Law of Demand.</li>
+            <li><strong>Veblen Goods (Conspicuous Consumption):</strong> Luxury goods (e.g., diamonds, designer bags). Demand increases as price increases because the high price makes them a status symbol.</li>
+        </ul>
+
+        <h4>Types of Goods</h4>
+        <ul>
+            <li><strong>Normal Goods:</strong> Demand increases as consumer income increases (e.g., branded clothes, cars).</li>
+            <li><strong>Inferior Goods:</strong> Demand decreases as consumer income increases (e.g., coarse grains, public transport). People shift to better alternatives as they get richer.</li>
+            <li><strong>Substitute Goods:</strong> Goods that can be used in place of each other (e.g., Tea and Coffee). <em>Positive cross-elasticity:</em> If the price of Tea rises, the demand for Coffee rises.</li>
+            <li><strong>Complementary Goods:</strong> Goods that are consumed together (e.g., Car and Petrol, Pen and Ink). <em>Negative cross-elasticity:</em> If the price of Petrol rises, the demand for Cars falls.</li>
+        </ul>
+
+        <h4>Elasticity of Demand</h4>
+        <p>Measures how sensitive the quantity demanded is to a change in price.</p>
+        <ul>
+            <li><strong>Perfectly Elastic (e = ∞):</strong> A slight change in price leads to an infinite change in demand. The demand curve is a <strong>horizontal line</strong> parallel to the X-axis.</li>
+            <li><strong>Perfectly Inelastic (e = 0):</strong> Demand does not change regardless of price changes (e.g., life-saving drugs, salt). The demand curve is a <strong>vertical line</strong> parallel to the Y-axis.</li>
+            <li><strong>Unitary Elastic (e = 1):</strong> Percentage change in demand exactly equals the percentage change in price. The demand curve is a <strong>rectangular hyperbola</strong>.</li>
+            <li><strong>Relatively Elastic (e > 1):</strong> Demand changes by a larger percentage than price (e.g., luxury goods).</li>
+            <li><strong>Relatively Inelastic (e < 1):</strong> Demand changes by a smaller percentage than price (e.g., necessities).</li>
+        </ul>
+
+        <h4>Market Structures</h4>
+        <ul>
+            <li><strong>Perfect Competition:</strong> Very large number of buyers and sellers. Products are completely homogeneous (identical). Free entry and exit. Sellers are <strong>Price Takers</strong>. Average Revenue (AR) = Marginal Revenue (MR). Example: Agricultural markets.</li>
+            <li><strong>Monopoly:</strong> A single seller dominates the market. There are no close substitutes. High barriers to entry. The seller is a <strong>Price Maker</strong>. Example: Indian Railways.</li>
+            <li><strong>Monopolistic Competition:</strong> Large number of sellers producing <strong>differentiated products</strong> (similar but not identical, e.g., soaps, toothpaste, restaurants). Firms have some control over price. High spending on advertising and marketing.</li>
+            <li><strong>Oligopoly:</strong> A few large sellers dominate the market (e.g., Telecom operators like Jio/Airtel, Automobile manufacturers). Firms are highly interdependent. Characterized by a <strong>Kinked Demand Curve</strong> (price rigidity).</li>
+            <li><strong>Duopoly:</strong> A special type of oligopoly with exactly two sellers.</li>
+            <li><strong>Monopsony:</strong> A market with many sellers but only <strong>one buyer</strong>. Example: The government buying specialized defense equipment.</li>
         </ul>
 
         <hr style="border: 1px solid #334155; margin: 20px 0;">
 
-        <h3>3. NATIONAL INCOME</h3>
+        <h3>3. NATIONAL INCOME ACCOUNTING</h3>
+        
+        <h4>Key Aggregates</h4>
         <ul>
-            <li><strong>Gross Domestic Product (GDP):</strong> Total market value of all final goods and services produced <em>within the domestic territory</em> of a country in a financial year.</li>
-            <li><strong>Gross National Product (GNP):</strong> GDP + Net Factor Income from Abroad (NFIA). GNP = GDP + (Exports - Imports).</li>
-            <li><strong>Net Domestic Product (NDP):</strong> GDP - Depreciation (consumption of fixed capital).</li>
-            <li><strong>Net National Product (NNP):</strong> GNP - Depreciation.</li>
-            <li><strong>National Income (NI):</strong> Strictly defined as <strong>NNP at Factor Cost (NNPfc)</strong>. 
-                <br><em>NNPfc = NNP at Market Price - Indirect Taxes + Subsidies.</em>
-            </li>
-            <li><strong>Base Year:</strong> The current base year for GDP calculation is <strong>2011-12</strong> (changed from 2004-05).</li>
-            <li><strong>History of National Income:</strong>
-                <ul>
-                    <li><strong>Dadabhai Naoroji:</strong> First to calculate NI in 1867-68 in his book <em>'Poverty and Un-British Rule in India'</em>. Per capita income was ₹20.</li>
-                    <li><strong>V.K.R.V. Rao:</strong> First to adopt a scientific/statistical method for calculating NI (1931-32).</li>
-                    <li><strong>P.C. Mahalanobis:</strong> Headed the first National Income Committee in 1949.</li>
-                    <li><strong>CSO (Central Statistics Office):</strong> Formed in 1951, currently under MoSPI, is responsible for calculating NI in India.</li>
-                </ul>
-            </li>
+            <li><strong>Gross Domestic Product (GDP):</strong> The total monetary or market value of all final goods and services produced <em>within the geographical boundaries</em> of a country in a specific time period (usually a financial year). It measures domestic production, regardless of who produces it (Indians or foreigners in India).</li>
+            <li><strong>Gross National Product (GNP):</strong> The total value of goods and services produced by the <em>citizens</em> of a country, regardless of where they are located. <br><strong>GNP = GDP + Net Factor Income from Abroad (NFIA).</strong><br> <em>(NFIA = Income earned by Indians abroad - Income earned by foreigners in India).</em></li>
+            <li><strong>Net Domestic Product (NDP):</strong> <strong>NDP = GDP - Depreciation</strong>. (Depreciation is the wear and tear of capital assets).</li>
+            <li><strong>Net National Product (NNP):</strong> <strong>NNP = GNP - Depreciation</strong>.</li>
+        </ul>
+
+        <h4>Market Price vs. Factor Cost</h4>
+        <ul>
+            <li><strong>Factor Cost (FC):</strong> The actual cost of producing goods and services (rent, wages, interest, profit).</li>
+            <li><strong>Market Price (MP):</strong> The price consumers pay in the market. <br><strong>Market Price = Factor Cost + Indirect Taxes - Subsidies.</strong></li>
+            <li><strong>National Income (NI):</strong> Strictly defined as <strong>NNP at Factor Cost (NNPfc)</strong>. Therefore, NI = NNPmp - Indirect Taxes + Subsidies.</li>
+        </ul>
+
+        <h4>Real vs. Nominal GDP</h4>
+        <ul>
+            <li><strong>Nominal GDP:</strong> Value of goods and services evaluated at current year prices. It does not account for inflation.</li>
+            <li><strong>Real GDP:</strong> Value of goods and services evaluated at base year prices. It is adjusted for inflation and represents true economic growth. Current Base Year for India: <strong>2011-12</strong>.</li>
+            <li><strong>GDP Deflator:</strong> A measure of inflation. Formula: (Nominal GDP / Real GDP) × 100.</li>
+        </ul>
+
+        <h4>History of National Income Estimation in India</h4>
+        <ul>
+            <li><strong>1867-68:</strong> <strong>Dadabhai Naoroji</strong> was the first to calculate National Income in India in his book <em>'Poverty and Un-British Rule in India'</em>. He estimated the per capita income at ₹20 per annum.</li>
+            <li><strong>1931-32:</strong> <strong>Dr. V.K.R.V. Rao</strong> made the first scientific/statistical estimation of National Income. He divided the economy into agricultural and corporate sectors.</li>
+            <li><strong>1949:</strong> The Government of India appointed the <strong>National Income Committee</strong> chaired by <strong>P.C. Mahalanobis</strong> (with V.K.R.V. Rao and D.R. Gadgil as members).</li>
+            <li><strong>Currently:</strong> The <strong>National Statistical Office (NSO)</strong>, under the Ministry of Statistics and Programme Implementation (MoSPI), computes National Income. (NSO was formed by merging CSO and NSSO).</li>
         </ul>
 
         <hr style="border: 1px solid #334155; margin: 20px 0;">
 
-        <h3>4. BUDGET AND TAXATION</h3>
+        <h3>4. PUBLIC FINANCE, BUDGET & TAXATION</h3>
+        
+        <h4>The Union Budget</h4>
         <ul>
-            <li><strong>Budget:</strong> Mentioned as 'Annual Financial Statement' in <strong>Article 112</strong>. The word 'Budget' is not used in the Constitution.</li>
-            <li><strong>Types of Receipts:</strong>
-                <ul>
-                    <li><strong>Revenue Receipts:</strong> Do not create liability or reduce assets (e.g., Taxes, Fines, Dividends).</li>
-                    <li><strong>Capital Receipts:</strong> Create liability or reduce assets (e.g., Borrowings, Disinvestment, Loan recovery).</li>
-                </ul>
-            </li>
-            <li><strong>Types of Deficits:</strong>
-                <ul>
-                    <li><strong>Fiscal Deficit:</strong> Total Expenditure - Total Receipts (excluding borrowings). Represents total borrowing needs.</li>
-                    <li><strong>Revenue Deficit:</strong> Revenue Expenditure - Revenue Receipts.</li>
-                    <li><strong>Primary Deficit:</strong> Fiscal Deficit - Interest Payments.</li>
-                </ul>
-            </li>
-            <li><strong>Taxation:</strong>
-                <ul>
-                    <li><strong>Direct Taxes:</strong> Impact and incidence are on the same person. Cannot be shifted. (e.g., Income Tax, Corporate Tax, Wealth Tax, Capital Gains Tax).</li>
-                    <li><strong>Indirect Taxes:</strong> Burden can be shifted. (e.g., GST, Customs Duty, Excise Duty).</li>
-                </ul>
-            </li>
-            <li><strong>Goods and Services Tax (GST):</strong>
-                <ul>
-                    <li>Implemented on <strong>July 1, 2017</strong> via the <strong>101st Amendment Act, 2016</strong>.</li>
-                    <li>It is an indirect, destination-based, consumption tax.</li>
-                    <li><strong>GST Council:</strong> Defined under <strong>Article 279A</strong>, headed by the Union Finance Minister.</li>
-                    <li>Standard Slabs: 0%, 5%, 12%, 18%, 28%.</li>
-                </ul>
-            </li>
+            <li>The Constitution of India does not use the word 'Budget'. Article 112 refers to it as the <strong>'Annual Financial Statement'</strong>.</li>
+            <li>The financial year in India runs from April 1 to March 31.</li>
+            <li><strong>Revenue Receipts:</strong> Receipts that neither create a liability nor reduce assets. Examples: Tax revenue (Income tax, GST), Non-tax revenue (fines, fees, dividends from PSUs).</li>
+            <li><strong>Capital Receipts:</strong> Receipts that either create a liability or reduce assets. Examples: Borrowings (create liability), Disinvestment/Selling PSU shares (reduce assets), Recovery of loans.</li>
+            <li><strong>Revenue Expenditure:</strong> Routine expenses that do not create assets. Examples: Salaries, Pensions, Interest payments, Subsidies.</li>
+            <li><strong>Capital Expenditure (CapEx):</strong> Spending that creates physical or financial assets or reduces liabilities. Examples: Building roads, hospitals, schools, repaying loans.</li>
+        </ul>
+
+        <h4>Types of Deficits</h4>
+        <ul>
+            <li><strong>Budgetary Deficit:</strong> Total Expenditure - Total Receipts. (Rarely used now).</li>
+            <li><strong>Revenue Deficit:</strong> Revenue Expenditure - Revenue Receipts. Indicates that the government is borrowing just to meet its day-to-day expenses.</li>
+            <li><strong>Effective Revenue Deficit:</strong> Revenue Deficit - Grants given to states for capital asset creation.</li>
+            <li><strong>Fiscal Deficit:</strong> Total Expenditure - Total Receipts (excluding borrowings). It indicates the <strong>total borrowing requirement</strong> of the government.</li>
+            <li><strong>Primary Deficit:</strong> Fiscal Deficit - Interest Payments on previous borrowings. Indicates how much borrowing is needed to meet current expenses, ignoring past debts.</li>
+            <li><strong>Monetized Deficit:</strong> The part of the fiscal deficit financed by the RBI printing new money (Deficit Financing).</li>
+        </ul>
+
+        <h4>Taxation in India</h4>
+        <p>Taxes are compulsory payments to the government without any direct reciprocal benefit.</p>
+        <ul>
+            <li><strong>Direct Taxes:</strong> The impact (initial burden) and incidence (final burden) fall on the <strong>same person</strong>. The burden cannot be shifted. <br>Examples: Income Tax, Corporate Tax, Capital Gains Tax, Securities Transaction Tax (STT), Wealth Tax (abolished).</li>
+            <li><strong>Indirect Taxes:</strong> The impact and incidence fall on <strong>different persons</strong>. The burden is shifted to the final consumer. <br>Examples: Goods and Services Tax (GST), Customs Duty, Excise Duty, Value Added Tax (VAT).</li>
+        </ul>
+
+        <h4>Goods and Services Tax (GST)</h4>
+        <ul>
+            <li>GST is a comprehensive, multi-stage, <strong>destination-based</strong> indirect tax levied on value addition.</li>
+            <li>Introduced via the <strong>101st Constitutional Amendment Act, 2016</strong> (came into effect on July 1, 2017).</li>
+            <li>It subsumed many indirect taxes (Excise duty, VAT, Service tax, Octroi) into one. <em>Exceptions: Alcohol for human consumption, Petroleum products, Electricity are outside GST.</em></li>
+            <li><strong>GST Slabs:</strong> 0%, 5%, 12%, 18%, 28%.</li>
+            <li><strong>GST Council:</strong> A constitutional body under <strong>Article 279A</strong>. Headed by the <strong>Union Finance Minister</strong>. Makes recommendations on GST rates. Decisions require a 3/4th majority.</li>
+        </ul>
+
+        <h4>Types of Tax Systems</h4>
+        <ul>
+            <li><strong>Progressive Tax:</strong> Tax rate increases as the taxable base (income) increases. India's Income Tax is progressive. Helps reduce inequality.</li>
+            <li><strong>Regressive Tax:</strong> Tax rate decreases as income increases. Takes a larger percentage of income from low-income earners than high-income earners. (Indirect taxes like GST are inherently regressive).</li>
+            <li><strong>Proportional Tax:</strong> Tax rate remains constant regardless of the income level (Flat tax).</li>
+            <li><strong>Laffer Curve:</strong> Shows the relationship between tax rates and tax revenue collected by governments. It suggests that increasing tax rates beyond a certain point will <em>decrease</em> total tax revenue because it discourages work and investment.</li>
         </ul>
 
         <hr style="border: 1px solid #334155; margin: 20px 0;">
 
-        <h3>5. INFLATION AND UNEMPLOYMENT</h3>
+        <h3>5. MONEY, BANKING & MONETARY POLICY</h3>
+        
+        <h4>Evolution of Money</h4>
         <ul>
-            <li><strong>Inflation:</strong> A sustained increase in the general price level, leading to a fall in the purchasing power of money.</li>
-            <li><strong>Types by Rate:</strong> Creeping (0-3%), Walking (3-10%), Galloping (10-20%), Hyperinflation (astronomical rates).</li>
-            <li><strong>Key Terms:</strong>
-                <ul>
-                    <li><strong>Stagflation:</strong> High Inflation + High Unemployment + Stagnant Growth.</li>
-                    <li><strong>Deflation:</strong> Negative inflation; prices fall continuously.</li>
-                    <li><strong>Disinflation:</strong> A decrease in the <em>rate</em> of inflation (prices still rise, but slower).</li>
-                </ul>
+            <li><strong>Barter System:</strong> Direct exchange of goods for goods. Major drawback: Requires <em>Double Coincidence of Wants</em>.</li>
+            <li><strong>Fiat Money:</strong> Currency declared as legal tender by the government but not backed by a physical commodity (like gold). Paper rupees are fiat money.</li>
+            <li><strong>Fiduciary Money:</strong> Accepted as money based on the trust between the issuer and the payee (e.g., Cheques, Demand Drafts).</li>
+        </ul>
+
+        <h4>Reserve Bank of India (RBI)</h4>
+        <ul>
+            <li>Established on <strong>April 1, 1935</strong>, under the RBI Act, 1934, based on the recommendations of the <strong>Hilton Young Commission</strong> (Royal Commission on Indian Currency and Finance).</li>
+            <li>Initially headquartered in Calcutta, moved to Mumbai in 1937.</li>
+            <li><strong>Nationalization:</strong> RBI was nationalized on <strong>January 1, 1949</strong>.</li>
+            <li><strong>Governors:</strong> 
+                <br>- First Governor: Sir Osborne Smith (1935). 
+                <br>- First Indian Governor: C.D. Deshmukh.
+                <br>- Current Governor: Shaktikanta Das (25th).
             </li>
-            <li><strong>Measurement:</strong> RBI uses <strong>CPI (Consumer Price Index) - Combined</strong> as the inflation anchor (Target: 4% ± 2%). WPI (Wholesale Price Index) measures prices at wholesale level.</li>
-            <li><strong>Types of Unemployment:</strong>
-                <ul>
-                    <li><strong>Disguised:</strong> More people working than necessary; marginal productivity is zero. Common in Indian agriculture.</li>
-                    <li><strong>Structural:</strong> Mismatch between worker skills and available jobs due to technological changes.</li>
-                    <li><strong>Frictional:</strong> Temporary unemployment while searching for a new job.</li>
-                    <li><strong>Cyclical:</strong> Unemployment caused by recession or economic downturns.</li>
-                </ul>
-            </li>
-            <li><strong>Phillips Curve:</strong> Shows the inverse relationship between Inflation and Unemployment.</li>
+            <li><strong>Functions of RBI:</strong> Issuer of Currency (all notes except ₹1 note), Banker to the Government, Banker's Bank, Lender of Last Resort, Controller of Credit (Monetary Policy), Custodian of Foreign Exchange Reserves.</li>
+            <li><strong>Note Issue:</strong> RBI issues all currency notes. The <strong>₹1 note</strong> is issued by the Ministry of Finance and bears the signature of the <strong>Finance Secretary</strong>. All other notes bear the signature of the RBI Governor.</li>
+        </ul>
+
+        <h4>Monetary Policy Tools</h4>
+        <p>Used by RBI to control the money supply (liquidity) and manage inflation.</p>
+        
+        <h5>1. Quantitative Tools (General Tools)</h5>
+        <ul>
+            <li><strong>Cash Reserve Ratio (CRR):</strong> The percentage of a bank's Net Demand and Time Liabilities (NDTL) that it must keep with the RBI in the form of cash. Banks earn <em>zero interest</em> on CRR. <br><em>To fight inflation: RBI increases CRR -> banks have less money to lend -> money supply drops.</em></li>
+            <li><strong>Statutory Liquidity Ratio (SLR):</strong> The percentage of NDTL that banks must maintain with themselves in the form of liquid assets (cash, gold, government securities) before lending to customers.</li>
+            <li><strong>Repo Rate (Repurchasing Option Rate):</strong> The rate at which the RBI lends <em>short-term</em> money to commercial banks against the collateral of government securities. <br><em>To fight inflation: RBI increases Repo Rate -> borrowing becomes expensive -> banks increase loan interest rates -> public borrowing drops -> inflation cools.</em></li>
+            <li><strong>Reverse Repo Rate:</strong> The rate at which the RBI borrows money from commercial banks (or the rate banks earn for parking excess funds with RBI).</li>
+            <li><strong>Bank Rate:</strong> The rate at which the RBI lends <em>long-term</em> money to commercial banks <em>without</em> any collateral. Also used as a penal rate.</li>
+            <li><strong>Marginal Standing Facility (MSF):</strong> A window for banks to borrow overnight funds from RBI in emergency situations against government securities (usually higher than Repo Rate).</li>
+            <li><strong>Open Market Operations (OMO):</strong> The buying and selling of Government Securities (G-Secs) by the RBI in the open market. <br><em>To fight inflation: RBI sells G-Secs -> sucks liquidity out of the market.</em></li>
+        </ul>
+
+        <h5>2. Qualitative Tools (Selective Tools)</h5>
+        <ul>
+            <li><strong>Margin Requirements:</strong> The difference between the loan amount and the market value of the collateral.</li>
+            <li><strong>Moral Suasion:</strong> RBI urging or persuading banks to follow its directives and policies.</li>
+            <li><strong>Direct Action:</strong> Penalties imposed on banks that fail to follow RBI guidelines.</li>
+        </ul>
+
+        <h4>Other Important Financial Institutions</h4>
+        <ul>
+            <li><strong>NABARD (National Bank for Agriculture and Rural Development):</strong> Apex development bank for agriculture. Established on July 12, 1982, on the recommendation of the <strong>B. Sivaraman Committee</strong>. Headquarters: Mumbai.</li>
+            <li><strong>SIDBI (Small Industries Development Bank of India):</strong> Apex regulatory body for licensing and regulating micro, small and medium enterprise finance. HQ: Lucknow.</li>
+            <li><strong>EXIM Bank:</strong> Export-Import Bank of India, set up in 1982 to finance, facilitate, and promote foreign trade.</li>
+            <li><strong>SEBI (Securities and Exchange Board of India):</strong> Regulator of the securities and stock market. Established in 1988, given statutory status in 1992.</li>
         </ul>
 
         <hr style="border: 1px solid #334155; margin: 20px 0;">
 
-        <h3>6. BANKING AND MONETARY POLICY</h3>
+        <h3>6. INFLATION & BUSINESS CYCLE</h3>
+        
+        <h4>Inflation Concepts</h4>
+        <p>Inflation is a persistent rise in the general price level of goods and services, resulting in a decline in purchasing power.</p>
         <ul>
-            <li><strong>Reserve Bank of India (RBI):</strong> 
-                <ul>
-                    <li>Established on <strong>April 1, 1935</strong> based on the <strong>Hilton Young Commission</strong>.</li>
-                    <li>Nationalized on <strong>January 1, 1949</strong>.</li>
-                    <li>First Governor: Sir Osborne Smith. First Indian Governor: C.D. Deshmukh.</li>
-                </ul>
-            </li>
-            <li><strong>Monetary Policy Tools (Quantitative):</strong>
-                <ul>
-                    <li><strong>Repo Rate:</strong> Rate at which RBI lends short-term money to banks against Govt securities. (Increasing it controls inflation).</li>
-                    <li><strong>Reverse Repo Rate:</strong> Rate at which RBI absorbs liquidity from banks.</li>
-                    <li><strong>Bank Rate:</strong> Rate at which RBI lends long-term money without collateral.</li>
-                    <li><strong>CRR (Cash Reserve Ratio):</strong> Minimum % of total deposits banks must keep as <em>cash</em> with RBI. (Earns no interest).</li>
-                    <li><strong>SLR (Statutory Liquidity Ratio):</strong> Minimum % of deposits banks must keep with themselves in liquid assets (cash, gold, G-Secs).</li>
-                    <li><strong>Open Market Operations (OMO):</strong> Buying and selling of Govt securities by RBI in the open market.</li>
-                </ul>
-            </li>
-            <li><strong>NABARD:</strong> Established on <strong>July 12, 1982</strong> (B. Sivaraman Committee) for agriculture and rural credit.</li>
+            <li><strong>Demand-Pull Inflation:</strong> Caused by an increase in aggregate demand outstripping aggregate supply ("Too much money chasing too few goods"). Causes: High govt spending, black money, population growth, low interest rates.</li>
+            <li><strong>Cost-Push Inflation:</strong> Caused by an increase in the cost of production (e.g., raw materials, wages, fuel). E.g., global crude oil price hike.</li>
+            <li><strong>Structural Inflation:</strong> Caused by structural bottlenecks like hoarding, poor infrastructure, agricultural shortfalls.</li>
+        </ul>
+
+        <h4>Rates of Inflation</h4>
+        <ul>
+            <li><strong>Creeping Inflation:</strong> 0% to 3% annually. Considered healthy for economic growth.</li>
+            <li><strong>Walking/Trotting Inflation:</strong> 3% to 10% annually. A warning sign for the government.</li>
+            <li><strong>Galloping Inflation:</strong> 10% to 20%+ (double or triple-digit). Seriously harms the economy.</li>
+            <li><strong>Hyperinflation:</strong> Prices rise astronomically (millions of percent per year). Money becomes completely worthless (e.g., Zimbabwe in 2008, Venezuela).</li>
+        </ul>
+
+        <h4>Measuring Inflation in India</h4>
+        <ul>
+            <li><strong>Wholesale Price Index (WPI):</strong> Measures price changes at the wholesale/producer level. Published by the Office of Economic Adviser (Ministry of Commerce). Does NOT include services. Base year: 2011-12.</li>
+            <li><strong>Consumer Price Index (CPI):</strong> Measures price changes at the retail/consumer level. Includes both goods AND services (education, medical, rent). Published by NSO. Base year: 2012. <strong>RBI uses CPI-Combined to target inflation.</strong></li>
+            <li><strong>Headline Inflation:</strong> Total inflation in the economy, including highly volatile items like food and energy.</li>
+            <li><strong>Core Inflation:</strong> Headline Inflation MINUS volatile food and energy prices. Shows the underlying long-term inflation trend.</li>
+        </ul>
+
+        <h4>Economic Terminologies</h4>
+        <ul>
+            <li><strong>Deflation:</strong> A general decline in prices (negative inflation rate). Bad for the economy as it leads to delayed spending and recession.</li>
+            <li><strong>Disinflation:</strong> A reduction in the <em>rate</em> of inflation. (Prices are still rising, but slower. E.g., inflation drops from 8% to 5%).</li>
+            <li><strong>Stagflation:</strong> A dreaded scenario combining <strong>Stagnation (slow growth) + High Unemployment + High Inflation</strong>. Disproves the traditional Phillips curve.</li>
+            <li><strong>Skewflation:</strong> Inflation in one specific sector (e.g., only food prices rise) while other sectors remain stable.</li>
+            <li><strong>Reflation:</strong> Government/RBI action (printing money, cutting taxes) to stimulate the economy and reverse deflation.</li>
+            <li><strong>Phillips Curve:</strong> A curve showing the <strong>inverse relationship</strong> between inflation and unemployment in the short run. (Higher inflation = lower unemployment).</li>
+        </ul>
+
+        <h4>Effects of Inflation</h4>
+        <ul>
+            <li><strong>Debtors vs. Creditors:</strong> Debtors (borrowers) GAIN during inflation because they repay loans with money that is worth less. Creditors (lenders) LOSE.</li>
+            <li><strong>Fixed Income Earners:</strong> Pensioners and salaried classes LOSE because their income stays fixed while costs rise.</li>
+            <li><strong>Exporters vs. Importers:</strong> High domestic inflation makes exports less competitive globally, hurting exporters.</li>
         </ul>
 
         <hr style="border: 1px solid #334155; margin: 20px 0;">
 
-        <h3>7. FIVE YEAR PLANS & POVERTY</h3>
+        <h3>7. ECONOMIC PLANNING IN INDIA (FIVE YEAR PLANS)</h3>
+        
+        <h4>Background</h4>
         <ul>
-            <li><strong>History:</strong> Concept borrowed from USSR. <strong>Planning Commission</strong> formed in 1950 (replaced by NITI Aayog on Jan 1, 2015).</li>
-            <li><strong>Important Plans:</strong>
-                <ul>
-                    <li><strong>1st Plan (1951-56):</strong> Harrod-Domar Model. Focus: Agriculture.</li>
-                    <li><strong>2nd Plan (1956-61):</strong> P.C. Mahalanobis Model. Focus: Heavy Industries (Bhilai, Durgapur, Rourkela steel plants set up).</li>
-                    <li><strong>3rd Plan (1961-66):</strong> Gadgil Yojana. Failed due to Sino-Indian & Indo-Pak wars.</li>
-                    <li><strong>Plan Holiday (1966-69):</strong> Three annual plans. Green Revolution introduced.</li>
-                    <li><strong>5th Plan (1974-79):</strong> DP Dhar Model. Focus: Poverty Eradication (<em>'Garibi Hatao'</em> slogan).</li>
-                    <li><strong>8th Plan (1992-97):</strong> LPG Reforms (Liberalization, Privatization, Globalization) under Rao-Manmohan model.</li>
-                </ul>
-            </li>
-            <li><strong>Poverty Committees:</strong> Alagh Committee (1979), Lakdawala (1993), <strong>Tendulkar (2009)</strong>, Rangarajan (2014).</li>
-            <li><strong>Inequality Measurement:</strong> 
-                <ul>
-                    <li><strong>Lorenz Curve:</strong> Graphical representation of income inequality.</li>
-                    <li><strong>Gini Coefficient:</strong> Mathematical measure (0 = perfect equality, 1 = perfect inequality).</li>
-                </ul>
-            </li>
+            <li><strong>1934:</strong> Sir M. Visvesvaraya published <em>'Planned Economy for India'</em>.</li>
+            <li><strong>1944:</strong> Bombay Plan (presented by 8 leading industrialists like Tata and Birla).</li>
+            <li><strong>1950:</strong> <strong>Planning Commission</strong> established as an extra-constitutional, non-statutory body via a cabinet resolution. Prime Minister was the ex-officio chairman.</li>
+            <li><strong>2015:</strong> Planning Commission replaced by <strong>NITI Aayog</strong> (National Institution for Transforming India) on January 1. NITI Aayog acts as a "think tank" using a bottom-up approach. PM is the Chairperson.</li>
+        </ul>
+
+        <h4>Important Five-Year Plans (FYP)</h4>
+        <ul>
+            <li><strong>First Plan (1951-56):</strong> Based on the <strong>Harrod-Domar Model</strong>. Primary focus was on <strong>Agriculture</strong> and irrigation (Bhakra Nangal, Hirakud dams built). Highly successful.</li>
+            <li><strong>Second Plan (1956-61):</strong> Based on the <strong>P.C. Mahalanobis Model</strong>. Focus shifted to <strong>Heavy Industries</strong> and rapid industrialization. Three major steel plants established: Bhilai (with USSR help), Durgapur (UK), Rourkela (Germany).</li>
+            <li><strong>Third Plan (1961-66):</strong> Also known as the <strong>Gadgil Yojana</strong>. Aimed at making India self-reliant. A miserable failure due to the Sino-Indian War (1962), Indo-Pak War (1965), and severe droughts.</li>
+            <li><strong>Plan Holiday (1966-1969):</strong> Due to the failure of the 3rd Plan, three separate Annual Plans were executed. The <strong>Green Revolution</strong> was introduced during this period to boost wheat production.</li>
+            <li><strong>Fourth Plan (1969-74):</strong> Introduced during Indira Gandhi's tenure. Focus on 'Growth with Stability' and 'Progressive Achievement of Self-Reliance'. 14 major Indian banks were nationalized (1969).</li>
+            <li><strong>Fifth Plan (1974-79):</strong> Based on the D.P. Dhar model. Primary focus was <strong>Poverty Eradication (Garibi Hatao)</strong> and self-reliance. Terminated one year early by the newly elected Morarji Desai (Janata Party) government.</li>
+            <li><strong>Rolling Plan (1978-80):</strong> Introduced by the Janata Party government to replace the Fifth Plan. (Later scrapped when Indira Gandhi returned to power).</li>
+            <li><strong>Sixth Plan (1980-85):</strong> Focus on economic liberalization and eradicating poverty through schemes like TRYSEM and NREP. NABARD and EXIM Bank were set up.</li>
+            <li><strong>Seventh Plan (1985-90):</strong> Focus on upgrading industries and improving productivity. Jawahar Rozgar Yojana launched.</li>
+            <li><strong>Annual Plans (1990-92):</strong> 8th Plan delayed due to political instability and severe Balance of Payment crisis.</li>
+            <li><strong>Eighth Plan (1992-97):</strong> Extremely important. Launched the <strong>LPG Reforms (Liberalization, Privatization, Globalization)</strong> under the Rao-Manmohan model. India joined the WTO (1995).</li>
+            <li><strong>Ninth Plan (1997-2002):</strong> Focus on "Growth with Social Justice and Equality".</li>
+            <li><strong>Tenth Plan (2002-07):</strong> Aimed to double per capita income in 10 years and reduce poverty by 15%.</li>
+            <li><strong>Eleventh Plan (2007-12):</strong> Theme: "Faster and more inclusive growth". Designed by C. Rangarajan. Right to Education Act passed.</li>
+            <li><strong>Twelfth Plan (2012-17):</strong> Theme: "Faster, more inclusive and sustainable growth". The final Five-Year Plan of India.</li>
+        </ul>
+
+        <hr style="border: 1px solid #334155; margin: 20px 0;">
+
+        <h3>8. POVERTY AND UNEMPLOYMENT</h3>
+        
+        <h4>Types of Poverty</h4>
+        <ul>
+            <li><strong>Absolute Poverty:</strong> Measured by an absolute standard, like the minimum caloric intake or a set income threshold (Poverty Line). Determines exactly how many people are poor. Prevalent in developing countries.</li>
+            <li><strong>Relative Poverty:</strong> Measured in comparison to the economic status of other members of the society. Focuses on inequality rather than basic survival. Prevalent in developed countries.</li>
+        </ul>
+
+        <h4>Poverty Estimation Committees in India</h4>
+        <p>Poverty lines in India have traditionally been based on consumption expenditure, not income.</p>
+        <ul>
+            <li><strong>Y.K. Alagh Committee (1979):</strong> First to define poverty based on nutritional requirements. Urban: 2100 calories/day. Rural: 2400 calories/day (rural requires more due to physical labor).</li>
+            <li><strong>Lakdawala Committee (1993):</strong> Suggested state-specific poverty lines based on CPI-AL (Agricultural Labourers) and CPI-IW (Industrial Workers).</li>
+            <li><strong>Suresh Tendulkar Committee (2009):</strong> Moved away from calorie intake to a broader consumption basket (including education and health). Defined poverty line at ₹27/day (rural) and ₹33/day (urban). Estimated 21.9% of Indians were below the poverty line in 2011-12.</li>
+            <li><strong>C. Rangarajan Committee (2014):</strong> Reverted partially to calorie-based norms but included non-food expenses. Raised the poverty line to ₹32/day (rural) and ₹47/day (urban). Estimated poverty at 29.5%.</li>
+        </ul>
+
+        <h4>Types of Unemployment</h4>
+        <ul>
+            <li><strong>Disguised Unemployment:</strong> Common in Indian agriculture. More people are employed in a job than actually needed. The marginal productivity of the extra workers is zero.</li>
+            <li><strong>Structural Unemployment:</strong> Occurs due to a structural change in the economy or technology. Skills of the workers do not match the jobs available (e.g., typewriter mechanics losing jobs to computers).</li>
+            <li><strong>Frictional Unemployment:</strong> Temporary unemployment that occurs when people are between jobs or actively looking for their first job.</li>
+            <li><strong>Cyclical Unemployment:</strong> Occurs due to the business cycle (recession or depression). Demand falls, leading to layoffs.</li>
+            <li><strong>Seasonal Unemployment:</strong> Occurs during specific seasons (e.g., agricultural laborers out of work between sowing and harvesting).</li>
+        </ul>
+
+        <h4>Measurement of Inequality</h4>
+        <ul>
+            <li><strong>Lorenz Curve:</strong> A graphical representation of income or wealth distribution. The further the curve sags away from the straight diagonal line of perfect equality, the greater the inequality.</li>
+            <li><strong>Gini Coefficient:</strong> The mathematical measure of the Lorenz Curve. Range is 0 to 1. <br>0 = Perfect Equality (everyone has exactly the same income). <br>1 = Perfect Inequality (one person has all the wealth).</li>
+            <li><strong>Kuznets Curve:</strong> Shows that as an economy develops and GDP grows, market forces first <em>increase</em> economic inequality, and then <em>decrease</em> it. Shaped like an inverted 'U'.</li>
+        </ul>
+
+        <h4>Human Development Index (HDI)</h4>
+        <ul>
+            <li>Developed by Pakistani economist Mahbub ul Haq and Amartya Sen. Published annually by the <strong>UNDP</strong> since 1990.</li>
+            <li>Parameters: 1. Life Expectancy at birth (Health), 2. Expected & Mean years of schooling (Education), 3. Gross National Income per capita (Standard of Living).</li>
         </ul>
 `,
     mcqs: [
