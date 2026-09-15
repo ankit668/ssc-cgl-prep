@@ -7,6 +7,8 @@ window.getFatmanData = function() {
     if (window.currentFatmanSubject === "polity") return window.polityData;
     if (window.currentFatmanSubject === "static") return window.fatmanStatic;
     if (window.currentFatmanSubject === "economics") return window.fatmanEconomics;
+    if (window.currentFatmanSubject === "science") return window.fatmanScience;
+    if (window.currentFatmanSubject === "environment") return window.fatmanEnvironment;
     if (window.currentFatmanSubject === "current_affairs") return window.fatmanCurrentAffairs;
     return window.fatmanGeography;
 };
