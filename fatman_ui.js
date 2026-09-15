@@ -81,6 +81,8 @@ if ('speechSynthesis' in window) {
             <option value="polity">Polity</option>
         <option value="static">Static GK</option>
             <option value="economics">Economics</option>
+            <option value="science">Science &amp; Technology</option>
+            <option value="environment">Environment &amp; Ecology</option>
             <option value="current_affairs">Current Affairs</option>
         </select>
     </div>
