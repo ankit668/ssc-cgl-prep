@@ -165,6 +165,84 @@ const environmentData = {
             <li><strong>Green House Effect:</strong> Natural warming of Earth's surface by greenhouse gases trapping heat. Without it, Earth would be -18°C. Enhanced greenhouse effect causes global warming.</li>
             <li><strong>El Niño:</strong> Unusual warming of surface waters in the Pacific Ocean, disrupting global weather patterns — causes drought in India/Australia, floods in South America. La Niña is the opposite (cooling).</li>
         </ul>
+
+        <hr style="border: 1px solid #334155; margin: 20px 0;">
+        <h3>12. RAMSAR SITES IN INDIA (Important ones)</h3>
+        <ul>
+            <li>India has <strong>75+ Ramsar Sites</strong> (as of 2023) — most in the world after UK.</li>
+            <li><strong>First Ramsar Site in India:</strong> Chilika Lake (Odisha, 1981) and Keoladeo Ghana (Rajasthan, 1981) — designated simultaneously.</li>
+            <li>
+                <table border="1" style="border-collapse: collapse; width:100%; font-size:13px;">
+                    <tr style="background:#1E293B;"><th style="padding:6px;">Ramsar Site</th><th>State</th><th>Known For</th></tr>
+                    <tr><td>Chilika Lake</td><td>Odisha</td><td>Largest coastal lagoon in India; Irrawaddy dolphins</td></tr>
+                    <tr><td>Keoladeo Ghana</td><td>Rajasthan</td><td>Bird sanctuary; UNESCO WHS; Siberian cranes</td></tr>
+                    <tr><td>Wular Lake</td><td>J&K</td><td>Largest freshwater lake in India</td></tr>
+                    <tr><td>Dal Lake</td><td>J&K</td><td>Famous tourist lake in Srinagar</td></tr>
+                    <tr><td>Loktak Lake</td><td>Manipur</td><td>Largest freshwater lake in NE India; floating phumdis; Sangai deer</td></tr>
+                    <tr><td>Sambhar Lake</td><td>Rajasthan</td><td>Largest inland saltwater lake in India</td></tr>
+                    <tr><td>Vembanad Lake</td><td>Kerala</td><td>Longest lake in India; backwaters</td></tr>
+                    <tr><td>Kolleru Lake</td><td>Andhra Pradesh</td><td>Largest freshwater lake in South India</td></tr>
+                    <tr><td>Harike Wetland</td><td>Punjab</td><td>Largest wetland in northern India</td></tr>
+                    <tr><td>Sundarbans</td><td>West Bengal</td><td>Mangrove wetland; Bengal Tiger</td></tr>
+                    <tr><td>Deepor Beel</td><td>Assam</td><td>Only Ramsar site in Assam; near Guwahati</td></tr>
+                </table>
+            </li>
+        </ul>
+
+        <h3>13. UNESCO WORLD HERITAGE SITES IN INDIA (Natural)</h3>
+        <ul>
+            <li><strong>Kaziranga National Park (Assam):</strong> One-horned Rhinoceros.</li>
+            <li><strong>Manas Wildlife Sanctuary (Assam):</strong> Golden Langur, Red Panda, Tiger.</li>
+            <li><strong>Keoladeo National Park (Rajasthan):</strong> Birds. Also known as Bharatpur Bird Sanctuary.</li>
+            <li><strong>Sundarbans National Park (West Bengal):</strong> Bengal Tiger, Mangroves.</li>
+            <li><strong>Nanda Devi & Valley of Flowers (Uttarakhand):</strong> Alpine flora.</li>
+            <li><strong>Western Ghats:</strong> Highest biodiversity. UNESCO WHS (2012). Covers parts of Maharashtra, Goa, Karnataka, Kerala, Tamil Nadu.</li>
+            <li><strong>Great Himalayan National Park (Himachal Pradesh):</strong> Snow Leopard, Western Tragopan.</li>
+        </ul>
+
+        <h3>14. TIGER CENSUS & PROJECT TIGER</h3>
+        <ul>
+            <li><strong>India Tiger Census 2022:</strong> India has <strong>3,167 tigers</strong> — the highest ever recorded and about 70% of the world's wild tigers.</li>
+            <li><strong>States with most tigers:</strong> Madhya Pradesh (785) > Karnataka > Uttarakhand.</li>
+            <li><strong>Project Tiger (1973):</strong> India now has <strong>55 Tiger Reserves</strong>. Administered by NTCA (National Tiger Conservation Authority).</li>
+            <li><strong>First Tiger Reserve:</strong> Jim Corbett (Uttarakhand).</li>
+            <li><strong>Largest Tiger Reserve:</strong> Nagarjunasagar-Srisailam (Telangana/AP).</li>
+            <li><strong>Smallest Tiger Reserve:</strong> Bor (Maharashtra).</li>
+        </ul>
+
+        <h3>15. RENEWABLE ENERGY IN INDIA</h3>
+        <ul>
+            <li><strong>National Solar Mission (Jawaharlal Nehru National Solar Mission):</strong> Launched in 2010. Target: 100 GW solar power capacity by 2022 (now extended to 500 GW by 2030 from renewables).</li>
+            <li><strong>International Solar Alliance (ISA):</strong> Founded by India and France. HQ: Gurugram, Haryana. Aims to mobilize solar energy in tropical countries.</li>
+            <li><strong>India's Renewable Energy Ranking:</strong> India ranks 4th globally in renewable energy installed capacity and 4th in wind power.</li>
+            <li><strong>Green Hydrogen Mission:</strong> India's National Green Hydrogen Mission (2023) targets making India a global hub for green hydrogen production and export.</li>
+            <li><strong>COP Commitments (NDC):</strong> India committed to achieve 500 GW of non-fossil fuel electricity capacity by 2030 and reduce emissions intensity of GDP by 45% from 2005 levels.</li>
+            <li><strong>Wind Energy:</strong> India is 4th globally. Highest wind energy potential in Tamil Nadu.</li>
+            <li><strong>Geothermal Energy:</strong> Heat from the Earth's interior. India's potential sites: Puga Valley (Ladakh), Manikaran (Himachal Pradesh).</li>
+        </ul>
+
+        <h3>16. RIVERS, WETLANDS & POLLUTION CASE STUDIES</h3>
+        <ul>
+            <li><strong>Ganga Action Plan (GAP):</strong> Launched in 1985 by Rajiv Gandhi government to reduce pollution in River Ganga. Later replaced by National Mission for Clean Ganga (NMCG) / Namami Gange Programme (2014).</li>
+            <li><strong>Namami Gange Programme:</strong> Launched 2014. Budget: ₹20,000 crore. Integrated conservation mission for Ganga.</li>
+            <li><strong>Thermal Pollution:</strong> Warm water discharged from power plants into rivers reduces dissolved oxygen, harming aquatic life.</li>
+            <li><strong>Oil Spills:</strong> Major water pollutant in oceans. E.g., Exxon Valdez oil spill (1989), Deepwater Horizon (2010).</li>
+            <li><strong>E-waste:</strong> Electronic waste is a growing pollutant containing heavy metals (Lead, Mercury, Cadmium).</li>
+            <li><strong>Microplastics:</strong> Plastic particles < 5mm. Found in oceans, drinking water, human blood. Major emerging pollutant.</li>
+        </ul>
+
+        <h3>17. IMPORTANT ANIMAL FACTS FOR SSC</h3>
+        <ul>
+            <li><strong>National Animal:</strong> Bengal Tiger (Panthera tigris).</li>
+            <li><strong>National Bird:</strong> Indian Peacock (Pavo cristatus).</li>
+            <li><strong>National Aquatic Animal:</strong> Gangetic River Dolphin (Platanista gangetica).</li>
+            <li><strong>National Heritage Animal:</strong> Indian Elephant.</li>
+            <li><strong>National Butterfly:</strong> Southern Birdwing.</li>
+            <li><strong>Tallest flying bird:</strong> Sarus Crane (State bird of Uttar Pradesh).</li>
+            <li><strong>Largest bird:</strong> Ostrich (cannot fly).</li>
+            <li><strong>Fastest animal:</strong> Cheetah (110-120 km/h). Fastest bird: Peregrine Falcon (~389 km/h in a dive).</li>
+            <li><strong>Great Indian Bustard:</strong> Critically Endangered. Found in Rajasthan. State bird of Rajasthan.</li>
+        </ul>
 `,
     mcqs: [
     {
@@ -587,7 +665,259 @@ const environmentData = {
         "correct": 1,
         "explanation": "Acid Rain (caused by SO\u2082 and NO\u2093 pollution) reacts with calcium carbonate in marble, converting it to calcium sulphate (gypsum) which crumbles \u2014 called 'Marble Cancer.'"
     }
-],
+,
+{
+        "id": "env_31",
+        "subject": "environment",
+        "topic": "Ramsar Sites",
+        "question": "Which lake was India's FIRST Ramsar site?",
+        "options": [
+                "Wular Lake",
+                "Vembanad Lake",
+                "Chilika Lake",
+                "Dal Lake"
+        ],
+        "correct": 2,
+        "explanation": "Chilika Lake (Odisha) and Keoladeo Ghana (Rajasthan) were simultaneously designated as India's first Ramsar sites in 1981."
+},
+{
+        "id": "env_32",
+        "subject": "environment",
+        "topic": "Ramsar Sites",
+        "question": "Which is the largest coastal lagoon in India and also a Ramsar site?",
+        "options": [
+                "Sambhar Lake",
+                "Vembanad Lake",
+                "Chilika Lake",
+                "Loktak Lake"
+        ],
+        "correct": 2,
+        "explanation": "Chilika Lake in Odisha is the largest coastal lagoon in India and South Asia. It is famous for Irrawaddy dolphins and migratory birds."
+},
+{
+        "id": "env_33",
+        "subject": "environment",
+        "topic": "Ramsar Sites",
+        "question": "Loktak Lake is located in which state and is famous for?",
+        "options": [
+                "Assam; One-horned Rhinos",
+                "Manipur; Floating phumdis and Sangai deer",
+                "Kerala; Backwaters",
+                "Odisha; Flamingos"
+        ],
+        "correct": 1,
+        "explanation": "Loktak Lake in Manipur is the largest freshwater lake in Northeast India, known for its floating phumdis (heterogeneous mass of vegetation) and the endangered Sangai (Manipur Brow-antlered Deer)."
+},
+{
+        "id": "env_34",
+        "subject": "environment",
+        "topic": "Ramsar Sites",
+        "question": "Largest inland saltwater lake in India is?",
+        "options": [
+                "Chilika Lake",
+                "Wular Lake",
+                "Sambhar Lake",
+                "Loktak Lake"
+        ],
+        "correct": 2,
+        "explanation": "Sambhar Lake (Rajasthan) is the largest inland saline lake in India. It is also a Ramsar site and important flamingo habitat."
+},
+{
+        "id": "env_35",
+        "subject": "environment",
+        "topic": "UNESCO Natural Heritage",
+        "question": "Which Indian national park is a UNESCO WHS known for the one-horned rhinoceros?",
+        "options": [
+                "Jim Corbett",
+                "Gir",
+                "Kaziranga",
+                "Manas"
+        ],
+        "correct": 2,
+        "explanation": "Kaziranga National Park (Assam) is a UNESCO World Heritage Site and home to the world's largest population of one-horned (Indian) rhinoceroses."
+},
+{
+        "id": "env_36",
+        "subject": "environment",
+        "topic": "UNESCO Natural Heritage",
+        "question": "The Western Ghats were declared a UNESCO World Heritage Site in?",
+        "options": [
+                "2000",
+                "2006",
+                "2012",
+                "2016"
+        ],
+        "correct": 2,
+        "explanation": "The Western Ghats were inscribed as a UNESCO Natural World Heritage Site in 2012, recognized for their exceptional biodiversity (one of India's 4 biodiversity hotspots)."
+},
+{
+        "id": "env_37",
+        "subject": "environment",
+        "topic": "Tiger Conservation",
+        "question": "According to India's 2022 Tiger Census, India has approximately how many tigers?",
+        "options": [
+                "2,226",
+                "2,967",
+                "3,167",
+                "3,682"
+        ],
+        "correct": 2,
+        "explanation": "India's 2022 Tiger Census (released 2023) counted 3,167 tigers \u2014 the highest ever recorded. India has ~70% of the world's wild tiger population."
+},
+{
+        "id": "env_38",
+        "subject": "environment",
+        "topic": "Tiger Conservation",
+        "question": "Which state in India has the highest number of tigers (as per 2022 census)?",
+        "options": [
+                "Karnataka",
+                "Uttarakhand",
+                "Madhya Pradesh",
+                "Maharashtra"
+        ],
+        "correct": 2,
+        "explanation": "Madhya Pradesh leads with 785 tigers as per the 2022 census, earning it the title 'Tiger State of India.'"
+},
+{
+        "id": "env_39",
+        "subject": "environment",
+        "topic": "Tiger Conservation",
+        "question": "NTCA stands for?",
+        "options": [
+                "National Tiger Conservation Authority",
+                "National Tiger Census Administration",
+                "National Tribal Conservation Agency",
+                "National Terrain Conservation Authority"
+        ],
+        "correct": 0,
+        "explanation": "NTCA (National Tiger Conservation Authority) is the statutory body under the Ministry of Environment that administers Project Tiger and India's 55 Tiger Reserves."
+},
+{
+        "id": "env_40",
+        "subject": "environment",
+        "topic": "Renewable Energy",
+        "question": "The International Solar Alliance (ISA) was founded by India and?",
+        "options": [
+                "USA",
+                "Germany",
+                "France",
+                "Japan"
+        ],
+        "correct": 2,
+        "explanation": "The International Solar Alliance (ISA) was co-founded by India and France at the COP21 Paris Summit (2015). Its headquarters is in Gurugram, Haryana."
+},
+{
+        "id": "env_41",
+        "subject": "environment",
+        "topic": "Renewable Energy",
+        "question": "India's National Solar Mission was launched in?",
+        "options": [
+                "2005",
+                "2008",
+                "2010",
+                "2014"
+        ],
+        "correct": 2,
+        "explanation": "The Jawaharlal Nehru National Solar Mission was launched in 2010 as part of India's National Action Plan on Climate Change (NAPCC)."
+},
+{
+        "id": "env_42",
+        "subject": "environment",
+        "topic": "Renewable Energy",
+        "question": "India ranks how much globally in renewable energy installed capacity?",
+        "options": [
+                "1st",
+                "2nd",
+                "4th",
+                "7th"
+        ],
+        "correct": 2,
+        "explanation": "India ranks 4th globally in renewable energy installed capacity and 4th in wind power capacity (as of recent data)."
+},
+{
+        "id": "env_43",
+        "subject": "environment",
+        "topic": "River Pollution",
+        "question": "The Namami Gange Programme was launched in?",
+        "options": [
+                "1985",
+                "1995",
+                "2010",
+                "2014"
+        ],
+        "correct": 3,
+        "explanation": "Namami Gange Programme was launched in 2014 with a budget of \u20b920,000 crore. It replaced the earlier Ganga Action Plan (1985) for integrated conservation of River Ganga."
+},
+{
+        "id": "env_44",
+        "subject": "environment",
+        "topic": "River Pollution",
+        "question": "Which programme first addressed the pollution of River Ganga in 1985?",
+        "options": [
+                "National River Conservation Plan",
+                "Namami Gange",
+                "Ganga Action Plan",
+                "National Water Mission"
+        ],
+        "correct": 2,
+        "explanation": "The Ganga Action Plan (GAP) was launched by PM Rajiv Gandhi in 1985 as the first major program to address Ganga river pollution."
+},
+{
+        "id": "env_45",
+        "subject": "environment",
+        "topic": "National Symbols - Animals",
+        "question": "India's National Aquatic Animal is?",
+        "options": [
+                "Blue Whale",
+                "Gangetic River Dolphin",
+                "Irrawaddy Dolphin",
+                "Olive Ridley Turtle"
+        ],
+        "correct": 1,
+        "explanation": "The Gangetic River Dolphin (Platanista gangetica) is India's National Aquatic Animal, declared in 2009. It is also called 'Susu' and is blind."
+},
+{
+        "id": "env_46",
+        "subject": "environment",
+        "topic": "National Symbols - Animals",
+        "question": "India's National Heritage Animal is?",
+        "options": [
+                "Bengal Tiger",
+                "Indian Elephant",
+                "Snow Leopard",
+                "Indian Rhinoceros"
+        ],
+        "correct": 1,
+        "explanation": "The Indian Elephant was declared India's National Heritage Animal in 2010, under Project Elephant. The Bengal Tiger is the National Animal."
+},
+{
+        "id": "env_47",
+        "subject": "environment",
+        "topic": "National Symbols - Animals",
+        "question": "The Great Indian Bustard is the State Bird of?",
+        "options": [
+                "Gujarat",
+                "Rajasthan",
+                "Maharashtra",
+                "Madhya Pradesh"
+        ],
+        "correct": 1,
+        "explanation": "The Great Indian Bustard is the State Bird of Rajasthan. It is Critically Endangered, with fewer than 200 individuals remaining, mostly in Rajasthan's grasslands."
+},
+{
+        "id": "env_48",
+        "subject": "environment",
+        "topic": "National Symbols - Animals",
+        "question": "World's fastest animal on land is?",
+        "options": [
+                "Lion",
+                "Horse",
+                "Cheetah",
+                "Pronghorn Antelope"
+        ],
+        "correct": 2,
+        "explanation": "The Cheetah is the fastest land animal, reaching speeds of 110-120 km/h. India has reintroduced Cheetahs (from Namibia/South Africa) at Kuno National Park, MP."
+}],
     flashcards: [
     {
         "topic": "Basics of Ecology",
@@ -759,6 +1089,91 @@ const environmentData = {
         "front": "Bacterium fixing N\u2082 in legume root nodules?",
         "back": "Rhizobium"
     }
-]
+,
+{
+        "topic": "Ramsar Sites",
+        "front": "India's first Ramsar site (1981)?",
+        "back": "Chilika Lake (Odisha) and Keoladeo Ghana (Rajasthan) \u2014 simultaneously"
+},
+{
+        "topic": "Ramsar Sites",
+        "front": "Total Ramsar sites in India?",
+        "back": "75+ (Most in Asia; 2nd most globally after UK)"
+},
+{
+        "topic": "Ramsar Sites",
+        "front": "Largest coastal lagoon in India?",
+        "back": "Chilika Lake, Odisha"
+},
+{
+        "topic": "Ramsar Sites",
+        "front": "Loktak Lake famous for?",
+        "back": "Floating phumdis; Sangai deer; largest freshwater lake in NE India (Manipur)"
+},
+{
+        "topic": "Ramsar Sites",
+        "front": "Largest inland saltwater lake in India?",
+        "back": "Sambhar Lake, Rajasthan"
+},
+{
+        "topic": "UNESCO Natural Heritage",
+        "front": "Kaziranga NP UNESCO WHS known for?",
+        "back": "One-horned Rhinoceros"
+},
+{
+        "topic": "UNESCO Natural Heritage",
+        "front": "Western Ghats UNESCO WHS year?",
+        "back": "2012"
+},
+{
+        "topic": "Tiger Conservation",
+        "front": "India Tiger Census 2022 count?",
+        "back": "3,167 tigers (~70% of world's wild tigers)"
+},
+{
+        "topic": "Tiger Conservation",
+        "front": "State with highest tigers (2022)?",
+        "back": "Madhya Pradesh (785 tigers)"
+},
+{
+        "topic": "Tiger Conservation",
+        "front": "Total Tiger Reserves in India?",
+        "back": "55 Tiger Reserves. Largest: Nagarjunasagar-Srisailam."
+},
+{
+        "topic": "Renewable Energy",
+        "front": "International Solar Alliance co-founded by?",
+        "back": "India and France (COP21, 2015). HQ: Gurugram"
+},
+{
+        "topic": "Renewable Energy",
+        "front": "National Solar Mission launched in?",
+        "back": "2010 (Target: 500 GW from renewables by 2030)"
+},
+{
+        "topic": "River Pollution",
+        "front": "Ganga Action Plan launched in?",
+        "back": "1985 (by Rajiv Gandhi government)"
+},
+{
+        "topic": "River Pollution",
+        "front": "Namami Gange launched in?",
+        "back": "2014 (budget \u20b920,000 crore)"
+},
+{
+        "topic": "National Symbols",
+        "front": "National Aquatic Animal of India?",
+        "back": "Gangetic River Dolphin (Platanista gangetica)"
+},
+{
+        "topic": "National Symbols",
+        "front": "National Heritage Animal of India?",
+        "back": "Indian Elephant (2010)"
+},
+{
+        "topic": "National Symbols",
+        "front": "Great Indian Bustard is state bird of?",
+        "back": "Rajasthan (Critically Endangered, <200 individuals)"
+}]
 };
 window.fatmanEnvironment = environmentData;

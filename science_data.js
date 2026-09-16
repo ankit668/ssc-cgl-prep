@@ -372,6 +372,158 @@ const scienceData = {
             <li><strong>GSLV:</strong> Geosynchronous Satellite Launch Vehicle. Used for heavier communications satellites.</li>
             <li><strong>PSLV:</strong> Polar Satellite Launch Vehicle. India's workhorse rocket. Set world record — launched 104 satellites in single mission (2017).</li>
         </ul>
+
+        <hr style="border: 1px solid #334155; margin: 20px 0;">
+        <h3>PHYSICS — ADDITIONAL TOPICS</h3>
+
+        <h4>8. Pressure & Buoyancy</h4>
+        <ul>
+            <li><strong>Pressure:</strong> Force per unit area. P = F/A. SI unit: Pascal (Pa). 1 Pa = 1 N/m².</li>
+            <li><strong>Atmospheric Pressure:</strong> Weight of air above a unit area. At sea level ≈ 101,325 Pa (1 atm). Measured by Barometer (invented by Torricelli).</li>
+            <li><strong>Pascal's Law:</strong> Pressure applied to an enclosed fluid is transmitted equally in all directions. Application: Hydraulic press, hydraulic brakes, hydraulic lift.</li>
+            <li><strong>Archimedes' Principle:</strong> When an object is immersed in a fluid, it experiences an upward buoyant force equal to the weight of the fluid displaced. <em>"Eureka!" moment.</em></li>
+            <li><strong>Law of Floatation:</strong> An object floats when the weight of fluid displaced = weight of the object. Iron ship floats because its average density (hollow) is less than water.</li>
+            <li><strong>Bernoulli's Principle:</strong> In a flowing fluid, as speed increases, pressure decreases. Application: Aeroplane wing lift, atomizer/sprayer, Venturi meter.</li>
+        </ul>
+
+        <h4>9. Simple Machines</h4>
+        <ul>
+            <li><strong>Machine:</strong> A device that makes work easier by changing the direction or magnitude of a force.</li>
+            <li><strong>Mechanical Advantage (MA):</strong> MA = Load / Effort. MA > 1 means the machine multiplies force.</li>
+            <li><strong>Types of Levers:</strong>
+                <ul>
+                    <li><strong>Class I:</strong> Fulcrum between Load and Effort. E.g., Seesaw, Scissors, Crowbar.</li>
+                    <li><strong>Class II:</strong> Load between Fulcrum and Effort. E.g., Wheelbarrow, Nutcracker. MA always > 1.</li>
+                    <li><strong>Class III:</strong> Effort between Fulcrum and Load. E.g., Tongs, Tweezers, Human forearm. MA always < 1 (speed advantage).</li>
+                </ul>
+            </li>
+            <li><strong>Pulley:</strong> Single fixed pulley only changes direction of force. A combination of pulleys (block and tackle) gives mechanical advantage.</li>
+            <li><strong>Inclined Plane:</strong> A ramp. Reduces effort needed to raise a load. MA = Length of slope / Height.</li>
+        </ul>
+
+        <hr style="border: 1px solid #334155; margin: 20px 0;">
+        <h3>CHEMISTRY — ADDITIONAL TOPICS</h3>
+
+        <h4>5. Types of Chemical Reactions</h4>
+        <ul>
+            <li><strong>Combination Reaction:</strong> Two or more substances combine to form a single product. A + B → AB. E.g., C + O₂ → CO₂.</li>
+            <li><strong>Decomposition Reaction:</strong> A compound breaks into two or more simpler substances. AB → A + B. E.g., 2H₂O → 2H₂ + O₂ (electrolysis).</li>
+            <li><strong>Displacement Reaction:</strong> A more reactive element displaces a less reactive element. E.g., Zn + CuSO₄ → ZnSO₄ + Cu.</li>
+            <li><strong>Double Displacement:</strong> Ions of two compounds exchange places. E.g., NaCl + AgNO₃ → AgCl↓ + NaNO₃.</li>
+            <li><strong>Redox Reaction:</strong> Simultaneous oxidation and reduction. OIL RIG (Oxidation Is Loss, Reduction Is Gain of electrons).</li>
+            <li><strong>Exothermic Reaction:</strong> Releases heat energy. E.g., Combustion, Respiration, Neutralization.</li>
+            <li><strong>Endothermic Reaction:</strong> Absorbs heat energy. E.g., Photosynthesis, Cooking food, Dissolving ammonium chloride in water.</li>
+        </ul>
+
+        <h4>6. Organic Chemistry Basics</h4>
+        <ul>
+            <li><strong>Organic Compounds:</strong> Carbon-based compounds (except CO, CO₂, carbonates). Father of Organic Chemistry: Friedrich Wöhler.</li>
+            <li><strong>Hydrocarbons:</strong> Compounds of only Carbon and Hydrogen.
+                <ul>
+                    <li><strong>Alkanes (Saturated):</strong> Single bonds. CₙH₂ₙ₊₂. E.g., Methane (CH₄), Ethane, Propane, Butane.</li>
+                    <li><strong>Alkenes (Unsaturated):</strong> One double bond. CₙH₂ₙ. E.g., Ethylene (used to ripen fruits).</li>
+                    <li><strong>Alkynes:</strong> One triple bond. CₙH₂ₙ₋₂. E.g., Acetylene (used in welding torches).</li>
+                </ul>
+            </li>
+            <li><strong>Important Organic Compounds for SSC:</strong>
+                <ul>
+                    <li><strong>Methanol (Wood Alcohol):</strong> CH₃OH. Toxic. Used as fuel and solvent.</li>
+                    <li><strong>Ethanol (Drinking Alcohol):</strong> C₂H₅OH. Made by fermentation of sugars by yeast.</li>
+                    <li><strong>Acetic Acid (Vinegar):</strong> CH₃COOH. Makes vinegar (~5% solution).</li>
+                    <li><strong>Formaldehyde:</strong> HCHO. Used as preservative (Formalin solution). Used to preserve biological specimens.</li>
+                    <li><strong>TNT (Trinitrotoluene):</strong> Used as explosive.</li>
+                </ul>
+            </li>
+            <li><strong>Polymers:</strong>
+                <ul>
+                    <li><strong>Natural:</strong> Rubber (polyisoprene), Cotton (cellulose), Silk (protein), Wool.</li>
+                    <li><strong>Synthetic:</strong> Nylon, Polyester, Bakelite (first synthetic plastic, by Leo Baekeland), PVC, Teflon (non-stick cookware).</li>
+                </ul>
+            </li>
+            <li><strong>Soap:</strong> Made by saponification — reaction of fats/oils with NaOH (hard soap) or KOH (soft soap). Soap doesn't work in hard water — forms scum.</li>
+            <li><strong>Detergents:</strong> Synthetic cleansers that work in hard water. Made from petrochemicals.</li>
+        </ul>
+
+        <hr style="border: 1px solid #334155; margin: 20px 0;">
+        <h3>BIOLOGY — ADDITIONAL TOPICS</h3>
+
+        <h4>6. Genetics & Heredity</h4>
+        <ul>
+            <li><strong>Father of Genetics:</strong> Gregor Johann Mendel (worked on pea plants).</li>
+            <li><strong>Mendel's Laws:</strong>
+                <ul>
+                    <li><strong>Law of Segregation:</strong> Each organism carries two alleles for each trait; they separate during gamete formation, each gamete getting one allele.</li>
+                    <li><strong>Law of Independent Assortment:</strong> Genes for different traits are inherited independently of each other.</li>
+                </ul>
+            </li>
+            <li><strong>DNA (Deoxyribonucleic Acid):</strong> Double helix structure discovered by James Watson and Francis Crick (1953). Contains genetic information. Located in the nucleus. Bases: Adenine (A) pairs with Thymine (T); Guanine (G) pairs with Cytosine (C).</li>
+            <li><strong>RNA (Ribonucleic Acid):</strong> Single-stranded. Three types: mRNA (messenger), tRNA (transfer), rRNA (ribosomal). Uracil (U) replaces Thymine in RNA.</li>
+            <li><strong>Chromosomes:</strong> Humans have 46 chromosomes (23 pairs). Sex chromosomes: XX (female), XY (male). Colour blindness and haemophilia are sex-linked disorders carried on X chromosome.</li>
+            <li><strong>Mutations:</strong> Sudden changes in DNA sequence. Mutagens: X-rays, UV radiation, certain chemicals.</li>
+            <li><strong>Genetic Engineering / Biotechnology:</strong>
+                <ul>
+                    <li><strong>GM Crops (Genetically Modified):</strong> Bt Cotton (India's first, introduced 2002), Bt Brinjal (not approved for commercial cultivation).</li>
+                    <li><strong>Dolly the Sheep (1996):</strong> First mammal cloned from an adult somatic cell.</li>
+                    <li><strong>Human Genome Project:</strong> Completed in 2003. Mapped all ~20,000-25,000 human genes.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h4>7. Plant Kingdom Classification</h4>
+        <ul>
+            <li><strong>Thallophyta (Algae):</strong> No differentiation into root, stem, leaf. E.g., Spirogyra, Chara, Ulva. Algae are primary producers in aquatic systems.</li>
+            <li><strong>Bryophyta:</strong> Amphibians of plant kingdom (need water for reproduction). No vascular tissue. E.g., Moss (Funaria), Liverworts (Marchantia).</li>
+            <li><strong>Pteridophyta:</strong> First vascular plants. No seeds. E.g., Ferns (Pteris), Horsetails.</li>
+            <li><strong>Gymnosperms:</strong> Naked seeds (not enclosed in fruit). E.g., Pine, Cycas, Deodar (Cedrus). Oldest living tree: Bristlecone Pine.</li>
+            <li><strong>Angiosperms:</strong> Seeds enclosed in fruits. Most evolved. Divided into Monocots (one cotyledon: Wheat, Rice, Maize, Bamboo) and Dicots (two cotyledons: Mango, Pea, Mustard).</li>
+            <li><strong>Important Plant Families for SSC:</strong>
+                <ul>
+                    <li>Solanaceae (Potato family): Potato, Tomato, Brinjal, Tobacco.</li>
+                    <li>Leguminosae (Pulse family): Pea, Groundnut, Soyabean. Root nodules with Rhizobium.</li>
+                    <li>Gramineae (Grass family): Wheat, Rice, Maize, Sugarcane, Bamboo.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h4>8. Nutritional Deficiency Diseases</h4>
+        <ul>
+            <li><strong>Kwashiorkor:</strong> Severe protein deficiency. Affects children after weaning. Symptoms: swollen belly (oedema), muscle wasting, pale hair.</li>
+            <li><strong>Marasmus:</strong> Deficiency of both proteins AND calories. Extreme muscle and fat wasting. Severe stunting.</li>
+            <li><strong>Anaemia:</strong> Deficiency of Iron (most common). Low haemoglobin. Pallor, fatigue.</li>
+            <li><strong>Goitre:</strong> Deficiency of Iodine. Swelling of thyroid gland.</li>
+            <li><strong>Night Blindness:</strong> Vitamin A deficiency. Cannot see in dim light.</li>
+            <li><strong>Rickets:</strong> Vitamin D deficiency in children. Soft, weak bones.</li>
+            <li><strong>Scurvy:</strong> Vitamin C deficiency. Bleeding gums.</li>
+            <li><strong>Beriberi:</strong> Vitamin B1 (Thiamine) deficiency. Affects nervous system and heart. Two types: Wet (affects heart) and Dry (affects nerves).</li>
+            <li><strong>Pellagra:</strong> Vitamin B3 (Niacin) deficiency. 4 Ds: Dermatitis, Diarrhoea, Dementia, Death.</li>
+        </ul>
+
+        <h4>9. Defence Technology (India)</h4>
+        <ul>
+            <li><strong>DRDO:</strong> Defence Research and Development Organisation. Headquarters: New Delhi. Develops India's defence technology.</li>
+            <li><strong>Integrated Guided Missile Development Programme (IGMDP):</strong> Launched in 1983 under Dr. A.P.J. Abdul Kalam. Developed 5 missiles (PANT acronym):
+                <ul>
+                    <li><strong>Prithvi:</strong> Surface-to-surface ballistic missile. Range: 150-500 km.</li>
+                    <li><strong>Agni:</strong> Long-range ballistic missile. Agni-V: Range > 5,000 km (ICBM class).</li>
+                    <li><strong>Nag:</strong> Anti-tank guided missile. "Fire and forget."</li>
+                    <li><strong>Trishul:</strong> Short-range surface-to-air missile.</li>
+                    <li><strong>Akash:</strong> Medium-range surface-to-air missile. Used by Indian Air Force.</li>
+                </ul>
+            </li>
+            <li><strong>BrahMos:</strong> Supersonic cruise missile. Joint venture between India and Russia. Fastest cruise missile in the world. Named after Brahmaputra + Moskva rivers.</li>
+            <li><strong>INS Arihant:</strong> India's first nuclear-powered ballistic missile submarine (SSBN). Commissioned in 2016.</li>
+            <li><strong>Tejas:</strong> India's indigenously developed Light Combat Aircraft (LCA). Developed by ADA/HAL.</li>
+        </ul>
+
+        <h4>10. Semiconductors & Electronics</h4>
+        <ul>
+            <li><strong>Semiconductors:</strong> Materials with electrical conductivity between conductors and insulators. E.g., Silicon (Si), Germanium (Ge).</li>
+            <li><strong>Diode (P-N Junction):</strong> Allows current to flow in only one direction. Used for rectification (converting AC to DC).</li>
+            <li><strong>Transistor:</strong> Invented by Shockley, Bardeen, and Brattain (Bell Labs, 1947). Nobel Prize 1956. Used as amplifier and switch. Basis of modern electronics.</li>
+            <li><strong>Integrated Circuit (IC/Chip):</strong> Millions of transistors on a tiny silicon chip. Jack Kilby invented the IC (Nobel Prize 2000). Basis of computers and smartphones.</li>
+            <li><strong>LED (Light Emitting Diode):</strong> Converts electrical energy directly into light. Energy efficient. Blue LED invented by Akasaki, Amano, and Nakamura (Nobel Prize 2014).</li>
+            <li><strong>Solar Cell (Photovoltaic Cell):</strong> Converts sunlight directly into electricity using semiconductor material (Silicon). Basis of solar panels.</li>
+        </ul>
 `,
     mcqs: [
     {
@@ -1214,7 +1366,385 @@ const scienceData = {
         "correct": 2,
         "explanation": "Photosynthesis occurs in chloroplasts, which contain chlorophyll \u2014 the green pigment that traps sunlight to convert CO\u2082 and H\u2082O into glucose."
     }
-],
+,
+{
+        "id": "sci_61",
+        "subject": "science",
+        "topic": "Physics - Pressure & Buoyancy",
+        "question": "Archimedes' Principle states that the buoyant force on a submerged object equals?",
+        "options": [
+                "The weight of the object",
+                "The volume of fluid displaced",
+                "The weight of fluid displaced",
+                "The density of the object"
+        ],
+        "correct": 2,
+        "explanation": "Archimedes' Principle: Buoyant force = Weight of fluid displaced. This explains why objects feel lighter in water."
+},
+{
+        "id": "sci_62",
+        "subject": "science",
+        "topic": "Physics - Pressure & Buoyancy",
+        "question": "Hydraulic brakes work on which principle?",
+        "options": [
+                "Archimedes' Principle",
+                "Bernoulli's Principle",
+                "Pascal's Law",
+                "Newton's Third Law"
+        ],
+        "correct": 2,
+        "explanation": "Pascal's Law: Pressure applied to an enclosed fluid is transmitted equally in all directions. Hydraulic brakes, lifts, and presses use this principle."
+},
+{
+        "id": "sci_63",
+        "subject": "science",
+        "topic": "Physics - Pressure & Buoyancy",
+        "question": "Bernoulli's Principle explains why?",
+        "options": [
+                "A submarine sinks",
+                "An iron ship floats",
+                "An aeroplane generates lift",
+                "A barometer measures pressure"
+        ],
+        "correct": 2,
+        "explanation": "Bernoulli's Principle: Faster-moving air above an aircraft wing has lower pressure than slower air below, generating upward lift."
+},
+{
+        "id": "sci_64",
+        "subject": "science",
+        "topic": "Physics - Pressure & Buoyancy",
+        "question": "Atmospheric pressure at sea level is measured by?",
+        "options": [
+                "Altimeter",
+                "Barometer",
+                "Hygrometer",
+                "Anemometer"
+        ],
+        "correct": 1,
+        "explanation": "A Barometer (invented by Torricelli) measures atmospheric pressure. Aneroid barometer uses no liquid; mercury barometer uses mercury."
+},
+{
+        "id": "sci_65",
+        "subject": "science",
+        "topic": "Physics - Simple Machines",
+        "question": "A seesaw is an example of which class of lever?",
+        "options": [
+                "Class I",
+                "Class II",
+                "Class III",
+                "Class IV"
+        ],
+        "correct": 0,
+        "explanation": "In a Class I lever, the fulcrum is between the load and effort. Examples: Seesaw, scissors, crowbar, balance."
+},
+{
+        "id": "sci_66",
+        "subject": "science",
+        "topic": "Physics - Simple Machines",
+        "question": "The human forearm acts as which class of lever?",
+        "options": [
+                "Class I",
+                "Class II",
+                "Class III",
+                "Class IV"
+        ],
+        "correct": 2,
+        "explanation": "In Class III lever, effort is between fulcrum and load. Human forearm: elbow (fulcrum), bicep muscle (effort), weight in hand (load). MA < 1, speed advantage."
+},
+{
+        "id": "sci_67",
+        "subject": "science",
+        "topic": "Chemistry - Reactions",
+        "question": "Photosynthesis is an example of which type of reaction?",
+        "options": [
+                "Exothermic",
+                "Endothermic",
+                "Neutralization",
+                "Decomposition"
+        ],
+        "correct": 1,
+        "explanation": "Photosynthesis absorbs solar energy to convert CO\u2082 and H\u2082O into glucose \u2014 it is endothermic (absorbs energy from surroundings)."
+},
+{
+        "id": "sci_68",
+        "subject": "science",
+        "topic": "Chemistry - Reactions",
+        "question": "Combustion is an example of which type of reaction?",
+        "options": [
+                "Endothermic",
+                "Decomposition",
+                "Exothermic",
+                "Displacement"
+        ],
+        "correct": 2,
+        "explanation": "Combustion (burning) is exothermic \u2014 it releases heat and light energy. E.g., burning coal, wood, or natural gas."
+},
+{
+        "id": "sci_69",
+        "subject": "science",
+        "topic": "Chemistry - Reactions",
+        "question": "OIL RIG in Chemistry stands for?",
+        "options": [
+                "Oxidation Is Loss, Reduction Is Gain of electrons",
+                "Oxygen Is Liberated, Reduction Is Generated",
+                "Oxidation Involves Lithium, Reduction Involves Gold",
+                "None of these"
+        ],
+        "correct": 0,
+        "explanation": "OIL RIG is a mnemonic for Redox reactions: Oxidation Is Loss of electrons, Reduction Is Gain of electrons."
+},
+{
+        "id": "sci_70",
+        "subject": "science",
+        "topic": "Chemistry - Organic",
+        "question": "Bakelite, the world's first synthetic plastic, was invented by?",
+        "options": [
+                "Leo Baekeland",
+                "Thomas Edison",
+                "Percy Spencer",
+                "Fritz Haber"
+        ],
+        "correct": 0,
+        "explanation": "Leo Baekeland invented Bakelite in 1907. It was the first fully synthetic plastic, made from phenol and formaldehyde."
+},
+{
+        "id": "sci_71",
+        "subject": "science",
+        "topic": "Chemistry - Organic",
+        "question": "Which gas is used for artificial ripening of fruits?",
+        "options": [
+                "Ethylene (Ethene)",
+                "Acetylene",
+                "Methane",
+                "Propane"
+        ],
+        "correct": 0,
+        "explanation": "Ethylene (C\u2082H\u2084) is the natural plant hormone responsible for ripening. Calcium carbide (which releases acetylene that hydrolyses to ethylene) is used for artificial ripening, though it's harmful."
+},
+{
+        "id": "sci_72",
+        "subject": "science",
+        "topic": "Chemistry - Organic",
+        "question": "Vinegar is a dilute solution of?",
+        "options": [
+                "Citric Acid",
+                "Lactic Acid",
+                "Acetic Acid",
+                "Formic Acid"
+        ],
+        "correct": 2,
+        "explanation": "Vinegar is a ~5% solution of Acetic Acid (CH\u2083COOH). It is produced by fermentation of ethanol by Acetobacter bacteria."
+},
+{
+        "id": "sci_73",
+        "subject": "science",
+        "topic": "Chemistry - Organic",
+        "question": "Teflon (used in non-stick cookware) is a polymer of?",
+        "options": [
+                "Propylene",
+                "Tetrafluoroethylene",
+                "Styrene",
+                "Vinyl Chloride"
+        ],
+        "correct": 1,
+        "explanation": "Teflon is Polytetrafluoroethylene (PTFE), made from tetrafluoroethylene monomers. It is extremely non-reactive and has very low friction."
+},
+{
+        "id": "sci_74",
+        "subject": "science",
+        "topic": "Biology - Genetics",
+        "question": "Who is known as the Father of Genetics?",
+        "options": [
+                "Charles Darwin",
+                "Gregor Mendel",
+                "James Watson",
+                "Francis Crick"
+        ],
+        "correct": 1,
+        "explanation": "Gregor Johann Mendel, an Austrian monk, conducted pea plant experiments and formulated the laws of heredity. He is the Father of Genetics."
+},
+{
+        "id": "sci_75",
+        "subject": "science",
+        "topic": "Biology - Genetics",
+        "question": "The double helix structure of DNA was discovered by?",
+        "options": [
+                "Gregor Mendel and Charles Darwin",
+                "Friedrich Miescher and Rosalind Franklin",
+                "James Watson and Francis Crick",
+                "Oswald Avery and Erwin Chargaff"
+        ],
+        "correct": 2,
+        "explanation": "James Watson and Francis Crick (with crucial X-ray data from Rosalind Franklin) discovered the double helix structure of DNA in 1953 (Nobel Prize 1962)."
+},
+{
+        "id": "sci_76",
+        "subject": "science",
+        "topic": "Biology - Genetics",
+        "question": "Normal humans have how many pairs of chromosomes?",
+        "options": [
+                "21 pairs (42)",
+                "23 pairs (46)",
+                "24 pairs (48)",
+                "22 pairs (44)"
+        ],
+        "correct": 1,
+        "explanation": "Humans have 46 chromosomes arranged in 23 pairs. 22 pairs are autosomes, and 1 pair are sex chromosomes (XX for female, XY for male)."
+},
+{
+        "id": "sci_77",
+        "subject": "science",
+        "topic": "Biology - Genetics",
+        "question": "India's first Genetically Modified (GM) crop approved for commercial cultivation was?",
+        "options": [
+                "Bt Brinjal",
+                "Bt Cotton",
+                "Bt Maize",
+                "Golden Rice"
+        ],
+        "correct": 1,
+        "explanation": "Bt Cotton was India's first GM crop, approved for commercial cultivation in 2002. It produces a toxin from Bacillus thuringiensis that kills bollworm pests."
+},
+{
+        "id": "sci_78",
+        "subject": "science",
+        "topic": "Biology - Plant Kingdom",
+        "question": "Which group of plants is called the 'Amphibians of the Plant Kingdom'?",
+        "options": [
+                "Algae",
+                "Bryophyta",
+                "Pteridophyta",
+                "Gymnosperms"
+        ],
+        "correct": 1,
+        "explanation": "Bryophytes (mosses, liverworts) are called amphibians of the plant kingdom because they need water for reproduction but can live on land."
+},
+{
+        "id": "sci_79",
+        "subject": "science",
+        "topic": "Biology - Plant Kingdom",
+        "question": "Which of the following is a Gymnosperm?",
+        "options": [
+                "Mango",
+                "Rice",
+                "Pine",
+                "Fern"
+        ],
+        "correct": 2,
+        "explanation": "Gymnosperms have naked seeds (not enclosed in fruit). Pine, Cycas, Deodar are gymnosperms. Fern is a pteridophyte; mango and rice are angiosperms."
+},
+{
+        "id": "sci_80",
+        "subject": "science",
+        "topic": "Biology - Plant Kingdom",
+        "question": "Potato, Tomato, Brinjal and Tobacco all belong to which plant family?",
+        "options": [
+                "Leguminosae",
+                "Gramineae",
+                "Solanaceae",
+                "Rosaceae"
+        ],
+        "correct": 2,
+        "explanation": "All of these belong to the Solanaceae (nightshade) family. Interestingly, tobacco and potato are in the same family as tomato and chilli."
+},
+{
+        "id": "sci_81",
+        "subject": "science",
+        "topic": "Biology - Nutritional Diseases",
+        "question": "Kwashiorkor is caused by deficiency of?",
+        "options": [
+                "Calories only",
+                "Protein only",
+                "Both protein and calories",
+                "Vitamin A"
+        ],
+        "correct": 1,
+        "explanation": "Kwashiorkor is caused by severe protein deficiency (with adequate caloric intake). Marasmus is caused by deficiency of both protein AND calories."
+},
+{
+        "id": "sci_82",
+        "subject": "science",
+        "topic": "Biology - Nutritional Diseases",
+        "question": "Which disease causes '4 Ds' \u2014 Dermatitis, Diarrhoea, Dementia, Death?",
+        "options": [
+                "Beriberi",
+                "Scurvy",
+                "Pellagra",
+                "Rickets"
+        ],
+        "correct": 2,
+        "explanation": "Pellagra is caused by Niacin (Vitamin B3) deficiency and is characterized by the 4 Ds: Dermatitis, Diarrhoea, Dementia, and Death if untreated."
+},
+{
+        "id": "sci_83",
+        "subject": "science",
+        "topic": "Technology - Defence",
+        "question": "BrahMos missile is a joint venture between India and?",
+        "options": [
+                "USA",
+                "Israel",
+                "Russia",
+                "France"
+        ],
+        "correct": 2,
+        "explanation": "BrahMos is a supersonic cruise missile jointly developed by India (DRDO) and Russia (NPOM). Named after the Brahmaputra and Moskva rivers. It is the world's fastest cruise missile."
+},
+{
+        "id": "sci_84",
+        "subject": "science",
+        "topic": "Technology - Defence",
+        "question": "India's first nuclear-powered ballistic missile submarine is?",
+        "options": [
+                "INS Vikrant",
+                "INS Arihant",
+                "INS Chakra",
+                "INS Kalvari"
+        ],
+        "correct": 1,
+        "explanation": "INS Arihant was India's first nuclear-powered ballistic missile submarine (SSBN), commissioned in 2016. It completes India's nuclear triad."
+},
+{
+        "id": "sci_85",
+        "subject": "science",
+        "topic": "Technology - Defence",
+        "question": "Which Indian missile programme produced the Agni, Prithvi, Nag, Trishul and Akash missiles?",
+        "options": [
+                "ASTRA Programme",
+                "BRAHMOS Programme",
+                "IGMDP (Integrated Guided Missile Development Programme)",
+                "DRDO Missile Programme"
+        ],
+        "correct": 2,
+        "explanation": "The IGMDP (1983) under Dr. A.P.J. Abdul Kalam developed these 5 missiles, remembered as PANT (Prithvi, Agni, Nag, Trishul, Akash... actually P-A-N-T-A)."
+},
+{
+        "id": "sci_86",
+        "subject": "science",
+        "topic": "Technology - Electronics",
+        "question": "The transistor was invented at?",
+        "options": [
+                "NASA",
+                "MIT",
+                "Bell Laboratories",
+                "IBM"
+        ],
+        "correct": 2,
+        "explanation": "The transistor was invented in 1947 by William Shockley, John Bardeen, and Walter Brattain at Bell Laboratories. They received the Nobel Prize in 1956."
+},
+{
+        "id": "sci_87",
+        "subject": "science",
+        "topic": "Technology - Electronics",
+        "question": "Which material is most commonly used to make solar cells?",
+        "options": [
+                "Germanium",
+                "Copper",
+                "Silicon",
+                "Carbon"
+        ],
+        "correct": 2,
+        "explanation": "Silicon is the most widely used semiconductor material for solar (photovoltaic) cells due to its abundance and suitable bandgap energy for absorbing sunlight."
+}],
     flashcards: [
     {
         "topic": "Physics - Motion",
@@ -1516,6 +2046,131 @@ const scienceData = {
         "front": "1 Kilobyte = ?",
         "back": "1024 bytes"
     }
-]
+,
+{
+        "topic": "Physics - Pressure",
+        "front": "Pascal's Law application examples?",
+        "back": "Hydraulic press, Hydraulic brakes, Hydraulic lift"
+},
+{
+        "topic": "Physics - Pressure",
+        "front": "Who invented the Barometer?",
+        "back": "Torricelli"
+},
+{
+        "topic": "Physics - Pressure",
+        "front": "Bernoulli's Principle: as fluid speed increases, pressure?",
+        "back": "Decreases (explains aircraft lift)"
+},
+{
+        "topic": "Physics - Simple Machines",
+        "front": "Class I lever: fulcrum is?",
+        "back": "Between Load and Effort. E.g., Seesaw, Scissors"
+},
+{
+        "topic": "Physics - Simple Machines",
+        "front": "Class III lever: effort is?",
+        "back": "Between Fulcrum and Load. E.g., Human forearm, Tongs (MA < 1)"
+},
+{
+        "topic": "Chemistry - Reactions",
+        "front": "Photosynthesis is exothermic or endothermic?",
+        "back": "Endothermic (absorbs sunlight energy)"
+},
+{
+        "topic": "Chemistry - Reactions",
+        "front": "OIL RIG meaning?",
+        "back": "Oxidation Is Loss; Reduction Is Gain (of electrons)"
+},
+{
+        "topic": "Chemistry - Organic",
+        "front": "First synthetic plastic (Bakelite) invented by?",
+        "back": "Leo Baekeland (1907)"
+},
+{
+        "topic": "Chemistry - Organic",
+        "front": "Vinegar is a dilute solution of?",
+        "back": "Acetic Acid (CH\u2083COOH, ~5%)"
+},
+{
+        "topic": "Chemistry - Organic",
+        "front": "Teflon is made from which monomer?",
+        "back": "Tetrafluoroethylene"
+},
+{
+        "topic": "Biology - Genetics",
+        "front": "Father of Genetics?",
+        "back": "Gregor Johann Mendel (pea plant experiments)"
+},
+{
+        "topic": "Biology - Genetics",
+        "front": "DNA double helix discovered by?",
+        "back": "James Watson and Francis Crick (1953)"
+},
+{
+        "topic": "Biology - Genetics",
+        "front": "Human chromosome count?",
+        "back": "46 (23 pairs) \u2014 XX (female), XY (male)"
+},
+{
+        "topic": "Biology - Genetics",
+        "front": "India's first GM crop (2002)?",
+        "back": "Bt Cotton"
+},
+{
+        "topic": "Biology - Plant Kingdom",
+        "front": "'Amphibians of Plant Kingdom'?",
+        "back": "Bryophyta (Mosses, Liverworts)"
+},
+{
+        "topic": "Biology - Plant Kingdom",
+        "front": "Gymnosperms have?",
+        "back": "Naked seeds (not enclosed in fruit). E.g., Pine, Cycas"
+},
+{
+        "topic": "Biology - Plant Kingdom",
+        "front": "Potato, Tomato, Brinjal belong to which family?",
+        "back": "Solanaceae (Nightshade family)"
+},
+{
+        "topic": "Biology - Nutritional Diseases",
+        "front": "Kwashiorkor caused by deficiency of?",
+        "back": "Protein only"
+},
+{
+        "topic": "Biology - Nutritional Diseases",
+        "front": "Marasmus caused by deficiency of?",
+        "back": "Both Protein AND Calories"
+},
+{
+        "topic": "Biology - Nutritional Diseases",
+        "front": "Pellagra (4 Ds disease) caused by deficiency of?",
+        "back": "Vitamin B3 (Niacin)"
+},
+{
+        "topic": "Technology - Defence",
+        "front": "BrahMos is joint venture between India and?",
+        "back": "Russia. World's fastest cruise missile."
+},
+{
+        "topic": "Technology - Defence",
+        "front": "India's first nuclear submarine?",
+        "back": "INS Arihant (commissioned 2016)"
+},
+{
+        "topic": "Technology - Defence",
+        "front": "IGMDP produced which 5 missiles?",
+        "back": "Prithvi, Agni, Nag, Trishul, Akash (under Dr. A.P.J. Abdul Kalam)"
+},
+{
+        "topic": "Technology - Electronics",
+        "front": "Transistor invented at which lab (1947)?",
+        "back": "Bell Laboratories (Shockley, Bardeen, Brattain)"
+},
+{
+        "topic": "Technology - Electronics",
+        "front": "Most common material for solar cells?",
+        "back": "Silicon (semiconductor)"
+}]
 };
 window.fatmanScience = scienceData;
