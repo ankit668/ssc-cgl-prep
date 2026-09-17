@@ -391,6 +391,7 @@ window.caData = {
     "name": "Australia's first female Chief of Army"
   }
 ],
+  notes: "<h2 style='color:#FF4B2B; border-bottom:2px solid #FF4B2B; padding-bottom:10px;'>Major Appointments (2025-26)</h2><h3 style='color:#FCD34D; margin-top:20px;'>National Appointments</h3><table style='width:100%; border-collapse: collapse; margin-top:10px;'><tr style='background:#334155; color:#94A3B8;'><th style='padding:10px; border:1px solid #475569; text-align:left;'>Position / Office</th><th style='padding:10px; border:1px solid #475569; text-align:left;'>Appointee</th></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Home Secretary</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Govind Mohan</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Revenue Secretary</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Arvind Shrivastava</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Attorney General of India</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>R. Venkataraman (16th) Again</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Solicitor General of India</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Tushar Mehta (Re-appointed)</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Chief Justice of Supreme Court</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Justice Suryakant (53rd)</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Chief of Defense Staff (CDS)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Lt. General N.S. Raja Subramani (3*)</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Chief of Naval Staff</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Admiral Krishna Swaminathan (27th)</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Chief of the Air Staff</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Air Chif Marshal Amar Preet Singh</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Chief of the Army Staff</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>General Dhiraj Seth (31st)</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Chief Election Commissioner of india</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Gyanesh Kumar (26th)</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>(Election Commissioners</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Vivek Joshi and Sukhbir Singh Sandhu)</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Service</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Shri Anugrah Narayan Das</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Chairman of SSC</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>S. Gopalakrishnan</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Chairman of SEBI</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Tuhin Kanta Pandey</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Chairman of the 16 Finance Commission</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Arvind Panagariya</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Principal Scientific Advisor</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Ajay Kumar Sood</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>(Deputy Governors</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Swaminathan Janakiraman, T.R. Shankar,</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Officer of RB!</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Sudha Balakrishnan</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>ank of India</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Challa Sreenivasulu Setty</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>man of NIT| Aayog</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Ashok Kumar Lahiri (5th)</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>of India (15th)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Droupadi Murmu (Odisha)</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Vice President of India (15th)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>C.P. Radhakrishnan</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>ker of the 18th Lok Sabha</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Om Birla</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>eader of the House in Rajya Sabha</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>JP Nadda</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>\u2014</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Baijayant Panda</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Dr. Saibal Chattopadhyay</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chairman of the National Statistical</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>R. Mukundan</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>New President of the Confederation of</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Dr. Ashok Kumar Panda</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chairman and Managing Director</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Shashi Shekhar Vempati</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chairman of the Central Board of :</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>;</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chairman of Prasar Bharati</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Rajesh Kumar Agarwal</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Director of Power Finance Corporation *</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Shashi Prakash Goyal</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>New Chief Secretary of Uttar Pradesh</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Or. Ajit Kumar Mohanty</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chairman of the Atomic Energy * \u201clay Singh</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Srikanth Velamakanni</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chairman of NASSCOM</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Lisa Gill</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chief Justice of the Andhra Pradesh</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>High Court</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>R. Doraiswamy</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Justice Meenakshi Madan Rai</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chief Justice of the Patna High : oe</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Vice Admiral Ajay Kochhar</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>48th Vice Chief of the Naval Staff =</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Air Marshal Ashutosh Dixit</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>New Vice Chief of the Air Staff</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>M. Venkaiah Naidu</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chairman of the Atal Smriti Nyas *</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>\u2018astava</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chairman of the Food Safety and</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>titieal sae</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Director General of the NCC</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Pita</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chairman and Managing Director, GAIL =</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Sanjay Oar</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>National Working President of BJP</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Brij Bhushan Agarwal</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>President of the Indian Chamber of</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Air Marshal Ashutosh Dixit</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>New Chief of Integrated Defence</td></tr></table><h3 style='color:#FCD34D; margin-top:20px;'>International Appointments</h3><table style='width:100%; border-collapse: collapse; margin-top:10px;'><tr style='background:#334155; color:#94A3B8;'><th style='padding:10px; border:1px solid #475569; text-align:left;'>Position / Office</th><th style='padding:10px; border:1px solid #475569; text-align:left;'>Appointee</th></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Mette Frederiksen</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Prime Minister of Denmark (third = sanaeTakaichi  - Japan's first fe \u2018 :</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Tamim Iqbal</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>President of the Bangladesh Cricket Board \" RMNachammai \u2014 The first female head of the operational</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Shokolshikawa</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>UN Women representative to India nuclear power plant at Kaiga, Karnataka</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Bill Pulte</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Acting Director of the USA Intelligence = Anju Rathi Rana - First woman Law Secretary 4</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Laura Virginia Fernandez Delgado * Saba Shawl</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>ie ies Woman to head centray</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Ali Falih Kadhim al-Zaidi</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Prime Minister of Iraq .e + anit \u2014 The fi</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Yoweri Kaguta Museveni</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>President of Uganda Seema Miami Come Mayor of</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>\u00ae John Ternus</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>New CEO of Apple Company</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Ismail Omar Guelleh</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>President of Djibouti \u00ae Manali Makarand Kshirsagar- The first woman Vice-Chancellor</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Peter Magyar</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Prime Minister of Hungary of Nagpur University</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Rumen Radev</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>New Prime Minister of Bulgaria</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Dr. Manoj Kumar Sharma</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Nepal's new Chief Justice = Sonali Mishra ~ The first woman Director General of the</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Mojtaba Khamenei</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Supreme Leader of Iran Railway Protecti</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Field Marshal Asim Munir</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>First Chief of Defence Forces of * Professor Uma Kanjilal - The first woman Vice-Chancellor of</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Gem) Paralympic Committee * Michelle Dougherty</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>ie first female astronomer in Britain</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Khaled El-Enany (Egypt)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Director-General of UNESCO \" Jennifer Simons _- First female President of Suriname</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Kristalina Georgieva</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Managing Director of the IMF : First femal ; ;</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Robert Francis Prevost</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>New Pope of Roman Catholic \u201c Kirsty Coventry Firs! iia African President of the</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Annalena Baerbock</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>President of the 80th session \u00ab shirley Botchwe \u2014 First African female Secretary-</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Khalilur Rahman (Foreign Minister of Bangladesh)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>President * Yashasvi Solanki \u2014 First female naval officer to be appointed</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Mohsin Nagbi \u2014 New President of Asian Cricket Council\u201d Netumbo Nandi -Ndaitwah</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>First female President of Namibia</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Masato Kanda (Japan) \u2014- 11th President of Asian</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Dr. Ngozi Okonjo-lweala- Director General of WTO (2nd term)</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>. i dena \u2014</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chairman of Anti Corruption Unit r ,</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>\u00ae Mohammad Tayyab Ikram</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>President of International Hockey \" Claudia Sheinbaum \u2014 First female President of Mexico</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Federation sin Gani * Lieutenant General Sadhana Saxena Nair</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>First female DG of</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Mark Rutte (Former PM of Netherlands)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>New Secretary , . \u2018</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Dilma Rousseff</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>President of BRICS Bank * Aarti Sarin \u2014 First female Director General of Armed</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Catherine Russell ~~ ae TN OF UNEP \" Fatemeh Mohajerani</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>First female DG of Iran Female</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Naima Khatoon</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>First female Vice Chancellor of Aligarh</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>DICTIONARY | WORD OF THE | WORDOFTHE = = Bhumika Shrestha</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Nepal's first transgender female MP</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>| JEAR2026, YEAR 2025</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Lieutenant General Susan Coyle</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>\u2018Cambridge Dictionary | Manifest | Parasocial</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Australia's first female Chief of Army</td></tr></table>",
   flashcards: [
   {
     "id": "ca_appt_0",
@@ -859,6 +860,338 @@ window.caData = {
     "topic": "International Appointments",
     "front": "Who is the current \u2018Cambridge Dictionary | Manifest | Parasocial?",
     "back": "Australia's first female Chief of Army"
+  }
+],
+  mcqs: [
+  {
+    "id": "ca_mcq_0",
+    "question": "Who is the current Khaled El-Enany (Egypt)?",
+    "options": [
+      "Chairman of Anti Corruption Unit r ,",
+      "New Vice Chief of the Air Staff",
+      "Chief Justice of the Patna High : oe",
+      "Director-General of UNESCO \" Jennifer Simons _- First female President of Suriname"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "ca_mcq_1",
+    "question": "Who is the current Justice Meenakshi Madan Rai?",
+    "options": [
+      "Managing Director of the IMF : First femal ; ;",
+      "Chief Justice of the Patna High : oe",
+      "General Dhiraj Seth (31st)",
+      "Om Birla"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "ca_mcq_2",
+    "question": "Who is the current Shokolshikawa?",
+    "options": [
+      "Lt. General N.S. Raja Subramani (3*)",
+      "Nepal's new Chief Justice = Sonali Mishra ~ The first woman Director General of the",
+      "Om Birla",
+      "UN Women representative to India nuclear power plant at Kaiga, Karnataka"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "ca_mcq_3",
+    "question": "Who is the current Dilma Rousseff?",
+    "options": [
+      "President of BRICS Bank * Aarti Sarin \u2014 First female Director General of Armed",
+      "Swaminathan Janakiraman, T.R. Shankar,",
+      "Tushar Mehta (Re-appointed)",
+      "First Chief of Defence Forces of * Professor Uma Kanjilal - The first woman Vice-Chancellor of"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "ca_mcq_4",
+    "question": "Who is the current Lisa Gill?",
+    "options": [
+      "Chief Justice of the Andhra Pradesh",
+      "Chairman and Managing Director, GAIL =",
+      "ie ies Woman to head centray",
+      "President of the Bangladesh Cricket Board \" RMNachammai \u2014 The first female head of the operational"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "ca_mcq_5",
+    "question": "Who is the current (Election Commissioners?",
+    "options": [
+      "ie first female astronomer in Britain",
+      "Sudha Balakrishnan",
+      "Vivek Joshi and Sukhbir Singh Sandhu)",
+      "President of the Indian Chamber of"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "ca_mcq_6",
+    "question": "Who is the current Pita?",
+    "options": [
+      "Vivek Joshi and Sukhbir Singh Sandhu)",
+      "Chief Justice of the Patna High : oe",
+      "Govind Mohan",
+      "Chairman and Managing Director, GAIL ="
+    ],
+    "correct": 3
+  },
+  {
+    "id": "ca_mcq_7",
+    "question": "Who is the current titieal sae?",
+    "options": [
+      "Chief Justice of the Andhra Pradesh",
+      "Director General of the NCC",
+      "ie ies Woman to head centray",
+      "President of Uganda Seema Miami Come Mayor of"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "ca_mcq_8",
+    "question": "Who is the current man of NIT| Aayog?",
+    "options": [
+      "UN Women representative to India nuclear power plant at Kaiga, Karnataka",
+      "Ashok Kumar Lahiri (5th)",
+      "Lt. General N.S. Raja Subramani (3*)",
+      "ie ies Woman to head centray"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "ca_mcq_9",
+    "question": "Who is the current Federation sin Gani * Lieutenant General Sadhana Saxena Nair?",
+    "options": [
+      "ie first female astronomer in Britain",
+      "Director of Power Finance Corporation *",
+      "Lt. General N.S. Raja Subramani (3*)",
+      "First female DG of"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "ca_mcq_10",
+    "question": "Who is the current Mette Frederiksen?",
+    "options": [
+      "Shri Anugrah Narayan Das",
+      "President of BRICS Bank * Aarti Sarin \u2014 First female Director General of Armed",
+      "48th Vice Chief of the Naval Staff =",
+      "Prime Minister of Denmark (third = sanaeTakaichi  - Japan's first fe \u2018 :"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "ca_mcq_11",
+    "question": "Who is the current . i dena \u2014?",
+    "options": [
+      "Nepal's new Chief Justice = Sonali Mishra ~ The first woman Director General of the",
+      "Lt. General N.S. Raja Subramani (3*)",
+      "Chairman of Anti Corruption Unit r ,",
+      "First female President of Namibia"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "ca_mcq_12",
+    "question": "Who is the current Brij Bhushan Agarwal?",
+    "options": [
+      "President of Djibouti \u00ae Manali Makarand Kshirsagar- The first woman Vice-Chancellor",
+      "President of the Indian Chamber of",
+      "Nepal's first transgender female MP",
+      "ie ies Woman to head centray"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "ca_mcq_13",
+    "question": "Who is the current (Deputy Governors?",
+    "options": [
+      "President of the Bangladesh Cricket Board \" RMNachammai \u2014 The first female head of the operational",
+      "Challa Sreenivasulu Setty",
+      "Swaminathan Janakiraman, T.R. Shankar,",
+      "Managing Director of the IMF : First femal ; ;"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "ca_mcq_14",
+    "question": "Who is the current Vice President of India (15th)?",
+    "options": [
+      "Arvind Panagariya",
+      "C.P. Radhakrishnan",
+      "S. Gopalakrishnan",
+      "New Chief of Integrated Defence"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "ca_mcq_15",
+    "question": "Who is the current Solicitor General of India?",
+    "options": [
+      "ie ies Woman to head centray",
+      "New President of the Confederation of",
+      "Tushar Mehta (Re-appointed)",
+      "President of Uganda Seema Miami Come Mayor of"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "ca_mcq_16",
+    "question": "Who is the current Catherine Russell ~~ ae TN OF UNEP \" Fatemeh Mohajerani?",
+    "options": [
+      "Droupadi Murmu (Odisha)",
+      "First female DG of Iran Female",
+      "Om Birla",
+      "48th Vice Chief of the Naval Staff ="
+    ],
+    "correct": 1
+  },
+  {
+    "id": "ca_mcq_17",
+    "question": "Who is the current Chairman of the 16 Finance Commission?",
+    "options": [
+      "Shri Anugrah Narayan Das",
+      "Arvind Panagariya",
+      "First female President of Namibia",
+      "Air Chif Marshal Amar Preet Singh"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "ca_mcq_18",
+    "question": "Who is the current Dr. Manoj Kumar Sharma?",
+    "options": [
+      "Nepal's new Chief Justice = Sonali Mishra ~ The first woman Director General of the",
+      "Swaminathan Janakiraman, T.R. Shankar,",
+      "Arvind Panagariya",
+      "Chairman of the Food Safety and"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "ca_mcq_19",
+    "question": "Who is the current eader of the House in Rajya Sabha?",
+    "options": [
+      "R. Venkataraman (16th) Again",
+      "President of BRICS Bank * Aarti Sarin \u2014 First female Director General of Armed",
+      "JP Nadda",
+      "New Chief Secretary of Uttar Pradesh"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "ca_mcq_20",
+    "question": "Who is the current \u2018Cambridge Dictionary | Manifest | Parasocial?",
+    "options": [
+      "Tushar Mehta (Re-appointed)",
+      "Australia's first female Chief of Army",
+      "New Vice Chief of the Air Staff",
+      "Prime Minister of Hungary of Nagpur University"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "ca_mcq_21",
+    "question": "Who is the current Naima Khatoon?",
+    "options": [
+      "Challa Sreenivasulu Setty",
+      "Lt. General N.S. Raja Subramani (3*)",
+      "First female Vice Chancellor of Aligarh",
+      "C.P. Radhakrishnan"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "ca_mcq_22",
+    "question": "Who is the current Shashi Shekhar Vempati?",
+    "options": [
+      "New Pope of Roman Catholic \u201c Kirsty Coventry Firs! iia African President of the",
+      "Chairman of the Central Board of :",
+      "Droupadi Murmu (Odisha)",
+      "Ajay Kumar Sood"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "ca_mcq_23",
+    "question": "Who is the current ;?",
+    "options": [
+      "Ajay Kumar Sood",
+      "Chairman of Prasar Bharati",
+      "Acting Director of the USA Intelligence = Anju Rathi Rana - First woman Law Secretary 4",
+      "UN Women representative to India nuclear power plant at Kaiga, Karnataka"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "ca_mcq_24",
+    "question": "Who is the current Chief of the Army Staff?",
+    "options": [
+      "Chairman and Managing Director, GAIL =",
+      "General Dhiraj Seth (31st)",
+      "First female DG of Iran Female",
+      "Govind Mohan"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "ca_mcq_25",
+    "question": "Who is the current Robert Francis Prevost?",
+    "options": [
+      "Australia's first female Chief of Army",
+      "Chairman of Prasar Bharati",
+      "New Pope of Roman Catholic \u201c Kirsty Coventry Firs! iia African President of the",
+      "New Chief Secretary of Uttar Pradesh"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "ca_mcq_26",
+    "question": "Who is the current ank of India?",
+    "options": [
+      "Challa Sreenivasulu Setty",
+      "National Working President of BJP",
+      "Arvind Panagariya",
+      "Supreme Leader of Iran Railway Protecti"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "ca_mcq_27",
+    "question": "Who is the current Officer of RB!?",
+    "options": [
+      "New Pope of Roman Catholic \u201c Kirsty Coventry Firs! iia African President of the",
+      "Om Birla",
+      "Prime Minister of Hungary of Nagpur University",
+      "Sudha Balakrishnan"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "ca_mcq_28",
+    "question": "Who is the current of India (15th)?",
+    "options": [
+      "Droupadi Murmu (Odisha)",
+      "Acting Director of the USA Intelligence = Anju Rathi Rana - First woman Law Secretary 4",
+      "President of BRICS Bank * Aarti Sarin \u2014 First female Director General of Armed",
+      "President of the Bangladesh Cricket Board \" RMNachammai \u2014 The first female head of the operational"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "ca_mcq_29",
+    "question": "Who is the current Tamim Iqbal?",
+    "options": [
+      "Prime Minister of Iraq .e + anit \u2014 The fi",
+      "R. Doraiswamy",
+      "New CEO of Apple Company",
+      "President of the Bangladesh Cricket Board \" RMNachammai \u2014 The first female head of the operational"
+    ],
+    "correct": 3
   }
 ]
 };
