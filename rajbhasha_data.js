@@ -13,7 +13,7 @@ window.rajbhashaQuiz = [
       "ज्ञापन"
     ],
     "correct": 1,
-    "explanation": "The official administrative translation is 'अधिसूचना'. Memorize this exact terminology as per the Rajbhasha glossary."
+    "explanation": "'सूचना' means general information, whereas 'अधिसूचना' (Notification) is a formal official announcement published in the Gazette."
   },
   {
     "id": "rb_2",
@@ -26,7 +26,7 @@ window.rajbhashaQuiz = [
       "संचिका"
     ],
     "correct": 0,
-    "explanation": "The official administrative translation is 'ज्ञापन'. Memorize this exact terminology as per the Rajbhasha glossary."
+    "explanation": "'ज्ञापन' (Memorandum) is used for inter-departmental communication. 'परिपत्र' is circular, and 'प्रतिवेदन' is report."
   },
   {
     "id": "rb_3",
@@ -39,7 +39,7 @@ window.rajbhashaQuiz = [
       "अनुमोदन"
     ],
     "correct": 0,
-    "explanation": "The official administrative translation is 'पृष्ठांकन'. Memorize this exact terminology as per the Rajbhasha glossary."
+    "explanation": "'पृष्ठांकन' (Endorsement) literally means writing on the back (पृष्ठ + अंकन), used when forwarding a copy to another party."
   },
   {
     "id": "rb_4",
@@ -52,7 +52,7 @@ window.rajbhashaQuiz = [
       "प्रशासनिक अधिकारी"
     ],
     "correct": 1,
-    "explanation": "The official administrative translation is 'सक्षम प्राधिकारी'. Memorize this exact terminology as per the Rajbhasha glossary."
+    "explanation": "While 'उच्च अधिकारी' means higher officer, 'सक्षम प्राधिकारी' specifically means the authority legally 'competent' or empowered to take that decision."
   },
   {
     "id": "rb_5",
@@ -65,7 +65,7 @@ window.rajbhashaQuiz = [
       "पारिश्रमिक"
     ],
     "correct": 1,
-    "explanation": "The official administrative translation is 'मानदेय'. Memorize this exact terminology as per the Rajbhasha glossary."
+    "explanation": "'वेतन' is salary and 'भत्ता' is allowance. 'मानदेय' (Honorarium) is a voluntary payment for professional services rendered without a fixed salary."
   },
   {
     "id": "rb_6",
@@ -78,7 +78,7 @@ window.rajbhashaQuiz = [
       "नियुक्ति"
     ],
     "correct": 0,
-    "explanation": "The official administrative translation is 'प्रतिनियुक्ति'. Memorize this exact terminology as per the Rajbhasha glossary."
+    "explanation": "'प्रतिनियुक्ति' refers specifically to Deputation (working in another department temporarily). 'स्थानांतरण' is transfer."
   },
   {
     "id": "rb_7",
@@ -91,7 +91,7 @@ window.rajbhashaQuiz = [
       "मूल्यांकन"
     ],
     "correct": 0,
-    "explanation": "The official administrative translation is 'परिवीक्षा'. Memorize this exact terminology as per the Rajbhasha glossary."
+    "explanation": "'परिवीक्षा' (Probation) is the trial period for a newly appointed officer. 'प्रशिक्षण' means training."
   },
   {
     "id": "rb_8",
@@ -104,7 +104,7 @@ window.rajbhashaQuiz = [
       "आदेश"
     ],
     "correct": 1,
-    "explanation": "The official administrative translation is 'परिपत्र'. Memorize this exact terminology as per the Rajbhasha glossary."
+    "explanation": "'परिपत्र' (Circular) is a document circulated to multiple departments or employees. 'सूचना' is just a notice."
   },
   {
     "id": "rb_9",
@@ -117,7 +117,7 @@ window.rajbhashaQuiz = [
       "मुख्य"
     ],
     "correct": 1,
-    "explanation": "The official administrative translation is 'पदेन'. Memorize this exact terminology as per the Rajbhasha glossary."
+    "explanation": "'पदेन' (Ex-Officio) means holding a position by virtue of holding another office. 'तदर्थ' means ad-hoc."
   },
   {
     "id": "rb_10",
@@ -130,7 +130,7 @@ window.rajbhashaQuiz = [
       "समाशोधन"
     ],
     "correct": 0,
-    "explanation": "The official administrative translation is 'लेखापरीक्षा'. Memorize this exact terminology as per the Rajbhasha glossary."
+    "explanation": "'लेखापरीक्षा' (Audit) specifically refers to the official examination of accounts (लेखा)."
   },
   {
     "id": "rb_11",
@@ -143,7 +143,7 @@ window.rajbhashaQuiz = [
       "विवरण"
     ],
     "correct": 0,
-    "explanation": "The official administrative translation is 'अनुलग्नक'. Memorize this exact terminology as per the Rajbhasha glossary."
+    "explanation": "'अनुलग्नक' (Enclosure) means attached documents. 'परिशिष्ट' means appendix."
   },
   {
     "id": "rb_12",
@@ -156,7 +156,7 @@ window.rajbhashaQuiz = [
       "सुरक्षा"
     ],
     "correct": 0,
-    "explanation": "The official administrative translation is 'सतर्कता'. Memorize this exact terminology as per the Rajbhasha glossary."
+    "explanation": "'सतर्कता' (Vigilance) refers to keeping watch, particularly regarding anti-corruption in government offices."
   },
   {
     "id": "rb_13",
@@ -169,7 +169,7 @@ window.rajbhashaQuiz = [
       "अपील"
     ],
     "correct": 0,
-    "explanation": "The official administrative translation is 'शिकायत / व्यथा'. Memorize this exact terminology as per the Rajbhasha glossary."
+    "explanation": "'शिकायत' or 'व्यथा' represents a grievance. 'समीक्षा' means review."
   },
   {
     "id": "rb_14",
@@ -182,7 +182,7 @@ window.rajbhashaQuiz = [
       "परिषद"
     ],
     "correct": 0,
-    "explanation": "The official administrative translation is 'मंत्रिमंडल'. Memorize this exact terminology as per the Rajbhasha glossary."
+    "explanation": "'मंत्रिमंडल' refers to the Cabinet of ministers. 'विधानमंडल' is the legislature."
   },
   {
     "id": "rb_15",
@@ -195,7 +195,7 @@ window.rajbhashaQuiz = [
       "शेष राशि"
     ],
     "correct": 1,
-    "explanation": "The official administrative translation is 'बकाया'. Memorize this exact terminology as per the Rajbhasha glossary."
+    "explanation": "'बकाया' means pending or backlog work/vacancies. 'अग्रिम' means advance."
   },
   {
     "id": "rb_16",
@@ -208,7 +208,7 @@ window.rajbhashaQuiz = [
       "समिति"
     ],
     "correct": 0,
-    "explanation": "The official administrative translation is 'गणपूर्ति'. Memorize this exact terminology as per the Rajbhasha glossary."
+    "explanation": "'गणपूर्ति' (Quorum) is the minimum number of members required to conduct a valid meeting."
   },
   {
     "id": "rb_17",
@@ -221,7 +221,7 @@ window.rajbhashaQuiz = [
       "पदनाम"
     ],
     "correct": 0,
-    "explanation": "The official administrative translation is 'संवर्ग'. Memorize this exact terminology as per the Rajbhasha glossary."
+    "explanation": "'संवर्ग' (Cadre) refers to a specific group or category of posts in a service."
   },
   {
     "id": "rb_18",
@@ -234,7 +234,7 @@ window.rajbhashaQuiz = [
       "विभागीय जांच"
     ],
     "correct": 1,
-    "explanation": "The official administrative translation is 'अनुशासनिक कार्रवाई'. Memorize this exact terminology as per the Rajbhasha glossary."
+    "explanation": "'अनुशासनिक' specifically translates to disciplinary, whereas 'प्रशासनिक' means administrative."
   },
   {
     "id": "rb_19",
@@ -247,7 +247,7 @@ window.rajbhashaQuiz = [
       "प्रशासनिक अधिकारी"
     ],
     "correct": 0,
-    "explanation": "The official administrative translation is 'राजपत्रित अधिकारी'. Memorize this exact terminology as per the Rajbhasha glossary."
+    "explanation": "'राजपत्रित अधिकारी' (Gazetted Officer) is an officer whose appointment is published in the official Gazette (राजपत्र)."
   },
   {
     "id": "rb_20",
@@ -260,7 +260,7 @@ window.rajbhashaQuiz = [
       "बोनस"
     ],
     "correct": 1,
-    "explanation": "The official administrative translation is 'भत्ता'. Memorize this exact terminology as per the Rajbhasha glossary."
+    "explanation": "'भत्ता' means Allowance (like DA, HRA). 'वेतन' means salary and 'मानदेय' is honorarium."
   },
   {
     "id": "rb_21",
@@ -273,7 +273,7 @@ window.rajbhashaQuiz = [
       "अधिसुछना"
     ],
     "correct": 1,
-    "explanation": "The correct spelling is 'अधिसूचना'. Pay close attention to the matras (vowel signs) and half-letters used in standard official Hindi."
+    "explanation": "'सूचना' means general information, whereas 'अधिसूचना' (Notification) is a formal official announcement published in the Gazette."
   },
   {
     "id": "rb_22",
@@ -286,7 +286,7 @@ window.rajbhashaQuiz = [
       "प्रशासनीक"
     ],
     "correct": 2,
-    "explanation": "The correct spelling is 'प्रशासनिक'. Pay close attention to the matras (vowel signs) and half-letters used in standard official Hindi."
+    "explanation": "Correct spelling: 'प्रशासनिक'. Although rules sometimes lengthen the first vowel (like समाज->सामाजिक), 'प्रशासनिक' is the accepted standard Rajbhasha spelling, not प्राशासनिक."
   },
   {
     "id": "rb_23",
@@ -299,7 +299,7 @@ window.rajbhashaQuiz = [
       "प्रतीनीयुक्ती"
     ],
     "correct": 2,
-    "explanation": "The correct spelling is 'प्रतिनियुक्ति'. Pay close attention to the matras (vowel signs) and half-letters used in standard official Hindi."
+    "explanation": "'प्रतिनियुक्ति' refers specifically to Deputation (working in another department temporarily). 'स्थानांतरण' is transfer."
   },
   {
     "id": "rb_24",
@@ -312,7 +312,7 @@ window.rajbhashaQuiz = [
       "परीवीक्षा"
     ],
     "correct": 0,
-    "explanation": "The correct spelling is 'परिवीक्षा'. Pay close attention to the matras (vowel signs) and half-letters used in standard official Hindi."
+    "explanation": "'परिवीक्षा' (Probation) is the trial period for a newly appointed officer. 'प्रशिक्षण' means training."
   },
   {
     "id": "rb_25",
@@ -325,7 +325,7 @@ window.rajbhashaQuiz = [
       "पृष्टांकन"
     ],
     "correct": 0,
-    "explanation": "The correct spelling is 'पृष्ठांकन'. Pay close attention to the matras (vowel signs) and half-letters used in standard official Hindi."
+    "explanation": "'पृष्ठांकन' (Endorsement) literally means writing on the back (पृष्ठ + अंकन), used when forwarding a copy to another party."
   },
   {
     "id": "rb_26",
@@ -338,7 +338,7 @@ window.rajbhashaQuiz = [
       "परधिकारी"
     ],
     "correct": 0,
-    "explanation": "The correct spelling is 'प्राधिकारी'. Pay close attention to the matras (vowel signs) and half-letters used in standard official Hindi."
+    "explanation": "Correct spelling: 'प्राधिकारी'. Note the 'ा' on प्र and the large 'ई' (ी) on र at the end."
   },
   {
     "id": "rb_27",
@@ -351,7 +351,7 @@ window.rajbhashaQuiz = [
       "मधन्त्रिंमण्डल"
     ],
     "correct": 1,
-    "explanation": "The correct spelling is 'मंत्रिमंडल'. Pay close attention to the matras (vowel signs) and half-letters used in standard official Hindi."
+    "explanation": "'मंत्रिमंडल' refers to the Cabinet of ministers. 'विधानमंडल' is the legislature."
   },
   {
     "id": "rb_28",
@@ -364,7 +364,7 @@ window.rajbhashaQuiz = [
       "आनुशासनिक"
     ],
     "correct": 2,
-    "explanation": "The correct spelling is 'अनुशासनिक'. Pay close attention to the matras (vowel signs) and half-letters used in standard official Hindi."
+    "explanation": "Correct spelling: 'अनुशासनिक'. Avoid confusing the 'श' and 'स'. It is अनु + शासन + इक."
   },
   {
     "id": "rb_29",
@@ -377,7 +377,7 @@ window.rajbhashaQuiz = [
       "मानदए"
     ],
     "correct": 0,
-    "explanation": "The correct spelling is 'मानदेय'. Pay close attention to the matras (vowel signs) and half-letters used in standard official Hindi."
+    "explanation": "'वेतन' is salary and 'भत्ता' is allowance. 'मानदेय' (Honorarium) is a voluntary payment for professional services rendered without a fixed salary."
   },
   {
     "id": "rb_30",
@@ -390,7 +390,7 @@ window.rajbhashaQuiz = [
       "राजपत्रीधि"
     ],
     "correct": 1,
-    "explanation": "The correct spelling is 'राजपत्रित'. Pay close attention to the matras (vowel signs) and half-letters used in standard official Hindi."
+    "explanation": "Correct spelling: 'राजपत्रित'. Notice the small 'इ' (ि) on त्र."
   },
   {
     "id": "rb_31",
@@ -403,7 +403,7 @@ window.rajbhashaQuiz = [
       "अनूलग्नक"
     ],
     "correct": 1,
-    "explanation": "The correct spelling is 'अनुलग्नक'. Pay close attention to the matras (vowel signs) and half-letters used in standard official Hindi."
+    "explanation": "'अनुलग्नक' (Enclosure) means attached documents. 'परिशिष्ट' means appendix."
   },
   {
     "id": "rb_32",
@@ -416,7 +416,7 @@ window.rajbhashaQuiz = [
       "सतवकता"
     ],
     "correct": 1,
-    "explanation": "The correct spelling is 'सतर्कता'. Pay close attention to the matras (vowel signs) and half-letters used in standard official Hindi."
+    "explanation": "'सतर्कता' (Vigilance) refers to keeping watch, particularly regarding anti-corruption in government offices."
   },
   {
     "id": "rb_33",
@@ -429,7 +429,7 @@ window.rajbhashaQuiz = [
       "गणपुतधि"
     ],
     "correct": 1,
-    "explanation": "The correct spelling is 'गणपूर्ति'. Pay close attention to the matras (vowel signs) and half-letters used in standard official Hindi."
+    "explanation": "'गणपूर्ति' (Quorum) is the minimum number of members required to conduct a valid meeting."
   },
   {
     "id": "rb_34",
@@ -442,7 +442,7 @@ window.rajbhashaQuiz = [
       "संसाधुधि"
     ],
     "correct": 1,
-    "explanation": "The correct spelling is 'संस्तुति'. Pay close attention to the matras (vowel signs) and half-letters used in standard official Hindi."
+    "explanation": "Correct spelling: 'संस्तुति'. Meaning recommendation. Note the small 'इ' (ि) on त at the end."
   },
   {
     "id": "rb_35",
@@ -455,7 +455,7 @@ window.rajbhashaQuiz = [
       "लेकापरीक्षा"
     ],
     "correct": 2,
-    "explanation": "The correct spelling is 'लेखापरीक्षा'. Pay close attention to the matras (vowel signs) and half-letters used in standard official Hindi."
+    "explanation": "'लेखापरीक्षा' (Audit) specifically refers to the official examination of accounts (लेखा)."
   },
   {
     "id": "rb_36",
@@ -468,7 +468,7 @@ window.rajbhashaQuiz = [
       "संवरगा"
     ],
     "correct": 0,
-    "explanation": "The correct spelling is 'संवर्ग'. Pay close attention to the matras (vowel signs) and half-letters used in standard official Hindi."
+    "explanation": "'संवर्ग' (Cadre) refers to a specific group or category of posts in a service."
   },
   {
     "id": "rb_37",
@@ -481,7 +481,7 @@ window.rajbhashaQuiz = [
       "कार्यांनियन"
     ],
     "correct": 0,
-    "explanation": "The correct spelling is 'कार्यान्वयन'. Pay close attention to the matras (vowel signs) and half-letters used in standard official Hindi."
+    "explanation": "Correct spelling: 'कार्यान्वयन'. Meaning implementation. Contains half 'न' and half 'व' (न्व) and half 'य' (र्य)."
   },
   {
     "id": "rb_38",
@@ -494,7 +494,7 @@ window.rajbhashaQuiz = [
       "अधिधिग्रहण"
     ],
     "correct": 0,
-    "explanation": "The correct spelling is 'अधिग्रहण'. Pay close attention to the matras (vowel signs) and half-letters used in standard official Hindi."
+    "explanation": "Correct spelling: 'अधिग्रहण'. Note the small 'इ' (ि) on ध and 'ण' at the end."
   },
   {
     "id": "rb_39",
@@ -507,7 +507,7 @@ window.rajbhashaQuiz = [
       "स्थानांतंरण"
     ],
     "correct": 0,
-    "explanation": "The correct spelling is 'स्थानांतरण'. Pay close attention to the matras (vowel signs) and half-letters used in standard official Hindi."
+    "explanation": "Correct spelling: 'स्थानांतरण'. Contains anusvar (bindu) on both 'था' and 'त'."
   },
   {
     "id": "rb_40",
@@ -520,7 +520,7 @@ window.rajbhashaQuiz = [
       "धिस्तकृती"
     ],
     "correct": 1,
-    "explanation": "The correct spelling is 'स्वीकृति'. Pay close attention to the matras (vowel signs) and half-letters used in standard official Hindi."
+    "explanation": "Correct spelling: 'स्वीकृति'. Notice the half 'स' and the 'ृ' (ri) on क, ending with small 'इ' (ि)."
   },
   {
     "id": "rb_41",
@@ -533,7 +533,7 @@ window.rajbhashaQuiz = [
       "जानकारी और कार्रवाई के लिए"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'सूचनार्थ एवं आवश्यक कार्रवाई हेतु'."
+    "explanation": "Standard directive used when forwarding a letter to a subordinate office so they can note it and take action."
   },
   {
     "id": "rb_42",
@@ -546,7 +546,7 @@ window.rajbhashaQuiz = [
       "देखने हेतु प्रस्तुत"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'अवलोकनार्थ प्रस्तुत'."
+    "explanation": "'अवलोकनार्थ' means 'for perusal/reading'. This is used when a file is put up to a higher officer just for them to see, not necessarily to pass an order."
   },
   {
     "id": "rb_43",
@@ -559,7 +559,7 @@ window.rajbhashaQuiz = [
       "कृपया मान लिया जाए"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'कृपया अनुमोदित किया जाए'."
+    "explanation": "'अनुमोदित' is the official Rajbhasha term for 'approved'. 'पास किया जाए' is informal."
   },
   {
     "id": "rb_44",
@@ -572,7 +572,7 @@ window.rajbhashaQuiz = [
       "उपयुक्त प्रस्ताव अनुसार"
     ],
     "correct": 2,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'जैसा ऊपर प्रस्तावित है'."
+    "explanation": "'यथाप्रस्तावित' or 'जैसा प्रस्तावित है' is used to recommend the action outlined in the preceding paragraphs."
   },
   {
     "id": "rb_45",
@@ -585,7 +585,7 @@ window.rajbhashaQuiz = [
       "पत्र जारी किया जाए"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'प्रारूपानुसार जारी करें'."
+    "explanation": "When a draft letter (प्रारूप) is approved by the officer, they write 'प्रारूपानुसार जारी करें' to order its dispatch."
   },
   {
     "id": "rb_46",
@@ -598,7 +598,7 @@ window.rajbhashaQuiz = [
       "निर्णय हेतु लिया"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'विचारार्थ प्रस्तुत'."
+    "explanation": "'विचारार्थ' means 'for consideration'. Used when presenting multiple options for the officer to decide upon."
   },
   {
     "id": "rb_47",
@@ -611,7 +611,7 @@ window.rajbhashaQuiz = [
       "कानूनन कार्रवाई करें"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'नियमानुसार कार्रवाई की जाए'."
+    "explanation": "Correct spelling: 'प्रशासनिक'. Although rules sometimes lengthen the first vowel (like समाज->सामाजिक), 'प्रशासनिक' is the accepted standard Rajbhasha spelling, not प्राशासनिक."
   },
   {
     "id": "rb_48",
@@ -624,7 +624,7 @@ window.rajbhashaQuiz = [
       "कागज़ जमा करें"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'नस्तीबद्ध करें'."
+    "explanation": "'नस्ती' is the official Hindi word for a 'file' (dossier). Therefore, filing it is 'नस्तीबद्ध करें'."
   },
   {
     "id": "rb_49",
@@ -637,7 +637,7 @@ window.rajbhashaQuiz = [
       "कृपया आदेश दें"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'आदेशार्थ प्रस्तुत'."
+    "explanation": "'आदेशार्थ' means 'for orders'. Used when the subordinate has prepared the case and requires the superior's final decision."
   },
   {
     "id": "rb_50",
@@ -650,7 +650,7 @@ window.rajbhashaQuiz = [
       "पूर्णता रिपोर्ट दें"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'अनुपालन रिपोर्ट भेजी जाए'."
+    "explanation": "'अनुपालन' is the exact administrative term for 'compliance' (following instructions)."
   },
   {
     "id": "rb_51",
@@ -663,7 +663,7 @@ window.rajbhashaQuiz = [
       "ड्राफ्ट मंजूरी के लिए लाया गया"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'अनुमोदन हेतु प्रारूप प्रस्तुत है'."
+    "explanation": "'अनुमोदन हेतु प्रारूप प्रस्तुत है' is the standard phrase when putting up a Draft (प्रारूप) for approval (अनुमोदन)."
   },
   {
     "id": "rb_52",
@@ -676,7 +676,7 @@ window.rajbhashaQuiz = [
       "प्रतिलिपि पीछे है"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'प्रति संलग्न है'."
+    "explanation": "'संलग्न' means enclosed or attached. Used constantly in official correspondence."
   },
   {
     "id": "rb_53",
@@ -689,7 +689,7 @@ window.rajbhashaQuiz = [
       "पास होने की शर्त पर"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'अनुमोदन के अधीन'."
+    "explanation": "'अनुमोदन के अधीन' means the action will only proceed if approval is granted."
   },
   {
     "id": "rb_54",
@@ -702,7 +702,7 @@ window.rajbhashaQuiz = [
       "मन्जूर किया गया"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'यथाप्रस्तावित अनुमोदित'."
+    "explanation": "A very common officer's remark: 'यथाप्रस्तावित अनुमोदित' meaning they agree completely with the note's proposal."
   },
   {
     "id": "rb_55",
@@ -715,7 +715,7 @@ window.rajbhashaQuiz = [
       "मीटिंग बुलाएं"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'चर्चा की जा सकती है / चर्चा करें'."
+    "explanation": "Usually written by an officer when a matter is too complex for noting and requires a face-to-face meeting."
   },
   {
     "id": "rb_56",
@@ -728,7 +728,7 @@ window.rajbhashaQuiz = [
       "पुराने पत्र साथ जोड़ें"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'पूर्व पत्रों के साथ प्रस्तुत करें'."
+    "explanation": "In file management, 'पूर्व पत्रों' refers to previous correspondence or reference materials linked to the current case."
   },
   {
     "id": "rb_57",
@@ -741,7 +741,7 @@ window.rajbhashaQuiz = [
       "आदेश लिया जाता है"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'एतद्वारा स्वीकृति प्रदान की जाती है'."
+    "explanation": "Correct spelling: 'स्वीकृति'. Notice the half 'स' and the 'ृ' (ri) on क, ending with small 'इ' (ि)."
   },
   {
     "id": "rb_58",
@@ -754,7 +754,7 @@ window.rajbhashaQuiz = [
       "मौखिक बताएं"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'कृपया बात करें'."
+    "explanation": "Written by an officer ('कृपया बात करें') when they want the subordinate to explain the file to them verbally."
   },
   {
     "id": "rb_59",
@@ -767,7 +767,7 @@ window.rajbhashaQuiz = [
       "अंतिम रिपोर्ट"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'की गई कार्रवाई की रिपोर्ट'."
+    "explanation": "Correct spelling: 'प्रशासनिक'. Although rules sometimes lengthen the first vowel (like समाज->सामाजिक), 'प्रशासनिक' is the accepted standard Rajbhasha spelling, not प्राशासनिक."
   },
   {
     "id": "rb_60",
@@ -780,7 +780,7 @@ window.rajbhashaQuiz = [
       "छोटा जवाब भेजें"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'अंतरिम उत्तर भेजा जाए'."
+    "explanation": "'अंतरिम' translates to interim. Used when final resolution will take time and the sender must be placated."
   },
   {
     "id": "rb_61",
@@ -793,7 +793,7 @@ window.rajbhashaQuiz = [
       "वापस लिया जाए"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'निरस्त / रद्द समझा जाए'."
+    "explanation": "The official term for cancelled is 'रद्द' or 'निरस्त'."
   },
   {
     "id": "rb_62",
@@ -806,7 +806,7 @@ window.rajbhashaQuiz = [
       "नियम देखते हुए"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'नियमों के अनुसार'."
+    "explanation": "'नियमों के अनुसार' is the standard phrase. Avoid literal translations like 'नियम की शर्तों पर'."
   },
   {
     "id": "rb_63",
@@ -819,7 +819,7 @@ window.rajbhashaQuiz = [
       "पिछला पास करें"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'कायोत्तर अनुमोदन प्रदान किया जाए'."
+    "explanation": "'कायोत्तर' (कार्य + उत्तर) means 'after the act'. Used when approval is taken after the action was already performed due to urgency."
   },
   {
     "id": "rb_64",
@@ -832,7 +832,7 @@ window.rajbhashaQuiz = [
       "फाइल तुरंत आगे बढ़ाएं"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'मामले को शीघ्र निपटाया जाए'."
+    "explanation": "'शीघ्र निपटाया जाए' is the polite administrative instruction to speed up a delayed file."
   },
   {
     "id": "rb_65",
@@ -845,7 +845,7 @@ window.rajbhashaQuiz = [
       "फाइल बंद कर दें"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'आगे किसी कार्रवाई की आवश्यकता नहीं है'."
+    "explanation": "Used to close a case: 'आगे किसी कार्रवाई की आवश्यकता नहीं है'."
   },
   {
     "id": "rb_66",
@@ -858,7 +858,7 @@ window.rajbhashaQuiz = [
       "अच्छा उत्तर दें"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'उपयुक्त उत्तर भेजा जाए'."
+    "explanation": "'उपयुक्त' translates to suitable/appropriate. Used when instructing a subordinate to draft a reply."
   },
   {
     "id": "rb_67",
@@ -871,7 +871,7 @@ window.rajbhashaQuiz = [
       "नियम पालन के लिए"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'कड़ाई से अनुपालन हेतु'."
+    "explanation": "A warning phrase: 'कड़ाई से अनुपालन हेतु', usually for mandatory directives."
   },
   {
     "id": "rb_68",
@@ -884,7 +884,7 @@ window.rajbhashaQuiz = [
       "जानकारी बढ़ाएं"
     ],
     "correct": 0,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'ध्यान में लाया जाए'."
+    "explanation": "'ध्यान में लाया जाए' is the standard translation, meaning to apprise an officer of a fact."
   },
   {
     "id": "rb_69",
@@ -897,7 +897,7 @@ window.rajbhashaQuiz = [
       "जब तक आदेश न आए"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'अगले आदेशों तक'."
+    "explanation": "'अगले आदेशों तक' is used heavily in transfer and posting orders."
   },
   {
     "id": "rb_70",
@@ -910,7 +910,7 @@ window.rajbhashaQuiz = [
       "आदेश रुके हुए हैं"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'आदेशों की प्रतीक्षा है'."
+    "explanation": "Used by a subordinate section to indicate they are waiting for higher directives."
   },
   {
     "id": "rb_71",
@@ -923,7 +923,7 @@ window.rajbhashaQuiz = [
       "उच्च अधिकारी के आदेश से"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'उच्च प्राधिकारी के निदेशानुसार / इच्छानुसार'."
+    "explanation": "Correct spelling: 'प्राधिकारी'. Note the 'ा' on प्र and the large 'ई' (ी) on र at the end."
   },
   {
     "id": "rb_72",
@@ -936,7 +936,7 @@ window.rajbhashaQuiz = [
       "विस्तृत रिपोर्ट भेजी जाए"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'विस्तृत रिपोर्ट की प्रतीक्षा है'."
+    "explanation": "'विस्तृत' is the official term for detailed or comprehensive."
   },
   {
     "id": "rb_73",
@@ -949,7 +949,7 @@ window.rajbhashaQuiz = [
       "बाद में फाइल लाएं"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'बाद में स्मरण दिलाएं'."
+    "explanation": "'स्मरण दिलाएं' uses the formal word for reminding (स्मरण) rather than the colloquial (याद)."
   },
   {
     "id": "rb_74",
@@ -962,7 +962,7 @@ window.rajbhashaQuiz = [
       "केवल जांच हेतु"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'केवल अवलोकनार्थ'."
+    "explanation": "Often marked on informational copies to clarify that no action is expected from the recipient."
   },
   {
     "id": "rb_75",
@@ -975,7 +975,7 @@ window.rajbhashaQuiz = [
       "नस्ती खत्म की जाए"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'नस्ती दाखिल दफ्तर की जाए'."
+    "explanation": "'दाखिल दफ्तर' is a traditional administrative term meaning the file is retired and sent to the record room."
   },
   {
     "id": "rb_76",
@@ -988,7 +988,7 @@ window.rajbhashaQuiz = [
       "जांच कर वापस भेजा"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'देखा और लौटाया गया'."
+    "explanation": "Officers write this when they are returning a file routed through them for information only."
   },
   {
     "id": "rb_77",
@@ -1001,7 +1001,7 @@ window.rajbhashaQuiz = [
       "पिछले पत्र के अनुसार"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'हमारे पत्र के क्रम में'."
+    "explanation": "'के क्रम में' is the standard way to reference a previous letter in a chain of correspondence."
   },
   {
     "id": "rb_78",
@@ -1014,7 +1014,7 @@ window.rajbhashaQuiz = [
       "जवाब तलब किया जाए"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'स्पष्टीकरण मांगा जाए'."
+    "explanation": "'स्पष्टीकरण' means clarification. It is a formal demand for an explanation."
   },
   {
     "id": "rb_79",
@@ -1027,7 +1027,7 @@ window.rajbhashaQuiz = [
       "निर्णय लिया जा रहा है"
     ],
     "correct": 0,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'मामला विचाराधीन है'."
+    "explanation": "'विचाराधीन' is a single elegant word for 'under consideration'. Highly preferred in government letters."
   },
   {
     "id": "rb_80",
@@ -1040,7 +1040,7 @@ window.rajbhashaQuiz = [
       "समय-समय पर परिमार्जित"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'समय-समय पर यथा संशोधित'."
+    "explanation": "'यथा संशोधित' means 'as amended'. 'समय-समय पर' means 'from time to time'."
   },
   {
     "id": "rb_81",
@@ -1053,7 +1053,7 @@ window.rajbhashaQuiz = [
       "अत्यंत व्यक्तिगत"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'पूर्णतः गोपनीय'."
+    "explanation": "'पूर्णतः गोपनीय' indicates maximum secrecy. 'गोपनीय' = confidential."
   },
   {
     "id": "rb_82",
@@ -1066,7 +1066,7 @@ window.rajbhashaQuiz = [
       "धन्यवाद रसीद भेजी गई"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'सधन्यवाद स्वीकार किया गया'."
+    "explanation": "'सधन्यवाद' means 'with thanks'. Often stamped on receipt of routine letters."
   },
   {
     "id": "rb_83",
@@ -1079,7 +1079,7 @@ window.rajbhashaQuiz = [
       "अगले पन्ने पर रखें"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'नए पृष्ठ पर प्रस्तुत करें'."
+    "explanation": "Noting rules require starting on a new page ('नए पृष्ठ') if the current page is almost full."
   },
   {
     "id": "rb_84",
@@ -1092,7 +1092,7 @@ window.rajbhashaQuiz = [
       "फंड देखकर पास करें"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'निधि/बजट की उपलब्धता के अधीन अनुमोदित'."
+    "explanation": "Crucial finance noting: 'निधि की उपलब्धता के अधीन' ensures no spending happens without actual budget."
   },
   {
     "id": "rb_85",
@@ -1105,7 +1105,7 @@ window.rajbhashaQuiz = [
       "जल्दी उत्तर की आशा है"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'शीघ्र उत्तर का अनुरोध है'."
+    "explanation": "Correct spelling: 'प्रशासनिक'. Although rules sometimes lengthen the first vowel (like समाज->सामाजिक), 'प्रशासनिक' is the accepted standard Rajbhasha spelling, not प्राशासनिक."
   },
   {
     "id": "rb_86",
@@ -1118,7 +1118,7 @@ window.rajbhashaQuiz = [
       "आवश्यक काम के लिए बढ़ाएं"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'आवश्यक कार्रवाई हेतु अग्रेषित'."
+    "explanation": "'अग्रेषित' (Forwarded) is used when passing a document along the chain of command."
   },
   {
     "id": "rb_87",
@@ -1131,7 +1131,7 @@ window.rajbhashaQuiz = [
       "विषय आपातकालीन है"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'मामला अत्यावश्यक है'."
+    "explanation": "'अत्यावश्यक' (अति + आवश्यक) is the precise administrative term for 'urgent'."
   },
   {
     "id": "rb_88",
@@ -1144,7 +1144,7 @@ window.rajbhashaQuiz = [
       "जानकारी जल्द आएगी"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'सूचना की प्रतीक्षा है'."
+    "explanation": "'प्रतीक्षा' (awaiting/waiting) is standard formal Hindi."
   },
   {
     "id": "rb_89",
@@ -1157,7 +1157,7 @@ window.rajbhashaQuiz = [
       "नियम के तहत"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'नियमानुसार'."
+    "explanation": "'नियमानुसार' is the correct fused word (नियम + अनुसार)."
   },
   {
     "id": "rb_90",
@@ -1170,7 +1170,7 @@ window.rajbhashaQuiz = [
       "कागज़ात साथ रखे हैं"
     ],
     "correct": 1,
-    "explanation": "The standard phrase used in file notings in Central Government offices is 'नस्ती इसके साथ प्रस्तुत है'."
+    "explanation": "'इसके साथ प्रस्तुत है' is the formal way to say something is attached and submitted."
   }
 ];
 
