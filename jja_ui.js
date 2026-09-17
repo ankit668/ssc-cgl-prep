@@ -39,6 +39,7 @@
                 <button onclick="jjaTab('translation')" id="jja-tab-translation" class="jja-tab-btn">🔄 Translation</button>
                 <button onclick="jjaTab('legal')" id="jja-tab-legal" class="jja-tab-btn">⚖️ Legal GK</button>
                 <button onclick="jjaTab('typing')" id="jja-tab-typing" class="jja-tab-btn">⌨️ Typing Test</button>
+                <button onclick="jjaTab('rajbhasha')" id="jja-tab-rajbhasha" class="jja-tab-btn">🇮🇳 Rajbhasha MCQ</button>
             </div>
 
             <!-- Content Area -->
@@ -148,6 +149,7 @@
         else if (tab === 'translation') renderTranslations(content);
         else if (tab === 'legal') renderLegalGK(content);
         else if (tab === 'typing') renderTypingTest(content);
+        else if (tab === 'rajbhasha') renderRajbhashaQuiz(content);
     };
 
     // ── ESSAY TAB ─────────────────────────────────────────────
@@ -631,5 +633,113 @@ Yours faithfully,<br>
 
     // ── Expose ONLY — app.js calls this when tab is clicked ──
     window.renderJJAPanel = renderJJAPanel;
+
+    // ── RAJBHASHA MCQ TAB ─────────────────────────────────────
+    let rbScore = 0, rbAnswered = 0, rbTotal = 0, rbCurrentBank = 'All';
+
+    function renderRajbhashaQuiz(container) {
+        const allQ = (window.jjaData && window.jjaData.rajbhashaQuiz) ? window.jjaData.rajbhashaQuiz : [];
+        rbTotal = allQ.length;
+
+        container.innerHTML = `
+        <div style="background:linear-gradient(135deg,#1E3A5F,#0F172A);border-left:4px solid #F59E0B;padding:14px 18px;border-radius:10px;margin-bottom:16px;">
+            <b style="color:#F59E0B;font-size:1.1em;">🇮🇳 राजभाषा MCQ — IIT Tirupati Translation Competition</b><br>
+            <span style="color:#94A3B8;font-size:0.85em;">Both Question Banks (QB-I: Vocabulary & Spelling | QB-II: Noting & Sentence Translation) — ${rbTotal} Questions Total</span>
+        </div>
+
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px;">
+            <button onclick="rbFilter('All',this)" class="jja-reveal-btn" style="margin:0;background:#F59E0B;color:#000;border-color:#F59E0B;">📚 All (${rbTotal})</button>
+            <button onclick="rbFilter('QB-I: Vocabulary',this)" class="jja-reveal-btn" style="margin:0;">📖 QB-I: Vocabulary (20)</button>
+            <button onclick="rbFilter('QB-I: Spelling',this)" class="jja-reveal-btn" style="margin:0;">✍️ QB-I: Spelling (20)</button>
+            <button onclick="rbFilter('QB-II: Noting',this)" class="jja-reveal-btn" style="margin:0;">📝 QB-II: Noting (50)</button>
+        </div>
+
+        <div style="background:#1E293B;padding:10px 16px;border-radius:8px;margin-bottom:14px;display:flex;gap:20px;align-items:center;flex-wrap:wrap;">
+            <span style="color:#94A3B8;">Score: <b id="rb-score" style="color:#10B981;font-size:1.2em;">0</b> / <span id="rb-total">${rbTotal}</span></b></span>
+            <span style="color:#94A3B8;">Answered: <b id="rb-answered" style="color:#60A5FA;">0</b></span>
+            <button onclick="rbReset()" style="margin-left:auto;padding:6px 14px;background:#EF4444;color:#fff;border:none;border-radius:6px;cursor:pointer;font-size:0.85em;">🔄 Reset All</button>
+        </div>
+
+        <div id="rb-quiz-container">
+        ${allQ.map((q, i) => `
+            <div class="rb-question" id="rb-q-${i}" data-bank="${q.bank}" style="background:#1E293B;border:1px solid #334155;border-radius:10px;padding:14px;margin-bottom:12px;transition:border-color 0.2s;">
+                <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+                    <span style="background:#334155;color:#94A3B8;font-size:0.75em;padding:3px 8px;border-radius:12px;">${q.bank}</span>
+                    <span style="color:#64748B;font-size:0.8em;">Q${i+1}</span>
+                </div>
+                <p style="color:#E2E8F0;font-size:0.95em;margin:0 0 12px 0;line-height:1.6;">${q.question}</p>
+                <div style="display:flex;flex-direction:column;gap:7px;" id="rb-opts-${i}">
+                    ${q.options.map((opt, j) => `
+                        <button onclick="rbAnswer(${i},${j},${q.correct})"
+                            id="rb-opt-${i}-${j}"
+                            style="text-align:left;padding:9px 14px;background:#0F172A;border:1px solid #334155;border-radius:8px;color:#CBD5E1;cursor:pointer;font-size:0.9em;transition:all 0.15s;">
+                            <span style="color:#F59E0B;font-weight:bold;margin-right:8px;">${['A','B','C','D'][j]})</span>${opt}
+                        </button>
+                    `).join('')}
+                </div>
+                <div id="rb-result-${i}" style="display:none;margin-top:10px;padding:8px 12px;border-radius:6px;font-size:0.88em;"></div>
+            </div>
+        `).join('')}
+        </div>
+        `;
+
+        rbScore = 0; rbAnswered = 0;
+    }
+
+    window.rbFilter = function(bank, btn) {
+        rbCurrentBank = bank;
+        document.querySelectorAll('#rb-quiz-container .rb-question').forEach(q => {
+            q.style.display = (bank === 'All' || q.dataset.bank === bank) ? 'block' : 'none';
+        });
+        document.querySelectorAll('.jja-reveal-btn').forEach(b => {
+            b.style.background = ''; b.style.color = ''; b.style.borderColor = '';
+        });
+        if(btn){ btn.style.background='#F59E0B'; btn.style.color='#000'; btn.style.borderColor='#F59E0B'; }
+        const vis = document.querySelectorAll('#rb-quiz-container .rb-question:not([style*="display: none"])').length;
+        document.getElementById('rb-total').textContent = bank === 'All' ? rbTotal : vis;
+    };
+
+    window.rbAnswer = function(qIdx, chosen, correct) {
+        const opts = document.getElementById('rb-opts-' + qIdx);
+        if (!opts || opts.dataset.answered) return;
+        opts.dataset.answered = '1';
+        rbAnswered++;
+
+        const isCorrect = (chosen === correct);
+        if (isCorrect) rbScore++;
+
+        // Color buttons
+        for (let j = 0; j < 4; j++) {
+            const btn = document.getElementById('rb-opt-' + qIdx + '-' + j);
+            if (!btn) continue;
+            btn.style.cursor = 'default';
+            if (j === correct) { btn.style.background='#064E3B'; btn.style.borderColor='#10B981'; btn.style.color='#10B981'; }
+            else if (j === chosen && !isCorrect) { btn.style.background='#450A0A'; btn.style.borderColor='#EF4444'; btn.style.color='#EF4444'; }
+        }
+
+        // Show result
+        const result = document.getElementById('rb-result-' + qIdx);
+        if (result) {
+            result.style.display = 'block';
+            result.style.background = isCorrect ? '#064E3B' : '#450A0A';
+            result.style.color = isCorrect ? '#10B981' : '#EF4444';
+            result.innerHTML = isCorrect
+                ? '✅ <b>सही!</b> Correct answer.'
+                : '❌ <b>गलत।</b> सही उत्तर: <b>' + ['A','B','C','D'][correct] + ') </b>';
+        }
+
+        // Color question border
+        const qDiv = document.getElementById('rb-q-' + qIdx);
+        if (qDiv) qDiv.style.borderColor = isCorrect ? '#10B981' : '#EF4444';
+
+        // Update scoreboard
+        document.getElementById('rb-score').textContent = rbScore;
+        document.getElementById('rb-answered').textContent = rbAnswered;
+    };
+
+    window.rbReset = function() {
+        const container = document.getElementById('jja-content');
+        if (container) renderRajbhashaQuiz(container);
+    };
 
 })();
