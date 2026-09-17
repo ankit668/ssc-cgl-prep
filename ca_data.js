@@ -439,9 +439,129 @@ window.caData = {
     "category": "Global Indices",
     "position": "Global Startup Ecosystem Index 2026",
     "name": "Rank 21"
+  },
+  {
+    "category": "Joint Military Exercises",
+    "position": "Surya Kiran",
+    "name": "Nepal"
+  },
+  {
+    "category": "Joint Military Exercises",
+    "position": "Mitra Shakti",
+    "name": "Sri Lanka"
+  },
+  {
+    "category": "Joint Military Exercises",
+    "position": "Sampriti",
+    "name": "Bangladesh"
+  },
+  {
+    "category": "Joint Military Exercises",
+    "position": "Vajra Prahar",
+    "name": "USA"
+  },
+  {
+    "category": "Joint Military Exercises",
+    "position": "Yudh Abhyas",
+    "name": "USA"
+  },
+  {
+    "category": "Joint Military Exercises",
+    "position": "Varuna (Naval)",
+    "name": "France"
+  },
+  {
+    "category": "Joint Military Exercises",
+    "position": "Shakti (Army)",
+    "name": "France"
+  },
+  {
+    "category": "Joint Military Exercises",
+    "position": "Dharma Guardian",
+    "name": "Japan"
+  },
+  {
+    "category": "Joint Military Exercises",
+    "position": "JIMEX",
+    "name": "Japan"
+  },
+  {
+    "category": "Joint Military Exercises",
+    "position": "Veer Guardian",
+    "name": "Japan"
+  },
+  {
+    "category": "Joint Military Exercises",
+    "position": "Nomadic Elephant",
+    "name": "Mongolia"
+  },
+  {
+    "category": "Joint Military Exercises",
+    "position": "Dustlik",
+    "name": "Uzbekistan"
+  },
+  {
+    "category": "Joint Military Exercises",
+    "position": "Kazind",
+    "name": "Kazakhstan"
+  },
+  {
+    "category": "Joint Military Exercises",
+    "position": "Khanjar",
+    "name": "Kyrgyzstan"
+  },
+  {
+    "category": "Joint Military Exercises",
+    "position": "Harimau Shakti",
+    "name": "Malaysia"
+  },
+  {
+    "category": "Joint Military Exercises",
+    "position": "Austra Hind",
+    "name": "Australia"
+  },
+  {
+    "category": "Joint Military Exercises",
+    "position": "Malabar",
+    "name": "Quad (India, USA, Japan, Australia)"
+  },
+  {
+    "category": "Joint Military Exercises",
+    "position": "SIMBEX",
+    "name": "Singapore"
+  },
+  {
+    "category": "Joint Military Exercises",
+    "position": "Maitree",
+    "name": "Thailand"
+  },
+  {
+    "category": "Joint Military Exercises",
+    "position": "Garuda Shakti",
+    "name": "Indonesia"
+  },
+  {
+    "category": "Joint Military Exercises",
+    "position": "Al Mohed Al Hindi",
+    "name": "Saudi Arabia"
+  },
+  {
+    "category": "Joint Military Exercises",
+    "position": "Zayed Talwar",
+    "name": "UAE"
+  },
+  {
+    "category": "Joint Military Exercises",
+    "position": "Cyclone",
+    "name": "Egypt"
+  },
+  {
+    "category": "Joint Military Exercises",
+    "position": "Ekuverin",
+    "name": "Maldives"
   }
 ],
-  notes: "<h2 style='color:#FF4B2B; border-bottom:2px solid #FF4B2B; padding-bottom:10px;'>Major Appointments & Indices (2025-26)</h2><h3 style='color:#FCD34D; margin-top:20px;'>National Appointments</h3><table style='width:100%; border-collapse: collapse; margin-top:10px;'><tr style='background:#334155; color:#94A3B8;'><th style='padding:10px; border:1px solid #475569; text-align:left;'>Position / Office</th><th style='padding:10px; border:1px solid #475569; text-align:left;'>Appointee</th></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Home Secretary</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Govind Mohan</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Revenue Secretary</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Arvind Shrivastava</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Attorney General of India</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>R. Venkataraman (16th) Again</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Solicitor General of India</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Tushar Mehta (Re-appointed)</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Chief Justice of Supreme Court</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Justice Suryakant (53rd)</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Chief of Defense Staff (CDS)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Lt. General N.S. Raja Subramani (3*)</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Chief of Naval Staff</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Admiral Krishna Swaminathan (27th)</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Chief of the Air Staff</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Air Chif Marshal Amar Preet Singh</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Chief of the Army Staff</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>General Dhiraj Seth (31st)</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Chief Election Commissioner of india</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Gyanesh Kumar (26th)</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>(Election Commissioners</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Vivek Joshi and Sukhbir Singh Sandhu)</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Service</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Shri Anugrah Narayan Das</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Chairman of SSC</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>S. Gopalakrishnan</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Chairman of SEBI</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Tuhin Kanta Pandey</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Chairman of the 16 Finance Commission</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Arvind Panagariya</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Principal Scientific Advisor</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Ajay Kumar Sood</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>(Deputy Governors</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Swaminathan Janakiraman, T.R. Shankar,</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Officer of RB!</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Sudha Balakrishnan</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>ank of India</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Challa Sreenivasulu Setty</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>man of NIT| Aayog</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Ashok Kumar Lahiri (5th)</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>of India (15th)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Droupadi Murmu (Odisha)</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Vice President of India (15th)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>C.P. Radhakrishnan</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>ker of the 18th Lok Sabha</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Om Birla</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>eader of the House in Rajya Sabha</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>JP Nadda</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>\u2014</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Baijayant Panda</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Dr. Saibal Chattopadhyay</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chairman of the National Statistical</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>R. Mukundan</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>New President of the Confederation of</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Dr. Ashok Kumar Panda</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chairman and Managing Director</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Shashi Shekhar Vempati</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chairman of the Central Board of :</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>;</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chairman of Prasar Bharati</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Rajesh Kumar Agarwal</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Director of Power Finance Corporation *</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Shashi Prakash Goyal</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>New Chief Secretary of Uttar Pradesh</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Or. Ajit Kumar Mohanty</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chairman of the Atomic Energy * \u201clay Singh</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Srikanth Velamakanni</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chairman of NASSCOM</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Lisa Gill</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chief Justice of the Andhra Pradesh</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>High Court</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>R. Doraiswamy</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Justice Meenakshi Madan Rai</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chief Justice of the Patna High : oe</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Vice Admiral Ajay Kochhar</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>48th Vice Chief of the Naval Staff =</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Air Marshal Ashutosh Dixit</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>New Vice Chief of the Air Staff</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>M. Venkaiah Naidu</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chairman of the Atal Smriti Nyas *</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>\u2018astava</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chairman of the Food Safety and</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>titieal sae</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Director General of the NCC</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Pita</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chairman and Managing Director, GAIL =</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Sanjay Oar</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>National Working President of BJP</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Brij Bhushan Agarwal</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>President of the Indian Chamber of</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Air Marshal Ashutosh Dixit</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>New Chief of Integrated Defence</td></tr></table><h3 style='color:#FCD34D; margin-top:20px;'>International Appointments</h3><table style='width:100%; border-collapse: collapse; margin-top:10px;'><tr style='background:#334155; color:#94A3B8;'><th style='padding:10px; border:1px solid #475569; text-align:left;'>Position / Office</th><th style='padding:10px; border:1px solid #475569; text-align:left;'>Appointee</th></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Mette Frederiksen</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Prime Minister of Denmark (third = sanaeTakaichi  - Japan's first fe \u2018 :</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Tamim Iqbal</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>President of the Bangladesh Cricket Board \" RMNachammai \u2014 The first female head of the operational</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Shokolshikawa</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>UN Women representative to India nuclear power plant at Kaiga, Karnataka</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Bill Pulte</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Acting Director of the USA Intelligence = Anju Rathi Rana - First woman Law Secretary 4</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Laura Virginia Fernandez Delgado * Saba Shawl</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>ie ies Woman to head centray</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Ali Falih Kadhim al-Zaidi</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Prime Minister of Iraq .e + anit \u2014 The fi</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Yoweri Kaguta Museveni</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>President of Uganda Seema Miami Come Mayor of</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>\u00ae John Ternus</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>New CEO of Apple Company</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Ismail Omar Guelleh</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>President of Djibouti \u00ae Manali Makarand Kshirsagar- The first woman Vice-Chancellor</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Peter Magyar</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Prime Minister of Hungary of Nagpur University</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Rumen Radev</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>New Prime Minister of Bulgaria</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Dr. Manoj Kumar Sharma</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Nepal's new Chief Justice = Sonali Mishra ~ The first woman Director General of the</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Mojtaba Khamenei</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Supreme Leader of Iran Railway Protecti</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Field Marshal Asim Munir</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>First Chief of Defence Forces of * Professor Uma Kanjilal - The first woman Vice-Chancellor of</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Gem) Paralympic Committee * Michelle Dougherty</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>ie first female astronomer in Britain</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Khaled El-Enany (Egypt)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Director-General of UNESCO \" Jennifer Simons _- First female President of Suriname</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Kristalina Georgieva</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Managing Director of the IMF : First femal ; ;</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Robert Francis Prevost</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>New Pope of Roman Catholic \u201c Kirsty Coventry Firs! iia African President of the</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Annalena Baerbock</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>President of the 80th session \u00ab shirley Botchwe \u2014 First African female Secretary-</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Khalilur Rahman (Foreign Minister of Bangladesh)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>President * Yashasvi Solanki \u2014 First female naval officer to be appointed</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Mohsin Nagbi \u2014 New President of Asian Cricket Council\u201d Netumbo Nandi -Ndaitwah</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>First female President of Namibia</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Masato Kanda (Japan) \u2014- 11th President of Asian</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Dr. Ngozi Okonjo-lweala- Director General of WTO (2nd term)</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>. i dena \u2014</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chairman of Anti Corruption Unit r ,</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>\u00ae Mohammad Tayyab Ikram</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>President of International Hockey \" Claudia Sheinbaum \u2014 First female President of Mexico</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Federation sin Gani * Lieutenant General Sadhana Saxena Nair</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>First female DG of</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Mark Rutte (Former PM of Netherlands)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>New Secretary , . \u2018</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Dilma Rousseff</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>President of BRICS Bank * Aarti Sarin \u2014 First female Director General of Armed</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Catherine Russell ~~ ae TN OF UNEP \" Fatemeh Mohajerani</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>First female DG of Iran Female</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Naima Khatoon</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>First female Vice Chancellor of Aligarh</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>DICTIONARY | WORD OF THE | WORDOFTHE = = Bhumika Shrestha</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Nepal's first transgender female MP</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>| JEAR2026, YEAR 2025</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Lieutenant General Susan Coyle</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>\u2018Cambridge Dictionary | Manifest | Parasocial</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Australia's first female Chief of Army</td></tr></table><h3 style='color:#FCD34D; margin-top:20px;'>Global Indices</h3><table style='width:100%; border-collapse: collapse; margin-top:10px;'><tr style='background:#334155; color:#94A3B8;'><th style='padding:10px; border:1px solid #475569; text-align:left;'>Index / Report</th><th style='padding:10px; border:1px solid #475569; text-align:left;'>India's Rank</th></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Asia Power Index 2025</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Rank 3</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Hurun Global Unicorn Index 2026</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Rank 3</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Global Firepower Index 2026</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Rank 4</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Asia Manufacturing Index 2026</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Rank 6</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Climate Risk Index 2026</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Rank 7</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Climate Change Performance Index 2026</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Rank 7</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Global Terrorism Index 2026</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Rank 13</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>QS World Future Skills Index 2027</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Rank 13</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>World Investment Report 2025</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Rank 15</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Global Startup Ecosystem Index 2026</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Rank 21</td></tr></table>",
+  notes: "<h2 style='color:#FF4B2B; border-bottom:2px solid #FF4B2B; padding-bottom:10px;'>SSC CGL Current Affairs (2025-26)</h2><h3 style='color:#FCD34D; margin-top:20px;'>National Appointments</h3><table style='width:100%; border-collapse: collapse; margin-top:10px;'><tr style='background:#334155; color:#94A3B8;'><th style='padding:10px; border:1px solid #475569; text-align:left;'>Position / Office</th><th style='padding:10px; border:1px solid #475569; text-align:left;'>Appointee</th></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Home Secretary</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Govind Mohan</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Revenue Secretary</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Arvind Shrivastava</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Attorney General of India</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>R. Venkataraman (16th) Again</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Solicitor General of India</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Tushar Mehta (Re-appointed)</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Chief Justice of Supreme Court</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Justice Suryakant (53rd)</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Chief of Defense Staff (CDS)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Lt. General N.S. Raja Subramani (3*)</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Chief of Naval Staff</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Admiral Krishna Swaminathan (27th)</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Chief of the Air Staff</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Air Chif Marshal Amar Preet Singh</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Chief of the Army Staff</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>General Dhiraj Seth (31st)</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Chief Election Commissioner of india</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Gyanesh Kumar (26th)</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>(Election Commissioners</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Vivek Joshi and Sukhbir Singh Sandhu)</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Service</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Shri Anugrah Narayan Das</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Chairman of SSC</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>S. Gopalakrishnan</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Chairman of SEBI</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Tuhin Kanta Pandey</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Chairman of the 16 Finance Commission</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Arvind Panagariya</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Principal Scientific Advisor</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Ajay Kumar Sood</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>(Deputy Governors</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Swaminathan Janakiraman, T.R. Shankar,</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Officer of RB!</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Sudha Balakrishnan</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>ank of India</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Challa Sreenivasulu Setty</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>man of NIT| Aayog</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Ashok Kumar Lahiri (5th)</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>of India (15th)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Droupadi Murmu (Odisha)</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Vice President of India (15th)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>C.P. Radhakrishnan</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>ker of the 18th Lok Sabha</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Om Birla</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>eader of the House in Rajya Sabha</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>JP Nadda</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>\u2014</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Baijayant Panda</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Dr. Saibal Chattopadhyay</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chairman of the National Statistical</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>R. Mukundan</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>New President of the Confederation of</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Dr. Ashok Kumar Panda</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chairman and Managing Director</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Shashi Shekhar Vempati</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chairman of the Central Board of :</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>;</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chairman of Prasar Bharati</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Rajesh Kumar Agarwal</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Director of Power Finance Corporation *</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Shashi Prakash Goyal</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>New Chief Secretary of Uttar Pradesh</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Or. Ajit Kumar Mohanty</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chairman of the Atomic Energy * \u201clay Singh</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Srikanth Velamakanni</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chairman of NASSCOM</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Lisa Gill</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chief Justice of the Andhra Pradesh</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>High Court</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>R. Doraiswamy</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Justice Meenakshi Madan Rai</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chief Justice of the Patna High : oe</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Vice Admiral Ajay Kochhar</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>48th Vice Chief of the Naval Staff =</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Air Marshal Ashutosh Dixit</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>New Vice Chief of the Air Staff</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>M. Venkaiah Naidu</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chairman of the Atal Smriti Nyas *</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>\u2018astava</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chairman of the Food Safety and</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>titieal sae</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Director General of the NCC</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Pita</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chairman and Managing Director, GAIL =</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Sanjay Oar</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>National Working President of BJP</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Brij Bhushan Agarwal</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>President of the Indian Chamber of</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Air Marshal Ashutosh Dixit</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>New Chief of Integrated Defence</td></tr></table><h3 style='color:#FCD34D; margin-top:20px;'>International Appointments</h3><table style='width:100%; border-collapse: collapse; margin-top:10px;'><tr style='background:#334155; color:#94A3B8;'><th style='padding:10px; border:1px solid #475569; text-align:left;'>Position / Office</th><th style='padding:10px; border:1px solid #475569; text-align:left;'>Appointee</th></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Mette Frederiksen</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Prime Minister of Denmark (third = sanaeTakaichi  - Japan's first fe \u2018 :</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Tamim Iqbal</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>President of the Bangladesh Cricket Board \" RMNachammai \u2014 The first female head of the operational</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Shokolshikawa</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>UN Women representative to India nuclear power plant at Kaiga, Karnataka</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Bill Pulte</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Acting Director of the USA Intelligence = Anju Rathi Rana - First woman Law Secretary 4</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Laura Virginia Fernandez Delgado * Saba Shawl</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>ie ies Woman to head centray</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Ali Falih Kadhim al-Zaidi</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Prime Minister of Iraq .e + anit \u2014 The fi</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Yoweri Kaguta Museveni</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>President of Uganda Seema Miami Come Mayor of</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>\u00ae John Ternus</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>New CEO of Apple Company</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Ismail Omar Guelleh</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>President of Djibouti \u00ae Manali Makarand Kshirsagar- The first woman Vice-Chancellor</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Peter Magyar</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Prime Minister of Hungary of Nagpur University</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Rumen Radev</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>New Prime Minister of Bulgaria</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Dr. Manoj Kumar Sharma</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Nepal's new Chief Justice = Sonali Mishra ~ The first woman Director General of the</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Mojtaba Khamenei</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Supreme Leader of Iran Railway Protecti</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Field Marshal Asim Munir</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>First Chief of Defence Forces of * Professor Uma Kanjilal - The first woman Vice-Chancellor of</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Gem) Paralympic Committee * Michelle Dougherty</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>ie first female astronomer in Britain</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Khaled El-Enany (Egypt)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Director-General of UNESCO \" Jennifer Simons _- First female President of Suriname</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Kristalina Georgieva</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Managing Director of the IMF : First femal ; ;</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Robert Francis Prevost</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>New Pope of Roman Catholic \u201c Kirsty Coventry Firs! iia African President of the</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Annalena Baerbock</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>President of the 80th session \u00ab shirley Botchwe \u2014 First African female Secretary-</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Khalilur Rahman (Foreign Minister of Bangladesh)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>President * Yashasvi Solanki \u2014 First female naval officer to be appointed</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Mohsin Nagbi \u2014 New President of Asian Cricket Council\u201d Netumbo Nandi -Ndaitwah</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>First female President of Namibia</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Masato Kanda (Japan) \u2014- 11th President of Asian</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Dr. Ngozi Okonjo-lweala- Director General of WTO (2nd term)</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>. i dena \u2014</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Chairman of Anti Corruption Unit r ,</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>\u00ae Mohammad Tayyab Ikram</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>President of International Hockey \" Claudia Sheinbaum \u2014 First female President of Mexico</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Federation sin Gani * Lieutenant General Sadhana Saxena Nair</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>First female DG of</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Mark Rutte (Former PM of Netherlands)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>New Secretary , . \u2018</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Dilma Rousseff</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>President of BRICS Bank * Aarti Sarin \u2014 First female Director General of Armed</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Catherine Russell ~~ ae TN OF UNEP \" Fatemeh Mohajerani</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>First female DG of Iran Female</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Naima Khatoon</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>First female Vice Chancellor of Aligarh</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>DICTIONARY | WORD OF THE | WORDOFTHE = = Bhumika Shrestha</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Nepal's first transgender female MP</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>| JEAR2026, YEAR 2025</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Lieutenant General Susan Coyle</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>\u2018Cambridge Dictionary | Manifest | Parasocial</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Australia's first female Chief of Army</td></tr></table><h3 style='color:#FCD34D; margin-top:20px;'>Global Indices</h3><table style='width:100%; border-collapse: collapse; margin-top:10px;'><tr style='background:#334155; color:#94A3B8;'><th style='padding:10px; border:1px solid #475569; text-align:left;'>Index / Report</th><th style='padding:10px; border:1px solid #475569; text-align:left;'>India's Rank</th></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Asia Power Index 2025</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Rank 3</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Hurun Global Unicorn Index 2026</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Rank 3</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Global Firepower Index 2026</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Rank 4</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Asia Manufacturing Index 2026</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Rank 6</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Climate Risk Index 2026</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Rank 7</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Climate Change Performance Index 2026</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Rank 7</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Global Terrorism Index 2026</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Rank 13</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>QS World Future Skills Index 2027</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Rank 13</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>World Investment Report 2025</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Rank 15</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Global Startup Ecosystem Index 2026</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Rank 21</td></tr></table><h3 style='color:#FCD34D; margin-top:20px;'>Joint Military Exercises</h3><table style='width:100%; border-collapse: collapse; margin-top:10px;'><tr style='background:#334155; color:#94A3B8;'><th style='padding:10px; border:1px solid #475569; text-align:left;'>Exercise Name</th><th style='padding:10px; border:1px solid #475569; text-align:left;'>Partner Country (with India)</th></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Surya Kiran</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Nepal</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Mitra Shakti</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Sri Lanka</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Sampriti</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Bangladesh</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Vajra Prahar</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>USA</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Yudh Abhyas</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>USA</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Varuna (Naval)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>France</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Shakti (Army)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>France</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Dharma Guardian</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Japan</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>JIMEX</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Japan</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Veer Guardian</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Japan</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Nomadic Elephant</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Mongolia</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Dustlik</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Uzbekistan</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Kazind</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Kazakhstan</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Khanjar</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Kyrgyzstan</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Harimau Shakti</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Malaysia</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Austra Hind</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Australia</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Malabar</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Quad (India, USA, Japan, Australia)</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>SIMBEX</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Singapore</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Maitree</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Thailand</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Garuda Shakti</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Indonesia</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Al Mohed Al Hindi</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Saudi Arabia</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Zayed Talwar</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>UAE</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Cyclone</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Egypt</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Ekuverin</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Maldives</td></tr></table>",
   flashcards: [
   {
     "id": "ca_appt_0",
@@ -970,6 +1090,150 @@ window.caData = {
     "topic": "Global Indices (India's Rank)",
     "front": "What is India's rank in Global Startup Ecosystem Index 2026?",
     "back": "Rank 21"
+  },
+  {
+    "id": "ca_ex_0",
+    "topic": "Joint Military Exercises",
+    "front": "The Joint Military Exercise 'Surya Kiran' is conducted between India and which country?",
+    "back": "Nepal"
+  },
+  {
+    "id": "ca_ex_1",
+    "topic": "Joint Military Exercises",
+    "front": "The Joint Military Exercise 'Mitra Shakti' is conducted between India and which country?",
+    "back": "Sri Lanka"
+  },
+  {
+    "id": "ca_ex_2",
+    "topic": "Joint Military Exercises",
+    "front": "The Joint Military Exercise 'Sampriti' is conducted between India and which country?",
+    "back": "Bangladesh"
+  },
+  {
+    "id": "ca_ex_3",
+    "topic": "Joint Military Exercises",
+    "front": "The Joint Military Exercise 'Vajra Prahar' is conducted between India and which country?",
+    "back": "USA"
+  },
+  {
+    "id": "ca_ex_4",
+    "topic": "Joint Military Exercises",
+    "front": "The Joint Military Exercise 'Yudh Abhyas' is conducted between India and which country?",
+    "back": "USA"
+  },
+  {
+    "id": "ca_ex_5",
+    "topic": "Joint Military Exercises",
+    "front": "The Joint Military Exercise 'Varuna (Naval)' is conducted between India and which country?",
+    "back": "France"
+  },
+  {
+    "id": "ca_ex_6",
+    "topic": "Joint Military Exercises",
+    "front": "The Joint Military Exercise 'Shakti (Army)' is conducted between India and which country?",
+    "back": "France"
+  },
+  {
+    "id": "ca_ex_7",
+    "topic": "Joint Military Exercises",
+    "front": "The Joint Military Exercise 'Dharma Guardian' is conducted between India and which country?",
+    "back": "Japan"
+  },
+  {
+    "id": "ca_ex_8",
+    "topic": "Joint Military Exercises",
+    "front": "The Joint Military Exercise 'JIMEX' is conducted between India and which country?",
+    "back": "Japan"
+  },
+  {
+    "id": "ca_ex_9",
+    "topic": "Joint Military Exercises",
+    "front": "The Joint Military Exercise 'Veer Guardian' is conducted between India and which country?",
+    "back": "Japan"
+  },
+  {
+    "id": "ca_ex_10",
+    "topic": "Joint Military Exercises",
+    "front": "The Joint Military Exercise 'Nomadic Elephant' is conducted between India and which country?",
+    "back": "Mongolia"
+  },
+  {
+    "id": "ca_ex_11",
+    "topic": "Joint Military Exercises",
+    "front": "The Joint Military Exercise 'Dustlik' is conducted between India and which country?",
+    "back": "Uzbekistan"
+  },
+  {
+    "id": "ca_ex_12",
+    "topic": "Joint Military Exercises",
+    "front": "The Joint Military Exercise 'Kazind' is conducted between India and which country?",
+    "back": "Kazakhstan"
+  },
+  {
+    "id": "ca_ex_13",
+    "topic": "Joint Military Exercises",
+    "front": "The Joint Military Exercise 'Khanjar' is conducted between India and which country?",
+    "back": "Kyrgyzstan"
+  },
+  {
+    "id": "ca_ex_14",
+    "topic": "Joint Military Exercises",
+    "front": "The Joint Military Exercise 'Harimau Shakti' is conducted between India and which country?",
+    "back": "Malaysia"
+  },
+  {
+    "id": "ca_ex_15",
+    "topic": "Joint Military Exercises",
+    "front": "The Joint Military Exercise 'Austra Hind' is conducted between India and which country?",
+    "back": "Australia"
+  },
+  {
+    "id": "ca_ex_16",
+    "topic": "Joint Military Exercises",
+    "front": "The Joint Military Exercise 'Malabar' is conducted between India and which country?",
+    "back": "Quad (India, USA, Japan, Australia)"
+  },
+  {
+    "id": "ca_ex_17",
+    "topic": "Joint Military Exercises",
+    "front": "The Joint Military Exercise 'SIMBEX' is conducted between India and which country?",
+    "back": "Singapore"
+  },
+  {
+    "id": "ca_ex_18",
+    "topic": "Joint Military Exercises",
+    "front": "The Joint Military Exercise 'Maitree' is conducted between India and which country?",
+    "back": "Thailand"
+  },
+  {
+    "id": "ca_ex_19",
+    "topic": "Joint Military Exercises",
+    "front": "The Joint Military Exercise 'Garuda Shakti' is conducted between India and which country?",
+    "back": "Indonesia"
+  },
+  {
+    "id": "ca_ex_20",
+    "topic": "Joint Military Exercises",
+    "front": "The Joint Military Exercise 'Al Mohed Al Hindi' is conducted between India and which country?",
+    "back": "Saudi Arabia"
+  },
+  {
+    "id": "ca_ex_21",
+    "topic": "Joint Military Exercises",
+    "front": "The Joint Military Exercise 'Zayed Talwar' is conducted between India and which country?",
+    "back": "UAE"
+  },
+  {
+    "id": "ca_ex_22",
+    "topic": "Joint Military Exercises",
+    "front": "The Joint Military Exercise 'Cyclone' is conducted between India and which country?",
+    "back": "Egypt"
+  },
+  {
+    "id": "ca_ex_23",
+    "topic": "Joint Military Exercises",
+    "front": "The Joint Military Exercise 'Ekuverin' is conducted between India and which country?",
+    "back": "Maldives"
   }
 ],
   mcqs: [
@@ -1412,6 +1676,270 @@ window.caData = {
       "Rank 7"
     ],
     "correct": 2
+  },
+  {
+    "id": "ca_mcq_ex_0",
+    "question": "The Joint Military Exercise 'Surya Kiran' is conducted between India and which country?",
+    "options": [
+      "Nepal",
+      "Bangladesh",
+      "Japan",
+      "Kyrgyzstan"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "ca_mcq_ex_1",
+    "question": "The Joint Military Exercise 'Mitra Shakti' is conducted between India and which country?",
+    "options": [
+      "Saudi Arabia",
+      "Japan",
+      "Sri Lanka",
+      "Australia"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "ca_mcq_ex_2",
+    "question": "The Joint Military Exercise 'Sampriti' is conducted between India and which country?",
+    "options": [
+      "Bangladesh",
+      "Mongolia",
+      "Kyrgyzstan",
+      "Kazakhstan"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "ca_mcq_ex_3",
+    "question": "The Joint Military Exercise 'Vajra Prahar' is conducted between India and which country?",
+    "options": [
+      "USA",
+      "Saudi Arabia",
+      "Japan",
+      "Australia"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "ca_mcq_ex_4",
+    "question": "The Joint Military Exercise 'Yudh Abhyas' is conducted between India and which country?",
+    "options": [
+      "USA",
+      "Saudi Arabia",
+      "Indonesia",
+      "Japan"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "ca_mcq_ex_5",
+    "question": "The Joint Military Exercise 'Varuna (Naval)' is conducted between India and which country?",
+    "options": [
+      "France",
+      "Kazakhstan",
+      "Kyrgyzstan",
+      "Australia"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "ca_mcq_ex_6",
+    "question": "The Joint Military Exercise 'Shakti (Army)' is conducted between India and which country?",
+    "options": [
+      "France",
+      "Uzbekistan",
+      "Saudi Arabia",
+      "Egypt"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "ca_mcq_ex_7",
+    "question": "The Joint Military Exercise 'Dharma Guardian' is conducted between India and which country?",
+    "options": [
+      "Indonesia",
+      "Japan",
+      "Singapore",
+      "Australia"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "ca_mcq_ex_8",
+    "question": "The Joint Military Exercise 'JIMEX' is conducted between India and which country?",
+    "options": [
+      "Australia",
+      "UAE",
+      "Japan",
+      "Kazakhstan"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "ca_mcq_ex_9",
+    "question": "The Joint Military Exercise 'Veer Guardian' is conducted between India and which country?",
+    "options": [
+      "France",
+      "Sri Lanka",
+      "USA",
+      "Japan"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "ca_mcq_ex_10",
+    "question": "The Joint Military Exercise 'Nomadic Elephant' is conducted between India and which country?",
+    "options": [
+      "Bangladesh",
+      "Mongolia",
+      "Indonesia",
+      "Singapore"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "ca_mcq_ex_11",
+    "question": "The Joint Military Exercise 'Dustlik' is conducted between India and which country?",
+    "options": [
+      "Nepal",
+      "Uzbekistan",
+      "Australia",
+      "Mongolia"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "ca_mcq_ex_12",
+    "question": "The Joint Military Exercise 'Kazind' is conducted between India and which country?",
+    "options": [
+      "Kazakhstan",
+      "Japan",
+      "Maldives",
+      "Singapore"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "ca_mcq_ex_13",
+    "question": "The Joint Military Exercise 'Khanjar' is conducted between India and which country?",
+    "options": [
+      "Saudi Arabia",
+      "Japan",
+      "Kyrgyzstan",
+      "Nepal"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "ca_mcq_ex_14",
+    "question": "The Joint Military Exercise 'Harimau Shakti' is conducted between India and which country?",
+    "options": [
+      "Uzbekistan",
+      "Japan",
+      "Malaysia",
+      "Indonesia"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "ca_mcq_ex_15",
+    "question": "The Joint Military Exercise 'Austra Hind' is conducted between India and which country?",
+    "options": [
+      "Australia",
+      "Uzbekistan",
+      "Malaysia",
+      "Kyrgyzstan"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "ca_mcq_ex_16",
+    "question": "The Joint Military Exercise 'Malabar' is conducted between India and which country?",
+    "options": [
+      "Maldives",
+      "Kazakhstan",
+      "Quad (India, USA, Japan, Australia)",
+      "Malaysia"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "ca_mcq_ex_17",
+    "question": "The Joint Military Exercise 'SIMBEX' is conducted between India and which country?",
+    "options": [
+      "Singapore",
+      "UAE",
+      "Maldives",
+      "Egypt"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "ca_mcq_ex_18",
+    "question": "The Joint Military Exercise 'Maitree' is conducted between India and which country?",
+    "options": [
+      "Nepal",
+      "Thailand",
+      "France",
+      "Singapore"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "ca_mcq_ex_19",
+    "question": "The Joint Military Exercise 'Garuda Shakti' is conducted between India and which country?",
+    "options": [
+      "Egypt",
+      "Nepal",
+      "USA",
+      "Indonesia"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "ca_mcq_ex_20",
+    "question": "The Joint Military Exercise 'Al Mohed Al Hindi' is conducted between India and which country?",
+    "options": [
+      "Singapore",
+      "UAE",
+      "Saudi Arabia",
+      "Maldives"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "ca_mcq_ex_21",
+    "question": "The Joint Military Exercise 'Zayed Talwar' is conducted between India and which country?",
+    "options": [
+      "Singapore",
+      "Maldives",
+      "Sri Lanka",
+      "UAE"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "ca_mcq_ex_22",
+    "question": "The Joint Military Exercise 'Cyclone' is conducted between India and which country?",
+    "options": [
+      "USA",
+      "Egypt",
+      "Mongolia",
+      "Malaysia"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "ca_mcq_ex_23",
+    "question": "The Joint Military Exercise 'Ekuverin' is conducted between India and which country?",
+    "options": [
+      "UAE",
+      "Maldives",
+      "Indonesia",
+      "Australia"
+    ],
+    "correct": 1
   }
 ]
 };
