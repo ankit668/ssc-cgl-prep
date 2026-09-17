@@ -9,7 +9,7 @@ window.getFatmanData = function() {
     if (window.currentFatmanSubject === "economics") return window.fatmanEconomics;
     if (window.currentFatmanSubject === "science") return window.fatmanScience;
     if (window.currentFatmanSubject === "environment") return window.fatmanEnvironment;
-    if (window.currentFatmanSubject === "current_affairs") return window.fatmanCurrentAffairs;
+    if (window.currentFatmanSubject === "current_affairs") return window.caData;
     return window.fatmanGeography;
 };
 window.switchFatmanSubject = function(subject) {
