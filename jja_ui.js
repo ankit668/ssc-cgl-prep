@@ -636,6 +636,7 @@ Yours faithfully,<br>
 
     // ── RAJBHASHA MCQ TAB ─────────────────────────────────────
     let rbScore = 0, rbAnswered = 0, rbTotal = 0, rbCurrentBank = 'All';
+    let rbHideOptions = false; // Toggle for Hard Mode
 
     function renderRajbhashaQuiz(container) {
         const allQ = (window.jjaData && window.jjaData.rajbhashaQuiz) ? window.jjaData.rajbhashaQuiz : [];
@@ -655,10 +656,14 @@ Yours faithfully,<br>
             <button onclick="rbFilter('QB-III: Possible Extras',this)" class="jja-reveal-btn" style="margin:0;">🔥 Possible Extras (20)</button>
         </div>
 
-        <div style="background:#1E293B;padding:10px 16px;border-radius:8px;margin-bottom:14px;display:flex;gap:20px;align-items:center;flex-wrap:wrap;">
-            <span style="color:#94A3B8;">Score: <b id="rb-score" style="color:#10B981;font-size:1.2em;">0</b> / <span id="rb-total">${rbTotal}</span></b></span>
-            <span style="color:#94A3B8;">Answered: <b id="rb-answered" style="color:#60A5FA;">0</b></span>
-            <button onclick="rbReset()" style="margin-left:auto;padding:6px 14px;background:#EF4444;color:#fff;border:none;border-radius:6px;cursor:pointer;font-size:0.85em;">🔄 Reset All</button>
+        <div style="background:#1E293B;padding:10px 16px;border-radius:8px;margin-bottom:14px;display:flex;gap:15px;align-items:center;flex-wrap:wrap;">
+            <span style="color:#94A3B8;display:${rbHideOptions ? 'none' : 'inline'};">Score: <b id="rb-score" style="color:#10B981;font-size:1.2em;">0</b> / <span id="rb-total">${rbTotal}</span></b></span>
+            <span style="color:#94A3B8;display:${rbHideOptions ? 'none' : 'inline'};">Answered: <b id="rb-answered" style="color:#60A5FA;">0</b></span>
+            
+            <button onclick="rbToggleMode()" style="margin-left:${rbHideOptions ? '0' : 'auto'};padding:6px 14px;background:#8B5CF6;color:#fff;border:none;border-radius:6px;cursor:pointer;font-size:0.85em;font-weight:bold;">
+                ${rbHideOptions ? '🎴 Mode: Hard (No Options)' : '🔠 Mode: Easy (MCQ)'}
+            </button>
+            <button onclick="rbReset()" style="padding:6px 14px;background:#EF4444;color:#fff;border:none;border-radius:6px;cursor:pointer;font-size:0.85em;">🔄 Reset All</button>
         </div>
 
         <div id="rb-quiz-container">
@@ -669,7 +674,8 @@ Yours faithfully,<br>
                     <span style="color:#64748B;font-size:0.8em;">Q${i+1}</span>
                 </div>
                 <p style="color:#E2E8F0;font-size:0.95em;margin:0 0 12px 0;line-height:1.6;">${q.question}</p>
-                <div style="display:flex;flex-direction:column;gap:7px;" id="rb-opts-${i}">
+                
+                <div style="display:${rbHideOptions ? 'none' : 'flex'};flex-direction:column;gap:7px;" id="rb-opts-${i}">
                     ${q.options.map((opt, j) => `
                         <button onclick="rbAnswer(${i},${j},${q.correct})"
                             id="rb-opt-${i}-${j}"
@@ -678,6 +684,11 @@ Yours faithfully,<br>
                         </button>
                     `).join('')}
                 </div>
+                
+                <div id="rb-recall-${i}" style="display:${rbHideOptions ? 'block' : 'none'};">
+                    <button onclick="rbRevealRecall(${i}, ${q.correct})" style="padding:8px 16px;background:#3B82F6;color:#fff;border:none;border-radius:6px;cursor:pointer;font-size:0.9em;">👁️ Show Answer</button>
+                </div>
+
                 <div id="rb-result-${i}" style="display:none;margin-top:10px;padding:8px 12px;border-radius:6px;font-size:0.88em;"></div>
             </div>
         `).join('')}
@@ -685,7 +696,38 @@ Yours faithfully,<br>
         `;
 
         rbScore = 0; rbAnswered = 0;
+        // Re-apply filter if needed
+        if(rbCurrentBank !== 'All') {
+            const btn = document.querySelector(`.jja-reveal-btn[onclick*="${rbCurrentBank}"]`);
+            rbFilter(rbCurrentBank, btn);
+        }
     }
+
+    window.rbToggleMode = function() {
+        rbHideOptions = !rbHideOptions;
+        const container = document.getElementById('jja-content');
+        if (container) renderRajbhashaQuiz(container);
+    };
+
+    window.rbRevealRecall = function(qIdx, correct) {
+        const result = document.getElementById('rb-result-' + qIdx);
+        if (result) {
+            const allQ = window.jjaData && window.jjaData.rajbhashaQuiz ? window.jjaData.rajbhashaQuiz : [];
+            const explanation = (allQ[qIdx] && allQ[qIdx].explanation) ? allQ[qIdx].explanation : '';
+            const correctText = allQ[qIdx].options[correct];
+            
+            result.style.display = 'block';
+            result.style.background = '#064E3B';
+            result.style.color = '#10B981';
+            result.innerHTML = '✅ <b>सही उत्तर:</b> ' + correctText + '<br><span style="color:#A7F3D0;font-size:0.9em;display:block;margin-top:6px;">💡 <b>Explanation:</b> ' + explanation + '</span>';
+            
+            const btnDiv = document.getElementById('rb-recall-' + qIdx);
+            if(btnDiv) btnDiv.style.display = 'none';
+            
+            const qDiv = document.getElementById('rb-q-' + qIdx);
+            if (qDiv) qDiv.style.borderColor = '#10B981';
+        }
+    };
 
     window.rbFilter = function(bank, btn) {
         rbCurrentBank = bank;
