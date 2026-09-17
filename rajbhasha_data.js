@@ -1,5 +1,5 @@
 // Rajbhasha MCQ Data — IIT Tirupati Translation Competition
-// Question Bank I (Vocabulary + Spelling) + Question Bank II (Noting & Sentence Translation)
+// Question Bank I (Vocabulary + Spelling) + Question Bank II (Noting & Sentence Translation) + Extras
 
 window.rajbhashaQuiz = [
   {
@@ -1171,6 +1171,266 @@ window.rajbhashaQuiz = [
     ],
     "correct": 1,
     "explanation": "'इसके साथ प्रस्तुत है' is the formal way to say something is attached and submitted."
+  },
+  {
+    "id": "rb_ex_1",
+    "bank": "QB-III: Possible Extras",
+    "question": "अंग्रेजी शब्द 'Corrigendum' का सही राजभाषा अनुवाद क्या है?",
+    "options": [
+      "संशोधन",
+      "शुद्धिपत्र",
+      "परिशिष्ट",
+      "परिपत्र"
+    ],
+    "correct": 1,
+    "explanation": "'शुद्धिपत्र' (Corrigendum) is issued to correct an error in a previously issued document/gazette."
+  },
+  {
+    "id": "rb_ex_2",
+    "bank": "QB-III: Possible Extras",
+    "question": "'Minutes' (of a meeting) के लिए आधिकारिक हिंदी पद क्या है?",
+    "options": [
+      "कार्यवृत्त",
+      "कार्यवाही",
+      "टिप्पणी",
+      "विवरण"
+    ],
+    "correct": 0,
+    "explanation": "In government meetings, the official minutes recorded are called 'कार्यवृत्त'."
+  },
+  {
+    "id": "rb_ex_3",
+    "bank": "QB-III: Possible Extras",
+    "question": "'Reimbursement' का सही प्रशासनिक हिंदी अनुवाद क्या होगा?",
+    "options": [
+      "भुगतान",
+      "अग्रिम",
+      "प्रतिपूर्ति",
+      "क्षतिपूर्ति"
+    ],
+    "correct": 2,
+    "explanation": "'प्रतिपूर्ति' means reimbursement (paying back money spent on official duty). 'क्षतिपूर्ति' means compensation."
+  },
+  {
+    "id": "rb_ex_4",
+    "bank": "QB-III: Possible Extras",
+    "question": "'Discrepancy' के लिए मानक हिंदी शब्द कौन-सा है?",
+    "options": [
+      "भेदभाव",
+      "अंतर",
+      "विसंगति",
+      "त्रुटि"
+    ],
+    "correct": 2,
+    "explanation": "When documents or accounts don't match, the official term for the discrepancy is 'विसंगति'."
+  },
+  {
+    "id": "rb_ex_5",
+    "bank": "QB-III: Possible Extras",
+    "question": "'Seniority' शब्द का राजभाषा में क्या अनुवाद होता है?",
+    "options": [
+      "वरिष्ठता",
+      "आयु",
+      "अनुभव",
+      "श्रेष्ठता"
+    ],
+    "correct": 0,
+    "explanation": "'वरिष्ठता' refers strictly to Seniority in service, which dictates promotions."
+  },
+  {
+    "id": "rb_ex_6",
+    "bank": "QB-III: Possible Extras",
+    "question": "'Suspension' का केंद्र सरकार के कार्यालयों में मानक अनुवाद क्या है?",
+    "options": [
+      "बर्खास्तगी",
+      "निलंबन",
+      "निष्कासन",
+      "समाप्ति"
+    ],
+    "correct": 1,
+    "explanation": "'निलंबन' is suspension (temporary), whereas 'बर्खास्तगी' is dismissal (permanent termination)."
+  },
+  {
+    "id": "rb_ex_7",
+    "bank": "QB-III: Possible Extras",
+    "question": "'Increment' के लिए आधिकारिक हिंदी शब्द क्या है?",
+    "options": [
+      "वेतनवृद्धि",
+      "पदोन्नति",
+      "बोनस",
+      "भत्ता"
+    ],
+    "correct": 0,
+    "explanation": "'वेतनवृद्धि' is the annual increment added to an employee's basic pay."
+  },
+  {
+    "id": "rb_ex_8",
+    "bank": "QB-III: Possible Extras",
+    "question": "'Jurisdiction' पद का सही हिंदी अनुवाद कौन-सा है?",
+    "options": [
+      "न्यायालय",
+      "संविधान",
+      "अधिकार-क्षेत्र",
+      "सीमा"
+    ],
+    "correct": 2,
+    "explanation": "'अधिकार-क्षेत्र' defines the legal or administrative jurisdiction of an officer or court."
+  },
+  {
+    "id": "rb_ex_9",
+    "bank": "QB-III: Possible Extras",
+    "question": "'Ad-hoc' शब्द का सही हिंदी पर्याय क्या है?",
+    "options": [
+      "तदर्थ",
+      "पदेन",
+      "अस्थायी",
+      "अनुबंध"
+    ],
+    "correct": 0,
+    "explanation": "An 'Ad-hoc' appointment is specifically translated as 'तदर्थ' नियुक्ति."
+  },
+  {
+    "id": "rb_ex_10",
+    "bank": "QB-III: Possible Extras",
+    "question": "'Acting' (e.g., Acting Director) का सही हिंदी अनुवाद क्या है?",
+    "options": [
+      "नाटक",
+      "अतिरिक्त",
+      "कार्यकारी",
+      "प्रभारी"
+    ],
+    "correct": 2,
+    "explanation": "Someone holding a post temporarily is the 'कार्यकारी' (Acting) officer. 'प्रभारी' means In-charge."
+  },
+  {
+    "id": "rb_ex_11",
+    "bank": "QB-III: Possible Extras",
+    "question": "'Submitted for signature' का मानक अनुवाद क्या है?",
+    "options": [
+      "साइन के लिए भेजा",
+      "हस्ताक्षरार्थ प्रस्तुत",
+      "दस्तखत हेतु",
+      "अनुमोदनार्थ प्रस्तुत"
+    ],
+    "correct": 1,
+    "explanation": "When a file is put up purely for signing a finalized document, 'हस्ताक्षरार्थ प्रस्तुत' is used."
+  },
+  {
+    "id": "rb_ex_12",
+    "bank": "QB-III: Possible Extras",
+    "question": "'May be kept pending' के लिए उपयुक्त हिंदी टिप्पणी क्या है?",
+    "options": [
+      "रोक कर रखें",
+      "लंबित रखा जाए",
+      "स्थगित करें",
+      "बाद में देखें"
+    ],
+    "correct": 1,
+    "explanation": "'लंबित' is the exact official term for pending matters."
+  },
+  {
+    "id": "rb_ex_13",
+    "bank": "QB-III: Possible Extras",
+    "question": "'With reference to' का मानक प्रशासनिक अनुवाद क्या है?",
+    "options": [
+      "के संबंध में",
+      "के संदर्भ में",
+      "के विषय में",
+      "के अनुसार"
+    ],
+    "correct": 1,
+    "explanation": "While 'संबंध' means relation, 'संदर्भ' specifically means reference. 'के संदर्भ में' is the standard opening."
+  },
+  {
+    "id": "rb_ex_14",
+    "bank": "QB-III: Possible Extras",
+    "question": "'Please discuss' के लिए संक्षिप्त टिप्पणी वाक्य क्या होगा?",
+    "options": [
+      "कृपया चर्चा करें",
+      "कृपया बात करें",
+      "कृपया मिलें",
+      "मीटिंग करें"
+    ],
+    "correct": 0,
+    "explanation": "While 'Please speak' translates to 'कृपया बात करें', 'Please discuss' formally translates to 'कृपया चर्चा करें'."
+  },
+  {
+    "id": "rb_ex_15",
+    "bank": "QB-III: Possible Extras",
+    "question": "'Draft is approved' का सही राजभाषा अनुवाद क्या है?",
+    "options": [
+      "प्रारूप पास है",
+      "प्रारूप अनुमोदित है",
+      "ड्राफ्ट स्वीकार है",
+      "पत्र मान लिया"
+    ],
+    "correct": 1,
+    "explanation": "'प्रारूप' = Draft, and 'अनुमोदित' = Approved."
+  },
+  {
+    "id": "rb_ex_16",
+    "bank": "QB-III: Possible Extras",
+    "question": "'Minutes' (कार्यवृत्त) के लिए शुद्ध हिंदी वर्तनी का चयन कीजिए:",
+    "options": [
+      "कार्यवृत",
+      "कार्यवृत्त",
+      "कार्यव्रत",
+      "कार्यवरित"
+    ],
+    "correct": 1,
+    "explanation": "Correct spelling: 'कार्यवृत्त'. It requires a half 'त' joined to a full 'त' (त्त) and 'ृ' (ri) on व."
+  },
+  {
+    "id": "rb_ex_17",
+    "bank": "QB-III: Possible Extras",
+    "question": "'Reimbursement' (प्रतिपूर्ति) के लिए शुद्ध वर्तनी वाला विकल्प चुनिए:",
+    "options": [
+      "प्रतीपूर्ति",
+      "प्रतिपूर्ती",
+      "प्रतिपूर्ति",
+      "प्रतीपूर्ती"
+    ],
+    "correct": 2,
+    "explanation": "Correct spelling: 'प्रतिपूर्ति'. Both 'प्र' and 'त' have small 'इ', 'प' has large 'ऊ', and 'त' ends with small 'इ' + reph."
+  },
+  {
+    "id": "rb_ex_18",
+    "bank": "QB-III: Possible Extras",
+    "question": "'Corrigendum' (शुद्धिपत्र) का सही वर्तनी रूप कौन-सा है?",
+    "options": [
+      "सुद्धिपत्र",
+      "शुद्धीपत्र",
+      "शुद्धिपत्र",
+      "शूद्धिपत्र"
+    ],
+    "correct": 2,
+    "explanation": "Correct spelling: 'शुद्धिपत्र'. 'श' has small 'उ' and 'द्ध' has small 'इ' (ि)."
+  },
+  {
+    "id": "rb_ex_19",
+    "bank": "QB-III: Possible Extras",
+    "question": "'Suspension' (निलंबन) के लिए शुद्ध वर्तनी का चयन कीजिए:",
+    "options": [
+      "निलंबन",
+      "नीलंबन",
+      "निलम्बन",
+      "नीलम्बन"
+    ],
+    "correct": 0,
+    "explanation": "Both 'निलंबन' and 'निलम्बन' are acceptable, but 'निलंबन' (with anusvar) is the preferred modern standard spelling."
+  },
+  {
+    "id": "rb_ex_20",
+    "bank": "QB-III: Possible Extras",
+    "question": "'Seniority' (वरिष्ठता) के लिए सही वर्तनी वाला रूप चुनिए:",
+    "options": [
+      "वरिष्ठता",
+      "वरीष्ठता",
+      "वरिष्टता",
+      "वरीष्टता"
+    ],
+    "correct": 0,
+    "explanation": "Correct spelling: 'वरिष्ठता'. It uses small 'इ' on र and uses 'ष्ठ' (shtha), not 'ष्ट' (shta)."
   }
 ];
 

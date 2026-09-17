@@ -644,7 +644,7 @@ Yours faithfully,<br>
         container.innerHTML = `
         <div style="background:linear-gradient(135deg,#1E3A5F,#0F172A);border-left:4px solid #F59E0B;padding:14px 18px;border-radius:10px;margin-bottom:16px;">
             <b style="color:#F59E0B;font-size:1.1em;">🇮🇳 राजभाषा MCQ — IIT Tirupati Translation Competition</b><br>
-            <span style="color:#94A3B8;font-size:0.85em;">Both Question Banks (QB-I: Vocabulary & Spelling | QB-II: Noting & Sentence Translation) — ${rbTotal} Questions Total</span>
+            <span style="color:#94A3B8;font-size:0.85em;">Official Banks (QB-I, QB-II) + Possible Extras — ${rbTotal} Questions Total</span>
         </div>
 
         <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px;">
@@ -652,6 +652,7 @@ Yours faithfully,<br>
             <button onclick="rbFilter('QB-I: Vocabulary',this)" class="jja-reveal-btn" style="margin:0;">📖 QB-I: Vocabulary (20)</button>
             <button onclick="rbFilter('QB-I: Spelling',this)" class="jja-reveal-btn" style="margin:0;">✍️ QB-I: Spelling (20)</button>
             <button onclick="rbFilter('QB-II: Noting',this)" class="jja-reveal-btn" style="margin:0;">📝 QB-II: Noting (50)</button>
+            <button onclick="rbFilter('QB-III: Possible Extras',this)" class="jja-reveal-btn" style="margin:0;">🔥 Possible Extras (20)</button>
         </div>
 
         <div style="background:#1E293B;padding:10px 16px;border-radius:8px;margin-bottom:14px;display:flex;gap:20px;align-items:center;flex-wrap:wrap;">
