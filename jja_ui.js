@@ -717,15 +717,20 @@ Yours faithfully,<br>
             else if (j === chosen && !isCorrect) { btn.style.background='#450A0A'; btn.style.borderColor='#EF4444'; btn.style.color='#EF4444'; }
         }
 
-        // Show result
+        // Show result and explanation
         const result = document.getElementById('rb-result-' + qIdx);
         if (result) {
             result.style.display = 'block';
             result.style.background = isCorrect ? '#064E3B' : '#450A0A';
             result.style.color = isCorrect ? '#10B981' : '#EF4444';
+            
+            // Get explanation from data
+            const allQ = window.jjaData && window.jjaData.rajbhashaQuiz ? window.jjaData.rajbhashaQuiz : [];
+            const explanation = (allQ[qIdx] && allQ[qIdx].explanation) ? allQ[qIdx].explanation : '';
+            
             result.innerHTML = isCorrect
-                ? '✅ <b>सही!</b> Correct answer.'
-                : '❌ <b>गलत।</b> सही उत्तर: <b>' + ['A','B','C','D'][correct] + ') </b>';
+                ? '✅ <b>सही!</b> Correct answer.<br><span style="color:#A7F3D0;font-size:0.9em;display:block;margin-top:6px;">💡 <b>Explanation:</b> ' + explanation + '</span>'
+                : '❌ <b>गलत।</b> सही उत्तर: <b>' + ['A','B','C','D'][correct] + ') </b><br><span style="color:#FECACA;font-size:0.9em;display:block;margin-top:6px;">💡 <b>Explanation:</b> ' + explanation + '</span>';
         }
 
         // Color question border
