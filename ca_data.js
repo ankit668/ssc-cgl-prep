@@ -389,9 +389,109 @@ window.caData = {
     "category": "Major Awards",
     "position": "International Booker Prize 2024",
     "name": "Jenny Erpenbeck (Kairos)"
+  },
+  {
+    "category": "Important Books & Authors",
+    "position": "Why Bharat Matters",
+    "name": "S. Jaishankar"
+  },
+  {
+    "category": "Important Books & Authors",
+    "position": "Knife: Meditations After an Attempted Murder",
+    "name": "Salman Rushdie"
+  },
+  {
+    "category": "Important Books & Authors",
+    "position": "Four Stars of Destiny",
+    "name": "Gen. MM Naravane"
+  },
+  {
+    "category": "Important Books & Authors",
+    "position": "Gandhi: A Life in Three Campaigns",
+    "name": "M.J. Akbar"
+  },
+  {
+    "category": "Important Books & Authors",
+    "position": "Smoke and Ashes",
+    "name": "Amitav Ghosh"
+  },
+  {
+    "category": "Important Books & Authors",
+    "position": "The Golden Years",
+    "name": "Ruskin Bond"
+  },
+  {
+    "category": "Important Books & Authors",
+    "position": "Welcome to Paradise",
+    "name": "Twinkle Khanna"
+  },
+  {
+    "category": "Important Books & Authors",
+    "position": "Romancing Target",
+    "name": "Nidhi Dalmia"
+  },
+  {
+    "category": "Government Schemes & Budget",
+    "position": "PM Surya Ghar Muft Bijli Yojana",
+    "name": "Provides up to 300 units of free electricity per month to 1 crore households"
+  },
+  {
+    "category": "Government Schemes & Budget",
+    "position": "Lakhpati Didi Scheme",
+    "name": "Target expanded to assist 3 crore women in self-help groups to earn \u20b91 lakh+ annually"
+  },
+  {
+    "category": "Government Schemes & Budget",
+    "position": "PM JANMAN Yojana",
+    "name": "\u20b924,000 crore scheme focused on the development of Particularly Vulnerable Tribal Groups (PVTGs)"
+  },
+  {
+    "category": "Government Schemes & Budget",
+    "position": "PM Vishwakarma Yojana",
+    "name": "Provides collateral-free loans and skill training to artisans in 18 traditional trades"
+  },
+  {
+    "category": "Government Schemes & Budget",
+    "position": "Mudra Yojana (Budget Update)",
+    "name": "Loan limit for entrepreneurs successfully repaying previous loans increased from \u20b910 lakh to \u20b920 lakh"
+  },
+  {
+    "category": "Government Schemes & Budget",
+    "position": "Ayushman Bharat Extension",
+    "name": "Free health insurance coverage extended to all ASHA and Anganwadi workers"
+  },
+  {
+    "category": "Important Days & Themes",
+    "position": "World Earth Day (April 22)",
+    "name": "Planet vs. Plastics"
+  },
+  {
+    "category": "Important Days & Themes",
+    "position": "World Environment Day (June 5)",
+    "name": "Land Restoration, Desertification and Drought Resilience"
+  },
+  {
+    "category": "Important Days & Themes",
+    "position": "International Day of Yoga (June 21)",
+    "name": "Yoga for Self and Society"
+  },
+  {
+    "category": "Important Days & Themes",
+    "position": "World Water Day (March 22)",
+    "name": "Water for Peace"
+  },
+  {
+    "category": "Important Days & Themes",
+    "position": "National Science Day (Feb 28)",
+    "name": "Indigenous Technologies for Viksit Bharat"
+  },
+  {
+    "category": "Important Days & Themes",
+    "position": "World Wetlands Day (Feb 2)",
+    "name": "Wetlands and Human Wellbeing"
   }
 ],
-  notes: "<h2 style='color:#FF4B2B; border-bottom:2px solid #FF4B2B; padding-bottom:10px;'>SSC CGL Current Affairs (2025-26)</h2><p style='color:#94A3B8; font-size:0.9em; margin-bottom:20px;'><i>100% verified and corrected dataset specifically curated for SSC CGL.</i></p><h3 style='color:#FCD34D; margin-top:20px;'>National Appointments (High Yield for SSC)</h3><table style='width:100%; border-collapse: collapse; margin-top:10px;'><tr style='background:#334155; color:#94A3B8;'><th style='padding:10px; border:1px solid #475569; text-align:left;'>Position / Office</th><th style='padding:10px; border:1px solid #475569; text-align:left;'>Appointee</th></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Cabinet Secretary</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>T. V. Somanathan</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Home Secretary</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Govind Mohan</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Foreign Secretary</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Vikram Misri</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Defense Secretary</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Rajesh Kumar Singh</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Finance Secretary</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Tuhin Kanta Pandey</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Principal Secretary to PM</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>P. K. Mishra</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Chief Justice of India</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Justice Sanjiv Khanna (51st)</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Attorney General of India</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>R. Venkataramani (16th)</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Solicitor General of India</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Tushar Mehta</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Chief Election Commissioner</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Rajiv Kumar (25th)</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Chairman, 16th Finance Commission</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Arvind Panagariya</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>RBI Governor</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Shaktikanta Das (25th)</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>SBI Chairman</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Challa Sreenivasulu Setty</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>NITI Aayog Vice-Chairman</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Suman Bery</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>NITI Aayog CEO</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>B.V.R. Subrahmanyam</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Chief of Army Staff</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Gen. Upendra Dwivedi (30th)</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Chief of Naval Staff</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Adm. Dinesh K Tripathi (26th)</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Chief of Air Staff</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Air Chief Marshal Amar Preet Singh</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Chief of Defence Staff (CDS)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Gen. Anil Chauhan (2nd)</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>ISRO Chairman</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>S. Somanath (10th)</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>DRDO Chairman</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Dr. Samir V Kamat</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>UPSC Chairperson</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Preeti Sudan</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>RAW Chief</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Ravi Sinha</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>IB Director</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Tapan Deka</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>SEBI Chairperson</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Madhabi Puri Buch</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Chief Information Commissioner (CIC)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Heeralal Samariya</td></tr></table><h3 style='color:#FCD34D; margin-top:20px;'>Global Indices (India's Rank)</h3><table style='width:100%; border-collapse: collapse; margin-top:10px;'><tr style='background:#334155; color:#94A3B8;'><th style='padding:10px; border:1px solid #475569; text-align:left;'>Index / Report</th><th style='padding:10px; border:1px solid #475569; text-align:left;'>India's Rank</th></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Asia Power Index</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Rank 3</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Global Firepower Index</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Rank 4</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Climate Change Performance Index</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Rank 7</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Global Terrorism Index</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Rank 13</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>World Press Freedom Index</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Rank 159</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>World Happiness Report</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Rank 126</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Global Hunger Index</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Rank 111</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Global Innovation Index</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Rank 39</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Global Gender Gap Index</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Rank 129</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Henley Passport Index</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Rank 82</td></tr></table><h3 style='color:#FCD34D; margin-top:20px;'>Joint Military Exercises</h3><table style='width:100%; border-collapse: collapse; margin-top:10px;'><tr style='background:#334155; color:#94A3B8;'><th style='padding:10px; border:1px solid #475569; text-align:left;'>Exercise Name</th><th style='padding:10px; border:1px solid #475569; text-align:left;'>Partner Country</th></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Surya Kiran</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Nepal</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Mitra Shakti</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Sri Lanka</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Sampriti</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Bangladesh</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Vajra Prahar</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>USA</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Yudh Abhyas</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>USA</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Varuna (Naval)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>France</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Shakti (Army)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>France</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Dharma Guardian</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Japan</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>JIMEX</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Japan</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Dustlik</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Uzbekistan</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Kazind</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Kazakhstan</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Harimau Shakti</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Malaysia</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Malabar</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Quad (India, USA, Japan, Australia)</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>SIMBEX</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Singapore</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Maitree</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Thailand</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Garuda Shakti</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Indonesia</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Zayed Talwar</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>UAE</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Cyclone</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Egypt</td></tr></table><h3 style='color:#FCD34D; margin-top:20px;'>Sports: Tennis Grand Slams</h3><table style='width:100%; border-collapse: collapse; margin-top:10px;'><tr style='background:#334155; color:#94A3B8;'><th style='padding:10px; border:1px solid #475569; text-align:left;'>Tournament / Event</th><th style='padding:10px; border:1px solid #475569; text-align:left;'>Winner</th></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Australian Open (Men's Singles)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Jannik Sinner</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Australian Open (Women's Singles)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Aryna Sabalenka</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>French Open (Men's Singles)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Carlos Alcaraz</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>French Open (Women's Singles)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Iga Swiatek</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Wimbledon (Men's Singles)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Carlos Alcaraz</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Wimbledon (Women's Singles)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Barbora Krejcikova</td></tr></table><h3 style='color:#FCD34D; margin-top:20px;'>Sports: Cricket</h3><table style='width:100%; border-collapse: collapse; margin-top:10px;'><tr style='background:#334155; color:#94A3B8;'><th style='padding:10px; border:1px solid #475569; text-align:left;'>Tournament / Event</th><th style='padding:10px; border:1px solid #475569; text-align:left;'>Winner</th></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>ICC T20 World Cup 2024</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>India (beat South Africa)</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>IPL 2024 Winner</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Kolkata Knight Riders (KKR)</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Ranji Trophy 2023-24</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Mumbai</td></tr></table><h3 style='color:#FCD34D; margin-top:20px;'>Sports: Football</h3><table style='width:100%; border-collapse: collapse; margin-top:10px;'><tr style='background:#334155; color:#94A3B8;'><th style='padding:10px; border:1px solid #475569; text-align:left;'>Tournament / Event</th><th style='padding:10px; border:1px solid #475569; text-align:left;'>Winner</th></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Euro Cup 2024</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Spain (beat England)</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Copa America 2024</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Argentina (beat Colombia)</td></tr></table><h3 style='color:#FCD34D; margin-top:20px;'>Sports: Badminton</h3><table style='width:100%; border-collapse: collapse; margin-top:10px;'><tr style='background:#334155; color:#94A3B8;'><th style='padding:10px; border:1px solid #475569; text-align:left;'>Tournament / Event</th><th style='padding:10px; border:1px solid #475569; text-align:left;'>Winner</th></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Thomas Cup (Men's)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>China</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Uber Cup (Women's)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>China</td></tr></table><h3 style='color:#FCD34D; margin-top:20px;'>Major Awards</h3><table style='width:100%; border-collapse: collapse; margin-top:10px;'><tr style='background:#334155; color:#94A3B8;'><th style='padding:10px; border:1px solid #475569; text-align:left;'>Award Name</th><th style='padding:10px; border:1px solid #475569; text-align:left;'>Recipient(s)</th></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Bharat Ratna 2024</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Karpoori Thakur, LK Advani, MS Swaminathan, PV Narasimha Rao, Charan Singh</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>96th Oscars (Best Picture)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Oppenheimer</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>96th Oscars (Best Actor)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Cillian Murphy</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>96th Oscars (Best Actress)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Emma Stone</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Nobel Prize in Literature</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Jon Fosse</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Nobel Peace Prize</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Narges Mohammadi</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Saraswati Samman 2023</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Prabha Varma (Roudra Sathwikam)</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Vyas Samman 2023</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Pushpa Bharati (Yaadein, Yaadein aur Yaadein)</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Jnanpith Award 2023 (58th)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Gulzar and Jagadguru Rambhadracharya</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>Booker Prize 2023</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Paul Lynch (Prophet Song)</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0;'>International Booker Prize 2024</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold;'>Jenny Erpenbeck (Kairos)</td></tr></table>",
+  notes: "<h2 style='color:#FF4B2B; border-bottom:2px solid #FF4B2B; padding-bottom:10px;'>SSC CGL Current Affairs (2025-26)</h2><p style='color:#94A3B8; font-size:0.9em; margin-bottom:20px;'><i>100% verified and corrected dataset specifically curated for SSC CGL.</i></p><h3 style='color:#FCD34D; margin-top:20px;'>National Appointments (High Yield for SSC)</h3><table style='width:100%; border-collapse: collapse; margin-top:10px;'><tr style='background:#334155; color:#94A3B8;'><th style='padding:10px; border:1px solid #475569; text-align:left;'>Position / Office</th><th style='padding:10px; border:1px solid #475569; text-align:left;'>Appointee</th></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Cabinet Secretary</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>T. V. Somanathan</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Home Secretary</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Govind Mohan</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Foreign Secretary</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Vikram Misri</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Defense Secretary</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Rajesh Kumar Singh</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Finance Secretary</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Tuhin Kanta Pandey</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Principal Secretary to PM</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>P. K. Mishra</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Chief Justice of India</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Justice Sanjiv Khanna (51st)</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Attorney General of India</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>R. Venkataramani (16th)</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Solicitor General of India</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Tushar Mehta</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Chief Election Commissioner</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Rajiv Kumar (25th)</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Chairman, 16th Finance Commission</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Arvind Panagariya</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>RBI Governor</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Shaktikanta Das (25th)</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>SBI Chairman</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Challa Sreenivasulu Setty</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>NITI Aayog Vice-Chairman</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Suman Bery</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>NITI Aayog CEO</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>B.V.R. Subrahmanyam</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Chief of Army Staff</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Gen. Upendra Dwivedi (30th)</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Chief of Naval Staff</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Adm. Dinesh K Tripathi (26th)</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Chief of Air Staff</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Air Chief Marshal Amar Preet Singh</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Chief of Defence Staff (CDS)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Gen. Anil Chauhan (2nd)</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>ISRO Chairman</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>S. Somanath (10th)</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>DRDO Chairman</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Dr. Samir V Kamat</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>UPSC Chairperson</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Preeti Sudan</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>RAW Chief</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Ravi Sinha</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>IB Director</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Tapan Deka</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>SEBI Chairperson</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Madhabi Puri Buch</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Chief Information Commissioner (CIC)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Heeralal Samariya</td></tr></table><h3 style='color:#FCD34D; margin-top:20px;'>Global Indices (India's Rank)</h3><table style='width:100%; border-collapse: collapse; margin-top:10px;'><tr style='background:#334155; color:#94A3B8;'><th style='padding:10px; border:1px solid #475569; text-align:left;'>Index / Report</th><th style='padding:10px; border:1px solid #475569; text-align:left;'>India's Rank</th></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Asia Power Index</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Rank 3</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Global Firepower Index</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Rank 4</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Climate Change Performance Index</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Rank 7</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Global Terrorism Index</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Rank 13</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>World Press Freedom Index</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Rank 159</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>World Happiness Report</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Rank 126</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Global Hunger Index</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Rank 111</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Global Innovation Index</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Rank 39</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Global Gender Gap Index</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Rank 129</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Henley Passport Index</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Rank 82</td></tr></table><h3 style='color:#FCD34D; margin-top:20px;'>Joint Military Exercises</h3><table style='width:100%; border-collapse: collapse; margin-top:10px;'><tr style='background:#334155; color:#94A3B8;'><th style='padding:10px; border:1px solid #475569; text-align:left;'>Exercise Name</th><th style='padding:10px; border:1px solid #475569; text-align:left;'>Partner Country</th></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Surya Kiran</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Nepal</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Mitra Shakti</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Sri Lanka</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Sampriti</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Bangladesh</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Vajra Prahar</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>USA</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Yudh Abhyas</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>USA</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Varuna (Naval)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>France</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Shakti (Army)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>France</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Dharma Guardian</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Japan</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>JIMEX</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Japan</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Dustlik</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Uzbekistan</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Kazind</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Kazakhstan</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Harimau Shakti</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Malaysia</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Malabar</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Quad (India, USA, Japan, Australia)</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>SIMBEX</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Singapore</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Maitree</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Thailand</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Garuda Shakti</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Indonesia</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Zayed Talwar</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>UAE</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Cyclone</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Egypt</td></tr></table><h3 style='color:#FCD34D; margin-top:20px;'>Sports: Tennis Grand Slams</h3><table style='width:100%; border-collapse: collapse; margin-top:10px;'><tr style='background:#334155; color:#94A3B8;'><th style='padding:10px; border:1px solid #475569; text-align:left;'>Tournament / Event</th><th style='padding:10px; border:1px solid #475569; text-align:left;'>Winner</th></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Australian Open (Men's Singles)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Jannik Sinner</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Australian Open (Women's Singles)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Aryna Sabalenka</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>French Open (Men's Singles)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Carlos Alcaraz</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>French Open (Women's Singles)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Iga Swiatek</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Wimbledon (Men's Singles)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Carlos Alcaraz</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Wimbledon (Women's Singles)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Barbora Krejcikova</td></tr></table><h3 style='color:#FCD34D; margin-top:20px;'>Sports: Cricket</h3><table style='width:100%; border-collapse: collapse; margin-top:10px;'><tr style='background:#334155; color:#94A3B8;'><th style='padding:10px; border:1px solid #475569; text-align:left;'>Tournament / Event</th><th style='padding:10px; border:1px solid #475569; text-align:left;'>Winner</th></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>ICC T20 World Cup 2024</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>India (beat South Africa)</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>IPL 2024 Winner</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Kolkata Knight Riders (KKR)</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Ranji Trophy 2023-24</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Mumbai</td></tr></table><h3 style='color:#FCD34D; margin-top:20px;'>Sports: Football</h3><table style='width:100%; border-collapse: collapse; margin-top:10px;'><tr style='background:#334155; color:#94A3B8;'><th style='padding:10px; border:1px solid #475569; text-align:left;'>Tournament / Event</th><th style='padding:10px; border:1px solid #475569; text-align:left;'>Winner</th></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Euro Cup 2024</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Spain (beat England)</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Copa America 2024</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Argentina (beat Colombia)</td></tr></table><h3 style='color:#FCD34D; margin-top:20px;'>Sports: Badminton</h3><table style='width:100%; border-collapse: collapse; margin-top:10px;'><tr style='background:#334155; color:#94A3B8;'><th style='padding:10px; border:1px solid #475569; text-align:left;'>Tournament / Event</th><th style='padding:10px; border:1px solid #475569; text-align:left;'>Winner</th></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Thomas Cup (Men's)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>China</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Uber Cup (Women's)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>China</td></tr></table><h3 style='color:#FCD34D; margin-top:20px;'>Major Awards</h3><table style='width:100%; border-collapse: collapse; margin-top:10px;'><tr style='background:#334155; color:#94A3B8;'><th style='padding:10px; border:1px solid #475569; text-align:left;'>Award Name</th><th style='padding:10px; border:1px solid #475569; text-align:left;'>Recipient(s)</th></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Bharat Ratna 2024</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Karpoori Thakur, LK Advani, MS Swaminathan, PV Narasimha Rao, Charan Singh</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>96th Oscars (Best Picture)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Oppenheimer</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>96th Oscars (Best Actor)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Cillian Murphy</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>96th Oscars (Best Actress)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Emma Stone</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Nobel Prize in Literature</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Jon Fosse</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Nobel Peace Prize</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Narges Mohammadi</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Saraswati Samman 2023</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Prabha Varma (Roudra Sathwikam)</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Vyas Samman 2023</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Pushpa Bharati (Yaadein, Yaadein aur Yaadein)</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Jnanpith Award 2023 (58th)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Gulzar and Jagadguru Rambhadracharya</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Booker Prize 2023</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Paul Lynch (Prophet Song)</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>International Booker Prize 2024</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Jenny Erpenbeck (Kairos)</td></tr></table><h3 style='color:#FCD34D; margin-top:20px;'>Important Books & Authors</h3><table style='width:100%; border-collapse: collapse; margin-top:10px;'><tr style='background:#334155; color:#94A3B8;'><th style='padding:10px; border:1px solid #475569; text-align:left;'>Book Title</th><th style='padding:10px; border:1px solid #475569; text-align:left;'>Author</th></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Why Bharat Matters</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>S. Jaishankar</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Knife: Meditations After an Attempted Murder</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Salman Rushdie</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Four Stars of Destiny</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Gen. MM Naravane</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Gandhi: A Life in Three Campaigns</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>M.J. Akbar</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Smoke and Ashes</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Amitav Ghosh</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>The Golden Years</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Ruskin Bond</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Welcome to Paradise</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Twinkle Khanna</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Romancing Target</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Nidhi Dalmia</td></tr></table><h3 style='color:#FCD34D; margin-top:20px;'>Government Schemes & Budget</h3><table style='width:100%; border-collapse: collapse; margin-top:10px;'><tr style='background:#334155; color:#94A3B8;'><th style='padding:10px; border:1px solid #475569; text-align:left;'>Scheme / Initiative</th><th style='padding:10px; border:1px solid #475569; text-align:left;'>Key Highlight / Target</th></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>PM Surya Ghar Muft Bijli Yojana</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Provides up to 300 units of free electricity per month to 1 crore households</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Lakhpati Didi Scheme</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Target expanded to assist 3 crore women in self-help groups to earn \u20b91 lakh+ annually</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>PM JANMAN Yojana</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>\u20b924,000 crore scheme focused on the development of Particularly Vulnerable Tribal Groups (PVTGs)</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>PM Vishwakarma Yojana</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Provides collateral-free loans and skill training to artisans in 18 traditional trades</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Mudra Yojana (Budget Update)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Loan limit for entrepreneurs successfully repaying previous loans increased from \u20b910 lakh to \u20b920 lakh</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>Ayushman Bharat Extension</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Free health insurance coverage extended to all ASHA and Anganwadi workers</td></tr></table><h3 style='color:#FCD34D; margin-top:20px;'>Important Days & Themes</h3><table style='width:100%; border-collapse: collapse; margin-top:10px;'><tr style='background:#334155; color:#94A3B8;'><th style='padding:10px; border:1px solid #475569; text-align:left;'>Important Day (Date)</th><th style='padding:10px; border:1px solid #475569; text-align:left;'>Theme / Significance</th></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>World Earth Day (April 22)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Planet vs. Plastics</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>World Environment Day (June 5)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Land Restoration, Desertification and Drought Resilience</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>International Day of Yoga (June 21)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Yoga for Self and Society</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>World Water Day (March 22)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Water for Peace</td></tr><tr style='background:#1E293B;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>National Science Day (Feb 28)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Indigenous Technologies for Viksit Bharat</td></tr><tr style='background:#0F172A;'><td style='padding:10px; border:1px solid #475569; color:#E2E8F0; vertical-align:top;'>World Wetlands Day (Feb 2)</td><td style='padding:10px; border:1px solid #475569; color:#38BDF8; font-weight:bold; vertical-align:top;'>Wetlands and Human Wellbeing</td></tr></table>",
   flashcards: [
   {
     "id": "ca_0",
@@ -860,6 +960,126 @@ window.caData = {
     "topic": "Major Awards",
     "front": "Who won the International Booker Prize 2024?",
     "back": "Jenny Erpenbeck (Kairos)"
+  },
+  {
+    "id": "ca_new_set3_0",
+    "topic": "Important Books & Authors",
+    "front": "Who is the author of the book 'Why Bharat Matters'?",
+    "back": "S. Jaishankar"
+  },
+  {
+    "id": "ca_new_set3_1",
+    "topic": "Important Books & Authors",
+    "front": "Who is the author of the book 'Knife: Meditations After an Attempted Murder'?",
+    "back": "Salman Rushdie"
+  },
+  {
+    "id": "ca_new_set3_2",
+    "topic": "Important Books & Authors",
+    "front": "Who is the author of the book 'Four Stars of Destiny'?",
+    "back": "Gen. MM Naravane"
+  },
+  {
+    "id": "ca_new_set3_3",
+    "topic": "Important Books & Authors",
+    "front": "Who is the author of the book 'Gandhi: A Life in Three Campaigns'?",
+    "back": "M.J. Akbar"
+  },
+  {
+    "id": "ca_new_set3_4",
+    "topic": "Important Books & Authors",
+    "front": "Who is the author of the book 'Smoke and Ashes'?",
+    "back": "Amitav Ghosh"
+  },
+  {
+    "id": "ca_new_set3_5",
+    "topic": "Important Books & Authors",
+    "front": "Who is the author of the book 'The Golden Years'?",
+    "back": "Ruskin Bond"
+  },
+  {
+    "id": "ca_new_set3_6",
+    "topic": "Important Books & Authors",
+    "front": "Who is the author of the book 'Welcome to Paradise'?",
+    "back": "Twinkle Khanna"
+  },
+  {
+    "id": "ca_new_set3_7",
+    "topic": "Important Books & Authors",
+    "front": "Who is the author of the book 'Romancing Target'?",
+    "back": "Nidhi Dalmia"
+  },
+  {
+    "id": "ca_new_set3_8",
+    "topic": "Government Schemes & Budget",
+    "front": "What is the key feature/target of the 'PM Surya Ghar Muft Bijli Yojana'?",
+    "back": "Provides up to 300 units of free electricity per month to 1 crore households"
+  },
+  {
+    "id": "ca_new_set3_9",
+    "topic": "Government Schemes & Budget",
+    "front": "What is the key feature/target of the 'Lakhpati Didi Scheme'?",
+    "back": "Target expanded to assist 3 crore women in self-help groups to earn \u20b91 lakh+ annually"
+  },
+  {
+    "id": "ca_new_set3_10",
+    "topic": "Government Schemes & Budget",
+    "front": "What is the key feature/target of the 'PM JANMAN Yojana'?",
+    "back": "\u20b924,000 crore scheme focused on the development of Particularly Vulnerable Tribal Groups (PVTGs)"
+  },
+  {
+    "id": "ca_new_set3_11",
+    "topic": "Government Schemes & Budget",
+    "front": "What is the key feature/target of the 'PM Vishwakarma Yojana'?",
+    "back": "Provides collateral-free loans and skill training to artisans in 18 traditional trades"
+  },
+  {
+    "id": "ca_new_set3_12",
+    "topic": "Government Schemes & Budget",
+    "front": "What is the key feature/target of the 'Mudra Yojana (Budget Update)'?",
+    "back": "Loan limit for entrepreneurs successfully repaying previous loans increased from \u20b910 lakh to \u20b920 lakh"
+  },
+  {
+    "id": "ca_new_set3_13",
+    "topic": "Government Schemes & Budget",
+    "front": "What is the key feature/target of the 'Ayushman Bharat Extension'?",
+    "back": "Free health insurance coverage extended to all ASHA and Anganwadi workers"
+  },
+  {
+    "id": "ca_new_set3_14",
+    "topic": "Important Days & Themes",
+    "front": "What was the theme for World Earth Day (April 22)?",
+    "back": "Planet vs. Plastics"
+  },
+  {
+    "id": "ca_new_set3_15",
+    "topic": "Important Days & Themes",
+    "front": "What was the theme for World Environment Day (June 5)?",
+    "back": "Land Restoration, Desertification and Drought Resilience"
+  },
+  {
+    "id": "ca_new_set3_16",
+    "topic": "Important Days & Themes",
+    "front": "What was the theme for International Day of Yoga (June 21)?",
+    "back": "Yoga for Self and Society"
+  },
+  {
+    "id": "ca_new_set3_17",
+    "topic": "Important Days & Themes",
+    "front": "What was the theme for World Water Day (March 22)?",
+    "back": "Water for Peace"
+  },
+  {
+    "id": "ca_new_set3_18",
+    "topic": "Important Days & Themes",
+    "front": "What was the theme for National Science Day (Feb 28)?",
+    "back": "Indigenous Technologies for Viksit Bharat"
+  },
+  {
+    "id": "ca_new_set3_19",
+    "topic": "Important Days & Themes",
+    "front": "What was the theme for World Wetlands Day (Feb 2)?",
+    "back": "Wetlands and Human Wellbeing"
   }
 ],
   mcqs: [
@@ -1718,6 +1938,226 @@ window.caData = {
       "Jenny Erpenbeck (Kairos)",
       "Gulzar and Jagadguru Rambhadracharya",
       "Karpoori Thakur, LK Advani, MS Swaminathan, PV Narasimha Rao, Charan Singh"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "ca_mcq_set3_0",
+    "question": "Who is the author of the book 'Why Bharat Matters'?",
+    "options": [
+      "Amitav Ghosh",
+      "Ruskin Bond",
+      "S. Jaishankar",
+      "Twinkle Khanna"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "ca_mcq_set3_1",
+    "question": "Who is the author of the book 'Knife: Meditations After an Attempted Murder'?",
+    "options": [
+      "Salman Rushdie",
+      "Ruskin Bond",
+      "Gen. MM Naravane",
+      "Amitav Ghosh"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "ca_mcq_set3_2",
+    "question": "Who is the author of the book 'Four Stars of Destiny'?",
+    "options": [
+      "M.J. Akbar",
+      "Gen. MM Naravane",
+      "Nidhi Dalmia",
+      "Ruskin Bond"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "ca_mcq_set3_3",
+    "question": "Who is the author of the book 'Gandhi: A Life in Three Campaigns'?",
+    "options": [
+      "Twinkle Khanna",
+      "Gen. MM Naravane",
+      "M.J. Akbar",
+      "Amitav Ghosh"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "ca_mcq_set3_4",
+    "question": "Who is the author of the book 'Smoke and Ashes'?",
+    "options": [
+      "Gen. MM Naravane",
+      "Salman Rushdie",
+      "Amitav Ghosh",
+      "Ruskin Bond"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "ca_mcq_set3_5",
+    "question": "Who is the author of the book 'The Golden Years'?",
+    "options": [
+      "Ruskin Bond",
+      "S. Jaishankar",
+      "Gen. MM Naravane",
+      "Nidhi Dalmia"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "ca_mcq_set3_6",
+    "question": "Who is the author of the book 'Welcome to Paradise'?",
+    "options": [
+      "Ruskin Bond",
+      "M.J. Akbar",
+      "Twinkle Khanna",
+      "Nidhi Dalmia"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "ca_mcq_set3_7",
+    "question": "Who is the author of the book 'Romancing Target'?",
+    "options": [
+      "Twinkle Khanna",
+      "S. Jaishankar",
+      "Nidhi Dalmia",
+      "Gen. MM Naravane"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "ca_mcq_set3_8",
+    "question": "What is the key feature/target of the 'PM Surya Ghar Muft Bijli Yojana'?",
+    "options": [
+      "Provides up to 300 units of free electricity per month to 1 crore households",
+      "Target expanded to assist 3 crore women in self-help groups to earn \u20b91 lakh+ annually",
+      "Loan limit for entrepreneurs successfully repaying previous loans increased from \u20b910 lakh to \u20b920 lakh",
+      "Free health insurance coverage extended to all ASHA and Anganwadi workers"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "ca_mcq_set3_9",
+    "question": "What is the key feature/target of the 'Lakhpati Didi Scheme'?",
+    "options": [
+      "Provides up to 300 units of free electricity per month to 1 crore households",
+      "Loan limit for entrepreneurs successfully repaying previous loans increased from \u20b910 lakh to \u20b920 lakh",
+      "Free health insurance coverage extended to all ASHA and Anganwadi workers",
+      "Target expanded to assist 3 crore women in self-help groups to earn \u20b91 lakh+ annually"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "ca_mcq_set3_10",
+    "question": "What is the key feature/target of the 'PM JANMAN Yojana'?",
+    "options": [
+      "\u20b924,000 crore scheme focused on the development of Particularly Vulnerable Tribal Groups (PVTGs)",
+      "Free health insurance coverage extended to all ASHA and Anganwadi workers",
+      "Provides up to 300 units of free electricity per month to 1 crore households",
+      "Provides collateral-free loans and skill training to artisans in 18 traditional trades"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "ca_mcq_set3_11",
+    "question": "What is the key feature/target of the 'PM Vishwakarma Yojana'?",
+    "options": [
+      "\u20b924,000 crore scheme focused on the development of Particularly Vulnerable Tribal Groups (PVTGs)",
+      "Provides collateral-free loans and skill training to artisans in 18 traditional trades",
+      "Provides up to 300 units of free electricity per month to 1 crore households",
+      "Loan limit for entrepreneurs successfully repaying previous loans increased from \u20b910 lakh to \u20b920 lakh"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "ca_mcq_set3_12",
+    "question": "What is the key feature/target of the 'Mudra Yojana (Budget Update)'?",
+    "options": [
+      "Target expanded to assist 3 crore women in self-help groups to earn \u20b91 lakh+ annually",
+      "\u20b924,000 crore scheme focused on the development of Particularly Vulnerable Tribal Groups (PVTGs)",
+      "Loan limit for entrepreneurs successfully repaying previous loans increased from \u20b910 lakh to \u20b920 lakh",
+      "Free health insurance coverage extended to all ASHA and Anganwadi workers"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "ca_mcq_set3_13",
+    "question": "What is the key feature/target of the 'Ayushman Bharat Extension'?",
+    "options": [
+      "Provides up to 300 units of free electricity per month to 1 crore households",
+      "Target expanded to assist 3 crore women in self-help groups to earn \u20b91 lakh+ annually",
+      "\u20b924,000 crore scheme focused on the development of Particularly Vulnerable Tribal Groups (PVTGs)",
+      "Free health insurance coverage extended to all ASHA and Anganwadi workers"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "ca_mcq_set3_14",
+    "question": "What was the theme for World Earth Day (April 22)?",
+    "options": [
+      "Planet vs. Plastics",
+      "Land Restoration, Desertification and Drought Resilience",
+      "Indigenous Technologies for Viksit Bharat",
+      "Yoga for Self and Society"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "ca_mcq_set3_15",
+    "question": "What was the theme for World Environment Day (June 5)?",
+    "options": [
+      "Planet vs. Plastics",
+      "Yoga for Self and Society",
+      "Land Restoration, Desertification and Drought Resilience",
+      "Indigenous Technologies for Viksit Bharat"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "ca_mcq_set3_16",
+    "question": "What was the theme for International Day of Yoga (June 21)?",
+    "options": [
+      "Water for Peace",
+      "Indigenous Technologies for Viksit Bharat",
+      "Yoga for Self and Society",
+      "Planet vs. Plastics"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "ca_mcq_set3_17",
+    "question": "What was the theme for World Water Day (March 22)?",
+    "options": [
+      "Indigenous Technologies for Viksit Bharat",
+      "Yoga for Self and Society",
+      "Land Restoration, Desertification and Drought Resilience",
+      "Water for Peace"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "ca_mcq_set3_18",
+    "question": "What was the theme for National Science Day (Feb 28)?",
+    "options": [
+      "Wetlands and Human Wellbeing",
+      "Planet vs. Plastics",
+      "Indigenous Technologies for Viksit Bharat",
+      "Land Restoration, Desertification and Drought Resilience"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "ca_mcq_set3_19",
+    "question": "What was the theme for World Wetlands Day (Feb 2)?",
+    "options": [
+      "Planet vs. Plastics",
+      "Wetlands and Human Wellbeing",
+      "Water for Peace",
+      "Yoga for Self and Society"
     ],
     "correct": 1
   }
