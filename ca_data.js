@@ -1,4 +1,6 @@
 window.caData = {
+  chapter: "Current Affairs (Eduteria 2025-26)",
+
   appointments: [
   {
     "category": "National Appointments (High Yield for SSC)",
