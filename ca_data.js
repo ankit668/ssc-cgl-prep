@@ -184,7 +184,7 @@ window.caData = {
     "category": "Global Indices (India's Rank)",
     "position": "Henley Passport Index",
     "name": "Rank 82",
-    "details": "<ul style='margin-top:5px; padding-left:15px;'><li><b>Data Source:</b> International Air Transport Association (IATA).</li><li><b>Top Rank:</b> Shared by France, Germany, Italy, Japan, Singapore, Spain.</li><li><b>Meaning:</b> Ranks passports according to number of destinations holders can access without prior visa.</li></ul>"
+    "details": "<ul style='margin-top:5px; padding-left:15px;'><li><b>Data Source:</b> International Air Transport Association (IATA).</li><li><b>Top Rank:</b> Shared by France, Germany, Italy, Japan, Singapore, Spain.</li><li><b>Meaning:</b> Ranks passports according to number of destinations holders can access without prior visa.</li><li><b style='color:#F59E0B;'>[Updated 2026]:</b> India's rank slipped to 81st in the mid-2026 reports.</li></ul>"
   },
   {
     "category": "Joint Military Exercises",
@@ -448,7 +448,7 @@ window.caData = {
     "category": "Government Schemes & Budget",
     "position": "PM Surya Ghar Muft Bijli Yojana",
     "name": "Provides up to 300 units of free electricity per month to 1 crore households",
-    "details": "<ul style='margin-top:5px; padding-left:15px;'><li><b>Target:</b> 1 crore households.</li><li><b>Benefit:</b> 300 units of free electricity every month via rooftop solar installations.</li><li><b>Budget Outlay:</b> \u20b975,021 crore.</li></ul>"
+    "details": "<ul style='margin-top:5px; padding-left:15px;'><li><b>Target:</b> 1 crore households.</li><li><b>Benefit:</b> 300 units of free electricity every month via rooftop solar installations.</li><li><b>Budget Outlay:</b> \u20b975,021 crore.</li><li><b style='color:#F59E0B;'>[Updated 2025]:</b> David Szalay won for 'Flesh'. The International Booker was awarded to 'Heart Lamp' by Banu Mushtaq (translated from Kannada).</li></ul>"
   },
   {
     "category": "Government Schemes & Budget",
@@ -1490,7 +1490,7 @@ window.caData = {
     "category": "Padma Awards & Film Awards",
     "position": "Oscars 2024 (96th Academy Awards)",
     "name": "Best Picture: Oppenheimer",
-    "details": "<ul style='margin-top:5px; padding-left:15px;'><li><b>Best Actor:</b> Cillian Murphy (Oppenheimer).</li><li><b>Best Actress:</b> Emma Stone (Poor Things).</li><li><b>Best Director:</b> Christopher Nolan.</li></ul>"
+    "details": "<ul style='margin-top:5px; padding-left:15px;'><li><b>Best Actor:</b> Cillian Murphy (Oppenheimer).</li><li><b>Best Actress:</b> Emma Stone (Poor Things).</li><li><b>Best Director:</b> Christopher Nolan.</li><li><b style='color:#F59E0B;'>[Updated 2026]:</b> 'One Battle After Another' won Best Picture at the 98th Academy Awards.</li></ul>"
   },
   {
     "category": "Padma Awards & Film Awards",
@@ -1652,31 +1652,31 @@ window.caData = {
     "category": "Sports: Cricket",
     "position": "ICC Men's T20 World Cup 2024",
     "name": "India",
-    "details": "<ul style='margin-top:5px; padding-left:15px;'><li><b>Runner-up:</b> South Africa (Defeated by 7 runs).</li><li><b>Player of the Tournament:</b> Jasprit Bumrah.</li><li><b>Man of the Match (Final):</b> Virat Kohli.</li><li><b>Host:</b> USA and West Indies.</li></ul>"
+    "details": "<ul style='margin-top:5px; padding-left:15px;'><li><b>Runner-up:</b> South Africa (Defeated by 7 runs).</li><li><b>Player of the Tournament:</b> Jasprit Bumrah.</li><li><b>Man of the Match (Final):</b> Virat Kohli.</li><li><b>Host:</b> USA and West Indies.</li><li><b style='color:#F59E0B;'>[Updated 2026]:</b> India successfully defended their title in March 2026, defeating New Zealand to become the first team to win consecutive T20 World Cups.</li></ul>"
   },
   {
     "category": "Sports: Cricket",
     "position": "IPL 2024 (Indian Premier League)",
     "name": "Kolkata Knight Riders (KKR)",
-    "details": "<ul style='margin-top:5px; padding-left:15px;'><li><b>Runner-up:</b> Sunrisers Hyderabad (SRH).</li><li><b>Captain:</b> Shreyas Iyer.</li><li><b>Orange Cap:</b> Virat Kohli. <b>Purple Cap:</b> Harshal Patel.</li></ul>"
+    "details": "<ul style='margin-top:5px; padding-left:15px;'><li><b>Runner-up:</b> Sunrisers Hyderabad (SRH).</li><li><b>Captain:</b> Shreyas Iyer.</li><li><b>Orange Cap:</b> Virat Kohli. <b>Purple Cap:</b> Harshal Patel.</li><li><b style='color:#F59E0B;'>[Updated 2026]:</b> Royal Challengers Bengaluru (RCB) won their second consecutive IPL title in 2026, defeating Gujarat Titans.</li></ul>"
   },
   {
     "category": "Sports: Tennis Grand Slams",
     "position": "Wimbledon 2024 (Men's Singles)",
     "name": "Carlos Alcaraz",
-    "details": "<ul style='margin-top:5px; padding-left:15px;'><li><b>Runner-up:</b> Novak Djokovic.</li><li><b>Women's Winner:</b> Barbora Krejcikova.</li></ul>"
+    "details": "<ul style='margin-top:5px; padding-left:15px;'><li><b>Runner-up:</b> Novak Djokovic.</li><li><b>Women's Winner:</b> Barbora Krejcikova.</li><li><b style='color:#F59E0B;'>[Updated 2026]:</b> Jannik Sinner won his second consecutive Wimbledon title in 2026, defeating Alexander Zverev.</li></ul>"
   },
   {
     "category": "Sports: Tennis Grand Slams",
     "position": "French Open 2024 (Men's Singles)",
     "name": "Carlos Alcaraz",
-    "details": "<ul style='margin-top:5px; padding-left:15px;'><li><b>Women's Winner:</b> Iga Swiatek.</li></ul>"
+    "details": "<ul style='margin-top:5px; padding-left:15px;'><li><b>Women's Winner:</b> Iga Swiatek.</li><li><b style='color:#F59E0B;'>[Updated 2026]:</b> Alexander Zverev won the 2026 French Open, claiming his first career Grand Slam.</li></ul>"
   },
   {
     "category": "Sports: Tennis Grand Slams",
     "position": "Australian Open 2024",
     "name": "Jannik Sinner (Men) / Aryna Sabalenka (Women)",
-    "details": "<ul style='margin-top:5px; padding-left:15px;'><li><b>Special Note:</b> Rohan Bopanna (India) won the Men's Doubles title at age 43, becoming the oldest world No. 1 in men's doubles.</li></ul>"
+    "details": "<ul style='margin-top:5px; padding-left:15px;'><li><b>Special Note:</b> Rohan Bopanna (India) won the Men's Doubles title at age 43, becoming the oldest world No. 1 in men's doubles.</li><li><b style='color:#F59E0B;'>[Updated 2026]:</b> Carlos Alcaraz won the 2026 Australian Open, defeating Djokovic and becoming the youngest man to complete a career Grand Slam.</li></ul>"
   },
   {
     "category": "International Organisations & HQ",
