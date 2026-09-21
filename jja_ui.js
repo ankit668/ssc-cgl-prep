@@ -38,6 +38,8 @@
                 <button onclick="jjaTab('grammar')" id="jja-tab-grammar" class="jja-tab-btn">📝 Grammar</button>
                 <button onclick="jjaTab('translation')" id="jja-tab-translation" class="jja-tab-btn">🔄 Translation</button>
                 <button onclick="jjaTab('legal')" id="jja-tab-legal" class="jja-tab-btn">⚖️ Legal GK</button>
+                <button onclick="jjaTab('jargon')" id="jja-tab-jargon" class="jja-tab-btn">📇 Flashcards</button>
+                <button onclick="jjaTab('proof')" id="jja-tab-proof" class="jja-tab-btn">🔎 Proofreading</button>
                 <button onclick="jjaTab('typing')" id="jja-tab-typing" class="jja-tab-btn">⌨️ Typing Test</button>
                 <button onclick="jjaTab('rajbhasha')" id="jja-tab-rajbhasha" class="jja-tab-btn">🇮🇳 Rajbhasha MCQ</button>
             </div>
