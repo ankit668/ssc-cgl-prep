@@ -794,4 +794,102 @@ Yours faithfully,<br>
         if (container) renderRajbhashaQuiz(container);
     };
 
+
+    // ----------------------------------------------------
+    //  Proofreading Drills
+    // ----------------------------------------------------
+    let currentProofIdx = 0;
+    function renderProofreading(pane) {
+        if (!pane) pane = document.getElementById('jja-content');
+        const list = window.jjaData.proofreading || [];
+        if (!list.length) {
+            pane.innerHTML = `<p>No proofreading drills found.</p>`;
+            return;
+        }
+        const item = list[currentProofIdx];
+        
+        let errorsHtml = item.errors.map(e => `<li><span style="color:#ef4444;text-decoration:line-through;">${e.wrong}</span> &rarr; <span style="color:#10B981;font-weight:bold;">${e.right}</span> <i>(${e.type})</i></li>`).join('');
+
+        pane.innerHTML = `
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:15px;">
+                <h3 style="color:#38BDF8; margin:0;">🔎 Court Order Proofreading (${currentProofIdx + 1}/${list.length})</h3>
+                <div>
+                    <button onclick="jjaNextProof(-1)" class="jja-btn" style="padding:4px 10px;">&laquo; Prev</button>
+                    <button onclick="jjaNextProof(1)" class="jja-btn" style="padding:4px 10px;">Next &raquo;</button>
+                </div>
+            </div>
+            
+            <div style="background:#1E293B; padding:15px; border-left:4px solid #F59E0B; margin-bottom:20px; font-size:1.1em; line-height:1.6; color:#E2E8F0;">
+                <strong>Spot the Errors:</strong><br>
+                ${item.text}
+            </div>
+
+            <button onclick="document.getElementById('proof-sol').style.display='block';" class="jja-btn" style="margin-bottom:15px;">Show Corrections</button>
+
+            <div id="proof-sol" style="display:none; background:#0F172A; padding:15px; border:1px solid #334155; border-radius:8px;">
+                <h4 style="color:#10B981; margin-top:0;">Corrected Text:</h4>
+                <p style="color:#E2E8F0; font-size:1.05em; line-height:1.6;">${item.correct_text}</p>
+                <h4 style="color:#F59E0B;">Errors Spotted:</h4>
+                <ul style="color:#94A3B8;">
+                    ${errorsHtml}
+                </ul>
+            </div>
+        `;
+    }
+    window.jjaNextProof = function(dir) {
+        const list = window.jjaData.proofreading || [];
+        currentProofIdx += dir;
+        if (currentProofIdx < 0) currentProofIdx = list.length - 1;
+        if (currentProofIdx >= list.length) currentProofIdx = 0;
+        renderProofreading();
+    };
+
+    // ----------------------------------------------------
+    //  Legal Jargon Flashcards
+    // ----------------------------------------------------
+    let currentJargonIdx = 0;
+    function renderJargon(pane) {
+        if (!pane) pane = document.getElementById('jja-content');
+        const list = window.jjaData.legalJargon || [];
+        if (!list.length) {
+            pane.innerHTML = `<p>No flashcards found.</p>`;
+            return;
+        }
+        const item = list[currentJargonIdx];
+
+        pane.innerHTML = `
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:15px;">
+                <h3 style="color:#38BDF8; margin:0;">📇 Legal Jargon Flashcards (${currentJargonIdx + 1}/${list.length})</h3>
+                <div>
+                    <button onclick="jjaNextJargon(-1)" class="jja-btn" style="padding:4px 10px;">&laquo; Prev</button>
+                    <button onclick="jjaNextJargon(1)" class="jja-btn" style="padding:4px 10px;">Next &raquo;</button>
+                </div>
+            </div>
+            
+            <div style="perspective: 1000px; width: 100%; max-width: 500px; margin: 0 auto 20px auto; height: 250px; cursor: pointer;" onclick="this.children[0].style.transform = this.children[0].style.transform === 'rotateY(180deg)' ? 'rotateY(0deg)' : 'rotateY(180deg)'">
+                <div style="width: 100%; height: 100%; transition: transform 0.6s; transform-style: preserve-3d; position: relative;">
+                    <div style="position: absolute; width: 100%; height: 100%; backface-visibility: hidden; background: #1E293B; border: 2px solid #38BDF8; border-radius: 12px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 6px rgba(0,0,0,0.3); flex-direction:column;">
+                        <h2 style="color: #FCD34D; font-size: 2em; margin:0;">${item.en}</h2>
+                        <span style="margin-top:15px; font-size:0.8em; color:#64748B;">Click to flip over</span>
+                    </div>
+                    <div style="position: absolute; width: 100%; height: 100%; backface-visibility: hidden; background: #0F172A; border: 2px solid #10B981; border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; transform: rotateY(180deg); padding: 20px; box-sizing: border-box; text-align:center;">
+                        <h2 style="color: #10B981; font-size: 1.8em; margin:0 0 10px 0;">${item.hi}</h2>
+                        <p style="color: #94A3B8; font-size: 1em; margin:0;"><i>${item.context}</i></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="text-align:center; color:#94A3B8; font-size:0.9em;">
+                Tip: Legal terminology is crucial for Translation and Typing tests in the DDC JJA Mains.
+            </div>
+        `;
+    }
+    window.jjaNextJargon = function(dir) {
+        const list = window.jjaData.legalJargon || [];
+        currentJargonIdx += dir;
+        if (currentJargonIdx < 0) currentJargonIdx = list.length - 1;
+        if (currentJargonIdx >= list.length) currentJargonIdx = 0;
+        renderJargon();
+    };
+
 })();
