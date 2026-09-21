@@ -150,6 +150,8 @@
         else if (tab === 'grammar') renderGrammar(content);
         else if (tab === 'translation') renderTranslations(content);
         else if (tab === 'legal') renderLegalGK(content);
+        else if (tab === 'jargon') renderJargon(content);
+        else if (tab === 'proof') renderProofreading(content);
         else if (tab === 'typing') renderTypingTest(content);
         else if (tab === 'rajbhasha') renderRajbhashaQuiz(content);
     };
