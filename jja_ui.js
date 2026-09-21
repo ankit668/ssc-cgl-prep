@@ -150,8 +150,8 @@
         else if (tab === 'grammar') renderGrammar(content);
         else if (tab === 'translation') renderTranslations(content);
         else if (tab === 'legal') renderLegalGK(content);
-        else if (tab === 'jargon') renderJargon(content);
-        else if (tab === 'proof') renderProofreading(content);
+        else if (tab === 'jargon') window.renderJargon(content);
+        else if (tab === 'proof') window.renderProofreading(content);
         else if (tab === 'typing') renderTypingTest(content);
         else if (tab === 'rajbhasha') renderRajbhashaQuiz(content);
     };
@@ -799,7 +799,7 @@ Yours faithfully,<br>
     //  Proofreading Drills
     // ----------------------------------------------------
     let currentProofIdx = 0;
-    function renderProofreading(pane) {
+    window.renderProofreading = function(pane) {
         if (!pane) pane = document.getElementById('jja-content');
         const list = window.jjaData.proofreading || [];
         if (!list.length) {
@@ -841,14 +841,14 @@ Yours faithfully,<br>
         currentProofIdx += dir;
         if (currentProofIdx < 0) currentProofIdx = list.length - 1;
         if (currentProofIdx >= list.length) currentProofIdx = 0;
-        renderProofreading();
+        window.renderProofreading();
     };
 
     // ----------------------------------------------------
     //  Legal Jargon Flashcards
     // ----------------------------------------------------
     let currentJargonIdx = 0;
-    function renderJargon(pane) {
+    window.renderJargon = function(pane) {
         if (!pane) pane = document.getElementById('jja-content');
         const list = window.jjaData.legalJargon || [];
         if (!list.length) {
@@ -889,7 +889,7 @@ Yours faithfully,<br>
         currentJargonIdx += dir;
         if (currentJargonIdx < 0) currentJargonIdx = list.length - 1;
         if (currentJargonIdx >= list.length) currentJargonIdx = 0;
-        renderJargon();
+        window.renderJargon();
     };
 
 })();
