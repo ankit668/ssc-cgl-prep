@@ -1,16 +1,35 @@
 window.fatmanGeography = {
     "chapter": "Geography: WEAPONIZED (110+ Questions) - Master File",
-    "notes": `
+    "notes": `<div style='background:linear-gradient(135deg,#F59E0B15,#0F172A); padding:20px; border-radius:12px; margin-bottom:25px; border:1px solid #F59E0B40;'>
+  <h2 style='color:#F59E0B; margin:0 0 8px 0; font-size:1.5em;'>🌍 Geography: CGL Master File</h2>
+  <p style='color:#94A3B8; margin:0; font-size:0.9em;'>12 sections | Solar System → Tribes | All SSC CGL hot topics covered</p>
+</div>
 
-        <h1 style="color:#F59E0B; text-align:center;">GEOGRAPHY: AIR 1 MASTER FILE</h1>
-        <p style="text-align:center; color:#94A3B8;">An exhaustive, no-stone-unturned compilation of Indian & World Geography.</p>
-
-        <h3>1. Cosmology & The Solar System</h3>
-        <ul>
-            <li><strong>Theories of Universe:</strong> <em>Big Bang Theory</em> (Georges Lema�tre, 1927) is the most accepted. <em>Steady State Theory</em> (Fred Hoyle). <em>Nebular Hypothesis</em> (Kant & Laplace) for solar system formation.</li>
-            <li><strong>Galaxies & Stars:</strong> <strong>Milky Way</strong> (Spiral shape). <strong>Andromeda</strong> is the closest galaxy. <em>Proxima Centauri</em> is the closest star to the <strong>Sun</strong>. <em>Sirius</em> (Dog Star) is the brightest star. 1 Light Year = $9.46 \times 10^{12}$ km.</li>
-            <li><strong>The <strong>Sun</strong>:</strong> Composed of Hydrogen (71%) and Helium (26.5%). Surface temp: 6000�C. Core temp: 15 million �C. Energy source: Nuclear Fusion. Layers: Photosphere (visible surface), Chromosphere, Corona (outermost, visible during eclipse).</li>
-            <li><strong>The Planets (Terrestrial vs Jovian):</strong>
+<div style='margin:25px 0; border-radius:12px; overflow:hidden; box-shadow:0 4px 20px rgba(0,0,0,0.3);'>
+  <div style='background:linear-gradient(135deg, #1E293B, #0F172A); padding:15px 20px; border-left:4px solid #F59E0B;'>
+    <h3 style='color:#F59E0B; margin:0; font-size:1.2em;'>1. Cosmology & The Solar System</h3>
+  </div>
+  <div style='overflow-x:auto;'>
+    <table style='width:100%; border-collapse:collapse;'>
+      <tr style='background:#334155; color:#94A3B8;'>
+        <th style='padding:12px; border:1px solid #475569; text-align:left; width:28%;'>Concept / Fact</th>
+        <th style='padding:12px; border:1px solid #475569; text-align:left; width:72%;'>Details</th>
+      </tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Theories of Universe:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Theories of Universe:</strong> <em>Big Bang Theory</em> (Georges Lema�tre, 1927) is the most accepted. <em>Steady State Theory</em> (Fred Hoyle). <em>Nebular Hypothesis</em> (Kant & Laplace) for solar system formation.</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Galaxies & Stars:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Galaxies & Stars:</strong> <strong>Milky Way</strong> (Spiral shape). <strong>Andromeda</strong> is the closest galaxy. <em>Proxima Centauri</em> is the closest star to the <strong>Sun</strong>. <em>Sirius</em> (Dog Star) is the brightest star. 1 Light Year = $9.46 \times 10^{12}$ km.</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>The Sun</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>The <strong>Sun</strong>:</strong> Composed of Hydrogen (71%) and Helium (26.5%). Surface temp: 6000�C. Core temp: 15 million �C. Energy source: Nuclear Fusion. Layers: Photosphere (visible surface), Chromosphere, Corona (outermost, visible during eclipse).</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>The Planets (Terrestrial vs Jovian):</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>The Planets (Terrestrial vs Jovian):</strong>
                 <table style='width:100%; border-collapse: collapse; margin-top: 10px; margin-bottom: 10px; font-size: 0.9em;'>
                     <tr style='background: #1E293B;'><th style='border: 1px solid #334155; padding: 5px;'>Planet</th><th style='border: 1px solid #334155; padding: 5px;'>Key AIR 1 Facts</th></tr>
                     <tr><td style='border: 1px solid #334155; padding: 5px;'><strong>Mercury</strong></td><td style='border: 1px solid #334155; padding: 5px;'>Smallest, fastest revolution (88 days). No atmosphere, no satellites. Max diurnal temp range.</td></tr>
@@ -21,110 +40,278 @@ window.fatmanGeography = {
                     <tr><td style='border: 1px solid #334155; padding: 5px;'><strong>Saturn</strong></td><td style='border: 1px solid #334155; padding: 5px;'>Least dense (can float on water). Complex ring system. Largest <strong>moon</strong>: Titan.</td></tr>
                     <tr><td style='border: 1px solid #334155; padding: 5px;'><strong>Uranus</strong></td><td style='border: 1px solid #334155; padding: 5px;'>Greenish color (Methane). Rotates East to West. Highly tilted axis ("Rolling Planet"). <strong>Moon</strong>: Titania.</td></tr>
                     <tr><td style='border: 1px solid #334155; padding: 5px;'><strong>Neptune</strong></td><td style='border: 1px solid #334155; padding: 5px;'>Coldest, farthest. <strong>Moon</strong>: Triton. Discovered by Galle.</td></tr>
+                </table></td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Asteroids, Meteors, Comets:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Asteroids, Meteors, Comets:</strong> Asteroid belt lies between <strong>Mars</strong> and <strong>Jupiter</strong>. Ceres is the largest asteroid. Halley's Comet appears every 76 years (next in 2061).</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Earth</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Earth</strong>'s Movements:</strong> 
+                <ul>
+                    <li><em>Rotation:</em> Causes day/night, <strong>Coriolis</strong> force, tides. Speed: 1670 km/h at <strong>equator</strong>.</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>sun</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Revolution:</em> Causes seasons, varying lengths of day/night. Perihelion (closest to <strong>sun</strong>, Jan 3). Aphelion (farthest, July 4).</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Sun</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Equinoxes:</em> March 21 (Vernal), Sept 23 (Autumnal). <strong>Sun</strong> directly over <strong>equator</strong>.</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Sun</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Solstices:</em> June 21 (Summer - <strong>Sun</strong> over <strong>Tropic of Cancer</strong>). Dec 22 (Winter - <strong>Sun</strong> over <strong>Tropic of Capricorn</strong>).</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Eclipses:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Eclipses:</strong> Solar Eclipse (<strong>Moon</strong> between <strong>Earth</strong> & <strong>Sun</strong>, occurs on New <strong>Moon</strong>). Lunar Eclipse (<strong>Earth</strong> between <strong>Sun</strong> & <strong>Moon</strong>, occurs on Full <strong>Moon</strong>). <em>Syzygy</em>: Straight line alignment.</td>
+</tr>
+<tr style='background:#0F172A;'>
+<td colspan='2' style='padding:15px; border:1px solid #475569;'>
+  <table style='width:100%; border-collapse: collapse; margin-top: 10px; margin-bottom: 10px; font-size: 0.9em;'>
+                    <tr style='background: #1E293B;'><th style='border: 1px solid #334155; padding: 5px;'>Planet</th><th style='border: 1px solid #334155; padding: 5px;'>Key AIR 1 Facts</th></tr>
+                    <tr><td style='border: 1px solid #334155; padding: 5px;'><strong>Mercury</strong></td><td style='border: 1px solid #334155; padding: 5px;'>Smallest, fastest revolution (88 days). No atmosphere, no satellites. Max diurnal temp range.</td></tr>
+                    <tr><td style='border: 1px solid #334155; padding: 5px;'><strong>Venus</strong></td><td style='border: 1px solid #334155; padding: 5px;'>Hottest planet (CO2 greenhouse effect). <strong>Earth</strong>'s Twin. Morning/Evening Star. Rotates East to West (Retrograde).</td></tr>
+                    <tr><td style='border: 1px solid #334155; padding: 5px;'><strong>Earth</strong></td><td style='border: 1px solid #334155; padding: 5px;'>Blue Planet. Densest planet (5.5 g/cm�). Tilted at 23.5�. 1 satellite (<strong>Moon</strong>).</td></tr>
+                    <tr><td style='border: 1px solid #334155; padding: 5px;'><strong>Mars</strong></td><td style='border: 1px solid #334155; padding: 5px;'>Red Planet (Iron Oxide). Highest mountain: Nix Olympia. Moons: Phobos, Deimos.</td></tr>
+                    <tr><td style='border: 1px solid #334155; padding: 5px;'><strong>Jupiter</strong></td><td style='border: 1px solid #334155; padding: 5px;'>Largest planet. Fastest rotation (9.8 hrs). Giant Red Spot. Largest <strong>moon</strong>: Ganymede (largest in solar system).</td></tr>
+                    <tr><td style='border: 1px solid #334155; padding: 5px;'><strong>Saturn</strong></td><td style='border: 1px solid #334155; padding: 5px;'>Least dense (can float on water). Complex ring system. Largest <strong>moon</strong>: Titan.</td></tr>
+                    <tr><td style='border: 1px solid #334155; padding: 5px;'><strong>Uranus</strong></td><td style='border: 1px solid #334155; padding: 5px;'>Greenish color (Methane). Rotates East to West. Highly tilted axis ("Rolling Planet"). <strong>Moon</strong>: Titania.</td></tr>
+                    <tr><td style='border: 1px solid #334155; padding: 5px;'><strong>Neptune</strong></td><td style='border: 1px solid #334155; padding: 5px;'>Coldest, farthest. <strong>Moon</strong>: Triton. Discovered by Galle.</td></tr>
                 </table>
-            </li>
-            <li><strong>Asteroids, Meteors, Comets:</strong> Asteroid belt lies between <strong>Mars</strong> and <strong>Jupiter</strong>. Ceres is the largest asteroid. Halley's Comet appears every 76 years (next in 2061).</li>
-            <li><strong>Earth</strong>'s Movements:</strong> 
-                <ul>
-                    <li><em>Rotation:</em> Causes day/night, <strong>Coriolis</strong> force, tides. Speed: 1670 km/h at <strong>equator</strong>.</li>
-                    <li><em>Revolution:</em> Causes seasons, varying lengths of day/night. Perihelion (closest to <strong>sun</strong>, Jan 3). Aphelion (farthest, July 4).</li>
-                    <li><em>Equinoxes:</em> March 21 (Vernal), Sept 23 (Autumnal). <strong>Sun</strong> directly over <strong>equator</strong>.</li>
-                    <li><em>Solstices:</em> June 21 (Summer - <strong>Sun</strong> over <strong>Tropic of Cancer</strong>). Dec 22 (Winter - <strong>Sun</strong> over <strong>Tropic of Capricorn</strong>).</li>
-                </ul>
-            </li>
-            <li><strong>Eclipses:</strong> Solar Eclipse (<strong>Moon</strong> between <strong>Earth</strong> & <strong>Sun</strong>, occurs on New <strong>Moon</strong>). Lunar Eclipse (<strong>Earth</strong> between <strong>Sun</strong> & <strong>Moon</strong>, occurs on Full <strong>Moon</strong>). <em>Syzygy</em>: Straight line alignment.</li>
-        </ul>
+</td>
+</tr>
+    </table>
+  </div>
+</div>
 
-        <h3>2. <strong>Earth</strong>'s Interior, Rocks & Geomorphology</h3>
-        <ul>
-            <li><strong>Interior Layers:</strong>
+<div style='margin:25px 0; border-radius:12px; overflow:hidden; box-shadow:0 4px 20px rgba(0,0,0,0.3);'>
+  <div style='background:linear-gradient(135deg, #1E293B, #0F172A); padding:15px 20px; border-left:4px solid #10B981;'>
+    <h3 style='color:#10B981; margin:0; font-size:1.2em;'>2. <strong>Earth</strong>'s Interior, Rocks & Geomorphology</h3>
+  </div>
+  <div style='overflow-x:auto;'>
+    <table style='width:100%; border-collapse:collapse;'>
+      <tr style='background:#334155; color:#94A3B8;'>
+        <th style='padding:12px; border:1px solid #475569; text-align:left; width:28%;'>Concept / Fact</th>
+        <th style='padding:12px; border:1px solid #475569; text-align:left; width:72%;'>Details</th>
+      </tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Interior Layers:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Interior Layers:</strong>
                 <ul>
-                    <li><em>Crust:</em> SIAL (Silica + Aluminium) - Continents. SIMA (Silica + Magnesium) - Oceans.</li>
-                    <li><em>Mantle:</em> Contains asthenosphere (magma chamber). Rich in Olivine.</li>
-                    <li><em>Core:</em> NIFE (Nickel + Iron). Outer core is liquid (generates magnetic field), inner core is solid.</li>
-                    <li><em>Discontinuities:</em> Conrad (Upper/Lower Crust), Mohorovicic (Crust/Mantle), Repetti (Upper/Lower Mantle), Gutenberg (Mantle/Core), Lehmann (Outer/Inner Core).</li>
-                </ul>
-            </li>
-            <li><strong>Rocks:</strong>
+                    <li><em>Crust:</em> SIAL (Silica + Aluminium) - Continents. SIMA (Silica + Magnesium) - Oceans.</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Mantle: Contains asthenosphere (magma chamber). Rich in Olivine.</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Mantle:</em> Contains asthenosphere (magma chamber). Rich in Olivine.</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Core: NIFE (Nickel + Iron). Outer core is liquid (generates magnetic field), inner core is solid.</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Core:</em> NIFE (Nickel + Iron). Outer core is liquid (generates magnetic field), inner core is solid.</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Discontinuities: Conrad (Upper/Lower Crust), Mohorovicic (Crust/Mantle), Repetti (Upper/Lower Mantle), Gutenberg (Mantle/Core), Lehmann (Outer/Inner Core).</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Discontinuities:</em> Conrad (Upper/Lower Crust), Mohorovicic (Crust/Mantle), Repetti (Upper/Lower Mantle), Gutenberg (Mantle/Core), Lehmann (Outer/Inner Core).</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Rocks:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Rocks:</strong>
                 <table style='width:100%; border-collapse: collapse; margin-top: 10px; margin-bottom: 10px; font-size: 0.9em;'>
                     <tr style='background: #1E293B;'><th style='border: 1px solid #334155; padding: 5px;'>Type</th><th style='border: 1px solid #334155; padding: 5px;'>Characteristics & Examples</th></tr>
                     <tr><td style='border: 1px solid #334155; padding: 5px;'><strong>Igneous</strong> (Primary)</strong></td><td style='border: 1px solid #334155; padding: 5px;'>Cooling of magma. No fossils. Intrusive: Granite, Gabbro, Pegmatite. Extrusive: Basalt, Andesite.</td></tr>
                     <tr><td style='border: 1px solid #334155; padding: 5px;'><strong>Sedimentary</strong></td><td style='border: 1px solid #334155; padding: 5px;'>Stratified, contains fossils. Sandstone, Limestone, Shale, Chalk, Coal, Gypsum.</td></tr>
                     <tr><td style='border: 1px solid #334155; padding: 5px;'><strong>Metamorphic</strong></td><td style='border: 1px solid #334155; padding: 5px;'>Changed by heat/pressure. Limestone &rarr; Marble. Sandstone &rarr; Quartzite. Shale &rarr; Slate. Coal &rarr; Graphite/Diamond. Granite &rarr; Gneiss.</td></tr>
+                </table></td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Earthquakes & Volcanoes:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Earthquakes & Volcanoes:</strong>
+                <ul>
+                    <li><em>Seismic Waves:</em> P-waves (Primary, longitudinal, fastest, pass through solid/liquid/gas). S-waves (Secondary, transverse, only pass through solids). L-waves (Surface, slowest, most destructive).</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Measurement: Richter scale (magnitude/energy). Mercalli scale (intensity/damage).</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Measurement:</em> Richter scale (magnitude/energy). Mercalli scale (intensity/damage).</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Volcano Types: Shield (Hawaii, basaltic fluid), Composite/Stratovolcano (Mt Fuji, explosive), Caldera (collapsed). Ring of Fire (Pacific Ocean) holds 75% of active volcanoes.</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Volcano Types:</em> Shield (Hawaii, basaltic fluid), Composite/Stratovolcano (Mt Fuji, explosive), Caldera (collapsed). Ring of Fire (Pacific Ocean) holds 75% of active volcanoes.</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Notable Volcanoes: Cotopaxi (Ecuador), Mt Etna (Ecuador, highest active), Mt Vesuvius & Stromboli (Italy), Barren Island (India's only active, Andamans), Mt Kilimanjaro (Italy).</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Notable Volcanoes:</em> Cotopaxi (Ecuador), Mt Etna (Ecuador, highest active), Mt Vesuvius & Stromboli (Italy), Barren Island (India's only active, Andamans), Mt Kilimanjaro (Italy).</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Continental Drift & Plate Tectonics:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Continental Drift & Plate Tectonics:</strong> Proposed by Alfred Wegener (1912). Pangaea (supercontinent) surrounded by Panthalassa (ocean). Split into Laurasia (North) and Gondwanaland (South) by Tethys Sea.</td>
+</tr>
+<tr style='background:#0F172A;'>
+<td colspan='2' style='padding:15px; border:1px solid #475569;'>
+  <table style='width:100%; border-collapse: collapse; margin-top: 10px; margin-bottom: 10px; font-size: 0.9em;'>
+                    <tr style='background: #1E293B;'><th style='border: 1px solid #334155; padding: 5px;'>Type</th><th style='border: 1px solid #334155; padding: 5px;'>Characteristics & Examples</th></tr>
+                    <tr><td style='border: 1px solid #334155; padding: 5px;'><strong>Igneous</strong> (Primary)</strong></td><td style='border: 1px solid #334155; padding: 5px;'>Cooling of magma. No fossils. Intrusive: Granite, Gabbro, Pegmatite. Extrusive: Basalt, Andesite.</td></tr>
+                    <tr><td style='border: 1px solid #334155; padding: 5px;'><strong>Sedimentary</strong></td><td style='border: 1px solid #334155; padding: 5px;'>Stratified, contains fossils. Sandstone, Limestone, Shale, Chalk, Coal, Gypsum.</td></tr>
+                    <tr><td style='border: 1px solid #334155; padding: 5px;'><strong>Metamorphic</strong></td><td style='border: 1px solid #334155; padding: 5px;'>Changed by heat/pressure. Limestone &rarr; Marble. Sandstone &rarr; Quartzite. Shale &rarr; Slate. Coal &rarr; Graphite/Diamond. Granite &rarr; Gneiss.</td></tr>
                 </table>
-            </li>
-            <li><strong>Earthquakes & Volcanoes:</strong>
-                <ul>
-                    <li><em>Seismic Waves:</em> P-waves (Primary, longitudinal, fastest, pass through solid/liquid/gas). S-waves (Secondary, transverse, only pass through solids). L-waves (Surface, slowest, most destructive).</li>
-                    <li><em>Measurement:</em> Richter scale (magnitude/energy). Mercalli scale (intensity/damage).</li>
-                    <li><em>Volcano Types:</em> Shield (Hawaii, basaltic fluid), Composite/Stratovolcano (Mt Fuji, explosive), Caldera (collapsed). Ring of Fire (Pacific Ocean) holds 75% of active volcanoes.</li>
-                    <li><em>Notable Volcanoes:</em> Cotopaxi (Ecuador), Mt Etna (Ecuador, highest active), Mt Vesuvius & Stromboli (Italy), Barren Island (India's only active, Andamans), Mt Kilimanjaro (Italy).</li>
-                </ul>
-            </li>
-            <li><strong>Continental Drift & Plate Tectonics:</strong> Proposed by Alfred Wegener (1912). Pangaea (supercontinent) surrounded by Panthalassa (ocean). Split into Laurasia (North) and Gondwanaland (South) by Tethys Sea.</li>
-        </ul>
+</td>
+</tr>
+    </table>
+  </div>
+</div>
 
-        <h3>3. Climatology & Atmosphere</h3>
-        <ul>
-            <li><strong>Composition:</strong> Nitrogen (78%), Oxygen (21%), Argon (0.93%), CO2 (0.03%).</li>
-            <li><strong>Layers of Atmosphere:</strong>
+<div style='margin:25px 0; border-radius:12px; overflow:hidden; box-shadow:0 4px 20px rgba(0,0,0,0.3);'>
+  <div style='background:linear-gradient(135deg, #1E293B, #0F172A); padding:15px 20px; border-left:4px solid #38BDF8;'>
+    <h3 style='color:#38BDF8; margin:0; font-size:1.2em;'>3. Climatology & Atmosphere</h3>
+  </div>
+  <div style='overflow-x:auto;'>
+    <table style='width:100%; border-collapse:collapse;'>
+      <tr style='background:#334155; color:#94A3B8;'>
+        <th style='padding:12px; border:1px solid #475569; text-align:left; width:28%;'>Concept / Fact</th>
+        <th style='padding:12px; border:1px solid #475569; text-align:left; width:72%;'>Details</th>
+      </tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Composition:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Composition:</strong> Nitrogen (78%), Oxygen (21%), Argon (0.93%), CO2 (0.03%).</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Layers of Atmosphere:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Layers of Atmosphere:</strong>
                 <ul>
-                    <li><em><strong>Troposphere</strong>:</em> Lowest, contains all weather events, dust, water vapor. Temp decreases with height (Normal Lapse Rate: 6.5�C per km).</li>
-                    <li><em><strong>Stratosphere</strong>:</em> Contains Ozone layer (O3, absorbs UV). Temp increases with height. Ideal for flying jet aircraft.</li>
-                    <li><em><strong>Mesosphere</strong>:</em> Coldest layer. Meteors burn up here.</li>
-                    <li><em><strong>Thermosphere</strong>/Ionosphere:</em> Contains ions. Reflects radio waves. Auroras (Borealis/Australis) occur here. Temp rises rapidly.</li>
-                    <li><em><strong>Exosphere</strong>:</em> Outermost layer merging with space.</li>
-                </ul>
-            </li>
-            <li><strong>Winds:</strong>
+                    <li><em><strong>Troposphere</strong>:</em> Lowest, contains all weather events, dust, water vapor. Temp decreases with height (Normal Lapse Rate: 6.5�C per km).</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Stratosphere</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em><strong>Stratosphere</strong>:</em> Contains Ozone layer (O3, absorbs UV). Temp increases with height. Ideal for flying jet aircraft.</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Mesosphere</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em><strong>Mesosphere</strong>:</em> Coldest layer. Meteors burn up here.</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Thermosphere</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em><strong>Thermosphere</strong>/Ionosphere:</em> Contains ions. Reflects radio waves. Auroras (Borealis/Australis) occur here. Temp rises rapidly.</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Exosphere</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em><strong>Exosphere</strong>:</em> Outermost layer merging with space.</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Winds:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Winds:</strong>
                 <ul>
-                    <li><em>Planetary/Permanent:</em> Trade Winds (Easterlies), Westerlies, Polar Easterlies.</li>
-                    <li><em>Local Winds (Warm):</em> Chinook (Rockies/USA), Foehn (Alps/Europe - "Snow Eater"), Sirocco (Sahara to Italy - "Blood Rain"), Khamsin (Egypt), Loo (India), Harmattan (Arabia - "Doctor wind").</li>
-                    <li><em>Local Winds (Cold):</em> Mistral (Alps to France), Bora (Adriatic), Blizzard (Siberia), Pampero (Argentina).</li>
-                </ul>
-            </li>
-            <li><strong>Cyclones vs Anticyclones:</strong>
+                    <li><em>Planetary/Permanent:</em> Trade Winds (Easterlies), Westerlies, Polar Easterlies.</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Local Winds (Warm): Chinook (Rockies/USA), Foehn (Alps/Europe - "Snow Eater"), Sirocco (Sahara to Italy - "Blood Rain"), Khamsin (Egypt), Loo (India), Harmattan (Arabia - "Doctor wind").</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Local Winds (Warm):</em> Chinook (Rockies/USA), Foehn (Alps/Europe - "Snow Eater"), Sirocco (Sahara to Italy - "Blood Rain"), Khamsin (Egypt), Loo (India), Harmattan (Arabia - "Doctor wind").</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Local Winds (Cold): Mistral (Alps to France), Bora (Adriatic), Blizzard (Siberia), Pampero (Argentina).</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Local Winds (Cold):</em> Mistral (Alps to France), Bora (Adriatic), Blizzard (Siberia), Pampero (Argentina).</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Cyclones vs Anticyclones:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Cyclones vs Anticyclones:</strong>
                 <ul>
-                    <li><em>Cyclones:</em> Low pressure center. Winds blow Anti-clockwise in Northern Hemisphere, Clockwise in Southern Hemisphere. E.g., Hurricanes (USA), Typhoons (China/Japan), Willy-Willies (Australia).</li>
-                    <li><em>Anticyclones:</em> High pressure center. Clear weather. Winds blow Clockwise in NH, Anti-clockwise in SH.</li>
-                </ul>
-            </li>
-        </ul>
+                    <li><em>Cyclones:</em> Low pressure center. Winds blow Anti-clockwise in Northern Hemisphere, Clockwise in Southern Hemisphere. E.g., Hurricanes (USA), Typhoons (China/Japan), Willy-Willies (Australia).</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Anticyclones: High pressure center. Clear weather. Winds blow Clockwise in NH, Anti-clockwise in SH.</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Anticyclones:</em> High pressure center. Clear weather. Winds blow Clockwise in NH, Anti-clockwise in SH.</td>
+</tr>
+    </table>
+  </div>
+</div>
 
-        <h3>4. Oceanography</h3>
-        <ul>
-            <li><strong>Ocean Relief:</strong> Continental Shelf &rarr; Continental Slope &rarr; Deep Sea Plain (Abyssal Plain) &rarr; Oceanic Trenches. <em>Mariana Trench</em> (Challenger Deep) in Pacific is the deepest point.</li>
-            <li><strong>Salinity:</strong> Average is 35 ppt. Dead Sea (328 ppt), Lake Van (330 ppt), Lake Don Juan (380 ppt). Highest salinity found at Tropics (20-30� latitudes) due to high evaporation and low rain.</li>
-            <li><strong>Ocean Currents:</strong>
+<div style='margin:25px 0; border-radius:12px; overflow:hidden; box-shadow:0 4px 20px rgba(0,0,0,0.3);'>
+  <div style='background:linear-gradient(135deg, #1E293B, #0F172A); padding:15px 20px; border-left:4px solid #818CF8;'>
+    <h3 style='color:#818CF8; margin:0; font-size:1.2em;'>4. Oceanography</h3>
+  </div>
+  <div style='overflow-x:auto;'>
+    <table style='width:100%; border-collapse:collapse;'>
+      <tr style='background:#334155; color:#94A3B8;'>
+        <th style='padding:12px; border:1px solid #475569; text-align:left; width:28%;'>Concept / Fact</th>
+        <th style='padding:12px; border:1px solid #475569; text-align:left; width:72%;'>Details</th>
+      </tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Ocean Relief:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Ocean Relief:</strong> Continental Shelf &rarr; Continental Slope &rarr; Deep Sea Plain (Abyssal Plain) &rarr; Oceanic Trenches. <em>Mariana Trench</em> (Challenger Deep) in Pacific is the deepest point.</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Salinity:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Salinity:</strong> Average is 35 ppt. Dead Sea (328 ppt), Lake Van (330 ppt), Lake Don Juan (380 ppt). Highest salinity found at Tropics (20-30� latitudes) due to high evaporation and low rain.</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Ocean Currents:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Ocean Currents:</strong>
                 <table style='width:100%; border-collapse: collapse; margin-top: 10px; margin-bottom: 10px; font-size: 0.9em;'>
                     <tr style='background: #1E293B;'><th style='border: 1px solid #334155; padding: 5px;'>Ocean</th><th style='border: 1px solid #334155; padding: 5px;'>Warm Currents</th><th style='border: 1px solid #334155; padding: 5px;'>Cold Currents</th></tr>
                     <tr><td style='border: 1px solid #334155; padding: 5px;'><strong>Atlantic</strong></td><td style='border: 1px solid #334155; padding: 5px;'>Gulf Stream, Kuroshio (Pacific), Brazilian</td><td style='border: 1px solid #334155; padding: 5px;'>Labrador, Canary, Falkland, Benguela</td></tr>
                     <tr><td style='border: 1px solid #334155; padding: 5px;'><strong>Pacific</strong></td><td style='border: 1px solid #334155; padding: 5px;'>Kuroshio (Japan), East Australian, Alaskan</td><td style='border: 1px solid #334155; padding: 5px;'>Oyashio, California, Peru, West Wind Drift</td></tr>
                     <tr><td style='border: 1px solid #334155; padding: 5px;'><strong>Indian</strong></td><td style='border: 1px solid #334155; padding: 5px;'>Agulhas, Mozambique, Madagascar</td><td style='border: 1px solid #334155; padding: 5px;'>West Australian</td></tr>
                 </table>
-                <em>Note:</em> Meeting of warm and cold currents produces thick fog and excellent fishing grounds (e.g., Grand Banks near Newfoundland where Gulf Stream & Labrador meet).
-            </li>
-            <li><strong>Tides:</strong> Spring Tide (High amplitude, <strong>sun</strong>/<strong>moon</strong>/<strong>earth</strong> in straight line - Syzygy). Neap Tide (Low amplitude, <strong>sun</strong>/<strong>moon</strong> at right angles). Bay of Fundy (Canada) has highest tides.</li>
-        </ul>
+                <em>Note:</em> Meeting of warm and cold currents produces thick fog and excellent fishing grounds (e.g., Grand Banks near Newfoundland where Gulf Stream & Labrador meet).</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Tides:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Tides:</strong> Spring Tide (High amplitude, <strong>sun</strong>/<strong>moon</strong>/<strong>earth</strong> in straight line - Syzygy). Neap Tide (Low amplitude, <strong>sun</strong>/<strong>moon</strong> at right angles). Bay of Fundy (Canada) has highest tides.</td>
+</tr>
+<tr style='background:#0F172A;'>
+<td colspan='2' style='padding:15px; border:1px solid #475569;'>
+  <table style='width:100%; border-collapse: collapse; margin-top: 10px; margin-bottom: 10px; font-size: 0.9em;'>
+                    <tr style='background: #1E293B;'><th style='border: 1px solid #334155; padding: 5px;'>Ocean</th><th style='border: 1px solid #334155; padding: 5px;'>Warm Currents</th><th style='border: 1px solid #334155; padding: 5px;'>Cold Currents</th></tr>
+                    <tr><td style='border: 1px solid #334155; padding: 5px;'><strong>Atlantic</strong></td><td style='border: 1px solid #334155; padding: 5px;'>Gulf Stream, Kuroshio (Pacific), Brazilian</td><td style='border: 1px solid #334155; padding: 5px;'>Labrador, Canary, Falkland, Benguela</td></tr>
+                    <tr><td style='border: 1px solid #334155; padding: 5px;'><strong>Pacific</strong></td><td style='border: 1px solid #334155; padding: 5px;'>Kuroshio (Japan), East Australian, Alaskan</td><td style='border: 1px solid #334155; padding: 5px;'>Oyashio, California, Peru, West Wind Drift</td></tr>
+                    <tr><td style='border: 1px solid #334155; padding: 5px;'><strong>Indian</strong></td><td style='border: 1px solid #334155; padding: 5px;'>Agulhas, Mozambique, Madagascar</td><td style='border: 1px solid #334155; padding: 5px;'>West Australian</td></tr>
+                </table>
+</td>
+</tr>
+    </table>
+  </div>
+</div>
 
-        <h3>5. Physical Geography of India � THE COMPLETE PARMAR TABLE</h3>
-        <ul>
-            <li><strong>Basic Facts:</strong> Area: 3.28 million sq km (2.4% of world, 7th largest). Latitudinal extent: 8�4'N to 37�6'N. Longitudinal extent: 68�7'E to 97�25'E. Standard Meridian: 82�30'E (passes through Mirzapur, UP). East-West width: ~2933 km. North-South length: ~3214 km.</li>
-            <li><strong>Tropic of Cancer</strong> (23.5�N) passes through 8 states:</strong> GJ → RJ → MP → CG → JH → WB → TR → MZ (Mnemonic: <em>Gujarat Rajasthan MP CG Jhar WB Tripura Mizoram</em>).</li>
-            <li><strong>Borders:</strong> Longest: Bangladesh (4096 km). China (3488), Pakistan (3323), Nepal (1751), Myanmar (1643), Bhutan (699), Afghanistan (106 km � shortest). Lines: Durand (India-Afghanistan), Radcliffe (India-Pakistan), McMahon (India-China/Arunachal).</li>
-            <li><strong>Southernmost Point:</strong> Indira Point / Pygmalion Point (Nicobar Islands). Southernmost point of mainland India: Kanyakumari.</li>
-
-            <li><strong>The <strong>Himalayas</strong> � COMPLETE BREAK-UP:</strong>
+<div style='margin:25px 0; border-radius:12px; overflow:hidden; box-shadow:0 4px 20px rgba(0,0,0,0.3);'>
+  <div style='background:linear-gradient(135deg, #1E293B, #0F172A); padding:15px 20px; border-left:4px solid #F472B6;'>
+    <h3 style='color:#F472B6; margin:0; font-size:1.2em;'>5. Physical Geography of India � THE COMPLETE PARMAR TABLE</h3>
+  </div>
+  <div style='overflow-x:auto;'>
+    <table style='width:100%; border-collapse:collapse;'>
+      <tr style='background:#334155; color:#94A3B8;'>
+        <th style='padding:12px; border:1px solid #475569; text-align:left; width:28%;'>Concept / Fact</th>
+        <th style='padding:12px; border:1px solid #475569; text-align:left; width:72%;'>Details</th>
+      </tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Basic Facts:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Basic Facts:</strong> Area: 3.28 million sq km (2.4% of world, 7th largest). Latitudinal extent: 8�4'N to 37�6'N. Longitudinal extent: 68�7'E to 97�25'E. Standard Meridian: 82�30'E (passes through Mirzapur, UP). East-West width: ~2933 km. North-South length: ~3214 km.</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Tropic of Cancer</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Tropic of Cancer</strong> (23.5�N) passes through 8 states:</strong> GJ → RJ → MP → CG → JH → WB → TR → MZ (Mnemonic: <em>Gujarat Rajasthan MP CG Jhar WB Tripura Mizoram</em>).</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Borders:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Borders:</strong> Longest: Bangladesh (4096 km). China (3488), Pakistan (3323), Nepal (1751), Myanmar (1643), Bhutan (699), Afghanistan (106 km � shortest). Lines: Durand (India-Afghanistan), Radcliffe (India-Pakistan), McMahon (India-China/Arunachal).</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Southernmost Point:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Southernmost Point:</strong> Indira Point / Pygmalion Point (Nicobar Islands). Southernmost point of mainland India: Kanyakumari.</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>The Himalayas</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>The <strong>Himalayas</strong> � COMPLETE BREAK-UP:</strong>
                 <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
                     <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>Range</th><th style='border:1px solid #334155;padding:5px;'>Key Sub-Ranges / Peaks</th><th style='border:1px solid #334155;padding:5px;'>Special Notes</th></tr>
                     <tr><td style='border:1px solid #334155;padding:5px;'><strong>Trans-<strong>Himalayas</strong></td><td style='border:1px solid #334155;padding:5px;'><strong>Karakoram</strong>, Ladakh, <strong>Zaskar</strong>, Kailash</td><td style='border:1px solid #334155;padding:5px;'>K2 / Godwin Austen (8611m) � highest in India. Siachen Glacier. <strong>Karakoram</strong> Pass.</td></tr>
                     <tr><td style='border:1px solid #334155;padding:5px;'><strong>Greater <strong>Himalayas</strong> (Himadri)</strong></td><td style='border:1px solid #334155;padding:5px;'>Everest (8848m), Kanchenjunga (8586m, highest entirely in India), Nanda Devi (7817m)</td><td style='border:1px solid #334155;padding:5px;'>Core is Granitic. Permanent snow line. Kanchenjunga is highest peak in India proper.</td></tr>
                     <tr><td style='border:1px solid #334155;padding:5px;'><strong>Lesser <strong>Himalayas</strong> (Himachal)</strong></td><td style='border:1px solid #334155;padding:5px;'><strong>Pir Panjal</strong>, <strong>Dhauladhar</strong>, <strong>Mahabharat</strong> range</td><td style='border:1px solid #334155;padding:5px;'>Famous hill stations: Shimla, Mussoorie, Nainital, Darjeeling, Ooty. <em>Karewa formations</em> in Kashmir Valley (good for saffron cultivation).</td></tr>
                     <tr><td style='border:1px solid #334155;padding:5px;'><strong>Outer <strong>Himalayas</strong> (Shiwaliks)</strong></td><td style='border:1px solid #334155;padding:5px;'>Manak Point, Margalla Hills</td><td style='border:1px solid #334155;padding:5px;'>Made of unconsolidated sediments (Molasse). <em>Doons/Duns</em> � longitudinal valleys between Shiwaliks &amp; Lesser <strong>Himalayas</strong> (e.g., Dehradun, Patli Dun, Kotli Dun).</td></tr>
-                </table>
-            </li>
-
-            <li><strong>Mountain Passes � COMPLETE TABLE (SSC Favourite):</strong>
+                </table></td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Mountain Passes � COMPLETE TABLE (SSC Favourite):</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Mountain Passes � COMPLETE TABLE (SSC Favourite):</strong>
                 <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
                     <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>State</th><th style='border:1px solid #334155;padding:5px;'>Pass</th><th style='border:1px solid #334155;padding:5px;'>Connects</th></tr>
                     <tr><td style='border:1px solid #334155;padding:5px;'>J&amp;K / Ladakh</td><td style='border:1px solid #334155;padding:5px;'><strong>Zoji La</strong>, <strong>Karakoram</strong> Pass, Banihal Pass</td><td style='border:1px solid #334155;padding:5px;'>Srinagar-Leh; Leh-Xinjiang; Jammu-Srinagar (NH 44)</td></tr>
@@ -133,19 +320,41 @@ window.fatmanGeography = {
                     <tr><td style='border:1px solid #334155;padding:5px;'>Sikkim</td><td style='border:1px solid #334155;padding:5px;'><strong>Nathu La</strong>, <strong>Jelep La</strong></td><td style='border:1px solid #334155;padding:5px;'>India-China trade; Sikkim-Chumbi Valley (Tibet)</td></tr>
                     <tr><td style='border:1px solid #334155;padding:5px;'>Arunachal Pradesh</td><td style='border:1px solid #334155;padding:5px;'>Bum La, Diphu Pass, Pangsau Pass, Sela Pass</td><td style='border:1px solid #334155;padding:5px;'>Tawang-China; Arunachal-Myanmar; Arunachal-Assam</td></tr>
                     <tr><td style='border:1px solid #334155;padding:5px;'><strong>Western Ghats</strong></td><td style='border:1px solid #334155;padding:5px;'><strong>Thal Ghat</strong> (Kasara Ghat), <strong>Bhor Ghat</strong> (Khambatki), <strong>Pal Ghat</strong> (Palakkad)</td><td style='border:1px solid #334155;padding:5px;'>Mumbai-Nashik; Mumbai-Pune; Coimbatore-Thrissur (Lowest/widest WG pass)</td></tr>
-                </table>
-            </li>
-
-            <li><strong>Peninsular Plateau � EXHAUSTIVE DEEP CUTS:</strong>
+                </table></td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Peninsular Plateau � EXHAUSTIVE DEEP CUTS:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Peninsular Plateau � EXHAUSTIVE DEEP CUTS:</strong>
                 <ul>
-                    <li><em>Central Highlands:</em> North of <strong>Narmada</strong>. Includes Malwa Plateau, Bundelkhand, Baghelkhand, Chota Nagpur Plateau (mineral treasure of India).</li>
-                    <li><em>Deccan Plateau:</em> South of <strong>Narmada</strong>. Triangular shape. Lava-covered Deccan Trap basalt (Maharashtra). Western part higher (rain shadow).</li>
-                    <li><em>Aravallis:</em> Oldest fold mountains in India (and world). Run NE-SW from Delhi to Gujarat. Highest peak: <strong>Guru Shikhar</strong> (1722m, Mt. Abu, Rajasthan). Act as rain shadow barrier � Thar desert to the west.</li>
-                    <li><em><strong>Vindhya</strong> Range:</em> Block mountains (Fault scarp). Highest point: <strong>Sadbhawna Shikhar</strong>. Separates Indo-Gangetic plain from Deccan. River <strong>Son</strong> originates here.</li>
-                    <li><em><strong>Satpura</strong> Range:</em> Block mountains parallel to Vindhyas. Highest peak: <strong>Dhupgarh</strong> (1350m, Pachmarhi, MP). Pachmarhi called <em>"Queen of <strong>Satpura</strong>"</em>. <strong>Narmada</strong> flows in rift valley between <strong>Vindhya</strong> &amp; <strong>Satpura</strong>.</li>
-                    <li><em>Asirgarh Fort (Burhanpur, MP):</em> Called <em>"Key to the Deccan"</em> � controls strategic gap between Vindhyas and Satpuras.</li>
-                    <li><em>Panna (MP):</em> Only diamond mines in India.</li>
-                    <li><em><strong>Western Ghats</strong> (Sahyadris) vs <strong>Eastern Ghats</strong> � COMPARISON TABLE:</em>
+                    <li><em>Central Highlands:</em> North of <strong>Narmada</strong>. Includes Malwa Plateau, Bundelkhand, Baghelkhand, Chota Nagpur Plateau (mineral treasure of India).</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Narmada</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Deccan Plateau:</em> South of <strong>Narmada</strong>. Triangular shape. Lava-covered Deccan Trap basalt (Maharashtra). Western part higher (rain shadow).</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Guru Shikhar</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Aravallis:</em> Oldest fold mountains in India (and world). Run NE-SW from Delhi to Gujarat. Highest peak: <strong>Guru Shikhar</strong> (1722m, Mt. Abu, Rajasthan). Act as rain shadow barrier � Thar desert to the west.</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Vindhya</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em><strong>Vindhya</strong> Range:</em> Block mountains (Fault scarp). Highest point: <strong>Sadbhawna Shikhar</strong>. Separates Indo-Gangetic plain from Deccan. River <strong>Son</strong> originates here.</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Satpura</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em><strong>Satpura</strong> Range:</em> Block mountains parallel to Vindhyas. Highest peak: <strong>Dhupgarh</strong> (1350m, Pachmarhi, MP). Pachmarhi called <em>"Queen of <strong>Satpura</strong>"</em>. <strong>Narmada</strong> flows in rift valley between <strong>Vindhya</strong> &amp; <strong>Satpura</strong>.</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Asirgarh Fort (Burhanpur, MP): Called "Key to the Deccan" � controls strategic gap between Vindhyas and Satpuras.</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Asirgarh Fort (Burhanpur, MP):</em> Called <em>"Key to the Deccan"</em> � controls strategic gap between Vindhyas and Satpuras.</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Panna (MP): Only diamond mines in India.</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Panna (MP):</em> Only diamond mines in India.</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Western Ghats</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em><strong>Western Ghats</strong> (Sahyadris) vs <strong>Eastern Ghats</strong> � COMPARISON TABLE:</em>
                         <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
                             <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>Feature</th><th style='border:1px solid #334155;padding:5px;'><strong>Western Ghats</strong></th><th style='border:1px solid #334155;padding:5px;'><strong>Eastern Ghats</strong></th></tr>
                             <tr><td style='border:1px solid #334155;padding:5px;'>Continuity</td><td style='border:1px solid #334155;padding:5px;'>Continuous</td><td style='border:1px solid #334155;padding:5px;'>Discontinuous (cut by rivers)</td></tr>
@@ -154,25 +363,84 @@ window.fatmanGeography = {
                             <tr><td style='border:1px solid #334155;padding:5px;'>Type</td><td style='border:1px solid #334155;padding:5px;'>Block mountains (fault scarp)</td><td style='border:1px solid #334155;padding:5px;'>Erosional remnants</td></tr>
                             <tr><td style='border:1px solid #334155;padding:5px;'>Rivers</td><td style='border:1px solid #334155;padding:5px;'>Short westward rivers into Arabian Sea</td><td style='border:1px solid #334155;padding:5px;'>Long eastward rivers forming deltas in Bay of Bengal</td></tr>
                             <tr><td style='border:1px solid #334155;padding:5px;'>UNESCO</td><td style='border:1px solid #334155;padding:5px;'>Biodiversity Hotspot (8 sites, 2012)</td><td style='border:1px solid #334155;padding:5px;'>Not a UNESCO hotspot</td></tr>
-                        </table>
-                    </li>
-                    <li><em>Nilgiris (Blue Mountains):</em> Connect WG &amp; EG. Highest: <strong>Doddabetta</strong> (2637m, Ooty). Ooty = Queen of Hill Stations.</li>
-                </ul>
-            </li>
-
-            <li><strong>Coastal Plains &amp; Islands � Deep Cuts:</strong>
+                        </table></td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Doddabetta</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Nilgiris (Blue Mountains):</em> Connect WG &amp; EG. Highest: <strong>Doddabetta</strong> (2637m, Ooty). Ooty = Queen of Hill Stations.</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Coastal Plains &amp; Islands � Deep Cuts:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Coastal Plains &amp; Islands � Deep Cuts:</strong>
                 <ul>
-                    <li><em>West Coast (Narrower):</em> Konkan (Maharashtra), Kanara (Karnataka), Malabar (Kerala � backwaters/Kayals). Khazan wetlands (Goa).</li>
-                    <li><em>East Coast (Wider):</em> Northern Circars (Odisha/AP), Coromandel (TN). Large river deltas. <strong>Chilika</strong> Lake (largest brackish lagoon) here.</li>
-                    <li><em>Andaman &amp; Nicobar:</em> 572 islands. 10� Channel separates A&amp;N groups. Highest: <strong>Saddle Peak</strong> (732m, North Andaman). Duncan Passage (South Andaman-Little Andaman). <em>Barren Island</em> (India's only active volcano). <em>Narcondam</em> (dormant volcano). <em>APJ Abdul Kalam Island / Wheeler Island</em> (Odisha, missile testing).</li>
-                    <li><em>Lakshadweep:</em> 36 coral islands. 8� Channel: Minicoy-Maldives. 9� Channel: Minicoy-main Lakshadweep. Smallest UT of India. Capital: Kavaratti.</li>
-                </ul>
-            </li>
-        </ul>
+                    <li><em>West Coast (Narrower):</em> Konkan (Maharashtra), Kanara (Karnataka), Malabar (Kerala � backwaters/Kayals). Khazan wetlands (Goa).</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Chilika</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>East Coast (Wider):</em> Northern Circars (Odisha/AP), Coromandel (TN). Large river deltas. <strong>Chilika</strong> Lake (largest brackish lagoon) here.</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Saddle Peak</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Andaman &amp; Nicobar:</em> 572 islands. 10� Channel separates A&amp;N groups. Highest: <strong>Saddle Peak</strong> (732m, North Andaman). Duncan Passage (South Andaman-Little Andaman). <em>Barren Island</em> (India's only active volcano). <em>Narcondam</em> (dormant volcano). <em>APJ Abdul Kalam Island / Wheeler Island</em> (Odisha, missile testing).</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Lakshadweep: 36 coral islands. 8� Channel</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'>Minicoy-Maldives. 9� Channel: Minicoy-main Lakshadweep. Smallest UT of India. Capital: Kavaratti.</td>
+</tr>
+<tr style='background:#0F172A;'>
+<td colspan='2' style='padding:15px; border:1px solid #475569;'>
+  <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
+                    <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>Range</th><th style='border:1px solid #334155;padding:5px;'>Key Sub-Ranges / Peaks</th><th style='border:1px solid #334155;padding:5px;'>Special Notes</th></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'><strong>Trans-<strong>Himalayas</strong></td><td style='border:1px solid #334155;padding:5px;'><strong>Karakoram</strong>, Ladakh, <strong>Zaskar</strong>, Kailash</td><td style='border:1px solid #334155;padding:5px;'>K2 / Godwin Austen (8611m) � highest in India. Siachen Glacier. <strong>Karakoram</strong> Pass.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'><strong>Greater <strong>Himalayas</strong> (Himadri)</strong></td><td style='border:1px solid #334155;padding:5px;'>Everest (8848m), Kanchenjunga (8586m, highest entirely in India), Nanda Devi (7817m)</td><td style='border:1px solid #334155;padding:5px;'>Core is Granitic. Permanent snow line. Kanchenjunga is highest peak in India proper.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'><strong>Lesser <strong>Himalayas</strong> (Himachal)</strong></td><td style='border:1px solid #334155;padding:5px;'><strong>Pir Panjal</strong>, <strong>Dhauladhar</strong>, <strong>Mahabharat</strong> range</td><td style='border:1px solid #334155;padding:5px;'>Famous hill stations: Shimla, Mussoorie, Nainital, Darjeeling, Ooty. <em>Karewa formations</em> in Kashmir Valley (good for saffron cultivation).</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'><strong>Outer <strong>Himalayas</strong> (Shiwaliks)</strong></td><td style='border:1px solid #334155;padding:5px;'>Manak Point, Margalla Hills</td><td style='border:1px solid #334155;padding:5px;'>Made of unconsolidated sediments (Molasse). <em>Doons/Duns</em> � longitudinal valleys between Shiwaliks &amp; Lesser <strong>Himalayas</strong> (e.g., Dehradun, Patli Dun, Kotli Dun).</td></tr>
+                </table>
+</td>
+</tr>
+<tr style='background:#0F172A;'>
+<td colspan='2' style='padding:15px; border:1px solid #475569;'>
+  <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
+                    <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>State</th><th style='border:1px solid #334155;padding:5px;'>Pass</th><th style='border:1px solid #334155;padding:5px;'>Connects</th></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>J&amp;K / Ladakh</td><td style='border:1px solid #334155;padding:5px;'><strong>Zoji La</strong>, <strong>Karakoram</strong> Pass, Banihal Pass</td><td style='border:1px solid #334155;padding:5px;'>Srinagar-Leh; Leh-Xinjiang; Jammu-Srinagar (NH 44)</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Himachal Pradesh</td><td style='border:1px solid #334155;padding:5px;'><strong>Shipki La</strong>, <strong>Rohtang Pass</strong>, Baralacha La</td><td style='border:1px solid #334155;padding:5px;'>Kinnaur-Tibet; Kullu-Lahaul; Lahaul-Ladakh</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Uttarakhand</td><td style='border:1px solid #334155;padding:5px;'><strong>Niti Pass</strong>, <strong>Mana Pass</strong>, Lipu Lekh, Traill Pass, Mangsha Dhura</td><td style='border:1px solid #334155;padding:5px;'>India-Tibet border; Kailash Mansarovar route via Lipu Lekh</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Sikkim</td><td style='border:1px solid #334155;padding:5px;'><strong>Nathu La</strong>, <strong>Jelep La</strong></td><td style='border:1px solid #334155;padding:5px;'>India-China trade; Sikkim-Chumbi Valley (Tibet)</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Arunachal Pradesh</td><td style='border:1px solid #334155;padding:5px;'>Bum La, Diphu Pass, Pangsau Pass, Sela Pass</td><td style='border:1px solid #334155;padding:5px;'>Tawang-China; Arunachal-Myanmar; Arunachal-Assam</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'><strong>Western Ghats</strong></td><td style='border:1px solid #334155;padding:5px;'><strong>Thal Ghat</strong> (Kasara Ghat), <strong>Bhor Ghat</strong> (Khambatki), <strong>Pal Ghat</strong> (Palakkad)</td><td style='border:1px solid #334155;padding:5px;'>Mumbai-Nashik; Mumbai-Pune; Coimbatore-Thrissur (Lowest/widest WG pass)</td></tr>
+                </table>
+</td>
+</tr>
+<tr style='background:#0F172A;'>
+<td colspan='2' style='padding:15px; border:1px solid #475569;'>
+  <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
+                            <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>Feature</th><th style='border:1px solid #334155;padding:5px;'><strong>Western Ghats</strong></th><th style='border:1px solid #334155;padding:5px;'><strong>Eastern Ghats</strong></th></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'>Continuity</td><td style='border:1px solid #334155;padding:5px;'>Continuous</td><td style='border:1px solid #334155;padding:5px;'>Discontinuous (cut by rivers)</td></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'>Avg. Height</td><td style='border:1px solid #334155;padding:5px;'>~1200 m</td><td style='border:1px solid #334155;padding:5px;'>~600 m (lower)</td></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'>Highest Peak</td><td style='border:1px solid #334155;padding:5px;'>Anamudi / Anai Mudi (2695m, Kerala)</td><td style='border:1px solid #334155;padding:5px;'>Jindhagada / Arma Konda (1690m, AP)</td></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'>Type</td><td style='border:1px solid #334155;padding:5px;'>Block mountains (fault scarp)</td><td style='border:1px solid #334155;padding:5px;'>Erosional remnants</td></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'>Rivers</td><td style='border:1px solid #334155;padding:5px;'>Short westward rivers into Arabian Sea</td><td style='border:1px solid #334155;padding:5px;'>Long eastward rivers forming deltas in Bay of Bengal</td></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'>UNESCO</td><td style='border:1px solid #334155;padding:5px;'>Biodiversity Hotspot (8 sites, 2012)</td><td style='border:1px solid #334155;padding:5px;'>Not a UNESCO hotspot</td></tr>
+                        </table>
+</td>
+</tr>
+    </table>
+  </div>
+</div>
 
-        <h3>6. Indian River Systems � COMPLETE PARMAR DEEP-CUTS</h3>
-        <ul>
-            <li><strong>Himalayan Rivers (Antecedent &amp; Perennial):</strong>
+<div style='margin:25px 0; border-radius:12px; overflow:hidden; box-shadow:0 4px 20px rgba(0,0,0,0.3);'>
+  <div style='background:linear-gradient(135deg, #1E293B, #0F172A); padding:15px 20px; border-left:4px solid #34D399;'>
+    <h3 style='color:#34D399; margin:0; font-size:1.2em;'>6. Indian River Systems � COMPLETE PARMAR DEEP-CUTS</h3>
+  </div>
+  <div style='overflow-x:auto;'>
+    <table style='width:100%; border-collapse:collapse;'>
+      <tr style='background:#334155; color:#94A3B8;'>
+        <th style='padding:12px; border:1px solid #475569; text-align:left; width:28%;'>Concept / Fact</th>
+        <th style='padding:12px; border:1px solid #475569; text-align:left; width:72%;'>Details</th>
+      </tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Himalayan Rivers (Antecedent &amp; Perennial):</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Himalayan Rivers (Antecedent &amp; Perennial):</strong>
                 <ul>
                     <li><em>The Panchhprayag (Five Confluences that form <strong>Ganga</strong>):</em>
                         <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
@@ -182,12 +450,23 @@ window.fatmanGeography = {
                             <tr><td style='border:1px solid #334155;padding:5px;'>Karnaprayag</td><td style='border:1px solid #334155;padding:5px;'>Pindar meets Alaknanda</td><td style='border:1px solid #334155;padding:5px;'>Chamoli, Uttarakhand</td></tr>
                             <tr><td style='border:1px solid #334155;padding:5px;'>Rudraprayag</td><td style='border:1px solid #334155;padding:5px;'>Mandakini meets Alaknanda</td><td style='border:1px solid #334155;padding:5px;'>Rudraprayag, Uttarakhand</td></tr>
                             <tr><td style='border:1px solid #334155;padding:5px;'><strong>Devprayag</strong> <span class='pyq-badge'>CGL '23</span></td><td style='border:1px solid #334155;padding:5px;'><strong>Bhagirathi meets Alaknanda = <strong>GANGA</strong> IS BORN</strong></td><td style='border:1px solid #334155;padding:5px;'><strong>Tehri</strong>, Uttarakhand</td></tr>
-                        </table>
-                    </li>
-                    <li><em><strong>Indus</strong> System:</em> Originates near Mansarovar Lake (Tibet). Tributaries (east to west): <strong>Jhelum</strong> (Verinag Spring), <strong>Chenab</strong> (Chandra+Bhaga), <strong>Ravi</strong> (Himachal), <strong>Beas</strong> (<strong>Beas</strong> Kund/Rohtang), <strong>Sutlej</strong> (Rakas Lake, Tibet). Combined called <em>Panchnad</em>. Falls into Arabian Sea near Karachi.</li>
-                    <li><em><strong>Ganga</strong> System:</em> Longest river of India (2525 km). Gangotri → Bhagirathi → Devprayag → <strong>Ganga</strong> → Haridwar → enters plains. Left bank: Ramganga, Gomti, Ghaghra, <strong>Gandak</strong>, <strong>Kosi</strong> (<em>Sorrow of Bihar</em>), Mahananda. Right bank: <strong>Yamuna</strong>, <strong>Son</strong>, <strong>Damodar</strong>. Enters Bangladesh as <em>Padma</em>.</li>
-                    <li><em><strong>Brahmaputra</strong>:</em> Originates Chemayungdung glacier (Tibet) → <em>Tsangpo</em> → gorge at Namcha Barwa → enters India as <em>Dihang</em> → Sadiya (meets Dibang + Lohit) → <em><strong>Brahmaputra</strong></em> → Bangladesh as <em>Jamuna</em> → joins Padma → <em>Meghna</em>. Forms Majuli (world's largest river island, Assam).</li>
-                    <li><em>Important Dams Table:</em>
+                        </table></td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Indus</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em><strong>Indus</strong> System:</em> Originates near Mansarovar Lake (Tibet). Tributaries (east to west): <strong>Jhelum</strong> (Verinag Spring), <strong>Chenab</strong> (Chandra+Bhaga), <strong>Ravi</strong> (Himachal), <strong>Beas</strong> (<strong>Beas</strong> Kund/Rohtang), <strong>Sutlej</strong> (Rakas Lake, Tibet). Combined called <em>Panchnad</em>. Falls into Arabian Sea near Karachi.</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Ganga</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em><strong>Ganga</strong> System:</em> Longest river of India (2525 km). Gangotri → Bhagirathi → Devprayag → <strong>Ganga</strong> → Haridwar → enters plains. Left bank: Ramganga, Gomti, Ghaghra, <strong>Gandak</strong>, <strong>Kosi</strong> (<em>Sorrow of Bihar</em>), Mahananda. Right bank: <strong>Yamuna</strong>, <strong>Son</strong>, <strong>Damodar</strong>. Enters Bangladesh as <em>Padma</em>.</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Brahmaputra</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em><strong>Brahmaputra</strong>:</em> Originates Chemayungdung glacier (Tibet) → <em>Tsangpo</em> → gorge at Namcha Barwa → enters India as <em>Dihang</em> → Sadiya (meets Dibang + Lohit) → <em><strong>Brahmaputra</strong></em> → Bangladesh as <em>Jamuna</em> → joins Padma → <em>Meghna</em>. Forms Majuli (world's largest river island, Assam).</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Tehri</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Important Dams Table:</em>
                         <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
                             <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>Dam</th><th style='border:1px solid #334155;padding:5px;'>River</th><th style='border:1px solid #334155;padding:5px;'>State</th><th style='border:1px solid #334155;padding:5px;'>Notable</th></tr>
                             <tr><td style='border:1px solid #334155;padding:5px;'><strong>Tehri</strong> Dam</td><td style='border:1px solid #334155;padding:5px;'>Bhagirathi</td><td style='border:1px solid #334155;padding:5px;'>Uttarakhand</td><td style='border:1px solid #334155;padding:5px;'>Highest dam in India (260m). Rockfill type.</td></tr>
@@ -197,35 +476,65 @@ window.fatmanGeography = {
                             <tr><td style='border:1px solid #334155;padding:5px;'><strong>Sardar Sarovar</strong></td><td style='border:1px solid #334155;padding:5px;'><strong>Narmada</strong></td><td style='border:1px solid #334155;padding:5px;'>Gujarat</td><td style='border:1px solid #334155;padding:5px;'>2nd largest concrete gravity dam. NBA movement (Medha Patkar).</td></tr>
                             <tr><td style='border:1px solid #334155;padding:5px;'><strong>Idukki</strong></td><td style='border:1px solid #334155;padding:5px;'>Periyar</td><td style='border:1px solid #334155;padding:5px;'>Kerala</td><td style='border:1px solid #334155;padding:5px;'>Largest arch dam in India (169m).</td></tr>
                             <tr><td style='border:1px solid #334155;padding:5px;'>Mettur / Stanley</td><td style='border:1px solid #334155;padding:5px;'>Cauvery</td><td style='border:1px solid #334155;padding:5px;'>Tamil Nadu</td><td style='border:1px solid #334155;padding:5px;'>Stanley Reservoir. Major irrigation dam.</td></tr>
-                        </table>
-                    </li>
-                </ul>
-            </li>
-            <li><strong>Peninsular Rivers:</strong>
+                        </table></td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Peninsular Rivers:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Peninsular Rivers:</strong>
                 <ul>
                     <li><em>East-Flowing (Deltas):</em>
                         <ul>
-                            <li><strong>Mahanadi</strong> (980 km, Chhattisgarh → Odisha). <strong>Hirakud</strong> Dam. Called <em>Sorrow of Odisha</em>.</li>
-                            <li><strong>Godavari</strong> (1465 km, longest peninsular). Originates Nashik (Trimbak). Called <em>Dakshin <strong>Ganga</strong> / Vridha <strong>Ganga</strong></em>. Tributaries: Manjra, Sabari, Wainganga, Wardha, Indravati, Penganga, Purna, Pranhita (Mnemonic: M S W W I P P P).</li>
-                            <li><strong>Krishna</strong> (1400 km). Originates Mahabaleshwar. <strong>Nagarjuna Sagar</strong> + Srisailam dams. Tributaries: Bhima, <strong>Tungabhadra</strong>, Koyna, Ghataprabha, Malaprabha.</li>
-                            <li><strong>Cauvery</strong> (805 km). Originates Talakaveri (Kodagu/Coorg, Karnataka). <em>Only perennial peninsular river</em>. Sivasamudram Falls (Asia's first hydro-power plant, 1902). Tributaries: Hemavati, Kabini, Shimsha, Bhavani, Amravati.</li>
-                            <li><strong>Damodar</strong> � rift valley river. <em>Sorrow of Bengal</em>. DVC (<strong>Damodar</strong> Valley Corporation) modelled on USA's Tennessee Valley Authority.</li>
-                            <li><strong>Subarnarekha</strong> � <em>Streak of Gold</em>. Sand contains gold particles. Originates Ranchi Plateau. Hundru Falls on it.</li>
-                            <li><strong>Brahmani</strong> � Formed by Sankh + South Koel at Rourkela.</li>
-                        </ul>
-                    </li>
-                    <li><em>West-Flowing (Estuaries):</em>
+                            <li><strong>Mahanadi</strong> (980 km, Chhattisgarh → Odisha). <strong>Hirakud</strong> Dam. Called <em>Sorrow of Odisha</em>.</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Godavari</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Godavari</strong> (1465 km, longest peninsular). Originates Nashik (Trimbak). Called <em>Dakshin <strong>Ganga</strong> / Vridha <strong>Ganga</strong></em>. Tributaries: Manjra, Sabari, Wainganga, Wardha, Indravati, Penganga, Purna, Pranhita (Mnemonic: M S W W I P P P).</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Krishna</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Krishna</strong> (1400 km). Originates Mahabaleshwar. <strong>Nagarjuna Sagar</strong> + Srisailam dams. Tributaries: Bhima, <strong>Tungabhadra</strong>, Koyna, Ghataprabha, Malaprabha.</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Cauvery</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Cauvery</strong> (805 km). Originates Talakaveri (Kodagu/Coorg, Karnataka). <em>Only perennial peninsular river</em>. Sivasamudram Falls (Asia's first hydro-power plant, 1902). Tributaries: Hemavati, Kabini, Shimsha, Bhavani, Amravati.</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Damodar</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Damodar</strong> � rift valley river. <em>Sorrow of Bengal</em>. DVC (<strong>Damodar</strong> Valley Corporation) modelled on USA's Tennessee Valley Authority.</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Subarnarekha</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Subarnarekha</strong> � <em>Streak of Gold</em>. Sand contains gold particles. Originates Ranchi Plateau. Hundru Falls on it.</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Brahmani</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Brahmani</strong> � Formed by Sankh + South Koel at Rourkela.</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Narmada</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>West-Flowing (Estuaries):</em>
                         <ul>
-                            <li><strong>Narmada</strong> (1312 km). Originates Amarkantak (MP). Rift valley (<strong>Vindhya</strong>-<strong>Satpura</strong>). Dhuandhar Falls (Jabalpur). <strong>Sardar Sarovar</strong> Dam. Enters Gulf of Khambhat.</li>
-                            <li><strong>Tapi</strong> / Tapti</strong> (724 km). Originates Multai (Betul, MP). Flows through rift valley. Ukai Dam. Enters Gulf of Khambhat.</li>
-                            <li><strong>Mahi</strong>. Originates <strong>Vindhya</strong> Range (Dhar, MP). Crosses <strong>Tropic of Cancer</strong> <strong>twice</strong>. Enters Gulf of Khambhat.</li>
-                            <li><strong>Sabarmati</strong>. Originates <strong>Aravalli</strong> (Udaipur, Rajasthan). Gandhi Ashram on banks. Dharoi Dam.</li>
-                            <li><strong>Luni</strong>. Originates Pushkar, Rajasthan. <em>Endorheic/inland drainage</em> � drains into Rann of Kutch (not sea). Called <em>Lavanavati (Salt River)</em>. Becomes saline after Balotara.</li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li><strong>Important Lakes:</strong>
+                            <li><strong>Narmada</strong> (1312 km). Originates Amarkantak (MP). Rift valley (<strong>Vindhya</strong>-<strong>Satpura</strong>). Dhuandhar Falls (Jabalpur). <strong>Sardar Sarovar</strong> Dam. Enters Gulf of Khambhat.</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Tapi</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Tapi</strong> / Tapti</strong> (724 km). Originates Multai (Betul, MP). Flows through rift valley. Ukai Dam. Enters Gulf of Khambhat.</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Mahi</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Mahi</strong>. Originates <strong>Vindhya</strong> Range (Dhar, MP). Crosses <strong>Tropic of Cancer</strong> <strong>twice</strong>. Enters Gulf of Khambhat.</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Sabarmati</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Sabarmati</strong>. Originates <strong>Aravalli</strong> (Udaipur, Rajasthan). Gandhi Ashram on banks. Dharoi Dam.</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Luni</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Luni</strong>. Originates Pushkar, Rajasthan. <em>Endorheic/inland drainage</em> � drains into Rann of Kutch (not sea). Called <em>Lavanavati (Salt River)</em>. Becomes saline after Balotara.</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Important Lakes:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Important Lakes:</strong>
                 <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
                     <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>Lake</th><th style='border:1px solid #334155;padding:5px;'>State</th><th style='border:1px solid #334155;padding:5px;'>Notable</th></tr>
                     <tr><td style='border:1px solid #334155;padding:5px;'><strong>Wular</strong></td><td style='border:1px solid #334155;padding:5px;'>J&amp;K</td><td style='border:1px solid #334155;padding:5px;'>Largest freshwater lake in India. Tectonic origin.</td></tr>
@@ -236,9 +545,11 @@ window.fatmanGeography = {
                     <tr><td style='border:1px solid #334155;padding:5px;'>Lonar</td><td style='border:1px solid #334155;padding:5px;'>Maharashtra</td><td style='border:1px solid #334155;padding:5px;'>Meteorite crater lake. Saline &amp; alkaline. Ramsar site (2020).</td></tr>
                     <tr><td style='border:1px solid #334155;padding:5px;'>Pangong Tso</td><td style='border:1px solid #334155;padding:5px;'>Ladakh</td><td style='border:1px solid #334155;padding:5px;'>Endorheic. 60% in China. Famous 3 Idiots lake. High altitude brackish water.</td></tr>
                     <tr><td style='border:1px solid #334155;padding:5px;'>Hussain Sagar</td><td style='border:1px solid #334155;padding:5px;'>Telangana</td><td style='border:1px solid #334155;padding:5px;'>Built by Ibrahim Quli Qutb Shah (1562). Large Buddha statue on island.</td></tr>
-                </table>
-            </li>
-            <li><strong>Waterfalls of India � COMPLETE TABLE:</strong>
+                </table></td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Waterfalls of India � COMPLETE TABLE:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Waterfalls of India � COMPLETE TABLE:</strong>
                 <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
                     <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>Waterfall</th><th style='border:1px solid #334155;padding:5px;'>River</th><th style='border:1px solid #334155;padding:5px;'>State</th><th style='border:1px solid #334155;padding:5px;'>Notable</th></tr>
                     <tr><td style='border:1px solid #334155;padding:5px;'>Nohkalikai</td><td style='border:1px solid #334155;padding:5px;'>�</td><td style='border:1px solid #334155;padding:5px;'>Meghalaya</td><td style='border:1px solid #334155;padding:5px;'><strong>Tallest plunge waterfall in India (340m)</strong>. Near Cherrapunji.</td></tr>
@@ -248,23 +559,106 @@ window.fatmanGeography = {
                     <tr><td style='border:1px solid #334155;padding:5px;'>Sivasamudram</td><td style='border:1px solid #334155;padding:5px;'>Cauvery</td><td style='border:1px solid #334155;padding:5px;'>Karnataka</td><td style='border:1px solid #334155;padding:5px;'>Asia's first hydroelectric plant (1902). Powers Kolar Gold Fields.</td></tr>
                     <tr><td style='border:1px solid #334155;padding:5px;'>Athirapally</td><td style='border:1px solid #334155;padding:5px;'>Chalakudy</td><td style='border:1px solid #334155;padding:5px;'>Kerala</td><td style='border:1px solid #334155;padding:5px;'>Niagara of Kerala. Near Silent Valley.</td></tr>
                     <tr><td style='border:1px solid #334155;padding:5px;'>Hundru</td><td style='border:1px solid #334155;padding:5px;'><strong>Subarnarekha</strong></td><td style='border:1px solid #334155;padding:5px;'>Jharkhand</td><td style='border:1px solid #334155;padding:5px;'>73m high. Near Ranchi.</td></tr>
+                </table></td>
+</tr>
+<tr style='background:#0F172A;'>
+<td colspan='2' style='padding:15px; border:1px solid #475569;'>
+  <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
+                            <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>Prayag</th><th style='border:1px solid #334155;padding:5px;'>Junction</th><th style='border:1px solid #334155;padding:5px;'>Location</th></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'>Vishnuprayag</td><td style='border:1px solid #334155;padding:5px;'>Dhauliganga meets Alaknanda</td><td style='border:1px solid #334155;padding:5px;'>Chamoli, Uttarakhand</td></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'>Nandaprayag</td><td style='border:1px solid #334155;padding:5px;'>Nandakini meets Alaknanda</td><td style='border:1px solid #334155;padding:5px;'>Chamoli, Uttarakhand</td></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'>Karnaprayag</td><td style='border:1px solid #334155;padding:5px;'>Pindar meets Alaknanda</td><td style='border:1px solid #334155;padding:5px;'>Chamoli, Uttarakhand</td></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'>Rudraprayag</td><td style='border:1px solid #334155;padding:5px;'>Mandakini meets Alaknanda</td><td style='border:1px solid #334155;padding:5px;'>Rudraprayag, Uttarakhand</td></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'><strong>Devprayag</strong> <span class='pyq-badge'>CGL '23</span></td><td style='border:1px solid #334155;padding:5px;'><strong>Bhagirathi meets Alaknanda = <strong>GANGA</strong> IS BORN</strong></td><td style='border:1px solid #334155;padding:5px;'><strong>Tehri</strong>, Uttarakhand</td></tr>
+                        </table>
+</td>
+</tr>
+<tr style='background:#0F172A;'>
+<td colspan='2' style='padding:15px; border:1px solid #475569;'>
+  <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
+                            <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>Dam</th><th style='border:1px solid #334155;padding:5px;'>River</th><th style='border:1px solid #334155;padding:5px;'>State</th><th style='border:1px solid #334155;padding:5px;'>Notable</th></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'><strong>Tehri</strong> Dam</td><td style='border:1px solid #334155;padding:5px;'>Bhagirathi</td><td style='border:1px solid #334155;padding:5px;'>Uttarakhand</td><td style='border:1px solid #334155;padding:5px;'>Highest dam in India (260m). Rockfill type.</td></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'>Bhakra Nangal</td><td style='border:1px solid #334155;padding:5px;'><strong>Sutlej</strong></td><td style='border:1px solid #334155;padding:5px;'>HP/Punjab border</td><td style='border:1px solid #334155;padding:5px;'>Highest straight gravity dam. Gobind Sagar reservoir.</td></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'><strong>Hirakud</strong> Dam</td><td style='border:1px solid #334155;padding:5px;'><strong>Mahanadi</strong></td><td style='border:1px solid #334155;padding:5px;'>Odisha</td><td style='border:1px solid #334155;padding:5px;'>Longest dam in India (25.8 km). First major multipurpose dam.</td></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'><strong>Nagarjuna Sagar</strong></td><td style='border:1px solid #334155;padding:5px;'><strong>Krishna</strong></td><td style='border:1px solid #334155;padding:5px;'>Telangana</td><td style='border:1px solid #334155;padding:5px;'>Largest masonry dam in the world.</td></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'><strong>Sardar Sarovar</strong></td><td style='border:1px solid #334155;padding:5px;'><strong>Narmada</strong></td><td style='border:1px solid #334155;padding:5px;'>Gujarat</td><td style='border:1px solid #334155;padding:5px;'>2nd largest concrete gravity dam. NBA movement (Medha Patkar).</td></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'><strong>Idukki</strong></td><td style='border:1px solid #334155;padding:5px;'>Periyar</td><td style='border:1px solid #334155;padding:5px;'>Kerala</td><td style='border:1px solid #334155;padding:5px;'>Largest arch dam in India (169m).</td></tr>
+                            <tr><td style='border:1px solid #334155;padding:5px;'>Mettur / Stanley</td><td style='border:1px solid #334155;padding:5px;'>Cauvery</td><td style='border:1px solid #334155;padding:5px;'>Tamil Nadu</td><td style='border:1px solid #334155;padding:5px;'>Stanley Reservoir. Major irrigation dam.</td></tr>
+                        </table>
+</td>
+</tr>
+<tr style='background:#0F172A;'>
+<td colspan='2' style='padding:15px; border:1px solid #475569;'>
+  <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
+                    <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>Lake</th><th style='border:1px solid #334155;padding:5px;'>State</th><th style='border:1px solid #334155;padding:5px;'>Notable</th></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'><strong>Wular</strong></td><td style='border:1px solid #334155;padding:5px;'>J&amp;K</td><td style='border:1px solid #334155;padding:5px;'>Largest freshwater lake in India. Tectonic origin.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'><strong>Chilika</strong></td><td style='border:1px solid #334155;padding:5px;'>Odisha</td><td style='border:1px solid #334155;padding:5px;'>Largest brackish lagoon (1100 sq km). Irrawaddy dolphins. Ramsar site.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'><strong>Vembanad</strong></td><td style='border:1px solid #334155;padding:5px;'>Kerala</td><td style='border:1px solid #334155;padding:5px;'>Longest lake in India. Nehru Trophy Boat Race on Punnamada Lake. Ramsar site.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'><strong>Sambhar</strong></td><td style='border:1px solid #334155;padding:5px;'>Rajasthan</td><td style='border:1px solid #334155;padding:5px;'>Largest saline lake in India. Salt production. Migratory flamingos.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'><strong>Loktak</strong></td><td style='border:1px solid #334155;padding:5px;'>Manipur</td><td style='border:1px solid #334155;padding:5px;'>Largest freshwater lake in NE India. Floating phumdis. Keibul Lamjao � world's only floating NP.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Lonar</td><td style='border:1px solid #334155;padding:5px;'>Maharashtra</td><td style='border:1px solid #334155;padding:5px;'>Meteorite crater lake. Saline &amp; alkaline. Ramsar site (2020).</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Pangong Tso</td><td style='border:1px solid #334155;padding:5px;'>Ladakh</td><td style='border:1px solid #334155;padding:5px;'>Endorheic. 60% in China. Famous 3 Idiots lake. High altitude brackish water.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Hussain Sagar</td><td style='border:1px solid #334155;padding:5px;'>Telangana</td><td style='border:1px solid #334155;padding:5px;'>Built by Ibrahim Quli Qutb Shah (1562). Large Buddha statue on island.</td></tr>
                 </table>
-            </li>
-        </ul>
+</td>
+</tr>
+<tr style='background:#0F172A;'>
+<td colspan='2' style='padding:15px; border:1px solid #475569;'>
+  <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
+                    <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>Waterfall</th><th style='border:1px solid #334155;padding:5px;'>River</th><th style='border:1px solid #334155;padding:5px;'>State</th><th style='border:1px solid #334155;padding:5px;'>Notable</th></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Nohkalikai</td><td style='border:1px solid #334155;padding:5px;'>�</td><td style='border:1px solid #334155;padding:5px;'>Meghalaya</td><td style='border:1px solid #334155;padding:5px;'><strong>Tallest plunge waterfall in India (340m)</strong>. Near Cherrapunji.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Jog / Gersoppa</td><td style='border:1px solid #334155;padding:5px;'>Sharavati</td><td style='border:1px solid #334155;padding:5px;'>Karnataka</td><td style='border:1px solid #334155;padding:5px;'>Highest in Karnataka (253m). 4 cascades: Raja, Rani, Rover, Rocket.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Chitrakote</td><td style='border:1px solid #334155;padding:5px;'>Indravati</td><td style='border:1px solid #334155;padding:5px;'>Chhattisgarh</td><td style='border:1px solid #334155;padding:5px;'><strong>Niagara of India</strong> � widest waterfall in India.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Dhuandhar</td><td style='border:1px solid #334155;padding:5px;'><strong>Narmada</strong></td><td style='border:1px solid #334155;padding:5px;'>MP (Jabalpur)</td><td style='border:1px solid #334155;padding:5px;'>Sea of Smoke. Bhedaghat marble gorge nearby.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Sivasamudram</td><td style='border:1px solid #334155;padding:5px;'>Cauvery</td><td style='border:1px solid #334155;padding:5px;'>Karnataka</td><td style='border:1px solid #334155;padding:5px;'>Asia's first hydroelectric plant (1902). Powers Kolar Gold Fields.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Athirapally</td><td style='border:1px solid #334155;padding:5px;'>Chalakudy</td><td style='border:1px solid #334155;padding:5px;'>Kerala</td><td style='border:1px solid #334155;padding:5px;'>Niagara of Kerala. Near Silent Valley.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Hundru</td><td style='border:1px solid #334155;padding:5px;'><strong>Subarnarekha</strong></td><td style='border:1px solid #334155;padding:5px;'>Jharkhand</td><td style='border:1px solid #334155;padding:5px;'>73m high. Near Ranchi.</td></tr>
+                </table>
+</td>
+</tr>
+    </table>
+  </div>
+</div>
 
-        <h3>7. Climate of India � <strong>MONSOON</strong> DEEP CUTS (Fatman Pages 58-65)</h3>
-        <ul>
-            <li><strong>Indian Climate Type:</strong> Tropical <strong>Monsoon</strong>. Koppen: Aw (most of India), Cwg (<strong>Ganga</strong> plains), BShw (Rajasthan semi-arid), ET (Himalayan highlands).</li>
-            <li><strong>SW <strong>Monsoon</strong> (June-September):</strong>
+<div style='margin:25px 0; border-radius:12px; overflow:hidden; box-shadow:0 4px 20px rgba(0,0,0,0.3);'>
+  <div style='background:linear-gradient(135deg, #1E293B, #0F172A); padding:15px 20px; border-left:4px solid #60A5FA;'>
+    <h3 style='color:#60A5FA; margin:0; font-size:1.2em;'>7. Climate of India � <strong>MONSOON</strong> DEEP CUTS (Fatman Pages 58-65)</h3>
+  </div>
+  <div style='overflow-x:auto;'>
+    <table style='width:100%; border-collapse:collapse;'>
+      <tr style='background:#334155; color:#94A3B8;'>
+        <th style='padding:12px; border:1px solid #475569; text-align:left; width:28%;'>Concept / Fact</th>
+        <th style='padding:12px; border:1px solid #475569; text-align:left; width:72%;'>Details</th>
+      </tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Indian Climate Type:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Indian Climate Type:</strong> Tropical <strong>Monsoon</strong>. Koppen: Aw (most of India), Cwg (<strong>Ganga</strong> plains), BShw (Rajasthan semi-arid), ET (Himalayan highlands).</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>SW Monsoon</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>SW <strong>Monsoon</strong> (June-September):</strong>
                 <ul>
-                    <li>ITCZ shifts to ~20-25�N over Indo-Gangetic Plain in June → creates low pressure → pulls moist SW winds.</li>
-                    <li><em>Two branches:</em> Arabian Sea branch (hits WG first → Kerala ~June 1) and Bay of Bengal branch (NE India first, then reverses westward).</li>
-                    <li>Onset dates: Kerala (June 1), Mumbai (June 10), Delhi (June 29), Rajasthan (July).</li>
-                    <li>Wettest places: Mawsynram (11,872 mm) and Cherrapunji (11,430 mm) � both Meghalaya, windward side of Khasi Hills.</li>
-                </ul>
-            </li>
-            <li><strong>Retreating (NE) <strong>Monsoon</strong> (Oct-Dec):</strong> <strong>Monsoon</strong> retreats from NW India, picks up moisture from Bay of Bengal → winter rainfall to Tamil Nadu (Coromandel Coast) and SE AP.</li>
-            <li><strong>Local Storms � COMPLETE TABLE (SSC Deep Cuts):</strong>
+                    <li>ITCZ shifts to ~20-25�N over Indo-Gangetic Plain in June → creates low pressure → pulls moist SW winds.</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Two branches: Arabian Sea branch (hits WG first → Kerala ~June 1) and Bay of Bengal branch (NE India first, then reverses westward).</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Two branches:</em> Arabian Sea branch (hits WG first → Kerala ~June 1) and Bay of Bengal branch (NE India first, then reverses westward).</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Onset dates: Kerala (June...</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'>Onset dates: Kerala (June 1), Mumbai (June 10), Delhi (June 29), Rajasthan (July).</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Wettest places: Mawsynram (11,872...</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'>Wettest places: Mawsynram (11,872 mm) and Cherrapunji (11,430 mm) � both Meghalaya, windward side of Khasi Hills.</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Retreating (NE) Monsoon</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Retreating (NE) <strong>Monsoon</strong> (Oct-Dec):</strong> <strong>Monsoon</strong> retreats from NW India, picks up moisture from Bay of Bengal → winter rainfall to Tamil Nadu (Coromandel Coast) and SE AP.</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Local Storms � COMPLETE TABLE (SSC Deep Cuts):</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Local Storms � COMPLETE TABLE (SSC Deep Cuts):</strong>
                 <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
                     <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>Storm</th><th style='border:1px solid #334155;padding:5px;'>Region</th><th style='border:1px solid #334155;padding:5px;'>Season</th><th style='border:1px solid #334155;padding:5px;'>Significance</th></tr>
                     <tr><td style='border:1px solid #334155;padding:5px;'><strong>Kal Baisakhi / Nor'westers</strong></td><td style='border:1px solid #334155;padding:5px;'>WB, Assam, Bangladesh</td><td style='border:1px solid #334155;padding:5px;'>Pre-<strong>monsoon</strong> (April-May)</td><td style='border:1px solid #334155;padding:5px;'>Violent thunderstorm from NW. Beneficial for Jute &amp; Tea.</td></tr>
@@ -273,18 +667,29 @@ window.fatmanGeography = {
                     <tr><td style='border:1px solid #334155;padding:5px;'><strong>Andhis</strong></td><td style='border:1px solid #334155;padding:5px;'>Rajasthan, UP, MP</td><td style='border:1px solid #334155;padding:5px;'>Pre-<strong>monsoon</strong> (May)</td><td style='border:1px solid #334155;padding:5px;'>Violent dust storm. Reduces temperatures drastically.</td></tr>
                     <tr><td style='border:1px solid #334155;padding:5px;'><strong>Western Disturbances</strong></td><td style='border:1px solid #334155;padding:5px;'>J&amp;K, HP, Punjab, Delhi</td><td style='border:1px solid #334155;padding:5px;'>Winter (Dec-Feb)</td><td style='border:1px solid #334155;padding:5px;'>Temperate cyclones from Mediterranean/Caspian Sea. Snowfall in hills, winter rain in plains. Critical for Wheat (<strong>Rabi</strong>).</td></tr>
                     <tr><td style='border:1px solid #334155;padding:5px;'><strong>Loo</strong></td><td style='border:1px solid #334155;padding:5px;'>Rajasthan, UP, Haryana, Delhi</td><td style='border:1px solid #334155;padding:5px;'>Summer (May-June)</td><td style='border:1px solid #334155;padding:5px;'>Hot, dry, oppressive wind. Causes fatal heat strokes.</td></tr>
-                </table>
-            </li>
-            <li><strong>El Ni�o / La Ni�a / ENSO / IOD:</strong>
+                </table></td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>El Ni�o / La Ni�a / ENSO / IOD:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>El Ni�o / La Ni�a / ENSO / IOD:</strong>
                 <ul>
-                    <li><em>El Ni�o:</em> Abnormal WARMING of Central/Eastern Pacific. WEAKENS Indian SW <strong>Monsoon</strong> → drought.</li>
-                    <li><em>La Ni�a:</em> Abnormal COOLING of Pacific. STRENGTHENS Indian <strong>Monsoon</strong> → floods in India.</li>
-                    <li><em>ENSO:</em> El Ni�o Southern Oscillation � combined system.</li>
-                    <li><em>IOD (Indian Ocean Dipole):</em> Positive IOD (Western Indian Ocean warmer than east) = GOOD <strong>monsoon</strong> for India.</li>
-                </ul>
-            </li>
-
-            <li><strong>Soils of India � COMPLETE TABLE (8 Types):</strong>
+                    <li><em>El Ni�o:</em> Abnormal WARMING of Central/Eastern Pacific. WEAKENS Indian SW <strong>Monsoon</strong> → drought.</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Monsoon</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>La Ni�a:</em> Abnormal COOLING of Pacific. STRENGTHENS Indian <strong>Monsoon</strong> → floods in India.</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>ENSO: El Ni�o Southern Oscillation � combined system.</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>ENSO:</em> El Ni�o Southern Oscillation � combined system.</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>monsoon</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>IOD (Indian Ocean Dipole):</em> Positive IOD (Western Indian Ocean warmer than east) = GOOD <strong>monsoon</strong> for India.</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Soils of India � COMPLETE TABLE (8 Types):</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Soils of India � COMPLETE TABLE (8 Types):</strong>
                 <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
                     <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>Soil</th><th style='border:1px solid #334155;padding:5px;'>%</th><th style='border:1px solid #334155;padding:5px;'>Key Regions</th><th style='border:1px solid #334155;padding:5px;'>Rich In / Poor In</th><th style='border:1px solid #334155;padding:5px;'>Best Crop</th></tr>
                     <tr><td style='border:1px solid #334155;padding:5px;'>Alluvial</td><td style='border:1px solid #334155;padding:5px;'>43%</td><td style='border:1px solid #334155;padding:5px;'>Indo-Gangetic plain, river deltas</td><td style='border:1px solid #334155;padding:5px;'>Potash (rich), N &amp; P (poor). Khadar (new), Bhangar (old, kankar)</td><td style='border:1px solid #334155;padding:5px;'>Wheat, Rice, Sugarcane</td></tr>
@@ -295,39 +700,123 @@ window.fatmanGeography = {
                     <tr><td style='border:1px solid #334155;padding:5px;'>Forest/Mountain</td><td style='border:1px solid #334155;padding:5px;'>�</td><td style='border:1px solid #334155;padding:5px;'><strong>Himalayas</strong>, NE India</td><td style='border:1px solid #334155;padding:5px;'>Rich in humus &amp; organic matter. Acidic.</td><td style='border:1px solid #334155;padding:5px;'>Tea, Coffee (lower slopes)</td></tr>
                     <tr><td style='border:1px solid #334155;padding:5px;'>Saline/Alkaline (Usar)</td><td style='border:1px solid #334155;padding:5px;'>�</td><td style='border:1px solid #334155;padding:5px;'>Semi-arid UP, Rajasthan, Punjab</td><td style='border:1px solid #334155;padding:5px;'>High Na, K, Mg. Infertile. Called Reh / Kallar / Usar.</td><td style='border:1px solid #334155;padding:5px;'>Rice (after reclamation)</td></tr>
                     <tr><td style='border:1px solid #334155;padding:5px;'>Peaty/Marshy</td><td style='border:1px solid #334155;padding:5px;'>�</td><td style='border:1px solid #334155;padding:5px;'>Sundarbans, Kerala coast, Odisha</td><td style='border:1px solid #334155;padding:5px;'>High organic matter. Highly acidic.</td><td style='border:1px solid #334155;padding:5px;'>Rice</td></tr>
+                </table></td>
+</tr>
+<tr style='background:#0F172A;'>
+<td colspan='2' style='padding:15px; border:1px solid #475569;'>
+  <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
+                    <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>Storm</th><th style='border:1px solid #334155;padding:5px;'>Region</th><th style='border:1px solid #334155;padding:5px;'>Season</th><th style='border:1px solid #334155;padding:5px;'>Significance</th></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'><strong>Kal Baisakhi / Nor'westers</strong></td><td style='border:1px solid #334155;padding:5px;'>WB, Assam, Bangladesh</td><td style='border:1px solid #334155;padding:5px;'>Pre-<strong>monsoon</strong> (April-May)</td><td style='border:1px solid #334155;padding:5px;'>Violent thunderstorm from NW. Beneficial for Jute &amp; Tea.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'><strong>Mango Showers</strong></td><td style='border:1px solid #334155;padding:5px;'>Kerala, Karnataka</td><td style='border:1px solid #334155;padding:5px;'>Pre-<strong>monsoon</strong></td><td style='border:1px solid #334155;padding:5px;'>Helps ripen mangoes. Called Cherry Blossom in Karnataka.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'><strong>Blossom Showers</strong></td><td style='border:1px solid #334155;padding:5px;'>Kerala</td><td style='border:1px solid #334155;padding:5px;'>Pre-<strong>monsoon</strong></td><td style='border:1px solid #334155;padding:5px;'>Helps coffee blossoms. Critical for Wayanad &amp; Coorg coffee.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'><strong>Andhis</strong></td><td style='border:1px solid #334155;padding:5px;'>Rajasthan, UP, MP</td><td style='border:1px solid #334155;padding:5px;'>Pre-<strong>monsoon</strong> (May)</td><td style='border:1px solid #334155;padding:5px;'>Violent dust storm. Reduces temperatures drastically.</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'><strong>Western Disturbances</strong></td><td style='border:1px solid #334155;padding:5px;'>J&amp;K, HP, Punjab, Delhi</td><td style='border:1px solid #334155;padding:5px;'>Winter (Dec-Feb)</td><td style='border:1px solid #334155;padding:5px;'>Temperate cyclones from Mediterranean/Caspian Sea. Snowfall in hills, winter rain in plains. Critical for Wheat (<strong>Rabi</strong>).</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'><strong>Loo</strong></td><td style='border:1px solid #334155;padding:5px;'>Rajasthan, UP, Haryana, Delhi</td><td style='border:1px solid #334155;padding:5px;'>Summer (May-June)</td><td style='border:1px solid #334155;padding:5px;'>Hot, dry, oppressive wind. Causes fatal heat strokes.</td></tr>
                 </table>
-            </li>
-        </ul>
+</td>
+</tr>
+<tr style='background:#0F172A;'>
+<td colspan='2' style='padding:15px; border:1px solid #475569;'>
+  <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
+                    <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>Soil</th><th style='border:1px solid #334155;padding:5px;'>%</th><th style='border:1px solid #334155;padding:5px;'>Key Regions</th><th style='border:1px solid #334155;padding:5px;'>Rich In / Poor In</th><th style='border:1px solid #334155;padding:5px;'>Best Crop</th></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Alluvial</td><td style='border:1px solid #334155;padding:5px;'>43%</td><td style='border:1px solid #334155;padding:5px;'>Indo-Gangetic plain, river deltas</td><td style='border:1px solid #334155;padding:5px;'>Potash (rich), N &amp; P (poor). Khadar (new), Bhangar (old, kankar)</td><td style='border:1px solid #334155;padding:5px;'>Wheat, Rice, Sugarcane</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Black (Regur)</td><td style='border:1px solid #334155;padding:5px;'>15%</td><td style='border:1px solid #334155;padding:5px;'>Deccan Trap (MH, MP, GJ, AP, TN)</td><td style='border:1px solid #334155;padding:5px;'>Ca, Mg, Fe (rich), N &amp; P (poor). High moisture retention � self-ploughing</td><td style='border:1px solid #334155;padding:5px;'>Cotton (ideal)</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Red</td><td style='border:1px solid #334155;padding:5px;'>18%</td><td style='border:1px solid #334155;padding:5px;'>Eastern Deccan, TN, AP, Odisha</td><td style='border:1px solid #334155;padding:5px;'>Ferric oxide (red). Poor in lime, nitrogen, humus</td><td style='border:1px solid #334155;padding:5px;'>Pulses, coarse grains</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Laterite</td><td style='border:1px solid #334155;padding:5px;'>�</td><td style='border:1px solid #334155;padding:5px;'>Kerala, Karnataka, TN Hills, EG</td><td style='border:1px solid #334155;padding:5px;'>Rich in Fe &amp; Al. Poor in silica (leaching). Porous.</td><td style='border:1px solid #334155;padding:5px;'>Cashew, Tapioca, Tea, Coffee</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Arid/Desert</td><td style='border:1px solid #334155;padding:5px;'>�</td><td style='border:1px solid #334155;padding:5px;'>Rajasthan, W Gujarat</td><td style='border:1px solid #334155;padding:5px;'>High soluble salts. Low humus. Sandy. Kankar layer.</td><td style='border:1px solid #334155;padding:5px;'>Millets (with irrigation)</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Forest/Mountain</td><td style='border:1px solid #334155;padding:5px;'>�</td><td style='border:1px solid #334155;padding:5px;'><strong>Himalayas</strong>, NE India</td><td style='border:1px solid #334155;padding:5px;'>Rich in humus &amp; organic matter. Acidic.</td><td style='border:1px solid #334155;padding:5px;'>Tea, Coffee (lower slopes)</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Saline/Alkaline (Usar)</td><td style='border:1px solid #334155;padding:5px;'>�</td><td style='border:1px solid #334155;padding:5px;'>Semi-arid UP, Rajasthan, Punjab</td><td style='border:1px solid #334155;padding:5px;'>High Na, K, Mg. Infertile. Called Reh / Kallar / Usar.</td><td style='border:1px solid #334155;padding:5px;'>Rice (after reclamation)</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Peaty/Marshy</td><td style='border:1px solid #334155;padding:5px;'>�</td><td style='border:1px solid #334155;padding:5px;'>Sundarbans, Kerala coast, Odisha</td><td style='border:1px solid #334155;padding:5px;'>High organic matter. Highly acidic.</td><td style='border:1px solid #334155;padding:5px;'>Rice</td></tr>
+                </table>
+</td>
+</tr>
+    </table>
+  </div>
+</div>
 
-
-                <h3>8. Agriculture & Minerals</h3>
-        <ul>
-            <li><strong>Cropping Seasons:</strong> <strong>Kharif</strong> (Sown June-July, Harvest Sept-Oct; Rice, Maize, Cotton, Sugarcane). <strong>Rabi</strong> (Sown Oct-Dec, Harvest April-May; Wheat, Barley, Mustard, Gram). <strong>Zaid</strong> (Summer crops; Watermelon, Cucumber).</li>
-            <li><strong>Agricultural Revolutions:</strong> Green (Food grains), White (Milk/Verghese Kurien), Yellow (Oilseeds), Blue (Fish), Pink (Meat/Poultry), Golden (Horticulture/Honey), Silver (Eggs/Poultry), Round (Potato).</li>
-            <li><strong>Minerals in India:</strong>
+<div style='margin:25px 0; border-radius:12px; overflow:hidden; box-shadow:0 4px 20px rgba(0,0,0,0.3);'>
+  <div style='background:linear-gradient(135deg, #1E293B, #0F172A); padding:15px 20px; border-left:4px solid #FBBF24;'>
+    <h3 style='color:#FBBF24; margin:0; font-size:1.2em;'>8. Agriculture & Minerals</h3>
+  </div>
+  <div style='overflow-x:auto;'>
+    <table style='width:100%; border-collapse:collapse;'>
+      <tr style='background:#334155; color:#94A3B8;'>
+        <th style='padding:12px; border:1px solid #475569; text-align:left; width:28%;'>Concept / Fact</th>
+        <th style='padding:12px; border:1px solid #475569; text-align:left; width:72%;'>Details</th>
+      </tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Cropping Seasons:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Cropping Seasons:</strong> <strong>Kharif</strong> (Sown June-July, Harvest Sept-Oct; Rice, Maize, Cotton, Sugarcane). <strong>Rabi</strong> (Sown Oct-Dec, Harvest April-May; Wheat, Barley, Mustard, Gram). <strong>Zaid</strong> (Summer crops; Watermelon, Cucumber).</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Agricultural Revolutions:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Agricultural Revolutions:</strong> Green (Food grains), White (Milk/Verghese Kurien), Yellow (Oilseeds), Blue (Fish), Pink (Meat/Poultry), Golden (Horticulture/Honey), Silver (Eggs/Poultry), Round (Potato).</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Minerals in India:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Minerals in India:</strong>
                 <ul>
-                    <li><em>Iron Ore:</em> Hematite & Magnetite. Mayurbhanj, Keonjhar, Bailadila, Kudremukh.</li>
-                    <li><em>Coal:</em> Anthracite (J&K), Bituminous (Jharkhand, Odisha, Bengal - Gondwana coal), Lignite (Neyveli, TN - Tertiary coal). Jharia is largest coalfield.</li>
-                    <li><em>Mica:</em> India is largest producer. Koderma, Nellore, Bhilwara.</li>
-                    <li><em>Copper:</em> Balaghat (MP), Khetri (Rajasthan), Singhbhum (Jharkhand).</li>
-                    <li><em>Uranium:</em> Jaduguda (Jharkhand), Tummalapalle (AP - largest reserve).</li>
-                    <li><em>Gold:</em> Kolar, Hutti (Karnataka), Ramgiri (AP).</li>
-                    <li><em>Diamond:</em> Panna (MP).</li>
-                </ul>
-            </li>
-        </ul>
+                    <li><em>Iron Ore:</em> Hematite & Magnetite. Mayurbhanj, Keonjhar, Bailadila, Kudremukh.</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Coal: Anthracite (J&K), Bituminous (Jharkhand, Odisha, Bengal - Gondwana coal), Lignite (Neyveli, TN - Tertiary coal). Jharia is largest coalfield.</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Coal:</em> Anthracite (J&K), Bituminous (Jharkhand, Odisha, Bengal - Gondwana coal), Lignite (Neyveli, TN - Tertiary coal). Jharia is largest coalfield.</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Mica: India is largest producer. Koderma, Nellore, Bhilwara.</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Mica:</em> India is largest producer. Koderma, Nellore, Bhilwara.</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Copper: Balaghat (MP), Khetri (Rajasthan), Singhbhum (Jharkhand).</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Copper:</em> Balaghat (MP), Khetri (Rajasthan), Singhbhum (Jharkhand).</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Uranium: Jaduguda (Jharkhand), Tummalapalle (AP - largest reserve).</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Uranium:</em> Jaduguda (Jharkhand), Tummalapalle (AP - largest reserve).</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Gold: Kolar, Hutti (Karnataka), Ramgiri (AP).</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Gold:</em> Kolar, Hutti (Karnataka), Ramgiri (AP).</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Diamond: Panna (MP).</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Diamond:</em> Panna (MP).</td>
+</tr>
+    </table>
+  </div>
+</div>
 
-        <h3>9. Transport Networks <span class='pyq-badge'>CGL '24</span></h3>
-        <ul>
-            <li><strong>Roadways:</strong>
+<div style='margin:25px 0; border-radius:12px; overflow:hidden; box-shadow:0 4px 20px rgba(0,0,0,0.3);'>
+  <div style='background:linear-gradient(135deg, #1E293B, #0F172A); padding:15px 20px; border-left:4px solid #A78BFA;'>
+    <h3 style='color:#A78BFA; margin:0; font-size:1.2em;'>9. Transport Networks <span class='pyq-badge'>CGL '24</span></h3>
+  </div>
+  <div style='overflow-x:auto;'>
+    <table style='width:100%; border-collapse:collapse;'>
+      <tr style='background:#334155; color:#94A3B8;'>
+        <th style='padding:12px; border:1px solid #475569; text-align:left; width:28%;'>Concept / Fact</th>
+        <th style='padding:12px; border:1px solid #475569; text-align:left; width:72%;'>Details</th>
+      </tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Roadways:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Roadways:</strong>
                 <ul>
-                    <li><em>Longest NH:</em> NH-44 (Srinagar to Kanyakumari, 4112 km). Formed by merging 7 old NHs (including old NH-7). <span class='pyq-badge'>SSC Fav</span></li>
-                    <li><em>Shortest NH:</em> NH-327B (West Bengal). (Previously NH-47A in Willingdon Island, Kochi).</li>
-                    <li><em>Golden Quadrilateral:</em> Connects Delhi - Kolkata - Chennai - Mumbai. Total length: 5846 km.</li>
-                    <li><em>North-South & East-West Corridor:</em> NS (Srinagar to Kanyakumari), EW (Porbandar to Silchar). They intersect at <strong>Jhansi (UP)</strong>.</li>
-                </ul>
-            </li>
-            <li><strong>Railways (18 Zones & HQs):</strong>
+                    <li><em>Longest NH:</em> NH-44 (Srinagar to Kanyakumari, 4112 km). Formed by merging 7 old NHs (including old NH-7). <span class='pyq-badge'>SSC Fav</span></td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Shortest NH: NH-327B (West Bengal). (Previously NH-47A in Willingdon Island, Kochi).</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Shortest NH:</em> NH-327B (West Bengal). (Previously NH-47A in Willingdon Island, Kochi).</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Golden Quadrilateral: Connects Delhi - Kolkata - Chennai - Mumbai. Total length</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'>5846 km.</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Jhansi (UP)</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>North-South & East-West Corridor:</em> NS (Srinagar to Kanyakumari), EW (Porbandar to Silchar). They intersect at <strong>Jhansi (UP)</strong>.</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Railways (18 Zones & HQs):</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Railways (18 Zones & HQs):</strong>
                 <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
                     <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>Zone</th><th style='border:1px solid #334155;padding:5px;'>Headquarters</th><th style='border:1px solid #334155;padding:5px;'>Zone</th><th style='border:1px solid #334155;padding:5px;'>Headquarters</th></tr>
                     <tr><td style='border:1px solid #334155;padding:5px;'>Northern</td><td style='border:1px solid #334155;padding:5px;'>New Delhi</td><td style='border:1px solid #334155;padding:5px;'>Southern</td><td style='border:1px solid #334155;padding:5px;'>Chennai</td></tr>
@@ -339,72 +828,163 @@ window.fatmanGeography = {
                     <tr><td style='border:1px solid #334155;padding:5px;'>South Western</td><td style='border:1px solid #334155;padding:5px;'>Hubballi</td><td style='border:1px solid #334155;padding:5px;'>West Central</td><td style='border:1px solid #334155;padding:5px;'>Jabalpur</td></tr>
                     <tr><td style='border:1px solid #334155;padding:5px;'>South East Central</td><td style='border:1px solid #334155;padding:5px;'>Bilaspur</td><td style='border:1px solid #334155;padding:5px;'>Northeast Frontier</td><td style='border:1px solid #334155;padding:5px;'>Maligaon (Guwahati)</td></tr>
                     <tr><td style='border:1px solid #334155;padding:5px;'>Kolkata Metro</td><td style='border:1px solid #334155;padding:5px;'>Kolkata</td><td style='border:1px solid #334155;padding:5px;'><strong>South Coast (18th)</strong></td><td style='border:1px solid #334155;padding:5px;'><strong>Visakhapatnam</strong> <span class='pyq-badge'>New</span></td></tr>
+                </table></td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Major Sea Ports (13):</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Major Sea Ports (13):</strong>
+                <ul>
+                    <li><em>West Coast:</em> Kandla (Deendayal Port, Tidal port, Gujarat), Mumbai (Largest natural), JNPT (Nhava Sheva, largest artificial, MH), Mormugao (Goa, estuary of Zuari), New Mangalore (Karnataka), Kochi (Kerala).</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Hooghly</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>East Coast:</em> Kolkata-Haldia (Riverine port on <strong>Hooghly</strong>), Paradip (Odisha), Visakhapatnam (Deepest landlocked, AP), Chennai (Oldest artificial), Ennore (First corporatized), Tuticorin (V.O. Chidambaranar, Pearl City).</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>13th Port: Port Blair (Andaman & Nicobar).</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>13th Port:</em> Port Blair (Andaman & Nicobar).</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Inland Waterways (NWs):</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Inland Waterways (NWs):</strong>
+                <ul>
+                    <li><strong>NW-1:</strong> <strong>Ganga</strong>-Bhagirathi-<strong>Hooghly</strong> (Prayagraj to Haldia, 1620 km). Longest. <span class='pyq-badge'>CGL '23</span></td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>NW-2:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>NW-2:</strong> <strong>Brahmaputra</strong> (Sadiya to Dhubri, 891 km).</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>NW-3:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>NW-3:</strong> West Coast Canal (Kollam to Kottapuram, Kerala).</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>NW-4:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>NW-4:</strong> <strong>Krishna</strong>-<strong>Godavari</strong> (Kakinada to Puducherry).</td>
+</tr>
+<tr style='background:#0F172A;'>
+<td colspan='2' style='padding:15px; border:1px solid #475569;'>
+  <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
+                    <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>Zone</th><th style='border:1px solid #334155;padding:5px;'>Headquarters</th><th style='border:1px solid #334155;padding:5px;'>Zone</th><th style='border:1px solid #334155;padding:5px;'>Headquarters</th></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Northern</td><td style='border:1px solid #334155;padding:5px;'>New Delhi</td><td style='border:1px solid #334155;padding:5px;'>Southern</td><td style='border:1px solid #334155;padding:5px;'>Chennai</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Eastern</td><td style='border:1px solid #334155;padding:5px;'>Kolkata</td><td style='border:1px solid #334155;padding:5px;'>Western</td><td style='border:1px solid #334155;padding:5px;'>Mumbai (Churchgate)</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Central</td><td style='border:1px solid #334155;padding:5px;'>Mumbai (CSTM)</td><td style='border:1px solid #334155;padding:5px;'>South Central</td><td style='border:1px solid #334155;padding:5px;'>Secunderabad</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>South Eastern</td><td style='border:1px solid #334155;padding:5px;'>Kolkata</td><td style='border:1px solid #334155;padding:5px;'>East Central</td><td style='border:1px solid #334155;padding:5px;'><strong>Hajipur</strong> <span class='pyq-badge'>CGL '23</span></td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>North Central</td><td style='border:1px solid #334155;padding:5px;'>Prayagraj (Allahabad)</td><td style='border:1px solid #334155;padding:5px;'>North Eastern</td><td style='border:1px solid #334155;padding:5px;'>Gorakhpur</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>North Western</td><td style='border:1px solid #334155;padding:5px;'>Jaipur</td><td style='border:1px solid #334155;padding:5px;'>East Coast</td><td style='border:1px solid #334155;padding:5px;'>Bhubaneswar</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>South Western</td><td style='border:1px solid #334155;padding:5px;'>Hubballi</td><td style='border:1px solid #334155;padding:5px;'>West Central</td><td style='border:1px solid #334155;padding:5px;'>Jabalpur</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>South East Central</td><td style='border:1px solid #334155;padding:5px;'>Bilaspur</td><td style='border:1px solid #334155;padding:5px;'>Northeast Frontier</td><td style='border:1px solid #334155;padding:5px;'>Maligaon (Guwahati)</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Kolkata Metro</td><td style='border:1px solid #334155;padding:5px;'>Kolkata</td><td style='border:1px solid #334155;padding:5px;'><strong>South Coast (18th)</strong></td><td style='border:1px solid #334155;padding:5px;'><strong>Visakhapatnam</strong> <span class='pyq-badge'>New</span></td></tr>
                 </table>
-            </li>
-            <li><strong>Major Sea Ports (13):</strong>
-                <ul>
-                    <li><em>West Coast:</em> Kandla (Deendayal Port, Tidal port, Gujarat), Mumbai (Largest natural), JNPT (Nhava Sheva, largest artificial, MH), Mormugao (Goa, estuary of Zuari), New Mangalore (Karnataka), Kochi (Kerala).</li>
-                    <li><em>East Coast:</em> Kolkata-Haldia (Riverine port on <strong>Hooghly</strong>), Paradip (Odisha), Visakhapatnam (Deepest landlocked, AP), Chennai (Oldest artificial), Ennore (First corporatized), Tuticorin (V.O. Chidambaranar, Pearl City).</li>
-                    <li><em>13th Port:</em> Port Blair (Andaman & Nicobar).</li>
-                </ul>
-            </li>
-            <li><strong>Inland Waterways (NWs):</strong>
-                <ul>
-                    <li><strong>NW-1:</strong> <strong>Ganga</strong>-Bhagirathi-<strong>Hooghly</strong> (Prayagraj to Haldia, 1620 km). Longest. <span class='pyq-badge'>CGL '23</span></li>
-                    <li><strong>NW-2:</strong> <strong>Brahmaputra</strong> (Sadiya to Dhubri, 891 km).</li>
-                    <li><strong>NW-3:</strong> West Coast Canal (Kollam to Kottapuram, Kerala).</li>
-                    <li><strong>NW-4:</strong> <strong>Krishna</strong>-<strong>Godavari</strong> (Kakinada to Puducherry).</li>
-                </ul>
-            </li>
-        </ul>
+</td>
+</tr>
+    </table>
+  </div>
+</div>
 
-        <h3>10. Census 2011 � THE ULTIMATE AIR 1 DATA <span class='pyq-badge'>CGL '23</span></h3>
-        <ul>
-            <li><strong>Slogan:</strong> "Our Census, Our Future" (15th National Census, 7th Post-Independence). Conducted under C. Chandramouli.</li>
-            <li><strong>Population:</strong> Total: 1.21 Billion. UP > Maharashtra > Bihar > West Bengal. Lowest: Sikkim. Lowest UT: Lakshadweep.</li>
-            <li><strong>Sex Ratio:</strong> National Average = <strong>943</strong> females/1000 males. Child Sex Ratio = <strong>919</strong>.
+<div style='margin:25px 0; border-radius:12px; overflow:hidden; box-shadow:0 4px 20px rgba(0,0,0,0.3);'>
+  <div style='background:linear-gradient(135deg, #1E293B, #0F172A); padding:15px 20px; border-left:4px solid #FB7185;'>
+    <h3 style='color:#FB7185; margin:0; font-size:1.2em;'>10. Census 2011 � THE ULTIMATE AIR 1 DATA <span class='pyq-badge'>CGL '23</span></h3>
+  </div>
+  <div style='overflow-x:auto;'>
+    <table style='width:100%; border-collapse:collapse;'>
+      <tr style='background:#334155; color:#94A3B8;'>
+        <th style='padding:12px; border:1px solid #475569; text-align:left; width:28%;'>Concept / Fact</th>
+        <th style='padding:12px; border:1px solid #475569; text-align:left; width:72%;'>Details</th>
+      </tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Slogan:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Slogan:</strong> "Our Census, Our Future" (15th National Census, 7th Post-Independence). Conducted under C. Chandramouli.</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Population:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Population:</strong> Total: 1.21 Billion. UP > Maharashtra > Bihar > West Bengal. Lowest: Sikkim. Lowest UT: Lakshadweep.</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Sex Ratio:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Sex Ratio:</strong> National Average = <strong>943</strong> females/1000 males. Child Sex Ratio = <strong>919</strong>.
                 <ul>
-                    <li><em>Highest:</em> Kerala (1084), Puducherry (1037), Tamil Nadu (996).</li>
-                    <li><em>Lowest:</em> Daman & Diu (618), Haryana (879) <span class='pyq-badge'>SSC Fav</span>.</li>
-                </ul>
-            </li>
-            <li><strong>Literacy Rate:</strong> National Average = <strong>74.04%</strong> (Male 82.14%, Female 65.46%).
+                    <li><em>Highest:</em> Kerala (1084), Puducherry (1037), Tamil Nadu (996).</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Lowest: Daman & Diu (618), Haryana (879) SSC Fav.</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Lowest:</em> Daman & Diu (618), Haryana (879) <span class='pyq-badge'>SSC Fav</span>.</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Literacy Rate:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Literacy Rate:</strong> National Average = <strong>74.04%</strong> (Male 82.14%, Female 65.46%).
                 <ul>
-                    <li><em>Highest:</em> Kerala (94%), Lakshadweep (91.8%), Mizoram (91.3%).</li>
-                    <li><em>Lowest:</em> Bihar (61.8%), Arunachal Pradesh (65.3%), Rajasthan (66.1%).</li>
-                </ul>
-            </li>
-            <li><strong>Population Density:</strong> National Average = <strong>382</strong> persons/sq km.
+                    <li><em>Highest:</em> Kerala (94%), Lakshadweep (91.8%), Mizoram (91.3%).</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Lowest: Bihar (61.8%), Arunachal Pradesh (65.3%), Rajasthan (66.1%).</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Lowest:</em> Bihar (61.8%), Arunachal Pradesh (65.3%), Rajasthan (66.1%).</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Population Density:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Population Density:</strong> National Average = <strong>382</strong> persons/sq km.
                 <ul>
-                    <li><em>Highest:</em> Bihar (1106), West Bengal (1028), Kerala (860). UT: Delhi (11,320).</li>
-                    <li><em>Lowest:</em> Arunachal Pradesh (17) <span class='pyq-badge'>CGL '24</span>, Andaman (46), Mizoram (52).</li>
-                </ul>
-            </li>
-            <li><strong>Decadal Growth Rate:</strong> National Average = <strong>17.7%</strong>.
+                    <li><em>Highest:</em> Bihar (1106), West Bengal (1028), Kerala (860). UT: Delhi (11,320).</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Lowest: Arunachal Pradesh (17) CGL '24, Andaman (46), Mizoram (52).</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Lowest:</em> Arunachal Pradesh (17) <span class='pyq-badge'>CGL '24</span>, Andaman (46), Mizoram (52).</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Decadal Growth Rate:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Decadal Growth Rate:</strong> National Average = <strong>17.7%</strong>.
                 <ul>
-                    <li><em>Highest:</em> Meghalaya (27.9%), Arunachal Pradesh (26%).</li>
-                    <li><em>Lowest / Negative:</em> <strong>Nagaland (-0.6%)</strong> <span class='pyq-badge'>CGL '23</span>, Kerala (4.9%).</li>
-                </ul>
-            </li>
-            <li><strong>SC/ST Population:</strong>
+                    <li><em>Highest:</em> Meghalaya (27.9%), Arunachal Pradesh (26%).</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Nagaland (-0.6%)</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Lowest / Negative:</em> <strong>Nagaland (-0.6%)</strong> <span class='pyq-badge'>CGL '23</span>, Kerala (4.9%).</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>SC/ST Population:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>SC/ST Population:</strong>
                 <ul>
-                    <li><strong>SC (16.6%):</strong> Highest absolute = UP. Highest % = Punjab (31.9%). No SC in: Nagaland, Arunachal, Lakshadweep, A&N.</li>
-                    <li><strong>ST (8.6%):</strong> Highest absolute = MP. Highest % = Lakshadweep (94.8%), Mizoram (94.4%). No ST in: Punjab, Haryana, Delhi, Chandigarh, Puducherry.</li>
-                </ul>
-            </li>
-        </ul>
+                    <li><strong>SC (16.6%):</strong> Highest absolute = UP. Highest % = Punjab (31.9%). No SC in: Nagaland, Arunachal, Lakshadweep, A&N.</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>ST (8.6%):</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>ST (8.6%):</strong> Highest absolute = MP. Highest % = Lakshadweep (94.8%), Mizoram (94.4%). No ST in: Punjab, Haryana, Delhi, Chandigarh, Puducherry.</td>
+</tr>
+    </table>
+  </div>
+</div>
 
-        <h3>11. National Parks & Biosphere Reserves <span class='pyq-badge'>CGL '24</span></h3>
-        <ul>
-            <li><strong>Firsts & Largest:</strong>
+<div style='margin:25px 0; border-radius:12px; overflow:hidden; box-shadow:0 4px 20px rgba(0,0,0,0.3);'>
+  <div style='background:linear-gradient(135deg, #1E293B, #0F172A); padding:15px 20px; border-left:4px solid #4ADE80;'>
+    <h3 style='color:#4ADE80; margin:0; font-size:1.2em;'>11. National Parks & Biosphere Reserves <span class='pyq-badge'>CGL '24</span></h3>
+  </div>
+  <div style='overflow-x:auto;'>
+    <table style='width:100%; border-collapse:collapse;'>
+      <tr style='background:#334155; color:#94A3B8;'>
+        <th style='padding:12px; border:1px solid #475569; text-align:left; width:28%;'>Concept / Fact</th>
+        <th style='padding:12px; border:1px solid #475569; text-align:left; width:72%;'>Details</th>
+      </tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Firsts & Largest:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Firsts & Largest:</strong>
                 <ul>
-                    <li><em>First National Park:</em> Jim Corbett (1936, Hailey NP), Uttarakhand. Ramganga flows through it.</li>
-                    <li><em>Largest National Park:</em> Hemis National Park (Ladakh). Snow Leopards.</li>
-                    <li><em>Smallest National Park:</em> South Button Island (Andaman).</li>
-                    <li><em>Floating National Park:</em> Keibul Lamjao (Manipur) on <strong>Loktak</strong> Lake. Home to Sangai (dancing deer).</li>
-                </ul>
-            </li>
-            <li><strong>Important Parks by State:</strong>
+                    <li><em>First National Park:</em> Jim Corbett (1936, Hailey NP), Uttarakhand. Ramganga flows through it.</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Largest National Park: Hemis National Park (Ladakh). Snow Leopards.</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Largest National Park:</em> Hemis National Park (Ladakh). Snow Leopards.</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Smallest National Park: South Button Island (Andaman).</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Smallest National Park:</em> South Button Island (Andaman).</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Loktak</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Floating National Park:</em> Keibul Lamjao (Manipur) on <strong>Loktak</strong> Lake. Home to Sangai (dancing deer).</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Important Parks by State:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Important Parks by State:</strong>
                 <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
                     <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>State</th><th style='border:1px solid #334155;padding:5px;'>National Parks / Reserves</th></tr>
                     <tr><td style='border:1px solid #334155;padding:5px;'>Madhya Pradesh</td><td style='border:1px solid #334155;padding:5px;'>Kanha, Bandhavgarh, Panna, Pench, Kuno (Cheetahs)</td></tr>
@@ -414,23 +994,65 @@ window.fatmanGeography = {
                     <tr><td style='border:1px solid #334155;padding:5px;'>Rajasthan</td><td style='border:1px solid #334155;padding:5px;'>Ranthambore, Keoladeo Ghana (Bharatpur), Sariska</td></tr>
                     <tr><td style='border:1px solid #334155;padding:5px;'>Gujarat</td><td style='border:1px solid #334155;padding:5px;'>Gir (Asiatic Lion), Marine (Gulf of Kutch), Blackbuck (Velavadar)</td></tr>
                     <tr><td style='border:1px solid #334155;padding:5px;'>Odisha</td><td style='border:1px solid #334155;padding:5px;'>Simlipal, Bhitarkanika (Saltwater Crocodiles)</td></tr>
-                </table>
-            </li>
-            <li><strong>UNESCO Biosphere Reserves (18 total, 12 in MAB):</strong>
+                </table></td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>UNESCO Biosphere Reserves (18 total, 12 in MAB):</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>UNESCO Biosphere Reserves (18 total, 12 in MAB):</strong>
                 <ul>
-                    <li><em>First:</em> <strong>Nilgiri</strong> Biosphere Reserve (1986). Tri-junction of TN, Kerala, Karnataka.</li>
-                    <li><em>Largest:</em> Gulf of Kachchh (Gujarat).</li>
-                    <li><em>Smallest:</em> Dibru-Saikhowa (Assam).</li>
-                    <li><em>Latest MAB Addition:</em> Panna (MP, 2020).</li>
-                </ul>
-            </li>
-        </ul>
+                    <li><em>First:</em> <strong>Nilgiri</strong> Biosphere Reserve (1986). Tri-junction of TN, Kerala, Karnataka.</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Largest: Gulf of Kachchh (Gujarat).</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Largest:</em> Gulf of Kachchh (Gujarat).</td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Smallest: Dibru-Saikhowa (Assam).</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Smallest:</em> Dibru-Saikhowa (Assam).</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Latest MAB Addition: Panna (MP, 2020).</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><em>Latest MAB Addition:</em> Panna (MP, 2020).</td>
+</tr>
+<tr style='background:#0F172A;'>
+<td colspan='2' style='padding:15px; border:1px solid #475569;'>
+  <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
+                    <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>State</th><th style='border:1px solid #334155;padding:5px;'>National Parks / Reserves</th></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Madhya Pradesh</td><td style='border:1px solid #334155;padding:5px;'>Kanha, Bandhavgarh, Panna, Pench, Kuno (Cheetahs)</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Assam</td><td style='border:1px solid #334155;padding:5px;'>Kaziranga (1-horned rhino), Manas, Nameri, Orang, Dibru-Saikhowa</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Uttarakhand</td><td style='border:1px solid #334155;padding:5px;'>Corbett, Nanda Devi, Valley of Flowers, Rajaji</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Kerala</td><td style='border:1px solid #334155;padding:5px;'>Periyar (Elephants), Silent Valley, Eravikulam</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Rajasthan</td><td style='border:1px solid #334155;padding:5px;'>Ranthambore, Keoladeo Ghana (Bharatpur), Sariska</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Gujarat</td><td style='border:1px solid #334155;padding:5px;'>Gir (Asiatic Lion), Marine (Gulf of Kutch), Blackbuck (Velavadar)</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Odisha</td><td style='border:1px solid #334155;padding:5px;'>Simlipal, Bhitarkanika (Saltwater Crocodiles)</td></tr>
+                </table>
+</td>
+</tr>
+    </table>
+  </div>
+</div>
 
-        <h3>12. Tribes of India (Anthropology) <span class='pyq-badge'>CHSL '23</span></h3>
-        <ul>
-            <li><strong>Largest Tribes:</strong> <strong>Bhil</strong> is the largest tribal group in India (mostly in MP, RJ, GJ, MH), followed by <strong>Gonds</strong> (Central India) and <strong>Santhals</strong> (Jharkhand). <span class='pyq-badge'>CGL '23</span></li>
-            <li><strong>PVTGs:</strong> Particularly Vulnerable Tribal Groups. Total 75. Highest in Odisha (13). Dhebar Commission created the category.</li>
-            <li><strong>Specific Regional Tribes:</strong>
+<div style='margin:25px 0; border-radius:12px; overflow:hidden; box-shadow:0 4px 20px rgba(0,0,0,0.3);'>
+  <div style='background:linear-gradient(135deg, #1E293B, #0F172A); padding:15px 20px; border-left:4px solid #F97316;'>
+    <h3 style='color:#F97316; margin:0; font-size:1.2em;'>12. Tribes of India (Anthropology) <span class='pyq-badge'>CHSL '23</span></h3>
+  </div>
+  <div style='overflow-x:auto;'>
+    <table style='width:100%; border-collapse:collapse;'>
+      <tr style='background:#334155; color:#94A3B8;'>
+        <th style='padding:12px; border:1px solid #475569; text-align:left; width:28%;'>Concept / Fact</th>
+        <th style='padding:12px; border:1px solid #475569; text-align:left; width:72%;'>Details</th>
+      </tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Largest Tribes:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Largest Tribes:</strong> <strong>Bhil</strong> is the largest tribal group in India (mostly in MP, RJ, GJ, MH), followed by <strong>Gonds</strong> (Central India) and <strong>Santhals</strong> (Jharkhand). <span class='pyq-badge'>CGL '23</span></td>
+</tr>
+<tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>PVTGs:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>PVTGs:</strong> Particularly Vulnerable Tribal Groups. Total 75. Highest in Odisha (13). Dhebar Commission created the category.</td>
+</tr>
+<tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+<td style='padding:12px; border:1px solid #475569; color:#38BDF8; font-weight:600; vertical-align:top; width:28%;'>Specific Regional Tribes:</td>
+<td style='padding:12px; border:1px solid #475569; color:#E2E8F0; vertical-align:top; line-height:1.7; width:72%;'><strong>Specific Regional Tribes:</strong>
                 <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
                     <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>Region / State</th><th style='border:1px solid #334155;padding:5px;'>Tribes</th></tr>
                     <tr><td style='border:1px solid #334155;padding:5px;'>Andaman & Nicobar</td><td style='border:1px solid #334155;padding:5px;'>Sentinelese, Jarawa, Onge, Great Andamanese, Shompen</td></tr>
@@ -439,10 +1061,24 @@ window.fatmanGeography = {
                     <tr><td style='border:1px solid #334155;padding:5px;'>Sikkim</td><td style='border:1px solid #334155;padding:5px;'>Bhutia, Lepcha</td></tr>
                     <tr><td style='border:1px solid #334155;padding:5px;'>Jharkhand / Bihar</td><td style='border:1px solid #334155;padding:5px;'>Santhal, Munda, Oraon, Ho</td></tr>
                     <tr><td style='border:1px solid #334155;padding:5px;'>Himachal Pradesh</td><td style='border:1px solid #334155;padding:5px;'>Gaddi, Gujjar (transhumance pastoralists), Kinnara</td></tr>
+                </table></td>
+</tr>
+<tr style='background:#0F172A;'>
+<td colspan='2' style='padding:15px; border:1px solid #475569;'>
+  <table style='width:100%; border-collapse:collapse; margin:10px 0; font-size:0.88em;'>
+                    <tr style='background:#1E293B;'><th style='border:1px solid #334155;padding:5px;'>Region / State</th><th style='border:1px solid #334155;padding:5px;'>Tribes</th></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Andaman & Nicobar</td><td style='border:1px solid #334155;padding:5px;'>Sentinelese, Jarawa, Onge, Great Andamanese, Shompen</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Nilgiris (Tamil Nadu)</td><td style='border:1px solid #334155;padding:5px;'>Toda (pastoralists, polyandry), Kota, Irula, Kurumba</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Meghalaya</td><td style='border:1px solid #334155;padding:5px;'>Garo, Khasi, Jaintia (Matrilineal society)</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Sikkim</td><td style='border:1px solid #334155;padding:5px;'>Bhutia, Lepcha</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Jharkhand / Bihar</td><td style='border:1px solid #334155;padding:5px;'>Santhal, Munda, Oraon, Ho</td></tr>
+                    <tr><td style='border:1px solid #334155;padding:5px;'>Himachal Pradesh</td><td style='border:1px solid #334155;padding:5px;'>Gaddi, Gujjar (transhumance pastoralists), Kinnara</td></tr>
                 </table>
-            </li>
-        </ul>
-
+</td>
+</tr>
+    </table>
+  </div>
+</div>
 `,
     "mcqs": [
         {
