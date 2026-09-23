@@ -2,6 +2,917 @@
 // Question Bank I (Vocabulary + Spelling) + Question Bank II (Noting & Sentence Translation) + Extras
 
 window.rajbhashaQuiz = [
+{
+    "id": "rb_pakhwada_1",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "According to which Article of the Indian Constitution, Hindi in Devanagari script is the \r\nofficial language of the Union?",
+    "options": [
+      "Article 343(1)",
+      "Article 344",
+      "Article 350",
+      "Article 351"
+    ],
+    "correct": 0,
+    "explanation": "Article 343(1) prescribes Hindi in Devanagari script as the official language"
+  },
+  {
+    "id": "rb_pakhwada_2",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "On which date did the Constituent Assembly adopt Hindi as the official language of the \r\nUnion?",
+    "options": [
+      "26th January 1950",
+      "14th September 1949",
+      "15th August 1947",
+      "26th November 1949"
+    ],
+    "correct": 1,
+    "explanation": "Adopted on 14th September 1949 by the Constituent Assembly."
+  },
+  {
+    "id": "rb_pakhwada_3",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "On which date is 'Hindi Diwas' celebrated every year?",
+    "options": [
+      "10th January",
+      "14th September",
+      "26th January",
+      "14th November"
+    ],
+    "correct": 1,
+    "explanation": "Hindi Diwas is observed on September 14."
+  },
+  {
+    "id": "rb_pakhwada_4",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "On which date is 'World Hindi Day' celebrated every year?",
+    "options": [
+      "10th January",
+      "14th September",
+      "21st February",
+      "15th December"
+    ],
+    "correct": 0,
+    "explanation": "World Hindi Day is celebrated on January 10 to mark the 1st World Hindi"
+  },
+  {
+    "id": "rb_pakhwada_5",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "Which Part of the Indian Constitution deals with the Official Language?",
+    "options": [
+      "Part XV",
+      "Part XVII",
+      "Part XVIII",
+      "Part XX"
+    ],
+    "correct": 1,
+    "explanation": "Part XVII of the Constitution contains Articles 343 to 351 related to Official"
+  },
+  {
+    "id": "rb_pakhwada_6",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "In which Article of the Constitution are directives for the development of Hindi language \r\ngiven?",
+    "options": [
+      "Article 343",
+      "Article 348",
+      "Article 350",
+      "Article 351"
+    ],
+    "correct": 3,
+    "explanation": "Article 351 contains directives for the development and promotion of Hindi"
+  },
+  {
+    "id": "rb_pakhwada_7",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "How many languages were originally included in the Eighth Schedule of the \r\nConstitution?",
+    "options": [
+      "14",
+      "18",
+      "22",
+      "15"
+    ],
+    "correct": 0,
+    "explanation": "Originally there were 14 languages in the Eighth Schedule."
+  },
+  {
+    "id": "rb_pakhwada_8",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "Presently, how many languages are listed in the Eighth Schedule of the Constitution?",
+    "options": [
+      "18",
+      "20",
+      "22",
+      "24"
+    ],
+    "correct": 2,
+    "explanation": "Currently, 22 languages are listed in the Eighth Schedule."
+  },
+  {
+    "id": "rb_pakhwada_9",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "Which language was added to the Eighth Schedule by the 21st Constitutional \r Amendment (1967)?",
+    "options": [
+      "Sindhi",
+      "Konkani",
+      "Maithili",
+      "Dogri"
+    ],
+    "correct": 0,
+    "explanation": "Sindhi was added as the 15th language by the 21st Amendment in 1967."
+  },
+  {
+    "id": "rb_pakhwada_10",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "Which 4 languages were added to the Eighth Schedule by the 92nd Constitutional \r Amendment Act (2003)?",
+    "options": [
+      "Bodo, Dogri, \r Maithili, Santhali",
+      "Konkani, \r Manipuri, Nepali, Sindhi",
+      "Sanskrit, Urdu, \r Sindhi, Nepali",
+      "Maithili,"
+    ],
+    "correct": 0,
+    "explanation": "The 92nd Amendment (2003) added Bodo, Dogri, Maithili, and Santhali"
+  },
+  {
+    "id": "rb_pakhwada_11",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "In which year was the Official Languages Act passed?",
+    "options": [
+      "1950",
+      "1963",
+      "1976",
+      "1967"
+    ],
+    "correct": 1,
+    "explanation": "The Official Languages Act was passed in 1963."
+  },
+  {
+    "id": "rb_pakhwada_12",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "In which year was the Official Languages Act 1963 amended?",
+    "options": [
+      "1965",
+      "1967",
+      "1976",
+      "1987"
+    ],
+    "correct": 1,
+    "explanation": "The Official Languages Act 1963 was amended in the year 1967."
+  },
+  {
+    "id": "rb_pakhwada_13",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "Official Languages Act 1963, how many types of \r\ndocuments must be issued bilingually?",
+    "options": [
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "correct": 2,
+    "explanation": "official documents to"
+  },
+  {
+    "id": "rb_pakhwada_14",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "Official Languages Act 1963?",
+    "options": [
+      "General Orders",
+      "Resolutions  \r --- Page 5 ---",
+      "Contracts & Agreements",
+      "All of the above"
+    ],
+    "correct": 3,
+    "explanation": "General Orders, Resolutions, Contracts, Agreements, Tender notices, etc. are"
+  },
+  {
+    "id": "rb_pakhwada_15",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "Under which section of the Official Languages Act 1963 is the Committee of \r\nParliament on Official Language constituted?",
+    "options": [
+      "Section 3",
+      "Section 4",
+      "Section 5",
+      "Section 8"
+    ],
+    "correct": 1,
+    "explanation": "Section 4 of the Official Languages Act 1963 provides for the Committee of"
+  },
+  {
+    "id": "rb_pakhwada_16",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "Who has the power to make rules under Section 8 of the Official Languages Act 1963?",
+    "options": [
+      "Parliament",
+      "Central Government",
+      "President",
+      "Ministry of Home Affairs"
+    ],
+    "correct": 1,
+    "explanation": "The Central Government is empowered to make rules under Section 8."
+  },
+  {
+    "id": "rb_pakhwada_17",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "In which year were the Official Language Rules framed?",
+    "options": [
+      "1963",
+      "1976",
+      "1987",
+      "1990"
+    ],
+    "correct": 1,
+    "explanation": "The Official Language Rules were framed in 1976 under Section 8 of OL Act."
+  },
+  {
+    "id": "rb_pakhwada_18",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "The Official Language Rules 1976 extend to the whole of India except which State?  \r\n--- Page 6 ---",
+    "options": [
+      "Jammu & Kashmir",
+      "Tamil Nadu",
+      "Kerala",
+      "Nagaland"
+    ],
+    "correct": 1,
+    "explanation": "Rule 1(2) states that the Rules extend to the whole of India except the State"
+  },
+  {
+    "id": "rb_pakhwada_19",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "According to Official Language Rules, into how many regions are the States \r\ncategorized?",
+    "options": [
+      "2 (Region A,",
+      "3 (Region A, B,",
+      "4 (A, B, C,",
+      "5 Regions"
+    ],
+    "correct": 1,
+    "explanation": "UTs are categorized into 3 regions: Region 'A', Region 'B', and Region"
+  },
+  {
+    "id": "rb_pakhwada_20",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "Bihar, Rajasthan, Uttar Pradesh, and Madhya Pradesh fall under which Official \r\nLanguage Region?",
+    "options": [
+      "Region 'A'",
+      "Region 'B'",
+      "Region 'C'",
+      "Special Region"
+    ],
+    "correct": 0,
+    "explanation": "These Hindi -speaking states belong to Region 'A'."
+  },
+  {
+    "id": "rb_pakhwada_21",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "Gujarat, Maharashtra, Punjab, and Chandigarh fall under which Official Language \r\nRegion?",
+    "options": [
+      "Region 'A'",
+      "Region 'B'",
+      "Region 'C'",
+      "None of these"
+    ],
+    "correct": 1,
+    "explanation": "Gujarat, Maharashtra, Punjab, Union Territory of Chandigarh, Daman & Diu,"
+  },
+  {
+    "id": "rb_pakhwada_22",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "West Bengal, Karnataka, Tamil Nadu, and Assam fall under which Official Language \r\nRegion?",
+    "options": [
+      "Region 'A'",
+      "Region 'B'",
+      "Region 'C'",
+      "Region 'D'"
+    ],
+    "correct": 2,
+    "explanation": "States and UTs other than those in Regions A and B fall under Region 'C'."
+  },
+  {
+    "id": "rb_pakhwada_23",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "What should be the language of communication from a Central Govt office to a State \r\nor individual in Region 'A'?",
+    "options": [
+      "English only",
+      "Hindi",
+      "Both Hindi & English",
+      "State's regional"
+    ],
+    "correct": 1,
+    "explanation": "Communications to Region 'A' shall ordinarily be in Hindi."
+  },
+  {
+    "id": "rb_pakhwada_24",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "According to Rule 5 of Official Language Rules 1976, in which language must replies \r\nto letters received in Hindi be given?",
+    "options": [
+      "In English",
+      "In Hindi only",
+      "Bilingually",
+      "As per sender's"
+    ],
+    "correct": 1,
+    "explanation": "Rule 5 mandates that replies to communications received in Hindi shall be"
+  },
+  {
+    "id": "rb_pakhwada_25",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "Rule 11 of the Official Language Rules 1976 relates to which of the following?",
+    "options": [
+      "Manuals,",
+      "Submitting \r --- Page 8 ---\r codes, forms in bilingual form  applications in Hindi",
+      "Replying to letters \r in Hindi",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "Rule 11 provides for Manuals, Codes, Procedural Literature, Forms, Registers,"
+  },
+  {
+    "id": "rb_pakhwada_26",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "According to Rule 12 of Official Language Rules 1976, who is responsible for ensuring \r\ncompliance with Rajbhasha rules?",
+    "options": [
+      "Official Language \r Officer",
+      "Administrative Officer",
+      "Head of the \r Office",
+      "Secretary, Dept of"
+    ],
+    "correct": 2,
+    "explanation": "Rule 12 states that it shall be the personal responsibility of the Head of"
+  },
+  {
+    "id": "rb_pakhwada_27",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "What should generally be the language of letters sent from Region 'A' to offices in \r\nRegion 'B'?",
+    "options": [
+      "English only",
+      "Hindi",
+      "Regional language",
+      "English & Tamil"
+    ],
+    "correct": 1,
+    "explanation": "Communications from Region 'A' to Region 'B' shall ordinarily be in Hindi."
+  },
+  {
+    "id": "rb_pakhwada_28",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "Hindi?",
+    "options": [
+      "Certified Office",
+      "Notified Office  \r --- Page 9 ---",
+      "Special Office",
+      "Rajbhasha Shreshta"
+    ],
+    "correct": 1,
+    "explanation": "Under Rule 10(4), offices where 80%+ staff have working knowledge of"
+  },
+  {
+    "id": "rb_pakhwada_29",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "Under which Rule of Official Language Rules 1976 are offices 'Notified'?",
+    "options": [
+      "Rule 8(4)",
+      "Rule 10(4)",
+      "Rule 11(2)",
+      "Rule 12(1)"
+    ],
+    "correct": 1,
+    "explanation": "Notification of offices is done under Rule 10(4)."
+  },
+  {
+    "id": "rb_pakhwada_30",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "In which Rule is the definition of 'Working Knowledge' of Hindi given under Official \r\nLanguage Rules?",
+    "options": [
+      "Rule 8",
+      "Rule 9",
+      "Rule 10",
+      "Rule 11"
+    ],
+    "correct": 1,
+    "explanation": "Rule 9 defines 'Working Knowledge' of Hindi."
+  },
+  {
+    "id": "rb_pakhwada_31",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "How many total members are there in the Parliamentary Committee on Official \r\nLanguage?",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "40"
+    ],
+    "correct": 2,
+    "explanation": "The Parliamentary Committee on Official Language comprises 30 members."
+  },
+  {
+    "id": "rb_pakhwada_32",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "In the Parliamentary Committee on Official Language, how many members are from \r\nLok Sabha and Rajya Sabha respectively?",
+    "options": [
+      "15 Lok Sabha, \r 15 Rajya Sabha",
+      "20 Lok Sabha, \r 10 Rajya Sabha",
+      "10 Lok Sabha, \r 20 Rajya Sabha",
+      "25 Lok Sabha, 5"
+    ],
+    "correct": 1,
+    "explanation": "20 members from Lok Sabha and 10 members from Rajya Sabha."
+  },
+  {
+    "id": "rb_pakhwada_33",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "Who is traditionally elected as the Chairman of the Parliamentary Committee on \r\nOfficial Language?",
+    "options": [
+      "Prime Minister of India",
+      "President of India",
+      "Union Home Minister",
+      "Speaker of Lok Sabha"
+    ],
+    "correct": 2,
+    "explanation": "The Union Home Minister is traditionally elected as the Chairman."
+  },
+  {
+    "id": "rb_pakhwada_34",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "How many Sub -Committees are there in the Parliamentary Committee on Official \r\nLanguage?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 1,
+    "explanation": "The Parliamentary Committee has 3 Sub -Committees."
+  },
+  {
+    "id": "rb_pakhwada_35",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "In which year was the Department of Official Language created?",
+    "options": [
+      "1963",
+      "1975",
+      "1976",
+      "1980"
+    ],
+    "correct": 1,
+    "explanation": "Created in June 1975 under Ministry of Home Affairs."
+  },
+  {
+    "id": "rb_pakhwada_36",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "Under which Central Ministry does the Department of Official Language function?",
+    "options": [
+      "Ministry of Education",
+      "Ministry of Home Affairs",
+      "Ministry of I&B",
+      "Ministry of Law &"
+    ],
+    "correct": 1,
+    "explanation": "Functions under Ministry of Home Affairs."
+  },
+  {
+    "id": "rb_pakhwada_37",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "Who is the Chairman of the Kendriya  Hindi Samiti (Central Hindi Committee)?",
+    "options": [
+      "Union Home Minister",
+      "President of India",
+      "Prime Minister of India",
+      "Education Minister"
+    ],
+    "correct": 2,
+    "explanation": "The Prime Minister of India is the Chairman of Kendriya Hindi Samiti."
+  },
+  {
+    "id": "rb_pakhwada_38",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "In which town/city is a Town Official Language Implementation Committee (TOLIC) \r constituted?",
+    "options": [
+      "More than 5 \r Central offices",
+      "10 or more \r Central offices",
+      "Only in State \r Capitals",
+      "More than"
+    ],
+    "correct": 1,
+    "explanation": "TOLIC is formed in towns having 10 or more Central Govt offices."
+  },
+  {
+    "id": "rb_pakhwada_39",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "Who chairs the meetings of the Central Official Language Implementation Committee?",
+    "options": [
+      "Union Home Minister",
+      "Secretary, Dept of \r Official Language",
+      "Joint Secretary, \r Rajbhasha",
+      "Prime Minister"
+    ],
+    "correct": 1,
+    "explanation": "Secretary, Department of Official Language, MHA chairs this committee."
+  },
+  {
+    "id": "rb_pakhwada_40",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "At what frequency should Official Language Implementation Committee (OLIC) \r meetings be held?",
+    "options": [
+      "Monthly",
+      "Quarterly",
+      "Bi-annually",
+      "Annually"
+    ],
+    "correct": 1,
+    "explanation": "OLIC meetings are required to be held once every quarter."
+  },
+  {
+    "id": "rb_pakhwada_41",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "Which is the elementary Hindi language training course run for government employees \r\nby CHTI?",
+    "options": [
+      "Prabodh",
+      "Praveen",
+      "Pragya",
+      "Parangat"
+    ],
+    "correct": 0,
+    "explanation": "elementary course for non -Hindi speaking staff."
+  },
+  {
+    "id": "rb_pakhwada_42",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "Hindi language training courses?",
+    "options": [
+      "->   ->   ->",
+      "->   ->   ->",
+      "->   ->   ->",
+      "->   ->   ->"
+    ],
+    "correct": 0,
+    "explanation": "Correct order: Prabodh, Praveen, Pragya, Parangat."
+  },
+  {
+    "id": "rb_pakhwada_43",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "Which Hindi training course is considered equivalent to the Matriculation level?  \r\n--- Page 13 ---",
+    "options": [
+      "Prabodh",
+      "Praveen",
+      "Pragya",
+      "Parangat"
+    ],
+    "correct": 2,
+    "explanation": "Pragya is equivalent to Matriculation standard."
+  },
+  {
+    "id": "rb_pakhwada_44",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "Which advanced working -knowledge Hindi training course focusing on workplace \r\ncommunication was launched recently?",
+    "options": [
+      "Praveen",
+      "Pragya",
+      "Parangat",
+      "Nipun"
+    ],
+    "correct": 2,
+    "explanation": "Parangat is an advanced practical course for writing official notes and"
+  },
+  {
+    "id": "rb_pakhwada_45",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "Which institution conducts Hindi Typing and Stenography training for Central \r\nGovernment employees?",
+    "options": [
+      "Kendriya Hindi \r Sansthan",
+      "CHTI",
+      "Sahitya Akademi",
+      "NSS"
+    ],
+    "correct": 1,
+    "explanation": "Central Hindi Training Institute (CHTI) manages this."
+  },
+  {
+    "id": "rb_pakhwada_46",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "What is the name of the prestigious award given for writing original books in Hindi on \r\nRajbhasha topics?",
+    "options": [
+      "Rajbhasha Kirti \r Puraskar",
+      "Rajbhasha Gaurav \r Puraskar",
+      "Indira Gandhi \r Puraskar",
+      "Jnanpith Award"
+    ],
+    "correct": 1,
+    "explanation": "Rajbhasha Gaurav Puraskar is awarded for original book writing in Hindi."
+  },
+  {
+    "id": "rb_pakhwada_47",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "What is the top award given to Ministries, Depts, PSUs, and Banks for outstanding \r\nimplementation of Official Language?",
+    "options": [
+      "Rajbhasha Gaurav \r Puraskar",
+      "Rajbhasha Kirti \r Puraskar",
+      "Nehru Rajbhasha \r Puraskar",
+      "Bharat Bharati"
+    ],
+    "correct": 1,
+    "explanation": "Rajbhasha Kirti Puraskar is awarded for organizational excellence in"
+  },
+  {
+    "id": "rb_pakhwada_48",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "Drafting incentive scheme?",
+    "options": [
+      "1st Jan to 31st Dec",
+      "1st April to 31st March",
+      "1st June to 31st May",
+      "1st Sept to 31st Aug"
+    ],
+    "correct": 1,
+    "explanation": "The incentive scheme operates on the financial year basis (1st April to 31st"
+  },
+  {
+    "id": "rb_pakhwada_49",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "In which month is Hindi Pakhwada (Hindi Fortnight) usually organized?",
+    "options": [
+      "August",
+      "September",
+      "October",
+      "January"
+    ],
+    "correct": 1,
+    "explanation": "Hindi Pakhwada is organized around 14th September in September every"
+  },
+  {
+    "id": "rb_pakhwada_50",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "At which place and in which year was the First World Hindi Conference held?  \r\n--- Page 15 ---",
+    "options": [
+      "New Delhi, 1975",
+      "Nagpur, 1975",
+      "Mauritius, 1976",
+      "Bhopal, 1983"
+    ],
+    "correct": 1,
+    "explanation": "The 1st World Hindi Conference was held in Nagpur on 10 -12 January 1975."
+  },
+  {
+    "id": "rb_pakhwada_51",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "Under Rule 8 of Official Language Rules 1976, in which language can an employee \r\nwrite notes on files?",
+    "options": [
+      "English only",
+      "Hindi only",
+      "Either Hindi \r or English",
+      "Mother tongue only"
+    ],
+    "correct": 2,
+    "explanation": "An employee may record notes or minutes on a file in Hindi or English."
+  },
+  {
+    "id": "rb_pakhwada_52",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "According to Official Language Rules, an employee is deemed to possess 'Proficiency' \r\nin Hindi if he -",
+    "options": [
+      "Passed \r Matric with Hindi medium",
+      "Hindi as \r Degree subject",
+      "Passed Prabodh \r exam",
+      "Both A and B"
+    ],
+    "correct": 3,
+    "explanation": "subject qualifies"
+  },
+  {
+    "id": "rb_pakhwada_53",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "What is the primary objective of establishing 'Check Points' in an office?",
+    "options": [
+      "Check attendance",
+      "100% compliance with Section \r 3(3) \r --- Page 16 ---",
+      "Audit finances",
+      "File security"
+    ],
+    "correct": 1,
+    "explanation": "Check points are set up under Rule 12(2) to ensure compliance with Section"
+  },
+  {
+    "id": "rb_pakhwada_54",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "In what form should Rubber Stamps be prepared in government offices?",
+    "options": [
+      "English only",
+      "Hindi only",
+      "Bilingual \r (Hindi top)",
+      "Regional language"
+    ],
+    "correct": 2,
+    "explanation": "All rubber stamps must be bilingual with Hindi text placed on top followed"
+  },
+  {
+    "id": "rb_pakhwada_55",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "In what order should Office Name Plates, Sign Boards, and Letterheads be displayed?",
+    "options": [
+      "English top, Hindi \r bottom",
+      "Hindi top, English \r bottom",
+      "English only",
+      "Hindi only"
+    ],
+    "correct": 1,
+    "explanation": "They must be bilingual, with Hindi at the top and English below."
+  },
+  {
+    "id": "rb_pakhwada_56",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "By whom is the Annual Programme for implementation of Official Language policy \r\nissued every year?",
+    "options": [
+      "Ministry of Education",
+      "Dept of \r Official Language",
+      "Parliamentary \r Committee",
+      "UPSC"
+    ],
+    "correct": 1,
+    "explanation": "Issued annually by the Department of Official Language, Ministry of Home"
+  },
+  {
+    "id": "rb_pakhwada_57",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "Under which Article of the Constitution are States empowered to adopt their official \r\nlanguage?",
+    "options": [
+      "Article 343",
+      "Article 345",
+      "Article 348",
+      "Article 350"
+    ],
+    "correct": 1,
+    "explanation": "Article 345 deals with Official language or languages of a State."
+  },
+  {
+    "id": "rb_pakhwada_58",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "Which Article contains provisions regarding the language of the Supreme Court and \r\nHigh Courts?",
+    "options": [
+      "Article 343",
+      "Article 345",
+      "Article 348",
+      "Article 351"
+    ],
+    "correct": 2,
+    "explanation": "Acts."
+  },
+  {
+    "id": "rb_pakhwada_59",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "Which Article provides for facilities for instruction in mother -tongue at primary stage of \r\neducation?",
+    "options": [
+      "Article 350",
+      "Article 350A",
+      "Article 350B",
+      "Article 351"
+    ],
+    "correct": 1,
+    "explanation": "Article 350A was added by 7th Constitutional Amendment 1956."
+  },
+  {
+    "id": "rb_pakhwada_60",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "Under which Article is the Special Officer for Linguistic Minorities appointed?",
+    "options": [
+      "Article 344",
+      "Article 350",
+      "Article 350B",
+      "Article 351"
+    ],
+    "correct": 2,
+    "explanation": "Article 350B mandates the appointment of Special Officer for Linguistic"
+  },
+  {
+    "id": "rb_pakhwada_61",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "In which year was the first meeting of the Committee of Parliament on Official \r\nLanguage held?",
+    "options": [
+      "1963",
+      "1975",
+      "1976",
+      "1980"
+    ],
+    "correct": 2,
+    "explanation": "The Committee was constituted in 1976 under Section 4 of OL Act 1963."
+  },
+  {
+    "id": "rb_pakhwada_62",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "How many volumes of report has the Parliamentary Committee on Official Language \r\nsubmitted to the President so far?",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "15"
+    ],
+    "correct": 2,
+    "explanation": "parts of its report."
+  },
+  {
+    "id": "rb_pakhwada_63",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "As per Rajbhasha targets, what percentage of inter -office communication in Region 'A' \r\nmust be in Hindi?",
+    "options": [
+      "50%",
+      "75%",
+      "90%",
+      "100%"
+    ],
+    "correct": 3,
+    "explanation": "The target for communication between offices in Region 'A' is 100% Hindi."
+  },
+  {
+    "id": "rb_pakhwada_64",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "What is the prescribed target for correspondence from Region 'A' to Region 'B' offices \r\nas per the Annual Programme?",
+    "options": [
+      "50%",
+      "75%",
+      "90%",
+      "100%"
+    ],
+    "correct": 3,
+    "explanation": "The target for Region A to Region B is 100% (with English translation if"
+  },
+  {
+    "id": "rb_pakhwada_65",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "What is the prescribed target for correspondence from Region 'A' to Region 'C' offices?",
+    "options": [
+      "30%",
+      "55%",
+      "65%",
+      "75%"
+    ],
+    "correct": 2,
+    "explanation": "Target for correspondence from Region A to Region C is 65%."
+  },
+  {
+    "id": "rb_pakhwada_66",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "Which Sub -Committee of the Parliamentary Committee on Official Language inspects \r\nCentral Ministries and Departments?",
+    "options": [
+      "First Sub -Committee",
+      "Second Sub -Committee",
+      "Third Sub -Committee",
+      "Both 1st & 2nd"
+    ],
+    "correct": 0,
+    "explanation": "Departments; Second inspects"
+  },
+  {
+    "id": "rb_pakhwada_67",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "Konkani, Manipuri, and Nepali in \r\nthe 8th Schedule?",
+    "options": [
+      "21st Amendment",
+      "71st Amendment  \r --- Page 20 ---",
+      "86th Amendment",
+      "92nd Amendment"
+    ],
+    "correct": 1,
+    "explanation": "The 71st Constitutional Amendment (1992) added Konkani, Manipuri, and"
+  },
+  {
+    "id": "rb_pakhwada_68",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "Hindi on files?",
+    "options": [
+      "Region 'A'",
+      "Region 'B'",
+      "Region 'C'",
+      "Both Region 'A' and 'B'"
+    ],
+    "correct": 0,
+    "explanation": "Offices in Region 'A' have the target of recording notes in Hindi on files."
+  },
+  {
+    "id": "rb_pakhwada_69",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "If an employee is posted to a non -Hindi speaking area, which course is offered for \r\nHindi language training?",
+    "options": [
+      "Pragya",
+      "Parangat only",
+      "Hindi Typing only",
+      "All of the above"
+    ],
+    "correct": 0,
+    "explanation": "Depending on initial level, employees are trained in Prabodh, Praveen, or"
+  },
+  {
+    "id": "rb_pakhwada_70",
+    "bank": "Hindi Pakhwada 2026",
+    "question": "What is the primary objective of organizing competitions during Hindi Pakhwada?",
+    "options": [
+      "Promote Hindi usage among staff",
+      "Halt office work",
+      "Distribute prizes \r only",
+      "External speeches"
+    ],
+    "correct": 0,
+    "explanation": "The core objective is to raise awareness and increase daily official usage of"
+  },
+
   {
     "id": "rb_1",
     "bank": "QB-I: Vocabulary",

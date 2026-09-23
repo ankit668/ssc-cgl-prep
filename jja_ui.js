@@ -643,7 +643,7 @@ Yours faithfully,<br>
     let rbHideOptions = false; // Toggle for Hard Mode
 
     function renderRajbhashaQuiz(container) {
-        const allQ = (window.jjaData && window.jjaData.rajbhashaQuiz) ? window.jjaData.rajbhashaQuiz : [];
+        const allQ = (window.rajbhashaQuiz) ? window.rajbhashaQuiz : [];
         rbTotal = allQ.length;
 
         container.innerHTML = `
@@ -716,7 +716,7 @@ Yours faithfully,<br>
     window.rbRevealRecall = function(qIdx, correct) {
         const result = document.getElementById('rb-result-' + qIdx);
         if (result) {
-            const allQ = window.jjaData && window.jjaData.rajbhashaQuiz ? window.jjaData.rajbhashaQuiz : [];
+            const allQ = window.rajbhashaQuiz ? window.rajbhashaQuiz : [];
             const explanation = (allQ[qIdx] && allQ[qIdx].explanation) ? allQ[qIdx].explanation : '';
             const correctText = allQ[qIdx].options[correct];
             
@@ -772,7 +772,7 @@ Yours faithfully,<br>
             result.style.color = isCorrect ? '#10B981' : '#EF4444';
             
             // Get explanation from data
-            const allQ = window.jjaData && window.jjaData.rajbhashaQuiz ? window.jjaData.rajbhashaQuiz : [];
+            const allQ = window.rajbhashaQuiz ? window.rajbhashaQuiz : [];
             const explanation = (allQ[qIdx] && allQ[qIdx].explanation) ? allQ[qIdx].explanation : '';
             
             result.innerHTML = isCorrect
