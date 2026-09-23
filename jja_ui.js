@@ -654,6 +654,7 @@ Yours faithfully,<br>
 
         <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px;">
             <button onclick="rbFilter('All',this)" class="jja-reveal-btn" style="margin:0;background:#F59E0B;color:#000;border-color:#F59E0B;">📚 All (${rbTotal})</button>
+            <button onclick="rbFilter('Hindi Pakhwada 2026',this)" class="jja-reveal-btn" style="margin:0;background:#EAB308;color:#000;">&#128293; Hindi Pakhwada 2026 (70)</button>
             <button onclick="rbFilter('QB-I: Vocabulary',this)" class="jja-reveal-btn" style="margin:0;">📖 QB-I: Vocabulary (20)</button>
             <button onclick="rbFilter('QB-I: Spelling',this)" class="jja-reveal-btn" style="margin:0;">✍️ QB-I: Spelling (20)</button>
             <button onclick="rbFilter('QB-II: Noting',this)" class="jja-reveal-btn" style="margin:0;">📝 QB-II: Noting (50)</button>
