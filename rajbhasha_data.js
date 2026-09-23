@@ -241,13 +241,13 @@ window.rajbhashaQuiz = [
     "bank": "Hindi Pakhwada 2026",
     "question": "According to Official Language Rules, into how many regions are the States categorized?",
     "options": [
-      "2 (Region A,",
-      "3 (Region A, B,",
-      "4 (A, B, C,",
+      "2 (Region A, B)",
+      "3 (Region A, B, C)",
+      "4 (A, B, C, D)",
       "5 Regions"
     ],
     "correct": 1,
-    "explanation": "UTs are categorized into 3 regions: Region 'A', Region 'B', and Region"
+    "explanation": "States/UTs are categorized into 3 regions: Region 'A', Region 'B', and Region 'C'."
   },
   {
     "id": "rb_pakhwada_20",
@@ -319,13 +319,13 @@ window.rajbhashaQuiz = [
     "bank": "Hindi Pakhwada 2026",
     "question": "Rule 11 of the Official Language Rules 1976 relates to which of the following?",
     "options": [
-      "Manuals,",
-      "Submitting   codes, forms in bilingual form  applications in Hindi",
-      "Replying to letters  in Hindi",
+      "Manuals, codes, forms in bilingual form",
+      "Submitting applications in Hindi",
+      "Replying to letters in Hindi",
       "Responsibility of Head of Office"
     ],
     "correct": 0,
-    "explanation": "Rule 11 provides for Manuals, Codes, Procedural Literature, Forms, Registers,"
+    "explanation": "Rule 11 provides for Manuals, Codes, Procedural Literature, Forms, Registers, Letterheads, Seals to be in bilingual form."
   },
   {
     "id": "rb_pakhwada_26",
@@ -540,10 +540,10 @@ window.rajbhashaQuiz = [
     "bank": "Hindi Pakhwada 2026",
     "question": "What is the correct hierarchy (lowest to highest) of Hindi language training courses?",
     "options": [
-      "->   ->   ->",
-      "->   ->   ->",
-      "->   ->   ->",
-      "->   ->   ->"
+      "Prabodh -> Praveen -> Pragya -> Parangat",
+      "Praveen -> Prabodh -> Pragya -> Parangat",
+      "Pragya -> Prabodh -> Praveen -> Parangat",
+      "Parangat -> Prabodh -> Praveen -> Pragya"
     ],
     "correct": 0,
     "explanation": "Correct order: Prabodh, Praveen, Pragya, Parangat."
@@ -891,13 +891,13 @@ window.rajbhashaQuiz = [
     "bank": "Hindi Pakhwada 2026",
     "question": "If an employee is posted to a non -Hindi speaking area, which course is offered for Hindi language training?",
     "options": [
-      "Pragya",
+      "Prabodh / Praveen / Pragya",
       "Parangat only",
       "Hindi Typing only",
       "All of the above"
     ],
     "correct": 0,
-    "explanation": "Depending on initial level, employees are trained in Prabodh, Praveen, or"
+    "explanation": "Depending on initial level, employees are trained in Prabodh, Praveen, or Pragya."
   },
   {
     "id": "rb_pakhwada_70",
