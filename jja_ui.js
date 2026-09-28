@@ -9,6 +9,43 @@
     // ── helpers ──────────────────────────────────────────────
     function el(id) { return document.getElementById(id); }
 
+    // ── TTS (Text-to-Speech) ─────────────────────────────────
+    let _ttsUtterance = null;
+
+    function ttsSpeak(text, btn) {
+        if (!window.speechSynthesis) { alert('Text-to-Speech not supported in this browser.'); return; }
+        // If already speaking the same button, stop
+        if (window.speechSynthesis.speaking) {
+            window.speechSynthesis.cancel();
+            document.querySelectorAll('.jja-tts-btn').forEach(b => {
+                b.textContent = '🔊 Listen'; b.style.background = '';
+            });
+            if (btn && btn.dataset.speaking === '1') { btn.dataset.speaking = '0'; return; }
+        }
+        // Start speaking
+        const clean = text.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+        _ttsUtterance = new SpeechSynthesisUtterance(clean);
+        _ttsUtterance.lang = 'en-IN';
+        _ttsUtterance.rate = 0.88;
+        _ttsUtterance.pitch = 1;
+        if (btn) { btn.textContent = '⏹ Stop'; btn.style.background = '#EF4444'; btn.dataset.speaking = '1'; }
+        _ttsUtterance.onend = () => {
+            if (btn) { btn.textContent = '🔊 Listen'; btn.style.background = ''; btn.dataset.speaking = '0'; }
+        };
+        _ttsUtterance.onerror = () => {
+            if (btn) { btn.textContent = '🔊 Listen'; btn.style.background = ''; btn.dataset.speaking = '0'; }
+        };
+        window.speechSynthesis.speak(_ttsUtterance);
+    }
+    window.ttsSpeak = ttsSpeak;
+
+    function ttsBtnHtml(textJs, label) {
+        return `<button class="jja-reveal-btn jja-tts-btn" data-speaking="0"
+            onclick="ttsSpeak(${textJs}, this)"
+            style="background:#1E3A5F; color:#38BDF8; border-color:#1E3A5F;">🔊 ${label || 'Listen'}</button>`;
+    }
+
+
     // ── Typing Test State ────────────────────────────────────
     let typingTimer = null;
     let typingStartTime = null;
@@ -261,6 +298,9 @@ Yours faithfully,<br>
                 </div>
                 <div id="letter-${l.id}" class="jja-hidden" style="margin-top:12px; background:#0F172A; padding:14px; border-radius:8px; color:#CBD5E1; font-size:0.85em; line-height:1.9; white-space:pre-wrap; font-family:'Courier New', monospace;">${l.modelAnswer}</div>
                 <button class="jja-reveal-btn" onclick="jjaToggle('letter-${l.id}', this)" data-open="0">📖 Show Model Letter</button>
+                <button class="jja-reveal-btn jja-tts-btn" data-speaking="0"
+                    onclick="ttsSpeak(\`${l.prompt}. ${l.modelAnswer||''}\`, this)"
+                    style="background:#064E3B; color:#34D399; border-color:#064E3B;">🔊 Listen to Letter</button>
             </div>
             `;
         });
@@ -354,6 +394,7 @@ Yours faithfully,<br>
                 <div style="background:#064E3B; border-radius:6px; padding:8px 12px; color:#94A3B8; font-size:0.8em; margin-bottom:10px;">💡 <b>Tip:</b> ${t.tip}</div>
                 <div id="trans-${t.id}" class="jja-hidden" style="background:#0F172A; padding:12px; border-radius:8px; color:#34D399; font-size:0.92em; line-height:1.8; border:1px solid #34D399;">${t.modelTranslation}</div>
                 <button class="jja-reveal-btn" onclick="jjaToggle('trans-${t.id}', this)" data-open="0">👁️ Show Translation</button>
+                <button class="jja-reveal-btn jja-tts-btn" data-speaking="0" onclick="ttsSpeak(\`${t.english}\`, this)" style="background:#1E3A5F; color:#38BDF8; border-color:#1E3A5F;">🔊 Listen (English)</button>
             </div>
             `;
         });
@@ -393,6 +434,11 @@ Yours faithfully,<br>
                 <div class="jja-fc-topic">${c.topic}</div>
                 <div class="jja-fc-front">${c.front}</div>
                 <div class="jja-fc-back" id="legal-back-${i}">${c.back}</div>
+            </div>
+            <div style="text-align:center; margin-top:-8px; margin-bottom:8px;">
+                <button class="jja-reveal-btn jja-tts-btn" data-speaking="0"
+                    onclick="event.stopPropagation(); ttsSpeak(\`${c.front}. Answer: ${c.back}\`, this)"
+                    style="background:#3B1D6E; color:#A855F7; border-color:#3B1D6E; font-size:0.8em; padding:4px 12px;">🔊 Listen</button>
             </div>
         `).join('')}
         </div>
