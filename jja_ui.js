@@ -38,6 +38,40 @@
         window.speechSynthesis.speak(_ttsUtterance);
     }
     window.ttsSpeak = ttsSpeak;
+    // ── TTS Specific Handlers to avoid HTML attribute breaking ──
+    window.jjaSpeakEssay = function(id, btn) {
+        const e = window.jjaData.essays.find(x => x.id === id);
+        if(!e) return;
+        const out = e.outline;
+        let text = e.topic + ". ";
+        if(out) {
+            text += "Outline Introduction: " + out.intro + ". ";
+            text += "Body Paragraph 1: " + (out.body1_points||[]).join('. ') + ". ";
+            text += "Body Paragraph 2: " + (out.body2_points||[]).join('. ') + ". ";
+            text += "Conclusion: " + out.conclusion + ". ";
+        }
+        text += "Model Essay: " + e.modelEssay;
+        ttsSpeak(text, btn);
+    };
+
+    window.jjaSpeakLetter = function(id, btn) {
+        const l = window.jjaData.letters.find(x => x.id === id);
+        if(!l) return;
+        ttsSpeak(l.prompt + ". " + l.modelAnswer, btn);
+    };
+
+    window.jjaSpeakTrans = function(id, btn) {
+        const t = window.jjaData.translations.find(x => x.id === id);
+        if(!t) return;
+        ttsSpeak(t.english, btn);
+    };
+
+    window.jjaSpeakLegal = function(idx, btn) {
+        const c = window.jjaData.legalGK[idx];
+        if(!c) return;
+        ttsSpeak(c.front + ". Answer: " + c.back, btn);
+    };
+
 
     function ttsBtnHtml(textJs, label) {
         return `<button class="jja-reveal-btn jja-tts-btn" data-speaking="0"
@@ -298,9 +332,7 @@ Yours faithfully,<br>
                 </div>
                 <div id="letter-${l.id}" class="jja-hidden" style="margin-top:12px; background:#0F172A; padding:14px; border-radius:8px; color:#CBD5E1; font-size:0.85em; line-height:1.9; white-space:pre-wrap; font-family:'Courier New', monospace;">${l.modelAnswer}</div>
                 <button class="jja-reveal-btn" onclick="jjaToggle('letter-${l.id}', this)" data-open="0">📖 Show Model Letter</button>
-                <button class="jja-reveal-btn jja-tts-btn" data-speaking="0"
-                    onclick="ttsSpeak(\`${l.prompt}. ${l.modelAnswer||''}\`, this)"
-                    style="background:#064E3B; color:#34D399; border-color:#064E3B;">🔊 Listen to Letter</button>
+                <button class="jja-reveal-btn jja-tts-btn" data-speaking="0" onclick="jjaSpeakLetter(\'${l.id}\', this)" style="background:#064E3B; color:#34D399; border-color:#064E3B;">🔊 Listen to Letter</button>
             </div>
             `;
         });
@@ -394,7 +426,7 @@ Yours faithfully,<br>
                 <div style="background:#064E3B; border-radius:6px; padding:8px 12px; color:#94A3B8; font-size:0.8em; margin-bottom:10px;">💡 <b>Tip:</b> ${t.tip}</div>
                 <div id="trans-${t.id}" class="jja-hidden" style="background:#0F172A; padding:12px; border-radius:8px; color:#34D399; font-size:0.92em; line-height:1.8; border:1px solid #34D399;">${t.modelTranslation}</div>
                 <button class="jja-reveal-btn" onclick="jjaToggle('trans-${t.id}', this)" data-open="0">👁️ Show Translation</button>
-                <button class="jja-reveal-btn jja-tts-btn" data-speaking="0" onclick="ttsSpeak(\`${t.english}\`, this)" style="background:#1E3A5F; color:#38BDF8; border-color:#1E3A5F;">🔊 Listen (English)</button>
+                <button class="jja-reveal-btn jja-tts-btn" data-speaking="0" onclick="jjaSpeakTrans(\'${t.id}\', this)" style="background:#1E3A5F; color:#38BDF8; border-color:#1E3A5F;">🔊 Listen (English)</button>
             </div>
             `;
         });
@@ -436,9 +468,7 @@ Yours faithfully,<br>
                 <div class="jja-fc-back" id="legal-back-${i}">${c.back}</div>
             </div>
             <div style="text-align:center; margin-top:-8px; margin-bottom:8px;">
-                <button class="jja-reveal-btn jja-tts-btn" data-speaking="0"
-                    onclick="event.stopPropagation(); ttsSpeak(\`${c.front}. Answer: ${c.back}\`, this)"
-                    style="background:#3B1D6E; color:#A855F7; border-color:#3B1D6E; font-size:0.8em; padding:4px 12px;">🔊 Listen</button>
+                <button class="jja-reveal-btn jja-tts-btn" data-speaking="0" onclick="event.stopPropagation(); jjaSpeakLegal(${i}, this)" style="background:#3B1D6E; color:#A855F7; border-color:#3B1D6E; font-size:0.8em; padding:4px 12px;">🔊 Listen</button>
             </div>
         `).join('')}
         </div>
