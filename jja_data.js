@@ -3433,3 +3433,5 @@ const jjaData = {
     }
   ]
 };
+
+window.jjaData = jjaData;
