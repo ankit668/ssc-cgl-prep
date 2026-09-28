@@ -272,6 +272,7 @@
                 <div>
                     <button class="jja-reveal-btn" onclick="jjaToggle('outline-${e.id}', this)" data-open="0">📋 Show Outline</button>
                     <button class="jja-reveal-btn" onclick="jjaToggle('essay-${e.id}', this)" data-open="0">📖 Show Model Essay</button>
+                    <button class="jja-reveal-btn jja-tts-btn" data-speaking="0" onclick="jjaSpeakEssay('${e.id}', this)" style="background:#1E3A5F; color:#38BDF8; border-color:#1E3A5F;">🔊 Listen to Essay</button>
                 </div>
             </div>
             `;
