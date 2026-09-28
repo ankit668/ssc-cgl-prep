@@ -68,10 +68,9 @@
 
     window.formatTTS = function(text) {
         if(!text) return '';
-        return text.split('
-').map(p => {
+        return text.split('\n').map(p => {
             if(!p.trim()) return '<br>';
-            const escaped = p.replace(/\/g, "\\").replace(/'/g, "\'").replace(/"/g, "&quot;");
+            const escaped = p.replace(/\\/g, "\\\\").replace(/'/g, "\\'").replace(/"/g, "&quot;").replace(/\n/g, " ");
             return `<span class="jja-tts-chunk" onclick="jjaSpeakChunk(this, '${escaped}')">${p}</span>`;
         }).join('');
     };
