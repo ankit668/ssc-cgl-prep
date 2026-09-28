@@ -39,6 +39,42 @@
     }
     window.ttsSpeak = ttsSpeak;
     // ── TTS Specific Handlers to avoid HTML attribute breaking ──
+    
+    let _activeTTSChunk = null;
+    window.jjaSpeakChunk = function(el, text) {
+        if(window.event) window.event.stopPropagation();
+        if (!window.speechSynthesis) return;
+        
+        if (window.speechSynthesis.speaking && _activeTTSChunk === el) {
+            window.speechSynthesis.cancel();
+            el.classList.remove('playing');
+            _activeTTSChunk = null;
+            return;
+        }
+        
+        window.speechSynthesis.cancel();
+        if(_activeTTSChunk) _activeTTSChunk.classList.remove('playing');
+        
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = 'en-IN';
+        utterance.rate = 0.88;
+        
+        utterance.onstart = () => { el.classList.add('playing'); _activeTTSChunk = el; };
+        utterance.onend = () => { el.classList.remove('playing'); if(_activeTTSChunk === el) _activeTTSChunk = null; };
+        utterance.onerror = () => { el.classList.remove('playing'); if(_activeTTSChunk === el) _activeTTSChunk = null; };
+        
+        window.speechSynthesis.speak(utterance);
+    };
+
+    window.formatTTS = function(text) {
+        if(!text) return '';
+        return text.split('\n').map(p => {
+            if(!p.trim()) return '<br>';
+            const escaped = p.replace(/\/g, "\\").replace(/'/g, "\'").replace(/"/g, "&quot;");
+            return `<span class="jja-tts-chunk" onclick="jjaSpeakChunk(this, '${escaped}')">${p}</span>`;
+        }).join('');
+    };
+
     window.jjaSpeakEssay = function(id, btn) {
         const e = window.jjaData.essays.find(x => x.id === id);
         if(!e) return;
@@ -163,6 +199,11 @@
         .badge-medium { background:#78350F; color:#FBBF24; }
         .badge-hard { background:#4C0519; color:#F87171; }
 
+        
+        .jja-tts-chunk { cursor: pointer; transition: background 0.2s, color 0.2s; border-radius: 4px; padding: 2px 4px; margin: -2px -4px; display: inline-block; }
+        .jja-tts-chunk:hover { background: #334155; }
+        .jja-tts-chunk.playing { background: #F59E0B; color: #000; font-weight: 500; }
+
         /* Typing Test Styles */
         #jja-typing-display {
             background:#0F172A; border-radius:10px; padding:16px;
@@ -242,7 +283,7 @@
             <b style="color:#F59E0B;">✍️ How to Write the Perfect Essay (Exam Pattern)</b><br>
             <div style="color:#CBD5E1; font-size:0.88em; margin-top:8px; line-height:1.7;">
                 <b>Structure:</b> Introduction (30-40 words) → Body Para 1 (80 words) → Body Para 2 (80 words) → Conclusion (40-50 words)<br>
-                <b>Tips:</b> Start with a quote or fact. Use headings if needed. End on an optimistic note. Avoid bullet points.
+                <b>Tips:</b> Start with a quote or fact. Use headings if needed. End on an optimistic note. Avoid bullet points.<br><b style="color:#34D399;">💡 Audio Feature:</b> Click any paragraph in the Model Essay to hear it read aloud. Click again to stop.
             </div>
         </div>
         `;
@@ -268,11 +309,11 @@
                     ${outline.body2_points.map(p => '• ' + p).join('<br>')}<br><br>
                     <b>Conclusion:</b> ${outline.conclusion}
                 </div>
-                <div id="essay-${e.id}" class="jja-hidden" style="margin-top:12px; background:#0F172A; padding:14px; border-radius:8px; color:#CBD5E1; font-size:0.88em; line-height:1.8; white-space:pre-wrap;">${e.modelEssay}</div>
+                <div id="essay-${e.id}" class="jja-hidden" style="margin-top:12px; background:#0F172A; padding:14px; border-radius:8px; color:#CBD5E1; font-size:0.88em; line-height:1.8; white-space:pre-wrap;">${window.formatTTS(e.modelEssay)}</div>
                 <div>
                     <button class="jja-reveal-btn" onclick="jjaToggle('outline-${e.id}', this)" data-open="0">📋 Show Outline</button>
                     <button class="jja-reveal-btn" onclick="jjaToggle('essay-${e.id}', this)" data-open="0">📖 Show Model Essay</button>
-                    <button class="jja-reveal-btn jja-tts-btn" data-speaking="0" onclick="jjaSpeakEssay('${e.id}', this)" style="background:#1E3A5F; color:#38BDF8; border-color:#1E3A5F;">🔊 Listen to Essay</button>
+                    
                 </div>
             </div>
             `;
@@ -290,7 +331,7 @@
 
         let html = `
         <div class="jja-card letter-card" style="margin-bottom:16px;">
-            <b style="color:#34D399;">✉️ Standard Formal Letter Format</b>
+            <b style="color:#34D399;">✉️ Standard Formal Letter Format</b><br><span style="font-size:0.8em; color:#94A3B8;">💡 <b>Audio:</b> Click any paragraph in the Model Letter to hear it read aloud.</span>
             <div style="margin-top:10px; background:#0F172A; padding:12px; border-radius:8px; font-size:0.85em; color:#CBD5E1; font-family:'Courier New', monospace; line-height:1.8;">
 [Your Name]<br>
 [Your Address]<br>
@@ -331,9 +372,9 @@ Yours faithfully,<br>
                         <div style="color:#64748B; font-size:0.8em; margin-top:3px;">To: ${l.addressee}</div>
                     </div>
                 </div>
-                <div id="letter-${l.id}" class="jja-hidden" style="margin-top:12px; background:#0F172A; padding:14px; border-radius:8px; color:#CBD5E1; font-size:0.85em; line-height:1.9; white-space:pre-wrap; font-family:'Courier New', monospace;">${l.modelAnswer}</div>
+                <div id="letter-${l.id}" class="jja-hidden" style="margin-top:12px; background:#0F172A; padding:14px; border-radius:8px; color:#CBD5E1; font-size:0.85em; line-height:1.9; white-space:pre-wrap; font-family:'Courier New', monospace;">${window.formatTTS(l.modelAnswer)}</div>
                 <button class="jja-reveal-btn" onclick="jjaToggle('letter-${l.id}', this)" data-open="0">📖 Show Model Letter</button>
-                <button class="jja-reveal-btn jja-tts-btn" data-speaking="0" onclick="jjaSpeakLetter(\'${l.id}\', this)" style="background:#064E3B; color:#34D399; border-color:#064E3B;">🔊 Listen to Letter</button>
+                
             </div>
             `;
         });
