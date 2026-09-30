@@ -1004,6 +1004,7 @@ Yours faithfully,<br>
                     <div style="position: absolute; width: 100%; height: 100%; backface-visibility: hidden; background: #0F172A; border: 2px solid #10B981; border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; transform: rotateY(180deg); padding: 20px; box-sizing: border-box; text-align:center;">
                         <h2 style="color: #10B981; font-size: 1.8em; margin:0 0 10px 0;">${item.hi}</h2>
                         <p style="color: #94A3B8; font-size: 1em; margin:0;"><i>${item.context}</i></p>
+                        <button class="jja-btn" style="margin-top:20px; font-size:0.9em; padding:6px 12px; background:rgba(255,255,255,0.1); border:1px solid #10B981; border-radius:6px; color:#10B981;" onclick="event.stopPropagation(); window.ttsSpeak(\`${item.en}. ${item.hi}. ${item.context}\`)">🔊 Listen</button>
                     </div>
                 </div>
             </div>
