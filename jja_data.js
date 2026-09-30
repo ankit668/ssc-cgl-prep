@@ -3563,324 +3563,404 @@ const jjaData = {
   ],
   "legalJargon": [
     {
-      "term": "Plaintiff",
-      "meaning": "वादी (Vadi) - A person who brings a case against another in a court of law."
+      "en": "Plaintiff",
+      "hi": "वादी (Vadi)",
+      "context": "A person who brings a case against another in a court of law."
     },
     {
-      "term": "Defendant",
-      "meaning": "प्रतिवादी (Prativadi) - An individual, company, or institution sued or accused in a court of law."
+      "en": "Defendant",
+      "hi": "प्रतिवादी (Prativadi)",
+      "context": "An individual, company, or institution sued or accused in a court of law."
     },
     {
-      "term": "Acquittal",
-      "meaning": "दोषमुक्ति (Doshmukti) - A judgment that a person is not guilty of the crime with which the person has been charged."
+      "en": "Acquittal",
+      "hi": "दोषमुक्ति (Doshmukti)",
+      "context": "A judgment that a person is not guilty of the crime with which the person has been charged."
     },
     {
-      "term": "Conviction",
-      "meaning": "दोषसिद्धि (Doshsiddhi) - A formal declaration that someone is guilty of a criminal offense."
+      "en": "Conviction",
+      "hi": "दोषसिद्धि (Doshsiddhi)",
+      "context": "A formal declaration that someone is guilty of a criminal offense."
     },
     {
-      "term": "Jurisdiction",
-      "meaning": "क्षेत्राधिकार (Kshetradhikar) - The official power to make legal decisions and judgments."
+      "en": "Jurisdiction",
+      "hi": "क्षेत्राधिकार (Kshetradhikar)",
+      "context": "The official power to make legal decisions and judgments."
     },
     {
-      "term": "Charge-sheet",
-      "meaning": "आरोप पत्र (Aarop Patra) - A formal document of accusation prepared by law enforcement agencies."
+      "en": "Charge-sheet",
+      "hi": "आरोप पत्र (Aarop Patra)",
+      "context": "A formal document of accusation prepared by law enforcement agencies."
     },
     {
-      "term": "Bail",
-      "meaning": "ज़मानत (Zamanat) - The temporary release of an accused person awaiting trial."
+      "en": "Bail",
+      "hi": "ज़मानत (Zamanat)",
+      "context": "The temporary release of an accused person awaiting trial."
     },
     {
-      "term": "Affidavit",
-      "meaning": "शपथ पत्र (Shapath Patra) - A written statement confirmed by oath or affirmation, for use as evidence in court."
+      "en": "Affidavit",
+      "hi": "शपथ पत्र (Shapath Patra)",
+      "context": "A written statement confirmed by oath or affirmation, for use as evidence in court."
     },
     {
-      "term": "Summons",
-      "meaning": "समन / बुलावा (Saman) - An order to appear before a judge or magistrate."
+      "en": "Summons",
+      "hi": "समन / बुलावा (Saman)",
+      "context": "An order to appear before a judge or magistrate."
     },
     {
-      "term": "Warrant",
-      "meaning": "वारंट / अधिपत्र (Adhipatra) - A document issued by a legal or government official authorizing the police to make an arrest, search premises, etc."
+      "en": "Warrant",
+      "hi": "वारंट / अधिपत्र (Adhipatra)",
+      "context": "A document issued by a legal or government official authorizing the police to make an arrest, search premises, etc."
     },
     {
-      "term": "Testimony",
-      "meaning": "गवाही / साक्ष्य (Gawahi / Sakshya) - A formal written or spoken statement, especially one given in a court of law."
+      "en": "Testimony",
+      "hi": "गवाही / साक्ष्य (Gawahi / Sakshya)",
+      "context": "A formal written or spoken statement, especially one given in a court of law."
     },
     {
-      "term": "Witness",
-      "meaning": "गवाह / साक्षी (Gawah / Sakshi) - A person who sees an event, typically a crime or accident, take place."
+      "en": "Witness",
+      "hi": "गवाह / साक्षी (Gawah / Sakshi)",
+      "context": "A person who sees an event, typically a crime or accident, take place."
     },
     {
-      "term": "Appeal",
-      "meaning": "अपील (Appeal) - Apply to a higher court for a reversal of the decision of a lower court."
+      "en": "Appeal",
+      "hi": "अपील (Appeal)",
+      "context": "Apply to a higher court for a reversal of the decision of a lower court."
     },
     {
-      "term": "Decree",
-      "meaning": "डिक्री / आज्ञप्ति (Agyapti) - An official order issued by a legal authority."
+      "en": "Decree",
+      "hi": "डिक्री / आज्ञप्ति (Agyapti)",
+      "context": "An official order issued by a legal authority."
     },
     {
-      "term": "Injunction",
-      "meaning": "निषेधाज्ञा (Nishedhagya) - An authoritative warning or order, typically from a court, requiring a person to stop doing a specific action."
+      "en": "Injunction",
+      "hi": "निषेधाज्ञा (Nishedhagya)",
+      "context": "An authoritative warning or order, typically from a court, requiring a person to stop doing a specific action."
     },
     {
-      "term": "Habeas Corpus",
-      "meaning": "बंदी प्रत्यक्षीकरण (Bandi Pratyakshikaran) - A writ requiring a person under arrest to be brought before a judge or into court."
+      "en": "Habeas Corpus",
+      "hi": "बंदी प्रत्यक्षीकरण (Bandi Pratyakshikaran)",
+      "context": "A writ requiring a person under arrest to be brought before a judge or into court."
     },
     {
-      "term": "Mandamus",
-      "meaning": "परमादेश (Paramadesh) - A judicial writ issued as a command to an inferior court or ordering a person to perform a public or statutory duty."
+      "en": "Mandamus",
+      "hi": "परमादेश (Paramadesh)",
+      "context": "A judicial writ issued as a command to an inferior court or ordering a person to perform a public or statutory duty."
     },
     {
-      "term": "Certiorari",
-      "meaning": "उत्प्रेषण (Utpreshan) - A writ or order by which a higher court reviews a decision of a lower court."
+      "en": "Certiorari",
+      "hi": "उत्प्रेषण (Utpreshan)",
+      "context": "A writ or order by which a higher court reviews a decision of a lower court."
     },
     {
-      "term": "Quo Warranto",
-      "meaning": "अधिकार पृच्छा (Adhikar Pruchha) - A writ or legal action requiring a person to show by what warrant an office or franchise is held."
+      "en": "Quo Warranto",
+      "hi": "अधिकार पृच्छा (Adhikar Pruchha)",
+      "context": "A writ or legal action requiring a person to show by what warrant an office or franchise is held."
     },
     {
-      "term": "Prohibition",
-      "meaning": "प्रतिषेध (Pratishedh) - A writ directing a subordinate to stop doing something the law prohibits."
+      "en": "Prohibition",
+      "hi": "प्रतिषेध (Pratishedh)",
+      "context": "A writ directing a subordinate to stop doing something the law prohibits."
     },
     {
-      "term": "Amicus Curiae",
-      "meaning": "न्याय मित्र (Nyaya Mitra) - An impartial adviser, often voluntary, to a court of law in a particular case."
+      "en": "Amicus Curiae",
+      "hi": "न्याय मित्र (Nyaya Mitra)",
+      "context": "An impartial adviser, often voluntary, to a court of law in a particular case."
     },
     {
-      "term": "Contempt of Court",
-      "meaning": "न्यायालय की अवमानना (Nyayalaya Ki Avmanana) - The offense of being disobedient to or disrespectful of a court of law."
+      "en": "Contempt of Court",
+      "hi": "न्यायालय की अवमानना (Nyayalaya Ki Avmanana)",
+      "context": "The offense of being disobedient to or disrespectful of a court of law."
     },
     {
-      "term": "Suo Motu",
-      "meaning": "स्वतः संज्ञान (Swatah Sangyan) - An action taken by a court of its own accord, without any request by the parties involved."
+      "en": "Suo Motu",
+      "hi": "स्वतः संज्ञान (Swatah Sangyan)",
+      "context": "An action taken by a court of its own accord, without any request by the parties involved."
     },
     {
-      "term": "Ex Parte",
-      "meaning": "एकपक्षीय (Ekpakshiya) - With respect to or in the interests of one side only or of an interested outside party."
+      "en": "Ex Parte",
+      "hi": "एकपक्षीय (Ekpakshiya)",
+      "context": "With respect to or in the interests of one side only or of an interested outside party."
     },
     {
-      "term": "Prima Facie",
-      "meaning": "प्रथम दृष्टया (Pratham Drishtya) - Based on the first impression; accepted as correct until proved otherwise."
+      "en": "Prima Facie",
+      "hi": "प्रथम दृष्टया (Pratham Drishtya)",
+      "context": "Based on the first impression; accepted as correct until proved otherwise."
     },
     {
-      "term": "Status Quo",
-      "meaning": "यथास्थिति (Yathasthiti) - The existing state of affairs, especially regarding social or political issues."
+      "en": "Status Quo",
+      "hi": "यथास्थिति (Yathasthiti)",
+      "context": "The existing state of affairs, especially regarding social or political issues."
     },
     {
-      "term": "Sub Judice",
-      "meaning": "विचाराधीन (Vicharadhin) - Under judicial consideration and therefore prohibited from public discussion elsewhere."
+      "en": "Sub Judice",
+      "hi": "विचाराधीन (Vicharadhin)",
+      "context": "Under judicial consideration and therefore prohibited from public discussion elsewhere."
     },
     {
-      "term": "Ultra Vires",
-      "meaning": "अधिकारतीत / शक्ति-बाह्य (Adhikaratit) - Beyond one's legal power or authority."
+      "en": "Ultra Vires",
+      "hi": "अधिकारतीत / शक्ति-बाह्य (Adhikaratit)",
+      "context": "Beyond one's legal power or authority."
     },
     {
-      "term": "Sine Die",
-      "meaning": "अनिश्चित काल के लिए (Anishchit Kaal Ke Liye) - With no appointed date for resumption."
+      "en": "Sine Die",
+      "hi": "अनिश्चित काल के लिए (Anishchit Kaal Ke Liye)",
+      "context": "With no appointed date for resumption."
     },
     {
-      "term": "Locus Standi",
-      "meaning": "सुनवाई का अधिकार (Sunwai Ka Adhikar) - The right or capacity to bring an action or to appear in a court."
+      "en": "Locus Standi",
+      "hi": "सुनवाई का अधिकार (Sunwai Ka Adhikar)",
+      "context": "The right or capacity to bring an action or to appear in a court."
     },
     {
-      "term": "Bailable Offence",
-      "meaning": "जमानतीय अपराध (Zamanatiya Apradh) - An offense for which bail is a matter of right."
+      "en": "Bailable Offence",
+      "hi": "जमानतीय अपराध (Zamanatiya Apradh)",
+      "context": "An offense for which bail is a matter of right."
     },
     {
-      "term": "Non-bailable Offence",
-      "meaning": "गैर-जमानतीय अपराध (Gair-Zamanatiya Apradh) - An offense where bail is a privilege granted by the court, not a right."
+      "en": "Non-bailable Offence",
+      "hi": "गैर-जमानतीय अपराध (Gair-Zamanatiya Apradh)",
+      "context": "An offense where bail is a privilege granted by the court, not a right."
     },
     {
-      "term": "Cognizable Offence",
-      "meaning": "संज्ञेय अपराध (Sangyeya Apradh) - An offense for which a police officer may arrest without a warrant."
+      "en": "Cognizable Offence",
+      "hi": "संज्ञेय अपराध (Sangyeya Apradh)",
+      "context": "An offense for which a police officer may arrest without a warrant."
     },
     {
-      "term": "Non-cognizable Offence",
-      "meaning": "असंज्ञेय अपराध (Asangyeya Apradh) - An offense where the police cannot arrest without a warrant."
+      "en": "Non-cognizable Offence",
+      "hi": "असंज्ञेय अपराध (Asangyeya Apradh)",
+      "context": "An offense where the police cannot arrest without a warrant."
     },
     {
-      "term": "First Information Report (FIR)",
-      "meaning": "प्रथम सूचना रिपोर्ट (Pratham Suchana Report) - A written document prepared by the police when they receive information about a cognizable offense."
+      "en": "First Information Report (FIR)",
+      "hi": "प्रथम सूचना रिपोर्ट (Pratham Suchana Report)",
+      "context": "A written document prepared by the police when they receive information about a cognizable offense."
     },
     {
-      "term": "Charge",
-      "meaning": "आरोप (Aarop) - A formal accusation made against someone, often in a criminal court."
+      "en": "Charge",
+      "hi": "आरोप (Aarop)",
+      "context": "A formal accusation made against someone, often in a criminal court."
     },
     {
-      "term": "Trial",
-      "meaning": "मुकदमा / विचारण (Mukadama / Vicharan) - A formal examination of evidence by a judge, typically before a jury, in order to decide guilt in a case of criminal or civil proceedings."
+      "en": "Trial",
+      "hi": "मुकदमा / विचारण (Mukadama / Vicharan)",
+      "context": "A formal examination of evidence by a judge, typically before a jury, in order to decide guilt in a case of criminal or civil proceedings."
     },
     {
-      "term": "Judgment",
-      "meaning": "निर्णय (Nirnay) - A decision of a court or judge."
+      "en": "Judgment",
+      "hi": "निर्णय (Nirnay)",
+      "context": "A decision of a court or judge."
     },
     {
-      "term": "Verdict",
-      "meaning": "फैसला (Faisla) - A decision on a disputed issue in a civil or criminal case or an inquest."
+      "en": "Verdict",
+      "hi": "फैसला (Faisla)",
+      "context": "A decision on a disputed issue in a civil or criminal case or an inquest."
     },
     {
-      "term": "Sentence",
-      "meaning": "सजा / दंडादेश (Saza / Dandadesh) - The punishment assigned to a defendant found guilty by a court."
+      "en": "Sentence",
+      "hi": "सजा / दंडादेश (Saza / Dandadesh)",
+      "context": "The punishment assigned to a defendant found guilty by a court."
     },
     {
-      "term": "Capital Punishment",
-      "meaning": "मृत्युदंड (Mrityudand) - The legally authorized killing of someone as punishment for a crime."
+      "en": "Capital Punishment",
+      "hi": "मृत्युदंड (Mrityudand)",
+      "context": "The legally authorized killing of someone as punishment for a crime."
     },
     {
-      "term": "Life Imprisonment",
-      "meaning": "आजीवन कारावास (Ajeevan Karavas) - A prison sentence for the rest of a person's life."
+      "en": "Life Imprisonment",
+      "hi": "आजीवन कारावास (Ajeevan Karavas)",
+      "context": "A prison sentence for the rest of a person's life."
     },
     {
-      "term": "Rigorous Imprisonment",
-      "meaning": "सश्रम कारावास (Sashram Karavas) - Imprisonment with hard labor."
+      "en": "Rigorous Imprisonment",
+      "hi": "सश्रम कारावास (Sashram Karavas)",
+      "context": "Imprisonment with hard labor."
     },
     {
-      "term": "Simple Imprisonment",
-      "meaning": "साधारण कारावास (Sadharan Karavas) - Imprisonment without hard labor."
+      "en": "Simple Imprisonment",
+      "hi": "साधारण कारावास (Sadharan Karavas)",
+      "context": "Imprisonment without hard labor."
     },
     {
-      "term": "Fine",
-      "meaning": "जुर्माना (Jurmana) - A sum of money exacted as a penalty by a court of law or other authority."
+      "en": "Fine",
+      "hi": "जुर्माना (Jurmana)",
+      "context": "A sum of money exacted as a penalty by a court of law or other authority."
     },
     {
-      "term": "Compensation",
-      "meaning": "मुआवज़ा (Muavza) - Something, typically money, awarded to someone as a recompense for loss, injury, or suffering."
+      "en": "Compensation",
+      "hi": "मुआवज़ा (Muavza)",
+      "context": "Something, typically money, awarded to someone as a recompense for loss, injury, or suffering."
     },
     {
-      "term": "Damages",
-      "meaning": "क्षतिपूर्ति / हर्जाना (Kshatipurti / Harjana) - A sum of money claimed or awarded in compensation for a loss or an injury."
+      "en": "Damages",
+      "hi": "क्षतिपूर्ति / हर्जाना (Kshatipurti / Harjana)",
+      "context": "A sum of money claimed or awarded in compensation for a loss or an injury."
     },
     {
-      "term": "Petition",
-      "meaning": "याचिका (Yachika) - A formal written request, typically one signed by many people, appealing to authority with respect to a particular cause."
+      "en": "Petition",
+      "hi": "याचिका (Yachika)",
+      "context": "A formal written request, typically one signed by many people, appealing to authority with respect to a particular cause."
     },
     {
-      "term": "Petitioner",
-      "meaning": "याचिकाकर्ता (Yachikakarta) - A person who presents a petition to an authority in respect of a particular cause."
+      "en": "Petitioner",
+      "hi": "याचिकाकर्ता (Yachikakarta)",
+      "context": "A person who presents a petition to an authority in respect of a particular cause."
     },
     {
-      "term": "Respondent",
-      "meaning": "प्रत्यर्थी (Pratyarthi) - A defendant in a lawsuit, especially one in an appeals or divorce case."
+      "en": "Respondent",
+      "hi": "प्रत्यर्थी (Pratyarthi)",
+      "context": "A defendant in a lawsuit, especially one in an appeals or divorce case."
     },
     {
-      "term": "Appellant",
-      "meaning": "अपीलकर्ता (Appeelkarta) - A person who applies to a higher court for a reversal of the decision of a lower court."
+      "en": "Appellant",
+      "hi": "अपीलकर्ता (Appeelkarta)",
+      "context": "A person who applies to a higher court for a reversal of the decision of a lower court."
     },
     {
-      "term": "Bench",
-      "meaning": "पीठ / न्यायपीठ (Peeth / Nyayapeeth) - The location in a courtroom where a judge sits, or the judge/judges themselves."
+      "en": "Bench",
+      "hi": "पीठ / न्यायपीठ (Peeth / Nyayapeeth)",
+      "context": "The location in a courtroom where a judge sits, or the judge/judges themselves."
     },
     {
-      "term": "Division Bench",
-      "meaning": "खंडपीठ (Khandpeeth) - A bench consisting of two or more judges of a High Court."
+      "en": "Division Bench",
+      "hi": "खंडपीठ (Khandpeeth)",
+      "context": "A bench consisting of two or more judges of a High Court."
     },
     {
-      "term": "Constitutional Bench",
-      "meaning": "संविधान पीठ (Samvidhan Peeth) - A bench of the Supreme Court consisting of five or more judges."
+      "en": "Constitutional Bench",
+      "hi": "संविधान पीठ (Samvidhan Peeth)",
+      "context": "A bench of the Supreme Court consisting of five or more judges."
     },
     {
-      "term": "Bar",
-      "meaning": "वकील समुदाय (Vakeel Samuday) - The legal profession as an institution."
+      "en": "Bar",
+      "hi": "वकील समुदाय (Vakeel Samuday)",
+      "context": "The legal profession as an institution."
     },
     {
-      "term": "Advocate",
-      "meaning": "अधिवक्ता (Adhivakta) - A person who publicly supports or recommends a particular cause or policy; a lawyer."
+      "en": "Advocate",
+      "hi": "अधिवक्ता (Adhivakta)",
+      "context": "A person who publicly supports or recommends a particular cause or policy; a lawyer."
     },
     {
-      "term": "Public Prosecutor",
-      "meaning": "लोक अभियोजक (Lok Abhiyojak) - A law officer who conducts criminal proceedings on behalf of the state or in the public interest."
+      "en": "Public Prosecutor",
+      "hi": "लोक अभियोजक (Lok Abhiyojak)",
+      "context": "A law officer who conducts criminal proceedings on behalf of the state or in the public interest."
     },
     {
-      "term": "Magistrate",
-      "meaning": "दंडाधिकारी / मजिस्ट्रेट (Dandadhikari) - A civil officer or lay judge who administers the law, especially one who conducts a court that deals with minor offenses."
+      "en": "Magistrate",
+      "hi": "दंडाधिकारी / मजिस्ट्रेट (Dandadhikari)",
+      "context": "A civil officer or lay judge who administers the law, especially one who conducts a court that deals with minor offenses."
     },
     {
-      "term": "Session Court",
-      "meaning": "सत्र न्यायालय (Satra Nyayalaya) - A court of law where criminal trials are held."
+      "en": "Session Court",
+      "hi": "सत्र न्यायालय (Satra Nyayalaya)",
+      "context": "A court of law where criminal trials are held."
     },
     {
-      "term": "High Court",
-      "meaning": "उच्च न्यायालय (Uchcha Nyayalaya) - The supreme judicial court in a state or province."
+      "en": "High Court",
+      "hi": "उच्च न्यायालय (Uchcha Nyayalaya)",
+      "context": "The supreme judicial court in a state or province."
     },
     {
-      "term": "Supreme Court",
-      "meaning": "सर्वोच्च न्यायालय / उच्चतम न्यायालय (Sarvochcha Nyayalaya) - The highest judicial court in a country or state."
+      "en": "Supreme Court",
+      "hi": "सर्वोच्च न्यायालय / उच्चतम न्यायालय (Sarvochcha Nyayalaya)",
+      "context": "The highest judicial court in a country or state."
     },
     {
-      "term": "Fundamental Rights",
-      "meaning": "मौलिक अधिकार (Maulik Adhikar) - Basic human rights guaranteed by the constitution."
+      "en": "Fundamental Rights",
+      "hi": "मौलिक अधिकार (Maulik Adhikar)",
+      "context": "Basic human rights guaranteed by the constitution."
     },
     {
-      "term": "Directive Principles",
-      "meaning": "नीति निर्देशक तत्व (Niti Nirdeshak Tatva) - Guidelines or principles given to the central and state governments of India, to be kept in mind while framing laws and policies."
+      "en": "Directive Principles",
+      "hi": "नीति निर्देशक तत्व (Niti Nirdeshak Tatva)",
+      "context": "Guidelines or principles given to the central and state governments of India, to be kept in mind while framing laws and policies."
     },
     {
-      "term": "Constitution",
-      "meaning": "संविधान (Samvidhan) - A body of fundamental principles or established precedents according to which a state or other organization is acknowledged to be governed."
+      "en": "Constitution",
+      "hi": "संविधान (Samvidhan)",
+      "context": "A body of fundamental principles or established precedents according to which a state or other organization is acknowledged to be governed."
     },
     {
-      "term": "Amendment",
-      "meaning": "संशोधन (Sanshodhan) - A minor change or addition designed to improve a text, piece of legislation, etc."
+      "en": "Amendment",
+      "hi": "संशोधन (Sanshodhan)",
+      "context": "A minor change or addition designed to improve a text, piece of legislation, etc."
     },
     {
-      "term": "Ordinance",
-      "meaning": "अध्यादेश (Adhyadesh) - An authoritative order; a decree."
+      "en": "Ordinance",
+      "hi": "अध्यादेश (Adhyadesh)",
+      "context": "An authoritative order; a decree."
     },
     {
-      "term": "Bill",
-      "meaning": "विधेयक (Vidheyak) - A draft of a proposed law presented to parliament for discussion."
+      "en": "Bill",
+      "hi": "विधेयक (Vidheyak)",
+      "context": "A draft of a proposed law presented to parliament for discussion."
     },
     {
-      "term": "Act",
-      "meaning": "अधिनियम (Adhiniyam) - A written ordinance of parliament, or another legislative body."
+      "en": "Act",
+      "hi": "अधिनियम (Adhiniyam)",
+      "context": "A written ordinance of parliament, or another legislative body."
     },
     {
-      "term": "Statute",
-      "meaning": "कानून / संविधि (Kanoon / Samvidhi) - A written law passed by a legislative body."
+      "en": "Statute",
+      "hi": "कानून / संविधि (Kanoon / Samvidhi)",
+      "context": "A written law passed by a legislative body."
     },
     {
-      "term": "Legislation",
-      "meaning": "विधान (Vidhan) - Laws, considered collectively."
+      "en": "Legislation",
+      "hi": "विधान (Vidhan)",
+      "context": "Laws, considered collectively."
     },
     {
-      "term": "Legislature",
-      "meaning": "विधायिका (Vidhayika) - The legislative body of a country or state."
+      "en": "Legislature",
+      "hi": "विधायिका (Vidhayika)",
+      "context": "The legislative body of a country or state."
     },
     {
-      "term": "Executive",
-      "meaning": "कार्यपालिका (Karyapalika) - The branch of a government responsible for putting decisions or laws into effect."
+      "en": "Executive",
+      "hi": "कार्यपालिका (Karyapalika)",
+      "context": "The branch of a government responsible for putting decisions or laws into effect."
     },
     {
-      "term": "Judiciary",
-      "meaning": "न्यायपालिका (Nyayapalika) - The judicial authorities of a country; judges collectively."
+      "en": "Judiciary",
+      "hi": "न्यायपालिका (Nyayapalika)",
+      "context": "The judicial authorities of a country; judges collectively."
     },
     {
-      "term": "Alternative Dispute Resolution (ADR)",
-      "meaning": "वैकल्पिक विवाद समाधान (Vaikalpik Vivad Samadhan) - Processes and techniques that act as a means for disagreeing parties to come to an agreement short of litigation."
+      "en": "Alternative Dispute Resolution (ADR)",
+      "hi": "वैकल्पिक विवाद समाधान (Vaikalpik Vivad Samadhan)",
+      "context": "Processes and techniques that act as a means for disagreeing parties to come to an agreement short of litigation."
     },
     {
-      "term": "Arbitration",
-      "meaning": "मध्यस्थता / विवाचन (Madhyasthata / Vivachan) - The use of an arbitrator to settle a dispute."
+      "en": "Arbitration",
+      "hi": "मध्यस्थता / विवाचन (Madhyasthata / Vivachan)",
+      "context": "The use of an arbitrator to settle a dispute."
     },
     {
-      "term": "Mediation",
-      "meaning": "मध्यस्थता (Madhyasthata) - Intervention in a dispute in order to resolve it; arbitration."
+      "en": "Mediation",
+      "hi": "मध्यस्थता (Madhyasthata)",
+      "context": "Intervention in a dispute in order to resolve it; arbitration."
     },
     {
-      "term": "Conciliation",
-      "meaning": "सुलह (Sulah) - The action of stopping someone from being angry; placation."
+      "en": "Conciliation",
+      "hi": "सुलह (Sulah)",
+      "context": "The action of stopping someone from being angry; placation."
     },
     {
-      "term": "Lok Adalat",
-      "meaning": "लोक अदालत (Lok Adalat) - People's court, an alternative dispute resolution mechanism in India."
+      "en": "Lok Adalat",
+      "hi": "लोक अदालत (Lok Adalat)",
+      "context": "People's court, an alternative dispute resolution mechanism in India."
     },
     {
-      "term": "Juvenile",
-      "meaning": "किशोर (Kishor) - For or relating to young people."
+      "en": "Juvenile",
+      "hi": "किशोर (Kishor)",
+      "context": "For or relating to young people."
     },
     {
-      "term": "Parole",
-      "meaning": "पैरोल / सशर्त रिहाई (Parole / Sashart Rihai) - The release of a prisoner temporarily or permanently before the completion of a sentence, on the promise of good behavior."
+      "en": "Parole",
+      "hi": "पैरोल / सशर्त रिहाई (Parole / Sashart Rihai)",
+      "context": "The release of a prisoner temporarily or permanently before the completion of a sentence, on the promise of good behavior."
     }
   ]
 };
