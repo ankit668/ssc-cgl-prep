@@ -1,4 +1,4 @@
-﻿const CACHE_NAME = 'ssc-prep-v229';
+﻿const CACHE_NAME = 'ssc-prep-v233';
 const urlsToCache = [
   './',
   './index.html',
@@ -41,14 +41,26 @@ self.addEventListener('install', event => {
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then(cache => {
-        return cache.addAll(urlsToCache);
+        // Bypass HTTP cache completely during SW install to prevent PWA caching nightmares
+        return Promise.all(
+          urlsToCache.map(url => {
+            return fetch(new Request(url, { cache: 'no-store' }))
+              .then(response => {
+                if (!response.ok) {
+                    console.log('Failed to fetch ' + url);
+                    return;
+                }
+                return cache.put(url, response);
+              }).catch(err => console.error('Fetch err', err));
+          })
+        );
       })
   );
 });
 
 self.addEventListener('fetch', event => {
   event.respondWith(
-    caches.match(event.request)
+    caches.match(event.request, {ignoreSearch: false})
       .then(response => {
         if (response) {
           return response; // Return from cache
@@ -69,14 +81,12 @@ self.addEventListener('fetch', event => {
             return response;
           }
         ).catch(() => {
-          // If network fails and it's not in cache, fallback
           console.log('Offline and resource not in cache:', event.request.url);
         });
       })
   );
 });
 
-// Activate event: cleanup old caches
 self.addEventListener('activate', event => {
   self.clients.claim();
   const cacheWhitelist = [CACHE_NAME];
@@ -92,17 +102,3 @@ self.addEventListener('activate', event => {
     })
   );
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
