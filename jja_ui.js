@@ -270,7 +270,7 @@
         else if (tab === 'translation') renderTranslations(content);
         else if (tab === 'legal') renderLegalGK(content);
         else if (tab === 'jargon') window.renderJargon(content);
-        else if (tab === \'cheat\') renderCheatSheet(content);
+        
         else if (tab === 'cheat') renderCheatSheet(content);
         else if (tab === 'proof') window.renderProofreading(content);
         else if (tab === 'typing') renderTypingTest(content);
