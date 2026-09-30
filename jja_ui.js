@@ -75,6 +75,12 @@
         }).join('');
     };
 
+    window.jjaSpeakSimpleEssay = function(id, btn) {
+        const e = window.jjaData.essays.find(x => x.id === id);
+        if(!e || !e.simpleEssay) return;
+        ttsSpeak(e.simpleEssay, btn);
+    };
+
     window.jjaSpeakEssay = function(id, btn) {
         const e = window.jjaData.essays.find(x => x.id === id);
         if(!e) return;
@@ -310,6 +316,7 @@
                     <b>Conclusion:</b> ${outline.conclusion}
                 </div>
                 <div id="essay-${e.id}" class="jja-hidden" style="margin-top:12px; background:#0F172A; padding:14px; border-radius:8px; color:#CBD5E1; font-size:0.88em; line-height:1.8; white-space:pre-wrap;">${window.formatTTS(e.modelEssay)}</div>
+                ${e.simpleEssay ? `<div id="simple-${e.id}" class="jja-hidden" style="margin-top:12px; background:#022C22; padding:14px; border-radius:8px; color:#A7F3D0; font-size:0.9em; line-height:1.9; white-space:pre-wrap; border:1px solid #34D399;"><b style="color:#34D399;">✅ SIMPLE VERSION — Easy to Remember & Reproduce</b><br><br>${window.formatTTS(e.simpleEssay)}</div>` : ''}
                 <div>
                     <button class="jja-reveal-btn" onclick="jjaToggle('outline-${e.id}', this)" data-open="0">📋 Show Outline</button>
                     <button class="jja-reveal-btn" onclick="jjaToggle('essay-${e.id}', this)" data-open="0">📖 Show Model Essay</button>
