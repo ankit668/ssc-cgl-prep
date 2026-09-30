@@ -269,6 +269,7 @@
         else if (tab === 'translation') renderTranslations(content);
         else if (tab === 'legal') renderLegalGK(content);
         else if (tab === 'jargon') window.renderJargon(content);
+        else if (tab === 'cheat') renderCheatSheet(content);
         else if (tab === 'proof') window.renderProofreading(content);
         else if (tab === 'typing') renderTypingTest(content);
         else if (tab === 'rajbhasha') renderRajbhashaQuiz(content);
@@ -1019,3 +1020,53 @@ Yours faithfully,<br>
     };
 
 })();
+
+
+    function renderCheatSheet(pane) {
+        if (!pane) pane = document.getElementById('jja-content');
+        pane.innerHTML = `
+        <div style="background:#0F172A; padding:20px; border-radius:12px; color:#E2E8F0; line-height:1.7;">
+            <h2 style="color:#FCD34D; text-align:center;">🚂 Last Minute Train Revision</h2>
+            <p style="text-align:center; color:#94A3B8;">Read this on the train on Oct 2 to lock in these high-scoring elements.</p>
+            <hr style="border-color:#334155; margin:20px 0;">
+            
+            <h3 style="color:#38BDF8;">⚖️ Top Quotes for Essays</h3>
+            <ul style="padding-left:20px;">
+                <li style="margin-bottom:10px;"><b>"The basic rule of our criminal justice system is bail, not jail."</b> — Justice V.R. Krishna Iyer</li>
+                <li style="margin-bottom:10px;"><b>"Speedy trial is the essence of criminal justice; delay in trial by itself constitutes denial of justice."</b> — Justice P.N. Bhagwati</li>
+                <li style="margin-bottom:10px;"><b>"I measure the progress of a community by the degree of progress which women have achieved."</b> — Dr. B.R. Ambedkar</li>
+                <li style="margin-bottom:10px;"><b>"Embracing technology in the judiciary is not about modernisation; it is about the democratisation of justice."</b> — Justice D.Y. Chandrachud</li>
+                <li style="margin-bottom:10px;"><b>"The right against the adverse effects of climate change is an integral part of the right to life and equality."</b> — Supreme Court of India (2024)</li>
+                <li style="margin-bottom:10px;"><b>"Privacy is not a privilege — it is the constitutional core of human dignity."</b> — Justice D.Y. Chandrachud</li>
+                <li style="margin-bottom:10px;"><b>"Law and order are the medicine of the body politic and when the body politic gets sick, medicine must be administered."</b> — Dr. B.R. Ambedkar</li>
+            </ul>
+
+            <h3 style="color:#38BDF8; margin-top:30px;">📖 Top Constitutional Articles</h3>
+            <ul style="padding-left:20px;">
+                <li><b>Article 14:</b> Right to Equality</li>
+                <li><b>Article 19(1)(a):</b> Freedom of Speech and Expression</li>
+                <li><b>Article 19(2):</b> Reasonable restrictions (Sovereignty, public order, contempt of court)</li>
+                <li><b>Article 21:</b> Protection of Life and Personal Liberty (Includes Privacy, Environment, Speedy Trial, Climate)</li>
+                <li><b>Article 21A:</b> Right to Education</li>
+                <li><b>Article 32:</b> Right to Constitutional Remedies (Heart and soul)</li>
+                <li><b>Article 44:</b> Uniform Civil Code</li>
+                <li><b>Article 50:</b> Separation of Judiciary from the Executive</li>
+                <li><b>Article 129:</b> Supreme Court's power to punish for contempt</li>
+                <li><b>Article 215:</b> High Court's power to punish for contempt</li>
+            </ul>
+
+            <h3 style="color:#38BDF8; margin-top:30px;">📅 Top Legal Acts & Years</h3>
+            <ul style="padding-left:20px;">
+                <li><b>Bharatiya Nyaya Sanhita (BNS), 2023</b> (Replaced IPC)</li>
+                <li><b>Bharatiya Nagarik Suraksha Sanhita (BNSS), 2023</b> (Replaced CrPC)</li>
+                <li><b>Bharatiya Sakshya Adhiniyam (BSA), 2023</b> (Replaced Evidence Act)</li>
+                <li><b>Digital Personal Data Protection Act (DPDP), 2023</b></li>
+                <li><b>Mediation Act, 2023</b></li>
+                <li><b>Protection of Children from Sexual Offences (POCSO) Act, 2012</b> (Amended 2019)</li>
+                <li><b>Sexual Harassment of Women at Workplace (POSH) Act, 2013</b></li>
+                <li><b>Protection of Women from Domestic Violence Act, 2005</b></li>
+                <li><b>Contempt of Courts Act, 1971</b> (Amended 2006 for 'truth' defense)</li>
+            </ul>
+        </div>
+        `;
+    }
