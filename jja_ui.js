@@ -152,6 +152,7 @@
                 <button onclick="jjaTab('translation')" id="jja-tab-translation" class="jja-tab-btn">🔄 Translation</button>
                 <button onclick="jjaTab('legal')" id="jja-tab-legal" class="jja-tab-btn">⚖️ Legal GK</button>
                 <button onclick="jjaTab('jargon')" id="jja-tab-jargon" class="jja-tab-btn">📇 Flashcards</button>
+                <button onclick="jjaTab(\'cheat\')" id="jja-tab-cheat" class="jja-tab-btn" style="background:#064E3B; color:#34D399; border:1px solid #34D399;">🔥 Cheat Sheet</button>
                 <button onclick="jjaTab('proof')" id="jja-tab-proof" class="jja-tab-btn">🔎 Proofreading</button>
                 <button onclick="jjaTab('typing')" id="jja-tab-typing" class="jja-tab-btn">⌨️ Typing Test</button>
                 <button onclick="jjaTab('rajbhasha')" id="jja-tab-rajbhasha" class="jja-tab-btn">🇮🇳 Rajbhasha MCQ</button>
@@ -269,6 +270,7 @@
         else if (tab === 'translation') renderTranslations(content);
         else if (tab === 'legal') renderLegalGK(content);
         else if (tab === 'jargon') window.renderJargon(content);
+        else if (tab === \'cheat\') renderCheatSheet(content);
         else if (tab === 'cheat') renderCheatSheet(content);
         else if (tab === 'proof') window.renderProofreading(content);
         else if (tab === 'typing') renderTypingTest(content);
