@@ -319,8 +319,8 @@
                 ${e.simpleEssay ? `<div id="simple-${e.id}" class="jja-hidden" style="margin-top:12px; background:#022C22; padding:14px; border-radius:8px; color:#A7F3D0; font-size:0.9em; line-height:1.9; white-space:pre-wrap; border:1px solid #34D399;"><b style="color:#34D399;">✅ SIMPLE VERSION — Easy to Remember & Reproduce</b><br><br>${window.formatTTS(e.simpleEssay)}</div>` : ''}
                 <div>
                     <button class="jja-reveal-btn" onclick="jjaToggle('outline-${e.id}', this)" data-open="0">📋 Show Outline</button>
-                    <button class="jja-reveal-btn" onclick="jjaToggle('essay-${e.id}', this)" data-open="0">📖 Show Model Essay</button>
-                    
+                    <button class="jja-reveal-btn" onclick="jjaToggle('essay-${e.id}', this)" data-open="0">📖 Model Essay (Advanced)</button>
+                    ${e.simpleEssay ? `<button class="jja-reveal-btn" onclick="jjaToggle('simple-${e.id}', this)" data-open="0" style="background:#064E3B; color:#34D399; border-color:#064E3B;">✅ Simple Version</button>` : ''}
                 </div>
             </div>
             `;
