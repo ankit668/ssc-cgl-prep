@@ -43,7 +43,7 @@ const fatmanStatic = {
         <div style="background:linear-gradient(135deg,#1E3A5F,#0F172A);border-left:4px solid #38BDF8;padding:12px 16px;border-radius:8px;margin:10px 0;">
             <b style="color:#38BDF8;">⚡ Quick Recall</b><br>
             ' Two streams: <b>Hindustani</b> (North) | <b>Carnatic</b> (South)<br>
-            ' Common: <b>Raga</b> (melodic) ┬╖ <b>Taal</b> (rhythmic) ┬╖ <b>Sruti</b> (smallest pitch difference)<br>
+            ' Common: <b>Raga</b> (melodic) · <b>Taal</b> (rhythmic) · <b>Sruti</b> (smallest pitch difference)<br>
             ' Father of Carnatic: <b>Purandar Das</b> | First Bharat Ratna musician: <b>M.S. Subbulakshmi (1998)</b>
         </div>
 
@@ -51,7 +51,7 @@ const fatmanStatic = {
             <b style="color:#F59E0B;">🎯 PYQ Alert -- Most Tested!</b><br>
             "Who first composed <b>Dhrupad</b>?" → <b>Miyan Tansen</b><br>
             "Who first composed <b>Khayal</b>?" → <b>Amir Khusrau</b><br>
-            "Trinity of Carnatic Music?" → <b>Tyagaraja ┬╖ Muthuswami Dikshitar ┬╖ Syama Sastri</b>
+            "Trinity of Carnatic Music?" → <b>Tyagaraja · Muthuswami Dikshitar · Syama Sastri</b>
         </div>
 
         <h3>3 Major Vocal Forms of Hindustani</h3>
@@ -63,7 +63,7 @@ const fatmanStatic = {
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Tarana</strong></td><td style="padding:8px;">--</td><td style="padding:8px;">End of concert; conveys elation; basis for Carnatic <strong>Tillana</strong></td></tr>
             </tbody>
         </table>
-        <p>Semi-classical: <strong>Thumri ┬╖ Ghazal ┬╖ Bhajan ┬╖ Kajari ┬╖ Tappa ┬╖ Dhamar ┬╖ Chaiti</strong></p>
+        <p>Semi-classical: <strong>Thumri · Ghazal · Bhajan · Kajari · Tappa · Dhamar · Chaiti</strong></p>
 
         <h3>Hindustani vs Carnatic -- Comparison</h3>
         <table style="width:100%; border-collapse:collapse; margin:10px 0;">
@@ -84,7 +84,7 @@ const fatmanStatic = {
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Vishnu Digambar Paluskar</strong></td><td style="padding:8px;">Founded <strong>Gandharva Mahavidyalaya</strong> (1901, Lahore)</td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Purandar Das</strong></td><td style="padding:8px;"><strong>Father of Carnatic Music</strong></td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>M. S. Subbulakshmi</strong></td><td style="padding:8px;">Queen of Carnatic; <strong>1st musician → Bharat Ratna (1998)</strong></td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Trinity of Carnatic</strong></td><td style="padding:8px;">Tyagaraja ┬╖ Muthuswami Dikshitar ┬╖ Syama Sastri (18th C.)</td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Trinity of Carnatic</strong></td><td style="padding:8px;">Tyagaraja · Muthuswami Dikshitar · Syama Sastri (18th C.)</td></tr>
             </tbody>
         </table>
 
@@ -94,24 +94,24 @@ const fatmanStatic = {
         <div style="background:linear-gradient(135deg,#3B1D6E,#0F172A);border-left:4px solid #A855F7;padding:12px 16px;border-radius:8px;margin:10px 0;">
             <b style="color:#A855F7;">🧠 Mnemonic -- All 8 Classical Dances</b><br>
             <b style="font-size:1.1em; color:white;">"BKK KOMMS"</b><br>
-            <b>B</b>haratanatyam (TN) ┬╖ <b>K</b>athak (UP) ┬╖ <b>K</b>athakali (KL) ┬╖ <b>K</b>uchipudi (AP) ┬╖ <b>O</b>dissi (OD) ┬╖ <b>M</b>anipuri (MN) ┬╖ <b>M</b>ohiniyattam (KL) ┬╖ <b>S</b>attriya (AS)
+            <b>B</b>haratanatyam (TN) · <b>K</b>athak (UP) · <b>K</b>athakali (KL) · <b>K</b>uchipudi (AP) · <b>O</b>dissi (OD) · <b>M</b>anipuri (MN) · <b>M</b>ohiniyattam (KL) · <b>S</b>attriya (AS)
         </div>
 
         <div style="background:#1C1917;border:2px solid #F59E0B;padding:12px 16px;border-radius:8px;margin:10px 0;">
             <b style="color:#F59E0B;">🎯 PYQ Alert</b><br>
             ' <b>Oldest</b> classical dance = <b>Bharatanatyam</b> (evolved from Sadir; source: <b>Abhinaya Darpana</b>)<br>
             ' <b>Brass plate dancing</b> = <b>Kuchipudi</b> (Tarangam)<br>
-            ' <b>Kathakali face colors</b>: Green=Noble ┬╖ Red=Evil ┬╖ Black=Demon<br>
+            ' <b>Kathakali face colors</b>: Green=Noble · Red=Evil · Black=Demon<br>
             ' <b>Sattriya</b> introduced by <b>Srimanta Sankardev</b> (15th century, Assam)
         </div>
 
         <table style="width:100%; border-collapse:collapse; margin:10px 0;">
             <thead><tr style="background:#7C3AED;color:white;"><th style="padding:8px;">Dance</th><th style="padding:8px;">State</th><th style="padding:8px;">Key Identifier</th><th style="padding:8px;">Famous Exponents</th></tr></thead>
             <tbody>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Bharatanatyam</strong></td><td style="padding:8px;">Tamil Nadu 🏛∩╕Å</td><td style="padding:8px;">Oldest; from Sadir; Abhinaya Darpana</td><td style="padding:8px;">Rukmini Devi Arundale, Yamini Krishnamurthy</td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Bharatanatyam</strong></td><td style="padding:8px;">Tamil Nadu 🏛</td><td style="padding:8px;">Oldest; from Sadir; Abhinaya Darpana</td><td style="padding:8px;">Rukmini Devi Arundale, Yamini Krishnamurthy</td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Kathak</strong></td><td style="padding:8px;">Uttar Pradesh 🕌</td><td style="padding:8px;">Radha-Krishna; Lucknow/Jaipur/Benares Gharanas</td><td style="padding:8px;">Birju Maharaj, Sitara Devi</td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Kathakali</strong></td><td style="padding:8px;">Kerala 🌴</td><td style="padding:8px;">Story play; Green=Noble, Red=Evil, Black=Demon</td><td style="padding:8px;">Kalamandalam Gopi</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Kuchipudi</strong></td><td style="padding:8px;">Andhra Pradesh 🌶∩╕Å</td><td style="padding:8px;">Brass plate dancing = Tarangam</td><td style="padding:8px;">Radha Reddy, Raja Reddy</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Kuchipudi</strong></td><td style="padding:8px;">Andhra Pradesh 🌶</td><td style="padding:8px;">Brass plate dancing = Tarangam</td><td style="padding:8px;">Radha Reddy, Raja Reddy</td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Odissi</strong></td><td style="padding:8px;">Odisha 🐚</td><td style="padding:8px;">Tribhanga posture</td><td style="padding:8px;">Kelucharan Mohapatra, Sonal Mansingh</td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Manipuri</strong></td><td style="padding:8px;">Manipur 🎋</td><td style="padding:8px;">Lai Haraoba festival; Vaishnavism</td><td style="padding:8px;">Jhaveri Sisters</td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Mohiniyattam</strong></td><td style="padding:8px;">Kerala 🌴</td><td style="padding:8px;">Dance of the Enchantress</td><td style="padding:8px;">Kanak Rele, Sunanda Nair</td></tr>
@@ -139,7 +139,7 @@ const fatmanStatic = {
             <div style="background:#0F172A;padding:10px;border-radius:6px;border-left:3px solid #FBBF24;"><b>🪔 Gujarat</b><br><b>Garba</b>, Dandiya Ras, Tippani Juriun, Bhavai</div>
             <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #A78BFA;"><b>🌻 Haryana</b><br>Jhumar, Phag, Daph, Dhamal, <b>Loor</b>, Gugga, Khor</div>
             <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #38BDF8;"><b>✨ Himachal Pradesh</b><br>Jhora, Jhali, Chharhi, Dhaman, Chhapeli, <b>Nati</b></div>
-            <div style="background:#0F172A;padding:10px;border-radius:6px;border-left:3px solid #FB923C;"><b>🏔∩╕Å J&amp;K</b><br><b>Rauf</b>, Hikat, Mandjas, Kud Dandi Nach, Damali</div>
+            <div style="background:#0F172A;padding:10px;border-radius:6px;border-left:3px solid #FB923C;"><b>🏔 J&amp;K</b><br><b>Rauf</b>, Hikat, Mandjas, Kud Dandi Nach, Damali</div>
             <div style="background:#0F172A;padding:10px;border-radius:6px;border-left:3px solid #4ADE80;"><b>🦁 Karnataka</b><br><b>Yakshagana</b>, Huttari, Suggi, Kunitha, Karga</div>
             <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #34D399;"><b>🌴 Kerala</b><br>Ottam Thullal, Kaikottikali</div>
             <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #F59E0B;"><b>🎡 Maharashtra</b><br><b>Lavani</b>, Nakata, Koli, Lezim, Gafa, Dahikala Dasavtar</div>
@@ -150,7 +150,7 @@ const fatmanStatic = {
             <div style="background:#0F172A;padding:10px;border-radius:6px;border-left:3px solid #38BDF8;"><b>🕌 Uttar Pradesh</b><br><b>Nautanki</b>, Raslila, Kajri, Jhora</div>
             <div style="background:#0F172A;padding:10px;border-radius:6px;border-left:3px solid #4ADE80;"><b>🌿 Chhattisgarh</b><br>Gaur Maria, <b>Panthi</b>, Raut Nacha, Pandwani</div>
             <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #FB923C;"><b>✨ Jharkhand</b><br>Alkap, Karma Munda, Agni, Jhumar, Paika, <b>Phagua</b></div>
-            <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #F59E0B;"><b>🏖∩╕Å Goa</b><br>Tarangamel, Koli, Dekhni, Fugdi, <b>Shigmo</b></div>
+            <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #F59E0B;"><b>🏖 Goa</b><br>Tarangamel, Koli, Dekhni, Fugdi, <b>Shigmo</b></div>
         </div>
 
         <!-- SECTION 4: INSTRUMENTS -->
@@ -219,7 +219,7 @@ const fatmanStatic = {
 
         <div style="background:linear-gradient(135deg,#78350F,#0F172A);border-left:4px solid #FBBF24;padding:12px 16px;border-radius:8px;margin:10px 0;">
             <b style="color:#FBBF24;">🧠 Festival Mnemonics</b><br>
-            ' <b>Bihu</b> (3 types) = Assam: <b>B</b>ohag (spring) ┬╖ <b>M</b>agh (winter) ┬╖ <b>K</b>ati (autumn) → <b>"BMK"</b><br>
+            ' <b>Bihu</b> (3 types) = Assam: <b>B</b>ohag (spring) · <b>M</b>agh (winter) · <b>K</b>ati (autumn) → <b>"BMK"</b><br>
             ' <b>Onam</b> = Kerala (King Mahabali returns 🎊)<br>
             ' <b>Pongal</b> = Tamil Nadu (harvest); <b>Baisakhi</b> = Punjab (harvest)<br>
             ' <b>Hornbill</b> = Nagaland; <b>Chapchar Kut</b> = Mizoram; <b>Nongkrem</b> = Meghalaya<br>
@@ -237,15 +237,15 @@ const fatmanStatic = {
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>🎡 Maharashtra</strong></td><td style="padding:8px;"><strong>Ganesh Chaturthi</strong>, Gudi Padwa</td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>🎋 Manipur</strong></td><td style="padding:8px;">Yaoshang, Porag, Chavang Kut</td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>🌿 Meghalaya</strong></td><td style="padding:8px;"><strong>Nongkrem</strong>, Wangala</td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>🏔∩╕Å Mizoram</strong></td><td style="padding:8px;"><strong>Chapchar Kut</strong></td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>🏔 Mizoram</strong></td><td style="padding:8px;"><strong>Chapchar Kut</strong></td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>🦅 Nagaland</strong></td><td style="padding:8px;"><strong>Hornbill</strong>, Moatsu</td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>🐚 Odisha</strong></td><td style="padding:8px;"><strong>Rath Yatra</strong>, Raja Parba, Nuakhai</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>🌾 Punjab</strong></td><td style="padding:8px;"><strong>Lohri ┬╖ Baisakhi</strong>, Bandi Chhor Divas</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>🌾 Punjab</strong></td><td style="padding:8px;"><strong>Lohri · Baisakhi</strong>, Bandi Chhor Divas</td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>🐪 Rajasthan</strong></td><td style="padding:8px;"><strong>Gangaur</strong>, Teej, Pushkar Fair</td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>🌺 Tamil Nadu</strong></td><td style="padding:8px;"><strong>Pongal</strong>, Thaipusam, Natyanjali</td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>🌶∩╕Å Telangana</strong></td><td style="padding:8px;"><strong>Bonalu</strong>, Bathukamma</td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>🌶 Telangana</strong></td><td style="padding:8px;"><strong>Bonalu</strong>, Bathukamma</td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>🐯 West Bengal</strong></td><td style="padding:8px;"><strong>Durga Puja</strong></td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>🏖∩╕Å Goa</strong></td><td style="padding:8px;">Sunburn, Shigmo, Sao Joao</td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>🏖 Goa</strong></td><td style="padding:8px;">Sunburn, Shigmo, Sao Joao</td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong> Arunachal Pradesh</strong></td><td style="padding:8px;"><strong>Losar</strong>, Mopin, Solung</td></tr>
             </tbody>
         </table>
@@ -258,7 +258,7 @@ const fatmanStatic = {
             ' <b>Feb 28</b> = National Science Day (Raman Effect) 🔬<br>
             ' <b>Aug 29</b> = National Sports Day (Dhyan Chand birthday) 🏑<br>
             ' <b>Sep 5</b> = Teachers' Day (Dr. Radhakrishnan birthday) 📖<br>
-            ' <b>Oct 2</b> = Gandhi Jayanti + Non-Violence Day 🕊∩╕Å<br>
+            ' <b>Oct 2</b> = Gandhi Jayanti + Non-Violence Day 🕊<br>
             ' <b>Nov 26</b> = Constitution Day / Samvidhan Divas 📜
         </div>
 
@@ -283,7 +283,7 @@ const fatmanStatic = {
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Sep 5 ⭐</strong></td><td style="padding:8px;">Teachers' Day</td><td style="padding:8px;"><strong>Dr. S Radhakrishnan</strong> birthday 📖</td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Sep 14</strong></td><td style="padding:8px;">Hindi Diwas</td><td style="padding:8px;"></td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Sep 16</strong></td><td style="padding:8px;">World Ozone Day</td><td style="padding:8px;"></td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Oct 2 ⭐</strong></td><td style="padding:8px;">Gandhi Jayanti + Non-Violence Day</td><td style="padding:8px;">🕊∩╕Å</td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Oct 2 ⭐</strong></td><td style="padding:8px;">Gandhi Jayanti + Non-Violence Day</td><td style="padding:8px;">🕊</td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Oct 24</strong></td><td style="padding:8px;">UN Day</td><td style="padding:8px;">UN established Oct 24, 1945</td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Nov 26 ⭐</strong></td><td style="padding:8px;">Constitution Day (Samvidhan Divas)</td><td style="padding:8px;">📜</td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Dec 1</strong></td><td style="padding:8px;">World AIDS Day</td><td style="padding:8px;"></td></tr>
@@ -348,11 +348,11 @@ const fatmanStatic = {
         </table>
 
         <!-- SECTION 9: ORGANISATIONS -->
-        <h2>🏛∩╕Å 9. ORGANISATIONS -- HQs</h2>
+        <h2>🏛 9. ORGANISATIONS -- HQs</h2>
 
         <div style="background:linear-gradient(135deg,#1E3A5F,#0F172A);border-left:4px solid #38BDF8;padding:12px 16px;border-radius:8px;margin:10px 0;">
             <b style="color:#38BDF8;">🧠 Mnemonic -- Geneva Cluster (3 big ones!)</b><br>
-            <b>WHO ┬╖ WTO ┬╖ ILO</b> = all in <b>Geneva</b> 🇨🇭<br>
+            <b>WHO · WTO · ILO</b> = all in <b>Geneva</b> 🇨🇭<br>
             <b>IMF + World Bank</b> = <b>Washington D.C.</b> 🇺🇸 | <b>FAO</b> = <b>Rome</b> 🇮🇹 | <b>ICJ</b> = <b>The Hague</b> 🇳🇱<br>
             <b>SAARC</b> = Kathmandu 🇳🇵 | <b>ASEAN</b> = Jakarta 🇮🇩 | <b>NATO</b> = Brussels 🇧🇪
         </div>
@@ -362,8 +362,8 @@ const fatmanStatic = {
             <tbody>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>UN</strong></td><td style="padding:8px;">New York 🇺🇸</td><td style="padding:8px;">Oct 24, 1945</td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>UNESCO</strong></td><td style="padding:8px;">Paris, France 🇫🇷</td><td style="padding:8px;"></td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>WHO ┬╖ WTO ┬╖ ILO</strong></td><td style="padding:8px;">Geneva, Switzerland 🇨🇭</td><td style="padding:8px;">WHO est. 1948</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>IMF ┬╖ World Bank</strong></td><td style="padding:8px;">Washington D.C. 🇺🇸</td><td style="padding:8px;"></td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>WHO · WTO · ILO</strong></td><td style="padding:8px;">Geneva, Switzerland 🇨🇭</td><td style="padding:8px;">WHO est. 1948</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>IMF · World Bank</strong></td><td style="padding:8px;">Washington D.C. 🇺🇸</td><td style="padding:8px;"></td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>FAO</strong></td><td style="padding:8px;">Rome, Italy 🇮🇹</td><td style="padding:8px;"></td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>ICJ</strong></td><td style="padding:8px;">The Hague, Netherlands 🇳🇱</td><td style="padding:8px;"></td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>SAARC</strong></td><td style="padding:8px;">Kathmandu, Nepal 🇳🇵</td><td style="padding:8px;"></td></tr>
@@ -371,7 +371,7 @@ const fatmanStatic = {
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>NATO</strong></td><td style="padding:8px;">Brussels, Belgium 🇧🇪</td><td style="padding:8px;"></td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>NDB (BRICS Bank)</strong></td><td style="padding:8px;">Shanghai, China 🇨🇳</td><td style="padding:8px;"></td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>ISRO</strong></td><td style="padding:8px;">Bengaluru 🚀</td><td style="padding:8px;">Founded 1969</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>DRDO</strong></td><td style="padding:8px;">New Delhi 🛡∩╕Å</td><td style="padding:8px;">Founded 1958</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>DRDO</strong></td><td style="padding:8px;">New Delhi 🛡</td><td style="padding:8px;">Founded 1958</td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>RBI</strong></td><td style="padding:8px;">Mumbai 🏦</td><td style="padding:8px;">Founded 1935 in Kolkata; moved to Mumbai 1937</td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>SEBI</strong></td><td style="padding:8px;">Mumbai 📈</td><td style="padding:8px;">Est. 1988; Statutory body 1992</td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>NABARD</strong></td><td style="padding:8px;">Mumbai 🌾</td><td style="padding:8px;">Founded 1982; Sivaraman Committee</td></tr>
@@ -400,8 +400,8 @@ const fatmanStatic = {
                     <li><b>Child Sex Ratio:</b> Arunachal Pradesh (972)</li>
                     <li><b>Literacy (State):</b> Kerala (94%)</li>
                     <li><b>Literacy (UT):</b> Lakshadweep (91.8%)</li>
-                    <li><b>Density (State):</b> Bihar (1106/km┬▓)</li>
-                    <li><b>Density (UT):</b> Delhi (11320/km┬▓)</li>
+                    <li><b>Density (State):</b> Bihar (1106/km²)</li>
+                    <li><b>Density (UT):</b> Delhi (11320/km²)</li>
                     <li><b>Decadal Growth:</b> Meghalaya (27.9%)</li>
                 </ul>
             </div>
@@ -415,8 +415,8 @@ const fatmanStatic = {
                     <li><b>Child Sex Ratio:</b> Haryana (834)</li>
                     <li><b>Literacy (State):</b> Bihar (61.8%)</li>
                     <li><b>Literacy (UT):</b> Dadra &amp; NH</li>
-                    <li><b>Density (State):</b> Arunachal Pradesh (17/km┬▓)</li>
-                    <li><b>Density (UT):</b> A&amp;N Islands (46/km┬▓)</li>
+                    <li><b>Density (State):</b> Arunachal Pradesh (17/km²)</li>
+                    <li><b>Density (UT):</b> A&amp;N Islands (46/km²)</li>
                     <li><b>Decadal Growth:</b> Nagaland (-0.6%)</li>
                 </ul>
             </div>
@@ -425,10 +425,10 @@ const fatmanStatic = {
         <div style="background:#1C1917;border:2px solid #FBBF24;padding:12px 16px;border-radius:8px;margin:10px 0;">
             <b style="color:#FBBF24;">🧠 Mnemonic -- Census Top 5</b><br>
             <b>Kerala</b> = always HIGHEST (sex ratio, literacy) 🥇<br>
-            <b>Bihar</b> = HIGHEST density ┬╖ LOWEST literacy (remember: Bihar = dense but less literate)<br>
+            <b>Bihar</b> = HIGHEST density · LOWEST literacy (remember: Bihar = dense but less literate)<br>
             <b>Haryana</b> = LOWEST sex ratio (879) -- always tested!<br>
             <b>Arunachal Pradesh</b> = LOWEST density (just 17!); HIGHEST child sex ratio<br>
-            <b>Meghalaya</b> = HIGHEST decadal growth ┬╖ <b>Nagaland</b> = NEGATIVE growth
+            <b>Meghalaya</b> = HIGHEST decadal growth · <b>Nagaland</b> = NEGATIVE growth
         </div>
 
         <!-- SECTION 11: AWARDS -->
@@ -436,7 +436,7 @@ const fatmanStatic = {
 
         <div style="background:#1C1917;border:2px solid #F59E0B;padding:12px 16px;border-radius:8px;margin:10px 0;">
             <b style="color:#F59E0B;">🎯 PYQ Alert -- First Winners are always asked!</b><br>
-            <b>Bharat Ratna</b> (1954) → C. Rajagopalachari ┬╖ S. Radhakrishnan ┬╖ C.V. Raman (all 3 together!)<br>
+            <b>Bharat Ratna</b> (1954) → C. Rajagopalachari · S. Radhakrishnan · C.V. Raman (all 3 together!)<br>
             <b>Jnanpith</b> (1st) → G. Sankara Kurup (Malayalam) | (1st woman) → Ashapoorna Devi (Bengali)<br>
             <b>Saraswati Samman</b> (1st) → Harivansh Rai Bachchan | <b>Dada Saheb Phalke</b> (1st) → Devika Rani (1969)<br>
             <b>Khel Ratna</b> (1st) → Viswanathan Anand (1991-92) | <b>Magsaysay</b> (1st Indian) → Vinoba Bhave (1958)
