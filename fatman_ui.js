@@ -450,13 +450,27 @@ window.prepareTeacherAudio = function(contentDiv, chapterName) {
         el.addEventListener('click', function(e) {
             e.stopPropagation();
             if (window.fatmanAudioCurrentIndex === index && window.fatmanAudioState === 'playing') {
-                window.toggleFatmanAudio(); // Pause it if they click the active one
+                // Clicking the currently speaking element -> Pause
+                window.toggleFatmanAudio();
             } else if (window.fatmanAudioCurrentIndex === index && window.fatmanAudioState === 'paused') {
-                window.toggleFatmanAudio(); // Resume if they click the paused one
+                // Clicking the currently paused element -> Resume
+                window.toggleFatmanAudio();
             } else {
+                // Clicking any other element -> always start playing from HERE immediately
                 window.playFatmanAudioFromIndex(index);
+                // Visual feedback: show a small toast
+                const toast = document.createElement('div');
+                toast.textContent = '\u25B6 Playing from here...';
+                toast.style.cssText = 'position:fixed;bottom:80px;left:50%;transform:translateX(-50%);background:#10B981;color:white;padding:8px 18px;border-radius:20px;font-size:0.85em;z-index:9999;pointer-events:none;opacity:1;transition:opacity 0.5s;';
+                document.body.appendChild(toast);
+                setTimeout(() => { toast.style.opacity = '0'; }, 1500);
+                setTimeout(() => { toast.remove(); }, 2100);
             }
         });
+        
+        // Visual cursor hint so users know they can click
+        el.style.cursor = 'pointer';
+        el.title = '\u25B6 Click to start reading from here';
     });
 };
 
