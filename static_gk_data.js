@@ -1,14 +1,14 @@
 const fatmanStatic = {
     chapter: "Static GK (Music, Dance & Festivals)",
     notes: `
-        <h1 style="color:#F59E0B; text-align:center;">Γ¡É STATIC GK MASTER FILE</h1>
+        <h1 style="color:#F59E0B; text-align:center;">⭐ STATIC GK MASTER FILE</h1>
         <p style="text-align:center; color:#94A3B8;">Complete compilation from Parmar Fatman -- Every point is a PYQ!</p>
 
         <!-- SECTION 1: CLASSICAL MUSIC -->
         <h2>≡ƒÄ╡ 1. INDIAN CLASSICAL MUSIC</h2>
 
         <div style="background:linear-gradient(135deg,#1E3A5F,#0F172A);border-left:4px solid #38BDF8;padding:12px 16px;border-radius:8px;margin:10px 0;">
-            <b style="color:#38BDF8;">ΓÜí Quick Recall</b><br>
+            <b style="color:#38BDF8;">⚡ Quick Recall</b><br>
             ' Two streams: <b>Hindustani</b> (North) | <b>Carnatic</b> (South)<br>
             ' Common: <b>Raga</b> (melodic) ┬╖ <b>Taal</b> (rhythmic) ┬╖ <b>Sruti</b> (smallest pitch difference)<br>
             ' Father of Carnatic: <b>Purandar Das</b> | First Bharat Ratna musician: <b>M.S. Subbulakshmi (1998)</b>
@@ -16,9 +16,9 @@ const fatmanStatic = {
 
         <div style="background:#1C1917;border:2px solid #F59E0B;padding:12px 16px;border-radius:8px;margin:10px 0;">
             <b style="color:#F59E0B;">≡ƒÄ» PYQ Alert -- Most Tested!</b><br>
-            "Who first composed <b>Dhrupad</b>?" ΓåÆ <b>Miyan Tansen</b><br>
-            "Who first composed <b>Khayal</b>?" ΓåÆ <b>Amir Khusrau</b><br>
-            "Trinity of Carnatic Music?" ΓåÆ <b>Tyagaraja ┬╖ Muthuswami Dikshitar ┬╖ Syama Sastri</b>
+            "Who first composed <b>Dhrupad</b>?" → <b>Miyan Tansen</b><br>
+            "Who first composed <b>Khayal</b>?" → <b>Amir Khusrau</b><br>
+            "Trinity of Carnatic Music?" → <b>Tyagaraja ┬╖ Muthuswami Dikshitar ┬╖ Syama Sastri</b>
         </div>
 
         <h3>3 Major Vocal Forms of Hindustani</h3>
@@ -50,7 +50,7 @@ const fatmanStatic = {
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Vishnu Narayan Bhatkhande</strong></td><td style="padding:8px;">Categorised ragas into 10 <strong>Thaats</strong></td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Vishnu Digambar Paluskar</strong></td><td style="padding:8px;">Founded <strong>Gandharva Mahavidyalaya</strong> (1901, Lahore)</td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Purandar Das</strong></td><td style="padding:8px;"><strong>Father of Carnatic Music</strong></td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>M. S. Subbulakshmi</strong></td><td style="padding:8px;">Queen of Carnatic; <strong>1st musician ΓåÆ Bharat Ratna (1998)</strong></td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>M. S. Subbulakshmi</strong></td><td style="padding:8px;">Queen of Carnatic; <strong>1st musician → Bharat Ratna (1998)</strong></td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Trinity of Carnatic</strong></td><td style="padding:8px;">Tyagaraja ┬╖ Muthuswami Dikshitar ┬╖ Syama Sastri (18th C.)</td></tr>
             </tbody>
         </table>
@@ -96,7 +96,7 @@ const fatmanStatic = {
             ' <b>Bihu</b> = Assam (Bohag/Magh/Kati -- 3 types!) ≡ƒÄì<br>
             ' <b>Yakshagana</b> = Karnataka; <b>Lavani</b> = Maharashtra<br>
             ' <b>Kalbelia/Ghumar</b> = Rajasthan ≡ƒÉì; <b>Rauf</b> = J&amp;K<br>
-            ' <b>Chhau</b> = Odisha; <b>Chhath Puja</b> dance Γëá folk dance (it's a festival!)
+            ' <b>Chhau</b> = Odisha; <b>Chhath Puja</b> dance → folk dance (it's a festival!)
         </div>
 
         <div style="display:grid; grid-template-columns: 1fr 1fr; gap:8px; margin:10px 0;">
@@ -105,7 +105,7 @@ const fatmanStatic = {
             <div style="background:#0F172A;padding:10px;border-radius:6px;border-left:3px solid #F87171;"><b>≡ƒ¬ü Bihar</b><br>Jata-Jatin, Bakho-Bakhain, Panwariya, Sama Chakwa, Bidesia</div>
             <div style="background:#0F172A;padding:10px;border-radius:6px;border-left:3px solid #FBBF24;"><b>≡ƒ¬ö Gujarat</b><br><b>Garba</b>, Dandiya Ras, Tippani Juriun, Bhavai</div>
             <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #A78BFA;"><b>≡ƒî╗ Haryana</b><br>Jhumar, Phag, Daph, Dhamal, <b>Loor</b>, Gugga, Khor</div>
-            <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #38BDF8;"><b>Γ¢░∩╕Å Himachal Pradesh</b><br>Jhora, Jhali, Chharhi, Dhaman, Chhapeli, <b>Nati</b></div>
+            <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #38BDF8;"><b>✨ Himachal Pradesh</b><br>Jhora, Jhali, Chharhi, Dhaman, Chhapeli, <b>Nati</b></div>
             <div style="background:#0F172A;padding:10px;border-radius:6px;border-left:3px solid #FB923C;"><b>≡ƒÅö∩╕Å J&amp;K</b><br><b>Rauf</b>, Hikat, Mandjas, Kud Dandi Nach, Damali</div>
             <div style="background:#0F172A;padding:10px;border-radius:6px;border-left:3px solid #4ADE80;"><b>≡ƒªü Karnataka</b><br><b>Yakshagana</b>, Huttari, Suggi, Kunitha, Karga</div>
             <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #34D399;"><b>≡ƒî┤ Kerala</b><br>Ottam Thullal, Kaikottikali</div>
@@ -116,7 +116,7 @@ const fatmanStatic = {
             <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #A78BFA;"><b>≡ƒî║ Tamil Nadu</b><br><b>Karagam</b>, Kavadi, Kummi, Kolattam</div>
             <div style="background:#0F172A;padding:10px;border-radius:6px;border-left:3px solid #38BDF8;"><b>≡ƒòî Uttar Pradesh</b><br><b>Nautanki</b>, Raslila, Kajri, Jhora</div>
             <div style="background:#0F172A;padding:10px;border-radius:6px;border-left:3px solid #4ADE80;"><b>≡ƒî┐ Chhattisgarh</b><br>Gaur Maria, <b>Panthi</b>, Raut Nacha, Pandwani</div>
-            <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #FB923C;"><b>Γ¢Å∩╕Å Jharkhand</b><br>Alkap, Karma Munda, Agni, Jhumar, Paika, <b>Phagua</b></div>
+            <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #FB923C;"><b>✨ Jharkhand</b><br>Alkap, Karma Munda, Agni, Jhumar, Paika, <b>Phagua</b></div>
             <div style="background:#1E293B;padding:10px;border-radius:6px;border-left:3px solid #F59E0B;"><b>≡ƒÅû∩╕Å Goa</b><br>Tarangamel, Koli, Dekhni, Fugdi, <b>Shigmo</b></div>
         </div>
 
@@ -125,8 +125,8 @@ const fatmanStatic = {
 
         <div style="background:#1C1917;border:2px solid #F59E0B;padding:12px 16px;border-radius:8px;margin:10px 0;">
             <b style="color:#F59E0B;">≡ƒÄ» PYQ Alert -- Instrument-Person pairs are exam favourites!</b><br>
-            <b>Sitar ΓåÆ Ravi Shankar</b> | <b>Tabla ΓåÆ Zakir Hussain</b> | <b>Shehnai ΓåÆ Bismillah Khan</b><br>
-            <b>Flute ΓåÆ Hariprasad Chaurasia</b> | <b>Sarod ΓåÆ Amjad Ali Khan</b> | <b>Santoor ΓåÆ Shivkumar Sharma</b>
+            <b>Sitar → Ravi Shankar</b> | <b>Tabla → Zakir Hussain</b> | <b>Shehnai → Bismillah Khan</b><br>
+            <b>Flute → Hariprasad Chaurasia</b> | <b>Sarod → Amjad Ali Khan</b> | <b>Santoor → Shivkumar Sharma</b>
         </div>
 
         <table style="width:100%; border-collapse:collapse; margin:10px 0;">
@@ -151,9 +151,9 @@ const fatmanStatic = {
 
         <div style="background:#1C1917;border:2px solid #F59E0B;padding:12px 16px;border-radius:8px;margin:10px 0;">
             <b style="color:#F59E0B;">≡ƒÄ» PYQ Alert -- Top Painting Styles!</b><br>
-            <b>Madhubani</b> ΓåÆ Bihar | <b>Kalighat / Patachitra</b> ΓåÆ West Bengal | <b>Pattachitra</b> ΓåÆ Odisha<br>
-            <b>Kalamkari</b> ΓåÆ Andhra Pradesh | <b>Cheriyal Scroll</b> ΓåÆ Telangana | <b>Tanjore</b> ΓåÆ Tamil Nadu<br>
-            <b>Warli</b> ΓåÆ Maharashtra | <b>Phad / Pichwai</b> ΓåÆ Rajasthan | <b>Thangka</b> ΓåÆ Sikkim
+            <b>Madhubani</b> → Bihar | <b>Kalighat / Patachitra</b> → West Bengal | <b>Pattachitra</b> → Odisha<br>
+            <b>Kalamkari</b> → Andhra Pradesh | <b>Cheriyal Scroll</b> → Telangana | <b>Tanjore</b> → Tamil Nadu<br>
+            <b>Warli</b> → Maharashtra | <b>Phad / Pichwai</b> → Rajasthan | <b>Thangka</b> → Sikkim
         </div>
 
         <div style="display:grid; grid-template-columns: 1fr 1fr; gap:8px; margin:10px 0;">
@@ -186,7 +186,7 @@ const fatmanStatic = {
 
         <div style="background:linear-gradient(135deg,#78350F,#0F172A);border-left:4px solid #FBBF24;padding:12px 16px;border-radius:8px;margin:10px 0;">
             <b style="color:#FBBF24;">≡ƒºá Festival Mnemonics</b><br>
-            ' <b>Bihu</b> (3 types) = Assam: <b>B</b>ohag (spring) ┬╖ <b>M</b>agh (winter) ┬╖ <b>K</b>ati (autumn) ΓåÆ <b>"BMK"</b><br>
+            ' <b>Bihu</b> (3 types) = Assam: <b>B</b>ohag (spring) ┬╖ <b>M</b>agh (winter) ┬╖ <b>K</b>ati (autumn) → <b>"BMK"</b><br>
             ' <b>Onam</b> = Kerala (King Mahabali returns ≡ƒÄè)<br>
             ' <b>Pongal</b> = Tamil Nadu (harvest); <b>Baisakhi</b> = Punjab (harvest)<br>
             ' <b>Hornbill</b> = Nagaland; <b>Chapchar Kut</b> = Mizoram; <b>Nongkrem</b> = Meghalaya<br>
@@ -213,7 +213,7 @@ const fatmanStatic = {
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>≡ƒî╢∩╕Å Telangana</strong></td><td style="padding:8px;"><strong>Bonalu</strong>, Bathukamma</td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>≡ƒÉ» West Bengal</strong></td><td style="padding:8px;"><strong>Durga Puja</strong></td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>≡ƒÅû∩╕Å Goa</strong></td><td style="padding:8px;">Sunburn, Shigmo, Sao Joao</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Γ¥ä∩╕Å Arunachal Pradesh</strong></td><td style="padding:8px;"><strong>Losar</strong>, Mopin, Solung</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong> Arunachal Pradesh</strong></td><td style="padding:8px;"><strong>Losar</strong>, Mopin, Solung</td></tr>
             </tbody>
         </table>
 
@@ -221,7 +221,7 @@ const fatmanStatic = {
         <h2>≡ƒôà 6. IMPORTANT DAYS</h2>
 
         <div style="background:linear-gradient(135deg,#064E3B,#0F172A);border-left:4px solid #34D399;padding:12px 16px;border-radius:8px;margin:10px 0;">
-            <b style="color:#34D399;">ΓÜí Quick Recall -- Top 5 most tested!</b><br>
+            <b style="color:#34D399;">⚡ Quick Recall -- Top 5 most tested!</b><br>
             ' <b>Feb 28</b> = National Science Day (Raman Effect) ≡ƒö¼<br>
             ' <b>Aug 29</b> = National Sports Day (Dhyan Chand birthday) ≡ƒÅæ<br>
             ' <b>Sep 5</b> = Teachers' Day (Dr. Radhakrishnan birthday) ≡ƒôû<br>
@@ -237,7 +237,7 @@ const fatmanStatic = {
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Jan 24</strong></td><td style="padding:8px;">National Girl Child Day</td><td style="padding:8px;"></td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Jan 25</strong></td><td style="padding:8px;">National Voters Day</td><td style="padding:8px;"></td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Feb 2</strong></td><td style="padding:8px;">World Wetlands Day</td><td style="padding:8px;">Ramsar Convention adopted 1971</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Feb 28 Γ¡É</strong></td><td style="padding:8px;">National Science Day</td><td style="padding:8px;"><strong>Raman Effect</strong> discovery</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Feb 28 ⭐</strong></td><td style="padding:8px;">National Science Day</td><td style="padding:8px;"><strong>Raman Effect</strong> discovery</td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Mar 8</strong></td><td style="padding:8px;">International Women's Day</td><td style="padding:8px;"></td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Mar 22</strong></td><td style="padding:8px;">World Water Day</td><td style="padding:8px;"></td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Apr 7</strong></td><td style="padding:8px;">World Health Day</td><td style="padding:8px;">WHO established 1948</td></tr>
@@ -246,13 +246,13 @@ const fatmanStatic = {
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Jun 5</strong></td><td style="padding:8px;">World Environment Day</td><td style="padding:8px;"></td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Jun 21</strong></td><td style="padding:8px;">International Yoga Day</td><td style="padding:8px;"></td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Jul 11</strong></td><td style="padding:8px;">World Population Day</td><td style="padding:8px;"></td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Aug 29 Γ¡É</strong></td><td style="padding:8px;">National Sports Day</td><td style="padding:8px;"><strong>Major Dhyan Chand</strong> birthday ≡ƒÅæ</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Sep 5 Γ¡É</strong></td><td style="padding:8px;">Teachers' Day</td><td style="padding:8px;"><strong>Dr. S Radhakrishnan</strong> birthday ≡ƒôû</td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Aug 29 ⭐</strong></td><td style="padding:8px;">National Sports Day</td><td style="padding:8px;"><strong>Major Dhyan Chand</strong> birthday ≡ƒÅæ</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Sep 5 ⭐</strong></td><td style="padding:8px;">Teachers' Day</td><td style="padding:8px;"><strong>Dr. S Radhakrishnan</strong> birthday ≡ƒôû</td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Sep 14</strong></td><td style="padding:8px;">Hindi Diwas</td><td style="padding:8px;"></td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Sep 16</strong></td><td style="padding:8px;">World Ozone Day</td><td style="padding:8px;"></td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Oct 2 Γ¡É</strong></td><td style="padding:8px;">Gandhi Jayanti + Non-Violence Day</td><td style="padding:8px;">≡ƒòè∩╕Å</td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Oct 2 ⭐</strong></td><td style="padding:8px;">Gandhi Jayanti + Non-Violence Day</td><td style="padding:8px;">≡ƒòè∩╕Å</td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Oct 24</strong></td><td style="padding:8px;">UN Day</td><td style="padding:8px;">UN established Oct 24, 1945</td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Nov 26 Γ¡É</strong></td><td style="padding:8px;">Constitution Day (Samvidhan Divas)</td><td style="padding:8px;">≡ƒô£</td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Nov 26 ⭐</strong></td><td style="padding:8px;">Constitution Day (Samvidhan Divas)</td><td style="padding:8px;">≡ƒô£</td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Dec 1</strong></td><td style="padding:8px;">World AIDS Day</td><td style="padding:8px;"></td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Dec 10</strong></td><td style="padding:8px;">Human Rights Day</td><td style="padding:8px;"></td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Dec 25</strong></td><td style="padding:8px;">Good Governance Day</td><td style="padding:8px;"><strong>Atal Bihari Vajpayee</strong> birthday</td></tr>
@@ -264,9 +264,9 @@ const fatmanStatic = {
 
         <div style="background:#1C1917;border:2px solid #F59E0B;padding:12px 16px;border-radius:8px;margin:10px 0;">
             <b style="color:#F59E0B;">≡ƒÄ» PYQ Alert -- Most Tested Book-Author Pairs</b><br>
-            <b>Arthashastra</b> ΓåÆ Kautilya | <b>Panchatantra</b> ΓåÆ Vishnu Sharma | <b>Rajatarangini</b> ΓåÆ Kalhana (History of Kashmir)<br>
-            <b>Indica</b> ΓåÆ Megasthenes | <b>Anandmath</b> ΓåÆ Bankim Chandra (contains Vande Mataram!)<br>
-            <b>Discovery of India</b> ΓåÆ Nehru | <b>Gitanjali</b> ΓåÆ Tagore (Nobel 1913)
+            <b>Arthashastra</b> → Kautilya | <b>Panchatantra</b> → Vishnu Sharma | <b>Rajatarangini</b> → Kalhana (History of Kashmir)<br>
+            <b>Indica</b> → Megasthenes | <b>Anandmath</b> → Bankim Chandra (contains Vande Mataram!)<br>
+            <b>Discovery of India</b> → Nehru | <b>Gitanjali</b> → Tagore (Nobel 1913)
         </div>
 
         <table style="width:100%; border-collapse:collapse; margin:10px 0;">
@@ -287,8 +287,8 @@ const fatmanStatic = {
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>My Experiments with Truth</strong></td><td style="padding:8px;">Mahatma Gandhi</td><td style="padding:8px;">Autobiography</td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>India Wins Freedom</strong></td><td style="padding:8px;">Maulana Abul Kalam Azad</td><td style="padding:8px;"></td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Poverty &amp; Un-British Rule in India</strong></td><td style="padding:8px;">Dadabhai Naoroji</td><td style="padding:8px;">Drain of Wealth theory</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Anandmath Γ¡É</strong></td><td style="padding:8px;">Bankim Chandra Chatterjee</td><td style="padding:8px;">Contains <strong>Vande Mataram</strong></td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Gitanjali Γ¡É</strong></td><td style="padding:8px;">Rabindranath Tagore</td><td style="padding:8px;">Nobel Prize 1913</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Anandmath ⭐</strong></td><td style="padding:8px;">Bankim Chandra Chatterjee</td><td style="padding:8px;">Contains <strong>Vande Mataram</strong></td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Gitanjali ⭐</strong></td><td style="padding:8px;">Rabindranath Tagore</td><td style="padding:8px;">Nobel Prize 1913</td></tr>
             </tbody>
         </table>
 
@@ -297,20 +297,20 @@ const fatmanStatic = {
 
         <div style="background:#1C1917;border:2px solid #F59E0B;padding:12px 16px;border-radius:8px;margin:10px 0;">
             <b style="color:#F59E0B;">≡ƒÄ» PYQ Alert -- Sport = Term/Trophy</b><br>
-            <b>Bully</b> ΓåÆ Hockey | <b>Googly</b> ΓåÆ Cricket | <b>Deuce</b> ΓåÆ Tennis | <b>Bogey</b> ΓåÆ Golf | <b>Love</b> ΓåÆ Badminton/Tennis<br>
-            <b>Durand Cup</b> (oldest) ΓåÆ Football | <b>Thomas Cup</b> ΓåÆ Men's Badminton | <b>Uber Cup</b> ΓåÆ Women's Badminton<br>
-            <b>French Open</b> ΓåÆ Clay | <b>Wimbledon</b> ΓåÆ Grass | <b>Australian/US Open</b> ΓåÆ Hard court
+            <b>Bully</b> → Hockey | <b>Googly</b> → Cricket | <b>Deuce</b> → Tennis | <b>Bogey</b> → Golf | <b>Love</b> → Badminton/Tennis<br>
+            <b>Durand Cup</b> (oldest) → Football | <b>Thomas Cup</b> → Men's Badminton | <b>Uber Cup</b> → Women's Badminton<br>
+            <b>French Open</b> → Clay | <b>Wimbledon</b> → Grass | <b>Australian/US Open</b> → Hard court
         </div>
 
         <table style="width:100%; border-collapse:collapse; margin:10px 0;">
             <thead><tr style="background:#7C3AED;color:white;"><th style="padding:8px;">Sport</th><th style="padding:8px;">Major Trophies</th><th style="padding:8px;">Key Terms</th></tr></thead>
             <tbody>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>≡ƒÅÅ Cricket</strong></td><td style="padding:8px;">Ashes, Ranji, Irani, Duleep, Vijay Hazare, Deodhar</td><td style="padding:8px;">Silly point, Gully, LBW, Googly, Yorker</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>ΓÜ╜ Football</strong></td><td style="padding:8px;"><strong>Durand Cup</strong> (oldest), Santosh Trophy, Rovers Cup, Subroto Cup</td><td style="padding:8px;">Offside, Penalty kick, Yellow card, Striker</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong> Football</strong></td><td style="padding:8px;"><strong>Durand Cup</strong> (oldest), Santosh Trophy, Rovers Cup, Subroto Cup</td><td style="padding:8px;">Offside, Penalty kick, Yellow card, Striker</td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>≡ƒÅæ Hockey</strong></td><td style="padding:8px;">Aga Khan Cup, Dhyan Chand Trophy, Sultan Azlan Shah Cup</td><td style="padding:8px;">Bully, Scoop, Short corner, Penalty stroke</td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>≡ƒÄ╛ Tennis</strong></td><td style="padding:8px;">Davis Cup; Grand Slams: Australian (Hard), French (Clay), Wimbledon (Grass), US (Hard)</td><td style="padding:8px;">Deuce, Advantage, Let, Fault, Ace</td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>≡ƒÅ╕ Badminton</strong></td><td style="padding:8px;">Thomas Cup (Men), Uber Cup (Women), Sudirman Cup</td><td style="padding:8px;">Smash, Drop, Let, Love</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Γ¢│ Golf</strong></td><td style="padding:8px;">Ryder Cup, Walker Cup</td><td style="padding:8px;">Bogey, Birdie, Par, Hole-in-one, Tee, Putt</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong> Golf</strong></td><td style="padding:8px;">Ryder Cup, Walker Cup</td><td style="padding:8px;">Bogey, Birdie, Par, Hole-in-one, Tee, Putt</td></tr>
             </tbody>
         </table>
 
@@ -349,7 +349,7 @@ const fatmanStatic = {
         <h2>≡ƒôè 10. CENSUS 2011 -- SMART COMPARE</h2>
 
         <div style="background:linear-gradient(135deg,#064E3B,#0F172A);border-left:4px solid #34D399;padding:12px 16px;border-radius:8px;margin:10px 0;">
-            <b style="color:#34D399;">ΓÜí Quick Recall -- Core Census Facts</b><br>
+            <b style="color:#34D399;">⚡ Quick Recall -- Core Census Facts</b><br>
             ' 1st Census: <b>1872</b> (Lord Mayo) | 1st Synchronous: <b>1881</b> (Lord Ripon)<br>
             ' Census 2011 = <b>15th overall</b>, <b>7th after independence</b><br>
             ' Slogan: <b>'Our Census, Our Future'</b> | Commissioner: <b>C. Chandramouli</b><br>
@@ -403,17 +403,17 @@ const fatmanStatic = {
 
         <div style="background:#1C1917;border:2px solid #F59E0B;padding:12px 16px;border-radius:8px;margin:10px 0;">
             <b style="color:#F59E0B;">≡ƒÄ» PYQ Alert -- First Winners are always asked!</b><br>
-            <b>Bharat Ratna</b> (1954) ΓåÆ C. Rajagopalachari ┬╖ S. Radhakrishnan ┬╖ C.V. Raman (all 3 together!)<br>
-            <b>Jnanpith</b> (1st) ΓåÆ G. Sankara Kurup (Malayalam) | (1st woman) ΓåÆ Ashapoorna Devi (Bengali)<br>
-            <b>Saraswati Samman</b> (1st) ΓåÆ Harivansh Rai Bachchan | <b>Dada Saheb Phalke</b> (1st) ΓåÆ Devika Rani (1969)<br>
-            <b>Khel Ratna</b> (1st) ΓåÆ Viswanathan Anand (1991-92) | <b>Magsaysay</b> (1st Indian) ΓåÆ Vinoba Bhave (1958)
+            <b>Bharat Ratna</b> (1954) → C. Rajagopalachari ┬╖ S. Radhakrishnan ┬╖ C.V. Raman (all 3 together!)<br>
+            <b>Jnanpith</b> (1st) → G. Sankara Kurup (Malayalam) | (1st woman) → Ashapoorna Devi (Bengali)<br>
+            <b>Saraswati Samman</b> (1st) → Harivansh Rai Bachchan | <b>Dada Saheb Phalke</b> (1st) → Devika Rani (1969)<br>
+            <b>Khel Ratna</b> (1st) → Viswanathan Anand (1991-92) | <b>Magsaysay</b> (1st Indian) → Vinoba Bhave (1958)
         </div>
 
         <table style="width:100%; border-collapse:collapse; margin:10px 0;">
             <thead><tr style="background:#92400E;color:white;"><th style="padding:8px;">Award</th><th style="padding:8px;">Key Facts</th></tr></thead>
             <tbody>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Bharat Ratna</strong></td><td style="padding:8px;">First awarded <strong>1954</strong>. First recipients: C. Rajagopalachari, S. Radhakrishnan, C.V. Raman</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Padma Awards</strong></td><td style="padding:8px;">Instituted <strong>1954</strong>. Three categories: Padma Vibhushan ΓåÆ Padma Bhushan ΓåÆ Padma Shri</td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Padma Awards</strong></td><td style="padding:8px;">Instituted <strong>1954</strong>. Three categories: Padma Vibhushan → Padma Bhushan → Padma Shri</td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Jnanpith Award</strong></td><td style="padding:8px;">Highest literary award. Est. <strong>1961</strong>. 1st winner: <strong>G. Sankara Kurup</strong> (Malayalam). 1st woman: <strong>Ashapoorna Devi</strong> (Bengali)</td></tr>
                 <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Sahitya Akademi</strong></td><td style="padding:8px;">Given in <strong>24 languages</strong> (22 in 8th Schedule + English + Rajasthani)</td></tr>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Saraswati Samman</strong></td><td style="padding:8px;">By K.K. Birla Foundation. 1st winner: <strong>Harivansh Rai Bachchan</strong></td></tr>
