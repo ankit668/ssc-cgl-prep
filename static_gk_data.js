@@ -1,6 +1,39 @@
 const fatmanStatic = {
     chapter: "Static GK (Music, Dance & Festivals)",
     notes: `
+        <h2 style="color:#10B981; border-bottom:1px solid #10B981; padding-bottom:5px; margin-top:20px;">🔥 CGL 2026 LIVE EXAM PYQs (Oct 5 & 6)</h2>
+        <div style='margin-bottom:15px; padding:10px; background:rgba(245, 158, 11, 0.1); border-left:4px solid #F59E0B;'>
+            <b style='color:#F59E0B;'>Memory Based Questions from CGL Tier 1</b><br>
+            <span style='font-size:0.9em; color:#94A3B8;'>These are exact questions extracted from shift analysis. High chance of repetition!</span>
+        </div>
+        <table style='width:100%; border-collapse: collapse; margin-top:10px; font-size:0.95em;'>
+            <tr style='background:#1E293B; text-align:left;'>
+                <th style='padding:10px; border:1px solid #334155; color:#FCD34D;'>Question Asked</th>
+                <th style='padding:10px; border:1px solid #334155; color:#10B981;'>Exact Answer / Fact</th>
+            </tr>
+            <tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+                <td style='padding:10px; border:1px solid #334155; color:#E2E8F0;'>Which Indian state has the highest percentage of Scheduled Caste (SC) population as per 2011 Census?</td>
+                <td style='padding:10px; border:1px solid #334155; color:#E2E8F0;'><strong>Punjab</strong> (31.94%). Followed by Himachal Pradesh (25.2%) and West Bengal (23.5%).</td>
+            </tr>
+            <tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+                <td style='padding:10px; border:1px solid #334155; color:#E2E8F0;'>President Droupadi Murmu received the 'Grand Order of the Chain of the Yellow Star' from which country?</td>
+                <td style='padding:10px; border:1px solid #334155; color:#E2E8F0;'><strong>Suriname</strong> (She is the first Indian citizen to receive this South American honor).</td>
+            </tr>
+            <tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+                <td style='padding:10px; border:1px solid #334155; color:#E2E8F0;'>What is the full form and purpose of the 'SAGAR' initiative?</td>
+                <td style='padding:10px; border:1px solid #334155; color:#E2E8F0;'><strong>Security and Growth for All in the Region</strong> (Launched to promote peace and economic cooperation in the Indian Ocean region).</td>
+            </tr>
+            <tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
+                <td style='padding:10px; border:1px solid #334155; color:#E2E8F0;'>When and where was BIMSTEC established?</td>
+                <td style='padding:10px; border:1px solid #334155; color:#E2E8F0;'>Established on <strong>June 6, 1997</strong> through the Bangkok Declaration. Secretariat is in <strong>Dhaka, Bangladesh</strong>.</td>
+            </tr>
+            <tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
+                <td style='padding:10px; border:1px solid #334155; color:#E2E8F0;'>Which city in India hosted the 2010 Commonwealth Games and what was the mascot?</td>
+                <td style='padding:10px; border:1px solid #334155; color:#E2E8F0;'><strong>New Delhi</strong>. The official mascot was <strong>Shera</strong> (an anthropomorphic tiger).</td>
+            </tr>
+        </table>
+        <br><br>
+
         <h1 style="color:#F59E0B; text-align:center;">⭐ STATIC GK MASTER FILE</h1>
         <p style="text-align:center; color:#94A3B8;">Complete compilation from Parmar Fatman -- Every point is a PYQ!</p>
 
