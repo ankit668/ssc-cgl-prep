@@ -247,6 +247,10 @@ window.updateAudioUI = function() {
 };
 
 window.stopFatmanAudio = function() {
+    if (window._fatmanKeepAliveTimer) {
+        clearInterval(window._fatmanKeepAliveTimer);
+        window._fatmanKeepAliveTimer = null;
+    }
     if ('speechSynthesis' in window) {
         window.speechSynthesis.cancel();
     }
