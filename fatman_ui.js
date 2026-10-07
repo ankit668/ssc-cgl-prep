@@ -297,6 +297,18 @@ window.speakNextFatmanAudio = function() {
     });
 
     let textToRead = window.fatmanAudioQueue[window.fatmanAudioCurrentIndex];
+    
+    // Clean up LaTeX and symbols for better TTS pronunciation
+    if (textToRead) {
+        // Fix scientific notation like $9.46 \times 10^{12}$
+        textToRead = textToRead.replace(/\$([\d\.]+)\s*\\times\s*10\^\{?(\d+)\}?\$/g, '$1 times 10 to the power of $2');
+        textToRead = textToRead.replace(/\$/g, ''); 
+        textToRead = textToRead.replace(/°C/g, ' degrees Celsius ');
+        textToRead = textToRead.replace(/°/g, ' degrees ');
+        textToRead = textToRead.replace(/g\/cm³/g, ' grams per cubic centimeter ');
+        textToRead = textToRead.replace(/&/g, ' and ');
+    }
+
     let utterance = new SpeechSynthesisUtterance(textToRead);
     utterance.rate = 0.95;
     utterance.pitch = 1.0;
