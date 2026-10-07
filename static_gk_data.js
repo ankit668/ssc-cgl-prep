@@ -2,20 +2,20 @@ const fatmanStatic = {
     chapter: "Static GK (Music, Dance & Festivals)",
     notes: `
         <h1 style="color:#F59E0B; text-align:center;">Γ¡É STATIC GK MASTER FILE</h1>
-        <p style="text-align:center; color:#94A3B8;">Complete compilation from Parmar Fatman ΓÇö Every point is a PYQ!</p>
+        <p style="text-align:center; color:#94A3B8;">Complete compilation from Parmar Fatman -- Every point is a PYQ!</p>
 
         <!-- SECTION 1: CLASSICAL MUSIC -->
         <h2>≡ƒÄ╡ 1. INDIAN CLASSICAL MUSIC</h2>
 
         <div style="background:linear-gradient(135deg,#1E3A5F,#0F172A);border-left:4px solid #38BDF8;padding:12px 16px;border-radius:8px;margin:10px 0;">
             <b style="color:#38BDF8;">ΓÜí Quick Recall</b><br>
-            ΓÇó Two streams: <b>Hindustani</b> (North) | <b>Carnatic</b> (South)<br>
-            ΓÇó Common: <b>Raga</b> (melodic) ┬╖ <b>Taal</b> (rhythmic) ┬╖ <b>Sruti</b> (smallest pitch difference)<br>
-            ΓÇó Father of Carnatic: <b>Purandar Das</b> | First Bharat Ratna musician: <b>M.S. Subbulakshmi (1998)</b>
+            ' Two streams: <b>Hindustani</b> (North) | <b>Carnatic</b> (South)<br>
+            ' Common: <b>Raga</b> (melodic) ┬╖ <b>Taal</b> (rhythmic) ┬╖ <b>Sruti</b> (smallest pitch difference)<br>
+            ' Father of Carnatic: <b>Purandar Das</b> | First Bharat Ratna musician: <b>M.S. Subbulakshmi (1998)</b>
         </div>
 
         <div style="background:#1C1917;border:2px solid #F59E0B;padding:12px 16px;border-radius:8px;margin:10px 0;">
-            <b style="color:#F59E0B;">≡ƒÄ» PYQ Alert ΓÇö Most Tested!</b><br>
+            <b style="color:#F59E0B;">≡ƒÄ» PYQ Alert -- Most Tested!</b><br>
             "Who first composed <b>Dhrupad</b>?" ΓåÆ <b>Miyan Tansen</b><br>
             "Who first composed <b>Khayal</b>?" ΓåÆ <b>Amir Khusrau</b><br>
             "Trinity of Carnatic Music?" ΓåÆ <b>Tyagaraja ┬╖ Muthuswami Dikshitar ┬╖ Syama Sastri</b>
@@ -26,13 +26,13 @@ const fatmanStatic = {
             <thead><tr style="background:#1E40AF;color:white;"><th style="padding:8px;">Form</th><th style="padding:8px;">Instrument</th><th style="padding:8px;">Composer / Key Fact</th></tr></thead>
             <tbody>
                 <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Dhrupad</strong></td><td style="padding:8px;">Tanpura + Pankhawaj</td><td style="padding:8px;">First composed by <strong>Miyan Tansen</strong>; Dagar family &amp; Darbhanga Gharana</td></tr>
-                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Khayal</strong></td><td style="padding:8px;">ΓÇö</td><td style="padding:8px;">First composed by <strong>Amir Khusrau</strong>; lyrical &amp; expressive</td></tr>
-                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Tarana</strong></td><td style="padding:8px;">ΓÇö</td><td style="padding:8px;">End of concert; conveys elation; basis for Carnatic <strong>Tillana</strong></td></tr>
+                <tr style="background:#0F172A;"><td style="padding:8px;"><strong>Khayal</strong></td><td style="padding:8px;">--</td><td style="padding:8px;">First composed by <strong>Amir Khusrau</strong>; lyrical &amp; expressive</td></tr>
+                <tr style="background:#1E293B;"><td style="padding:8px;"><strong>Tarana</strong></td><td style="padding:8px;">--</td><td style="padding:8px;">End of concert; conveys elation; basis for Carnatic <strong>Tillana</strong></td></tr>
             </tbody>
         </table>
         <p>Semi-classical: <strong>Thumri ┬╖ Ghazal ┬╖ Bhajan ┬╖ Kajari ┬╖ Tappa ┬╖ Dhamar ┬╖ Chaiti</strong></p>
 
-        <h3>Hindustani vs Carnatic ΓÇö Comparison</h3>
+        <h3>Hindustani vs Carnatic -- Comparison</h3>
         <table style="width:100%; border-collapse:collapse; margin:10px 0;">
             <thead><tr style="background:#1E40AF;color:white;"><th style="padding:8px;">Feature</th><th style="padding:8px;">Hindustani</th><th style="padding:8px;">Carnatic</th></tr></thead>
             <tbody>
@@ -59,17 +59,17 @@ const fatmanStatic = {
         <h2>≡ƒÆâ 2. CLASSICAL DANCES OF INDIA</h2>
 
         <div style="background:linear-gradient(135deg,#3B1D6E,#0F172A);border-left:4px solid #A855F7;padding:12px 16px;border-radius:8px;margin:10px 0;">
-            <b style="color:#A855F7;">≡ƒºá Mnemonic ΓÇö All 8 Classical Dances</b><br>
+            <b style="color:#A855F7;">≡ƒºá Mnemonic -- All 8 Classical Dances</b><br>
             <b style="font-size:1.1em; color:white;">"BKK KOMMS"</b><br>
             <b>B</b>haratanatyam (TN) ┬╖ <b>K</b>athak (UP) ┬╖ <b>K</b>athakali (KL) ┬╖ <b>K</b>uchipudi (AP) ┬╖ <b>O</b>dissi (OD) ┬╖ <b>M</b>anipuri (MN) ┬╖ <b>M</b>ohiniyattam (KL) ┬╖ <b>S</b>attriya (AS)
         </div>
 
         <div style="background:#1C1917;border:2px solid #F59E0B;padding:12px 16px;border-radius:8px;margin:10px 0;">
             <b style="color:#F59E0B;">≡ƒÄ» PYQ Alert</b><br>
-            ΓÇó <b>Oldest</b> classical dance = <b>Bharatanatyam</b> (evolved from Sadir; source: <b>Abhinaya Darpana</b>)<br>
-            ΓÇó <b>Brass plate dancing</b> = <b>Kuchipudi</b> (Tarangam)<br>
-            ΓÇó <b>Kathakali face colors</b>: Green=Noble ┬╖ Red=Evil ┬╖ Black=Demon<br>
-            ΓÇó <b>Sattriya</b> introduced by <b>Srimanta Sankardev</b> (15th century, Assam)
+            ' <b>Oldest</b> classical dance = <b>Bharatanatyam</b> (evolved from Sadir; source: <b>Abhinaya Darpana</b>)<br>
+            ' <b>Brass plate dancing</b> = <b>Kuchipudi</b> (Tarangam)<br>
+            ' <b>Kathakali face colors</b>: Green=Noble ┬╖ Red=Evil ┬╖ Black=Demon<br>
+            ' <b>Sattriya</b> introduced by <b>Srimanta Sankardev</b> (15th century, Assam)
         </div>
 
         <table style="width:100%; border-collapse:collapse; margin:10px 0;">
@@ -91,12 +91,12 @@ const fatmanStatic = {
 
         <div style="background:linear-gradient(135deg,#5C1A1A,#0F172A);border-left:4px solid #F87171;padding:12px 16px;border-radius:8px;margin:10px 0;">
             <b style="color:#F87171;">≡ƒºá Top Folk Dance Mnemonics</b><br>
-            ΓÇó <b>Garba/Dandiya</b> = Gujarat (Navratri) ≡ƒ¬ö<br>
-            ΓÇó <b>Bhangra/Giddha</b> = Punjab ≡ƒî╛<br>
-            ΓÇó <b>Bihu</b> = Assam (Bohag/Magh/Kati ΓÇö 3 types!) ≡ƒÄì<br>
-            ΓÇó <b>Yakshagana</b> = Karnataka; <b>Lavani</b> = Maharashtra<br>
-            ΓÇó <b>Kalbelia/Ghumar</b> = Rajasthan ≡ƒÉì; <b>Rauf</b> = J&amp;K<br>
-            ΓÇó <b>Chhau</b> = Odisha; <b>Chhath Puja</b> dance Γëá folk dance (it's a festival!)
+            ' <b>Garba/Dandiya</b> = Gujarat (Navratri) ≡ƒ¬ö<br>
+            ' <b>Bhangra/Giddha</b> = Punjab ≡ƒî╛<br>
+            ' <b>Bihu</b> = Assam (Bohag/Magh/Kati -- 3 types!) ≡ƒÄì<br>
+            ' <b>Yakshagana</b> = Karnataka; <b>Lavani</b> = Maharashtra<br>
+            ' <b>Kalbelia/Ghumar</b> = Rajasthan ≡ƒÉì; <b>Rauf</b> = J&amp;K<br>
+            ' <b>Chhau</b> = Odisha; <b>Chhath Puja</b> dance Γëá folk dance (it's a festival!)
         </div>
 
         <div style="display:grid; grid-template-columns: 1fr 1fr; gap:8px; margin:10px 0;">
@@ -124,7 +124,7 @@ const fatmanStatic = {
         <h2>≡ƒ¬ÿ 4. MUSICAL INSTRUMENTS &amp; MAESTROS</h2>
 
         <div style="background:#1C1917;border:2px solid #F59E0B;padding:12px 16px;border-radius:8px;margin:10px 0;">
-            <b style="color:#F59E0B;">≡ƒÄ» PYQ Alert ΓÇö Instrument-Person pairs are exam favourites!</b><br>
+            <b style="color:#F59E0B;">≡ƒÄ» PYQ Alert -- Instrument-Person pairs are exam favourites!</b><br>
             <b>Sitar ΓåÆ Ravi Shankar</b> | <b>Tabla ΓåÆ Zakir Hussain</b> | <b>Shehnai ΓåÆ Bismillah Khan</b><br>
             <b>Flute ΓåÆ Hariprasad Chaurasia</b> | <b>Sarod ΓåÆ Amjad Ali Khan</b> | <b>Santoor ΓåÆ Shivkumar Sharma</b>
         </div>
@@ -150,7 +150,7 @@ const fatmanStatic = {
         <h2>≡ƒÄ¿ 4B. PAINTINGS OF INDIA</h2>
 
         <div style="background:#1C1917;border:2px solid #F59E0B;padding:12px 16px;border-radius:8px;margin:10px 0;">
-            <b style="color:#F59E0B;">≡ƒÄ» PYQ Alert ΓÇö Top Painting Styles!</b><br>
+            <b style="color:#F59E0B;">≡ƒÄ» PYQ Alert -- Top Painting Styles!</b><br>
             <b>Madhubani</b> ΓåÆ Bihar | <b>Kalighat / Patachitra</b> ΓåÆ West Bengal | <b>Pattachitra</b> ΓåÆ Odisha<br>
             <b>Kalamkari</b> ΓåÆ Andhra Pradesh | <b>Cheriyal Scroll</b> ΓåÆ Telangana | <b>Tanjore</b> ΓåÆ Tamil Nadu<br>
             <b>Warli</b> ΓåÆ Maharashtra | <b>Phad / Pichwai</b> ΓåÆ Rajasthan | <b>Thangka</b> ΓåÆ Sikkim
@@ -186,11 +186,11 @@ const fatmanStatic = {
 
         <div style="background:linear-gradient(135deg,#78350F,#0F172A);border-left:4px solid #FBBF24;padding:12px 16px;border-radius:8px;margin:10px 0;">
             <b style="color:#FBBF24;">≡ƒºá Festival Mnemonics</b><br>
-            ΓÇó <b>Bihu</b> (3 types) = Assam: <b>B</b>ohag (spring) ┬╖ <b>M</b>agh (winter) ┬╖ <b>K</b>ati (autumn) ΓåÆ <b>"BMK"</b><br>
-            ΓÇó <b>Onam</b> = Kerala (King Mahabali returns ≡ƒÄè)<br>
-            ΓÇó <b>Pongal</b> = Tamil Nadu (harvest); <b>Baisakhi</b> = Punjab (harvest)<br>
-            ΓÇó <b>Hornbill</b> = Nagaland; <b>Chapchar Kut</b> = Mizoram; <b>Nongkrem</b> = Meghalaya<br>
-            ΓÇó <b>Rath Yatra</b> = Odisha (Lord Jagannath); <b>Chhath Puja</b> = Bihar (Sun worship)
+            ' <b>Bihu</b> (3 types) = Assam: <b>B</b>ohag (spring) ┬╖ <b>M</b>agh (winter) ┬╖ <b>K</b>ati (autumn) ΓåÆ <b>"BMK"</b><br>
+            ' <b>Onam</b> = Kerala (King Mahabali returns ≡ƒÄè)<br>
+            ' <b>Pongal</b> = Tamil Nadu (harvest); <b>Baisakhi</b> = Punjab (harvest)<br>
+            ' <b>Hornbill</b> = Nagaland; <b>Chapchar Kut</b> = Mizoram; <b>Nongkrem</b> = Meghalaya<br>
+            ' <b>Rath Yatra</b> = Odisha (Lord Jagannath); <b>Chhath Puja</b> = Bihar (Sun worship)
         </div>
 
         <table style="width:100%; border-collapse:collapse; margin:10px 0;">
@@ -221,12 +221,12 @@ const fatmanStatic = {
         <h2>≡ƒôà 6. IMPORTANT DAYS</h2>
 
         <div style="background:linear-gradient(135deg,#064E3B,#0F172A);border-left:4px solid #34D399;padding:12px 16px;border-radius:8px;margin:10px 0;">
-            <b style="color:#34D399;">ΓÜí Quick Recall ΓÇö Top 5 most tested!</b><br>
-            ΓÇó <b>Feb 28</b> = National Science Day (Raman Effect) ≡ƒö¼<br>
-            ΓÇó <b>Aug 29</b> = National Sports Day (Dhyan Chand birthday) ≡ƒÅæ<br>
-            ΓÇó <b>Sep 5</b> = Teachers' Day (Dr. Radhakrishnan birthday) ≡ƒôû<br>
-            ΓÇó <b>Oct 2</b> = Gandhi Jayanti + Non-Violence Day ≡ƒòè∩╕Å<br>
-            ΓÇó <b>Nov 26</b> = Constitution Day / Samvidhan Divas ≡ƒô£
+            <b style="color:#34D399;">ΓÜí Quick Recall -- Top 5 most tested!</b><br>
+            ' <b>Feb 28</b> = National Science Day (Raman Effect) ≡ƒö¼<br>
+            ' <b>Aug 29</b> = National Sports Day (Dhyan Chand birthday) ≡ƒÅæ<br>
+            ' <b>Sep 5</b> = Teachers' Day (Dr. Radhakrishnan birthday) ≡ƒôû<br>
+            ' <b>Oct 2</b> = Gandhi Jayanti + Non-Violence Day ≡ƒòè∩╕Å<br>
+            ' <b>Nov 26</b> = Constitution Day / Samvidhan Divas ≡ƒô£
         </div>
 
         <table style="width:100%; border-collapse:collapse; margin:10px 0;">
@@ -263,7 +263,7 @@ const fatmanStatic = {
         <h2>≡ƒôÜ 7. BOOKS &amp; AUTHORS</h2>
 
         <div style="background:#1C1917;border:2px solid #F59E0B;padding:12px 16px;border-radius:8px;margin:10px 0;">
-            <b style="color:#F59E0B;">≡ƒÄ» PYQ Alert ΓÇö Most Tested Book-Author Pairs</b><br>
+            <b style="color:#F59E0B;">≡ƒÄ» PYQ Alert -- Most Tested Book-Author Pairs</b><br>
             <b>Arthashastra</b> ΓåÆ Kautilya | <b>Panchatantra</b> ΓåÆ Vishnu Sharma | <b>Rajatarangini</b> ΓåÆ Kalhana (History of Kashmir)<br>
             <b>Indica</b> ΓåÆ Megasthenes | <b>Anandmath</b> ΓåÆ Bankim Chandra (contains Vande Mataram!)<br>
             <b>Discovery of India</b> ΓåÆ Nehru | <b>Gitanjali</b> ΓåÆ Tagore (Nobel 1913)
@@ -293,10 +293,10 @@ const fatmanStatic = {
         </table>
 
         <!-- SECTION 8: SPORTS -->
-        <h2>≡ƒÅà 8. SPORTS ΓÇö TROPHIES &amp; TERMS</h2>
+        <h2>≡ƒÅà 8. SPORTS -- TROPHIES &amp; TERMS</h2>
 
         <div style="background:#1C1917;border:2px solid #F59E0B;padding:12px 16px;border-radius:8px;margin:10px 0;">
-            <b style="color:#F59E0B;">≡ƒÄ» PYQ Alert ΓÇö Sport = Term/Trophy</b><br>
+            <b style="color:#F59E0B;">≡ƒÄ» PYQ Alert -- Sport = Term/Trophy</b><br>
             <b>Bully</b> ΓåÆ Hockey | <b>Googly</b> ΓåÆ Cricket | <b>Deuce</b> ΓåÆ Tennis | <b>Bogey</b> ΓåÆ Golf | <b>Love</b> ΓåÆ Badminton/Tennis<br>
             <b>Durand Cup</b> (oldest) ΓåÆ Football | <b>Thomas Cup</b> ΓåÆ Men's Badminton | <b>Uber Cup</b> ΓåÆ Women's Badminton<br>
             <b>French Open</b> ΓåÆ Clay | <b>Wimbledon</b> ΓåÆ Grass | <b>Australian/US Open</b> ΓåÆ Hard court
@@ -315,10 +315,10 @@ const fatmanStatic = {
         </table>
 
         <!-- SECTION 9: ORGANISATIONS -->
-        <h2>≡ƒÅ¢∩╕Å 9. ORGANISATIONS ΓÇö HQs</h2>
+        <h2>≡ƒÅ¢∩╕Å 9. ORGANISATIONS -- HQs</h2>
 
         <div style="background:linear-gradient(135deg,#1E3A5F,#0F172A);border-left:4px solid #38BDF8;padding:12px 16px;border-radius:8px;margin:10px 0;">
-            <b style="color:#38BDF8;">≡ƒºá Mnemonic ΓÇö Geneva Cluster (3 big ones!)</b><br>
+            <b style="color:#38BDF8;">≡ƒºá Mnemonic -- Geneva Cluster (3 big ones!)</b><br>
             <b>WHO ┬╖ WTO ┬╖ ILO</b> = all in <b>Geneva</b> ≡ƒç¿≡ƒç¡<br>
             <b>IMF + World Bank</b> = <b>Washington D.C.</b> ≡ƒç║≡ƒç╕ | <b>FAO</b> = <b>Rome</b> ≡ƒç«≡ƒç╣ | <b>ICJ</b> = <b>The Hague</b> ≡ƒç│≡ƒç▒<br>
             <b>SAARC</b> = Kathmandu ≡ƒç│≡ƒç╡ | <b>ASEAN</b> = Jakarta ≡ƒç«≡ƒç⌐ | <b>NATO</b> = Brussels ≡ƒçº≡ƒç¬
@@ -346,14 +346,14 @@ const fatmanStatic = {
         </table>
 
         <!-- SECTION 10: CENSUS -->
-        <h2>≡ƒôè 10. CENSUS 2011 ΓÇö SMART COMPARE</h2>
+        <h2>≡ƒôè 10. CENSUS 2011 -- SMART COMPARE</h2>
 
         <div style="background:linear-gradient(135deg,#064E3B,#0F172A);border-left:4px solid #34D399;padding:12px 16px;border-radius:8px;margin:10px 0;">
-            <b style="color:#34D399;">ΓÜí Quick Recall ΓÇö Core Census Facts</b><br>
-            ΓÇó 1st Census: <b>1872</b> (Lord Mayo) | 1st Synchronous: <b>1881</b> (Lord Ripon)<br>
-            ΓÇó Census 2011 = <b>15th overall</b>, <b>7th after independence</b><br>
-            ΓÇó Slogan: <b>'Our Census, Our Future'</b> | Commissioner: <b>C. Chandramouli</b><br>
-            ΓÇó India Population: <b>1.21 Billion</b> | Decadal Growth: <b>17.7%</b> | Most spoken: <b>Hindi (43.6%)</b>
+            <b style="color:#34D399;">ΓÜí Quick Recall -- Core Census Facts</b><br>
+            ' 1st Census: <b>1872</b> (Lord Mayo) | 1st Synchronous: <b>1881</b> (Lord Ripon)<br>
+            ' Census 2011 = <b>15th overall</b>, <b>7th after independence</b><br>
+            ' Slogan: <b>'Our Census, Our Future'</b> | Commissioner: <b>C. Chandramouli</b><br>
+            ' India Population: <b>1.21 Billion</b> | Decadal Growth: <b>17.7%</b> | Most spoken: <b>Hindi (43.6%)</b>
         </div>
 
         <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px; margin:10px 0;">
@@ -390,10 +390,10 @@ const fatmanStatic = {
         </div>
 
         <div style="background:#1C1917;border:2px solid #FBBF24;padding:12px 16px;border-radius:8px;margin:10px 0;">
-            <b style="color:#FBBF24;">≡ƒºá Mnemonic ΓÇö Census Top 5</b><br>
+            <b style="color:#FBBF24;">≡ƒºá Mnemonic -- Census Top 5</b><br>
             <b>Kerala</b> = always HIGHEST (sex ratio, literacy) ≡ƒÑç<br>
             <b>Bihar</b> = HIGHEST density ┬╖ LOWEST literacy (remember: Bihar = dense but less literate)<br>
-            <b>Haryana</b> = LOWEST sex ratio (879) ΓÇö always tested!<br>
+            <b>Haryana</b> = LOWEST sex ratio (879) -- always tested!<br>
             <b>Arunachal Pradesh</b> = LOWEST density (just 17!); HIGHEST child sex ratio<br>
             <b>Meghalaya</b> = HIGHEST decadal growth ┬╖ <b>Nagaland</b> = NEGATIVE growth
         </div>
@@ -402,7 +402,7 @@ const fatmanStatic = {
         <h2>≡ƒÅå 11. AWARDS &amp; HONOURS</h2>
 
         <div style="background:#1C1917;border:2px solid #F59E0B;padding:12px 16px;border-radius:8px;margin:10px 0;">
-            <b style="color:#F59E0B;">≡ƒÄ» PYQ Alert ΓÇö First Winners are always asked!</b><br>
+            <b style="color:#F59E0B;">≡ƒÄ» PYQ Alert -- First Winners are always asked!</b><br>
             <b>Bharat Ratna</b> (1954) ΓåÆ C. Rajagopalachari ┬╖ S. Radhakrishnan ┬╖ C.V. Raman (all 3 together!)<br>
             <b>Jnanpith</b> (1st) ΓåÆ G. Sankara Kurup (Malayalam) | (1st woman) ΓåÆ Ashapoorna Devi (Bengali)<br>
             <b>Saraswati Samman</b> (1st) ΓåÆ Harivansh Rai Bachchan | <b>Dada Saheb Phalke</b> (1st) ΓåÆ Devika Rani (1969)<br>
@@ -428,18 +428,18 @@ const fatmanStatic = {
 
         <h3>Nobel Prize Winners from India</h3>
         <ul>
-            <li><strong>Rabindranath Tagore</strong> ΓÇö Literature (1913)</li>
-            <li><strong>C.V. Raman</strong> ΓÇö Physics (1930)</li>
-            <li><strong>Mother Teresa</strong> ΓÇö Peace (1979)</li>
-            <li><strong>Amartya Sen</strong> ΓÇö Economics (1998)</li>
-            <li><strong>Kailash Satyarthi</strong> ΓÇö Peace (2014)</li>
+            <li><strong>Rabindranath Tagore</strong> -- Literature (1913)</li>
+            <li><strong>C.V. Raman</strong> -- Physics (1930)</li>
+            <li><strong>Mother Teresa</strong> -- Peace (1979)</li>
+            <li><strong>Amartya Sen</strong> -- Economics (1998)</li>
+            <li><strong>Kailash Satyarthi</strong> -- Peace (2014)</li>
         </ul>
-        <h3>Booker Prize ΓÇö Indian Connection</h3>
+        <h3>Booker Prize -- Indian Connection</h3>
         <ul>
-            <li><strong>Salman Rushdie</strong> ΓÇö Midnight's Children (1981)</li>
-            <li><strong>Arundhati Roy</strong> ΓÇö The God of Small Things (1997)</li>
-            <li><strong>Kiran Desai</strong> ΓÇö The Inheritance of Loss (2006)</li>
-            <li><strong>Aravind Adiga</strong> ΓÇö The White Tiger (2008)</li>
+            <li><strong>Salman Rushdie</strong> -- Midnight's Children (1981)</li>
+            <li><strong>Arundhati Roy</strong> -- The God of Small Things (1997)</li>
+            <li><strong>Kiran Desai</strong> -- The Inheritance of Loss (2006)</li>
+            <li><strong>Aravind Adiga</strong> -- The White Tiger (2008)</li>
         </ul>
 `,
     mcqs: [
