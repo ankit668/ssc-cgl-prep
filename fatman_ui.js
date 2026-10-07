@@ -389,7 +389,7 @@ window.prepareTeacherAudio = function(contentDiv, chapterName) {
     window.fatmanAudioElements = [];
     
     // First item is the welcome message (we map it to the title or first element)
-    const elements = Array.from(contentDiv.querySelectorAll('h2, h3, h4, p, li'));
+    const elements = Array.from(contentDiv.querySelectorAll('h2, h3, h4, p, li, tr'));
     
     if(elements.length === 0) return;
 
@@ -419,6 +419,24 @@ window.prepareTeacherAudio = function(contentDiv, chapterName) {
                 let txt = el.innerText.trim();
                 if (txt.length > 0) {
                     script += " Note this: " + txt + ". I repeat. " + txt + ". ";
+                }
+            }
+        } else if (el.tagName === 'TR') {
+            // Handle table rows
+            let ths = el.querySelectorAll('th');
+            if (ths.length > 0) {
+                script += " Table headers: " + el.innerText.replace(/\s+/g, ' ').trim() + ". ";
+            } else {
+                let tds = el.querySelectorAll('td');
+                if (tds.length === 2) {
+                    let col1 = tds[0].innerText.replace(/:/g, '').trim();
+                    let col2 = tds[1].innerText.trim();
+                    script += col1 + ": " + col2 + ". ";
+                } else {
+                    let txt = el.innerText.replace(/\s+/g, ' ').trim();
+                    if (txt.length > 0) {
+                        script += " Fact: " + txt + ". ";
+                    }
                 }
             }
         }
