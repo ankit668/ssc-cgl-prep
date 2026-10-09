@@ -2,42 +2,7 @@ const fatmanStatic = {
     chapter: "Static GK (Music, Dance & Festivals)",
     notes: `
 
-        <h2 style="color:#38BDF8; border-bottom:1px solid #38BDF8; padding-bottom:5px; margin-top:20px;">🗓️ SEPTEMBER 2026 CURRENT AFFAIRS (PARMAR PDF)</h2>
-        <div style='margin-bottom:15px; padding:10px; background:rgba(56, 189, 248, 0.1); border-left:4px solid #38BDF8;'>
-            <b style='color:#38BDF8;'>Auto-Extracted One-Liners</b><br>
-            <span style='font-size:0.9em; color:#94A3B8;'>Successfully extracted 70 top facts from Parmar's September 2026 CA stream! Click any row to use TTS Audio Revision.</span>
-        </div>
-        <table style='width:100%; border-collapse: collapse; margin-top:10px; font-size:0.95em;'>
-            <tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
-                <td style='padding:12px; border:1px solid #334155; color:#E2E8F0; cursor:pointer;'>Defence Minister Rajnath Singh addressed the PM-SETU (Pradhan Mantri Skill and  Entrepreneurship Transformation for Upgrading India) Industry Conclave in Lucknow.  PM-SETU Scheme Official Name: Pradhan Mantri Skilling and Employability Transformation through Upgraded ITIs Nodal Ministry: Ministry of Skill Development and Entrepreneurship (MSDE) Approval & Launch: Approved in May 2025;  launched on October 4, 2025 (5-year tenure)</td>
-            </tr>
-            <tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
-                <td style='padding:12px; border:1px solid #334155; color:#E2E8F0; cursor:pointer;'>The Central Bureau of Narcotics (CBN) conducted Operation Vajra 2.0 under the  Narcotic Drugs and Psychotropic Substances Act, 1985.</td>
-            </tr>
-            <tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
-                <td style='padding:12px; border:1px solid #334155; color:#E2E8F0; cursor:pointer;'>The 28th Western Zonal Council meeting was chaired by Union Home and  Cooperation Minister Amit Shah in Panaji, Goa, with Goa, Gujarat, Maharashtra  and Dadra and Nagar Haveli and Daman and Diu as members. Five Zonal Councils were established in 1957 under Sections 15–22 of the  States Reorganisation Act, 1956. Unlike the five Zonal Councils, the North Eastern Council was established  under a separate statute—the North Eastern Council Act, 1971.</td>
-            </tr>
-            <tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
-                <td style='padding:12px; border:1px solid #334155; color:#E2E8F0; cursor:pointer;'>Mission Rangin Machhli 2031 was released by Vice President C. P. Radhakrishnan in Agatti,  Lakshadweep, for the development of ornamental fisheries.  Rangeen Machhli App Core Aim: Provide training modules, disease control tips, and shop directories for ornamental fish farmers and  aquarium hobbyists Launch Year: 2024 Nodal Ministry: Ministry of Fisheries, Animal Husbandry and  Dairying Developed By: ICAR-CIFA (Bhubaneswar) Under Scheme: Pradhan Mantri Matsya Sampada Yojana (PMMSY)</td>
-            </tr>
-            <tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
-                <td style='padding:12px; border:1px solid #334155; color:#E2E8F0; cursor:pointer;'>The Samavesh Utsav was held in New Delhi under the Ministry of Social Justice  and Empowerment to promote the inclusion and empowerment of Denotified,  Nomadic and Semi-Nomadic Tribes (DNTs).</td>
-            </tr>
-            <tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
-                <td style='padding:12px; border:1px solid #334155; color:#E2E8F0; cursor:pointer;'>A 31-member Joint Parliamentary Committee (JPC), chaired by Lok Sabha MP Sanjay  Jaiswal, is examining the Foreign Contribution (Regulation) Amendment Bill, 2026. This Bill amends the Foreign Contribution (Regulation) Act, 2010 to make foreign funding  more transparent and accountable.</td>
-            </tr>
-            <tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
-                <td style='padding:12px; border:1px solid #334155; color:#E2E8F0; cursor:pointer;'>The Ministry of Home Affairs proposed Article 371(K) under Part XXI (Temporary, Transitional and Special  Provisions) to grant Ladakh constitutional safeguards and an elected, empowered UT-level body.  Articles 371 to 371J — Special  Provisions • Article 371: Special provision with respect to Maharashtra  and Gujarat. • Article 371A: Special provision with respect to  Nagaland. • Article 371B: Special provision with respect to  Assam. • Article 371C: Special provision with respect to  Manipur. • Article 371D: Special provisions with respect to Andhra  Pradesh or Telangana. • Article 371E: Establishment of a Central University in  Andhra Pradesh. • Article 371F: Special provisions with respect to  Sikkim. • Article 371G: Special provision with respect to  Mizoram. • Article 371H: Special provision with respect to Arunachal  Pradesh. • Article 371-I: Special provision with respect to Goa. • Article 371J: Special provisions with respect to Karnataka.</td>
-            </tr>
-            <tr style='background:#0F172A; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#0F172A"'>
-                <td style='padding:12px; border:1px solid #334155; color:#E2E8F0; cursor:pointer;'>The Ministry of Coal launched India’s first sector-wide Corporate Social  Responsibility (CSR) framework for coal companies, developed by the Indian  Institute of Corporate Affairs (IICA).</td>
-            </tr>
-            <tr style='background:#1E293B; transition:0.2s;' onmouseover='this.style.background="#334155"' onmouseout='this.style.background="#1E293B"'>
-                <td style='padding:12px; border:1px solid #334155; color:#E2E8F0; cursor:pointer;'>The 9th Rashtriya Poshan Maah 2026, organised by the Ministry of Women and Child  Development, was launched under the theme “Hamari Anganwadi Hamari Jimmedari” in  Varanasi, Uttar Pradesh. The campaign marked 10 years of Pradhan Mantri Matru Vandana Yojana (PMMVY)  [Launched: 1 January 2017].</td>
-            </tr>
-        </table><br>
-
-
+        
         <h2 style="color:#10B981; border-bottom:1px solid #10B981; padding-bottom:5px; margin-top:20px;">🔥 CGL 2026 LIVE EXAM PYQs (Oct 5 & 6)</h2>
         <div style='margin-bottom:15px; padding:10px; background:rgba(245, 158, 11, 0.1); border-left:4px solid #F59E0B;'>
             <b style='color:#F59E0B;'>Memory Based Questions from CGL Tier 1</b><br>
