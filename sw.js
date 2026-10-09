@@ -1,8 +1,8 @@
-﻿const CACHE_NAME = 'ssc-prep-v17';
+﻿const CACHE_NAME = 'ssc-prep-v18';
 const urlsToCache = [
   './',
   './index.html',
-                './mensuration_cheat_sheet.html',
+                './mensuration.html',
                 './reasoning_cheat_sheet.html',
   './styles.css',
   './affixes_data.js',
