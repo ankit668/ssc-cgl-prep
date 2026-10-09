@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reasoning Master Cheat Sheet with PYQs</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 40px;
+            color: #2c3e50;
+            line-height: 1.6;
+            background-color: #f4f7f6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 35px 45px;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            border-top: 8px solid #2980b9;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            border-bottom: 2px dashed #bdc3c7;
+            padding-bottom: 15px;
+            margin-bottom: 35px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 2em;
+        }
+        .section {
+            margin-bottom: 35px;
+            padding: 20px 25px;
+            border: 1px solid #e8ecf1;
+            border-radius: 8px;
+            background-color: #fafcfd;
+            break-inside: avoid; 
+        }
+        h3 {
+            color: #c0392b;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 10px;
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 8px;
+            padding-left: 22px;
+            position: relative;
+            font-size: 1.05em;
+        }
+        li:before {
+            content: "▹";
+            color: #2980b9;
+            font-weight: bold;
+            font-size: 1.4em;
+            position: absolute;
+            left: 0;
+            top: -4px;
+        }
+        code, .formula {
+            background-color: #edf2f5;
+            padding: 3px 7px;
+            border: 1px solid #d2dce1;
+            border-radius: 4px;
+            font-family: "Consolas", "Courier New", monospace;
+            font-weight: 700;
+            color: #d35400;
+            font-size: 1.05em;
+        }
+        
+        /* New PYQ Styles */
+        .pyq-container {
+            margin-top: 20px;
+            background-color: #ffffff;
+            border: 1px solid #3498db;
+            border-radius: 6px;
+            overflow: hidden;
+        }
+        .pyq-header {
+            background-color: #3498db;
+            color: white;
+            padding: 8px 15px;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.9em;
+            letter-spacing: 1px;
+            display: flex;
+            align-items: center;
+        }
+        .pyq-item {
+            padding: 12px 15px;
+            border-bottom: 1px dashed #dcdde1;
+            font-size: 0.95em;
+            color: #34495e;
+            page-break-inside: avoid;
+        }
+        .pyq-item:last-child {
+            border-bottom: none;
+        }
+        .pyq-answer {
+            color: #27ae60;
+            font-weight: 800;
+            background-color: #e5f6ed;
+            padding: 1px 6px;
+            border-radius: 4px;
+        }
+        .tag {
+            font-weight: bold;
+            color: #e67e22;
+            font-size: 0.9em;
+            margin-right: 5px;
+        }
+        
+        /* Print Styles */
+        @media print {
+            body { 
+                margin: 0; 
+                background: none;
+                font-size: 10pt;
+            }
+            .container { 
+                max-width: 100%; 
+                box-shadow: none;
+                border-top: none;
+                padding: 0;
+            }
+            .section {
+                border: 1px solid #999;
+                background-color: transparent !important;
+                margin-bottom: 20px;
+                padding: 15px;
+            }
+            code, .formula { 
+                background-color: transparent; 
+                border: 1px solid #888; 
+                color: #000;
+            }
+            .pyq-container {
+                border: 1px solid #555;
+            }
+            .pyq-header {
+                background-color: #ddd;
+                color: #000;
+                border-bottom: 1px solid #555;
+                -webkit-print-color-adjust: exact;
+            }
+            .pyq-item {
+                border-bottom: 1px dashed #999;
+            }
+            .pyq-answer {
+                background-color: transparent;
+                border: 1px solid #27ae60;
+            }
+            h1 {
+                border-bottom: 2px solid #000;
+                font-size: 1.6em;
+                margin-bottom: 15px;
+                padding-bottom: 10px;
+            }
+            h3 {
+                color: #000;
+                border-bottom: 1px solid #000;
+            }
+            li:before {
+                color: #000;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧠 Reasoning Master Cheat Sheet</h1>
+
+        <div class="section">
+            <h3>📅 1. CALENDAR CODES</h3>
+            <ul>
+                <li><strong>Formula:</strong> <code>(Date + Month Code + Year + (Year/4) + Century Code) ÷ 7</code> (Find Remainder)</li>
+                <li><strong>Normal Year:</strong> <code>144 - 025 - 036 - 146</code> (Jan to Dec)</li>
+                <li><strong>Leap Year:</strong> Jan = <code>0</code>, Feb = <code>3</code> (rest are the same)</li>
+                <li><strong>Century Codes:</strong> 1800s = <code>2</code> | 1900s = <code>0</code> | 2000s = <code>6</code></li>
+                <li><strong>Day Codes:</strong> Sun=<code>1</code>, Mon=<code>2</code>, Tue=<code>3</code>, Wed=<code>4</code>, Thu=<code>5</code>, Fri=<code>6</code>, Sat=<code>0</code></li>
+            </ul>
+            <div class="pyq-container">
+                <div class="pyq-header">🔥 Top 5 Recent PYQs - Calendars</div>
+                <div class="pyq-item"><span class="tag">[SSC CGL 2023]</span> What was the day of the week on 15th August 1947?<br>
+                    <em>Solution:</em> 15 + 3 (Aug) + 47 (Yr) + 11 (Leaps) + 0 = 76. 76 ÷ 7 leaves Remainder 6. Code 6 = <span class="pyq-answer">Friday</span>.</div>
+                <div class="pyq-item"><span class="tag">[RRB NTPC 2022]</span> What was the day of the week on 26th January 1950?<br>
+                    <em>Solution:</em> 26 + 1 (Jan) + 50 (Yr) + 12 (Leaps) + 0 = 89. 89 ÷ 7 leaves Remainder 5. Code 5 = <span class="pyq-answer">Thursday</span>.</div>
+                <div class="pyq-item"><span class="tag">[SSC CHSL 2022]</span> What was the day of the week on 2nd October 1869?<br>
+                    <em>Solution:</em> 2 + 1 (Oct) + 69 (Yr) + 17 (Leaps) + 2 (1800s) = 91. 91 ÷ 7 leaves Remainder 0. Code 0 = <span class="pyq-answer">Saturday</span>.</div>
+                <div class="pyq-item"><span class="tag">[IBPS PO 2023]</span> What will be the day of the week on 5th June 2023?<br>
+                    <em>Solution:</em> 5 + 5 (Jun) + 23 (Yr) + 5 (Leaps) + 6 (2000s) = 44. 44 ÷ 7 leaves Remainder 2. Code 2 = <span class="pyq-answer">Monday</span>.</div>
+                <div class="pyq-item"><span class="tag">[SBI Clerk 2021]</span> What was the day of the week on 31st December 1999?<br>
+                    <em>Solution:</em> 31 + 6 (Dec) + 99 (Yr) + 24 (Leaps) + 0 = 160. 160 ÷ 7 leaves Remainder 6. Code 6 = <span class="pyq-answer">Friday</span>.</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>⏰ 2. CLOCKS</h3>
+            <ul>
+                <li><strong>Angle Between Hands:</strong> <code>θ = |(11/2 × Minutes) - (30 × Hours)|</code></li>
+                <li><strong>Hands Overlapping (0°):</strong> <code>(60/11 × H)</code> minutes past H</li>
+                <li><strong>Mirror Image Time:</strong> Subtract the given time from <code>11:60</code></li>
+            </ul>
+            <div class="pyq-container">
+                <div class="pyq-header">🔥 Top 5 Recent PYQs - Clocks</div>
+                <div class="pyq-item"><span class="tag">[RRB Group D 2022]</span> At what angle are the hands inclined at 4:20?<br>
+                    <em>Solution:</em> Angle formula: |(11/2 × 20) - (30 × 4)| = |110 - 120| = |-10| = <span class="pyq-answer">10°</span>.</div>
+                <div class="pyq-item"><span class="tag">[SSC CGL 2023]</span> At what time between 3 and 4 o'clock will the hands of a watch coincide/overlap (0°)?<br>
+                    <em>Solution:</em> H = 3. Formula: 60/11 × 3 = 180/11 = 16 4/11. Ans: <span class="pyq-answer">16 4/11 min past 3</span>.</div>
+                <div class="pyq-item"><span class="tag">[RRB NTPC 2021]</span> At what time between 8 and 9 o'clock will the hands overlap?<br>
+                    <em>Solution:</em> H = 8. Formula: 60/11 × 8 = 480/11 = 43 7/11. Ans: <span class="pyq-answer">43 7/11 min past 8</span>.</div>
+                <div class="pyq-item"><span class="tag">[IBPS PO 2022]</span> At what time between 2 and 3 o'clock are the hands of a clock exactly together?<br>
+                    <em>Solution:</em> H = 2. Formula: 60/11 × 2 = 120/11 = 10 10/11. Ans: <span class="pyq-answer">10 10/11 min past 2</span>.</div>
+                <div class="pyq-item"><span class="tag">[IBPS Clerk 2023]</span> What is the mirror image of a clock showing 8:40?<br>
+                    <em>Solution:</em> Subtract from 11:60. (11 - 8):(60 - 40) = <span class="pyq-answer">3:20</span>.</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>🔠 3. ALPHABETS & CODING</h3>
+            <ul>
+                <li><strong>Quick Positions (EJOTY):</strong> E=<code>5</code>, J=<code>10</code>, O=<code>15</code>, T=<code>20</code>, Y=<code>25</code></li>
+                <li><strong>Reverse Position:</strong> <code>27 - Normal Position</code></li>
+                <li><strong>Opposite Pairs:</strong> <code>A-Z</code> <code>B-Y</code> <code>C-X</code> <code>D-W</code> <code>E-V</code> <code>F-U</code> <code>G-T</code> <code>H-S</code> <code>I-R</code> <code>J-Q</code> <code>K-P</code> <code>L-O</code> <code>M-N</code></li>
+            </ul>
+            <div class="pyq-container">
+                <div class="pyq-header">🔥 Top 5 Recent PYQs - Alphabets</div>
+                <div class="pyq-item"><span class="tag">[IBPS PO 2023]</span> If 'CAT' = 24, then 'DOG' = ?<br>
+                    <em>Solution:</em> C(3) + A(1) + T(20) = 24. D(4) + O(15) + G(7) = <span class="pyq-answer">26</span>.</div>
+                <div class="pyq-item"><span class="tag">[SSC CHSL 2023]</span> If 'GO' = 32 and 'SHE' = 49, what is 'SOME'?<br>
+                    <em>Solution:</em> Uses opposite letters. G=T(20), O=L(12) sum=32. SOME -> H(8) + L(12) + N(14) + V(22) = <span class="pyq-answer">56</span>.</div>
+                <div class="pyq-item"><span class="tag">[RRB NTPC 2022]</span> What is the sum of alphabetical positions in "WATER"?<br>
+                    <em>Solution:</em> W(23) + A(1) + T(20) + E(5) + R(18) = <span class="pyq-answer">67</span>.</div>
+                <div class="pyq-item"><span class="tag">[SSC CGL 2022]</span> If 'BAT' is coded as 'YZG', how is 'CAT' coded?<br>
+                    <em>Solution:</em> Opposite pairs. B->Y, A->Z, T->G. Therefore C->X, A->Z, T->G. Ans: <span class="pyq-answer">XZG</span>.</div>
+                <div class="pyq-item"><span class="tag">[SBI PO 2021]</span> What is the reverse alphabetical position of the letter 'K'?<br>
+                    <em>Solution:</em> Normal position = 11. Reverse = 27 - 11 = <span class="pyq-answer">16</span>.</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>🎲 4. PAINTED CUBES</h3>
+            <ul>
+                <li><em>(Where <code>n</code> = large edge ÷ small edge)</em></li>
+                <li><strong>3 Sides Painted (Corners):</strong> Always <code>8</code></li>
+                <li><strong>2 Sides Painted (Edges):</strong> <code>12(n - 2)</code></li>
+                <li><strong>1 Side Painted (Faces):</strong> <code>6(n - 2)²</code></li>
+                <li><strong>0 Sides Painted (Inside):</strong> <code>(n - 2)³</code></li>
+            </ul>
+            <div class="pyq-container">
+                <div class="pyq-header">🔥 Top 5 Recent PYQs - Cubes</div>
+                <div class="pyq-item"><span class="tag">[SSC CGL 2023]</span> A cube is cut into 27 smaller cubes. How many have exactly 3 painted faces?<br>
+                    <em>Solution:</em> n = 3. Cubes with 3 painted faces are always the corners. Ans: <span class="pyq-answer">8</span>.</div>
+                <div class="pyq-item"><span class="tag">[SSC CHSL 2022]</span> A solid red cube is cut into 64 smaller cubes. How many have exactly 2 painted faces?<br>
+                    <em>Solution:</em> n³ = 64, so n = 4. Formula: 12(n - 2) = 12(4 - 2) = <span class="pyq-answer">24</span>.</div>
+                <div class="pyq-item"><span class="tag">[RRB ALP 2024]</span> A cube is cut into 125 smaller cubes. How many have exactly 1 painted face?<br>
+                    <em>Solution:</em> n³ = 125, so n = 5. Formula: 6(n - 2)² = 6(3)² = 6 × 9 = <span class="pyq-answer">54</span>.</div>
+                <div class="pyq-item"><span class="tag">[Delhi Police 2023]</span> A cube is cut into 216 smaller cubes. How many have NO painted faces (unpainted)?<br>
+                    <em>Solution:</em> n³ = 216, so n = 6. Formula: (n - 2)³ = (6 - 2)³ = 4³ = <span class="pyq-answer">64</span>.</div>
+                <div class="pyq-item"><span class="tag">[UPSSSC 2022]</span> A 10cm painted cube is cut into 2cm cubes. How many have exactly 2 painted faces?<br>
+                    <em>Solution:</em> n = 10/2 = 5. Formula: 12(n - 2) = 12(3) = <span class="pyq-answer">36</span>.</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>🔺 5. COUNTING FIGURES</h3>
+            <ul>
+                <li><strong>Triangles inside a Square (with cross):</strong> <code>Number of small inner triangles × 2</code></li>
+                <li><strong>Triangles inside a Triangle (base cut into n parts):</strong> <code>n(n+1) ÷ 2</code></li>
+            </ul>
+            <div class="pyq-container">
+                <div class="pyq-header">🔥 Top 5 Recent PYQs - Figure Counting</div>
+                <div class="pyq-item"><span class="tag">[SSC CGL 2023]</span> How many triangles are in a square box with both diagonals drawn?<br>
+                    <em>Solution:</em> Counting the basic small inner triangles gives 4. Formula: 4 × 2 = <span class="pyq-answer">8</span>.</div>
+                <div class="pyq-item"><span class="tag">[RRB NTPC 2022]</span> A large triangle has its base divided by vertical lines into 4 sections. Total triangles?<br>
+                    <em>Solution:</em> n = 4. Formula: n(n+1)÷2 = 4(5)÷2 = <span class="pyq-answer">10</span>.</div>
+                <div class="pyq-item"><span class="tag">[SSC GD 2023]</span> How many triangles in a square crossed by 2 diagonals and horizontal/vertical bisectors?<br>
+                    <em>Solution:</em> The number of small inner triangles is 8. Formula: 8 × 2 = <span class="pyq-answer">16</span>.</div>
+                <div class="pyq-item"><span class="tag">[IB ACIO 2021]</span> A triangle's base is divided into 5 sections by straight lines from the apex. Total triangles?<br>
+                    <em>Solution:</em> n = 5. Formula: 5(6)÷2 = 30÷2 = <span class="pyq-answer">15</span>.</div>
+                <div class="pyq-item"><span class="tag">[SSC CHSL 2023]</span> A triangle's base is divided into 6 sections. Find the total number of triangles.<br>
+                    <em>Solution:</em> n = 6. Formula: 6(7)÷2 = 42÷2 = <span class="pyq-answer">21</span>.</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>📈 6. RANKING & ORDERING</h3>
+            <ul>
+                <li><strong>Total Persons:</strong> <code>(Position from Left/Top) + (Position from Right/Bottom) - 1</code></li>
+                <li><strong>New Position (When 2 people swap):</strong> New pos = Old pos + Difference in positions of the other person.</li>
+                <li><strong>Middle Persons (Normal):</strong> <code>Total - (Left + Right)</code> (When Total > L+R)</li>
+                <li><strong>Middle Persons (Overlap):</strong> <code>(Left + Right) - Total - 2</code> (When Total < L+R)</li>
+            </ul>
+            <div class="pyq-container">
+                <div class="pyq-header">🔥 Top 5 Recent PYQs - Ranking</div>
+                <div class="pyq-item"><span class="tag">[SSC CGL 2023]</span> In a row, Ram is 15th from left and 20th from right. Total boys?<br>
+                    <em>Solution:</em> Total = (Left + Right) - 1 = (15 + 20) - 1 = <span class="pyq-answer">34</span>.</div>
+                <div class="pyq-item"><span class="tag">[IBPS Clerk 2022]</span> A class has 45 students. Neha is 12th from top. Her rank from bottom?<br>
+                    <em>Solution:</em> Bottom = Total - Top + 1 = 45 - 12 + 1 = <span class="pyq-answer">34th</span>.</div>
+                <div class="pyq-item"><span class="tag">[RRB NTPC 2021]</span> In a row of 50 people, A is 10th from left, B is 15th from right. How many between them?<br>
+                    <em>Solution:</em> Normal case (50 > 10+15). Between = 50 - (10 + 15) = 50 - 25 = <span class="pyq-answer">25</span>.</div>
+                <div class="pyq-item"><span class="tag">[SBI PO 2023]</span> In a row of 30, A is 20th from left, B is 18th from right. How many between them?<br>
+                    <em>Solution:</em> Overlap case (30 &lt; 20+18). Between = (20 + 18) - 30 - 2 = 38 - 32 = <span class="pyq-answer">6</span>.</div>
+                <div class="pyq-item"><span class="tag">[SSC CHSL 2022]</span> A is 10th from left, B is 15th from right. They swap. A becomes 18th from left. Total?<br>
+                    <em>Solution:</em> A's new left (18) + B's old right (15) - 1 = 18 + 15 - 1 = <span class="pyq-answer">32</span>.</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>🎲 7. DICE RULES</h3>
+            <ul>
+                <li><strong>Standard Dice:</strong> Sum of opposite faces = 7 (<code>1↔6</code>, <code>2↔5</code>, <code>3↔4</code>)</li>
+                <li><strong>One Common Face Rule:</strong> Write numbers clockwise starting from the common face. Number pairs that align are opposites.</li>
+                <li><strong>Two Common Faces Rule:</strong> The remaining 3rd faces in both dice are opposite to each other.</li>
+                <li><strong>Open Dice Rule:</strong> Alternate faces in a straight line are opposite.</li>
+            </ul>
+            <div class="pyq-container">
+                <div class="pyq-header">🔥 Top 5 Recent PYQs - Dice</div>
+                <div class="pyq-item"><span class="tag">[SSC GD 2023]</span> Two positions of a dice show: (2, 3, 5) and (2, 4, 6). Opposite to 3?<br>
+                    <em>Solution:</em> Common is 2. Clockwise 1st: 2→3→5. Clockwise 2nd: 2→4→6. 3 aligns with 4. Ans: <span class="pyq-answer">4</span>.</div>
+                <div class="pyq-item"><span class="tag">[RRB Group D 2022]</span> Dice shows: (1, 5, 6) and (1, 3, 5). What is opposite to 6?<br>
+                    <em>Solution:</em> 1 and 5 are common in both. The remaining faces are 6 and 3. Ans: <span class="pyq-answer">3</span>.</div>
+                <div class="pyq-item"><span class="tag">[Delhi Police 2023]</span> In a standard dice, what is opposite to 2?<br>
+                    <em>Solution:</em> Standard dice rule: sum = 7. 7 - 2 = <span class="pyq-answer">5</span>.</div>
+                <div class="pyq-item"><span class="tag">[SSC MTS 2021]</span> Open dice sequence: 1-2-3-4 in a line. What is opposite to 2?<br>
+                    <em>Solution:</em> Alternate faces are opposite. 1 is opposite 3, 2 is opposite 4. Ans: <span class="pyq-answer">4</span>.</div>
+                <div class="pyq-item"><span class="tag">[IB ACIO 2022]</span> Dice shows (A, B, C) and (C, D, E). Opposite to B?<br>
+                    <em>Solution:</em> Common is C. Clockwise 1: C→A→B. Clockwise 2: C→D→E. B aligns with E. Ans: <span class="pyq-answer">E</span>.</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>🧭 8. DIRECTION & DISTANCE</h3>
+            <ul>
+                <li><strong>Shortest Distance:</strong> <code>Hypotenuse = √(Base² + Height²)</code> (Pythagoras Theorem)</li>
+                <li><strong>Turns:</strong> Right Turn = <code>90° Clockwise</code> | Left Turn = <code>90° Anti-Clockwise</code></li>
+                <li><strong>Sunlight (Morning):</strong> Sun is in East. Shadows fall to the <code>West</code>.</li>
+                <li><strong>Sunlight (Evening):</strong> Sun is in West. Shadows fall to the <code>East</code>.</li>
+            </ul>
+            <div class="pyq-container">
+                <div class="pyq-header">🔥 Top 5 Recent PYQs - Direction</div>
+                <div class="pyq-item"><span class="tag">[SBI PO 2023]</span> A goes 3km North, turns right and goes 4km. Shortest distance from start?<br>
+                    <em>Solution:</em> Base=4, Height=3. Distance = √(3² + 4²) = √(9 + 16) = √25 = <span class="pyq-answer">5 km</span>.</div>
+                <div class="pyq-item"><span class="tag">[SSC CGL 2022]</span> A walks 10m South, turns left walks 10m, turns left walks 10m. Direction from start?<br>
+                    <em>Solution:</em> South 10m -> Left(East) 10m -> Left(North) 10m. He is exactly <span class="pyq-answer">East</span> of start.</div>
+                <div class="pyq-item"><span class="tag">[RRB NTPC 2021]</span> One morning, A and B are facing each other. A's shadow falls exactly to A's left. Which way is B facing?<br>
+                    <em>Solution:</em> Morning = Sun in East. Shadow falls in West. A's left is West, so A faces North. B faces <span class="pyq-answer">South</span>.</div>
+                <div class="pyq-item"><span class="tag">[IBPS Clerk 2022]</span> A man faces West. Turns 45° clockwise, then 180° clockwise. Which direction?<br>
+                    <em>Solution:</em> Total turn = 45 + 180 = 225° clockwise. West + 90(N) + 90(E) + 45 = <span class="pyq-answer">North-East</span>.</div>
+                <div class="pyq-item"><span class="tag">[SSC CHSL 2023]</span> Goes 5km East, turns right 4km, turns left 5km. Shortest distance?<br>
+                    <em>Solution:</em> Total horizontal = 5+5=10. Vertical = 4. Distance = √(10² + 4²) = √(100 + 16) = <span class="pyq-answer">√116 km</span>.</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>🩸 9. BLOOD RELATIONS</h3>
+            <ul>
+                <li><strong>Symbols Trick:</strong> Male = <code>[+]</code> | Female = <code>[-]</code></li>
+                <li><strong>Connections:</strong> Married = <code>A ══ B</code> | Siblings = <code>A ── B</code></li>
+                <li><strong>Generations:</strong> Use a vertical line <code>│</code> with older generations on top.</li>
+                <li><strong>Coded Relations:</strong> (e.g., A $ B % C) Always draw the family tree <em>backwards</em> (from Right to Left) to save time!</li>
+            </ul>
+            <div class="pyq-container">
+                <div class="pyq-header">🔥 Top 5 Recent PYQs - Blood Relations</div>
+                <div class="pyq-item"><span class="tag">[SBI PO 2023]</span> Pointing to a boy, Suresh said, "He is the son of the only son of my mother." How is Suresh related to the boy?<br>
+                    <em>Solution:</em> Suresh's mother's only son = Suresh himself. The boy is the son of Suresh. Ans: <span class="pyq-answer">Father</span>.</div>
+                <div class="pyq-item"><span class="tag">[SSC CGL 2022]</span> A is B's sister. C is B's mother. D is C's father. How is A related to D?<br>
+                    <em>Solution:</em> A and B are siblings. C is their mother. D is C's father (so D is A's maternal grandfather). Ans: <span class="pyq-answer">Granddaughter</span>.</div>
+                <div class="pyq-item"><span class="tag">[IBPS Clerk 2022]</span> A+B = Father, A-B = Brother, A%B = Wife. Relation in P + Q - R % S?<br>
+                    <em>Solution:</em> Right to left: R is wife of S. Q is brother of R. P is father of Q. So P is father of R, making P the father-in-law of S. Ans: <span class="pyq-answer">P is father-in-law of S</span>.</div>
+                <div class="pyq-item"><span class="tag">[RRB NTPC 2021]</span> Pointing to a woman, a man says, "She is the only daughter of my wife's grandfather." How is the woman related to the man?<br>
+                    <em>Solution:</em> Wife's grandfather's only daughter = wife's mother. Man's wife's mother is his mother-in-law. Ans: <span class="pyq-answer">Mother-in-law</span>.</div>
+                <div class="pyq-item"><span class="tag">[SSC CHSL 2023]</span> X and Y are brothers. R is father of Y. S is maternal uncle of X and brother of T. How is T related to R?<br>
+                    <em>Solution:</em> R is father of X and Y. S is maternal uncle (mother's brother). Since S is T's brother, T is the mother. T is married to R. Ans: <span class="pyq-answer">Wife</span>.</div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
