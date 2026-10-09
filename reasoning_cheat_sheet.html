@@ -190,6 +190,8 @@
                 <li><strong>Century Codes:</strong> 1800s = <code>2</code> | 1900s = <code>0</code> | 2000s = <code>6</code></li>
                 <li><strong>Day Codes:</strong> Sun=<code>1</code>, Mon=<code>2</code>, Tue=<code>3</code>, Wed=<code>4</code>, Thu=<code>5</code>, Fri=<code>6</code>, Sat=<code>0</code></li>
             </ul>
+            <div class="pyq-container">
+                
             <h4 style="color:#0984e3; border-bottom:1px solid #74b9ff; padding-bottom:3px; margin-top:20px;">📅 Advanced Calendar Patterns & Tricks</h4>
             <ul style="background: #eef2f3; padding: 15px 35px; border-radius: 8px; border-left: 5px solid #2980b9;">
                 <li><strong>Year Repetition Trick:</strong> When will the same calendar repeat? Look at the remainder of `(Year ÷ 4)`:
@@ -212,19 +214,17 @@
                 </li>
             </ul>
 
-            <div class="pyq-container">
                 <div class="pyq-header">🔥 Top 8 Recent PYQs - Calendars</div>
                 <div class="pyq-item"><span class="tag">[SSC CGL 2023]</span> What was the day of the week on 15th August 1947?<br>
                     <em>Solution:</em> 15 + 3 (Aug) + 47 (Yr) + 11 (Leaps) + 0 = 76. 76 ÷ 7 leaves Remainder 6. Code 6 = <span class="pyq-answer">Friday</span>.</div>
-
+                
                 <div class="pyq-item"><span class="tag">[SSC CGL 2022]</span> The calendar for the year 2017 will be the same for the year?<br>
                     <em>Solution:</em> Divide year 2017 by 4. (17 ÷ 4) leaves remainder 1. Year repetition rule: Remainder 1 means add 6 years. 2017 + 6 = <span class="pyq-answer">2023</span>.</div>
                 <div class="pyq-item"><span class="tag">[SSC CHSL 2021]</span> Which of the following two months in a non-leap year have the same calendar?<br>
                     <em>Solution:</em> Months with the same month-code have the same calendar. In a normal year (144-025-036-146), April is 0 and July is 0. So, <span class="pyq-answer">April and July</span>.</div>
                 <div class="pyq-item"><span class="tag">[RRB NTPC 2021]</span> Which of the following days can never be the last day of a century?<br>
                     <em>Solution:</em> Century endings strictly follow the 5, 3, 1, 0 code rule (Friday, Wednesday, Monday, Sunday). So they can never be Tuesday, Thursday, or <span class="pyq-answer">Saturday</span>.</div>
-
-                <div class="pyq-item"><span class="tag">[RRB NTPC 2022]</span> What was the day of the week on 26th January 1950?<br>
+<div class="pyq-item"><span class="tag">[RRB NTPC 2022]</span> What was the day of the week on 26th January 1950?<br>
                     <em>Solution:</em> 26 + 1 (Jan) + 50 (Yr) + 12 (Leaps) + 0 = 89. 89 ÷ 7 leaves Remainder 5. Code 5 = <span class="pyq-answer">Thursday</span>.</div>
                 <div class="pyq-item"><span class="tag">[SSC CHSL 2022]</span> What was the day of the week on 2nd October 1869?<br>
                     <em>Solution:</em> 2 + 1 (Oct) + 69 (Yr) + 17 (Leaps) + 2 (1800s) = 91. 91 ÷ 7 leaves Remainder 0. Code 0 = <span class="pyq-answer">Saturday</span>.</div>
@@ -232,14 +232,6 @@
                     <em>Solution:</em> 5 + 5 (Jun) + 23 (Yr) + 5 (Leaps) + 6 (2000s) = 44. 44 ÷ 7 leaves Remainder 2. Code 2 = <span class="pyq-answer">Monday</span>.</div>
                 <div class="pyq-item"><span class="tag">[SBI Clerk 2021]</span> What was the day of the week on 31st December 1999?<br>
                     <em>Solution:</em> 31 + 6 (Dec) + 99 (Yr) + 24 (Leaps) + 0 = 160. 160 ÷ 7 leaves Remainder 6. Code 6 = <span class="pyq-answer">Friday</span>.</div>
-
-                <div class="pyq-item"><span class="tag">[SSC CGL 2022]</span> The calendar for the year 2017 will be the same for the year?<br>
-                    <em>Solution:</em> Divide year 2017 by 4. (17 ÷ 4) leaves remainder 1. Year repetition rule: Remainder 1 means add 6 years. 2017 + 6 = <span class="pyq-answer">2023</span>.</div>
-                <div class="pyq-item"><span class="tag">[SSC CHSL 2021]</span> Which of the following two months in a non-leap year have the same calendar?<br>
-                    <em>Solution:</em> Months with the same month-code have the same calendar. In a normal year (144-025-036-146), April is 0 and July is 0. So, <span class="pyq-answer">April and July</span>.</div>
-                <div class="pyq-item"><span class="tag">[RRB NTPC 2021]</span> Which of the following days can never be the last day of a century?<br>
-                    <em>Solution:</em> Century endings strictly follow the 5, 3, 1, 0 code rule (Friday, Wednesday, Monday, Sunday). So they can never be Tuesday, Thursday, or <span class="pyq-answer">Saturday</span>.</div>
-
             </div>
         </div>
 
@@ -250,28 +242,6 @@
                 <li><strong>Hands Overlapping (0°):</strong> <code>(60/11 × H)</code> minutes past H</li>
                 <li><strong>Mirror Image Time:</strong> Subtract the given time from <code>11:60</code></li>
             </ul>
-            <h4 style="color:#0984e3; border-bottom:1px solid #74b9ff; padding-bottom:3px; margin-top:20px;">📅 Advanced Calendar Patterns & Tricks</h4>
-            <ul style="background: #eef2f3; padding: 15px 35px; border-radius: 8px; border-left: 5px solid #2980b9;">
-                <li><strong>Year Repetition Trick:</strong> When will the same calendar repeat? Look at the remainder of `(Year ÷ 4)`:
-                    <ul>
-                        <li>If Remainder = <strong>1</strong> → Repeats after <strong>6 years</strong> (e.g., 2017 repeats in 2023)</li>
-                        <li>If Remainder = <strong>2 or 3</strong> → Repeats after <strong>11 years</strong> (e.g., 2018 repeats in 2029)</li>
-                        <li>If Remainder = <strong>0 (Leap Year)</strong> → Repeats after <strong>28 years</strong> (e.g., 2020 repeats in 2048)</li>
-                    </ul>
-                </li>
-                <li><strong>Same Months in a Year:</strong> Months with the same code have identical calendars!
-                    <ul>
-                        <li><em>Normal Year:</em> (Jan & Oct), (Feb, Mar & Nov), (Apr & Jul), (Sep & Dec)</li>
-                        <li><em>Leap Year:</em> (Jan, Apr & Jul), (Feb & Aug), (Mar & Nov), (Sep & Dec)</li>
-                    </ul>
-                </li>
-                <li><strong>Century Day Rules:</strong> 
-                    <ul>
-                        <li>The <strong>Last Day</strong> of a century can <em>only</em> be: Sunday, Monday, Wednesday, or Friday. (It can NEVER be Tue, Thu, or Sat).</li>
-                    </ul>
-                </li>
-            </ul>
-
             <div class="pyq-container">
                 <div class="pyq-header">🔥 Top 5 Recent PYQs - Clocks</div>
                 <div class="pyq-item"><span class="tag">[RRB Group D 2022]</span> At what angle are the hands inclined at 4:20?<br>
@@ -294,28 +264,6 @@
                 <li><strong>Reverse Position:</strong> <code>27 - Normal Position</code></li>
                 <li><strong>Opposite Pairs:</strong> <code>A-Z</code> <code>B-Y</code> <code>C-X</code> <code>D-W</code> <code>E-V</code> <code>F-U</code> <code>G-T</code> <code>H-S</code> <code>I-R</code> <code>J-Q</code> <code>K-P</code> <code>L-O</code> <code>M-N</code></li>
             </ul>
-            <h4 style="color:#0984e3; border-bottom:1px solid #74b9ff; padding-bottom:3px; margin-top:20px;">📅 Advanced Calendar Patterns & Tricks</h4>
-            <ul style="background: #eef2f3; padding: 15px 35px; border-radius: 8px; border-left: 5px solid #2980b9;">
-                <li><strong>Year Repetition Trick:</strong> When will the same calendar repeat? Look at the remainder of `(Year ÷ 4)`:
-                    <ul>
-                        <li>If Remainder = <strong>1</strong> → Repeats after <strong>6 years</strong> (e.g., 2017 repeats in 2023)</li>
-                        <li>If Remainder = <strong>2 or 3</strong> → Repeats after <strong>11 years</strong> (e.g., 2018 repeats in 2029)</li>
-                        <li>If Remainder = <strong>0 (Leap Year)</strong> → Repeats after <strong>28 years</strong> (e.g., 2020 repeats in 2048)</li>
-                    </ul>
-                </li>
-                <li><strong>Same Months in a Year:</strong> Months with the same code have identical calendars!
-                    <ul>
-                        <li><em>Normal Year:</em> (Jan & Oct), (Feb, Mar & Nov), (Apr & Jul), (Sep & Dec)</li>
-                        <li><em>Leap Year:</em> (Jan, Apr & Jul), (Feb & Aug), (Mar & Nov), (Sep & Dec)</li>
-                    </ul>
-                </li>
-                <li><strong>Century Day Rules:</strong> 
-                    <ul>
-                        <li>The <strong>Last Day</strong> of a century can <em>only</em> be: Sunday, Monday, Wednesday, or Friday. (It can NEVER be Tue, Thu, or Sat).</li>
-                    </ul>
-                </li>
-            </ul>
-
             <div class="pyq-container">
                 <div class="pyq-header">🔥 Top 5 Recent PYQs - Alphabets</div>
                 <div class="pyq-item"><span class="tag">[IBPS PO 2023]</span> If 'CAT' = 24, then 'DOG' = ?<br>
@@ -340,28 +288,6 @@
                 <li><strong>1 Side Painted (Faces):</strong> <code>6(n - 2)²</code></li>
                 <li><strong>0 Sides Painted (Inside):</strong> <code>(n - 2)³</code></li>
             </ul>
-            <h4 style="color:#0984e3; border-bottom:1px solid #74b9ff; padding-bottom:3px; margin-top:20px;">📅 Advanced Calendar Patterns & Tricks</h4>
-            <ul style="background: #eef2f3; padding: 15px 35px; border-radius: 8px; border-left: 5px solid #2980b9;">
-                <li><strong>Year Repetition Trick:</strong> When will the same calendar repeat? Look at the remainder of `(Year ÷ 4)`:
-                    <ul>
-                        <li>If Remainder = <strong>1</strong> → Repeats after <strong>6 years</strong> (e.g., 2017 repeats in 2023)</li>
-                        <li>If Remainder = <strong>2 or 3</strong> → Repeats after <strong>11 years</strong> (e.g., 2018 repeats in 2029)</li>
-                        <li>If Remainder = <strong>0 (Leap Year)</strong> → Repeats after <strong>28 years</strong> (e.g., 2020 repeats in 2048)</li>
-                    </ul>
-                </li>
-                <li><strong>Same Months in a Year:</strong> Months with the same code have identical calendars!
-                    <ul>
-                        <li><em>Normal Year:</em> (Jan & Oct), (Feb, Mar & Nov), (Apr & Jul), (Sep & Dec)</li>
-                        <li><em>Leap Year:</em> (Jan, Apr & Jul), (Feb & Aug), (Mar & Nov), (Sep & Dec)</li>
-                    </ul>
-                </li>
-                <li><strong>Century Day Rules:</strong> 
-                    <ul>
-                        <li>The <strong>Last Day</strong> of a century can <em>only</em> be: Sunday, Monday, Wednesday, or Friday. (It can NEVER be Tue, Thu, or Sat).</li>
-                    </ul>
-                </li>
-            </ul>
-
             <div class="pyq-container">
                 <div class="pyq-header">🔥 Top 5 Recent PYQs - Cubes</div>
                 <div class="pyq-item"><span class="tag">[SSC CGL 2023]</span> A cube is cut into 27 smaller cubes. How many have exactly 3 painted faces?<br>
@@ -383,28 +309,6 @@
                 <li><strong>Triangles inside a Square (with cross):</strong> <code>Number of small inner triangles × 2</code></li>
                 <li><strong>Triangles inside a Triangle (base cut into n parts):</strong> <code>n(n+1) ÷ 2</code></li>
             </ul>
-            <h4 style="color:#0984e3; border-bottom:1px solid #74b9ff; padding-bottom:3px; margin-top:20px;">📅 Advanced Calendar Patterns & Tricks</h4>
-            <ul style="background: #eef2f3; padding: 15px 35px; border-radius: 8px; border-left: 5px solid #2980b9;">
-                <li><strong>Year Repetition Trick:</strong> When will the same calendar repeat? Look at the remainder of `(Year ÷ 4)`:
-                    <ul>
-                        <li>If Remainder = <strong>1</strong> → Repeats after <strong>6 years</strong> (e.g., 2017 repeats in 2023)</li>
-                        <li>If Remainder = <strong>2 or 3</strong> → Repeats after <strong>11 years</strong> (e.g., 2018 repeats in 2029)</li>
-                        <li>If Remainder = <strong>0 (Leap Year)</strong> → Repeats after <strong>28 years</strong> (e.g., 2020 repeats in 2048)</li>
-                    </ul>
-                </li>
-                <li><strong>Same Months in a Year:</strong> Months with the same code have identical calendars!
-                    <ul>
-                        <li><em>Normal Year:</em> (Jan & Oct), (Feb, Mar & Nov), (Apr & Jul), (Sep & Dec)</li>
-                        <li><em>Leap Year:</em> (Jan, Apr & Jul), (Feb & Aug), (Mar & Nov), (Sep & Dec)</li>
-                    </ul>
-                </li>
-                <li><strong>Century Day Rules:</strong> 
-                    <ul>
-                        <li>The <strong>Last Day</strong> of a century can <em>only</em> be: Sunday, Monday, Wednesday, or Friday. (It can NEVER be Tue, Thu, or Sat).</li>
-                    </ul>
-                </li>
-            </ul>
-
             <div class="pyq-container">
                 <div class="pyq-header">🔥 Top 5 Recent PYQs - Figure Counting</div>
                 <div class="pyq-item"><span class="tag">[SSC CGL 2023]</span> How many triangles are in a square box with both diagonals drawn?<br>
@@ -428,30 +332,8 @@
                 <li><strong>Middle Persons (Normal):</strong> <code>Total - (Left + Right)</code> (When Total > L+R)</li>
                 <li><strong>Middle Persons (Overlap):</strong> <code>(Left + Right) - Total - 2</code> (When Total < L+R)</li>
             </ul>
-            <h4 style="color:#0984e3; border-bottom:1px solid #74b9ff; padding-bottom:3px; margin-top:20px;">📅 Advanced Calendar Patterns & Tricks</h4>
-            <ul style="background: #eef2f3; padding: 15px 35px; border-radius: 8px; border-left: 5px solid #2980b9;">
-                <li><strong>Year Repetition Trick:</strong> When will the same calendar repeat? Look at the remainder of `(Year ÷ 4)`:
-                    <ul>
-                        <li>If Remainder = <strong>1</strong> → Repeats after <strong>6 years</strong> (e.g., 2017 repeats in 2023)</li>
-                        <li>If Remainder = <strong>2 or 3</strong> → Repeats after <strong>11 years</strong> (e.g., 2018 repeats in 2029)</li>
-                        <li>If Remainder = <strong>0 (Leap Year)</strong> → Repeats after <strong>28 years</strong> (e.g., 2020 repeats in 2048)</li>
-                    </ul>
-                </li>
-                <li><strong>Same Months in a Year:</strong> Months with the same code have identical calendars!
-                    <ul>
-                        <li><em>Normal Year:</em> (Jan & Oct), (Feb, Mar & Nov), (Apr & Jul), (Sep & Dec)</li>
-                        <li><em>Leap Year:</em> (Jan, Apr & Jul), (Feb & Aug), (Mar & Nov), (Sep & Dec)</li>
-                    </ul>
-                </li>
-                <li><strong>Century Day Rules:</strong> 
-                    <ul>
-                        <li>The <strong>Last Day</strong> of a century can <em>only</em> be: Sunday, Monday, Wednesday, or Friday. (It can NEVER be Tue, Thu, or Sat).</li>
-                    </ul>
-                </li>
-            </ul>
-
             <div class="pyq-container">
-                <div class="pyq-header">🔥 Top 5 Recent PYQs - Ranking</div>
+                <div class="pyq-header">🔥 Top 7 Recent PYQs - Ranking</div>
                 <div class="pyq-item"><span class="tag">[SSC CGL 2023]</span> In a row, Ram is 15th from left and 20th from right. Total boys?<br>
                     <em>Solution:</em> Total = (Left + Right) - 1 = (15 + 20) - 1 = <span class="pyq-answer">34</span>.</div>
                 <div class="pyq-item"><span class="tag">[IBPS Clerk 2022]</span> A class has 45 students. Neha is 12th from top. Her rank from bottom?<br>
@@ -462,6 +344,12 @@
                     <em>Solution:</em> Overlap case (30 &lt; 20+18). Between = (20 + 18) - 30 - 2 = 38 - 32 = <span class="pyq-answer">6</span>.</div>
                 <div class="pyq-item"><span class="tag">[SSC CHSL 2022]</span> A is 10th from left, B is 15th from right. They swap. A becomes 18th from left. Total?<br>
                     <em>Solution:</em> A's new left (18) + B's old right (15) - 1 = 18 + 15 - 1 = <span class="pyq-answer">32</span>.</div>
+
+                <div class="pyq-item"><span class="tag">[SSC CGL 2024]</span> In a row, P is 12th from left and Q is 17th from right. When they swap, P becomes 27th from left. What is Q's new position from right?<br>
+                    <em>Solution:</em> <strong>Use Difference Trick:</strong> P's position changed from 12 to 27 (Difference = +15). Therefore, Q's position will also change by exactly +15. Q's new right = 17 + 15 = <span class="pyq-answer">32nd</span>.</div>
+                <div class="pyq-item"><span class="tag">[IBPS PO 2023]</span> Sita is 9th from left and Gita is 13th from right. They swap positions and Sita becomes 18th from left. What is Gita's new position from right? And what is the total number of girls?<br>
+                    <em>Solution:</em> <strong>Gita's New Pos:</strong> Sita jumped from 9 to 18 (+9). So Gita jumps 13 + 9 = <span class="pyq-answer">22nd</span>.<br><strong>Total:</strong> Sita's New Left (18) + Gita's Old Right (13) - 1 = <span class="pyq-answer">30</span>.</div>
+
             </div>
         </div>
 
@@ -473,28 +361,6 @@
                 <li><strong>Two Common Faces Rule:</strong> The remaining 3rd faces in both dice are opposite to each other.</li>
                 <li><strong>Open Dice Rule:</strong> Alternate faces in a straight line are opposite.</li>
             </ul>
-            <h4 style="color:#0984e3; border-bottom:1px solid #74b9ff; padding-bottom:3px; margin-top:20px;">📅 Advanced Calendar Patterns & Tricks</h4>
-            <ul style="background: #eef2f3; padding: 15px 35px; border-radius: 8px; border-left: 5px solid #2980b9;">
-                <li><strong>Year Repetition Trick:</strong> When will the same calendar repeat? Look at the remainder of `(Year ÷ 4)`:
-                    <ul>
-                        <li>If Remainder = <strong>1</strong> → Repeats after <strong>6 years</strong> (e.g., 2017 repeats in 2023)</li>
-                        <li>If Remainder = <strong>2 or 3</strong> → Repeats after <strong>11 years</strong> (e.g., 2018 repeats in 2029)</li>
-                        <li>If Remainder = <strong>0 (Leap Year)</strong> → Repeats after <strong>28 years</strong> (e.g., 2020 repeats in 2048)</li>
-                    </ul>
-                </li>
-                <li><strong>Same Months in a Year:</strong> Months with the same code have identical calendars!
-                    <ul>
-                        <li><em>Normal Year:</em> (Jan & Oct), (Feb, Mar & Nov), (Apr & Jul), (Sep & Dec)</li>
-                        <li><em>Leap Year:</em> (Jan, Apr & Jul), (Feb & Aug), (Mar & Nov), (Sep & Dec)</li>
-                    </ul>
-                </li>
-                <li><strong>Century Day Rules:</strong> 
-                    <ul>
-                        <li>The <strong>Last Day</strong> of a century can <em>only</em> be: Sunday, Monday, Wednesday, or Friday. (It can NEVER be Tue, Thu, or Sat).</li>
-                    </ul>
-                </li>
-            </ul>
-
             <div class="pyq-container">
                 <div class="pyq-header">🔥 Top 5 Recent PYQs - Dice</div>
                 <div class="pyq-item"><span class="tag">[SSC GD 2023]</span> Two positions of a dice show: (2, 3, 5) and (2, 4, 6). Opposite to 3?<br>
@@ -518,28 +384,6 @@
                 <li><strong>Sunlight (Morning):</strong> Sun is in East. Shadows fall to the <code>West</code>.</li>
                 <li><strong>Sunlight (Evening):</strong> Sun is in West. Shadows fall to the <code>East</code>.</li>
             </ul>
-            <h4 style="color:#0984e3; border-bottom:1px solid #74b9ff; padding-bottom:3px; margin-top:20px;">📅 Advanced Calendar Patterns & Tricks</h4>
-            <ul style="background: #eef2f3; padding: 15px 35px; border-radius: 8px; border-left: 5px solid #2980b9;">
-                <li><strong>Year Repetition Trick:</strong> When will the same calendar repeat? Look at the remainder of `(Year ÷ 4)`:
-                    <ul>
-                        <li>If Remainder = <strong>1</strong> → Repeats after <strong>6 years</strong> (e.g., 2017 repeats in 2023)</li>
-                        <li>If Remainder = <strong>2 or 3</strong> → Repeats after <strong>11 years</strong> (e.g., 2018 repeats in 2029)</li>
-                        <li>If Remainder = <strong>0 (Leap Year)</strong> → Repeats after <strong>28 years</strong> (e.g., 2020 repeats in 2048)</li>
-                    </ul>
-                </li>
-                <li><strong>Same Months in a Year:</strong> Months with the same code have identical calendars!
-                    <ul>
-                        <li><em>Normal Year:</em> (Jan & Oct), (Feb, Mar & Nov), (Apr & Jul), (Sep & Dec)</li>
-                        <li><em>Leap Year:</em> (Jan, Apr & Jul), (Feb & Aug), (Mar & Nov), (Sep & Dec)</li>
-                    </ul>
-                </li>
-                <li><strong>Century Day Rules:</strong> 
-                    <ul>
-                        <li>The <strong>Last Day</strong> of a century can <em>only</em> be: Sunday, Monday, Wednesday, or Friday. (It can NEVER be Tue, Thu, or Sat).</li>
-                    </ul>
-                </li>
-            </ul>
-
             <div class="pyq-container">
                 <div class="pyq-header">🔥 Top 5 Recent PYQs - Direction</div>
                 <div class="pyq-item"><span class="tag">[SBI PO 2023]</span> A goes 3km North, turns right and goes 4km. Shortest distance from start?<br>
@@ -563,28 +407,6 @@
                 <li><strong>Generations:</strong> Use a vertical line <code>│</code> with older generations on top.</li>
                 <li><strong>Coded Relations:</strong> (e.g., A $ B % C) Always draw the family tree <em>backwards</em> (from Right to Left) to save time!</li>
             </ul>
-            <h4 style="color:#0984e3; border-bottom:1px solid #74b9ff; padding-bottom:3px; margin-top:20px;">📅 Advanced Calendar Patterns & Tricks</h4>
-            <ul style="background: #eef2f3; padding: 15px 35px; border-radius: 8px; border-left: 5px solid #2980b9;">
-                <li><strong>Year Repetition Trick:</strong> When will the same calendar repeat? Look at the remainder of `(Year ÷ 4)`:
-                    <ul>
-                        <li>If Remainder = <strong>1</strong> → Repeats after <strong>6 years</strong> (e.g., 2017 repeats in 2023)</li>
-                        <li>If Remainder = <strong>2 or 3</strong> → Repeats after <strong>11 years</strong> (e.g., 2018 repeats in 2029)</li>
-                        <li>If Remainder = <strong>0 (Leap Year)</strong> → Repeats after <strong>28 years</strong> (e.g., 2020 repeats in 2048)</li>
-                    </ul>
-                </li>
-                <li><strong>Same Months in a Year:</strong> Months with the same code have identical calendars!
-                    <ul>
-                        <li><em>Normal Year:</em> (Jan & Oct), (Feb, Mar & Nov), (Apr & Jul), (Sep & Dec)</li>
-                        <li><em>Leap Year:</em> (Jan, Apr & Jul), (Feb & Aug), (Mar & Nov), (Sep & Dec)</li>
-                    </ul>
-                </li>
-                <li><strong>Century Day Rules:</strong> 
-                    <ul>
-                        <li>The <strong>Last Day</strong> of a century can <em>only</em> be: Sunday, Monday, Wednesday, or Friday. (It can NEVER be Tue, Thu, or Sat).</li>
-                    </ul>
-                </li>
-            </ul>
-
             <div class="pyq-container">
                 <div class="pyq-header">🔥 Top 5 Recent PYQs - Blood Relations</div>
                 <div class="pyq-item"><span class="tag">[SBI PO 2023]</span> Pointing to a boy, Suresh said, "He is the son of the only son of my mother." How is Suresh related to the boy?<br>
