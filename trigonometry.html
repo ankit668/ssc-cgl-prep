@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSC CGL Trigonometry Formulas</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        :root {
+            --bg-color: #0F172A;
+            --container-bg: #1E293B;
+            --text-color: #E2E8F0;
+            --border-color: #334155;
+            --accent-color: #38BDF8;
+            --table-header-bg: #334155;
+            --table-row-alt: #0F172A;
+            --highlight-color: #F59E0B;
+            --pyq-bg: rgba(56, 189, 248, 0.05);
+        }
+        body { font-family: 'Segoe UI', sans-serif; background-color: var(--bg-color); color: var(--text-color); margin: 0; padding: 20px; line-height: 1.6; }
+        .container { max-width: 1100px; margin: 0 auto; background-color: var(--container-bg); padding: 30px; border-radius: 12px; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5); }
+        h1 { color: #FF4B2B; text-align: center; border-bottom: 2px solid var(--border-color); padding-bottom: 10px; }
+        h2 { color: #FCD34D; margin-top: 30px; border-left: 5px solid var(--accent-color); padding-left: 10px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; margin-bottom: 25px; }
+        th, td { border: 1px solid var(--border-color); padding: 12px; text-align: center; }
+        th { background-color: var(--table-header-bg); color: var(--accent-color); font-weight: bold; }
+        tr:nth-child(even) { background-color: var(--table-row-alt); }
+        .formula-box { background-color: rgba(56, 189, 248, 0.1); border-left: 4px solid var(--accent-color); padding: 15px; margin: 15px 0; border-radius: 4px; }
+        .pyq-section { margin-top: 50px; border-top: 2px dashed #475569; padding-top: 20px; }
+        .pyq-category { font-size: 1.2em; color: #10B981; margin-top: 20px; font-weight: bold; }
+        .pyq-item { background: var(--pyq-bg); padding: 15px; margin: 10px 0; border-radius: 8px; border: 1px solid var(--border-color); }
+        .pyq-q { font-weight: bold; color: #F8FAFC; margin-bottom: 10px; }
+        .pyq-sol { background: rgba(0, 0, 0, 0.2); padding: 10px; border-radius: 4px; color: #94A3B8; font-size: 0.95em; transition: filter 0.3s ease; }
+        
+        /* Interactive Flashcard Blur */
+        .blur-solutions .pyq-sol { filter: blur(6px); cursor: pointer; user-select: none; }
+        .blur-solutions .pyq-sol.revealed { filter: none; cursor: default; }
+        .blur-solutions .pyq-sol:not(.revealed):hover { filter: blur(4px); }
+        
+        #floating-menu { position: fixed; bottom: 20px; right: 20px; background: rgba(15, 23, 42, 0.9); padding: 10px 15px; border-radius: 30px; border: 1px solid var(--accent-color); backdrop-filter: blur(5px); z-index: 1000; box-shadow: 0 4px 6px rgba(0,0,0,0.5); display: flex; gap: 15px; align-items: center; }
+        .floating-btn { background: none; border: none; color: var(--accent-color); cursor: pointer; font-size: 14px; font-weight: bold; display: flex; align-items: center; gap: 5px; }
+        .floating-btn:hover { color: #fff; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📐 SSC CGL Trigonometry Cheat Sheet</h1>
+
+        <h2>1. Basic Ratios & Relationships</h2>
+        <div class="formula-box">
+            <p>For a right-angled triangle with angle \( 	heta \):</p>
+            <ul style="column-count: 2;">
+                <li>\( \sin 	heta = rac{Perpendicular}{Hypotenuse} \)</li>
+                <li>\( \cos 	heta = rac{Base}{Hypotenuse} \)</li>
+                <li>\( 	an 	heta = rac{Perpendicular}{Base} \)</li>
+                <li>\( \csc 	heta = rac{1}{\sin 	heta} \)</li>
+                <li>\( \sec 	heta = rac{1}{\cos 	heta} \)</li>
+                <li>\( \cot 	heta = rac{1}{	an 	heta} \)</li>
+            </ul>
+        </div>
+
+        <h2>2. Standard Values Table</h2>
+        <table>
+            <tr><th>Angle</th><th>0°</th><th>30°</th><th>45°</th><th>60°</th><th>90°</th></tr>
+            <tr><td><b>sin</b></td><td>0</td><td>1/2</td><td>1/√2</td><td>√3/2</td><td>1</td></tr>
+            <tr><td><b>cos</b></td><td>1</td><td>√3/2</td><td>1/√2</td><td>1/2</td><td>0</td></tr>
+            <tr><td><b>tan</b></td><td>0</td><td>1/√3</td><td>1</td><td>√3</td><td>∞ (Undef)</td></tr>
+        </table>
+
+        <h2>3. Fundamental Identities</h2>
+        <div class="formula-box">
+            <ul>
+                <li>\( \sin^2 	heta + \cos^2 	heta = 1 \)</li>
+                <li>\( 1 + 	an^2 	heta = \sec^2 	heta \) &nbsp; \(\Rightarrow \sec^2 	heta - 	an^2 	heta = 1 \)</li>
+                <li>\( 1 + \cot^2 	heta = \csc^2 	heta \) &nbsp; \(\Rightarrow \csc^2 	heta - \cot^2 	heta = 1 \)</li>
+            </ul>
+        </div>
+
+        <h2>4. Advanced SSC Shortcuts (Highly Tested)</h2>
+        <div class="formula-box">
+            <p><b>If \( A + B = 90^\circ \) (Complementary Angles):</b></p>
+            <ul>
+                <li>\( \sin A = \cos B \) &nbsp; and &nbsp; \( \sec A = \csc B \)</li>
+                <li>\( 	an A = \cot B \) &nbsp; \(\Rightarrow 	an A 	imes 	an B = 1 \)</li>
+                <li>\( \sin^2 A + \sin^2 B = 1 \) &nbsp; and &nbsp; \( \cos^2 A + \cos^2 B = 1 \)</li>
+            </ul>
+            <p><b>Golden SSC Multipliers:</b></p>
+            <ul>
+                <li>\( \sin 	heta \cdot \sin(60^\circ-	heta) \cdot \sin(60^\circ+	heta) = rac{1}{4} \sin 3	heta \)</li>
+                <li>\( \cos 	heta \cdot \cos(60^\circ-	heta) \cdot \cos(60^\circ+	heta) = rac{1}{4} \cos 3	heta \)</li>
+                <li>\( 	an 	heta \cdot 	an(60^\circ-	heta) \cdot 	an(60^\circ+	heta) = 	an 3	heta \)</li>
+            </ul>
+        </div>
+
+        <h2>5. Max & Min Values</h2>
+        <table>
+            <tr><th>Expression</th><th>Maximum Value</th><th>Minimum Value</th></tr>
+            <tr><td>\( a \sin 	heta + b \cos 	heta \)</td><td>\( +\sqrt{a^2 + b^2} \)</td><td>\( -\sqrt{a^2 + b^2} \)</td></tr>
+            <tr><td>\( a \sin^2 	heta + b \cos^2 	heta \)</td><td>max(a, b)</td><td>min(a, b)</td></tr>
+            <tr><td>\( \sin^n 	heta \cdot \cos^n 	heta \)</td><td>\( (1/2)^n \)</td><td>\( -(1/2)^n \) (if odd), 0 (if even)</td></tr>
+        </table>
+
+        <!-- PYQs Section -->
+        <div class="pyq-section">
+            <h2 style="color: #FF4B2B;">🎯 SSC CGL Previous Year Questions (PYQs)</h2>
+
+            <div class='pyq-category'>Type 1: Golden Multipliers</div>
+            <div class='pyq-item'>
+                <div class='pyq-q'>Q (CGL 2023): What is the value of \( \cos 20^\circ \cos 40^\circ \cos 80^\circ \)?</div>
+                <div class='pyq-sol'><strong>Solution:</strong> Fits the form \( \cos 	heta \cdot \cos(60-	heta) \cdot \cos(60+	heta) \) where \( 	heta = 20^\circ \). Result = \( rac{1}{4} \cos 3(20^\circ) = rac{1}{4} \cos 60^\circ = rac{1}{4} 	imes rac{1}{2} = rac{1}{8} \).</div>
+            </div>
+
+            <div class='pyq-category'>Type 2: Complementary Angles (\(A+B=90^\circ\))</div>
+            <div class='pyq-item'>
+                <div class='pyq-q'>Q (CGL Tier-2 2022): Evaluate: \( 	an 1^\circ \cdot 	an 2^\circ \cdot 	an 3^\circ \dots 	an 89^\circ \)</div>
+                <div class='pyq-sol'><strong>Solution:</strong> Since \( A + B = 90^\circ \Rightarrow 	an A \cdot 	an B = 1 \). Pairs like \( 	an 1^\circ 	an 89^\circ = 1 \). Only \( 	an 45^\circ \) is left in the middle, which is 1. Answer = 1.</div>
+            </div>
+            <div class='pyq-item'>
+                <div class='pyq-q'>Q (CGL 2021): Find the value of \( \sin^2 10^\circ + \sin^2 20^\circ + \dots + \sin^2 80^\circ + \sin^2 90^\circ \)</div>
+                <div class='pyq-sol'><strong>Solution:</strong> Since \( A + B = 90^\circ \Rightarrow \sin^2 A + \sin^2 B = 1 \). Number of terms from 10 to 80 is 8 terms (4 pairs). So 4 pairs = 4. Plus \( \sin^2 90^\circ = 1 \). Total = 5.</div>
+            </div>
+
+            <div class='pyq-category'>Type 3: Identity Manipulation</div>
+            <div class='pyq-item'>
+                <div class='pyq-q'>Q (CGL 2020): If \( \sec 	heta + 	an 	heta = P \), what is \( \sec 	heta - 	an 	heta \)?</div>
+                <div class='pyq-sol'><strong>Solution:</strong> Using identity \( \sec^2 	heta - 	an^2 	heta = 1 \Rightarrow (\sec 	heta + 	an 	heta)(\sec 	heta - 	an 	heta) = 1 \). Therefore, \( \sec 	heta - 	an 	heta = rac{1}{P} \).</div>
+            </div>
+            <div class='pyq-item'>
+                <div class='pyq-q'>Q (CGL Tier-2): If \( \sec 	heta + 	an 	heta = 5 \), find \( \sin 	heta \).</div>
+                <div class='pyq-sol'><strong>Solution:</strong> \( \sec 	heta - 	an 	heta = rac{1}{5} \). Adding them gives \( 2\sec 	heta = 5 + rac{1}{5} = rac{26}{5} \Rightarrow \sec 	heta = rac{13}{5} \). Hypotenuse = 13, Base = 5. By Pythagoras triplet (5, 12, 13), Perpendicular = 12. Thus \( \sin 	heta = rac{12}{13} \).</div>
+            </div>
+
+            <div class='pyq-category'>Type 4: Max/Min Values</div>
+            <div class='pyq-item'>
+                <div class='pyq-q'>Q (CGL 2019): Find the maximum value of \( 3 \sin 	heta + 4 \cos 	heta \).</div>
+                <div class='pyq-sol'><strong>Solution:</strong> Format is \( a \sin 	heta + b \cos 	heta \). Max value = \( \sqrt{a^2 + b^2} = \sqrt{3^2 + 4^2} = \sqrt{25} = 5 \).</div>
+            </div>
+            <div class='pyq-item'>
+                <div class='pyq-q'>Q (CGL 2023): Find the minimum value of \( 4 	an^2 	heta + 9 \cot^2 	heta \).</div>
+                <div class='pyq-sol'><strong>Solution:</strong> For \( a 	an^2 	heta + b \cot^2 	heta \), the minimum value (using AM-GM inequality) is \( 2\sqrt{ab} = 2\sqrt{4 	imes 9} = 2\sqrt{36} = 12 \).</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Interactive Floating Tools -->
+    <div id="floating-menu">
+        <button class="floating-btn" onclick="toggleSolutions()" id="toggle-sol-btn">
+            🙈 Hide Solutions (Self-Test)
+        </button>
+        <div style="width: 1px; height: 15px; background: #334155;"></div>
+        <button class="floating-btn" onclick="window.scrollTo({top:0, behavior:'smooth'})">
+            ⬆️ Top
+        </button>
+    </div>
+
+    <script>
+        let solutionsHidden = false;
+        function toggleSolutions() {
+            solutionsHidden = !solutionsHidden;
+            const btn = document.getElementById('toggle-sol-btn');
+            
+            if (solutionsHidden) {
+                document.body.classList.add('blur-solutions');
+                btn.innerHTML = '👀 Show All Solutions';
+            } else {
+                document.body.classList.remove('blur-solutions');
+                btn.innerHTML = '🙈 Hide Solutions (Self-Test)';
+                // Reset any individually revealed items
+                document.querySelectorAll('.pyq-sol').forEach(el => el.classList.remove('revealed'));
+            }
+        }
+
+        // Add click listener to reveal individual solutions when blurred
+        document.querySelectorAll('.pyq-sol').forEach(el => {
+            el.addEventListener('click', function() {
+                if (solutionsHidden && !this.classList.contains('revealed')) {
+                    this.classList.add('revealed');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
