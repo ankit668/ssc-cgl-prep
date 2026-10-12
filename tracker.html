@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Parmar SSC Video Tracker | Blitz & MEP</title>
+    <meta name="theme-color" content="#0F172A">
+    <style>
+        :root {
+            --bg-color: #0F172A;
+            --card-bg: #1E293B;
+            --card-alt: #162032;
+            --text-color: #E2E8F0;
+            --text-muted: #94A3B8;
+            --border-color: #334155;
+            --accent-blue: #38BDF8;
+            --accent-green: #10B981;
+            --accent-purple: #A855F7;
+            --accent-amber: #F59E0B;
+            --accent-rose: #F43F5E;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            padding: 16px 12px 80px 12px;
+            line-height: 1.5;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 18px;
+            padding-bottom: 14px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .header h1 {
+            font-size: 1.4rem;
+            color: var(--accent-blue);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            margin-bottom: 4px;
+        }
+
+        .header p {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .btn-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: #2563EB;
+            color: white;
+            text-decoration: none;
+            padding: 7px 14px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .btn-yt {
+            background: #DC2626;
+        }
+
+        /* Overall Progress Card */
+        .progress-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 14px;
+            padding: 16px;
+            margin-bottom: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+
+        .progress-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+
+        .progress-title {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: #F8FAFC;
+        }
+
+        .progress-stat {
+            font-size: 1.1rem;
+            font-weight: 800;
+            color: var(--accent-green);
+        }
+
+        .progress-bar-bg {
+            background: #334155;
+            height: 12px;
+            border-radius: 6px;
+            overflow: hidden;
+            margin-bottom: 12px;
+        }
+
+        .progress-bar-fill {
+            background: linear-gradient(90deg, var(--accent-blue), var(--accent-green));
+            height: 100%;
+            width: 0%;
+            transition: width 0.3s ease;
+            border-radius: 6px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 8px;
+            margin-top: 10px;
+        }
+
+        .stat-box {
+            background: var(--card-alt);
+            padding: 8px 10px;
+            border-radius: 8px;
+            border: 1px solid rgba(255,255,255,0.05);
+            font-size: 0.8rem;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .stat-label {
+            color: var(--text-muted);
+        }
+
+        .stat-val {
+            font-weight: 700;
+            color: #F8FAFC;
+        }
+
+        /* Main Tabs: Blitz vs MEP */
+        .series-tabs {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 14px;
+            background: var(--card-bg);
+            padding: 4px;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+        }
+
+        .series-tab-btn {
+            flex: 1;
+            padding: 10px 6px;
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            font-weight: 700;
+            font-size: 0.85rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-align: center;
+        }
+
+        .series-tab-btn.active {
+            background: var(--accent-blue);
+            color: #0F172A;
+            box-shadow: 0 2px 8px rgba(56, 189, 248, 0.4);
+        }
+
+        /* Subject Filter Pills */
+        .filter-pills {
+            display: flex;
+            gap: 6px;
+            overflow-x: auto;
+            padding-bottom: 8px;
+            margin-bottom: 14px;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .filter-pills::-webkit-scrollbar {
+            display: none;
+        }
+
+        .pill-btn {
+            flex-shrink: 0;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-muted);
+            padding: 6px 12px;
+            border-radius: 16px;
+            font-size: 0.78rem;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .pill-btn.active {
+            background: rgba(56, 189, 248, 0.15);
+            border-color: var(--accent-blue);
+            color: var(--accent-blue);
+        }
+
+        /* Subject Sections */
+        .subject-group {
+            margin-bottom: 18px;
+        }
+
+        .subject-group-title {
+            font-size: 0.95rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 4px 4px;
+        }
+
+        .subject-badge {
+            font-size: 0.72rem;
+            padding: 2px 8px;
+            border-radius: 10px;
+            background: rgba(255,255,255,0.08);
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+
+        /* Checkbox Items */
+        .video-item {
+            display: flex;
+            align-items: center;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 12px;
+            margin-bottom: 8px;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            user-select: none;
+        }
+
+        .video-item:active {
+            transform: scale(0.99);
+        }
+
+        .video-item.checked {
+            background: rgba(16, 185, 129, 0.08);
+            border-color: rgba(16, 185, 129, 0.4);
+        }
+
+        .video-item.checked .video-name {
+            color: var(--text-muted);
+            text-decoration: line-through;
+        }
+
+        .checkbox-box {
+            width: 22px;
+            height: 22px;
+            border-radius: 6px;
+            border: 2px solid #64748B;
+            margin-right: 12px;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--bg-color);
+            transition: all 0.2s;
+        }
+
+        .video-item.checked .checkbox-box {
+            background: var(--accent-green);
+            border-color: var(--accent-green);
+        }
+
+        .checkmark {
+            display: none;
+            color: white;
+            font-size: 14px;
+            font-weight: 800;
+        }
+
+        .video-item.checked .checkmark {
+            display: block;
+        }
+
+        .video-content {
+            flex-grow: 1;
+        }
+
+        .video-name {
+            font-size: 0.88rem;
+            font-weight: 600;
+            color: #F1F5F9;
+            margin-bottom: 2px;
+        }
+
+        .video-meta {
+            font-size: 0.72rem;
+            color: var(--text-muted);
+            display: flex;
+            gap: 8px;
+        }
+
+        /* Floating Actions */
+        .bottom-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(8px);
+            border-top: 1px solid var(--border-color);
+            padding: 10px 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+
+        .bottom-stat {
+            font-size: 0.82rem;
+            font-weight: 700;
+            color: #F8FAFC;
+        }
+
+        .btn-reset {
+            background: rgba(244, 63, 94, 0.15);
+            border: 1px solid var(--accent-rose);
+            color: var(--accent-rose);
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 5px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1><span>📋</span> Parmar Video Inventory</h1>
+        <p>Tap any video card to mark complete. Saves automatically on your phone!</p>
+        <div class="nav-links">
+            <a href="index.html" class="btn-link">🏠 Main App</a>
+            <a href="https://www.youtube.com/@parmarssc/playlists" target="_blank" class="btn-link btn-yt">▶️ Open YouTube</a>
+        </div>
+    </div>
+
+    <!-- Overall Progress -->
+    <div class="progress-card">
+        <div class="progress-header">
+            <span class="progress-title" id="series-progress-title">⚡ Total Progress</span>
+            <span class="progress-stat" id="total-progress-pct">0%</span>
+        </div>
+        <div class="progress-bar-bg">
+            <div class="progress-bar-fill" id="total-progress-bar"></div>
+        </div>
+        <div class="stats-grid">
+            <div class="stat-box">
+                <span class="stat-label">Completed:</span>
+                <span class="stat-val" id="completed-count">0 / 0</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-label">Remaining:</span>
+                <span class="stat-val" id="remaining-count">0</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Series Switcher -->
+    <div class="series-tabs">
+        <button class="series-tab-btn active" id="tab-blitz" onclick="switchSeries('blitz')">
+            ⚡ BLITZ Series (141)
+        </button>
+        <button class="series-tab-btn" id="tab-mep" onclick="switchSeries('mep')">
+            🎯 MEP Series (41)
+        </button>
+    </div>
+
+    <!-- Subject Filter Pills -->
+    <div class="filter-pills" id="subject-pills">
+        <button class="pill-btn active" onclick="filterSubject('all')">All Subjects</button>
+        <button class="pill-btn" onclick="filterSubject('gk')">GK / GS</button>
+        <button class="pill-btn" onclick="filterSubject('maths')">Maths</button>
+        <button class="pill-btn" onclick="filterSubject('reasoning')">Reasoning</button>
+        <button class="pill-btn" onclick="filterSubject('english')">English</button>
+    </div>
+
+    <!-- Video List Container -->
+    <div id="video-list-container"></div>
+
+    <!-- Fixed Bottom Bar -->
+    <div class="bottom-bar">
+        <div class="bottom-stat" id="bottom-status-text">0 Completed</div>
+        <button class="btn-reset" onclick="confirmReset()">Reset All</button>
+    </div>
+
+    <script>
+        // Inventory Data Definition
+        const INVENTORY_DATA = {
+            mep: [
+                {
+                    subject: 'gk',
+                    title: 'GK / GS Expected Papers (Parmar Sir)',
+                    tag: '11 Videos',
+                    color: '#38BDF8',
+                    items: [
+                        { id: 'mep_gk_01', name: 'Expected Paper 01 — Full Length Mock' },
+                        { id: 'mep_gk_02', name: 'Expected Paper 02 — High Yield MCQs' },
+                        { id: 'mep_gk_03', name: 'Expected Paper 03 — PYQ Trend Analysis' },
+                        { id: 'mep_gk_04', name: 'Expected Paper 04 — Modern History & Polity' },
+                        { id: 'mep_gk_05', name: 'Expected Paper 05 — Geography & Science' },
+                        { id: 'mep_gk_06', name: 'Expected Paper 06 — Static GK & Art/Culture' },
+                        { id: 'mep_gk_07', name: 'Expected Paper 07 — Economics & Schemes' },
+                        { id: 'mep_gk_08', name: 'Expected Paper 08 — Current Affairs In-depth' },
+                        { id: 'mep_gk_09', name: 'Expected Paper 09 — Full Simulation' },
+                        { id: 'mep_gk_10', name: 'Expected Paper 10 — Master Revision' },
+                        { id: 'mep_gk_11', name: 'Expected Paper 11 — Final Exam Strategy & Wrap-up' }
+                    ]
+                },
+                {
+                    subject: 'maths',
+                    title: 'Maths Expected Papers (Bhutesh Sir)',
+                    tag: '10 Videos',
+                    color: '#10B981',
+                    items: Array.from({length: 10}, (_, i) => ({
+                        id: `mep_maths_${String(i+1).padStart(2, '0')}`,
+                        name: `Maths Expected Paper ${String(i+1).padStart(2, '0')} — 25 Qs Speed Mock`
+                    }))
+                },
+                {
+                    subject: 'reasoning',
+                    title: 'Reasoning Expected Papers (Kamal Sir)',
+                    tag: '10 Videos',
+                    color: '#A855F7',
+                    items: Array.from({length: 10}, (_, i) => ({
+                        id: `mep_reasoning_${String(i+1).padStart(2, '0')}`,
+                        name: `Reasoning Expected Paper ${String(i+1).padStart(2, '0')} — Speed Drill`
+                    }))
+                },
+                {
+                    subject: 'english',
+                    title: 'English Expected Papers (PSP Sir)',
+                    tag: '10 Videos',
+                    color: '#F59E0B',
+                    items: Array.from({length: 10}, (_, i) => ({
+                        id: `mep_english_${String(i+1).padStart(2, '0')}`,
+                        name: `English Expected Paper ${String(i+1).padStart(2, '0')} — Grammar & Vocab Drill`
+                    }))
+                }
+            ],
+            blitz: [
+                {
+                    subject: 'gk',
+                    title: 'BLITZ | GK / GS (Parmar Sir)',
+                    tag: '16 Videos',
+                    color: '#38BDF8',
+                    items: Array.from({length: 16}, (_, i) => ({
+                        id: `blitz_gk_${String(i+1).padStart(2, '0')}`,
+                        name: `Blitz GK/GS Class ${String(i+1).padStart(2, '0')} — Active Recall`
+                    }))
+                },
+                {
+                    subject: 'english',
+                    title: 'BLITZ | English (PSP Sir)',
+                    tag: '22 Videos',
+                    color: '#F59E0B',
+                    items: Array.from({length: 22}, (_, i) => ({
+                        id: `blitz_english_${String(i+1).padStart(2, '0')}`,
+                        name: `Blitz English Session ${String(i+1).padStart(2, '0')} — Topic & Mock Drill`
+                    }))
+                },
+                {
+                    subject: 'reasoning',
+                    title: 'BLITZ | Reasoning (Kamal Sir)',
+                    tag: '47 Videos',
+                    color: '#A855F7',
+                    items: Array.from({length: 47}, (_, i) => ({
+                        id: `blitz_reasoning_${String(i+1).padStart(2, '0')}`,
+                        name: `Blitz Reasoning Mock ${String(i+1).padStart(2, '0')} — 15-min Test & Solution`
+                    }))
+                },
+                {
+                    subject: 'maths',
+                    title: 'BLITZ | Maths (Bhutesh Sir)',
+                    tag: '56 Videos',
+                    color: '#10B981',
+                    items: Array.from({length: 56}, (_, i) => ({
+                        id: `blitz_maths_${String(i+1).padStart(2, '0')}`,
+                        name: `Blitz Maths Mock ${String(i+1).padStart(2, '0')} — 15-min Speed Round & Analysis`
+                    }))
+                }
+            ]
+        };
+
+        // State
+        const STORAGE_KEY = 'parmar_video_tracker_state_v2';
+        let checkedState = {};
+        let currentSeries = 'blitz';
+        let currentSubjectFilter = 'all';
+
+        // Load saved state from localStorage
+        function loadState() {
+            try {
+                const saved = localStorage.getItem(STORAGE_KEY);
+                if (saved) {
+                    checkedState = JSON.parse(saved);
+                }
+            } catch(e) {
+                checkedState = {};
+            }
+        }
+
+        function saveState() {
+            try {
+                localStorage.setItem(STORAGE_KEY, JSON.stringify(checkedState));
+            } catch(e) {}
+        }
+
+        function toggleItem(id) {
+            checkedState[id] = !checkedState[id];
+            saveState();
+            render();
+        }
+
+        function switchSeries(series) {
+            currentSeries = series;
+            document.getElementById('tab-blitz').classList.toggle('active', series === 'blitz');
+            document.getElementById('tab-mep').classList.toggle('active', series === 'mep');
+            render();
+        }
+
+        function filterSubject(sub) {
+            currentSubjectFilter = sub;
+            document.querySelectorAll('#subject-pills .pill-btn').forEach(btn => {
+                const text = btn.innerText.toLowerCase();
+                if (sub === 'all' && text.includes('all')) btn.classList.add('active');
+                else if (sub === 'gk' && text.includes('gk')) btn.classList.add('active');
+                else if (sub === 'maths' && text.includes('maths')) btn.classList.add('active');
+                else if (sub === 'reasoning' && text.includes('reasoning')) btn.classList.add('active');
+                else if (sub === 'english' && text.includes('english')) btn.classList.add('active');
+                else btn.classList.remove('active');
+            });
+            render();
+        }
+
+        function confirmReset() {
+            if (confirm("Are you sure you want to reset all checked videos for BOTH Blitz and MEP?")) {
+                checkedState = {};
+                saveState();
+                render();
+            }
+        }
+
+        function render() {
+            const container = document.getElementById('video-list-container');
+            container.innerHTML = '';
+
+            const groups = INVENTORY_DATA[currentSeries] || [];
+            let totalInSeries = 0;
+            let completedInSeries = 0;
+
+            // Calculate overall series totals
+            groups.forEach(g => {
+                g.items.forEach(it => {
+                    totalInSeries++;
+                    if (checkedState[it.id]) completedInSeries++;
+                });
+            });
+
+            // Update Progress Card
+            const pct = totalInSeries > 0 ? Math.round((completedInSeries / totalInSeries) * 100) : 0;
+            document.getElementById('series-progress-title').innerText = currentSeries === 'blitz' ? '⚡ Blitz Series Progress' : '🎯 MEP Series Progress';
+            document.getElementById('total-progress-pct').innerText = `${pct}%`;
+            document.getElementById('total-progress-bar').style.width = `${pct}%`;
+            document.getElementById('completed-count').innerText = `${completedInSeries} / ${totalInSeries}`;
+            document.getElementById('remaining-count').innerText = `${totalInSeries - completedInSeries}`;
+            document.getElementById('bottom-status-text').innerText = `${completedInSeries} of ${totalInSeries} Completed (${pct}%)`;
+
+            // Filter groups
+            const filteredGroups = groups.filter(g => currentSubjectFilter === 'all' || g.subject === currentSubjectFilter);
+
+            filteredGroups.forEach(group => {
+                const groupDiv = document.createElement('div');
+                groupDiv.className = 'subject-group';
+
+                const groupCompleted = group.items.filter(it => checkedState[it.id]).length;
+                const groupPct = Math.round((groupCompleted / group.items.length) * 100);
+
+                const titleDiv = document.createElement('div');
+                titleDiv.className = 'subject-group-title';
+                titleDiv.innerHTML = `
+                    <span style="color: ${group.color}; display: flex; align-items: center; gap: 6px;">
+                        ${group.title}
+                    </span>
+                    <span class="subject-badge">${groupCompleted}/${group.items.length} (${groupPct}%)</span>
+                `;
+                groupDiv.appendChild(titleDiv);
+
+                group.items.forEach(item => {
+                    const isChecked = !!checkedState[item.id];
+                    const itemEl = document.createElement('div');
+                    itemEl.className = `video-item ${isChecked ? 'checked' : ''}`;
+                    itemEl.onclick = () => toggleItem(item.id);
+                    itemEl.innerHTML = `
+                        <div class="checkbox-box">
+                            <span class="checkmark">✓</span>
+                        </div>
+                        <div class="video-content">
+                            <div class="video-name">${item.name}</div>
+                            <div class="video-meta">
+                                <span>${group.tag}</span>
+                                <span>•</span>
+                                <span style="color:${isChecked ? 'var(--accent-green)' : 'var(--text-muted)'}; font-weight:600;">
+                                    ${isChecked ? 'Completed' : 'Tap to mark done'}
+                                </span>
+                            </div>
+                        </div>
+                    `;
+                    groupDiv.appendChild(itemEl);
+                });
+
+                container.appendChild(groupDiv);
+            });
+        }
+
+        // Initialize
+        loadState();
+        render();
+    </script>
+</body>
+</html>
