@@ -389,10 +389,13 @@
     <!-- Series Switcher -->
     <div class="series-tabs">
         <button class="series-tab-btn active" id="tab-blitz" onclick="switchSeries('blitz')">
-            ⚡ BLITZ Series (141)
+            ⚡ BLITZ (141)
         </button>
         <button class="series-tab-btn" id="tab-mep" onclick="switchSeries('mep')">
-            🎯 MEP Series (41)
+            🎯 MEP (41)
+        </button>
+        <button class="series-tab-btn" id="tab-ca" onclick="switchSeries('ca')">
+            📰 Current Affairs (18)
         </button>
     </div>
 
@@ -510,6 +513,43 @@
                     }))
                 }
             ]
+,
+            ca: [
+                {
+                    subject: 'ca_monthly',
+                    title: '🗓️ Monthly CA One-Shots (Parmar Sir)',
+                    tag: '10 Marathon Sessions',
+                    color: '#38BDF8',
+                    items: [
+                        { id: 'ca_month_01', name: 'January 2026 — Complete Monthly Revision One-Shot' },
+                        { id: 'ca_month_02', name: 'February 2026 — Complete Monthly Revision One-Shot' },
+                        { id: 'ca_month_03', name: 'March 2026 — Complete Monthly Revision One-Shot' },
+                        { id: 'ca_month_04', name: 'April 2026 — Complete Monthly Revision One-Shot' },
+                        { id: 'ca_month_05', name: 'May 2026 — Complete Monthly Revision One-Shot' },
+                        { id: 'ca_month_06', name: 'June 2026 — Complete Monthly Revision One-Shot' },
+                        { id: 'ca_month_07', name: 'July 2026 — Complete Monthly Revision One-Shot' },
+                        { id: 'ca_month_08', name: 'August 2026 — Complete Monthly Revision One-Shot' },
+                        { id: 'ca_month_09', name: 'September 2026 — Complete Monthly Revision One-Shot (Latest)' },
+                        { id: 'ca_month_10', name: 'Jan–June 2026 — 6-Month Master Marathon Compilation' }
+                    ]
+                },
+                {
+                    subject: 'ca_shots',
+                    title: '🎯 Topic-Wise CA Hotshots (High Exam Weightage)',
+                    tag: '8 Topic Specials',
+                    color: '#F59E0B',
+                    items: [
+                        { id: 'ca_topic_01', name: 'Sports & Paris Olympics 2024 / Medals / Grand Slams' },
+                        { id: 'ca_topic_02', name: 'National & International Awards, Honors & Nobel Prizes' },
+                        { id: 'ca_topic_03', name: 'Central & State Government Schemes & Portals' },
+                        { id: 'ca_topic_04', name: 'Global Summits & International Organizations (G20, BRICS, SCO)' },
+                        { id: 'ca_topic_05', name: 'Constitutional Appointments, Chiefs & Committees' },
+                        { id: 'ca_topic_06', name: 'Defense Exercises, Missiles & Military Operations' },
+                        { id: 'ca_topic_07', name: 'Science & Technology, ISRO Missions & Space Missions' },
+                        { id: 'ca_topic_08', name: 'Global Indices, India Rankings & Major Reports' }
+                    ]
+                }
+            ]
         };
 
         // State
@@ -546,6 +586,14 @@
             currentSeries = series;
             document.getElementById('tab-blitz').classList.toggle('active', series === 'blitz');
             document.getElementById('tab-mep').classList.toggle('active', series === 'mep');
+            document.getElementById('tab-ca').classList.toggle('active', series === 'ca');
+            const pills = document.getElementById('subject-pills');
+            if (pills) {
+                pills.style.display = (series === 'ca') ? 'none' : 'flex';
+            }
+            if (series === 'ca') {
+                currentSubjectFilter = 'all';
+            }
             render();
         }
 
@@ -589,7 +637,7 @@
 
             // Update Progress Card
             const pct = totalInSeries > 0 ? Math.round((completedInSeries / totalInSeries) * 100) : 0;
-            document.getElementById('series-progress-title').innerText = currentSeries === 'blitz' ? '⚡ Blitz Series Progress' : '🎯 MEP Series Progress';
+            document.getElementById('series-progress-title').innerText = currentSeries === 'blitz' ? '⚡ Blitz Series Progress' : (currentSeries === 'mep' ? '🎯 MEP Series Progress' : '📰 Current Affairs Progress');
             document.getElementById('total-progress-pct').innerText = `${pct}%`;
             document.getElementById('total-progress-bar').style.width = `${pct}%`;
             document.getElementById('completed-count').innerText = `${completedInSeries} / ${totalInSeries}`;
