@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSC CGL 2026 | Parmar Video Tracker (Printable)</title>
+    <style>
+        @page {
+            size: A4 portrait;
+            margin: 10mm 12mm 10mm 12mm;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #fff;
+            color: #000;
+            font-size: 11px;
+            line-height: 1.25;
+            padding: 12px;
+        }
+
+        /* Print Controls (Hidden when printing) */
+        .no-print-bar {
+            background: #1E293B;
+            color: #F8FAFC;
+            padding: 12px 18px;
+            border-radius: 8px;
+            margin-bottom: 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+
+        .btn-print {
+            background: #2563EB;
+            color: white;
+            border: none;
+            padding: 8px 18px;
+            font-size: 14px;
+            font-weight: 700;
+            border-radius: 6px;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .btn-back {
+            background: #475569;
+            color: white;
+            text-decoration: none;
+            padding: 8px 14px;
+            font-size: 13px;
+            border-radius: 6px;
+            font-weight: 600;
+        }
+
+        /* Printable Header */
+        .sheet-header {
+            text-align: center;
+            border-bottom: 2px solid #000;
+            padding-bottom: 6px;
+            margin-bottom: 10px;
+        }
+
+        .sheet-title {
+            font-size: 16px;
+            font-weight: 900;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        .sheet-subtitle {
+            font-size: 10.5px;
+            font-weight: 600;
+            color: #333;
+            margin-top: 2px;
+        }
+
+        .target-bar {
+            display: flex;
+            justify-content: space-between;
+            border: 1px solid #444;
+            padding: 4px 8px;
+            margin-top: 6px;
+            font-size: 10px;
+            background: #f8f8f8;
+            font-weight: 600;
+        }
+
+        /* Section Styling */
+        .section-heading {
+            background: #000;
+            color: #fff;
+            padding: 3px 6px;
+            font-size: 11px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-top: 10px;
+            margin-bottom: 6px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .section-heading span.badge {
+            background: #fff;
+            color: #000;
+            padding: 0 6px;
+            border-radius: 3px;
+            font-size: 10px;
+        }
+
+        /* Grid Layouts */
+        .four-col-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 6px;
+        }
+
+        .two-col-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 8px;
+        }
+
+        .sub-box {
+            border: 1px solid #777;
+            border-radius: 4px;
+            overflow: hidden;
+            background: #fff;
+        }
+
+        .sub-header {
+            background: #e2e8f0;
+            font-weight: 800;
+            font-size: 10.5px;
+            padding: 3px 6px;
+            border-bottom: 1px solid #777;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .check-list {
+            padding: 4px 6px;
+        }
+
+        .check-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            padding: 2px 0;
+            border-bottom: 1px dotted #e5e5e5;
+            font-size: 9.5px;
+        }
+
+        .check-item:last-child {
+            border-bottom: none;
+        }
+
+        .box-sq {
+            width: 11px;
+            height: 11px;
+            border: 1.2px solid #000;
+            display: inline-block;
+            flex-shrink: 0;
+        }
+
+        .item-text {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        /* Compact Number Grid for High-Volume Sections */
+        .num-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 3px;
+            padding: 5px 4px;
+        }
+
+        .num-item {
+            display: flex;
+            align-items: center;
+            gap: 3px;
+            font-size: 9px;
+            font-weight: 600;
+            padding: 2px 1px;
+            border: 1px solid #ddd;
+            border-radius: 2px;
+            justify-content: center;
+        }
+
+        .num-item .box-sq {
+            width: 9px;
+            height: 9px;
+            border: 1px solid #000;
+        }
+
+        /* Page break styling */
+        .page-break {
+            page-break-before: always;
+        }
+
+        .quote-footer {
+            margin-top: 10px;
+            border-top: 1px dashed #666;
+            padding-top: 4px;
+            text-align: center;
+            font-size: 9.5px;
+            font-style: italic;
+            color: #333;
+        }
+
+        @media print {
+            .no-print-bar {
+                display: none !important;
+            }
+            body {
+                padding: 0;
+            }
+            .sub-header {
+                background: #eee !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            .section-heading {
+                background: #000 !important;
+                color: #fff !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- On-screen Print Trigger -->
+    <div class="no-print-bar">
+        <div>
+            <h3 style="margin-bottom: 2px;">🖨️ Study Table Print Sheet</h3>
+            <p style="font-size: 12px; opacity: 0.85;">Designed to fit crisp and sharp on paper. Tap Print or Save as PDF!</p>
+        </div>
+        <div style="display: flex; gap: 8px;">
+            <a href="tracker.html" class="btn-back">📱 Mobile View</a>
+            <button class="btn-print" onclick="window.print()">🖨️ Print / Save PDF</button>
+        </div>
+    </div>
+
+    <!-- SHEET 1: MEP SERIES & BLITZ GK/ENGLISH -->
+    <div class="sheet-header">
+        <div class="sheet-title">🎯 SSC CGL TIER-1 — VIDEO REVISION TRACKER</div>
+        <div class="sheet-subtitle">PARMAR SSC | MOST EXPECTED PAPERS (MEP) & BLITZ SERIES INVENTORY</div>
+        <div class="target-bar">
+            <span>Aspirant: _______________</span>
+            <span>Target: SSC CGL 2026 Tier-1 (Oct 2026)</span>
+            <span>Daily Goal: ___ Videos / Day</span>
+            <span>Completion Target: ___ / ___ / 2026</span>
+        </div>
+    </div>
+
+    <!-- ==================== SECTION 1: MEP ==================== -->
+    <div class="section-heading">
+        <span>1. MEP Series — Most Expected Papers (Top Priority Revision)</span>
+        <span class="badge">41 Videos Total</span>
+    </div>
+
+    <div class="four-col-grid">
+        <!-- MEP GK -->
+        <div class="sub-box">
+            <div class="sub-header">
+                <span>GK/GS (Parmar Sir)</span>
+                <span>11 Vids</span>
+            </div>
+            <div class="check-list">
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">Paper 01 (Mock 1)</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">Paper 02 (MCQ Drill)</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">Paper 03 (PYQ Trends)</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">Paper 04 (Polity/Hist)</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">Paper 05 (Geo/Sci)</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">Paper 06 (Art/Culture)</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">Paper 07 (Econ/Govt)</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">Paper 08 (Current Aff)</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">Paper 09 (Simulate)</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">Paper 10 (Master Rev)</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">Paper 11 (Strategy)</span></div>
+            </div>
+        </div>
+
+        <!-- MEP MATHS -->
+        <div class="sub-box">
+            <div class="sub-header">
+                <span>Maths (Bhutesh Sir)</span>
+                <span>10 Vids</span>
+            </div>
+            <div class="check-list">
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">Maths Paper 01</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">Maths Paper 02</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">Maths Paper 03</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">Maths Paper 04</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">Maths Paper 05</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">Maths Paper 06</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">Maths Paper 07</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">Maths Paper 08</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">Maths Paper 09</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">Maths Paper 10</span></div>
+            </div>
+        </div>
+
+        <!-- MEP REASONING -->
+        <div class="sub-box">
+            <div class="sub-header">
+                <span>Reasoning (Kamal Sir)</span>
+                <span>10 Vids</span>
+            </div>
+            <div class="check-list">
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">Reasoning Paper 01</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">Reasoning Paper 02</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">Reasoning Paper 03</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">Reasoning Paper 04</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">Reasoning Paper 05</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">Reasoning Paper 06</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">Reasoning Paper 07</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">Reasoning Paper 08</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">Reasoning Paper 09</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">Reasoning Paper 10</span></div>
+            </div>
+        </div>
+
+        <!-- MEP ENGLISH -->
+        <div class="sub-box">
+            <div class="sub-header">
+                <span>English (PSP Sir)</span>
+                <span>10 Vids</span>
+            </div>
+            <div class="check-list">
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">English Paper 01</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">English Paper 02</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">English Paper 03</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">English Paper 04</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">English Paper 05</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">English Paper 06</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">English Paper 07</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">English Paper 08</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">English Paper 09</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">English Paper 10</span></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== SECTION 2: BLITZ GK & ENGLISH ==================== -->
+    <div class="section-heading" style="margin-top: 14px;">
+        <span>2. BLITZ Series — GK/GS (Active Recall) & English Revision</span>
+        <span class="badge">38 Videos</span>
+    </div>
+
+    <div class="two-col-grid">
+        <!-- BLITZ GK -->
+        <div class="sub-box">
+            <div class="sub-header">
+                <span>⚡ GK/GS BLITZ (Parmar Sir) — 16 Classes</span>
+                <span>Tick when done</span>
+            </div>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4px; padding: 4px 6px;">
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">GK Class 01</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">GK Class 09</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">GK Class 02</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">GK Class 10</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">GK Class 03</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">GK Class 11</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">GK Class 04</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">GK Class 12</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">GK Class 05</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">GK Class 13</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">GK Class 06</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">GK Class 14</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">GK Class 07</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">GK Class 15</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">GK Class 08</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">GK Class 16</span></div>
+            </div>
+        </div>
+
+        <!-- BLITZ ENGLISH -->
+        <div class="sub-box">
+            <div class="sub-header">
+                <span>⚡ ENGLISH BLITZ (PSP Sir) — 22 Sessions</span>
+                <span>Tick when done</span>
+            </div>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4px; padding: 4px 6px;">
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">English 01</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">English 12</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">English 02</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">English 13</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">English 03</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">English 14</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">English 04</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">English 15</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">English 05</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">English 16</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">English 06</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">English 17</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">English 07</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">English 18</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">English 08</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">English 19</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">English 09</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">English 20</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">English 10</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">English 21</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">English 11</span></div>
+                <div class="check-item"><span class="box-sq"></span><span class="item-text">English 22</span></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== SECTION 3: BLITZ REASONING & MATHS (COMPACT GRID) ==================== -->
+    <div class="section-heading" style="margin-top: 14px;">
+        <span>3. BLITZ Speed Mocks — Reasoning (47) & Maths (56) (15-min Sectional Mocks)</span>
+        <span class="badge">103 Videos</span>
+    </div>
+
+    <div class="two-col-grid">
+        <!-- BLITZ REASONING -->
+        <div class="sub-box">
+            <div class="sub-header">
+                <span>⚡ Reasoning Mocks (Kamal Sir) — 47 Mocks</span>
+                <span>47 Vids</span>
+            </div>
+            <div class="num-grid">
+                <div class="num-item"><span class="box-sq"></span>M01</div>
+                <div class="num-item"><span class="box-sq"></span>M02</div>
+                <div class="num-item"><span class="box-sq"></span>M03</div>
+                <div class="num-item"><span class="box-sq"></span>M04</div>
+                <div class="num-item"><span class="box-sq"></span>M05</div>
+                <div class="num-item"><span class="box-sq"></span>M06</div>
+                <div class="num-item"><span class="box-sq"></span>M07</div>
+                <div class="num-item"><span class="box-sq"></span>M08</div>
+                <div class="num-item"><span class="box-sq"></span>M09</div>
+                <div class="num-item"><span class="box-sq"></span>M10</div>
+                <div class="num-item"><span class="box-sq"></span>M11</div>
+                <div class="num-item"><span class="box-sq"></span>M12</div>
+                <div class="num-item"><span class="box-sq"></span>M13</div>
+                <div class="num-item"><span class="box-sq"></span>M14</div>
+                <div class="num-item"><span class="box-sq"></span>M15</div>
+                <div class="num-item"><span class="box-sq"></span>M16</div>
+                <div class="num-item"><span class="box-sq"></span>M17</div>
+                <div class="num-item"><span class="box-sq"></span>M18</div>
+                <div class="num-item"><span class="box-sq"></span>M19</div>
+                <div class="num-item"><span class="box-sq"></span>M20</div>
+                <div class="num-item"><span class="box-sq"></span>M21</div>
+                <div class="num-item"><span class="box-sq"></span>M22</div>
+                <div class="num-item"><span class="box-sq"></span>M23</div>
+                <div class="num-item"><span class="box-sq"></span>M24</div>
+                <div class="num-item"><span class="box-sq"></span>M25</div>
+                <div class="num-item"><span class="box-sq"></span>M26</div>
+                <div class="num-item"><span class="box-sq"></span>M27</div>
+                <div class="num-item"><span class="box-sq"></span>M28</div>
+                <div class="num-item"><span class="box-sq"></span>M29</div>
+                <div class="num-item"><span class="box-sq"></span>M30</div>
+                <div class="num-item"><span class="box-sq"></span>M31</div>
+                <div class="num-item"><span class="box-sq"></span>M32</div>
+                <div class="num-item"><span class="box-sq"></span>M33</div>
+                <div class="num-item"><span class="box-sq"></span>M34</div>
+                <div class="num-item"><span class="box-sq"></span>M35</div>
+                <div class="num-item"><span class="box-sq"></span>M36</div>
+                <div class="num-item"><span class="box-sq"></span>M37</div>
+                <div class="num-item"><span class="box-sq"></span>M38</div>
+                <div class="num-item"><span class="box-sq"></span>M39</div>
+                <div class="num-item"><span class="box-sq"></span>M40</div>
+                <div class="num-item"><span class="box-sq"></span>M41</div>
+                <div class="num-item"><span class="box-sq"></span>M42</div>
+                <div class="num-item"><span class="box-sq"></span>M43</div>
+                <div class="num-item"><span class="box-sq"></span>M44</div>
+                <div class="num-item"><span class="box-sq"></span>M45</div>
+                <div class="num-item"><span class="box-sq"></span>M46</div>
+                <div class="num-item"><span class="box-sq"></span>M47</div>
+            </div>
+        </div>
+
+        <!-- BLITZ MATHS -->
+        <div class="sub-box">
+            <div class="sub-header">
+                <span>⚡ Maths Mocks (Bhutesh Sir) — 56 Mocks</span>
+                <span>56 Vids</span>
+            </div>
+            <div class="num-grid">
+                <div class="num-item"><span class="box-sq"></span>M01</div>
+                <div class="num-item"><span class="box-sq"></span>M02</div>
+                <div class="num-item"><span class="box-sq"></span>M03</div>
+                <div class="num-item"><span class="box-sq"></span>M04</div>
+                <div class="num-item"><span class="box-sq"></span>M05</div>
+                <div class="num-item"><span class="box-sq"></span>M06</div>
+                <div class="num-item"><span class="box-sq"></span>M07</div>
+                <div class="num-item"><span class="box-sq"></span>M08</div>
+                <div class="num-item"><span class="box-sq"></span>M09</div>
+                <div class="num-item"><span class="box-sq"></span>M10</div>
+                <div class="num-item"><span class="box-sq"></span>M11</div>
+                <div class="num-item"><span class="box-sq"></span>M12</div>
+                <div class="num-item"><span class="box-sq"></span>M13</div>
+                <div class="num-item"><span class="box-sq"></span>M14</div>
+                <div class="num-item"><span class="box-sq"></span>M15</div>
+                <div class="num-item"><span class="box-sq"></span>M16</div>
+                <div class="num-item"><span class="box-sq"></span>M17</div>
+                <div class="num-item"><span class="box-sq"></span>M18</div>
+                <div class="num-item"><span class="box-sq"></span>M19</div>
+                <div class="num-item"><span class="box-sq"></span>M20</div>
+                <div class="num-item"><span class="box-sq"></span>M21</div>
+                <div class="num-item"><span class="box-sq"></span>M22</div>
+                <div class="num-item"><span class="box-sq"></span>M23</div>
+                <div class="num-item"><span class="box-sq"></span>M24</div>
+                <div class="num-item"><span class="box-sq"></span>M25</div>
+                <div class="num-item"><span class="box-sq"></span>M26</div>
+                <div class="num-item"><span class="box-sq"></span>M27</div>
+                <div class="num-item"><span class="box-sq"></span>M28</div>
+                <div class="num-item"><span class="box-sq"></span>M29</div>
+                <div class="num-item"><span class="box-sq"></span>M30</div>
+                <div class="num-item"><span class="box-sq"></span>M31</div>
+                <div class="num-item"><span class="box-sq"></span>M32</div>
+                <div class="num-item"><span class="box-sq"></span>M33</div>
+                <div class="num-item"><span class="box-sq"></span>M34</div>
+                <div class="num-item"><span class="box-sq"></span>M35</div>
+                <div class="num-item"><span class="box-sq"></span>M36</div>
+                <div class="num-item"><span class="box-sq"></span>M37</div>
+                <div class="num-item"><span class="box-sq"></span>M38</div>
+                <div class="num-item"><span class="box-sq"></span>M39</div>
+                <div class="num-item"><span class="box-sq"></span>M40</div>
+                <div class="num-item"><span class="box-sq"></span>M41</div>
+                <div class="num-item"><span class="box-sq"></span>M42</div>
+                <div class="num-item"><span class="box-sq"></span>M43</div>
+                <div class="num-item"><span class="box-sq"></span>M44</div>
+                <div class="num-item"><span class="box-sq"></span>M45</div>
+                <div class="num-item"><span class="box-sq"></span>M46</div>
+                <div class="num-item"><span class="box-sq"></span>M47</div>
+                <div class="num-item"><span class="box-sq"></span>M48</div>
+                <div class="num-item"><span class="box-sq"></span>M49</div>
+                <div class="num-item"><span class="box-sq"></span>M50</div>
+                <div class="num-item"><span class="box-sq"></span>M51</div>
+                <div class="num-item"><span class="box-sq"></span>M52</div>
+                <div class="num-item"><span class="box-sq"></span>M53</div>
+                <div class="num-item"><span class="box-sq"></span>M54</div>
+                <div class="num-item"><span class="box-sq"></span>M55</div>
+                <div class="num-item"><span class="box-sq"></span>M56</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="quote-footer">
+        🔥 "Success in SSC CGL isn't about watching videos passively — it's about active practice, speed analysis, and consistent revision." Paste this on your table and tick off every milestone!
+    </div>
+
+</body>
+</html>
