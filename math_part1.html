@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>SSC CGL 2026 Math Part-1 | 54 Questions & Shortcuts</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        :root {
+            --bg-color: #0F172A;
+            --container-bg: #1E293B;
+            --card-bg: #162032;
+            --text-color: #E2E8F0;
+            --text-muted: #94A3B8;
+            --border-color: #334155;
+            --accent-blue: #38BDF8;
+            --accent-green: #10B981;
+            --accent-amber: #F59E0B;
+            --accent-purple: #A855F7;
+            --accent-rose: #F43F5E;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            padding: 16px 12px 90px 12px;
+            line-height: 1.5;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .header h1 {
+            font-size: 1.45rem;
+            color: #F8FAFC;
+            margin-bottom: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .header p {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 12px;
+            flex-wrap: wrap;
+        }
+
+        .btn-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: #2563EB;
+            color: white;
+            text-decoration: none;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        /* Search & Filters */
+        .search-box {
+            margin-bottom: 14px;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 10px 16px;
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            color: var(--text-color);
+            font-size: 0.9rem;
+            outline: none;
+        }
+
+        .search-input:focus {
+            border-color: var(--accent-blue);
+        }
+
+        .filter-pills {
+            display: flex;
+            gap: 8px;
+            overflow-x: auto;
+            padding-bottom: 8px;
+            margin-bottom: 16px;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .filter-pills::-webkit-scrollbar {
+            display: none;
+        }
+
+        .pill-btn {
+            flex-shrink: 0;
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-muted);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .pill-btn.active {
+            background: rgba(56, 189, 248, 0.15);
+            border-color: var(--accent-blue);
+            color: var(--accent-blue);
+        }
+
+        /* Question Cards */
+        .q-card {
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 18px 16px;
+            margin-bottom: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+            transition: all 0.2s ease;
+        }
+
+        .q-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .q-num {
+            font-size: 0.82rem;
+            font-weight: 800;
+            color: var(--accent-blue);
+            background: rgba(56, 189, 248, 0.12);
+            padding: 3px 10px;
+            border-radius: 12px;
+        }
+
+        .q-topic {
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 2px 8px;
+            border-radius: 8px;
+            background: rgba(255,255,255,0.06);
+            color: var(--text-muted);
+        }
+
+        .q-text {
+            font-size: 0.98rem;
+            font-weight: 600;
+            color: #F8FAFC;
+            margin-bottom: 14px;
+            line-height: 1.6;
+        }
+
+        .options-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 8px;
+            margin-bottom: 14px;
+        }
+
+        @media (min-width: 600px) {
+            .options-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .opt-btn {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 10px 14px;
+            text-align: left;
+            color: var(--text-color);
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            user-select: none;
+        }
+
+        .opt-btn:hover {
+            border-color: #64748B;
+        }
+
+        .opt-btn.correct {
+            background: rgba(16, 185, 129, 0.15) !important;
+            border-color: var(--accent-green) !important;
+            color: #34D399 !important;
+            font-weight: 700;
+        }
+
+        .opt-btn.wrong {
+            background: rgba(244, 63, 94, 0.15) !important;
+            border-color: var(--accent-rose) !important;
+            color: #FB7185 !important;
+        }
+
+        .solution-box {
+            background: rgba(15, 23, 42, 0.7);
+            border-left: 3px solid var(--accent-blue);
+            border-radius: 6px;
+            padding: 12px 14px;
+            margin-top: 10px;
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+
+        .shortcut-box {
+            background: rgba(245, 158, 11, 0.08);
+            border-left: 3px solid var(--accent-amber);
+            border-radius: 6px;
+            padding: 10px 14px;
+            margin-top: 8px;
+            font-size: 0.88rem;
+            line-height: 1.5;
+            color: #FDE68A;
+        }
+
+        .box-title {
+            font-size: 0.8rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .box-title.blue { color: var(--accent-blue); }
+        .box-title.amber { color: var(--accent-amber); }
+
+        .hidden {
+            display: none !important;
+        }
+
+        /* Floating Menu */
+        #floating-menu {
+            position: fixed;
+            bottom: 16px;
+            right: 16px;
+            background: rgba(15, 23, 42, 0.95);
+            padding: 8px 14px;
+            border-radius: 30px;
+            border: 1px solid var(--border-color);
+            backdrop-filter: blur(8px);
+            z-index: 1000;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .floating-btn {
+            background: none;
+            border: none;
+            color: var(--accent-blue);
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1><span>📐</span> SSC CGL 2026 Math Part-1</h1>
+            <p>54 High-Yield Questions • Step-by-Step Solutions • SSC Exam-Hall Shortcuts</p>
+            <div class="nav-links">
+                <a href="index.html" class="btn-link">🏠 Main Dashboard</a>
+                <a href="trigonometry.html" class="btn-link" style="background:#10B981;">🎯 Trigonometry Sheet</a>
+                <a href="mensuration.html" class="btn-link" style="background:#8B5CF6;">📄 Mensuration Sheet</a>
+                <a href="tracker.html" class="btn-link" style="background:#F59E0B;">📋 Video Tracker</a>
+            </div>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="search-box">
+            <input type="text" id="search-input" class="search-input" placeholder="Search questions, topics or shortcuts... (e.g., trapezium, alligation, ladder, triplet)">
+        </div>
+
+        <!-- Subject / Topic Filters -->
+        <div class="filter-pills" id="topic-pills">
+            <button class="pill-btn active" onclick="filterTopic('All')">All (54)</button>
+            <button class="pill-btn" onclick="filterTopic('Trigonometry')">Trigonometry (12)</button>
+            <button class="pill-btn" onclick="filterTopic('Algebra')">Algebra (10)</button>
+            <button class="pill-btn" onclick="filterTopic('Geometry')">Geometry (14)</button>
+            <button class="pill-btn" onclick="filterTopic('Mensuration')">Mensuration (6)</button>
+            <button class="pill-btn" onclick="filterTopic('Arithmetic')">Arithmetic (11)</button>
+            <button class="pill-btn" onclick="filterTopic('Number System')">Number System (1)</button>
+        </div>
+
+        <!-- Questions List Container -->
+        <div id="questions-container">
+            <!-- Populated via JavaScript -->
+        </div>
+    </div>
+
+    <!-- Floating Actions -->
+    <div id="floating-menu">
+        <button class="floating-btn" id="toggle-all-btn" onclick="toggleAllSolutions()">
+            🙈 Hide Solutions
+        </button>
+        <div style="width: 1px; height: 14px; background: #334155;"></div>
+        <button class="floating-btn" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+            ⬆️ Top
+        </button>
+    </div>
+
+    <script>
+        const QUESTIONS_DATA = [{"id": 1, "topic": "Trigonometry", "question": "If \\(\\sin A = \\frac{3}{4}\\) for an acute angle \\(A\\), find the value of \\(4(\\csc A - \\cot A)\\).", "options": ["(A) \\(\\frac{16 - 4\\sqrt{7}}{3}\\)", "(B) \\(\\frac{16 + 4\\sqrt{7}}{3}\\)", "(C) \\(\\frac{4 - \\sqrt{7}}{3}\\)", "(D) \\(-\\frac{4}{3}\\)"], "correct": 0, "ans_letter": "A", "solution": "In right \\(\\triangle\\), \\(P = 3, H = 4 \\implies B = \\sqrt{4^2 - 3^2} = \\sqrt{7}\\).<br>\\(\\csc A = \\frac{4}{3}, \\cot A = \\frac{\\sqrt{7}}{3}\\).<br>$$4(\\csc A - \\cot A) = 4\\left(\\frac{4 - \\sqrt{7}}{3}\\right) = \\mathbf{\\frac{16 - 4\\sqrt{7}}{3}}$$", "shortcut": "Identity: \\(\\csc A - \\cot A = \\frac{H - B}{P} = \\frac{4 - \\sqrt{7}}{3}\\). Multiplying by 4 gives \\(\\mathbf{\\frac{16 - 4\\sqrt{7}}{3}}\\)."}, {"id": 2, "topic": "Algebra", "question": "If \\(x^2 + \\frac{1}{x^2} = 23\\), find the value of \\(\\frac{4x}{5x^2 - 3x + 5}\\) for \\(x > 0\\).", "options": ["(A) \\(\\frac{2}{11}\\)", "(B) \\(\\frac{1}{7}\\)", "(C) \\(\\frac{4}{11}\\)", "(D) \\(\\frac{4}{23}\\)"], "correct": 0, "ans_letter": "A", "solution": "\\(\\left(x + \\frac{1}{x}\\right)^2 = x^2 + \\frac{1}{x^2} + 2 = 23 + 2 = 25 \\implies x + \\frac{1}{x} = 5\\).<br>Divide numerator and denominator by \\(x\\):<br>$$\\frac{4}{5\\left(x + \\frac{1}{x}\\right) - 3} = \\frac{4}{5(5) - 3} = \\frac{4}{22} = \\mathbf{\\frac{2}{11}}$$", "shortcut": "Shortcut: Divide by \\(x\\) to get \\(\\frac{4}{5k - 3}\\). Since \\(k = \\sqrt{23+2} = 5\\), answer = \\(\\frac{4}{25 - 3} = \\mathbf{\\frac{2}{11}}\\)."}, {"id": 3, "topic": "Algebra", "question": "If \\((a - b)^2 = 16\\) and \\(2ab = 48\\), find the value of \\(a + b\\).", "options": ["(A) \\(4\\sqrt{7}\\)", "(B) \\(\\pm 8\\)", "(C) \\(\\pm 4\\sqrt{7}\\)", "(D) \\(\\pm 4\\sqrt{10}\\)"], "correct": 2, "ans_letter": "C", "solution": "\\((a + b)^2 = (a - b)^2 + 4ab = 16 + 2(2ab) = 16 + 2(48) = 112\\).<br>$$a + b = \\pm\\sqrt{112} = \\pm\\sqrt{16 \\times 7} = \\mathbf{\\pm 4\\sqrt{7}}$$", "shortcut": "Always remember \\(\\pm\\) when taking square roots: \\(\\sqrt{16 + 96} = \\sqrt{112} = \\mathbf{\\pm 4\\sqrt{7}}\\)."}, {"id": 4, "topic": "Trigonometry", "question": "If \\(\\tan A = \\frac{4}{3}\\) and \\(\\sec A = \\frac{5}{3}\\) for an acute angle \\(A\\), find the value of \\(\\csc A + \\cos A\\).", "options": ["(A) \\(\\frac{13}{20}\\)", "(B) \\(\\frac{37}{20}\\)", "(C) \\(\\frac{41}{20}\\)", "(D) \\(\\frac{7}{5}\\)"], "correct": 1, "ans_letter": "B", "solution": "Triplet \\((3, 4, 5)\\) gives \\(P = 4, B = 3, H = 5\\).<br>\\(\\csc A = \\frac{5}{4}, \\cos A = \\frac{3}{5}\\).<br>$$\\csc A + \\cos A = \\frac{5}{4} + \\frac{3}{5} = \\frac{25 + 12}{20} = \\mathbf{\\frac{37}{20}}$$", "shortcut": "3-4-5 right triangle: \\(\\frac{5}{4} + \\frac{3}{5} = \\mathbf{\\frac{37}{20}}\\)."}, {"id": 5, "topic": "Arithmetic", "question": "A person travels a total distance of 300 km in 6 hours, partly by train at an average speed of 55 km/h and partly by bus at an average speed of 30 km/h. Find the distance travelled by train.", "options": ["(A) 240 km", "(B) 36 km", "(C) 264 km", "(D) 66 km"], "correct": 2, "ans_letter": "C", "solution": "Overall average speed = \\(\\frac{300}{6} = 50\\text{ km/h}\\).<br>By Alligation on Speed (weights = time):<br>Train (55) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bus (30)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\\(50\\)<br>\\((50-30)=20\\) : \\((55-50)=5 \\implies 4 : 1\\).<br>Time by train = \\(\\frac{4}{5} \\times 6 = 4.8\\text{ h}\\).<br>Distance = \\(55 \\times 4.8 = \\mathbf{264\\text{ km}}\\).", "shortcut": "Divisibility by 11: Train speed 55 is a multiple of 11, so train distance must be a multiple of 11. Only (C) 264 and (D) 66 qualify, and 66 is too small for a 6h trip. Instantly choose \\(\\mathbf{264\\text{ km}}\\)!"}, {"id": 6, "topic": "Mensuration", "question": "The lengths of the parallel sides of a trapezium are 25 cm and 10 cm, and the lengths of its non-parallel sides are 13 cm and 14 cm. Find the area of the trapezium.", "options": ["(A) 227.5 cm²", "(B) 245 cm²", "(C) 168 cm²", "(D) 196 cm²"], "correct": 3, "ans_letter": "D", "solution": "Shift non-parallel side 13 to form a triangle of sides 13, 14, and base \\((25 - 10) = 15\\).<br>\\(s = \\frac{13+14+15}{2} = 21 \\implies \\text{Area of Triangle} = \\sqrt{21 \\times 8 \\times 7 \\times 6} = 84\\text{ cm}^2\\).<br>\\(\\frac{1}{2} \\times 15 \\times h = 84 \\implies h = \\frac{56}{5}\\text{ cm}\\).<br>\\(\\text{Area of Trapezium} = \\frac{1}{2}(25 + 10) \\times \\frac{56}{5} = \\mathbf{196\\text{ cm}^2}\\).", "shortcut": "SSC Ratio Formula: \\(\\text{Area} = \\text{Area of Triangle} \\times \\frac{a+b}{a-b} = 84 \\times \\frac{35}{15} = 84 \\times \\frac{7}{3} = \\mathbf{196\\text{ cm}^2}\\). No need to find \\(h\\)!"}, {"id": 7, "topic": "Arithmetic", "question": "A and B are partners in a business. A receives 15% of the total profit for managing the business, and the remaining profit is distributed between A and B in the ratio 2 : 3. If the difference between their total profit shares is ₹1,200, find the total profit.", "options": ["(A) ₹6,000", "(B) ₹60,000", "(C) ₹30,000", "(D) ₹40,000"], "correct": 1, "ans_letter": "B", "solution": "Let Total Profit = 100%. A gets 15% management fee. Remaining 85% split 2 : 3 (5 parts).<br>A gets \\(15\\% + \\frac{2}{5}(85\\%) = 15\\% + 34\\% = 49\\%\\).<br>B gets \\(\\frac{3}{5}(85\\%) = 51\\%\\).<br>Difference = \\(51\\% - 49\\% = 2\\% = ₹1,200 \\implies 100\\% = \\mathbf{₹60,000}\\).", "shortcut": "Net advantage for B: \\(\\frac{3-2}{5} \\times 85\\% - 15\\% = 17\\% - 15\\% = 2\\%\\). \\(2\\% = 1,200 \\implies 100\\% = \\mathbf{₹60,000}\\)."}, {"id": 8, "topic": "Arithmetic", "question": "A shopkeeper allows a discount of 20% on the marked price of an article and still makes a profit of 20%. If the actual profit earned is ₹120, find the marked price of the article.", "options": ["(A) ₹720", "(B) ₹864", "(C) ₹900", "(D) ₹600"], "correct": 2, "ans_letter": "C", "solution": "Profit = \\(20\\%\\) of CP = ₹120 \\(\\implies \\text{CP} = ₹600\\).<br>\\(\\text{SP} = 600 + 120 = ₹720\\).<br>\\(0.80 \\times \\text{MP} = 720 \\implies \\text{MP} = \\frac{720}{0.80} = \\mathbf{₹900}\\).", "shortcut": "\\(\\frac{\\text{MP}}{\\text{CP}} = \\frac{100+P\\%}{100-D\\%} = \\frac{120}{80} = \\frac{3}{2}\\). Since \\(20\\%\\) of CP = 120 \\(\\implies \\text{CP} = 600\\) (2 parts). MP (3 parts) = \\(3 \\times 300 = \\mathbf{₹900}\\)."}, {"id": 9, "topic": "Trigonometry", "question": "If \\(\\tan A = \\frac{3}{4}\\), where \\(A\\) is an acute angle, find the value of \\(\\csc A - \\cot A\\).", "options": ["(A) \\(\\frac{1}{3}\\)", "(B) \\(\\frac{11}{12}\\)", "(C) \\(\\frac{2}{3}\\)", "(D) \\(\\frac{1}{12}\\)"], "correct": 0, "ans_letter": "A", "solution": "Triplet \\((3, 4, 5)\\) gives \\(P = 3, B = 4, H = 5\\).<br>\\(\\csc A - \\cot A = \\frac{5}{3} - \\frac{4}{3} = \\mathbf{\\frac{1}{3}}\\).", "shortcut": "\\(\\csc A - \\cot A = \\frac{H - B}{P} = \\frac{5 - 4}{3} = \\mathbf{\\frac{1}{3}}\\)."}, {"id": 10, "topic": "Trigonometry", "question": "If \\(\\cot A = \\frac{5}{12}\\), where \\(A\\) is an acute angle, find the value of \\(\\csc A - \\cot A\\).", "options": ["(A) \\(\\frac{1}{5}\\)", "(B) \\(\\frac{8}{13}\\)", "(C) \\(\\frac{2}{3}\\)", "(D) \\(\\frac{1}{3}\\)"], "correct": 2, "ans_letter": "C", "solution": "Triplet \\((5, 12, 13)\\) gives \\(B = 5, P = 12, H = 13\\).<br>\\(\\csc A - \\cot A = \\frac{13}{12} - \\frac{5}{12} = \\frac{8}{12} = \\mathbf{\\frac{2}{3}}\\).", "shortcut": "\\(\\csc A - \\cot A = \\frac{H - B}{P} = \\frac{13 - 5}{12} = \\frac{8}{12} = \\mathbf{\\frac{2}{3}}\\)."}, {"id": 11, "topic": "Number System", "question": "What is the smallest positive integer by which \\(2 \\times 3^2 \\times 5^2 \\times 7\\) must be multiplied so that the product becomes a perfect square?", "options": ["(A) 14", "(B) 7", "(C) 2", "(D) 28"], "correct": 0, "ans_letter": "A", "solution": "For a number to be a perfect square, all prime exponents must be even.<br>In \\(2^1 \\times 3^2 \\times 5^2 \\times 7^1\\), the odd powers are \\(2^1\\) and \\(7^1\\).<br>Multiplying by \\(2 \\times 7 = \\mathbf{14}\\) makes all exponents even.", "shortcut": "Identify prime factors with odd powers: \\(2^1\\) and \\(7^1\\). Required multiplier = \\(2 \\times 7 = \\mathbf{14}\\)."}, {"id": 12, "topic": "Algebra", "question": "If \\(a + b = 19\\) and \\(ab = 90\\), find the value of \\((a - b)^2\\).", "options": ["(A) 181", "(B) 271", "(C) 721", "(D) 1"], "correct": 3, "ans_letter": "D", "solution": "\\((a - b)^2 = (a + b)^2 - 4ab = 19^2 - 4(90) = 361 - 360 = \\mathbf{1}\\).", "shortcut": "Notice numbers directly: \\(9 \\times 10 = 90\\) and \\(9 + 10 = 19\\). Thus \\(a = 10, b = 9 \\implies (10 - 9)^2 = \\mathbf{1}\\)!"}, {"id": 13, "topic": "Trigonometry", "question": "If \\(\\sec\\theta + \\tan\\theta = 5\\), find the value of \\(\\sin\\theta\\).", "options": ["(A) \\(\\frac{5}{13}\\)", "(B) \\(\\frac{12}{13}\\)", "(C) \\(\\frac{12}{5}\\)", "(D) \\(\\frac{13}{12}\\)"], "correct": 1, "ans_letter": "B", "solution": "Since \\(\\sec^2\\theta - \\tan^2\\theta = 1\\), \\(\\sec\\theta - \\tan\\theta = \\frac{1}{5} = 0.2\\).<br>Adding: \\(2\\sec\\theta = 5.2 \\implies \\sec\\theta = \\frac{13}{5}\\).<br>Triplet \\((5, 12, 13)\\) gives \\(H = 13, B = 5, P = 12 \\implies \\sin\\theta = \\mathbf{\\frac{12}{13}}\\).", "shortcut": "Golden shortcut: If \\(\\sec\\theta + \\tan\\theta = k\\), then \\(\\sin\\theta = \\frac{k^2 - 1}{k^2 + 1} = \\frac{25 - 1}{25 + 1} = \\frac{24}{26} = \\mathbf{\\frac{12}{13}}\\). Solve in 3 seconds!"}, {"id": 14, "topic": "Trigonometry", "question": "If \\(\\sec\\theta + \\tan\\theta = 5\\), find the value of \\(\\cos\\theta\\).", "options": ["(A) \\(\\frac{12}{13}\\)", "(B) \\(\\frac{13}{5}\\)", "(C) \\(\\frac{5}{13}\\)", "(D) \\(\\frac{5}{12}\\)"], "correct": 2, "ans_letter": "C", "solution": "\\(\\sec\\theta = \\frac{k^2 + 1}{2k} = \\frac{26}{10} = \\frac{13}{5} \\implies \\cos\\theta = \\frac{1}{\\sec\\theta} = \\mathbf{\\frac{5}{13}}\\).", "shortcut": "Golden shortcut: If \\(\\sec\\theta + \\tan\\theta = k\\), then \\(\\cos\\theta = \\frac{2k}{k^2 + 1} = \\frac{2(5)}{25 + 1} = \\frac{10}{26} = \\mathbf{\\frac{5}{13}}\\)."}, {"id": 15, "topic": "Algebra", "question": "If \\(x + \\frac{1}{x} = \\sqrt{17}\\) and \\(x > 1\\), find the value of \\(\\frac{x^4 - 1}{x^2}\\).", "options": ["(A) \\(\\sqrt{357}\\)", "(B) \\(\\sqrt{13}\\)", "(C) 15", "(D) \\(\\sqrt{221}\\)"], "correct": 3, "ans_letter": "D", "solution": "\\(\\frac{x^4 - 1}{x^2} = x^2 - \\frac{1}{x^2} = \\left(x + \\frac{1}{x}\\right)\\left(x - \\frac{1}{x}\\right)\\).<br>\\(\\left(x - \\frac{1}{x}\\right)^2 = \\left(x + \\frac{1}{x}\\right)^2 - 4 = 17 - 4 = 13 \\implies x - \\frac{1}{x} = \\sqrt{13}\\).<br>$$\\left(x^2 - \\frac{1}{x^2}\\right) = \\sqrt{17} \\times \\sqrt{13} = \\mathbf{\\sqrt{221}}$$", "shortcut": "\\(x^2 - 1/x^2 = k \\times \\sqrt{k^2 - 4} = \\sqrt{17} \\times \\sqrt{17 - 4} = \\sqrt{17 \\times 13} = \\mathbf{\\sqrt{221}}\\)."}, {"id": 16, "topic": "Algebra", "question": "If \\(x + \\frac{1}{x} = 6\\), find the value of \\(\\left(x^4 + \\frac{1}{x^4}\\right) + \\left(x^2 + \\frac{1}{x^2}\\right)\\).", "options": ["(A) 1188", "(B) 1154", "(C) 1190", "(D) 1156"], "correct": 0, "ans_letter": "A", "solution": "\\(x^2 + \\frac{1}{x^2} = 6^2 - 2 = 34\\).<br>\\(x^4 + \\frac{1}{x^4} = 34^2 - 2 = 1156 - 2 = 1154\\).<br>$$\\text{Total} = 1154 + 34 = \\mathbf{1188}$$", "shortcut": "Unit digit check: \\(x^2 + 1/x^2\\) ends in 4 (\\(6^2 - 2 = 34\\)). Its square ends in 6, minus 2 ends in 4. Sum ends in \\(4 + 4 = 8\\). Among options, only 1188 ends in 8!"}, {"id": 17, "topic": "Algebra", "question": "If \\(x + \\frac{1}{x} = 12\\), find the value of \\(\\left(x^4 + \\frac{1}{x^4}\\right) + \\left(x^2 + \\frac{1}{x^2}\\right)\\).", "options": ["(A) 20,162", "(B) 20,304", "(C) 20,306", "(D) 20,446"], "correct": 1, "ans_letter": "B", "solution": "\\(x^2 + \\frac{1}{x^2} = 12^2 - 2 = 142\\).<br>\\(x^4 + \\frac{1}{x^4} = 142^2 - 2 = 20164 - 2 = 20162\\).<br>$$\\text{Total} = 20162 + 142 = \\mathbf{20,304}$$", "shortcut": "Unit digit check: \\(12^2 - 2 = 142\\) (ends in 2). \\(2^2 - 2 = 2\\) (ends in 2). Sum ends in \\(2 + 2 = 4\\). Only 20,304 ends in 4!"}, {"id": 18, "topic": "Algebra", "question": "If \\(x = \\sqrt{\\frac{2 + \\sqrt{3}}{2 - \\sqrt{3}}}\\), find the value of \\(x^2 + x - 9\\).", "options": ["(A) \\(-5\\sqrt{3}\\)", "(B) \\(9 + 5\\sqrt{3}\\)", "(C) \\(7 + 4\\sqrt{3}\\)", "(D) \\(5\\sqrt{3}\\)"], "correct": 3, "ans_letter": "D", "solution": "Rationalizing inside: \\(\\frac{(2 + \\sqrt{3})^2}{4 - 3} = (2 + \\sqrt{3})^2 \\implies x = 2 + \\sqrt{3}\\).<br>\\(x - 2 = \\sqrt{3} \\implies x^2 - 4x + 1 = 0 \\implies x^2 = 4x - 1\\).<br>$$x^2 + x - 9 = (4x - 1) + x - 9 = 5x - 10 = 5(x - 2) = 5\\sqrt{3}$$", "shortcut": "Since \\(x = 2 + \\sqrt{3}\\), \\(x - 2 = \\sqrt{3}\\). Notice \\(x^2 + x - 9 = (x^2 - 4x + 1) + 5x - 10 = 0 + 5(x - 2) = \\mathbf{5\\sqrt{3}}\\)."}, {"id": 19, "topic": "Geometry", "question": "The perimeter of a regular hexagon is equal to the perimeter of a square. If the area of the square is 144 cm², find the area of the hexagon.", "options": ["(A) \\(96\\sqrt{3}\\text{ cm}^2\\)", "(B) \\(16\\sqrt{3}\\text{ cm}^2\\)", "(C) \\(216\\sqrt{3}\\text{ cm}^2\\)", "(D) \\(192\\sqrt{3}\\text{ cm}^2\\)"], "correct": 0, "ans_letter": "A", "solution": "Side of square \\(s = \\sqrt{144} = 12\\text{ cm} \\implies \\text{Perimeter} = 4 \\times 12 = 48\\text{ cm}\\).<br>Perimeter of hexagon = \\(6a = 48 \\implies a = 8\\text{ cm}\\).<br>$$\\text{Area of Hexagon} = 6 \\times \\frac{\\sqrt{3}}{4} a^2 = 6 \\times \\frac{\\sqrt{3}}{4} \\times 64 = 6 \\times 16\\sqrt{3} = \\mathbf{96\\sqrt{3}\\text{ cm}^2}$$", "shortcut": "Area of regular hexagon = \\(\\frac{3\\sqrt{3}}{2} a^2\\). With \\(a = 8\\), \\(\\frac{3\\sqrt{3}}{2} \\times 64 = \\mathbf{96\\sqrt{3}}\\)."}, {"id": 20, "topic": "Geometry", "question": "In a circle, chord AB subtends an angle \\(\\angle ACB = 114^\\circ\\) at a point C on the minor arc. Tangents drawn from an external point P touch the circle at A and B. Find the measure of \\(\\angle APB\\).", "options": ["(A) \\(66^\\circ\\)", "(B) \\(48^\\circ\\)", "(C) \\(132^\\circ\\)", "(D) \\(57^\\circ\\)"], "correct": 1, "ans_letter": "B", "solution": "Angle on major arc = \\(180^\\circ - 114^\\circ = 66^\\circ\\) (cyclic quadrilateral).<br>Central angle \\(\\angle AOB = 2 \\times 66^\\circ = 132^\\circ\\).<br>In cyclic-tangent quadrilateral \\(PAOB\\), \\(\\angle APB = 180^\\circ - 132^\\circ = \\mathbf{48^\\circ}\\).", "shortcut": "Golden SSC Shortcut: For angle \\(\\theta\\) on the MINOR arc, \\(\\angle P = 2(\\theta - 90^\\circ)\\).<br>\\(\\angle APB = 2(114^\\circ - 90^\\circ) = 2 \\times 24^\\circ = \\mathbf{48^\\circ}\\). Zero drawing needed!"}, {"id": 21, "topic": "Geometry", "question": "In a circle, chord AB subtends an angle \\(\\angle APB = 112^\\circ\\) at a point P on the minor arc. Tangents drawn from an external point T touch the circle at A and B. Find the measure of \\(\\angle ATB\\).", "options": ["(A) \\(68^\\circ\\)", "(B) \\(44^\\circ\\)", "(C) \\(136^\\circ\\)", "(D) \\(56^\\circ\\)"], "correct": 1, "ans_letter": "B", "solution": "Angle on major arc = \\(180^\\circ - 112^\\circ = 68^\\circ \\implies \\angle AOB = 2 \\times 68^\\circ = 136^\\circ\\).<br>\\(\\angle ATB = 180^\\circ - 136^\\circ = \\mathbf{44^\\circ}\\).", "shortcut": "Shortcut: \\(\\angle ATB = 2(\\text{minor angle} - 90^\\circ) = 2(112^\\circ - 90^\\circ) = 2 \\times 22^\\circ = \\mathbf{44^\\circ}\\)."}, {"id": 22, "topic": "Mensuration", "question": "The base area of a right prism is 24 cm² and its height is 10 cm. Find the volume of the prism.", "options": ["(A) \\(80\\text{ cm}^3\\)", "(B) \\(120\\text{ cm}^3\\)", "(C) \\(480\\text{ cm}^3\\)", "(D) \\(240\\text{ cm}^3\\)"], "correct": 3, "ans_letter": "D", "solution": "\\(\\text{Volume of Prism} = \\text{Base Area} \\times \\text{Height} = 24 \\times 10 = \\mathbf{240\\text{ cm}^3}\\).", "shortcut": "Prism volume is always \\(\\text{Base Area} \\times h\\). \\(24 \\times 10 = \\mathbf{240}\\)."}, {"id": 23, "topic": "Mensuration", "question": "The height of a cone is 7 cm and its slant height is 25 cm. Find its curved surface area (CSA).", "options": ["(A) \\(600\\pi\\text{ cm}^2\\)", "(B) \\(175\\pi\\text{ cm}^2\\)", "(C) \\(168\\pi\\text{ cm}^2\\)", "(D) \\(1,200\\pi\\text{ cm}^2\\)"], "correct": 0, "ans_letter": "A", "solution": "Pythagorean triplet \\((7, 24, 25)\\) gives radius \\(r = \\sqrt{25^2 - 7^2} = 24\\text{ cm}\\).<br>$$\\text{CSA} = \\pi r l = \\pi \\times 24 \\times 25 = \\mathbf{600\\pi\\text{ cm}^2}$$", "shortcut": "Recognize triplet (7, 24, 25) instantly \\(\\implies r = 24\\). \\(\\text{CSA} = \\pi \\times 24 \\times 25 = \\mathbf{600\\pi}\\)."}, {"id": 24, "topic": "Mensuration", "question": "The radius of a cylinder is 5 cm and its height is 8 cm. Find its total surface area (TSA).", "options": ["(A) \\(130\\pi\\text{ cm}^2\\)", "(B) \\(80\\pi\\text{ cm}^2\\)", "(C) \\(65\\pi\\text{ cm}^2\\)", "(D) \\(200\\pi\\text{ cm}^2\\)"], "correct": 0, "ans_letter": "A", "solution": "\\(\\text{TSA} = 2\\pi r(h + r) = 2\\pi(5)(8 + 5) = 10\\pi \\times 13 = \\mathbf{130\\pi\\text{ cm}^2}\\).", "shortcut": "\\(\\text{TSA} = 2\\pi r(h + r) = 10\\pi \\times 13 = \\mathbf{130\\pi}\\)."}, {"id": 25, "topic": "Geometry", "question": "Two circles have radii of 12 cm and 8 cm, and the distance between their centres is 25 cm. Find the length of their transverse common tangent.", "options": ["(A) \\(\\sqrt{609}\\text{ cm}\\)", "(B) 20 cm", "(C) 15 cm", "(D) \\(\\sqrt{1025}\\text{ cm}\\)"], "correct": 2, "ans_letter": "C", "solution": "Transverse Common Tangent (TCT) formula:<br>\\(\\text{TCT} = \\sqrt{d^2 - (r_1 + r_2)^2} = \\sqrt{25^2 - (12 + 8)^2} = \\sqrt{625 - 400} = \\sqrt{225} = \\mathbf{15\\text{ cm}}\\).", "shortcut": "Pythagorean triplet check: \\(d = 25\\), \\((r_1 + r_2) = 20\\). Since \\((15, 20, 25)\\) is a 3-4-5 scaled triplet, tangent length is instantly \\(\\mathbf{15\\text{ cm}}\\)."}, {"id": 26, "topic": "Geometry", "question": "Two circles have radii of 14 cm and 6 cm, and the distance between their centres is 25 cm. Find the length of their transverse common tangent.", "options": ["(A) \\(\\sqrt{561}\\text{ cm}\\)", "(B) 20 cm", "(C) \\(\\sqrt{1025}\\text{ cm}\\)", "(D) 15 cm"], "correct": 3, "ans_letter": "D", "solution": "\\(\\text{TCT} = \\sqrt{d^2 - (r_1 + r_2)^2} = \\sqrt{25^2 - (14 + 6)^2} = \\sqrt{625 - 400} = \\mathbf{15\\text{ cm}}\\).", "shortcut": "Sum of radii = \\(14 + 6 = 20\\). Triplet with hypotenuse 25 and side 20 is \\(\\mathbf{15\\text{ cm}}\\)."}, {"id": 27, "topic": "Trigonometry", "question": "A ladder of length 10 m leans against a wall, making an angle of 30° with the ground. Find the distance of the foot of the ladder from the wall.", "options": ["(A) 5 m", "(B) \\(5\\sqrt{3}\\text{ m}\\)", "(C) \\(\\frac{10\\sqrt{3}}{3}\\text{ m}\\)", "(D) \\(5\\sqrt{2}\\text{ m}\\)"], "correct": 1, "ans_letter": "B", "solution": "\\(\\text{Base} = \\text{Hypotenuse} \\times \\cos 30^\\circ = 10 \\times \\frac{\\sqrt{3}}{2} = \\mathbf{5\\sqrt{3}\\text{ m}}\\).", "shortcut": "In a \\(30^\\circ-60^\\circ-90^\\circ\\) triangle, sides are in ratio \\(1 : \\sqrt{3} : 2\\). Since \\(2 \\text{ units} = 10\\text{ m}\\), base (adjacent to \\(30^\\circ\\)) is \\(\\sqrt{3} \\text{ units} = \\mathbf{5\\sqrt{3}\\text{ m}}\\)."}, {"id": 28, "topic": "Trigonometry", "question": "A ladder makes an angle of 45° with the ground. If the distance of its foot from the wall is 7 m, find the length of the ladder.", "options": ["(A) 7 m", "(B) 14 m", "(C) \\(7\\sqrt{2}\\text{ m}\\)", "(D) \\(\\frac{7}{\\sqrt{2}}\\text{ m}\\)"], "correct": 2, "ans_letter": "C", "solution": "\\(\\text{Ladder length } (H) = \\frac{\\text{Base}}{\\cos 45^\\circ} = \\frac{7}{1/\\sqrt{2}} = \\mathbf{7\\sqrt{2}\\text{ m}}\\).", "shortcut": "In a \\(45^\\circ-45^\\circ-90^\\circ\\) triangle, sides are \\(1 : 1 : \\sqrt{2}\\). Length of ladder = \\(\\text{Base} \\times \\sqrt{2} = \\mathbf{7\\sqrt{2}\\text{ m}}\\)."}, {"id": 29, "topic": "Trigonometry", "question": "A ladder of length 14 m makes an angle of 45° with a wall. Find the distance of the foot of the ladder from the wall.", "options": ["(A) \\(7\\sqrt{2}\\text{ m}\\)", "(B) 7 m", "(C) 14 m", "(D) \\(14\\sqrt{2}\\text{ m}\\)"], "correct": 0, "ans_letter": "A", "solution": "Angle with wall = \\(45^\\circ \\implies\\) angle with ground = \\(45^\\circ\\).<br>\\(\\text{Foot distance} = 14 \\times \\sin 45^\\circ = \\frac{14}{\\sqrt{2}} = \\mathbf{7\\sqrt{2}\\text{ m}}\\).", "shortcut": "At \\(45^\\circ\\), horizontal distance = \\(\\frac{\\text{Hypotenuse}}{\\sqrt{2}} = \\frac{14}{\\sqrt{2}} = \\mathbf{7\\sqrt{2}\\text{ m}}\\)."}, {"id": 30, "topic": "Arithmetic", "question": "The ratio of the incomes of two persons is 7 : 9 and the ratio of their expenditures is 5 : 7. If each saves ₹5,600, find the income of the first person.", "options": ["(A) ₹19,600", "(B) ₹14,000", "(C) ₹25,200", "(D) ₹11,200"], "correct": 0, "ans_letter": "A", "solution": "Income ratio: \\(7 : 9\\)<br>Expenditure ratio: \\(5 : 7\\)<br>Difference in ratio parts: \\(7 - 5 = 2\\) and \\(9 - 7 = 2\\).<br>Both save 2 parts: \\(2 \\text{ parts} = ₹5,600 \\implies 1 \\text{ part} = ₹2,800\\).<br>Income of first person = \\(7 \\times 2800 = \\mathbf{₹19,600}\\).", "shortcut": "Equal difference in ratio terms: \\(7 - 5 = 2\\). \\(2 \\text{ units} = 5,600 \\implies 1 \\text{ unit} = 2,800\\). First person's income = \\(7 \\times 2,800 = \\mathbf{₹19,600}\\)."}, {"id": 31, "topic": "Geometry", "question": "The semi-perimeter of a triangle is 24. If two of its sides are 18 and 16, find the length of the third side.", "options": ["(A) 6", "(B) 8", "(C) 10", "(D) 14"], "correct": 3, "ans_letter": "D", "solution": "Semi-perimeter \\(s = 24 \\implies \\text{Perimeter} = 2 \\times 24 = 48\\).<br>\\(\\text{Third side} = 48 - (18 + 16) = 48 - 34 = \\mathbf{14}\\).", "shortcut": "\\(\\text{Third side} = 2s - (a + b) = 48 - 34 = \\mathbf{14}\\)."}, {"id": 32, "topic": "Arithmetic", "question": "A sum of ₹2,500 amounts to ₹2,916 in 2 years at compound interest. Find the rate of interest compounded annually.", "options": ["(A) 8.32%", "(B) 8%", "(C) 16.64%", "(D) 4%"], "correct": 1, "ans_letter": "B", "solution": "\\(\\frac{A}{P} = \\frac{2916}{2500} = \\left(1 + \\frac{r}{100}\\right)^2\\).<br>Taking square root on both sides: \\(\\sqrt{\\frac{2916}{2500}} = \\frac{54}{50} = \\frac{27}{25}\\).<br>\\(1 + \\frac{r}{100} = 1 + \\frac{2}{25} \\implies r = \\frac{2}{25} \\times 100 = \\mathbf{8\\%}\\).", "shortcut": "Ratio method: \\(\\sqrt{2500} : \\sqrt{2916} \\implies 50 : 54 \\implies 25 : 27\\). Interest = \\(\\frac{2}{25} = \\mathbf{8\\%}\\)."}, {"id": 33, "topic": "Trigonometry", "question": "If \\(\\cos^2\\theta = \\sin\\theta\\), find the value of \\(\\sqrt{\\cos^4\\theta + \\cos^2\\theta}\\).", "options": ["(A) 1", "(B) \\(\\sqrt{2}\\)", "(C) 2", "(D) 1/2"], "correct": 0, "ans_letter": "A", "solution": "Given \\(\\cos^2\\theta = \\sin\\theta \\implies \\cos^4\\theta = \\sin^2\\theta\\).<br>$$\\sqrt{\\cos^4\\theta + \\cos^2\\theta} = \\sqrt{\\sin^2\\theta + \\cos^2\\theta} = \\sqrt{1} = \\mathbf{1}$$", "shortcut": "Direct substitution: Replace \\(\\cos^4\\theta\\) with \\(\\sin^2\\theta\\). \\(\\sqrt{\\sin^2\\theta + \\cos^2\\theta} = \\sqrt{1} = \\mathbf{1}\\). Done in 2 seconds!"}, {"id": 34, "topic": "Arithmetic", "question": "A shopkeeper purchases 25 kg of rice at ₹240 per kg and 15 kg of rice at ₹300 per kg. He mixes the two varieties thoroughly. At what rate (in ₹ per kg) should he sell the mixture to make a profit of 10%?", "options": ["(A) ₹262.50", "(B) ₹288.75", "(C) ₹297", "(D) ₹291.67"], "correct": 1, "ans_letter": "B", "solution": "Quantity ratio = \\(25 : 15 = 5 : 3\\) (Total = 8 parts).<br>\\(\\text{Cost Price of Mixture} = \\frac{5(240) + 3(300)}{8} = \\frac{1200 + 900}{8} = \\frac{2100}{8} = ₹262.50\\text{/kg}\\).<br>\\(\\text{Selling Price for 10% Profit} = 262.50 \\times 1.10 = \\mathbf{₹288.75\\text{/kg}}\\).", "shortcut": "Deviation Method: Assume baseline = 240. Extra on 3 parts = \\(3 \\times 60 = 180\\). Spread over 8 parts = \\(180 / 8 = 22.5\\). CP = \\(240 + 22.5 = 262.50\\). SP = \\(262.50 + 26.25 = \\mathbf{₹288.75}\\)."}, {"id": 35, "topic": "Arithmetic", "question": "A merchant purchases 25 kg of sugar at ₹240 per kg and 15 kg of sugar at ₹300 per kg. He mixes the two varieties and sells the mixture at an overall profit of 30%. What is the selling price of the mixture per kg?", "options": ["(A) ₹351", "(B) ₹375", "(C) ₹341.25", "(D) ₹262.50"], "correct": 2, "ans_letter": "C", "solution": "CP of mixture = \\(₹262.50\\text{/kg}\\) (same as Q34).<br>\\(\\text{Selling Price for 30% Profit} = 262.50 \\times 1.30 = \\mathbf{₹341.25\\text{/kg}}\\).", "shortcut": "\\(262.50 \\times 1.3 = 262.50 + 78.75 = \\mathbf{₹341.25}\\)."}, {"id": 36, "topic": "Arithmetic", "question": "An article is sold at an initial profit of 30%. If the cost price increases by 15% and the selling price increases by 10%, what is the new profit percentage?", "options": ["(A) 28%", "(B) 24.35%", "(C) 25%", "(D) 13%"], "correct": 1, "ans_letter": "B", "solution": "Let initial \\(\\text{CP}_1 = 100 \\implies \\text{SP}_1 = 130\\).<br>New \\(\\text{CP}_2 = 100 \\times 1.15 = 115\\).<br>New \\(\\text{SP}_2 = 130 \\times 1.10 = 143\\).<br>\\(\\text{New Profit} = 143 - 115 = 28\\).<br>\\(\\text{New Profit \\%} = \\frac{28}{115} \\times 100 = \\frac{560}{23}\\% = \\mathbf{24.35\\%}\\).", "shortcut": "\\(\\frac{28}{115} \\approx \\frac{28}{114} \\approx 24.35\\%\\). Note: \\(23 \\times 24 = 552 \\approx 560\\)."}, {"id": 37, "topic": "Arithmetic", "question": "The population of a town increased by 16⅔% in the first year, decreased by 14⅖% in the second year and increased by 12½% in the third year. If the present population of the town is P, what was the population 3 years ago?", "options": ["(A) \\(\\frac{8}{9}P\\)", "(B) \\(\\frac{9}{8}P\\)", "(C) P", "(D) \\(\\frac{8}{7}P\\)"], "correct": 0, "ans_letter": "A", "solution": "Fraction equivalents:<br>\\(+16\\frac{2}{3}\\% = +\\frac{1}{6} \\implies \\frac{7}{6}\\)<br>\\(-14\\frac{2}{7}\\% = -\\frac{1}{7} \\implies \\frac{6}{7}\\)<br>\\(+12\\frac{1}{2}\\% = +\\frac{1}{8} \\implies \\frac{9}{8}\\)<br>$$\\text{Net Multiplier} = \\frac{7}{6} \\times \\frac{6}{7} \\times \\frac{9}{8} = \\frac{9}{8}$$<br>$$P = P_0 \\times \\frac{9}{8} \\implies P_0 = \\mathbf{\\frac{8}{9}P}$$", "shortcut": "Fractions cancel out like magic: \\(\\frac{7}{6} \\times \\frac{6}{7} = 1\\)! So only the third year multiplier \\(\\frac{9}{8}\\) remains. \\(P_0 = \\mathbf{\\frac{8}{9}P}\\). Instant 5-second answer!"}, {"id": 38, "topic": "Arithmetic", "question": "In a two-digit number, the ratio of the tens digit to the units digit is 2 : 1. If the difference between the original number and the number formed by reversing its digits is 18, find the original number.", "options": ["(A) 21", "(B) 63", "(C) 84", "(D) 42"], "correct": 3, "ans_letter": "D", "solution": "Let digits be \\(2x\\) and \\(x\\). Number = \\(10(2x) + x = 21x\\).<br>Reversed number = \\(10(x) + 2x = 12x\\).<br>\\(\\text{Difference} = 21x - 12x = 9x = 18 \\implies x = 2\\).<br>\\(\\text{Original number} = 21 \\times 2 = \\mathbf{42}\\).", "shortcut": "Check options directly: For 42, tens/units = 4/2 = 2/1. Reversed is 24. Difference = \\(42 - 24 = 18\\). Matches immediately!"}, {"id": 39, "topic": "Algebra", "question": "What is the simplified value of the algebraic expression \\(\\frac{A^3 - B^3}{A^2 + AB + B^2}\\)?", "options": ["(A) A + B", "(B) \\(A^2 - AB + B^2\\)", "(C) A − B", "(D) \\(A^2 - B^2\\)"], "correct": 2, "ans_letter": "C", "solution": "By algebraic identity: \\(A^3 - B^3 = (A - B)(A^2 + AB + B^2)\\).<br>$$\\frac{(A - B)(A^2 + AB + B^2)}{A^2 + AB + B^2} = \\mathbf{A - B}$$", "shortcut": "Standard textbook identity cancellation: Always equals \\(\\mathbf{A - B}\\)."}, {"id": 40, "topic": "Algebra", "question": "What is the simplified value of the expression \\(\\frac{(5.4)^3 - 1}{(5.4)^2 + 6.4}\\)?", "options": ["(A) 6.4", "(B) 5.4", "(C) 4.4", "(D) 4"], "correct": 2, "ans_letter": "C", "solution": "Recognize \\(A = 5.4, B = 1\\).<br>Denominator is \\((5.4)^2 + 5.4 + 1 = (5.4)^2 + 6.4\\).<br>This is exactly \\(\\frac{A^3 - 1^3}{A^2 + A(1) + 1^2} = A - 1 = 5.4 - 1 = \\mathbf{4.4}\\).", "shortcut": "Direct application of Q39: \\((A^3 - 1)/(A^2 + A + 1) = A - 1\\). Here \\(A = 5.4 \\implies 5.4 - 1 = \\mathbf{4.4}\\)."}, {"id": 41, "topic": "Trigonometry", "question": "If \\(\\cos x = \\frac{4}{5}\\), where \\(x\\) is an acute angle, find the value of \\((\\tan x + \\sec x)\\).", "options": ["(A) \\(\\frac{31}{12}\\)", "(B) \\(\\frac{37}{20}\\)", "(C) \\(\\frac{7}{5}\\)", "(D) 2"], "correct": 3, "ans_letter": "D", "solution": "Triplet \\((3, 4, 5)\\) gives \\(B = 4, P = 3, H = 5\\).<br>\\(\\tan x = \\frac{3}{4}, \\sec x = \\frac{5}{4}\\).<br>$$\\tan x + \\sec x = \\frac{3}{4} + \\frac{5}{4} = \\frac{8}{4} = \\mathbf{2}$$", "shortcut": "\\(\\tan x + \\sec x = \\frac{P + H}{B} = \\frac{3 + 5}{4} = \\mathbf{2}\\)."}, {"id": 42, "topic": "Trigonometry", "question": "If \\(\\cos x = \\frac{4}{5}\\), where \\(x\\) is an acute angle, find the value of \\((\\tan^2 x + \\sec^2 x)\\).", "options": ["(A) \\(\\frac{17}{8}\\)", "(B) 2", "(C) 1", "(D) \\(\\frac{481}{144}\\)"], "correct": 0, "ans_letter": "A", "solution": "\\(\\tan x = \\frac{3}{4} \\implies \\tan^2 x = \\frac{9}{16}\\).<br>\\(\\sec x = \\frac{5}{4} \\implies \\sec^2 x = \\frac{25}{16}\\).<br>$$\\tan^2 x + \\sec^2 x = \\frac{9 + 25}{16} = \\frac{34}{16} = \\mathbf{\\frac{17}{8}}$$", "shortcut": "\\(\\tan^2 x + \\sec^2 x = \\frac{3^2 + 5^2}{4^2} = \\frac{34}{16} = \\mathbf{\\frac{17}{8}}\\)."}, {"id": 43, "topic": "Trigonometry", "question": "From a point on level ground, the angle of elevation of the top of a vertical pole is 30°. On moving x units further away from the pole along the same straight line, the angle of elevation becomes 15°. What is the height of the pole in terms of x?", "options": ["(A) x", "(B) 2x", "(C) \\(\\frac{x}{2}\\)", "(D) \\(\\frac{x}{\\sqrt{3}}\\)"], "correct": 2, "ans_letter": "C", "solution": "Let points be \\(A\\) (farther, \\(15^\\circ\\)) and \\(B\\) (closer, \\(30^\\circ\\)), with pole top \\(T\\).<br>In \\(\\triangle ABT\\), exterior angle at \\(B = 30^\\circ\\), angle at \\(A = 15^\\circ \\implies \\angle ATB = 30^\\circ - 15^\\circ = 15^\\circ\\).<br>Since \\(\\angle A = \\angle ATB = 15^\\circ\\), \\(\\triangle ABT\\) is isosceles \\(\\implies BT = AB = x\\).<br>In right \\(\\triangle\\) with pole, \\(h = BT \\times \\sin 30^\\circ = x \\times \\frac{1}{2} = \\mathbf{\\frac{x}{2}}\\).", "shortcut": "Golden SSC Shortcut: Whenever elevation angles are \\(\\theta\\) and \\(\\frac{\\theta}{2}\\) (e.g. \\(30^\\circ\\) and \\(15^\\circ\\)), the height of the pole is always \\(\\mathbf{\\frac{x}{2}}\\). Memorize this rule!"}, {"id": 44, "topic": "Geometry", "question": "Two regular polygons have \\((n + 1)\\) and \\((n - 2)\\) sides, respectively. If the difference between their exterior angles is 6°, find the value of n.", "options": ["(A) 13", "(B) 14", "(C) 15", "(D) 16"], "correct": 1, "ans_letter": "B", "solution": "\\(\\text{Exterior angle} = \\frac{360^\\circ}{\\text{sides}}\\).<br>$$\\frac{360^\\circ}{n - 2} - \\frac{360^\\circ}{n + 1} = 6^\\circ \\implies \\frac{60}{n - 2} - \\frac{60}{n + 1} = 1$$<br>$$60\\left[\\frac{n + 1 - (n - 2)}{(n - 2)(n + 1)}\\right] = 1 \\implies (n - 2)(n + 1) = 180$$<br>Testing options: For \\(n = 14\\), \\((14 - 2)(14 + 1) = 12 \\times 15 = 180\\). Thus \\(n = \\mathbf{14}\\).", "shortcut": "Option testing on \\((n - 2)(n + 1) = 180\\): Plug \\(n = 14 \\implies 12 \\times 15 = 180\\). Instantly verified!"}, {"id": 45, "topic": "Geometry", "question": "Two regular polygons have \\((n - 1)\\) and \\((n + 2)\\) sides, respectively. If the difference between their exterior angles is 6°, find the value of n.", "options": ["(A) 14", "(B) 12", "(C) 11", "(D) 13"], "correct": 3, "ans_letter": "D", "solution": "$$\\frac{360^\\circ}{n - 1} - \\frac{360^\\circ}{n + 2} = 6^\\circ \\implies (n - 1)(n + 2) = 180$$<br>Testing options: For \\(n = 13\\), \\((13 - 1)(13 + 2) = 12 \\times 15 = 180\\). Thus \\(n = \\mathbf{13}\\).", "shortcut": "Option testing: \\(n = 13 \\implies 12 \\times 15 = 180\\). Solved in seconds."}, {"id": 46, "topic": "Geometry", "question": "The area of a triangle is \\(10\\sqrt{3}\\text{ cm}^2\\) and two of its sides measure 5 cm and 8 cm. If the included angle is acute, what is its measure?", "options": ["(A) 60°", "(B) 30°", "(C) 45°", "(D) 120°"], "correct": 0, "ans_letter": "A", "solution": "\\(\\text{Area} = \\frac{1}{2}ab\\sin\\theta \\implies 10\\sqrt{3} = \\frac{1}{2}(5)(8)\\sin\\theta \\implies 20\\sin\\theta = 10\\sqrt{3}\\).<br>\\(\\sin\\theta = \\frac{\\sqrt{3}}{2} \\implies \\theta = \\mathbf{60^\\circ}\\) (since acute).", "shortcut": "\\(\\sin\\theta = \\frac{2 \\times \\text{Area}}{ab} = \\frac{20\\sqrt{3}}{40} = \\frac{\\sqrt{3}}{2} \\implies \\theta = \\mathbf{60^\\circ}\\)."}, {"id": 47, "topic": "Geometry", "question": "In triangle ABC, AS is the internal bisector of angle A intersecting side BC at point S. If AB = 14 cm and AC = 10 cm, find the ratio BS : SC.", "options": ["(A) 5 : 7", "(B) 7 : 5", "(C) 7 : 12", "(D) 49 : 25"], "correct": 1, "ans_letter": "B", "solution": "By Angle Bisector Theorem:<br>$$\\frac{BS}{SC} = \\frac{AB}{AC} = \\frac{14}{10} = \\mathbf{\\frac{7}{5}}$$", "shortcut": "Direct Angle Bisector Theorem: \\(BS : SC = AB : AC = 14 : 10 = \\mathbf{7 : 5}\\). Done in 2 seconds."}, {"id": 48, "topic": "Geometry", "question": "In triangles ABC and PQR, AB = PQ, AC = PR and \\(\\angle A = 30^\\circ\\). If \\(\\angle Q + \\angle R = 150^\\circ\\), by which congruence criterion are the two triangles congruent?", "options": ["(A) ASA", "(B) SSS", "(C) RHS", "(D) SAS"], "correct": 3, "ans_letter": "D", "solution": "In \\(\\triangle PQR\\), \\(\\angle P = 180^\\circ - (\\angle Q + \\angle R) = 180^\\circ - 150^\\circ = 30^\\circ\\).<br>Now \\(AB = PQ, AC = PR\\), and included angles \\(\\angle A = \\angle P = 30^\\circ\\).<br>Therefore, the triangles are congruent by **SAS (Side-Angle-Side)**.", "shortcut": "Included angle \\(\\angle P = 180^\\circ - 150^\\circ = 30^\\circ = \\angle A\\). Two sides and included angle equal \\(\\implies \\mathbf{SAS}\\)."}, {"id": 49, "topic": "Mensuration", "question": "The parallel sides of a trapezium are in the ratio 2 : 3. If the perpendicular height is h and the area is A, express the length of the longer parallel side.", "options": ["(A) \\(\\frac{4A}{5h}\\)", "(B) \\(\\frac{2A}{5h}\\)", "(C) \\(\\frac{6A}{5h}\\)", "(D) \\(\\frac{3A}{5h}\\)"], "correct": 2, "ans_letter": "C", "solution": "Let parallel sides be \\(2x\\) and \\(3x\\).<br>\\(A = \\frac{1}{2}(2x + 3x)h = \\frac{5xh}{2} \\implies x = \\frac{2A}{5h}\\).<br>\\(\\text{Longer side} = 3x = 3 \\times \\frac{2A}{5h} = \\mathbf{\\frac{6A}{5h}}\\).", "shortcut": "\\(\\text{Longer side} = 3x\\). Since \\(\\text{Sum} = 5x = \\frac{2A}{h} \\implies 3x = \\frac{3}{5}\\left(\\frac{2A}{h}\\right) = \\mathbf{\\frac{6A}{5h}}\\)."}, {"id": 50, "topic": "Geometry", "question": "Three circles of radii 1 cm, 2 cm and 3 cm touch each other externally. What is the distance between the centres of the circles having radii 1 cm and 2 cm?", "options": ["(A) 1 cm", "(B) 4 cm", "(C) 3 cm", "(D) 5 cm"], "correct": 2, "ans_letter": "C", "solution": "For two externally touching circles with radii \\(r_1\\) and \\(r_2\\), the distance between their centres is \\(r_1 + r_2\\).<br>$$\\text{Distance} = 1 + 2 = \\mathbf{3\\text{ cm}}$$", "shortcut": "Distance between centres of externally touching circles = sum of their radii = \\(1 + 2 = \\mathbf{3\\text{ cm}}\\)."}, {"id": 51, "topic": "Geometry", "question": "Two identical circles, each of radius 8 cm, pass through each other's centre. Find the length of their common chord.", "options": ["(A) 8 cm", "(B) \\(8\\sqrt{3}\\text{ cm}\\)", "(C) 16 cm", "(D) \\(4\\sqrt{3}\\text{ cm}\\)"], "correct": 1, "ans_letter": "B", "solution": "Distance between centres \\(d = r = 8\\text{ cm}\\).<br>Perpendicular bisector of line of centres bisects chord at distance \\(d/2 = r/2\\).<br>Half chord = \\(\\sqrt{r^2 - (r/2)^2} = \\sqrt{\\frac{3}{4}r^2} = \\frac{r\\sqrt{3}}{2}\\).<br>$$\\text{Length of Common Chord} = 2 \\times \\frac{r\\sqrt{3}}{2} = r\\sqrt{3} = \\mathbf{8\\sqrt{3}\\text{ cm}}$$", "shortcut": "Golden SSC Shortcut: Whenever two identical circles pass through each other's centres, the length of their common chord is ALWAYS \\(\\mathbf{r\\sqrt{3}}\\). For \\(r = 8\\), chord = \\(\\mathbf{8\\sqrt{3}\\text{ cm}}\\)."}, {"id": 52, "topic": "Geometry", "question": "Two identical circles, each of radius 10 cm, pass through each other's centre. Find the length of their common chord.", "options": ["(A) 10 cm", "(B) \\(10\\sqrt{3}\\text{ cm}\\)", "(C) 20 cm", "(D) \\(5\\sqrt{3}\\text{ cm}\\)"], "correct": 1, "ans_letter": "B", "solution": "Common chord length = \\(r\\sqrt{3} = \\mathbf{10\\sqrt{3}\\text{ cm}}\\).", "shortcut": "Shortcut: \\(r\\sqrt{3} = 10\\sqrt{3}\\text{ cm}\\). Instant answer!"}, {"id": 53, "topic": "Geometry", "question": "In a circle with centre O, a chord AB subtends an angle of 130° at the centre. If the chord subtends an angle of measure x at a point on the major arc and an angle of measure y at a point on the minor arc, what is the value of (x + y)?", "options": ["(A) 130°", "(B) 65°", "(C) 230°", "(D) 180°"], "correct": 3, "ans_letter": "D", "solution": "Angle on major arc \\(x = \\frac{1}{2} \\angle AOB = \\frac{130^\\circ}{2} = 65^\\circ\\).<br>Point on major arc and point on minor arc form opposite angles of a cyclic quadrilateral.<br>$$\\text{Opposite angles of cyclic quad sum to } 180^\\circ \\implies x + y = \\mathbf{180^\\circ}$$", "shortcut": "Universal Circle Property: Any point on the major arc and any point on the minor arc form opposite angles of a cyclic quadrilateral. Therefore, \\(x + y\\) is ALWAYS \\(\\mathbf{180^\\circ}\\), regardless of the central angle!"}, {"id": 54, "topic": "Mensuration", "question": "The total surface area of a solid sphere of radius R is equal to the curved surface area of a hemisphere of radius r. What is the ratio R : r?", "options": ["(A) 1 : 2", "(B) \\(\\sqrt{2} : 1\\)", "(C) 2 : 1", "(D) \\(1 : \\sqrt{2}\\)"], "correct": 3, "ans_letter": "D", "solution": "\\(\\text{TSA of Sphere} = 4\\pi R^2\\).<br>\\(\\text{CSA of Hemisphere} = 2\\pi r^2\\).<br>$$4\\pi R^2 = 2\\pi r^2 \\implies 2R^2 = r^2 \\implies \\frac{R^2}{r^2} = \\frac{1}{2} \\implies \\frac{R}{r} = \\mathbf{\\frac{1}{\\sqrt{2}}}$$", "shortcut": "\\(4R^2 = 2r^2 \\implies \\frac{R}{r} = \\frac{1}{\\sqrt{2}} = \\mathbf{1 : \\sqrt{2}}\\)."}];
+
+        let activeTopic = 'All';
+        let searchQuery = '';
+        let showAllSolutions = true;
+        const revealedQuestions = new Set();
+
+        function renderQuestions() {
+            const container = document.getElementById('questions-container');
+            container.innerHTML = '';
+
+            const filtered = QUESTIONS_DATA.filter(q => {
+                const matchesTopic = (activeTopic === 'All' || q.topic === activeTopic);
+                const query = searchQuery.toLowerCase();
+                const matchesSearch = !query || 
+                    q.question.toLowerCase().includes(query) || 
+                    q.topic.toLowerCase().includes(query) || 
+                    q.shortcut.toLowerCase().includes(query);
+                return matchesTopic && matchesSearch;
+            });
+
+            if (filtered.length === 0) {
+                container.innerHTML = '<div style="text-align:center; padding: 40px 0; color: #94A3B8;">No questions found matching your filter.</div>';
+                return;
+            }
+
+            filtered.forEach(q => {
+                const card = document.createElement('div');
+                card.className = 'q-card';
+                card.id = `q-card-${q.id}`;
+
+                const isRevealed = showAllSolutions || revealedQuestions.has(q.id);
+
+                let optionsHtml = '';
+                q.options.forEach((opt, idx) => {
+                    let optClass = 'opt-btn';
+                    if (isRevealed) {
+                        if (idx === q.correct) optClass += ' correct';
+                    }
+                    optionsHtml += `<button class="${optClass}" onclick="handleOptionClick(${q.id}, ${idx})">${opt}</button>`;
+                });
+
+                card.innerHTML = `
+                    <div class="q-header">
+                        <span class="q-num">Q${q.id} of 54</span>
+                        <span class="q-topic">${q.topic}</span>
+                    </div>
+                    <div class="q-text">${q.question}</div>
+                    <div class="options-grid" id="opts-${q.id}">
+                        ${optionsHtml}
+                    </div>
+                    <div class="solution-box ${isRevealed ? '' : 'hidden'}" id="sol-${q.id}">
+                        <div class="box-title blue">📖 Step-by-Step Solution:</div>
+                        <div>${q.solution}</div>
+                    </div>
+                    <div class="shortcut-box ${isRevealed ? '' : 'hidden'}" id="sc-${q.id}">
+                        <div class="box-title amber">⚡ SSC CGL Exam-Hall Shortcut:</div>
+                        <div>${q.shortcut}</div>
+                    </div>
+                `;
+
+                container.appendChild(card);
+            });
+
+            // Re-render MathJax
+            if (window.MathJax && window.MathJax.typesetPromise) {
+                window.MathJax.typesetPromise();
+            }
+        }
+
+        function handleOptionClick(qId, selectedIdx) {
+            const q = QUESTIONS_DATA.find(item => item.id === qId);
+            if (!q) return;
+
+            revealedQuestions.add(qId);
+
+            const optContainer = document.getElementById(`opts-${qId}`);
+            if (optContainer) {
+                const buttons = optContainer.querySelectorAll('.opt-btn');
+                buttons.forEach((btn, idx) => {
+                    btn.classList.remove('correct', 'wrong');
+                    if (idx === q.correct) {
+                        btn.classList.add('correct');
+                    } else if (idx === selectedIdx) {
+                        btn.classList.add('wrong');
+                    }
+                });
+            }
+
+            const solEl = document.getElementById(`sol-${qId}`);
+            const scEl = document.getElementById(`sc-${qId}`);
+            if (solEl) solEl.classList.remove('hidden');
+            if (scEl) scEl.classList.remove('hidden');
+
+            if (window.MathJax && window.MathJax.typesetPromise) {
+                window.MathJax.typesetPromise();
+            }
+        }
+
+        function toggleAllSolutions() {
+            showAllSolutions = !showAllSolutions;
+            const btn = document.getElementById('toggle-all-btn');
+            if (showAllSolutions) {
+                btn.innerHTML = '🙈 Hide Solutions';
+            } else {
+                btn.innerHTML = '👀 Show All Solutions';
+                revealedQuestions.clear();
+            }
+            renderQuestions();
+        }
+
+        function filterTopic(topic) {
+            activeTopic = topic;
+            document.querySelectorAll('#topic-pills .pill-btn').forEach(btn => {
+                const text = btn.innerText;
+                if ((topic === 'All' && text.includes('All')) || text.includes(topic)) {
+                    btn.classList.add('active');
+                } else {
+                    btn.classList.remove('active');
+                }
+            });
+            renderQuestions();
+        }
+
+        // Search listener
+        document.getElementById('search-input').addEventListener('input', (e) => {
+            searchQuery = e.target.value.trim();
+            renderQuestions();
+        });
+
+        // Initialize
+        renderQuestions();
+    </script>
+</body>
+</html>
