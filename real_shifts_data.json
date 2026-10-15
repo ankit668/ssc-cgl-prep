@@ -1,0 +1,786 @@
+[
+  {
+    "shift_id": "sep30_s2",
+    "name": "30 September (Shift 2)",
+    "date": "30 Sep 2026",
+    "questions": [
+      {
+        "id": 1,
+        "topic": "Coordinate Geometry",
+        "question": "The distance between the points (7, 5) and (4, 1) is:",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "correct": 1,
+        "solution": "Distance = √[(x₂ − x₁)² + (y₂ − y₁)²] = √[(4 − 7)² + (1 − 5)²] = √[(-3)² + (-4)²] = √(9 + 16) = √25 = <b>5</b>.",
+        "shortcut": "⚡ <b>Pythagorean Triplet (3, 4, 5):</b> Δx = 3, Δy = 4 ⟹ Distance = <b>5</b>."
+      },
+      {
+        "id": 2,
+        "topic": "Mensuration 2D",
+        "question": "A regular hexagon is inscribed in a circle of radius 21 cm. Find the area of the hexagon.",
+        "options": [
+          "441√3 cm²",
+          "661.5√3 cm²",
+          "882√3 cm²",
+          "220.5√3 cm²"
+        ],
+        "correct": 1,
+        "solution": "For an inscribed regular hexagon, side a = radius r = 21 cm.<br>Area = 6 × [(√3 / 4) × a²] = (3√3 / 2) × 21² = (3√3 / 2) × 441 = 1323√3 / 2 = <b>661.5√3 cm²</b>.",
+        "shortcut": "⚡ <b>Formula:</b> (3√3 / 2) × r² = 1.5 × 441 × √3 = <b>661.5√3 cm²</b>."
+      },
+      {
+        "id": 3,
+        "topic": "Geometry",
+        "question": "Two circles have radii 3 cm and 5 cm. The length of the direct common tangent (DCT) is twice the length of the transverse common tangent (TCT). Find the square of the distance between their centres (d²).",
+        "options": [
+          "64",
+          "72",
+          "84",
+          "100"
+        ],
+        "correct": 2,
+        "solution": "DCT² = d² − (r₁ − r₂)² = d² − (5 − 3)² = d² − 4.<br>TCT² = d² − (r₁ + r₂)² = d² − (5 + 3)² = d² − 64.<br>Given DCT = 2 · TCT ⟹ DCT² = 4 · TCT².<br>d² − 4 = 4(d² − 64) = 4d² − 256 ⟹ 3d² = 252 ⟹ d² = <b>84</b>.",
+        "shortcut": "⚡ <b>Shortcut:</b> d² = (4 × 64 − 4) / 3 = 252 / 3 = <b>84</b>."
+      },
+      {
+        "id": 4,
+        "topic": "Algebra",
+        "question": "If x + 1/x = 3√2, then find the value of x / (x² + 1).",
+        "options": [
+          "1 / √14",
+          "1 / √18",
+          "1 / 14",
+          "1 / √7"
+        ],
+        "correct": 1,
+        "solution": "Divide numerator and denominator by x:<br>[x / x] / [(x² + 1) / x] = 1 / [x + 1/x].<br>Since x + 1/x = 3√2 = √18, the value is <b>1 / √18 (or 1 / 3√2)</b>.",
+        "shortcut": "⚡ <b>Invert:</b> x / (x² + 1) = 1 / (x + 1/x) = 1 / (3√2) = <b>1 / √18</b>."
+      },
+      {
+        "id": 5,
+        "topic": "Trigonometry",
+        "question": "If tan θ + cot θ = 2, then find the value of tan²θ + cot²θ.",
+        "options": [
+          "1",
+          "2",
+          "4",
+          "0"
+        ],
+        "correct": 1,
+        "solution": "tan θ + 1/tan θ = 2 ⟹ tan θ = 1.<br>tan²θ + cot²θ = 1² + 1² = <b>2</b>.",
+        "shortcut": "⚡ Whenever x + 1/x = 2, x = 1 ⟹ 1ⁿ + 1ⁿ = <b>2</b> always."
+      },
+      {
+        "id": 6,
+        "topic": "Trigonometry",
+        "question": "If sin θ + cos θ = 5/3, find the value of tan θ + cot θ.",
+        "options": [
+          "9 / 32",
+          "9 / 8",
+          "16 / 5",
+          "5 / 4"
+        ],
+        "correct": 1,
+        "solution": "Square both sides: (sin θ + cos θ)² = (5/3)² ⟹ sin²θ + cos²θ + 2sin θ cos θ = 25/9.<br>1 + 2sin θ cos θ = 25/9 ⟹ 2sin θ cos θ = 16/9 ⟹ sin θ cos θ = 8/9.<br>tan θ + cot θ = sin θ/cos θ + cos θ/sin θ = (sin²θ + cos²θ) / (sin θ cos θ) = 1 / (8/9) = <b>9/8</b>.",
+        "shortcut": "⚡ <b>Identity:</b> tan θ + cot θ = 1 / (sin θ cos θ) = 2 / [(sin θ + cos θ)² − 1] = 2 / [25/9 − 1] = 2 / (16/9) = <b>9/8</b>."
+      },
+      {
+        "id": 7,
+        "topic": "Algebra",
+        "question": "If x = 3 and y = 2, then evaluate: (x³ − y³) / (x² + xy + y²).",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "1"
+        ],
+        "correct": 3,
+        "solution": "Standard algebraic identity: x³ − y³ = (x − y)(x² + xy + y²).<br>Therefore, (x³ − y³) / (x² + xy + y²) = x − y.<br>With x = 3 and y = 2: 3 − 2 = <b>1</b>.",
+        "shortcut": "⚡ Direct formula: x − y = 3 − 2 = <b>1</b> (1 second!)."
+      },
+      {
+        "id": 8,
+        "topic": "Algebra",
+        "question": "Simplify the expression: (x + 2)² − (x − 2)².",
+        "options": [
+          "4x",
+          "8x",
+          "16x",
+          "8"
+        ],
+        "correct": 1,
+        "solution": "Identity: (A + B)² − (A − B)² = 4AB.<br>Here A = x, B = 2 ⟹ 4(x)(2) = <b>8x</b>.",
+        "shortcut": "⚡ 4AB = 4 × x × 2 = <b>8x</b>."
+      },
+      {
+        "id": 9,
+        "topic": "Geometry",
+        "question": "In △ABC, points D and E are on AB and AC respectively such that DE ∥ BC. If AD = 3 cm, DB = 2 cm and DE = 4 cm, find BC.",
+        "options": [
+          "6 cm",
+          "20/3 cm",
+          "7 cm",
+          "8 cm"
+        ],
+        "correct": 1,
+        "solution": "Since DE ∥ BC, △ADE ∼ △ABC by AA similarity.<br>AB = AD + DB = 3 + 2 = 5 cm.<br>Ratio of sides: AD / AB = DE / BC ⟹ 3 / 5 = 4 / BC ⟹ BC = (4 × 5) / 3 = <b>20/3 cm (6 2/3 cm)</b>.",
+        "shortcut": "⚡ <b>Thales Theorem:</b> BC = DE × (AB / AD) = 4 × (5 / 3) = <b>20/3 cm</b>."
+      },
+      {
+        "id": 10,
+        "topic": "Geometry",
+        "question": "A tangent QT is drawn from point Q to a circle with centre O (T is the point of contact). If QT = 6 cm and OQ = 10 cm, find the area of △OQT.",
+        "options": [
+          "20 cm²",
+          "15 cm²",
+          "18 cm²",
+          "24 cm²"
+        ],
+        "correct": 3,
+        "solution": "Tangent QT is perpendicular to radius OT: ∠OTQ = 90°.<br>In right △OTQ: OT = √(OQ² − QT²) = √(10² − 6²) = √(100 − 36) = √64 = 8 cm.<br>Area of right △OQT = (1/2) × base × height = (1/2) × 6 × 8 = <b>24 cm²</b>.",
+        "shortcut": "⚡ <b>Triplet (6, 8, 10):</b> Area = (1/2) × 6 × 8 = <b>24 cm²</b>."
+      },
+      {
+        "id": 11,
+        "topic": "Profit & Loss",
+        "question": "Two articles are sold at ₹990 each. One gives 10% profit and the other 10% loss. What is the overall profit or loss percentage?",
+        "options": [
+          "1% loss",
+          "1% profit",
+          "2% loss",
+          "No profit no loss"
+        ],
+        "correct": 0,
+        "solution": "When two items are sold at the same SP, one at x% profit and the other at x% loss, there is always an overall loss.<br>Loss % = (Common % / 10)² = (10 / 10)² = 1² = <b>1% loss</b>.",
+        "shortcut": "⚡ <b>Universal Rule:</b> Loss % = x² / 100 = 100 / 100 = <b>1% loss</b>."
+      },
+      {
+        "id": 12,
+        "topic": "Simple Interest",
+        "question": "A sum of money becomes ₹875 in 3 years and ₹950 in 4 years at simple interest. Find the principal amount.",
+        "options": [
+          "₹600",
+          "₹650",
+          "₹700",
+          "₹725"
+        ],
+        "correct": 1,
+        "solution": "SI for 1 year = Amount in 4 yrs − Amount in 3 yrs = 950 − 875 = ₹75.<br>SI for 3 years = 3 × 75 = ₹225.<br>Principal P = Amount in 3 yrs − SI for 3 yrs = 875 − 225 = <b>₹650</b>.",
+        "shortcut": "⚡ 1 yr interest = 75 ⟹ P = 875 − 3(75) = 875 − 225 = <b>₹650</b>."
+      },
+      {
+        "id": 13,
+        "topic": "Partnership",
+        "question": "A and B invest ₹12,000 and ₹20,000 respectively for one year. A gets an additional 10% of the total profit for managing the business. If the total profit is ₹9,500, what is A's total profit?",
+        "options": [
+          "₹3,240",
+          "₹4,200",
+          "₹4,156.25",
+          "₹4,800"
+        ],
+        "correct": 2,
+        "solution": "Management commission for A = 10% of 9,500 = ₹950.<br>Remaining profit = 9,500 − 950 = ₹8,550.<br>Ratio of investment = 12,000 : 20,000 = 3 : 5 (Total 8 parts).<br>A's share of remaining profit = (3 / 8) × 8,550 = ₹3,206.25.<br>Total earnings of A = 950 + 3,206.25 = <b>₹4,156.25</b>.",
+        "shortcut": "⚡ A = 950 + (3/8 × 8550) = 950 + 3206.25 = <b>₹4,156.25</b>."
+      },
+      {
+        "id": 14,
+        "topic": "Discounts",
+        "question": "The marked price of an article is ₹8,000. Successive discounts of 15%, 20% and 10% are given. What is the selling price (SP)?",
+        "options": [
+          "₹4,896",
+          "₹4,960",
+          "₹5,040",
+          "₹5,120"
+        ],
+        "correct": 0,
+        "solution": "SP = 8000 × (1 − 0.15) × (1 − 0.20) × (1 − 0.10) = 8000 × 0.85 × 0.80 × 0.90.<br>8000 × 0.80 = 6400.<br>6400 × 0.85 = 5440.<br>5440 × 0.90 = <b>₹4,896</b>.",
+        "shortcut": "⚡ <b>Unit Digit:</b> 8 × 85 × 8 × 9 ends in 6 ⟹ <b>₹4,896</b>."
+      }
+    ]
+  },
+  {
+    "shift_id": "oct1_s2",
+    "name": "1 October (Shift 2)",
+    "date": "1 Oct 2026",
+    "questions": [
+      {
+        "id": 1,
+        "topic": "Number System",
+        "question": "How many multiples of 6 lie between 50 and 200? (50 और 200 के बीच 6 के कितने गुणज होंगे?)",
+        "options": [
+          "23",
+          "24",
+          "25",
+          "26"
+        ],
+        "correct": 2,
+        "solution": "First multiple = 54, Last multiple = 198.<br>Count = (198 − 54)/6 + 1 = 24 + 1 = <b>25</b>.",
+        "shortcut": "⚡ ⌊200/6⌋ − ⌊50/6⌋ = 33 − 8 = <b>25</b>."
+      },
+      {
+        "id": 2,
+        "topic": "Average Speed",
+        "question": "A person travels equal distances at 20, 30 and 60 km/h. What is the average speed?",
+        "options": [
+          "36 km/h",
+          "33.3 km/h",
+          "28 km/h",
+          "30 km/h"
+        ],
+        "correct": 3,
+        "solution": "LCM = 60. Time = 3 + 2 + 1 = 6 hrs. Avg Speed = 180 / 6 = <b>30 km/h</b>.",
+        "shortcut": "⚡ 3 / (1/20 + 1/30 + 1/60) = <b>30 km/h</b>."
+      },
+      {
+        "id": 3,
+        "topic": "Geometry",
+        "question": "In a triangle, the centroid divides each median in what ratio, measured from the vertex?",
+        "options": [
+          "2 : 1",
+          "1 : 2",
+          "3 : 1",
+          "1 : 1"
+        ],
+        "correct": 0,
+        "solution": "By centroid theorem, G divides median in <b>2 : 1</b> from vertex.",
+        "shortcut": "⚡ Centroid ratio is always <b>2 : 1</b>."
+      },
+      {
+        "id": 4,
+        "topic": "Algebra",
+        "question": "Simplify: 5√3 − 2√3, given √3 = 1.732.",
+        "options": [
+          "3.464",
+          "5.196",
+          "6.928",
+          "1.732"
+        ],
+        "correct": 1,
+        "solution": "3√3 = 3 × 1.732 = <b>5.196</b>.",
+        "shortcut": "⚡ 3 × 1.732 = <b>5.196</b>."
+      },
+      {
+        "id": 5,
+        "topic": "Profit & Loss",
+        "question": "A person buys 6 articles for ₹x and sells 5 articles for ₹x. Find the profit percentage.",
+        "options": [
+          "16.66%",
+          "25%",
+          "20%",
+          "10%"
+        ],
+        "correct": 2,
+        "solution": "Profit % = [(6 − 5)/5] × 100 = <b>20%</b>.",
+        "shortcut": "⚡ 1/5 = <b>20%</b>."
+      },
+      {
+        "id": 6,
+        "topic": "Geometry",
+        "question": "A chord of a circle has radius 10 cm and its distance from the centre is 6 cm. Find the length of the chord.",
+        "options": [
+          "12 cm",
+          "16 cm",
+          "18 cm",
+          "8 cm"
+        ],
+        "correct": 1,
+        "solution": "Half chord = √(10² − 6²) = 8 cm ⟹ Total = 2 × 8 = <b>16 cm</b>.",
+        "shortcut": "⚡ Triplet (6, 8, 10) ⟹ 2 × 8 = <b>16 cm</b>."
+      },
+      {
+        "id": 7,
+        "topic": "Trigonometry",
+        "question": "If tan θ = √3, find sec²θ + cosec²θ.",
+        "options": [
+          "12/3",
+          "14/3",
+          "16/3",
+          "10/3"
+        ],
+        "correct": 2,
+        "solution": "θ = 60° ⟹ sec²60° = 4, cosec²60° = 4/3. Sum = 4 + 4/3 = <b>16/3</b>.",
+        "shortcut": "⚡ sec²θ · cosec²θ = 4 × 4/3 = <b>16/3</b>."
+      },
+      {
+        "id": 8,
+        "topic": "Time & Work",
+        "question": "A completes work in 15 days, B in 20 days. On alternate days (A starts), how many days to finish?",
+        "options": [
+          "16 days",
+          "16.5 days",
+          "18 days",
+          "17 days"
+        ],
+        "correct": 3,
+        "solution": "LCM = 60. In 2 days = 7 units. 16 days = 56 units. Day 17: A does remaining 4 units = <b>17 days</b>.",
+        "shortcut": "⚡ 16 days + 1 day = <b>17 days</b>."
+      },
+      {
+        "id": 9,
+        "topic": "Mensuration 3D",
+        "question": "A hollow hemisphere has outer radius R and inner radius r. Total painted surface area?",
+        "options": [
+          "π(2R² + r²)",
+          "3π(R² + r²)",
+          "π(3R² + r²)",
+          "2π(R² + r²)"
+        ],
+        "correct": 2,
+        "solution": "2πR² + 2πr² + π(R² − r²) = <b>π(3R² + r²)</b>.",
+        "shortcut": "⚡ <b>Formula:</b> π(3R² + r²)."
+      },
+      {
+        "id": 10,
+        "topic": "Geometry",
+        "question": "Two equal chords are drawn on opposite sides of the centre. What can be said about their distances?",
+        "options": [
+          "They are equal (d₁ = d₂)",
+          "d₁ > d₂",
+          "d₁ < d₂",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Equal chords are equidistant from centre: <b>d₁ = d₂</b>.",
+        "shortcut": "⚡ Equal chords ⟹ Equal distance."
+      },
+      {
+        "id": 11,
+        "topic": "Trigonometry",
+        "question": "If tan x = √3, find (sec²x + cosec²x) ÷ (sec²x − cosec²x).",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correct": 1,
+        "solution": "(4 + 4/3) / (4 − 4/3) = (16/3) / (8/3) = <b>2</b>.",
+        "shortcut": "⚡ (3 + 1)/(3 − 1) = 4/2 = <b>2</b>."
+      },
+      {
+        "id": 12,
+        "topic": "Mensuration 2D",
+        "question": "Sector area of circle of radius 14 cm and angle 60°:",
+        "options": [
+          "100 cm²",
+          "308/3 cm²",
+          "154 cm²",
+          "616/3 cm²"
+        ],
+        "correct": 1,
+        "solution": "(60/360) × π × 14² = (1/6) × 616 = <b>308/3 cm²</b>.",
+        "shortcut": "⚡ 616 / 6 = <b>308/3 cm²</b>."
+      },
+      {
+        "id": 13,
+        "topic": "Heights & Distances",
+        "question": "Two observers on opposite sides of tower 20 m high have elevations 30° and 60°. Distance between them?",
+        "options": [
+          "40 m",
+          "80√3/3 m",
+          "34.64 m",
+          "52.3 m"
+        ],
+        "correct": 1,
+        "solution": "20√3 + 20/√3 = 80/√3 = <b>80√3/3 m (≈ 46.19 m)</b>.",
+        "shortcut": "⚡ 20 × (4/√3) = <b>46.19 m</b>."
+      },
+      {
+        "id": 14,
+        "topic": "Algebra",
+        "question": "Factorisation of a² − b²:",
+        "options": [
+          "(a − b)²",
+          "(a + b)²",
+          "(a − b)(a + b)",
+          "a² + b²"
+        ],
+        "correct": 2,
+        "solution": "a² − b² = <b>(a − b)(a + b)</b>.",
+        "shortcut": "⚡ <b>(a − b)(a + b)</b>."
+      },
+      {
+        "id": 15,
+        "topic": "Geometry",
+        "question": "Circle radius 9 cm, external point distance 15 cm. Tangent length?",
+        "options": [
+          "10 cm",
+          "12 cm",
+          "14 cm",
+          "8 cm"
+        ],
+        "correct": 1,
+        "solution": "√(15² − 9²) = √144 = <b>12 cm</b>.",
+        "shortcut": "⚡ Triplet (9, 12, 15) ⟹ <b>12 cm</b>."
+      },
+      {
+        "id": 16,
+        "topic": "Speed & Distance",
+        "question": "Speed increases by x km/h, reaches t hrs earlier. Initial speed 5 km/h. Distance?",
+        "options": [
+          "5x / (5+x) · t",
+          "x / (5(5+x)) · t",
+          "5(5+x)/x · t",
+          "5xt"
+        ],
+        "correct": 2,
+        "solution": "D = [S₁S₂ / (S₂ − S₁)] × t = <b>[5(5 + x) / x] × t</b>.",
+        "shortcut": "⚡ Product of speeds / diff in speed = <b>5(5+x)t / x</b>."
+      },
+      {
+        "id": 17,
+        "topic": "Number System",
+        "question": "Value of x if 7x35 is divisible by 11:",
+        "options": [
+          "5",
+          "4",
+          "6",
+          "3"
+        ],
+        "correct": 0,
+        "solution": "(7 + 3) − (x + 5) = 0 ⟹ 5 − x = 0 ⟹ x = <b>5</b>.",
+        "shortcut": "⚡ 10 − (x + 5) = 0 ⟹ x = <b>5</b>."
+      }
+    ]
+  },
+  {
+    "shift_id": "oct10_all",
+    "name": "10 October (All Shifts)",
+    "date": "10 Oct 2026",
+    "questions": [
+      {
+        "id": 1,
+        "topic": "Algebra",
+        "question": "If x + 1/x = 17, find x³ + 1/x³.",
+        "options": [
+          "4,862",
+          "4,913",
+          "4,800",
+          "4,964"
+        ],
+        "correct": 0,
+        "solution": "x³ + 1/x³ = k³ − 3k = 17³ − 3(17) = 4913 − 51 = <b>4,862</b>.",
+        "shortcut": "⚡ 17³ − 51 = 4913 − 51 = <b>4,862</b>."
+      },
+      {
+        "id": 2,
+        "topic": "Compound Interest",
+        "question": "Find the compound interest on ₹12,000 at 15% per annum for 3 years.",
+        "options": [
+          "₹6,250.50",
+          "₹5,400.00",
+          "₹6,480.00",
+          "₹6,000.00"
+        ],
+        "correct": 0,
+        "solution": "A = 12000 × (1.15)³ = 12000 × 1.520875 = ₹18,250.50.<br>CI = 18250.50 − 12000 = <b>₹6,250.50</b>.",
+        "shortcut": "⚡ 3-year effective rate for 15% is 52.0875% ⟹ 12000 × 0.520875 = <b>₹6,250.50</b>."
+      },
+      {
+        "id": 3,
+        "topic": "Alligation & Mixtures",
+        "question": "In a mixture, the ratio of milk and water is 5 : 3. What fraction of the mixture must be drawn off and replaced with water so that the final ratio becomes 1 : 1?",
+        "options": [
+          "1/5",
+          "1/4",
+          "1/6",
+          "1/8"
+        ],
+        "correct": 0,
+        "solution": "Initial milk fraction = 5/8. Final milk fraction = 1/2 = 4/8.<br>Milk decreased from 5/8 to 4/8, so reduction is 1/8.<br>Fraction removed = (1/8) / (5/8) = <b>1/5</b>.",
+        "shortcut": "⚡ <b>Shortcut:</b> Difference in milk = 5 − 4 = 1. Fraction = 1 / initial milk = <b>1/5</b>."
+      },
+      {
+        "id": 4,
+        "topic": "Geometry",
+        "question": "In a circle, a chord of length 48 cm is at a distance of 7 cm from the centre. What will be the length of another chord which is at a distance of 24 cm from the centre?",
+        "options": [
+          "14 cm",
+          "16 cm",
+          "18 cm",
+          "12 cm"
+        ],
+        "correct": 0,
+        "solution": "Half of first chord = 48 / 2 = 24 cm.<br>Radius r = √(24² + 7²) = √(576 + 49) = √625 = 25 cm (Triplet 7, 24, 25).<br>For second chord at distance 24 cm: Half chord = √(25² − 24²) = √49 = 7 cm.<br>Full length of second chord = 2 × 7 = <b>14 cm</b>.",
+        "shortcut": "⚡ <b>Symmetric Triplet (7, 24, 25):</b> If dist 7 gives half-chord 24, dist 24 gives half-chord 7 ⟹ Total = 2 × 7 = <b>14 cm</b>."
+      },
+      {
+        "id": 5,
+        "topic": "Algebra",
+        "question": "If 2x = 3y, evaluate: (x² − y²) / (x² + y² + xy).",
+        "options": [
+          "5 / 19",
+          "3 / 19",
+          "5 / 13",
+          "1 / 3"
+        ],
+        "correct": 0,
+        "solution": "x / y = 3 / 2. Put x = 3, y = 2.<br>Numerator = 3² − 2² = 9 − 4 = 5.<br>Denominator = 3² + 2² + (3)(2) = 9 + 4 + 6 = 19.<br>Value = <b>5 / 19</b>.",
+        "shortcut": "⚡ Put x = 3, y = 2 ⟹ (9 − 4)/(9 + 4 + 6) = <b>5/19</b>."
+      },
+      {
+        "id": 6,
+        "topic": "Geometry",
+        "question": "The length of a chord of a circle is 5 cm. If this chord subtends an angle of 30° at the circumference, what is the radius of the circle?",
+        "options": [
+          "5 cm",
+          "10 cm",
+          "2.5 cm",
+          "5√3 cm"
+        ],
+        "correct": 0,
+        "solution": "Angle subtended at the centre = 2 × 30° = 60°.<br>In △OAB, OA = OB = R and ∠AOB = 60° ⟹ △OAB is equilateral!<br>Therefore, Radius R = Chord length = <b>5 cm</b>.",
+        "shortcut": "⚡ <b>Property:</b> If angle at circumference is 30°, central angle is 60° ⟹ Radius = Chord = <b>5 cm</b>."
+      },
+      {
+        "id": 7,
+        "topic": "Mensuration 3D",
+        "question": "The radius of a right circular cone is R and its height is 3 times its radius. What is its Total Surface Area (TSA)?",
+        "options": [
+          "πR²(√10 + 1)",
+          "πR²(√10 − 1)",
+          "3πR²",
+          "πR²√10"
+        ],
+        "correct": 0,
+        "solution": "h = 3R. Slant height l = √(R² + (3R)²) = √(10R²) = R√10.<br>TSA = πR(l + R) = πR(R√10 + R) = <b>πR²(√10 + 1)</b>.",
+        "shortcut": "⚡ l = R√10 ⟹ TSA = πR(R√10 + R) = <b>πR²(√10 + 1)</b>."
+      },
+      {
+        "id": 8,
+        "topic": "Algebra",
+        "question": "If a + b + c = 0, find the value of (a³ + b³ + c³) / abc (where a, b, c ≠ 0).",
+        "options": [
+          "0",
+          "1",
+          "3",
+          "−3"
+        ],
+        "correct": 2,
+        "solution": "When a + b + c = 0, a³ + b³ + c³ = 3abc.<br>Therefore, (a³ + b³ + c³) / abc = 3abc / abc = <b>3</b>.",
+        "shortcut": "⚡ Standard identity: Value is always <b>3</b>."
+      },
+      {
+        "id": 9,
+        "topic": "Mensuration 2D",
+        "question": "A rectangular field is 40 m long and 30 m wide. A 2 m wide path runs around it on the outside. Find the area of the path.",
+        "options": [
+          "280 m²",
+          "296 m²",
+          "304 m²",
+          "312 m²"
+        ],
+        "correct": 1,
+        "solution": "Outer dimensions = (40 + 4) × (30 + 4) = 44 × 34 = 1,496 m².<br>Inner area = 40 × 30 = 1,200 m².<br>Path area = 1,496 − 1,200 = <b>296 m²</b>.",
+        "shortcut": "⚡ <b>Formula:</b> 2w(l + b + 2w) = 2(2)(40 + 30 + 4) = 4 × 74 = <b>296 m²</b>."
+      },
+      {
+        "id": 10,
+        "topic": "Trigonometry",
+        "question": "Evaluate: sin 30° cos 60° + sin 60° cos 30°.",
+        "options": [
+          "1/2",
+          "1",
+          "√3/2",
+          "5/4"
+        ],
+        "correct": 1,
+        "solution": "Identity: sin(A + B) = sin A cos B + cos A sin B.<br>sin(30° + 60°) = sin 90° = <b>1</b>.",
+        "shortcut": "⚡ sin(30° + 60°) = sin 90° = <b>1</b>."
+      }
+    ]
+  },
+  {
+    "shift_id": "oct12_imp",
+    "name": "12 October (Important Types)",
+    "date": "12 Oct 2026",
+    "questions": [
+      {
+        "id": 1,
+        "topic": "Number System",
+        "question": "What is the square of 196?",
+        "options": [
+          "38,416",
+          "38,216",
+          "39,416",
+          "37,816"
+        ],
+        "correct": 0,
+        "solution": "196² = (200 − 4)² = 200² − 2(200)(4) + 4² = 40,000 − 1,600 + 16 = <b>38,416</b>.",
+        "shortcut": "⚡ (200 − 4)² = 40000 − 1600 + 16 = <b>38,416</b>."
+      },
+      {
+        "id": 2,
+        "topic": "Trigonometry",
+        "question": "If tan A = 3/4, find the value of (sin A − 1)(sin A + 1).",
+        "options": [
+          "−16/25",
+          "16/25",
+          "−9/25",
+          "9/25"
+        ],
+        "correct": 0,
+        "solution": "(sin A − 1)(sin A + 1) = sin²A − 1 = −(1 − sin²A) = −cos²A.<br>tan A = 3/4 ⟹ Triplet (3, 4, 5) ⟹ cos A = 4/5.<br>−cos²A = −(4/5)² = <b>−16/25</b>.",
+        "shortcut": "⚡ sin²A − 1 = −cos²A = −(4/5)² = <b>−16/25</b>."
+      },
+      {
+        "id": 3,
+        "topic": "Partnership",
+        "question": "A and B invest in a business in the ratio 7 : 8. A withdraws after 7 months. If their profits are in the ratio 49 : 40, for how many months did B invest?",
+        "options": [
+          "4 months",
+          "5 months",
+          "6 months",
+          "8 months"
+        ],
+        "correct": 1,
+        "solution": "Profit Ratio = (Investment_A × Time_A) / (Investment_B × Time_B).<br>(7 × 7) / (8 × t) = 49 / 40 ⟹ 49 / (8t) = 49 / 40 ⟹ 8t = 40 ⟹ t = <b>5 months</b>.",
+        "shortcut": "⚡ 8t = 40 ⟹ t = <b>5 months</b>."
+      },
+      {
+        "id": 4,
+        "topic": "Geometry",
+        "question": "Two tangents are drawn to a circle of radius 7 cm such that the angle between them is 120°. Find the distance from the centre to the external point.",
+        "options": [
+          "14/√3 cm",
+          "7√3 cm",
+          "14 cm",
+          "7/√3 cm"
+        ],
+        "correct": 0,
+        "solution": "Line joining external point to centre bisects the 120° angle: half-angle = 60°.<br>In right triangle: sin 60° = Radius / Distance = 7 / d.<br>√3 / 2 = 7 / d ⟹ d = 14 / √3 = <b>14/√3 cm</b>.",
+        "shortcut": "⚡ d = r / sin(θ/2) = 7 / sin 60° = 7 / (√3/2) = <b>14/√3 cm</b>."
+      },
+      {
+        "id": 5,
+        "topic": "Profit & Loss",
+        "question": "If the cost price of 15 articles equals the selling price of 20 articles, find the loss percentage.",
+        "options": [
+          "20%",
+          "25%",
+          "33.33%",
+          "15%"
+        ],
+        "correct": 1,
+        "solution": "15 CP = 20 SP ⟹ SP / CP = 15 / 20 = 3 / 4.<br>Loss % = (1 − 3/4) × 100 = <b>25%</b>.",
+        "shortcut": "⚡ Loss % = [(20 − 15) / 20] × 100 = 5/20 = <b>25%</b>."
+      },
+      {
+        "id": 6,
+        "topic": "Mensuration 3D",
+        "question": "Find the total surface area of a right circular cone with base radius 4 units and vertical height 3 units.",
+        "options": [
+          "36π sq units",
+          "24π sq units",
+          "20π sq units",
+          "16π sq units"
+        ],
+        "correct": 0,
+        "solution": "Slant height l = √(4² + 3²) = 5 units (Triplet 3, 4, 5).<br>TSA = πr(l + r) = π × 4 × (5 + 4) = π × 4 × 9 = <b>36π sq units</b>.",
+        "shortcut": "⚡ Triplet (3, 4, 5) ⟹ l = 5. TSA = π(4)(5 + 4) = <b>36π</b>."
+      },
+      {
+        "id": 7,
+        "topic": "Mensuration 3D",
+        "question": "A conical tent has base radius 7 m and slant height 25 m. Find the cost of canvas for its curved surface at ₹22.50 per sq. metre.",
+        "options": [
+          "₹12,375",
+          "₹11,500",
+          "₹13,200",
+          "₹10,850"
+        ],
+        "correct": 0,
+        "solution": "CSA = πrl = (22/7) × 7 × 25 = 22 × 25 = 550 m².<br>Cost = 550 × ₹22.50 = 550 × (45 / 2) = 275 × 45 = <b>₹12,375</b>.",
+        "shortcut": "⚡ 550 × 22.5 = 1100 × 11.25 = <b>₹12,375</b>."
+      },
+      {
+        "id": 8,
+        "topic": "Geometry",
+        "question": "Two tangents PA and PB are drawn from external point P to a circle of radius 4 cm. If the angle between tangent PA and line PO is 30°, find the length of the tangent.",
+        "options": [
+          "4√3 cm",
+          "8 cm",
+          "4/√3 cm",
+          "6 cm"
+        ],
+        "correct": 0,
+        "solution": "∠PAO = 90° and ∠APO = 30°.<br>tan 30° = Radius / Tangent = 4 / PA.<br>1/√3 = 4 / PA ⟹ PA = <b>4√3 cm</b>.",
+        "shortcut": "⚡ PA = 4 / tan 30° = <b>4√3 cm</b>."
+      },
+      {
+        "id": 9,
+        "topic": "Geometry",
+        "question": "A chord of a circle is 16 cm long and its distance from the centre is 15 cm. Find the radius of the circle.",
+        "options": [
+          "17 cm",
+          "18 cm",
+          "19 cm",
+          "20 cm"
+        ],
+        "correct": 0,
+        "solution": "Half chord = 16 / 2 = 8 cm.<br>Radius r = √(15² + 8²) = √(225 + 64) = √289 = <b>17 cm</b>.",
+        "shortcut": "⚡ <b>Triplet (8, 15, 17):</b> Radius = <b>17 cm</b>."
+      },
+      {
+        "id": 10,
+        "topic": "Algebra",
+        "question": "If x = 2 + √3, find the value of x + 1/x.",
+        "options": [
+          "4",
+          "2√3",
+          "2",
+          "4√3"
+        ],
+        "correct": 0,
+        "solution": "1/x = 1 / (2 + √3) = 2 − √3.<br>x + 1/x = (2 + √3) + (2 − √3) = <b>4</b>.",
+        "shortcut": "⚡ 2 × first term = 2 × 2 = <b>4</b>."
+      },
+      {
+        "id": 11,
+        "topic": "Algebra",
+        "question": "If x + 1/x = 6, find the value of x⁵ + 1/x⁵.",
+        "options": [
+          "6,726",
+          "6,732",
+          "6,696",
+          "6,750"
+        ],
+        "correct": 0,
+        "solution": "x² + 1/x² = 6² − 2 = 34.<br>x³ + 1/x³ = 6³ − 3(6) = 216 − 18 = 198.<br>x⁵ + 1/x⁵ = (x² + 1/x²)(x³ + 1/x³) − (x + 1/x) = (34 × 198) − 6 = 6732 − 6 = <b>6,726</b>.",
+        "shortcut": "⚡ (34 × 198) − 6 = 6732 − 6 = <b>6,726</b>."
+      },
+      {
+        "id": 12,
+        "topic": "Mensuration 3D",
+        "question": "A solid pyramid has base area of 40 cm² and vertical height of 5 cm. Find its volume.",
+        "options": [
+          "200/3 cm³",
+          "100 cm³",
+          "200 cm³",
+          "150 cm³"
+        ],
+        "correct": 0,
+        "solution": "Volume = (1/3) × Base Area × Height = (1/3) × 40 × 5 = <b>200/3 cm³ (66.67 cm³)</b>.",
+        "shortcut": "⚡ (1/3) × 40 × 5 = <b>200/3 cm³</b>."
+      },
+      {
+        "id": 13,
+        "topic": "Geometry",
+        "question": "The number of sides of two regular polygons are in the ratio 1 : 2 and their interior angles are in the ratio 3 : 4. Find the number of sides of both polygons.",
+        "options": [
+          "5 and 10",
+          "4 and 8",
+          "6 and 12",
+          "3 and 6"
+        ],
+        "correct": 0,
+        "solution": "Let sides be n and 2n.<br>Interior angle of polygon 1 = [(n − 2) × 180°] / n.<br>Interior angle of polygon 2 = [(2n − 2) × 180°] / 2n.<br>Ratio: {[(n − 2)/n] / [(2n − 2)/2n]} = 3/4 ⟹ [(n − 2) / (n − 1)] = 3/4 ⟹ 4n − 8 = 3n − 3 ⟹ n = 5.<br>Sides are <b>5 and 10</b>.",
+        "shortcut": "⚡ Check options: For 5 and 10, angles are 108° and 144°. Ratio = 108/144 = 3/4. Matches <b>5 and 10</b>!"
+      }
+    ]
+  }
+]
