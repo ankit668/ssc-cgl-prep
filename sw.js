@@ -1,7 +1,9 @@
-const CACHE_NAME = 'ssc-prep-v41';
+const CACHE_NAME = 'ssc-prep-v42';
 const urlsToCache = [
   './',
   './index.html',
+  './practice_sets.html',
+  './practice_sets_data.json',
   './math_part1.html',
   './math_part1_data.json',
   './math_part2.html',
