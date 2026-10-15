@@ -1,0 +1,1052 @@
+[
+  {
+    "id": 1,
+    "topic": "Arithmetic",
+    "question": "The cost price of an article is first decreased by 20% and then increased by x%. If the\nfinal price is 12% more than the original cost price, find the value of x.",
+    "options": [
+      "35%",
+      "40%",
+      "45%",
+      "50%"
+    ],
+    "correct": 1,
+    "solution": "Let original CP = 100.<br>After 20% decrease, price = 80.<br>Then increased by x% to become 12% more than original CP = 112.<br>Increase = 112 − 80 = 32.<br>Percentage increase x = (32 / 80) × 100 = <b>40%</b>.",
+    "shortcut": "⚡ <b>Net Base Rule:</b> 100 → 80 → 112. The required jump on 80 is 32. 32/80 = 4/10 = <b>40%</b>."
+  },
+  {
+    "id": 2,
+    "topic": "Mensuration",
+    "question": "The diameter of a hemisphere is 7 cm. Find the cost of painting its curved surface area\nat the rate of ₹500 per sq. m. (Take π = 22/7)",
+    "options": [
+      "₹3.85",
+      "₹38.50",
+      "₹0.385",
+      "₹7.70"
+    ],
+    "correct": 0,
+    "solution": "Diameter = 7 cm ⟹ radius r = 3.5 cm = 0.035 m.<br>CSA of hemisphere = 2πr² = 2 × (22/7) × (7/2) × (7/2) = 77 cm².<br>In sq. m: 77 / 10,000 m² = 0.0077 m².<br>Cost = 0.0077 × ₹500 = <b>₹3.85</b>.",
+    "shortcut": "⚡ <b>Unit Conversion Trick:</b> CSA = 77 cm². Rate = ₹500 / 10,000 cm² = ₹0.05/cm². Total Cost = 77 × 0.05 = <b>₹3.85</b>."
+  },
+  {
+    "id": 3,
+    "topic": "Geometry",
+    "question": "In a circle of radius 35 cm, an arc subtends an angle of 72° at the centre. Find the\nlength of the arc. (Take π = 22/7)",
+    "options": [
+      "22 cm",
+      "33 cm",
+      "44 cm",
+      "66 cm"
+    ],
+    "correct": 2,
+    "solution": "Arc length l = (θ / 360°) × 2πr.<br>l = (72° / 360°) × 2 × (22/7) × 35 = (1/5) × (2 × 22 × 5) = <b>44 cm</b>.",
+    "shortcut": "⚡ <b>Angle Fraction:</b> 72°/360° = 1/5th of perimeter. Perimeter for r=35 is 220 cm. Arc = 220 / 5 = <b>44 cm</b>."
+  },
+  {
+    "id": 4,
+    "topic": "Algebra",
+    "question": "What is the value of ((6.25)^(3/2) − (1.44)^(3/2))/(6.25 + 1.44 + 3) ?",
+    "options": [
+      "1.2",
+      "1.3",
+      "1.7",
+      "2.5"
+    ],
+    "correct": 1,
+    "solution": "Notice that 6.25 = (2.5)² and 1.44 = (1.2)².<br>So (6.25)^(3/2) = (2.5)³ = a³ and (1.44)^(3/2) = (1.2)³ = b³.<br>Also a × b = 2.5 × 1.2 = 3.0!<br>Expression is (a³ − b³) / (a² + ab + b²) = a − b = 2.5 − 1.2 = <b>1.3</b>.",
+    "shortcut": "⚡ <b>Identity:</b> (a³ − b³)/(a² + ab + b²) = a − b. Here a = √6.25 = 2.5, b = √1.44 = 1.2. Ans = 2.5 − 1.2 = <b>1.3</b>."
+  },
+  {
+    "id": 5,
+    "topic": "Trigonometry",
+    "question": "If tan θ = 1/2, find the value of (cosec²θ + sec²θ)/(cosec²θ − sec²θ).",
+    "options": [
+      "3/5",
+      "5/3",
+      "4/5",
+      "5/4"
+    ],
+    "correct": 1,
+    "solution": "Given tan θ = 1/2 ⟹ cot θ = 2.<br>Divide numerator and denominator by sec²θ: (cosec²θ/sec²θ + 1) / (cosec²θ/sec²θ − 1) = (cot²θ + 1) / (cot²θ − 1).<br>Substitute cot θ = 2: (2² + 1) / (2² − 1) = (4 + 1) / (4 − 1) = <b>5/3</b>.",
+    "shortcut": "⚡ <b>Cotangent Trick:</b> cosec²θ/sec²θ = cot²θ = 4. Direct ratio = (4 + 1)/(4 − 1) = <b>5/3</b>."
+  },
+  {
+    "id": 6,
+    "topic": "Trigonometry",
+    "question": "If sin θ + cos θ = √2, find the value of sin⁴θ + cos⁴θ.",
+    "options": [
+      "1/4",
+      "3/4",
+      "1/2",
+      "1"
+    ],
+    "correct": 2,
+    "solution": "sin θ + cos θ = √2 holds when θ = 45° (since 1/√2 + 1/√2 = 2/√2 = √2).<br>Then sin⁴(45°) + cos⁴(45°) = (1/√2)⁴ + (1/√2)⁴ = 1/4 + 1/4 = <b>1/2</b>.",
+    "shortcut": "⚡ <b>Value Putting:</b> θ = 45°. (1/√2)⁴ + (1/√2)⁴ = 1/4 + 1/4 = <b>1/2</b>."
+  },
+  {
+    "id": 7,
+    "topic": "Mensuration",
+    "question": "The volume of a right circular cone is 900π cu. cm and its height is 12 cm. Find the\nradius of its base.",
+    "options": [
+      "10 cm",
+      "12 cm",
+      "15 cm",
+      "18 cm"
+    ],
+    "correct": 2,
+    "solution": "Volume of cone = (1/3)πr²h = 900π.<br>(1/3) × r² × 12 = 900 ⟹ 4r² = 900 ⟹ r² = 225 ⟹ r = <b>15 cm</b>.",
+    "shortcut": "⚡ r² = 3 × 900 / 12 = 225 ⟹ r = <b>15 cm</b>."
+  },
+  {
+    "id": 8,
+    "topic": "Mensuration",
+    "question": "The ratio of the height to the radius of a cylinder is 3 : 1. Find its total surface area\n(TSA) in terms of the radius r.",
+    "options": [
+      "6πr²",
+      "8πr²",
+      "10πr²",
+      "4πr²"
+    ],
+    "correct": 1,
+    "solution": "Given h/r = 3/1 ⟹ h = 3r.<br>TSA of cylinder = 2πr(h + r) = 2πr(3r + r) = 2πr(4r) = <b>8πr²</b>.",
+    "shortcut": "⚡ TSA = 2πr(h+r) = 2πr(3r+r) = 2πr(4r) = <b>8πr²</b>."
+  },
+  {
+    "id": 9,
+    "topic": "Geometry",
+    "question": "The difference between two complementary angles is 60°. Find the measure of both\nangles.",
+    "options": [
+      "70° and 20°",
+      "80° and 10°",
+      "75° and 15°",
+      "65° and 25°"
+    ],
+    "correct": 2,
+    "solution": "Two complementary angles add to 90°: A + B = 90°.<br>Given difference A − B = 60°.<br>Adding: 2A = 150° ⟹ A = 75°.<br>B = 90° − 75° = 15°.<br>Angles are <b>75° and 15°</b>.",
+    "shortcut": "⚡ A = (90 + 60)/2 = 75°, B = (90 − 60)/2 = 15°."
+  },
+  {
+    "id": 10,
+    "topic": "Arithmetic",
+    "question": "The cost price of 15 articles is equal to the selling price of 12 articles. Find the profit\npercentage.",
+    "options": [
+      "20%",
+      "25%",
+      "30%",
+      "100/3%"
+    ],
+    "correct": 1,
+    "solution": "15 CP = 12 SP ⟹ SP / CP = 15 / 12 = 5 / 4.<br>Profit % = (5 − 4) / 4 × 100 = (1/4) × 100 = <b>25%</b>.",
+    "shortcut": "⚡ Profit % = (Difference / Articles Sold) × 100 = (3 / 12) × 100 = <b>25%</b>."
+  },
+  {
+    "id": 11,
+    "topic": "Arithmetic",
+    "question": "If ‘+’ means ‘÷’, ‘−’ means ‘×’, ‘×’ means ‘+’ and ‘÷’ means ‘−’, then evaluate: 36 + 6 − 3\n× 8 ÷ 4",
+    "options": [
+      "18",
+      "20",
+      "22",
+      "26"
+    ],
+    "correct": 2,
+    "solution": "Replace operators: 36 ÷ 6 × 3 + 8 − 4.<br>BODMAS: (36 ÷ 6) = 6.<br>6 × 3 = 18.<br>18 + 8 − 4 = <b>22</b>.",
+    "shortcut": "⚡ 6 × 3 + 4 = 18 + 4 = <b>22</b>."
+  },
+  {
+    "id": 12,
+    "topic": "Trigonometry",
+    "question": "The angle of elevation of the top of a vertical tower from a point on the ground, which\nis 30 m away from the foot of the tower, is 30°. Find the height of the tower.",
+    "options": [
+      "15 m",
+      "10√3 m",
+      "30√3 m",
+      "10 m"
+    ],
+    "correct": 1,
+    "solution": "Let height be h. In right triangle, tan 30° = h / 30.<br>1/√3 = h / 30 ⟹ h = 30 / √3 = <b>10√3 m</b>.",
+    "shortcut": "⚡ 30°-60°-90° Triangle: Side opposite 30° is base / √3 = 30 / √3 = <b>10√3 m</b>."
+  },
+  {
+    "id": 13,
+    "topic": "Trigonometry",
+    "question": "If √5 sin θ = 1 (θ is an acute angle), find the value of (3cos θ + 2tan θ)/(cos θ − sin θ).",
+    "options": [
+      "5 + √6",
+      "6 + √5",
+      "6 − √5",
+      "6/(√5)"
+    ],
+    "correct": 1,
+    "solution": "sin θ = 1/√5. Perpendicular = 1, Hypotenuse = √5 ⟹ Base = √(5 − 1) = 2.<br>cos θ = 2/√5, tan θ = 1/2.<br>Numerator: 3(2/√5) + 2(1/2) = 6/√5 + 1 = (6 + √5)/√5.<br>Denominator: cos θ − sin θ = 2/√5 − 1/√5 = 1/√5.<br>Value = [(6 + √5)/√5] / [1/√5] = <b>6 + √5</b>.",
+    "shortcut": "⚡ Multiply both parts by √5: (3·2 + √5·1) / (2 − 1) = <b>6 + √5</b>."
+  },
+  {
+    "id": 14,
+    "topic": "Trigonometry",
+    "question": "If 20 sin θ + 21 cos θ = 29, find the value of sin θ + cos θ.",
+    "options": [
+      "41/29",
+      "40/29",
+      "29/41",
+      "21/29"
+    ],
+    "correct": 0,
+    "solution": "Notice (20, 21, 29) forms a Pythagorean triplet: 20² + 21² = 400 + 441 = 841 = 29².<br>Divide by 29: (20/29)sin θ + (21/29)cos θ = 1.<br>This means sin θ = 20/29 and cos θ = 21/29.<br>sin θ + cos θ = (20 + 21) / 29 = <b>41/29</b>.",
+    "shortcut": "⚡ <b>Triplet Shortcut:</b> For a·sin θ + b·cos θ = c with a² + b² = c²: sin θ + cos θ = (a + b) / c = (20 + 21) / 29 = <b>41/29</b>."
+  },
+  {
+    "id": 15,
+    "topic": "Algebra",
+    "question": "If x = 1/(√(199 − 60√11)), find the value of x + 1/x.",
+    "options": [
+      "10",
+      "20",
+      "10√11",
+      "19"
+    ],
+    "correct": 1,
+    "solution": "√(199 − 60√11) = √(199 − 2·30√11) = √(199 − 2√9900).<br>Factors of 9900 adding to 199 are 100 and 99.<br>So root is √100 − √99 = 10 − 3√11.<br>x = 1 / (10 − 3√11) = 10 + 3√11.<br>1/x = 10 − 3√11.<br>x + 1/x = (10 + 3√11) + (10 − 3√11) = <b>20</b>.",
+    "shortcut": "⚡ Rationalized root = 10 + 3√11. Since 10² − (3√11)² = 100 − 99 = 1, x + 1/x = 2 × 10 = <b>20</b>."
+  },
+  {
+    "id": 16,
+    "topic": "Algebra",
+    "question": "If x = 1 and y = 2 is a solution of the linear equation 2x + 3y = k, find the value of k.",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correct": 2,
+    "solution": "Substitute x = 1 and y = 2 into 2x + 3y = k:<br>2(1) + 3(2) = 2 + 6 = <b>8</b>.",
+    "shortcut": "⚡ 2 + 6 = <b>8</b>."
+  },
+  {
+    "id": 17,
+    "topic": "Algebra",
+    "question": "If a + b = 20 and ab = 84, find the value of a⁴ + b⁴.",
+    "options": [
+      "38712",
+      "39712",
+      "39172",
+      "40712"
+    ],
+    "correct": 1,
+    "solution": "a² + b² = (a + b)² − 2ab = 20² − 2(84) = 400 − 168 = 232.<br>a⁴ + b⁴ = (a² + b²)² − 2(ab)² = 232² − 2(84²).<br>232² = 53,824; 84² = 7,056 ⟹ 2(7056) = 14,112.<br>53,824 − 14,112 = <b>39,712</b>.",
+    "shortcut": "⚡ <b>Last 2 Digits:</b> 32² = 1024 (ends in 24). 2 × 84² ends in 2 × 56 = 112 (ends in 12). 24 − 12 = 12. Option ending in 712: <b>39712</b>."
+  },
+  {
+    "id": 18,
+    "topic": "Coordinate Geometry",
+    "question": "If the slope of a straight line is a/b, find the slope of the line perpendicular to it.",
+    "options": [
+      "b/a",
+      "−b/a",
+      "−a/b",
+      "a/b"
+    ],
+    "correct": 1,
+    "solution": "For two perpendicular lines, product of slopes m₁ × m₂ = −1.<br>Given m₁ = a/b ⟹ m₂ = −1 / (a/b) = <b>−b/a</b>.",
+    "shortcut": "⚡ Perpendicular slope is negative reciprocal: a/b ⟹ <b>−b/a</b>."
+  },
+  {
+    "id": 19,
+    "topic": "Geometry",
+    "question": "In triangle ABC and triangle PQR, if ∠A = ∠P such that ∠A = x + 60° and ∠P = 85° − 4x,\nfind the value of x.",
+    "options": [
+      "4°",
+      "5°",
+      "6°",
+      "10°"
+    ],
+    "correct": 1,
+    "solution": "Given ∠A = ∠P ⟹ x + 60° = 85° − 4x.<br>5x = 85° − 60° = 25° ⟹ x = <b>5°</b>.",
+    "shortcut": "⚡ 5x = 25 ⟹ x = <b>5°</b>."
+  },
+  {
+    "id": 20,
+    "topic": "Arithmetic",
+    "question": "Find the total amount on a principal of ₹2,500 invested at 10% per annum simple\ninterest for 4 years.",
+    "options": [
+      "₹3,000",
+      "₹3,500",
+      "₹4,000",
+      "₹1,000"
+    ],
+    "correct": 1,
+    "solution": "SI = (P × R × T) / 100 = (2500 × 10 × 4) / 100 = ₹1,000.<br>Total Amount = P + SI = 2500 + 1000 = <b>₹3,500</b>.",
+    "shortcut": "⚡ Amount % = 100% + (10 × 4)% = 140%. 1.4 × 2500 = <b>₹3,500</b>."
+  },
+  {
+    "id": 21,
+    "topic": "Mensuration",
+    "question": "The radius of a circular wheel is 52.5 cm. Find the total distance (in metres) covered\nby the wheel in 40 complete revolutions. (Take π = 22/7)",
+    "options": [
+      "132 m",
+      "66 m",
+      "264 m",
+      "3.3 m"
+    ],
+    "correct": 0,
+    "solution": "Circumference = 2πr = 2 × (22/7) × 52.5 cm = 330 cm = 3.3 m.<br>Distance in 40 revolutions = 40 × 3.3 m = <b>132 m</b>.",
+    "shortcut": "⚡ 2 × 22/7 × 52.5 = 330 cm = 3.3 m. 40 × 3.3 = <b>132 m</b>."
+  },
+  {
+    "id": 22,
+    "topic": "Arithmetic",
+    "question": "The average salary of 36 employees is ₹25,000. The average salary of 9 of these\nemployees is 40% more than the average salary of the remaining employees. By what\npercentage is the overall average salary of all 36 employees more than the average salary of\nthe remaining employees?",
+    "options": [
+      "8%",
+      "10%",
+      "12%",
+      "15%"
+    ],
+    "correct": 1,
+    "solution": "Total employees = 36. Two groups: 9 employees and 27 employees (ratio 1 : 3).<br>Let average of remaining 27 employees = 100.<br>Average of 9 employees = 140.<br>Overall average = (1 × 140 + 3 × 100) / 4 = 440 / 4 = 110.<br>Percentage increase over remaining = (110 − 100) = <b>10%</b>.",
+    "shortcut": "⚡ <b>Weighted Alligation:</b> Weight ratio = 9 : 27 = 1 : 3. Overall jump = (1 × 40%) / (1 + 3) = 40% / 4 = <b>10%</b>."
+  },
+  {
+    "id": 23,
+    "topic": "Arithmetic",
+    "question": "An article is sold at a discount of 10% on its marked price, yielding a profit of 20%.\nWhat would be the profit percentage if the article is sold at its marked price without any\ndiscount?",
+    "options": [
+      "25%",
+      "100/3% (≈ 33.33%)",
+      "30%",
+      "40%"
+    ],
+    "correct": 1,
+    "solution": "Formula: MP / CP = (100 + P%) / (100 − D%) = (100 + 20) / (100 − 10) = 120 / 90 = 4 / 3.<br>When sold at MP (no discount): Profit % = (MP − CP) / CP × 100 = (4 − 3)/3 × 100 = <b>100/3% (33.33%)</b>.",
+    "shortcut": "⚡ MP/CP = 120/90 = 4/3. Selling at MP gives profit of 1/3 = <b>33.33%</b>."
+  },
+  {
+    "id": 24,
+    "topic": "Geometry",
+    "question": "The average of all the interior angles of a polygon is 12° less than its largest interior\nangle. If the largest interior angle is 4/3 of a right angle, find the number of sides of the\npolygon.",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "8\nPart 2"
+    ],
+    "correct": 1,
+    "solution": "Largest interior angle = (4/3) × 90° = 120°.<br>Average of all interior angles = 120° − 12° = 108°.<br>Each angle in regular polygon of n sides = ((n − 2) × 180°) / n = 108°.<br>Exterior angle = 180° − 108° = 72°.<br>Number of sides n = 360° / 72° = <b>5</b>.",
+    "shortcut": "⚡ Exterior angle = 180° − 108° = 72°. Sides n = 360° / 72° = <b>5</b>."
+  },
+  {
+    "id": 25,
+    "topic": "Trigonometry",
+    "question": "If sin θ + cos θ = √2, find the value of sin⁴θ + cos⁴θ.",
+    "options": [
+      "1/2",
+      "1/4",
+      "1",
+      "3/4"
+    ],
+    "correct": 0,
+    "solution": "sin θ + cos θ = √2 ⟹ θ = 45°.<br>sin⁴(45°) + cos⁴(45°) = (1/√2)⁴ + (1/√2)⁴ = 1/4 + 1/4 = <b>1/2</b>.",
+    "shortcut": "⚡ Put θ = 45°: (1/4) + (1/4) = <b>1/2</b>."
+  },
+  {
+    "id": 26,
+    "topic": "Geometry",
+    "question": "How many common tangents can be drawn to two external circles that do not touch\neach other?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 3,
+    "solution": "For two non-intersecting and non-touching circles lying outside each other:<br>There are 2 Direct Common Tangents (DCT) and 2 Transverse Common Tangents (TCT).<br>Total common tangents = <b>4</b>.",
+    "shortcut": "⚡ Non-touching external circles always have <b>4</b> tangents (2 direct + 2 transverse)."
+  },
+  {
+    "id": 27,
+    "topic": "Geometry",
+    "question": "AD is a diameter of a circle and AD = 34 cm. B and C are points on the semicircle such\nthat chords AB = BC = 17 cm. Find the length of chord CD.",
+    "options": [
+      "8.5 cm",
+      "17 cm",
+      "17√2 cm",
+      "17√3 cm"
+    ],
+    "correct": 1,
+    "solution": "Diameter AD = 34 cm ⟹ radius r = 17 cm.<br>Chord AB = 17 cm and BC = 17 cm. Since OA = OB = OC = OD = 17 cm, △OAB and △OBC are equilateral!<br>∠AOB = 60° and ∠BOC = 60°.<br>Since AOD is a straight line (180°), ∠COD = 180° − (60° + 60°) = 60°.<br>△COD is also equilateral with side 17 cm ⟹ CD = <b>17 cm</b>.",
+    "shortcut": "⚡ Chords of length r subtend 60° at center. 60° + 60° + 60° = 180° (semicircle). Thus CD = r = <b>17 cm</b>."
+  },
+  {
+    "id": 28,
+    "topic": "Arithmetic",
+    "question": "A principal of ₹10,500 amounts to ₹13,650 in 3 years at simple interest. If the interest\nrate is increased by 2% for the same principal and time period, what will be the new\namount?",
+    "options": [
+      "₹14,000",
+      "₹14,280",
+      "₹14,500",
+      "₹13,860"
+    ],
+    "correct": 1,
+    "solution": "Original SI = 13650 − 10500 = ₹3,150.<br>Increase in interest = (P × ΔR × T) / 100 = (10500 × 2 × 3) / 100 = ₹630.<br>New Amount = 13650 + 630 = <b>₹14,280</b>.",
+    "shortcut": "⚡ Extra interest = 10,500 × (2% × 3) = 10,500 × 6% = ₹630. New Amount = 13,650 + 630 = <b>₹14,280</b>."
+  },
+  {
+    "id": 29,
+    "topic": "Geometry",
+    "question": "In triangle ABC, altitudes BE ⟂ AC and AD ⟂ BC intersect at H. If ∠BAC = 60° and ∠C =\n45°, find the measure of ∠ABC.",
+    "options": [
+      "60°",
+      "70°",
+      "75°",
+      "85°"
+    ],
+    "correct": 2,
+    "solution": "In △ABC, sum of three angles = 180°.<br>∠BAC = 60° and ∠C = 45°.<br>∠ABC = 180° − (60° + 45°) = 180° − 105° = <b>75°</b>.",
+    "shortcut": "⚡ Direct angle sum: 180° − (60° + 45°) = <b>75°</b>. (Altitudes are distractors!)."
+  },
+  {
+    "id": 30,
+    "topic": "Geometry",
+    "question": "From an external point P, a tangent PT touches a circle at T, and a secant through P\nmeets the circle at A and B (A nearer to P). If PA = 4 cm and AB = 5 cm, find the length of\ntangent PT.",
+    "options": [
+      "5 cm",
+      "6 cm",
+      "7 cm",
+      "√20 cm"
+    ],
+    "correct": 1,
+    "solution": "Secant-Tangent Theorem: PT² = PA × PB.<br>Given PA = 4 cm, AB = 5 cm ⟹ PB = PA + AB = 4 + 5 = 9 cm.<br>PT² = 4 × 9 = 36 ⟹ PT = <b>6 cm</b>.",
+    "shortcut": "⚡ PT = √(4 × 9) = √36 = <b>6 cm</b>."
+  },
+  {
+    "id": 31,
+    "topic": "Mensuration",
+    "question": "The volume of a right circular cone is 1232 cm³ and its vertical height is 24 cm. Find\nthe curved surface area (CSA) of the cone. (Take π = 22/7)",
+    "options": [
+      "528 cm²",
+      "550 cm²",
+      "572 cm²",
+      "154 cm²"
+    ],
+    "correct": 1,
+    "solution": "Volume = (1/3)πr²h = 1232.<br>(1/3) × (22/7) × r² × 24 = 1232 ⟹ (176/7)r² = 1232 ⟹ r² = 49 ⟹ r = 7 cm.<br>Slant height l = √(r² + h²) = √(7² + 24²) = 25 cm.<br>CSA = πrl = (22/7) × 7 × 25 = 22 × 25 = <b>550 cm²</b>.",
+    "shortcut": "⚡ Triplet (7, 24, 25) ⟹ l = 25. CSA = 22 × 25 = <b>550 cm²</b>."
+  },
+  {
+    "id": 32,
+    "topic": "Arithmetic",
+    "question": "The efficiency ratio of three workers A, B and C is 3 : 4 : 5. Working together, they can\ncomplete a piece of work in 20 days. In how many days can C alone complete the same\nwork?",
+    "options": [
+      "40 days",
+      "45 days",
+      "48 days",
+      "50 days"
+    ],
+    "correct": 2,
+    "solution": "Total efficiency = 3 + 4 + 5 = 12 units/day.<br>Total work = 12 × 20 = 240 units.<br>Time taken by C alone = 240 / 5 = <b>48 days</b>.",
+    "shortcut": "⚡ Total work = 12 × 20 = 240. C's days = 240 / 5 = <b>48 days</b>."
+  },
+  {
+    "id": 33,
+    "topic": "Arithmetic",
+    "question": "A, B and C can complete a piece of work in 12, 15 and 20 days respectively. They\nstarted the work together, but A left after 3 days and B left 2 days before the completion of\nthe work. In how many days was the total work completed?",
+    "options": [
+      "53/7 days (74/7 days)",
+      "50/7 days",
+      "8 days",
+      "55/7 days"
+    ],
+    "correct": 0,
+    "solution": "Total work = LCM(12, 15, 20) = 60 units.<br>Efficiencies: A = 5, B = 4, C = 3 units/day.<br>In first 3 days, (A+B+C) do 3 × (5+4+3) = 36 units. Remaining = 24 units.<br>A leaves. In the last 2 days, C works alone: 2 × 3 = 6 units. Remaining = 18 units.<br>Time for (B+C) together = 18 / (4+3) = 18/7 days.<br>Total time = 3 + 18/7 + 2 = 5 + 18/7 = <b>53/7 days (7 4/7 days)</b>.",
+    "shortcut": "⚡ Work = 60. A works 3 days = 15 units. If B didn't leave 2 days early, he'd do 2 × 4 = 8 extra units. Work for B & C = 60 − 15 + 8 = 53. Days = <b>53/7 days</b>."
+  },
+  {
+    "id": 34,
+    "topic": "Arithmetic",
+    "question": "Find the value of ((6.25)^(1/2) + (0.729)^(2/3))/((1.44)^(1/2) − (0.16)^(1/2)).",
+    "options": [
+      "3.31",
+      "4.1375",
+      "4.15",
+      "4.0125"
+    ],
+    "correct": 1,
+    "solution": "Numerator: √(6.25) + (0.729)^(2/3) = 2.5 + ((0.9)³)^(2/3) = 2.5 + (0.9)² = 2.5 + 0.81 = 3.31.<br>Denominator: √(1.44) − √(0.16) = 1.2 − 0.4 = 0.8.<br>Value = 3.31 / 0.8 = 33.1 / 8 = <b>4.1375</b>.",
+    "shortcut": "⚡ 3.31 / 0.8 = 33.1 / 8 = <b>4.1375</b>."
+  },
+  {
+    "id": 35,
+    "topic": "Arithmetic",
+    "question": "An article is sold at a profit of 20%. If it had been bought at 10% less and sold for ₹1\nless, a profit of 25% would have been gained. Find the cost price (CP) of the article.",
+    "options": [
+      "₹10",
+      "₹40/3 (≈ ₹13.33)",
+      "₹15",
+      "₹12.50"
+    ],
+    "correct": 1,
+    "solution": "Let CP = 100x. Initial SP = 120x.<br>New CP = 90x. New profit = 25% ⟹ New SP = 90x × 1.25 = 112.5x.<br>Difference in SP = 120x − 112.5x = 7.5x.<br>Given 7.5x = ₹1 ⟹ x = 1 / 7.5 = 2/15.<br>CP = 100x = 100 × (2/15) = 200/15 = <b>₹40/3 (₹13.33)</b>.",
+    "shortcut": "⚡ Shift in SP = 120% − (90% × 1.25) = 120% − 112.5% = 7.5%. 7.5% = ₹1 ⟹ 100% = 100 / 7.5 = <b>₹40/3</b>."
+  },
+  {
+    "id": 36,
+    "topic": "Arithmetic",
+    "question": "A, B and C enter into a partnership with their investments in the ratio 3 : 5 : 7. If the\ntotal annual profit earned from the business is ₹45,000, find the profit share of B.",
+    "options": [
+      "₹9,000",
+      "₹12,000",
+      "₹15,000",
+      "₹18,000"
+    ],
+    "correct": 2,
+    "solution": "Ratio of investment = 3 : 5 : 7. Total parts = 15.<br>B's share = (5 / 15) × ₹45,000 = (1/3) × 45,000 = <b>₹15,000</b>.",
+    "shortcut": "⚡ 5/15 = 1/3 of 45,000 = <b>₹15,000</b>."
+  },
+  {
+    "id": 37,
+    "topic": "Trigonometry",
+    "question": "If sin x + cos x = √2, find the value of sin²x + cos²x.",
+    "options": [
+      "0",
+      "1/2",
+      "1",
+      "√2"
+    ],
+    "correct": 2,
+    "solution": "Fundamental trigonometric identity: for all real angles x, sin²x + cos²x = <b>1</b>.",
+    "shortcut": "⚡ Universal identity: sin²x + cos²x is always <b>1</b> regardless of the condition!"
+  },
+  {
+    "id": 38,
+    "topic": "Arithmetic",
+    "question": "An article is sold for ₹960 after allowing a discount of 20% on its marked price. If the\nseller earns a profit of 20% in the transaction, find the cost price (CP) of the article.",
+    "options": [
+      "₹720",
+      "₹800",
+      "₹1,000",
+      "₹960"
+    ],
+    "correct": 1,
+    "solution": "SP = ₹960, Profit = 20%.<br>CP = SP / (1 + Profit%) = 960 / 1.2 = <b>₹800</b>.",
+    "shortcut": "⚡ CP = 960 / 1.2 = <b>₹800</b>. (The discount info is irrelevant!)."
+  },
+  {
+    "id": 39,
+    "topic": "Algebra",
+    "question": "If x = 7 + 4√3, find the value of √x + 1/(√x).",
+    "options": [
+      "2",
+      "4",
+      "7/2",
+      "2√3"
+    ],
+    "correct": 1,
+    "solution": "x = 7 + 4√3 = (2 + √3)² ⟹ √x = 2 + √3.<br>1/√x = 1 / (2 + √3) = 2 − √3.<br>√x + 1/√x = (2 + √3) + (2 − √3) = <b>4</b>.",
+    "shortcut": "⚡ √x = 2 + √3. Add conjugate: 2 × 2 = <b>4</b>."
+  },
+  {
+    "id": 40,
+    "topic": "Algebra",
+    "question": "If X = (3a + 5b)² and Y = (3a − 5b)², find the value of (X − Y).",
+    "options": [
+      "30ab",
+      "60ab",
+      "15ab",
+      "120ab\nPart 3"
+    ],
+    "correct": 1,
+    "solution": "Formula: (A + B)² − (A − B)² = 4AB.<br>Here A = 3a, B = 5b.<br>X − Y = 4(3a)(5b) = <b>60ab</b>.",
+    "shortcut": "⚡ (u+v)² − (u−v)² = 4uv = 4 × 3a × 5b = <b>60ab</b>."
+  },
+  {
+    "id": 41,
+    "topic": "Trigonometry",
+    "question": "The angle of elevation of the top of a vertical tower from a point on the ground is 30°.\nIf the distance from the point to the foot of the tower is 30√3 m, find the height of the tower.",
+    "options": [
+      "30√3 m",
+      "10√3 m",
+      "30 m",
+      "90 m"
+    ],
+    "correct": 2,
+    "solution": "In right triangle, tan 30° = h / (30√3).<br>1/√3 = h / (30√3) ⟹ h = 30√3 / √3 = <b>30 m</b>.",
+    "shortcut": "⚡ Height = Base × tan 30° = 30√3 × (1/√3) = <b>30 m</b>."
+  },
+  {
+    "id": 42,
+    "topic": "Algebra",
+    "question": "If x − 1/x = 2, find the value of x⁴ + 1/(x⁴).",
+    "options": [
+      "32",
+      "34",
+      "36",
+      "38"
+    ],
+    "correct": 1,
+    "solution": "Given x − 1/x = 2.<br>x² + 1/x² = 2² + 2 = 6.<br>x⁴ + 1/x⁴ = 6² − 2 = 36 − 2 = <b>34</b>.",
+    "shortcut": "⚡ k² + 2 = 6 ⟹ 6² − 2 = <b>34</b>."
+  },
+  {
+    "id": 43,
+    "topic": "Algebra",
+    "question": "Factorise the algebraic expression: a² + b² + 2ab.",
+    "options": [
+      "(a − b)²",
+      "(a + b)²",
+      "(a + b)(a − b)",
+      "a² + b²"
+    ],
+    "correct": 1,
+    "solution": "Standard algebraic identity: a² + 2ab + b² = <b>(a + b)²</b>.",
+    "shortcut": "⚡ Direct identity: <b>(a + b)²</b>."
+  },
+  {
+    "id": 44,
+    "topic": "Arithmetic",
+    "question": "Find the compound interest on ₹1,00,000 for 9 months at 12% per annum,\ncompounded quarterly.",
+    "options": [
+      "₹9,000",
+      "₹9,272.70",
+      "₹12,000",
+      "₹9,727.20"
+    ],
+    "correct": 1,
+    "solution": "P = ₹1,00,000. Compounded quarterly: R = 12%/4 = 3% per quarter. Time = 9 months = 3 quarters.<br>A = 100000 × (1.03)³ = 100000 × 1.092727 = ₹1,09,272.70.<br>CI = A − P = <b>₹9,272.70</b>.",
+    "shortcut": "⚡ Effective 3% for 3 periods = 3(3) + 3(0.09) + 0.0027 = 9.2727%. CI = 1,00,000 × 9.2727% = <b>₹9,272.70</b>."
+  },
+  {
+    "id": 45,
+    "topic": "Data Interpretation",
+    "question": "In a clustered bar graph representing data for 4 districts across 5 different seasons,\nhow many bars will be displayed in total? (Illustrative graph below — each district has one\nbar for each season.)\nChart data (bar): categories District A, District B, District C, District D; Summer: 40, 55, 35,\n60; Monsoon: 70, 45, 80, 50; Autumn: 30, 65, 55, 40; Winter: 50, 35, 45, 75; Spring: 60, 70,\n25, 55",
+    "options": [
+      "9",
+      "16",
+      "20",
+      "24"
+    ],
+    "correct": 2,
+    "solution": "Each district displays one bar for each season.<br>Total bars = Number of districts × Number of seasons = 4 × 5 = <b>20</b>.",
+    "shortcut": "⚡ 4 × 5 = <b>20 bars</b>."
+  },
+  {
+    "id": 46,
+    "topic": "Data Interpretation",
+    "question": "The bar graph shows the production of bikes (in thousands) by a company over four\nconsecutive years: 2021 (40), 2022 (55), 2023 (65) and 2024 (80). Find the percentage\nincrease in production from 2021 to 2024.\nChart data (bar): categories 2021, 2022, 2023, 2024; Production (thousands): 40, 55, 65,\n80",
+    "options": [
+      "50%",
+      "75%",
+      "100%",
+      "125%"
+    ],
+    "correct": 2,
+    "solution": "Production in 2021 = 40 thousand; Production in 2024 = 80 thousand.<br>Increase = 80 − 40 = 40 thousand.<br>Percentage increase = (40 / 40) × 100 = <b>100%</b>.",
+    "shortcut": "⚡ 40 to 80 is double ⟹ <b>100% increase</b>."
+  },
+  {
+    "id": 47,
+    "topic": "Data Interpretation",
+    "question": "The bar graph records male and female employees across three departments: P (120\nmales, 80 females), Q (150 males, 100 females) and R (180 males, 120 females). Find the\nratio of total male employees to total female employees across all three departments.\nChart data (bar): categories P, Q, R; Males: 120, 150, 180; Females: 80, 100, 120",
+    "options": [
+      "2 : 3",
+      "3 : 2",
+      "5 : 3",
+      "9 : 5"
+    ],
+    "correct": 1,
+    "solution": "Total Males = 120 + 150 + 180 = 450.<br>Total Females = 80 + 100 + 120 = 300.<br>Ratio = 450 : 300 = <b>3 : 2</b>.",
+    "shortcut": "⚡ 450 : 300 = <b>3 : 2</b>."
+  },
+  {
+    "id": 48,
+    "topic": "Arithmetic",
+    "question": "A, B and C enter into a partnership. A invests ₹50,000 for the entire year. B invests\n₹80,000 initially and withdraws ₹30,000 after 4 months. C joins after 4 months with\n₹1,05,000. If A receives 10% of the total profit of ₹1,44,000 as a management salary and the\nremainder is divided in their investment ratio, find the total earnings of A.",
+    "options": [
+      "₹36,000",
+      "₹14,400",
+      "₹50,400",
+      "₹64,800"
+    ],
+    "correct": 2,
+    "solution": "Total Profit = ₹1,44,000. A's salary = 10% = ₹14,400.<br>Remaining profit = 1,44,000 − 14,400 = ₹1,29,600.<br>Investment months:<br>A = 50,000 × 12 = 6,00,000 (ratio 60)<br>B = (80,000 × 4) + (50,000 × 8) = 7,20,000 (ratio 72)<br>C = 1,05,000 × 8 = 8,40,000 (ratio 84)<br>Ratio A:B:C = 5 : 6 : 7. Sum = 18 parts.<br>A's profit share = (5/18) × 1,29,600 = ₹36,000.<br>Total earnings of A = 14,400 + 36,000 = <b>₹50,400</b>.",
+    "shortcut": "⚡ Total A = 14,400 + (5/18 × 1,29,600) = 14,400 + 36,000 = <b>₹50,400</b>."
+  },
+  {
+    "id": 49,
+    "topic": "Arithmetic",
+    "question": "Two trains P and Q start simultaneously from stations X and Y towards each other.\nAfter crossing, train P takes 4 hours 48 minutes to reach Y, and train Q takes 3 hours 20\nminutes to reach X. If train P runs at 45 km/h, and on its return trip from Y to X it increases\nits speed to 60 km/h with two 12-minute halts, find the total return time of train P.",
+    "options": [
+      "6 hours 36 minutes",
+      "7 hours",
+      "7 hours 24 minutes",
+      "6 hours"
+    ],
+    "correct": 1,
+    "solution": "Crossing formula: S₁ / S₂ = √(T₂ / T₁).<br>T₁ = 4 h 48 m = 24/5 h; T₂ = 3 h 20 m = 10/3 h.<br>S_P / S_Q = √((10/3) / (24/5)) = √(50/72) = √(25/36) = 5/6.<br>Since S_P = 45 km/h ⟹ S_Q = 54 km/h.<br>Meeting time t = √(T₁ × T₂) = √((24/5) × (10/3)) = √16 = 4 h.<br>Total Distance XY = (45 + 54) × 4 = 99 × 4 = 396 km.<br>Return trip: Running time = 396 / 60 = 6.6 h = 6 hours 36 minutes.<br>Add halts = 2 × 12 min = 24 minutes.<br>Total time = 6 h 36 m + 24 m = <b>7 hours</b>.",
+    "shortcut": "⚡ t = √((24/5)·(10/3)) = 4 h. Dist = 99 × 4 = 396 km. P's time = 396/60 + 24m = 6.6 h + 0.4 h = <b>7 hours</b>."
+  },
+  {
+    "id": 50,
+    "topic": "Mensuration",
+    "question": "A hollow metallic pipe of length 77 cm has an inner diameter of 4 cm and an outer\ndiameter of 4.4 cm. Find its total surface area. (Take π = 22/7)",
+    "options": [
+      "1064.8 cm²",
+      "2033.80 cm²",
+      "2038.08 cm²",
+      "2032.80 cm²"
+    ],
+    "correct": 2,
+    "solution": "Length h = 77 cm. Inner r₁ = 2 cm, Outer r₂ = 2.2 cm.<br>Inner CSA = 2πr₁h = 2 × (22/7) × 2 × 77 = 968 cm².<br>Outer CSA = 2πr₂h = 2 × (22/7) × 2.2 × 77 = 1064.8 cm².<br>Area of 2 circular bases = 2 × π(r₂² − r₁²) = 2 × (22/7) × (4.84 − 4) = (44/7) × 0.84 = 5.28 cm².<br>TSA = 968 + 1064.8 + 5.28 = <b>2038.08 cm²</b>.",
+    "shortcut": "⚡ TSA = 2π(r₁ + r₂)h + 2π(r₂² − r₁²) = 44[4.2 × 11 + 0.12] = 44 × 46.32 = <b>2038.08 cm²</b>."
+  },
+  {
+    "id": 51,
+    "topic": "Coordinate Geometry",
+    "question": "What is the y-intercept of the straight line represented by the equation y = 2x + 3?",
+    "options": [
+      "2",
+      "3",
+      "−3",
+      "−3/2"
+    ],
+    "correct": 1,
+    "solution": "In the slope-intercept form y = mx + c, c represents the y-intercept.<br>For y = 2x + 3, the y-intercept is <b>3</b> (or put x = 0 ⟹ y = 3).",
+    "shortcut": "⚡ Put x = 0 ⟹ y = <b>3</b>."
+  },
+  {
+    "id": 52,
+    "topic": "Coordinate Geometry",
+    "question": "Find the coordinates of the centroid of a triangle whose vertices are (1, 4), (3, −2) and\n(5, 7).",
+    "options": [
+      "(3, 3)",
+      "(4, 3)",
+      "(3, 4)",
+      "(9, 9)"
+    ],
+    "correct": 0,
+    "solution": "Centroid G = ((x₁ + x₂ + x₃)/3, (y₁ + y₂ + y₃)/3).<br>x = (1 + 3 + 5)/3 = 9/3 = 3.<br>y = (4 + (−2) + 7)/3 = 9/3 = 3.<br>Centroid = <b>(3, 3)</b>.",
+    "shortcut": "⚡ G = (9/3, 9/3) = <b>(3, 3)</b>."
+  },
+  {
+    "id": 53,
+    "topic": "Geometry",
+    "question": "A chord of a circle of radius 10 cm subtends an angle of 90° at the centre. Find the\nlength of the chord.",
+    "options": [
+      "10 cm",
+      "10√2 cm",
+      "20 cm",
+      "10√3 cm"
+    ],
+    "correct": 1,
+    "solution": "In △OAB with OA = OB = 10 cm and ∠AOB = 90°:<br>AB = √(OA² + OB²) = √(10² + 10²) = <b>10√2 cm</b>.",
+    "shortcut": "⚡ Chord subtending 90° at centre = r√2 = <b>10√2 cm</b>."
+  },
+  {
+    "id": 54,
+    "topic": "Geometry",
+    "question": "In a circle of radius 10 cm, a chord is perpendicular to a radius and passes through its\nmidpoint. Find the length of the chord.",
+    "options": [
+      "5√3 cm",
+      "10√3 cm",
+      "10√2 cm",
+      "15 cm"
+    ],
+    "correct": 1,
+    "solution": "Radius = 10 cm. The chord bisects the radius perpendicularly ⟹ distance from centre d = 10 / 2 = 5 cm.<br>Half chord = √(r² − d²) = √(10² − 5²) = √75 = 5√3 cm.<br>Length of chord = 2 × 5√3 = <b>10√3 cm</b>.",
+    "shortcut": "⚡ Chord at midpoint of radius is always <b>r√3</b> = <b>10√3 cm</b>."
+  },
+  {
+    "id": 55,
+    "topic": "Mensuration",
+    "question": "The total surface area of a right rectangular prism is 1400 cm². If the dimensions of its\nbase are 20 cm × 15 cm, find the height of the prism.",
+    "options": [
+      "10 cm",
+      "80/7 cm (≈ 11.43 cm)",
+      "12 cm",
+      "40/3 cm"
+    ],
+    "correct": 1,
+    "solution": "TSA = 2(lb + bh + hl) = 1400.<br>Base = 20 × 15 ⟹ lb = 300.<br>2(300 + 15h + 20h) = 1400 ⟹ 300 + 35h = 700 ⟹ 35h = 400 ⟹ h = 400/35 = <b>80/7 cm (≈ 11.43 cm)</b>.",
+    "shortcut": "⚡ h = (1400 − 2×300) / [2(20 + 15)] = 800 / 70 = <b>80/7 cm</b>."
+  },
+  {
+    "id": 56,
+    "topic": "Mensuration",
+    "question": "The base of a right pyramid is a square of side 10 cm. If the vertical height of the\npyramid is 12 cm, find its total surface area.",
+    "options": [
+      "260 cm²",
+      "360 cm²",
+      "400 cm²",
+      "460 cm²"
+    ],
+    "correct": 1,
+    "solution": "Base side a = 10 cm, Height H = 12 cm.<br>Distance from centre to side = a/2 = 5 cm.<br>Slant height l = √(H² + (a/2)²) = √(12² + 5²) = 13 cm.<br>Lateral Area = 4 × (1/2 × a × l) = 2 × 10 × 13 = 260 cm².<br>Base Area = 10² = 100 cm².<br>TSA = 260 + 100 = <b>360 cm²</b>.",
+    "shortcut": "⚡ Triplet (5, 12, 13) ⟹ l = 13. TSA = a² + 2al = 100 + 260 = <b>360 cm²</b>."
+  },
+  {
+    "id": 57,
+    "topic": "Mensuration",
+    "question": "The base of a right pyramid is an equilateral triangle of side 6 cm. If the vertical height\nof the pyramid is 8 cm, find its volume.",
+    "options": [
+      "18√3 cm³",
+      "24√3 cm³",
+      "72√3 cm³",
+      "48√3 cm³\nPart 4 · DI & Mixed"
+    ],
+    "correct": 1,
+    "solution": "Volume of pyramid = (1/3) × Base Area × Height.<br>Base is equilateral triangle of side 6 cm ⟹ Base Area = (√3/4) × 6² = 9√3 cm².<br>Volume = (1/3) × 9√3 × 8 = <b>24√3 cm³</b>.",
+    "shortcut": "⚡ V = (1/3) × (9√3) × 8 = <b>24√3 cm³</b>."
+  },
+  {
+    "id": 58,
+    "topic": "Arithmetic",
+    "question": "The sum of two numbers is 45 and their difference is 9. Find the product of the two\nnumbers.",
+    "options": [
+      "468",
+      "486",
+      "504",
+      "456"
+    ],
+    "correct": 1,
+    "solution": "x + y = 45 and x − y = 9.<br>x = (45 + 9)/2 = 27; y = (45 − 9)/2 = 18.<br>Product = 27 × 18 = <b>486</b>.",
+    "shortcut": "⚡ Product = (Sum² − Diff²) / 4 = (45² − 9²) / 4 = (54 × 36) / 4 = 54 × 9 = <b>486</b>."
+  },
+  {
+    "id": 59,
+    "topic": "Arithmetic",
+    "question": "Two numbers are in the ratio 3 : 5. If 8 is added to each, the ratio becomes 2 : 3. Find\nthe sum of the original numbers.",
+    "options": [
+      "56",
+      "64",
+      "72",
+      "80"
+    ],
+    "correct": 1,
+    "solution": "Original numbers: 3x and 5x.<br>(3x + 8) / (5x + 8) = 2 / 3 ⟹ 3(3x + 8) = 2(5x + 8) ⟹ 9x + 24 = 10x + 16 ⟹ x = 8.<br>Sum of original numbers = 3x + 5x = 8x = 8 × 8 = <b>64</b>.",
+    "shortcut": "⚡ Equalize difference: (3, 5) diff 2. (2, 3) × 2 = (4, 6) diff 2. Growth is 4 − 3 = 1 unit = 8. Sum = 8 × 8 = <b>64</b>."
+  },
+  {
+    "id": 60,
+    "topic": "Arithmetic",
+    "question": "A train 150 m long passes a pole in 15 seconds. How long will it take to cross a\nplatform 250 m long at the same speed?",
+    "options": [
+      "30 s",
+      "35 s",
+      "40 s",
+      "45 s"
+    ],
+    "correct": 2,
+    "solution": "Speed of train = 150 m / 15 s = 10 m/s.<br>Total distance to cross platform = Length of train + Length of platform = 150 + 250 = 400 m.<br>Time taken = 400 / 10 = <b>40 seconds</b>.",
+    "shortcut": "⚡ 150 m takes 15 s (10 m/s). 400 m takes 400 / 10 = <b>40 seconds</b>."
+  },
+  {
+    "id": 61,
+    "topic": "Data Interpretation",
+    "question": "The line graph shows the annual revenue (₹ crore) of Company X. What is the\npercentage increase in revenue from 2022 to 2024?\nChart data (line): categories 2020, 2021, 2022, 2023, 2024; Revenue (₹ crore): 40, 50, 45,\n \n\n\n60, 72",
+    "options": [
+      "50%",
+      "60%",
+      "55%",
+      "65%"
+    ],
+    "correct": 1,
+    "solution": "Revenue in 2022 = ₹45 crore; Revenue in 2024 = ₹72 crore.<br>Increase = 72 − 45 = ₹27 crore.<br>Percentage increase = (27 / 45) × 100 = (3/5) × 100 = <b>60%</b>.",
+    "shortcut": "⚡ 27/45 = 3/5 = <b>60%</b>."
+  },
+  {
+    "id": 62,
+    "topic": "Data Interpretation",
+    "question": "Using the same line graph of Company X’s revenue, in which year was the percentage\ngrowth over the previous year the highest?\nChart data (line): categories 2020, 2021, 2022, 2023, 2024; Revenue (₹ crore): 40, 50, 45,\n60, 72",
+    "options": [
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "correct": 2,
+    "solution": "Growth rates:<br>2021: (50 − 40)/40 = 25%<br>2022: Negative growth<br>2023: (60 − 45)/45 = 15/45 = 33.33%<br>2024: (72 − 60)/60 = 12/60 = 20%<br>Highest percentage growth occurred in <b>2023</b>.",
+    "shortcut": "⚡ 15/45 = 33.3% is greater than 25% (2021) and 20% (2024). Ans: <b>2023</b>."
+  },
+  {
+    "id": 63,
+    "topic": "Arithmetic",
+    "question": "In what ratio must milk at ₹40 per litre be mixed with milk at ₹55 per litre to get a\nmixture worth ₹46 per litre?",
+    "options": [
+      "2 : 3",
+      "3 : 2",
+      "4 : 3",
+      "3 : 4"
+    ],
+    "correct": 1,
+    "solution": "Alligation Rule:<br>Price 1 = ₹40, Price 2 = ₹55, Mean Price = ₹46.<br>Ratio = (55 − 46) : (46 − 40) = 9 : 6 = <b>3 : 2</b>.",
+    "shortcut": "⚡ Cross subtraction: 55 − 46 = 9 and 46 − 40 = 6. Ratio = 9 : 6 = <b>3 : 2</b>."
+  },
+  {
+    "id": 64,
+    "topic": "Arithmetic",
+    "question": "Pipe A can fill a tank in 12 hours and pipe B in 15 hours, while pipe C can empty the full\ntank in 20 hours. If all three pipes are opened together, in how many hours will the tank be\nfilled?",
+    "options": [
+      "8 hours",
+      "10 hours",
+      "12 hours",
+      "9 hours"
+    ],
+    "correct": 1,
+    "solution": "Total capacity = LCM(12, 15, 20) = 60 units.<br>Rate of A = +5, Rate of B = +4, Rate of C = −3 units/hour.<br>Net rate = 5 + 4 − 3 = +6 units/hour.<br>Time taken = 60 / 6 = <b>10 hours</b>.",
+    "shortcut": "⚡ Net rate = 5 + 4 − 3 = 6. Time = 60 / 6 = <b>10 hours</b>."
+  },
+  {
+    "id": 65,
+    "topic": "Arithmetic",
+    "question": "The average of 5 numbers is 27. If one number is removed, the average of the\nremaining numbers becomes 25. Find the number that was removed.",
+    "options": [
+      "30",
+      "33",
+      "35",
+      "37"
+    ],
+    "correct": 2,
+    "solution": "Total of 5 numbers = 5 × 27 = 135.<br>Total of remaining 4 numbers = 4 × 25 = 100.<br>Removed number = 135 − 100 = <b>35</b>.",
+    "shortcut": "⚡ Removed number = Old Avg + (Remaining Count × Drop) = 27 + (4 × 2) = 27 + 8 = <b>35</b>."
+  },
+  {
+    "id": 66,
+    "topic": "Data Interpretation",
+    "question": "The pie chart shows how a family spends its monthly income. What is the central\nangle of the sector representing Education?\nChart data (pie): Food 25%, Rent 20%, Education 15%, Transport 10%, Savings 20%,\nOthers 10%",
+    "options": [
+      "45°",
+      "54°",
+      "60°",
+      "72°"
+    ],
+    "correct": 1,
+    "solution": "Education accounts for 15% of the total monthly income.<br>Central angle = 15% of 360° = 0.15 × 360° = <b>54°</b>.",
+    "shortcut": "⚡ 10% = 36°, 5% = 18° ⟹ 36° + 18° = <b>54°</b>."
+  },
+  {
+    "id": 67,
+    "topic": "Data Interpretation",
+    "question": "Using the same pie chart, if the monthly income is ₹60,000, how much more does the\nfamily spend on Food than on Transport?\nChart data (pie): Food 25%, Rent 20%, Education 15%, Transport 10%, Savings 20%,\nOthers 10%",
+    "options": [
+      "₹6,000",
+      "₹7,500",
+      "₹9,000",
+      "₹10,500"
+    ],
+    "correct": 2,
+    "solution": "Food = 25%, Transport = 10%. Difference = 25% − 10% = 15%.<br>15% of ₹60,000 = 0.15 × 60,000 = <b>₹9,000</b>.",
+    "shortcut": "⚡ Difference % = 15%. 15% of 60,000 = <b>₹9,000</b>."
+  },
+  {
+    "id": 68,
+    "topic": "Arithmetic",
+    "question": "A’s salary is 25% more than B’s salary. By what percentage is B’s salary less than A’s\nsalary?",
+    "options": [
+      "15%",
+      "20%",
+      "25%",
+      "162/3%"
+    ],
+    "correct": 1,
+    "solution": "Let B = 100 ⟹ A = 125.<br>B is less than A by 25.<br>Percentage = (25 / 125) × 100 = (1/5) × 100 = <b>20%</b>.",
+    "shortcut": "⚡ Rule of Fraction: Increase of +1/4 corresponds to decrease of 1/(4+1) = −1/5 = <b>20%</b>."
+  },
+  {
+    "id": 69,
+    "topic": "Arithmetic",
+    "question": "What is the difference between the compound interest and the simple interest on\n₹5,000 for 2 years at 8% per annum?",
+    "options": [
+      "₹28",
+      "₹32",
+      "₹36",
+      "₹40"
+    ],
+    "correct": 1,
+    "solution": "Difference between CI and SI for 2 years = P × (R / 100)².<br>D = 5000 × (8 / 100)² = 5000 × (64 / 10,000) = 320,000 / 10,000 = <b>₹32</b>.",
+    "shortcut": "⚡ D = P(R/100)² = 5000 × 0.0064 = <b>₹32</b>."
+  },
+  {
+    "id": 70,
+    "topic": "Geometry",
+    "question": "The three angles of a triangle are in the ratio 2 : 3 : 4. Find the measure of the largest\nangle.",
+    "options": [
+      "60°",
+      "70°",
+      "80°",
+      "90°"
+    ],
+    "correct": 2,
+    "solution": "Angles ratio = 2 : 3 : 4. Total parts = 2 + 3 + 4 = 9.<br>Sum of angles in triangle = 180°.<br>1 part = 180° / 9 = 20°.<br>Largest angle = 4 × 20° = <b>80°</b>.",
+    "shortcut": "⚡ Largest angle = (4/9) × 180° = <b>80°</b>."
+  },
+  {
+    "id": 71,
+    "topic": "Data Interpretation",
+    "question": "The bar graph shows the number of students who appeared and passed in four\nschools. Which school has the highest pass percentage?\nChart data (bar): categories School A, School B, School C, School D; Appeared: 500, 600,\n800, 400; Passed: 400, 420, 640, 360",
+    "options": [
+      "School A",
+      "School B",
+      "School C",
+      "School D"
+    ],
+    "correct": 3,
+    "solution": "Pass percentages:<br>School A = 400/500 = 80%<br>School B = 420/600 = 70%<br>School C = 640/800 = 80%<br>School D = 360/400 = 90%<br><b>School D</b> has the highest pass percentage.",
+    "shortcut": "⚡ 360/400 = 9/10 = <b>90%</b> (Highest)."
+  },
+  {
+    "id": 72,
+    "topic": "Trigonometry",
+    "question": "What is the value of sin 30° × cos 60° + sin 60° × cos 30° ?",
+    "options": [
+      "1/2",
+      "1",
+      "(√3)/2",
+      "5/4"
+    ],
+    "correct": 1,
+    "solution": "sin 30° × cos 60° + sin 60° × cos 30° = sin(30° + 60°) = sin 90° = <b>1</b>.<br>(Or: (1/2)(1/2) + (√3/2)(√3/2) = 1/4 + 3/4 = 4/4 = 1).",
+    "shortcut": "⚡ Compound angle identity: sin A cos B + cos A sin B = sin(A+B) = sin(90°) = <b>1</b>."
+  },
+  {
+    "id": 73,
+    "topic": "Mensuration",
+    "question": "A rectangular field is 40 m long and 30 m wide. A path 2 m wide runs around it on the\noutside. Find the area of the path.",
+    "options": [
+      "280 m²",
+      "296 m²",
+      "304 m²",
+      "312 m²"
+    ],
+    "correct": 1,
+    "solution": "Inner dimensions: l = 40 m, b = 30 m.<br>Inner Area = 40 × 30 = 1200 m².<br>Outer dimensions (with width w = 2 m): L = 40 + 4 = 44 m, B = 30 + 4 = 34 m.<br>Outer Area = 44 × 34 = 1496 m².<br>Area of path = 1496 − 1200 = <b>296 m²</b>.",
+    "shortcut": "⚡ <b>Formula:</b> 2w(l + b + 2w) = 2(2)(40 + 30 + 4) = 4 × 74 = <b>296 m²</b>."
+  },
+  {
+    "id": 74,
+    "topic": "Data Interpretation",
+    "question": "The table shows the annual production (in thousand units) of three factories. What\nwas the average annual production of factory Q over the three years?\nFactory\n2022\n2023\n2024\nP\n120\n150\n180\nQ\n90\n110\n130\nR\n100\n125\n140",
+    "options": [
+      "100 thousand",
+      "105 thousand",
+      "110 thousand",
+      "115 thousand"
+    ],
+    "correct": 2,
+    "solution": "Factory Q production: 2022 = 90, 2023 = 110, 2024 = 130.<br>Average = (90 + 110 + 130) / 3 = 330 / 3 = <b>110 thousand</b>.",
+    "shortcut": "⚡ Arithmetic progression 90, 110, 130 ⟹ middle term is the average: <b>110 thousand</b>."
+  },
+  {
+    "id": 75,
+    "topic": "Algebra",
+    "question": "If a + b + c = 0, find the value of (a³ + b³ + c³)/abc (a, b, c ≠ 0).",
+    "options": [
+      "0",
+      "1",
+      "3",
+      "−3"
+    ],
+    "correct": 2,
+    "solution": "If a + b + c = 0, then a³ + b³ + c³ = 3abc.<br>Therefore (a³ + b³ + c³) / abc = 3abc / abc = <b>3</b>.",
+    "shortcut": "⚡ Standard identity: When a + b + c = 0, (a³ + b³ + c³) / abc = <b>3</b>."
+  }
+]
