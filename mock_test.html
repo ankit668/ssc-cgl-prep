@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>SSC CGL 2026 — 15-Minute Real Exam Interface</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="icon-192.png">
+    <link rel="apple-touch-icon" href="icon-192.png">
+    <meta name="theme-color" content="#002B49">
     <style>
         :root {
             --tcs-blue: #004B87;
@@ -751,18 +755,50 @@
             font-weight: 500;
         }
 
+        .btn-palette-close {
+            display: none;
+            margin-left: auto;
+            background: #E5E7EB;
+            border: none;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            font-size: 0.85rem;
+            font-weight: 800;
+            cursor: pointer;
+            color: #374151;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .palette-overlay {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0, 0, 0, 0.45);
+            backdrop-filter: blur(2px);
+            z-index: 1400;
+        }
+
         /* Responsive */
         @media (max-width: 768px) {
+            .btn-palette-close {
+                display: flex;
+            }
+            .palette-overlay.open {
+                display: block;
+            }
             .palette-pane {
                 position: fixed;
-                top: 50px;
+                top: 0;
                 right: 0;
                 bottom: 0;
-                width: 280px;
+                height: 100vh;
+                width: min(300px, 85vw);
                 z-index: 1500;
                 transform: translateX(100%);
                 transition: transform 0.25s ease;
-                box-shadow: -4px 0 15px rgba(0,0,0,0.2);
+                box-shadow: -4px 0 20px rgba(0,0,0,0.3);
             }
             .palette-pane.open {
                 transform: translateX(0);
@@ -772,6 +808,66 @@
             }
             .exam-body {
                 height: calc(100vh - 90px);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .exam-header {
+                padding: 8px 12px;
+            }
+            .exam-sub {
+                display: none;
+            }
+            .exam-name {
+                font-size: 0.85rem;
+            }
+            .timer-box {
+                padding: 4px 8px;
+                gap: 5px;
+            }
+            .timer-val {
+                font-size: 1.1rem;
+            }
+            .sub-bar {
+                padding: 6px 10px;
+                font-size: 0.78rem;
+            }
+            .set-picker {
+                width: 100%;
+                justify-content: space-between;
+            }
+            .set-select {
+                max-width: 200px;
+            }
+            .q-meta-bar {
+                padding: 6px 12px;
+                font-size: 0.8rem;
+            }
+            .q-content-wrap {
+                padding: 14px 12px;
+            }
+            .q-title-text {
+                font-size: 0.95rem;
+                line-height: 1.5;
+            }
+            .option-label {
+                padding: 10px 12px;
+                font-size: 0.88rem;
+            }
+            .q-actions-bar {
+                padding: 8px 10px;
+                gap: 8px;
+            }
+            .left-actions, .right-actions {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+            }
+            .left-actions .btn-exam, .right-actions .btn-exam {
+                flex: 1;
+                justify-content: center;
+                padding: 9px 8px;
+                font-size: 0.78rem;
             }
         }
     </style>
@@ -856,6 +952,7 @@
                 <div class="candidate-name">Candidate Aspirant</div>
                 <div>Roll No: 2026-CGL-01</div>
             </div>
+            <button class="btn-palette-close" onclick="toggleMobilePalette()" aria-label="Close Palette">✕</button>
         </div>
 
         <div class="legend-grid">
@@ -876,6 +973,9 @@
             </button>
         </div>
     </aside>
+
+    <!-- Mobile Palette Backdrop -->
+    <div class="palette-overlay" id="paletteOverlay" onclick="toggleMobilePalette()"></div>
 </div>
 
 <!-- SUBMIT CONFIRMATION MODAL -->
@@ -1140,10 +1240,15 @@ function jumpToQuestion(idx) {
     renderCurrentQuestion();
     // Auto-close palette on mobile if open
     document.getElementById('palettePane').classList.remove('open');
+    const overlay = document.getElementById('paletteOverlay');
+    if (overlay) overlay.classList.remove('open');
 }
 
 function toggleMobilePalette() {
-    document.getElementById('palettePane').classList.toggle('open');
+    const pane = document.getElementById('palettePane');
+    const overlay = document.getElementById('paletteOverlay');
+    const isOpen = pane.classList.toggle('open');
+    if (overlay) overlay.classList.toggle('open', isOpen);
 }
 
 function renderPalette() {
@@ -1291,6 +1396,13 @@ function restartTest() {
 
 // Initialize with Test 0 (Practice Set 1)
 initTest(0);
+
+// Register Service Worker for offline mobile capability
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js').catch(() => {});
+    });
+}
 </script>
 
 </body>

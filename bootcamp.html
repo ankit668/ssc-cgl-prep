@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>14-Hour Holiday Bootcamp Tracker | SSC CGL 2026</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="icon-192.png">
+    <link rel="apple-touch-icon" href="icon-192.png">
+    <meta name="theme-color" content="#0B1120">
     <style>
         :root {
             --bg-color: #0B1120;
@@ -1202,6 +1206,13 @@ function deleteScore(id) {
 
 // Initial render
 renderDay();
+
+// Register Service Worker for offline mobile capability
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js').catch(() => {});
+    });
+}
 </script>
 
 </body>
