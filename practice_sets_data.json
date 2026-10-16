@@ -187,136 +187,136 @@
         "id": 13,
         "category": "Advanced Maths",
         "topic": "Algebra",
-        "question": "If x − 1/x = 4, find the value of x² + 1/x².",
+        "question": "If a + b + c = 6, a² + b² + c² = 20, and a³ + b³ + c³ = 66, find the value of abc.",
         "options": [
-          "18",
-          "16",
-          "14",
-          "22"
+          "-2",
+          "2",
+          "-3",
+          "3"
         ],
         "correct": 0,
-        "solution": "(x − 1/x)² = x² + 1/x² − 2.<br>4² = x² + 1/x² − 2 ⟹ x² + 1/x² = 4² + 2 = <b>18</b>.",
-        "shortcut": "⚡ <b>Formula:</b> k² + 2 = 4² + 2 = <b>18</b>."
+        "solution": "ab + bc + ca = [(a + b + c)² − (a² + b² + c²)] / 2 = [36 − 20] / 2 = 8.<br>Using identity: a³ + b³ + c³ − 3abc = (a + b + c)[(a² + b² + c²) − (ab + bc + ca)]<br>66 − 3abc = 6 × (20 − 8) = 6 × 12 = 72.<br>3abc = 66 − 72 = −6 ⟹ abc = <b>-2</b>.",
+        "shortcut": "⚡ <b>Direct Identity:</b> 3abc = 66 − 6(20 − 8) = 66 − 72 = −6 ⟹ abc = <b>-2</b>."
       },
       {
         "id": 14,
         "category": "Advanced Maths",
         "topic": "Algebra",
-        "question": "If x + 1/x = 3, find the value of x³ + 1/x³.",
+        "question": "If x² − 5x + 1 = 0, find the value of (x⁴ + 1/x²) ÷ (x² + 1).",
         "options": [
-          "18",
-          "27",
-          "24",
-          "12"
+          "22",
+          "23",
+          "25",
+          "20"
         ],
         "correct": 0,
-        "solution": "x³ + 1/x³ = (x + 1/x)³ − 3(x + 1/x) = 3³ − 3(3) = 27 − 9 = <b>18</b>.",
-        "shortcut": "⚡ <b>k³ − 3k Rule:</b> 3³ − 3(3) = <b>18</b>."
+        "solution": "Divide numerator and denominator by x:<br>Numerator = (x⁴ + 1/x²) / x = x³ + 1/x³.<br>Denominator = (x² + 1) / x = x + 1/x.<br>From x² − 5x + 1 = 0 ⟹ x + 1/x = 5.<br>x³ + 1/x³ = 5³ − 3(5) = 110.<br>Result = 110 / 5 = <b>22</b>.",
+        "shortcut": "⚡ <b>Divide by x:</b> (x³ + 1/x³) / (x + 1/x) = k² − 3 = 5² − 3 = <b>22</b>."
       },
       {
         "id": 15,
         "category": "Advanced Maths",
         "topic": "Trigonometry",
-        "question": "If sin(A + B) = √3/2 and cos(A − B) = 1 (where 0° < A + B ≤ 90° and A ≥ B), find the values of A and B.",
+        "question": "If sec θ + tan θ = 3 (where 0° < θ < 90°), find the exact value of sin θ.",
         "options": [
-          "30°, 30°",
-          "45°, 45°",
-          "50°, 20°",
-          "35°, 25°"
+          "4/5",
+          "3/5",
+          "5/4",
+          "1/3"
         ],
         "correct": 0,
-        "solution": "A + B = 60°, A − B = 0° ⟹ A = 30°, B = 30°. Ans = <b>30°, 30°</b>.",
-        "shortcut": "⚡ Direct sum and difference of known standard angles ⟹ <b>30°, 30°</b>."
+        "solution": "sec θ − tan θ = 1/3.<br>Adding: 2 sec θ = 3 + 1/3 = 10/3 ⟹ sec θ = 5/3 ⟹ cos θ = 3/5.<br>In (3, 4, 5) right triangle, sin θ = <b>4/5</b>.",
+        "shortcut": "⚡ <b>Formula:</b> sin θ = (p² − 1) / (p² + 1) = (9 − 1) / (9 + 1) = 8/10 = <b>4/5</b>."
       },
       {
         "id": 16,
         "category": "Advanced Maths",
         "topic": "Heights & Distances",
-        "question": "The angle of elevation of the top of a vertical tower from a point 30 m away from its foot on horizontal ground is 60°. Find the height of the tower.",
+        "question": "An observer standing on top of a 120 m high vertical cliff observes two boats anchored on the sea in the same vertical plane and on the same side of the cliff. The angles of depression of the two boats are found to be 30° and 60° respectively. Find the distance between the two boats. (Take √3 = 1.732)",
         "options": [
-          "30√3 m",
-          "30 m",
-          "60 m",
-          "30√2 m"
+          "80√3 m (138.56 m)",
+          "60√3 m (103.92 m)",
+          "120√3 m (207.84 m)",
+          "40√3 m (69.28 m)"
         ],
         "correct": 0,
-        "solution": "tan 60° = h / 30 ⟹ √3 = h / 30 ⟹ h = <b>30√3 m</b>.",
-        "shortcut": "⚡ In 60° triangle, height = Base × tan(60°) = <b>30√3 m</b>."
+        "solution": "Distance to nearer boat d₁ = 120 / tan 60° = 120 / √3 = 40√3 m.<br>Distance to farther boat d₂ = 120 / tan 30° = 120√3 m.<br>Distance between boats = d₂ − d₁ = 120√3 − 40√3 = 80√3 m ≈ 80 × 1.732 = <b>138.56 m</b>.",
+        "shortcut": "⚡ <b>30°–60° Gap Rule:</b> d = 2h / √3 = 2(120) / √3 = 80√3 ≈ <b>138.56 m</b>."
       },
       {
         "id": 17,
         "category": "Advanced Maths",
         "topic": "Geometry",
-        "question": "From an external point P, two tangents PA and PB are drawn to a circle with centre O. If ∠APB = 60°, find the measure of ∠AOB.",
+        "question": "From an external point P located outside a circle, a tangent PT touches the circle at point T, and a secant line passing through P intersects the circle at two distinct points A and B, such that point A lies between P and B. If PA = 9 cm and AB = 7 cm, find the exact length of the tangent segment PT.",
         "options": [
-          "120°",
-          "110°",
-          "135°",
-          "60°"
+          "12 cm",
+          "10 cm",
+          "14 cm",
+          "15 cm"
         ],
         "correct": 0,
-        "solution": "In quadrilateral OAPB, radius is perpendicular to tangent at point of contact: ∠OAP = ∠OBP = 90°.<br>Sum of opposite angles ∠APB + ∠AOB = 180°.<br>∠AOB = 180° − 60° = <b>120°</b>.",
-        "shortcut": "⚡ <b>Supplementary Angles:</b> ∠AOB = 180° − ∠APB = 180° − 60° = <b>120°</b>."
+        "solution": "By the Tangent-Secant theorem: PT² = PA × PB.<br>Here PA = 9 cm and PB = PA + AB = 9 + 7 = 16 cm.<br>PT² = 9 × 16 = 144 ⟹ PT = √144 = <b>12 cm</b>.",
+        "shortcut": "⚡ PT = √(PA × PB) = √(9 × 16) = 3 × 4 = <b>12 cm</b>."
       },
       {
         "id": 18,
         "category": "Advanced Maths",
         "topic": "Geometry",
-        "question": "In △ABC, the internal bisectors of ∠B and ∠C meet at incenter I. If ∠BAC = 50°, find the measure of ∠BIC.",
+        "question": "In a circle with centre O, chord AB subtends an angle of 140° at the centre. Points C and D lie on the major and minor arcs of the circle respectively. If ∠ACB = x° and ∠ADB = y°, find the value of (y − x).",
         "options": [
-          "115°",
-          "105°",
-          "120°",
-          "130°"
+          "40°",
+          "50°",
+          "30°",
+          "70°"
         ],
         "correct": 0,
-        "solution": "Formula for incenter angle: ∠BIC = 90° + ∠A / 2 = 90° + 50/2 = 90° + 25° = <b>115°</b>.",
-        "shortcut": "⚡ <b>Incenter Formula:</b> 90° + A/2 = 90° + 25° = <b>115°</b>."
+        "solution": "Angle at major arc x = (1/2) × 140° = 70°.<br>Since ACBD is cyclic, opposite angles sum to 180°: y = 180° − 70° = 110°.<br>Therefore, y − x = 110° − 70° = <b>40°</b>.",
+        "shortcut": "⚡ Major arc x = 140°/2 = 70°; Minor arc y = 180° − 70° = 110°. Gap y − x = 180° − 140° = <b>40°</b>."
       },
       {
         "id": 19,
         "category": "Advanced Maths",
         "topic": "Mensuration 3D",
-        "question": "If the radius of a cylinder is multiplied by 2 and its height is divided by 2, find the ratio of the new volume to the original volume.",
+        "question": "A cylindrical well of inner diameter 14 m is dug 15 m deep into the ground. The earth taken out of it is spread evenly all around it to a uniform width of 7 m to construct a circular embankment. Find the height of the embankment formed. (Take π = 22/7)",
         "options": [
-          "2 : 1",
-          "1 : 2",
-          "2 : 2",
-          "2 : 2"
+          "5 m",
+          "4.5 m",
+          "6 m",
+          "3.5 m"
         ],
         "correct": 0,
-        "solution": "Volume V = πr²h. New volume V' = π(2r)²(h/2) = (4/2)πr²h.<br>Ratio V' : V = 4 : 2 = <b>2 : 1</b>.",
-        "shortcut": "⚡ <b>Ratio Scaling:</b> r² · h = (2)² · (1/2) = 4/2 = <b>2 : 1</b>."
+        "solution": "Inner radius r = 7 m. Outer radius R = 7 + 7 = 14 m.<br>Volume of earth = π × r² × h = π × 49 × 15 = 735π m³.<br>Base area of embankment = π(R² − r²) = π(196 − 49) = 147π m².<br>Embankment height H = 735π / 147π = 735 / 147 = <b>5 m</b>.",
+        "shortcut": "⚡ <b>π Cancels:</b> H = (r² × h) / (R² − r²) = (49 × 15) / 147 = 15 / 3 = <b>5 m</b>."
       },
       {
         "id": 20,
         "category": "Advanced Maths",
         "topic": "Mensuration 3D",
-        "question": "A solid right circular cone has a base radius of 6 cm and a vertical height of 8 cm. Find its Total Surface Area (TSA). (Take π = 3.14)",
+        "question": "A solid metallic sphere of radius 10.5 cm is melted and completely recast into small solid right circular cones, each having a base radius of 3.5 cm and a height of 3 cm. Assuming no loss of metal during the recasting process, calculate the total number of cones formed. (Take π = 22/7)",
         "options": [
-          "301.44 cm²",
-          "188.4 cm²",
-          "113.04 cm²",
-          "326.44 cm²"
+          "126",
+          "112",
+          "144",
+          "108"
         ],
         "correct": 0,
-        "solution": "Slant height l = √(r² + h²) = √(6² + 8²) = 10 cm.<br>TSA = πr(l + r) = 3.14 × 6 × (10 + 6) = 3.14 × 6 × 16 = <b>301.44 cm²</b>.",
-        "shortcut": "⚡ <b>Triplet:</b> (6, 8, 10) ⟹ TSA = 3.14 × 6 × (16) = <b>301.44 cm²</b>."
+        "solution": "Volume of sphere = (4/3)π R³. Volume of each cone = (1/3)π r² h.<br>Number of cones N = [4 R³] / [r² h] = [4 × (10.5)³] / [(3.5)² × 3].<br>Since 10.5 / 3.5 = 3, N = [4 × 10.5 × (3)²] / 3 = 4 × 10.5 × 3 = 42 × 3 = <b>126</b>.",
+        "shortcut": "⚡ N = [4 × 10.5 × 3²] / 3 = 4 × 10.5 × 3 = <b>126</b>."
       },
       {
         "id": 21,
         "category": "Advanced Maths",
         "topic": "Mensuration 2D",
-        "question": "Find the area of a regular hexagon whose each side measures 6 cm.",
+        "question": "The lengths of the parallel sides of a non-isosceles trapezium ABCD are 25 cm and 10 cm, while the lengths of its two non-parallel sides are 13 cm and 14 cm. Find the total area of the trapezium ABCD.",
         "options": [
-          "54√3 cm²",
-          "27√3 cm²",
-          "108√3 cm²",
-          "36√3 cm²"
+          "196 cm²",
+          "182 cm²",
+          "210 cm²",
+          "168 cm²"
         ],
         "correct": 0,
-        "solution": "A regular hexagon comprises 6 equilateral triangles of side a = 6 cm.<br>Area = 6 × [(√3 / 4) × a²] = 6 × [(√3 / 4) × 36] = <b>54√3 cm²</b>.",
-        "shortcut": "⚡ <b>Hexagon Area:</b> (3√3 / 2) × a² = (3√3 / 2) × 36 = <b>54√3 cm²</b>."
+        "solution": "Parallel side difference = 25 − 10 = 15 cm.<br>Triangle with sides 13, 14, 15: Semi-perimeter s = 21.<br>Area = √(21 × 8 × 7 × 6) = 84 cm².<br>Height h = (2 × 84) / 15 = 11.2 cm.<br>Area of trapezium = [(25 + 10) / 2] × 11.2 = 35 × 5.6 = <b>196 cm²</b>.",
+        "shortcut": "⚡ (13, 14, 15) triangle area = 84 ⟹ h = 11.2 cm. Trapezium Area = 35 × 5.6 = <b>196 cm²</b>."
       },
       {
         "id": 22,
@@ -688,136 +688,136 @@
         "id": 13,
         "category": "Advanced Maths",
         "topic": "Algebra",
-        "question": "If x − 1/x = 3, find the value of x² + 1/x².",
+        "question": "If x + y + z = 0, find the value of (x² / yz) + (y² / zx) + (z² / xy).",
         "options": [
-          "11",
-          "9",
-          "7",
-          "15"
+          "3",
+          "0",
+          "1",
+          "-3"
         ],
         "correct": 0,
-        "solution": "(x − 1/x)² = x² + 1/x² − 2.<br>3² = x² + 1/x² − 2 ⟹ x² + 1/x² = 3² + 2 = <b>11</b>.",
-        "shortcut": "⚡ <b>Formula:</b> k² + 2 = 3² + 2 = <b>11</b>."
+        "solution": "Common denominator = xyz.<br>Expression = (x³ + y³ + z³) / xyz.<br>When x + y + z = 0, x³ + y³ + z³ = 3xyz.<br>Therefore, 3xyz / xyz = <b>3</b>.",
+        "shortcut": "⚡ <b>Symmetric Identity:</b> When sum = 0, x³ + y³ + z³ = 3xyz ⟹ Value = <b>3</b>."
       },
       {
         "id": 14,
         "category": "Advanced Maths",
         "topic": "Algebra",
-        "question": "If x + 1/x = 4, find the value of x³ + 1/x³.",
+        "question": "If x⁴ + 1/x⁴ = 194, find the value of x³ + 1/x³ for positive real x.",
         "options": [
           "52",
           "64",
-          "58",
-          "46"
+          "48",
+          "56"
         ],
         "correct": 0,
-        "solution": "x³ + 1/x³ = (x + 1/x)³ − 3(x + 1/x) = 4³ − 3(4) = 64 − 12 = <b>52</b>.",
-        "shortcut": "⚡ <b>k³ − 3k Rule:</b> 4³ − 3(4) = <b>52</b>."
+        "solution": "x² + 1/x² = √(194 + 2) = √196 = 14.<br>x + 1/x = √(14 + 2) = √16 = 4.<br>x³ + 1/x³ = 4³ − 3(4) = 64 − 12 = <b>52</b>.",
+        "shortcut": "⚡ 194 ⟶ +2 ⟶ √196 = 14 ⟶ +2 ⟶ √16 = 4 ⟶ 4³ − 3(4) = <b>52</b>."
       },
       {
         "id": 15,
         "category": "Advanced Maths",
         "topic": "Trigonometry",
-        "question": "If tan(A + B) = √3 and tan(A − B) = 1/√3 (where 0° < A + B ≤ 90° and A ≥ B), find the values of A and B.",
+        "question": "If 5 cos θ + 12 sin θ = 13 (where 0° < θ < 90°), find the exact value of tan θ.",
         "options": [
-          "45°, 15°",
-          "45°, 45°",
-          "50°, 20°",
-          "35°, 25°"
+          "12/5",
+          "5/12",
+          "13/12",
+          "5/13"
         ],
         "correct": 0,
-        "solution": "A + B = 60°, A − B = 30° ⟹ A = 45°, B = 15°. Ans = <b>45°, 15°</b>.",
-        "shortcut": "⚡ Direct sum and difference of known standard angles ⟹ <b>45°, 15°</b>."
+        "solution": "Divide by 13: (5/13)cos θ + (12/13)sin θ = 1.<br>Comparing with cos²θ + sin²θ = 1 ⟹ cos θ = 5/13, sin θ = 12/13.<br>tan θ = sin θ / cos θ = (12/13) / (5/13) = <b>12/5</b>.",
+        "shortcut": "⚡ <b>Triplet (5, 12, 13):</b> Coefficient of sin θ / Coefficient of cos θ = <b>12/5</b>."
       },
       {
         "id": 16,
         "category": "Advanced Maths",
         "topic": "Heights & Distances",
-        "question": "The angle of elevation of the top of a vertical tower from a point 45 m away from its foot on horizontal ground is 30°. Find the height of the tower.",
+        "question": "A vertical transmission tower stands on horizontal ground. From a point A on the ground, the angle of elevation of the top of the tower is 30°. On walking 50 m straight towards the tower to a point B, the angle of elevation becomes 60°. Find the exact height of the tower.",
         "options": [
-          "15√3 m",
-          "45 m",
-          "90 m",
-          "45√2 m"
+          "25√3 m",
+          "50√3 m",
+          "20√3 m",
+          "30√3 m"
         ],
         "correct": 0,
-        "solution": "tan 30° = h / 45 ⟹ 1/√3 = h / 45 ⟹ h = 45/√3 = <b>15√3 m</b>.",
-        "shortcut": "⚡ In 30° triangle, height = Base × tan(30°) = <b>15√3 m</b>."
+        "solution": "Let height be h.<br>At point A: distance to tower = h / tan 30° = h√3.<br>At point B: distance to tower = h / tan 60° = h / √3.<br>Distance walked AB = h√3 − h/√3 = h(3 − 1)/√3 = 2h / √3 = 50 m.<br>h = (50√3) / 2 = <b>25√3 m</b>.",
+        "shortcut": "⚡ <b>Topper Formula:</b> h = d / (cot 30° − cot 60°) = 50 / (√3 − 1/√3) = <b>25√3 m</b>."
       },
       {
         "id": 17,
         "category": "Advanced Maths",
         "topic": "Geometry",
-        "question": "From an external point P, two tangents PA and PB are drawn to a circle with centre O. If ∠APB = 50°, find the measure of ∠AOB.",
+        "question": "Two circles of radii 15 cm and 20 cm intersect each other at two points A and B. If the distance between their centres is 25 cm, find the length of the common chord AB.",
         "options": [
-          "130°",
-          "120°",
-          "145°",
-          "50°"
+          "24 cm",
+          "20 cm",
+          "25 cm",
+          "18 cm"
         ],
         "correct": 0,
-        "solution": "In quadrilateral OAPB, radius is perpendicular to tangent at point of contact: ∠OAP = ∠OBP = 90°.<br>Sum of opposite angles ∠APB + ∠AOB = 180°.<br>∠AOB = 180° − 50° = <b>130°</b>.",
-        "shortcut": "⚡ <b>Supplementary Angles:</b> ∠AOB = 180° − ∠APB = 180° − 50° = <b>130°</b>."
+        "solution": "Centres O₁ and O₂ form a triangle with intersection point A: sides 15, 20, 25.<br>15² + 20² = 225 + 400 = 625 = 25² ⟹ Right-angled triangle at A!<br>Altitude from A to hypotenuse O₁O₂ = (15 × 20) / 25 = 12 cm.<br>Length of common chord AB = 2 × altitude = 2 × 12 = <b>24 cm</b>.",
+        "shortcut": "⚡ <b>Right-Angle Common Chord:</b> AB = 2 × (r₁ × r₂) / d = 2 × (15 × 20) / 25 = <b>24 cm</b>."
       },
       {
         "id": 18,
         "category": "Advanced Maths",
         "topic": "Geometry",
-        "question": "In △ABC, the internal bisectors of ∠B and ∠C meet at incenter I. If ∠BAC = 70°, find the measure of ∠BIC.",
+        "question": "In a cyclic quadrilateral ABCD, side AB is a diameter of the circle. Diagonals AC and BD intersect at point E. If ∠ADC = 130°, find the measure of ∠BAC.",
         "options": [
-          "125°",
-          "115°",
-          "130°",
-          "110°"
+          "40°",
+          "50°",
+          "35°",
+          "45°"
         ],
         "correct": 0,
-        "solution": "Formula for incenter angle: ∠BIC = 90° + ∠A / 2 = 90° + 70/2 = 90° + 35° = <b>125°</b>.",
-        "shortcut": "⚡ <b>Incenter Formula:</b> 90° + A/2 = 90° + 35° = <b>125°</b>."
+        "solution": "Opposite angles of cyclic quad sum to 180°: ∠ABC = 180° − ∠ADC = 180° − 130° = 50°.<br>Since AB is a diameter, angle in semicircle ∠ACB = 90°.<br>In right △ABC: ∠BAC = 90° − ∠ABC = 90° − 50° = <b>40°</b>.",
+        "shortcut": "⚡ ∠BAC = 90° − (180° − 130°) = 90° − 50° = <b>40°</b>."
       },
       {
         "id": 19,
         "category": "Advanced Maths",
         "topic": "Mensuration 3D",
-        "question": "If the radius of a cylinder is multiplied by 3 and its height is divided by 3, find the ratio of the new volume to the original volume.",
+        "question": "A hollow iron pipe 21 cm long has an exterior diameter of 10 cm and a wall thickness of 1 cm. Find the total weight of the pipe if 1 cm³ of iron weighs 8 grams. (Take π = 22/7)",
         "options": [
-          "3 : 1",
-          "1 : 3",
-          "3 : 3",
-          "3 : 3"
+          "4.752 kg",
+          "5.120 kg",
+          "4.280 kg",
+          "3.960 kg"
         ],
         "correct": 0,
-        "solution": "Volume V = πr²h. New volume V' = π(3r)²(h/3) = (9/3)πr²h.<br>Ratio V' : V = 9 : 3 = <b>3 : 1</b>.",
-        "shortcut": "⚡ <b>Ratio Scaling:</b> r² · h = (3)² · (1/3) = 9/3 = <b>3 : 1</b>."
+        "solution": "Outer radius R = 10 / 2 = 5 cm. Inner radius r = 5 − 1 = 4 cm.<br>Volume = π(R² − r²)h = (22/7) × (25 − 16) × 21 = 22 × 9 × 3 = 594 cm³.<br>Total weight = 594 × 8 g = 4,752 g = <b>4.752 kg</b>.",
+        "shortcut": "⚡ V = 22 × 9 × 3 = 594 cm³. Weight = 594 × 8 = 4752 g = <b>4.752 kg</b>."
       },
       {
         "id": 20,
         "category": "Advanced Maths",
         "topic": "Mensuration 3D",
-        "question": "A solid right circular cone has a base radius of 5 cm and a vertical height of 12 cm. Find its Total Surface Area (TSA). (Take π = 3.14)",
+        "question": "A metallic bucket is in the shape of a frustum of a right circular cone. The top and bottom circular radii are 20 cm and 12 cm respectively, and its vertical height is 15 cm. Find its Curved Surface Area (CSA). (Take π = 3.14)",
         "options": [
-          "282.6 cm²",
-          "204.1 cm²",
-          "78.5 cm²",
-          "307.6 cm²"
+          "1,708.16 cm²",
+          "1,640.50 cm²",
+          "1,824.00 cm²",
+          "1,550.80 cm²"
         ],
         "correct": 0,
-        "solution": "Slant height l = √(r² + h²) = √(5² + 12²) = 13 cm.<br>TSA = πr(l + r) = 3.14 × 5 × (13 + 5) = 3.14 × 5 × 18 = <b>282.6 cm²</b>.",
-        "shortcut": "⚡ <b>Triplet:</b> (5, 12, 13) ⟹ TSA = 3.14 × 5 × (18) = <b>282.6 cm²</b>."
+        "solution": "Slant height l = √[h² + (R − r)²] = √[15² + (20 − 12)²] = √[225 + 64] = √289 = 17 cm.<br>CSA = π(R + r)l = 3.14 × (20 + 12) × 17 = 3.14 × 32 × 17 = <b>1,708.16 cm²</b>.",
+        "shortcut": "⚡ Triplet (8, 15, 17) ⟹ l = 17 cm. CSA = 3.14 × 32 × 17 = <b>1,708.16 cm²</b>."
       },
       {
         "id": 21,
         "category": "Advanced Maths",
         "topic": "Mensuration 2D",
-        "question": "Find the area of a regular hexagon whose each side measures 4 cm.",
+        "question": "A rhombus ABCD has a perimeter of 100 cm and one of its diagonals measures 40 cm. Find the length of the other diagonal and the total area of the rhombus.",
         "options": [
-          "24√3 cm²",
-          "12√3 cm²",
-          "48√3 cm²",
-          "16√3 cm²"
+          "600 cm² (Other Diagonal 30 cm)",
+          "550 cm² (Other Diagonal 28 cm)",
+          "650 cm² (Other Diagonal 32 cm)",
+          "720 cm² (Other Diagonal 36 cm)"
         ],
         "correct": 0,
-        "solution": "A regular hexagon comprises 6 equilateral triangles of side a = 4 cm.<br>Area = 6 × [(√3 / 4) × a²] = 6 × [(√3 / 4) × 16] = <b>24√3 cm²</b>.",
-        "shortcut": "⚡ <b>Hexagon Area:</b> (3√3 / 2) × a² = (3√3 / 2) × 16 = <b>24√3 cm²</b>."
+        "solution": "Side a = 100 / 4 = 25 cm.<br>Half-diagonal d₁/2 = 40 / 2 = 20 cm.<br>Right triangle formed by diagonals: (d₂/2) = √(25² − 20²) = 15 cm ⟹ d₂ = 30 cm.<br>Area = (1/2) × d₁ × d₂ = (1/2) × 40 × 30 = <b>600 cm²</b>.",
+        "shortcut": "⚡ Triplet (15, 20, 25) ⟹ d₂/2 = 15 ⟹ d₂ = 30 cm. Area = (40 × 30)/2 = <b>600 cm²</b>."
       },
       {
         "id": 22,
@@ -1209,136 +1209,136 @@
         "id": 13,
         "category": "Advanced Maths",
         "topic": "Algebra",
-        "question": "If x − 1/x = 5, find the value of x² + 1/x².",
+        "question": "If x + 1/x = √3, find the value of x¹⁸ + x¹² + x⁶ + 1.",
         "options": [
-          "27",
-          "25",
-          "23",
-          "31"
+          "0",
+          "1",
+          "-1",
+          "2"
         ],
         "correct": 0,
-        "solution": "(x − 1/x)² = x² + 1/x² − 2.<br>5² = x² + 1/x² − 2 ⟹ x² + 1/x² = 5² + 2 = <b>27</b>.",
-        "shortcut": "⚡ <b>Formula:</b> k² + 2 = 5² + 2 = <b>27</b>."
+        "solution": "Cubing: x³ + 1/x³ = (√3)³ − 3√3 = 3√3 − 3√3 = 0.<br>x⁶ + 1 = 0 ⟹ x⁶ = −1.<br>x¹⁸ + x¹² + x⁶ + 1 = (x⁶)³ + (x⁶)² + x⁶ + 1 = (−1)³ + (−1)² + (−1) + 1 = −1 + 1 − 1 + 1 = <b>0</b>.",
+        "shortcut": "⚡ <b>x + 1/x = √3 ⟹ x⁶ = −1:</b> Groups of powers differing by 6 sum to 0 ⟹ (x¹⁸ + x¹²) + (x⁶ + 1) = 0 + 0 = <b>0</b>."
       },
       {
         "id": 14,
         "category": "Advanced Maths",
         "topic": "Algebra",
-        "question": "If x + 1/x = 5, find the value of x³ + 1/x³.",
+        "question": "If (a − 3)² + (b − 4)² + (c − 5)² = 0, find the value of √(a + b + c + 13).",
         "options": [
-          "110",
-          "125",
-          "116",
-          "104"
+          "5",
+          "6",
+          "4",
+          "7"
         ],
         "correct": 0,
-        "solution": "x³ + 1/x³ = (x + 1/x)³ − 3(x + 1/x) = 5³ − 3(5) = 125 − 15 = <b>110</b>.",
-        "shortcut": "⚡ <b>k³ − 3k Rule:</b> 5³ − 3(5) = <b>110</b>."
+        "solution": "Sum of squares is zero only when each term is zero:<br>a = 3, b = 4, c = 5.<br>√(a + b + c + 13) = √(3 + 4 + 5 + 13) = √25 = <b>5</b>.",
+        "shortcut": "⚡ a=3, b=4, c=5 ⟹ √(12 + 13) = √25 = <b>5</b>."
       },
       {
         "id": 15,
         "category": "Advanced Maths",
         "topic": "Trigonometry",
-        "question": "If sin(A + B) = 1 and cos(A − B) = √3/2 (where 0° < A + B ≤ 90° and A ≥ B), find the values of A and B.",
+        "question": "If sin θ + cos θ = 7/5 (where 0° < θ < 90° and sin θ > cos θ), find the value of (sin θ − cos θ).",
         "options": [
-          "60°, 30°",
-          "45°, 45°",
-          "50°, 20°",
-          "35°, 25°"
+          "1/5",
+          "2/5",
+          "3/5",
+          "1/25"
         ],
         "correct": 0,
-        "solution": "A + B = 90°, A − B = 30° ⟹ A = 60°, B = 30°. Ans = <b>60°, 30°</b>.",
-        "shortcut": "⚡ Direct sum and difference of known standard angles ⟹ <b>60°, 30°</b>."
+        "solution": "Squaring: 1 + 2 sin θ cos θ = 49/25 ⟹ 2 sin θ cos θ = 24/25.<br>(sin θ − cos θ)² = 1 − 2 sin θ cos θ = 1 − 24/25 = 1/25.<br>sin θ − cos θ = √(1/25) = <b>1/5</b>.",
+        "shortcut": "⚡ <b>Triplet (3, 4, 5):</b> sin θ = 4/5, cos θ = 3/5 ⟹ sin θ − cos θ = 4/5 − 3/5 = <b>1/5</b>."
       },
       {
         "id": 16,
         "category": "Advanced Maths",
         "topic": "Heights & Distances",
-        "question": "The angle of elevation of the top of a vertical tower from a point 60 m away from its foot on horizontal ground is 60°. Find the height of the tower.",
+        "question": "A man standing on the deck of a ship, which is 10 m above sea level, observes the angle of elevation of the top of a hill as 60° and the angle of depression of the base of the hill as 30°. Calculate the total height of the hill from sea level.",
         "options": [
-          "60√3 m",
-          "60 m",
-          "120 m",
-          "60√2 m"
+          "40 m",
+          "30 m",
+          "50 m",
+          "45 m"
         ],
         "correct": 0,
-        "solution": "tan 60° = h / 60 ⟹ √3 = h / 60 ⟹ h = <b>60√3 m</b>.",
-        "shortcut": "⚡ In 60° triangle, height = Base × tan(60°) = <b>60√3 m</b>."
+        "solution": "Horizontal distance to hill d = 10 / tan 30° = 10√3 m.<br>Height above deck level h' = d × tan 60° = (10√3) × √3 = 30 m.<br>Total height of hill = h' + 10 = 30 + 10 = <b>40 m</b>.",
+        "shortcut": "⚡ Hill height = Deck × (1 + tan 60° / tan 30°) = 10 × (1 + 3) = 10 × 4 = <b>40 m</b>."
       },
       {
         "id": 17,
         "category": "Advanced Maths",
         "topic": "Geometry",
-        "question": "From an external point P, two tangents PA and PB are drawn to a circle with centre O. If ∠APB = 70°, find the measure of ∠AOB.",
+        "question": "In a circle with centre O, tangents PA and PB are drawn from an external point P touching the circle at A and B. A chord BC is drawn parallel to tangent PA. If ∠APB = 40°, find the measure of ∠ABC.",
         "options": [
-          "110°",
-          "100°",
-          "125°",
-          "70°"
+          "70°",
+          "60°",
+          "80°",
+          "50°"
         ],
         "correct": 0,
-        "solution": "In quadrilateral OAPB, radius is perpendicular to tangent at point of contact: ∠OAP = ∠OBP = 90°.<br>Sum of opposite angles ∠APB + ∠AOB = 180°.<br>∠AOB = 180° − 70° = <b>110°</b>.",
-        "shortcut": "⚡ <b>Supplementary Angles:</b> ∠AOB = 180° − ∠APB = 180° − 70° = <b>110°</b>."
+        "solution": "∠AOB = 180° − 40° = 140°.<br>In isosceles △OAB: ∠OAB = ∠OBA = (180° − 140°)/2 = 20°.<br>Tangent-radius angle = 90° ⟹ ∠PAB = 90° − 20° = 70°.<br>Since BC ∥ PA, alternate angle ∠ABC = ∠PAB = <b>70°</b>.",
+        "shortcut": "⚡ ∠PAB = (180° − 40°)/2 = 70°. Alternate angle ∠ABC = <b>70°</b>."
       },
       {
         "id": 18,
         "category": "Advanced Maths",
         "topic": "Geometry",
-        "question": "In △ABC, the internal bisectors of ∠B and ∠C meet at incenter I. If ∠BAC = 60°, find the measure of ∠BIC.",
+        "question": "In a right-angled triangle ABC, ∠B = 90°, AB = 6 cm, and BC = 8 cm. Find the length of median BD drawn from the right-angled vertex B to the hypotenuse AC.",
         "options": [
-          "120°",
-          "110°",
-          "125°",
-          "120°"
+          "5 cm",
+          "4 cm",
+          "6 cm",
+          "4.8 cm"
         ],
         "correct": 0,
-        "solution": "Formula for incenter angle: ∠BIC = 90° + ∠A / 2 = 90° + 60/2 = 90° + 30° = <b>120°</b>.",
-        "shortcut": "⚡ <b>Incenter Formula:</b> 90° + A/2 = 90° + 30° = <b>120°</b>."
+        "solution": "Hypotenuse AC = √(6² + 8²) = 10 cm.<br>In any right-angled triangle, the median to the hypotenuse is equal to half the hypotenuse (circumradius R):<br>BD = AC / 2 = 10 / 2 = <b>5 cm</b>.",
+        "shortcut": "⚡ <b>Circumradius Theorem:</b> BD = Hypotenuse / 2 = 10 / 2 = <b>5 cm</b>."
       },
       {
         "id": 19,
         "category": "Advanced Maths",
         "topic": "Mensuration 3D",
-        "question": "If the radius of a cylinder is multiplied by 2 and its height is divided by 4, find the ratio of the new volume to the original volume.",
+        "question": "A solid right circular cone of height 24 cm and base radius 6 cm is melted and recast into small spherical balls of radius 3 cm each. Find the total number of spherical balls obtained.",
         "options": [
-          "1 : 1",
-          "1 : 1",
-          "2 : 4",
-          "4 : 2"
+          "8",
+          "6",
+          "10",
+          "12"
         ],
         "correct": 0,
-        "solution": "Volume V = πr²h. New volume V' = π(2r)²(h/4) = (4/4)πr²h.<br>Ratio V' : V = 4 : 4 = <b>1 : 1</b>.",
-        "shortcut": "⚡ <b>Ratio Scaling:</b> r² · h = (2)² · (1/4) = 4/4 = <b>1 : 1</b>."
+        "solution": "Volume of cone = (1/3)π r² h = (1/3)π × 36 × 24 = 288π cm³.<br>Volume of each sphere = (4/3)π R³ = (4/3)π × 27 = 36π cm³.<br>Number of balls = 288π / 36π = <b>8</b>.",
+        "shortcut": "⚡ N = [(1/3) × 36 × 24] / [(4/3) × 27] = (36 × 24) / (4 × 27) = <b>8</b>."
       },
       {
         "id": 20,
         "category": "Advanced Maths",
         "topic": "Mensuration 3D",
-        "question": "A solid right circular cone has a base radius of 7 cm and a vertical height of 24 cm. Find its Total Surface Area (TSA). (Take π = 3.14)",
+        "question": "A circus tent consists of a cylindrical base of radius 14 m and height 3 m, surmounted by a conical roof of the same radius and slant height 10 m. Find the total canvas area required for making the tent. (Take π = 22/7)",
         "options": [
-          "703.36 cm²",
-          "549.5 cm²",
-          "153.86 cm²",
-          "728.36 cm²"
+          "704 m²",
+          "680 m²",
+          "724 m²",
+          "660 m²"
         ],
         "correct": 0,
-        "solution": "Slant height l = √(r² + h²) = √(7² + 24²) = 25 cm.<br>TSA = πr(l + r) = 3.14 × 7 × (25 + 7) = 3.14 × 7 × 32 = <b>703.36 cm²</b>.",
-        "shortcut": "⚡ <b>Triplet:</b> (7, 24, 25) ⟹ TSA = 3.14 × 7 × (32) = <b>703.36 cm²</b>."
+        "solution": "CSA of cylinder = 2πrh = 2 × (22/7) × 14 × 3 = 264 m².<br>CSA of cone = πrl = (22/7) × 14 × 10 = 440 m².<br>Total canvas area = 264 + 440 = <b>704 m²</b>.",
+        "shortcut": "⚡ Area = πr(2h + l) = (22/7) × 14 × (6 + 10) = 44 × 16 = <b>704 m²</b>."
       },
       {
         "id": 21,
         "category": "Advanced Maths",
         "topic": "Mensuration 2D",
-        "question": "Find the area of a regular hexagon whose each side measures 8 cm.",
+        "question": "A circular sports track of uniform width 7 m is constructed around the outside of a circular ground of radius 21 m. Find the total cost of paving the track at ₹50 per square metre. (Take π = 22/7)",
         "options": [
-          "96√3 cm²",
-          "48√3 cm²",
-          "192√3 cm²",
-          "64√3 cm²"
+          "₹53,900",
+          "₹51,200",
+          "₹56,400",
+          "₹49,800"
         ],
         "correct": 0,
-        "solution": "A regular hexagon comprises 6 equilateral triangles of side a = 8 cm.<br>Area = 6 × [(√3 / 4) × a²] = 6 × [(√3 / 4) × 64] = <b>96√3 cm²</b>.",
-        "shortcut": "⚡ <b>Hexagon Area:</b> (3√3 / 2) × a² = (3√3 / 2) × 64 = <b>96√3 cm²</b>."
+        "solution": "Inner radius r = 21 m. Outer radius R = 21 + 7 = 28 m.<br>Area = π(R² − r²) = (22/7) × (28 − 21)(28 + 21) = (22/7) × 7 × 49 = 1,078 m².<br>Total cost = 1,078 × ₹50 = <b>₹53,900</b>.",
+        "shortcut": "⚡ Area = 22 × 49 = 1,078 m². Cost = 1,078 × 50 = <b>₹53,900</b>."
       },
       {
         "id": 22,
@@ -1722,136 +1722,136 @@
         "id": 13,
         "category": "Advanced Maths",
         "topic": "Algebra",
-        "question": "If x − 1/x = 2, find the value of x² + 1/x².",
+        "question": "If x + y = 10 and x² + y² = 58, find the value of x³ + y³.",
         "options": [
-          "6",
-          "4",
-          "2",
-          "10"
+          "370",
+          "360",
+          "380",
+          "350"
         ],
         "correct": 0,
-        "solution": "(x − 1/x)² = x² + 1/x² − 2.<br>2² = x² + 1/x² − 2 ⟹ x² + 1/x² = 2² + 2 = <b>6</b>.",
-        "shortcut": "⚡ <b>Formula:</b> k² + 2 = 2² + 2 = <b>6</b>."
+        "solution": "2xy = (x + y)² − (x² + y²) = 100 − 58 = 42 ⟹ xy = 21.<br>x³ + y³ = (x + y)(x² − xy + y²) = 10 × (58 − 21) = 10 × 37 = <b>370</b>.",
+        "shortcut": "⚡ xy = (100 − 58)/2 = 21. x³ + y³ = 10 × (58 − 21) = <b>370</b>."
       },
       {
         "id": 14,
         "category": "Advanced Maths",
         "topic": "Algebra",
-        "question": "If x + 1/x = 6, find the value of x³ + 1/x³.",
+        "question": "If (x / y) + (y / x) = 1 (where x, y ≠ 0), find the value of x³ + y³.",
         "options": [
-          "198",
-          "216",
-          "204",
-          "192"
+          "0",
+          "1",
+          "-1",
+          "2"
         ],
         "correct": 0,
-        "solution": "x³ + 1/x³ = (x + 1/x)³ − 3(x + 1/x) = 6³ − 3(6) = 216 − 18 = <b>198</b>.",
-        "shortcut": "⚡ <b>k³ − 3k Rule:</b> 6³ − 3(6) = <b>198</b>."
+        "solution": "(x² + y²) / xy = 1 ⟹ x² + y² = xy ⟹ x² − xy + y² = 0.<br>x³ + y³ = (x + y)(x² − xy + y²) = (x + y) × 0 = <b>0</b>.",
+        "shortcut": "⚡ <b>Identity Rule:</b> x/y + y/x = 1 ⟹ x² − xy + y² = 0 ⟹ x³ + y³ = <b>0</b>."
       },
       {
         "id": 15,
         "category": "Advanced Maths",
         "topic": "Trigonometry",
-        "question": "If cos(A + B) = 0 and sin(A − B) = 1/2 (where 0° < A + B ≤ 90° and A ≥ B), find the values of A and B.",
+        "question": "If tan θ + cot θ = 2 (where 0° < θ < 90°), find the value of sin⁵θ + cos⁵θ.",
         "options": [
-          "60°, 30°",
-          "45°, 45°",
-          "50°, 20°",
-          "35°, 25°"
+          "√2 / 4",
+          "1 / √2",
+          "√2 / 2",
+          "1 / 4"
         ],
         "correct": 0,
-        "solution": "A + B = 90°, A − B = 30° ⟹ A = 60°, B = 30°. Ans = <b>60°, 30°</b>.",
-        "shortcut": "⚡ Direct sum and difference of known standard angles ⟹ <b>60°, 30°</b>."
+        "solution": "tan θ + 1/tan θ = 2 ⟹ tan θ = 1 ⟹ θ = 45°.<br>sin 45° = 1/√2, cos 45° = 1/√2.<br>(1/√2)⁵ + (1/√2)⁵ = 1/(4√2) + 1/(4√2) = 2/(4√2) = 1/(2√2) = <b>√2 / 4</b>.",
+        "shortcut": "⚡ θ = 45° ⟹ 2 × (1/√2)⁵ = 2 / (4√2) = <b>√2 / 4</b>."
       },
       {
         "id": 16,
         "category": "Advanced Maths",
         "topic": "Heights & Distances",
-        "question": "The angle of elevation of the top of a vertical tower from a point 20 m away from its foot on horizontal ground is 30°. Find the height of the tower.",
+        "question": "A flagstaff of height 7 m stands on top of a vertical building. From a point on horizontal ground, the angle of elevation of the top of the building is 45° and that of the top of the flagstaff is 60°. Find the height of the building. (Take √3 = 1.732)",
         "options": [
-          "11.5 m",
-          "20 m",
-          "40 m",
-          "20√2 m"
+          "9.56 m",
+          "8.75 m",
+          "10.25 m",
+          "11.15 m"
         ],
         "correct": 0,
-        "solution": "tan 30° = h / 20 ⟹ 1/√3 = h / 20 ⟹ h = 20/√3 = <b>11.5 m</b>.",
-        "shortcut": "⚡ In 30° triangle, height = Base × tan(30°) = <b>11.5 m</b>."
+        "solution": "Let building height be h. Since elevation to building is 45°, ground distance d = h.<br>For flagstaff top: tan 60° = (h + 7) / h ⟹ √3 h = h + 7.<br>h(√3 − 1) = 7 ⟹ h = 7 / (√3 − 1) = 7(√3 + 1) / 2 = 3.5 × 2.732 = <b>9.56 m</b>.",
+        "shortcut": "⚡ h = 7 / (√3 − 1) = 3.5 × (2.732) ≈ <b>9.56 m</b>."
       },
       {
         "id": 17,
         "category": "Advanced Maths",
         "topic": "Geometry",
-        "question": "From an external point P, two tangents PA and PB are drawn to a circle with centre O. If ∠APB = 80°, find the measure of ∠AOB.",
+        "question": "In a circle, two chords AB and CD intersect internally at point E. If AE = 6 cm, EB = 8 cm, and CE = 4 cm, find the total length of chord CD.",
         "options": [
-          "100°",
-          "90°",
-          "115°",
-          "80°"
+          "16 cm",
+          "14 cm",
+          "18 cm",
+          "12 cm"
         ],
         "correct": 0,
-        "solution": "In quadrilateral OAPB, radius is perpendicular to tangent at point of contact: ∠OAP = ∠OBP = 90°.<br>Sum of opposite angles ∠APB + ∠AOB = 180°.<br>∠AOB = 180° − 80° = <b>100°</b>.",
-        "shortcut": "⚡ <b>Supplementary Angles:</b> ∠AOB = 180° − ∠APB = 180° − 80° = <b>100°</b>."
+        "solution": "By the Intersecting Chords Theorem: AE × EB = CE × ED.<br>6 × 8 = 4 × ED ⟹ 48 = 4 × ED ⟹ ED = 12 cm.<br>Length of chord CD = CE + ED = 4 + 12 = <b>16 cm</b>.",
+        "shortcut": "⚡ ED = (6 × 8) / 4 = 12 cm ⟹ CD = 4 + 12 = <b>16 cm</b>."
       },
       {
         "id": 18,
         "category": "Advanced Maths",
         "topic": "Geometry",
-        "question": "In △ABC, the internal bisectors of ∠B and ∠C meet at incenter I. If ∠BAC = 80°, find the measure of ∠BIC.",
+        "question": "In a right-angled triangle ABC with hypotenuse AC = 25 cm, the inradius of the inscribed circle is r = 3 cm. Find the perimeter of the triangle.",
         "options": [
-          "130°",
-          "120°",
-          "135°",
-          "100°"
+          "56 cm",
+          "50 cm",
+          "60 cm",
+          "54 cm"
         ],
         "correct": 0,
-        "solution": "Formula for incenter angle: ∠BIC = 90° + ∠A / 2 = 90° + 80/2 = 90° + 40° = <b>130°</b>.",
-        "shortcut": "⚡ <b>Incenter Formula:</b> 90° + A/2 = 90° + 40° = <b>130°</b>."
+        "solution": "In a right-angled triangle, inradius r = (a + b − c) / 2.<br>3 = (a + b − 25) / 2 ⟹ a + b − 25 = 6 ⟹ a + b = 31 cm.<br>Perimeter = (a + b) + c = 31 + 25 = <b>56 cm</b>.",
+        "shortcut": "⚡ <b>Right Triangle Rule:</b> Perimeter = 2r + 2c = 2(3) + 2(25) = 6 + 50 = <b>56 cm</b>."
       },
       {
         "id": 19,
         "category": "Advanced Maths",
         "topic": "Mensuration 3D",
-        "question": "If the radius of a cylinder is multiplied by 4 and its height is divided by 2, find the ratio of the new volume to the original volume.",
+        "question": "A solid metallic rectangular cuboid of dimensions 22 cm × 12 cm × 7.5 cm is melted and recast into spherical lead shots, each of diameter 3 cm. Find how many lead shots are formed. (Take π = 22/7)",
         "options": [
-          "8 : 1",
-          "1 : 8",
-          "4 : 2",
-          "2 : 4"
+          "140",
+          "120",
+          "160",
+          "150"
         ],
         "correct": 0,
-        "solution": "Volume V = πr²h. New volume V' = π(4r)²(h/2) = (16/2)πr²h.<br>Ratio V' : V = 16 : 2 = <b>8 : 1</b>.",
-        "shortcut": "⚡ <b>Ratio Scaling:</b> r² · h = (4)² · (1/2) = 16/2 = <b>8 : 1</b>."
+        "solution": "Radius of lead shot = 3 / 2 = 1.5 cm.<br>Volume of cuboid = 22 × 12 × 7.5 = 1,980 cm³.<br>Volume of each shot = (4/3) × (22/7) × (1.5)³ = (4/3) × (22/7) × (27/8) = (99 / 7) cm³.<br>Number of shots = 1,980 ÷ (99/7) = (1,980 × 7) / 99 = 20 × 7 = <b>140</b>.",
+        "shortcut": "⚡ N = (22 × 12 × 7.5 × 7) / (4/3 × 22 × 3.375) = 20 × 7 = <b>140</b>."
       },
       {
         "id": 20,
         "category": "Advanced Maths",
         "topic": "Mensuration 3D",
-        "question": "A solid right circular cone has a base radius of 8 cm and a vertical height of 15 cm. Find its Total Surface Area (TSA). (Take π = 3.14)",
+        "question": "A hemispherical hollow bowl has an internal radius of 9 cm and an external radius of 10 cm. Find the total surface area of the bowl (inner CSA + outer CSA + ring base area). (Take π = 3.14)",
         "options": [
-          "628.0 cm²",
-          "427.04 cm²",
-          "200.96 cm²",
-          "653.0 cm²"
+          "1,196.34 cm²",
+          "1,136.50 cm²",
+          "1,248.20 cm²",
+          "1,080.40 cm²"
         ],
         "correct": 0,
-        "solution": "Slant height l = √(r² + h²) = √(8² + 15²) = 17 cm.<br>TSA = πr(l + r) = 3.14 × 8 × (17 + 8) = 3.14 × 8 × 25 = <b>628.0 cm²</b>.",
-        "shortcut": "⚡ <b>Triplet:</b> (8, 15, 17) ⟹ TSA = 3.14 × 8 × (25) = <b>628.0 cm²</b>."
+        "solution": "Total Surface Area = 2πR² + 2πr² + π(R² − r²) = π(3R² + r²).<br>TSA = 3.14 × [3(10)² + 9²] = 3.14 × [300 + 81] = 3.14 × 381 = <b>1,196.34 cm²</b>.",
+        "shortcut": "⚡ <b>Hollow Hemisphere TSA:</b> π(3R² + r²) = 3.14 × (300 + 81) = 3.14 × 381 = <b>1,196.34 cm²</b>."
       },
       {
         "id": 21,
         "category": "Advanced Maths",
         "topic": "Mensuration 2D",
-        "question": "Find the area of a regular hexagon whose each side measures 10 cm.",
+        "question": "In an equilateral triangle of side 12 cm, a circle is inscribed touching all three sides. Find the area of the region inside the triangle but outside the inscribed circle. (Take π = 3.14, √3 = 1.732)",
         "options": [
-          "150√3 cm²",
-          "75√3 cm²",
-          "300√3 cm²",
-          "100√3 cm²"
+          "24.67 cm²",
+          "28.50 cm²",
+          "21.35 cm²",
+          "26.40 cm²"
         ],
         "correct": 0,
-        "solution": "A regular hexagon comprises 6 equilateral triangles of side a = 10 cm.<br>Area = 6 × [(√3 / 4) × a²] = 6 × [(√3 / 4) × 100] = <b>150√3 cm²</b>.",
-        "shortcut": "⚡ <b>Hexagon Area:</b> (3√3 / 2) × a² = (3√3 / 2) × 100 = <b>150√3 cm²</b>."
+        "solution": "Area of triangle = (√3/4) × 12² = 36√3 ≈ 36 × 1.732 = 62.35 cm².<br>Inradius r = a / (2√3) = 12 / (2√3) = 2√3 cm.<br>Area of incircle = π r² = 3.14 × (2√3)² = 3.14 × 12 = 37.68 cm².<br>Unshaded Area = 62.35 − 37.68 = <b>24.67 cm²</b>.",
+        "shortcut": "⚡ Triangle = 36√3 ≈ 62.35; Circle = 12π ≈ 37.68. Diff = 62.35 − 37.68 = <b>24.67 cm²</b>."
       },
       {
         "id": 22,
@@ -2243,136 +2243,136 @@
         "id": 13,
         "category": "Advanced Maths",
         "topic": "Algebra",
-        "question": "If x − 1/x = 6, find the value of x² + 1/x².",
+        "question": "If x + 1/x = 5, find the value of (x⁴ + 3x³ + 5x² + 3x + 1) ÷ (x⁴ + 1).",
         "options": [
-          "38",
-          "36",
-          "34",
-          "42"
+          "43/23",
+          "41/23",
+          "45/23",
+          "38/23"
         ],
         "correct": 0,
-        "solution": "(x − 1/x)² = x² + 1/x² − 2.<br>6² = x² + 1/x² − 2 ⟹ x² + 1/x² = 6² + 2 = <b>38</b>.",
-        "shortcut": "⚡ <b>Formula:</b> k² + 2 = 6² + 2 = <b>38</b>."
+        "solution": "Divide numerator and denominator by x²:<br>Numerator = (x² + 1/x²) + 3(x + 1/x) + 5 = (5² − 2) + 3(5) + 5 = 23 + 15 + 5 = 43.<br>Denominator = x² + 1/x² = 23.<br>Value = <b>43/23</b>.",
+        "shortcut": "⚡ Divide by x²: [23 + 3(5) + 5] / 23 = 43 / 23 ⟹ <b>43/23</b>."
       },
       {
         "id": 14,
         "category": "Advanced Maths",
         "topic": "Algebra",
-        "question": "If x + 1/x = 3, find the value of x³ + 1/x³.",
+        "question": "If a³ + b³ = 217 and a + b = 7, find the value of ab.",
         "options": [
-          "18",
-          "27",
-          "24",
-          "12"
+          "6",
+          "7",
+          "5",
+          "8"
         ],
         "correct": 0,
-        "solution": "x³ + 1/x³ = (x + 1/x)³ − 3(x + 1/x) = 3³ − 3(3) = 27 − 9 = <b>18</b>.",
-        "shortcut": "⚡ <b>k³ − 3k Rule:</b> 3³ − 3(3) = <b>18</b>."
+        "solution": "a³ + b³ = (a + b)[(a + b)² − 3ab].<br>217 = 7 × [49 − 3ab] ⟹ 31 = 49 − 3ab ⟹ 3ab = 18 ⟹ ab = <b>6</b>.",
+        "shortcut": "⚡ 49 − 3ab = 217 / 7 = 31 ⟹ 3ab = 18 ⟹ ab = <b>6</b>."
       },
       {
         "id": 15,
         "category": "Advanced Maths",
         "topic": "Trigonometry",
-        "question": "If sin(A + B) = 1/√2 and cos(A − B) = 1/√2 (where 0° < A + B ≤ 90° and A ≥ B), find the values of A and B.",
+        "question": "If sec θ − tan θ = 1/4 (where 0° < θ < 90°), find the value of cos θ.",
         "options": [
-          "45°, 0°",
-          "45°, 45°",
-          "50°, 20°",
-          "35°, 25°"
+          "8/17",
+          "15/17",
+          "17/15",
+          "7/17"
         ],
         "correct": 0,
-        "solution": "A + B = 45°, A − B = 45° ⟹ A = 45°, B = 0°. Ans = <b>45°, 0°</b>.",
-        "shortcut": "⚡ Direct sum and difference of known standard angles ⟹ <b>45°, 0°</b>."
+        "solution": "sec θ + tan θ = 4.<br>Adding: 2 sec θ = 4 + 1/4 = 17/4 ⟹ sec θ = 17/8.<br>cos θ = 1 / sec θ = <b>8/17</b>.",
+        "shortcut": "⚡ cos θ = 2p / (p² + 1) = 2(4) / (16 + 1) = <b>8/17</b>."
       },
       {
         "id": 16,
         "category": "Advanced Maths",
         "topic": "Heights & Distances",
-        "question": "The angle of elevation of the top of a vertical tower from a point 50 m away from its foot on horizontal ground is 60°. Find the height of the tower.",
+        "question": "A car is moving at uniform speed away from the base of a vertical transmission tower. An observer at the top of the tower notes that the angle of depression of the car changes from 45° to 30° in 12 seconds. If the height of the tower is 60 m, find the speed of the car in km/h. (Take √3 = 1.732)",
         "options": [
-          "50√3 m",
-          "50 m",
-          "100 m",
-          "50√2 m"
+          "13.18 km/h",
+          "15.40 km/h",
+          "11.50 km/h",
+          "16.25 km/h"
         ],
         "correct": 0,
-        "solution": "tan 60° = h / 50 ⟹ √3 = h / 50 ⟹ h = <b>50√3 m</b>.",
-        "shortcut": "⚡ In 60° triangle, height = Base × tan(60°) = <b>50√3 m</b>."
+        "solution": "Initial distance d₁ = 60 / tan 45° = 60 m.<br>Later distance d₂ = 60 / tan 30° = 60√3 m.<br>Distance moved in 12 s = 60(√3 − 1) = 60 × 0.732 = 43.92 m.<br>Speed = (43.92 / 12) m/s × (18/5) = 3.66 × 3.6 = <b>13.18 km/h</b>.",
+        "shortcut": "⚡ Speed = [60(√3 − 1) / 12] × 3.6 = 5(0.732) × 3.6 = <b>13.18 km/h</b>."
       },
       {
         "id": 17,
         "category": "Advanced Maths",
         "topic": "Geometry",
-        "question": "From an external point P, two tangents PA and PB are drawn to a circle with centre O. If ∠APB = 40°, find the measure of ∠AOB.",
+        "question": "Two circles of radii 9 cm and 4 cm have their centres separated by a distance of 13 cm. Find the length of the Direct Common Tangent (DCT) to these two circles.",
         "options": [
-          "140°",
-          "130°",
-          "155°",
-          "40°"
+          "12 cm",
+          "10 cm",
+          "11 cm",
+          "12.5 cm"
         ],
         "correct": 0,
-        "solution": "In quadrilateral OAPB, radius is perpendicular to tangent at point of contact: ∠OAP = ∠OBP = 90°.<br>Sum of opposite angles ∠APB + ∠AOB = 180°.<br>∠AOB = 180° − 40° = <b>140°</b>.",
-        "shortcut": "⚡ <b>Supplementary Angles:</b> ∠AOB = 180° − ∠APB = 180° − 40° = <b>140°</b>."
+        "solution": "Direct Common Tangent DCT = √[d² − (r₁ − r₂)²].<br>DCT = √[13² − (9 − 4)²] = √[169 − 25] = √144 = <b>12 cm</b>.",
+        "shortcut": "⚡ Triplet (5, 12, 13) where diff = 5 ⟹ DCT = <b>12 cm</b>."
       },
       {
         "id": 18,
         "category": "Advanced Maths",
         "topic": "Geometry",
-        "question": "In △ABC, the internal bisectors of ∠B and ∠C meet at incenter I. If ∠BAC = 40°, find the measure of ∠BIC.",
+        "question": "In △ABC, the internal bisector of ∠A intersects side BC at point D. If AB = 12 cm, AC = 18 cm, and BC = 15 cm, find the length of segment BD.",
         "options": [
-          "110°",
-          "100°",
-          "115°",
-          "140°"
+          "6 cm",
+          "9 cm",
+          "5 cm",
+          "7.5 cm"
         ],
         "correct": 0,
-        "solution": "Formula for incenter angle: ∠BIC = 90° + ∠A / 2 = 90° + 40/2 = 90° + 20° = <b>110°</b>.",
-        "shortcut": "⚡ <b>Incenter Formula:</b> 90° + A/2 = 90° + 20° = <b>110°</b>."
+        "solution": "By the Angle Bisector Theorem: BD / DC = AB / AC = 12 / 18 = 2 / 3.<br>BD = [2 / (2 + 3)] × BC = (2/5) × 15 = <b>6 cm</b>.",
+        "shortcut": "⚡ BD : DC = 2 : 3 ⟹ BD = (2/5) × 15 = <b>6 cm</b>."
       },
       {
         "id": 19,
         "category": "Advanced Maths",
         "topic": "Mensuration 3D",
-        "question": "If the radius of a cylinder is multiplied by 3 and its height is divided by 2, find the ratio of the new volume to the original volume.",
+        "question": "A solid copper cylinder of diameter 8 cm and height 18 cm is melted and recast into identical solid spheres of radius 2 cm each. How many such spheres can be formed?",
         "options": [
-          "9 : 2",
-          "2 : 9",
-          "3 : 2",
-          "2 : 3"
+          "27",
+          "24",
+          "30",
+          "36"
         ],
         "correct": 0,
-        "solution": "Volume V = πr²h. New volume V' = π(3r)²(h/2) = (9/2)πr²h.<br>Ratio V' : V = 9 : 2 = <b>9 : 2</b>.",
-        "shortcut": "⚡ <b>Ratio Scaling:</b> r² · h = (3)² · (1/2) = 9/2 = <b>9 : 2</b>."
+        "solution": "Radius of cylinder = 4 cm. Volume = π × 4² × 18 = 288π cm³.<br>Volume of each sphere = (4/3)π × 2³ = (32/3)π cm³.<br>Number of spheres = 288π ÷ (32π/3) = (288 × 3) / 32 = 9 × 3 = <b>27</b>.",
+        "shortcut": "⚡ N = (4² × 18) / [(4/3) × 8] = 288 / (32/3) = 9 × 3 = <b>27</b>."
       },
       {
         "id": 20,
         "category": "Advanced Maths",
         "topic": "Mensuration 3D",
-        "question": "A solid right circular cone has a base radius of 9 cm and a vertical height of 12 cm. Find its Total Surface Area (TSA). (Take π = 3.14)",
+        "question": "A conical tent of base radius 7 m and vertical height 24 m is fabricated from canvas cloth having a uniform width of 2.5 m. Find the length of canvas required, and its cost at ₹40 per metre. (Take π = 22/7)",
         "options": [
-          "678.24 cm²",
-          "423.9 cm²",
-          "254.34 cm²",
-          "703.24 cm²"
+          "₹8,800 (Length 220 m)",
+          "₹9,200 (Length 230 m)",
+          "₹8,400 (Length 210 m)",
+          "₹7,600 (Length 190 m)"
         ],
         "correct": 0,
-        "solution": "Slant height l = √(r² + h²) = √(9² + 12²) = 15 cm.<br>TSA = πr(l + r) = 3.14 × 9 × (15 + 9) = 3.14 × 9 × 24 = <b>678.24 cm²</b>.",
-        "shortcut": "⚡ <b>Triplet:</b> (9, 12, 15) ⟹ TSA = 3.14 × 9 × (24) = <b>678.24 cm²</b>."
+        "solution": "Slant height l = √(7² + 24²) = 25 m.<br>Curved Surface Area = πrl = (22/7) × 7 × 25 = 550 m².<br>Length of cloth = Area / Width = 550 / 2.5 = 220 m.<br>Total cost = 220 × ₹40 = <b>₹8,800</b>.",
+        "shortcut": "⚡ Triplet (7, 24, 25) ⟹ Area = 22 × 25 = 550 m². Length = 550 / 2.5 = 220 m. Cost = <b>₹8,800</b>."
       },
       {
         "id": 21,
         "category": "Advanced Maths",
         "topic": "Mensuration 2D",
-        "question": "Find the area of a regular hexagon whose each side measures 12 cm.",
+        "question": "A circular flower bed of radius 14 m is surrounded by a walking path of uniform width 3.5 m. Find the area of the walking path and the cost of turfing it at ₹20 per square metre. (Take π = 22/7)",
         "options": [
-          "216√3 cm²",
-          "108√3 cm²",
-          "432√3 cm²",
-          "144√3 cm²"
+          "₹6,930",
+          "₹6,450",
+          "₹7,200",
+          "₹5,800"
         ],
         "correct": 0,
-        "solution": "A regular hexagon comprises 6 equilateral triangles of side a = 12 cm.<br>Area = 6 × [(√3 / 4) × a²] = 6 × [(√3 / 4) × 144] = <b>216√3 cm²</b>.",
-        "shortcut": "⚡ <b>Hexagon Area:</b> (3√3 / 2) × a² = (3√3 / 2) × 144 = <b>216√3 cm²</b>."
+        "solution": "Inner radius r = 14 m. Outer radius R = 14 + 3.5 = 17.5 m.<br>Area = π(R² − r²) = (22/7) × (17.5 − 14)(17.5 + 14) = (22/7) × 3.5 × 31.5 = 11 × 31.5 = 346.5 m².<br>Total cost = 346.5 × ₹20 = <b>₹6,930</b>.",
+        "shortcut": "⚡ Area = 11 × 31.5 = 346.5 m². Cost = 346.5 × 20 = <b>₹6,930</b>."
       },
       {
         "id": 22,
@@ -2744,136 +2744,136 @@
         "id": 13,
         "category": "Advanced Maths",
         "topic": "Algebra",
-        "question": "If x − 1/x = 7, find the value of x² + 1/x².",
+        "question": "If x = 3 + 2√2, find the value of (√x − 1/√x).",
         "options": [
-          "51",
-          "49",
-          "47",
-          "55"
+          "2",
+          "2√2",
+          "1",
+          "4"
         ],
         "correct": 0,
-        "solution": "(x − 1/x)² = x² + 1/x² − 2.<br>7² = x² + 1/x² − 2 ⟹ x² + 1/x² = 7² + 2 = <b>51</b>.",
-        "shortcut": "⚡ <b>Formula:</b> k² + 2 = 7² + 2 = <b>51</b>."
+        "solution": "x = (√2 + 1)² ⟹ √x = √2 + 1.<br>1/√x = √2 − 1.<br>√x − 1/√x = (√2 + 1) − (√2 − 1) = <b>2</b>.",
+        "shortcut": "⚡ (√x − 1/√x)² = x + 1/x − 2 = (3 + 2√2 + 3 − 2√2) − 2 = 6 − 2 = 4 ⟹ √4 = <b>2</b>."
       },
       {
         "id": 14,
         "category": "Advanced Maths",
         "topic": "Algebra",
-        "question": "If x + 1/x = 4, find the value of x³ + 1/x³.",
+        "question": "If a + b + c = 0, find the value of [(a + b)² / ab] + [(b + c)² / bc] + [(c + a)² / ca].",
         "options": [
-          "52",
-          "64",
-          "58",
-          "46"
+          "3",
+          "0",
+          "1",
+          "-3"
         ],
         "correct": 0,
-        "solution": "x³ + 1/x³ = (x + 1/x)³ − 3(x + 1/x) = 4³ − 3(4) = 64 − 12 = <b>52</b>.",
-        "shortcut": "⚡ <b>k³ − 3k Rule:</b> 4³ − 3(4) = <b>52</b>."
+        "solution": "Since a + b = −c, (a + b)² / ab = c² / ab.<br>Sum = (c³ + a³ + b³) / abc.<br>When a + b + c = 0, a³ + b³ + c³ = 3abc.<br>Result = 3abc / abc = <b>3</b>.",
+        "shortcut": "⚡ <b>Symmetric Sum = 3:</b> When sum = 0, c²/ab + a²/bc + b²/ca = <b>3</b>."
       },
       {
         "id": 15,
         "category": "Advanced Maths",
         "topic": "Trigonometry",
-        "question": "If sin(A + B) = √3/2 and cos(A − B) = 1 (where 0° < A + B ≤ 90° and A ≥ B), find the values of A and B.",
+        "question": "If 2 sin θ + 15 cos²θ = 7 (where 0° < θ < 90°), find the value of tan θ.",
         "options": [
-          "30°, 30°",
-          "45°, 45°",
-          "50°, 20°",
-          "35°, 25°"
+          "4/3",
+          "3/4",
+          "5/4",
+          "3/5"
         ],
         "correct": 0,
-        "solution": "A + B = 60°, A − B = 0° ⟹ A = 30°, B = 30°. Ans = <b>30°, 30°</b>.",
-        "shortcut": "⚡ Direct sum and difference of known standard angles ⟹ <b>30°, 30°</b>."
+        "solution": "2 sin θ + 15(1 − sin²θ) = 7 ⟹ 15 sin²θ − 2 sin θ − 8 = 0.<br>(5 sin θ − 4)(3 sin θ + 2) = 0 ⟹ sin θ = 4/5.<br>In (3, 4, 5) right triangle, tan θ = <b>4/3</b>.",
+        "shortcut": "⚡ sin θ = 4/5 ⟹ Opposite = 4, Adjacent = 3 ⟹ tan θ = <b>4/3</b>."
       },
       {
         "id": 16,
         "category": "Advanced Maths",
         "topic": "Heights & Distances",
-        "question": "The angle of elevation of the top of a vertical tower from a point 40 m away from its foot on horizontal ground is 30°. Find the height of the tower.",
+        "question": "Two pillars of equal height stand on either side of a 100 m wide road. From a point on the road between the pillars, the angles of elevation of the tops of the pillars are 60° and 30°. Find the height of each pillar. (Take √3 = 1.732)",
         "options": [
-          "23.1 m",
-          "40 m",
-          "80 m",
-          "40√2 m"
+          "25√3 m (43.3 m)",
+          "20√3 m (34.64 m)",
+          "30√3 m (51.96 m)",
+          "50√3 m (86.6 m)"
         ],
         "correct": 0,
-        "solution": "tan 30° = h / 40 ⟹ 1/√3 = h / 40 ⟹ h = 40/√3 = <b>23.1 m</b>.",
-        "shortcut": "⚡ In 30° triangle, height = Base × tan(30°) = <b>23.1 m</b>."
+        "solution": "Let pillar height be h. Distances to the pillars are x and 100 − x.<br>x = h / tan 60° = h / √3.<br>100 − x = h / tan 30° = h√3.<br>h / √3 + h√3 = 100 ⟹ 4h / √3 = 100 ⟹ h = 25√3 m ≈ <b>43.3 m</b>.",
+        "shortcut": "⚡ <b>Equal Pillars Formula:</b> h = (Width × √3) / 4 = (100√3) / 4 = <b>25√3 m</b>."
       },
       {
         "id": 17,
         "category": "Advanced Maths",
         "topic": "Geometry",
-        "question": "From an external point P, two tangents PA and PB are drawn to a circle with centre O. If ∠APB = 60°, find the measure of ∠AOB.",
+        "question": "Two circles of radii 7 cm and 3 cm have their centres separated by a distance of 26 cm. Find the length of the Transverse Common Tangent (TCT) to these two circles.",
         "options": [
-          "120°",
-          "110°",
-          "135°",
-          "60°"
+          "24 cm",
+          "22 cm",
+          "25 cm",
+          "20 cm"
         ],
         "correct": 0,
-        "solution": "In quadrilateral OAPB, radius is perpendicular to tangent at point of contact: ∠OAP = ∠OBP = 90°.<br>Sum of opposite angles ∠APB + ∠AOB = 180°.<br>∠AOB = 180° − 60° = <b>120°</b>.",
-        "shortcut": "⚡ <b>Supplementary Angles:</b> ∠AOB = 180° − ∠APB = 180° − 60° = <b>120°</b>."
+        "solution": "Transverse Common Tangent TCT = √[d² − (r₁ + r₂)²].<br>TCT = √[26² − (7 + 3)²] = √[676 − 100] = √576 = <b>24 cm</b>.",
+        "shortcut": "⚡ Triplet (10, 24, 26) where sum = 10 ⟹ TCT = <b>24 cm</b>."
       },
       {
         "id": 18,
         "category": "Advanced Maths",
         "topic": "Geometry",
-        "question": "In △ABC, the internal bisectors of ∠B and ∠C meet at incenter I. If ∠BAC = 54°, find the measure of ∠BIC.",
+        "question": "In △ABC, ∠B = 90°, AB = 12 cm, and BC = 5 cm. A circle is inscribed inside the triangle. Find the area of the inscribed circle. (Take π = 3.14)",
         "options": [
-          "117°",
-          "107°",
-          "122°",
-          "126°"
+          "12.56 cm²",
+          "9.42 cm²",
+          "15.70 cm²",
+          "6.28 cm²"
         ],
         "correct": 0,
-        "solution": "Formula for incenter angle: ∠BIC = 90° + ∠A / 2 = 90° + 54/2 = 90° + 27° = <b>117°</b>.",
-        "shortcut": "⚡ <b>Incenter Formula:</b> 90° + A/2 = 90° + 27° = <b>117°</b>."
+        "solution": "Hypotenuse AC = √(12² + 5²) = 13 cm.<br>Inradius r = (AB + BC − AC) / 2 = (12 + 5 − 13) / 2 = 4 / 2 = 2 cm.<br>Area of incircle = π r² = 3.14 × 2² = <b>12.56 cm²</b>.",
+        "shortcut": "⚡ Inradius = (12 + 5 − 13)/2 = 2 cm. Area = 3.14 × 4 = <b>12.56 cm²</b>."
       },
       {
         "id": 19,
         "category": "Advanced Maths",
         "topic": "Mensuration 3D",
-        "question": "If the radius of a cylinder is multiplied by 2 and its height is divided by 3, find the ratio of the new volume to the original volume.",
+        "question": "A solid copper sphere of radius 9 cm is melted and drawn into a cylindrical wire of uniform cross-section with radius 0.3 cm. Find the total length of the wire in metres.",
         "options": [
-          "4 : 3",
-          "3 : 4",
-          "2 : 3",
-          "3 : 2"
+          "108 m",
+          "120 m",
+          "96 m",
+          "144 m"
         ],
         "correct": 0,
-        "solution": "Volume V = πr²h. New volume V' = π(2r)²(h/3) = (4/3)πr²h.<br>Ratio V' : V = 4 : 3 = <b>4 : 3</b>.",
-        "shortcut": "⚡ <b>Ratio Scaling:</b> r² · h = (2)² · (1/3) = 4/3 = <b>4 : 3</b>."
+        "solution": "Volume of sphere = (4/3)π × 9³ = (4/3)π × 729 = 972π cm³.<br>Volume of wire = π × (0.3)² × L = 0.09π L.<br>0.09 L = 972 ⟹ L = 972 / 0.09 = 10,800 cm = <b>108 m</b>.",
+        "shortcut": "⚡ L = [4/3 × 729] / 0.09 = 972 / 0.09 = 10,800 cm = <b>108 m</b>."
       },
       {
         "id": 20,
         "category": "Advanced Maths",
         "topic": "Mensuration 3D",
-        "question": "A solid right circular cone has a base radius of 6 cm and a vertical height of 8 cm. Find its Total Surface Area (TSA). (Take π = 3.14)",
+        "question": "A hollow spherical shell made of metal has an external diameter of 12 cm and an internal diameter of 8 cm. Find the volume of the metal used in the shell. (Take π = 22/7)",
         "options": [
-          "301.44 cm²",
-          "188.4 cm²",
-          "113.04 cm²",
-          "326.44 cm²"
+          "636.95 cm³",
+          "612.40 cm³",
+          "654.80 cm³",
+          "598.20 cm³"
         ],
         "correct": 0,
-        "solution": "Slant height l = √(r² + h²) = √(6² + 8²) = 10 cm.<br>TSA = πr(l + r) = 3.14 × 6 × (10 + 6) = 3.14 × 6 × 16 = <b>301.44 cm²</b>.",
-        "shortcut": "⚡ <b>Triplet:</b> (6, 8, 10) ⟹ TSA = 3.14 × 6 × (16) = <b>301.44 cm²</b>."
+        "solution": "Outer radius R = 6 cm, Inner radius r = 4 cm.<br>Volume = (4/3)π(R³ − r³) = (4/3) × (22/7) × (216 − 64) = (88/21) × 152 = 13,376 / 21 ≈ <b>636.95 cm³</b>.",
+        "shortcut": "⚡ V = (88 / 21) × 152 ≈ <b>636.95 cm³</b>."
       },
       {
         "id": 21,
         "category": "Advanced Maths",
         "topic": "Mensuration 2D",
-        "question": "Find the area of a regular hexagon whose each side measures 6 cm.",
+        "question": "An isosceles trapezium ABCD has parallel sides AB = 20 cm and CD = 10 cm, and non-parallel sides AD = BC = 13 cm. Find the perpendicular distance between the parallel sides and the area of the trapezium.",
         "options": [
-          "54√3 cm²",
-          "27√3 cm²",
-          "108√3 cm²",
-          "36√3 cm²"
+          "180 cm² (Height 12 cm)",
+          "195 cm² (Height 13 cm)",
+          "165 cm² (Height 11 cm)",
+          "150 cm² (Height 10 cm)"
         ],
         "correct": 0,
-        "solution": "A regular hexagon comprises 6 equilateral triangles of side a = 6 cm.<br>Area = 6 × [(√3 / 4) × a²] = 6 × [(√3 / 4) × 36] = <b>54√3 cm²</b>.",
-        "shortcut": "⚡ <b>Hexagon Area:</b> (3√3 / 2) × a² = (3√3 / 2) × 36 = <b>54√3 cm²</b>."
+        "solution": "Parallel side projection = (20 − 10) / 2 = 5 cm.<br>Height h = √(13² − 5²) = 12 cm.<br>Area = [(20 + 10) / 2] × 12 = 15 × 12 = <b>180 cm²</b>.",
+        "shortcut": "⚡ Triplet (5, 12, 13) ⟹ h = 12 cm. Area = 15 × 12 = <b>180 cm²</b>."
       },
       {
         "id": 22,
@@ -3265,136 +3265,136 @@
         "id": 13,
         "category": "Advanced Maths",
         "topic": "Algebra",
-        "question": "If x − 1/x = 4, find the value of x² + 1/x².",
+        "question": "If x² − 4x + 1 = 0, find the value of x⁵ + 1/x⁵.",
         "options": [
-          "18",
-          "16",
-          "14",
-          "22"
+          "724",
+          "720",
+          "732",
+          "716"
         ],
         "correct": 0,
-        "solution": "(x − 1/x)² = x² + 1/x² − 2.<br>4² = x² + 1/x² − 2 ⟹ x² + 1/x² = 4² + 2 = <b>18</b>.",
-        "shortcut": "⚡ <b>Formula:</b> k² + 2 = 4² + 2 = <b>18</b>."
+        "solution": "x + 1/x = 4.<br>x² + 1/x² = 4² − 2 = 14.<br>x³ + 1/x³ = 4³ − 3(4) = 52.<br>x⁵ + 1/x⁵ = (x² + 1/x²)(x³ + 1/x³) − (x + 1/x) = 14 × 52 − 4 = 728 − 4 = <b>724</b>.",
+        "shortcut": "⚡ 14 × 52 − 4 = 728 − 4 = <b>724</b>."
       },
       {
         "id": 14,
         "category": "Advanced Maths",
         "topic": "Algebra",
-        "question": "If x + 1/x = 5, find the value of x³ + 1/x³.",
+        "question": "If x + y + z = 9 and xy + yz + zx = 23, find the value of x³ + y³ + z³ − 3xyz.",
         "options": [
-          "110",
-          "125",
-          "116",
-          "104"
+          "108",
+          "96",
+          "112",
+          "120"
         ],
         "correct": 0,
-        "solution": "x³ + 1/x³ = (x + 1/x)³ − 3(x + 1/x) = 5³ − 3(5) = 125 − 15 = <b>110</b>.",
-        "shortcut": "⚡ <b>k³ − 3k Rule:</b> 5³ − 3(5) = <b>110</b>."
+        "solution": "x² + y² + z² = (x + y + z)² − 2(xy + yz + zx) = 81 − 46 = 35.<br>Expression = (x + y + z)[(x² + y² + z²) − (xy + yz + zx)] = 9 × (35 − 23) = 9 × 12 = <b>108</b>.",
+        "shortcut": "⚡ 9 × [(81 − 3 × 23)] = 9 × (81 − 69) = 9 × 12 = <b>108</b>."
       },
       {
         "id": 15,
         "category": "Advanced Maths",
         "topic": "Trigonometry",
-        "question": "If tan(A + B) = √3 and tan(A − B) = 1/√3 (where 0° < A + B ≤ 90° and A ≥ B), find the values of A and B.",
+        "question": "If sin θ + cosec θ = 2, find the value of sin¹⁰θ + cosec¹⁰θ.",
         "options": [
-          "45°, 15°",
-          "45°, 45°",
-          "50°, 20°",
-          "35°, 25°"
+          "2",
+          "1",
+          "0",
+          "4"
         ],
         "correct": 0,
-        "solution": "A + B = 60°, A − B = 30° ⟹ A = 45°, B = 15°. Ans = <b>45°, 15°</b>.",
-        "shortcut": "⚡ Direct sum and difference of known standard angles ⟹ <b>45°, 15°</b>."
+        "solution": "sin θ + 1/sin θ = 2 ⟹ sin θ = 1.<br>sin¹⁰θ + cosec¹⁰θ = 1¹⁰ + 1¹⁰ = 1 + 1 = <b>2</b>.",
+        "shortcut": "⚡ Whenever k + 1/k = 2 ⟹ k = 1 ⟹ 1¹⁰ + 1¹⁰ = <b>2</b>."
       },
       {
         "id": 16,
         "category": "Advanced Maths",
         "topic": "Heights & Distances",
-        "question": "The angle of elevation of the top of a vertical tower from a point 25 m away from its foot on horizontal ground is 60°. Find the height of the tower.",
+        "question": "From a point P on the ground, the angle of elevation of the top of a 10 m tall vertical building is 30°. A flag is hoisted at the top of the building, and the angle of elevation of the top of the flagstaff from P is 45°. Find the height of the flagstaff. (Take √3 = 1.732)",
         "options": [
-          "25√3 m",
-          "25 m",
-          "50 m",
-          "25√2 m"
+          "7.32 m",
+          "6.50 m",
+          "8.15 m",
+          "5.80 m"
         ],
         "correct": 0,
-        "solution": "tan 60° = h / 25 ⟹ √3 = h / 25 ⟹ h = <b>25√3 m</b>.",
-        "shortcut": "⚡ In 60° triangle, height = Base × tan(60°) = <b>25√3 m</b>."
+        "solution": "Distance d = 10 / tan 30° = 10√3 m ≈ 17.32 m.<br>Since elevation to flag top is 45°, total height = d = 17.32 m.<br>Height of flagstaff = 17.32 − 10 = <b>7.32 m</b>.",
+        "shortcut": "⚡ Flag height = 10(√3 − 1) = 10 × 0.732 = <b>7.32 m</b>."
       },
       {
         "id": 17,
         "category": "Advanced Maths",
         "topic": "Geometry",
-        "question": "From an external point P, two tangents PA and PB are drawn to a circle with centre O. If ∠APB = 50°, find the measure of ∠AOB.",
+        "question": "In a circle with centre O, a chord AB is drawn and a tangent line PQ touches the circle at point A. If ∠BAQ = 65°, find the measure of ∠AOB subtended by chord AB at the centre.",
         "options": [
           "130°",
           "120°",
-          "145°",
-          "50°"
+          "140°",
+          "115°"
         ],
         "correct": 0,
-        "solution": "In quadrilateral OAPB, radius is perpendicular to tangent at point of contact: ∠OAP = ∠OBP = 90°.<br>Sum of opposite angles ∠APB + ∠AOB = 180°.<br>∠AOB = 180° − 50° = <b>130°</b>.",
-        "shortcut": "⚡ <b>Supplementary Angles:</b> ∠AOB = 180° − ∠APB = 180° − 50° = <b>130°</b>."
+        "solution": "By the Alternate Segment Theorem, the angle subtended by chord AB at the opposite circumference is 65°.<br>The angle subtended by an arc at the centre is twice the angle subtended at the circumference:<br>∠AOB = 2 × 65° = <b>130°</b>.",
+        "shortcut": "⚡ <b>Central Angle Rule:</b> ∠AOB = 2 × ∠BAQ = 2 × 65° = <b>130°</b>."
       },
       {
         "id": 18,
         "category": "Advanced Maths",
         "topic": "Geometry",
-        "question": "In △ABC, the internal bisectors of ∠B and ∠C meet at incenter I. If ∠BAC = 68°, find the measure of ∠BIC.",
+        "question": "In △ABC, side AB = 7 cm, AC = 9 cm, and base BC = 8 cm. Find the length of median AD drawn to side BC.",
         "options": [
-          "124°",
-          "114°",
-          "129°",
-          "112°"
+          "7 cm",
+          "8 cm",
+          "6.5 cm",
+          "6 cm"
         ],
         "correct": 0,
-        "solution": "Formula for incenter angle: ∠BIC = 90° + ∠A / 2 = 90° + 68/2 = 90° + 34° = <b>124°</b>.",
-        "shortcut": "⚡ <b>Incenter Formula:</b> 90° + A/2 = 90° + 34° = <b>124°</b>."
+        "solution": "By Apollonius' Theorem: AB² + AC² = 2(AD² + BD²).<br>BD = BC / 2 = 8 / 2 = 4 cm.<br>7² + 9² = 2(AD² + 4²) ⟹ 49 + 81 = 2(AD² + 16) ⟹ 130 = 2(AD² + 16).<br>65 = AD² + 16 ⟹ AD² = 49 ⟹ AD = <b>7 cm</b>.",
+        "shortcut": "⚡ <b>Apollonius:</b> AD² = (49 + 81)/2 − 16 = 65 − 16 = 49 ⟹ AD = <b>7 cm</b>."
       },
       {
         "id": 19,
         "category": "Advanced Maths",
         "topic": "Mensuration 3D",
-        "question": "If the radius of a cylinder is multiplied by 3 and its height is divided by 2, find the ratio of the new volume to the original volume.",
+        "question": "A solid metal cube of edge 22 cm is melted and recast into small spherical bullets of radius 1 cm each. How many bullets can be formed? (Take π = 22/7)",
         "options": [
-          "9 : 2",
-          "2 : 9",
-          "3 : 2",
-          "2 : 3"
+          "2,541",
+          "2,420",
+          "2,650",
+          "2,380"
         ],
         "correct": 0,
-        "solution": "Volume V = πr²h. New volume V' = π(3r)²(h/2) = (9/2)πr²h.<br>Ratio V' : V = 9 : 2 = <b>9 : 2</b>.",
-        "shortcut": "⚡ <b>Ratio Scaling:</b> r² · h = (3)² · (1/2) = 9/2 = <b>9 : 2</b>."
+        "solution": "Volume of cube = 22³ = 10,648 cm³.<br>Volume of each bullet = (4/3) × (22/7) × 1³ = 88 / 21 cm³.<br>Number of bullets = (10,648 × 21) / 88 = 121 × 21 = <b>2,541</b>.",
+        "shortcut": "⚡ N = (22³ × 21) / 88 = 121 × 21 = <b>2,541</b>."
       },
       {
         "id": 20,
         "category": "Advanced Maths",
         "topic": "Mensuration 3D",
-        "question": "A solid right circular cone has a base radius of 5 cm and a vertical height of 12 cm. Find its Total Surface Area (TSA). (Take π = 3.14)",
+        "question": "From a solid right circular cylinder of height 24 cm and base radius 7 cm, a conical cavity of the same height and same base radius is hollowed out. Find the total surface area of the remaining solid. (Take π = 22/7)",
         "options": [
-          "282.6 cm²",
-          "204.1 cm²",
-          "78.5 cm²",
-          "307.6 cm²"
+          "1,760 cm²",
+          "1,680 cm²",
+          "1,820 cm²",
+          "1,590 cm²"
         ],
         "correct": 0,
-        "solution": "Slant height l = √(r² + h²) = √(5² + 12²) = 13 cm.<br>TSA = πr(l + r) = 3.14 × 5 × (13 + 5) = 3.14 × 5 × 18 = <b>282.6 cm²</b>.",
-        "shortcut": "⚡ <b>Triplet:</b> (5, 12, 13) ⟹ TSA = 3.14 × 5 × (18) = <b>282.6 cm²</b>."
+        "solution": "Slant height l = √(7² + 24²) = 25 cm.<br>TSA = Cylinder CSA + Cylinder Base + Conical Cavity CSA.<br>TSA = 2πrh + πr² + πrl = πr(2h + r + l).<br>TSA = (22/7) × 7 × [2(24) + 7 + 25] = 22 × [48 + 32] = 22 × 80 = <b>1,760 cm²</b>.",
+        "shortcut": "⚡ TSA = 22 × (48 + 7 + 25) = 22 × 80 = <b>1,760 cm²</b>."
       },
       {
         "id": 21,
         "category": "Advanced Maths",
         "topic": "Mensuration 2D",
-        "question": "Find the area of a regular hexagon whose each side measures 4 cm.",
+        "question": "The diagonals of a rhombus are 24 cm and 10 cm. Find the altitude (perpendicular distance between opposite sides) of the rhombus.",
         "options": [
-          "24√3 cm²",
-          "12√3 cm²",
-          "48√3 cm²",
-          "16√3 cm²"
+          "120/13 cm (9.23 cm)",
+          "110/13 cm (8.46 cm)",
+          "130/11 cm (11.8 cm)",
+          "100/13 cm (7.69 cm)"
         ],
         "correct": 0,
-        "solution": "A regular hexagon comprises 6 equilateral triangles of side a = 4 cm.<br>Area = 6 × [(√3 / 4) × a²] = 6 × [(√3 / 4) × 16] = <b>24√3 cm²</b>.",
-        "shortcut": "⚡ <b>Hexagon Area:</b> (3√3 / 2) × a² = (3√3 / 2) × 16 = <b>24√3 cm²</b>."
+        "solution": "Side a = √[(24/2)² + (10/2)²] = √(12² + 5²) = 13 cm.<br>Area = (1/2) × 24 × 10 = 120 cm².<br>Area = Side × Altitude ⟹ Altitude = 120 / 13 ≈ <b>9.23 cm</b>.",
+        "shortcut": "⚡ Altitude = (d₁ × d₂) / (2a) = (24 × 10) / 26 = 120 / 13 = <b>9.23 cm</b>."
       },
       {
         "id": 22,
@@ -3778,136 +3778,136 @@
         "id": 13,
         "category": "Advanced Maths",
         "topic": "Algebra",
-        "question": "If x − 1/x = 3, find the value of x² + 1/x².",
+        "question": "If x = (√5 + 1) / (√5 − 1) and y = (√5 − 1) / (√5 + 1), find the value of x² + y² + xy.",
         "options": [
-          "11",
-          "9",
+          "8",
           "7",
-          "15"
+          "9",
+          "11"
         ],
         "correct": 0,
-        "solution": "(x − 1/x)² = x² + 1/x² − 2.<br>3² = x² + 1/x² − 2 ⟹ x² + 1/x² = 3² + 2 = <b>11</b>.",
-        "shortcut": "⚡ <b>Formula:</b> k² + 2 = 3² + 2 = <b>11</b>."
+        "solution": "x + y = 2(5 + 1) / (5 − 1) = 12 / 4 = 3.<br>xy = 1.<br>x² + y² + xy = (x + y)² − xy = 3² − 1 = 9 − 1 = <b>8</b>.",
+        "shortcut": "⚡ (x + y) = 3, xy = 1 ⟹ (x + y)² − xy = 9 − 1 = <b>8</b>."
       },
       {
         "id": 14,
         "category": "Advanced Maths",
         "topic": "Algebra",
-        "question": "If x + 1/x = 6, find the value of x³ + 1/x³.",
+        "question": "If x² + y² + 4x − 6y + 13 = 0, find the value of (x + y).",
         "options": [
-          "198",
-          "216",
-          "204",
-          "192"
+          "1",
+          "-1",
+          "5",
+          "0"
         ],
         "correct": 0,
-        "solution": "x³ + 1/x³ = (x + 1/x)³ − 3(x + 1/x) = 6³ − 3(6) = 216 − 18 = <b>198</b>.",
-        "shortcut": "⚡ <b>k³ − 3k Rule:</b> 6³ − 3(6) = <b>198</b>."
+        "solution": "Group into perfect squares: (x² + 4x + 4) + (y² − 6y + 9) = 0.<br>(x + 2)² + (y − 3)² = 0 ⟹ x = −2 and y = 3.<br>x + y = −2 + 3 = <b>1</b>.",
+        "shortcut": "⚡ x = −4/2 = −2, y = 6/2 = 3 ⟹ −2 + 3 = <b>1</b>."
       },
       {
         "id": 15,
         "category": "Advanced Maths",
         "topic": "Trigonometry",
-        "question": "If sin(A + B) = 1 and cos(A − B) = √3/2 (where 0° < A + B ≤ 90° and A ≥ B), find the values of A and B.",
+        "question": "If cos θ = 2p / (p² + 1) (where p > 1), find the value of cosec θ.",
         "options": [
-          "60°, 30°",
-          "45°, 45°",
-          "50°, 20°",
-          "35°, 25°"
+          "(p² + 1) / (p² − 1)",
+          "(p² − 1) / (p² + 1)",
+          "2p / (p² − 1)",
+          "(p² + 1) / 2p"
         ],
         "correct": 0,
-        "solution": "A + B = 90°, A − B = 30° ⟹ A = 60°, B = 30°. Ans = <b>60°, 30°</b>.",
-        "shortcut": "⚡ Direct sum and difference of known standard angles ⟹ <b>60°, 30°</b>."
+        "solution": "Base = 2p, Hypotenuse = p² + 1.<br>Perpendicular = √[(p² + 1)² − (2p)²] = √(p⁴ + 2p² + 1 − 4p²) = √(p² − 1)² = p² − 1.<br>cosec θ = Hypotenuse / Perpendicular = <b>(p² + 1) / (p² − 1)</b>.",
+        "shortcut": "⚡ Standard Pythogorean Triplet: (2p, p² − 1, p² + 1) ⟹ cosec θ = <b>(p² + 1)/(p² − 1)</b>."
       },
       {
         "id": 16,
         "category": "Advanced Maths",
         "topic": "Heights & Distances",
-        "question": "The angle of elevation of the top of a vertical tower from a point 35 m away from its foot on horizontal ground is 30°. Find the height of the tower.",
+        "question": "A vertical tree breaks due to a storm and the broken part bends so that the top of the tree touches the horizontal ground, making an angle of 30° with it. The distance from the foot of the tree to the point where the top touches the ground is 8 m. Find the original total height of the tree. (Take √3 = 1.732)",
         "options": [
-          "20.2 m",
-          "35 m",
-          "70 m",
-          "35√2 m"
+          "8√3 m (13.86 m)",
+          "12√3 m (20.78 m)",
+          "6√3 m (10.39 m)",
+          "16√3 m (27.71 m)"
         ],
         "correct": 0,
-        "solution": "tan 30° = h / 35 ⟹ 1/√3 = h / 35 ⟹ h = 35/√3 = <b>20.2 m</b>.",
-        "shortcut": "⚡ In 30° triangle, height = Base × tan(30°) = <b>20.2 m</b>."
+        "solution": "Standing part a = 8 × tan 30° = 8 / √3 m.<br>Hypotenuse (broken part) c = 8 / cos 30° = 16 / √3 m.<br>Original height = a + c = 24 / √3 = 8√3 m ≈ <b>13.86 m</b>.",
+        "shortcut": "⚡ Total height = d / √3 × (1 + 2) = 3d / √3 = d√3 = 8√3 ≈ <b>13.86 m</b>."
       },
       {
         "id": 17,
         "category": "Advanced Maths",
         "topic": "Geometry",
-        "question": "From an external point P, two tangents PA and PB are drawn to a circle with centre O. If ∠APB = 70°, find the measure of ∠AOB.",
+        "question": "In a circle of radius 5 cm, two chords AB and CD of lengths 8 cm and 6 cm respectively are perpendicular to each other and intersect at an internal point P. Find the distance between the centre O of the circle and the point of intersection P.",
         "options": [
-          "110°",
-          "100°",
-          "125°",
-          "70°"
+          "5 cm",
+          "4 cm",
+          "6 cm",
+          "3√2 cm"
         ],
         "correct": 0,
-        "solution": "In quadrilateral OAPB, radius is perpendicular to tangent at point of contact: ∠OAP = ∠OBP = 90°.<br>Sum of opposite angles ∠APB + ∠AOB = 180°.<br>∠AOB = 180° − 70° = <b>110°</b>.",
-        "shortcut": "⚡ <b>Supplementary Angles:</b> ∠AOB = 180° − ∠APB = 180° − 70° = <b>110°</b>."
+        "solution": "Perpendicular distance from centre to AB: d₁ = √(5² − 4²) = 3 cm.<br>Perpendicular distance from centre to CD: d₂ = √(5² − 3²) = 4 cm.<br>Since the chords are mutually perpendicular, OP = √(d₁² + d₂²) = √(3² + 4²) = <b>5 cm</b>.",
+        "shortcut": "⚡ OP = √(3² + 4²) = <b>5 cm</b>."
       },
       {
         "id": 18,
         "category": "Advanced Maths",
         "topic": "Geometry",
-        "question": "In △ABC, the internal bisectors of ∠B and ∠C meet at incenter I. If ∠BAC = 72°, find the measure of ∠BIC.",
+        "question": "The three sides of a triangle ABC are AB = 13 cm, BC = 14 cm, and AC = 15 cm. Find the exact circumradius R of the triangle.",
         "options": [
-          "126°",
-          "116°",
-          "131°",
-          "108°"
+          "65/8 cm (8.125 cm)",
+          "63/8 cm (7.875 cm)",
+          "35/4 cm (8.75 cm)",
+          "7.5 cm"
         ],
         "correct": 0,
-        "solution": "Formula for incenter angle: ∠BIC = 90° + ∠A / 2 = 90° + 72/2 = 90° + 36° = <b>126°</b>.",
-        "shortcut": "⚡ <b>Incenter Formula:</b> 90° + A/2 = 90° + 36° = <b>126°</b>."
+        "solution": "Semi-perimeter s = (13 + 14 + 15) / 2 = 21 cm.<br>Area Δ = √(21 × 8 × 7 × 6) = 84 cm².<br>Circumradius R = abc / (4Δ) = (13 × 14 × 15) / (4 × 84) = 2,730 / 336 = <b>65/8 cm = 8.125 cm</b>.",
+        "shortcut": "⚡ R = (13 × 14 × 15) / (4 × 84) = (13 × 15) / 24 = 195 / 24 = <b>65/8 cm</b>."
       },
       {
         "id": 19,
         "category": "Advanced Maths",
         "topic": "Mensuration 3D",
-        "question": "If the radius of a cylinder is multiplied by 2 and its height is divided by 4, find the ratio of the new volume to the original volume.",
+        "question": "A drainage canal 300 m long, 10 m wide, and 3 m deep is excavated. The entire earth dug out is spread evenly over an adjacent rectangular field of dimensions 150 m × 100 m. By how many centimetres is the level of the field raised?",
         "options": [
-          "1 : 1",
-          "1 : 1",
-          "2 : 4",
-          "4 : 2"
+          "60 cm (0.6 m)",
+          "50 cm (0.5 m)",
+          "75 cm (0.75 m)",
+          "40 cm (0.4 m)"
         ],
         "correct": 0,
-        "solution": "Volume V = πr²h. New volume V' = π(2r)²(h/4) = (4/4)πr²h.<br>Ratio V' : V = 4 : 4 = <b>1 : 1</b>.",
-        "shortcut": "⚡ <b>Ratio Scaling:</b> r² · h = (2)² · (1/4) = 4/4 = <b>1 : 1</b>."
+        "solution": "Volume of excavated earth = 300 × 10 × 3 = 9,000 m³.<br>Field Area = 150 × 100 = 15,000 m².<br>Rise in height = 9,000 / 15,000 = 0.6 m = <b>60 cm</b>.",
+        "shortcut": "⚡ Height = 9,000 / 15,000 = 3/5 m = <b>60 cm</b>."
       },
       {
         "id": 20,
         "category": "Advanced Maths",
         "topic": "Mensuration 3D",
-        "question": "A solid right circular cone has a base radius of 7 cm and a vertical height of 24 cm. Find its Total Surface Area (TSA). (Take π = 3.14)",
+        "question": "A hollow spherical shell of internal and external radii 3 cm and 5 cm is melted and recast into a solid right circular cone of base radius 7 cm. Find the height of the cone formed. (Take π = 22/7)",
         "options": [
-          "703.36 cm²",
-          "549.5 cm²",
-          "153.86 cm²",
-          "728.36 cm²"
+          "8 cm",
+          "7 cm",
+          "9 cm",
+          "6 cm"
         ],
         "correct": 0,
-        "solution": "Slant height l = √(r² + h²) = √(7² + 24²) = 25 cm.<br>TSA = πr(l + r) = 3.14 × 7 × (25 + 7) = 3.14 × 7 × 32 = <b>703.36 cm²</b>.",
-        "shortcut": "⚡ <b>Triplet:</b> (7, 24, 25) ⟹ TSA = 3.14 × 7 × (32) = <b>703.36 cm²</b>."
+        "solution": "Volume of shell = (4/3)π(5³ − 3³) = (4/3)π(125 − 27) = (4/3)π × 98 = (392/3)π cm³.<br>Volume of cone = (1/3)π × 7² × h = (49/3)π h.<br>(49/3)π h = (392/3)π ⟹ 49 h = 392 ⟹ h = <b>8 cm</b>.",
+        "shortcut": "⚡ 49 h = 4 × 98 = 392 ⟹ h = <b>8 cm</b>."
       },
       {
         "id": 21,
         "category": "Advanced Maths",
         "topic": "Mensuration 2D",
-        "question": "Find the area of a regular hexagon whose each side measures 8 cm.",
+        "question": "In an isosceles trapezium, the parallel sides measure 18 cm and 32 cm. If each of the non-parallel sides measures 25 cm, find the total area of the trapezium.",
         "options": [
-          "96√3 cm²",
-          "48√3 cm²",
-          "192√3 cm²",
-          "64√3 cm²"
+          "600 cm²",
+          "550 cm²",
+          "650 cm²",
+          "575 cm²"
         ],
         "correct": 0,
-        "solution": "A regular hexagon comprises 6 equilateral triangles of side a = 8 cm.<br>Area = 6 × [(√3 / 4) × a²] = 6 × [(√3 / 4) × 64] = <b>96√3 cm²</b>.",
-        "shortcut": "⚡ <b>Hexagon Area:</b> (3√3 / 2) × a² = (3√3 / 2) × 64 = <b>96√3 cm²</b>."
+        "solution": "Difference in parallel sides = (32 − 18) / 2 = 7 cm.<br>Height h = √(25² − 7²) = 24 cm (Triplet 7, 24, 25).<br>Area = [(18 + 32) / 2] × 24 = 25 × 24 = <b>600 cm²</b>.",
+        "shortcut": "⚡ Triplet (7, 24, 25) ⟹ h = 24 cm. Area = 25 × 24 = <b>600 cm²</b>."
       },
       {
         "id": 22,
@@ -4299,136 +4299,136 @@
         "id": 13,
         "category": "Advanced Maths",
         "topic": "Algebra",
-        "question": "If x − 1/x = 5, find the value of x² + 1/x².",
+        "question": "If a + b + c = 1, ab + bc + ca = -1, and abc = -1, find the value of a⁴ + b⁴ + c⁴.",
         "options": [
-          "27",
-          "25",
-          "23",
-          "31"
+          "3",
+          "1",
+          "7",
+          "5"
         ],
         "correct": 0,
-        "solution": "(x − 1/x)² = x² + 1/x² − 2.<br>5² = x² + 1/x² − 2 ⟹ x² + 1/x² = 5² + 2 = <b>27</b>.",
-        "shortcut": "⚡ <b>Formula:</b> k² + 2 = 5² + 2 = <b>27</b>."
+        "solution": "a² + b² + c² = (a + b + c)² − 2(ab + bc + ca) = 1² − 2(−1) = 3.<br>(ab + bc + ca)² = a²b² + b²c² + c²a² + 2abc(a + b + c) ⟹ 1 = a²b² + b²c² + c²a² + 2(−1)(1) ⟹ a²b² + b²c² + c²a² = 3.<br>a⁴ + b⁴ + c⁴ = (a² + b² + c²)² − 2(a²b² + b²c² + c²a²) = 3² − 2(3) = 9 − 6 = <b>3</b>.",
+        "shortcut": "⚡ a⁴ + b⁴ + c⁴ = 3² − 2(3) = 9 − 6 = <b>3</b>."
       },
       {
         "id": 14,
         "category": "Advanced Maths",
         "topic": "Algebra",
-        "question": "If x + 1/x = 3, find the value of x³ + 1/x³.",
+        "question": "If x + 1/x = 2, find the value of x²⁰²⁶ + 1/x²⁰²⁶.",
         "options": [
-          "18",
-          "27",
-          "24",
-          "12"
+          "2",
+          "1",
+          "0",
+          "4"
         ],
         "correct": 0,
-        "solution": "x³ + 1/x³ = (x + 1/x)³ − 3(x + 1/x) = 3³ − 3(3) = 27 − 9 = <b>18</b>.",
-        "shortcut": "⚡ <b>k³ − 3k Rule:</b> 3³ − 3(3) = <b>18</b>."
+        "solution": "x + 1/x = 2 ⟹ (x − 1)² = 0 ⟹ x = 1.<br>1²⁰²⁶ + 1/1²⁰²⁶ = 1 + 1 = <b>2</b>.",
+        "shortcut": "⚡ Always 2 for any positive integer power when x + 1/x = 2."
       },
       {
         "id": 15,
         "category": "Advanced Maths",
         "topic": "Trigonometry",
-        "question": "If cos(A + B) = 0 and sin(A − B) = 1/2 (where 0° < A + B ≤ 90° and A ≥ B), find the values of A and B.",
+        "question": "Find the value of: (cos 37° / sin 53°) + (tan 28° / cot 62°) − 4 cos² 45°.",
         "options": [
-          "60°, 30°",
-          "45°, 45°",
-          "50°, 20°",
-          "35°, 25°"
+          "0",
+          "1",
+          "-1",
+          "2"
         ],
         "correct": 0,
-        "solution": "A + B = 90°, A − B = 30° ⟹ A = 60°, B = 30°. Ans = <b>60°, 30°</b>.",
-        "shortcut": "⚡ Direct sum and difference of known standard angles ⟹ <b>60°, 30°</b>."
+        "solution": "cos 37° = sin(90° − 37°) = sin 53° ⟹ cos 37° / sin 53° = 1.<br>tan 28° = cot(90° − 28°) = cot 62° ⟹ tan 28° / cot 62° = 1.<br>4 cos² 45° = 4 × (1/√2)² = 4 × (1/2) = 2.<br>Value = 1 + 1 − 2 = <b>0</b>.",
+        "shortcut": "⚡ 1 + 1 − 2 = <b>0</b>."
       },
       {
         "id": 16,
         "category": "Advanced Maths",
         "topic": "Heights & Distances",
-        "question": "The angle of elevation of the top of a vertical tower from a point 15 m away from its foot on horizontal ground is 60°. Find the height of the tower.",
+        "question": "A straight highway leads to the foot of a 75 m high transmission tower. From the top of the tower, an observer sees a car at an angle of depression of 30°. Six minutes later, the angle of depression becomes 60°. Assuming the car travels at uniform speed, find the time taken by the car to reach the foot of the tower from this second point.",
         "options": [
-          "15√3 m",
-          "15 m",
-          "30 m",
-          "15√2 m"
+          "3 minutes",
+          "4 minutes",
+          "2 minutes",
+          "1.5 minutes"
         ],
         "correct": 0,
-        "solution": "tan 60° = h / 15 ⟹ √3 = h / 15 ⟹ h = <b>15√3 m</b>.",
-        "shortcut": "⚡ In 60° triangle, height = Base × tan(60°) = <b>15√3 m</b>."
+        "solution": "Let distance from 60° point to tower be x.<br>Distance between 30° point and 60° point = 2x.<br>Car takes 6 minutes to travel distance 2x.<br>Time taken to travel remaining distance x = 6 / 2 = <b>3 minutes</b>.",
+        "shortcut": "⚡ <b>Golden 30°–60° Speed Rule:</b> Remaining time = Elapsed time / 2 = 6 / 2 = <b>3 minutes</b>."
       },
       {
         "id": 17,
         "category": "Advanced Maths",
         "topic": "Geometry",
-        "question": "From an external point P, two tangents PA and PB are drawn to a circle with centre O. If ∠APB = 80°, find the measure of ∠AOB.",
+        "question": "Two circles of radii 11 cm and 4 cm have their centres separated by a distance of 25 cm. Find the difference between the length of their Direct Common Tangent (DCT) and Transverse Common Tangent (TCT).",
         "options": [
-          "100°",
-          "90°",
-          "115°",
-          "80°"
+          "4 cm",
+          "5 cm",
+          "3 cm",
+          "6 cm"
         ],
         "correct": 0,
-        "solution": "In quadrilateral OAPB, radius is perpendicular to tangent at point of contact: ∠OAP = ∠OBP = 90°.<br>Sum of opposite angles ∠APB + ∠AOB = 180°.<br>∠AOB = 180° − 80° = <b>100°</b>.",
-        "shortcut": "⚡ <b>Supplementary Angles:</b> ∠AOB = 180° − ∠APB = 180° − 80° = <b>100°</b>."
+        "solution": "DCT = √[25² − (11 − 4)²] = √[625 − 49] = √576 = 24 cm.<br>TCT = √[25² − (11 + 4)²] = √[625 − 225] = √400 = 20 cm.<br>Difference = 24 − 20 = <b>4 cm</b>.",
+        "shortcut": "⚡ DCT = 24 cm, TCT = 20 cm ⟹ Difference = 24 − 20 = <b>4 cm</b>."
       },
       {
         "id": 18,
         "category": "Advanced Maths",
         "topic": "Geometry",
-        "question": "In △ABC, the internal bisectors of ∠B and ∠C meet at incenter I. If ∠BAC = 46°, find the measure of ∠BIC.",
+        "question": "Two tangents PA and PB are drawn to a circle of radius 6 cm from an external point P such that ∠APB = 60°. Find the length of each tangent segment PA and the length of chord AB.",
         "options": [
-          "113°",
-          "103°",
-          "118°",
-          "134°"
+          "6√3 cm (10.39 cm)",
+          "6 cm",
+          "12 cm",
+          "8√3 cm"
         ],
         "correct": 0,
-        "solution": "Formula for incenter angle: ∠BIC = 90° + ∠A / 2 = 90° + 46/2 = 90° + 23° = <b>113°</b>.",
-        "shortcut": "⚡ <b>Incenter Formula:</b> 90° + A/2 = 90° + 23° = <b>113°</b>."
+        "solution": "In right △OAP, ∠OPA = 30°.<br>tan 30° = OA / PA ⟹ 1/√3 = 6 / PA ⟹ PA = 6√3 cm.<br>Since PA = PB and ∠APB = 60°, △PAB is equilateral ⟹ AB = PA = <b>6√3 cm ≈ 10.39 cm</b>.",
+        "shortcut": "⚡ PA = r / tan 30° = 6√3 cm. Equilateral △PAB ⟹ Chord AB = <b>6√3 cm</b>."
       },
       {
         "id": 19,
         "category": "Advanced Maths",
         "topic": "Mensuration 3D",
-        "question": "If the radius of a cylinder is multiplied by 4 and its height is divided by 2, find the ratio of the new volume to the original volume.",
+        "question": "Rainwater harvested from a flat rectangular roof of dimensions 22 m × 20 m drains completely into a cylindrical storage tank of base diameter 2 m and height 3.5 m. If the tank is completely filled, find the rainfall recorded in centimetres. (Take π = 22/7)",
         "options": [
-          "8 : 1",
-          "1 : 8",
-          "4 : 2",
-          "2 : 4"
+          "2.5 cm",
+          "3.0 cm",
+          "2.0 cm",
+          "1.8 cm"
         ],
         "correct": 0,
-        "solution": "Volume V = πr²h. New volume V' = π(4r)²(h/2) = (16/2)πr²h.<br>Ratio V' : V = 16 : 2 = <b>8 : 1</b>.",
-        "shortcut": "⚡ <b>Ratio Scaling:</b> r² · h = (4)² · (1/2) = 16/2 = <b>8 : 1</b>."
+        "solution": "Radius of tank = 1 m.<br>Volume of tank = π r² h = (22/7) × 1² × 3.5 = 11 m³.<br>Roof Area = 22 × 20 = 440 m².<br>Rainfall depth = 11 / 440 = 1/40 m = (100 / 40) cm = <b>2.5 cm</b>.",
+        "shortcut": "⚡ Depth = 11 / 440 = 1/40 m = <b>2.5 cm</b>."
       },
       {
         "id": 20,
         "category": "Advanced Maths",
         "topic": "Mensuration 3D",
-        "question": "A solid right circular cone has a base radius of 8 cm and a vertical height of 15 cm. Find its Total Surface Area (TSA). (Take π = 3.14)",
+        "question": "A wooden decorative toy consists of a cone surmounted on a hemisphere. The radius of the hemisphere is 3.5 cm and the total height of the toy is 15.5 cm. Find the total volume of the toy. (Take π = 22/7)",
         "options": [
-          "628.0 cm²",
-          "427.04 cm²",
-          "200.96 cm²",
-          "653.0 cm²"
+          "243.83 cm³",
+          "231.50 cm³",
+          "256.20 cm³",
+          "218.40 cm³"
         ],
         "correct": 0,
-        "solution": "Slant height l = √(r² + h²) = √(8² + 15²) = 17 cm.<br>TSA = πr(l + r) = 3.14 × 8 × (17 + 8) = 3.14 × 8 × 25 = <b>628.0 cm²</b>.",
-        "shortcut": "⚡ <b>Triplet:</b> (8, 15, 17) ⟹ TSA = 3.14 × 8 × (25) = <b>628.0 cm²</b>."
+        "solution": "Height of cone = 15.5 − 3.5 = 12 cm.<br>Volume of hemisphere = (2/3)π r³ = (2/3) × (22/7) × (3.5)³ = 89.83 cm³.<br>Volume of cone = (1/3)π r² h = (1/3) × (22/7) × (3.5)² × 12 = 154 cm³.<br>Total Volume = 89.83 + 154 = <b>243.83 cm³</b>.",
+        "shortcut": "⚡ Total V = (1/3)πr²[2r + h] = (1/3) × (22/7) × 12.25 × (7 + 12) = 12.833 × 19 = <b>243.83 cm³</b>."
       },
       {
         "id": 21,
         "category": "Advanced Maths",
         "topic": "Mensuration 2D",
-        "question": "Find the area of a regular hexagon whose each side measures 10 cm.",
+        "question": "The ratio of the lengths of the two diagonals of a rhombus is 3 : 4, and its total area is 384 cm². Find the perimeter of the rhombus.",
         "options": [
-          "150√3 cm²",
-          "75√3 cm²",
-          "300√3 cm²",
-          "100√3 cm²"
+          "80 cm",
+          "72 cm",
+          "84 cm",
+          "96 cm"
         ],
         "correct": 0,
-        "solution": "A regular hexagon comprises 6 equilateral triangles of side a = 10 cm.<br>Area = 6 × [(√3 / 4) × a²] = 6 × [(√3 / 4) × 100] = <b>150√3 cm²</b>.",
-        "shortcut": "⚡ <b>Hexagon Area:</b> (3√3 / 2) × a² = (3√3 / 2) × 100 = <b>150√3 cm²</b>."
+        "solution": "Let diagonals be 3x and 4x.<br>Area = (1/2) × 3x × 4x = 6x² = 384 ⟹ x² = 64 ⟹ x = 8.<br>Diagonals are 24 cm and 32 cm.<br>Side a = √[(12)² + (16)²] = 20 cm.<br>Perimeter = 4 × 20 = <b>80 cm</b>.",
+        "shortcut": "⚡ 6x² = 384 ⟹ x = 8 ⟹ Diagonals 24, 32 ⟹ Side 20 cm ⟹ Perimeter = <b>80 cm</b>."
       },
       {
         "id": 22,
@@ -4800,136 +4800,136 @@
         "id": 13,
         "category": "Advanced Maths",
         "topic": "Algebra",
-        "question": "If x − 1/x = 6, find the value of x² + 1/x².",
+        "question": "If x² + 1/x² = 7, find the value of x³ − 1/x³ (for x > 1).",
         "options": [
-          "38",
-          "36",
-          "34",
-          "42"
+          "8√5",
+          "6√5",
+          "10√5",
+          "14"
         ],
         "correct": 0,
-        "solution": "(x − 1/x)² = x² + 1/x² − 2.<br>6² = x² + 1/x² − 2 ⟹ x² + 1/x² = 6² + 2 = <b>38</b>.",
-        "shortcut": "⚡ <b>Formula:</b> k² + 2 = 6² + 2 = <b>38</b>."
+        "solution": "(x − 1/x)² = x² + 1/x² − 2 = 7 − 2 = 5 ⟹ x − 1/x = √5.<br>x³ − 1/x³ = (x − 1/x)³ + 3(x − 1/x) = (√5)³ + 3√5 = 5√5 + 3√5 = <b>8√5</b>.",
+        "shortcut": "⚡ k = √5 ⟹ k³ + 3k = 5√5 + 3√5 = <b>8√5</b>."
       },
       {
         "id": 14,
         "category": "Advanced Maths",
         "topic": "Algebra",
-        "question": "If x + 1/x = 4, find the value of x³ + 1/x³.",
+        "question": "If √x + 1/√x = √7, find the value of x² + 1/x².",
         "options": [
-          "52",
-          "64",
-          "58",
-          "46"
+          "23",
+          "25",
+          "21",
+          "27"
         ],
         "correct": 0,
-        "solution": "x³ + 1/x³ = (x + 1/x)³ − 3(x + 1/x) = 4³ − 3(4) = 64 − 12 = <b>52</b>.",
-        "shortcut": "⚡ <b>k³ − 3k Rule:</b> 4³ − 3(4) = <b>52</b>."
+        "solution": "Squaring both sides: x + 1/x + 2 = 7 ⟹ x + 1/x = 5.<br>Squaring again: x² + 1/x² = 5² − 2 = 25 − 2 = <b>23</b>.",
+        "shortcut": "⚡ x + 1/x = 7 − 2 = 5 ⟹ x² + 1/x² = 5² − 2 = <b>23</b>."
       },
       {
         "id": 15,
         "category": "Advanced Maths",
         "topic": "Trigonometry",
-        "question": "If sin(A + B) = 1/√2 and cos(A − B) = 1/√2 (where 0° < A + B ≤ 90° and A ≥ B), find the values of A and B.",
+        "question": "If 7 sin²θ + 3 cos²θ = 4 (where 0° < θ < 90°), find the exact value of tan θ.",
         "options": [
-          "45°, 0°",
-          "45°, 45°",
-          "50°, 20°",
-          "35°, 25°"
+          "1/√3",
+          "√3",
+          "1",
+          "1/2"
         ],
         "correct": 0,
-        "solution": "A + B = 45°, A − B = 45° ⟹ A = 45°, B = 0°. Ans = <b>45°, 0°</b>.",
-        "shortcut": "⚡ Direct sum and difference of known standard angles ⟹ <b>45°, 0°</b>."
+        "solution": "4 sin²θ + 3(sin²θ + cos²θ) = 4 ⟹ 4 sin²θ + 3 = 4 ⟹ 4 sin²θ = 1.<br>sin²θ = 1/4 ⟹ sin θ = 1/2 ⟹ θ = 30°.<br>tan θ = tan 30° = <b>1/√3</b>.",
+        "shortcut": "⚡ 4 sin²θ = 1 ⟹ sin θ = 1/2 ⟹ θ = 30° ⟹ tan 30° = <b>1/√3</b>."
       },
       {
         "id": 16,
         "category": "Advanced Maths",
         "topic": "Heights & Distances",
-        "question": "The angle of elevation of the top of a vertical tower from a point 55 m away from its foot on horizontal ground is 30°. Find the height of the tower.",
+        "question": "A spherical balloon of radius 7 m subtends an angle of 60° at the eye of an observer on the ground, while the angle of elevation of the balloon's centre is 30°. Find the height of the centre of the balloon above the ground.",
         "options": [
-          "31.8 m",
-          "55 m",
-          "110 m",
-          "55√2 m"
+          "7 m",
+          "14 m",
+          "3.5 m",
+          "7√3 m"
         ],
         "correct": 0,
-        "solution": "tan 30° = h / 55 ⟹ 1/√3 = h / 55 ⟹ h = 55/√3 = <b>31.8 m</b>.",
-        "shortcut": "⚡ In 30° triangle, height = Base × tan(30°) = <b>31.8 m</b>."
+        "solution": "Semi-vertical angle = 60° / 2 = 30°.<br>Distance d from observer to balloon centre = r / sin 30° = 7 / (1/2) = 14 m.<br>Height h = d × sin 30° = 14 × (1/2) = <b>7 m</b>.",
+        "shortcut": "⚡ Height = r × (sin 30° / sin 30°) = <b>7 m</b>."
       },
       {
         "id": 17,
         "category": "Advanced Maths",
         "topic": "Geometry",
-        "question": "From an external point P, two tangents PA and PB are drawn to a circle with centre O. If ∠APB = 40°, find the measure of ∠AOB.",
+        "question": "From an external point P, two secants PAB and PCD are drawn to a circle. Line PAB passes through points A and B (A nearer to P) with PA = 5 cm and AB = 7 cm. Secant PCD passes through C and D (C nearer to P) with PC = 4 cm. Find the length of segment CD.",
         "options": [
-          "140°",
-          "130°",
-          "155°",
-          "40°"
+          "11 cm",
+          "12 cm",
+          "10 cm",
+          "9 cm"
         ],
         "correct": 0,
-        "solution": "In quadrilateral OAPB, radius is perpendicular to tangent at point of contact: ∠OAP = ∠OBP = 90°.<br>Sum of opposite angles ∠APB + ∠AOB = 180°.<br>∠AOB = 180° − 40° = <b>140°</b>.",
-        "shortcut": "⚡ <b>Supplementary Angles:</b> ∠AOB = 180° − ∠APB = 180° − 40° = <b>140°</b>."
+        "solution": "By the Secant Power Theorem: PA × PB = PC × PD.<br>5 × (5 + 7) = 4 × PD ⟹ 5 × 12 = 4 × PD ⟹ 60 = 4 × PD ⟹ PD = 15 cm.<br>CD = PD − PC = 15 − 4 = <b>11 cm</b>.",
+        "shortcut": "⚡ PD = (5 × 12) / 4 = 15 cm ⟹ CD = 15 − 4 = <b>11 cm</b>."
       },
       {
         "id": 18,
         "category": "Advanced Maths",
         "topic": "Geometry",
-        "question": "In △ABC, the internal bisectors of ∠B and ∠C meet at incenter I. If ∠BAC = 56°, find the measure of ∠BIC.",
+        "question": "In △ABC, a line segment DE is drawn parallel to base BC with D on AB and E on AC. If AD : DB = 2 : 3 and the area of △ADE is 24 cm², find the area of trapezium BDEC.",
         "options": [
-          "118°",
-          "108°",
-          "123°",
-          "124°"
+          "126 cm²",
+          "120 cm²",
+          "132 cm²",
+          "110 cm²"
         ],
         "correct": 0,
-        "solution": "Formula for incenter angle: ∠BIC = 90° + ∠A / 2 = 90° + 56/2 = 90° + 28° = <b>118°</b>.",
-        "shortcut": "⚡ <b>Incenter Formula:</b> 90° + A/2 = 90° + 28° = <b>118°</b>."
+        "solution": "AD / AB = 2 / (2 + 3) = 2/5.<br>Area(△ADE) / Area(△ABC) = (2/5)² = 4/25.<br>Area(△ABC) = 24 × (25/4) = 150 cm².<br>Area of trapezium BDEC = 150 − 24 = <b>126 cm²</b>.",
+        "shortcut": "⚡ Area(Trap) = 24 × [(25 − 4) / 4] = 24 × (21/4) = 6 × 21 = <b>126 cm²</b>."
       },
       {
         "id": 19,
         "category": "Advanced Maths",
         "topic": "Mensuration 3D",
-        "question": "If the radius of a cylinder is multiplied by 3 and its height is divided by 3, find the ratio of the new volume to the original volume.",
+        "question": "Three solid lead spheres of diameters 6 cm, 8 cm, and 10 cm are melted together and recast into a single solid sphere. Find the diameter of the new sphere formed.",
         "options": [
-          "3 : 1",
-          "1 : 3",
-          "3 : 3",
-          "3 : 3"
+          "12 cm",
+          "10 cm",
+          "14 cm",
+          "16 cm"
         ],
         "correct": 0,
-        "solution": "Volume V = πr²h. New volume V' = π(3r)²(h/3) = (9/3)πr²h.<br>Ratio V' : V = 9 : 3 = <b>3 : 1</b>.",
-        "shortcut": "⚡ <b>Ratio Scaling:</b> r² · h = (3)² · (1/3) = 9/3 = <b>3 : 1</b>."
+        "solution": "Radii are 3 cm, 4 cm, 5 cm.<br>R³ = 3³ + 4³ + 5³ = 27 + 64 + 125 = 216 ⟹ R = 6 cm.<br>Diameter = 2 × 6 = <b>12 cm</b>.",
+        "shortcut": "⚡ R³ = 27 + 64 + 125 = 216 ⟹ R = 6 cm ⟹ Diameter = <b>12 cm</b>."
       },
       {
         "id": 20,
         "category": "Advanced Maths",
         "topic": "Mensuration 3D",
-        "question": "A solid right circular cone has a base radius of 9 cm and a vertical height of 12 cm. Find its Total Surface Area (TSA). (Take π = 3.14)",
+        "question": "A solid right circular cylinder of diameter 12 cm and height 15 cm is melted and recast into 12 identical solid cones of radius 3 cm each. Find the height of each cone.",
         "options": [
-          "678.24 cm²",
-          "423.9 cm²",
-          "254.34 cm²",
-          "703.24 cm²"
+          "15 cm",
+          "12 cm",
+          "18 cm",
+          "20 cm"
         ],
         "correct": 0,
-        "solution": "Slant height l = √(r² + h²) = √(9² + 12²) = 15 cm.<br>TSA = πr(l + r) = 3.14 × 9 × (15 + 9) = 3.14 × 9 × 24 = <b>678.24 cm²</b>.",
-        "shortcut": "⚡ <b>Triplet:</b> (9, 12, 15) ⟹ TSA = 3.14 × 9 × (24) = <b>678.24 cm²</b>."
+        "solution": "Volume of cylinder = π × 6² × 15 = 540π cm³.<br>Volume of 12 cones = 12 × [(1/3)π × 3² × h] = 36π h.<br>36π h = 540π ⟹ h = 540 / 36 = <b>15 cm</b>.",
+        "shortcut": "⚡ h = (6² × 15) / (4 × 9) = 540 / 36 = <b>15 cm</b>."
       },
       {
         "id": 21,
         "category": "Advanced Maths",
         "topic": "Mensuration 2D",
-        "question": "Find the area of a regular hexagon whose each side measures 12 cm.",
+        "question": "The hypotenuse of an isosceles right-angled triangle is 16 cm. Find the area and perimeter of the triangle. (Take √2 = 1.414)",
         "options": [
-          "216√3 cm²",
-          "108√3 cm²",
-          "432√3 cm²",
-          "144√3 cm²"
+          "64 cm² (Perimeter 38.62 cm)",
+          "72 cm² (Perimeter 40.20 cm)",
+          "56 cm² (Perimeter 36.40 cm)",
+          "60 cm² (Perimeter 37.80 cm)"
         ],
         "correct": 0,
-        "solution": "A regular hexagon comprises 6 equilateral triangles of side a = 12 cm.<br>Area = 6 × [(√3 / 4) × a²] = 6 × [(√3 / 4) × 144] = <b>216√3 cm²</b>.",
-        "shortcut": "⚡ <b>Hexagon Area:</b> (3√3 / 2) × a² = (3√3 / 2) × 144 = <b>216√3 cm²</b>."
+        "solution": "Each equal leg a = 16 / √2 = 8√2 cm.<br>Area = (1/2) × a² = (1/2) × (8√2)² = (1/2) × 128 = <b>64 cm²</b>.<br>Perimeter = 2a + c = 16√2 + 16 = 16(1.414 + 1) = 16 × 2.414 = <b>38.62 cm</b>.",
+        "shortcut": "⚡ Area = c² / 4 = 16² / 4 = 256 / 4 = <b>64 cm²</b>. Perimeter = 16(√2 + 1) ≈ <b>38.62 cm</b>."
       },
       {
         "id": 22,
