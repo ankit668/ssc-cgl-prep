@@ -75,7 +75,7 @@
         .header p {
             font-size: 0.86rem;
             color: var(--text-muted);
-            max-width: 660px;
+            max-width: 680px;
             margin: 0 auto;
         }
 
@@ -106,26 +106,47 @@
 
         /* Schedule Timeline Quick View */
         .timeline-strip {
-            background: rgba(30, 41, 59, 0.7);
+            background: rgba(30, 41, 59, 0.85);
             border: 1px solid var(--border-color);
-            border-radius: 10px;
-            padding: 10px 14px;
+            border-radius: 12px;
+            padding: 12px 14px;
             margin-bottom: 16px;
             font-size: 0.76rem;
             color: var(--text-muted);
             display: flex;
-            justify-content: space-between;
-            align-items: center;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .timeline-pills-row {
+            display: flex;
             flex-wrap: wrap;
             gap: 6px;
         }
         .time-pill {
             background: #0F172A;
             border: 1px solid #334155;
-            padding: 3px 8px;
+            padding: 4px 8px;
             border-radius: 6px;
             color: #CBD5E1;
             font-weight: 600;
+            font-size: 0.72rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+        }
+        .time-pill.study {
+            border-color: rgba(56, 189, 248, 0.4);
+            color: #7DD3FC;
+        }
+        .time-pill.break {
+            border-color: rgba(245, 158, 11, 0.4);
+            color: #FDE68A;
+            background: rgba(245, 158, 11, 0.08);
+        }
+        .time-pill.sleep {
+            border-color: rgba(168, 85, 247, 0.4);
+            color: #E9D5FF;
+            background: rgba(168, 85, 247, 0.08);
         }
 
         /* Day Selector Tabs */
@@ -230,18 +251,31 @@
             color: #94A3B8;
         }
 
-        /* Break Notice Card */
+        /* Break / Nap Notice Card */
         .break-card {
-            padding: 8px 14px;
+            padding: 10px 14px;
             background: rgba(245, 158, 11, 0.08);
-            border: 1px dashed rgba(245, 158, 11, 0.3);
-            border-radius: 8px;
+            border: 1px dashed rgba(245, 158, 11, 0.35);
+            border-radius: 10px;
             margin-bottom: 12px;
-            font-size: 0.78rem;
+            font-size: 0.82rem;
             color: #FDE68A;
             display: flex;
             align-items: center;
-            gap: 8px;
+            gap: 10px;
+        }
+        .break-card.nap {
+            background: rgba(168, 85, 247, 0.1);
+            border-color: rgba(168, 85, 247, 0.4);
+            color: #E9D5FF;
+        }
+        .break-badge {
+            font-size: 0.72rem;
+            font-weight: 800;
+            padding: 3px 8px;
+            border-radius: 6px;
+            background: rgba(0,0,0,0.3);
+            text-transform: uppercase;
         }
 
         /* Section Block Cards */
@@ -477,7 +511,7 @@
     <div class="header">
         <div class="badge-bootcamp">🔥 4-Day Holiday Intensive (17–20 Oct)</div>
         <h1>🎯 14-Hour Daily Bootcamp Tracker</h1>
-        <p>Exact Timed Schedule: 8h Maths + 2.5h Nimisha Bansal Editorial (Yes Officer) + 1.25h Reasoning + 2.25h Parmar GS. Check off every slot as you complete it!</p>
+        <p>Exact Timed Schedule: 8h Maths + 2.5h Nimisha Bansal Editorial (Yes Officer) + 1.25h Reasoning + 2.5h Parmar GS. Features 1h Breakfast, 1h Lunch, 1.5h Afternoon Nap, 1h Dinner & 5.5h Night Sleep!</p>
         <div class="nav-links">
             <a href="index.html" class="btn-link">🏠 Dashboard</a>
             <a href="mock_test.html" class="btn-link" style="background:#DC2626;">⏱️ 15-Min CBT Simulator</a>
@@ -489,14 +523,21 @@
 
     <!-- Timeline Overview Strip -->
     <div class="timeline-strip">
-        <span>⏰ <b>Daily Master Routine:</b></span>
-        <span class="time-pill">06:00–08:30 English</span>
-        <span class="time-pill">09:00–11:00 Maths 1</span>
-        <span class="time-pill">11:15–01:15 Maths 2</span>
-        <span class="time-pill">02:30–04:30 CBT Mocks</span>
-        <span class="time-pill">05:00–06:15 Reasoning</span>
-        <span class="time-pill">06:30–08:15 Maths 4</span>
-        <span class="time-pill">09:00–11:30 Parmar GS</span>
+        <div style="font-weight: 800; color: #F1F5F9; margin-bottom: 2px;">⏰ Complete 24-Hour Daily Routine:</div>
+        <div class="timeline-pills-row">
+            <span class="time-pill study">05:30–08:00 English (2.5h)</span>
+            <span class="time-pill break">🍳 08:00–09:00 Breakfast (1h)</span>
+            <span class="time-pill study">09:00–11:00 Maths 1 (2h)</span>
+            <span class="time-pill study">11:00–01:00 Maths 2 (2h)</span>
+            <span class="time-pill break">🍱 01:00–02:00 Lunch (1h)</span>
+            <span class="time-pill sleep">😴 02:00–03:30 Afternoon Nap (1.5h)</span>
+            <span class="time-pill study">03:30–05:30 CBT Mocks (2h)</span>
+            <span class="time-pill study">05:30–06:45 Reasoning (1.25h)</span>
+            <span class="time-pill study">06:45–08:30 Maths 4 (1.75h)</span>
+            <span class="time-pill break">🍽️ 08:30–09:30 Dinner (1h)</span>
+            <span class="time-pill study">09:30–12:00 Parmar GS (2.5h)</span>
+            <span class="time-pill sleep">🌙 12:00–05:30 Night Sleep (5.5h)</span>
+        </div>
     </div>
 
     <!-- Day Selector Tabs -->
@@ -557,7 +598,7 @@
 </div>
 
 <script>
-// Bootcamp 4-Day Plan Configuration with Exact Timings
+// Bootcamp 4-Day Plan Configuration with Exact Timings & Breaks
 const BOOTCAMP_DAYS = [
     {
         dayIndex: 0,
@@ -569,14 +610,14 @@ const BOOTCAMP_DAYS = [
                 id: "eng_d0",
                 title: "English — Nimisha Bansal Daily Editorial & Vocab (Yes Officer)",
                 icon: "📰",
-                timing: "06:00 AM – 08:30 AM",
+                timing: "05:30 AM – 08:00 AM",
                 hours: 2.5,
                 tasks: [
-                    { id: "d0_eng_1", title: "Watch Today's The Hindu Editorial by Nimisha Bansal (Yes Officer)", timing: "06:00 – 07:30 AM", desc: "Deep passage analysis, skimming tone, vocab in context, and reading speed practice.", hours: 1.5, link: "https://www.youtube.com/results?search_query=nimisha+bansal+the+hindu+editorial+today" },
-                    { id: "d0_eng_2", title: "Vocab & 120 Rules Extraction", timing: "07:30 – 08:00 AM", desc: "Write down 20 high-yield words, collocations, and apply Nimisha Ma'am's 120 Rules of Grammar.", hours: 0.5 },
-                    { id: "d0_eng_3", title: "English App Drills: Root Words & Affixes", timing: "08:00 – 08:30 AM", desc: "Practice 20 root words and affixes MCQs in the SSC Prep app.", hours: 0.5, link: "index.html#english" }
+                    { id: "d0_eng_1", title: "Watch Today's The Hindu Editorial by Nimisha Bansal (Yes Officer)", timing: "05:30 – 07:00 AM", desc: "Deep passage analysis, skimming tone, vocab in context, and reading speed practice.", hours: 1.5, link: "https://www.youtube.com/results?search_query=nimisha+bansal+the+hindu+editorial+today" },
+                    { id: "d0_eng_2", title: "Vocab & 120 Rules Extraction", timing: "07:00 – 07:30 AM", desc: "Write down 20 high-yield words, collocations, and apply Nimisha Ma'am's 120 Rules of Grammar.", hours: 0.5 },
+                    { id: "d0_eng_3", title: "English App Drills: Root Words & Affixes", timing: "07:30 – 08:00 AM", desc: "Practice 20 root words and affixes MCQs in the SSC Prep app.", hours: 0.5, link: "index.html#english" }
                 ],
-                afterBreak: "☕ 08:30 AM – 09:00 AM: Breakfast & Refreshment Break (30 mins)"
+                afterBreak: { type: "break", text: "🍳 08:00 AM – 09:00 AM: Breakfast Break (1 Hour Full Rest)" }
             },
             {
                 id: "m1_d0",
@@ -586,68 +627,67 @@ const BOOTCAMP_DAYS = [
                 hours: 2.0,
                 tasks: [
                     { id: "d0_m1_1", title: "Solve all 78 Questions in Real Shifts Hub", timing: "09:00 – 11:00 AM", desc: "Cover 30 Sep, 1 Oct, 10 Oct, 12 Oct & 14 Oct shifts. Study the 5-sec shortcut for each.", hours: 2.0, link: "real_shifts.html" }
-                ],
-                afterBreak: "🧘 11:00 AM – 11:15 AM: Water & Eye Rest Break (15 mins)"
+                ]
             },
             {
                 id: "m2_d0",
                 title: "Maths Slot 2 — Part-1 Real PDF (54 Qs) + Sets 1 & 2",
                 icon: "📊",
-                timing: "11:15 AM – 01:15 PM",
+                timing: "11:00 AM – 01:00 PM",
                 hours: 2.0,
                 tasks: [
-                    { id: "d0_m2_1", title: "Math Part-1 Real Exam PDF (54 Questions)", timing: "11:15 AM – 12:30 PM", desc: "Solve all 54 questions in self-test mode with instant green/red check.", hours: 1.25, link: "math_part1.html" },
-                    { id: "d0_m2_2", title: "Practice Sets 1 & 2 (50 Questions + DI)", timing: "12:30 – 01:15 PM", desc: "Arithmetic markup, successive discounts, and table DI.", hours: 0.75, link: "practice_sets.html" }
+                    { id: "d0_m2_1", title: "Math Part-1 Real Exam PDF (54 Questions)", timing: "11:00 AM – 12:15 PM", desc: "Solve all 54 questions in self-test mode with instant green/red check.", hours: 1.25, link: "math_part1.html" },
+                    { id: "d0_m2_2", title: "Practice Sets 1 & 2 (50 Questions + DI)", timing: "12:15 – 01:00 PM", desc: "Arithmetic markup, successive discounts, and table DI.", hours: 0.75, link: "practice_sets.html" }
                 ],
-                afterBreak: "🍱 01:15 PM – 02:30 PM: Lunch & Rest / Power Nap Break (1 hr 15 mins)"
+                afterBreak: { type: "break", text: "🍱 01:00 PM – 02:00 PM: Lunch Break (1 Hour Full Rest)" },
+                afterNap: { type: "nap", text: "😴 02:00 PM – 03:30 PM: Afternoon Deep Nap (1 Hour 30 Mins — Complete Brain Reboot)" }
             },
             {
                 id: "m3_d0",
                 title: "Maths Slot 3 — 15-Minute Eduquity CBT Mocks (3 Tests)",
                 icon: "⏱️",
-                timing: "02:30 PM – 04:30 PM",
+                timing: "03:30 PM – 05:30 PM",
                 hours: 2.0,
                 hasScoreLogger: true,
                 tasks: [
-                    { id: "d0_m3_1", title: "Mock 1: Practice Set 1 (15-Min Timer)", timing: "02:30 – 03:10 PM", desc: "Simulate real exam pressure. Goal: Attempt 20+ Qs in <= 15:00. Review solutions.", hours: 0.65, link: "mock_test.html" },
-                    { id: "d0_m3_2", title: "Mock 2: Practice Set 2 (15-Min Timer)", timing: "03:10 – 03:50 PM", desc: "Strict negative marking check. Goal: Score >= 40.0. Review solutions.", hours: 0.65, link: "mock_test.html" },
-                    { id: "d0_m3_3", title: "Mock 3: 14 Oct All Shifts Paper (15-Min Timer)", timing: "03:50 – 04:30 PM", desc: "Recent exam paper test with detailed shortcut review.", hours: 0.7, link: "mock_test.html" }
-                ],
-                afterBreak: "🚶 04:30 PM – 05:00 PM: Evening Walk & Tea Break (30 mins)"
+                    { id: "d0_m3_1", title: "Mock 1: Practice Set 1 (15-Min Timer)", timing: "03:30 – 04:10 PM", desc: "Simulate real exam pressure. Goal: Attempt 20+ Qs in <= 15:00. Review solutions.", hours: 0.65, link: "mock_test.html" },
+                    { id: "d0_m3_2", title: "Mock 2: Practice Set 2 (15-Min Timer)", timing: "04:10 – 04:50 PM", desc: "Strict negative marking check. Goal: Score >= 40.0. Review solutions.", hours: 0.65, link: "mock_test.html" },
+                    { id: "d0_m3_3", title: "Mock 3: 14 Oct All Shifts Paper (15-Min Timer)", timing: "04:50 – 05:30 PM", desc: "Recent exam paper test with detailed shortcut review.", hours: 0.7, link: "mock_test.html" }
+                ]
             },
             {
                 id: "reas_d0",
                 title: "Reasoning — 25-Q Sectional Speed Drill",
                 icon: "🧩",
-                timing: "05:00 PM – 06:15 PM",
+                timing: "05:30 PM – 06:45 PM",
                 hours: 1.25,
                 tasks: [
-                    { id: "d0_reas_1", title: "Solve 2 Full Reasoning Sectional Mocks (50 Qs)", timing: "05:00 – 06:15 PM", desc: "Coding-decoding, number series, syllogisms, and mirror images. Target: <= 14 mins per set.", hours: 1.25, link: "reasoning_cheat_sheet.html" }
-                ],
-                afterBreak: "🍎 06:15 PM – 06:30 PM: Quick Stretch Break (15 mins)"
+                    { id: "d0_reas_1", title: "Solve 2 Full Reasoning Sectional Mocks (50 Qs)", timing: "05:30 – 06:45 PM", desc: "Coding-decoding, number series, syllogisms, and mirror images. Target: <= 14 mins per set.", hours: 1.25, link: "reasoning_cheat_sheet.html" }
+                ]
             },
             {
                 id: "m4_d0",
                 title: "Maths Slot 4 — Error Analysis & Formulas Lock-in",
                 icon: "⚡",
-                timing: "06:30 PM – 08:15 PM",
+                timing: "06:45 PM – 08:30 PM",
                 hours: 1.75,
                 tasks: [
-                    { id: "d0_m4_1", title: "Review Mistakes from Today's 3 Mocks", timing: "06:30 – 07:30 PM", desc: "Re-solve every skipped or wrong question without looking at the solution.", hours: 1.0 },
-                    { id: "d0_m4_2", title: "Mensuration & Trigonometry Cheat Sheet Skim", timing: "07:30 – 08:15 PM", desc: "Lock in hexagonal area (3√3/2 a²), frustum formulas, and standard triplets.", hours: 0.75, link: "mensuration.html" }
+                    { id: "d0_m4_1", title: "Review Mistakes from Today's 3 Mocks", timing: "06:45 – 07:45 PM", desc: "Re-solve every skipped or wrong question without looking at the solution.", hours: 1.0 },
+                    { id: "d0_m4_2", title: "Mensuration & Trigonometry Cheat Sheet Skim", timing: "07:45 – 08:30 PM", desc: "Lock in hexagonal area (3√3/2 a²), frustum formulas, and standard triplets.", hours: 0.75, link: "mensuration.html" }
                 ],
-                afterBreak: "🍽️ 08:15 PM – 09:00 PM: Dinner Break (45 mins)"
+                afterBreak: { type: "break", text: "🍽️ 08:30 PM – 09:30 PM: Dinner Break (1 Hour Full Rest)" }
             },
             {
                 id: "gs_d0",
                 title: "GS / GK — Parmar SSC Video & Notes Revision",
                 icon: "🏛️",
-                timing: "09:00 PM – 11:30 PM",
+                timing: "09:30 PM – 12:00 AM",
                 hours: 2.5,
                 tasks: [
-                    { id: "d0_gs_1", title: "Parmar Blitz / MEP Revision (2 Videos + Notes)", timing: "09:00 – 10:30 PM", desc: "Focus on Art & Culture, Modern History, and Polity Articles.", hours: 1.5, link: "tracker.html" },
-                    { id: "d0_gs_2", title: "Current Affairs & Static GK Drill in App", timing: "10:30 – 11:30 PM", desc: "Practice 50 PYQ MCQs in Static GK / Modern India.", hours: 1.0, link: "index.html#gs" }
-                ]
+                    { id: "d0_gs_1", title: "Parmar Blitz / MEP Revision (2 Videos + Notes)", timing: "09:30 – 11:00 PM", desc: "Focus on Art & Culture, Modern History, and Polity Articles.", hours: 1.5, link: "tracker.html" },
+                    { id: "d0_gs_2", title: "Current Affairs & Static GK Drill in App", timing: "11:00 – 12:00 AM", desc: "Practice 50 PYQ MCQs in Static GK / Modern India.", hours: 1.0, link: "index.html#gs" }
+                ],
+                afterSleep: { type: "sleep", text: "🌙 12:00 AM – 05:30 AM: Night Sleep (5 Hours 30 Mins — Wake up refreshed at 05:30 AM!)" }
             }
         ]
     },
@@ -661,14 +701,14 @@ const BOOTCAMP_DAYS = [
                 id: "eng_d1",
                 title: "English — Nimisha Bansal Daily Editorial & Vocab (Yes Officer)",
                 icon: "📰",
-                timing: "06:00 AM – 08:30 AM",
+                timing: "05:30 AM – 08:00 AM",
                 hours: 2.5,
                 tasks: [
-                    { id: "d1_eng_1", title: "Watch Today's The Hindu Editorial by Nimisha Bansal (Yes Officer)", timing: "06:00 – 07:30 AM", desc: "Editorial reading, cloze test techniques, and tone analysis.", hours: 1.5, link: "https://www.youtube.com/results?search_query=nimisha+bansal+the+hindu+editorial+today" },
-                    { id: "d1_eng_2", title: "Editorial Vocab Notebook Update", timing: "07:30 – 08:00 AM", desc: "Extract 20 words + collocations + sentence formation.", hours: 0.5 },
-                    { id: "d1_eng_3", title: "Grammar Rules & Spotting Errors Drills", timing: "08:00 – 08:30 AM", desc: "Practice 30 grammar MCQs in the app.", hours: 0.5, link: "index.html#english" }
+                    { id: "d1_eng_1", title: "Watch Today's The Hindu Editorial by Nimisha Bansal (Yes Officer)", timing: "05:30 – 07:00 AM", desc: "Editorial reading, cloze test techniques, and tone analysis.", hours: 1.5, link: "https://www.youtube.com/results?search_query=nimisha+bansal+the+hindu+editorial+today" },
+                    { id: "d1_eng_2", title: "Editorial Vocab Notebook Update", timing: "07:00 – 07:30 AM", desc: "Extract 20 words + collocations + sentence formation.", hours: 0.5 },
+                    { id: "d1_eng_3", title: "Grammar Rules & Spotting Errors Drills", timing: "07:30 – 08:00 AM", desc: "Practice 30 grammar MCQs in the app.", hours: 0.5, link: "index.html#english" }
                 ],
-                afterBreak: "☕ 08:30 AM – 09:00 AM: Breakfast & Refreshment Break (30 mins)"
+                afterBreak: { type: "break", text: "🍳 08:00 AM – 09:00 AM: Breakfast Break (1 Hour Full Rest)" }
             },
             {
                 id: "m1_d1",
@@ -678,67 +718,66 @@ const BOOTCAMP_DAYS = [
                 hours: 2.0,
                 tasks: [
                     { id: "d1_m1_1", title: "Solve Sets 3, 4, 5 in Practice Sets Hub", timing: "09:00 – 11:00 AM", desc: "Master successive discounts, dishonest shopkeeper, and passing marks gaps.", hours: 2.0, link: "practice_sets.html" }
-                ],
-                afterBreak: "🧘 11:00 AM – 11:15 AM: Water & Eye Rest Break (15 mins)"
+                ]
             },
             {
                 id: "m2_d1",
                 title: "Maths Slot 2 — Practice Sets 6, 7, 8 (75 Questions)",
                 icon: "📊",
-                timing: "11:15 AM – 01:15 PM",
+                timing: "11:00 AM – 01:00 PM",
                 hours: 2.0,
                 tasks: [
-                    { id: "d1_m2_1", title: "Solve Sets 6, 7, 8 in Practice Sets Hub", timing: "11:15 AM – 01:15 PM", desc: "DI tables focus: calculate growth % and ratio using approximations.", hours: 2.0, link: "practice_sets.html" }
+                    { id: "d1_m2_1", title: "Solve Sets 6, 7, 8 in Practice Sets Hub", timing: "11:00 AM – 01:00 PM", desc: "DI tables focus: calculate growth % and ratio using approximations.", hours: 2.0, link: "practice_sets.html" }
                 ],
-                afterBreak: "🍱 01:15 PM – 02:30 PM: Lunch & Rest / Power Nap Break (1 hr 15 mins)"
+                afterBreak: { type: "break", text: "🍱 01:00 PM – 02:00 PM: Lunch Break (1 Hour Full Rest)" },
+                afterNap: { type: "nap", text: "😴 02:00 PM – 03:30 PM: Afternoon Deep Nap (1 Hour 30 Mins — Complete Brain Reboot)" }
             },
             {
                 id: "m3_d1",
                 title: "Maths Slot 3 — 15-Minute Eduquity CBT Mocks (3 Tests)",
                 icon: "⏱️",
-                timing: "02:30 PM – 04:30 PM",
+                timing: "03:30 PM – 05:30 PM",
                 hours: 2.0,
                 hasScoreLogger: true,
                 tasks: [
-                    { id: "d1_m3_1", title: "Mock 4: Practice Set 4 (15-Min Timer)", timing: "02:30 – 03:10 PM", desc: "Goal: Complete 21+ Qs in <= 14:30. Review mistakes.", hours: 0.65, link: "mock_test.html" },
-                    { id: "d1_m3_2", title: "Mock 5: Practice Set 7 (15-Min Timer)", timing: "03:10 – 03:50 PM", desc: "Target score >= 42.0 with minimal negative marks.", hours: 0.65, link: "mock_test.html" },
-                    { id: "d1_m3_3", title: "Mock 6: Practice Set 9 (15-Min Timer)", timing: "03:50 – 04:30 PM", desc: "Fast elimination of options using unit digit and parity.", hours: 0.7, link: "mock_test.html" }
-                ],
-                afterBreak: "🚶 04:30 PM – 05:00 PM: Evening Walk & Tea Break (30 mins)"
+                    { id: "d1_m3_1", title: "Mock 4: Practice Set 4 (15-Min Timer)", timing: "03:30 – 04:10 PM", desc: "Goal: Complete 21+ Qs in <= 14:30. Review mistakes.", hours: 0.65, link: "mock_test.html" },
+                    { id: "d1_m3_2", title: "Mock 5: Practice Set 7 (15-Min Timer)", timing: "04:10 – 04:50 PM", desc: "Target score >= 42.0 with minimal negative marks.", hours: 0.65, link: "mock_test.html" },
+                    { id: "d1_m3_3", title: "Mock 6: Practice Set 9 (15-Min Timer)", timing: "04:50 – 05:30 PM", desc: "Fast elimination of options using unit digit and parity.", hours: 0.7, link: "mock_test.html" }
+                ]
             },
             {
                 id: "reas_d1",
                 title: "Reasoning — 25-Q Sectional Speed Drill",
                 icon: "🧩",
-                timing: "05:00 PM – 06:15 PM",
+                timing: "05:30 PM – 06:45 PM",
                 hours: 1.25,
                 tasks: [
-                    { id: "d1_reas_1", title: "Solve 2 Full Reasoning Mocks (50 Qs)", timing: "05:00 – 06:15 PM", desc: "Blood relations, directions, calendar, and mathematical operators.", hours: 1.25, link: "reasoning_cheat_sheet.html" }
-                ],
-                afterBreak: "🍎 06:15 PM – 06:30 PM: Quick Stretch Break (15 mins)"
+                    { id: "d1_reas_1", title: "Solve 2 Full Reasoning Mocks (50 Qs)", timing: "05:30 – 06:45 PM", desc: "Blood relations, directions, calendar, and mathematical operators.", hours: 1.25, link: "reasoning_cheat_sheet.html" }
+                ]
             },
             {
                 id: "m4_d1",
                 title: "Maths Slot 4 — Speed Math & Column Addition Drill",
                 icon: "⚡",
-                timing: "06:30 PM – 08:15 PM",
+                timing: "06:45 PM – 08:30 PM",
                 hours: 1.75,
                 tasks: [
-                    { id: "d1_m4_1", title: "Column Addition & Division Approximation Drills", timing: "06:30 – 07:30 PM", desc: "Mental addition of 4-digit numbers in DI tables under 15 seconds.", hours: 1.0 },
-                    { id: "d1_m4_2", title: "Re-solve All Today's Mock Mistakes", timing: "07:30 – 08:15 PM", desc: "Deep error analysis and shortcut internalization.", hours: 0.75 }
+                    { id: "d1_m4_1", title: "Column Addition & Division Approximation Drills", timing: "06:45 – 07:45 PM", desc: "Mental addition of 4-digit numbers in DI tables under 15 seconds.", hours: 1.0 },
+                    { id: "d1_m4_2", title: "Re-solve All Today's Mock Mistakes", timing: "07:45 – 08:30 PM", desc: "Deep error analysis and shortcut internalization.", hours: 0.75 }
                 ],
-                afterBreak: "🍽️ 08:15 PM – 09:00 PM: Dinner Break (45 mins)"
+                afterBreak: { type: "break", text: "🍽️ 08:30 PM – 09:30 PM: Dinner Break (1 Hour Full Rest)" }
             },
             {
                 id: "gs_d1",
                 title: "GS / GK — Parmar SSC Video & Notes Revision",
                 icon: "🏛️",
-                timing: "09:00 PM – 11:30 PM",
+                timing: "09:30 PM – 12:00 AM",
                 hours: 2.5,
                 tasks: [
-                    { id: "d1_gs_1", title: "Parmar Blitz Geography & Science Revision", timing: "09:00 – 10:30 PM", desc: "Rivers, national parks, mineral belts, and human physiology.", hours: 1.5, link: "tracker.html" },
-                    { id: "d1_gs_2", title: "Static GK Practice in App (50 MCQs)", timing: "10:30 – 11:30 PM", desc: "Dance forms, festivals, and sports tournaments.", hours: 1.0, link: "index.html#gs" }
-                ]
+                    { id: "d1_gs_1", title: "Parmar Blitz Geography & Science Revision", timing: "09:30 – 11:00 PM", desc: "Rivers, national parks, mineral belts, and human physiology.", hours: 1.5, link: "tracker.html" },
+                    { id: "d1_gs_2", title: "Static GK Practice in App (50 MCQs)", timing: "11:00 – 12:00 AM", desc: "Dance forms, festivals, and sports tournaments.", hours: 1.0, link: "index.html#gs" }
+                ],
+                afterSleep: { type: "sleep", text: "🌙 12:00 AM – 05:30 AM: Night Sleep (5 Hours 30 Mins — Wake up refreshed at 05:30 AM!)" }
             }
         ]
     },
@@ -752,14 +791,14 @@ const BOOTCAMP_DAYS = [
                 id: "eng_d2",
                 title: "English — Nimisha Bansal Daily Editorial & Vocab (Yes Officer)",
                 icon: "📰",
-                timing: "06:00 AM – 08:30 AM",
+                timing: "05:30 AM – 08:00 AM",
                 hours: 2.5,
                 tasks: [
-                    { id: "d2_eng_1", title: "Watch Today's The Hindu Editorial by Nimisha Bansal (Yes Officer)", timing: "06:00 – 07:30 AM", desc: "Grammar applications, root words derivation, and tone identification.", hours: 1.5, link: "https://www.youtube.com/results?search_query=nimisha+bansal+the+hindu+editorial+today" },
-                    { id: "d2_eng_2", title: "Weekly Editorial Revision", timing: "07:30 – 08:00 AM", desc: "Re-read the 50 extracted vocab words from Days 1 and 2.", hours: 0.5 },
-                    { id: "d2_eng_3", title: "One-Word Substitutions & Idioms Drills", timing: "08:00 – 08:30 AM", desc: "Practice 30 OWS / Idioms MCQs in the app.", hours: 0.5, link: "index.html#english" }
+                    { id: "d2_eng_1", title: "Watch Today's The Hindu Editorial by Nimisha Bansal (Yes Officer)", timing: "05:30 – 07:00 AM", desc: "Grammar applications, root words derivation, and tone identification.", hours: 1.5, link: "https://www.youtube.com/results?search_query=nimisha+bansal+the+hindu+editorial+today" },
+                    { id: "d2_eng_2", title: "Weekly Editorial Revision", timing: "07:00 – 07:30 AM", desc: "Re-read the 50 extracted vocab words from Days 1 and 2.", hours: 0.5 },
+                    { id: "d2_eng_3", title: "One-Word Substitutions & Idioms Drills", timing: "07:30 – 08:00 AM", desc: "Practice 30 OWS / Idioms MCQs in the app.", hours: 0.5, link: "index.html#english" }
                 ],
-                afterBreak: "☕ 08:30 AM – 09:00 AM: Breakfast & Refreshment Break (30 mins)"
+                afterBreak: { type: "break", text: "🍳 08:00 AM – 09:00 AM: Breakfast Break (1 Hour Full Rest)" }
             },
             {
                 id: "m1_d2",
@@ -769,68 +808,67 @@ const BOOTCAMP_DAYS = [
                 hours: 2.0,
                 tasks: [
                     { id: "d2_m1_1", title: "Solve Upgraded Sets 11, 12, 13", timing: "09:00 – 11:00 AM", desc: "4-digit wheat production, coaching enrollments, and frustum/sphere questions.", hours: 2.0, link: "practice_sets.html" }
-                ],
-                afterBreak: "🧘 11:00 AM – 11:15 AM: Water & Eye Rest Break (15 mins)"
+                ]
             },
             {
                 id: "m2_d2",
                 title: "Maths Slot 2 — Hard Sets 14, 15, 16, 17 (100 Questions)",
                 icon: "📊",
-                timing: "11:15 AM – 01:15 PM",
+                timing: "11:00 AM – 01:00 PM",
                 hours: 2.0,
                 tasks: [
-                    { id: "d2_m2_1", title: "Solve Upgraded Sets 14, 15, 16, 17", timing: "11:15 AM – 01:15 PM", desc: "Export earnings, IPL runs, railway traffic, and hospital OPD tables.", hours: 2.0, link: "practice_sets.html" }
+                    { id: "d2_m2_1", title: "Solve Upgraded Sets 14, 15, 16, 17", timing: "11:00 AM – 01:00 PM", desc: "Export earnings, IPL runs, railway traffic, and hospital OPD tables.", hours: 2.0, link: "practice_sets.html" }
                 ],
-                afterBreak: "🍱 01:15 PM – 02:30 PM: Lunch & Rest / Power Nap Break (1 hr 15 mins)"
+                afterBreak: { type: "break", text: "🍱 01:00 PM – 02:00 PM: Lunch Break (1 Hour Full Rest)" },
+                afterNap: { type: "nap", text: "😴 02:00 PM – 03:30 PM: Afternoon Deep Nap (1 Hour 30 Mins — Complete Brain Reboot)" }
             },
             {
                 id: "m3_d2",
                 title: "Maths Slot 3 — 15-Minute Eduquity CBT Mocks (4 Tests)",
                 icon: "⏱️",
-                timing: "02:30 PM – 04:30 PM",
+                timing: "03:30 PM – 05:30 PM",
                 hours: 2.0,
                 hasScoreLogger: true,
                 tasks: [
-                    { id: "d2_m3_1", title: "Mock 7: Practice Set 11 (15-Min Timer)", timing: "02:30 – 03:00 PM", desc: "Heavy 4-digit DI test. Goal: Score >= 42.0.", hours: 0.5, link: "mock_test.html" },
-                    { id: "d2_m3_2", title: "Mock 8: Practice Set 14 (15-Min Timer)", timing: "03:00 – 03:30 PM", desc: "Solve all arithmetic in under 8 mins.", hours: 0.5, link: "mock_test.html" },
-                    { id: "d2_m3_3", title: "Mock 9: Practice Set 16 (15-Min Timer)", timing: "03:30 – 04:00 PM", desc: "Maintain >= 90% accuracy under the clock.", hours: 0.5, link: "mock_test.html" },
-                    { id: "d2_m3_4", title: "Mock 10: Practice Set 18 (15-Min Timer)", timing: "04:00 – 04:30 PM", desc: "Target: 23+ attempts in 15:00.", hours: 0.5, link: "mock_test.html" }
-                ],
-                afterBreak: "🚶 04:30 PM – 05:00 PM: Evening Walk & Tea Break (30 mins)"
+                    { id: "d2_m3_1", title: "Mock 7: Practice Set 11 (15-Min Timer)", timing: "03:30 – 04:00 PM", desc: "Heavy 4-digit DI test. Goal: Score >= 42.0.", hours: 0.5, link: "mock_test.html" },
+                    { id: "d2_m3_2", title: "Mock 8: Practice Set 14 (15-Min Timer)", timing: "04:00 – 04:30 PM", desc: "Solve all arithmetic in under 8 mins.", hours: 0.5, link: "mock_test.html" },
+                    { id: "d2_m3_3", title: "Mock 9: Practice Set 16 (15-Min Timer)", timing: "04:30 – 05:00 PM", desc: "Maintain >= 90% accuracy under the clock.", hours: 0.5, link: "mock_test.html" },
+                    { id: "d2_m3_4", title: "Mock 10: Practice Set 18 (15-Min Timer)", timing: "05:00 – 05:30 PM", desc: "Target: 23+ attempts in 15:00.", hours: 0.5, link: "mock_test.html" }
+                ]
             },
             {
                 id: "reas_d2",
                 title: "Reasoning — 25-Q Sectional Speed Drill",
                 icon: "🧩",
-                timing: "05:00 PM – 06:15 PM",
+                timing: "05:30 PM – 06:45 PM",
                 hours: 1.25,
                 tasks: [
-                    { id: "d2_reas_1", title: "Solve 2 Full Reasoning Mocks (50 Qs)", timing: "05:00 – 06:15 PM", desc: "High-speed non-verbal reasoning and matrix puzzles.", hours: 1.25, link: "reasoning_cheat_sheet.html" }
-                ],
-                afterBreak: "🍎 06:15 PM – 06:30 PM: Quick Stretch Break (15 mins)"
+                    { id: "d2_reas_1", title: "Solve 2 Full Reasoning Mocks (50 Qs)", timing: "05:30 – 06:45 PM", desc: "High-speed non-verbal reasoning and matrix puzzles.", hours: 1.25, link: "reasoning_cheat_sheet.html" }
+                ]
             },
             {
                 id: "m4_d2",
                 title: "Maths Slot 4 — Master Error Log & Traps Review",
                 icon: "⚡",
-                timing: "06:30 PM – 08:15 PM",
+                timing: "06:45 PM – 08:30 PM",
                 hours: 1.75,
                 tasks: [
-                    { id: "d2_m4_1", title: "Detailed Analysis of Mocks 7, 8, 9, 10", timing: "06:30 – 07:30 PM", desc: "Identify if any question took > 60 seconds and practice its 5-second trick.", hours: 1.0 },
-                    { id: "d2_m4_2", title: "Cone & Cylinder π=3.14 Multiplication Drills", timing: "07:30 – 08:15 PM", desc: "Drill decimal multiplications to build mental speed.", hours: 0.75 }
+                    { id: "d2_m4_1", title: "Detailed Analysis of Mocks 7, 8, 9, 10", timing: "06:45 – 07:45 PM", desc: "Identify if any question took > 60 seconds and practice its 5-second trick.", hours: 1.0 },
+                    { id: "d2_m4_2", title: "Cone & Cylinder π=3.14 Multiplication Drills", timing: "07:45 – 08:30 PM", desc: "Drill decimal multiplications to build mental speed.", hours: 0.75 }
                 ],
-                afterBreak: "🍽️ 08:15 PM – 09:00 PM: Dinner Break (45 mins)"
+                afterBreak: { type: "break", text: "🍽️ 08:30 PM – 09:30 PM: Dinner Break (1 Hour Full Rest)" }
             },
             {
                 id: "gs_d2",
                 title: "GS / GK — Parmar SSC Video & Notes Revision",
                 icon: "🏛️",
-                timing: "09:00 PM – 11:30 PM",
+                timing: "09:30 PM – 12:00 AM",
                 hours: 2.5,
                 tasks: [
-                    { id: "d2_gs_1", title: "Parmar Economy & Census / Schemes Video Revision", timing: "09:00 – 10:30 PM", desc: "Budget terms, inflation, RBI tools, and census 2011 facts.", hours: 1.5, link: "tracker.html" },
-                    { id: "d2_gs_2", title: "Government Schemes & PYQ Drills", timing: "10:30 – 11:30 PM", desc: "Practice 50 MCQs in Economics & Current Affairs.", hours: 1.0, link: "index.html#gs" }
-                ]
+                    { id: "d2_gs_1", title: "Parmar Economy & Census / Schemes Video Revision", timing: "09:30 – 11:00 PM", desc: "Budget terms, inflation, RBI tools, and census 2011 facts.", hours: 1.5, link: "tracker.html" },
+                    { id: "d2_gs_2", title: "Government Schemes & PYQ Drills", timing: "11:00 – 12:00 AM", desc: "Practice 50 MCQs in Economics & Current Affairs.", hours: 1.0, link: "index.html#gs" }
+                ],
+                afterSleep: { type: "sleep", text: "🌙 12:00 AM – 05:30 AM: Night Sleep (5 Hours 30 Mins — Wake up refreshed at 05:30 AM!)" }
             }
         ]
     },
@@ -844,14 +882,14 @@ const BOOTCAMP_DAYS = [
                 id: "eng_d3",
                 title: "English — Nimisha Bansal Daily Editorial & Vocab (Yes Officer)",
                 icon: "📰",
-                timing: "06:00 AM – 08:30 AM",
+                timing: "05:30 AM – 08:00 AM",
                 hours: 2.5,
                 tasks: [
-                    { id: "d3_eng_1", title: "Watch Today's The Hindu Editorial by Nimisha Bansal (Yes Officer)", timing: "06:00 – 07:30 AM", desc: "Deep passage analysis, skimming & scanning techniques for Tier 1.", hours: 1.5, link: "https://www.youtube.com/results?search_query=nimisha+bansal+the+hindu+editorial+today" },
-                    { id: "d3_eng_2", title: "4-Day Master Vocab Review", timing: "07:30 – 08:00 AM", desc: "Revise all 80+ words compiled across the 4 holiday days.", hours: 0.5 },
-                    { id: "d3_eng_3", title: "Cloze Test & Parajumble Rapid Drill", timing: "08:00 – 08:30 AM", desc: "Solve 5 Cloze Tests and 10 Parajumbles.", hours: 0.5, link: "index.html#english" }
+                    { id: "d3_eng_1", title: "Watch Today's The Hindu Editorial by Nimisha Bansal (Yes Officer)", timing: "05:30 – 07:00 AM", desc: "Deep passage analysis, skimming & scanning techniques for Tier 1.", hours: 1.5, link: "https://www.youtube.com/results?search_query=nimisha+bansal+the+hindu+editorial+today" },
+                    { id: "d3_eng_2", title: "4-Day Master Vocab Review", timing: "07:00 – 07:30 AM", desc: "Revise all 80+ words compiled across the 4 holiday days.", hours: 0.5 },
+                    { id: "d3_eng_3", title: "Cloze Test & Parajumble Rapid Drill", timing: "07:30 – 08:00 AM", desc: "Solve 5 Cloze Tests and 10 Parajumbles.", hours: 0.5, link: "index.html#english" }
                 ],
-                afterBreak: "☕ 08:30 AM – 09:00 AM: Breakfast & Refreshment Break (30 mins)"
+                afterBreak: { type: "break", text: "🍳 08:00 AM – 09:00 AM: Breakfast Break (1 Hour Full Rest)" }
             },
             {
                 id: "m1_d3",
@@ -861,69 +899,68 @@ const BOOTCAMP_DAYS = [
                 hours: 2.0,
                 tasks: [
                     { id: "d3_m1_1", title: "Solve all 75 Questions in Math Part-2", timing: "09:00 – 11:00 AM", desc: "Authentic shift questions (1–12 Oct). Verify against official answer key.", hours: 2.0, link: "math_part2.html" }
-                ],
-                afterBreak: "🧘 11:00 AM – 11:15 AM: Water & Eye Rest Break (15 mins)"
+                ]
             },
             {
                 id: "m2_d3",
                 title: "Maths Slot 2 — Sets 19 & 20 + Complete Missed Qs",
                 icon: "📊",
-                timing: "11:15 AM – 01:15 PM",
+                timing: "11:00 AM – 01:00 PM",
                 hours: 2.0,
                 tasks: [
-                    { id: "d3_m2_1", title: "Solve Practice Sets 19 & 20 (50 Qs)", timing: "11:15 AM – 12:15 PM", desc: "State GDP and University enrollment tables + composite solids.", hours: 1.0, link: "practice_sets.html" },
-                    { id: "d3_m2_2", title: "Re-attempt All Previously Missed Questions", timing: "12:15 – 01:15 PM", desc: "Zero doubts remaining across all 20 practice sets.", hours: 1.0 }
+                    { id: "d3_m2_1", title: "Solve Practice Sets 19 & 20 (50 Qs)", timing: "11:00 AM – 12:00 PM", desc: "State GDP and University enrollment tables + composite solids.", hours: 1.0, link: "practice_sets.html" },
+                    { id: "d3_m2_2", title: "Re-attempt All Previously Missed Questions", timing: "12:00 – 01:00 PM", desc: "Zero doubts remaining across all 20 practice sets.", hours: 1.0 }
                 ],
-                afterBreak: "🍱 01:15 PM – 02:30 PM: Lunch & Rest / Power Nap Break (1 hr 15 mins)"
+                afterBreak: { type: "break", text: "🍱 01:00 PM – 02:00 PM: Lunch Break (1 Hour Full Rest)" },
+                afterNap: { type: "nap", text: "😴 02:00 PM – 03:30 PM: Afternoon Deep Nap (1 Hour 30 Mins — Complete Brain Reboot)" }
             },
             {
                 id: "m3_d3",
                 title: "Maths Slot 3 — The Final 4-Mock CBT Benchmark",
                 icon: "⏱️",
-                timing: "02:30 PM – 04:30 PM",
+                timing: "03:30 PM – 05:30 PM",
                 hours: 2.0,
                 hasScoreLogger: true,
                 tasks: [
-                    { id: "d3_m3_1", title: "Benchmark Mock 1: Set 13 (15-Min Timer)", timing: "02:30 – 03:00 PM", desc: "Target: Score >= 44.0.", hours: 0.5, link: "mock_test.html" },
-                    { id: "d3_m3_2", title: "Benchmark Mock 2: Set 15 (15-Min Timer)", timing: "03:00 – 03:30 PM", desc: "Target: Time <= 13:30.", hours: 0.5, link: "mock_test.html" },
-                    { id: "d3_m3_3", title: "Benchmark Mock 3: Set 19 (15-Min Timer)", timing: "03:30 – 04:00 PM", desc: "Target: 100% accuracy on Arithmetic.", hours: 0.5, link: "mock_test.html" },
-                    { id: "d3_m3_4", title: "Benchmark Mock 4: Set 20 (15-Min Timer)", timing: "04:00 – 04:30 PM", desc: "Final Exam Simulation. Target: 46+ / 50.", hours: 0.5, link: "mock_test.html" }
-                ],
-                afterBreak: "🚶 04:30 PM – 05:00 PM: Evening Walk & Tea Break (30 mins)"
+                    { id: "d3_m3_1", title: "Benchmark Mock 1: Set 13 (15-Min Timer)", timing: "03:30 – 04:00 PM", desc: "Target: Score >= 44.0.", hours: 0.5, link: "mock_test.html" },
+                    { id: "d3_m3_2", title: "Benchmark Mock 2: Set 15 (15-Min Timer)", timing: "04:00 – 04:30 PM", desc: "Target: Time <= 13:30.", hours: 0.5, link: "mock_test.html" },
+                    { id: "d3_m3_3", title: "Benchmark Mock 3: Set 19 (15-Min Timer)", timing: "04:30 – 05:00 PM", desc: "Target: 100% accuracy on Arithmetic.", hours: 0.5, link: "mock_test.html" },
+                    { id: "d3_m3_4", title: "Benchmark Mock 4: Set 20 (15-Min Timer)", timing: "05:00 – 05:30 PM", desc: "Final Exam Simulation. Target: 46+ / 50.", hours: 0.5, link: "mock_test.html" }
+                ]
             },
             {
                 id: "reas_d3",
                 title: "Reasoning — 25-Q Sectional Speed Drill",
                 icon: "🧩",
-                timing: "05:00 PM – 06:15 PM",
+                timing: "05:30 PM – 06:45 PM",
                 hours: 1.25,
                 tasks: [
-                    { id: "d3_reas_1", title: "Final Reasoning Speed Mock (25 Qs in 12 mins)", timing: "05:00 – 06:15 PM", desc: "Lock in full 50/50 marks in Reasoning section.", hours: 1.25, link: "reasoning_cheat_sheet.html" }
-                ],
-                afterBreak: "🍎 06:15 PM – 06:30 PM: Quick Stretch Break (15 mins)"
+                    { id: "d3_reas_1", title: "Final Reasoning Speed Mock (25 Qs in 12 mins)", timing: "05:30 – 06:45 PM", desc: "Lock in full 50/50 marks in Reasoning section.", hours: 1.25, link: "reasoning_cheat_sheet.html" }
+                ]
             },
             {
                 id: "m4_d3",
                 title: "Maths Slot 4 — Formula Consolidation & Final Seal",
                 icon: "⚡",
-                timing: "06:30 PM – 08:15 PM",
+                timing: "06:45 PM – 08:30 PM",
                 hours: 1.75,
                 tasks: [
-                    { id: "d3_m4_1", title: "Full Formula Flashcard Review", timing: "06:30 – 07:15 PM", desc: "Quick 45-min mental run of all Geometry, Mensuration, and Algebra formulas.", hours: 0.75, link: "mensuration.html" },
-                    { id: "d3_m4_2", title: "Review Total Bootcamp Score Sheet", timing: "07:15 – 08:15 PM", desc: "Celebrate finishing all 707 questions and 14 full Eduquity CBT mocks!", hours: 1.0 }
+                    { id: "d3_m4_1", title: "Full Formula Flashcard Review", timing: "06:45 – 07:30 PM", desc: "Quick 45-min mental run of all Geometry, Mensuration, and Algebra formulas.", hours: 0.75, link: "mensuration.html" },
+                    { id: "d3_m4_2", title: "Review Total Bootcamp Score Sheet", timing: "07:30 – 08:30 PM", desc: "Celebrate finishing all 707 questions and 14 full Eduquity CBT mocks!", hours: 1.0 }
                 ],
-                afterBreak: "🍽️ 08:15 PM – 09:00 PM: Dinner Break (45 mins)"
+                afterBreak: { type: "break", text: "🍽️ 08:30 PM – 09:30 PM: Dinner Break (1 Hour Full Rest)" }
             },
             {
                 id: "gs_d3",
                 title: "GS / GK — Parmar SSC Video & Notes Revision",
                 icon: "🏛️",
-                timing: "09:00 PM – 11:30 PM",
+                timing: "09:30 PM – 12:00 AM",
                 hours: 2.5,
                 tasks: [
-                    { id: "d3_gs_1", title: "Parmar Most Expected PYQ Mega Revision", timing: "09:00 – 10:30 PM", desc: "Rapid recall of high-yield facts across History, Polity, Geography.", hours: 1.5, link: "tracker.html" },
-                    { id: "d3_gs_2", title: "Final GK Mock in App", timing: "10:30 – 11:30 PM", desc: "50 mixed questions revision.", hours: 1.0, link: "index.html#gs" }
-                ]
+                    { id: "d3_gs_1", title: "Parmar Most Expected PYQ Mega Revision", timing: "09:30 – 11:00 PM", desc: "Rapid recall of high-yield facts across History, Polity, Geography.", hours: 1.5, link: "tracker.html" },
+                    { id: "d3_gs_2", title: "Final GK Mock in App", timing: "11:00 – 12:00 AM", desc: "50 mixed questions revision.", hours: 1.0, link: "index.html#gs" }
+                ],
+                afterSleep: { type: "sleep", text: "🌙 12:00 AM – 05:30 AM: Night Sleep (5 Hours 30 Mins — Wake up refreshed at 05:30 AM!)" }
             }
         ]
     }
@@ -1041,11 +1078,31 @@ function renderDay() {
         `;
         container.appendChild(card);
 
+        // Render Scheduled Break
         if (block.afterBreak) {
             const breakEl = document.createElement('div');
             breakEl.className = 'break-card';
-            breakEl.innerHTML = `<span>⏳</span><span><b>Scheduled Break:</b> ${block.afterBreak}</span>`;
+            breakEl.innerHTML = `<span>⏳</span><span><b>Scheduled Break:</b> ${block.afterBreak.text}</span>`;
             container.appendChild(breakEl);
+        }
+
+        // Render Scheduled Afternoon Nap
+        if (block.afterNap) {
+            const napEl = document.createElement('div');
+            napEl.className = 'break-card nap';
+            napEl.innerHTML = `<span>😴</span><span><b>Recharge Nap:</b> ${block.afterNap.text}</span>`;
+            container.appendChild(napEl);
+        }
+
+        // Render Night Sleep Notice
+        if (block.afterSleep) {
+            const sleepEl = document.createElement('div');
+            sleepEl.className = 'break-card nap';
+            sleepEl.style.background = 'rgba(56, 189, 248, 0.1)';
+            sleepEl.style.borderColor = 'rgba(56, 189, 248, 0.4)';
+            sleepEl.style.color = '#BAE6FD';
+            sleepEl.innerHTML = `<span>🌙</span><span><b>Night Sleep:</b> ${block.afterSleep.text}</span>`;
+            container.appendChild(sleepEl);
         }
     });
 
