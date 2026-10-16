@@ -5426,16 +5426,16 @@
         "id": 20,
         "category": "Advanced Maths",
         "topic": "Mensuration 3D",
-        "question": "A solid right circular cone has a base radius of 6 cm and a vertical height of 8 cm. Find its Total Surface Area (TSA). (Take π = 3.14)",
+        "question": "A solid is formed by a cylinder topped with a hemisphere. The common radius is 7 cm and the total height of the solid (cylinder height + radius) is 20 cm. Find the total surface area of the solid. (Take π = 3.14)",
         "options": [
-          "301.44 cm²",
-          "188.4 cm²",
-          "113.04 cm²",
-          "326.44 cm²"
+          "1033.62 cm²",
+          "945.14 cm²",
+          "1010.4 cm²",
+          "879.6 cm²"
         ],
         "correct": 0,
-        "solution": "Slant height l = √(r² + h²) = √(6² + 8²) = 10 cm.<br>TSA = πr(l + r) = 3.14 × 6 × (10 + 6) = 3.14 × 6 × 16 = <b>301.44 cm²</b>.",
-        "shortcut": "⚡ <b>Triplet:</b> (6, 8, 10) ⟹ TSA = 3.14 × 6 × (16) = <b>301.44 cm²</b>."
+        "solution": "Cylinder height h = 20 − 7 = 13 cm.<br>CSA cylinder = 2πrh = 2 × 3.14 × 7 × 13 = <b>572.04 cm²</b><br>Base area = πr² = 3.14 × 49 = <b>153.86 cm²</b><br>Hemisphere CSA = 2πr² = 2 × 3.14 × 49 = <b>307.72 cm²</b><br>TSA = 572.04 + 153.86 + 307.72 = <b>1033.62 cm²</b>.",
+        "shortcut": "⚡ TSA = πr(2h + 3r) = 3.14 × 7 × (26+21) = 3.14 × 7 × 47 = <b>1033.62 cm²</b>."
       },
       {
         "id": 21,
@@ -5456,46 +5456,53 @@
         "id": 22,
         "category": "Data Interpretation",
         "topic": "DI: Pie Chart",
-        "question": "<b>[Monthly Budget Allocation of a Family (Total Monthly Income = ₹60,000)]</b><br>What is the central angle representing the expenditure on Education?",
+        "question": "<b>[State-wise Wheat Production in India (in Thousand Tonnes)]</b><br>What is the total wheat production (in thousand tonnes) of all 4 states in the year 2024?",
         "options": [
-          "45°",
-          "54°",
-          "60°",
-          "72°"
+          "30,570",
+          "31,200",
+          "30,570",
+          "29,870"
         ],
-        "correct": 1,
-        "solution": "15% of 360° = 0.15 × 360° = 54°.",
-        "shortcut": "⚡ 10% = 36°, 5% = 18° ⟹ 36 + 18 = 54°.",
+        "correct": 0,
+        "solution": "9480 + 5680 + 10830 + 4580 = <b>30,570</b> thousand tonnes.",
+        "shortcut": "⚡ Add column 2024: 9480 + 5680 = 15160; 10830 + 4580 = 15410; Total = <b>30,570</b>.",
         "di_table": {
-          "title": "Monthly Budget Allocation of a Family (Total Monthly Income = ₹60,000)",
+          "title": "State-wise Wheat Production in India (in Thousand Tonnes)",
           "headers": [
-            "Expense Head",
-            "Percentage (%)"
+            "State",
+            "2021",
+            "2022",
+            "2023",
+            "2024"
           ],
           "rows": [
             [
-              "Food",
-              25
+              "Punjab",
+              8540,
+              9120,
+              8760,
+              9480
             ],
             [
-              "Rent",
-              20
+              "Haryana",
+              4850,
+              5240,
+              5110,
+              5680
             ],
             [
-              "Education",
-              15
+              "UP",
+              9860,
+              10450,
+              9920,
+              10830
             ],
             [
-              "Savings",
-              20
-            ],
-            [
-              "Transport",
-              10
-            ],
-            [
-              "Others",
-              10
+              "MP",
+              3720,
+              4190,
+              4060,
+              4580
             ]
           ]
         }
@@ -5504,46 +5511,53 @@
         "id": 23,
         "category": "Data Interpretation",
         "topic": "DI: Pie Chart",
-        "question": "<b>[Monthly Budget Allocation of a Family (Total Monthly Income = ₹60,000)]</b><br>How much more money is allocated to Food than to Transport?",
+        "question": "<b>[State-wise Wheat Production in India (in Thousand Tonnes)]</b><br>By how many thousand tonnes did Punjab's production increase from 2021 to 2024?",
         "options": [
-          "₹6,000",
-          "₹7,500",
-          "₹9,000",
-          "₹10,500"
+          "940",
+          "920",
+          "940",
+          "960"
         ],
-        "correct": 2,
-        "solution": "Difference = 25% − 10% = 15%. 15% of ₹60,000 = ₹9,000.",
-        "shortcut": "⚡ 15% × 60,000 = ₹9,000.",
+        "correct": 0,
+        "solution": "9480 − 8540 = <b>940</b> thousand tonnes.",
+        "shortcut": "⚡ 9480 − 8540 = <b>940</b>.",
         "di_table": {
-          "title": "Monthly Budget Allocation of a Family (Total Monthly Income = ₹60,000)",
+          "title": "State-wise Wheat Production in India (in Thousand Tonnes)",
           "headers": [
-            "Expense Head",
-            "Percentage (%)"
+            "State",
+            "2021",
+            "2022",
+            "2023",
+            "2024"
           ],
           "rows": [
             [
-              "Food",
-              25
+              "Punjab",
+              8540,
+              9120,
+              8760,
+              9480
             ],
             [
-              "Rent",
-              20
+              "Haryana",
+              4850,
+              5240,
+              5110,
+              5680
             ],
             [
-              "Education",
-              15
+              "UP",
+              9860,
+              10450,
+              9920,
+              10830
             ],
             [
-              "Savings",
-              20
-            ],
-            [
-              "Transport",
-              10
-            ],
-            [
-              "Others",
-              10
+              "MP",
+              3720,
+              4190,
+              4060,
+              4580
             ]
           ]
         }
@@ -5552,46 +5566,53 @@
         "id": 24,
         "category": "Data Interpretation",
         "topic": "DI: Pie Chart",
-        "question": "<b>[Monthly Budget Allocation of a Family (Total Monthly Income = ₹60,000)]</b><br>Find the ratio of expenditure on (Food + Rent) to (Savings + Education).",
+        "question": "<b>[State-wise Wheat Production in India (in Thousand Tonnes)]</b><br>In 2023, which state produced the highest wheat?",
         "options": [
-          "9 : 7",
-          "45 : 35",
-          "9 : 8",
-          "1 : 1"
+          "Punjab",
+          "UP",
+          "Haryana",
+          "MP"
         ],
-        "correct": 0,
-        "solution": "Food + Rent = 25 + 20 = 45%. Savings + Education = 20 + 15 = 35%. Ratio = 45 : 35 = 9 : 7.",
-        "shortcut": "⚡ 45/35 = 9:7.",
+        "correct": 1,
+        "solution": "2023 figures — Punjab: 8760, Haryana: 5110, UP: 9920, MP: 4060. Highest is <b>UP (9,920)</b>.",
+        "shortcut": "⚡ UP (9920) > Punjab (8760) > Haryana (5110) > MP (4060). Answer: <b>UP</b>.",
         "di_table": {
-          "title": "Monthly Budget Allocation of a Family (Total Monthly Income = ₹60,000)",
+          "title": "State-wise Wheat Production in India (in Thousand Tonnes)",
           "headers": [
-            "Expense Head",
-            "Percentage (%)"
+            "State",
+            "2021",
+            "2022",
+            "2023",
+            "2024"
           ],
           "rows": [
             [
-              "Food",
-              25
+              "Punjab",
+              8540,
+              9120,
+              8760,
+              9480
             ],
             [
-              "Rent",
-              20
+              "Haryana",
+              4850,
+              5240,
+              5110,
+              5680
             ],
             [
-              "Education",
-              15
+              "UP",
+              9860,
+              10450,
+              9920,
+              10830
             ],
             [
-              "Savings",
-              20
-            ],
-            [
-              "Transport",
-              10
-            ],
-            [
-              "Others",
-              10
+              "MP",
+              3720,
+              4190,
+              4060,
+              4580
             ]
           ]
         }
@@ -5600,46 +5621,53 @@
         "id": 25,
         "category": "Data Interpretation",
         "topic": "DI: Pie Chart",
-        "question": "<b>[Monthly Budget Allocation of a Family (Total Monthly Income = ₹60,000)]</b><br>If monthly income increases by 20% and Savings remain at 20%, what is the new monthly savings?",
+        "question": "<b>[State-wise Wheat Production in India (in Thousand Tonnes)]</b><br>What is the approximate percentage increase in Haryana's production from 2022 to 2024?",
         "options": [
-          "₹12,000",
-          "₹14,400",
-          "₹15,000",
-          "₹16,000"
+          "7.6%",
+          "8.4%",
+          "8.4%",
+          "9.2%"
         ],
         "correct": 1,
-        "solution": "New Income = 60000 × 1.2 = ₹72,000. New Savings = 20% of 72,000 = ₹14,400.",
-        "shortcut": "⚡ 12,000 × 1.2 = ₹14,400.",
+        "solution": "Increase = 5680 − 5240 = 440. % increase = (440 / 5240) × 100 = <b>8.4%</b> (approx).",
+        "shortcut": "⚡ 440/5240 ≈ 440/5250 ≈ 0.084 = <b>8.4%</b>.",
         "di_table": {
-          "title": "Monthly Budget Allocation of a Family (Total Monthly Income = ₹60,000)",
+          "title": "State-wise Wheat Production in India (in Thousand Tonnes)",
           "headers": [
-            "Expense Head",
-            "Percentage (%)"
+            "State",
+            "2021",
+            "2022",
+            "2023",
+            "2024"
           ],
           "rows": [
             [
-              "Food",
-              25
+              "Punjab",
+              8540,
+              9120,
+              8760,
+              9480
             ],
             [
-              "Rent",
-              20
+              "Haryana",
+              4850,
+              5240,
+              5110,
+              5680
             ],
             [
-              "Education",
-              15
+              "UP",
+              9860,
+              10450,
+              9920,
+              10830
             ],
             [
-              "Savings",
-              20
-            ],
-            [
-              "Transport",
-              10
-            ],
-            [
-              "Others",
-              10
+              "MP",
+              3720,
+              4190,
+              4060,
+              4580
             ]
           ]
         }
@@ -5939,16 +5967,16 @@
         "id": 20,
         "category": "Advanced Maths",
         "topic": "Mensuration 3D",
-        "question": "A solid right circular cone has a base radius of 5 cm and a vertical height of 12 cm. Find its Total Surface Area (TSA). (Take π = 3.14)",
+        "question": "A frustum (truncated cone) has a larger radius of 9 cm, smaller radius of 4 cm, and slant height of 13 cm. Find the total surface area of the frustum. (Take π = 3.14)",
         "options": [
-          "282.6 cm²",
-          "204.1 cm²",
-          "78.5 cm²",
-          "307.6 cm²"
+          "835.24 cm²",
+          "898.62 cm²",
+          "810.24 cm²",
+          "860.24 cm²"
         ],
         "correct": 0,
-        "solution": "Slant height l = √(r² + h²) = √(5² + 12²) = 13 cm.<br>TSA = πr(l + r) = 3.14 × 5 × (13 + 5) = 3.14 × 5 × 18 = <b>282.6 cm²</b>.",
-        "shortcut": "⚡ <b>Triplet:</b> (5, 12, 13) ⟹ TSA = 3.14 × 5 × (18) = <b>282.6 cm²</b>."
+        "solution": "TSA = π[(r₁+r₂)l + r₁² + r₂²] = 3.14 × [(13×13) + 81 + 16] = 3.14 × [169+81+16] = 3.14 × 266 = <b>835.24 cm²</b>.",
+        "shortcut": "⚡ Frustum TSA formula: π[(R+r)l + R² + r²]. Plug in: 3.14 × [169+81+16] = 3.14 × 266 = <b>835.24 cm²</b>."
       },
       {
         "id": 21,
@@ -5969,48 +5997,60 @@
         "id": 22,
         "category": "Data Interpretation",
         "topic": "DI: Line Graph",
-        "question": "<b>[Company X Annual Revenue and Expenditure (in ₹ Crore)]</b><br>In which year was the profit (Revenue − Expenditure) the highest?",
+        "question": "<b>[SSC CGL Aspirants Enrolled (2020–2023)]</b><br>What is the total number of aspirants enrolled across all 5 institutes in 2023?",
         "options": [
-          "2021",
-          "2022",
-          "2023",
-          "2024"
+          "16,920",
+          "17,120",
+          "16,120",
+          "15,920"
         ],
-        "correct": 3,
-        "solution": "2020: 12, 2021: 15, 2022: 15, 2023: 18, 2024: 72 − 48 = 24. Highest is 2024.",
-        "shortcut": "⚡ 72 − 48 = 24 is the maximum gap.",
+        "correct": 0,
+        "solution": "3780 + 2940 + 4650 + 2340 + 3210 = <b>16,920</b>.",
+        "shortcut": "⚡ Add 2023 col: (3780+2940)=6720; (4650+2340)=6990; +3210 = <b>16,920</b>.",
         "di_table": {
-          "title": "Company X Annual Revenue and Expenditure (in ₹ Crore)",
+          "title": "Number of SSC CGL Aspirants Enrolled in 5 Coaching Institutes (2020–2023)",
           "headers": [
-            "Year",
-            "Revenue",
-            "Expenditure"
+            "Institute",
+            "2020",
+            "2021",
+            "2022",
+            "2023"
           ],
           "rows": [
             [
-              "2020",
-              40,
-              28
+              "Alpha",
+              2840,
+              3120,
+              3450,
+              3780
             ],
             [
-              "2021",
-              50,
-              35
+              "Beta",
+              1950,
+              2260,
+              2580,
+              2940
             ],
             [
-              "2022",
-              45,
-              30
+              "Gamma",
+              3560,
+              3890,
+              4210,
+              4650
             ],
             [
-              "2023",
-              60,
-              42
+              "Delta",
+              1480,
+              1720,
+              1990,
+              2340
             ],
             [
-              "2024",
-              72,
-              48
+              "Omega",
+              2150,
+              2480,
+              2870,
+              3210
             ]
           ]
         }
@@ -6019,48 +6059,60 @@
         "id": 23,
         "category": "Data Interpretation",
         "topic": "DI: Line Graph",
-        "question": "<b>[Company X Annual Revenue and Expenditure (in ₹ Crore)]</b><br>What is the percentage increase in Revenue from 2022 to 2024?",
+        "question": "<b>[SSC CGL Aspirants Enrolled (2020–2023)]</b><br>Which institute showed the highest absolute growth from 2020 to 2023?",
         "options": [
-          "50%",
-          "55%",
-          "60%",
-          "65%"
+          "Alpha",
+          "Beta",
+          "Gamma",
+          "Delta"
         ],
         "correct": 2,
-        "solution": "Increase = 72 − 45 = 27. Percentage = (27 / 45) × 100 = 60%.",
-        "shortcut": "⚡ 27/45 = 3/5 = 60%.",
+        "solution": "Alpha: 3780−2840=940. Beta: 2940−1950=990. Gamma: 4650−3560=<b>1090</b>. Delta: 2340−1480=860. Gamma highest.",
+        "shortcut": "⚡ Gamma = 4650 − 3560 = 1090. Compare all differences — <b>Gamma wins</b>.",
         "di_table": {
-          "title": "Company X Annual Revenue and Expenditure (in ₹ Crore)",
+          "title": "Number of SSC CGL Aspirants Enrolled in 5 Coaching Institutes (2020–2023)",
           "headers": [
-            "Year",
-            "Revenue",
-            "Expenditure"
+            "Institute",
+            "2020",
+            "2021",
+            "2022",
+            "2023"
           ],
           "rows": [
             [
-              "2020",
-              40,
-              28
+              "Alpha",
+              2840,
+              3120,
+              3450,
+              3780
             ],
             [
-              "2021",
-              50,
-              35
+              "Beta",
+              1950,
+              2260,
+              2580,
+              2940
             ],
             [
-              "2022",
-              45,
-              30
+              "Gamma",
+              3560,
+              3890,
+              4210,
+              4650
             ],
             [
-              "2023",
-              60,
-              42
+              "Delta",
+              1480,
+              1720,
+              1990,
+              2340
             ],
             [
-              "2024",
-              72,
-              48
+              "Omega",
+              2150,
+              2480,
+              2870,
+              3210
             ]
           ]
         }
@@ -6069,48 +6121,60 @@
         "id": 24,
         "category": "Data Interpretation",
         "topic": "DI: Line Graph",
-        "question": "<b>[Company X Annual Revenue and Expenditure (in ₹ Crore)]</b><br>What was the average expenditure per year over the 5 years?",
+        "question": "<b>[SSC CGL Aspirants Enrolled (2020–2023)]</b><br>What is the average enrollment of Beta Institute over 2020–2023?",
         "options": [
-          "₹35.6 Cr",
-          "₹36.6 Cr",
-          "₹37.2 Cr",
-          "₹38.0 Cr"
+          "2,432.5",
+          "2,532.5",
+          "2,332.5",
+          "2,382.5"
         ],
-        "correct": 1,
-        "solution": "Sum = 28 + 35 + 30 + 42 + 48 = 183. Average = 183 / 5 = ₹36.6 Crore.",
-        "shortcut": "⚡ 183 / 5 = 36.6.",
+        "correct": 0,
+        "solution": "(1950 + 2260 + 2580 + 2940) / 4 = 9730 / 4 = <b>2,432.5</b>.",
+        "shortcut": "⚡ 9730 ÷ 4 = <b>2432.5</b>.",
         "di_table": {
-          "title": "Company X Annual Revenue and Expenditure (in ₹ Crore)",
+          "title": "Number of SSC CGL Aspirants Enrolled in 5 Coaching Institutes (2020–2023)",
           "headers": [
-            "Year",
-            "Revenue",
-            "Expenditure"
+            "Institute",
+            "2020",
+            "2021",
+            "2022",
+            "2023"
           ],
           "rows": [
             [
-              "2020",
-              40,
-              28
+              "Alpha",
+              2840,
+              3120,
+              3450,
+              3780
             ],
             [
-              "2021",
-              50,
-              35
+              "Beta",
+              1950,
+              2260,
+              2580,
+              2940
             ],
             [
-              "2022",
-              45,
-              30
+              "Gamma",
+              3560,
+              3890,
+              4210,
+              4650
             ],
             [
-              "2023",
-              60,
-              42
+              "Delta",
+              1480,
+              1720,
+              1990,
+              2340
             ],
             [
-              "2024",
-              72,
-              48
+              "Omega",
+              2150,
+              2480,
+              2870,
+              3210
             ]
           ]
         }
@@ -6119,48 +6183,60 @@
         "id": 25,
         "category": "Data Interpretation",
         "topic": "DI: Line Graph",
-        "question": "<b>[Company X Annual Revenue and Expenditure (in ₹ Crore)]</b><br>In 2023, profit was what percentage of expenditure?",
+        "question": "<b>[SSC CGL Aspirants Enrolled (2020–2023)]</b><br>By what percentage did Omega's enrollment grow from 2020 to 2022?",
         "options": [
-          "38.5%",
-          "40.0%",
-          "42.86%",
-          "45.0%"
+          "32.6%",
+          "33.5%",
+          "31.8%",
+          "34.2%"
         ],
-        "correct": 2,
-        "solution": "Profit in 2023 = 60 − 42 = 18. Percentage = (18 / 42) × 100 = (3/7) × 100 ≈ 42.86%.",
-        "shortcut": "⚡ 3/7 = 42.86%.",
+        "correct": 0,
+        "solution": "Growth = 2870 − 2150 = 720. % = (720/2150) × 100 ≈ <b>33.49% ≈ 33.5%</b>.",
+        "shortcut": "⚡ 720/2150 ≈ 720/2100 ≈ 0.343 ≈ 33.5%. Check options → <b>33.5%</b>.",
         "di_table": {
-          "title": "Company X Annual Revenue and Expenditure (in ₹ Crore)",
+          "title": "Number of SSC CGL Aspirants Enrolled in 5 Coaching Institutes (2020–2023)",
           "headers": [
-            "Year",
-            "Revenue",
-            "Expenditure"
+            "Institute",
+            "2020",
+            "2021",
+            "2022",
+            "2023"
           ],
           "rows": [
             [
-              "2020",
-              40,
-              28
+              "Alpha",
+              2840,
+              3120,
+              3450,
+              3780
             ],
             [
-              "2021",
-              50,
-              35
+              "Beta",
+              1950,
+              2260,
+              2580,
+              2940
             ],
             [
-              "2022",
-              45,
-              30
+              "Gamma",
+              3560,
+              3890,
+              4210,
+              4650
             ],
             [
-              "2023",
-              60,
-              42
+              "Delta",
+              1480,
+              1720,
+              1990,
+              2340
             ],
             [
-              "2024",
-              72,
-              48
+              "Omega",
+              2150,
+              2480,
+              2870,
+              3210
             ]
           ]
         }
@@ -6460,16 +6536,16 @@
         "id": 20,
         "category": "Advanced Maths",
         "topic": "Mensuration 3D",
-        "question": "A solid right circular cone has a base radius of 7 cm and a vertical height of 24 cm. Find its Total Surface Area (TSA). (Take π = 3.14)",
+        "question": "A metallic sphere of radius 12 cm is melted and recast into small cones, each with base radius 3 cm and height 4 cm. How many cones can be made?",
         "options": [
-          "703.36 cm²",
-          "549.5 cm²",
-          "153.86 cm²",
-          "728.36 cm²"
+          "192",
+          "144",
+          "96",
+          "64"
         ],
         "correct": 0,
-        "solution": "Slant height l = √(r² + h²) = √(7² + 24²) = 25 cm.<br>TSA = πr(l + r) = 3.14 × 7 × (25 + 7) = 3.14 × 7 × 32 = <b>703.36 cm²</b>.",
-        "shortcut": "⚡ <b>Triplet:</b> (7, 24, 25) ⟹ TSA = 3.14 × 7 × (32) = <b>703.36 cm²</b>."
+        "solution": "Volume sphere = (4/3)π × 12³ = (4/3) × π × 1728 = 2304π cm³.<br>Volume cone = (1/3)π × 3² × 4 = 12π cm³.<br>Number = 2304π ÷ 12π = <b>192 cones</b>.",
+        "shortcut": "⚡ (4/3)×12³ ÷ [(1/3)×9×4] = 2304 ÷ 12 = <b>192</b>."
       },
       {
         "id": 21,
@@ -6490,43 +6566,48 @@
         "id": 22,
         "category": "Data Interpretation",
         "topic": "DI: Table",
-        "question": "<b>[Monthly Sales and Returns of an E-commerce Seller (in units)]</b><br>Find total net sales (Sales − Returns) across all 4 months.",
+        "question": "<b>[E-Commerce Platform Orders, Cancellations & Returns]</b><br>What are the total Net Deliveries (Orders − Cancellations − Returns) across all 4 months?",
         "options": [
-          "2,100",
-          "2,105",
-          "2,055",
-          "2,000"
+          "53,180",
+          "54,380",
+          "52,180",
+          "55,180"
         ],
-        "correct": 2,
-        "solution": "Net sales = (500−50) + (600−30) + (450−45) + (700−70) = 450 + 570 + 405 + 630 = 2,055.",
-        "shortcut": "⚡ Total Sales = 2250, Total Returns = 195. Net = 2250 − 195 = 2,055.",
+        "correct": 0,
+        "solution": "Jan net: 14800−1480−740=12580. Feb: 12600−1050−630=10920. Mar: 16200−1620−810=13770. Apr: 18500−1665−925=15910. Sum = 12580+10920+13770+15910 = <b>53,180</b>.",
+        "shortcut": "⚡ Subtract both deductions per month, then sum all 4. Answer = <b>53,180</b>.",
         "di_table": {
-          "title": "Monthly Sales and Returns of an E-commerce Seller (in units)",
+          "title": "Monthly Orders, Cancellations & Returns of an E-Commerce Platform (in units)",
           "headers": [
             "Month",
-            "Sales",
+            "Orders",
+            "Cancellations",
             "Returns"
           ],
           "rows": [
             [
-              "July",
-              500,
-              50
+              "Jan",
+              14800,
+              1480,
+              740
             ],
             [
-              "August",
-              600,
-              30
+              "Feb",
+              12600,
+              1050,
+              630
             ],
             [
-              "September",
-              450,
-              45
+              "Mar",
+              16200,
+              1620,
+              810
             ],
             [
-              "October",
-              700,
-              70
+              "Apr",
+              18500,
+              1665,
+              925
             ]
           ]
         }
@@ -6535,43 +6616,48 @@
         "id": 23,
         "category": "Data Interpretation",
         "topic": "DI: Table",
-        "question": "<b>[Monthly Sales and Returns of an E-commerce Seller (in units)]</b><br>In which month was the return percentage highest?",
+        "question": "<b>[E-Commerce Platform Orders, Cancellations & Returns]</b><br>In which month was the cancellation rate (Cancellations ÷ Orders) the highest?",
         "options": [
-          "July",
-          "August",
-          "September",
-          "October"
+          "January (10%)",
+          "March (10%)",
+          "April (9%)",
+          "February (8.33%)"
         ],
         "correct": 0,
-        "solution": "July: 50/500 = 10%; Aug: 30/600 = 5%; Sep: 45/450 = 10%; Oct: 70/700 = 10%. July is the earliest month achieving 10%.",
-        "shortcut": "⚡ Aug is 5%. July, Sep, Oct are 10%. July is the first month reaching maximum 10%.",
+        "solution": "Jan: 1480/14800=10%. Feb: 1050/12600=8.33%. Mar: 1620/16200=10%. Apr: 1665/18500=9%. Jan & Mar both 10%, but Jan comes first → <b>January</b>.",
+        "shortcut": "⚡ Divide each: Jan & Mar = 10% (tied), Apr = 9%, Feb = 8.33%. First occurrence = <b>Jan</b>.",
         "di_table": {
-          "title": "Monthly Sales and Returns of an E-commerce Seller (in units)",
+          "title": "Monthly Orders, Cancellations & Returns of an E-Commerce Platform (in units)",
           "headers": [
             "Month",
-            "Sales",
+            "Orders",
+            "Cancellations",
             "Returns"
           ],
           "rows": [
             [
-              "July",
-              500,
-              50
+              "Jan",
+              14800,
+              1480,
+              740
             ],
             [
-              "August",
-              600,
-              30
+              "Feb",
+              12600,
+              1050,
+              630
             ],
             [
-              "September",
-              450,
-              45
+              "Mar",
+              16200,
+              1620,
+              810
             ],
             [
-              "October",
-              700,
-              70
+              "Apr",
+              18500,
+              1665,
+              925
             ]
           ]
         }
@@ -6580,43 +6666,48 @@
         "id": 24,
         "category": "Data Interpretation",
         "topic": "DI: Table",
-        "question": "<b>[Monthly Sales and Returns of an E-commerce Seller (in units)]</b><br>Find the average monthly sales across the 4 months.",
+        "question": "<b>[E-Commerce Platform Orders, Cancellations & Returns]</b><br>What is the total number of Orders placed across all 4 months?",
         "options": [
-          "562.5",
-          "600",
-          "550",
-          "575"
+          "62,100",
+          "62,800",
+          "61,100",
+          "63,000"
         ],
         "correct": 0,
-        "solution": "Sum = 500 + 600 + 450 + 700 = 2,250. Average = 2,250 / 4 = 562.5.",
-        "shortcut": "⚡ 2250 / 4 = 562.5.",
+        "solution": "14800 + 12600 + 16200 + 18500 = <b>62,100</b>.",
+        "shortcut": "⚡ 14800+12600=27400; 16200+18500=34700; Total = <b>62,100</b>.",
         "di_table": {
-          "title": "Monthly Sales and Returns of an E-commerce Seller (in units)",
+          "title": "Monthly Orders, Cancellations & Returns of an E-Commerce Platform (in units)",
           "headers": [
             "Month",
-            "Sales",
+            "Orders",
+            "Cancellations",
             "Returns"
           ],
           "rows": [
             [
-              "July",
-              500,
-              50
+              "Jan",
+              14800,
+              1480,
+              740
             ],
             [
-              "August",
-              600,
-              30
+              "Feb",
+              12600,
+              1050,
+              630
             ],
             [
-              "September",
-              450,
-              45
+              "Mar",
+              16200,
+              1620,
+              810
             ],
             [
-              "October",
-              700,
-              70
+              "Apr",
+              18500,
+              1665,
+              925
             ]
           ]
         }
@@ -6625,43 +6716,48 @@
         "id": 25,
         "category": "Data Interpretation",
         "topic": "DI: Table",
-        "question": "<b>[Monthly Sales and Returns of an E-commerce Seller (in units)]</b><br>October sales are what percentage more than July sales?",
+        "question": "<b>[E-Commerce Platform Orders, Cancellations & Returns]</b><br>Orders in April are what % more than orders in February?",
         "options": [
-          "30%",
-          "35%",
-          "40%",
-          "45%"
+          "46.8%",
+          "44.8%",
+          "42.9%",
+          "48.7%"
         ],
-        "correct": 2,
-        "solution": "Increase = 700 − 500 = 200. Percentage = (200 / 500) × 100 = 40%.",
-        "shortcut": "⚡ 200/500 = 2/5 = 40%.",
+        "correct": 0,
+        "solution": "Increase = 18500 − 12600 = 5900. % = (5900/12600) × 100 = <b>46.83% ≈ 46.8%</b>.",
+        "shortcut": "⚡ 5900/12600 ≈ 5900/12600. 59/126 ≈ 0.468 → <b>46.8%</b>.",
         "di_table": {
-          "title": "Monthly Sales and Returns of an E-commerce Seller (in units)",
+          "title": "Monthly Orders, Cancellations & Returns of an E-Commerce Platform (in units)",
           "headers": [
             "Month",
-            "Sales",
+            "Orders",
+            "Cancellations",
             "Returns"
           ],
           "rows": [
             [
-              "July",
-              500,
-              50
+              "Jan",
+              14800,
+              1480,
+              740
             ],
             [
-              "August",
-              600,
-              30
+              "Feb",
+              12600,
+              1050,
+              630
             ],
             [
-              "September",
-              450,
-              45
+              "Mar",
+              16200,
+              1620,
+              810
             ],
             [
-              "October",
-              700,
-              70
+              "Apr",
+              18500,
+              1665,
+              925
             ]
           ]
         }
@@ -6961,16 +7057,16 @@
         "id": 20,
         "category": "Advanced Maths",
         "topic": "Mensuration 3D",
-        "question": "A solid right circular cone has a base radius of 8 cm and a vertical height of 15 cm. Find its Total Surface Area (TSA). (Take π = 3.14)",
+        "question": "A hollow cylindrical pipe has outer diameter 14 cm, inner diameter 10 cm, and length 21 cm. Find the volume of metal used in the pipe. (Take π = 22/7)",
         "options": [
-          "628.0 cm²",
-          "427.04 cm²",
-          "200.96 cm²",
-          "653.0 cm²"
+          "1,584 cm³",
+          "1,848 cm³",
+          "1,248 cm³",
+          "1,980 cm³"
         ],
         "correct": 0,
-        "solution": "Slant height l = √(r² + h²) = √(8² + 15²) = 17 cm.<br>TSA = πr(l + r) = 3.14 × 8 × (17 + 8) = 3.14 × 8 × 25 = <b>628.0 cm²</b>.",
-        "shortcut": "⚡ <b>Triplet:</b> (8, 15, 17) ⟹ TSA = 3.14 × 8 × (25) = <b>628.0 cm²</b>."
+        "solution": "R=7, r=5. Volume = π(R²−r²)h = (22/7)(49−25)(21) = (22/7)(24)(21) = 22 × 72 = <b>1,584 cm³</b>.",
+        "shortcut": "⚡ (22/7) × 24 × 21 = 22 × 24 × 3 = 22 × 72 = <b>1,584 cm³</b>."
       },
       {
         "id": 21,
@@ -6991,48 +7087,53 @@
         "id": 22,
         "category": "Data Interpretation",
         "topic": "DI: Bar Graph",
-        "question": "<b>[Annual Production of Mobile Phones by 4 Companies (in thousands)]</b><br>Find the average production of Brand C over the three years.",
+        "question": "<b>[Export Earnings of 4 Industry Sectors (₹ Crore)]</b><br>What are the total export earnings of all 4 sectors in the year 2023?",
         "options": [
-          "160 thousand",
-          "166.67 thousand",
-          "170 thousand",
-          "175 thousand"
+          "₹28,050 Cr",
+          "₹27,050 Cr",
+          "₹29,050 Cr",
+          "₹26,050 Cr"
         ],
-        "correct": 1,
-        "solution": "(140 + 160 + 200) / 3 = 500 / 3 = 166.67 thousand.",
-        "shortcut": "⚡ (140+160+200)/3 = 500/3 = 166.67.",
+        "correct": 0,
+        "solution": "7980 + 5960 + 9520 + 4590 = <b>₹28,050 Cr</b>.",
+        "shortcut": "⚡ 7980+5960=13940; 9520+4590=14110; Total = <b>28,050</b>.",
         "di_table": {
-          "title": "Annual Production of Mobile Phones by 4 Companies (in thousands)",
+          "title": "Export Earnings of 4 Industry Sectors (₹ in Crore)",
           "headers": [
-            "Company",
+            "Sector",
+            "2021",
             "2022",
             "2023",
             "2024"
           ],
           "rows": [
             [
-              "Brand A",
-              120,
-              150,
-              180
+              "Textiles",
+              6840,
+              7350,
+              7980,
+              8640
             ],
             [
-              "Brand B",
-              90,
-              110,
-              130
+              "Chemicals",
+              4920,
+              5480,
+              5960,
+              6520
             ],
             [
-              "Brand C",
-              140,
-              160,
-              200
+              "Engineering",
+              8150,
+              8840,
+              9520,
+              10380
             ],
             [
-              "Brand D",
-              80,
-              120,
-              150
+              "Pharma",
+              3680,
+              4120,
+              4590,
+              5040
             ]
           ]
         }
@@ -7041,48 +7142,53 @@
         "id": 23,
         "category": "Data Interpretation",
         "topic": "DI: Bar Graph",
-        "question": "<b>[Annual Production of Mobile Phones by 4 Companies (in thousands)]</b><br>Which brand showed the highest percentage growth from 2022 to 2024?",
+        "question": "<b>[Export Earnings of 4 Industry Sectors (₹ Crore)]</b><br>Which sector had the highest % growth from 2021 to 2024?",
         "options": [
-          "Brand A",
-          "Brand B",
-          "Brand C",
-          "Brand D"
+          "Textiles",
+          "Chemicals",
+          "Engineering",
+          "Pharma"
         ],
         "correct": 3,
-        "solution": "Brand A: 60/120 = 50%. Brand B: 40/90 = 44.4%. Brand C: 60/140 = 42.8%. Brand D: 70/80 = 87.5%.",
-        "shortcut": "⚡ Brand D increased from 80 to 150 (+87.5%), which is by far the highest.",
+        "solution": "Textiles: (8640-6840)/6840=26.3%. Chemicals: (6520-4920)/4920=32.5%. Engg: (10380-8150)/8150=27.4%. Pharma: (5040-3680)/3680=<b>36.96%</b>. Highest = <b>Pharma</b>.",
+        "shortcut": "⚡ Pharma growth = 1360/3680 ≈ 37% (highest). <b>Pharma</b> wins.",
         "di_table": {
-          "title": "Annual Production of Mobile Phones by 4 Companies (in thousands)",
+          "title": "Export Earnings of 4 Industry Sectors (₹ in Crore)",
           "headers": [
-            "Company",
+            "Sector",
+            "2021",
             "2022",
             "2023",
             "2024"
           ],
           "rows": [
             [
-              "Brand A",
-              120,
-              150,
-              180
+              "Textiles",
+              6840,
+              7350,
+              7980,
+              8640
             ],
             [
-              "Brand B",
-              90,
-              110,
-              130
+              "Chemicals",
+              4920,
+              5480,
+              5960,
+              6520
             ],
             [
-              "Brand C",
-              140,
-              160,
-              200
+              "Engineering",
+              8150,
+              8840,
+              9520,
+              10380
             ],
             [
-              "Brand D",
-              80,
-              120,
-              150
+              "Pharma",
+              3680,
+              4120,
+              4590,
+              5040
             ]
           ]
         }
@@ -7091,48 +7197,53 @@
         "id": 24,
         "category": "Data Interpretation",
         "topic": "DI: Bar Graph",
-        "question": "<b>[Annual Production of Mobile Phones by 4 Companies (in thousands)]</b><br>What is the ratio of total production in 2022 to total production in 2024 for all four brands?",
+        "question": "<b>[Export Earnings of 4 Industry Sectors (₹ Crore)]</b><br>What is the ratio of Textiles to Engineering exports in 2024?",
         "options": [
-          "43 : 66",
-          "41 : 65",
-          "43 : 65",
-          "41 : 66"
+          "144 : 173",
+          "24 : 29",
+          "8 : 10",
+          "12 : 15"
         ],
         "correct": 0,
-        "solution": "2022 total = 120 + 90 + 140 + 80 = 430. 2024 total = 180 + 130 + 200 + 150 = 660. Ratio = 430 : 660 = 43 : 66.",
-        "shortcut": "⚡ 430/660 = 43:66.",
+        "solution": "8640 : 10380. Divide both by 60 → 144 : 173. GCD = 60. Answer = <b>144 : 173</b>.",
+        "shortcut": "⚡ 8640/60 = 144; 10380/60 = 173. Ratio = <b>144 : 173</b>.",
         "di_table": {
-          "title": "Annual Production of Mobile Phones by 4 Companies (in thousands)",
+          "title": "Export Earnings of 4 Industry Sectors (₹ in Crore)",
           "headers": [
-            "Company",
+            "Sector",
+            "2021",
             "2022",
             "2023",
             "2024"
           ],
           "rows": [
             [
-              "Brand A",
-              120,
-              150,
-              180
+              "Textiles",
+              6840,
+              7350,
+              7980,
+              8640
             ],
             [
-              "Brand B",
-              90,
-              110,
-              130
+              "Chemicals",
+              4920,
+              5480,
+              5960,
+              6520
             ],
             [
-              "Brand C",
-              140,
-              160,
-              200
+              "Engineering",
+              8150,
+              8840,
+              9520,
+              10380
             ],
             [
-              "Brand D",
-              80,
-              120,
-              150
+              "Pharma",
+              3680,
+              4120,
+              4590,
+              5040
             ]
           ]
         }
@@ -7141,48 +7252,53 @@
         "id": 25,
         "category": "Data Interpretation",
         "topic": "DI: Bar Graph",
-        "question": "<b>[Annual Production of Mobile Phones by 4 Companies (in thousands)]</b><br>In 2023, Brand B's production was what percentage of Brand A's production?",
+        "question": "<b>[Export Earnings of 4 Industry Sectors (₹ Crore)]</b><br>The average annual export earnings of the Chemicals sector over 2021–2024 is?",
         "options": [
-          "70%",
-          "73.33%",
-          "75%",
-          "80%"
+          "₹5,720 Cr",
+          "₹5,620 Cr",
+          "₹5,820 Cr",
+          "₹5,520 Cr"
         ],
-        "correct": 1,
-        "solution": "(110 / 150) × 100 = 1100 / 15 = 73.33%.",
-        "shortcut": "⚡ 11/15 = 73.33%.",
+        "correct": 0,
+        "solution": "(4920 + 5480 + 5960 + 6520) / 4 = 22880 / 4 = <b>₹5,720 Cr</b>.",
+        "shortcut": "⚡ Sum = 22880. ÷4 = <b>5720</b>.",
         "di_table": {
-          "title": "Annual Production of Mobile Phones by 4 Companies (in thousands)",
+          "title": "Export Earnings of 4 Industry Sectors (₹ in Crore)",
           "headers": [
-            "Company",
+            "Sector",
+            "2021",
             "2022",
             "2023",
             "2024"
           ],
           "rows": [
             [
-              "Brand A",
-              120,
-              150,
-              180
+              "Textiles",
+              6840,
+              7350,
+              7980,
+              8640
             ],
             [
-              "Brand B",
-              90,
-              110,
-              130
+              "Chemicals",
+              4920,
+              5480,
+              5960,
+              6520
             ],
             [
-              "Brand C",
-              140,
-              160,
-              200
+              "Engineering",
+              8150,
+              8840,
+              9520,
+              10380
             ],
             [
-              "Brand D",
-              80,
-              120,
-              150
+              "Pharma",
+              3680,
+              4120,
+              4590,
+              5040
             ]
           ]
         }
@@ -7482,16 +7598,16 @@
         "id": 20,
         "category": "Advanced Maths",
         "topic": "Mensuration 3D",
-        "question": "A solid right circular cone has a base radius of 9 cm and a vertical height of 12 cm. Find its Total Surface Area (TSA). (Take π = 3.14)",
+        "question": "A conical tent has base radius 8.4 m and vertical height 6.3 m. Find the curved surface area of the tent. (Take π = 3.14)",
         "options": [
-          "678.24 cm²",
-          "423.9 cm²",
-          "254.34 cm²",
-          "703.24 cm²"
+          "277.0 m²",
+          "265.8 m²",
+          "293.7 m²",
+          "312.4 m²"
         ],
         "correct": 0,
-        "solution": "Slant height l = √(r² + h²) = √(9² + 12²) = 15 cm.<br>TSA = πr(l + r) = 3.14 × 9 × (15 + 9) = 3.14 × 9 × 24 = <b>678.24 cm²</b>.",
-        "shortcut": "⚡ <b>Triplet:</b> (9, 12, 15) ⟹ TSA = 3.14 × 9 × (24) = <b>678.24 cm²</b>."
+        "solution": "l = √(8.4² + 6.3²) = √(70.56 + 39.69) = √110.25 = 10.5 m.<br>CSA = 3.14 × 8.4 × 10.5 = 3.14 × 88.2 = <b>277.0 m²</b>.",
+        "shortcut": "⚡ Note 8.4 = 1.4×6, 6.3 = 1.4×4.5. l = 1.4 × √(36+20.25)... Or directly: √110.25 = 10.5. CSA = 3.14 × 88.2 = <b>277.0 m²</b>."
       },
       {
         "id": 21,
@@ -7512,46 +7628,60 @@
         "id": 22,
         "category": "Data Interpretation",
         "topic": "DI: Pie Chart",
-        "question": "<b>[Monthly Budget Allocation of a Family (Total Monthly Income = ₹60,000)]</b><br>What is the central angle representing the expenditure on Education?",
+        "question": "<b>[IPL Runs Scored by 5 Batsmen (2021–2024)]</b><br>Who scored the most total runs across all 4 seasons?",
         "options": [
-          "45°",
-          "54°",
-          "60°",
-          "72°"
+          "Rohit",
+          "Kohli",
+          "Gill",
+          "Surya"
         ],
-        "correct": 1,
-        "solution": "15% of 360° = 0.15 × 360° = 54°.",
-        "shortcut": "⚡ 10% = 36°, 5% = 18° ⟹ 36 + 18 = 54°.",
+        "correct": 3,
+        "solution": "Rohit: 520+690+620+750=2580. Kohli: 480+530+710+680=2400. Gill: 350+490+580+790=2210. Surya: 440+620+730+840=<b>2630</b>. Surya wins.",
+        "shortcut": "⚡ Surya (2630) > Rohit (2580) > Kohli (2400) > Gill (2210) > Dhoni (1060). <b>Surya</b>.",
         "di_table": {
-          "title": "Monthly Budget Allocation of a Family (Total Monthly Income = ₹60,000)",
+          "title": "Runs Scored by 5 Batsmen in 4 IPL Seasons",
           "headers": [
-            "Expense Head",
-            "Percentage (%)"
+            "Batsman",
+            "2021",
+            "2022",
+            "2023",
+            "2024"
           ],
           "rows": [
             [
-              "Food",
-              25
+              "Rohit",
+              520,
+              690,
+              620,
+              750
             ],
             [
-              "Rent",
-              20
+              "Kohli",
+              480,
+              530,
+              710,
+              680
             ],
             [
-              "Education",
-              15
+              "Gill",
+              350,
+              490,
+              580,
+              790
             ],
             [
-              "Savings",
-              20
+              "Dhoni",
+              210,
+              280,
+              250,
+              320
             ],
             [
-              "Transport",
-              10
-            ],
-            [
-              "Others",
-              10
+              "Surya",
+              440,
+              620,
+              730,
+              840
             ]
           ]
         }
@@ -7560,46 +7690,60 @@
         "id": 23,
         "category": "Data Interpretation",
         "topic": "DI: Pie Chart",
-        "question": "<b>[Monthly Budget Allocation of a Family (Total Monthly Income = ₹60,000)]</b><br>How much more money is allocated to Food than to Transport?",
+        "question": "<b>[IPL Runs Scored by 5 Batsmen (2021–2024)]</b><br>What is the average runs scored by Gill per season over 2021–2024?",
         "options": [
-          "₹6,000",
-          "₹7,500",
-          "₹9,000",
-          "₹10,500"
+          "552.5",
+          "500.5",
+          "552.5",
+          "562.5"
         ],
-        "correct": 2,
-        "solution": "Difference = 25% − 10% = 15%. 15% of ₹60,000 = ₹9,000.",
-        "shortcut": "⚡ 15% × 60,000 = ₹9,000.",
+        "correct": 0,
+        "solution": "(350+490+580+790)/4 = 2210/4 = <b>552.5</b> runs.",
+        "shortcut": "⚡ 2210 ÷ 4 = <b>552.5</b>.",
         "di_table": {
-          "title": "Monthly Budget Allocation of a Family (Total Monthly Income = ₹60,000)",
+          "title": "Runs Scored by 5 Batsmen in 4 IPL Seasons",
           "headers": [
-            "Expense Head",
-            "Percentage (%)"
+            "Batsman",
+            "2021",
+            "2022",
+            "2023",
+            "2024"
           ],
           "rows": [
             [
-              "Food",
-              25
+              "Rohit",
+              520,
+              690,
+              620,
+              750
             ],
             [
-              "Rent",
-              20
+              "Kohli",
+              480,
+              530,
+              710,
+              680
             ],
             [
-              "Education",
-              15
+              "Gill",
+              350,
+              490,
+              580,
+              790
             ],
             [
-              "Savings",
-              20
+              "Dhoni",
+              210,
+              280,
+              250,
+              320
             ],
             [
-              "Transport",
-              10
-            ],
-            [
-              "Others",
-              10
+              "Surya",
+              440,
+              620,
+              730,
+              840
             ]
           ]
         }
@@ -7608,46 +7752,60 @@
         "id": 24,
         "category": "Data Interpretation",
         "topic": "DI: Pie Chart",
-        "question": "<b>[Monthly Budget Allocation of a Family (Total Monthly Income = ₹60,000)]</b><br>Find the ratio of expenditure on (Food + Rent) to (Savings + Education).",
+        "question": "<b>[IPL Runs Scored by 5 Batsmen (2021–2024)]</b><br>In 2024, by how many runs did Surya outscore Kohli?",
         "options": [
-          "9 : 7",
-          "45 : 35",
-          "9 : 8",
-          "1 : 1"
+          "160",
+          "150",
+          "170",
+          "140"
         ],
         "correct": 0,
-        "solution": "Food + Rent = 25 + 20 = 45%. Savings + Education = 20 + 15 = 35%. Ratio = 45 : 35 = 9 : 7.",
-        "shortcut": "⚡ 45/35 = 9:7.",
+        "solution": "Surya 2024 = 840, Kohli 2024 = 680. Difference = 840 − 680 = <b>160 runs</b>.",
+        "shortcut": "⚡ 840 − 680 = <b>160</b>.",
         "di_table": {
-          "title": "Monthly Budget Allocation of a Family (Total Monthly Income = ₹60,000)",
+          "title": "Runs Scored by 5 Batsmen in 4 IPL Seasons",
           "headers": [
-            "Expense Head",
-            "Percentage (%)"
+            "Batsman",
+            "2021",
+            "2022",
+            "2023",
+            "2024"
           ],
           "rows": [
             [
-              "Food",
-              25
+              "Rohit",
+              520,
+              690,
+              620,
+              750
             ],
             [
-              "Rent",
-              20
+              "Kohli",
+              480,
+              530,
+              710,
+              680
             ],
             [
-              "Education",
-              15
+              "Gill",
+              350,
+              490,
+              580,
+              790
             ],
             [
-              "Savings",
-              20
+              "Dhoni",
+              210,
+              280,
+              250,
+              320
             ],
             [
-              "Transport",
-              10
-            ],
-            [
-              "Others",
-              10
+              "Surya",
+              440,
+              620,
+              730,
+              840
             ]
           ]
         }
@@ -7656,46 +7814,60 @@
         "id": 25,
         "category": "Data Interpretation",
         "topic": "DI: Pie Chart",
-        "question": "<b>[Monthly Budget Allocation of a Family (Total Monthly Income = ₹60,000)]</b><br>If monthly income increases by 20% and Savings remain at 20%, what is the new monthly savings?",
+        "question": "<b>[IPL Runs Scored by 5 Batsmen (2021–2024)]</b><br>Kohli's runs in 2023 were what % more than his runs in 2021?",
         "options": [
-          "₹12,000",
-          "₹14,400",
-          "₹15,000",
-          "₹16,000"
+          "47.9%",
+          "45.5%",
+          "47.9%",
+          "50.2%"
         ],
-        "correct": 1,
-        "solution": "New Income = 60000 × 1.2 = ₹72,000. New Savings = 20% of 72,000 = ₹14,400.",
-        "shortcut": "⚡ 12,000 × 1.2 = ₹14,400.",
+        "correct": 0,
+        "solution": "Increase = 710 − 480 = 230. % = (230/480) × 100 = <b>47.9%</b> (approx).",
+        "shortcut": "⚡ 230/480 = 23/48 ≈ 0.479 → <b>47.9%</b>.",
         "di_table": {
-          "title": "Monthly Budget Allocation of a Family (Total Monthly Income = ₹60,000)",
+          "title": "Runs Scored by 5 Batsmen in 4 IPL Seasons",
           "headers": [
-            "Expense Head",
-            "Percentage (%)"
+            "Batsman",
+            "2021",
+            "2022",
+            "2023",
+            "2024"
           ],
           "rows": [
             [
-              "Food",
-              25
+              "Rohit",
+              520,
+              690,
+              620,
+              750
             ],
             [
-              "Rent",
-              20
+              "Kohli",
+              480,
+              530,
+              710,
+              680
             ],
             [
-              "Education",
-              15
+              "Gill",
+              350,
+              490,
+              580,
+              790
             ],
             [
-              "Savings",
-              20
+              "Dhoni",
+              210,
+              280,
+              250,
+              320
             ],
             [
-              "Transport",
-              10
-            ],
-            [
-              "Others",
-              10
+              "Surya",
+              440,
+              620,
+              730,
+              840
             ]
           ]
         }
@@ -7995,16 +8167,16 @@
         "id": 20,
         "category": "Advanced Maths",
         "topic": "Mensuration 3D",
-        "question": "A solid right circular cone has a base radius of 6 cm and a vertical height of 8 cm. Find its Total Surface Area (TSA). (Take π = 3.14)",
+        "question": "A cube has edge 12 cm. A cuboid has dimensions 18 cm × 8 cm × 9 cm. Find the ratio of volume of cube to volume of cuboid.",
         "options": [
-          "301.44 cm²",
-          "188.4 cm²",
-          "113.04 cm²",
-          "326.44 cm²"
+          "4 : 3",
+          "3 : 4",
+          "8 : 9",
+          "2 : 1"
         ],
         "correct": 0,
-        "solution": "Slant height l = √(r² + h²) = √(6² + 8²) = 10 cm.<br>TSA = πr(l + r) = 3.14 × 6 × (10 + 6) = 3.14 × 6 × 16 = <b>301.44 cm²</b>.",
-        "shortcut": "⚡ <b>Triplet:</b> (6, 8, 10) ⟹ TSA = 3.14 × 6 × (16) = <b>301.44 cm²</b>."
+        "solution": "Cube volume = 12³ = 1728 cm³. Cuboid = 18×8×9 = 1296 cm³. 1728:1296 = <b>4:3</b>.",
+        "shortcut": "⚡ 1728 ÷ 432 = 4; 1296 ÷ 432 = 3. Ratio = <b>4:3</b>."
       },
       {
         "id": 21,
@@ -8025,48 +8197,53 @@
         "id": 22,
         "category": "Data Interpretation",
         "topic": "DI: Line Graph",
-        "question": "<b>[Company X Annual Revenue and Expenditure (in ₹ Crore)]</b><br>In which year was the profit (Revenue − Expenditure) the highest?",
+        "question": "<b>[Railway Passenger Traffic at 4 Stations (in Thousands/Day)]</b><br>What is the total passenger traffic across all 4 stations on Sunday?",
         "options": [
-          "2021",
-          "2022",
-          "2023",
-          "2024"
+          "22,000",
+          "21,800",
+          "22,200",
+          "21,600"
         ],
-        "correct": 3,
-        "solution": "2020: 12, 2021: 15, 2022: 15, 2023: 18, 2024: 72 − 48 = 24. Highest is 2024.",
-        "shortcut": "⚡ 72 − 48 = 24 is the maximum gap.",
+        "correct": 0,
+        "solution": "6240 + 7120 + 4080 + 4560 = <b>22,000</b> thousand.",
+        "shortcut": "⚡ 6240+7120=13360; 4080+4560=8640; 13360+8640 = <b>22,000</b>.",
         "di_table": {
-          "title": "Company X Annual Revenue and Expenditure (in ₹ Crore)",
+          "title": "Railway Passenger Traffic at 4 Major Stations (in Thousands per Day)",
           "headers": [
-            "Year",
-            "Revenue",
-            "Expenditure"
+            "Station",
+            "Mon",
+            "Wed",
+            "Fri",
+            "Sun"
           ],
           "rows": [
             [
-              "2020",
-              40,
-              28
+              "Delhi",
+              4820,
+              4650,
+              5180,
+              6240
             ],
             [
-              "2021",
-              50,
-              35
+              "Mumbai",
+              5340,
+              5120,
+              5760,
+              7120
             ],
             [
-              "2022",
-              45,
-              30
+              "Chennai",
+              2840,
+              2720,
+              3150,
+              4080
             ],
             [
-              "2023",
-              60,
-              42
-            ],
-            [
-              "2024",
-              72,
-              48
+              "Kolkata",
+              3160,
+              3020,
+              3480,
+              4560
             ]
           ]
         }
@@ -8075,48 +8252,53 @@
         "id": 23,
         "category": "Data Interpretation",
         "topic": "DI: Line Graph",
-        "question": "<b>[Company X Annual Revenue and Expenditure (in ₹ Crore)]</b><br>What is the percentage increase in Revenue from 2022 to 2024?",
+        "question": "<b>[Railway Passenger Traffic at 4 Stations (in Thousands/Day)]</b><br>Which station shows the highest difference in traffic between Sunday and Monday?",
         "options": [
-          "50%",
-          "55%",
-          "60%",
-          "65%"
+          "Delhi",
+          "Mumbai",
+          "Chennai",
+          "Kolkata"
         ],
-        "correct": 2,
-        "solution": "Increase = 72 − 45 = 27. Percentage = (27 / 45) × 100 = 60%.",
-        "shortcut": "⚡ 27/45 = 3/5 = 60%.",
+        "correct": 1,
+        "solution": "Delhi: 6240−4820=1420. Mumbai: 7120−5340=<b>1780</b>. Chennai: 4080−2840=1240. Kolkata: 4560−3160=1400. Mumbai highest.",
+        "shortcut": "⚡ Mumbai diff = 1780 (largest). <b>Mumbai</b>.",
         "di_table": {
-          "title": "Company X Annual Revenue and Expenditure (in ₹ Crore)",
+          "title": "Railway Passenger Traffic at 4 Major Stations (in Thousands per Day)",
           "headers": [
-            "Year",
-            "Revenue",
-            "Expenditure"
+            "Station",
+            "Mon",
+            "Wed",
+            "Fri",
+            "Sun"
           ],
           "rows": [
             [
-              "2020",
-              40,
-              28
+              "Delhi",
+              4820,
+              4650,
+              5180,
+              6240
             ],
             [
-              "2021",
-              50,
-              35
+              "Mumbai",
+              5340,
+              5120,
+              5760,
+              7120
             ],
             [
-              "2022",
-              45,
-              30
+              "Chennai",
+              2840,
+              2720,
+              3150,
+              4080
             ],
             [
-              "2023",
-              60,
-              42
-            ],
-            [
-              "2024",
-              72,
-              48
+              "Kolkata",
+              3160,
+              3020,
+              3480,
+              4560
             ]
           ]
         }
@@ -8125,48 +8307,53 @@
         "id": 24,
         "category": "Data Interpretation",
         "topic": "DI: Line Graph",
-        "question": "<b>[Company X Annual Revenue and Expenditure (in ₹ Crore)]</b><br>What was the average expenditure per year over the 5 years?",
+        "question": "<b>[Railway Passenger Traffic at 4 Stations (in Thousands/Day)]</b><br>What is the average traffic at Chennai station over the 4 days shown?",
         "options": [
-          "₹35.6 Cr",
-          "₹36.6 Cr",
-          "₹37.2 Cr",
-          "₹38.0 Cr"
+          "3,197.5",
+          "3,097.5",
+          "3,297.5",
+          "3,047.5"
         ],
-        "correct": 1,
-        "solution": "Sum = 28 + 35 + 30 + 42 + 48 = 183. Average = 183 / 5 = ₹36.6 Crore.",
-        "shortcut": "⚡ 183 / 5 = 36.6.",
+        "correct": 0,
+        "solution": "(2840+2720+3150+4080)/4 = 12790/4 = <b>3,197.5</b> thousand.",
+        "shortcut": "⚡ 12790 ÷ 4 = <b>3197.5</b>.",
         "di_table": {
-          "title": "Company X Annual Revenue and Expenditure (in ₹ Crore)",
+          "title": "Railway Passenger Traffic at 4 Major Stations (in Thousands per Day)",
           "headers": [
-            "Year",
-            "Revenue",
-            "Expenditure"
+            "Station",
+            "Mon",
+            "Wed",
+            "Fri",
+            "Sun"
           ],
           "rows": [
             [
-              "2020",
-              40,
-              28
+              "Delhi",
+              4820,
+              4650,
+              5180,
+              6240
             ],
             [
-              "2021",
-              50,
-              35
+              "Mumbai",
+              5340,
+              5120,
+              5760,
+              7120
             ],
             [
-              "2022",
-              45,
-              30
+              "Chennai",
+              2840,
+              2720,
+              3150,
+              4080
             ],
             [
-              "2023",
-              60,
-              42
-            ],
-            [
-              "2024",
-              72,
-              48
+              "Kolkata",
+              3160,
+              3020,
+              3480,
+              4560
             ]
           ]
         }
@@ -8175,48 +8362,53 @@
         "id": 25,
         "category": "Data Interpretation",
         "topic": "DI: Line Graph",
-        "question": "<b>[Company X Annual Revenue and Expenditure (in ₹ Crore)]</b><br>In 2023, profit was what percentage of expenditure?",
+        "question": "<b>[Railway Passenger Traffic at 4 Stations (in Thousands/Day)]</b><br>Delhi's Sunday traffic is what % more than its Monday traffic?",
         "options": [
-          "38.5%",
-          "40.0%",
-          "42.86%",
-          "45.0%"
+          "29.5%",
+          "28.4%",
+          "30.5%",
+          "27.4%"
         ],
-        "correct": 2,
-        "solution": "Profit in 2023 = 60 − 42 = 18. Percentage = (18 / 42) × 100 = (3/7) × 100 ≈ 42.86%.",
-        "shortcut": "⚡ 3/7 = 42.86%.",
+        "correct": 0,
+        "solution": "Increase = 6240 − 4820 = 1420. % = (1420/4820) × 100 ≈ <b>29.46% ≈ 29.5%</b>.",
+        "shortcut": "⚡ 1420/4820 ≈ 142/482 ≈ 0.2946 → <b>29.5%</b>.",
         "di_table": {
-          "title": "Company X Annual Revenue and Expenditure (in ₹ Crore)",
+          "title": "Railway Passenger Traffic at 4 Major Stations (in Thousands per Day)",
           "headers": [
-            "Year",
-            "Revenue",
-            "Expenditure"
+            "Station",
+            "Mon",
+            "Wed",
+            "Fri",
+            "Sun"
           ],
           "rows": [
             [
-              "2020",
-              40,
-              28
+              "Delhi",
+              4820,
+              4650,
+              5180,
+              6240
             ],
             [
-              "2021",
-              50,
-              35
+              "Mumbai",
+              5340,
+              5120,
+              5760,
+              7120
             ],
             [
-              "2022",
-              45,
-              30
+              "Chennai",
+              2840,
+              2720,
+              3150,
+              4080
             ],
             [
-              "2023",
-              60,
-              42
-            ],
-            [
-              "2024",
-              72,
-              48
+              "Kolkata",
+              3160,
+              3020,
+              3480,
+              4560
             ]
           ]
         }
@@ -8516,16 +8708,16 @@
         "id": 20,
         "category": "Advanced Maths",
         "topic": "Mensuration 3D",
-        "question": "A solid right circular cone has a base radius of 5 cm and a vertical height of 12 cm. Find its Total Surface Area (TSA). (Take π = 3.14)",
+        "question": "Find the Total Surface Area of a solid hemisphere with radius 10.5 cm. (Take π = 22/7)",
         "options": [
-          "282.6 cm²",
-          "204.1 cm²",
-          "78.5 cm²",
-          "307.6 cm²"
+          "1039.5 cm²",
+          "1054.5 cm²",
+          "1099.5 cm²",
+          "1089.5 cm²"
         ],
         "correct": 0,
-        "solution": "Slant height l = √(r² + h²) = √(5² + 12²) = 13 cm.<br>TSA = πr(l + r) = 3.14 × 5 × (13 + 5) = 3.14 × 5 × 18 = <b>282.6 cm²</b>.",
-        "shortcut": "⚡ <b>Triplet:</b> (5, 12, 13) ⟹ TSA = 3.14 × 5 × (18) = <b>282.6 cm²</b>."
+        "solution": "TSA of solid hemisphere = 3πr² = 3 × (22/7) × 10.5² = 3 × (22/7) × 110.25 = 3 × 22 × 15.75 = 3 × 346.5 = <b>1039.5 cm²</b>.",
+        "shortcut": "⚡ TSA = 3πr² = 3 × (22/7) × 110.25 = 3 × 346.5 = <b>1039.5 cm²</b>."
       },
       {
         "id": 21,
@@ -8546,43 +8738,53 @@
         "id": 22,
         "category": "Data Interpretation",
         "topic": "DI: Table",
-        "question": "<b>[Monthly Sales and Returns of an E-commerce Seller (in units)]</b><br>Find total net sales (Sales − Returns) across all 4 months.",
+        "question": "<b>[OPD Patient Count at 4 Departments (per Week)]</b><br>What is the total patient count across all 4 departments in Week 3?",
         "options": [
-          "2,100",
-          "2,105",
-          "2,055",
-          "2,000"
+          "6,980",
+          "7,080",
+          "6,880",
+          "7,280"
         ],
-        "correct": 2,
-        "solution": "Net sales = (500−50) + (600−30) + (450−45) + (700−70) = 450 + 570 + 405 + 630 = 2,055.",
-        "shortcut": "⚡ Total Sales = 2250, Total Returns = 195. Net = 2250 − 195 = 2,055.",
+        "correct": 0,
+        "solution": "1290 + 2960 + 1750 + 980 = <b>6,980</b>.",
+        "shortcut": "⚡ 1290+2960=4250; 1750+980=2730; Total = <b>6,980</b>.",
         "di_table": {
-          "title": "Monthly Sales and Returns of an E-commerce Seller (in units)",
+          "title": "OPD Patient Count at 4 Departments of a Government Hospital (per Week)",
           "headers": [
-            "Month",
-            "Sales",
-            "Returns"
+            "Department",
+            "Week 1",
+            "Week 2",
+            "Week 3",
+            "Week 4"
           ],
           "rows": [
             [
-              "July",
-              500,
-              50
+              "Ortho",
+              1240,
+              1380,
+              1290,
+              1470
             ],
             [
-              "August",
-              600,
-              30
+              "Cardio",
+              2840,
+              3120,
+              2960,
+              3380
             ],
             [
-              "September",
-              450,
-              45
+              "Pedia",
+              1680,
+              1820,
+              1750,
+              1960
             ],
             [
-              "October",
-              700,
-              70
+              "Neurology",
+              1020,
+              1180,
+              980,
+              1240
             ]
           ]
         }
@@ -8591,43 +8793,53 @@
         "id": 23,
         "category": "Data Interpretation",
         "topic": "DI: Table",
-        "question": "<b>[Monthly Sales and Returns of an E-commerce Seller (in units)]</b><br>In which month was the return percentage highest?",
+        "question": "<b>[OPD Patient Count at 4 Departments (per Week)]</b><br>Which department had the highest average OPD count per week over 4 weeks?",
         "options": [
-          "July",
-          "August",
-          "September",
-          "October"
+          "Ortho",
+          "Cardio",
+          "Pedia",
+          "Neurology"
         ],
-        "correct": 0,
-        "solution": "July: 50/500 = 10%; Aug: 30/600 = 5%; Sep: 45/450 = 10%; Oct: 70/700 = 10%. July is the earliest month achieving 10%.",
-        "shortcut": "⚡ Aug is 5%. July, Sep, Oct are 10%. July is the first month reaching maximum 10%.",
+        "correct": 1,
+        "solution": "Cardio: (2840+3120+2960+3380)/4 = 12300/4 = <b>3,075</b>. Clearly the highest.",
+        "shortcut": "⚡ Cardio totals are all 2000+. No need to compute others — <b>Cardio</b>.",
         "di_table": {
-          "title": "Monthly Sales and Returns of an E-commerce Seller (in units)",
+          "title": "OPD Patient Count at 4 Departments of a Government Hospital (per Week)",
           "headers": [
-            "Month",
-            "Sales",
-            "Returns"
+            "Department",
+            "Week 1",
+            "Week 2",
+            "Week 3",
+            "Week 4"
           ],
           "rows": [
             [
-              "July",
-              500,
-              50
+              "Ortho",
+              1240,
+              1380,
+              1290,
+              1470
             ],
             [
-              "August",
-              600,
-              30
+              "Cardio",
+              2840,
+              3120,
+              2960,
+              3380
             ],
             [
-              "September",
-              450,
-              45
+              "Pedia",
+              1680,
+              1820,
+              1750,
+              1960
             ],
             [
-              "October",
-              700,
-              70
+              "Neurology",
+              1020,
+              1180,
+              980,
+              1240
             ]
           ]
         }
@@ -8636,43 +8848,53 @@
         "id": 24,
         "category": "Data Interpretation",
         "topic": "DI: Table",
-        "question": "<b>[Monthly Sales and Returns of an E-commerce Seller (in units)]</b><br>Find the average monthly sales across the 4 months.",
+        "question": "<b>[OPD Patient Count at 4 Departments (per Week)]</b><br>What is the ratio of Pedia patients to Neurology patients over the entire 4-week period?",
         "options": [
-          "562.5",
-          "600",
-          "550",
-          "575"
+          "721 : 442",
+          "7 : 4",
+          "361 : 221",
+          "72 : 44"
         ],
         "correct": 0,
-        "solution": "Sum = 500 + 600 + 450 + 700 = 2,250. Average = 2,250 / 4 = 562.5.",
-        "shortcut": "⚡ 2250 / 4 = 562.5.",
+        "solution": "Pedia total=7210; Neurology=4420. 7210:4420 → ÷10 = 721:442. GCD(721,442)=1. So simplified = <b>721:442</b>.",
+        "shortcut": "⚡ 7210:4420 ÷ 10 = <b>721:442</b>.",
         "di_table": {
-          "title": "Monthly Sales and Returns of an E-commerce Seller (in units)",
+          "title": "OPD Patient Count at 4 Departments of a Government Hospital (per Week)",
           "headers": [
-            "Month",
-            "Sales",
-            "Returns"
+            "Department",
+            "Week 1",
+            "Week 2",
+            "Week 3",
+            "Week 4"
           ],
           "rows": [
             [
-              "July",
-              500,
-              50
+              "Ortho",
+              1240,
+              1380,
+              1290,
+              1470
             ],
             [
-              "August",
-              600,
-              30
+              "Cardio",
+              2840,
+              3120,
+              2960,
+              3380
             ],
             [
-              "September",
-              450,
-              45
+              "Pedia",
+              1680,
+              1820,
+              1750,
+              1960
             ],
             [
-              "October",
-              700,
-              70
+              "Neurology",
+              1020,
+              1180,
+              980,
+              1240
             ]
           ]
         }
@@ -8681,43 +8903,53 @@
         "id": 25,
         "category": "Data Interpretation",
         "topic": "DI: Table",
-        "question": "<b>[Monthly Sales and Returns of an E-commerce Seller (in units)]</b><br>October sales are what percentage more than July sales?",
+        "question": "<b>[OPD Patient Count at 4 Departments (per Week)]</b><br>Cardiology patients in Week 4 are what % more than in Week 1?",
         "options": [
-          "30%",
-          "35%",
-          "40%",
-          "45%"
+          "19.0%",
+          "18.5%",
+          "18.0%",
+          "19.5%"
         ],
-        "correct": 2,
-        "solution": "Increase = 700 − 500 = 200. Percentage = (200 / 500) × 100 = 40%.",
-        "shortcut": "⚡ 200/500 = 2/5 = 40%.",
+        "correct": 0,
+        "solution": "Increase = 3380 − 2840 = 540. % = (540/2840) × 100 = <b>19.01% ≈ 19.0%</b>.",
+        "shortcut": "⚡ 540/2840 ≈ 54/284 ≈ 0.190 → <b>19.0%</b>.",
         "di_table": {
-          "title": "Monthly Sales and Returns of an E-commerce Seller (in units)",
+          "title": "OPD Patient Count at 4 Departments of a Government Hospital (per Week)",
           "headers": [
-            "Month",
-            "Sales",
-            "Returns"
+            "Department",
+            "Week 1",
+            "Week 2",
+            "Week 3",
+            "Week 4"
           ],
           "rows": [
             [
-              "July",
-              500,
-              50
+              "Ortho",
+              1240,
+              1380,
+              1290,
+              1470
             ],
             [
-              "August",
-              600,
-              30
+              "Cardio",
+              2840,
+              3120,
+              2960,
+              3380
             ],
             [
-              "September",
-              450,
-              45
+              "Pedia",
+              1680,
+              1820,
+              1750,
+              1960
             ],
             [
-              "October",
-              700,
-              70
+              "Neurology",
+              1020,
+              1180,
+              980,
+              1240
             ]
           ]
         }
@@ -9017,16 +9249,16 @@
         "id": 20,
         "category": "Advanced Maths",
         "topic": "Mensuration 3D",
-        "question": "A solid right circular cone has a base radius of 7 cm and a vertical height of 24 cm. Find its Total Surface Area (TSA). (Take π = 3.14)",
+        "question": "An open-top cylindrical tank has inner radius 3.5 m and depth 6 m. Find the area of sheet metal required to make the tank (curved surface + base only). (Take π = 22/7)",
         "options": [
-          "703.36 cm²",
-          "549.5 cm²",
-          "153.86 cm²",
-          "728.36 cm²"
+          "170.5 m²",
+          "170.5 m²",
+          "154.0 m²",
+          "192.5 m²"
         ],
         "correct": 0,
-        "solution": "Slant height l = √(r² + h²) = √(7² + 24²) = 25 cm.<br>TSA = πr(l + r) = 3.14 × 7 × (25 + 7) = 3.14 × 7 × 32 = <b>703.36 cm²</b>.",
-        "shortcut": "⚡ <b>Triplet:</b> (7, 24, 25) ⟹ TSA = 3.14 × 7 × (32) = <b>703.36 cm²</b>."
+        "solution": "CSA = 2πrh = 2 × (22/7) × 3.5 × 6 = 2 × 22 × 0.5 × 6 = 2 × 66 = 132 m².<br>Base = πr² = (22/7) × 3.5² = (22/7) × 12.25 = 22 × 1.75 = 38.5 m².<br>Total = 132 + 38.5 = <b>170.5 m²</b>.",
+        "shortcut": "⚡ CSA=132, Base=38.5. Total = <b>170.5 m²</b>."
       },
       {
         "id": 21,
@@ -9047,48 +9279,53 @@
         "id": 22,
         "category": "Data Interpretation",
         "topic": "DI: Bar Graph",
-        "question": "<b>[Annual Production of Mobile Phones by 4 Companies (in thousands)]</b><br>Find the average production of Brand C over the three years.",
+        "question": "<b>[Smartphone Unit Sales (in Thousands) — 4 Brands, 4 Quarters]</b><br>What is the total sales of all 4 brands in Q4 (in thousands)?",
         "options": [
-          "160 thousand",
-          "166.67 thousand",
-          "170 thousand",
-          "175 thousand"
+          "20,760",
+          "20,860",
+          "20,660",
+          "21,060"
         ],
-        "correct": 1,
-        "solution": "(140 + 160 + 200) / 3 = 500 / 3 = 166.67 thousand.",
-        "shortcut": "⚡ (140+160+200)/3 = 500/3 = 166.67.",
+        "correct": 0,
+        "solution": "6340 + 4180 + 7260 + 2980 = <b>20,760</b> thousand units.",
+        "shortcut": "⚡ 6340+4180=10520; 7260+2980=10240; Total = <b>20,760</b>.",
         "di_table": {
-          "title": "Annual Production of Mobile Phones by 4 Companies (in thousands)",
+          "title": "Smartphone Unit Sales by 4 Brands Across 4 Quarters (in Thousands)",
           "headers": [
-            "Company",
-            "2022",
-            "2023",
-            "2024"
+            "Brand",
+            "Q1",
+            "Q2",
+            "Q3",
+            "Q4"
           ],
           "rows": [
             [
-              "Brand A",
-              120,
-              150,
-              180
+              "Samsung",
+              4520,
+              5180,
+              4960,
+              6340
             ],
             [
-              "Brand B",
-              90,
-              110,
-              130
+              "Apple",
+              2840,
+              3240,
+              3620,
+              4180
             ],
             [
-              "Brand C",
-              140,
-              160,
-              200
+              "Xiaomi",
+              5680,
+              6120,
+              5840,
+              7260
             ],
             [
-              "Brand D",
-              80,
-              120,
-              150
+              "Vivo",
+              2160,
+              2480,
+              2340,
+              2980
             ]
           ]
         }
@@ -9097,48 +9334,53 @@
         "id": 23,
         "category": "Data Interpretation",
         "topic": "DI: Bar Graph",
-        "question": "<b>[Annual Production of Mobile Phones by 4 Companies (in thousands)]</b><br>Which brand showed the highest percentage growth from 2022 to 2024?",
+        "question": "<b>[Smartphone Unit Sales (in Thousands) — 4 Brands, 4 Quarters]</b><br>What is the market share (%) of Xiaomi in Q1 (among the 4 brands)?",
         "options": [
-          "Brand A",
-          "Brand B",
-          "Brand C",
-          "Brand D"
+          "37.4%",
+          "36.4%",
+          "38.4%",
+          "35.4%"
         ],
-        "correct": 3,
-        "solution": "Brand A: 60/120 = 50%. Brand B: 40/90 = 44.4%. Brand C: 60/140 = 42.8%. Brand D: 70/80 = 87.5%.",
-        "shortcut": "⚡ Brand D increased from 80 to 150 (+87.5%), which is by far the highest.",
+        "correct": 0,
+        "solution": "Q1 total = 4520+2840+5680+2160 = 15200. Xiaomi Q1 = 5680. % = (5680/15200) × 100 = <b>37.37% ≈ 37.4%</b>.",
+        "shortcut": "⚡ 5680/15200 = 568/1520 = 71/190 ≈ 0.374 → <b>37.4%</b>.",
         "di_table": {
-          "title": "Annual Production of Mobile Phones by 4 Companies (in thousands)",
+          "title": "Smartphone Unit Sales by 4 Brands Across 4 Quarters (in Thousands)",
           "headers": [
-            "Company",
-            "2022",
-            "2023",
-            "2024"
+            "Brand",
+            "Q1",
+            "Q2",
+            "Q3",
+            "Q4"
           ],
           "rows": [
             [
-              "Brand A",
-              120,
-              150,
-              180
+              "Samsung",
+              4520,
+              5180,
+              4960,
+              6340
             ],
             [
-              "Brand B",
-              90,
-              110,
-              130
+              "Apple",
+              2840,
+              3240,
+              3620,
+              4180
             ],
             [
-              "Brand C",
-              140,
-              160,
-              200
+              "Xiaomi",
+              5680,
+              6120,
+              5840,
+              7260
             ],
             [
-              "Brand D",
-              80,
-              120,
-              150
+              "Vivo",
+              2160,
+              2480,
+              2340,
+              2980
             ]
           ]
         }
@@ -9147,48 +9389,53 @@
         "id": 24,
         "category": "Data Interpretation",
         "topic": "DI: Bar Graph",
-        "question": "<b>[Annual Production of Mobile Phones by 4 Companies (in thousands)]</b><br>What is the ratio of total production in 2022 to total production in 2024 for all four brands?",
+        "question": "<b>[Smartphone Unit Sales (in Thousands) — 4 Brands, 4 Quarters]</b><br>Which brand showed the highest growth from Q1 to Q4?",
         "options": [
-          "43 : 66",
-          "41 : 65",
-          "43 : 65",
-          "41 : 66"
+          "Samsung",
+          "Apple",
+          "Xiaomi",
+          "Vivo"
         ],
-        "correct": 0,
-        "solution": "2022 total = 120 + 90 + 140 + 80 = 430. 2024 total = 180 + 130 + 200 + 150 = 660. Ratio = 430 : 660 = 43 : 66.",
-        "shortcut": "⚡ 430/660 = 43:66.",
+        "correct": 1,
+        "solution": "Samsung: (6340-4520)/4520=40.3%. Apple: (4180-2840)/2840=<b>47.2%</b>. Xiaomi: (7260-5680)/5680=27.8%. Vivo: (2980-2160)/2160=37.9%. Apple highest.",
+        "shortcut": "⚡ Apple growth = 1340/2840 ≈ 47% (largest). <b>Apple</b>.",
         "di_table": {
-          "title": "Annual Production of Mobile Phones by 4 Companies (in thousands)",
+          "title": "Smartphone Unit Sales by 4 Brands Across 4 Quarters (in Thousands)",
           "headers": [
-            "Company",
-            "2022",
-            "2023",
-            "2024"
+            "Brand",
+            "Q1",
+            "Q2",
+            "Q3",
+            "Q4"
           ],
           "rows": [
             [
-              "Brand A",
-              120,
-              150,
-              180
+              "Samsung",
+              4520,
+              5180,
+              4960,
+              6340
             ],
             [
-              "Brand B",
-              90,
-              110,
-              130
+              "Apple",
+              2840,
+              3240,
+              3620,
+              4180
             ],
             [
-              "Brand C",
-              140,
-              160,
-              200
+              "Xiaomi",
+              5680,
+              6120,
+              5840,
+              7260
             ],
             [
-              "Brand D",
-              80,
-              120,
-              150
+              "Vivo",
+              2160,
+              2480,
+              2340,
+              2980
             ]
           ]
         }
@@ -9197,48 +9444,53 @@
         "id": 25,
         "category": "Data Interpretation",
         "topic": "DI: Bar Graph",
-        "question": "<b>[Annual Production of Mobile Phones by 4 Companies (in thousands)]</b><br>In 2023, Brand B's production was what percentage of Brand A's production?",
+        "question": "<b>[Smartphone Unit Sales (in Thousands) — 4 Brands, 4 Quarters]</b><br>What is the average quarterly sales (in thousands) of Samsung over all 4 quarters?",
         "options": [
-          "70%",
-          "73.33%",
-          "75%",
-          "80%"
+          "5,250",
+          "5,050",
+          "5,450",
+          "4,950"
         ],
-        "correct": 1,
-        "solution": "(110 / 150) × 100 = 1100 / 15 = 73.33%.",
-        "shortcut": "⚡ 11/15 = 73.33%.",
+        "correct": 0,
+        "solution": "(4520+5180+4960+6340)/4 = 21000/4 = <b>5,250</b> thousand.",
+        "shortcut": "⚡ 21000 ÷ 4 = <b>5,250</b>.",
         "di_table": {
-          "title": "Annual Production of Mobile Phones by 4 Companies (in thousands)",
+          "title": "Smartphone Unit Sales by 4 Brands Across 4 Quarters (in Thousands)",
           "headers": [
-            "Company",
-            "2022",
-            "2023",
-            "2024"
+            "Brand",
+            "Q1",
+            "Q2",
+            "Q3",
+            "Q4"
           ],
           "rows": [
             [
-              "Brand A",
-              120,
-              150,
-              180
+              "Samsung",
+              4520,
+              5180,
+              4960,
+              6340
             ],
             [
-              "Brand B",
-              90,
-              110,
-              130
+              "Apple",
+              2840,
+              3240,
+              3620,
+              4180
             ],
             [
-              "Brand C",
-              140,
-              160,
-              200
+              "Xiaomi",
+              5680,
+              6120,
+              5840,
+              7260
             ],
             [
-              "Brand D",
-              80,
-              120,
-              150
+              "Vivo",
+              2160,
+              2480,
+              2340,
+              2980
             ]
           ]
         }
@@ -9538,16 +9790,16 @@
         "id": 20,
         "category": "Advanced Maths",
         "topic": "Mensuration 3D",
-        "question": "A solid right circular cone has a base radius of 8 cm and a vertical height of 15 cm. Find its Total Surface Area (TSA). (Take π = 3.14)",
+        "question": "A solid is made by placing a cone on top of a cylinder. Both have base radius 7 cm. The cylinder has height 10 cm and the cone has height 9 cm. Find the volume of the solid. (Take π = 22/7)",
         "options": [
-          "628.0 cm²",
-          "427.04 cm²",
-          "200.96 cm²",
-          "653.0 cm²"
+          "2,002 cm³",
+          "1,694 cm³",
+          "2,156 cm³",
+          "1,848 cm³"
         ],
         "correct": 0,
-        "solution": "Slant height l = √(r² + h²) = √(8² + 15²) = 17 cm.<br>TSA = πr(l + r) = 3.14 × 8 × (17 + 8) = 3.14 × 8 × 25 = <b>628.0 cm²</b>.",
-        "shortcut": "⚡ <b>Triplet:</b> (8, 15, 17) ⟹ TSA = 3.14 × 8 × (25) = <b>628.0 cm²</b>."
+        "solution": "Volume of cylinder = πr²h = (22/7) × 49 × 10 = 22 × 70 = 1540 cm³.<br>Volume of cone = (1/3)πr²h = (1/3) × (22/7) × 49 × 9 = (1/3) × 22 × 63 = 22 × 21 = 462 cm³.<br>Total = 1540 + 462 = <b>2,002 cm³</b>.",
+        "shortcut": "⚡ Cylinder: 22×70=1540. Cone: (1/3)×22×63=462. Total = <b>2,002 cm³</b>."
       },
       {
         "id": 21,
@@ -9568,46 +9820,53 @@
         "id": 22,
         "category": "Data Interpretation",
         "topic": "DI: Pie Chart",
-        "question": "<b>[Monthly Budget Allocation of a Family (Total Monthly Income = ₹60,000)]</b><br>What is the central angle representing the expenditure on Education?",
+        "question": "<b>[State GDP (₹ Thousand Crore) — 2020 to 2024]</b><br>What is the combined GDP of all 4 states in 2024?",
         "options": [
-          "45°",
-          "54°",
-          "60°",
-          "72°"
+          "₹10,660 Thousand Cr",
+          "₹10,560 Thousand Cr",
+          "₹10,760 Thousand Cr",
+          "₹10,460 Thousand Cr"
         ],
-        "correct": 1,
-        "solution": "15% of 360° = 0.15 × 360° = 54°.",
-        "shortcut": "⚡ 10% = 36°, 5% = 18° ⟹ 36 + 18 = 54°.",
+        "correct": 0,
+        "solution": "3780 + 2680 + 2340 + 1860 = <b>₹10,660 Thousand Crore</b>.",
+        "shortcut": "⚡ 3780+2680=6460; 2340+1860=4200; Total = <b>10,660</b>.",
         "di_table": {
-          "title": "Monthly Budget Allocation of a Family (Total Monthly Income = ₹60,000)",
+          "title": "State GDP (₹ Thousand Crore) and Growth Rate Data (2020–2024)",
           "headers": [
-            "Expense Head",
-            "Percentage (%)"
+            "State",
+            "GDP 2020",
+            "GDP 2022",
+            "GDP 2024",
+            "Growth 2020-24 (%)"
           ],
           "rows": [
             [
-              "Food",
-              25
+              "Maharashtra",
+              2840,
+              3260,
+              3780,
+              33.1
             ],
             [
-              "Rent",
-              20
+              "Tamil Nadu",
+              1920,
+              2240,
+              2680,
+              39.6
             ],
             [
-              "Education",
-              15
+              "Gujarat",
+              1680,
+              1980,
+              2340,
+              39.3
             ],
             [
-              "Savings",
-              20
-            ],
-            [
-              "Transport",
-              10
-            ],
-            [
-              "Others",
-              10
+              "Karnataka",
+              1240,
+              1520,
+              1860,
+              50.0
             ]
           ]
         }
@@ -9616,46 +9875,53 @@
         "id": 23,
         "category": "Data Interpretation",
         "topic": "DI: Pie Chart",
-        "question": "<b>[Monthly Budget Allocation of a Family (Total Monthly Income = ₹60,000)]</b><br>How much more money is allocated to Food than to Transport?",
+        "question": "<b>[State GDP (₹ Thousand Crore) — 2020 to 2024]</b><br>Which state recorded the highest % GDP growth from 2020 to 2024?",
         "options": [
-          "₹6,000",
-          "₹7,500",
-          "₹9,000",
-          "₹10,500"
+          "Maharashtra",
+          "Tamil Nadu",
+          "Gujarat",
+          "Karnataka"
         ],
-        "correct": 2,
-        "solution": "Difference = 25% − 10% = 15%. 15% of ₹60,000 = ₹9,000.",
-        "shortcut": "⚡ 15% × 60,000 = ₹9,000.",
+        "correct": 3,
+        "solution": "As given in the table, Karnataka growth = <b>50.0%</b> (highest).",
+        "shortcut": "⚡ Directly read the Growth column — Karnataka at 50% wins. <b>Karnataka</b>.",
         "di_table": {
-          "title": "Monthly Budget Allocation of a Family (Total Monthly Income = ₹60,000)",
+          "title": "State GDP (₹ Thousand Crore) and Growth Rate Data (2020–2024)",
           "headers": [
-            "Expense Head",
-            "Percentage (%)"
+            "State",
+            "GDP 2020",
+            "GDP 2022",
+            "GDP 2024",
+            "Growth 2020-24 (%)"
           ],
           "rows": [
             [
-              "Food",
-              25
+              "Maharashtra",
+              2840,
+              3260,
+              3780,
+              33.1
             ],
             [
-              "Rent",
-              20
+              "Tamil Nadu",
+              1920,
+              2240,
+              2680,
+              39.6
             ],
             [
-              "Education",
-              15
+              "Gujarat",
+              1680,
+              1980,
+              2340,
+              39.3
             ],
             [
-              "Savings",
-              20
-            ],
-            [
-              "Transport",
-              10
-            ],
-            [
-              "Others",
-              10
+              "Karnataka",
+              1240,
+              1520,
+              1860,
+              50.0
             ]
           ]
         }
@@ -9664,46 +9930,53 @@
         "id": 24,
         "category": "Data Interpretation",
         "topic": "DI: Pie Chart",
-        "question": "<b>[Monthly Budget Allocation of a Family (Total Monthly Income = ₹60,000)]</b><br>Find the ratio of expenditure on (Food + Rent) to (Savings + Education).",
+        "question": "<b>[State GDP (₹ Thousand Crore) — 2020 to 2024]</b><br>What is the ratio of Gujarat's GDP in 2022 to its GDP in 2024?",
         "options": [
-          "9 : 7",
-          "45 : 35",
-          "9 : 8",
-          "1 : 1"
+          "11 : 13",
+          "33 : 39",
+          "9 : 11",
+          "6 : 7"
         ],
         "correct": 0,
-        "solution": "Food + Rent = 25 + 20 = 45%. Savings + Education = 20 + 15 = 35%. Ratio = 45 : 35 = 9 : 7.",
-        "shortcut": "⚡ 45/35 = 9:7.",
+        "solution": "1980:2340 ÷ 60 = 33:39 ÷ 3 = <b>11:13</b>.",
+        "shortcut": "⚡ 1980/2340 = 198/234 = 33/39 = <b>11:13</b>.",
         "di_table": {
-          "title": "Monthly Budget Allocation of a Family (Total Monthly Income = ₹60,000)",
+          "title": "State GDP (₹ Thousand Crore) and Growth Rate Data (2020–2024)",
           "headers": [
-            "Expense Head",
-            "Percentage (%)"
+            "State",
+            "GDP 2020",
+            "GDP 2022",
+            "GDP 2024",
+            "Growth 2020-24 (%)"
           ],
           "rows": [
             [
-              "Food",
-              25
+              "Maharashtra",
+              2840,
+              3260,
+              3780,
+              33.1
             ],
             [
-              "Rent",
-              20
+              "Tamil Nadu",
+              1920,
+              2240,
+              2680,
+              39.6
             ],
             [
-              "Education",
-              15
+              "Gujarat",
+              1680,
+              1980,
+              2340,
+              39.3
             ],
             [
-              "Savings",
-              20
-            ],
-            [
-              "Transport",
-              10
-            ],
-            [
-              "Others",
-              10
+              "Karnataka",
+              1240,
+              1520,
+              1860,
+              50.0
             ]
           ]
         }
@@ -9712,46 +9985,53 @@
         "id": 25,
         "category": "Data Interpretation",
         "topic": "DI: Pie Chart",
-        "question": "<b>[Monthly Budget Allocation of a Family (Total Monthly Income = ₹60,000)]</b><br>If monthly income increases by 20% and Savings remain at 20%, what is the new monthly savings?",
+        "question": "<b>[State GDP (₹ Thousand Crore) — 2020 to 2024]</b><br>Tamil Nadu's GDP in 2024 is approximately what % of Maharashtra's GDP in 2024?",
         "options": [
-          "₹12,000",
-          "₹14,400",
-          "₹15,000",
-          "₹16,000"
+          "70.9%",
+          "71.8%",
+          "68.9%",
+          "73.1%"
         ],
-        "correct": 1,
-        "solution": "New Income = 60000 × 1.2 = ₹72,000. New Savings = 20% of 72,000 = ₹14,400.",
-        "shortcut": "⚡ 12,000 × 1.2 = ₹14,400.",
+        "correct": 0,
+        "solution": "(2680/3780) × 100 = <b>70.9%</b> (approx).",
+        "shortcut": "⚡ 2680/3780 ≈ 268/378 ≈ 0.709 → <b>70.9%</b>.",
         "di_table": {
-          "title": "Monthly Budget Allocation of a Family (Total Monthly Income = ₹60,000)",
+          "title": "State GDP (₹ Thousand Crore) and Growth Rate Data (2020–2024)",
           "headers": [
-            "Expense Head",
-            "Percentage (%)"
+            "State",
+            "GDP 2020",
+            "GDP 2022",
+            "GDP 2024",
+            "Growth 2020-24 (%)"
           ],
           "rows": [
             [
-              "Food",
-              25
+              "Maharashtra",
+              2840,
+              3260,
+              3780,
+              33.1
             ],
             [
-              "Rent",
-              20
+              "Tamil Nadu",
+              1920,
+              2240,
+              2680,
+              39.6
             ],
             [
-              "Education",
-              15
+              "Gujarat",
+              1680,
+              1980,
+              2340,
+              39.3
             ],
             [
-              "Savings",
-              20
-            ],
-            [
-              "Transport",
-              10
-            ],
-            [
-              "Others",
-              10
+              "Karnataka",
+              1240,
+              1520,
+              1860,
+              50.0
             ]
           ]
         }
@@ -10051,16 +10331,16 @@
         "id": 20,
         "category": "Advanced Maths",
         "topic": "Mensuration 3D",
-        "question": "A solid right circular cone has a base radius of 9 cm and a vertical height of 12 cm. Find its Total Surface Area (TSA). (Take π = 3.14)",
+        "question": "Find the volume of a frustum with larger radius 7 cm, smaller radius 3 cm, and height 8 cm. (Take π = 3.14)",
         "options": [
-          "678.24 cm²",
-          "423.9 cm²",
-          "254.34 cm²",
-          "703.24 cm²"
+          "661.49 cm³",
+          "921.73 cm³",
+          "1082.29 cm³",
+          "748.12 cm³"
         ],
         "correct": 0,
-        "solution": "Slant height l = √(r² + h²) = √(9² + 12²) = 15 cm.<br>TSA = πr(l + r) = 3.14 × 9 × (15 + 9) = 3.14 × 9 × 24 = <b>678.24 cm²</b>.",
-        "shortcut": "⚡ <b>Triplet:</b> (9, 12, 15) ⟹ TSA = 3.14 × 9 × (24) = <b>678.24 cm²</b>."
+        "solution": "Volume = (πh/3)(R²+r²+Rr) = (3.14×8/3) × (49+9+21) = 8.3733 × 79 = <b>661.49 cm³</b>.",
+        "shortcut": "⚡ Formula: (πh/3)(R²+Rr+r²). Plug R=7,r=3,h=8: (3.14×8/3)×79 = 8.37×79 ≈ <b>661.49 cm³</b>."
       },
       {
         "id": 21,
@@ -10081,48 +10361,53 @@
         "id": 22,
         "category": "Data Interpretation",
         "topic": "DI: Line Graph",
-        "question": "<b>[Company X Annual Revenue and Expenditure (in ₹ Crore)]</b><br>In which year was the profit (Revenue − Expenditure) the highest?",
+        "question": "<b>[Student Enrollment in 3 UG Courses at 4 Universities (2024)]</b><br>What is the total B.Sc enrollment across all 4 universities?",
         "options": [
-          "2021",
-          "2022",
-          "2023",
-          "2024"
+          "11,620",
+          "11,420",
+          "11,820",
+          "12,020"
         ],
-        "correct": 3,
-        "solution": "2020: 12, 2021: 15, 2022: 15, 2023: 18, 2024: 72 − 48 = 24. Highest is 2024.",
-        "shortcut": "⚡ 72 − 48 = 24 is the maximum gap.",
+        "correct": 0,
+        "solution": "4280 + 2960 + 1840 + 2540 = <b>11,620</b>.",
+        "shortcut": "⚡ 4280+2960=7240; 1840+2540=4380; Total = <b>11,620</b>.",
         "di_table": {
-          "title": "Company X Annual Revenue and Expenditure (in ₹ Crore)",
+          "title": "Student Enrollment in 3 UG Courses at 4 Universities (2024)",
           "headers": [
-            "Year",
-            "Revenue",
-            "Expenditure"
+            "University",
+            "B.Sc",
+            "B.Com",
+            "B.A",
+            "Total"
           ],
           "rows": [
             [
-              "2020",
-              40,
-              28
+              "DU",
+              4280,
+              5640,
+              3820,
+              13740
             ],
             [
-              "2021",
-              50,
-              35
+              "BHU",
+              2960,
+              3480,
+              4120,
+              10560
             ],
             [
-              "2022",
-              45,
-              30
+              "JNU",
+              1840,
+              2260,
+              3640,
+              7740
             ],
             [
-              "2023",
-              60,
-              42
-            ],
-            [
-              "2024",
-              72,
-              48
+              "Panjab",
+              2540,
+              3180,
+              2980,
+              8700
             ]
           ]
         }
@@ -10131,48 +10416,53 @@
         "id": 23,
         "category": "Data Interpretation",
         "topic": "DI: Line Graph",
-        "question": "<b>[Company X Annual Revenue and Expenditure (in ₹ Crore)]</b><br>What is the percentage increase in Revenue from 2022 to 2024?",
+        "question": "<b>[Student Enrollment in 3 UG Courses at 4 Universities (2024)]</b><br>Which university has the highest B.A enrollment?",
         "options": [
-          "50%",
-          "55%",
-          "60%",
-          "65%"
+          "DU",
+          "BHU",
+          "JNU",
+          "Panjab"
         ],
-        "correct": 2,
-        "solution": "Increase = 72 − 45 = 27. Percentage = (27 / 45) × 100 = 60%.",
-        "shortcut": "⚡ 27/45 = 3/5 = 60%.",
+        "correct": 1,
+        "solution": "B.A: DU=3820, BHU=<b>4120</b>, JNU=3640, Panjab=2980. Highest = <b>BHU</b>.",
+        "shortcut": "⚡ Read B.A column: 3820, 4120, 3640, 2980. Highest = <b>BHU (4120)</b>.",
         "di_table": {
-          "title": "Company X Annual Revenue and Expenditure (in ₹ Crore)",
+          "title": "Student Enrollment in 3 UG Courses at 4 Universities (2024)",
           "headers": [
-            "Year",
-            "Revenue",
-            "Expenditure"
+            "University",
+            "B.Sc",
+            "B.Com",
+            "B.A",
+            "Total"
           ],
           "rows": [
             [
-              "2020",
-              40,
-              28
+              "DU",
+              4280,
+              5640,
+              3820,
+              13740
             ],
             [
-              "2021",
-              50,
-              35
+              "BHU",
+              2960,
+              3480,
+              4120,
+              10560
             ],
             [
-              "2022",
-              45,
-              30
+              "JNU",
+              1840,
+              2260,
+              3640,
+              7740
             ],
             [
-              "2023",
-              60,
-              42
-            ],
-            [
-              "2024",
-              72,
-              48
+              "Panjab",
+              2540,
+              3180,
+              2980,
+              8700
             ]
           ]
         }
@@ -10181,48 +10471,53 @@
         "id": 24,
         "category": "Data Interpretation",
         "topic": "DI: Line Graph",
-        "question": "<b>[Company X Annual Revenue and Expenditure (in ₹ Crore)]</b><br>What was the average expenditure per year over the 5 years?",
+        "question": "<b>[Student Enrollment in 3 UG Courses at 4 Universities (2024)]</b><br>B.Com students at DU are what % of the total enrollment at DU?",
         "options": [
-          "₹35.6 Cr",
-          "₹36.6 Cr",
-          "₹37.2 Cr",
-          "₹38.0 Cr"
+          "41.1%",
+          "40.1%",
+          "42.1%",
+          "39.1%"
         ],
-        "correct": 1,
-        "solution": "Sum = 28 + 35 + 30 + 42 + 48 = 183. Average = 183 / 5 = ₹36.6 Crore.",
-        "shortcut": "⚡ 183 / 5 = 36.6.",
+        "correct": 0,
+        "solution": "(5640 / 13740) × 100 = <b>41.05% ≈ 41.1%</b>.",
+        "shortcut": "⚡ 5640/13740 ≈ 564/1374 ≈ 0.411 → <b>41.1%</b>.",
         "di_table": {
-          "title": "Company X Annual Revenue and Expenditure (in ₹ Crore)",
+          "title": "Student Enrollment in 3 UG Courses at 4 Universities (2024)",
           "headers": [
-            "Year",
-            "Revenue",
-            "Expenditure"
+            "University",
+            "B.Sc",
+            "B.Com",
+            "B.A",
+            "Total"
           ],
           "rows": [
             [
-              "2020",
-              40,
-              28
+              "DU",
+              4280,
+              5640,
+              3820,
+              13740
             ],
             [
-              "2021",
-              50,
-              35
+              "BHU",
+              2960,
+              3480,
+              4120,
+              10560
             ],
             [
-              "2022",
-              45,
-              30
+              "JNU",
+              1840,
+              2260,
+              3640,
+              7740
             ],
             [
-              "2023",
-              60,
-              42
-            ],
-            [
-              "2024",
-              72,
-              48
+              "Panjab",
+              2540,
+              3180,
+              2980,
+              8700
             ]
           ]
         }
@@ -10231,48 +10526,53 @@
         "id": 25,
         "category": "Data Interpretation",
         "topic": "DI: Line Graph",
-        "question": "<b>[Company X Annual Revenue and Expenditure (in ₹ Crore)]</b><br>In 2023, profit was what percentage of expenditure?",
+        "question": "<b>[Student Enrollment in 3 UG Courses at 4 Universities (2024)]</b><br>What is the ratio of total JNU students to total Panjab University students?",
         "options": [
-          "38.5%",
-          "40.0%",
-          "42.86%",
-          "45.0%"
+          "129 : 145",
+          "12 : 14",
+          "7 : 8",
+          "77 : 86"
         ],
-        "correct": 2,
-        "solution": "Profit in 2023 = 60 − 42 = 18. Percentage = (18 / 42) × 100 = (3/7) × 100 ≈ 42.86%.",
-        "shortcut": "⚡ 3/7 = 42.86%.",
+        "correct": 0,
+        "solution": "7740:8700 ÷ 60 = <b>129:145</b>.",
+        "shortcut": "⚡ 7740/60=129; 8700/60=145. Ratio = <b>129:145</b>.",
         "di_table": {
-          "title": "Company X Annual Revenue and Expenditure (in ₹ Crore)",
+          "title": "Student Enrollment in 3 UG Courses at 4 Universities (2024)",
           "headers": [
-            "Year",
-            "Revenue",
-            "Expenditure"
+            "University",
+            "B.Sc",
+            "B.Com",
+            "B.A",
+            "Total"
           ],
           "rows": [
             [
-              "2020",
-              40,
-              28
+              "DU",
+              4280,
+              5640,
+              3820,
+              13740
             ],
             [
-              "2021",
-              50,
-              35
+              "BHU",
+              2960,
+              3480,
+              4120,
+              10560
             ],
             [
-              "2022",
-              45,
-              30
+              "JNU",
+              1840,
+              2260,
+              3640,
+              7740
             ],
             [
-              "2023",
-              60,
-              42
-            ],
-            [
-              "2024",
-              72,
-              48
+              "Panjab",
+              2540,
+              3180,
+              2980,
+              8700
             ]
           ]
         }

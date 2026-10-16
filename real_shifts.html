@@ -3,9 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>SSC CGL 2026 — Real Exam Shifts Hub (54 Qs)</title>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <title>SSC CGL 2026 — Real Exam Shifts Hub (78 Qs)</title>
     <style>
         :root {
             --bg-color: #0B1120;
@@ -20,751 +18,293 @@
             --accent-purple: #A855F7;
             --accent-rose: #F43F5E;
         }
-
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            -webkit-tap-highlight-color: transparent;
-        }
-
+        * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             background-color: var(--bg-color);
             color: var(--text-color);
             padding: 16px 12px 100px 12px;
             line-height: 1.5;
         }
-
-        .container {
-            max-width: 860px;
-            margin: 0 auto;
-        }
-
-        .header {
-            text-align: center;
-            margin-bottom: 16px;
-            padding-bottom: 14px;
-            border-bottom: 1px solid var(--border-color);
-        }
-
+        .container { max-width: 860px; margin: 0 auto; }
+        .header { text-align: center; margin-bottom: 16px; padding-bottom: 14px; border-bottom: 1px solid var(--border-color); }
         .badge-live {
             display: inline-block;
             background: linear-gradient(135deg, #EF4444, #F59E0B);
-            color: white;
-            font-size: 0.75rem;
-            font-weight: 800;
-            padding: 4px 14px;
-            border-radius: 20px;
-            text-transform: uppercase;
-            letter-spacing: 0.6px;
-            margin-bottom: 10px;
-            box-shadow: 0 4px 14px rgba(239, 68, 68, 0.4);
+            color: white; font-size: 0.75rem; font-weight: 800;
+            padding: 4px 14px; border-radius: 20px;
+            text-transform: uppercase; letter-spacing: 0.6px;
+            margin-bottom: 10px; box-shadow: 0 4px 14px rgba(239,68,68,0.4);
             animation: pulse 2s infinite;
         }
+        @keyframes pulse { 0%,100% { transform:scale(1); } 50% { transform:scale(1.03); } }
+        .header h1 { font-size: 1.45rem; color: #F8FAFC; margin-bottom: 6px; display:flex; align-items:center; justify-content:center; gap:8px; flex-wrap:wrap; }
+        .header p { font-size: 0.86rem; color: var(--text-muted); max-width: 620px; margin: 0 auto; }
+        .nav-links { display:flex; justify-content:center; gap:8px; margin-top:12px; flex-wrap:wrap; }
+        .btn-link { display:inline-flex; align-items:center; gap:6px; background:#2563EB; color:white; text-decoration:none; padding:6px 14px; border-radius:20px; font-size:0.78rem; font-weight:600; }
 
-        @keyframes pulse {
-            0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.03); }
-        }
+        /* Shift Tabs */
+        .shift-tabs { display:flex; gap:7px; overflow-x:auto; padding-bottom:8px; margin-bottom:12px; scrollbar-width:thin; }
+        .shift-tabs::-webkit-scrollbar { height:4px; }
+        .shift-tabs::-webkit-scrollbar-thumb { background:var(--border-color); border-radius:4px; }
+        .tab-btn { white-space:nowrap; background:var(--container-bg); border:1px solid var(--border-color); color:var(--text-muted); padding:8px 13px; border-radius:10px; font-size:0.8rem; font-weight:600; cursor:pointer; display:flex; align-items:center; gap:6px; transition:all 0.2s; }
+        .tab-btn.active { background:linear-gradient(135deg,#3B82F6,#2563EB); color:white; border-color:#60A5FA; box-shadow:0 4px 12px rgba(37,99,235,0.35); }
+        .badge-count { background:rgba(0,0,0,0.25); padding:2px 7px; border-radius:12px; font-size:0.71rem; }
 
-        .header h1 {
-            font-size: 1.5rem;
-            color: #F8FAFC;
-            margin-bottom: 6px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 8px;
-            flex-wrap: wrap;
-        }
+        /* Topic Chips */
+        .topic-chips { display:flex; gap:6px; padding-bottom:10px; margin-bottom:14px; flex-wrap:wrap; }
+        .topic-chip { background:rgba(30,41,59,0.6); border:1px solid var(--border-color); color:var(--text-muted); padding:4px 10px; border-radius:16px; font-size:0.74rem; font-weight:600; cursor:pointer; }
+        .topic-chip.active { background:var(--accent-purple); color:white; border-color:#C084FC; }
 
-        .header p {
-            font-size: 0.88rem;
-            color: var(--text-muted);
-            max-width: 600px;
-            margin: 0 auto;
-        }
-
-        .nav-links {
-            display: flex;
-            justify-content: center;
-            gap: 8px;
-            margin-top: 12px;
-            flex-wrap: wrap;
-        }
-
-        .btn-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            background: #2563EB;
-            color: white;
-            text-decoration: none;
-            padding: 6px 14px;
-            border-radius: 20px;
-            font-size: 0.78rem;
-            font-weight: 600;
-            transition: all 0.2s;
-        }
-        .btn-link:hover {
-            background: #1D4ED8;
-            transform: translateY(-1px);
-        }
-
-        /* Shift Filter Tabs */
-        .shift-tabs {
-            display: flex;
-            gap: 8px;
-            overflow-x: auto;
-            padding-bottom: 8px;
-            margin-bottom: 12px;
-            scrollbar-width: thin;
-        }
-        .shift-tabs::-webkit-scrollbar {
-            height: 4px;
-        }
-        .shift-tabs::-webkit-scrollbar-thumb {
-            background: var(--border-color);
-            border-radius: 4px;
-        }
-
-        .tab-btn {
-            white-space: nowrap;
-            background: var(--container-bg);
-            border: 1px solid var(--border-color);
-            color: var(--text-muted);
-            padding: 8px 14px;
-            border-radius: 10px;
-            font-size: 0.82rem;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.2s;
-            display: flex;
-            align-items: center;
-            gap: 6px;
-        }
-        .tab-btn.active {
-            background: linear-gradient(135deg, #3B82F6, #2563EB);
-            color: white;
-            border-color: #60A5FA;
-            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.35);
-        }
-        .tab-btn .badge-count {
-            background: rgba(0,0,0,0.25);
-            padding: 2px 7px;
-            border-radius: 12px;
-            font-size: 0.72rem;
-        }
-
-        /* Topic Filter Chips */
-        .topic-chips {
-            display: flex;
-            gap: 6px;
-            overflow-x: auto;
-            padding-bottom: 10px;
-            margin-bottom: 14px;
-            flex-wrap: wrap;
-        }
-        .topic-chip {
-            background: rgba(30, 41, 59, 0.6);
-            border: 1px solid var(--border-color);
-            color: var(--text-muted);
-            padding: 4px 10px;
-            border-radius: 16px;
-            font-size: 0.74rem;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.15s;
-        }
-        .topic-chip.active {
-            background: var(--accent-purple);
-            color: white;
-            border-color: #C084FC;
-        }
-
-        /* Score & Controls Bar */
-        .controls-bar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: rgba(30, 41, 59, 0.7);
-            border: 1px solid var(--border-color);
-            border-radius: 12px;
-            padding: 10px 14px;
-            margin-bottom: 16px;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-
-        .score-stats {
-            display: flex;
-            gap: 14px;
-            font-size: 0.82rem;
-            align-items: center;
-        }
-        .stat-item {
-            display: flex;
-            align-items: center;
-            gap: 4px;
-        }
-        .stat-num {
-            font-weight: 800;
-        }
-        .stat-correct { color: var(--accent-green); }
-        .stat-wrong { color: var(--accent-rose); }
-        .stat-score { color: var(--accent-amber); }
-
-        .action-btns {
-            display: flex;
-            gap: 8px;
-            align-items: center;
-        }
-        .btn-ctrl {
-            background: #334155;
-            color: #E2E8F0;
-            border: none;
-            padding: 6px 12px;
-            border-radius: 8px;
-            font-size: 0.75rem;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.2s;
-        }
-        .btn-ctrl:hover {
-            background: #475569;
-        }
-        .btn-ctrl.active-mode {
-            background: #059669;
-            color: white;
-        }
+        /* Controls bar */
+        .controls-bar { display:flex; justify-content:space-between; align-items:center; background:rgba(30,41,59,0.7); border:1px solid var(--border-color); border-radius:12px; padding:10px 14px; margin-bottom:16px; flex-wrap:wrap; gap:10px; }
+        .score-stats { display:flex; gap:14px; font-size:0.82rem; align-items:center; flex-wrap:wrap; }
+        .stat-correct { color:var(--accent-green); font-weight:800; }
+        .stat-wrong { color:var(--accent-rose); font-weight:800; }
+        .stat-score { color:var(--accent-amber); font-weight:800; }
+        .action-btns { display:flex; gap:8px; }
+        .btn-ctrl { background:#334155; color:#E2E8F0; border:none; padding:6px 12px; border-radius:8px; font-size:0.75rem; font-weight:600; cursor:pointer; }
+        .btn-ctrl.active-mode { background:#059669; color:white; }
 
         /* Question Cards */
-        .q-card {
-            background: var(--container-bg);
-            border: 1px solid var(--border-color);
-            border-radius: 14px;
-            padding: 18px;
-            margin-bottom: 16px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
-            transition: border-color 0.2s;
-        }
-        .q-card:hover {
-            border-color: #475569;
-        }
+        .q-card { background:var(--container-bg); border:1px solid var(--border-color); border-radius:14px; padding:18px; margin-bottom:16px; box-shadow:0 4px 15px rgba(0,0,0,0.25); }
+        .q-header { display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; flex-wrap:wrap; gap:6px; }
+        .q-num { font-size:0.95rem; font-weight:800; color:var(--accent-blue); }
+        .q-badge-topic { background:rgba(168,85,247,0.15); color:#C084FC; border:1px solid rgba(168,85,247,0.3); font-size:0.72rem; font-weight:600; padding:2px 8px; border-radius:6px; }
+        .q-badge-shift { background:rgba(56,189,248,0.12); color:var(--accent-blue); border:1px solid rgba(56,189,248,0.25); font-size:0.72rem; font-weight:600; padding:2px 8px; border-radius:6px; }
+        .q-badge-bonus { background:rgba(245,158,11,0.15); color:var(--accent-amber); border:1px solid rgba(245,158,11,0.3); font-size:0.72rem; font-weight:600; padding:2px 8px; border-radius:6px; }
+        .q-text { font-size:0.97rem; font-weight:500; color:#F8FAFC; margin-bottom:16px; line-height:1.65; }
+        .options-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:8px; margin-bottom:14px; }
+        @media(max-width:560px) { .options-grid { grid-template-columns:1fr; } }
+        .opt-btn { background:var(--card-bg); border:1px solid var(--border-color); color:var(--text-color); padding:10px 14px; border-radius:10px; font-size:0.87rem; font-weight:500; cursor:pointer; text-align:left; display:flex; align-items:center; gap:8px; transition:all 0.2s; }
+        .opt-btn:hover:not(.locked) { background:#1E293B; border-color:#64748B; }
+        .opt-letter { display:inline-flex; align-items:center; justify-content:center; width:24px; height:24px; border-radius:6px; background:rgba(255,255,255,0.06); color:var(--text-muted); font-size:0.75rem; font-weight:700; flex-shrink:0; }
+        .opt-btn.correct { background:rgba(16,185,129,0.18)!important; border-color:var(--accent-green)!important; color:#A7F3D0!important; font-weight:700; }
+        .opt-btn.correct .opt-letter { background:var(--accent-green); color:white; }
+        .opt-btn.wrong { background:rgba(244,63,94,0.18)!important; border-color:var(--accent-rose)!important; color:#FECDD3!important; }
+        .opt-btn.wrong .opt-letter { background:var(--accent-rose); color:white; }
 
-        .q-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 12px;
-            flex-wrap: wrap;
-            gap: 6px;
-        }
+        /* Solution */
+        .sol-toggle-btn { background:rgba(56,189,248,0.1); color:var(--accent-blue); border:1px solid rgba(56,189,248,0.3); padding:6px 14px; border-radius:8px; font-size:0.78rem; font-weight:600; cursor:pointer; display:inline-flex; align-items:center; gap:6px; }
+        .solution-box { display:none; margin-top:14px; padding:14px; background:#0F172A; border:1px solid #1E293B; border-left:4px solid var(--accent-blue); border-radius:10px; font-size:0.87rem; line-height:1.65; color:#CBD5E1; }
+        .solution-box.show { display:block; animation:fadeIn 0.3s ease; }
+        @keyframes fadeIn { from{opacity:0;transform:translateY(-4px);} to{opacity:1;transform:translateY(0);} }
+        .sol-title { font-size:0.82rem; font-weight:700; color:var(--accent-blue); text-transform:uppercase; letter-spacing:0.5px; margin-bottom:6px; }
+        .shortcut-card { margin-top:10px; padding:10px 12px; background:rgba(245,158,11,0.1); border:1px dashed rgba(245,158,11,0.4); border-radius:8px; color:#FDE68A; font-size:0.84rem; }
+        .empty-state { text-align:center; padding:40px 20px; color:var(--text-muted); }
 
-        .q-title-wrap {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-        .q-num {
-            font-size: 0.95rem;
-            font-weight: 800;
-            color: var(--accent-blue);
-        }
-        .q-badge-topic {
-            background: rgba(168, 85, 247, 0.15);
-            color: #C084FC;
-            border: 1px solid rgba(168, 85, 247, 0.3);
-            font-size: 0.72rem;
-            font-weight: 600;
-            padding: 2px 8px;
-            border-radius: 6px;
-        }
-        .q-badge-shift {
-            background: rgba(56, 189, 248, 0.12);
-            color: var(--accent-blue);
-            border: 1px solid rgba(56, 189, 248, 0.25);
-            font-size: 0.72rem;
-            font-weight: 600;
-            padding: 2px 8px;
-            border-radius: 6px;
-        }
-
-        .q-text {
-            font-size: 0.98rem;
-            font-weight: 500;
-            color: #F8FAFC;
-            margin-bottom: 16px;
-            line-height: 1.6;
-        }
-
-        .options-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 8px;
-            margin-bottom: 14px;
-        }
-        @media (max-width: 600px) {
-            .options-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-
-        .opt-btn {
-            background: var(--card-bg);
-            border: 1px solid var(--border-color);
-            color: var(--text-color);
-            padding: 10px 14px;
-            border-radius: 10px;
-            font-size: 0.88rem;
-            font-weight: 500;
-            cursor: pointer;
-            text-align: left;
-            transition: all 0.2s;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-        .opt-btn:hover:not(.locked) {
-            background: #1E293B;
-            border-color: #64748B;
-        }
-        .opt-letter {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 24px;
-            height: 24px;
-            border-radius: 6px;
-            background: rgba(255, 255, 255, 0.06);
-            color: var(--text-muted);
-            font-size: 0.75rem;
-            font-weight: 700;
-            flex-shrink: 0;
-        }
-
-        /* Option selection states */
-        .opt-btn.correct {
-            background: rgba(16, 185, 129, 0.18) !important;
-            border-color: var(--accent-green) !important;
-            color: #A7F3D0 !important;
-            font-weight: 700;
-        }
-        .opt-btn.correct .opt-letter {
-            background: var(--accent-green);
-            color: white;
-        }
-
-        .opt-btn.wrong {
-            background: rgba(244, 63, 94, 0.18) !important;
-            border-color: var(--accent-rose) !important;
-            color: #FECDD3 !important;
-        }
-        .opt-btn.wrong .opt-letter {
-            background: var(--accent-rose);
-            color: white;
-        }
-
-        /* Solution Section */
-        .sol-toggle-btn {
-            background: rgba(56, 189, 248, 0.1);
-            color: var(--accent-blue);
-            border: 1px solid rgba(56, 189, 248, 0.3);
-            padding: 6px 14px;
-            border-radius: 8px;
-            font-size: 0.78rem;
-            font-weight: 600;
-            cursor: pointer;
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            transition: all 0.2s;
-            margin-top: 4px;
-        }
-        .sol-toggle-btn:hover {
-            background: rgba(56, 189, 248, 0.2);
-        }
-
-        .solution-box {
-            display: none;
-            margin-top: 14px;
-            padding: 14px;
-            background: #0F172A;
-            border: 1px solid #1E293B;
-            border-left: 4px solid var(--accent-blue);
-            border-radius: 10px;
-            font-size: 0.88rem;
-            line-height: 1.6;
-            color: #CBD5E1;
-        }
-        .solution-box.show {
-            display: block;
-            animation: fadeIn 0.3s ease-in-out;
-        }
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(-4px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        .sol-title {
-            font-size: 0.82rem;
-            font-weight: 700;
-            color: var(--accent-blue);
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            margin-bottom: 6px;
-            display: flex;
-            align-items: center;
-            gap: 6px;
-        }
-
-        .shortcut-card {
-            margin-top: 10px;
-            padding: 10px 12px;
-            background: rgba(245, 158, 11, 0.1);
-            border: 1px dashed rgba(245, 158, 11, 0.4);
-            border-radius: 8px;
-            color: #FDE68A;
-            font-size: 0.84rem;
-        }
-
-        /* Empty State */
-        .empty-state {
-            text-align: center;
-            padding: 40px 20px;
-            color: var(--text-muted);
-        }
-        .empty-state h3 {
-            color: #F8FAFC;
-            margin-bottom: 8px;
-        }
-
-        /* Bottom Fixed Bar */
-        .bottom-nav {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: rgba(15, 23, 42, 0.95);
-            backdrop-filter: blur(8px);
-            border-top: 1px solid var(--border-color);
-            padding: 10px 16px;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            z-index: 100;
-        }
-        .bottom-nav a {
-            color: var(--text-muted);
-            text-decoration: none;
-            font-size: 0.75rem;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 3px;
-        }
-        .bottom-nav a.active {
-            color: var(--accent-blue);
-            font-weight: 700;
-        }
+        /* Bottom Nav */
+        .bottom-nav { position:fixed; bottom:0; left:0; right:0; background:rgba(15,23,42,0.95); backdrop-filter:blur(8px); border-top:1px solid var(--border-color); padding:10px 16px; display:flex; justify-content:space-around; align-items:center; z-index:100; }
+        .bottom-nav a { color:var(--text-muted); text-decoration:none; font-size:0.74rem; display:flex; flex-direction:column; align-items:center; gap:3px; }
+        .bottom-nav a.active { color:var(--accent-blue); font-weight:700; }
     </style>
 </head>
 <body>
-
 <div class="container">
     <div class="header">
-        <div class="badge-live">🔥 SSC CGL 2026 Real Exam Memory Based</div>
+        <div class="badge-live">🔥 SSC CGL 2026 — Memory Based Real Exam Questions</div>
         <h1>📐 Real Shifts Exam Hub</h1>
-        <p>54 Actual Questions asked across recent SSC CGL Shifts (30 Sep, 1 Oct, 10 Oct, 12 Oct) with step-by-step solutions & 5-second SSC shortcuts.</p>
+        <p>78 actual questions from 5 SSC CGL 2026 shifts (30 Sep, 1 Oct, 10 Oct, 12 Oct, <b>14 Oct NEW</b>) — with step-by-step solutions & 5-second SSC shortcuts.</p>
         <div class="nav-links">
             <a href="index.html" class="btn-link">🏠 Dashboard</a>
-            <a href="practice_sets.html" class="btn-link">🎯 20 Practice Sets (500 Qs)</a>
-            <a href="oct1_shift2.html" class="btn-link">⚡ 1 Oct Shift-2 (17 Qs)</a>
+            <a href="practice_sets.html" class="btn-link">🎯 20 Practice Sets</a>
             <a href="math_part2.html" class="btn-link">📘 Maths Part-2</a>
         </div>
     </div>
 
-    <!-- Shift Filter Tabs -->
+    <!-- Shift Tabs -->
     <div class="shift-tabs" id="shiftTabs">
-        <button class="tab-btn active" onclick="selectShift('all')">
-            <span>All Shifts</span>
-            <span class="badge-count" id="countAll">54</span>
-        </button>
-        <button class="tab-btn" onclick="selectShift('sep30_s2')">
-            <span>30 Sep (Shift 2)</span>
-            <span class="badge-count" id="countSep30">14</span>
-        </button>
-        <button class="tab-btn" onclick="selectShift('oct1_s2')">
-            <span>1 Oct (Shift 2)</span>
-            <span class="badge-count" id="countOct1">17</span>
-        </button>
-        <button class="tab-btn" onclick="selectShift('oct10_all')">
-            <span>10 Oct (All Shifts)</span>
-            <span class="badge-count" id="countOct10">10</span>
-        </button>
-        <button class="tab-btn" onclick="selectShift('oct12_imp')">
-            <span>12 Oct (Imp Types)</span>
-            <span class="badge-count" id="countOct12">13</span>
-        </button>
+        <button class="tab-btn active" onclick="selectShift('all')">All Shifts <span class="badge-count" id="countAll">78</span></button>
+        <button class="tab-btn" onclick="selectShift('sep30_s2')">30 Sep (Shift 2) <span class="badge-count">14</span></button>
+        <button class="tab-btn" onclick="selectShift('oct1_s2')">1 Oct (Shift 2) <span class="badge-count">17</span></button>
+        <button class="tab-btn" onclick="selectShift('oct10_all')">10 Oct (All) <span class="badge-count">10</span></button>
+        <button class="tab-btn" onclick="selectShift('oct12_imp')">12 Oct (Imp) <span class="badge-count">13</span></button>
+        <button class="tab-btn" onclick="selectShift('oct14_all')" style="border-color:#EF4444; color:#FCA5A5;">🆕 14 Oct (All) <span class="badge-count" style="background:#EF4444;">24</span></button>
     </div>
 
     <!-- Topic Chips -->
-    <div class="topic-chips" id="topicChips">
+    <div class="topic-chips">
         <button class="topic-chip active" onclick="selectTopic('all')">All Topics</button>
         <button class="topic-chip" onclick="selectTopic('Algebra')">Algebra</button>
         <button class="topic-chip" onclick="selectTopic('Geometry')">Geometry</button>
         <button class="topic-chip" onclick="selectTopic('Trigonometry')">Trigonometry</button>
         <button class="topic-chip" onclick="selectTopic('Mensuration')">Mensuration</button>
-        <button class="topic-chip" onclick="selectTopic('Arithmetic')">Arithmetic & CI</button>
+        <button class="topic-chip" onclick="selectTopic('Arithmetic')">Arithmetic</button>
+        <button class="topic-chip" onclick="selectTopic('Height')">Height & Distance</button>
     </div>
 
-    <!-- Controls & Score Bar -->
+    <!-- Controls -->
     <div class="controls-bar">
         <div class="score-stats">
-            <div class="stat-item">
-                <span>Attempted:</span>
-                <span class="stat-num" id="statAttempted">0 / 54</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-correct">✔ Correct:</span>
-                <span class="stat-num stat-correct" id="statCorrect">0</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-wrong">✖ Wrong:</span>
-                <span class="stat-num stat-wrong" id="statWrong">0</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-score">⭐ Score:</span>
-                <span class="stat-num stat-score" id="statScore">0.0</span>
-            </div>
+            <span>Attempted: <span id="statAttempted">0 / 78</span></span>
+            <span class="stat-correct">✔ <span id="statCorrect">0</span></span>
+            <span class="stat-wrong">✖ <span id="statWrong">0</span></span>
+            <span class="stat-score">⭐ <span id="statScore">0.0</span></span>
         </div>
         <div class="action-btns">
-            <button class="btn-ctrl" id="btnToggleAllSols" onclick="toggleAllSolutions()">💡 Reveal All Solutions</button>
+            <button class="btn-ctrl" id="btnAllSols" onclick="toggleAllSolutions()">💡 Reveal All</button>
             <button class="btn-ctrl" onclick="resetTest()">🔄 Reset</button>
         </div>
     </div>
 
-    <!-- Questions Container -->
     <div id="questionsContainer"></div>
-
 </div>
 
-<!-- Bottom Nav -->
 <div class="bottom-nav">
     <a href="index.html"><span>🏠</span><span>Home</span></a>
     <a href="real_shifts.html" class="active"><span>🔥</span><span>Real Shifts</span></a>
-    <a href="practice_sets.html"><span>🎯</span><span>Practice Sets</span></a>
+    <a href="practice_sets.html"><span>🎯</span><span>Practice</span></a>
     <a href="math_part1.html"><span>📐</span><span>Part-1</span></a>
     <a href="math_part2.html"><span>📊</span><span>Part-2</span></a>
 </div>
 
 <script>
-    const SHIFTS_DATA = [{"shift_id": "sep30_s2", "name": "30 September (Shift 2)", "date": "30 Sep 2026", "questions": [{"id": 1, "topic": "Coordinate Geometry", "question": "The distance between the points (7, 5) and (4, 1) is:", "options": ["4", "5", "6", "7"], "correct": 1, "solution": "Distance = √[(x₂ − x₁)² + (y₂ − y₁)²] = √[(4 − 7)² + (1 − 5)²] = √[(-3)² + (-4)²] = √(9 + 16) = √25 = <b>5</b>.", "shortcut": "⚡ <b>Pythagorean Triplet (3, 4, 5):</b> Δx = 3, Δy = 4 ⟹ Distance = <b>5</b>."}, {"id": 2, "topic": "Mensuration 2D", "question": "A regular hexagon is inscribed in a circle of radius 21 cm. Find the area of the hexagon.", "options": ["441√3 cm²", "661.5√3 cm²", "882√3 cm²", "220.5√3 cm²"], "correct": 1, "solution": "For an inscribed regular hexagon, side a = radius r = 21 cm.<br>Area = 6 × [(√3 / 4) × a²] = (3√3 / 2) × 21² = (3√3 / 2) × 441 = 1323√3 / 2 = <b>661.5√3 cm²</b>.", "shortcut": "⚡ <b>Formula:</b> (3√3 / 2) × r² = 1.5 × 441 × √3 = <b>661.5√3 cm²</b>."}, {"id": 3, "topic": "Geometry", "question": "Two circles have radii 3 cm and 5 cm. The length of the direct common tangent (DCT) is twice the length of the transverse common tangent (TCT). Find the square of the distance between their centres (d²).", "options": ["64", "72", "84", "100"], "correct": 2, "solution": "DCT² = d² − (r₁ − r₂)² = d² − (5 − 3)² = d² − 4.<br>TCT² = d² − (r₁ + r₂)² = d² − (5 + 3)² = d² − 64.<br>Given DCT = 2 · TCT ⟹ DCT² = 4 · TCT².<br>d² − 4 = 4(d² − 64) = 4d² − 256 ⟹ 3d² = 252 ⟹ d² = <b>84</b>.", "shortcut": "⚡ <b>Shortcut:</b> d² = (4 × 64 − 4) / 3 = 252 / 3 = <b>84</b>."}, {"id": 4, "topic": "Algebra", "question": "If x + 1/x = 3√2, then find the value of x / (x² + 1).", "options": ["1 / √14", "1 / √18", "1 / 14", "1 / √7"], "correct": 1, "solution": "Divide numerator and denominator by x:<br>[x / x] / [(x² + 1) / x] = 1 / [x + 1/x].<br>Since x + 1/x = 3√2 = √18, the value is <b>1 / √18 (or 1 / 3√2)</b>.", "shortcut": "⚡ <b>Invert:</b> x / (x² + 1) = 1 / (x + 1/x) = 1 / (3√2) = <b>1 / √18</b>."}, {"id": 5, "topic": "Trigonometry", "question": "If tan θ + cot θ = 2, then find the value of tan²θ + cot²θ.", "options": ["1", "2", "4", "0"], "correct": 1, "solution": "tan θ + 1/tan θ = 2 ⟹ tan θ = 1.<br>tan²θ + cot²θ = 1² + 1² = <b>2</b>.", "shortcut": "⚡ Whenever x + 1/x = 2, x = 1 ⟹ 1ⁿ + 1ⁿ = <b>2</b> always."}, {"id": 6, "topic": "Trigonometry", "question": "If sin θ + cos θ = 5/3, find the value of tan θ + cot θ.", "options": ["9 / 32", "9 / 8", "16 / 5", "5 / 4"], "correct": 1, "solution": "Square both sides: (sin θ + cos θ)² = (5/3)² ⟹ sin²θ + cos²θ + 2sin θ cos θ = 25/9.<br>1 + 2sin θ cos θ = 25/9 ⟹ 2sin θ cos θ = 16/9 ⟹ sin θ cos θ = 8/9.<br>tan θ + cot θ = sin θ/cos θ + cos θ/sin θ = (sin²θ + cos²θ) / (sin θ cos θ) = 1 / (8/9) = <b>9/8</b>.", "shortcut": "⚡ <b>Identity:</b> tan θ + cot θ = 1 / (sin θ cos θ) = 2 / [(sin θ + cos θ)² − 1] = 2 / [25/9 − 1] = 2 / (16/9) = <b>9/8</b>."}, {"id": 7, "topic": "Algebra", "question": "If x = 3 and y = 2, then evaluate: (x³ − y³) / (x² + xy + y²).", "options": ["5", "6", "7", "1"], "correct": 3, "solution": "Standard algebraic identity: x³ − y³ = (x − y)(x² + xy + y²).<br>Therefore, (x³ − y³) / (x² + xy + y²) = x − y.<br>With x = 3 and y = 2: 3 − 2 = <b>1</b>.", "shortcut": "⚡ Direct formula: x − y = 3 − 2 = <b>1</b> (1 second!)."}, {"id": 8, "topic": "Algebra", "question": "Simplify the expression: (x + 2)² − (x − 2)².", "options": ["4x", "8x", "16x", "8"], "correct": 1, "solution": "Identity: (A + B)² − (A − B)² = 4AB.<br>Here A = x, B = 2 ⟹ 4(x)(2) = <b>8x</b>.", "shortcut": "⚡ 4AB = 4 × x × 2 = <b>8x</b>."}, {"id": 9, "topic": "Geometry", "question": "In △ABC, points D and E are on AB and AC respectively such that DE ∥ BC. If AD = 3 cm, DB = 2 cm and DE = 4 cm, find BC.", "options": ["6 cm", "20/3 cm", "7 cm", "8 cm"], "correct": 1, "solution": "Since DE ∥ BC, △ADE ∼ △ABC by AA similarity.<br>AB = AD + DB = 3 + 2 = 5 cm.<br>Ratio of sides: AD / AB = DE / BC ⟹ 3 / 5 = 4 / BC ⟹ BC = (4 × 5) / 3 = <b>20/3 cm (6 2/3 cm)</b>.", "shortcut": "⚡ <b>Thales Theorem:</b> BC = DE × (AB / AD) = 4 × (5 / 3) = <b>20/3 cm</b>."}, {"id": 10, "topic": "Geometry", "question": "A tangent QT is drawn from point Q to a circle with centre O (T is the point of contact). If QT = 6 cm and OQ = 10 cm, find the area of △OQT.", "options": ["20 cm²", "15 cm²", "18 cm²", "24 cm²"], "correct": 3, "solution": "Tangent QT is perpendicular to radius OT: ∠OTQ = 90°.<br>In right △OTQ: OT = √(OQ² − QT²) = √(10² − 6²) = √(100 − 36) = √64 = 8 cm.<br>Area of right △OQT = (1/2) × base × height = (1/2) × 6 × 8 = <b>24 cm²</b>.", "shortcut": "⚡ <b>Triplet (6, 8, 10):</b> Area = (1/2) × 6 × 8 = <b>24 cm²</b>."}, {"id": 11, "topic": "Profit & Loss", "question": "Two articles are sold at ₹990 each. One gives 10% profit and the other 10% loss. What is the overall profit or loss percentage?", "options": ["1% loss", "1% profit", "2% loss", "No profit no loss"], "correct": 0, "solution": "When two items are sold at the same SP, one at x% profit and the other at x% loss, there is always an overall loss.<br>Loss % = (Common % / 10)² = (10 / 10)² = 1² = <b>1% loss</b>.", "shortcut": "⚡ <b>Universal Rule:</b> Loss % = x² / 100 = 100 / 100 = <b>1% loss</b>."}, {"id": 12, "topic": "Simple Interest", "question": "A sum of money becomes ₹875 in 3 years and ₹950 in 4 years at simple interest. Find the principal amount.", "options": ["₹600", "₹650", "₹700", "₹725"], "correct": 1, "solution": "SI for 1 year = Amount in 4 yrs − Amount in 3 yrs = 950 − 875 = ₹75.<br>SI for 3 years = 3 × 75 = ₹225.<br>Principal P = Amount in 3 yrs − SI for 3 yrs = 875 − 225 = <b>₹650</b>.", "shortcut": "⚡ 1 yr interest = 75 ⟹ P = 875 − 3(75) = 875 − 225 = <b>₹650</b>."}, {"id": 13, "topic": "Partnership", "question": "A and B invest ₹12,000 and ₹20,000 respectively for one year. A gets an additional 10% of the total profit for managing the business. If the total profit is ₹9,500, what is A's total profit?", "options": ["₹3,240", "₹4,200", "₹4,156.25", "₹4,800"], "correct": 2, "solution": "Management commission for A = 10% of 9,500 = ₹950.<br>Remaining profit = 9,500 − 950 = ₹8,550.<br>Ratio of investment = 12,000 : 20,000 = 3 : 5 (Total 8 parts).<br>A's share of remaining profit = (3 / 8) × 8,550 = ₹3,206.25.<br>Total earnings of A = 950 + 3,206.25 = <b>₹4,156.25</b>.", "shortcut": "⚡ A = 950 + (3/8 × 8550) = 950 + 3206.25 = <b>₹4,156.25</b>."}, {"id": 14, "topic": "Discounts", "question": "The marked price of an article is ₹8,000. Successive discounts of 15%, 20% and 10% are given. What is the selling price (SP)?", "options": ["₹4,896", "₹4,960", "₹5,040", "₹5,120"], "correct": 0, "solution": "SP = 8000 × (1 − 0.15) × (1 − 0.20) × (1 − 0.10) = 8000 × 0.85 × 0.80 × 0.90.<br>8000 × 0.80 = 6400.<br>6400 × 0.85 = 5440.<br>5440 × 0.90 = <b>₹4,896</b>.", "shortcut": "⚡ <b>Unit Digit:</b> 8 × 85 × 8 × 9 ends in 6 ⟹ <b>₹4,896</b>."}]}, {"shift_id": "oct1_s2", "name": "1 October (Shift 2)", "date": "1 Oct 2026", "questions": [{"id": 1, "topic": "Number System", "question": "How many multiples of 6 lie between 50 and 200? (50 और 200 के बीच 6 के कितने गुणज होंगे?)", "options": ["23", "24", "25", "26"], "correct": 2, "solution": "First multiple = 54, Last multiple = 198.<br>Count = (198 − 54)/6 + 1 = 24 + 1 = <b>25</b>.", "shortcut": "⚡ ⌊200/6⌋ − ⌊50/6⌋ = 33 − 8 = <b>25</b>."}, {"id": 2, "topic": "Average Speed", "question": "A person travels equal distances at 20, 30 and 60 km/h. What is the average speed?", "options": ["36 km/h", "33.3 km/h", "28 km/h", "30 km/h"], "correct": 3, "solution": "LCM = 60. Time = 3 + 2 + 1 = 6 hrs. Avg Speed = 180 / 6 = <b>30 km/h</b>.", "shortcut": "⚡ 3 / (1/20 + 1/30 + 1/60) = <b>30 km/h</b>."}, {"id": 3, "topic": "Geometry", "question": "In a triangle, the centroid divides each median in what ratio, measured from the vertex?", "options": ["2 : 1", "1 : 2", "3 : 1", "1 : 1"], "correct": 0, "solution": "By centroid theorem, G divides median in <b>2 : 1</b> from vertex.", "shortcut": "⚡ Centroid ratio is always <b>2 : 1</b>."}, {"id": 4, "topic": "Algebra", "question": "Simplify: 5√3 − 2√3, given √3 = 1.732.", "options": ["3.464", "5.196", "6.928", "1.732"], "correct": 1, "solution": "3√3 = 3 × 1.732 = <b>5.196</b>.", "shortcut": "⚡ 3 × 1.732 = <b>5.196</b>."}, {"id": 5, "topic": "Profit & Loss", "question": "A person buys 6 articles for ₹x and sells 5 articles for ₹x. Find the profit percentage.", "options": ["16.66%", "25%", "20%", "10%"], "correct": 2, "solution": "Profit % = [(6 − 5)/5] × 100 = <b>20%</b>.", "shortcut": "⚡ 1/5 = <b>20%</b>."}, {"id": 6, "topic": "Geometry", "question": "A chord of a circle has radius 10 cm and its distance from the centre is 6 cm. Find the length of the chord.", "options": ["12 cm", "16 cm", "18 cm", "8 cm"], "correct": 1, "solution": "Half chord = √(10² − 6²) = 8 cm ⟹ Total = 2 × 8 = <b>16 cm</b>.", "shortcut": "⚡ Triplet (6, 8, 10) ⟹ 2 × 8 = <b>16 cm</b>."}, {"id": 7, "topic": "Trigonometry", "question": "If tan θ = √3, find sec²θ + cosec²θ.", "options": ["12/3", "14/3", "16/3", "10/3"], "correct": 2, "solution": "θ = 60° ⟹ sec²60° = 4, cosec²60° = 4/3. Sum = 4 + 4/3 = <b>16/3</b>.", "shortcut": "⚡ sec²θ · cosec²θ = 4 × 4/3 = <b>16/3</b>."}, {"id": 8, "topic": "Time & Work", "question": "A completes work in 15 days, B in 20 days. On alternate days (A starts), how many days to finish?", "options": ["16 days", "16.5 days", "18 days", "17 days"], "correct": 3, "solution": "LCM = 60. In 2 days = 7 units. 16 days = 56 units. Day 17: A does remaining 4 units = <b>17 days</b>.", "shortcut": "⚡ 16 days + 1 day = <b>17 days</b>."}, {"id": 9, "topic": "Mensuration 3D", "question": "A hollow hemisphere has outer radius R and inner radius r. Total painted surface area?", "options": ["π(2R² + r²)", "3π(R² + r²)", "π(3R² + r²)", "2π(R² + r²)"], "correct": 2, "solution": "2πR² + 2πr² + π(R² − r²) = <b>π(3R² + r²)</b>.", "shortcut": "⚡ <b>Formula:</b> π(3R² + r²)."}, {"id": 10, "topic": "Geometry", "question": "Two equal chords are drawn on opposite sides of the centre. What can be said about their distances?", "options": ["They are equal (d₁ = d₂)", "d₁ > d₂", "d₁ < d₂", "Cannot be determined"], "correct": 0, "solution": "Equal chords are equidistant from centre: <b>d₁ = d₂</b>.", "shortcut": "⚡ Equal chords ⟹ Equal distance."}, {"id": 11, "topic": "Trigonometry", "question": "If tan x = √3, find (sec²x + cosec²x) ÷ (sec²x − cosec²x).", "options": ["1", "2", "3", "4"], "correct": 1, "solution": "(4 + 4/3) / (4 − 4/3) = (16/3) / (8/3) = <b>2</b>.", "shortcut": "⚡ (3 + 1)/(3 − 1) = 4/2 = <b>2</b>."}, {"id": 12, "topic": "Mensuration 2D", "question": "Sector area of circle of radius 14 cm and angle 60°:", "options": ["100 cm²", "308/3 cm²", "154 cm²", "616/3 cm²"], "correct": 1, "solution": "(60/360) × π × 14² = (1/6) × 616 = <b>308/3 cm²</b>.", "shortcut": "⚡ 616 / 6 = <b>308/3 cm²</b>."}, {"id": 13, "topic": "Heights & Distances", "question": "Two observers on opposite sides of tower 20 m high have elevations 30° and 60°. Distance between them?", "options": ["40 m", "80√3/3 m", "34.64 m", "52.3 m"], "correct": 1, "solution": "20√3 + 20/√3 = 80/√3 = <b>80√3/3 m (≈ 46.19 m)</b>.", "shortcut": "⚡ 20 × (4/√3) = <b>46.19 m</b>."}, {"id": 14, "topic": "Algebra", "question": "Factorisation of a² − b²:", "options": ["(a − b)²", "(a + b)²", "(a − b)(a + b)", "a² + b²"], "correct": 2, "solution": "a² − b² = <b>(a − b)(a + b)</b>.", "shortcut": "⚡ <b>(a − b)(a + b)</b>."}, {"id": 15, "topic": "Geometry", "question": "Circle radius 9 cm, external point distance 15 cm. Tangent length?", "options": ["10 cm", "12 cm", "14 cm", "8 cm"], "correct": 1, "solution": "√(15² − 9²) = √144 = <b>12 cm</b>.", "shortcut": "⚡ Triplet (9, 12, 15) ⟹ <b>12 cm</b>."}, {"id": 16, "topic": "Speed & Distance", "question": "Speed increases by x km/h, reaches t hrs earlier. Initial speed 5 km/h. Distance?", "options": ["5x / (5+x) · t", "x / (5(5+x)) · t", "5(5+x)/x · t", "5xt"], "correct": 2, "solution": "D = [S₁S₂ / (S₂ − S₁)] × t = <b>[5(5 + x) / x] × t</b>.", "shortcut": "⚡ Product of speeds / diff in speed = <b>5(5+x)t / x</b>."}, {"id": 17, "topic": "Number System", "question": "Value of x if 7x35 is divisible by 11:", "options": ["5", "4", "6", "3"], "correct": 0, "solution": "(7 + 3) − (x + 5) = 0 ⟹ 5 − x = 0 ⟹ x = <b>5</b>.", "shortcut": "⚡ 10 − (x + 5) = 0 ⟹ x = <b>5</b>."}]}, {"shift_id": "oct10_all", "name": "10 October (All Shifts)", "date": "10 Oct 2026", "questions": [{"id": 1, "topic": "Algebra", "question": "If x + 1/x = 17, find x³ + 1/x³.", "options": ["4,862", "4,913", "4,800", "4,964"], "correct": 0, "solution": "x³ + 1/x³ = k³ − 3k = 17³ − 3(17) = 4913 − 51 = <b>4,862</b>.", "shortcut": "⚡ 17³ − 51 = 4913 − 51 = <b>4,862</b>."}, {"id": 2, "topic": "Compound Interest", "question": "Find the compound interest on ₹12,000 at 15% per annum for 3 years.", "options": ["₹6,250.50", "₹5,400.00", "₹6,480.00", "₹6,000.00"], "correct": 0, "solution": "A = 12000 × (1.15)³ = 12000 × 1.520875 = ₹18,250.50.<br>CI = 18250.50 − 12000 = <b>₹6,250.50</b>.", "shortcut": "⚡ 3-year effective rate for 15% is 52.0875% ⟹ 12000 × 0.520875 = <b>₹6,250.50</b>."}, {"id": 3, "topic": "Alligation & Mixtures", "question": "In a mixture, the ratio of milk and water is 5 : 3. What fraction of the mixture must be drawn off and replaced with water so that the final ratio becomes 1 : 1?", "options": ["1/5", "1/4", "1/6", "1/8"], "correct": 0, "solution": "Initial milk fraction = 5/8. Final milk fraction = 1/2 = 4/8.<br>Milk decreased from 5/8 to 4/8, so reduction is 1/8.<br>Fraction removed = (1/8) / (5/8) = <b>1/5</b>.", "shortcut": "⚡ <b>Shortcut:</b> Difference in milk = 5 − 4 = 1. Fraction = 1 / initial milk = <b>1/5</b>."}, {"id": 4, "topic": "Geometry", "question": "In a circle, a chord of length 48 cm is at a distance of 7 cm from the centre. What will be the length of another chord which is at a distance of 24 cm from the centre?", "options": ["14 cm", "16 cm", "18 cm", "12 cm"], "correct": 0, "solution": "Half of first chord = 48 / 2 = 24 cm.<br>Radius r = √(24² + 7²) = √(576 + 49) = √625 = 25 cm (Triplet 7, 24, 25).<br>For second chord at distance 24 cm: Half chord = √(25² − 24²) = √49 = 7 cm.<br>Full length of second chord = 2 × 7 = <b>14 cm</b>.", "shortcut": "⚡ <b>Symmetric Triplet (7, 24, 25):</b> If dist 7 gives half-chord 24, dist 24 gives half-chord 7 ⟹ Total = 2 × 7 = <b>14 cm</b>."}, {"id": 5, "topic": "Algebra", "question": "If 2x = 3y, evaluate: (x² − y²) / (x² + y² + xy).", "options": ["5 / 19", "3 / 19", "5 / 13", "1 / 3"], "correct": 0, "solution": "x / y = 3 / 2. Put x = 3, y = 2.<br>Numerator = 3² − 2² = 9 − 4 = 5.<br>Denominator = 3² + 2² + (3)(2) = 9 + 4 + 6 = 19.<br>Value = <b>5 / 19</b>.", "shortcut": "⚡ Put x = 3, y = 2 ⟹ (9 − 4)/(9 + 4 + 6) = <b>5/19</b>."}, {"id": 6, "topic": "Geometry", "question": "The length of a chord of a circle is 5 cm. If this chord subtends an angle of 30° at the circumference, what is the radius of the circle?", "options": ["5 cm", "10 cm", "2.5 cm", "5√3 cm"], "correct": 0, "solution": "Angle subtended at the centre = 2 × 30° = 60°.<br>In △OAB, OA = OB = R and ∠AOB = 60° ⟹ △OAB is equilateral!<br>Therefore, Radius R = Chord length = <b>5 cm</b>.", "shortcut": "⚡ <b>Property:</b> If angle at circumference is 30°, central angle is 60° ⟹ Radius = Chord = <b>5 cm</b>."}, {"id": 7, "topic": "Mensuration 3D", "question": "The radius of a right circular cone is R and its height is 3 times its radius. What is its Total Surface Area (TSA)?", "options": ["πR²(√10 + 1)", "πR²(√10 − 1)", "3πR²", "πR²√10"], "correct": 0, "solution": "h = 3R. Slant height l = √(R² + (3R)²) = √(10R²) = R√10.<br>TSA = πR(l + R) = πR(R√10 + R) = <b>πR²(√10 + 1)</b>.", "shortcut": "⚡ l = R√10 ⟹ TSA = πR(R√10 + R) = <b>πR²(√10 + 1)</b>."}, {"id": 8, "topic": "Algebra", "question": "If a + b + c = 0, find the value of (a³ + b³ + c³) / abc (where a, b, c ≠ 0).", "options": ["0", "1", "3", "−3"], "correct": 2, "solution": "When a + b + c = 0, a³ + b³ + c³ = 3abc.<br>Therefore, (a³ + b³ + c³) / abc = 3abc / abc = <b>3</b>.", "shortcut": "⚡ Standard identity: Value is always <b>3</b>."}, {"id": 9, "topic": "Mensuration 2D", "question": "A rectangular field is 40 m long and 30 m wide. A 2 m wide path runs around it on the outside. Find the area of the path.", "options": ["280 m²", "296 m²", "304 m²", "312 m²"], "correct": 1, "solution": "Outer dimensions = (40 + 4) × (30 + 4) = 44 × 34 = 1,496 m².<br>Inner area = 40 × 30 = 1,200 m².<br>Path area = 1,496 − 1,200 = <b>296 m²</b>.", "shortcut": "⚡ <b>Formula:</b> 2w(l + b + 2w) = 2(2)(40 + 30 + 4) = 4 × 74 = <b>296 m²</b>."}, {"id": 10, "topic": "Trigonometry", "question": "Evaluate: sin 30° cos 60° + sin 60° cos 30°.", "options": ["1/2", "1", "√3/2", "5/4"], "correct": 1, "solution": "Identity: sin(A + B) = sin A cos B + cos A sin B.<br>sin(30° + 60°) = sin 90° = <b>1</b>.", "shortcut": "⚡ sin(30° + 60°) = sin 90° = <b>1</b>."}]}, {"shift_id": "oct12_imp", "name": "12 October (Important Types)", "date": "12 Oct 2026", "questions": [{"id": 1, "topic": "Number System", "question": "What is the square of 196?", "options": ["38,416", "38,216", "39,416", "37,816"], "correct": 0, "solution": "196² = (200 − 4)² = 200² − 2(200)(4) + 4² = 40,000 − 1,600 + 16 = <b>38,416</b>.", "shortcut": "⚡ (200 − 4)² = 40000 − 1600 + 16 = <b>38,416</b>."}, {"id": 2, "topic": "Trigonometry", "question": "If tan A = 3/4, find the value of (sin A − 1)(sin A + 1).", "options": ["−16/25", "16/25", "−9/25", "9/25"], "correct": 0, "solution": "(sin A − 1)(sin A + 1) = sin²A − 1 = −(1 − sin²A) = −cos²A.<br>tan A = 3/4 ⟹ Triplet (3, 4, 5) ⟹ cos A = 4/5.<br>−cos²A = −(4/5)² = <b>−16/25</b>.", "shortcut": "⚡ sin²A − 1 = −cos²A = −(4/5)² = <b>−16/25</b>."}, {"id": 3, "topic": "Partnership", "question": "A and B invest in a business in the ratio 7 : 8. A withdraws after 7 months. If their profits are in the ratio 49 : 40, for how many months did B invest?", "options": ["4 months", "5 months", "6 months", "8 months"], "correct": 1, "solution": "Profit Ratio = (Investment_A × Time_A) / (Investment_B × Time_B).<br>(7 × 7) / (8 × t) = 49 / 40 ⟹ 49 / (8t) = 49 / 40 ⟹ 8t = 40 ⟹ t = <b>5 months</b>.", "shortcut": "⚡ 8t = 40 ⟹ t = <b>5 months</b>."}, {"id": 4, "topic": "Geometry", "question": "Two tangents are drawn to a circle of radius 7 cm such that the angle between them is 120°. Find the distance from the centre to the external point.", "options": ["14/√3 cm", "7√3 cm", "14 cm", "7/√3 cm"], "correct": 0, "solution": "Line joining external point to centre bisects the 120° angle: half-angle = 60°.<br>In right triangle: sin 60° = Radius / Distance = 7 / d.<br>√3 / 2 = 7 / d ⟹ d = 14 / √3 = <b>14/√3 cm</b>.", "shortcut": "⚡ d = r / sin(θ/2) = 7 / sin 60° = 7 / (√3/2) = <b>14/√3 cm</b>."}, {"id": 5, "topic": "Profit & Loss", "question": "If the cost price of 15 articles equals the selling price of 20 articles, find the loss percentage.", "options": ["20%", "25%", "33.33%", "15%"], "correct": 1, "solution": "15 CP = 20 SP ⟹ SP / CP = 15 / 20 = 3 / 4.<br>Loss % = (1 − 3/4) × 100 = <b>25%</b>.", "shortcut": "⚡ Loss % = [(20 − 15) / 20] × 100 = 5/20 = <b>25%</b>."}, {"id": 6, "topic": "Mensuration 3D", "question": "Find the total surface area of a right circular cone with base radius 4 units and vertical height 3 units.", "options": ["36π sq units", "24π sq units", "20π sq units", "16π sq units"], "correct": 0, "solution": "Slant height l = √(4² + 3²) = 5 units (Triplet 3, 4, 5).<br>TSA = πr(l + r) = π × 4 × (5 + 4) = π × 4 × 9 = <b>36π sq units</b>.", "shortcut": "⚡ Triplet (3, 4, 5) ⟹ l = 5. TSA = π(4)(5 + 4) = <b>36π</b>."}, {"id": 7, "topic": "Mensuration 3D", "question": "A conical tent has base radius 7 m and slant height 25 m. Find the cost of canvas for its curved surface at ₹22.50 per sq. metre.", "options": ["₹12,375", "₹11,500", "₹13,200", "₹10,850"], "correct": 0, "solution": "CSA = πrl = (22/7) × 7 × 25 = 22 × 25 = 550 m².<br>Cost = 550 × ₹22.50 = 550 × (45 / 2) = 275 × 45 = <b>₹12,375</b>.", "shortcut": "⚡ 550 × 22.5 = 1100 × 11.25 = <b>₹12,375</b>."}, {"id": 8, "topic": "Geometry", "question": "Two tangents PA and PB are drawn from external point P to a circle of radius 4 cm. If the angle between tangent PA and line PO is 30°, find the length of the tangent.", "options": ["4√3 cm", "8 cm", "4/√3 cm", "6 cm"], "correct": 0, "solution": "∠PAO = 90° and ∠APO = 30°.<br>tan 30° = Radius / Tangent = 4 / PA.<br>1/√3 = 4 / PA ⟹ PA = <b>4√3 cm</b>.", "shortcut": "⚡ PA = 4 / tan 30° = <b>4√3 cm</b>."}, {"id": 9, "topic": "Geometry", "question": "A chord of a circle is 16 cm long and its distance from the centre is 15 cm. Find the radius of the circle.", "options": ["17 cm", "18 cm", "19 cm", "20 cm"], "correct": 0, "solution": "Half chord = 16 / 2 = 8 cm.<br>Radius r = √(15² + 8²) = √(225 + 64) = √289 = <b>17 cm</b>.", "shortcut": "⚡ <b>Triplet (8, 15, 17):</b> Radius = <b>17 cm</b>."}, {"id": 10, "topic": "Algebra", "question": "If x = 2 + √3, find the value of x + 1/x.", "options": ["4", "2√3", "2", "4√3"], "correct": 0, "solution": "1/x = 1 / (2 + √3) = 2 − √3.<br>x + 1/x = (2 + √3) + (2 − √3) = <b>4</b>.", "shortcut": "⚡ 2 × first term = 2 × 2 = <b>4</b>."}, {"id": 11, "topic": "Algebra", "question": "If x + 1/x = 6, find the value of x⁵ + 1/x⁵.", "options": ["6,726", "6,732", "6,696", "6,750"], "correct": 0, "solution": "x² + 1/x² = 6² − 2 = 34.<br>x³ + 1/x³ = 6³ − 3(6) = 216 − 18 = 198.<br>x⁵ + 1/x⁵ = (x² + 1/x²)(x³ + 1/x³) − (x + 1/x) = (34 × 198) − 6 = 6732 − 6 = <b>6,726</b>.", "shortcut": "⚡ (34 × 198) − 6 = 6732 − 6 = <b>6,726</b>."}, {"id": 12, "topic": "Mensuration 3D", "question": "A solid pyramid has base area of 40 cm² and vertical height of 5 cm. Find its volume.", "options": ["200/3 cm³", "100 cm³", "200 cm³", "150 cm³"], "correct": 0, "solution": "Volume = (1/3) × Base Area × Height = (1/3) × 40 × 5 = <b>200/3 cm³ (66.67 cm³)</b>.", "shortcut": "⚡ (1/3) × 40 × 5 = <b>200/3 cm³</b>."}, {"id": 13, "topic": "Geometry", "question": "The number of sides of two regular polygons are in the ratio 1 : 2 and their interior angles are in the ratio 3 : 4. Find the number of sides of both polygons.", "options": ["5 and 10", "4 and 8", "6 and 12", "3 and 6"], "correct": 0, "solution": "Let sides be n and 2n.<br>Interior angle of polygon 1 = [(n − 2) × 180°] / n.<br>Interior angle of polygon 2 = [(2n − 2) × 180°] / 2n.<br>Ratio: {[(n − 2)/n] / [(2n − 2)/2n]} = 3/4 ⟹ [(n − 2) / (n − 1)] = 3/4 ⟹ 4n − 8 = 3n − 3 ⟹ n = 5.<br>Sides are <b>5 and 10</b>.", "shortcut": "⚡ Check options: For 5 and 10, angles are 108° and 144°. Ratio = 108/144 = 3/4. Matches <b>5 and 10</b>!"}]}];
+const SHIFTS_DATA = [{"shift_id": "sep30_s2", "name": "30 September (Shift 2)", "date": "30 Sep 2026", "questions": [{"id": 1, "topic": "Coordinate Geometry", "question": "The distance between the points (7, 5) and (4, 1) is:", "options": ["4", "5", "6", "7"], "correct": 1, "solution": "Distance = √[(x₂ − x₁)² + (y₂ − y₁)²] = √[(4 − 7)² + (1 − 5)²] = √[(-3)² + (-4)²] = √(9 + 16) = √25 = <b>5</b>.", "shortcut": "⚡ <b>Pythagorean Triplet (3, 4, 5):</b> Δx = 3, Δy = 4 ⟹ Distance = <b>5</b>."}, {"id": 2, "topic": "Mensuration 2D", "question": "A regular hexagon is inscribed in a circle of radius 21 cm. Find the area of the hexagon.", "options": ["441√3 cm²", "661.5√3 cm²", "882√3 cm²", "220.5√3 cm²"], "correct": 1, "solution": "For an inscribed regular hexagon, side a = radius r = 21 cm.<br>Area = 6 × [(√3 / 4) × a²] = (3√3 / 2) × 21² = (3√3 / 2) × 441 = 1323√3 / 2 = <b>661.5√3 cm²</b>.", "shortcut": "⚡ <b>Formula:</b> (3√3 / 2) × r² = 1.5 × 441 × √3 = <b>661.5√3 cm²</b>."}, {"id": 3, "topic": "Geometry", "question": "Two circles have radii 3 cm and 5 cm. The length of the direct common tangent (DCT) is twice the length of the transverse common tangent (TCT). Find the square of the distance between their centres (d²).", "options": ["64", "72", "84", "100"], "correct": 2, "solution": "DCT² = d² − (r₁ − r₂)² = d² − (5 − 3)² = d² − 4.<br>TCT² = d² − (r₁ + r₂)² = d² − (5 + 3)² = d² − 64.<br>Given DCT = 2 · TCT ⟹ DCT² = 4 · TCT².<br>d² − 4 = 4(d² − 64) = 4d² − 256 ⟹ 3d² = 252 ⟹ d² = <b>84</b>.", "shortcut": "⚡ <b>Shortcut:</b> d² = (4 × 64 − 4) / 3 = 252 / 3 = <b>84</b>."}, {"id": 4, "topic": "Algebra", "question": "If x + 1/x = 3√2, then find the value of x / (x² + 1).", "options": ["1 / √14", "1 / √18", "1 / 14", "1 / √7"], "correct": 1, "solution": "Divide numerator and denominator by x:<br>[x / x] / [(x² + 1) / x] = 1 / [x + 1/x].<br>Since x + 1/x = 3√2 = √18, the value is <b>1 / √18 (or 1 / 3√2)</b>.", "shortcut": "⚡ <b>Invert:</b> x / (x² + 1) = 1 / (x + 1/x) = 1 / (3√2) = <b>1 / √18</b>."}, {"id": 5, "topic": "Trigonometry", "question": "If tan θ + cot θ = 2, then find the value of tan²θ + cot²θ.", "options": ["1", "2", "4", "0"], "correct": 1, "solution": "tan θ + 1/tan θ = 2 ⟹ tan θ = 1.<br>tan²θ + cot²θ = 1² + 1² = <b>2</b>.", "shortcut": "⚡ Whenever x + 1/x = 2, x = 1 ⟹ 1ⁿ + 1ⁿ = <b>2</b> always."}, {"id": 6, "topic": "Trigonometry", "question": "If sin θ + cos θ = 5/3, find the value of tan θ + cot θ.", "options": ["9 / 32", "9 / 8", "16 / 5", "5 / 4"], "correct": 1, "solution": "Square both sides: (sin θ + cos θ)² = (5/3)² ⟹ sin²θ + cos²θ + 2sin θ cos θ = 25/9.<br>1 + 2sin θ cos θ = 25/9 ⟹ 2sin θ cos θ = 16/9 ⟹ sin θ cos θ = 8/9.<br>tan θ + cot θ = sin θ/cos θ + cos θ/sin θ = (sin²θ + cos²θ) / (sin θ cos θ) = 1 / (8/9) = <b>9/8</b>.", "shortcut": "⚡ <b>Identity:</b> tan θ + cot θ = 1 / (sin θ cos θ) = 2 / [(sin θ + cos θ)² − 1] = 2 / [25/9 − 1] = 2 / (16/9) = <b>9/8</b>."}, {"id": 7, "topic": "Algebra", "question": "If x = 3 and y = 2, then evaluate: (x³ − y³) / (x² + xy + y²).", "options": ["5", "6", "7", "1"], "correct": 3, "solution": "Standard algebraic identity: x³ − y³ = (x − y)(x² + xy + y²).<br>Therefore, (x³ − y³) / (x² + xy + y²) = x − y.<br>With x = 3 and y = 2: 3 − 2 = <b>1</b>.", "shortcut": "⚡ Direct formula: x − y = 3 − 2 = <b>1</b> (1 second!)."}, {"id": 8, "topic": "Algebra", "question": "Simplify the expression: (x + 2)² − (x − 2)².", "options": ["4x", "8x", "16x", "8"], "correct": 1, "solution": "Identity: (A + B)² − (A − B)² = 4AB.<br>Here A = x, B = 2 ⟹ 4(x)(2) = <b>8x</b>.", "shortcut": "⚡ 4AB = 4 × x × 2 = <b>8x</b>."}, {"id": 9, "topic": "Geometry", "question": "In △ABC, points D and E are on AB and AC respectively such that DE ∥ BC. If AD = 3 cm, DB = 2 cm and DE = 4 cm, find BC.", "options": ["6 cm", "20/3 cm", "7 cm", "8 cm"], "correct": 1, "solution": "Since DE ∥ BC, △ADE ∼ △ABC by AA similarity.<br>AB = AD + DB = 3 + 2 = 5 cm.<br>Ratio of sides: AD / AB = DE / BC ⟹ 3 / 5 = 4 / BC ⟹ BC = (4 × 5) / 3 = <b>20/3 cm (6 2/3 cm)</b>.", "shortcut": "⚡ <b>Thales Theorem:</b> BC = DE × (AB / AD) = 4 × (5 / 3) = <b>20/3 cm</b>."}, {"id": 10, "topic": "Geometry", "question": "A tangent QT is drawn from point Q to a circle with centre O (T is the point of contact). If QT = 6 cm and OQ = 10 cm, find the area of △OQT.", "options": ["20 cm²", "15 cm²", "18 cm²", "24 cm²"], "correct": 3, "solution": "Tangent QT is perpendicular to radius OT: ∠OTQ = 90°.<br>In right △OTQ: OT = √(OQ² − QT²) = √(10² − 6²) = √(100 − 36) = √64 = 8 cm.<br>Area of right △OQT = (1/2) × base × height = (1/2) × 6 × 8 = <b>24 cm²</b>.", "shortcut": "⚡ <b>Triplet (6, 8, 10):</b> Area = (1/2) × 6 × 8 = <b>24 cm²</b>."}, {"id": 11, "topic": "Profit & Loss", "question": "Two articles are sold at ₹990 each. One gives 10% profit and the other 10% loss. What is the overall profit or loss percentage?", "options": ["1% loss", "1% profit", "2% loss", "No profit no loss"], "correct": 0, "solution": "When two items are sold at the same SP, one at x% profit and the other at x% loss, there is always an overall loss.<br>Loss % = (Common % / 10)² = (10 / 10)² = 1² = <b>1% loss</b>.", "shortcut": "⚡ <b>Universal Rule:</b> Loss % = x² / 100 = 100 / 100 = <b>1% loss</b>."}, {"id": 12, "topic": "Simple Interest", "question": "A sum of money becomes ₹875 in 3 years and ₹950 in 4 years at simple interest. Find the principal amount.", "options": ["₹600", "₹650", "₹700", "₹725"], "correct": 1, "solution": "SI for 1 year = Amount in 4 yrs − Amount in 3 yrs = 950 − 875 = ₹75.<br>SI for 3 years = 3 × 75 = ₹225.<br>Principal P = Amount in 3 yrs − SI for 3 yrs = 875 − 225 = <b>₹650</b>.", "shortcut": "⚡ 1 yr interest = 75 ⟹ P = 875 − 3(75) = 875 − 225 = <b>₹650</b>."}, {"id": 13, "topic": "Partnership", "question": "A and B invest ₹12,000 and ₹20,000 respectively for one year. A gets an additional 10% of the total profit for managing the business. If the total profit is ₹9,500, what is A's total profit?", "options": ["₹3,240", "₹4,200", "₹4,156.25", "₹4,800"], "correct": 2, "solution": "Management commission for A = 10% of 9,500 = ₹950.<br>Remaining profit = 9,500 − 950 = ₹8,550.<br>Ratio of investment = 12,000 : 20,000 = 3 : 5 (Total 8 parts).<br>A's share of remaining profit = (3 / 8) × 8,550 = ₹3,206.25.<br>Total earnings of A = 950 + 3,206.25 = <b>₹4,156.25</b>.", "shortcut": "⚡ A = 950 + (3/8 × 8550) = 950 + 3206.25 = <b>₹4,156.25</b>."}, {"id": 14, "topic": "Discounts", "question": "The marked price of an article is ₹8,000. Successive discounts of 15%, 20% and 10% are given. What is the selling price (SP)?", "options": ["₹4,896", "₹4,960", "₹5,040", "₹5,120"], "correct": 0, "solution": "SP = 8000 × (1 − 0.15) × (1 − 0.20) × (1 − 0.10) = 8000 × 0.85 × 0.80 × 0.90.<br>8000 × 0.80 = 6400.<br>6400 × 0.85 = 5440.<br>5440 × 0.90 = <b>₹4,896</b>.", "shortcut": "⚡ <b>Unit Digit:</b> 8 × 85 × 8 × 9 ends in 6 ⟹ <b>₹4,896</b>."}]}, {"shift_id": "oct1_s2", "name": "1 October (Shift 2)", "date": "1 Oct 2026", "questions": [{"id": 1, "topic": "Number System", "question": "How many multiples of 6 lie between 50 and 200? (50 और 200 के बीच 6 के कितने गुणज होंगे?)", "options": ["23", "24", "25", "26"], "correct": 2, "solution": "First multiple = 54, Last multiple = 198.<br>Count = (198 − 54)/6 + 1 = 24 + 1 = <b>25</b>.", "shortcut": "⚡ ⌊200/6⌋ − ⌊50/6⌋ = 33 − 8 = <b>25</b>."}, {"id": 2, "topic": "Average Speed", "question": "A person travels equal distances at 20, 30 and 60 km/h. What is the average speed?", "options": ["36 km/h", "33.3 km/h", "28 km/h", "30 km/h"], "correct": 3, "solution": "LCM = 60. Time = 3 + 2 + 1 = 6 hrs. Avg Speed = 180 / 6 = <b>30 km/h</b>.", "shortcut": "⚡ 3 / (1/20 + 1/30 + 1/60) = <b>30 km/h</b>."}, {"id": 3, "topic": "Geometry", "question": "In a triangle, the centroid divides each median in what ratio, measured from the vertex?", "options": ["2 : 1", "1 : 2", "3 : 1", "1 : 1"], "correct": 0, "solution": "By centroid theorem, G divides median in <b>2 : 1</b> from vertex.", "shortcut": "⚡ Centroid ratio is always <b>2 : 1</b>."}, {"id": 4, "topic": "Algebra", "question": "Simplify: 5√3 − 2√3, given √3 = 1.732.", "options": ["3.464", "5.196", "6.928", "1.732"], "correct": 1, "solution": "3√3 = 3 × 1.732 = <b>5.196</b>.", "shortcut": "⚡ 3 × 1.732 = <b>5.196</b>."}, {"id": 5, "topic": "Profit & Loss", "question": "A person buys 6 articles for ₹x and sells 5 articles for ₹x. Find the profit percentage.", "options": ["16.66%", "25%", "20%", "10%"], "correct": 2, "solution": "Profit % = [(6 − 5)/5] × 100 = <b>20%</b>.", "shortcut": "⚡ 1/5 = <b>20%</b>."}, {"id": 6, "topic": "Geometry", "question": "A chord of a circle has radius 10 cm and its distance from the centre is 6 cm. Find the length of the chord.", "options": ["12 cm", "16 cm", "18 cm", "8 cm"], "correct": 1, "solution": "Half chord = √(10² − 6²) = 8 cm ⟹ Total = 2 × 8 = <b>16 cm</b>.", "shortcut": "⚡ Triplet (6, 8, 10) ⟹ 2 × 8 = <b>16 cm</b>."}, {"id": 7, "topic": "Trigonometry", "question": "If tan θ = √3, find sec²θ + cosec²θ.", "options": ["12/3", "14/3", "16/3", "10/3"], "correct": 2, "solution": "θ = 60° ⟹ sec²60° = 4, cosec²60° = 4/3. Sum = 4 + 4/3 = <b>16/3</b>.", "shortcut": "⚡ sec²θ · cosec²θ = 4 × 4/3 = <b>16/3</b>."}, {"id": 8, "topic": "Time & Work", "question": "A completes work in 15 days, B in 20 days. On alternate days (A starts), how many days to finish?", "options": ["16 days", "16.5 days", "18 days", "17 days"], "correct": 3, "solution": "LCM = 60. In 2 days = 7 units. 16 days = 56 units. Day 17: A does remaining 4 units = <b>17 days</b>.", "shortcut": "⚡ 16 days + 1 day = <b>17 days</b>."}, {"id": 9, "topic": "Mensuration 3D", "question": "A hollow hemisphere has outer radius R and inner radius r. Total painted surface area?", "options": ["π(2R² + r²)", "3π(R² + r²)", "π(3R² + r²)", "2π(R² + r²)"], "correct": 2, "solution": "2πR² + 2πr² + π(R² − r²) = <b>π(3R² + r²)</b>.", "shortcut": "⚡ <b>Formula:</b> π(3R² + r²)."}, {"id": 10, "topic": "Geometry", "question": "Two equal chords are drawn on opposite sides of the centre. What can be said about their distances?", "options": ["They are equal (d₁ = d₂)", "d₁ > d₂", "d₁ < d₂", "Cannot be determined"], "correct": 0, "solution": "Equal chords are equidistant from centre: <b>d₁ = d₂</b>.", "shortcut": "⚡ Equal chords ⟹ Equal distance."}, {"id": 11, "topic": "Trigonometry", "question": "If tan x = √3, find (sec²x + cosec²x) ÷ (sec²x − cosec²x).", "options": ["1", "2", "3", "4"], "correct": 1, "solution": "(4 + 4/3) / (4 − 4/3) = (16/3) / (8/3) = <b>2</b>.", "shortcut": "⚡ (3 + 1)/(3 − 1) = 4/2 = <b>2</b>."}, {"id": 12, "topic": "Mensuration 2D", "question": "Sector area of circle of radius 14 cm and angle 60°:", "options": ["100 cm²", "308/3 cm²", "154 cm²", "616/3 cm²"], "correct": 1, "solution": "(60/360) × π × 14² = (1/6) × 616 = <b>308/3 cm²</b>.", "shortcut": "⚡ 616 / 6 = <b>308/3 cm²</b>."}, {"id": 13, "topic": "Heights & Distances", "question": "Two observers on opposite sides of tower 20 m high have elevations 30° and 60°. Distance between them?", "options": ["40 m", "80√3/3 m", "34.64 m", "52.3 m"], "correct": 1, "solution": "20√3 + 20/√3 = 80/√3 = <b>80√3/3 m (≈ 46.19 m)</b>.", "shortcut": "⚡ 20 × (4/√3) = <b>46.19 m</b>."}, {"id": 14, "topic": "Algebra", "question": "Factorisation of a² − b²:", "options": ["(a − b)²", "(a + b)²", "(a − b)(a + b)", "a² + b²"], "correct": 2, "solution": "a² − b² = <b>(a − b)(a + b)</b>.", "shortcut": "⚡ <b>(a − b)(a + b)</b>."}, {"id": 15, "topic": "Geometry", "question": "Circle radius 9 cm, external point distance 15 cm. Tangent length?", "options": ["10 cm", "12 cm", "14 cm", "8 cm"], "correct": 1, "solution": "√(15² − 9²) = √144 = <b>12 cm</b>.", "shortcut": "⚡ Triplet (9, 12, 15) ⟹ <b>12 cm</b>."}, {"id": 16, "topic": "Speed & Distance", "question": "Speed increases by x km/h, reaches t hrs earlier. Initial speed 5 km/h. Distance?", "options": ["5x / (5+x) · t", "x / (5(5+x)) · t", "5(5+x)/x · t", "5xt"], "correct": 2, "solution": "D = [S₁S₂ / (S₂ − S₁)] × t = <b>[5(5 + x) / x] × t</b>.", "shortcut": "⚡ Product of speeds / diff in speed = <b>5(5+x)t / x</b>."}, {"id": 17, "topic": "Number System", "question": "Value of x if 7x35 is divisible by 11:", "options": ["5", "4", "6", "3"], "correct": 0, "solution": "(7 + 3) − (x + 5) = 0 ⟹ 5 − x = 0 ⟹ x = <b>5</b>.", "shortcut": "⚡ 10 − (x + 5) = 0 ⟹ x = <b>5</b>."}]}, {"shift_id": "oct10_all", "name": "10 October (All Shifts)", "date": "10 Oct 2026", "questions": [{"id": 1, "topic": "Algebra", "question": "If x + 1/x = 17, find x³ + 1/x³.", "options": ["4,862", "4,913", "4,800", "4,964"], "correct": 0, "solution": "x³ + 1/x³ = k³ − 3k = 17³ − 3(17) = 4913 − 51 = <b>4,862</b>.", "shortcut": "⚡ 17³ − 51 = 4913 − 51 = <b>4,862</b>."}, {"id": 2, "topic": "Compound Interest", "question": "Find the compound interest on ₹12,000 at 15% per annum for 3 years.", "options": ["₹6,250.50", "₹5,400.00", "₹6,480.00", "₹6,000.00"], "correct": 0, "solution": "A = 12000 × (1.15)³ = 12000 × 1.520875 = ₹18,250.50.<br>CI = 18250.50 − 12000 = <b>₹6,250.50</b>.", "shortcut": "⚡ 3-year effective rate for 15% is 52.0875% ⟹ 12000 × 0.520875 = <b>₹6,250.50</b>."}, {"id": 3, "topic": "Alligation & Mixtures", "question": "In a mixture, the ratio of milk and water is 5 : 3. What fraction of the mixture must be drawn off and replaced with water so that the final ratio becomes 1 : 1?", "options": ["1/5", "1/4", "1/6", "1/8"], "correct": 0, "solution": "Initial milk fraction = 5/8. Final milk fraction = 1/2 = 4/8.<br>Milk decreased from 5/8 to 4/8, so reduction is 1/8.<br>Fraction removed = (1/8) / (5/8) = <b>1/5</b>.", "shortcut": "⚡ <b>Shortcut:</b> Difference in milk = 5 − 4 = 1. Fraction = 1 / initial milk = <b>1/5</b>."}, {"id": 4, "topic": "Geometry", "question": "In a circle, a chord of length 48 cm is at a distance of 7 cm from the centre. What will be the length of another chord which is at a distance of 24 cm from the centre?", "options": ["14 cm", "16 cm", "18 cm", "12 cm"], "correct": 0, "solution": "Half of first chord = 48 / 2 = 24 cm.<br>Radius r = √(24² + 7²) = √(576 + 49) = √625 = 25 cm (Triplet 7, 24, 25).<br>For second chord at distance 24 cm: Half chord = √(25² − 24²) = √49 = 7 cm.<br>Full length of second chord = 2 × 7 = <b>14 cm</b>.", "shortcut": "⚡ <b>Symmetric Triplet (7, 24, 25):</b> If dist 7 gives half-chord 24, dist 24 gives half-chord 7 ⟹ Total = 2 × 7 = <b>14 cm</b>."}, {"id": 5, "topic": "Algebra", "question": "If 2x = 3y, evaluate: (x² − y²) / (x² + y² + xy).", "options": ["5 / 19", "3 / 19", "5 / 13", "1 / 3"], "correct": 0, "solution": "x / y = 3 / 2. Put x = 3, y = 2.<br>Numerator = 3² − 2² = 9 − 4 = 5.<br>Denominator = 3² + 2² + (3)(2) = 9 + 4 + 6 = 19.<br>Value = <b>5 / 19</b>.", "shortcut": "⚡ Put x = 3, y = 2 ⟹ (9 − 4)/(9 + 4 + 6) = <b>5/19</b>."}, {"id": 6, "topic": "Geometry", "question": "The length of a chord of a circle is 5 cm. If this chord subtends an angle of 30° at the circumference, what is the radius of the circle?", "options": ["5 cm", "10 cm", "2.5 cm", "5√3 cm"], "correct": 0, "solution": "Angle subtended at the centre = 2 × 30° = 60°.<br>In △OAB, OA = OB = R and ∠AOB = 60° ⟹ △OAB is equilateral!<br>Therefore, Radius R = Chord length = <b>5 cm</b>.", "shortcut": "⚡ <b>Property:</b> If angle at circumference is 30°, central angle is 60° ⟹ Radius = Chord = <b>5 cm</b>."}, {"id": 7, "topic": "Mensuration 3D", "question": "The radius of a right circular cone is R and its height is 3 times its radius. What is its Total Surface Area (TSA)?", "options": ["πR²(√10 + 1)", "πR²(√10 − 1)", "3πR²", "πR²√10"], "correct": 0, "solution": "h = 3R. Slant height l = √(R² + (3R)²) = √(10R²) = R√10.<br>TSA = πR(l + R) = πR(R√10 + R) = <b>πR²(√10 + 1)</b>.", "shortcut": "⚡ l = R√10 ⟹ TSA = πR(R√10 + R) = <b>πR²(√10 + 1)</b>."}, {"id": 8, "topic": "Algebra", "question": "If a + b + c = 0, find the value of (a³ + b³ + c³) / abc (where a, b, c ≠ 0).", "options": ["0", "1", "3", "−3"], "correct": 2, "solution": "When a + b + c = 0, a³ + b³ + c³ = 3abc.<br>Therefore, (a³ + b³ + c³) / abc = 3abc / abc = <b>3</b>.", "shortcut": "⚡ Standard identity: Value is always <b>3</b>."}, {"id": 9, "topic": "Mensuration 2D", "question": "A rectangular field is 40 m long and 30 m wide. A 2 m wide path runs around it on the outside. Find the area of the path.", "options": ["280 m²", "296 m²", "304 m²", "312 m²"], "correct": 1, "solution": "Outer dimensions = (40 + 4) × (30 + 4) = 44 × 34 = 1,496 m².<br>Inner area = 40 × 30 = 1,200 m².<br>Path area = 1,496 − 1,200 = <b>296 m²</b>.", "shortcut": "⚡ <b>Formula:</b> 2w(l + b + 2w) = 2(2)(40 + 30 + 4) = 4 × 74 = <b>296 m²</b>."}, {"id": 10, "topic": "Trigonometry", "question": "Evaluate: sin 30° cos 60° + sin 60° cos 30°.", "options": ["1/2", "1", "√3/2", "5/4"], "correct": 1, "solution": "Identity: sin(A + B) = sin A cos B + cos A sin B.<br>sin(30° + 60°) = sin 90° = <b>1</b>.", "shortcut": "⚡ sin(30° + 60°) = sin 90° = <b>1</b>."}]}, {"shift_id": "oct12_imp", "name": "12 October (Important Types)", "date": "12 Oct 2026", "questions": [{"id": 1, "topic": "Number System", "question": "What is the square of 196?", "options": ["38,416", "38,216", "39,416", "37,816"], "correct": 0, "solution": "196² = (200 − 4)² = 200² − 2(200)(4) + 4² = 40,000 − 1,600 + 16 = <b>38,416</b>.", "shortcut": "⚡ (200 − 4)² = 40000 − 1600 + 16 = <b>38,416</b>."}, {"id": 2, "topic": "Trigonometry", "question": "If tan A = 3/4, find the value of (sin A − 1)(sin A + 1).", "options": ["−16/25", "16/25", "−9/25", "9/25"], "correct": 0, "solution": "(sin A − 1)(sin A + 1) = sin²A − 1 = −(1 − sin²A) = −cos²A.<br>tan A = 3/4 ⟹ Triplet (3, 4, 5) ⟹ cos A = 4/5.<br>−cos²A = −(4/5)² = <b>−16/25</b>.", "shortcut": "⚡ sin²A − 1 = −cos²A = −(4/5)² = <b>−16/25</b>."}, {"id": 3, "topic": "Partnership", "question": "A and B invest in a business in the ratio 7 : 8. A withdraws after 7 months. If their profits are in the ratio 49 : 40, for how many months did B invest?", "options": ["4 months", "5 months", "6 months", "8 months"], "correct": 1, "solution": "Profit Ratio = (Investment_A × Time_A) / (Investment_B × Time_B).<br>(7 × 7) / (8 × t) = 49 / 40 ⟹ 49 / (8t) = 49 / 40 ⟹ 8t = 40 ⟹ t = <b>5 months</b>.", "shortcut": "⚡ 8t = 40 ⟹ t = <b>5 months</b>."}, {"id": 4, "topic": "Geometry", "question": "Two tangents are drawn to a circle of radius 7 cm such that the angle between them is 120°. Find the distance from the centre to the external point.", "options": ["14/√3 cm", "7√3 cm", "14 cm", "7/√3 cm"], "correct": 0, "solution": "Line joining external point to centre bisects the 120° angle: half-angle = 60°.<br>In right triangle: sin 60° = Radius / Distance = 7 / d.<br>√3 / 2 = 7 / d ⟹ d = 14 / √3 = <b>14/√3 cm</b>.", "shortcut": "⚡ d = r / sin(θ/2) = 7 / sin 60° = 7 / (√3/2) = <b>14/√3 cm</b>."}, {"id": 5, "topic": "Profit & Loss", "question": "If the cost price of 15 articles equals the selling price of 20 articles, find the loss percentage.", "options": ["20%", "25%", "33.33%", "15%"], "correct": 1, "solution": "15 CP = 20 SP ⟹ SP / CP = 15 / 20 = 3 / 4.<br>Loss % = (1 − 3/4) × 100 = <b>25%</b>.", "shortcut": "⚡ Loss % = [(20 − 15) / 20] × 100 = 5/20 = <b>25%</b>."}, {"id": 6, "topic": "Mensuration 3D", "question": "Find the total surface area of a right circular cone with base radius 4 units and vertical height 3 units.", "options": ["36π sq units", "24π sq units", "20π sq units", "16π sq units"], "correct": 0, "solution": "Slant height l = √(4² + 3²) = 5 units (Triplet 3, 4, 5).<br>TSA = πr(l + r) = π × 4 × (5 + 4) = π × 4 × 9 = <b>36π sq units</b>.", "shortcut": "⚡ Triplet (3, 4, 5) ⟹ l = 5. TSA = π(4)(5 + 4) = <b>36π</b>."}, {"id": 7, "topic": "Mensuration 3D", "question": "A conical tent has base radius 7 m and slant height 25 m. Find the cost of canvas for its curved surface at ₹22.50 per sq. metre.", "options": ["₹12,375", "₹11,500", "₹13,200", "₹10,850"], "correct": 0, "solution": "CSA = πrl = (22/7) × 7 × 25 = 22 × 25 = 550 m².<br>Cost = 550 × ₹22.50 = 550 × (45 / 2) = 275 × 45 = <b>₹12,375</b>.", "shortcut": "⚡ 550 × 22.5 = 1100 × 11.25 = <b>₹12,375</b>."}, {"id": 8, "topic": "Geometry", "question": "Two tangents PA and PB are drawn from external point P to a circle of radius 4 cm. If the angle between tangent PA and line PO is 30°, find the length of the tangent.", "options": ["4√3 cm", "8 cm", "4/√3 cm", "6 cm"], "correct": 0, "solution": "∠PAO = 90° and ∠APO = 30°.<br>tan 30° = Radius / Tangent = 4 / PA.<br>1/√3 = 4 / PA ⟹ PA = <b>4√3 cm</b>.", "shortcut": "⚡ PA = 4 / tan 30° = <b>4√3 cm</b>."}, {"id": 9, "topic": "Geometry", "question": "A chord of a circle is 16 cm long and its distance from the centre is 15 cm. Find the radius of the circle.", "options": ["17 cm", "18 cm", "19 cm", "20 cm"], "correct": 0, "solution": "Half chord = 16 / 2 = 8 cm.<br>Radius r = √(15² + 8²) = √(225 + 64) = √289 = <b>17 cm</b>.", "shortcut": "⚡ <b>Triplet (8, 15, 17):</b> Radius = <b>17 cm</b>."}, {"id": 10, "topic": "Algebra", "question": "If x = 2 + √3, find the value of x + 1/x.", "options": ["4", "2√3", "2", "4√3"], "correct": 0, "solution": "1/x = 1 / (2 + √3) = 2 − √3.<br>x + 1/x = (2 + √3) + (2 − √3) = <b>4</b>.", "shortcut": "⚡ 2 × first term = 2 × 2 = <b>4</b>."}, {"id": 11, "topic": "Algebra", "question": "If x + 1/x = 6, find the value of x⁵ + 1/x⁵.", "options": ["6,726", "6,732", "6,696", "6,750"], "correct": 0, "solution": "x² + 1/x² = 6² − 2 = 34.<br>x³ + 1/x³ = 6³ − 3(6) = 216 − 18 = 198.<br>x⁵ + 1/x⁵ = (x² + 1/x²)(x³ + 1/x³) − (x + 1/x) = (34 × 198) − 6 = 6732 − 6 = <b>6,726</b>.", "shortcut": "⚡ (34 × 198) − 6 = 6732 − 6 = <b>6,726</b>."}, {"id": 12, "topic": "Mensuration 3D", "question": "A solid pyramid has base area of 40 cm² and vertical height of 5 cm. Find its volume.", "options": ["200/3 cm³", "100 cm³", "200 cm³", "150 cm³"], "correct": 0, "solution": "Volume = (1/3) × Base Area × Height = (1/3) × 40 × 5 = <b>200/3 cm³ (66.67 cm³)</b>.", "shortcut": "⚡ (1/3) × 40 × 5 = <b>200/3 cm³</b>."}, {"id": 13, "topic": "Geometry", "question": "The number of sides of two regular polygons are in the ratio 1 : 2 and their interior angles are in the ratio 3 : 4. Find the number of sides of both polygons.", "options": ["5 and 10", "4 and 8", "6 and 12", "3 and 6"], "correct": 0, "solution": "Let sides be n and 2n.<br>Interior angle of polygon 1 = [(n − 2) × 180°] / n.<br>Interior angle of polygon 2 = [(2n − 2) × 180°] / 2n.<br>Ratio: {[(n − 2)/n] / [(2n − 2)/2n]} = 3/4 ⟹ [(n − 2) / (n − 1)] = 3/4 ⟹ 4n − 8 = 3n − 3 ⟹ n = 5.<br>Sides are <b>5 and 10</b>.", "shortcut": "⚡ Check options: For 5 and 10, angles are 108° and 144°. Ratio = 108/144 = 3/4. Matches <b>5 and 10</b>!"}]}, {"shift_id": "oct14_all", "name": "14 October (All Shifts)", "date": "14 Oct 2026", "questions": [{"id": 1, "topic": "Compound Interest", "question": "Rs. 5,000 is invested at compound interest of 12% per annum for 2 years. What is the total amount at the end of 2 years?", "options": ["Rs. 6,272", "Rs. 6,400", "Rs. 6,200", "Rs. 6,100"], "correct": 0, "solution": "Amount = P(1 + r/100)² = 5000 × (1.12)² = 5000 × 1.2544 = <b>Rs. 6,272</b>.", "shortcut": "⚡ 12% for 2 years → Net = 12 + 12 + (12×12)/100 = 25.44%. 5000 × 1.2544 = <b>6272</b>."}, {"id": 2, "topic": "Mensuration 2D", "question": "A floor of area 20√3 m² is to be covered with regular hexagonal tiles of side x metres. Find the number of tiles required.", "options": ["40 / (3x²)", "20 / (3x²)", "40 / x²", "80 / (3x²)"], "correct": 0, "solution": "Area of regular hexagon with side x = (3√3/2)x².<br>Number of tiles = Floor area ÷ Tile area = 20√3 ÷ (3√3/2)x² = 20√3 × 2 / (3√3 × x²) = 40/(3x²). Answer = <b>40/(3x²)</b>.", "shortcut": "⚡ Tile area = (3√3/2)x². Tiles = 20√3 / [(3√3/2)x²] = <b>40/(3x²)</b>."}, {"id": 3, "topic": "Partnership", "question": "A and B enter a partnership with capitals in the ratio 5 : 3. After 6 months, C joins with an investment equal to the average investment of A and B. If the total profit at the end of the year is X, find A's share.", "options": ["X/2", "5X/12", "X/3", "5X/16"], "correct": 0, "solution": "Let A = 5k, B = 3k for 12 months. C = (5k+3k)/2 = 4k for 6 months.<br>Profit ratio = 5k×12 : 3k×12 : 4k×6 = 60 : 36 : 24 = 5 : 3 : 2.<br>A's share = 5/10 × X = <b>X/2</b>.", "shortcut": "⚡ Ratio = 60:36:24 = 5:3:2. Total parts = 10. A = 5/10 = <b>X/2</b>."}, {"id": 4, "topic": "Mensuration 3D", "question": "The base of a right prism is a triangle with sides in the ratio 5 : 12 : 13 and perimeter 60 cm. If the volume is 2,160 cm³, find the height of the prism.", "options": ["18 cm", "20 cm", "15 cm", "24 cm"], "correct": 0, "solution": "Sides: 5k + 12k + 13k = 60 → k = 2. Sides: 10, 24, 26 cm.<br>Since 10² + 24² = 100 + 576 = 676 = 26², this is a right triangle.<br>Area of base = (1/2) × 10 × 24 = 120 cm².<br>Volume = Base × Height → 2160 = 120 × h → h = <b>18 cm</b>.", "shortcut": "⚡ Ratio 5:12:13 → Pythagorean triplet! Base area = (1/2)×10×24=120. h = 2160/120 = <b>18 cm</b>."}, {"id": 5, "topic": "Profit & Loss", "question": "The cost price of two items is the same. One is sold at 15% profit and the other at 12% profit. If the difference between their selling prices is Rs. 18, find the cost price of each item.", "options": ["Rs. 600", "Rs. 500", "Rs. 450", "Rs. 720"], "correct": 0, "solution": "SP₁ = CP × 1.15, SP₂ = CP × 1.12.<br>Difference = CP(1.15 − 1.12) = CP × 0.03 = 18.<br>CP = 18 / 0.03 = <b>Rs. 600</b>.", "shortcut": "⚡ 3% of CP = 18 → CP = 18/0.03 = <b>600</b>."}, {"id": 6, "topic": "Mensuration 3D", "question": "The base of a right prism is a rhombus with diagonals 8 cm and 10 cm. If the height of the prism is 12 cm, find its volume.", "options": ["480 cm³", "240 cm³", "960 cm³", "360 cm³"], "correct": 0, "solution": "Area of rhombus base = (1/2) × d₁ × d₂ = (1/2) × 8 × 10 = 40 cm².<br>Volume = Base area × Height = 40 × 12 = <b>480 cm³</b>.", "shortcut": "⚡ Rhombus area = (d₁ × d₂)/2 = 40 cm². Volume = 40 × 12 = <b>480 cm³</b>."}, {"id": 7, "topic": "Mensuration 3D", "question": "A solid metallic sphere of radius 12 cm is melted to form smaller identical solid spheres of radius 3 cm each. How many such spheres can be made?", "options": ["64", "32", "48", "96"], "correct": 0, "solution": "Volume of large sphere = (4/3)π × 12³ = (4/3)π × 1728 = 2304π cm³.<br>Volume of small sphere = (4/3)π × 3³ = 36π cm³.<br>Number = 2304π / 36π = <b>64</b>.", "shortcut": "⚡ (R/r)³ = (12/3)³ = 4³ = <b>64</b>."}, {"id": 8, "topic": "Geometry", "question": "In △ABC, ∠B = 45° and ∠C = 60°. The angle bisectors of ∠B and ∠C meet at P. Find the value of 90° + (∠C − ∠B)/2.", "options": ["97.5°", "100°", "95°", "105°"], "correct": 0, "solution": "90° + (∠C − ∠B)/2 = 90° + (60° − 45°)/2 = 90° + 15°/2 = 90° + 7.5° = <b>97.5°</b>.<br>(This uses the property: ∠BPC = 90° + ∠A/2; this question asks for the direct calculation.)", "shortcut": "⚡ Directly compute: 90 + (60−45)/2 = 90 + 7.5 = <b>97.5°</b>."}, {"id": 9, "topic": "Time & Work", "question": "Pipe A can fill a tank in 10 hours and Pipe B can empty the full tank in 15 hours. If both are opened together, in how many hours will the tank be filled?", "options": ["30 hours", "25 hours", "20 hours", "6 hours"], "correct": 0, "solution": "Net rate = 1/10 − 1/15 = (3−2)/30 = 1/30 (filling).<br>Time to fill = <b>30 hours</b>.", "shortcut": "⚡ Net = 1/10 − 1/15 = 1/30. Time = <b>30 hours</b>."}, {"id": 10, "topic": "Number System", "question": "Find the sum of the first 243 natural numbers.", "options": ["29,646", "29,403", "30,000", "29,241"], "correct": 0, "solution": "Sum = n(n+1)/2 = 243 × 244 / 2 = 243 × 122 = <b>29,646</b>.", "shortcut": "⚡ n(n+1)/2 = 243 × 122 = <b>29,646</b>."}, {"id": 11, "topic": "Trigonometry", "question": "If 3 sin A + 4 cos A = 5, find the value of sin A.", "options": ["3/5", "4/5", "3/4", "5/3"], "correct": 0, "solution": "Using the identity: if a sin θ + b cos θ = c, here 3, 4, 5 form a Pythagorean triplet.<br>This means A = 37° approximately, and sin A = <b>3/5</b>.<br>(Verify: 3×3/5 + 4×4/5 = 9/5 + 16/5 = 25/5 = 5 ✓)", "shortcut": "⚡ (3, 4, 5) triplet. sin A = 3/5, cos A = 4/5. Verify: 3(3/5)+4(4/5)=5 ✓ → <b>3/5</b>."}, {"id": 12, "topic": "Speed, Time & Distance", "question": "A person travels 90 km: 1/3rd by bicycle, 1/3rd by car and the remaining by bus. Find the distance travelled by bus.", "options": ["30 km", "45 km", "20 km", "60 km"], "correct": 0, "solution": "Total = 90 km. By bicycle = 90/3 = 30 km. By car = 30 km. By bus = 90 − 30 − 30 = <b>30 km</b>.", "shortcut": "⚡ 1/3 + 1/3 = 2/3 used. Remaining = 1/3 × 90 = <b>30 km</b>."}, {"id": 13, "topic": "Mensuration 3D", "question": "A solid consists of a regular hexagonal prism topped by a regular hexagonal pyramid on the same base. Side of base = a cm, height of prism = h₁, height of pyramid = h₂. Find the total volume.", "options": ["(√3/2) a² (3h₁ + h₂)", "(√3/4) a² (h₁ + h₂)", "(3√3/2) a² h₁ + (√3/2) a² h₂", "(√3/2) a² (h₁ + h₂)"], "correct": 0, "solution": "Volume of hexagonal prism = (3√3/2)a² × h₁.<br>Volume of hexagonal pyramid = (1/3) × (3√3/2)a² × h₂ = (√3/2)a² × h₂.<br>Total = (3√3/2)a² × h₁ + (√3/2)a² × h₂ = (√3/2)a²(3h₁ + h₂).", "shortcut": "⚡ Factor out (√3/2)a²: Prism = 3h₁ part, Pyramid = h₂ part → <b>(√3/2)a²(3h₁ + h₂)</b>."}, {"id": 14, "topic": "Geometry", "question": "In △ABC, DE ∥ BC with AD = a, DB = a + 4, AE = 2a + 3 and EC = 7a. If a > 0, find the value of a.", "options": ["3", "2", "4", "1"], "correct": 0, "solution": "By Thales' theorem: AD/DB = AE/EC → a/(a+4) = (2a+3)/(7a).<br>Cross-multiply: 7a² = (a+4)(2a+3) = 2a² + 3a + 8a + 12 = 2a² + 11a + 12.<br>5a² − 11a − 12 = 0 → (5a + 4)(a − 3) = 0 → a = 3 (since a > 0).", "shortcut": "⚡ Thales: a/(a+4) = (2a+3)/(7a). Cross-multiply and solve → a = <b>3</b>."}, {"id": 15, "topic": "Height & Distance", "question": "Two poles of equal height stand on opposite sides of an 80 m wide road. From a point between them on the road, the angles of elevation of their tops are 60° and 30°. Find the height of the poles.", "options": ["20√3 m", "40√3 m", "10√3 m", "30√3 m"], "correct": 0, "solution": "Let height = h, distance from first pole = x, from second = (80−x).<br>tan 60° = h/x → x = h/√3.<br>tan 30° = h/(80−x) → 80−x = h√3 → x = 80 − h√3.<br>h/√3 = 80 − h√3 → h/√3 + h√3 = 80 → h(1/√3 + √3) = 80 → h × 4/√3 = 80 → h = 20√3.", "shortcut": "⚡ Sum: x + (80−x) = 80. h/√3 + h√3 = 80 → 4h/√3 = 80 → h = <b>20√3 m</b>."}, {"id": 16, "topic": "Algebra", "question": "If x − 1/x = 2, find the value of x⁶ + 1/x⁶.", "options": ["198", "194", "200", "202"], "correct": 0, "solution": "x − 1/x = 2.<br>x² + 1/x² = (x − 1/x)² + 2 = 4 + 2 = 6.<br>x³ − 1/x³ = (x − 1/x)(x² + 1 + 1/x²) = 2 × (6+1) = 14.<br>x⁶ + 1/x⁶ = (x³ − 1/x³)² + 2 = 196 + 2 = <b>198</b>.", "shortcut": "⚡ x−1/x=2 → x²+1/x²=6 → x³−1/x³=14 → x⁶+1/x⁶ = 14²+2 = <b>198</b>."}, {"id": 17, "topic": "Geometry", "question": "A chord of a circle of radius r subtends an angle of 120° at the centre. Find the length of the chord.", "options": ["r√3", "r√2", "2r", "r"], "correct": 0, "solution": "The chord length formula: L = 2r × sin(θ/2) = 2r × sin 60° = 2r × (√3/2) = <b>r√3</b>.", "shortcut": "⚡ L = 2r sin(120°/2) = 2r sin60° = 2r × √3/2 = <b>r√3</b>."}, {"id": 18, "topic": "Height & Distance", "question": "From a point on one side of a lighthouse, the angle of elevation of its top changes from 45° to 60° in 3 minutes. How much more time will it take to reach the base of the lighthouse?", "options": ["3(√3 + 1)/2 minutes", "3(√3 − 1)/2 minutes", "3√3 minutes", "3 minutes"], "correct": 0, "solution": "Let height = h. At 45°: d₁ = h. At 60°: d₂ = h/√3.<br>Distance covered in 3 min = d₁ − d₂ = h − h/√3 = h(1 − 1/√3) = h(√3 − 1)/√3.<br>Speed = h(√3−1)/(3√3).<br>Time to cover d₂ = (h/√3) / [h(√3−1)/(3√3)] = 3/(√3−1) = 3(√3+1)/[(√3−1)(√3+1)] = 3(√3+1)/2 min.", "shortcut": "⚡ Remaining distance = h/√3. Speed from 3 min segment. t = 3(√3+1)/2 = <b>3(√3+1)/2 minutes</b>."}, {"id": 19, "topic": "Geometry", "question": "Two equal circles, each of radius 12 cm, pass through each other's centre. Find the length of their common chord.", "options": ["12√3 cm", "12√2 cm", "18 cm", "24 cm"], "correct": 0, "solution": "The centres are 12 cm apart (each passes through the other's centre). The common chord bisects the line joining centres. Half-chord = √(r² − (d/2)²) where r = 12, d = 12.<br>Half-chord = √(144 − 36) = √108 = 6√3.<br>Full chord = 2 × 6√3 = <b>12√3 cm</b>.", "shortcut": "⚡ Two equal circles each through the other's centre → d = r = 12. Chord = 2√(r²−(r/2)²) = 2√(108) = <b>12√3 cm</b>."}, {"id": 20, "topic": "Profit & Loss", "question": "A shopkeeper gives two successive discounts of 20% and 10% on the marked price and still makes a 20% profit. The cost price is what percentage of the marked price?", "options": ["60%", "72%", "80%", "67%"], "correct": 0, "solution": "Net SP after discounts = MP × 0.80 × 0.90 = 0.72 × MP.<br>SP = 1.20 × CP → CP = SP/1.20 = 0.72 MP / 1.20 = 0.6 MP.<br>CP = 60% of MP.", "shortcut": "⚡ SP = 0.72 MP. CP = SP/1.2 = 0.72/1.2 = 0.60 MP = <b>60%</b> of MP."}, {"id": 21, "topic": "Algebra", "question": "If x = 5 + 2√6, evaluate x² − 10x + 1.", "options": ["0", "1", "−1", "2"], "correct": 0, "solution": "x = 5 + 2√6. Note that (√3 + √2)² = 5 + 2√6 → x = (√3 + √2)².<br>Also, x + 1/x = (5 + 2√6) + 1/(5 + 2√6) = (5 + 2√6) + (5 − 2√6) = 10.<br>So x² − 10x + 1 = x² − (x + 1/x)×x + 1. Multiply through by 1/x: (x + 1/x) = 10. So x² − 10x + 1 = 0 → Answer = <b>0</b>.", "shortcut": "⚡ x + 1/x = 10 → Multiply: x² + 1 = 10x → x² − 10x + 1 = <b>0</b>."}, {"id": 22, "topic": "Speed, Time & Distance", "question": "[Bonus Extra Practice] A train 150 m long crosses a pole in 10 seconds. Find its speed in km/h.", "options": ["54 km/h", "60 km/h", "45 km/h", "72 km/h"], "correct": 0, "solution": "Speed = 150/10 = 15 m/s = 15 × 18/5 = <b>54 km/h</b>.", "shortcut": "⚡ 15 m/s × (18/5) = <b>54 km/h</b>."}, {"id": 23, "topic": "Ratio & Proportion", "question": "[Bonus Extra Practice] If a : b = 2 : 3 and b : c = 4 : 5, find a : b : c.", "options": ["8 : 12 : 15", "2 : 4 : 5", "8 : 12 : 16", "6 : 9 : 15"], "correct": 0, "solution": "a : b = 2 : 3, b : c = 4 : 5. LCM of b terms (3 and 4) = 12. Scale: a : b = 8 : 12 and b : c = 12 : 15. So a : b : c = <b>8 : 12 : 15</b>.", "shortcut": "⚡ Multiply to equate b: 2×4 : 3×4 = 8:12; 4×3 : 5×3 = 12:15. → <b>8:12:15</b>."}, {"id": 24, "topic": "Number System", "question": "[Bonus Extra Practice] Find the average of the first 10 even natural numbers.", "options": ["11", "10", "12", "9"], "correct": 0, "solution": "First 10 even natural numbers: 2, 4, 6, 8, 10, 12, 14, 16, 18, 20.<br>Sum = 2 + 4 + ... + 20 = 10 × 11 = 110. Average = 110/10 = <b>11</b>.", "shortcut": "⚡ Average of first n even numbers = n + 1 = 10 + 1 = <b>11</b>."}]}];
+let currentShift = 'all';
+let currentTopic = 'all';
+let userAnswers = {};
+let showAllSolutions = false;
 
-    let currentShift = 'all';
-    let currentTopic = 'all';
-    let userAnswers = {}; // key: global_id, value: selectedIndex
-    let showAllSolutions = false;
-
-    // Flatten questions with reference to shift
-    let allQuestions = [];
-    SHIFTS_DATA.forEach(shift => {
-        shift.questions.forEach((q, idx) => {
-            allQuestions.push({
-                ...q,
-                shift_id: shift.shift_id,
-                shift_name: shift.name,
-                shift_date: shift.date,
-                global_id: `${shift.shift_id}_${q.id}`
-            });
+let allQuestions = [];
+SHIFTS_DATA.forEach(shift => {
+    shift.questions.forEach(q => {
+        allQuestions.push({
+            ...q,
+            shift_id: shift.shift_id,
+            shift_name: shift.name,
+            shift_date: shift.date,
+            global_id: shift.shift_id + '_' + q.id
         });
     });
+});
 
-    // Update counts
-    document.getElementById('countAll').innerText = allQuestions.length;
-    document.getElementById('countSep30').innerText = allQuestions.filter(q => q.shift_id === 'sep30_s2').length;
-    document.getElementById('countOct1').innerText = allQuestions.filter(q => q.shift_id === 'oct1_s2').length;
-    document.getElementById('countOct10').innerText = allQuestions.filter(q => q.shift_id === 'oct10_all').length;
-    document.getElementById('countOct12').innerText = allQuestions.filter(q => q.shift_id === 'oct12_imp').length;
+document.getElementById('countAll').innerText = allQuestions.length;
 
-    function selectShift(shiftId) {
-        currentShift = shiftId;
-        document.querySelectorAll('#shiftTabs .tab-btn').forEach(btn => {
-            btn.classList.toggle('active', btn.getAttribute('onclick').includes(`'${shiftId}'`));
-        });
-        renderQuestions();
-    }
-
-    function selectTopic(topic) {
-        currentTopic = topic;
-        document.querySelectorAll('#topicChips .topic-chip').forEach(chip => {
-            chip.classList.toggle('active', chip.getAttribute('onclick').includes(`'${topic}'`));
-        });
-        renderQuestions();
-    }
-
-    function renderQuestions() {
-        const container = document.getElementById('questionsContainer');
-        container.innerHTML = '';
-
-        let filtered = allQuestions.filter(q => {
-            const shiftMatch = (currentShift === 'all' || q.shift_id === currentShift);
-            let topicMatch = (currentTopic === 'all');
-            if (currentTopic === 'Mensuration') {
-                topicMatch = q.topic.includes('Mensuration');
-            } else if (currentTopic === 'Arithmetic') {
-                topicMatch = ['Profit & Loss', 'Partnership', 'Compound Interest', 'Alligation & Mixtures', 'Time & Work', 'Speed, Time & Distance', 'Number System'].some(t => q.topic.includes(t));
-            } else if (currentTopic !== 'all') {
-                topicMatch = q.topic.includes(currentTopic);
-            }
-            return shiftMatch && topicMatch;
-        });
-
-        if (filtered.length === 0) {
-            container.innerHTML = `
-                <div class="empty-state">
-                    <h3>No Questions Found</h3>
-                    <p>Try changing the shift or topic filter above.</p>
-                </div>
-            `;
-            return;
-        }
-
-        filtered.forEach((q, idx) => {
-            const card = document.createElement('div');
-            card.className = 'q-card';
-            card.id = `card_${q.global_id}`;
-
-            const userAnswer = userAnswers[q.global_id];
-            const isAnswered = userAnswer !== undefined;
-
-            let optionsHtml = '';
-            const letters = ['A', 'B', 'C', 'D'];
-            q.options.forEach((opt, oIdx) => {
-                let optClass = 'opt-btn';
-                if (isAnswered) {
-                    optClass += ' locked';
-                    if (oIdx === q.correct) {
-                        optClass += ' correct';
-                    } else if (userAnswer === oIdx) {
-                        optClass += ' wrong';
-                    }
-                }
-                optionsHtml += `
-                    <button class="${optClass}" onclick="handleSelect('${q.global_id}', ${oIdx})">
-                        <span class="opt-letter">${letters[oIdx]}</span>
-                        <span>${opt}</span>
-                    </button>
-                `;
-            });
-
-            const isSolVisible = showAllSolutions || isAnswered;
-
-            card.innerHTML = `
-                <div class="q-header">
-                    <div class="q-title-wrap">
-                        <span class="q-num">Q${idx + 1}.</span>
-                        <span class="q-badge-topic">${q.topic}</span>
-                        <span class="q-badge-shift">${q.shift_date}</span>
-                    </div>
-                </div>
-                <div class="q-text">${q.question}</div>
-                <div class="options-grid">
-                    ${optionsHtml}
-                </div>
-                <button class="sol-toggle-btn" onclick="toggleSolution('${q.global_id}')">
-                    <span>💡</span>
-                    <span id="btn_text_${q.global_id}">${isSolVisible ? 'Hide Solution & Shortcut' : 'View Solution & 5s Shortcut'}</span>
-                </button>
-                <div class="solution-box ${isSolVisible ? 'show' : ''}" id="sol_${q.global_id}">
-                    <div class="sol-title">📘 Detailed Solution</div>
-                    <div style="margin-bottom: 8px;">${q.solution}</div>
-                    <div class="shortcut-card">
-                        ${q.shortcut}
-                    </div>
-                </div>
-            `;
-
-            container.appendChild(card);
-        });
-
-        updateStats();
-
-        if (window.MathJax && window.MathJax.typesetPromise) {
-            window.MathJax.typesetPromise();
-        }
-    }
-
-    function handleSelect(globalId, optionIdx) {
-        if (userAnswers[globalId] !== undefined) return; // already answered
-        userAnswers[globalId] = optionIdx;
-        renderQuestions();
-    }
-
-    function toggleSolution(globalId) {
-        const solBox = document.getElementById(`sol_${globalId}`);
-        const btnText = document.getElementById(`btn_text_${globalId}`);
-        if (solBox) {
-            const isShowing = solBox.classList.contains('show');
-            if (isShowing) {
-                solBox.classList.remove('show');
-                if (btnText) btnText.innerText = 'View Solution & 5s Shortcut';
-            } else {
-                solBox.classList.add('show');
-                if (btnText) btnText.innerText = 'Hide Solution & Shortcut';
-            }
-        }
-    }
-
-    function toggleAllSolutions() {
-        showAllSolutions = !showAllSolutions;
-        const btn = document.getElementById('btnToggleAllSols');
-        btn.classList.toggle('active-mode', showAllSolutions);
-        btn.innerText = showAllSolutions ? '🙈 Hide All Solutions' : '💡 Reveal All Solutions';
-        renderQuestions();
-    }
-
-    function resetTest() {
-        if (confirm("Reset all your answers and score?")) {
-            userAnswers = {};
-            showAllSolutions = false;
-            const btn = document.getElementById('btnToggleAllSols');
-            btn.classList.remove('active-mode');
-            btn.innerText = '💡 Reveal All Solutions';
-            renderQuestions();
-        }
-    }
-
-    function updateStats() {
-        const answeredIds = Object.keys(userAnswers);
-        const attempted = answeredIds.length;
-        let correct = 0;
-        let wrong = 0;
-
-        answeredIds.forEach(id => {
-            const q = allQuestions.find(item => item.global_id === id);
-            if (q) {
-                if (userAnswers[id] === q.correct) {
-                    correct++;
-                } else {
-                    wrong++;
-                }
-            }
-        });
-
-        // In SSC CGL Tier 1: +2 for correct, -0.5 for wrong
-        const score = (correct * 2) - (wrong * 0.5);
-
-        document.getElementById('statAttempted').innerText = `${attempted} / ${allQuestions.length}`;
-        document.getElementById('statCorrect').innerText = correct;
-        document.getElementById('statWrong').innerText = wrong;
-        document.getElementById('statScore').innerText = score.toFixed(1);
-    }
-
-    // Initial render
+function selectShift(id) {
+    currentShift = id;
+    document.querySelectorAll('#shiftTabs .tab-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.getAttribute('onclick').includes("'" + id + "'"));
+    });
     renderQuestions();
-</script>
+}
 
+function selectTopic(t) {
+    currentTopic = t;
+    document.querySelectorAll('.topic-chip').forEach(c => {
+        c.classList.toggle('active', c.getAttribute('onclick').includes("'" + t + "'"));
+    });
+    renderQuestions();
+}
+
+function renderQuestions() {
+    const container = document.getElementById('questionsContainer');
+    container.innerHTML = '';
+    let filtered = allQuestions.filter(q => {
+        const sm = (currentShift === 'all' || q.shift_id === currentShift);
+        let tm = (currentTopic === 'all');
+        if (currentTopic === 'Mensuration') tm = q.topic.includes('Mensuration');
+        else if (currentTopic === 'Arithmetic') tm = ['Profit','Partnership','Compound Interest','Alligation','Time & Work','Speed','Number System','Ratio'].some(t => q.topic.includes(t));
+        else if (currentTopic === 'Height') tm = q.topic.includes('Height');
+        else if (currentTopic !== 'all') tm = q.topic.includes(currentTopic);
+        return sm && tm;
+    });
+
+    if (!filtered.length) {
+        container.innerHTML = '<div class="empty-state"><h3>No Questions Found</h3><p>Try a different filter.</p></div>';
+        return;
+    }
+
+    const letters = ['A','B','C','D'];
+    filtered.forEach((q, idx) => {
+        const card = document.createElement('div');
+        card.className = 'q-card';
+        const isAnswered = userAnswers[q.global_id] !== undefined;
+        const isBonus = q.question.includes('[Bonus');
+
+        let optsHtml = '';
+        q.options.forEach((opt, oi) => {
+            let cls = 'opt-btn';
+            if (isAnswered) {
+                cls += ' locked';
+                if (oi === q.correct) cls += ' correct';
+                else if (userAnswers[q.global_id] === oi) cls += ' wrong';
+            }
+            optsHtml += `<button class="${cls}" onclick="handleSelect('${q.global_id}',${oi})"><span class="opt-letter">${letters[oi]}</span><span>${opt}</span></button>`;
+        });
+
+        const solShow = showAllSolutions || isAnswered;
+        card.innerHTML = `
+            <div class="q-header">
+                <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+                    <span class="q-num">Q${idx+1}.</span>
+                    <span class="q-badge-topic">${q.topic}</span>
+                    <span class="q-badge-shift">${q.shift_date}</span>
+                    ${isBonus ? '<span class="q-badge-bonus">⭐ Bonus</span>' : ''}
+                </div>
+            </div>
+            <div class="q-text">${q.question.replace('[Bonus Extra Practice] ','').replace('[Bonus Extra Practice]','')}</div>
+            <div class="options-grid">${optsHtml}</div>
+            <button class="sol-toggle-btn" onclick="toggleSolution('${q.global_id}')">
+                <span>💡</span><span id="btxt_${q.global_id}">${solShow ? 'Hide Solution' : 'View Solution & 5s Shortcut'}</span>
+            </button>
+            <div class="solution-box ${solShow ? 'show' : ''}" id="sol_${q.global_id}">
+                <div class="sol-title">📘 Detailed Solution</div>
+                <div style="margin-bottom:8px;">${q.solution}</div>
+                <div class="shortcut-card">${q.shortcut}</div>
+            </div>
+        `;
+        container.appendChild(card);
+    });
+    updateStats();
+}
+
+function handleSelect(gid, oi) {
+    if (userAnswers[gid] !== undefined) return;
+    userAnswers[gid] = oi;
+    renderQuestions();
+}
+
+function toggleSolution(gid) {
+    const box = document.getElementById('sol_' + gid);
+    const btn = document.getElementById('btxt_' + gid);
+    if (!box) return;
+    const showing = box.classList.contains('show');
+    box.classList.toggle('show', !showing);
+    if (btn) btn.innerText = showing ? 'View Solution & 5s Shortcut' : 'Hide Solution';
+}
+
+function toggleAllSolutions() {
+    showAllSolutions = !showAllSolutions;
+    const btn = document.getElementById('btnAllSols');
+    btn.classList.toggle('active-mode', showAllSolutions);
+    btn.innerText = showAllSolutions ? '🙈 Hide All' : '💡 Reveal All';
+    renderQuestions();
+}
+
+function resetTest() {
+    if (confirm('Reset all answers and score?')) {
+        userAnswers = {};
+        showAllSolutions = false;
+        document.getElementById('btnAllSols').classList.remove('active-mode');
+        document.getElementById('btnAllSols').innerText = '💡 Reveal All';
+        renderQuestions();
+    }
+}
+
+function updateStats() {
+    const ids = Object.keys(userAnswers);
+    let correct = 0, wrong = 0;
+    ids.forEach(id => {
+        const q = allQuestions.find(x => x.global_id === id);
+        if (q) { if (userAnswers[id] === q.correct) correct++; else wrong++; }
+    });
+    document.getElementById('statAttempted').innerText = ids.length + ' / ' + allQuestions.length;
+    document.getElementById('statCorrect').innerText = correct;
+    document.getElementById('statWrong').innerText = wrong;
+    document.getElementById('statScore').innerText = (correct*2 - wrong*0.5).toFixed(1);
+}
+
+renderQuestions();
+</script>
 </body>
 </html>
