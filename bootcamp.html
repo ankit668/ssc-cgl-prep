@@ -511,7 +511,7 @@
     <div class="header">
         <div class="badge-bootcamp">🔥 4-Day Holiday Intensive (17–20 Oct)</div>
         <h1>🎯 14-Hour Daily Bootcamp Tracker</h1>
-        <p>Exact Timed Schedule: 8h Maths + 2.5h Nimisha Bansal Editorial (Yes Officer) + 1.25h Reasoning + 2.5h Parmar GS. Features 1h Breakfast, 1h Lunch, 1.5h Afternoon Nap, 1h Dinner & 5.5h Night Sleep!</p>
+        <p>Exact Timed Schedule: 8h Maths + 2.5h English (Nimisha Bansal 45m Editorial + 1h45m 120 Rules of Grammar) + 1.25h Reasoning + 2.5h Parmar GS. Features 1h Breakfast, 1h Lunch, 1.5h Afternoon Nap, 1h Dinner & 5.5h Night Sleep!</p>
         <div class="nav-links">
             <a href="index.html" class="btn-link">🏠 Dashboard</a>
             <a href="mock_test.html" class="btn-link" style="background:#DC2626;">⏱️ 15-Min CBT Simulator</a>
@@ -525,7 +525,7 @@
     <div class="timeline-strip">
         <div style="font-weight: 800; color: #F1F5F9; margin-bottom: 2px;">⏰ Complete 24-Hour Daily Routine:</div>
         <div class="timeline-pills-row">
-            <span class="time-pill study">05:30–08:00 English (2.5h)</span>
+            <span class="time-pill study">05:30–08:00 English (45m Ed + 1.75h Rules)</span>
             <span class="time-pill break">🍳 08:00–09:00 Breakfast (1h)</span>
             <span class="time-pill study">09:00–11:00 Maths 1 (2h)</span>
             <span class="time-pill study">11:00–01:00 Maths 2 (2h)</span>
@@ -604,18 +604,17 @@ const BOOTCAMP_DAYS = [
         dayIndex: 0,
         name: "Day 1: Saturday",
         date: "17 Oct 2026",
-        focus: "Real Shifts Mastery (78 Qs) + Nimisha Bansal Editorial (Yes Officer) + 3 CBT Mocks",
+        focus: "Real Shifts Mastery (78 Qs) + Nimisha Bansal (Editorial + 120 Rules 1–30) + 3 CBT Mocks",
         blocks: [
             {
                 id: "eng_d0",
-                title: "English — Nimisha Bansal Daily Editorial & Vocab (Yes Officer)",
+                title: "English — Nimisha Bansal Daily Editorial & 120 Rules of Grammar (Yes Officer)",
                 icon: "📰",
                 timing: "05:30 AM – 08:00 AM",
                 hours: 2.5,
                 tasks: [
-                    { id: "d0_eng_1", title: "Watch Today's The Hindu Editorial by Nimisha Bansal (Yes Officer)", timing: "05:30 – 07:00 AM", desc: "Deep passage analysis, skimming tone, vocab in context, and reading speed practice.", hours: 1.5, link: "https://www.youtube.com/results?search_query=nimisha+bansal+the+hindu+editorial+today" },
-                    { id: "d0_eng_2", title: "Vocab & 120 Rules Extraction", timing: "07:00 – 07:30 AM", desc: "Write down 20 high-yield words, collocations, and apply Nimisha Ma'am's 120 Rules of Grammar.", hours: 0.5 },
-                    { id: "d0_eng_3", title: "English App Drills: Root Words & Affixes", timing: "07:30 – 08:00 AM", desc: "Practice 20 root words and affixes MCQs in the SSC Prep app.", hours: 0.5, link: "index.html#english" }
+                    { id: "d0_eng_1", title: "Watch Today's The Hindu Editorial by Nimisha Bansal (Yes Officer)", timing: "05:30 – 06:15 AM", desc: "Passage skimming, tone analysis, context vocabulary, and reading speed practice.", hours: 0.75, link: "https://www.youtube.com/results?search_query=nimisha+bansal+the+hindu+editorial+today" },
+                    { id: "d0_eng_2", title: "120 Rules of Grammar by Nimisha Bansal: Rules 1 to 30", timing: "06:15 – 08:00 AM", desc: "Watch YouTube lecture for Rules 1–30: Subject-Verb Agreement, Collective Nouns, Each/Every/Neither rules, Inversion after Negative Adverbs, and write crisp formula notes.", hours: 1.75, link: "https://www.youtube.com/results?search_query=nimisha+bansal+120+rules+of+grammar" }
                 ],
                 afterBreak: { type: "break", text: "🍳 08:00 AM – 09:00 AM: Breakfast Break (1 Hour Full Rest)" }
             },
@@ -695,18 +694,17 @@ const BOOTCAMP_DAYS = [
         dayIndex: 1,
         name: "Day 2: Sunday",
         date: "18 Oct 2026",
-        focus: "Sets 3 to 10 + Nimisha Bansal Editorial + Heavy DI Drills + 3 CBT Mocks",
+        focus: "Sets 3 to 10 + Nimisha Bansal (Editorial + 120 Rules 31–60) + Heavy DI + 3 CBT Mocks",
         blocks: [
             {
                 id: "eng_d1",
-                title: "English — Nimisha Bansal Daily Editorial & Vocab (Yes Officer)",
+                title: "English — Nimisha Bansal Daily Editorial & 120 Rules of Grammar (Yes Officer)",
                 icon: "📰",
                 timing: "05:30 AM – 08:00 AM",
                 hours: 2.5,
                 tasks: [
-                    { id: "d1_eng_1", title: "Watch Today's The Hindu Editorial by Nimisha Bansal (Yes Officer)", timing: "05:30 – 07:00 AM", desc: "Editorial reading, cloze test techniques, and tone analysis.", hours: 1.5, link: "https://www.youtube.com/results?search_query=nimisha+bansal+the+hindu+editorial+today" },
-                    { id: "d1_eng_2", title: "Editorial Vocab Notebook Update", timing: "07:00 – 07:30 AM", desc: "Extract 20 words + collocations + sentence formation.", hours: 0.5 },
-                    { id: "d1_eng_3", title: "Grammar Rules & Spotting Errors Drills", timing: "07:30 – 08:00 AM", desc: "Practice 30 grammar MCQs in the app.", hours: 0.5, link: "index.html#english" }
+                    { id: "d1_eng_1", title: "Watch Today's The Hindu Editorial by Nimisha Bansal (Yes Officer)", timing: "05:30 – 06:15 AM", desc: "Editorial reading, passage arguments, vocabulary in context, and speed skimming.", hours: 0.75, link: "https://www.youtube.com/results?search_query=nimisha+bansal+the+hindu+editorial+today" },
+                    { id: "d1_eng_2", title: "120 Rules of Grammar by Nimisha Bansal: Rules 31 to 60", timing: "06:15 – 08:00 AM", desc: "Watch YouTube lecture for Rules 31–60: Pronoun cases (Who vs Whom), Relative Pronoun rules (That vs Which), Parallelism, Correlative Conjunctions, and error identification.", hours: 1.75, link: "https://www.youtube.com/results?search_query=nimisha+bansal+120+rules+of+grammar" }
                 ],
                 afterBreak: { type: "break", text: "🍳 08:00 AM – 09:00 AM: Breakfast Break (1 Hour Full Rest)" }
             },
@@ -785,18 +783,17 @@ const BOOTCAMP_DAYS = [
         dayIndex: 2,
         name: "Day 3: Monday",
         date: "19 Oct 2026",
-        focus: "Upgraded Hard Sets 11–20 (4-Digit DI) + Nimisha Bansal Editorial + 4 CBT Mocks",
+        focus: "Upgraded Hard Sets 11–20 + Nimisha Bansal (Editorial + 120 Rules 61–90) + 4 CBT Mocks",
         blocks: [
             {
                 id: "eng_d2",
-                title: "English — Nimisha Bansal Daily Editorial & Vocab (Yes Officer)",
+                title: "English — Nimisha Bansal Daily Editorial & 120 Rules of Grammar (Yes Officer)",
                 icon: "📰",
                 timing: "05:30 AM – 08:00 AM",
                 hours: 2.5,
                 tasks: [
-                    { id: "d2_eng_1", title: "Watch Today's The Hindu Editorial by Nimisha Bansal (Yes Officer)", timing: "05:30 – 07:00 AM", desc: "Grammar applications, root words derivation, and tone identification.", hours: 1.5, link: "https://www.youtube.com/results?search_query=nimisha+bansal+the+hindu+editorial+today" },
-                    { id: "d2_eng_2", title: "Weekly Editorial Revision", timing: "07:00 – 07:30 AM", desc: "Re-read the 50 extracted vocab words from Days 1 and 2.", hours: 0.5 },
-                    { id: "d2_eng_3", title: "One-Word Substitutions & Idioms Drills", timing: "07:30 – 08:00 AM", desc: "Practice 30 OWS / Idioms MCQs in the app.", hours: 0.5, link: "index.html#english" }
+                    { id: "d2_eng_1", title: "Watch Today's The Hindu Editorial by Nimisha Bansal (Yes Officer)", timing: "05:30 – 06:15 AM", desc: "Live editorial analysis: identifying tone, cloze test clues, and high-frequency idioms.", hours: 0.75, link: "https://www.youtube.com/results?search_query=nimisha+bansal+the+hindu+editorial+today" },
+                    { id: "d2_eng_2", title: "120 Rules of Grammar by Nimisha Bansal: Rules 61 to 90", timing: "06:15 – 08:00 AM", desc: "Watch YouTube lecture for Rules 61–90: Conditional Clauses (If + Past Perfect -> Would have + V3), Subjunctive Mood, Gerund vs Infinitive, Causative Verbs (Make, Have, Let).", hours: 1.75, link: "https://www.youtube.com/results?search_query=nimisha+bansal+120+rules+of+grammar" }
                 ],
                 afterBreak: { type: "break", text: "🍳 08:00 AM – 09:00 AM: Breakfast Break (1 Hour Full Rest)" }
             },
@@ -876,18 +873,17 @@ const BOOTCAMP_DAYS = [
         dayIndex: 3,
         name: "Day 4: Tuesday",
         date: "20 Oct 2026",
-        focus: "Part-2 PDF (75 Qs) + Nimisha Bansal Editorial + Final 4 Benchmark Mocks",
+        focus: "Part-2 PDF (75 Qs) + Nimisha Bansal (Editorial + 120 Rules 91–120) + Final 4 Mocks",
         blocks: [
             {
                 id: "eng_d3",
-                title: "English — Nimisha Bansal Daily Editorial & Vocab (Yes Officer)",
+                title: "English — Nimisha Bansal Daily Editorial & 120 Rules of Grammar (Yes Officer)",
                 icon: "📰",
                 timing: "05:30 AM – 08:00 AM",
                 hours: 2.5,
                 tasks: [
-                    { id: "d3_eng_1", title: "Watch Today's The Hindu Editorial by Nimisha Bansal (Yes Officer)", timing: "05:30 – 07:00 AM", desc: "Deep passage analysis, skimming & scanning techniques for Tier 1.", hours: 1.5, link: "https://www.youtube.com/results?search_query=nimisha+bansal+the+hindu+editorial+today" },
-                    { id: "d3_eng_2", title: "4-Day Master Vocab Review", timing: "07:00 – 07:30 AM", desc: "Revise all 80+ words compiled across the 4 holiday days.", hours: 0.5 },
-                    { id: "d3_eng_3", title: "Cloze Test & Parajumble Rapid Drill", timing: "07:30 – 08:00 AM", desc: "Solve 5 Cloze Tests and 10 Parajumbles.", hours: 0.5, link: "index.html#english" }
+                    { id: "d3_eng_1", title: "Watch Today's The Hindu Editorial by Nimisha Bansal (Yes Officer)", timing: "05:30 – 06:15 AM", desc: "Editorial reading speed check, Tier-1 reading mindset, and editorial vocabulary recap.", hours: 0.75, link: "https://www.youtube.com/results?search_query=nimisha+bansal+the+hindu+editorial+today" },
+                    { id: "d3_eng_2", title: "120 Rules of Grammar by Nimisha Bansal: Rules 91 to 120 + Full Revision", timing: "06:15 – 08:00 AM", desc: "Watch YouTube lecture for Rules 91–120: Fixed Prepositions, Phrasal Verb traps, Superfluous expressions, and rapid master revision of all 120 Golden Rules.", hours: 1.75, link: "https://www.youtube.com/results?search_query=nimisha+bansal+120+rules+of+grammar" }
                 ],
                 afterBreak: { type: "break", text: "🍳 08:00 AM – 09:00 AM: Breakfast Break (1 Hour Full Rest)" }
             },
