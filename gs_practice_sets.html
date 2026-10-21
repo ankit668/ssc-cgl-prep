@@ -921,6 +921,13 @@
 
         // Initialize on DOM load
         window.addEventListener('DOMContentLoaded', initApp);
+
+        // Register Service Worker for offline mobile capability
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js').catch(() => {});
+            });
+        }
     </script>
 </body>
 </html>
