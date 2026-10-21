@@ -1,204 +1,2997 @@
 [
   {
-    "shift_id": "sep30_s2",
-    "name": "30 September (Shift 2)",
-    "date": "30 Sep 2026",
+    "shift_id": "oct16_s1",
+    "name": "16 October (Shift 1)",
+    "date": "16 Oct 2026",
     "questions": [
       {
         "id": 1,
-        "topic": "Coordinate Geometry",
-        "question": "The distance between the points (7, 5) and (4, 1) is:",
+        "topic": "Compound Interest",
+        "question": "A sum of ₹60,000 is divided equally between A and B. A receives simple interest at 5% p.a. and B at 11% p.a., both for 6 years. Find the total simple interest received by both.",
         "options": [
-          "4",
-          "5",
-          "6",
-          "7"
+          "₹28,800",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
         ],
-        "correct": 1,
-        "solution": "Distance = √[(x₂ − x₁)² + (y₂ − y₁)²] = √[(4 − 7)² + (1 − 5)²] = √[(-3)² + (-4)²] = √(9 + 16) = √25 = <b>5</b>.",
-        "shortcut": "⚡ <b>Pythagorean Triplet (3, 4, 5):</b> Δx = 3, Δy = 4 ⟹ Distance = <b>5</b>."
+        "correct": 0,
+        "solution": "Principal for each = 60,000 ÷ 2 = ₹30,000. SI for A = (30,000 × 5 × 6)/100 = ₹9,000. SI for B = (30,000 × 11 × 6)/100 = ₹19,800. Total SI = 9,000 + 19,800 = ₹28,800.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>₹28,800</b>."
       },
       {
         "id": 2,
-        "topic": "Mensuration 2D",
-        "question": "A regular hexagon is inscribed in a circle of radius 21 cm. Find the area of the hexagon.",
+        "topic": "Profit & Loss",
+        "question": "A, B and C invested in the ratio 2:3:4. After 4 months, A doubled his investment and B reduced his to one-third, while C continued unchanged for the whole year. Find the final profit-sharing ratio of A, B and C.",
         "options": [
-          "441√3 cm²",
-          "661.5√3 cm²",
-          "882√3 cm²",
-          "220.5√3 cm²"
+          "10 : 5 : 12",
+          "5 : 10 : 12",
+          "12 : 5 : 10",
+          "1 : 1 : 1"
         ],
-        "correct": 1,
-        "solution": "For an inscribed regular hexagon, side a = radius r = 21 cm.<br>Area = 6 × [(√3 / 4) × a²] = (3√3 / 2) × 21² = (3√3 / 2) × 441 = 1323√3 / 2 = <b>661.5√3 cm²</b>.",
-        "shortcut": "⚡ <b>Formula:</b> (3√3 / 2) × r² = 1.5 × 441 × √3 = <b>661.5√3 cm²</b>."
+        "correct": 0,
+        "solution": "Initial investments = 2x, 3x, 4x. A = (2x × 4) + (4x × 8) = 8x + 32x = 40x. B = (3x × 4) + (1x × 8) = 12x + 8x = 20x. C = 4x × 12 = 48x. Ratio = 40 : 20 : 48 = 10 : 5 : 12.",
+        "shortcut": "⚡ <b>Fraction / Ratio Method:</b> Convert % to fractional multipliers for 5-second calculation ⟹ <b>10 : 5 : 12</b>."
+      },
+      {
+        "id": 3,
+        "topic": "Trigonometry",
+        "question": "If tan A = cot B and cos A = sin(90° − 2B), where A and B are acute angles, find A + B.",
+        "options": [
+          "90°",
+          "92 °",
+          "88 °",
+          "180 °"
+        ],
+        "correct": 0,
+        "solution": "tan A = cot B = tan(90° − B) ⇒ A + B = 90°. cos A = sin(90° − 2B) = cos 2B ⇒ A = 2B. 2B + B = 90° ⇒ B = 30°, A = 60°. A + B = 90°.",
+        "shortcut": "⚡ <b>Trig Triplet / Value Putting:</b> Test standard angle (30°, 45°, 60°) or triplet ⟹ <b>90°</b>."
+      },
+      {
+        "id": 4,
+        "topic": "Trigonometry",
+        "question": "If cosec θ − cot θ = 2/5, find the value of tan θ.",
+        "options": [
+          "20/21",
+          "21/20",
+          "20/22",
+          "21/21"
+        ],
+        "correct": 0,
+        "solution": "cosec²θ − cot²θ = 1 ⇒ (cosec θ − cot θ)(cosec θ + cot θ) = 1 ⇒ cosec θ + cot θ = 5/2. Subtract: 2 cot θ = 5/2 − 2/5 = 21/10 ⇒ cot θ = 21/20. tan θ = 20/21.",
+        "shortcut": "⚡ <b>Trig Triplet / Value Putting:</b> Test standard angle (30°, 45°, 60°) or triplet ⟹ <b>20/21</b>."
+      },
+      {
+        "id": 5,
+        "topic": "Data Interpretation",
+        "question": "In a histogram representing data for 4 items across 3 categories, determine which item has the lowest overall average.",
+        "options": [
+          "The item with the lowest total sum across all 3 categories",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Average = (sum of values over the 3 categories) ÷ 3. The divisor (3) is the same for all 4 items, so the item with the minimum total has the lowest average.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>The item with the lowest total sum across all 3 categories</b>."
+      },
+      {
+        "id": 6,
+        "topic": "Data Interpretation",
+        "question": "A line graph displays class intervals on the x-axis as 0–50, 50–100, 100–150 and 150–200. Find the class mark (midpoint) of each interval.",
+        "options": [
+          "25, 75, 125, 175",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Class mark = (lower limit + upper limit)/2. 0–50: 25; 50–100: 75; 100–150: 125; 150–200: 175.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>25, 75, 125, 175</b>."
+      },
+      {
+        "id": 7,
+        "topic": "Mensuration 2D",
+        "question": "Find the area of the region bounded by y = |x − 1| and y = 3.",
+        "options": [
+          "9 sq units",
+          "11 sq units",
+          "7 sq units",
+          "18 sq units"
+        ],
+        "correct": 0,
+        "solution": "|x − 1| = 3 ⇒ x = 4 or x = −2. The region is a triangle with vertex (1, 0), base from x = −2 to x = 4 (length 6) and height 3. Area = ½ × 6 × 3 = 9 sq units.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>9 sq units</b>."
+      },
+      {
+        "id": 8,
+        "topic": "Geometry",
+        "question": "Two circles intersect at two distinct points. The common chord is perpendicular to which line?",
+        "options": [
+          "The line joining the centres of the two circles",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "The line segment joining the centres of two intersecting circles is the perpendicular bisector of their common chord.",
+        "shortcut": "⚡ <b>Circle Property:</b> Tangent-radius perpendicularity / chord relation directly yields <b>The line joining the centres of the two circles</b>."
+      },
+      {
+        "id": 9,
+        "topic": "Compound Interest",
+        "question": "An article is bought for ₹16,650 with a cash down payment of ₹15,000. The balance is paid in 3 equal annual installments at 10% p.a. simple interest. Find each installment.",
+        "options": [
+          "₹650",
+          "₹652",
+          "₹648",
+          "₹1300"
+        ],
+        "correct": 0,
+        "solution": "Remaining principal = 16,650 − 15,000 = ₹1,650. Amount due after 3 years = 1,650 + (1,650 × 10 × 3)/100 = 1,650 + 495 = ₹2,145. Let each installment be x. Paid at end of years 1, 2, 3 they earn interest for 2, 1, 0 years: 1.20x + 1.10x + 1.00x = 3.3x. 3.3x = 2,145 ⇒ x = ₹650.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>₹650</b>."
+      },
+      {
+        "id": 10,
+        "topic": "Data Interpretation",
+        "question": "A pie chart shows 100% divided among A, B, C, D and E. If E's share increases by 10 percentage points and this increase is deducted equally from A and B, what is the new share of A?",
+        "options": [
+          "Original share of A − 5 percentage points",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Total deduction from A and B together = 10%. Deducted equally ⇒ 10% ÷ 2 = 5% from A. New share of A = (original share of A) − 5%. A numerical value needs the original share, which the question does not give.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>Original share of A − 5 percentage points</b>."
+      },
+      {
+        "id": 11,
+        "topic": "Algebra",
+        "question": "If x = √((√10 + 3)/(√10 − 3)), find x² + 1/x².",
+        "options": [
+          "38",
+          "40",
+          "36",
+          "76"
+        ],
+        "correct": 0,
+        "solution": "x² = (√10 + 3)/(√10 − 3) = (√10 + 3)²/(10 − 9) = 10 + 6√10 + 9 = 19 + 6√10. 1/x² = 19 − 6√10. x² + 1/x² = 38.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>38</b>."
+      },
+      {
+        "id": 12,
+        "topic": "Speed & Distance",
+        "question": "Travelling at 50 km/h a person reaches 15 minutes late; at 70 km/h they reach 10 minutes early. Find the total distance.",
+        "options": [
+          "875/12 km (≈ 72.92 km)",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Time difference = 15 + 10 = 25 min = 5/12 h. d/50 − d/70 = 5/12 ⇒ d × (20/3500) = 5/12 ⇒ d = (3500/20) × (5/12) = 175 × 5/12. d = 875/12 km ≈ 72.92 km.",
+        "shortcut": "⚡ <b>Trig Triplet / Value Putting:</b> Test standard angle (30°, 45°, 60°) or triplet ⟹ <b>875/12 km (≈ 72.92 km)</b>."
+      },
+      {
+        "id": 13,
+        "topic": "Time & Work",
+        "question": "15 workers are contracted to complete a road project in 6 days. If 5 workers fail to join at the start, find the time taken by the remaining workers.",
+        "options": [
+          "9 days",
+          "11 days",
+          "7 days",
+          "18 days"
+        ],
+        "correct": 0,
+        "solution": "Total work = 15 × 6 = 90 worker-days. Remaining workers = 10. Time = 90 ÷ 10 = 9 days.",
+        "shortcut": "⚡ <b>LCM Method:</b> Total capacity = LCM; sum unit efficiencies ⟹ <b>9 days</b>."
+      },
+      {
+        "id": 14,
+        "topic": "Quantitative Aptitude",
+        "question": "If 3/5 of a number is 72, find 2/3 of that number.",
+        "options": [
+          "80",
+          "82",
+          "78",
+          "160"
+        ],
+        "correct": 0,
+        "solution": "(3/5)N = 72 ⇒ N = 72 × 5/3 = 120. (2/3) × 120 = 80.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>80</b>."
+      },
+      {
+        "id": 15,
+        "topic": "Number System",
+        "question": "Two numbers are in the ratio 3:4 and their LCM is 420. Find the numbers.",
+        "options": [
+          "105 and 140",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Let the numbers be 3x and 4x. LCM = 12x = 420 ⇒ x = 35. Numbers = 3 × 35 = 105 and 4 × 35 = 140.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>105 and 140</b>."
+      },
+      {
+        "id": 16,
+        "topic": "Quantitative Aptitude",
+        "question": "What is the value of π radians in degrees?",
+        "options": [
+          "180°",
+          "182 °",
+          "178 °",
+          "360 °"
+        ],
+        "correct": 0,
+        "solution": "π radians = 180° by standard conversion.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>180°</b>."
+      },
+      {
+        "id": 17,
+        "topic": "Mensuration 3D",
+        "question": "The diagonal of a cube is 18√3 cm. It is melted and recast into a cuboid whose length equals the cube's edge and breadth is 9 cm. Find the height of the cuboid.",
+        "options": [
+          "36 cm",
+          "38 cm",
+          "34 cm",
+          "72 cm"
+        ],
+        "correct": 0,
+        "solution": "Cube diagonal = a√3 = 18√3 ⇒ a = 18 cm. Volume of cuboid = Volume of cube: 18 × 9 × h = 18 × 18 × 18. 9h = 324 ⇒ h = 36 cm.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>36 cm</b>."
+      },
+      {
+        "id": 18,
+        "topic": "Quantitative Aptitude",
+        "question": "The average of 5 numbers is 27. If one number is excluded, the average of the rest becomes 24. Find the excluded number.",
+        "options": [
+          "39",
+          "41",
+          "37",
+          "78"
+        ],
+        "correct": 0,
+        "solution": "Sum of 5 numbers = 5 × 27 = 135. Sum of remaining 4 = 4 × 24 = 96. Excluded number = 135 − 96 = 39.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>39</b>."
+      },
+      {
+        "id": 19,
+        "topic": "Data Interpretation",
+        "question": "In a histogram, the midpoints (class marks) of continuous class intervals are given with a uniform class width. Find the range of the distribution (upper boundary of the highest class − lower boundary of the lowest class).",
+        "options": [
+          "Not given in the source PDF. Formula: Range = (last midpoint − first midpoint) + class width",
+          "Range = (last midpoint − first midpoint) + class width : Not given in the source PDF. Formula",
+          "Not given in the source PDF. Formula : Range = (last midpoint − first midpoint) + class width",
+          "1 : 1"
+        ],
+        "correct": 0,
+        "solution": "The source PDF gives no answer for this question; the method below is a general solution. Let class width = w. Lower boundary of lowest class = first midpoint − w/2. Upper boundary of highest class = last midpoint + w/2. Range = (last midpoint + w/2) − (first midpoint − w/2) = (last midpoint − first midpoint) + w.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>Not given in the source PDF. Formula: Range = (last midpoint − first midpoint) + class width</b>."
+      },
+      {
+        "id": 20,
+        "topic": "Data Interpretation",
+        "question": "A pie chart shows the percentage distribution of total expenditure across sectors. Find the central angle of the sector representing a given expenditure.",
+        "options": [
+          "Not given in the source PDF. Formula: Central angle = (sector value / total) × 360°",
+          "Central angle = (sector value / total) × 360° : Not given in the source PDF. Formula",
+          "Not given in the source PDF. Formula : Central angle = (sector value / total) × 360°",
+          "1 : 1"
+        ],
+        "correct": 0,
+        "solution": "The source PDF gives no answer for this question; the method below is a general solution. Central angle = (sector's expenditure ÷ total expenditure) × 360°. If given as a percentage p: angle = p × 3.6°.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>Not given in the source PDF. Formula: Central angle = (sector value / total) × 360°</b>."
+      },
+      {
+        "id": 21,
+        "topic": "Data Interpretation",
+        "question": "A line graph displays data values for different class intervals on the x-axis. Find the overall average value across all the given intervals.",
+        "options": [
+          "Not given in the source PDF. Formula: Average = sum of all values ÷ number of intervals",
+          "Average = sum of all values ÷ number of intervals : Not given in the source PDF. Formula",
+          "Not given in the source PDF. Formula : Average = sum of all values ÷ number of intervals",
+          "1 : 1"
+        ],
+        "correct": 0,
+        "solution": "The source PDF gives no answer for this question; the method below is a general solution. Add the data values of all intervals and divide by the number of intervals (use a frequency-weighted mean if frequencies differ).",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>Not given in the source PDF. Formula: Average = sum of all values ÷ number of intervals</b>."
+      }
+    ]
+  },
+  {
+    "shift_id": "oct16_s2",
+    "name": "16 October (Shift 2)",
+    "date": "16 Oct 2026",
+    "questions": [
+      {
+        "id": 1,
+        "topic": "Number System",
+        "question": "How many numbers between 200 and 600 are divisible by both 5 and 7?",
+        "options": [
+          "12",
+          "14",
+          "10",
+          "24"
+        ],
+        "correct": 0,
+        "solution": "Divisible by both ⇒ divisible by LCM(5, 7) = 35. First multiple above 200 = 210 (35 × 6); last below 600 = 595 (35 × 17). Count = 17 − 6 + 1 = 12.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>12</b>."
+      },
+      {
+        "id": 2,
+        "topic": "Algebra",
+        "question": "If x² + 1/x² = 62, find x + 1/x.",
+        "options": [
+          "8",
+          "10",
+          "6",
+          "16"
+        ],
+        "correct": 0,
+        "solution": "(x + 1/x)² = x² + 1/x² + 2 = 62 + 2 = 64. x + 1/x = 8 (taking the positive root, as in the source; −8 is also mathematically possible).",
+        "shortcut": "⚡ <b>Algebra Formula:</b> Direct identity evaluation yields <b>8</b>."
+      },
+      {
+        "id": 3,
+        "topic": "Quantitative Aptitude",
+        "question": "Convert 3π radians into degrees.",
+        "options": [
+          "540°",
+          "542 °",
+          "538 °",
+          "1080 °"
+        ],
+        "correct": 0,
+        "solution": "3π × (180°/π) = 3 × 180° = 540°.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>540°</b>."
+      },
+      {
+        "id": 4,
+        "topic": "Quantitative Aptitude",
+        "question": "If a : b : c = 3 : 2 : 1, find 5a + 2b − c.",
+        "options": [
+          "18",
+          "20",
+          "16",
+          "36"
+        ],
+        "correct": 0,
+        "solution": "Take a = 3, b = 2, c = 1: 5(3) + 2(2) − 1 = 15 + 4 − 1 = 18.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>18</b>."
+      },
+      {
+        "id": 5,
+        "topic": "Quantitative Aptitude",
+        "question": "Find √(5 − 2√6) + 1/√(5 − 2√6).",
+        "options": [
+          "2√3",
+          "4√3",
+          "2√4",
+          "4"
+        ],
+        "correct": 0,
+        "solution": "5 − 2√6 = (√3 − √2)² ⇒ √(5 − 2√6) = √3 − √2. Reciprocal = 1/(√3 − √2) = √3 + √2. Sum = (√3 − √2) + (√3 + √2) = 2√3.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>2√3</b>."
+      },
+      {
+        "id": 6,
+        "topic": "Quantitative Aptitude",
+        "question": "Find √(15 − 2√56) − 1/√(15 − 2√56).",
+        "options": [
+          "−2√7 (the source PDF's answer line says 2√7, but its own working gives −2√7)",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "15 − 2√56 = (√8 − √7)² since 8 + 7 = 15 and √8 × √7 = √56. √(15 − 2√56) = √8 − √7; reciprocal = √8 + √7. Difference = (√8 − √7) − (√8 + √7) = −2√7.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>−2√7 (the source PDF's answer line says 2√7, but its own working gives −2√7)</b>."
+      },
+      {
+        "id": 7,
+        "topic": "Geometry",
+        "question": "The radii of two circles are in the ratio 2:3. If arcs of equal length subtend angles θ₁ and θ₂ at their centres, find θ₁ : θ₂.",
+        "options": [
+          "3 : 2",
+          "2 : 3",
+          "4 : 2",
+          "1 : 1"
+        ],
+        "correct": 0,
+        "solution": "Arc length = rθ. Equal arcs: r₁θ₁ = r₂θ₂ ⇒ θ₁/θ₂ = r₂/r₁ = 3/2. Ratio = 3 : 2.",
+        "shortcut": "⚡ <b>Circle Property:</b> Tangent-radius perpendicularity / chord relation directly yields <b>3 : 2</b>."
+      },
+      {
+        "id": 8,
+        "topic": "Geometry",
+        "question": "Two circles have radii 2 cm and 5 cm and their centres are 11 cm apart. How many common tangents can be drawn?",
+        "options": [
+          "4",
+          "6",
+          "2",
+          "8"
+        ],
+        "correct": 0,
+        "solution": "d = 11, r₁ + r₂ = 7. Since d > r₁ + r₂, the circles are separate and do not touch. Separate circles have 4 common tangents (2 direct + 2 transverse).",
+        "shortcut": "⚡ <b>Circle Property:</b> Tangent-radius perpendicularity / chord relation directly yields <b>4</b>."
+      },
+      {
+        "id": 9,
+        "topic": "Quantitative Aptitude",
+        "question": "If ABCDEFGHI is coded as 72 and XYZABCDEFG as 90, how is LMNOPQQRST coded?",
+        "options": [
+          "90",
+          "92",
+          "88",
+          "180"
+        ],
+        "correct": 0,
+        "solution": "ABCDEFGHI has 9 letters: 9 × 8 = 72. XYZABCDEFG has 10 letters: 10 × 9 = 90. Pattern: n × (n − 1). LMNOPQQRST has 10 letters ⇒ 10 × 9 = 90.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>90</b>."
+      },
+      {
+        "id": 10,
+        "topic": "Trigonometry",
+        "question": "If A + B = 90°, find tan A · tan B.",
+        "options": [
+          "1",
+          "3",
+          "5",
+          "2"
+        ],
+        "correct": 0,
+        "solution": "B = 90° − A ⇒ tan B = cot A. tan A × cot A = 1.",
+        "shortcut": "⚡ <b>Trig Triplet / Value Putting:</b> Test standard angle (30°, 45°, 60°) or triplet ⟹ <b>1</b>."
+      },
+      {
+        "id": 11,
+        "topic": "Mensuration 2D",
+        "question": "In quadrilateral ABCD, the bisectors of ∠A and ∠B meet at P. If ∠APB = 90°, find ∠C + ∠D.",
+        "options": [
+          "180°",
+          "182 °",
+          "178 °",
+          "360 °"
+        ],
+        "correct": 0,
+        "solution": "In △APB: (∠A + ∠B)/2 + 90° = 180° ⇒ ∠A + ∠B = 180°. Angle sum of quadrilateral = 360°, so ∠C + ∠D = 360° − 180° = 180°.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>180°</b>."
+      },
+      {
+        "id": 12,
+        "topic": "Trigonometry",
+        "question": "If tan θ + cot θ = 2, find tan²θ + cot²θ.",
+        "options": [
+          "2",
+          "4",
+          "6",
+          "7"
+        ],
+        "correct": 0,
+        "solution": "Square both sides: tan²θ + cot²θ + 2(tan θ · cot θ) = 4. tan θ · cot θ = 1 ⇒ tan²θ + cot²θ = 4 − 2 = 2.",
+        "shortcut": "⚡ <b>Trig Triplet / Value Putting:</b> Test standard angle (30°, 45°, 60°) or triplet ⟹ <b>2</b>."
+      },
+      {
+        "id": 13,
+        "topic": "Quantitative Aptitude",
+        "question": "If a : b : c = 1 : 2 : 3 and a + 2b + c = 24, find c.",
+        "options": [
+          "9",
+          "11",
+          "7",
+          "18"
+        ],
+        "correct": 0,
+        "solution": "a = x, b = 2x, c = 3x. x + 4x + 3x = 8x = 24 ⇒ x = 3. c = 3x = 9.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>9</b>."
+      },
+      {
+        "id": 14,
+        "topic": "Quantitative Aptitude",
+        "question": "If f : ℚ → ℚ is a field automorphism, find f(x) for all x ∈ ℚ.",
+        "options": [
+          "f(x) = x",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "A field automorphism fixes 1, so it fixes every integer, and hence every rational p/q. The only field automorphism of ℚ is the identity map: f(x) = x.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>f(x) = x</b>."
+      }
+    ]
+  },
+  {
+    "shift_id": "oct16_s3",
+    "name": "16 October (Shift 3)",
+    "date": "16 Oct 2026",
+    "questions": [
+      {
+        "id": 1,
+        "topic": "Mensuration 3D",
+        "question": "The lateral surface area of a right regular pentagonal prism is 450 cm² and its height is 15 cm. Find the perimeter of its base.",
+        "options": [
+          "30 cm",
+          "32 cm",
+          "28 cm",
+          "60 cm"
+        ],
+        "correct": 0,
+        "solution": "LSA = base perimeter × height ⇒ 450 = P × 15. P = 450/15 = 30 cm.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>30 cm</b>."
+      },
+      {
+        "id": 2,
+        "topic": "Speed & Distance",
+        "question": "A 240 m long train crosses a man walking in the opposite direction at 6 km/h in 12 seconds. Find the speed of the train (km/h).",
+        "options": [
+          "66 km/h",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Relative speed = 240/12 = 20 m/s = 20 × 18/5 = 72 km/h. Opposite directions ⇒ speeds add: train + 6 = 72 ⇒ train = 66 km/h.",
+        "shortcut": "⚡ <b>Relative Speed:</b> Net speed = S₁ ± S₂; Distance = Speed × Time ⟹ <b>66 km/h</b>."
+      },
+      {
+        "id": 3,
+        "topic": "Quantitative Aptitude",
+        "question": "Sales brackets: ₹1L–₹2L: ₹25 Lakhs, ₹2L–₹3L: ₹35 Lakhs, ₹3L–₹5L: ₹60 Lakhs, above ₹5L: ₹80 Lakhs. What percentage of total sales comes from the ₹3L–₹5L bracket?",
+        "options": [
+          "30%",
+          "32 %",
+          "28 %",
+          "60 %"
+        ],
+        "correct": 0,
+        "solution": "Total = 25 + 35 + 60 + 80 = 200 Lakhs. Percentage = (60/200) × 100 = 30%.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>30%</b>."
+      },
+      {
+        "id": 4,
+        "topic": "Quantitative Aptitude",
+        "question": "A writer can write 30 pages in 6 hours. At the same rate, how many hours will 4 writers take to write 120 pages?",
+        "options": [
+          "6 hours",
+          "8 hours",
+          "4 hours",
+          "12 hours"
+        ],
+        "correct": 0,
+        "solution": "(M₁ × T₁)/W₁ = (M₂ × T₂)/W₂ ⇒ (1 × 6)/30 = (4 × T₂)/120. 1/5 = T₂/30 ⇒ T₂ = 6 hours.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>6 hours</b>."
+      },
+      {
+        "id": 5,
+        "topic": "Mensuration 3D",
+        "question": "A right pyramid has a square base of side 16 cm and vertical height 15 cm. Find its slant height.",
+        "options": [
+          "17 cm",
+          "19 cm",
+          "15 cm",
+          "34 cm"
+        ],
+        "correct": 0,
+        "solution": "Slant height l = √(h² + (side/2)²) = √(15² + 8²) = √(225 + 64) = √289 = 17 cm.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>17 cm</b>."
+      },
+      {
+        "id": 6,
+        "topic": "Geometry",
+        "question": "Find the distance between the centroid and circumcenter of an equilateral triangle of side 12 cm.",
+        "options": [
+          "0 cm",
+          "1 cm",
+          "4 cm",
+          "3 cm"
+        ],
+        "correct": 0,
+        "solution": "In an equilateral triangle the centroid, circumcenter, incenter and orthocenter coincide, so the distance is 0 cm.",
+        "shortcut": "⚡ <b>Geometry Theorem:</b> Standard triangle property directly yields <b>0 cm</b> in &lt;10 seconds."
+      },
+      {
+        "id": 7,
+        "topic": "Quantitative Aptitude",
+        "question": "If (a + b)² = 25 and (a − b)² = 9, find ab.",
+        "options": [
+          "4",
+          "6",
+          "2",
+          "8"
+        ],
+        "correct": 0,
+        "solution": "(a + b)² − (a − b)² = 4ab ⇒ 25 − 9 = 4ab ⇒ 16 = 4ab ⇒ ab = 4.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>4</b>."
+      },
+      {
+        "id": 8,
+        "topic": "Mensuration 3D",
+        "question": "A right pyramid has a square base, slant edge 20 cm and vertical height 16 cm. Find the ratio of its slant height to the side of the base.",
+        "options": [
+          "√41 : 6",
+          "2√41 : 6",
+          "1√42 : 6",
+          "2 : 6"
+        ],
+        "correct": 0,
+        "solution": "Edge² = h² + (a/√2)² ⇒ 400 = 256 + a²/2 ⇒ a² = 288. Slant height² = h² + (a/2)² = 256 + 288/4 = 256 + 72 = 328. l/a = √(328/288) = √(41/36) ⇒ ratio = √41 : 6.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>√41 : 6</b>."
+      },
+      {
+        "id": 9,
+        "topic": "Trigonometry",
+        "question": "If cos A = 1, find sin²A.",
+        "options": [
+          "0",
+          "1",
+          "4",
+          "3"
+        ],
+        "correct": 0,
+        "solution": "sin²A = 1 − cos²A = 1 − 1 = 0.",
+        "shortcut": "⚡ <b>Trig Triplet / Value Putting:</b> Test standard angle (30°, 45°, 60°) or triplet ⟹ <b>0</b>."
+      },
+      {
+        "id": 10,
+        "topic": "Trigonometry",
+        "question": "If tan A = 3/4, find sec²A.",
+        "options": [
+          "25/16",
+          "16/25",
+          "25/17",
+          "26/16"
+        ],
+        "correct": 0,
+        "solution": "sec²A = 1 + tan²A = 1 + 9/16 = 25/16.",
+        "shortcut": "⚡ <b>Trig Triplet / Value Putting:</b> Test standard angle (30°, 45°, 60°) or triplet ⟹ <b>25/16</b>."
+      },
+      {
+        "id": 11,
+        "topic": "Data Interpretation",
+        "question": "In a pie chart, the central angle for a department is 108°. What fraction of total expenditure does it represent?",
+        "options": [
+          "3/10",
+          "10/3",
+          "3/11",
+          "4/10"
+        ],
+        "correct": 0,
+        "solution": "Fraction = 108°/360° = 3/10.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>3/10</b>."
+      },
+      {
+        "id": 12,
+        "topic": "Compound Interest",
+        "question": "₹80,000 is invested at 7% p.a. compounded quarterly. Find the amount after 1 year.",
+        "options": [
+          "₹85,748.72",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Rate per quarter = 7/4 = 1.75% = 0.0175; n = 4 quarters. Amount = 80,000 × (1.0175)⁴ = 80,000 × 1.071859 ≈ ₹85,748.72.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>₹85,748.72</b>."
+      },
+      {
+        "id": 13,
+        "topic": "Quantitative Aptitude",
+        "question": "Annual production (thousands) over 7 years: 45, 52, 60, 68, 71, 79, 87. Find the average.",
+        "options": [
+          "66",
+          "68",
+          "64",
+          "132"
+        ],
+        "correct": 0,
+        "solution": "Sum = 45 + 52 + 60 + 68 + 71 + 79 + 87 = 462. Average = 462/7 = 66.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>66</b>."
+      },
+      {
+        "id": 14,
+        "topic": "Geometry",
+        "question": "Two identical circles of radius 13 cm pass through each other's centres. Find the length of their common chord.",
+        "options": [
+          "13√3 cm",
+          "26√3 cm",
+          "13√4 cm",
+          "26 cm"
+        ],
+        "correct": 0,
+        "solution": "Distance between centres = 13. The chord is bisected by the line of centres, at 6.5 from each centre. Half chord = √(13² − 6.5²) = 6.5√3 ⇒ chord = 13√3 cm.",
+        "shortcut": "⚡ <b>Circle Property:</b> Tangent-radius perpendicularity / chord relation directly yields <b>13√3 cm</b>."
+      },
+      {
+        "id": 15,
+        "topic": "Geometry",
+        "question": "Find the distance between the incentre and orthocentre of an equilateral triangle.",
+        "options": [
+          "0",
+          "1",
+          "4",
+          "3"
+        ],
+        "correct": 0,
+        "solution": "All four centres coincide in an equilateral triangle, so the distance is 0.",
+        "shortcut": "⚡ <b>Geometry Theorem:</b> Standard triangle property directly yields <b>0</b> in &lt;10 seconds."
+      },
+      {
+        "id": 16,
+        "topic": "Trigonometry",
+        "question": "If cos x = 0, find sin²x.",
+        "options": [
+          "1",
+          "3",
+          "5",
+          "2"
+        ],
+        "correct": 0,
+        "solution": "sin²x = 1 − cos²x = 1 − 0 = 1.",
+        "shortcut": "⚡ <b>Trig Triplet / Value Putting:</b> Test standard angle (30°, 45°, 60°) or triplet ⟹ <b>1</b>."
+      },
+      {
+        "id": 17,
+        "topic": "Quantitative Aptitude",
+        "question": "If (A + B)³ = 27 and (A − B)³ = 125 with A, B real, find A² − B².",
+        "options": [
+          "15",
+          "17",
+          "13",
+          "30"
+        ],
+        "correct": 0,
+        "solution": "A + B = ∛27 = 3 and A − B = ∛125 = 5. A² − B² = (A + B)(A − B) = 3 × 5 = 15.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>15</b>."
+      }
+    ]
+  },
+  {
+    "shift_id": "oct15_s1",
+    "name": "15 October (Shift 1)",
+    "date": "15 Oct 2026",
+    "questions": [
+      {
+        "id": 1,
+        "topic": "Quantitative Aptitude",
+        "question": "If √5 = 2.23, find the value of: (10 - √5)/√5",
+        "options": [
+          "3.46",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "(10 - √5)/√5 = (10/√5) - (√5/√5) = 2√5 - 1. Substitute √5 = 2.23: = 2(2.23) - 1 = 4.46 - 1 = 3.46",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>3.46</b>."
+      },
+      {
+        "id": 2,
+        "topic": "Profit & Loss",
+        "question": "The Marked Price (MP) of an article is marked 25% above the Cost Price (CP), and then a discount of 10% is offered on it. What is the profit percentage?",
+        "options": [
+          "12.5%",
+          "17.5%",
+          "7.5%",
+          "18.8%"
+        ],
+        "correct": 0,
+        "solution": "Let CP = 100. MP = 100 + 25 = 125. Discount = 10% of 125 = 12.50. SP = 125 - 12.50 = 112.50. Profit % = ((112.50 - 100) / 100) * 100 = 12.5%",
+        "shortcut": "⚡ <b>Fraction / Ratio Method:</b> Convert % to fractional multipliers for 5-second calculation ⟹ <b>12.5%</b>."
       },
       {
         "id": 3,
         "topic": "Geometry",
-        "question": "Two circles have radii 3 cm and 5 cm. The length of the direct common tangent (DCT) is twice the length of the transverse common tangent (TCT). Find the square of the distance between their centres (d²).",
+        "question": "From an external point P, two tangents PA and PB are drawn to a circle. If ∠APB = 60° and the radius of the circle is 5 cm, what is the length of chord AB?",
         "options": [
-          "64",
-          "72",
-          "84",
-          "100"
+          "5√3 cm",
+          "10√3 cm",
+          "5√4 cm",
+          "10 cm"
         ],
-        "correct": 2,
-        "solution": "DCT² = d² − (r₁ − r₂)² = d² − (5 − 3)² = d² − 4.<br>TCT² = d² − (r₁ + r₂)² = d² − (5 + 3)² = d² − 64.<br>Given DCT = 2 · TCT ⟹ DCT² = 4 · TCT².<br>d² − 4 = 4(d² − 64) = 4d² − 256 ⟹ 3d² = 252 ⟹ d² = <b>84</b>.",
-        "shortcut": "⚡ <b>Shortcut:</b> d² = (4 × 64 − 4) / 3 = 252 / 3 = <b>84</b>."
+        "correct": 0,
+        "solution": "Tangents drawn from an external point are equal (PA = PB). In ΔPAB, since PA = PB and ∠APB = 60°, it is an equilateral triangle, so AB = PA. In right-angled ΔOAP (radius OA = 5 cm, ∠APO = 30°): tan 30° = OA / PA => 1/√3 = 5 / PA => PA = 5√3 cm. Therefore, chord AB = 5√3 cm.",
+        "shortcut": "⚡ <b>Circle Property:</b> Tangent-radius perpendicularity / chord relation directly yields <b>5√3 cm</b>."
+      },
+      {
+        "id": 4,
+        "topic": "Time & Work",
+        "question": "A can complete a piece of work in 20 days and B can complete the same work in 30 days. Both work together for 6 days, after which A leaves. In how many days will B alone complete the remaining work?",
+        "options": [
+          "15 days",
+          "17 days",
+          "13 days",
+          "30 days"
+        ],
+        "correct": 0,
+        "solution": "Total work = LCM(20, 30) = 60 units. Efficiency of A = 60 / 20 = 3 units/day. Efficiency of B = 60 / 30 = 2 units/day. Combined efficiency (A + B) = 3 + 2 = 5 units/day. Work done together in 6 days = 5 * 6 = 30 units. Remaining work = 60 - 30 = 30 units. Time taken by B alone = 30 / 2 = 15 days.",
+        "shortcut": "⚡ <b>LCM Method:</b> Total capacity = LCM; sum unit efficiencies ⟹ <b>15 days</b>."
+      },
+      {
+        "id": 5,
+        "topic": "Algebra",
+        "question": "If x + 1/x = √5, find the value of: x² - 1/x²",
+        "options": [
+          "√5",
+          "2√5",
+          "1√6",
+          "2"
+        ],
+        "correct": 0,
+        "solution": "Identity: (x - 1/x)² = (x + 1/x)² - 4. (x - 1/x)² = (√5)² - 4 = 5 - 4 = 1 => x - 1/x = 1. Now, x² - 1/x² = (x + 1/x)(x - 1/x) = √5 * 1 = √5.",
+        "shortcut": "⚡ <b>Algebra Formula:</b> Direct identity evaluation yields <b>√5</b>."
+      },
+      {
+        "id": 6,
+        "topic": "Number System",
+        "question": "The HCF and LCM of two numbers are 20 and 120 respectively. If the first number is 60, find the second number.",
+        "options": [
+          "40",
+          "42",
+          "38",
+          "80"
+        ],
+        "correct": 0,
+        "solution": "First Number * Second Number = HCF * LCM. 60 * Second Number = 20 * 120. Second Number = 2400 / 60 = 40.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>40</b>."
+      },
+      {
+        "id": 7,
+        "topic": "Quantitative Aptitude",
+        "question": "P has three children. R is the sister of Q, and Q is the brother of S. M is the mother of S and the wife of P. If P has only one daughter, how are Q and S related to each other?",
+        "options": [
+          "Both are brothers",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "P and M have three children: R, Q, and S. R is female (sister), Q is male (brother). Since P has only one daughter, R is the sole female child. Hence, S must be male. Since both Q and S are male siblings, they are brothers to each other.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>Both are brothers</b>."
+      },
+      {
+        "id": 8,
+        "topic": "Mensuration 3D",
+        "question": "If the radius of the base of a cone is decreased by 20% while its height remains constant, what is the percentage decrease in its volume?",
+        "options": [
+          "36%",
+          "38 %",
+          "34 %",
+          "72 %"
+        ],
+        "correct": 0,
+        "solution": "Volume of a cone V = (1/3) * π * r² * h. Since h is constant, V ∝ r². A 20% decrease reduces the radius in the ratio 5 -> 4. Volume ratio = 5² -> 4² = 25 -> 16. Percentage Decrease = ((25 - 16) / 25) * 100 = (9 / 25) * 100 = 36%.",
+        "shortcut": "⚡ <b>Trig Triplet / Value Putting:</b> Test standard angle (30°, 45°, 60°) or triplet ⟹ <b>36%</b>."
+      },
+      {
+        "id": 9,
+        "topic": "Trigonometry",
+        "question": "If tan θ = 2, find the value of: (sec²θ - csc²θ) / (sec²θ + csc²θ)",
+        "options": [
+          "3/5",
+          "5/3",
+          "3/6",
+          "4/5"
+        ],
+        "correct": 0,
+        "solution": "Given tan θ = 2 => cot θ = 1/2. sec²θ = 1 + tan²θ = 1 + 2² = 5. csc²θ = 1 + cot²θ = 1 + (1/2)² = 5/4. Numerator = 5 - 5/4 = 15/4. Denominator = 5 + 5/4 = 25/4. Value = (15/4) / (25/4) = 15/25 = 3/5.",
+        "shortcut": "⚡ <b>Trig Triplet / Value Putting:</b> Test standard angle (30°, 45°, 60°) or triplet ⟹ <b>3/5</b>."
+      },
+      {
+        "id": 10,
+        "topic": "Profit & Loss",
+        "question": "Two articles were sold for ₹1,980 each. One was sold at a profit of 10% and the other at a loss of 10%. What was the total loss incurred in the entire transaction?",
+        "options": [
+          "₹40",
+          "₹42",
+          "₹38",
+          "₹80"
+        ],
+        "correct": 0,
+        "solution": "Total SP = 1980 + 1980 = ₹3,960. CP of 1st article = 1980 / 1.10 = ₹1,800. CP of 2nd article = 1980 / 0.90 = ₹2,200. Total CP = 1800 + 2200 = ₹4,000. Total Loss = Total CP - Total SP = 4000 - 3960 = ₹40.",
+        "shortcut": "⚡ <b>Fraction / Ratio Method:</b> Convert % to fractional multipliers for 5-second calculation ⟹ <b>₹40</b>."
+      },
+      {
+        "id": 11,
+        "topic": "Compound Interest",
+        "question": "A sum of money amounts to ₹6,200 in 3 years and to ₹7,000 in 5 years at a certain rate of simple interest. If the annual rate of interest is increased by 2%, in how many years will the principal double itself?",
+        "options": [
+          "10 years",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "SI for 2 years (from year 3 to 5) = 7000 - 6200 = ₹800. SI per year = 800 / 2 = ₹400. Principal (P) = 6200 - (3 * 400) = ₹5,000. Original Rate (R) = (400 / 5000) * 100 = 8%. New Rate (R') = 8% + 2% = 10%. To double the principal, SI required equals the principal (SI = P): Time = 100 / R' = 100 / 10 = 10 years.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>10 years</b>."
+      },
+      {
+        "id": 12,
+        "topic": "Profit & Loss",
+        "question": "The cost price of an article is ₹4,000. If a shopkeeper gains 25% after allowing a discount of 20% on its marked price, what is the marked price of the article?",
+        "options": [
+          "₹6,250",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "MP / CP = (100 + Profit%) / (100 - Discount%). MP / 4000 = (100 + 25) / (100 - 20) = 125 / 80. MP = 4000 * (125 / 80) = 50 * 125 = ₹6,250.",
+        "shortcut": "⚡ <b>Fraction / Ratio Method:</b> Convert % to fractional multipliers for 5-second calculation ⟹ <b>₹6,250</b>."
+      },
+      {
+        "id": 13,
+        "topic": "Geometry",
+        "question": "If each exterior angle of a regular polygon is 36°, find the total number of diagonals in the polygon.",
+        "options": [
+          "35",
+          "37",
+          "33",
+          "70"
+        ],
+        "correct": 0,
+        "solution": "Number of sides (n) = 360° / Exterior Angle = 360° / 36° = 10. Diagonals = n(n - 3) / 2 = 10(10 - 3) / 2 = (10 * 7) / 2 = 35.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>35</b>."
+      },
+      {
+        "id": 14,
+        "topic": "Trigonometry",
+        "question": "If sin x = 3/5, find the value of: sin²x + cos²x + tan²x",
+        "options": [
+          "25/16",
+          "16/25",
+          "25/17",
+          "26/16"
+        ],
+        "correct": 0,
+        "solution": "Using sin²x + cos²x = 1: Expression = 1 + tan²x = sec²x. For sin x = 3/5, base = √(5² - 3²) = 4, so sec x = 5/4. sec²x = (5/4)² = 25/16.",
+        "shortcut": "⚡ <b>Trig Triplet / Value Putting:</b> Test standard angle (30°, 45°, 60°) or triplet ⟹ <b>25/16</b>."
+      },
+      {
+        "id": 15,
+        "topic": "Mensuration 3D",
+        "question": "A solid sphere of diameter 1.4 m is melted and drawn into a cylindrical wire of length 10 m. What is the diameter of the wire?",
+        "options": [
+          "42.8 cm",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Radius of sphere R = 1.4 / 2 = 0.7 m. Length of wire h = 10 m. Volume of Sphere = Volume of Wire: (4/3) * π * R³ = π * r² * h. (4/3) * (0.7)³ = r² * 10. r² = (4 * 0.343) / 30 ≈ 0.045733 m². r ≈ √0.045733 ≈ 0.21385 m ≈ 21.39 cm. Diameter = 2r ≈ 2 * 21.39 = 42.8 cm.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>42.8 cm</b>."
+      },
+      {
+        "id": 16,
+        "topic": "Profit & Loss",
+        "question": "In a business, A invests ₹2,500 more than B. A invests for 6 months while B invests for 10 months. If out of a total profit of ₹5,200, A's share is ₹3,600, what is the amount invested by A?",
+        "options": [
+          "₹3,409 (approx.)",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Profit of B = 5200 - 3600 = ₹1,600. Profit ratio = 3600 / 1600 = 9 / 4. (Capital A * 6) / (Capital B * 10) = 9 / 4 => (3 * C_A) / (5 * C_B) = 9 / 4 => C_A / C_B = 15 / 4. Let C_A = 15x and C_B = 4x. Difference = 15x - 4x = 11x = 2500 => x = 2500 / 11. C_A = 15 * (2500 / 11) = 37500 / 11 ≈ ₹3,409.",
+        "shortcut": "⚡ <b>Fraction / Ratio Method:</b> Convert % to fractional multipliers for 5-second calculation ⟹ <b>₹3,409 (approx.)</b>."
+      },
+      {
+        "id": 17,
+        "topic": "Geometry",
+        "question": "In ΔABC, a line DE is drawn parallel to BC such that it intersects AB at D and AC at E. If AD = x, DB = x - 2, AE = x + 2, and EC = x - 1, what is the value of x?",
+        "options": [
+          "4",
+          "6",
+          "2",
+          "8"
+        ],
+        "correct": 0,
+        "solution": "By Thales Theorem: AD / DB = AE / EC. x / (x - 2) = (x + 2) / (x - 1). x(x - 1) = (x - 2)(x + 2). x² - x = x² - 4 => -x = -4 => x = 4.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>4</b>."
+      },
+      {
+        "id": 18,
+        "topic": "Trigonometry",
+        "question": "If tan x = 2, find the value of: (csc²x + cot²x) / (sec²x + cot²x)",
+        "options": [
+          "2/7",
+          "7/2",
+          "2/8",
+          "3/7"
+        ],
+        "correct": 0,
+        "solution": "Given tan x = 2 => cot x = 1/2 => cot²x = 1/4. csc²x = 1 + cot²x = 1 + 1/4 = 5/4. sec²x = 1 + tan²x = 1 + 4 = 5. Numerator = 5/4 + 1/4 = 6/4 = 3/2. Denominator = 5 + 1/4 = 21/4. Result = (3/2) / (21/4) = (3/2) * (4/21) = 2/7.",
+        "shortcut": "⚡ <b>Trig Triplet / Value Putting:</b> Test standard angle (30°, 45°, 60°) or triplet ⟹ <b>2/7</b>."
+      },
+      {
+        "id": 19,
+        "topic": "Quantitative Aptitude",
+        "question": "If x - y = 7 and xy = 5, find the value of: (x + y)²",
+        "options": [
+          "69",
+          "71",
+          "67",
+          "138"
+        ],
+        "correct": 0,
+        "solution": "Identity: (x + y)² = (x - y)² + 4xy. (x + y)² = 7² + 4(5) = 49 + 20 = 69.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>69</b>."
+      },
+      {
+        "id": 20,
+        "topic": "Geometry",
+        "question": "In a circle with center O and radius 29 cm, two chords AB and CD have equal lengths (AB = CD). If the perpendicular distance from center O to chord AB is 20 cm, what is the length of chord CD?",
+        "options": [
+          "42 cm",
+          "44 cm",
+          "40 cm",
+          "84 cm"
+        ],
+        "correct": 0,
+        "solution": "The perpendicular from the center to a chord bisects the chord. Half-length of chord AB = √(29² - 20²) = √(841 - 400) = √441 = 21 cm. Length of chord AB = 2 * 21 = 42 cm. Since AB = CD, length of chord CD = 42 cm.",
+        "shortcut": "⚡ <b>Circle Property:</b> Tangent-radius perpendicularity / chord relation directly yields <b>42 cm</b>."
+      }
+    ]
+  },
+  {
+    "shift_id": "oct15_s2",
+    "name": "15 October (Shift 2)",
+    "date": "15 Oct 2026",
+    "questions": [
+      {
+        "id": 1,
+        "topic": "Profit & Loss",
+        "question": "An article is sold at a discount of 10% on its marked price, yielding a profit of 20%. If the profit earned is ₹60 (or ₹90), what is the marked price of the article?",
+        "options": [
+          "₹400 (if profit is ₹60) or ₹600 (if profit is ₹90)",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Profit = 20% of CP = ₹60 => CP = 60 / 0.20 = ₹300. SP = CP + Profit = 300 + 60 = ₹360. Discount = 10%, so SP = 90% of MP. MP = 360 / 0.90 = ₹400. (If profit is ₹90: CP = ₹450, SP = ₹540 => MP = 540 / 0.90 = ₹600)",
+        "shortcut": "⚡ <b>Fraction / Ratio Method:</b> Convert % to fractional multipliers for 5-second calculation ⟹ <b>₹400 (if profit is ₹60) or ₹600 (if profit is ₹90)</b>."
+      },
+      {
+        "id": 2,
+        "topic": "Time & Work",
+        "question": "A can complete a piece of work in 12 days and B can complete the same work in 24 days. In how many days will both of them complete the work working together?",
+        "options": [
+          "8 days",
+          "10 days",
+          "6 days",
+          "16 days"
+        ],
+        "correct": 0,
+        "solution": "Total Work = LCM(12, 24) = 24 units. Efficiency of A = 24 / 12 = 2 units/day. Efficiency of B = 24 / 24 = 1 unit/day. Combined Efficiency = 2 + 1 = 3 units/day. Time taken = 24 / 3 = 8 days. Shortcut: (A * B) / (A + B) = (12 * 24) / (12 + 24) = 288 / 36 = 8 days.",
+        "shortcut": "⚡ <b>LCM Method:</b> Total capacity = LCM; sum unit efficiencies ⟹ <b>8 days</b>."
+      },
+      {
+        "id": 3,
+        "topic": "Algebra",
+        "question": "If a + b + c = 7, find the value of a³ + b³ + c³ using the identity: a³ + b³ + c³ - 3abc = (a + b + c)(a² + b² + c² - ab - bc - ca).",
+        "options": [
+          "7 * [49 - 3(ab + bc + ca)] + 3abc",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Using the identity a² + b² + c² - (ab + bc + ca) = (a + b + c)² - 3(ab + bc + ca). Substituting (a + b + c) = 7: a³ + b³ + c³ - 3abc = 7 * [7² - 3(ab + bc + ca)] = 7 * [49 - 3(ab + bc + ca)]. Therefore, a³ + b³ + c³ = 7 * [49 - 3(ab + bc + ca)] + 3abc.",
+        "shortcut": "⚡ <b>Trig Triplet / Value Putting:</b> Test standard angle (30°, 45°, 60°) or triplet ⟹ <b>7 * [49 - 3(ab + bc + ca)] + 3abc</b>."
       },
       {
         "id": 4,
         "topic": "Algebra",
-        "question": "If x + 1/x = 3√2, then find the value of x / (x² + 1).",
+        "question": "If a + b + c = 0, what is the value of a³ + b³ + c³ - 3abc (or find the value of (a³ + b³ + c³) / abc)?",
         "options": [
-          "1 / √14",
-          "1 / √18",
-          "1 / 14",
-          "1 / √7"
+          "0 (or 3 for the ratio)",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
         ],
-        "correct": 1,
-        "solution": "Divide numerator and denominator by x:<br>[x / x] / [(x² + 1) / x] = 1 / [x + 1/x].<br>Since x + 1/x = 3√2 = √18, the value is <b>1 / √18 (or 1 / 3√2)</b>.",
-        "shortcut": "⚡ <b>Invert:</b> x / (x² + 1) = 1 / (x + 1/x) = 1 / (3√2) = <b>1 / √18</b>."
+        "correct": 0,
+        "solution": "By algebraic identity, a³ + b³ + c³ - 3abc = (a + b + c)(a² + b² + c² - ab - bc - ca). When (a + b + c) = 0, the right-hand side becomes 0, so a³ + b³ + c³ - 3abc = 0. This gives a³ + b³ + c³ = 3abc, which implies (a³ + b³ + c³) / abc = 3.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>0 (or 3 for the ratio)</b>."
       },
       {
         "id": 5,
-        "topic": "Trigonometry",
-        "question": "If tan θ + cot θ = 2, then find the value of tan²θ + cot²θ.",
+        "topic": "Geometry",
+        "question": "A chord subtends an angle of 70° at the centre of a circle. What is the angle subtended by this chord at any point on the circumference in the major segment?",
         "options": [
-          "1",
-          "2",
-          "4",
-          "0"
+          "35°",
+          "37 °",
+          "33 °",
+          "70 °"
         ],
-        "correct": 1,
-        "solution": "tan θ + 1/tan θ = 2 ⟹ tan θ = 1.<br>tan²θ + cot²θ = 1² + 1² = <b>2</b>.",
-        "shortcut": "⚡ Whenever x + 1/x = 2, x = 1 ⟹ 1ⁿ + 1ⁿ = <b>2</b> always."
+        "correct": 0,
+        "solution": "The angle subtended by an arc or chord at the centre is twice the angle subtended by it at any point on the circumference. Therefore, Angle at Circumference = Angle at Centre / 2 = 70° / 2 = 35°.",
+        "shortcut": "⚡ <b>Circle Property:</b> Tangent-radius perpendicularity / chord relation directly yields <b>35°</b>."
       },
       {
         "id": 6,
-        "topic": "Trigonometry",
-        "question": "If sin θ + cos θ = 5/3, find the value of tan θ + cot θ.",
+        "topic": "Speed & Distance",
+        "question": "If the speed of a car is reduced by 20%, it takes 15 minutes more than usual to cover a certain journey. What is the normal (usual) time taken by the car?",
         "options": [
-          "9 / 32",
-          "9 / 8",
-          "16 / 5",
-          "5 / 4"
+          "60 minutes (1 hour)",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
         ],
-        "correct": 1,
-        "solution": "Square both sides: (sin θ + cos θ)² = (5/3)² ⟹ sin²θ + cos²θ + 2sin θ cos θ = 25/9.<br>1 + 2sin θ cos θ = 25/9 ⟹ 2sin θ cos θ = 16/9 ⟹ sin θ cos θ = 8/9.<br>tan θ + cot θ = sin θ/cos θ + cos θ/sin θ = (sin²θ + cos²θ) / (sin θ cos θ) = 1 / (8/9) = <b>9/8</b>.",
-        "shortcut": "⚡ <b>Identity:</b> tan θ + cot θ = 1 / (sin θ cos θ) = 2 / [(sin θ + cos θ)² − 1] = 2 / [25/9 − 1] = 2 / (16/9) = <b>9/8</b>."
+        "correct": 0,
+        "solution": "A speed reduction of 20% (1/5) means Speed Ratio (Original : New) = 5 : 4. Since distance is constant, Time Ratio (Original : New) = 4 : 5. Difference = 5 - 4 = 1 unit = 15 minutes. Normal time = 4 units = 4 * 15 = 60 minutes (1 hour).",
+        "shortcut": "⚡ <b>Relative Speed:</b> Net speed = S₁ ± S₂; Distance = Speed × Time ⟹ <b>60 minutes (1 hour)</b>."
+      },
+      {
+        "id": 7,
+        "topic": "Speed & Distance",
+        "question": "A train travelling at a speed of 30 km/h reaches its destination 8 minutes late, whereas if it travels at 50 km/h, it reaches 12 minutes early. How much time will it take to cover the same journey if it travels at a speed of 27 km/h?",
+        "options": [
+          "500/9 minutes (55 minutes 33 seconds or 25/27 hours)",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Time difference = 8 min late - (-12 min early) = 20 minutes = 1/3 hour. Distance = [S1 * S2 / (S2 - S1)] * Δt = (30 * 50 / 20) * (1/3) = 75 * (1/3) = 25 km. Time taken at 27 km/h = Distance / Speed = 25 / 27 hours. In minutes = (25 / 27) * 60 = 500 / 9 minutes ≈ 55.55 minutes.",
+        "shortcut": "⚡ <b>Relative Speed:</b> Net speed = S₁ ± S₂; Distance = Speed × Time ⟹ <b>500/9 minutes (55 minutes 33 seconds or 25/27 hours)</b>."
+      },
+      {
+        "id": 8,
+        "topic": "Compound Interest",
+        "question": "What is the compound interest on a principal of ₹4,000 for 3 years, compounded annually, if the rates of interest are 8%, 12%, and 10% per annum for the first, second, and third years respectively?",
+        "options": [
+          "₹1,322.24",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Amount = 4000 * (1 + 8/100) * (1 + 12/100) * (1 + 10/100) = 4000 * 1.08 * 1.12 * 1.10 = ₹5,322.24. Compound Interest (CI) = Amount - Principal = 5322.24 - 4000 = ₹1,322.24.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>₹1,322.24</b>."
+      },
+      {
+        "id": 9,
+        "topic": "Mensuration 3D",
+        "question": "The volumes of two cylinders are equal. If the ratio of their radii is 3 : 5, what is the ratio of their heights?",
+        "options": [
+          "25 : 9",
+          "9 : 25",
+          "26 : 9",
+          "1 : 1"
+        ],
+        "correct": 0,
+        "solution": "Volume of a cylinder = π * r² * h. Given V1 = V2 => π * (r1)² * h1 = π * (r2)² * h2 => h1 / h2 = (r2 / r1)². Given r1 / r2 = 3 / 5 => r2 / r1 = 5 / 3. Therefore, h1 / h2 = (5 / 3)² = 25 / 9, so the ratio of heights is 25 : 9.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>25 : 9</b>."
+      },
+      {
+        "id": 10,
+        "topic": "Algebra",
+        "question": "If x = √5 + √3 and y = √5 - √3, find the value of (x² + y²) / xy.",
+        "options": [
+          "8",
+          "10",
+          "6",
+          "16"
+        ],
+        "correct": 0,
+        "solution": "x² = (√5 + √3)² = 5 + 3 + 2√15 = 8 + 2√15. y² = (√5 - √3)² = 5 + 3 - 2√15 = 8 - 2√15. x² + y² = (8 + 2√15) + (8 - 2√15) = 16. xy = (√5 + √3)(√5 - √3) = (√5)² - (√3)² = 5 - 3 = 2. Therefore, (x² + y²) / xy = 16 / 2 = 8.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>8</b>."
+      },
+      {
+        "id": 11,
+        "topic": "Heights & Distances",
+        "question": "From the top of a 30 m high tower, the angles of elevation and depression to the top and bottom of a building are 60° and 45° respectively. Find the height of the building.",
+        "options": [
+          "30(√3 + 1) m ≈ 81.96 m",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Tower height = 30 m. From angle of depression (45°) to base: Distance between tower and building = 30 / tan(45°) = 30 / 1 = 30 m. From angle of elevation (60°) to top: Height of building above tower = 30 * tan(60°) = 30√3 m. Total height of building = 30 + 30√3 = 30(√3 + 1) m ≈ 81.96 m.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>30(√3 + 1) m ≈ 81.96 m</b>."
+      },
+      {
+        "id": 12,
+        "topic": "Quantitative Aptitude",
+        "question": "A straight line represented by the linear equation y = mx + c passes through the points (-2, -1) and (4, -5). Find the values of m and c.",
+        "options": [
+          "m = -2/3, c = -7/3",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Slope m = (y2 - y1) / (x2 - x1) = [-5 - (-1)] / [4 - (-2)] = -4 / 6 = -2/3. Substituting point (-2, -1) into y = mx + c: -1 = (-2/3)(-2) + c => -1 = 4/3 + c => c = -1 - 4/3 = -7/3.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>m = -2/3, c = -7/3</b>."
+      },
+      {
+        "id": 13,
+        "topic": "Geometry",
+        "question": "Find the area of a triangle in a Cartesian plane whose vertices are given by the coordinates (x1, y1), (x2, y2), and (x3, y3).",
+        "options": [
+          "(1/2) * |x1(y2 - y3) + x2(y3 - y1) + x3(y1 - y2)|",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "This is the standard coordinate geometry shoelace formula for the area of a triangle. The absolute value brackets | | ensure that the area value is strictly positive.",
+        "shortcut": "⚡ <b>Geometry Theorem:</b> Standard triangle property directly yields <b>(1/2) * |x1(y2 - y3) + x2(y3 - y1) + x3(y1 - y2)|</b> in &lt;10 seconds."
+      },
+      {
+        "id": 14,
+        "topic": "Quantitative Aptitude",
+        "question": "If (7sinθ + 3cosθ) / (7sinθ - 3cosθ) = 1/2, find the value of tanθ (or cotθ).",
+        "options": [
+          "tanθ = -9/7 (or cotθ = -7/9)",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Cross-multiplying: 2 * (7sinθ + 3cosθ) = 1 * (7sinθ - 3cosθ) => 14sinθ + 6cosθ = 7sinθ - 3cosθ => 14sinθ - 7sinθ = -3cosθ - 6cosθ => 7sinθ = -9cosθ. Dividing by cosθ gives sinθ / cosθ = tanθ = -9/7, and cotθ = 1 / tanθ = -7/9.",
+        "shortcut": "⚡ <b>Trig Triplet / Value Putting:</b> Test standard angle (30°, 45°, 60°) or triplet ⟹ <b>tanθ = -9/7 (or cotθ = -7/9)</b>."
+      },
+      {
+        "id": 15,
+        "topic": "Quantitative Aptitude",
+        "question": "Rohan and Sohan each have a mixture of milk and water. In Rohan's container, the ratio of milk to water is 3 : 4, and in Sohan's container, the ratio is 5 : 9. If equal quantities of both mixtures are combined, what will be the new ratio of milk to water in the final mixture?",
+        "options": [
+          "11 : 17",
+          "17 : 11",
+          "12 : 17",
+          "1 : 1"
+        ],
+        "correct": 0,
+        "solution": "Total units in Rohan's container = 3 + 4 = 7 units. Total units in Sohan's container = 5 + 9 = 14 units. Equalizing volume (LCM of 7 and 14 is 14): Rohan's mixture = 6 : 8 (Total = 14) and Sohan's mixture = 5 : 9 (Total = 14). Adding components: Milk = 6 + 5 = 11, Water = 8 + 9 = 17. Resulting ratio = 11 : 17.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>11 : 17</b>."
+      },
+      {
+        "id": 16,
+        "topic": "Data Interpretation",
+        "question": "The given pie chart represents the distribution of five categories: A, B, C, D, and E. If the value of C is increased by 5% and the value of D is decreased by 5%, while the values of the remaining categories remain unchanged, what is the new ratio of C to E?",
+        "options": [
+          "21C / 20E (or 1.05C : E)",
+          "E) : 21C / 20E (or 1.05C",
+          "1 : 1",
+          "Option 4"
+        ],
+        "correct": 0,
+        "solution": "New value of C = C + 5% of C = 1.05C = (21/20)C. Category E remains unchanged. New Ratio = 1.05C / E = 21C / 20E. (Substitute the chart's initial values for C and E to get the final numeric ratio).",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>21C / 20E (or 1.05C : E)</b>."
+      },
+      {
+        "id": 17,
+        "topic": "Mensuration 3D",
+        "question": "The volume of a regular hexagonal prism is given along with its height. What is the lateral surface area (LSA) of the prism?",
+        "options": [
+          "LSA = 6a * h, where a = sqrt[(2 * Volume) / (3√3 * h)]",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Base area of a regular hexagon with side a = (3√3 / 2) * a². Volume = Base Area * height = (3√3 / 2) * a² * h. Solving for base side a gives a = sqrt[(2 * Volume) / (3√3 * h)]. Lateral surface area (LSA) = Base perimeter * height = 6a * h.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>LSA = 6a * h, where a = sqrt[(2 * Volume) / (3√3 * h)]</b>."
+      }
+    ]
+  },
+  {
+    "shift_id": "oct15_s3",
+    "name": "15 October (Shift 3)",
+    "date": "15 Oct 2026",
+    "questions": [
+      {
+        "id": 1,
+        "topic": "Mensuration 3D",
+        "question": "The base of a right prism is a right-angled triangle whose sides containing the right angle are 6 cm and 8 cm. If the height of the prism is 10 cm, find its lateral surface area (LSA).",
+        "options": [
+          "240 cm²",
+          "242 cm²",
+          "238 cm²",
+          "480 cm²"
+        ],
+        "correct": 0,
+        "solution": "Hypotenuse of base triangle = √(6² + 8²) = √(36 + 64) = 10 cm. Perimeter of base = 6 + 8 + 10 = 24 cm. Lateral Surface Area (LSA) = Perimeter of base × Height = 24 × 10 = 240 cm².",
+        "shortcut": "⚡ <b>Geometry Theorem:</b> Standard triangle property directly yields <b>240 cm²</b> in &lt;10 seconds."
+      },
+      {
+        "id": 2,
+        "topic": "Heights & Distances",
+        "question": "From the top of a tower of height h, a ship is observed sailing directly towards the foot of the tower. If the angle of depression of the ship changes from 30° to 60°, find the distance traveled by the ship between the two observations.",
+        "options": [
+          "2h / √3 meters (or 2√3/3 × h meters)",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Initial distance from tower foot = h × cot(30°) = h√3. Final distance from tower foot = h × cot(60°) = h / √3. Distance traveled = h√3 - (h / √3) = h(3 - 1) / √3 = 2h / √3 meters.",
+        "shortcut": "⚡ <b>Trig Triplet / Value Putting:</b> Test standard angle (30°, 45°, 60°) or triplet ⟹ <b>2h / √3 meters (or 2√3/3 × h meters)</b>."
+      },
+      {
+        "id": 3,
+        "topic": "Compound Interest",
+        "question": "The simple interest on a certain sum of money is 3/4 of the principal in 15 years. If the principal is doubled, find the simple interest earned on the new principal for 10 years at the same annual rate of interest.",
+        "options": [
+          "Equal to the initial principal P (or half of the new principal)",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Using SI = (P × R × T) / 100: (3/4)P = (P × R × 15) / 100 => R = (3/4) × (100 / 15) = 5% per annum. For new principal 2P and time 10 years: New SI = (2P × 5 × 10) / 100 = 100P / 100 = P.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>Equal to the initial principal P (or half of the new principal)</b>."
+      },
+      {
+        "id": 4,
+        "topic": "Compound Interest",
+        "question": "A sum of money is invested at a certain rate of simple interest for 10 years. For the subsequent 5 years, the principal is increased by 50% while the rate of interest remains the same. If the total simple interest accrued over the entire 15 years is 7/8 of the initial principal, find the annual rate of interest.",
+        "options": [
+          "5% per annum",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "SI for first 10 years on principal P = (P × R × 10) / 100 = 10PR / 100. SI for next 5 years on principal 1.5P = (1.5P × R × 5) / 100 = 7.5PR / 100. Total SI = 17.5PR / 100 = (7/8)P => 17.5R / 100 = 7/8 => 7R / 40 = 7/8 => R = 5% per annum.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>5% per annum</b>."
+      },
+      {
+        "id": 5,
+        "topic": "Compound Interest",
+        "question": "A sum of ₹1,20,000 is borrowed at 10% per annum compound interest, compounded annually. At the beginning of the second year, half of the original principal is repaid. What is the remaining balance at the end of the second year?",
+        "options": [
+          "₹79,200",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Amount at end of Year 1 = 1,20,000 + 10% of 1,20,000 = ₹1,32,000. Repayment at start of Year 2 = 1,20,000 / 2 = ₹60,000. Balance for Year 2 = 1,32,000 - 60,000 = ₹72,000. Amount at end of Year 2 = 72,000 + 10% of 72,000 = 72,000 + 7,200 = ₹79,200.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>₹79,200</b>."
+      },
+      {
+        "id": 6,
+        "topic": "Speed & Distance",
+        "question": "A vehicle travels along the four sides of a square field at speeds of 200 km/h, 400 km/h, 600 km/h, and 800 km/h, respectively. Calculate the average speed of the vehicle for the complete round.",
+        "options": [
+          "384 km/h (or 372.09 km/h if speeds were 200, 400, 500, 800 km/h)",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Let each side of the square = 2400 km (LCM of 200, 400, 600, 800). Time taken for each side: t1 = 2400/200 = 12 h, t2 = 2400/400 = 6 h, t3 = 2400/600 = 4 h, t4 = 2400/800 = 3 h. Total time = 12 + 6 + 4 + 3 = 25 h. Total distance = 4 × 2400 = 9600 km. Average Speed = 9600 / 25 = 384 km/h. (If speeds were 200, 400, 500, 800 km/h: side = 4000 km; total time = 43 h; Average Speed = 16000 / 43 ≈ 372.09 km/h).",
+        "shortcut": "⚡ <b>Relative Speed:</b> Net speed = S₁ ± S₂; Distance = Speed × Time ⟹ <b>384 km/h (or 372.09 km/h if speeds were 200, 400, 500, 800 km/h)</b>."
+      },
+      {
+        "id": 7,
+        "topic": "Time & Work",
+        "question": "An inlet pipe can fill a tank in 15 hours. Due to a leak at the bottom, it takes 20 hours to fill the tank completely. If the tank is full, how much time will the leak alone take to empty the entire tank?",
+        "options": [
+          "60 hours",
+          "62 hours",
+          "58 hours",
+          "120 hours"
+        ],
+        "correct": 0,
+        "solution": "Inlet pipe rate = +1/15 tank/hour. Net rate with leak = +1/20 tank/hour. Leak rate = 1/15 - 1/20 = (4 - 3) / 60 = 1/60 tank/hour. Time taken by leak alone to empty full tank = 60 hours.",
+        "shortcut": "⚡ <b>Trig Triplet / Value Putting:</b> Test standard angle (30°, 45°, 60°) or triplet ⟹ <b>60 hours</b>."
+      },
+      {
+        "id": 8,
+        "topic": "Quantitative Aptitude",
+        "question": "If x = 0.1(2 repeating) and y = 0.(12 repeating), i.e. x = 0.1222... and y = 0.121212..., find the value of (x + y) expressed as a fraction in simplest form.",
+        "options": [
+          "241/990",
+          "990/241",
+          "241/991",
+          "242/990"
+        ],
+        "correct": 0,
+        "solution": "Convert x to fraction: x = 0.1(2 repeating) = (12 - 1) / 90 = 11/90. Convert y to fraction: y = 0.(12 repeating) = 12/99 = 4/33. Sum: x + y = 11/90 + 4/33 = (11×11 + 4×30) / 990 = (121 + 120) / 990 = 241/990.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>241/990</b>."
+      },
+      {
+        "id": 9,
+        "topic": "Algebra",
+        "question": "If x + 1/x = 23, find the value of: x² + 1/x² + 23",
+        "options": [
+          "550",
+          "552",
+          "548",
+          "1100"
+        ],
+        "correct": 0,
+        "solution": "Squaring both sides: (x + 1/x)² = 23² => x² + 1/x² + 2 = 529. Therefore, x² + 1/x² = 529 - 2 = 527. Required value = (x² + 1/x²) + 23 = 527 + 23 = 550.",
+        "shortcut": "⚡ <b>Algebra Formula:</b> Direct identity evaluation yields <b>550</b>."
+      },
+      {
+        "id": 10,
+        "topic": "Quantitative Aptitude",
+        "question": "What is the mean proportional between (√5 + √6) and (√7 + √8)?",
+        "options": [
+          "√[(√5 + √6)(√7 + 2√2)]",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "The mean proportional between two numbers a and b is √(a × b). Here, a = √5 + √6 and b = √7 + √8 = √7 + 2√2. Therefore, Mean Proportional = √[(√5 + √6)(√7 + 2√2)] = √(√35 + 2√10 + √42 + 4√3).",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>√[(√5 + √6)(√7 + 2√2)]</b>."
+      },
+      {
+        "id": 11,
+        "topic": "Geometry",
+        "question": "In a circle, chord XY subtends an angle of 50° at a point R on the circumference. What is the measure of the angle subtended by chord XY at another point S on the circumference?",
+        "options": [
+          "50° (same segment) or 130° (alternate segment)",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "If S lies on the same arc/segment as R, angles subtended by the same chord in the same segment are equal, so ∠XSY = ∠XRY = 50°. If S lies on the opposite arc, quadrilateral XRYS is cyclic and its opposite angles are supplementary, so ∠XSY = 180° - 50° = 130°.",
+        "shortcut": "⚡ <b>Circle Property:</b> Tangent-radius perpendicularity / chord relation directly yields <b>50° (same segment) or 130° (alternate segment)</b>."
+      },
+      {
+        "id": 12,
+        "topic": "Quantitative Aptitude",
+        "question": "In △ABC, points D and E lie on sides AB and AC respectively such that ∠ADE = ∠ACB + 20° and AD × DC = AE × EC. If ∠ABC = 70°, find the measure of ∠BAC.",
+        "options": [
+          "40°",
+          "42 °",
+          "38 °",
+          "80 °"
+        ],
+        "correct": 0,
+        "solution": "In △ABC, ∠A + ∠B + ∠C = 180° => ∠C = 180° - 70° - ∠A = 110° - ∠A. Given ∠ADE = ∠C + 20° = (110° - ∠A) + 20° = 130° - ∠A. In △ADE, ∠A + ∠ADE + ∠AED = 180° => ∠A + (130° - ∠A) + ∠AED = 180° => ∠AED = 50°. Using the cyclic segment property from AD × DC = AE × EC gives ∠BAC = 40°.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>40°</b>."
+      },
+      {
+        "id": 13,
+        "topic": "Geometry",
+        "question": "The lengths of two adjacent sides of a parallelogram are a and b, and the length of one of its diagonals is d1. Find the length of the other diagonal d2.",
+        "options": [
+          "d2 = √[2(a² + b²) - d1²]",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "By the Parallelogram Law (Apollonius' Theorem), the sum of the squares of the diagonals equals the sum of the squares of all four sides: d1² + d2² = 2(a² + b²). Solving for d2 gives d2² = 2(a² + b²) - d1², hence d2 = √[2(a² + b²) - d1²].",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>d2 = √[2(a² + b²) - d1²]</b>."
+      },
+      {
+        "id": 14,
+        "topic": "Mensuration 3D",
+        "question": "The total surface area of a solid cube is 216 cm². It is cut into identical smaller cubes, each having a total surface area of 24 cm². Find the total number of small cubes obtained.",
+        "options": [
+          "27",
+          "29",
+          "25",
+          "54"
+        ],
+        "correct": 0,
+        "solution": "Side of original cube (A): 6A² = 216 => A² = 36 => A = 6 cm. Side of smaller cube (a): 6a² = 24 => a² = 4 => a = 2 cm. Number of small cubes = (Volume of large cube) / (Volume of small cube) = (A / a)³ = (6 / 2)³ = 3³ = 27.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>27</b>."
+      },
+      {
+        "id": 15,
+        "topic": "Mensuration 3D",
+        "question": "Two right circular cylinders have equal volumes. If the ratio of their heights is h1 : h2, find the ratio of their base radii (r1 : r2).",
+        "options": [
+          "√h2 : √h1",
+          "√h1 : √h2",
+          "1 : 1",
+          "Option 4"
+        ],
+        "correct": 0,
+        "solution": "Volume of a cylinder = πr²h. Given equal volumes: π × r1² × h1 = π × r2² × h2 => r1² / r2² = h2 / h1. Taking square roots gives r1 / r2 = √(h2 / h1) = √h2 : √h1.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>√h2 : √h1</b>."
+      },
+      {
+        "id": 16,
+        "topic": "Geometry",
+        "question": "Find the equation of a straight line that is parallel to the line Ax + By + C = 0 and passes through the point (a, b).",
+        "options": [
+          "Ax + By - (Aa + Bb) = 0",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Any line parallel to Ax + By + C = 0 has the equation Ax + By + k = 0. Since it passes through (a, b): A(a) + B(b) + k = 0 => k = -(Aa + Bb). Substituting k gives the equation Ax + By - (Aa + Bb) = 0 or A(x - a) + B(y - b) = 0.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>Ax + By - (Aa + Bb) = 0</b>."
+      },
+      {
+        "id": 17,
+        "topic": "Trigonometry",
+        "question": "In △ABC, right-angled at B, if cot A = 2, find the value of: [sin A (sin A + sin C)] / [cos C (cos C - cos A)]",
+        "options": [
+          "-3 (the source PDF printed \"3\" as the answer, but its own working gives -3)",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Since ∠B = 90°, A + C = 90° => sin C = cos A and cos C = sin A. The expression becomes [sin A (sin A + cos A)] / [sin A (sin A - cos A)] = (sin A + cos A) / (sin A - cos A). Dividing numerator and denominator by sin A gives (1 + cot A) / (1 - cot A). Substituting cot A = 2: (1 + 2) / (1 - 2) = 3 / (-1) = -3.",
+        "shortcut": "⚡ <b>Trig Triplet / Value Putting:</b> Test standard angle (30°, 45°, 60°) or triplet ⟹ <b>-3 (the source PDF printed \"3\" as the answer, but its own working gives -3)</b>."
+      },
+      {
+        "id": 18,
+        "topic": "Data Interpretation",
+        "question": "(Data Interpretation - Percentage) Based on the given data table, what is the percentage increase or decrease in sales/production between the two specified years?",
+        "options": [
+          "[(Value in Year 2 - Value in Year 1) / Value in Year 1] × 100%",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Identify the initial base value (Year 1) and final value (Year 2). Calculate absolute difference = Value in Year 2 - Value in Year 1. Percentage change = (Difference / Base Value) × 100%. A positive result indicates a percentage increase, while a negative result indicates a percentage decrease.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>[(Value in Year 2 - Value in Year 1) / Value in Year 1] × 100%</b>."
+      },
+      {
+        "id": 19,
+        "topic": "Data Interpretation",
+        "question": "(Data Interpretation - Cutoff Marks) The given frequency distribution represents marks obtained by students in an examination. If the minimum qualifying mark required to pass is 45, find the total number of students who failed the exam.",
+        "options": [
+          "Total sum of students scoring strictly less than 45 marks",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Identify all score intervals or categories below 45 (e.g., 0-20, 20-40, 40-44). Add the frequencies (number of candidates) of all these failing intervals together. Total Failed Students = Sum of frequencies for all marks < 45.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>Total sum of students scoring strictly less than 45 marks</b>."
+      },
+      {
+        "id": 20,
+        "topic": "Data Interpretation",
+        "question": "(Data Interpretation - Point/Line Graph) The given line/point graph illustrates the distribution of scores secured by candidates. Determine the total number of candidates who scored equal to or greater than the qualifying pass mark.",
+        "options": [
+          "Sum of frequencies for all data points where Marks ≥ Pass Mark",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Identify the passing threshold on the horizontal (X) axis. Read the frequency (Y-axis value) for every plotted point at or above this cutoff mark. Sum these values to obtain the total number of qualified candidates.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>Sum of frequencies for all data points where Marks ≥ Pass Mark</b>."
+      },
+      {
+        "id": 21,
+        "topic": "Data Interpretation",
+        "question": "(Data Interpretation - Expenditure & Income) A chart details the percentage distribution of different expenditures of an organization. If the total expenditure incurred is ₹E, find the minimum income the organization must generate to avoid incurring any financial loss.",
+        "options": [
+          "₹E (or E × (1 + P/100) if a target profit of P% is required)",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "At break-even (no profit, no loss): Minimum Income = Total Expenditure = ₹E. If a specific profit percentage P% is required, then Required Minimum Income = E + (P% of E) = E × (1 + P/100).",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>₹E (or E × (1 + P/100) if a target profit of P% is required)</b>."
+      }
+    ]
+  },
+  {
+    "shift_id": "oct14_all",
+    "name": "14 October (All Shifts)",
+    "date": "14 Oct 2026",
+    "questions": [
+      {
+        "id": 1,
+        "topic": "Number System",
+        "question": "If the square of a number increases by 186, what is the number?",
+        "options": [
+          "12.5 (when number increases by 6); or nearest integer square diﬀerence is 19² - 13² = 192",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Let the original number be x. If the number increases by k, (x + k)² - x² = 186 => 2kx + k² = 186. If k = 6, 12x + 36 = 186 => 12x = 150 => x = 12.5.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>12.5 (when number increases by 6); or nearest integer square diﬀerence is 19² - 13² = 192</b>."
+      },
+      {
+        "id": 2,
+        "topic": "Geometry",
+        "question": "An angle subtended by an arc on the same segment of a circle is 35°. What is the angle subtended by the same arc at the centre of the circle?",
+        "options": [
+          "70°",
+          "72 °",
+          "68 °",
+          "140 °"
+        ],
+        "correct": 0,
+        "solution": "The angle subtended by an arc at the centre is twice the angle subtended by it at the circumference. Angle at centre = 2 × 35° = 70°.",
+        "shortcut": "⚡ <b>Circle Property:</b> Tangent-radius perpendicularity / chord relation directly yields <b>70°</b>."
+      },
+      {
+        "id": 3,
+        "topic": "Mensuration 2D",
+        "question": "The sum of two parallel sides of a trapezium is 48 cm and its height is 10 cm. What is the area of the trapezium?",
+        "options": [
+          "240 cm²",
+          "242 cm²",
+          "238 cm²",
+          "480 cm²"
+        ],
+        "correct": 0,
+        "solution": "Area of a trapezium = 1/2 × (Sum of parallel sides) × Height = 1/2 × 48 × 10 = 240 cm².",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>240 cm²</b>."
+      },
+      {
+        "id": 4,
+        "topic": "Data Interpretation",
+        "question": "Based on the bar chart with intervals (6–7: 7, 6–6.9: 10, 5.4– 6.4: 6, and 5), what is the total count of values greater than 6?",
+        "options": [
+          "17",
+          "19",
+          "15",
+          "34"
+        ],
+        "correct": 0,
+        "solution": "The frequencies for the intervals with values ≥ 6 are 7 (from 6–7) and 10 (from 6–6.9). Total count = 7 + 10 = 17.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>17</b>."
+      },
+      {
+        "id": 5,
+        "topic": "Quantitative Aptitude",
+        "question": "If the proﬁt-sharing ratio between A and B is a : b and the total proﬁt is given, what is the share of proﬁt earned by B?",
+        "options": [
+          "Total Proﬁt × [b",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Proﬁt is distributed proportional to investment ratios: B's share = Total Proﬁt × [b",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>Total Proﬁt × [b</b>."
+      },
+      {
+        "id": 6,
+        "topic": "Quantitative Aptitude",
+        "question": "If x = (√3 + √2)",
+        "options": [
+          "98",
+          "100",
+          "96",
+          "196"
+        ],
+        "correct": 0,
+        "solution": "Rationalizing gives x = 5 + 2√6 and 1/x = 5 - 2√6. Adding them gives x + 1/x = 10. Squaring both sides: x² + 1/x² = 10² - 2 = 98.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>98</b>."
       },
       {
         "id": 7,
         "topic": "Algebra",
-        "question": "If x = 3 and y = 2, then evaluate: (x³ − y³) / (x² + xy + y²).",
+        "question": "If x + 1/x = √13, ﬁnd the value of 3x",
         "options": [
+          "1",
+          "3",
           "5",
-          "6",
-          "7",
-          "1"
+          "2"
         ],
-        "correct": 3,
-        "solution": "Standard algebraic identity: x³ − y³ = (x − y)(x² + xy + y²).<br>Therefore, (x³ − y³) / (x² + xy + y²) = x − y.<br>With x = 3 and y = 2: 3 − 2 = <b>1</b>.",
-        "shortcut": "⚡ Direct formula: x − y = 3 − 2 = <b>1</b> (1 second!)."
+        "correct": 0,
+        "solution": "Divide numerator and denominator by x to get 3",
+        "shortcut": "⚡ <b>Algebra Formula:</b> Direct identity evaluation yields <b>1</b>."
       },
       {
         "id": 8,
-        "topic": "Algebra",
-        "question": "Simplify the expression: (x + 2)² − (x − 2)².",
+        "topic": "Profit & Loss",
+        "question": "The marked price of an article is ₹25,000. If it is sold for ₹20,000 after allowing two successive discounts where the ﬁrst discount is 10%, what is the percentage of the second discount?",
         "options": [
-          "4x",
-          "8x",
-          "16x",
-          "8"
+          "11.11% (or 11 1/9%)",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Price after 1st discount of 10% = 25,000 - 2,500 = ₹22,500. Second discount amount = 22,500 - 20,000 = ₹2,500. Second discount % = (2,500",
+        "shortcut": "⚡ <b>Fraction / Ratio Method:</b> Convert % to fractional multipliers for 5-second calculation ⟹ <b>11.11% (or 11 1/9%)</b>."
+      },
+      {
+        "id": 9,
+        "topic": "Algebra",
+        "question": "If a = 2, b = 3, and c = 5, what is the value of (a + b + c)³ - (b + c - a)³ - (c + a - b)³ - (a + b - c)³?",
+        "options": [
+          "720",
+          "722",
+          "718",
+          "1440"
+        ],
+        "correct": 0,
+        "solution": "Using the standard algebraic identity (a + b + c)³ - (b + c - a)³ - (c + a - b)³ - (a + b - c)³ = 24abc = 24 × 2 × 3 × 5 = 720.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>720</b>."
+      },
+      {
+        "id": 10,
+        "topic": "Mensuration 3D",
+        "question": "For a given prism with a speciﬁed base, if the ratio of its Volume to its Total Surface Area (TSA) is R, what is the height (h) of the prism?",
+        "options": [
+          "h = (2 × R × Base Area)",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Volume = Base Area × h, TSA = 2(Base Area) + Base Perimeter × h. Setting Volume",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>h = (2 × R × Base Area)</b>."
+      },
+      {
+        "id": 11,
+        "topic": "Data Interpretation",
+        "question": "From the comparative bar charts for entities A and B, in which category does entity A show the highest increase relative to entity B?",
+        "options": [
+          "The category with the maximum diﬀerence: (Increase in A - Increase in B)",
+          "(Increase in A - Increase in B) : The category with the maximum diﬀerence",
+          "The category with the maximum diﬀerence : (Increase in A - Increase in B)",
+          "1 : 1"
+        ],
+        "correct": 0,
+        "solution": "Calculate ΔA = A_end - A_start and ΔB = B_end - B_start for each category. The category with the largest (ΔA - ΔB) shows highest relative increase.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>The category with the maximum diﬀerence: (Increase in A - Increase in B)</b>."
+      },
+      {
+        "id": 12,
+        "topic": "Quantitative Aptitude",
+        "question": "If an institute increases its fees by 20% and the number of students decreases by 30%, what is the net percentage eﬀect on its total revenue?",
+        "options": [
+          "16% decrease (16% की कमी)",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Net Change % = x + y + (xy",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>16% decrease (16% की कमी)</b>."
+      },
+      {
+        "id": 13,
+        "topic": "Mensuration 3D",
+        "question": "The total surface area of a solid cube is 96 cm². If it is recast into n identical smaller cubes of side s, what is the value of n?",
+        "options": [
+          "n = 64",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "6a² = 96 => a = 4 cm. Volume of original cube = 4³ = 64 cm³. Volume of smaller cube = s³. Therefore, n = 64",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>n = 64</b>."
+      },
+      {
+        "id": 14,
+        "topic": "Quantitative Aptitude",
+        "question": "Three categories (manufacturing, labour, plantation) are in the ratio 4 : 3 : 5. If they are changed by +20%, +30%, and -10% respectively, resulting in a ﬁnal total value of 180, what was the initial total value?",
+        "options": [
+          "1800/11 (or approx 163.64)",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Initial values: 4x, 3x, 5x (Initial Total = 12x). New values: 4.8x + 3.9x + 4.5x = 13.2x = 180 => x = 150/11. Initial Total = 12 × (150/11) = 1800/11 ≈ 163.64.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>1800/11 (or approx 163.64)</b>."
+      },
+      {
+        "id": 15,
+        "topic": "Quantitative Aptitude",
+        "question": "A number is 13 more than its square. What is the number?",
+        "options": [
+          "No real solution (सकी वनृ िवस द्धख्य मद्धो)",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Equation: x = x² + 13 => x² - x + 13 = 0. Discriminant D = (-1)² - 4(1) (13) = -51 < 0. No real number exists.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>No real solution (सकी वनृ िवस द्धख्य मद्धो)</b>."
+      },
+      {
+        "id": 16,
+        "topic": "Geometry",
+        "question": "In what ratio does the centroid of an equilateral triangle divide each median from the vertex to the opposite side?",
+        "options": [
+          "2 : 1",
+          "1 : 2",
+          "3 : 1",
+          "1 : 1"
+        ],
+        "correct": 0,
+        "solution": "The centroid of any triangle divides each median in the ratio 2 : 1 measuring from the vertex to the base.",
+        "shortcut": "⚡ <b>Geometry Theorem:</b> Standard triangle property directly yields <b>2 : 1</b> in &lt;10 seconds."
+      },
+      {
+        "id": 17,
+        "topic": "Geometry",
+        "question": "If the area of a triangle formed by vertices involving coordinate k is 125 square units, what equation determines the value of k?",
+        "options": [
+          "|x₁(y₂ - y₃) + x₂(y₃ - y₁) + x₃(y₁ - y₂)| = 250",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Triangle Area = 1/2 × |Determinant| = 125 => |Determinant| = 250. Solving gives the value of k.",
+        "shortcut": "⚡ <b>Geometry Theorem:</b> Standard triangle property directly yields <b>|x₁(y₂ - y₃) + x₂(y₃ - y₁) + x₃(y₁ - y₂)| = 250</b> in &lt;10 seconds."
+      },
+      {
+        "id": 18,
+        "topic": "Mensuration 3D",
+        "question": "The heights of two cones are in the ratio 1 : 4. If their volumes are equal, what is the ratio of their base radii?",
+        "options": [
+          "2 : 1",
+          "1 : 2",
+          "3 : 1",
+          "1 : 1"
+        ],
+        "correct": 0,
+        "solution": "Volume = (1/3)πr²h. Since V₁ = V₂, r₁²h₁ = r₂²h₂ => (r₁/r₂)² = h₂/ h₁ = 4/1 => r₁/r₂ = 2/1.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>2 : 1</b>."
+      },
+      {
+        "id": 19,
+        "topic": "Trigonometry",
+        "question": "If tan α and tan β are the roots of the equation x² + px + q = 0 (p ≠ 0), what is the value of tan(α + β)?",
+        "options": [
+          "p",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Sum of roots = -p, Product of roots = q. Formula: tan(α + β) = (tan α + tan β)",
+        "shortcut": "⚡ <b>Trig Triplet / Value Putting:</b> Test standard angle (30°, 45°, 60°) or triplet ⟹ <b>p</b>."
+      },
+      {
+        "id": 20,
+        "topic": "Data Interpretation",
+        "question": "Given a data table where Column 1 contains numbers (n), Column 2 contains their cubes (n³), and Column 4 contains their squares (n²), which columns establish a direct mathematical relation?",
+        "options": [
+          "Columns 1, 2, and 4 (सःख्यह 1, 2 शय 4)",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Column 2 contains the cubes (7³ = 343, 9³ = 729) and Column 4 contains the squares (7² = 49, 9² = 81) of Column 1 values.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>Columns 1, 2, and 4 (सःख्यह 1, 2 शय 4)</b>."
+      },
+      {
+        "id": 21,
+        "topic": "Quantitative Aptitude",
+        "question": "In a row of students, Rahul is 10th from the left end and Rohit is 15th from the right end. If Rahul is 25th from the left, what is the total number of students?",
+        "options": [
+          "39",
+          "41",
+          "37",
+          "78"
+        ],
+        "correct": 0,
+        "solution": "Rahul shifts to Rohit's position, making that position 25th from left and 15th from right. Total = 25 + 15 - 1 = 39.",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>39</b>."
+      },
+      {
+        "id": 22,
+        "topic": "Geometry",
+        "question": "What is the total number of triangles in a ﬁgure with nested triangles inscribed inside a larger triangle?",
+        "options": [
+          "9",
+          "11",
+          "7",
+          "18"
+        ],
+        "correct": 0,
+        "solution": "Using formula Total Triangles = 4n + 1, where n = 2 (number of inner triangles). Total = 4(2) + 1 = 9.",
+        "shortcut": "⚡ <b>Geometry Theorem:</b> Standard triangle property directly yields <b>9</b> in &lt;10 seconds."
+      },
+      {
+        "id": 23,
+        "topic": "Geometry",
+        "question": "What is the total number of triangles formed inside a square grid divided by intersecting diagonals and perpendicular lines?",
+        "options": [
+          "32",
+          "34",
+          "30",
+          "64"
+        ],
+        "correct": 0,
+        "solution": "An 8-part square contains 8 × 2 = 16 triangles. With two concentric squares (inner and outer), Total = 16 + 16 = 32.",
+        "shortcut": "⚡ <b>Geometry Theorem:</b> Standard triangle property directly yields <b>32</b> in &lt;10 seconds."
+      },
+      {
+        "id": 24,
+        "topic": "Trigonometry",
+        "question": "If sin 3θ = cos 2θ, what is the value of θ (where 3θ and 2θ are acute angles)?",
+        "options": [
+          "18°",
+          "20 °",
+          "16 °",
+          "36 °"
+        ],
+        "correct": 0,
+        "solution": "We know that cos A = sin(90° - A). Therefore, sin 3θ = sin(90° - 2θ) => 3θ = 90° - 2θ => 5θ = 90° => θ = 18°.",
+        "shortcut": "⚡ <b>Trig Triplet / Value Putting:</b> Test standard angle (30°, 45°, 60°) or triplet ⟹ <b>18°</b>."
+      },
+      {
+        "id": 25,
+        "topic": "Geometry",
+        "question": "Two tangents PA and PB are drawn to a circle from an external point P, touching the circle at A and B. If a point C lies on the minor arc AB such that ∠ ACB = 116°, what is the value of ∠ APB (θ)?",
+        "options": [
+          "52°",
+          "54 °",
+          "50 °",
+          "104 °"
+        ],
+        "correct": 0,
+        "solution": "An angle subtended at the minor arc is related to the tangent angle θ by ∠ACB = 90° + θ/2. Therefore, 116° = 90° + θ/2 => θ/2 = 26° => θ = 52°.",
+        "shortcut": "⚡ <b>Circle Property:</b> Tangent-radius perpendicularity / chord relation directly yields <b>52°</b>."
+      },
+      {
+        "id": 26,
+        "topic": "Geometry",
+        "question": "How many common tangents can be drawn to two circles that touch each other externally at a single point?",
+        "options": [
+          "3",
+          "5",
+          "1",
+          "6"
+        ],
+        "correct": 0,
+        "solution": "When two circles touch externally, there are 2 direct common tangents and 1 transverse common tangent passing through the point of contact, making a total of 3 tangents.",
+        "shortcut": "⚡ <b>Circle Property:</b> Tangent-radius perpendicularity / chord relation directly yields <b>3</b>."
+      },
+      {
+        "id": 27,
+        "topic": "Geometry",
+        "question": "If three equal circles touch each other externally pairwise, how many common tangents can be drawn that touch all three circles simultaneously?",
+        "options": [
+          "0",
+          "1",
+          "4",
+          "3"
+        ],
+        "correct": 0,
+        "solution": "No single straight line can touch three mutually external touching circles simultaneously without intersecting them.",
+        "shortcut": "⚡ <b>Circle Property:</b> Tangent-radius perpendicularity / chord relation directly yields <b>0</b>."
+      },
+      {
+        "id": 28,
+        "topic": "Heights & Distances",
+        "question": "The angle of elevation of the top of a vertical tower of height 90 m is observed from two points on level ground in a straight line with its base as 45° and 30°. What is the distance (x) between the two points[cite: 1]?",
+        "options": [
+          "90(√3 - 1) m",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Distance to closer point = 90",
+        "shortcut": "⚡ <b>Trig Triplet / Value Putting:</b> Test standard angle (30°, 45°, 60°) or triplet ⟹ <b>90(√3 - 1) m</b>."
+      },
+      {
+        "id": 29,
+        "topic": "Heights & Distances",
+        "question": "The angle of elevation of the top of a vertical tower of height 90 m is observed from two points on level ground as 60° and 45°. What is the distance (x) between the two points?",
+        "options": [
+          "(90 - 30√3) m",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Distance to closer point = 90",
+        "shortcut": "⚡ <b>Trig Triplet / Value Putting:</b> Test standard angle (30°, 45°, 60°) or triplet ⟹ <b>(90 - 30√3) m</b>."
+      },
+      {
+        "id": 30,
+        "topic": "Trigonometry",
+        "question": "If sec⁴θ - tan⁴θ = 10, what is the value of sec²θ + tan²θ?",
+        "options": [
+          "10",
+          "12",
+          "8",
+          "20"
+        ],
+        "correct": 0,
+        "solution": "sec⁴θ - tan⁴θ = (sec²θ - tan²θ)(sec²θ + tan²θ). Since sec²θ - tan²θ = 1, we have 1 × (sec²θ + tan²θ) = 10 => sec²θ + tan²θ = 10.",
+        "shortcut": "⚡ <b>Trig Triplet / Value Putting:</b> Test standard angle (30°, 45°, 60°) or triplet ⟹ <b>10</b>."
+      },
+      {
+        "id": 31,
+        "topic": "Trigonometry",
+        "question": "If sec²θ + tan²θ = 15/27, what is the value of sec⁴θ - tan⁴θ?",
+        "options": [
+          "15/27 (or 5/9)",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "sec⁴θ - tan⁴θ = (sec²θ - tan²θ)(sec²θ + tan²θ) = 1 × (15/27) = 15/27 = 5/9.",
+        "shortcut": "⚡ <b>Trig Triplet / Value Putting:</b> Test standard angle (30°, 45°, 60°) or triplet ⟹ <b>15/27 (or 5/9)</b>."
+      },
+      {
+        "id": 32,
+        "topic": "Geometry",
+        "question": "A chord of a circle of radius r subtends an angle of 30° at a point on the circumference. What is the perpendicular distance (x) of the chord from the centre of the circle?",
+        "options": [
+          "(√3/2)r",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "The angle subtended at the centre is twice the angle at the circumference = 2 × 30° = 60°. Since two sides are radii (r), it forms an equilateral triangle. The perpendicular distance bisects the vertex angle: x = r × cos(30°) = (√3/2)r[cite: 2].",
+        "shortcut": "⚡ <b>Circle Property:</b> Tangent-radius perpendicularity / chord relation directly yields <b>(√3/2)r</b>."
+      },
+      {
+        "id": 33,
+        "topic": "Data Interpretation",
+        "question": "In a pie chart representing the total expenditure of an organization, Sector A represents 45% of the total value and amounts to ₹14,000. What is the total expenditure of the entire organization?",
+        "options": [
+          "₹31,111.11",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Total expenditure (100%) = (14,000",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>₹31,111.11</b>."
+      },
+      {
+        "id": 34,
+        "topic": "Data Interpretation",
+        "question": "In a pie chart representing expenditure, Sector A accounts for 45% equaling ₹14,000. If Sectors B and C together constitute the remaining 55%, what is their combined total expenditure?",
+        "options": [
+          "₹17,111.11",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Combined value of (B + C) = (14,000",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>₹17,111.11</b>."
+      },
+      {
+        "id": 35,
+        "topic": "Quantitative Aptitude",
+        "question": "A girl has some hens and dogs on her farm. If the total number of heads counted is 50 and the total number of legs is 160, ﬁnd the number of hens and dogs she has.",
+        "options": [
+          "20 hens and 30 dogs (20 ऊजफवपों।न झत 30 ंज आभ)",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Number of Dogs (4 legs) = (Total Legs",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>20 hens and 30 dogs (20 ऊजफवपों।न झत 30 ंज आभ)</b>."
+      }
+    ]
+  },
+  {
+    "shift_id": "oct13_s1",
+    "name": "13 October (Shift 1)",
+    "date": "13 Oct 2026",
+    "questions": [
+      {
+        "id": 1,
+        "topic": "Mensuration 2D",
+        "question": "The area of a floor is 20√3 m². The floor is to be paved using regular hexagonal tiles, each having a side length of x m. Find the total number of tiles required to cover the floor.",
+        "options": [
+          "40 / (3x²) tiles",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Area of one regular hexagonal tile = (3√3 / 2) * x², Total tiles needed = Total Floor Area / Area of one tile, Total tiles = 20√3 / [(3√3 / 2) * x²] = (20√3 * 2) / (3√3 * x²) = 40 / (3x²) प\u00061. िकसी फश\u0014 का \u0016े\u0017फल 20√3 m² है। फश\u0014 को सम षट्भुजाकार टाइलों से ढकना है, िजनमें प\u0006%येक की भुजा x m है। फश\u0014 को ढकने के िलए कुल िकतनी टाइलों की आव\u0007यकता होगी? उ*र: 40 / (3x²) टाइलें +या,या: एक सम षट्भुजाकार टाइल का \u0004े फल = (3√3 / 2) * x²; कुल टाइलें = फश! का कुल \u0004े फल / एक टाइल का \u0004े फल = 20√3 / [(3√3 / 2) * x²] = (20√3 * 2) / (3√3 * x²) = 40 / (3x²)",
+        "shortcut": "⚡ <b>Trig Triplet / Value Putting:</b> Test standard angle (30°, 45°, 60°) or triplet ⟹ <b>40 / (3x²) tiles</b>."
+      },
+      {
+        "id": 2,
+        "topic": "Mensuration 3D",
+        "question": "A solid object consists of a regular hexagonal prism surmounted by a regular hexagonal pyramid sharing the same base. If the side of the hexagonal base is a cm, the height of the prism is h1 cm, and the height of the pyramid is h2 cm, what is the total volume of the solid?",
+        "options": [
+          "(√3 / 2) * a² * (3h1 + h2) cm³",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Area of regular hexagonal base = (3√3 / 2) * a², Volume of hexagonal prism = Base Area * Height = (3√3 / 2) * a² * h1, Volume of hexagonal pyramid = (1/3) * Base Area * Height = (1/3) * (3√3 / 2) * a² * h2 = (√3 / 2) * a² * h2, Total Volume = [(3√3 / 2) * a² * h1] + [(√3 / 2) * a² * h2] = (√3 / 2) * a² * (3h1 + h2) cm³ प\u00062. एक ठोस में एक सम षट्भुजाकार िप\u0006.़म के ऊपर उसी आधार वाला एक सम षट्भुजाकार िपरािमड रखा है। यिद षट्भुजाकार आधार की भुजा a cm, िप\u0006.़म की ऊँचाई h1 cm और िपरािमड की ऊँचाई h2 cm है, तो ठोस का कुल आयतन 9या होगा? उ*र: (√3 / 2) * a² * (3h1 + h2) cm³ +या,या: सम षट्भुजाकार आधार का \u0004े फल = (3√3 / 2) * a²; िप$%़म का आयतन = आधार का \u0004े फल * ऊँचाई = (3√3 / 2) * a² * h1; िपरािमड का आयतन = (1/3) * आधार का \u0004े फल * ऊँचाई = (1/3) * (3√3 / 2) * a² * h2 = (√3 / 2) * a² * h2; कुल आयतन = [(3√3 / 2) * a² * h1] + [(√3 / 2) * a² * h2] = (√3 / 2) * a² * (3h1 + h2) cm³",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>(√3 / 2) * a² * (3h1 + h2) cm³</b>."
+      },
+      {
+        "id": 3,
+        "topic": "Trigonometry",
+        "question": "Find the value of: tan 48° tan 42° - cot 48° cot 42°",
+        "options": [
+          "0",
+          "1",
+          "4",
+          "3"
+        ],
+        "correct": 0,
+        "solution": "tan 42° = tan(90° - 48°) = cot 48°, cot 42° = cot(90° - 48°) = tan 48°, Expression = (tan 48° * cot 48°) - (cot 48° * tan 48°) = 1 - 1 = 0 प\u00063. मान :ात कीिजए: tan 48° tan 42° - cot 48° cot 42° उ*र: 0 +या,या: tan 42° = tan(90° - 48°) = cot 48°, cot 42° = cot(90° - 48°) = tan 48°; .यंजक = (tan 48° * cot 48°) - (cot 48° * tan 48°) = 1 - 1 = 0",
+        "shortcut": "⚡ <b>Trig Triplet / Value Putting:</b> Test standard angle (30°, 45°, 60°) or triplet ⟹ <b>0</b>."
+      },
+      {
+        "id": 4,
+        "topic": "Compound Interest",
+        "question": "A sum of ₹5,000 is invested at compound interest at a rate of 12% per annum, compounded annually. What will be the total amount at the end of 2 years?",
+        "options": [
+          "₹6,272",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Formula: Amount = P * (1 + R/100)^T, Amount = 5000 * (1 + 12/100)² = 5000 * (1.12)² = 5000 * 1.2544 = ₹6,272 प\u00064. ₹5,000 की रािश 12% वािष\u0014क दर से च;वृि= >याज (वािष\u0014क संयोिजत) पर िनवेश की जाती है। 2 वष\u0014 के अंत में कुल िम@धन िकतना होगा? उ*र: ₹6,272 +या,या: सू : िम0धन = P * (1 + R/100)^T; िम0धन = 5000 * (1 + 12/100)² = 5000 * (1.12)² = 5000 * 1.2544 = ₹6,272",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>₹6,272</b>."
+      },
+      {
+        "id": 5,
+        "topic": "Mensuration 3D",
+        "question": "The base of a right prism is a rhombus whose diagonals are 8 cm and 10 cm. If the height of the prism is 12 cm, find the volume of the prism.",
+        "options": [
+          "480 cm³",
+          "482 cm³",
+          "478 cm³",
+          "960 cm³"
+        ],
+        "correct": 0,
+        "solution": "Base Area of rhombus = (1/2) * d1 * d2 = (1/2) * 8 * 10 = 40 cm², Volume of prism = Base Area * Height = 40 * 12 = 480 cm³ प\u00065. एक लंब िप\u0006.़म का आधार एक समचतुभु\u0014ज है िजसके िवकण\u0014 8 cm और 10 cm हैं। यिद िप\u0006.़म की ऊँचाई 12 cm है, तो िप\u0006.़म का आयतन :ात कीिजए। उ*र: 480 cm³ +या,या: समचतुभु!ज के आधार का \u0004े फल = (1/2) * d1 * d2 = (1/2) * 8 * 10 = 40 cm²; िप$%़म का आयतन = आधार का \u0004े फल * ऊँचाई = 40 * 12 = 480 cm³",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>480 cm³</b>."
+      },
+      {
+        "id": 6,
+        "topic": "Profit & Loss",
+        "question": "A and B entered into a partnership by investing capital in the ratio 5 : 3. After 6 months, C joined them with an investment equal to the average investment of A and B. If the total profit at the end of the year is ₹X, find the share of A in the profit.",
+        "options": [
+          "₹X / 2 (or 50% of the total profit)",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Let investments of A and B be 5 units and 3 units, Investment of C = (5 + 3) / 2 = 4 units, Profit ratio = (5 * 12) : (3 * 12) : (4 * 6) = 60 : 36 : 24 = 5 : 3 : 2, Share of A = [5 / (5 + 3 + 2)] * X = (5 / 10) * X = X / 2 प\u00066. A और B ने 5 : 3 के अनुपात में पूँजी लगाकर साझेदारी शुD की। 6 महीने बाद C उनके साथ जुड़ा और उसने A तथा B के औसत िनवेश के बराबर िनवेश िकया। यिद वष\u0014 के अंत में कुल लाभ ₹X है, तो A का लाभ में िहFसा :ात कीिजए। उ*र: ₹X / 2 (या कुल लाभ का 50%) +या,या: माना A और B का िनवेश 5 इकाई और 3 इकाई है; C का िनवेश = (5 + 3) / 2 = 4 इकाई; लाभ अनुपात = (5 * 12) : (3 * 12) : (4 * 6) = 60 : 36 : 24 = 5 : 3 : 2; A का िह\u000fसा = [5 / (5 + 3 + 2)] * X = (5 / 10) * X = X / 2",
+        "shortcut": "⚡ <b>Fraction / Ratio Method:</b> Convert % to fractional multipliers for 5-second calculation ⟹ <b>₹X / 2 (or 50% of the total profit)</b>."
+      },
+      {
+        "id": 7,
+        "topic": "Trigonometry",
+        "question": "Simplify the expression: 1 + √[(tan θ + sin θ) / (tan θ - sin θ)]",
+        "options": [
+          "1 + cosec θ + cot θ",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Inside root: (tan θ + sin θ) / (tan θ - sin θ) = [(sin θ / cos θ) + sin θ] / [(sin θ / cos θ) - sin θ] = (1 + cos θ) / (1 - cos θ), Rationalizing: [(1 + cos θ)(1 + cos θ)] / [(1 - cos θ)(1 + cos θ)] = (1 + cos θ)² / sin² θ, Taking root gives (1 + cos θ) / sin θ = cosec θ + cot θ, Adding 1 gives 1 + cosec θ + cot θ प\u00067. +यंजक को सरल कीिजए: 1 + √[(tan θ + sin θ) / (tan θ - sin θ)] उ*र: 1 + cosec θ + cot θ +या,या: मूल के अंदर: (tan θ + sin θ) / (tan θ - sin θ) = [(sin θ / cos θ) + sin θ] / [(sin θ / cos θ) - sin θ] = (1 + cos θ) / (1 - cos θ); पिरमेयीकरण: [(1 + cos θ)(1 + cos θ)] / [(1 - cos θ)(1 + cos θ)] = (1 + cos θ)² / sin² θ; वग!मूल लेने पर (1 + cos θ) / sin θ = cosec θ + cot θ; 1 जोड़ने पर 1 + cosec θ + cot θ",
+        "shortcut": "⚡ <b>Trig Triplet / Value Putting:</b> Test standard angle (30°, 45°, 60°) or triplet ⟹ <b>1 + cosec θ + cot θ</b>."
+      },
+      {
+        "id": 8,
+        "topic": "Quantitative Aptitude",
+        "question": "If a = √(5 + 2√6) and b = √(5 - 2√6), find the value of a⁶ + b⁶.",
+        "options": [
+          "970",
+          "972",
+          "968",
+          "1940"
+        ],
+        "correct": 0,
+        "solution": "a² = 5 + 2√6 and b² = 5 - 2√6, a² + b² = 10, a² * b² = (5 + 2√6)(5 - 2√6) = 25 - 24 = 1, a⁶ + b⁶ = (a² + b²)³ - 3(a² * b²)(a² + b²) = (10)³ - 3(1)(10) = 1000 - 30 = 970 प\u00068. यिद a = √(5 + 2√6) और b = √(5 - 2√6) है, तो a⁶ + b⁶ का मान :ात कीिजए। उ*र: 970 +या,या: a² = 5 + 2√6 और b² = 5 - 2√6; a² + b² = 10; a² * b² = (5 + 2√6)(5 - 2√6) = 25 - 24 = 1; a⁶ + b⁶ = (a² + b²)³ - 3(a² * b²)(a² + b²) = (10)³ - 3(1)(10) = 1000 - 30 = 970",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>970</b>."
+      },
+      {
+        "id": 9,
+        "topic": "Algebra",
+        "question": "If a + b + c = x, ab + bc + ca = y, and abc = z, find the value of a³ + b³ + c³.",
+        "options": [
+          "x³ - 3xy + 3z",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Formula: a³ + b³ + c³ - 3abc = (a + b + c)[(a + b + c)² - 3(ab + bc + ca)], a³ + b³ + c³ - 3z = x * (x² - 3y) = x³ - 3xy, a³ + b³ + c³ = x³ - 3xy + 3z प\u00069. यिद a + b + c = x, ab + bc + ca = y और abc = z है, तो a³ + b³ + c³ का मान :ात कीिजए। उ*र: x³ - 3xy + 3z +या,या: सू : a³ + b³ + c³ - 3abc = (a + b + c)[(a + b + c)² - 3(ab + bc + ca)]; a³ + b³ + c³ - 3z = x * (x² - 3y) = x³ - 3xy; अतः a³ + b³ + c³ = x³ - 3xy + 3z",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>x³ - 3xy + 3z</b>."
+      },
+      {
+        "id": 10,
+        "topic": "Quantitative Aptitude",
+        "question": "Evaluate: √(1.44 * 0.81)",
+        "options": [
+          "1.08",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "√1.44 = 1.2, √0.81 = 0.9, √(1.44 * 0.81) = 1.2 * 0.9 = 1.08 प\u000610. मान :ात कीिजए: √(1.44 * 0.81) उ*र: 1.08 +या,या: √1.44 = 1.2, √0.81 = 0.9; √(1.44 * 0.81) = 1.2 * 0.9 = 1.08",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>1.08</b>."
+      },
+      {
+        "id": 11,
+        "topic": "Heights & Distances",
+        "question": "From the top of a lighthouse, the angle of depression of a boat sailing directly toward the base changes from 30° to 60° in 14 minutes. Assuming uniform speed, how much additional time will the boat take to reach the base of the lighthouse?",
+        "options": [
+          "7 minutes",
+          "9 minutes",
+          "5 minutes",
+          "14 minutes"
+        ],
+        "correct": 0,
+        "solution": "Distance at 30° = h / tan 30° = h√3, Distance at 60° = h / tan 60° = h / √3, Distance covered in 14 min = h√3 - (h / √3) = 2h / √3, Remaining distance to base = h / √3, Since remaining distance is half of distance covered, Time = 14 / 2 = 7 minutes प\u000611. एक लाइटहाउस के शीष\u0014 से, उसके आधार की ओर सीधे जा रही नाव का अवनमन कोण 14 िमनट में 30° से 60° हो जाता है। एकसमान चाल मानते हुए, नाव को लाइटहाउस के आधार तक पहुँचने में और िकतना समय लगेगा? उ*र: 7 िमनट +या,या: 30° पर दूरी = h / tan 30° = h√3; 60° पर दूरी = h / tan 60° = h / √3; 14 िमनट में तय दूरी = h√3 - (h / √3) = 2h / √3; आधार तक शेष दूरी = h / √3; शेष दूरी तय की गई दूरी की आधी है, इसिलए समय = 14 / 2 = 7 िमनट",
+        "shortcut": "⚡ <b>Relative Speed:</b> Net speed = S₁ ± S₂; Distance = Speed × Time ⟹ <b>7 minutes</b>."
+      },
+      {
+        "id": 12,
+        "topic": "Geometry",
+        "question": "In an equilateral triangle, find the distance between the incenter and the intersection of the altitudes (orthocenter).",
+        "options": [
+          "0",
+          "1",
+          "4",
+          "3"
+        ],
+        "correct": 0,
+        "solution": "In an equilateral triangle, all four centers (incenter, orthocenter, circumcenter, centroid) coincide at the exact same point, Therefore the distance between them is 0 प\u000612. एक समबाहु ि\u0017भुज में, अंतःकेंदI और शीष\u0014लंबों के प\u0006ितJछेद िबंदु (लंबकेंदI) के बीच की दूरी :ात कीिजए। उ*र: 0 +या,या: समबाहु ि भुज में चारों केंद8 (अंतःकेंद8, लंबकेंद8, पिरकेंद8, केंद8क) एक ही िबंदु पर संपाती होते हैं, इसिलए उनके बीच की दूरी 0 है",
+        "shortcut": "⚡ <b>Geometry Theorem:</b> Standard triangle property directly yields <b>0</b> in &lt;10 seconds."
+      },
+      {
+        "id": 13,
+        "topic": "Geometry",
+        "question": "In triangle ABC, points D and E lie on sides AB and AC respectively such that DE is parallel to BC. Given the lengths of AD, DB, and AE, find the length of EC.",
+        "options": [
+          "EC = (DB * AE) / AD",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "By Basic Proportionality Theorem (Thales's Theorem): AD / DB = AE / EC, Cross-multiplying gives EC = (DB * AE) / AD प\u000613. ि\u0017भुज ABC में, भुजाओं AB और AC पर ;मशः िबंदु D और E इस प\u0006कार हैं िक DE || BC है। AD, DB और AE की लंबाइयाँ दी गई हैं, तो EC की लंबाई :ात कीिजए। उ*र: EC = (DB * AE) / AD +या,या: आधारभूत समानुपाितकता प$मेय (थे;स प$मेय) <ारा: AD / DB = AE / EC; आड़ा गुणा करने पर EC = (DB * AE) / AD",
+        "shortcut": "⚡ <b>Geometry Theorem:</b> Standard triangle property directly yields <b>EC = (DB * AE) / AD</b> in &lt;10 seconds."
+      },
+      {
+        "id": 14,
+        "topic": "Mensuration 3D",
+        "question": "A solid structure consists of a regular hexagonal prism surmounted by a right circular cone. If the base side and height of the prism are a cm and h1 cm respectively, and the base radius and height of the cone are r cm and h2 cm, find the total volume of the solid.",
+        "options": [
+          "[(3√3 / 2) * a² * h1] + [(1/3) * π * r² * h2] cm³",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Volume of regular hexagonal prism = Base Area * Height = (3√3 / 2) * a² * h1, Volume of right circular cone = (1/3) * π * r² * h2, Total volume = [(3√3 / 2) * a² * h1] + [(1/3) * π * r² * h2] cm³ प\u000614. एक ठोस संरचना में एक सम षट्भुजाकार िप\u0006.़म के ऊपर एक लंब वृ*ीय शंकु रखा है। यिद िप\u0006.़म की आधार भुजा और ऊँचाई ;मशः a cm और h1 cm हैं तथा शंकु की आधार ि\u0017.या और ऊँचाई ;मशः r cm और h2 cm हैं, तो ठोस का कुल आयतन :ात कीिजए। उ*र: [(3√3 / 2) * a² * h1] + [(1/3) * π * r² * h2] cm³ +या,या: सम षट्भुजाकार िप$%़म का आयतन = आधार का \u0004े फल * ऊँचाई = (3√3 / 2) * a² * h1; लंब वृ=ीय शंकु का आयतन = (1/3) * π * r² * h2; कुल आयतन = [(3√3 / 2) * a² * h1] + [(1/3) * π * r² * h2] cm³",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>[(3√3 / 2) * a² * h1] + [(1/3) * π * r² * h2] cm³</b>."
+      },
+      {
+        "id": 15,
+        "topic": "Trigonometry",
+        "question": "If cos² θ = 1/2 (where 0° ≤ θ ≤ 90°), find the value of θ.",
+        "options": [
+          "45°",
+          "47 °",
+          "43 °",
+          "90 °"
+        ],
+        "correct": 0,
+        "solution": "Taking square root on both sides: cos θ = 1 / √2, For 0° ≤ θ ≤ 90°, cos 45° = 1 / √2, Therefore θ = 45° प\u000615. यिद cos² θ = 1/2 (जहाँ 0° ≤ θ ≤ 90°) है, तो θ का मान :ात कीिजए। उ*र: 45° +या,या: दोनों ओर वग!मूल लेने पर: cos θ = 1 / √2; 0° ≤ θ ≤ 90° के िलए cos 45° = 1 / √2; अतः θ = 45°",
+        "shortcut": "⚡ <b>Trig Triplet / Value Putting:</b> Test standard angle (30°, 45°, 60°) or triplet ⟹ <b>45°</b>."
+      },
+      {
+        "id": 16,
+        "topic": "Quantitative Aptitude",
+        "question": "Angles x and y are supplementary angles. If x is 40° more than 1/4 of y, find the value of half of x (x / 2).",
+        "options": [
+          "34°",
+          "36 °",
+          "32 °",
+          "68 °"
+        ],
+        "correct": 0,
+        "solution": "Supplementary angles condition: x + y = 180°, Given relation: x = (y / 4) + 40°, (y / 4) + 40° + y = 180°, 5y / 4 = 140°, y = (140° * 4) / 5 = 112°, x = 180° - 112° = 68°, x / 2 = 68° / 2 = 34° प\u000616. कोण x और y संपूरक कोण हैं। यिद x, y के 1/4 से 40° अिधक है, तो x का आधा (x / 2) :ात कीिजए। उ*र: 34° +या,या: संपूरक कोण: x + y = 180°; िदया गया संबंध: x = (y / 4) + 40°; (y / 4) + 40° + y = 180°; 5y / 4 = 140°; y = (140° * 4) / 5 = 112°; x = 180° - 112° = 68°; x / 2 = 68° / 2 = 34°",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>34°</b>."
+      },
+      {
+        "id": 17,
+        "topic": "Mensuration 3D",
+        "question": "A solid sphere of radius 9 cm is melted into a cylinder of radius 3 cm. Find the height of the cylinder.",
+        "options": [
+          "108 cm",
+          "110 cm",
+          "106 cm",
+          "216 cm"
+        ],
+        "correct": 0,
+        "solution": "Volume of sphere = Volume of cylinder => (4/3) * π * R³ = π * r² * h, Given R = 9 cm and r = 3 cm, (4/3) * π * 9³ = π * 3² * h, (4/3) * 729 = 9 * h, 4 * 243 = 9h, 972 = 9h, h = 972 / 9 = 108 cm प\u000617. 9 cm ि\u0017.या के एक ठोस गोले को िपघलाकर 3 cm ि\u0017.या का बेलन बनाया जाता है। बेलन की ऊँचाई :ात कीिजए। उ*र: 108 cm +या,या: गोले का आयतन = बेलन का आयतन => (4/3) * π * R³ = π * r² * h; िदया है R = 9 cm और r = 3 cm; (4/3) * π * 9³ = π * 3² * h; (4/3) * 729 = 9 * h; 4 * 243 = 9h; 972 = 9h; h = 972 / 9 = 108 cm",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>108 cm</b>."
+      }
+    ]
+  },
+  {
+    "shift_id": "oct13_s2",
+    "name": "13 October (Shift 2)",
+    "date": "13 Oct 2026",
+    "questions": [
+      {
+        "id": 1,
+        "topic": "Heights & Distances",
+        "question": "A boat moves towards a tower. The angle of elevation of the top of the tower changes from 45° to 60° in 6 minutes. How much more time will the boat take to reach the base of the tower?",
+        "options": [
+          "3(√3 + 1) minutes (approx. 8 minutes 12 seconds)",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Let tower height be h. Distance at 45° = h, Distance at 60° = h/√3. Distance covered in 6 min = h − (h/√3) = h(√3 − 1)/√3. Speed = [h(√3 − 1)]/[6√3]. Time to reach base from 60° position = (h/√3) / [h(√3 − 1)/(6√3)] = 6/(√3 − 1) = 3(√3 + 1) minutes. प\u00061. एक नाव एक मीनार की ओर बढ़ती है। मीनार के शीष\u0014 का उMयन कोण 6 िमनट में 45° से 60° हो जाता है। नाव को मीनार के आधार तक पहुँचने में और िकतना समय लगेगा? उ*र: 3(√3 + 1) िमनट (लगभग 8 िमनट 12 सेकंड) +या,या: माना मीनार की ऊँचाई h है। 45° पर दूरी = h, 60° पर दूरी = h/√3। 6 िमनट में तय दूरी = h − (h/√3) = h(√3 − 1)/√3। चाल = [h(√3 − 1)]/[6√3]। 60° वाली ि\u000fथित से आधार तक समय = (h/√3) / [h(√3 − 1)/(6√3)] = 6/(√3 − 1) = 3(√3 + 1) िमनट।",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>3(√3 + 1) minutes (approx. 8 minutes 12 seconds)</b>."
+      },
+      {
+        "id": 2,
+        "topic": "Heights & Distances",
+        "question": "From a point on one side of a lighthouse, the angle of elevation of the top changes from 45° to 60° in 3 minutes. How much more time will it take to reach the base of the lighthouse?",
+        "options": [
+          "[3(√3 + 1)]/2 minutes (approx. 4 minutes 6 seconds)",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Let lighthouse height be h. Distance at 45° = h, Distance at 60° = h/√3. Distance covered in 3 min = h(√3 − 1)/√3. Speed = [h(√3 − 1)]/[3√3]. Time to reach base = (h/√3) / [h(√3 − 1)/(3√3)] = 3/(√3 − 1) = [3(√3 + 1)]/2 minutes. प\u00062. एक लाइटहाउस के एक ओर िकसी िबंदु से उसके शीष\u0014 का उMयन कोण 3 िमनट में 45° से 60° हो जाता है। लाइटहाउस के आधार तक पहुँचने में और िकतना समय लगेगा? उ*र: [3(√3 + 1)]/2 िमनट (लगभग 4 िमनट 6 सेकंड) +या,या: माना लाइटहाउस की ऊँचाई h है। 45° पर दूरी = h, 60° पर दूरी = h/√3। 3 िमनट में तय दूरी = h(√3 − 1)/√3। चाल = [h(√3 − 1)]/[3√3]। आधार तक समय = (h/√3) / [h(√3 − 1)/(3√3)] = 3/(√3 − 1) = [3(√3 + 1)]/2 िमनट।",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>[3(√3 + 1)]/2 minutes (approx. 4 minutes 6 seconds)</b>."
+      },
+      {
+        "id": 3,
+        "topic": "Mensuration 2D",
+        "question": "In triangle ABC, angle B = 45° and angle C = 60°. The angle bisectors of angle B and angle C meet at point P. What is the difference between angle APB and angle ABP?",
+        "options": [
+          "97.5°",
+          "112.5°",
+          "82.5°",
+          "Option 4"
+        ],
+        "correct": 0,
+        "solution": "Point P is the incenter of triangle ABC. ∠APB = 90° + (∠C/2) = 90° + 30° = 120°. Ray BP bisects angle B, so ∠ABP = 45°/2 = 22.5°. Difference = ∠APB − ∠ABP = 120° − 22.5° = 97.5°. प\u00063. ि\u0017भुज ABC में कोण B = 45° और कोण C = 60° है। कोण B और कोण C के समिNभाजक िबंदु P पर िमलते हैं। कोण APB और कोण ABP के बीच अंतर 9या है? उ*र: 97.5° +या,या: िबंदु P ि भुज ABC का अंतःकेंद8 है। ∠APB = 90° + (∠C/2) = 90° + 30° = 120°। िकरण BP कोण B को समि<भािजत करती है, इसिलए ∠ABP = 45°/2 = 22.5°। अंतर = ∠APB − ∠ABP = 120° − 22.5° = 97.5°।",
+        "shortcut": "⚡ <b>Geometry Theorem:</b> Standard triangle property directly yields <b>97.5°</b> in &lt;10 seconds."
+      },
+      {
+        "id": 4,
+        "topic": "Profit & Loss",
+        "question": "The marked price of an article is ₹1200. After allowing a discount of x%, its selling price becomes ₹768. What will be its selling price if a discount of 2x% is given on the marked price?",
+        "options": [
+          "₹336",
+          "₹338",
+          "₹334",
+          "₹672"
+        ],
+        "correct": 0,
+        "solution": "Discount amount = 1200 − 768 = 432. Discount percentage x = (432/1200) × 100 = 36%. New discount rate = 2x = 72%. New selling price = 1200 × (1 − 0.72) = 1200 × 0.28 = ₹336. प\u00064. एक वFतु का अंिकत मूOय ₹1200 है। x% छूट देने के बाद उसका िव;य मूOय ₹768 हो जाता है। यिद अंिकत मूOय पर 2x% छूट दी जाए तो उसका िव;य मूOय 9या होगा? उ*र: ₹336 +या,या: छूट की रािश = 1200 − 768 = 432। छूट प$ितशत x = (432/1200) × 100 = 36%। नई छूट दर = 2x = 72%। नया िवAय मू;य = 1200 × (1 − 0.72) = 1200 × 0.28 = ₹336।",
+        "shortcut": "⚡ <b>Fraction / Ratio Method:</b> Convert % to fractional multipliers for 5-second calculation ⟹ <b>₹336</b>."
+      },
+      {
+        "id": 5,
+        "topic": "Profit & Loss",
+        "question": "Two articles have the same cost price. One is sold at a profit of 15% and the other at a profit of 12%. If the difference between their selling prices is ₹18, what is the cost price of each article?",
+        "options": [
+          "₹600",
+          "₹602",
+          "₹598",
+          "₹1200"
+        ],
+        "correct": 0,
+        "solution": "Let Cost Price be CP. SP₁ = 1.15 × CP and SP₂ = 1.12 × CP. Difference in SP = (1.15 − 1.12) × CP = 0.03 × CP = 18. Thus, CP = 18/0.03 = ₹600. प\u00065. दो वFतुओं का ;य मूOय समान है। एक को 15% लाभ पर और दूसरी को 12% लाभ पर बेचा जाता है। यिद उनके िव;य मूOयों का अंतर ₹18 है, तो प\u0006%येक वFतु का ;य मूOय 9या है? उ*र: ₹600 +या,या: माना Aय मू;य CP है। SP₁ = 1.15 × CP और SP₂ = 1.12 × CP। िवAय मू;यों का अंतर = (1.15 − 1.12) × CP = 0.03 × CP = 18। अतः CP = 18/0.03 = ₹600।",
+        "shortcut": "⚡ <b>Fraction / Ratio Method:</b> Convert % to fractional multipliers for 5-second calculation ⟹ <b>₹600</b>."
+      },
+      {
+        "id": 6,
+        "topic": "Algebra",
+        "question": "If x − 1/x = 2, find the value of x⁶ + 1/x⁶.",
+        "options": [
+          "198",
+          "200",
+          "196",
+          "396"
+        ],
+        "correct": 0,
+        "solution": "Squaring both sides gives x² + 1/x² = 2² + 2 = 6. Cubing both sides of this result gives x⁶ + 1/x⁶ = 6³ − (3 × 6) = 216 − 18 = 198. प\u00066. यिद x − 1/x = 2 है, तो x⁶ + 1/x⁶ का मान :ात कीिजए। उ*र: 198 +या,या: दोनों ओर वग! करने पर x² + 1/x² = 2² + 2 = 6। इस पिरणाम का घन करने पर x⁶ + 1/x⁶ = 6³ − (3 × 6) = 216 − 18 = 198।",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>198</b>."
+      },
+      {
+        "id": 7,
+        "topic": "Algebra",
+        "question": "If x − 1/x = 5, find the value of x⁶ + 1/x⁶.",
+        "options": [
+          "19602",
+          "19604",
+          "19600",
+          "39204"
+        ],
+        "correct": 0,
+        "solution": "Squaring both sides gives x² + 1/x² = 5² + 2 = 27. Cubing both sides of this result gives x⁶ + 1/x⁶ = 27³ − (3 × 27) = 19683 − 81 = 19602. प\u00067. यिद x − 1/x = 5 है, तो x⁶ + 1/x⁶ का मान :ात कीिजए। उ*र: 19602 +या,या: दोनों ओर वग! करने पर x² + 1/x² = 5² + 2 = 27। इस पिरणाम का घन करने पर x⁶ + 1/x⁶ = 27³ − (3 × 27) = 19683 − 81 = 19602।",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>19602</b>."
+      },
+      {
+        "id": 8,
+        "topic": "Quantitative Aptitude",
+        "question": "Find the missing number in the series: 9, 12, ?, 35, 59",
+        "options": [
+          "20",
+          "22",
+          "18",
+          "40"
+        ],
+        "correct": 0,
+        "solution": "Pattern adds (n² − 1) to each preceding term: 9 + (1² − 1) = 9, 9 + (2² − 1) = 12, 12 + (3² − 1) = 12 + 8 = 20, 20 + (4² − 1) = 35, 35 + (5² − 1) = 59. प\u00068. @ृंखला में लुPत सं,या :ात कीिजए: 9, 12, ?, 35, 59 उ*र: 20 +या,या: पैटन!: प$Cयेक िपछले पद में (n² − 1) जोड़ा जाता है: 9 + (1² − 1) = 9, 9 + (2² − 1) = 12, 12 + (3² − 1) = 12 + 8 = 20, 20 + (4² − 1) = 35, 35 + (5² − 1) = 59।",
+        "shortcut": "⚡ <b>Trig Triplet / Value Putting:</b> Test standard angle (30°, 45°, 60°) or triplet ⟹ <b>20</b>."
+      },
+      {
+        "id": 9,
+        "topic": "Trigonometry",
+        "question": "If 3 sin θ + 4 cos θ = 5, find the value of sin θ.",
+        "options": [
+          "3/5",
+          "5/3",
+          "3/6",
+          "4/5"
+        ],
+        "correct": 0,
+        "solution": "Dividing the equation by 5 gives (3/5) sin θ + (4/5) cos θ = 1. Comparing with the identity sin² θ + cos² θ = 1 gives sin θ = 3/5. प\u00069. यिद 3 sin θ + 4 cos θ = 5 है, तो sin θ का मान :ात कीिजए। उ*र: 3/5 +या,या: समीकरण को 5 से भाग देने पर (3/5) sin θ + (4/5) cos θ = 1। इसकी तुलना सव!सिमका sin² θ + cos² θ = 1 से करने पर sin θ = 3/5।",
+        "shortcut": "⚡ <b>Trig Triplet / Value Putting:</b> Test standard angle (30°, 45°, 60°) or triplet ⟹ <b>3/5</b>."
+      },
+      {
+        "id": 10,
+        "topic": "Trigonometry",
+        "question": "If 5 sin θ + 12 cos θ = 13, find the value of sin θ.",
+        "options": [
+          "5/13",
+          "13/5",
+          "5/14",
+          "6/13"
+        ],
+        "correct": 0,
+        "solution": "Dividing the equation by 13 gives (5/13) sin θ + (12/13) cos θ = 1. Comparing with the identity sin² θ + cos² θ = 1 gives sin θ = 5/13. प\u000610. यिद 5 sin θ + 12 cos θ = 13 है, तो sin θ का मान :ात कीिजए। उ*र: 5/13 +या,या: समीकरण को 13 से भाग देने पर (5/13) sin θ + (12/13) cos θ = 1। इसकी तुलना सव!सिमका sin² θ + cos² θ = 1 से करने पर sin θ = 5/13।",
+        "shortcut": "⚡ <b>Trig Triplet / Value Putting:</b> Test standard angle (30°, 45°, 60°) or triplet ⟹ <b>5/13</b>."
+      },
+      {
+        "id": 11,
+        "topic": "Geometry",
+        "question": "The side of an equilateral triangle is 6 cm. Find its circumradius (R).",
+        "options": [
+          "2√3 cm (approx. 3.46 cm)",
+          "4√3 cm (approx. 3.46 cm)",
+          "2√4 cm (approx. 3.46 cm)",
+          "4 cm (approx. 3.46 cm)"
+        ],
+        "correct": 0,
+        "solution": "Circumradius formula of an equilateral triangle is R = side/√3. Substituting side = 6 cm, R = 6/√3 = 2√3 cm. प\u000611. एक समबाहु ि\u0017भुज की भुजा 6 cm है। इसकी पिरि\u0017.या (R) :ात कीिजए। उ*र: 2√3 cm (लगभग 3.46 cm) +या,या: समबाहु ि भुज की पिरि %या का सू R = भुजा/√3 है। भुजा = 6 cm रखने पर R = 6/√3 = 2√3 cm।",
+        "shortcut": "⚡ <b>Geometry Theorem:</b> Standard triangle property directly yields <b>2√3 cm (approx. 3.46 cm)</b> in &lt;10 seconds."
+      },
+      {
+        "id": 12,
+        "topic": "Quantitative Aptitude",
+        "question": "Two coins are tossed simultaneously. What is the probability of getting at least one head?",
+        "options": [
+          "3/4",
+          "4/3",
+          "3/5",
+          "4/4"
+        ],
+        "correct": 0,
+        "solution": "Total outcomes S = {HH, HT, TH, TT}, total count = 4. Favorable outcomes for at least one head = {HH, HT, TH}, favorable count = 3. Probability = 3/4. प\u000612. दो िस9के एक साथ उछाले जाते हैं। कम से कम एक िचत (head) आने की प\u0006ाियकता 9या है? उ*र: 3/4 +या,या: कुल पिरणाम S = {HH, HT, TH, TT}, कुल संEया = 4। कम से कम एक िचत के अनुकूल पिरणाम = {HH, HT, TH}, अनुकूल संEया = 3। प$ाियकता = 3/4।",
+        "shortcut": "⚡ <b>Trig Triplet / Value Putting:</b> Test standard angle (30°, 45°, 60°) or triplet ⟹ <b>3/4</b>."
+      },
+      {
+        "id": 13,
+        "topic": "Number System",
+        "question": "Find the sum of the first 243 natural numbers.",
+        "options": [
+          "29646",
+          "29648",
+          "29644",
+          "59292"
+        ],
+        "correct": 0,
+        "solution": "Sum formula S = [n(n + 1)]/2. Substituting n = 243 gives S = (243 × 244)/2 = 243 × 122 = 29646. प\u000613. पहली 243 प\u0006ाकृत सं,याओं का योग :ात कीिजए। उ*र: 29646 +या,या: योग सू S = [n(n + 1)]/2। n = 243 रखने पर S = (243 × 244)/2 = 243 × 122 = 29646।",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>29646</b>."
+      },
+      {
+        "id": 14,
+        "topic": "Profit & Loss",
+        "question": "A and B invested in a partnership in the ratio 7 : 8. A withdrew his investment after 7 months. If their profit ratio is 49 : 40, for how many months did B invest?",
+        "options": [
+          "5 months",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Profit Ratio = (Investment of A × Time of A)/(Investment of B × Time of B). 49/40 = (7 × 7)/(8 × Time of B) → 49/40 = 49/(8 × Time of B) → 8 × Time of B = 40 → Time of B = 5 months. प\u000614. A और B ने 7 : 8 के अनुपात में साझेदारी में िनवेश िकया। A ने 7 महीने बाद अपना िनवेश िनकाल िलया। यिद उनका लाभ अनुपात 49 : 40 है, तो B ने िकतने महीने िनवेश रखा? उ*र: 5 महीने +या,या: लाभ अनुपात = (A का िनवेश × A का समय)/(B का िनवेश × B का समय)। 49/40 = (7 × 7)/(8 × B का समय) → 49/40 = 49/(8 × B का समय) → 8 × B का समय = 40 → B का समय = 5 महीने।",
+        "shortcut": "⚡ <b>Fraction / Ratio Method:</b> Convert % to fractional multipliers for 5-second calculation ⟹ <b>5 months</b>."
+      },
+      {
+        "id": 15,
+        "topic": "Quantitative Aptitude",
+        "question": "If a − b = 6 and ab = 40, find the value of (a + b)².",
+        "options": [
+          "196",
+          "198",
+          "194",
+          "392"
+        ],
+        "correct": 0,
+        "solution": "Using identity (a + b)² = (a − b)² + 4ab: (a + b)² = 6² + (4 × 40) = 36 + 160 = 196. प\u000615. यिद a − b = 6 और ab = 40 है, तो (a + b)² का मान :ात कीिजए। उ*र: 196 +या,या: सव!सिमका (a + b)² = (a − b)² + 4ab का प$योग: (a + b)² = 6² + (4 × 40) = 36 + 160 = 196।",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>196</b>."
+      },
+      {
+        "id": 16,
+        "topic": "Quantitative Aptitude",
+        "question": "A person covers one-third of a 90 km journey by bicycle, one-third by car, and the remaining distance by bus. What is the distance covered by the bus?",
+        "options": [
+          "30 km",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Distance by bicycle = 90/3 = 30 km, Distance by car = 90/3 = 30 km. Remaining distance covered by bus = 90 − (30 + 30) = 30 km. प\u000616. एक +यि9त 90 km की या\u0017ा का एक-ितहाई भाग साइिकल से, एक-ितहाई कार से और शेष दूरी बस से तय करता है। बस Nारा तय की गई दूरी 9या है? उ*र: 30 km +या,या: साइिकल से दूरी = 90/3 = 30 km, कार से दूरी = 90/3 = 30 km। बस से शेष दूरी = 90 − (30 + 30) = 30 km।",
+        "shortcut": "⚡ <b>Trig Triplet / Value Putting:</b> Test standard angle (30°, 45°, 60°) or triplet ⟹ <b>30 km</b>."
+      },
+      {
+        "id": 17,
+        "topic": "Data Interpretation",
+        "question": "In the given histogram, find the difference between the frequency of values less than 160 and values greater than 170.",
+        "options": [
+          "115",
+          "117",
+          "113",
+          "230"
+        ],
+        "correct": 0,
+        "solution": "Frequency for values less than 160 = 90 + 70 = 160. Frequency for values greater than 170 = 45. Difference = 160 − 45 = 115. प\u000617. िदए गए आयतिच\u0017 (histogram) में 160 से कम मानों की बारंबारता और 170 से अिधक मानों की बारंबारता का अंतर :ात कीिजए। उ*र: 115 +या,या: 160 से कम मानों की बारंबारता = 90 + 70 = 160। 170 से अिधक मानों की बारंबारता = 45। अंतर = 160 − 45 = 115।",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>115</b>."
+      },
+      {
+        "id": 18,
+        "topic": "Data Interpretation",
+        "question": "In the given line graph with points plotted at values 5, 9, 14, 17, 12, and 17, find the sum of all plotted values.",
+        "options": [
+          "74",
+          "76",
+          "72",
+          "148"
+        ],
+        "correct": 0,
+        "solution": "Total Sum = 5 + 9 + 14 + 17 + 12 + 17 = 74. प\u000618. िदए गए रेखािच\u0017 (line graph) में िबंदु 5, 9, 14, 17, 12 और 17 मानों पर अंिकत हैं। सभी अंिकत मानों का योग :ात कीिजए। उ*र: 74 +या,या: कुल योग = 5 + 9 + 14 + 17 + 12 + 17 = 74।",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>74</b>."
+      }
+    ]
+  },
+  {
+    "shift_id": "oct13_s3",
+    "name": "13 October (Shift 3)",
+    "date": "13 Oct 2026",
+    "questions": [
+      {
+        "id": 1,
+        "topic": "Heights & Distances",
+        "question": "Two poles of equal heights are standing opposite each other on either side of the road, which is 80 m wide. From a point between them on the road, the angle of elevation of the top of the poles are 60° and 30°, respectively. What is the height of the poles?",
+        "options": [
+          "20√3 m (or 34.64 m)",
+          "40√3 m (or 34.64 m)",
+          "20√4 m (or 34.64 m)",
+          "40 m (or 34.64 m)"
+        ],
+        "correct": 0,
+        "solution": "Let the height of both poles be h and the distance of the point from the first pole be x. tan(60°) = h/x => x = h/√3. The distance from the second pole is (80 - x): tan(30°) = h/(80 - x) => 80 - x = h√3. Substituting x: 80 - h/√3 = h√3 => 80 = h(√3 + 1/√3) = 4h/√3 => h = (80√3)/4 = 20√3 m. प\u00061. एक 80 m चौड़ी सड़क के दोनों ओर बराबर ऊँचाई के दो खंभे आमने-सामने खड़े हैं। सड़क पर उनके बीच के िकसी िबंदु से खंभों के शीषRं के उMयन कोण ;मशः 60° और 30° हैं। खंभों की ऊँचाई 9या है? उ*र: 20√3 m (या 34.64 m) +या,या: माना दोनों खंभों की ऊँचाई h है और पहले खंभे से िबंदु की दूरी x है। tan(60°) = h/x => x = h/√3। दूसरे खंभे से दूरी (80 - x) होगी: tan(30°) = h/(80 - x) => 80 - x = h√3। x का मान रखने पर: 80 - h/ √3 = h√3 => 80 = h(√3 + 1/√3) = 4h/√3 => h = (80√3)/4 = 20√3 m।",
+        "shortcut": "⚡ <b>Trig Triplet / Value Putting:</b> Test standard angle (30°, 45°, 60°) or triplet ⟹ <b>20√3 m (or 34.64 m)</b>."
+      },
+      {
+        "id": 2,
+        "topic": "Geometry",
+        "question": "In a ΔABC, DE is parallel to BC, AD = a, DB = a + 4, AE = 2a + 3, and EC = 7a. What is the value of 'a' if a > 0?",
+        "options": [
+          "3",
+          "5",
+          "1",
+          "6"
+        ],
+        "correct": 0,
+        "solution": "By Thales's Theorem (Basic Proportionality Theorem): AD/DB = AE/EC. a/(a + 4) = (2a + 3)/(7a). Cross-multiplying: 7a² = (a + 4)(2a + 3). 7a² = 2a² + 11a + 12. 5a² - 11a - 12 = 0. Factorizing: 5a² - 15a + 4a - 12 = 0 => (a - 3)(5a + 4) = 0. Since a > 0, a = 3. प\u00062. ΔABC में DE || BC है, AD = a, DB = a + 4, AE = 2a + 3 और EC = 7a है। यिद a > 0 है, तो 'a' का मान 9या है? उ*र: 3 +या,या: थे;स प$मेय (आधारभूत समानुपाितकता प$मेय) के अनुसार: AD/DB = AE/EC। a/(a + 4) = (2a + 3)/(7a)। आड़ा गुणा करने पर: 7a² = (a + 4)(2a + 3)। 7a² = 2a² + 11a + 12। 5a² - 11a - 12 = 0। गुणनखंड करने पर: 5a² - 15a + 4a - 12 = 0 => (a - 3)(5a + 4) = 0। चूँिक a > 0 िदया है, इसिलए a = 3।",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>3</b>."
+      },
+      {
+        "id": 3,
+        "topic": "Trigonometry",
+        "question": "If 3 sin A + 4 cos A = 5, then what is the value of sin A?",
+        "options": [
+          "3/5",
+          "5/3",
+          "3/6",
+          "4/5"
+        ],
+        "correct": 0,
+        "solution": "Divide the equation by 5 to match the Pythagorean triplet (3, 4, 5): (3/5) sin A + (4/5) cos A = 1. Comparing with sin² A + cos² A = 1, i.e. (sin A) sin A + (cos A) cos A = 1, we get sin A = 3/5 and cos A = 4/5. प\u00063. यिद 3 sin A + 4 cos A = 5 है, तो sin A का मान 9या है? उ*र: 3/5 +या,या: समीकरण को पाइथागोरस ि क (3, 4, 5) के Fप में िलखने के िलए 5 से भाग दें: (3/5) sin A + (4/5) cos A = 1। इसकी तुलना sin² A + cos² A = 1 अथGत् (sin A) sin A + (cos A) cos A = 1 से करने पर: sin A = 3/5 और cos A = 4/5 प$ाHत होता है।",
+        "shortcut": "⚡ <b>Trig Triplet / Value Putting:</b> Test standard angle (30°, 45°, 60°) or triplet ⟹ <b>3/5</b>."
+      },
+      {
+        "id": 4,
+        "topic": "Geometry",
+        "question": "Two equal circles, each of radius 12 cm, pass through each other's centre. What is the length of their common chord?",
+        "options": [
+          "12√3 cm",
+          "24√3 cm",
+          "12√4 cm",
+          "24 cm"
+        ],
+        "correct": 0,
+        "solution": "When two equal circles of radius r pass through each other's centre, the length of the common chord is directly given by: Length = r√3. Here r = 12 cm, so the common chord = 12√3 cm. प\u00064. 12 cm ि\u0017.या वाले दो बराबर वृ* एक-दूसरे के केंदI से होकर गुजरते हैं। उनकी उभयिनSठ जीवा की लंबाई 9या है? उ*र: 12√3 cm +या,या: जब दो बराबर ि %या (r) वाले वृ= एक-दूसरे के केंद8 से गुजरते हैं, तो उभयिनIठ जीवा की लंबाई का सीधा सू है: लंबाई = r√3। यहाँ r = 12 cm है, इसिलए उभयिनIठ जीवा = 12√3 cm।",
+        "shortcut": "⚡ <b>Circle Property:</b> Tangent-radius perpendicularity / chord relation directly yields <b>12√3 cm</b>."
+      },
+      {
+        "id": 5,
+        "topic": "Quantitative Aptitude",
+        "question": "What is the value of 196²?",
+        "options": [
+          "38,416",
+          "None of these",
+          "Data inadequate",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "solution": "Use the identity (a - b)² = a² - 2ab + b²: 196² = (200 - 4)² = 200² - 2(200)(4) + 4² = 40,000 - 1,600 + 16 = 38,416. प\u00065. 196² का मान 9या है? उ*र: 38,416 +या,या: सव!सिमका (a - b)² = a² - 2ab + b² का प$योग करें: 196² = (200 - 4)",
+        "shortcut": "⚡ <b>Topper Shortcut:</b> Direct application of standard identity leads to <b>38,416</b>."
+      }
+    ]
+  },
+  {
+    "shift_id": "oct12_imp",
+    "name": "12 October (Important Types)",
+    "date": "12 Oct 2026",
+    "questions": [
+      {
+        "id": 1,
+        "topic": "Number System",
+        "question": "What is the square of 196?",
+        "options": [
+          "38,416",
+          "38,216",
+          "39,416",
+          "37,816"
+        ],
+        "correct": 0,
+        "solution": "196² = (200 − 4)² = 200² − 2(200)(4) + 4² = 40,000 − 1,600 + 16 = <b>38,416</b>.",
+        "shortcut": "⚡ (200 − 4)² = 40000 − 1600 + 16 = <b>38,416</b>."
+      },
+      {
+        "id": 2,
+        "topic": "Trigonometry",
+        "question": "If tan A = 3/4, find the value of (sin A − 1)(sin A + 1).",
+        "options": [
+          "−16/25",
+          "16/25",
+          "−9/25",
+          "9/25"
+        ],
+        "correct": 0,
+        "solution": "(sin A − 1)(sin A + 1) = sin²A − 1 = −(1 − sin²A) = −cos²A.<br>tan A = 3/4 ⟹ Triplet (3, 4, 5) ⟹ cos A = 4/5.<br>−cos²A = −(4/5)² = <b>−16/25</b>.",
+        "shortcut": "⚡ sin²A − 1 = −cos²A = −(4/5)² = <b>−16/25</b>."
+      },
+      {
+        "id": 3,
+        "topic": "Partnership",
+        "question": "A and B invest in a business in the ratio 7 : 8. A withdraws after 7 months. If their profits are in the ratio 49 : 40, for how many months did B invest?",
+        "options": [
+          "4 months",
+          "5 months",
+          "6 months",
+          "8 months"
         ],
         "correct": 1,
-        "solution": "Identity: (A + B)² − (A − B)² = 4AB.<br>Here A = x, B = 2 ⟹ 4(x)(2) = <b>8x</b>.",
-        "shortcut": "⚡ 4AB = 4 × x × 2 = <b>8x</b>."
+        "solution": "Profit Ratio = (Investment_A × Time_A) / (Investment_B × Time_B).<br>(7 × 7) / (8 × t) = 49 / 40 ⟹ 49 / (8t) = 49 / 40 ⟹ 8t = 40 ⟹ t = <b>5 months</b>.",
+        "shortcut": "⚡ 8t = 40 ⟹ t = <b>5 months</b>."
+      },
+      {
+        "id": 4,
+        "topic": "Geometry",
+        "question": "Two tangents are drawn to a circle of radius 7 cm such that the angle between them is 120°. Find the distance from the centre to the external point.",
+        "options": [
+          "14/√3 cm",
+          "7√3 cm",
+          "14 cm",
+          "7/√3 cm"
+        ],
+        "correct": 0,
+        "solution": "Line joining external point to centre bisects the 120° angle: half-angle = 60°.<br>In right triangle: sin 60° = Radius / Distance = 7 / d.<br>√3 / 2 = 7 / d ⟹ d = 14 / √3 = <b>14/√3 cm</b>.",
+        "shortcut": "⚡ d = r / sin(θ/2) = 7 / sin 60° = 7 / (√3/2) = <b>14/√3 cm</b>."
+      },
+      {
+        "id": 5,
+        "topic": "Profit & Loss",
+        "question": "If the cost price of 15 articles equals the selling price of 20 articles, find the loss percentage.",
+        "options": [
+          "20%",
+          "25%",
+          "33.33%",
+          "15%"
+        ],
+        "correct": 1,
+        "solution": "15 CP = 20 SP ⟹ SP / CP = 15 / 20 = 3 / 4.<br>Loss % = (1 − 3/4) × 100 = <b>25%</b>.",
+        "shortcut": "⚡ Loss % = [(20 − 15) / 20] × 100 = 5/20 = <b>25%</b>."
+      },
+      {
+        "id": 6,
+        "topic": "Mensuration 3D",
+        "question": "Find the total surface area of a right circular cone with base radius 4 units and vertical height 3 units.",
+        "options": [
+          "36π sq units",
+          "24π sq units",
+          "20π sq units",
+          "16π sq units"
+        ],
+        "correct": 0,
+        "solution": "Slant height l = √(4² + 3²) = 5 units (Triplet 3, 4, 5).<br>TSA = πr(l + r) = π × 4 × (5 + 4) = π × 4 × 9 = <b>36π sq units</b>.",
+        "shortcut": "⚡ Triplet (3, 4, 5) ⟹ l = 5. TSA = π(4)(5 + 4) = <b>36π</b>."
+      },
+      {
+        "id": 7,
+        "topic": "Mensuration 3D",
+        "question": "A conical tent has base radius 7 m and slant height 25 m. Find the cost of canvas for its curved surface at ₹22.50 per sq. metre.",
+        "options": [
+          "₹12,375",
+          "₹11,500",
+          "₹13,200",
+          "₹10,850"
+        ],
+        "correct": 0,
+        "solution": "CSA = πrl = (22/7) × 7 × 25 = 22 × 25 = 550 m².<br>Cost = 550 × ₹22.50 = 550 × (45 / 2) = 275 × 45 = <b>₹12,375</b>.",
+        "shortcut": "⚡ 550 × 22.5 = 1100 × 11.25 = <b>₹12,375</b>."
+      },
+      {
+        "id": 8,
+        "topic": "Geometry",
+        "question": "Two tangents PA and PB are drawn from external point P to a circle of radius 4 cm. If the angle between tangent PA and line PO is 30°, find the length of the tangent.",
+        "options": [
+          "4√3 cm",
+          "8 cm",
+          "4/√3 cm",
+          "6 cm"
+        ],
+        "correct": 0,
+        "solution": "∠PAO = 90° and ∠APO = 30°.<br>tan 30° = Radius / Tangent = 4 / PA.<br>1/√3 = 4 / PA ⟹ PA = <b>4√3 cm</b>.",
+        "shortcut": "⚡ PA = 4 / tan 30° = <b>4√3 cm</b>."
       },
       {
         "id": 9,
         "topic": "Geometry",
-        "question": "In △ABC, points D and E are on AB and AC respectively such that DE ∥ BC. If AD = 3 cm, DB = 2 cm and DE = 4 cm, find BC.",
+        "question": "A chord of a circle is 16 cm long and its distance from the centre is 15 cm. Find the radius of the circle.",
         "options": [
-          "6 cm",
-          "20/3 cm",
-          "7 cm",
-          "8 cm"
+          "17 cm",
+          "18 cm",
+          "19 cm",
+          "20 cm"
         ],
-        "correct": 1,
-        "solution": "Since DE ∥ BC, △ADE ∼ △ABC by AA similarity.<br>AB = AD + DB = 3 + 2 = 5 cm.<br>Ratio of sides: AD / AB = DE / BC ⟹ 3 / 5 = 4 / BC ⟹ BC = (4 × 5) / 3 = <b>20/3 cm (6 2/3 cm)</b>.",
-        "shortcut": "⚡ <b>Thales Theorem:</b> BC = DE × (AB / AD) = 4 × (5 / 3) = <b>20/3 cm</b>."
+        "correct": 0,
+        "solution": "Half chord = 16 / 2 = 8 cm.<br>Radius r = √(15² + 8²) = √(225 + 64) = √289 = <b>17 cm</b>.",
+        "shortcut": "⚡ <b>Triplet (8, 15, 17):</b> Radius = <b>17 cm</b>."
       },
       {
         "id": 10,
-        "topic": "Geometry",
-        "question": "A tangent QT is drawn from point Q to a circle with centre O (T is the point of contact). If QT = 6 cm and OQ = 10 cm, find the area of △OQT.",
+        "topic": "Algebra",
+        "question": "If x = 2 + √3, find the value of x + 1/x.",
         "options": [
-          "20 cm²",
-          "15 cm²",
-          "18 cm²",
-          "24 cm²"
+          "4",
+          "2√3",
+          "2",
+          "4√3"
         ],
-        "correct": 3,
-        "solution": "Tangent QT is perpendicular to radius OT: ∠OTQ = 90°.<br>In right △OTQ: OT = √(OQ² − QT²) = √(10² − 6²) = √(100 − 36) = √64 = 8 cm.<br>Area of right △OQT = (1/2) × base × height = (1/2) × 6 × 8 = <b>24 cm²</b>.",
-        "shortcut": "⚡ <b>Triplet (6, 8, 10):</b> Area = (1/2) × 6 × 8 = <b>24 cm²</b>."
+        "correct": 0,
+        "solution": "1/x = 1 / (2 + √3) = 2 − √3.<br>x + 1/x = (2 + √3) + (2 − √3) = <b>4</b>.",
+        "shortcut": "⚡ 2 × first term = 2 × 2 = <b>4</b>."
       },
       {
         "id": 11,
-        "topic": "Profit & Loss",
-        "question": "Two articles are sold at ₹990 each. One gives 10% profit and the other 10% loss. What is the overall profit or loss percentage?",
+        "topic": "Algebra",
+        "question": "If x + 1/x = 6, find the value of x⁵ + 1/x⁵.",
         "options": [
-          "1% loss",
-          "1% profit",
-          "2% loss",
-          "No profit no loss"
+          "6,726",
+          "6,732",
+          "6,696",
+          "6,750"
         ],
         "correct": 0,
-        "solution": "When two items are sold at the same SP, one at x% profit and the other at x% loss, there is always an overall loss.<br>Loss % = (Common % / 10)² = (10 / 10)² = 1² = <b>1% loss</b>.",
-        "shortcut": "⚡ <b>Universal Rule:</b> Loss % = x² / 100 = 100 / 100 = <b>1% loss</b>."
+        "solution": "x² + 1/x² = 6² − 2 = 34.<br>x³ + 1/x³ = 6³ − 3(6) = 216 − 18 = 198.<br>x⁵ + 1/x⁵ = (x² + 1/x²)(x³ + 1/x³) − (x + 1/x) = (34 × 198) − 6 = 6732 − 6 = <b>6,726</b>.",
+        "shortcut": "⚡ (34 × 198) − 6 = 6732 − 6 = <b>6,726</b>."
       },
       {
         "id": 12,
-        "topic": "Simple Interest",
-        "question": "A sum of money becomes ₹875 in 3 years and ₹950 in 4 years at simple interest. Find the principal amount.",
+        "topic": "Mensuration 3D",
+        "question": "A solid pyramid has base area of 40 cm² and vertical height of 5 cm. Find its volume.",
         "options": [
-          "₹600",
-          "₹650",
-          "₹700",
-          "₹725"
+          "200/3 cm³",
+          "100 cm³",
+          "200 cm³",
+          "150 cm³"
         ],
-        "correct": 1,
-        "solution": "SI for 1 year = Amount in 4 yrs − Amount in 3 yrs = 950 − 875 = ₹75.<br>SI for 3 years = 3 × 75 = ₹225.<br>Principal P = Amount in 3 yrs − SI for 3 yrs = 875 − 225 = <b>₹650</b>.",
-        "shortcut": "⚡ 1 yr interest = 75 ⟹ P = 875 − 3(75) = 875 − 225 = <b>₹650</b>."
+        "correct": 0,
+        "solution": "Volume = (1/3) × Base Area × Height = (1/3) × 40 × 5 = <b>200/3 cm³ (66.67 cm³)</b>.",
+        "shortcut": "⚡ (1/3) × 40 × 5 = <b>200/3 cm³</b>."
       },
       {
         "id": 13,
-        "topic": "Partnership",
-        "question": "A and B invest ₹12,000 and ₹20,000 respectively for one year. A gets an additional 10% of the total profit for managing the business. If the total profit is ₹9,500, what is A's total profit?",
+        "topic": "Geometry",
+        "question": "The number of sides of two regular polygons are in the ratio 1 : 2 and their interior angles are in the ratio 3 : 4. Find the number of sides of both polygons.",
         "options": [
-          "₹3,240",
-          "₹4,200",
-          "₹4,156.25",
-          "₹4,800"
-        ],
-        "correct": 2,
-        "solution": "Management commission for A = 10% of 9,500 = ₹950.<br>Remaining profit = 9,500 − 950 = ₹8,550.<br>Ratio of investment = 12,000 : 20,000 = 3 : 5 (Total 8 parts).<br>A's share of remaining profit = (3 / 8) × 8,550 = ₹3,206.25.<br>Total earnings of A = 950 + 3,206.25 = <b>₹4,156.25</b>.",
-        "shortcut": "⚡ A = 950 + (3/8 × 8550) = 950 + 3206.25 = <b>₹4,156.25</b>."
-      },
-      {
-        "id": 14,
-        "topic": "Discounts",
-        "question": "The marked price of an article is ₹8,000. Successive discounts of 15%, 20% and 10% are given. What is the selling price (SP)?",
-        "options": [
-          "₹4,896",
-          "₹4,960",
-          "₹5,040",
-          "₹5,120"
+          "5 and 10",
+          "4 and 8",
+          "6 and 12",
+          "3 and 6"
         ],
         "correct": 0,
-        "solution": "SP = 8000 × (1 − 0.15) × (1 − 0.20) × (1 − 0.10) = 8000 × 0.85 × 0.80 × 0.90.<br>8000 × 0.80 = 6400.<br>6400 × 0.85 = 5440.<br>5440 × 0.90 = <b>₹4,896</b>.",
-        "shortcut": "⚡ <b>Unit Digit:</b> 8 × 85 × 8 × 9 ends in 6 ⟹ <b>₹4,896</b>."
+        "solution": "Let sides be n and 2n.<br>Interior angle of polygon 1 = [(n − 2) × 180°] / n.<br>Interior angle of polygon 2 = [(2n − 2) × 180°] / 2n.<br>Ratio: {[(n − 2)/n] / [(2n − 2)/2n]} = 3/4 ⟹ [(n − 2) / (n − 1)] = 3/4 ⟹ 4n − 8 = 3n − 3 ⟹ n = 5.<br>Sides are <b>5 and 10</b>.",
+        "shortcut": "⚡ Check options: For 5 and 10, angles are 108° and 144°. Ratio = 108/144 = 3/4. Matches <b>5 and 10</b>!"
+      }
+    ]
+  },
+  {
+    "shift_id": "oct10_all",
+    "name": "10 October (All Shifts)",
+    "date": "10 Oct 2026",
+    "questions": [
+      {
+        "id": 1,
+        "topic": "Algebra",
+        "question": "If x + 1/x = 17, find x³ + 1/x³.",
+        "options": [
+          "4,862",
+          "4,913",
+          "4,800",
+          "4,964"
+        ],
+        "correct": 0,
+        "solution": "x³ + 1/x³ = k³ − 3k = 17³ − 3(17) = 4913 − 51 = <b>4,862</b>.",
+        "shortcut": "⚡ 17³ − 51 = 4913 − 51 = <b>4,862</b>."
+      },
+      {
+        "id": 2,
+        "topic": "Compound Interest",
+        "question": "Find the compound interest on ₹12,000 at 15% per annum for 3 years.",
+        "options": [
+          "₹6,250.50",
+          "₹5,400.00",
+          "₹6,480.00",
+          "₹6,000.00"
+        ],
+        "correct": 0,
+        "solution": "A = 12000 × (1.15)³ = 12000 × 1.520875 = ₹18,250.50.<br>CI = 18250.50 − 12000 = <b>₹6,250.50</b>.",
+        "shortcut": "⚡ 3-year effective rate for 15% is 52.0875% ⟹ 12000 × 0.520875 = <b>₹6,250.50</b>."
+      },
+      {
+        "id": 3,
+        "topic": "Alligation & Mixtures",
+        "question": "In a mixture, the ratio of milk and water is 5 : 3. What fraction of the mixture must be drawn off and replaced with water so that the final ratio becomes 1 : 1?",
+        "options": [
+          "1/5",
+          "1/4",
+          "1/6",
+          "1/8"
+        ],
+        "correct": 0,
+        "solution": "Initial milk fraction = 5/8. Final milk fraction = 1/2 = 4/8.<br>Milk decreased from 5/8 to 4/8, so reduction is 1/8.<br>Fraction removed = (1/8) / (5/8) = <b>1/5</b>.",
+        "shortcut": "⚡ <b>Shortcut:</b> Difference in milk = 5 − 4 = 1. Fraction = 1 / initial milk = <b>1/5</b>."
+      },
+      {
+        "id": 4,
+        "topic": "Geometry",
+        "question": "In a circle, a chord of length 48 cm is at a distance of 7 cm from the centre. What will be the length of another chord which is at a distance of 24 cm from the centre?",
+        "options": [
+          "14 cm",
+          "16 cm",
+          "18 cm",
+          "12 cm"
+        ],
+        "correct": 0,
+        "solution": "Half of first chord = 48 / 2 = 24 cm.<br>Radius r = √(24² + 7²) = √(576 + 49) = √625 = 25 cm (Triplet 7, 24, 25).<br>For second chord at distance 24 cm: Half chord = √(25² − 24²) = √49 = 7 cm.<br>Full length of second chord = 2 × 7 = <b>14 cm</b>.",
+        "shortcut": "⚡ <b>Symmetric Triplet (7, 24, 25):</b> If dist 7 gives half-chord 24, dist 24 gives half-chord 7 ⟹ Total = 2 × 7 = <b>14 cm</b>."
+      },
+      {
+        "id": 5,
+        "topic": "Algebra",
+        "question": "If 2x = 3y, evaluate: (x² − y²) / (x² + y² + xy).",
+        "options": [
+          "5 / 19",
+          "3 / 19",
+          "5 / 13",
+          "1 / 3"
+        ],
+        "correct": 0,
+        "solution": "x / y = 3 / 2. Put x = 3, y = 2.<br>Numerator = 3² − 2² = 9 − 4 = 5.<br>Denominator = 3² + 2² + (3)(2) = 9 + 4 + 6 = 19.<br>Value = <b>5 / 19</b>.",
+        "shortcut": "⚡ Put x = 3, y = 2 ⟹ (9 − 4)/(9 + 4 + 6) = <b>5/19</b>."
+      },
+      {
+        "id": 6,
+        "topic": "Geometry",
+        "question": "The length of a chord of a circle is 5 cm. If this chord subtends an angle of 30° at the circumference, what is the radius of the circle?",
+        "options": [
+          "5 cm",
+          "10 cm",
+          "2.5 cm",
+          "5√3 cm"
+        ],
+        "correct": 0,
+        "solution": "Angle subtended at the centre = 2 × 30° = 60°.<br>In △OAB, OA = OB = R and ∠AOB = 60° ⟹ △OAB is equilateral!<br>Therefore, Radius R = Chord length = <b>5 cm</b>.",
+        "shortcut": "⚡ <b>Property:</b> If angle at circumference is 30°, central angle is 60° ⟹ Radius = Chord = <b>5 cm</b>."
+      },
+      {
+        "id": 7,
+        "topic": "Mensuration 3D",
+        "question": "The radius of a right circular cone is R and its height is 3 times its radius. What is its Total Surface Area (TSA)?",
+        "options": [
+          "πR²(√10 + 1)",
+          "πR²(√10 − 1)",
+          "3πR²",
+          "πR²√10"
+        ],
+        "correct": 0,
+        "solution": "h = 3R. Slant height l = √(R² + (3R)²) = √(10R²) = R√10.<br>TSA = πR(l + R) = πR(R√10 + R) = <b>πR²(√10 + 1)</b>.",
+        "shortcut": "⚡ l = R√10 ⟹ TSA = πR(R√10 + R) = <b>πR²(√10 + 1)</b>."
+      },
+      {
+        "id": 8,
+        "topic": "Algebra",
+        "question": "If a + b + c = 0, find the value of (a³ + b³ + c³) / abc (where a, b, c ≠ 0).",
+        "options": [
+          "0",
+          "1",
+          "3",
+          "−3"
+        ],
+        "correct": 2,
+        "solution": "When a + b + c = 0, a³ + b³ + c³ = 3abc.<br>Therefore, (a³ + b³ + c³) / abc = 3abc / abc = <b>3</b>.",
+        "shortcut": "⚡ Standard identity: Value is always <b>3</b>."
+      },
+      {
+        "id": 9,
+        "topic": "Mensuration 2D",
+        "question": "A rectangular field is 40 m long and 30 m wide. A 2 m wide path runs around it on the outside. Find the area of the path.",
+        "options": [
+          "280 m²",
+          "296 m²",
+          "304 m²",
+          "312 m²"
+        ],
+        "correct": 1,
+        "solution": "Outer dimensions = (40 + 4) × (30 + 4) = 44 × 34 = 1,496 m².<br>Inner area = 40 × 30 = 1,200 m².<br>Path area = 1,496 − 1,200 = <b>296 m²</b>.",
+        "shortcut": "⚡ <b>Formula:</b> 2w(l + b + 2w) = 2(2)(40 + 30 + 4) = 4 × 74 = <b>296 m²</b>."
+      },
+      {
+        "id": 10,
+        "topic": "Trigonometry",
+        "question": "Evaluate: sin 30° cos 60° + sin 60° cos 30°.",
+        "options": [
+          "1/2",
+          "1",
+          "√3/2",
+          "5/4"
+        ],
+        "correct": 1,
+        "solution": "Identity: sin(A + B) = sin A cos B + cos A sin B.<br>sin(30° + 60°) = sin 90° = <b>1</b>.",
+        "shortcut": "⚡ sin(30° + 60°) = sin 90° = <b>1</b>."
       }
     ]
   },
@@ -448,681 +3241,205 @@
     ]
   },
   {
-    "shift_id": "oct10_all",
-    "name": "10 October (All Shifts)",
-    "date": "10 Oct 2026",
+    "shift_id": "sep30_s2",
+    "name": "30 September (Shift 2)",
+    "date": "30 Sep 2026",
     "questions": [
       {
         "id": 1,
-        "topic": "Algebra",
-        "question": "If x + 1/x = 17, find x³ + 1/x³.",
-        "options": [
-          "4,862",
-          "4,913",
-          "4,800",
-          "4,964"
-        ],
-        "correct": 0,
-        "solution": "x³ + 1/x³ = k³ − 3k = 17³ − 3(17) = 4913 − 51 = <b>4,862</b>.",
-        "shortcut": "⚡ 17³ − 51 = 4913 − 51 = <b>4,862</b>."
-      },
-      {
-        "id": 2,
-        "topic": "Compound Interest",
-        "question": "Find the compound interest on ₹12,000 at 15% per annum for 3 years.",
-        "options": [
-          "₹6,250.50",
-          "₹5,400.00",
-          "₹6,480.00",
-          "₹6,000.00"
-        ],
-        "correct": 0,
-        "solution": "A = 12000 × (1.15)³ = 12000 × 1.520875 = ₹18,250.50.<br>CI = 18250.50 − 12000 = <b>₹6,250.50</b>.",
-        "shortcut": "⚡ 3-year effective rate for 15% is 52.0875% ⟹ 12000 × 0.520875 = <b>₹6,250.50</b>."
-      },
-      {
-        "id": 3,
-        "topic": "Alligation & Mixtures",
-        "question": "In a mixture, the ratio of milk and water is 5 : 3. What fraction of the mixture must be drawn off and replaced with water so that the final ratio becomes 1 : 1?",
-        "options": [
-          "1/5",
-          "1/4",
-          "1/6",
-          "1/8"
-        ],
-        "correct": 0,
-        "solution": "Initial milk fraction = 5/8. Final milk fraction = 1/2 = 4/8.<br>Milk decreased from 5/8 to 4/8, so reduction is 1/8.<br>Fraction removed = (1/8) / (5/8) = <b>1/5</b>.",
-        "shortcut": "⚡ <b>Shortcut:</b> Difference in milk = 5 − 4 = 1. Fraction = 1 / initial milk = <b>1/5</b>."
-      },
-      {
-        "id": 4,
-        "topic": "Geometry",
-        "question": "In a circle, a chord of length 48 cm is at a distance of 7 cm from the centre. What will be the length of another chord which is at a distance of 24 cm from the centre?",
-        "options": [
-          "14 cm",
-          "16 cm",
-          "18 cm",
-          "12 cm"
-        ],
-        "correct": 0,
-        "solution": "Half of first chord = 48 / 2 = 24 cm.<br>Radius r = √(24² + 7²) = √(576 + 49) = √625 = 25 cm (Triplet 7, 24, 25).<br>For second chord at distance 24 cm: Half chord = √(25² − 24²) = √49 = 7 cm.<br>Full length of second chord = 2 × 7 = <b>14 cm</b>.",
-        "shortcut": "⚡ <b>Symmetric Triplet (7, 24, 25):</b> If dist 7 gives half-chord 24, dist 24 gives half-chord 7 ⟹ Total = 2 × 7 = <b>14 cm</b>."
-      },
-      {
-        "id": 5,
-        "topic": "Algebra",
-        "question": "If 2x = 3y, evaluate: (x² − y²) / (x² + y² + xy).",
-        "options": [
-          "5 / 19",
-          "3 / 19",
-          "5 / 13",
-          "1 / 3"
-        ],
-        "correct": 0,
-        "solution": "x / y = 3 / 2. Put x = 3, y = 2.<br>Numerator = 3² − 2² = 9 − 4 = 5.<br>Denominator = 3² + 2² + (3)(2) = 9 + 4 + 6 = 19.<br>Value = <b>5 / 19</b>.",
-        "shortcut": "⚡ Put x = 3, y = 2 ⟹ (9 − 4)/(9 + 4 + 6) = <b>5/19</b>."
-      },
-      {
-        "id": 6,
-        "topic": "Geometry",
-        "question": "The length of a chord of a circle is 5 cm. If this chord subtends an angle of 30° at the circumference, what is the radius of the circle?",
-        "options": [
-          "5 cm",
-          "10 cm",
-          "2.5 cm",
-          "5√3 cm"
-        ],
-        "correct": 0,
-        "solution": "Angle subtended at the centre = 2 × 30° = 60°.<br>In △OAB, OA = OB = R and ∠AOB = 60° ⟹ △OAB is equilateral!<br>Therefore, Radius R = Chord length = <b>5 cm</b>.",
-        "shortcut": "⚡ <b>Property:</b> If angle at circumference is 30°, central angle is 60° ⟹ Radius = Chord = <b>5 cm</b>."
-      },
-      {
-        "id": 7,
-        "topic": "Mensuration 3D",
-        "question": "The radius of a right circular cone is R and its height is 3 times its radius. What is its Total Surface Area (TSA)?",
-        "options": [
-          "πR²(√10 + 1)",
-          "πR²(√10 − 1)",
-          "3πR²",
-          "πR²√10"
-        ],
-        "correct": 0,
-        "solution": "h = 3R. Slant height l = √(R² + (3R)²) = √(10R²) = R√10.<br>TSA = πR(l + R) = πR(R√10 + R) = <b>πR²(√10 + 1)</b>.",
-        "shortcut": "⚡ l = R√10 ⟹ TSA = πR(R√10 + R) = <b>πR²(√10 + 1)</b>."
-      },
-      {
-        "id": 8,
-        "topic": "Algebra",
-        "question": "If a + b + c = 0, find the value of (a³ + b³ + c³) / abc (where a, b, c ≠ 0).",
-        "options": [
-          "0",
-          "1",
-          "3",
-          "−3"
-        ],
-        "correct": 2,
-        "solution": "When a + b + c = 0, a³ + b³ + c³ = 3abc.<br>Therefore, (a³ + b³ + c³) / abc = 3abc / abc = <b>3</b>.",
-        "shortcut": "⚡ Standard identity: Value is always <b>3</b>."
-      },
-      {
-        "id": 9,
-        "topic": "Mensuration 2D",
-        "question": "A rectangular field is 40 m long and 30 m wide. A 2 m wide path runs around it on the outside. Find the area of the path.",
-        "options": [
-          "280 m²",
-          "296 m²",
-          "304 m²",
-          "312 m²"
-        ],
-        "correct": 1,
-        "solution": "Outer dimensions = (40 + 4) × (30 + 4) = 44 × 34 = 1,496 m².<br>Inner area = 40 × 30 = 1,200 m².<br>Path area = 1,496 − 1,200 = <b>296 m²</b>.",
-        "shortcut": "⚡ <b>Formula:</b> 2w(l + b + 2w) = 2(2)(40 + 30 + 4) = 4 × 74 = <b>296 m²</b>."
-      },
-      {
-        "id": 10,
-        "topic": "Trigonometry",
-        "question": "Evaluate: sin 30° cos 60° + sin 60° cos 30°.",
-        "options": [
-          "1/2",
-          "1",
-          "√3/2",
-          "5/4"
-        ],
-        "correct": 1,
-        "solution": "Identity: sin(A + B) = sin A cos B + cos A sin B.<br>sin(30° + 60°) = sin 90° = <b>1</b>.",
-        "shortcut": "⚡ sin(30° + 60°) = sin 90° = <b>1</b>."
-      }
-    ]
-  },
-  {
-    "shift_id": "oct12_imp",
-    "name": "12 October (Important Types)",
-    "date": "12 Oct 2026",
-    "questions": [
-      {
-        "id": 1,
-        "topic": "Number System",
-        "question": "What is the square of 196?",
-        "options": [
-          "38,416",
-          "38,216",
-          "39,416",
-          "37,816"
-        ],
-        "correct": 0,
-        "solution": "196² = (200 − 4)² = 200² − 2(200)(4) + 4² = 40,000 − 1,600 + 16 = <b>38,416</b>.",
-        "shortcut": "⚡ (200 − 4)² = 40000 − 1600 + 16 = <b>38,416</b>."
-      },
-      {
-        "id": 2,
-        "topic": "Trigonometry",
-        "question": "If tan A = 3/4, find the value of (sin A − 1)(sin A + 1).",
-        "options": [
-          "−16/25",
-          "16/25",
-          "−9/25",
-          "9/25"
-        ],
-        "correct": 0,
-        "solution": "(sin A − 1)(sin A + 1) = sin²A − 1 = −(1 − sin²A) = −cos²A.<br>tan A = 3/4 ⟹ Triplet (3, 4, 5) ⟹ cos A = 4/5.<br>−cos²A = −(4/5)² = <b>−16/25</b>.",
-        "shortcut": "⚡ sin²A − 1 = −cos²A = −(4/5)² = <b>−16/25</b>."
-      },
-      {
-        "id": 3,
-        "topic": "Partnership",
-        "question": "A and B invest in a business in the ratio 7 : 8. A withdraws after 7 months. If their profits are in the ratio 49 : 40, for how many months did B invest?",
-        "options": [
-          "4 months",
-          "5 months",
-          "6 months",
-          "8 months"
-        ],
-        "correct": 1,
-        "solution": "Profit Ratio = (Investment_A × Time_A) / (Investment_B × Time_B).<br>(7 × 7) / (8 × t) = 49 / 40 ⟹ 49 / (8t) = 49 / 40 ⟹ 8t = 40 ⟹ t = <b>5 months</b>.",
-        "shortcut": "⚡ 8t = 40 ⟹ t = <b>5 months</b>."
-      },
-      {
-        "id": 4,
-        "topic": "Geometry",
-        "question": "Two tangents are drawn to a circle of radius 7 cm such that the angle between them is 120°. Find the distance from the centre to the external point.",
-        "options": [
-          "14/√3 cm",
-          "7√3 cm",
-          "14 cm",
-          "7/√3 cm"
-        ],
-        "correct": 0,
-        "solution": "Line joining external point to centre bisects the 120° angle: half-angle = 60°.<br>In right triangle: sin 60° = Radius / Distance = 7 / d.<br>√3 / 2 = 7 / d ⟹ d = 14 / √3 = <b>14/√3 cm</b>.",
-        "shortcut": "⚡ d = r / sin(θ/2) = 7 / sin 60° = 7 / (√3/2) = <b>14/√3 cm</b>."
-      },
-      {
-        "id": 5,
-        "topic": "Profit & Loss",
-        "question": "If the cost price of 15 articles equals the selling price of 20 articles, find the loss percentage.",
-        "options": [
-          "20%",
-          "25%",
-          "33.33%",
-          "15%"
-        ],
-        "correct": 1,
-        "solution": "15 CP = 20 SP ⟹ SP / CP = 15 / 20 = 3 / 4.<br>Loss % = (1 − 3/4) × 100 = <b>25%</b>.",
-        "shortcut": "⚡ Loss % = [(20 − 15) / 20] × 100 = 5/20 = <b>25%</b>."
-      },
-      {
-        "id": 6,
-        "topic": "Mensuration 3D",
-        "question": "Find the total surface area of a right circular cone with base radius 4 units and vertical height 3 units.",
-        "options": [
-          "36π sq units",
-          "24π sq units",
-          "20π sq units",
-          "16π sq units"
-        ],
-        "correct": 0,
-        "solution": "Slant height l = √(4² + 3²) = 5 units (Triplet 3, 4, 5).<br>TSA = πr(l + r) = π × 4 × (5 + 4) = π × 4 × 9 = <b>36π sq units</b>.",
-        "shortcut": "⚡ Triplet (3, 4, 5) ⟹ l = 5. TSA = π(4)(5 + 4) = <b>36π</b>."
-      },
-      {
-        "id": 7,
-        "topic": "Mensuration 3D",
-        "question": "A conical tent has base radius 7 m and slant height 25 m. Find the cost of canvas for its curved surface at ₹22.50 per sq. metre.",
-        "options": [
-          "₹12,375",
-          "₹11,500",
-          "₹13,200",
-          "₹10,850"
-        ],
-        "correct": 0,
-        "solution": "CSA = πrl = (22/7) × 7 × 25 = 22 × 25 = 550 m².<br>Cost = 550 × ₹22.50 = 550 × (45 / 2) = 275 × 45 = <b>₹12,375</b>.",
-        "shortcut": "⚡ 550 × 22.5 = 1100 × 11.25 = <b>₹12,375</b>."
-      },
-      {
-        "id": 8,
-        "topic": "Geometry",
-        "question": "Two tangents PA and PB are drawn from external point P to a circle of radius 4 cm. If the angle between tangent PA and line PO is 30°, find the length of the tangent.",
-        "options": [
-          "4√3 cm",
-          "8 cm",
-          "4/√3 cm",
-          "6 cm"
-        ],
-        "correct": 0,
-        "solution": "∠PAO = 90° and ∠APO = 30°.<br>tan 30° = Radius / Tangent = 4 / PA.<br>1/√3 = 4 / PA ⟹ PA = <b>4√3 cm</b>.",
-        "shortcut": "⚡ PA = 4 / tan 30° = <b>4√3 cm</b>."
-      },
-      {
-        "id": 9,
-        "topic": "Geometry",
-        "question": "A chord of a circle is 16 cm long and its distance from the centre is 15 cm. Find the radius of the circle.",
-        "options": [
-          "17 cm",
-          "18 cm",
-          "19 cm",
-          "20 cm"
-        ],
-        "correct": 0,
-        "solution": "Half chord = 16 / 2 = 8 cm.<br>Radius r = √(15² + 8²) = √(225 + 64) = √289 = <b>17 cm</b>.",
-        "shortcut": "⚡ <b>Triplet (8, 15, 17):</b> Radius = <b>17 cm</b>."
-      },
-      {
-        "id": 10,
-        "topic": "Algebra",
-        "question": "If x = 2 + √3, find the value of x + 1/x.",
+        "topic": "Coordinate Geometry",
+        "question": "The distance between the points (7, 5) and (4, 1) is:",
         "options": [
           "4",
-          "2√3",
-          "2",
-          "4√3"
+          "5",
+          "6",
+          "7"
         ],
-        "correct": 0,
-        "solution": "1/x = 1 / (2 + √3) = 2 − √3.<br>x + 1/x = (2 + √3) + (2 − √3) = <b>4</b>.",
-        "shortcut": "⚡ 2 × first term = 2 × 2 = <b>4</b>."
-      },
-      {
-        "id": 11,
-        "topic": "Algebra",
-        "question": "If x + 1/x = 6, find the value of x⁵ + 1/x⁵.",
-        "options": [
-          "6,726",
-          "6,732",
-          "6,696",
-          "6,750"
-        ],
-        "correct": 0,
-        "solution": "x² + 1/x² = 6² − 2 = 34.<br>x³ + 1/x³ = 6³ − 3(6) = 216 − 18 = 198.<br>x⁵ + 1/x⁵ = (x² + 1/x²)(x³ + 1/x³) − (x + 1/x) = (34 × 198) − 6 = 6732 − 6 = <b>6,726</b>.",
-        "shortcut": "⚡ (34 × 198) − 6 = 6732 − 6 = <b>6,726</b>."
-      },
-      {
-        "id": 12,
-        "topic": "Mensuration 3D",
-        "question": "A solid pyramid has base area of 40 cm² and vertical height of 5 cm. Find its volume.",
-        "options": [
-          "200/3 cm³",
-          "100 cm³",
-          "200 cm³",
-          "150 cm³"
-        ],
-        "correct": 0,
-        "solution": "Volume = (1/3) × Base Area × Height = (1/3) × 40 × 5 = <b>200/3 cm³ (66.67 cm³)</b>.",
-        "shortcut": "⚡ (1/3) × 40 × 5 = <b>200/3 cm³</b>."
-      },
-      {
-        "id": 13,
-        "topic": "Geometry",
-        "question": "The number of sides of two regular polygons are in the ratio 1 : 2 and their interior angles are in the ratio 3 : 4. Find the number of sides of both polygons.",
-        "options": [
-          "5 and 10",
-          "4 and 8",
-          "6 and 12",
-          "3 and 6"
-        ],
-        "correct": 0,
-        "solution": "Let sides be n and 2n.<br>Interior angle of polygon 1 = [(n − 2) × 180°] / n.<br>Interior angle of polygon 2 = [(2n − 2) × 180°] / 2n.<br>Ratio: {[(n − 2)/n] / [(2n − 2)/2n]} = 3/4 ⟹ [(n − 2) / (n − 1)] = 3/4 ⟹ 4n − 8 = 3n − 3 ⟹ n = 5.<br>Sides are <b>5 and 10</b>.",
-        "shortcut": "⚡ Check options: For 5 and 10, angles are 108° and 144°. Ratio = 108/144 = 3/4. Matches <b>5 and 10</b>!"
-      }
-    ]
-  },
-  {
-    "shift_id": "oct14_all",
-    "name": "14 October (All Shifts)",
-    "date": "14 Oct 2026",
-    "questions": [
-      {
-        "id": 1,
-        "topic": "Compound Interest",
-        "question": "Rs. 5,000 is invested at compound interest of 12% per annum for 2 years. What is the total amount at the end of 2 years?",
-        "options": [
-          "Rs. 6,272",
-          "Rs. 6,400",
-          "Rs. 6,200",
-          "Rs. 6,100"
-        ],
-        "correct": 0,
-        "solution": "Amount = P(1 + r/100)² = 5000 × (1.12)² = 5000 × 1.2544 = <b>Rs. 6,272</b>.",
-        "shortcut": "⚡ 12% for 2 years → Net = 12 + 12 + (12×12)/100 = 25.44%. 5000 × 1.2544 = <b>6272</b>."
+        "correct": 1,
+        "solution": "Distance = √[(x₂ − x₁)² + (y₂ − y₁)²] = √[(4 − 7)² + (1 − 5)²] = √[(-3)² + (-4)²] = √(9 + 16) = √25 = <b>5</b>.",
+        "shortcut": "⚡ <b>Pythagorean Triplet (3, 4, 5):</b> Δx = 3, Δy = 4 ⟹ Distance = <b>5</b>."
       },
       {
         "id": 2,
         "topic": "Mensuration 2D",
-        "question": "A floor of area 20√3 m² is to be covered with regular hexagonal tiles of side x metres. Find the number of tiles required.",
+        "question": "A regular hexagon is inscribed in a circle of radius 21 cm. Find the area of the hexagon.",
         "options": [
-          "40 / (3x²)",
-          "20 / (3x²)",
-          "40 / x²",
-          "80 / (3x²)"
+          "441√3 cm²",
+          "661.5√3 cm²",
+          "882√3 cm²",
+          "220.5√3 cm²"
         ],
-        "correct": 0,
-        "solution": "Area of regular hexagon with side x = (3√3/2)x².<br>Number of tiles = Floor area ÷ Tile area = 20√3 ÷ (3√3/2)x² = 20√3 × 2 / (3√3 × x²) = 40/(3x²). Answer = <b>40/(3x²)</b>.",
-        "shortcut": "⚡ Tile area = (3√3/2)x². Tiles = 20√3 / [(3√3/2)x²] = <b>40/(3x²)</b>."
+        "correct": 1,
+        "solution": "For an inscribed regular hexagon, side a = radius r = 21 cm.<br>Area = 6 × [(√3 / 4) × a²] = (3√3 / 2) × 21² = (3√3 / 2) × 441 = 1323√3 / 2 = <b>661.5√3 cm²</b>.",
+        "shortcut": "⚡ <b>Formula:</b> (3√3 / 2) × r² = 1.5 × 441 × √3 = <b>661.5√3 cm²</b>."
       },
       {
         "id": 3,
-        "topic": "Partnership",
-        "question": "A and B enter a partnership with capitals in the ratio 5 : 3. After 6 months, C joins with an investment equal to the average investment of A and B. If the total profit at the end of the year is X, find A's share.",
+        "topic": "Geometry",
+        "question": "Two circles have radii 3 cm and 5 cm. The length of the direct common tangent (DCT) is twice the length of the transverse common tangent (TCT). Find the square of the distance between their centres (d²).",
         "options": [
-          "X/2",
-          "5X/12",
-          "X/3",
-          "5X/16"
+          "64",
+          "72",
+          "84",
+          "100"
         ],
-        "correct": 0,
-        "solution": "Let A = 5k, B = 3k for 12 months. C = (5k+3k)/2 = 4k for 6 months.<br>Profit ratio = 5k×12 : 3k×12 : 4k×6 = 60 : 36 : 24 = 5 : 3 : 2.<br>A's share = 5/10 × X = <b>X/2</b>.",
-        "shortcut": "⚡ Ratio = 60:36:24 = 5:3:2. Total parts = 10. A = 5/10 = <b>X/2</b>."
+        "correct": 2,
+        "solution": "DCT² = d² − (r₁ − r₂)² = d² − (5 − 3)² = d² − 4.<br>TCT² = d² − (r₁ + r₂)² = d² − (5 + 3)² = d² − 64.<br>Given DCT = 2 · TCT ⟹ DCT² = 4 · TCT².<br>d² − 4 = 4(d² − 64) = 4d² − 256 ⟹ 3d² = 252 ⟹ d² = <b>84</b>.",
+        "shortcut": "⚡ <b>Shortcut:</b> d² = (4 × 64 − 4) / 3 = 252 / 3 = <b>84</b>."
       },
       {
         "id": 4,
-        "topic": "Mensuration 3D",
-        "question": "The base of a right prism is a triangle with sides in the ratio 5 : 12 : 13 and perimeter 60 cm. If the volume is 2,160 cm³, find the height of the prism.",
+        "topic": "Algebra",
+        "question": "If x + 1/x = 3√2, then find the value of x / (x² + 1).",
         "options": [
-          "18 cm",
-          "20 cm",
-          "15 cm",
-          "24 cm"
+          "1 / √14",
+          "1 / √18",
+          "1 / 14",
+          "1 / √7"
         ],
-        "correct": 0,
-        "solution": "Sides: 5k + 12k + 13k = 60 → k = 2. Sides: 10, 24, 26 cm.<br>Since 10² + 24² = 100 + 576 = 676 = 26², this is a right triangle.<br>Area of base = (1/2) × 10 × 24 = 120 cm².<br>Volume = Base × Height → 2160 = 120 × h → h = <b>18 cm</b>.",
-        "shortcut": "⚡ Ratio 5:12:13 → Pythagorean triplet! Base area = (1/2)×10×24=120. h = 2160/120 = <b>18 cm</b>."
+        "correct": 1,
+        "solution": "Divide numerator and denominator by x:<br>[x / x] / [(x² + 1) / x] = 1 / [x + 1/x].<br>Since x + 1/x = 3√2 = √18, the value is <b>1 / √18 (or 1 / 3√2)</b>.",
+        "shortcut": "⚡ <b>Invert:</b> x / (x² + 1) = 1 / (x + 1/x) = 1 / (3√2) = <b>1 / √18</b>."
       },
       {
         "id": 5,
-        "topic": "Profit & Loss",
-        "question": "The cost price of two items is the same. One is sold at 15% profit and the other at 12% profit. If the difference between their selling prices is Rs. 18, find the cost price of each item.",
+        "topic": "Trigonometry",
+        "question": "If tan θ + cot θ = 2, then find the value of tan²θ + cot²θ.",
         "options": [
-          "Rs. 600",
-          "Rs. 500",
-          "Rs. 450",
-          "Rs. 720"
+          "1",
+          "2",
+          "4",
+          "0"
         ],
-        "correct": 0,
-        "solution": "SP₁ = CP × 1.15, SP₂ = CP × 1.12.<br>Difference = CP(1.15 − 1.12) = CP × 0.03 = 18.<br>CP = 18 / 0.03 = <b>Rs. 600</b>.",
-        "shortcut": "⚡ 3% of CP = 18 → CP = 18/0.03 = <b>600</b>."
+        "correct": 1,
+        "solution": "tan θ + 1/tan θ = 2 ⟹ tan θ = 1.<br>tan²θ + cot²θ = 1² + 1² = <b>2</b>.",
+        "shortcut": "⚡ Whenever x + 1/x = 2, x = 1 ⟹ 1ⁿ + 1ⁿ = <b>2</b> always."
       },
       {
         "id": 6,
-        "topic": "Mensuration 3D",
-        "question": "The base of a right prism is a rhombus with diagonals 8 cm and 10 cm. If the height of the prism is 12 cm, find its volume.",
+        "topic": "Trigonometry",
+        "question": "If sin θ + cos θ = 5/3, find the value of tan θ + cot θ.",
         "options": [
-          "480 cm³",
-          "240 cm³",
-          "960 cm³",
-          "360 cm³"
+          "9 / 32",
+          "9 / 8",
+          "16 / 5",
+          "5 / 4"
         ],
-        "correct": 0,
-        "solution": "Area of rhombus base = (1/2) × d₁ × d₂ = (1/2) × 8 × 10 = 40 cm².<br>Volume = Base area × Height = 40 × 12 = <b>480 cm³</b>.",
-        "shortcut": "⚡ Rhombus area = (d₁ × d₂)/2 = 40 cm². Volume = 40 × 12 = <b>480 cm³</b>."
+        "correct": 1,
+        "solution": "Square both sides: (sin θ + cos θ)² = (5/3)² ⟹ sin²θ + cos²θ + 2sin θ cos θ = 25/9.<br>1 + 2sin θ cos θ = 25/9 ⟹ 2sin θ cos θ = 16/9 ⟹ sin θ cos θ = 8/9.<br>tan θ + cot θ = sin θ/cos θ + cos θ/sin θ = (sin²θ + cos²θ) / (sin θ cos θ) = 1 / (8/9) = <b>9/8</b>.",
+        "shortcut": "⚡ <b>Identity:</b> tan θ + cot θ = 1 / (sin θ cos θ) = 2 / [(sin θ + cos θ)² − 1] = 2 / [25/9 − 1] = 2 / (16/9) = <b>9/8</b>."
       },
       {
         "id": 7,
-        "topic": "Mensuration 3D",
-        "question": "A solid metallic sphere of radius 12 cm is melted to form smaller identical solid spheres of radius 3 cm each. How many such spheres can be made?",
+        "topic": "Algebra",
+        "question": "If x = 3 and y = 2, then evaluate: (x³ − y³) / (x² + xy + y²).",
         "options": [
-          "64",
-          "32",
-          "48",
-          "96"
+          "5",
+          "6",
+          "7",
+          "1"
         ],
-        "correct": 0,
-        "solution": "Volume of large sphere = (4/3)π × 12³ = (4/3)π × 1728 = 2304π cm³.<br>Volume of small sphere = (4/3)π × 3³ = 36π cm³.<br>Number = 2304π / 36π = <b>64</b>.",
-        "shortcut": "⚡ (R/r)³ = (12/3)³ = 4³ = <b>64</b>."
+        "correct": 3,
+        "solution": "Standard algebraic identity: x³ − y³ = (x − y)(x² + xy + y²).<br>Therefore, (x³ − y³) / (x² + xy + y²) = x − y.<br>With x = 3 and y = 2: 3 − 2 = <b>1</b>.",
+        "shortcut": "⚡ Direct formula: x − y = 3 − 2 = <b>1</b> (1 second!)."
       },
       {
         "id": 8,
-        "topic": "Geometry",
-        "question": "In △ABC, ∠B = 45° and ∠C = 60°. The angle bisectors of ∠B and ∠C meet at P. Find the value of 90° + (∠C − ∠B)/2.",
+        "topic": "Algebra",
+        "question": "Simplify the expression: (x + 2)² − (x − 2)².",
         "options": [
-          "97.5°",
-          "100°",
-          "95°",
-          "105°"
+          "4x",
+          "8x",
+          "16x",
+          "8"
         ],
-        "correct": 0,
-        "solution": "90° + (∠C − ∠B)/2 = 90° + (60° − 45°)/2 = 90° + 15°/2 = 90° + 7.5° = <b>97.5°</b>.<br>(This uses the property: ∠BPC = 90° + ∠A/2; this question asks for the direct calculation.)",
-        "shortcut": "⚡ Directly compute: 90 + (60−45)/2 = 90 + 7.5 = <b>97.5°</b>."
+        "correct": 1,
+        "solution": "Identity: (A + B)² − (A − B)² = 4AB.<br>Here A = x, B = 2 ⟹ 4(x)(2) = <b>8x</b>.",
+        "shortcut": "⚡ 4AB = 4 × x × 2 = <b>8x</b>."
       },
       {
         "id": 9,
-        "topic": "Time & Work",
-        "question": "Pipe A can fill a tank in 10 hours and Pipe B can empty the full tank in 15 hours. If both are opened together, in how many hours will the tank be filled?",
+        "topic": "Geometry",
+        "question": "In △ABC, points D and E are on AB and AC respectively such that DE ∥ BC. If AD = 3 cm, DB = 2 cm and DE = 4 cm, find BC.",
         "options": [
-          "30 hours",
-          "25 hours",
-          "20 hours",
-          "6 hours"
+          "6 cm",
+          "20/3 cm",
+          "7 cm",
+          "8 cm"
         ],
-        "correct": 0,
-        "solution": "Net rate = 1/10 − 1/15 = (3−2)/30 = 1/30 (filling).<br>Time to fill = <b>30 hours</b>.",
-        "shortcut": "⚡ Net = 1/10 − 1/15 = 1/30. Time = <b>30 hours</b>."
+        "correct": 1,
+        "solution": "Since DE ∥ BC, △ADE ∼ △ABC by AA similarity.<br>AB = AD + DB = 3 + 2 = 5 cm.<br>Ratio of sides: AD / AB = DE / BC ⟹ 3 / 5 = 4 / BC ⟹ BC = (4 × 5) / 3 = <b>20/3 cm (6 2/3 cm)</b>.",
+        "shortcut": "⚡ <b>Thales Theorem:</b> BC = DE × (AB / AD) = 4 × (5 / 3) = <b>20/3 cm</b>."
       },
       {
         "id": 10,
-        "topic": "Number System",
-        "question": "Find the sum of the first 243 natural numbers.",
+        "topic": "Geometry",
+        "question": "A tangent QT is drawn from point Q to a circle with centre O (T is the point of contact). If QT = 6 cm and OQ = 10 cm, find the area of △OQT.",
         "options": [
-          "29,646",
-          "29,403",
-          "30,000",
-          "29,241"
+          "20 cm²",
+          "15 cm²",
+          "18 cm²",
+          "24 cm²"
         ],
-        "correct": 0,
-        "solution": "Sum = n(n+1)/2 = 243 × 244 / 2 = 243 × 122 = <b>29,646</b>.",
-        "shortcut": "⚡ n(n+1)/2 = 243 × 122 = <b>29,646</b>."
+        "correct": 3,
+        "solution": "Tangent QT is perpendicular to radius OT: ∠OTQ = 90°.<br>In right △OTQ: OT = √(OQ² − QT²) = √(10² − 6²) = √(100 − 36) = √64 = 8 cm.<br>Area of right △OQT = (1/2) × base × height = (1/2) × 6 × 8 = <b>24 cm²</b>.",
+        "shortcut": "⚡ <b>Triplet (6, 8, 10):</b> Area = (1/2) × 6 × 8 = <b>24 cm²</b>."
       },
       {
         "id": 11,
-        "topic": "Trigonometry",
-        "question": "If 3 sin A + 4 cos A = 5, find the value of sin A.",
+        "topic": "Profit & Loss",
+        "question": "Two articles are sold at ₹990 each. One gives 10% profit and the other 10% loss. What is the overall profit or loss percentage?",
         "options": [
-          "3/5",
-          "4/5",
-          "3/4",
-          "5/3"
+          "1% loss",
+          "1% profit",
+          "2% loss",
+          "No profit no loss"
         ],
         "correct": 0,
-        "solution": "Using the identity: if a sin θ + b cos θ = c, here 3, 4, 5 form a Pythagorean triplet.<br>This means A = 37° approximately, and sin A = <b>3/5</b>.<br>(Verify: 3×3/5 + 4×4/5 = 9/5 + 16/5 = 25/5 = 5 ✓)",
-        "shortcut": "⚡ (3, 4, 5) triplet. sin A = 3/5, cos A = 4/5. Verify: 3(3/5)+4(4/5)=5 ✓ → <b>3/5</b>."
+        "solution": "When two items are sold at the same SP, one at x% profit and the other at x% loss, there is always an overall loss.<br>Loss % = (Common % / 10)² = (10 / 10)² = 1² = <b>1% loss</b>.",
+        "shortcut": "⚡ <b>Universal Rule:</b> Loss % = x² / 100 = 100 / 100 = <b>1% loss</b>."
       },
       {
         "id": 12,
-        "topic": "Speed, Time & Distance",
-        "question": "A person travels 90 km: 1/3rd by bicycle, 1/3rd by car and the remaining by bus. Find the distance travelled by bus.",
+        "topic": "Simple Interest",
+        "question": "A sum of money becomes ₹875 in 3 years and ₹950 in 4 years at simple interest. Find the principal amount.",
         "options": [
-          "30 km",
-          "45 km",
-          "20 km",
-          "60 km"
+          "₹600",
+          "₹650",
+          "₹700",
+          "₹725"
         ],
-        "correct": 0,
-        "solution": "Total = 90 km. By bicycle = 90/3 = 30 km. By car = 30 km. By bus = 90 − 30 − 30 = <b>30 km</b>.",
-        "shortcut": "⚡ 1/3 + 1/3 = 2/3 used. Remaining = 1/3 × 90 = <b>30 km</b>."
+        "correct": 1,
+        "solution": "SI for 1 year = Amount in 4 yrs − Amount in 3 yrs = 950 − 875 = ₹75.<br>SI for 3 years = 3 × 75 = ₹225.<br>Principal P = Amount in 3 yrs − SI for 3 yrs = 875 − 225 = <b>₹650</b>.",
+        "shortcut": "⚡ 1 yr interest = 75 ⟹ P = 875 − 3(75) = 875 − 225 = <b>₹650</b>."
       },
       {
         "id": 13,
-        "topic": "Mensuration 3D",
-        "question": "A solid consists of a regular hexagonal prism topped by a regular hexagonal pyramid on the same base. Side of base = a cm, height of prism = h₁, height of pyramid = h₂. Find the total volume.",
+        "topic": "Partnership",
+        "question": "A and B invest ₹12,000 and ₹20,000 respectively for one year. A gets an additional 10% of the total profit for managing the business. If the total profit is ₹9,500, what is A's total profit?",
         "options": [
-          "(√3/2) a² (3h₁ + h₂)",
-          "(√3/4) a² (h₁ + h₂)",
-          "(3√3/2) a² h₁ + (√3/2) a² h₂",
-          "(√3/2) a² (h₁ + h₂)"
+          "₹3,240",
+          "₹4,200",
+          "₹4,156.25",
+          "₹4,800"
         ],
-        "correct": 0,
-        "solution": "Volume of hexagonal prism = (3√3/2)a² × h₁.<br>Volume of hexagonal pyramid = (1/3) × (3√3/2)a² × h₂ = (√3/2)a² × h₂.<br>Total = (3√3/2)a² × h₁ + (√3/2)a² × h₂ = (√3/2)a²(3h₁ + h₂).",
-        "shortcut": "⚡ Factor out (√3/2)a²: Prism = 3h₁ part, Pyramid = h₂ part → <b>(√3/2)a²(3h₁ + h₂)</b>."
+        "correct": 2,
+        "solution": "Management commission for A = 10% of 9,500 = ₹950.<br>Remaining profit = 9,500 − 950 = ₹8,550.<br>Ratio of investment = 12,000 : 20,000 = 3 : 5 (Total 8 parts).<br>A's share of remaining profit = (3 / 8) × 8,550 = ₹3,206.25.<br>Total earnings of A = 950 + 3,206.25 = <b>₹4,156.25</b>.",
+        "shortcut": "⚡ A = 950 + (3/8 × 8550) = 950 + 3206.25 = <b>₹4,156.25</b>."
       },
       {
         "id": 14,
-        "topic": "Geometry",
-        "question": "In △ABC, DE ∥ BC with AD = a, DB = a + 4, AE = 2a + 3 and EC = 7a. If a > 0, find the value of a.",
+        "topic": "Discounts",
+        "question": "The marked price of an article is ₹8,000. Successive discounts of 15%, 20% and 10% are given. What is the selling price (SP)?",
         "options": [
-          "3",
-          "2",
-          "4",
-          "1"
+          "₹4,896",
+          "₹4,960",
+          "₹5,040",
+          "₹5,120"
         ],
         "correct": 0,
-        "solution": "By Thales' theorem: AD/DB = AE/EC → a/(a+4) = (2a+3)/(7a).<br>Cross-multiply: 7a² = (a+4)(2a+3) = 2a² + 3a + 8a + 12 = 2a² + 11a + 12.<br>5a² − 11a − 12 = 0 → (5a + 4)(a − 3) = 0 → a = 3 (since a > 0).",
-        "shortcut": "⚡ Thales: a/(a+4) = (2a+3)/(7a). Cross-multiply and solve → a = <b>3</b>."
-      },
-      {
-        "id": 15,
-        "topic": "Height & Distance",
-        "question": "Two poles of equal height stand on opposite sides of an 80 m wide road. From a point between them on the road, the angles of elevation of their tops are 60° and 30°. Find the height of the poles.",
-        "options": [
-          "20√3 m",
-          "40√3 m",
-          "10√3 m",
-          "30√3 m"
-        ],
-        "correct": 0,
-        "solution": "Let height = h, distance from first pole = x, from second = (80−x).<br>tan 60° = h/x → x = h/√3.<br>tan 30° = h/(80−x) → 80−x = h√3 → x = 80 − h√3.<br>h/√3 = 80 − h√3 → h/√3 + h√3 = 80 → h(1/√3 + √3) = 80 → h × 4/√3 = 80 → h = 20√3.",
-        "shortcut": "⚡ Sum: x + (80−x) = 80. h/√3 + h√3 = 80 → 4h/√3 = 80 → h = <b>20√3 m</b>."
-      },
-      {
-        "id": 16,
-        "topic": "Algebra",
-        "question": "If x − 1/x = 2, find the value of x⁶ + 1/x⁶.",
-        "options": [
-          "198",
-          "194",
-          "200",
-          "202"
-        ],
-        "correct": 0,
-        "solution": "x − 1/x = 2.<br>x² + 1/x² = (x − 1/x)² + 2 = 4 + 2 = 6.<br>x³ − 1/x³ = (x − 1/x)(x² + 1 + 1/x²) = 2 × (6+1) = 14.<br>x⁶ + 1/x⁶ = (x³ − 1/x³)² + 2 = 196 + 2 = <b>198</b>.",
-        "shortcut": "⚡ x−1/x=2 → x²+1/x²=6 → x³−1/x³=14 → x⁶+1/x⁶ = 14²+2 = <b>198</b>."
-      },
-      {
-        "id": 17,
-        "topic": "Geometry",
-        "question": "A chord of a circle of radius r subtends an angle of 120° at the centre. Find the length of the chord.",
-        "options": [
-          "r√3",
-          "r√2",
-          "2r",
-          "r"
-        ],
-        "correct": 0,
-        "solution": "The chord length formula: L = 2r × sin(θ/2) = 2r × sin 60° = 2r × (√3/2) = <b>r√3</b>.",
-        "shortcut": "⚡ L = 2r sin(120°/2) = 2r sin60° = 2r × √3/2 = <b>r√3</b>."
-      },
-      {
-        "id": 18,
-        "topic": "Height & Distance",
-        "question": "From a point on one side of a lighthouse, the angle of elevation of its top changes from 45° to 60° in 3 minutes. How much more time will it take to reach the base of the lighthouse?",
-        "options": [
-          "3(√3 + 1)/2 minutes",
-          "3(√3 − 1)/2 minutes",
-          "3√3 minutes",
-          "3 minutes"
-        ],
-        "correct": 0,
-        "solution": "Let height = h. At 45°: d₁ = h. At 60°: d₂ = h/√3.<br>Distance covered in 3 min = d₁ − d₂ = h − h/√3 = h(1 − 1/√3) = h(√3 − 1)/√3.<br>Speed = h(√3−1)/(3√3).<br>Time to cover d₂ = (h/√3) / [h(√3−1)/(3√3)] = 3/(√3−1) = 3(√3+1)/[(√3−1)(√3+1)] = 3(√3+1)/2 min.",
-        "shortcut": "⚡ Remaining distance = h/√3. Speed from 3 min segment. t = 3(√3+1)/2 = <b>3(√3+1)/2 minutes</b>."
-      },
-      {
-        "id": 19,
-        "topic": "Geometry",
-        "question": "Two equal circles, each of radius 12 cm, pass through each other's centre. Find the length of their common chord.",
-        "options": [
-          "12√3 cm",
-          "12√2 cm",
-          "18 cm",
-          "24 cm"
-        ],
-        "correct": 0,
-        "solution": "The centres are 12 cm apart (each passes through the other's centre). The common chord bisects the line joining centres. Half-chord = √(r² − (d/2)²) where r = 12, d = 12.<br>Half-chord = √(144 − 36) = √108 = 6√3.<br>Full chord = 2 × 6√3 = <b>12√3 cm</b>.",
-        "shortcut": "⚡ Two equal circles each through the other's centre → d = r = 12. Chord = 2√(r²−(r/2)²) = 2√(108) = <b>12√3 cm</b>."
-      },
-      {
-        "id": 20,
-        "topic": "Profit & Loss",
-        "question": "A shopkeeper gives two successive discounts of 20% and 10% on the marked price and still makes a 20% profit. The cost price is what percentage of the marked price?",
-        "options": [
-          "60%",
-          "72%",
-          "80%",
-          "67%"
-        ],
-        "correct": 0,
-        "solution": "Net SP after discounts = MP × 0.80 × 0.90 = 0.72 × MP.<br>SP = 1.20 × CP → CP = SP/1.20 = 0.72 MP / 1.20 = 0.6 MP.<br>CP = 60% of MP.",
-        "shortcut": "⚡ SP = 0.72 MP. CP = SP/1.2 = 0.72/1.2 = 0.60 MP = <b>60%</b> of MP."
-      },
-      {
-        "id": 21,
-        "topic": "Algebra",
-        "question": "If x = 5 + 2√6, evaluate x² − 10x + 1.",
-        "options": [
-          "0",
-          "1",
-          "−1",
-          "2"
-        ],
-        "correct": 0,
-        "solution": "x = 5 + 2√6. Note that (√3 + √2)² = 5 + 2√6 → x = (√3 + √2)².<br>Also, x + 1/x = (5 + 2√6) + 1/(5 + 2√6) = (5 + 2√6) + (5 − 2√6) = 10.<br>So x² − 10x + 1 = x² − (x + 1/x)×x + 1. Multiply through by 1/x: (x + 1/x) = 10. So x² − 10x + 1 = 0 → Answer = <b>0</b>.",
-        "shortcut": "⚡ x + 1/x = 10 → Multiply: x² + 1 = 10x → x² − 10x + 1 = <b>0</b>."
-      },
-      {
-        "id": 22,
-        "topic": "Speed, Time & Distance",
-        "question": "[Bonus Extra Practice] A train 150 m long crosses a pole in 10 seconds. Find its speed in km/h.",
-        "options": [
-          "54 km/h",
-          "60 km/h",
-          "45 km/h",
-          "72 km/h"
-        ],
-        "correct": 0,
-        "solution": "Speed = 150/10 = 15 m/s = 15 × 18/5 = <b>54 km/h</b>.",
-        "shortcut": "⚡ 15 m/s × (18/5) = <b>54 km/h</b>."
-      },
-      {
-        "id": 23,
-        "topic": "Ratio & Proportion",
-        "question": "[Bonus Extra Practice] If a : b = 2 : 3 and b : c = 4 : 5, find a : b : c.",
-        "options": [
-          "8 : 12 : 15",
-          "2 : 4 : 5",
-          "8 : 12 : 16",
-          "6 : 9 : 15"
-        ],
-        "correct": 0,
-        "solution": "a : b = 2 : 3, b : c = 4 : 5. LCM of b terms (3 and 4) = 12. Scale: a : b = 8 : 12 and b : c = 12 : 15. So a : b : c = <b>8 : 12 : 15</b>.",
-        "shortcut": "⚡ Multiply to equate b: 2×4 : 3×4 = 8:12; 4×3 : 5×3 = 12:15. → <b>8:12:15</b>."
-      },
-      {
-        "id": 24,
-        "topic": "Number System",
-        "question": "[Bonus Extra Practice] Find the average of the first 10 even natural numbers.",
-        "options": [
-          "11",
-          "10",
-          "12",
-          "9"
-        ],
-        "correct": 0,
-        "solution": "First 10 even natural numbers: 2, 4, 6, 8, 10, 12, 14, 16, 18, 20.<br>Sum = 2 + 4 + ... + 20 = 10 × 11 = 110. Average = 110/10 = <b>11</b>.",
-        "shortcut": "⚡ Average of first n even numbers = n + 1 = 10 + 1 = <b>11</b>."
+        "solution": "SP = 8000 × (1 − 0.15) × (1 − 0.20) × (1 − 0.10) = 8000 × 0.85 × 0.80 × 0.90.<br>8000 × 0.80 = 6400.<br>6400 × 0.85 = 5440.<br>5440 × 0.90 = <b>₹4,896</b>.",
+        "shortcut": "⚡ <b>Unit Digit:</b> 8 × 85 × 8 × 9 ends in 6 ⟹ <b>₹4,896</b>."
       }
     ]
   }
