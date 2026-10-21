@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ssc-prep-v54';
+const CACHE_NAME = 'ssc-prep-v55';
 const urlsToCache = [
   './',
   './manifest.json',
@@ -7,6 +7,9 @@ const urlsToCache = [
   './mock_test.html',
   './real_shifts.html',
   './real_shifts_data.json',
+  './real_gs_shifts.html',
+  './real_gs_shifts_data.json',
+  './real_gs_shifts_data.js',
   './oct1_shift2.html',
   './oct1_shift2_data.json',
   './oct1_shift2_original.jpg',

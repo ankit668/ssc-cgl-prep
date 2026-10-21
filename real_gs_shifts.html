@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>SSC CGL 2026 — Real Exam GS / GK Shifts Hub (590 Qs)</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="icon-192.png">
+    <link rel="apple-touch-icon" href="icon-192.png">
+    <meta name="theme-color" content="#0B1120">
+    <style>
+        :root {
+            --bg-color: #0B1120;
+            --container-bg: #1E293B;
+            --card-bg: #162032;
+            --text-color: #E2E8F0;
+            --text-muted: #94A3B8;
+            --border-color: #334155;
+            --accent-blue: #38BDF8;
+            --accent-green: #10B981;
+            --accent-amber: #F59E0B;
+            --accent-purple: #A855F7;
+            --accent-rose: #F43F5E;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            padding: 16px 12px 90px 12px;
+            line-height: 1.5;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 16px;
+            padding-bottom: 14px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .badge-live {
+            display: inline-block;
+            background: linear-gradient(135deg, #10B981, #0284C7);
+            color: white;
+            font-size: 0.75rem;
+            font-weight: 800;
+            padding: 4px 14px;
+            border-radius: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.6px;
+            margin-bottom: 10px;
+            box-shadow: 0 4px 14px rgba(16,185,129,0.3);
+        }
+
+        .header h1 {
+            font-size: 1.45rem;
+            color: #F8FAFC;
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .header p {
+            font-size: 0.86rem;
+            color: var(--text-muted);
+            max-width: 640px;
+            margin: 0 auto;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            margin-top: 12px;
+            flex-wrap: wrap;
+        }
+
+        .btn-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: #2563EB;
+            color: white;
+            text-decoration: none;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.78rem;
+            font-weight: 600;
+            transition: transform 0.15s;
+        }
+
+        .btn-link:hover {
+            transform: translateY(-1px);
+        }
+
+        /* Mode Switcher Bar */
+        .mode-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(30, 41, 59, 0.8);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 8px 12px;
+            margin-bottom: 14px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .mode-toggle-group {
+            display: flex;
+            background: #0F172A;
+            border-radius: 8px;
+            padding: 3px;
+            border: 1px solid var(--border-color);
+        }
+
+        .mode-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s;
+        }
+
+        .mode-btn.active {
+            background: #2563EB;
+            color: white;
+            box-shadow: 0 2px 8px rgba(37,99,235,0.4);
+        }
+
+        .search-box-wrap {
+            flex: 1;
+            min-width: 220px;
+            position: relative;
+        }
+
+        .search-input {
+            width: 100%;
+            background: #0F172A;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 7px 12px 7px 32px;
+            color: white;
+            font-size: 0.82rem;
+            outline: none;
+        }
+
+        .search-input:focus {
+            border-color: var(--accent-blue);
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            pointer-events: none;
+        }
+
+        /* Subject Filter Chips */
+        .subject-chips {
+            display: flex;
+            gap: 6px;
+            overflow-x: auto;
+            padding-bottom: 8px;
+            margin-bottom: 12px;
+            scrollbar-width: thin;
+        }
+
+        .subject-chips::-webkit-scrollbar {
+            height: 4px;
+        }
+
+        .subject-chips::-webkit-scrollbar-thumb {
+            background: var(--border-color);
+            border-radius: 4px;
+        }
+
+        .chip-btn {
+            white-space: nowrap;
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-muted);
+            padding: 6px 12px;
+            border-radius: 16px;
+            font-size: 0.76rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s;
+        }
+
+        .chip-btn.active {
+            background: var(--accent-purple);
+            color: white;
+            border-color: #C084FC;
+            box-shadow: 0 2px 10px rgba(168,85,247,0.35);
+        }
+
+        .chip-count {
+            background: rgba(0,0,0,0.3);
+            padding: 1px 6px;
+            border-radius: 10px;
+            font-size: 0.68rem;
+        }
+
+        /* Shift Date Tabs */
+        .shift-tabs {
+            display: flex;
+            gap: 6px;
+            overflow-x: auto;
+            padding-bottom: 8px;
+            margin-bottom: 14px;
+            scrollbar-width: thin;
+        }
+
+        .shift-tabs::-webkit-scrollbar {
+            height: 4px;
+        }
+
+        .shift-tabs::-webkit-scrollbar-thumb {
+            background: var(--border-color);
+            border-radius: 4px;
+        }
+
+        .tab-btn {
+            white-space: nowrap;
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-muted);
+            padding: 6px 11px;
+            border-radius: 8px;
+            font-size: 0.74rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            transition: all 0.2s;
+        }
+
+        .tab-btn.active {
+            background: #0284C7;
+            color: white;
+            border-color: #38BDF8;
+        }
+
+        /* Stats & Controls Bar */
+        .controls-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(30, 41, 59, 0.6);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 8px 12px;
+            margin-bottom: 16px;
+            font-size: 0.8rem;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .score-stats {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            font-weight: 700;
+        }
+
+        .stat-shown { color: var(--accent-blue); }
+        .stat-correct { color: var(--accent-green); }
+        .stat-wrong { color: var(--accent-rose); }
+        .stat-starred { color: var(--accent-amber); cursor: pointer; }
+
+        .btn-ctrl {
+            background: #334155;
+            color: #E2E8F0;
+            border: none;
+            padding: 5px 11px;
+            border-radius: 6px;
+            font-size: 0.74rem;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .btn-ctrl.active-mode {
+            background: #059669;
+            color: white;
+        }
+
+        /* Question Cards */
+        .q-card {
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 14px;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.2);
+            transition: border-color 0.15s;
+        }
+
+        .q-card:hover {
+            border-color: #475569;
+        }
+
+        .q-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .q-header-left {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .q-num {
+            font-size: 0.95rem;
+            font-weight: 800;
+            color: var(--accent-blue);
+        }
+
+        .q-badge-subj {
+            background: rgba(168,85,247,0.15);
+            color: #C084FC;
+            border: 1px solid rgba(168,85,247,0.3);
+            font-size: 0.72rem;
+            font-weight: 600;
+            padding: 2px 8px;
+            border-radius: 6px;
+        }
+
+        .q-badge-topic {
+            background: rgba(56,189,248,0.12);
+            color: var(--accent-blue);
+            border: 1px solid rgba(56,189,248,0.25);
+            font-size: 0.72rem;
+            font-weight: 500;
+            padding: 2px 8px;
+            border-radius: 6px;
+        }
+
+        .q-badge-shift {
+            background: rgba(245,158,11,0.12);
+            color: var(--accent-amber);
+            border: 1px solid rgba(245,158,11,0.25);
+            font-size: 0.7rem;
+            font-weight: 600;
+            padding: 2px 7px;
+            border-radius: 6px;
+        }
+
+        .btn-star {
+            background: transparent;
+            border: none;
+            color: #64748B;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: color 0.15s, transform 0.15s;
+        }
+
+        .btn-star.starred {
+            color: #F59E0B;
+            transform: scale(1.15);
+        }
+
+        .q-text {
+            font-size: 0.96rem;
+            font-weight: 600;
+            color: #F8FAFC;
+            margin-bottom: 12px;
+            line-height: 1.6;
+        }
+
+        /* Flashcard Answer Box */
+        .flashcard-ans-box {
+            background: rgba(16, 185, 129, 0.12);
+            border: 1px solid rgba(16, 185, 129, 0.35);
+            border-left: 4px solid var(--accent-green);
+            border-radius: 8px;
+            padding: 10px 14px;
+            margin-bottom: 10px;
+        }
+
+        .ans-label {
+            font-size: 0.72rem;
+            font-weight: 800;
+            color: #34D399;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 3px;
+        }
+
+        .ans-text {
+            font-size: 0.96rem;
+            font-weight: 700;
+            color: #A7F3D0;
+        }
+
+        /* Key Point Box */
+        .keypoint-box {
+            background: #0F172A;
+            border: 1px dashed rgba(56, 189, 248, 0.35);
+            border-radius: 8px;
+            padding: 10px 14px;
+            color: #CBD5E1;
+            font-size: 0.85rem;
+            line-height: 1.6;
+        }
+
+        .keypoint-title {
+            font-size: 0.72rem;
+            font-weight: 800;
+            color: var(--accent-blue);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        /* Quiz Mode Options Grid */
+        .options-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+
+        @media (max-width: 560px) {
+            .options-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .opt-btn {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 9px 12px;
+            border-radius: 8px;
+            font-size: 0.86rem;
+            font-weight: 500;
+            cursor: pointer;
+            text-align: left;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.15s;
+        }
+
+        .opt-btn:hover:not(.locked) {
+            background: #1E293B;
+            border-color: #64748B;
+        }
+
+        .opt-letter {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 22px;
+            height: 22px;
+            border-radius: 5px;
+            background: rgba(255,255,255,0.06);
+            color: var(--text-muted);
+            font-size: 0.74rem;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+
+        .opt-btn.correct {
+            background: rgba(16,185,129,0.18)!important;
+            border-color: var(--accent-green)!important;
+            color: #A7F3D0!important;
+            font-weight: 700;
+        }
+
+        .opt-btn.correct .opt-letter {
+            background: var(--accent-green);
+            color: white;
+        }
+
+        .opt-btn.wrong {
+            background: rgba(244,63,94,0.18)!important;
+            border-color: var(--accent-rose)!important;
+            color: #FECDD3!important;
+        }
+
+        .opt-btn.wrong .opt-letter {
+            background: var(--accent-rose);
+            color: white;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 50px 20px;
+            color: var(--text-muted);
+        }
+
+        /* Bottom Nav */
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(15,23,42,0.96);
+            backdrop-filter: blur(8px);
+            border-top: 1px solid var(--border-color);
+            padding: 9px 16px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            z-index: 100;
+        }
+
+        .bottom-nav a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.74rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 3px;
+        }
+
+        .bottom-nav a.active {
+            color: var(--accent-green);
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Header -->
+    <header class="header">
+        <div class="badge-live">🔥 SSC CGL 2026 — 590 Real Exam GS Questions Across 25 Shifts</div>
+        <h1>🏛️ Real GS Exam Shifts Hub</h1>
+        <p>Complete memory-based General Studies question bank (30 Sep to 12 Oct 2026) by Vinod Sir — featuring rapid flashcards, high-yield key points, and topic mastery.</p>
+        <div class="nav-links">
+            <a href="index.html" class="btn-link">🏠 Dashboard</a>
+            <a href="real_shifts.html" class="btn-link" style="background: #0284C7;">📐 Real Maths Shifts (239 Qs)</a>
+            <a href="mock_test.html" class="btn-link" style="background: #DC2626;">⏱️ 15-Min CBT Simulator</a>
+            <a href="bootcamp.html" class="btn-link" style="background: #7C3AED;">📅 Bootcamp Tracker</a>
+        </div>
+    </header>
+
+    <!-- Mode & Search Bar -->
+    <div class="mode-bar">
+        <div class="mode-toggle-group">
+            <button class="mode-btn active" id="btnModeFlashcard" onclick="setMode('flashcard')">
+                <span>⚡</span> Flashcard Mode
+            </button>
+            <button class="mode-btn" id="btnModeQuiz" onclick="setMode('quiz')">
+                <span>🎯</span> Quiz Mode
+            </button>
+        </div>
+
+        <div class="search-box-wrap">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="searchInput" class="search-input" placeholder="Search 590 questions, topics, articles..." oninput="handleSearch(this.value)">
+        </div>
+    </div>
+
+    <!-- Subject Filter Chips -->
+    <div class="subject-chips" id="subjectChips">
+        <!-- Rendered by JS -->
+    </div>
+
+    <!-- Shift Date Tabs -->
+    <div class="shift-tabs" id="shiftTabs">
+        <!-- Rendered by JS -->
+    </div>
+
+    <!-- Controls & Stats Bar -->
+    <div class="controls-bar">
+        <div class="score-stats">
+            <span>Showing: <span class="stat-shown" id="statShown">0 / 590</span></span>
+            <span id="quizStatsSpan" style="display:none;">
+                <span class="stat-correct">✔ <span id="statCorrect">0</span></span>
+                <span class="stat-wrong">✖ <span id="statWrong">0</span></span>
+            </span>
+            <span class="stat-starred" onclick="toggleStarredOnly()" title="Click to view saved questions">
+                ⭐ Starred: <span id="statStarredCount">0</span>
+            </span>
+        </div>
+        <div class="action-btns">
+            <button class="btn-ctrl" id="btnFilterStarred" onclick="toggleStarredOnly()">⭐ View Saved</button>
+            <button class="btn-ctrl" onclick="resetAnswers()">🔄 Reset Quiz</button>
+        </div>
+    </div>
+
+    <!-- Questions Container -->
+    <main id="questionsContainer"></main>
+</div>
+
+<!-- Bottom Navigation -->
+<nav class="bottom-nav">
+    <a href="index.html"><span>🏠</span><span>Home</span></a>
+    <a href="real_shifts.html"><span>📐</span><span>Maths Shifts</span></a>
+    <a href="real_gs_shifts.html" class="active"><span>🏛️</span><span>GS Shifts</span></a>
+    <a href="practice_sets.html"><span>🎯</span><span>Practice</span></a>
+    <a href="bootcamp.html"><span>📅</span><span>Bootcamp</span></a>
+</nav>
+
+<script src="real_gs_shifts_data.js"></script>
+<script>
+let currentSubject = 'all';
+let currentShift = 'all';
+let currentSearch = '';
+let showStarredOnly = false;
+let currentMode = 'flashcard'; // 'flashcard' or 'quiz'
+let userAnswers = {}; // { qid: optionIndex }
+let starredQuestions = new Set(JSON.parse(localStorage.getItem('ssc_gs_starred') || '[]'));
+
+const SUBJECTS_LIST = [
+    { id: 'all', name: 'All Subjects', count: 590, icon: '📚' },
+    { id: 'Economy', name: 'Economy', count: 79, icon: '💰' },
+    { id: 'History', name: 'History', count: 73, icon: '📜' },
+    { id: 'Polity', name: 'Polity', count: 72, icon: '🏛️' },
+    { id: 'Geography', name: 'Geography', count: 70, icon: '🌍' },
+    { id: 'Sports', name: 'Sports', count: 62, icon: '🏆' },
+    { id: 'Art & Culture', name: 'Art & Culture', count: 46, icon: '🎭' },
+    { id: 'Current Affairs', name: 'Current Affairs', count: 43, icon: '📰' },
+    { id: 'Science', name: 'Science', count: 42, icon: '🔬' },
+    { id: 'International Relations', name: 'IR / Summits', count: 27, icon: '🌐' },
+    { id: 'Books & Awards', name: 'Books & Awards', count: 20, icon: '📖' },
+    { id: 'Environment', name: 'Environment', count: 19, icon: '🌿' },
+    { id: 'Space & Defence', name: 'Space & Defence', count: 16, icon: '🚀' },
+    { id: 'New Criminal Laws', name: 'BNS / Laws', count: 12, icon: '⭐' }
+];
+
+const SHIFTS_LIST = [
+    { id: 'all', name: 'All Shifts' },
+    { id: '12 Oct', name: '12 Oct (73 Qs)' },
+    { id: '10 Oct', name: '10 Oct (75 Qs)' },
+    { id: '9 Oct', name: '9 Oct (69 Qs)' },
+    { id: '8 Oct', name: '8 Oct (74 Qs)' },
+    { id: '7 Oct', name: '7 Oct (49 Qs)' },
+    { id: '6 Oct', name: '6 Oct (55 Qs)' },
+    { id: '5 Oct', name: '5 Oct (73 Qs)' },
+    { id: '1 Oct', name: '1 Oct (55 Qs)' },
+    { id: '30 Sep', name: '30 Sep (67 Qs)' }
+];
+
+function initFilters() {
+    // Subject chips
+    const sc = document.getElementById('subjectChips');
+    sc.innerHTML = SUBJECTS_LIST.map(s => `
+        <button class="chip-btn ${currentSubject === s.id ? 'active' : ''}" onclick="selectSubject('${s.id}')">
+            <span>${s.icon}</span> <span>${s.name}</span> <span class="chip-count">${s.count}</span>
+        </button>
+    `).join('');
+
+    // Shift tabs
+    const st = document.getElementById('shiftTabs');
+    st.innerHTML = SHIFTS_LIST.map(sh => `
+        <button class="tab-btn ${currentShift === sh.id ? 'active' : ''}" onclick="selectShift('${sh.id}')">
+            ${sh.name}
+        </button>
+    `).join('');
+
+    updateStarredDisplay();
+}
+
+function selectSubject(s) {
+    currentSubject = s;
+    initFilters();
+    renderQuestions();
+}
+
+function selectShift(sh) {
+    currentShift = sh;
+    initFilters();
+    renderQuestions();
+}
+
+function handleSearch(val) {
+    currentSearch = val.toLowerCase().trim();
+    renderQuestions();
+}
+
+function setMode(mode) {
+    currentMode = mode;
+    document.getElementById('btnModeFlashcard').classList.toggle('active', mode === 'flashcard');
+    document.getElementById('btnModeQuiz').classList.toggle('active', mode === 'quiz');
+    document.getElementById('quizStatsSpan').style.display = mode === 'quiz' ? 'inline-flex' : 'none';
+    renderQuestions();
+}
+
+function toggleStarredOnly() {
+    showStarredOnly = !showStarredOnly;
+    document.getElementById('btnFilterStarred').classList.toggle('active-mode', showStarredOnly);
+    document.getElementById('btnFilterStarred').innerText = showStarredOnly ? '👁️ Show All' : '⭐ View Saved';
+    renderQuestions();
+}
+
+function toggleStar(qid, e) {
+    e.stopPropagation();
+    if (starredQuestions.has(qid)) {
+        starredQuestions.delete(qid);
+    } else {
+        starredQuestions.add(qid);
+    }
+    localStorage.setItem('ssc_gs_starred', JSON.stringify(Array.from(starredQuestions)));
+    updateStarredDisplay();
+    renderQuestions();
+}
+
+function updateStarredDisplay() {
+    document.getElementById('statStarredCount').innerText = starredQuestions.size;
+}
+
+function handleAnswer(qid, optIdx) {
+    if (userAnswers[qid] !== undefined) return;
+    userAnswers[qid] = optIdx;
+    renderQuestions();
+    updateQuizStats();
+}
+
+function resetAnswers() {
+    if (confirm('Reset your quiz answers and score?')) {
+        userAnswers = {};
+        renderQuestions();
+        updateQuizStats();
+    }
+}
+
+function updateQuizStats() {
+    let correct = 0, wrong = 0;
+    Object.keys(userAnswers).forEach(qid => {
+        const q = REAL_GS_QUESTIONS.find(x => x.id === parseInt(qid));
+        if (q) {
+            if (userAnswers[qid] === q.correct) correct++;
+            else wrong++;
+        }
+    });
+    document.getElementById('statCorrect').innerText = correct;
+    document.getElementById('statWrong').innerText = wrong;
+}
+
+function renderQuestions() {
+    const container = document.getElementById('questionsContainer');
+    container.innerHTML = '';
+
+    const filtered = REAL_GS_QUESTIONS.filter(q => {
+        // Subject filter
+        if (currentSubject !== 'all' && q.subject !== currentSubject) return false;
+
+        // Shift date filter
+        if (currentShift !== 'all') {
+            if (currentShift === '12 Oct' && !q.shift_date.includes('12 October')) return false;
+            if (currentShift === '10 Oct' && !q.shift_date.includes('10 October')) return false;
+            if (currentShift === '9 Oct' && !q.shift_date.includes('9 October')) return false;
+            if (currentShift === '8 Oct' && !q.shift_date.includes('8 October')) return false;
+            if (currentShift === '7 Oct' && !q.shift_date.includes('7 October')) return false;
+            if (currentShift === '6 Oct' && !q.shift_date.includes('6 October')) return false;
+            if (currentShift === '5 Oct' && !q.shift_date.includes('5 October')) return false;
+            if (currentShift === '1 Oct' && !q.shift_date.includes('1 October')) return false;
+            if (currentShift === '30 Sep' && !q.shift_date.includes('30 September')) return false;
+        }
+
+        // Starred only
+        if (showStarredOnly && !starredQuestions.has(q.id)) return false;
+
+        // Search text
+        if (currentSearch) {
+            const haystack = (q.question + ' ' + q.answer + ' ' + q.key_point + ' ' + q.subject + ' ' + q.topic).toLowerCase();
+            if (!haystack.includes(currentSearch)) return false;
+        }
+
+        return true;
+    });
+
+    document.getElementById('statShown').innerText = `${filtered.length} / ${REAL_GS_QUESTIONS.length}`;
+
+    if (!filtered.length) {
+        container.innerHTML = `
+            <div class="empty-state">
+                <h3>No Questions Found</h3>
+                <p>Try adjusting your search query or subject filters.</p>
+            </div>
+        `;
+        return;
+    }
+
+    const letters = ['A', 'B', 'C', 'D'];
+
+    filtered.forEach((q, idx) => {
+        const card = document.createElement('div');
+        card.className = 'q-card';
+        const isStarred = starredQuestions.has(q.id);
+
+        let contentHtml = '';
+
+        if (currentMode === 'flashcard') {
+            contentHtml = `
+                <div class="flashcard-ans-box">
+                    <div class="ans-label">✓ Correct Answer</div>
+                    <div class="ans-text">${q.answer}</div>
+                </div>
+                <div class="keypoint-box">
+                    <div class="keypoint-title"><span>💡</span> High-Yield Key Point</div>
+                    <div>${q.key_point}</div>
+                </div>
+            `;
+        } else {
+            // Quiz Mode
+            const isAnswered = userAnswers[q.id] !== undefined;
+            let optsHtml = '';
+            q.options.forEach((opt, oi) => {
+                let cls = 'opt-btn';
+                if (isAnswered) {
+                    cls += ' locked';
+                    if (oi === q.correct) cls += ' correct';
+                    else if (userAnswers[q.id] === oi) cls += ' wrong';
+                }
+                optsHtml += `
+                    <button class="${cls}" onclick="handleAnswer(${q.id}, ${oi})">
+                        <span class="opt-letter">${letters[oi]}</span>
+                        <span>${opt}</span>
+                    </button>
+                `;
+            });
+
+            contentHtml = `
+                <div class="options-grid">${optsHtml}</div>
+                ${isAnswered ? `
+                    <div class="keypoint-box" style="margin-top: 10px;">
+                        <div class="keypoint-title"><span>💡</span> Solution & Key Point</div>
+                        <div style="margin-bottom: 6px; font-weight: 700; color: #34D399;">✓ ${q.answer}</div>
+                        <div>${q.key_point}</div>
+                    </div>
+                ` : ''}
+            `;
+        }
+
+        card.innerHTML = `
+            <div class="q-header">
+                <div class="q-header-left">
+                    <span class="q-num">Q${q.id}.</span>
+                    <span class="q-badge-subj">${q.subject}</span>
+                    <span class="q-badge-topic">${q.topic}</span>
+                    <span class="q-badge-shift">${q.shift_date} (${q.shift_name})</span>
+                </div>
+                <button class="btn-star ${isStarred ? 'starred' : ''}" onclick="toggleStar(${q.id}, event)" title="${isStarred ? 'Remove Bookmark' : 'Bookmark Question'}">
+                    ${isStarred ? '★' : '☆'}
+                </button>
+            </div>
+            <div class="q-text">${q.question}</div>
+            ${contentHtml}
+        `;
+
+        container.appendChild(card);
+    });
+}
+
+// Initialize
+initFilters();
+renderQuestions();
+
+// Service Worker for offline PWA
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js').catch(() => {});
+    });
+}
+</script>
+
+</body>
+</html>
