@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>SSC CGL 2026 — 20 GS Practice Sets (500 Qs for 24 Oct Prediction)</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="icon-192.png">
+    <link rel="apple-touch-icon" href="icon-192.png">
+    <meta name="theme-color" content="#0B1120">
+    <style>
+        :root {
+            --bg-color: #0B1120;
+            --container-bg: #1E293B;
+            --card-bg: #162032;
+            --text-color: #E2E8F0;
+            --text-muted: #94A3B8;
+            --border-color: #334155;
+            --accent-blue: #38BDF8;
+            --accent-green: #10B981;
+            --accent-amber: #F59E0B;
+            --accent-purple: #A855F7;
+            --accent-rose: #F43F5E;
+            --accent-emerald: #059669;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            padding: 16px 12px 100px 12px;
+            line-height: 1.5;
+        }
+
+        .container {
+            max-width: 920px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 16px;
+            padding-bottom: 14px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .header h1 {
+            font-size: 1.35rem;
+            color: #F8FAFC;
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .prediction-badge {
+            background: linear-gradient(135deg, #DC2626, #F59E0B);
+            color: #FFF;
+            font-size: 0.72rem;
+            font-weight: 800;
+            padding: 3px 8px;
+            border-radius: 9999px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            box-shadow: 0 0 10px rgba(220, 38, 38, 0.4);
+        }
+
+        .header p {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 12px;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-top: 6px;
+        }
+
+        .btn-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            background: var(--container-bg);
+            color: #CBD5E1;
+            text-decoration: none;
+            padding: 7px 12px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            border: 1px solid var(--border-color);
+            transition: all 0.2s;
+        }
+
+        .btn-link:hover {
+            background: #334155;
+            color: #FFF;
+        }
+
+        .btn-link.highlight {
+            background: #0284C7;
+            border-color: #38BDF8;
+            color: #FFF;
+        }
+
+        .btn-link.danger {
+            background: #DC2626;
+            border-color: #EF4444;
+            color: #FFF;
+            box-shadow: 0 0 8px rgba(220, 38, 38, 0.4);
+        }
+
+        /* Set Carousel */
+        .set-carousel-container {
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 12px;
+            margin-bottom: 14px;
+        }
+
+        .set-label {
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: #F8FAFC;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .set-scroll {
+            display: flex;
+            gap: 6px;
+            overflow-x: auto;
+            padding-bottom: 6px;
+            scrollbar-width: thin;
+            scrollbar-color: var(--border-color) transparent;
+        }
+
+        .set-scroll::-webkit-scrollbar {
+            height: 6px;
+        }
+
+        .set-scroll::-webkit-scrollbar-thumb {
+            background: var(--border-color);
+            border-radius: 3px;
+        }
+
+        .set-btn {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 7px 11px;
+            border-radius: 6px;
+            font-size: 0.78rem;
+            font-weight: 600;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: all 0.15s;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .set-btn:hover {
+            border-color: var(--accent-blue);
+            color: #FFF;
+        }
+
+        .set-btn.active {
+            background: #0284C7;
+            border-color: var(--accent-blue);
+            color: #FFF;
+            box-shadow: 0 0 10px rgba(56, 189, 248, 0.35);
+        }
+
+        .set-btn.prediction {
+            border-color: rgba(245, 158, 11, 0.5);
+        }
+
+        .set-btn.prediction.active {
+            background: linear-gradient(135deg, #D97706, #B45309);
+            border-color: #F59E0B;
+            box-shadow: 0 0 10px rgba(245, 158, 11, 0.4);
+        }
+
+        /* Active Set Info Card */
+        .set-info-card {
+            background: #111C2E;
+            border-left: 4px solid var(--accent-blue);
+            padding: 10px 14px;
+            border-radius: 6px;
+            margin-bottom: 14px;
+            font-size: 0.85rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .set-info-title {
+            font-weight: 700;
+            color: #F8FAFC;
+        }
+
+        .set-info-sub {
+            color: var(--text-muted);
+            font-size: 0.78rem;
+            margin-top: 2px;
+        }
+
+        /* Section Filters */
+        .section-filter {
+            display: flex;
+            gap: 6px;
+            overflow-x: auto;
+            padding-bottom: 6px;
+            margin-bottom: 12px;
+            scrollbar-width: none;
+        }
+
+        .section-filter::-webkit-scrollbar {
+            display: none;
+        }
+
+        .sec-pill {
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-muted);
+            padding: 5px 10px;
+            border-radius: 9999px;
+            font-size: 0.74rem;
+            font-weight: 600;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: all 0.15s;
+        }
+
+        .sec-pill:hover {
+            color: #FFF;
+            border-color: var(--accent-blue);
+        }
+
+        .sec-pill.active {
+            background: #334155;
+            color: #FFF;
+            border-color: var(--accent-blue);
+        }
+
+        /* Score & Action Bar */
+        .score-bar {
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 10px 12px;
+            margin-bottom: 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 8px;
+            font-size: 0.82rem;
+        }
+
+        .score-stats {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .stat-item b {
+            color: #F8FAFC;
+        }
+
+        .stat-correct { color: var(--accent-green); }
+        .stat-wrong { color: var(--accent-rose); }
+        .stat-score { color: var(--accent-amber); font-weight: 700; }
+
+        .score-actions {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+
+        .btn-action {
+            background: #334155;
+            border: 1px solid var(--border-color);
+            color: #E2E8F0;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.15s;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .btn-action:hover {
+            background: #475569;
+            color: #FFF;
+        }
+
+        .btn-action.cbt {
+            background: #DC2626;
+            border-color: #EF4444;
+            color: #FFF;
+        }
+
+        .btn-action.cbt:hover {
+            background: #B91C1C;
+        }
+
+        /* Question Card */
+        .q-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 14px;
+            margin-bottom: 14px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+            transition: border-color 0.15s;
+        }
+
+        .q-card:hover {
+            border-color: #475569;
+        }
+
+        .q-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .q-badges {
+            display: flex;
+            gap: 6px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .q-num {
+            background: #334155;
+            color: #F8FAFC;
+            padding: 2px 7px;
+            border-radius: 4px;
+            font-weight: 700;
+        }
+
+        .q-cat {
+            background: #1E293B;
+            color: var(--accent-blue);
+            border: 1px solid rgba(56, 189, 248, 0.3);
+            padding: 2px 7px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+
+        .q-topic {
+            color: #CBD5E1;
+            font-weight: 600;
+        }
+
+        .q-bookmark {
+            cursor: pointer;
+            color: #64748B;
+            font-size: 1rem;
+            transition: color 0.15s;
+            user-select: none;
+        }
+
+        .q-bookmark.active {
+            color: #F59E0B;
+        }
+
+        .q-text {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: #F1F5F9;
+            margin-bottom: 12px;
+            line-height: 1.5;
+        }
+
+        /* Options Grid */
+        .options-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+
+        @media (min-width: 640px) {
+            .options-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .opt-btn {
+            background: #1E293B;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 9px 12px;
+            font-size: 0.85rem;
+            color: #CBD5E1;
+            text-align: left;
+            cursor: pointer;
+            transition: all 0.15s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            line-height: 1.35;
+        }
+
+        .opt-letter {
+            width: 22px;
+            height: 22px;
+            background: #334155;
+            color: #F8FAFC;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.72rem;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+
+        .opt-btn:hover:not(.locked) {
+            background: #283548;
+            border-color: var(--accent-blue);
+            color: #FFF;
+        }
+
+        .opt-btn.correct {
+            background: rgba(16, 185, 129, 0.18) !important;
+            border-color: var(--accent-green) !important;
+            color: #34D399 !important;
+            font-weight: 600;
+        }
+
+        .opt-btn.correct .opt-letter {
+            background: var(--accent-green);
+            color: #FFF;
+        }
+
+        .opt-btn.wrong {
+            background: rgba(244, 63, 94, 0.18) !important;
+            border-color: var(--accent-rose) !important;
+            color: #FB7185 !important;
+            font-weight: 600;
+        }
+
+        .opt-btn.wrong .opt-letter {
+            background: var(--accent-rose);
+            color: #FFF;
+        }
+
+        /* Solution & Shortcut Boxes */
+        .solution-box {
+            background: #0F172A;
+            border: 1px solid #1E3A8A;
+            border-left: 3px solid #38BDF8;
+            border-radius: 6px;
+            padding: 10px 12px;
+            margin-top: 10px;
+            font-size: 0.82rem;
+            line-height: 1.5;
+            color: #E2E8F0;
+        }
+
+        .solution-box.hidden, .shortcut-box.hidden {
+            display: none;
+        }
+
+        .box-title {
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+        }
+
+        .box-title.blue { color: #38BDF8; }
+        .box-title.amber { color: #F59E0B; }
+
+        .shortcut-box {
+            background: #1C1917;
+            border: 1px solid #78350F;
+            border-left: 3px solid #F59E0B;
+            border-radius: 6px;
+            padding: 10px 12px;
+            margin-top: 8px;
+            font-size: 0.82rem;
+            line-height: 1.45;
+            color: #FEF3C7;
+        }
+
+        .shortcut-box b {
+            color: #FBBF24;
+        }
+
+        /* Empty state */
+        .empty-state {
+            text-align: center;
+            padding: 40px 20px;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        /* Floating Back to Top */
+        .fab-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #0284C7;
+            color: #FFF;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+            border: none;
+            z-index: 100;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>
+                <span>🎯 SSC CGL 2026 — 20 GS Practice Sets</span>
+                <span class="prediction-badge">🔥 24 Oct Prediction</span>
+            </h1>
+            <p>500 Authentic Exam MCQs with 4-Option Shuffling, Full Step-by-Step Solutions &amp; 5-Sec Topper Tricks</p>
+            <div class="nav-links">
+                <a href="index.html" class="btn-link">🏠 Dashboard</a>
+                <a href="mock_test.html" class="btn-link danger">⏱️ 15-Min CBT Simulator</a>
+                <a href="real_gs_shifts.html" class="btn-link highlight">⚡ GS Shifts Hub</a>
+                <a href="practice_sets.html" class="btn-link">📐 20 Maths Sets</a>
+                <a href="real_shifts.html" class="btn-link">🔥 Real Maths Shifts</a>
+            </div>
+        </div>
+
+        <!-- 20 Sets Carousel -->
+        <div class="set-carousel-container">
+            <div class="set-label">
+                <span>Select Practice Set (Sets 1–10: Early Shifts Core | Sets 11–20: 24 Oct High Prediction)</span>
+                <span id="set-indicator" style="color: var(--text-muted); font-size: 0.78rem;">Set 1 of 20</span>
+            </div>
+            <div class="set-scroll" id="set-selector-bar">
+                <!-- Injected via JS -->
+            </div>
+        </div>
+
+        <!-- Active Set Banner -->
+        <div class="set-info-card">
+            <div>
+                <div class="set-info-title" id="activeSetTitle">GS Practice Set 1 (25 Qs)</div>
+                <div class="set-info-sub" id="activeSetSubtitle">Early Shifts Core — Polity, IMEC, 1991 Reforms &amp; Paris Olympics</div>
+            </div>
+            <a href="#" id="cbtSimulatorLink" class="btn-action cbt">⏱️ Attempt in CBT Simulator</a>
+        </div>
+
+        <!-- Subject Filters -->
+        <div class="section-filter" id="sectionFilterBar">
+            <div class="sec-pill active" onclick="setSubject('All')">All (25 Qs)</div>
+            <div class="sec-pill" onclick="setSubject('Polity')">🏛️ Polity</div>
+            <div class="sec-pill" onclick="setSubject('Economy')">📈 Economy</div>
+            <div class="sec-pill" onclick="setSubject('History')">📜 History</div>
+            <div class="sec-pill" onclick="setSubject('Geography')">🌍 Geography</div>
+            <div class="sec-pill" onclick="setSubject('Sports')">🏆 Sports</div>
+            <div class="sec-pill" onclick="setSubject('Art & Culture')">🎨 Art &amp; Culture</div>
+            <div class="sec-pill" onclick="setSubject('Science')">🔬 Science</div>
+            <div class="sec-pill" onclick="setSubject('International Relations')">🌐 IR &amp; Foreign Policy</div>
+            <div class="sec-pill" onclick="setSubject('Bookmarks')">⭐ Bookmarked (<span id="bookmarkCount">0</span>)</div>
+        </div>
+
+        <!-- Score & Actions Bar -->
+        <div class="score-bar">
+            <div class="score-stats">
+                <span class="stat-item">Attempted: <b id="statAttempted">0/25</b></span>
+                <span class="stat-item stat-correct">✔ <b id="statCorrect">0</b></span>
+                <span class="stat-item stat-wrong">✖ <b id="statWrong">0</b></span>
+                <span class="stat-item stat-score">Score: <b id="statScore">0.00</b>/50</span>
+            </div>
+            <div class="score-actions">
+                <button class="btn-action" onclick="toggleAllSolutions()">
+                    <span id="btnSolIcon">👁️</span> <span id="btnSolText">Show Solutions</span>
+                </button>
+                <button class="btn-action" onclick="resetCurrentSet()">🔄 Reset</button>
+            </div>
+        </div>
+
+        <!-- Questions List Container -->
+        <div id="questions-container">
+            <!-- Questions rendered via JS -->
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button class="fab-top" id="fabTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑</button>
+
+    <!-- Load data file -->
+    <script src="gs_practice_sets_data.js"></script>
+
+    <script>
+        let currentSetIdx = 0;
+        let activeSubject = 'All';
+        let showSolutions = false;
+        let userAttempts = {}; // { setIdx: { qId: selectedOptionIdx } }
+        let bookmarks = new Set(JSON.parse(localStorage.getItem('ssc_gs_bookmarks') || '[]'));
+
+        // Load attempts from localStorage
+        try {
+            const saved = localStorage.getItem('ssc_gs_attempts');
+            if (saved) userAttempts = JSON.parse(saved);
+        } catch (e) {}
+
+        const LETTERS = ['A', 'B', 'C', 'D'];
+
+        function initApp() {
+            if (typeof GS_PRACTICE_SETS === 'undefined' || !Array.isArray(GS_PRACTICE_SETS)) {
+                fetch('gs_practice_sets_data.json')
+                    .then(res => res.json())
+                    .then(data => {
+                        window.GS_PRACTICE_SETS = data;
+                        renderUI();
+                    })
+                    .catch(err => {
+                        document.getElementById('questions-container').innerHTML = 
+                            `<div class="empty-state">⚠️ Error loading practice sets: ${err.message}</div>`;
+                    });
+            } else {
+                renderUI();
+            }
+        }
+
+        function renderUI() {
+            renderSetSelector();
+            renderActiveSetInfo();
+            renderQuestions();
+            updateStats();
+            updateBookmarkCount();
+        }
+
+        function renderSetSelector() {
+            const bar = document.getElementById('set-selector-bar');
+            bar.innerHTML = '';
+            GS_PRACTICE_SETS.forEach((s, idx) => {
+                const btn = document.createElement('button');
+                const isPred = idx >= 10;
+                btn.className = `set-btn ${idx === currentSetIdx ? 'active' : ''} ${isPred ? 'prediction' : ''}`;
+                btn.innerHTML = `${isPred ? '🔥 ' : ''}Set ${idx + 1}`;
+                btn.onclick = () => switchSet(idx);
+                bar.appendChild(btn);
+            });
+            document.getElementById('set-indicator').innerText = `Set ${currentSetIdx + 1} of ${GS_PRACTICE_SETS.length}`;
+        }
+
+        function switchSet(newIdx) {
+            currentSetIdx = newIdx;
+            showSolutions = false;
+            document.getElementById('btnSolText').innerText = 'Show Solutions';
+            document.getElementById('btnSolIcon').innerText = '👁️';
+            
+            renderSetSelector();
+            renderActiveSetInfo();
+            renderQuestions();
+            updateStats();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function renderActiveSetInfo() {
+            const cur = GS_PRACTICE_SETS[currentSetIdx];
+            document.getElementById('activeSetTitle').innerText = cur.title;
+            document.getElementById('activeSetSubtitle').innerText = cur.subtitle;
+            document.getElementById('cbtSimulatorLink').href = `mock_test.html?test=${cur.set_id}`;
+        }
+
+        function setSubject(subj) {
+            activeSubject = subj;
+            document.querySelectorAll('#sectionFilterBar .sec-pill').forEach(pill => {
+                if (pill.innerText.includes(subj)) {
+                    pill.classList.add('active');
+                } else {
+                    pill.classList.remove('active');
+                }
+            });
+            renderQuestions();
+        }
+
+        function renderQuestions() {
+            const container = document.getElementById('questions-container');
+            container.innerHTML = '';
+            const curSet = GS_PRACTICE_SETS[currentSetIdx];
+            const attempts = userAttempts[currentSetIdx] || {};
+
+            let filtered = curSet.questions;
+            if (activeSubject === 'Bookmarks') {
+                filtered = curSet.questions.filter(q => bookmarks.has(`${curSet.set_id}_${q.id}`));
+            } else if (activeSubject !== 'All') {
+                filtered = curSet.questions.filter(q => q.category === activeSubject || q.subject === activeSubject);
+            }
+
+            if (filtered.length === 0) {
+                container.innerHTML = `<div class="empty-state">🔍 No questions found for filter "${activeSubject}".</div>`;
+                return;
+            }
+
+            filtered.forEach(q => {
+                const card = document.createElement('div');
+                card.className = 'q-card';
+                card.id = `q-card-${q.id}`;
+
+                const qKey = `${curSet.set_id}_${q.id}`;
+                const isBookmarked = bookmarks.has(qKey);
+                const selectedOpt = attempts[q.id];
+                const isAnswered = selectedOpt !== undefined;
+
+                // Render options HTML
+                let optsHtml = '';
+                q.options.forEach((optText, optIdx) => {
+                    let optClass = 'opt-btn';
+                    if (isAnswered || showSolutions) {
+                        optClass += ' locked';
+                        if (optIdx === q.correct) {
+                            optClass += ' correct';
+                        } else if (selectedOpt === optIdx) {
+                            optClass += ' wrong';
+                        }
+                    }
+                    optsHtml += `
+                        <button class="${optClass}" onclick="selectOption(${q.id}, ${optIdx})" ${isAnswered ? 'disabled' : ''}>
+                            <span class="opt-letter">${LETTERS[optIdx]}</span>
+                            <span>${optText}</span>
+                        </button>
+                    `;
+                });
+
+                const isSolVisible = showSolutions || isAnswered;
+
+                card.innerHTML = `
+                    <div class="q-header">
+                        <div class="q-badges">
+                            <span class="q-num">Q${q.id}</span>
+                            <span class="q-cat">${q.category || q.subject}</span>
+                            <span class="q-topic">• ${q.topic}</span>
+                        </div>
+                        <span class="q-bookmark ${isBookmarked ? 'active' : ''}" onclick="toggleBookmark('${qKey}', this)">
+                            ${isBookmarked ? '★' : '☆'}
+                        </span>
+                    </div>
+                    <div class="q-text">${q.question}</div>
+                    <div class="options-grid" id="opt-grid-${q.id}">
+                        ${optsHtml}
+                    </div>
+                    <div class="solution-box ${isSolVisible ? '' : 'hidden'}" id="sol-${q.id}">
+                        <div class="box-title blue">📖 Step-by-Step Textbook Solution:</div>
+                        <div>${q.solution}</div>
+                    </div>
+                    <div class="shortcut-box ${isSolVisible ? '' : 'hidden'}" id="sc-${q.id}">
+                        <div class="box-title amber">⚡ SSC CGL 5-Sec Topper Trick:</div>
+                        <div>${q.shortcut}</div>
+                    </div>
+                `;
+
+                container.appendChild(card);
+            });
+        }
+
+        function selectOption(qId, optIdx) {
+            if (!userAttempts[currentSetIdx]) userAttempts[currentSetIdx] = {};
+            if (userAttempts[currentSetIdx][qId] !== undefined) return; // already attempted
+
+            userAttempts[currentSetIdx][qId] = optIdx;
+            try {
+                localStorage.setItem('ssc_gs_attempts', JSON.stringify(userAttempts));
+            } catch (e) {}
+
+            const curSet = GS_PRACTICE_SETS[currentSetIdx];
+            const q = curSet.questions.find(item => item.id === qId);
+            if (!q) return;
+
+            // Update option buttons styling
+            const grid = document.getElementById(`opt-grid-${qId}`);
+            if (grid) {
+                const btns = grid.querySelectorAll('.opt-btn');
+                btns.forEach((btn, idx) => {
+                    btn.classList.add('locked');
+                    btn.disabled = true;
+                    if (idx === q.correct) {
+                        btn.classList.add('correct');
+                    } else if (idx === optIdx) {
+                        btn.classList.add('wrong');
+                    }
+                });
+            }
+
+            // Reveal solution & shortcut
+            const solBox = document.getElementById(`sol-${qId}`);
+            if (solBox) solBox.classList.remove('hidden');
+            const scBox = document.getElementById(`sc-${qId}`);
+            if (scBox) scBox.classList.remove('hidden');
+
+            updateStats();
+        }
+
+        function toggleAllSolutions() {
+            showSolutions = !showSolutions;
+            document.getElementById('btnSolText').innerText = showSolutions ? 'Hide Solutions' : 'Show Solutions';
+            document.getElementById('btnSolIcon').innerText = showSolutions ? '🙈' : '👁️';
+            renderQuestions();
+        }
+
+        function resetCurrentSet() {
+            if (!confirm(`Are you sure you want to reset your answers for Set ${currentSetIdx + 1}?`)) return;
+            if (userAttempts[currentSetIdx]) {
+                delete userAttempts[currentSetIdx];
+                try {
+                    localStorage.setItem('ssc_gs_attempts', JSON.stringify(userAttempts));
+                } catch (e) {}
+            }
+            showSolutions = false;
+            document.getElementById('btnSolText').innerText = 'Show Solutions';
+            document.getElementById('btnSolIcon').innerText = '👁️';
+            renderQuestions();
+            updateStats();
+        }
+
+        function toggleBookmark(key, el) {
+            if (bookmarks.has(key)) {
+                bookmarks.delete(key);
+                el.classList.remove('active');
+                el.innerText = '☆';
+            } else {
+                bookmarks.add(key);
+                el.classList.add('active');
+                el.innerText = '★';
+            }
+            try {
+                localStorage.setItem('ssc_gs_bookmarks', JSON.stringify([...bookmarks]));
+            } catch (e) {}
+            updateBookmarkCount();
+            if (activeSubject === 'Bookmarks') {
+                renderQuestions();
+            }
+        }
+
+        function updateBookmarkCount() {
+            document.getElementById('bookmarkCount').innerText = bookmarks.size;
+        }
+
+        function updateStats() {
+            const curSet = GS_PRACTICE_SETS[currentSetIdx];
+            const attempts = userAttempts[currentSetIdx] || {};
+            let attempted = 0;
+            let correct = 0;
+            let wrong = 0;
+
+            curSet.questions.forEach(q => {
+                const userChoice = attempts[q.id];
+                if (userChoice !== undefined) {
+                    attempted++;
+                    if (userChoice === q.correct) correct++;
+                    else wrong++;
+                }
+            });
+
+            const score = (correct * 2.0) - (wrong * 0.5);
+
+            document.getElementById('statAttempted').innerText = `${attempted}/25`;
+            document.getElementById('statCorrect').innerText = correct;
+            document.getElementById('statWrong').innerText = wrong;
+            document.getElementById('statScore').innerText = score.toFixed(2);
+        }
+
+        // Floating Back to Top Listener
+        window.addEventListener('scroll', () => {
+            const fab = document.getElementById('fabTop');
+            if (window.scrollY > 400) {
+                fab.style.display = 'flex';
+            } else {
+                fab.style.display = 'none';
+            }
+        });
+
+        // Initialize on DOM load
+        window.addEventListener('DOMContentLoaded', initApp);
+    </script>
+</body>
+</html>
