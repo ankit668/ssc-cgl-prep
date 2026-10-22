@@ -417,9 +417,19 @@
             vertical-align: top;
         }
 
+        .fact-table tr:not(:first-child) {
+            cursor: pointer;
+            transition: background 0.15s ease, border-left 0.15s ease;
+        }
+
+        .fact-table tr:not(:first-child):hover {
+            background: rgba(56, 189, 248, 0.08);
+        }
+
         .fact-table tr.row-speaking {
-            background: rgba(56, 189, 248, 0.12);
-            border-left: 3px solid #38BDF8;
+            background: rgba(56, 189, 248, 0.18) !important;
+            border-left: 4px solid #38BDF8 !important;
+            box-shadow: inset 0 0 10px rgba(56, 189, 248, 0.12);
         }
 
         .fact-table th {
@@ -544,6 +554,11 @@
                         <option value="1.8">1.8x (Ultra)</option>
                     </select>
                 </div>
+            </div>
+
+            <div style="font-size: 0.72rem; color: #94A3B8; background: rgba(56, 189, 248, 0.07); border: 1px dashed rgba(56, 189, 248, 0.3); padding: 5px 10px; border-radius: 6px; display: flex; align-items: center; gap: 6px;">
+                <span>💡</span>
+                <span><b>Click-to-Speak:</b> Click or tap <b>ANY fact line</b> below to start speaking directly from there!</span>
             </div>
 
             <div class="voice-controls-row">
@@ -990,7 +1005,32 @@
             loadAndPlayCard(currentCardIndex);
         }
 
-        function loadAndPlayCard(cardIdx) {
+        function playFromRow(rowElement) {
+            if (!('speechSynthesis' in window)) {
+                alert('Web Speech is not supported on this browser. Please use Chrome or Edge.');
+                return;
+            }
+            const card = rowElement.closest('.note-card');
+            if (!card) return;
+            const allCards = Array.from(document.querySelectorAll('.note-card'));
+            const cardIdx = allCards.indexOf(card);
+            if (cardIdx === -1) return;
+
+            const table = rowElement.closest('.fact-table');
+            const allRows = Array.from(table.querySelectorAll('tr'));
+            const dataRows = allRows.slice(1);
+            const rowIndex = dataRows.indexOf(rowElement);
+
+            stopSpeech();
+            isMasterPlaying = true;
+            isPaused = false;
+            currentCardIndex = cardIdx;
+
+            // Load card and start from rowIndex + 1 (since index 0 is card title)
+            loadAndPlayCard(cardIdx, rowIndex >= 0 ? rowIndex + 1 : 0);
+        }
+
+        function loadAndPlayCard(cardIdx, startSentenceIdx = 0) {
             const cards = document.querySelectorAll('.note-card');
             if (cardIdx >= cards.length) {
                 // Completed all cards!
@@ -1001,7 +1041,7 @@
 
             const card = cards[cardIdx];
             card.style.display = 'block'; // ensure visible
-            card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 
             // Highlight card
             cards.forEach(c => c.classList.remove('is-speaking'));
@@ -1020,7 +1060,7 @@
 
             const cardData = extractCardSpeechData(card);
             currentSentenceQueue = cardData.sentences;
-            currentSentenceIndex = 0;
+            currentSentenceIndex = (startSentenceIdx >= 0 && startSentenceIdx < currentSentenceQueue.length) ? startSentenceIdx : 0;
 
             // Update Header & Floating Player
             const title = cardData.title;
@@ -1144,12 +1184,54 @@
             }
         }
 
+        // Initialize Click-to-Speak listeners and tooltips
+        document.addEventListener('DOMContentLoaded', () => {
+            initClickToSpeak();
+        });
+
+        function initClickToSpeak() {
+            document.querySelectorAll('.fact-table tr:not(:first-child)').forEach(row => {
+                row.setAttribute('title', '🔊 Click or tap to listen from here');
+            });
+        }
+
+        // Delegated Click Listener: Click ANYWHERE on a fact row or card title to speak from there
+        document.addEventListener('click', function(e) {
+            // Ignore clicks on buttons, inputs, links, selects, filter pills
+            if (e.target.closest('button, a, input, select, .pill, .filter-pills, .nav-links, .voice-speed-wrapper')) {
+                return;
+            }
+
+            // Click on a fact table row
+            const tr = e.target.closest('.fact-table tr');
+            if (tr && !tr.querySelector('th')) {
+                playFromRow(tr);
+                return;
+            }
+
+            // Click on a card title
+            const cardTitle = e.target.closest('.card-title');
+            if (cardTitle) {
+                const card = cardTitle.closest('.note-card');
+                if (card) {
+                    const allCards = Array.from(document.querySelectorAll('.note-card'));
+                    const idx = allCards.indexOf(card);
+                    if (idx !== -1) {
+                        playCardByIndex(idx);
+                    }
+                }
+            }
+        });
+
         // Initialize voices on user interaction
         if ('speechSynthesis' in window) {
             window.speechSynthesis.onvoiceschanged = () => {
                 synth.getVoices();
             };
         }
+
+        // Run tooltip init immediately
+        initClickToSpeak();
     </script>
 </body>
 </html>
