@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>SSC CGL 2026 — GS Last Revision Capsule (24 Oct Exam Special)</title>
+    <title>SSC CGL 2026 • GS Last Revision Capsule & Audio Player (24 Oct Special)</title>
     <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/png" href="icon-192.png">
     <link rel="apple-touch-icon" href="icon-192.png">
@@ -34,7 +34,7 @@
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
             background-color: var(--bg-color);
             color: var(--text-color);
-            padding: 14px 10px 100px 10px;
+            padding: 14px 10px 110px 10px;
             line-height: 1.55;
         }
 
@@ -98,6 +98,177 @@
             font-size: 0.78rem;
             font-weight: 600;
             border: 1px solid var(--border-color);
+            transition: all 0.2s;
+        }
+        .btn-link:hover {
+            border-color: var(--accent-blue);
+            color: #FFF;
+        }
+
+        /* Voice Player Banner */
+        .voice-master-panel {
+            background: linear-gradient(135deg, #1E293B, #0F172A);
+            border: 1px solid #38BDF8;
+            border-radius: 12px;
+            padding: 12px 14px;
+            margin-bottom: 14px;
+            box-shadow: 0 4px 18px rgba(56, 189, 248, 0.15);
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .voice-panel-top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .voice-title-group {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .voice-icon-pulse {
+            font-size: 1.3rem;
+            animation: pulse-ring 2s infinite;
+        }
+
+        @keyframes pulse-ring {
+            0% { transform: scale(0.95); opacity: 0.8; }
+            50% { transform: scale(1.1); opacity: 1; }
+            100% { transform: scale(0.95); opacity: 0.8; }
+        }
+
+        .voice-title-text h3 {
+            font-size: 0.95rem;
+            color: #F8FAFC;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .voice-title-text p {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        .voice-controls-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 8px;
+            background: rgba(0, 0, 0, 0.25);
+            padding: 8px 10px;
+            border-radius: 8px;
+        }
+
+        .voice-btn-group {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+
+        .btn-voice {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            border: none;
+            padding: 6px 13px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn-voice-play {
+            background: linear-gradient(135deg, #10B981, #059669);
+            color: #FFF;
+            box-shadow: 0 2px 8px rgba(16, 185, 129, 0.4);
+        }
+        .btn-voice-play:hover {
+            filter: brightness(1.1);
+        }
+
+        .btn-voice-stop {
+            background: #334155;
+            color: #E2E8F0;
+        }
+        .btn-voice-stop:hover {
+            background: #475569;
+        }
+
+        .btn-voice-nav {
+            background: #1E293B;
+            color: #94A3B8;
+            border: 1px solid #334155;
+            padding: 5px 9px;
+            font-size: 0.75rem;
+        }
+        .btn-voice-nav:hover {
+            color: #FFF;
+            border-color: #64748B;
+        }
+
+        .voice-speed-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 0.75rem;
+            color: #94A3B8;
+        }
+
+        .voice-speed-select {
+            background: #1E293B;
+            border: 1px solid #334155;
+            color: #38BDF8;
+            font-weight: 700;
+            font-size: 0.76rem;
+            padding: 4px 8px;
+            border-radius: 6px;
+            outline: none;
+            cursor: pointer;
+        }
+
+        .voice-status-line {
+            font-size: 0.76rem;
+            color: #38BDF8;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-weight: 600;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .equalizer-anim {
+            display: inline-flex;
+            align-items: flex-end;
+            gap: 2px;
+            height: 12px;
+        }
+        .eq-bar {
+            width: 3px;
+            background: #38BDF8;
+            border-radius: 1px;
+            animation: bounce-eq 0.8s ease-in-out infinite alternate;
+        }
+        .eq-bar:nth-child(1) { height: 6px; animation-delay: 0.1s; }
+        .eq-bar:nth-child(2) { height: 11px; animation-delay: 0.3s; }
+        .eq-bar:nth-child(3) { height: 8px; animation-delay: 0.2s; }
+        .eq-bar:nth-child(4) { height: 12px; animation-delay: 0.4s; }
+
+        @keyframes bounce-eq {
+            from { height: 3px; }
+            to { height: 12px; }
         }
 
         /* Search Bar */
@@ -108,53 +279,68 @@
             background: #111C2E;
             border: 1px solid var(--border-color);
             color: #FFF;
-            font-size: 0.9rem;
-            margin-bottom: 14px;
+            font-size: 0.88rem;
+            margin-bottom: 12px;
             outline: none;
+            box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
         }
-
         .search-bar:focus {
             border-color: var(--accent-blue);
         }
 
-        /* Quick Filter Pills */
+        /* Filter Pills */
         .filter-pills {
             display: flex;
             gap: 6px;
             overflow-x: auto;
-            padding-bottom: 10px;
+            padding-bottom: 8px;
             margin-bottom: 14px;
             scrollbar-width: none;
         }
-
-        .filter-pills::-webkit-scrollbar { display: none; }
+        .filter-pills::-webkit-scrollbar {
+            display: none;
+        }
 
         .pill {
-            background: var(--card-bg);
-            border: 1px solid var(--border-color);
-            color: var(--text-color);
-            padding: 6px 12px;
+            background: var(--container-bg);
+            color: var(--text-muted);
+            padding: 5px 12px;
             border-radius: 9999px;
             font-size: 0.76rem;
-            font-weight: 700;
-            cursor: pointer;
+            font-weight: 600;
             white-space: nowrap;
+            cursor: pointer;
+            border: 1px solid var(--border-color);
+            transition: all 0.2s;
         }
 
         .pill.active {
-            background: #0284C7;
+            background: var(--accent-blue);
+            color: #0B1120;
             border-color: var(--accent-blue);
-            color: #FFF;
+            font-weight: 700;
         }
 
-        /* Note Cards */
+        /* Notes Cards */
+        .notes-list {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
         .note-card {
             background: var(--card-bg);
-            border: 1px solid var(--border-color);
             border-radius: 10px;
-            padding: 16px;
-            margin-bottom: 14px;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+            border: 1px solid var(--border-color);
+            padding: 14px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            transition: border-color 0.3s, box-shadow 0.3s, transform 0.2s;
+        }
+
+        .note-card.is-speaking {
+            border-color: #38BDF8 !important;
+            box-shadow: 0 0 18px rgba(56, 189, 248, 0.45) !important;
+            transform: translateY(-2px);
         }
 
         .card-header {
@@ -163,16 +349,48 @@
             justify-content: space-between;
             margin-bottom: 10px;
             border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-            padding-bottom: 6px;
+            padding-bottom: 8px;
+            flex-wrap: wrap;
+            gap: 8px;
         }
 
         .card-title {
-            font-size: 1.05rem;
+            font-size: 1.02rem;
             font-weight: 800;
             color: #F8FAFC;
             display: flex;
             align-items: center;
             gap: 8px;
+        }
+
+        .card-header-actions {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .btn-card-listen {
+            background: rgba(56, 189, 248, 0.12);
+            color: #38BDF8;
+            border: 1px solid rgba(56, 189, 248, 0.3);
+            border-radius: 6px;
+            padding: 4px 9px;
+            font-size: 0.72rem;
+            font-weight: 700;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            transition: all 0.2s;
+        }
+        .btn-card-listen:hover {
+            background: #38BDF8;
+            color: #0B1120;
+        }
+        .btn-card-listen.is-active {
+            background: #10B981;
+            color: #FFF;
+            border-color: #10B981;
         }
 
         .card-tag {
@@ -199,6 +417,11 @@
             vertical-align: top;
         }
 
+        .fact-table tr.row-speaking {
+            background: rgba(56, 189, 248, 0.12);
+            border-left: 3px solid #38BDF8;
+        }
+
         .fact-table th {
             color: #94A3B8;
             font-weight: 700;
@@ -219,15 +442,67 @@
             font-weight: 700;
         }
 
-        .hook-box {
-            background: rgba(245, 158, 11, 0.08);
-            border-left: 3px solid #F59E0B;
-            padding: 10px 12px;
-            border-radius: 0 6px 6px 0;
-            font-size: 0.8rem;
-            color: #FDE68A;
-            margin-top: 10px;
-            line-height: 1.5;
+        /* Floating Bottom Player Bar */
+        .floating-player-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(10px);
+            border-top: 1px solid #38BDF8;
+            padding: 10px 14px;
+            display: none;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 1000;
+            box-shadow: 0 -4px 18px rgba(0, 0, 0, 0.5);
+            max-width: 920px;
+            margin: 0 auto;
+        }
+
+        .floating-player-bar.active {
+            display: flex;
+        }
+
+        .floating-info {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            overflow: hidden;
+        }
+
+        .floating-text {
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .floating-title {
+            font-size: 0.82rem;
+            font-weight: 700;
+            color: #F8FAFC;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 250px;
+        }
+
+        .floating-sub {
+            font-size: 0.7rem;
+            color: #38BDF8;
+        }
+
+        .floating-actions {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        @media (max-width: 600px) {
+            .floating-title {
+                max-width: 150px;
+            }
         }
     </style>
 </head>
@@ -236,10 +511,10 @@
         <!-- Header -->
         <div class="header">
             <h1>
-                <span>SSC CGL 2026 — GS Last Revision Capsule</span>
-                <span class="capsule-badge">24 Oct Exam Special</span>
+                <span>SSC CGL 2026 GS Last Revision Capsule</span>
+                <span class="capsule-badge">24 Oct Special</span>
             </h1>
-            <p>High-Yield Cheat Sheet synthesised from 22 Oct Shifts 1 & 2 + 20 Predicted Sets</p>
+            <p>100% Verified High-Yield Facts from 22 Oct Shifts 1 & 2 • 20 GS Sets • 5 Grand Mocks</p>
             <div class="nav-links">
                 <a href="index.html" class="btn-link">🏠 Home</a>
                 <a href="grand_mocks.html" class="btn-link" style="background:linear-gradient(135deg, #F59E0B, #DC2626); color:white; font-weight:700;">🏆 5 Grand Mocks</a>
@@ -249,159 +524,226 @@
             </div>
         </div>
 
-        <!-- Search Bar -->
-        <input type="text" class="search-bar" id="searchInput" placeholder="🔍 Quick search topic, article, festival, award, mineral..." onkeyup="filterNotes()">
-
-        <!-- Category Pills -->
-        <div class="filter-pills">
-            <button class="pill active" onclick="filterCategory('All', this)">All Topics</button>
-            <button class="pill" onclick="filterCategory('Polity', this)">🏛️ Polity & BNS</button>
-            <button class="pill" onclick="filterCategory('Sports', this)">🏆 Sports & Olympics</button>
-            <button class="pill" onclick="filterCategory('Geography', this)">🌍 Geography & Minerals</button>
-            <button class="pill" onclick="filterCategory('Economy', this)">📈 Economy & 1991</button>
-            <button class="pill" onclick="filterCategory('Culture', this)">🎨 Art, Culture & Tribal</button>
-            <button class="pill" onclick="filterCategory('Science', this)">🔬 Science Core</button>
-            <button class="pill" onclick="filterCategory('Current', this)">🌐 Awards & Summits</button>
-        </div>
-
-        <div id="notesContainer">
-
-            <!-- 1. POLITY & NEW CRIMINAL LAWS -->
-            <div class="note-card" data-cat="Polity">
-                <div class="card-header">
-                    <div class="card-title">🏛️ Constitutional Articles & Key Amendments</div>
-                    <span class="card-tag">High Probability</span>
+        <!-- Master Voice Control Panel -->
+        <div class="voice-master-panel">
+            <div class="voice-panel-top">
+                <div class="voice-title-group">
+                    <span class="voice-icon-pulse">🎧</span>
+                    <div class="voice-title-text">
+                        <h3>Audio Revision Mode <span style="font-size:0.7rem; background:#38BDF8; color:#0B1120; padding:1px 6px; border-radius:4px; font-weight:800;">HANDS-FREE</span></h3>
+                        <p>Listen to all key facts on commute or while resting your eyes (Native Web Speech)</p>
+                    </div>
                 </div>
-                <table class="fact-table">
-                    <tr><th>Article / Amendment</th><th>Crucial Exam Fact (Tested / Sister Topic)</th></tr>
-                    <tr><td><b>61st CAA (1988/89)</b></td><td>Lowered voting age from <span class="highlight">21 to 18 years</span> under <b>Article 326</b> (Rajiv Gandhi govt).</td></tr>
-                    <tr><td><b>52nd CAA (1985)</b></td><td>Enacted <span class="highlight">Anti-Defection Law</span>; inserted the <b>10th Schedule</b> into Constitution.</td></tr>
-                    <tr><td><b>42nd CAA (1976)</b></td><td>'Mini-Constitution' — Added <span class="highlight">Socialist, Secular, Integrity</span> to Preamble; added <b>Fundamental Duties (Art 51A)</b>.</td></tr>
-                    <tr><td><b>44th CAA (1978)</b></td><td>Deleted Right to Property from Fundamental Rights; made it a legal right under <span class="highlight">Article 300A</span>.</td></tr>
-                    <tr><td><b>86th CAA (2002)</b></td><td>Inserted <span class="highlight">Article 21A</span> (Right to Free & Compulsory Education for ages 6–14).</td></tr>
-                    <tr><td><b>91st CAA (2003)</b></td><td>Capped size of Council of Ministers at <span class="highlight">15% of Lok Sabha strength</span> (minimum 12 in states).</td></tr>
-                    <tr><td><b>Article 110</b></td><td><b>Money Bill:</b> Only introduced in Lok Sabha; <span class="warning">Speaker's certificate is final</span> and conclusive.</td></tr>
-                    <tr><td><b>Article 113</b></td><td><b>Demands for Grants:</b> No demand for grant can be made except on <span class="highlight">recommendation of the President</span>.</td></tr>
-                    <tr><td><b>Article 114</b></td><td><b>Appropriation Bill:</b> No money can be withdrawn from Consolidated Fund without this Act.</td></tr>
-                    <tr><td><b>Article 131</b></td><td><b>Exclusive Original Jurisdiction</b> of Supreme Court (Centre vs State or State vs State disputes).</td></tr>
-                    <tr><td><b>Article 148</b></td><td><b>Comptroller and Auditor General (CAG)</b> of India — appointed by President (6 yrs / 65 age).</td></tr>
-                    <tr><td><b>Article 243-D & 243-K</b></td><td><b>Panchayats:</b> Art 243-D = Reservation of seats (min 1/3rd for women); Art 243-K = State Election Commission.</td></tr>
-                    <tr><td><b>Article 266 vs 267</b></td><td>Art 266 = Consolidated Fund & Public Account; <span class="highlight">Art 267 = Contingency Fund of India</span> (under President).</td></tr>
-                    <tr><td><b>Article 312</b></td><td><b>All India Services:</b> Created exclusively by <span class="warning">Rajya Sabha resolution</span> (2/3rd majority).</td></tr>
-                    <tr><td><b>Article 324</b></td><td><b>Election Commission:</b> President determines conditions of service subject to law made by Parliament.</td></tr>
-                    <tr><td><b>Article 356</b></td><td><b>President's Rule:</b> Maximum permissible period in a State is <span class="highlight">3 years</span> (6 months at a time).</td></tr>
-                </table>
-                <div class="hook-box">
-                    ⚡ <b>BNS New Criminal Laws Quick Code:</b><br>
-                    • <b>Sec 69:</b> Deceitful promise of marriage.<br>
-                    • <b>Sec 103:</b> Murder & Mob Lynching penalty.<br>
-                    • <b>Sec 111:</b> Organised Crime.<br>
-                    • <b>Sec 113:</b> Terrorist Acts.<br>
-                    • <b>Sec 152:</b> Endangering sovereignty/integrity (replaces IPC Sedition 124A).<br>
-                    • <b>BNSS Sec 479:</b> Undertrial bail eligibility after serving <span class="highlight">1/3rd maximum imprisonment</span> for first-time offenders.
+                <div class="voice-speed-wrapper">
+                    <span>Speed:</span>
+                    <select id="voiceSpeedSelect" class="voice-speed-select" onchange="changeVoiceSpeed(this.value)">
+                        <option value="0.85">0.85x (Slow)</option>
+                        <option value="1.0" selected>1.0x (Normal)</option>
+                        <option value="1.25">1.25x (Fast)</option>
+                        <option value="1.5">1.5x (Speed)</option>
+                        <option value="1.8">1.8x (Ultra)</option>
+                    </select>
                 </div>
             </div>
 
-            <!-- 2. SPORTS & MAJOR EVENTS -->
-            <div class="note-card" data-cat="Sports">
+            <div class="voice-controls-row">
+                <div class="voice-btn-group">
+                    <button id="btnMasterPlay" class="btn-voice btn-voice-play" onclick="toggleMasterSpeech()">
+                        <span id="masterPlayIcon">▶</span> <span id="masterPlayText">Listen to All Notes</span>
+                    </button>
+                    <button class="btn-voice btn-voice-stop" onclick="stopSpeech()">⏹ Stop</button>
+                    <button class="btn-voice btn-voice-nav" onclick="jumpSection(-1)" title="Previous Topic">⏮ Prev</button>
+                    <button class="btn-voice btn-voice-nav" onclick="jumpSection(1)" title="Next Topic">⏭ Next</button>
+                </div>
+
+                <div class="voice-status-line" id="voiceStatusLine">
+                    <span>Status: Ready to play 8 revision cards</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Search Bar -->
+        <input type="text" id="searchInput" class="search-bar" placeholder="🔍 Search any article, mineral, sports, person, or term..." onkeyup="filterNotes()">
+
+        <!-- Filter Pills -->
+        <div class="filter-pills">
+            <div class="pill active" onclick="filterCategory('All', this)">All Topics</div>
+            <div class="pill" onclick="filterCategory('Polity', this)">Polity & BNS</div>
+            <div class="pill" onclick="filterCategory('Sports', this)">Sports & World Cups</div>
+            <div class="pill" onclick="filterCategory('Geography', this)">Geography & Minerals</div>
+            <div class="pill" onclick="filterCategory('Economy', this)">Economy & 1991</div>
+            <div class="pill" onclick="filterCategory('Culture', this)">Art & Culture</div>
+            <div class="pill" onclick="filterCategory('Current', this)">Modi Awards & Indices</div>
+            <div class="pill" onclick="filterCategory('Science', this)">Science Core</div>
+            <div class="pill" onclick="filterCategory('English', this)">English Vocab & Idioms</div>
+        </div>
+
+        <!-- Notes List -->
+        <div class="notes-list" id="notesList">
+
+            <!-- Card 1: Polity -->
+            <div class="note-card" data-cat="Polity" id="card-0">
                 <div class="card-header">
-                    <div class="card-title">🏆 Sports Milestones & World Cups</div>
-                    <span class="card-tag">Hot Topic</span>
+                    <div class="card-title">
+                        <span>🏛️</span> Constitutional Articles & Key Amendments
+                    </div>
+                    <div class="card-header-actions">
+                        <button class="btn-card-listen" onclick="playCardByIndex(0)">🔊 Listen</button>
+                        <span class="card-tag">Polity</span>
+                    </div>
                 </div>
                 <table class="fact-table">
-                    <tr><th>Event</th><th>Key Exam Facts to Remember</th></tr>
-                    <tr><td><b>Paris Olympics 2024</b></td><td>India won <span class="highlight">6 Medals (1 Silver, 5 Bronze)</span>; Rank: 71st.<br>• Silver: <b>Neeraj Chopra</b> (Javelin — 89.45 m).<br>• Bronze: <b>Manu Bhaker</b> (Women's 10m Air Pistol).<br>• Bronze: <b>Manu Bhaker & Sarabjot Singh</b> (10m Mixed Team).<br>• Bronze: <b>Swapnil Kusale</b> (Men's 50m Rifle 3 Positions).<br>• Bronze: <b>Indian Men's Hockey Team</b> (beat Spain 2–1).<br>• Bronze: <b>Aman Sehrawat</b> (Wrestling 57 kg — youngest Indian medallist at 21).</td></tr>
-                    <tr><td><b>Paris Paralympics 2024</b></td><td>India's best-ever tally: <span class="highlight">29 Medals (7 Gold, 9 Silver, 13 Bronze)</span>; Rank: 18th.<br>• Gold: Avani Lekhara (Shooting), Sumit Antil (Javelin), Harvinder Singh (Archery), Navdeep Singh (Javelin).</td></tr>
+                    <tr><th>Article / Amendment</th><th>Crucial Exam Fact (Direct & Sister)</th></tr>
+                    <tr><td><b>61st CAA (1988)</b></td><td>Lowered voting age from <span class="highlight">21 to 18 years</span> for Lok Sabha & Vidhan Sabha elections (Amended Article 326). Came into force 28 March 1989.</td></tr>
+                    <tr><td><b>42nd CAA (1976)</b></td><td>Known as the <span class="highlight">"Mini-Constitution"</span>. Added words <b>"Socialist, Secular, Integrity"</b> to Preamble. Added Fundamental Duties (Part IVA, Article 51A) on recommendation of Swaran Singh Committee.</td></tr>
+                    <tr><td><b>44th CAA (1978)</b></td><td>Removed <span class="warning">Right to Property</span> from Fundamental Rights (made ordinary Legal Right under Article 300A). Replaced "internal disturbance" with "armed rebellion" in Article 352.</td></tr>
+                    <tr><td><b>86th CAA (2002)</b></td><td>Inserted <span class="highlight">Article 21A</span> (Free & compulsory education for children 6–14 years as Fundamental Right). Added 11th Fundamental Duty (51A-k). RTE Act passed in 2009.</td></tr>
+                    <tr><td><b>91st CAA (2003)</b></td><td>Capped Council of Ministers at <span class="highlight">15%</span> of Lok Sabha / Legislative Assembly total strength. Minimum 12 in states.</td></tr>
+                    <tr><td><b>Article 110</b></td><td><b>Money Bill</b>: Speaker of Lok Sabha decides finally whether a bill is a Money Bill or not. Rajya Sabha can delay for max 14 days.</td></tr>
+                    <tr><td><b>Article 112</b></td><td><b>Annual Financial Statement</b> (popularly known as the Union Budget). Presented by Finance Minister.</td></tr>
+                    <tr><td><b>Article 113</b></td><td>Procedure regarding estimates: <span class="highlight">Demands for Grants</span> are voted exclusively in the Lok Sabha. Rajya Sabha has no voting power on demands.</td></tr>
+                    <tr><td><b>Article 114</b></td><td><b>Appropriation Bill</b>: No money shall be withdrawn from the Consolidated Fund of India except under appropriation made by law.</td></tr>
+                    <tr><td><b>Article 148</b></td><td><b>Comptroller and Auditor General of India (CAG)</b>: Guardian of public purse. Submits audit reports to President under Article 151.</td></tr>
+                    <tr><td><b>Article 280</b></td><td><b>Finance Commission</b>: Quasi-judicial body constituted every 5 years by President. 16th Finance Commission Chairman is <span class="highlight">Dr. Arvind Panagariya</span>.</td></tr>
+                    <tr><td><b>Article 312</b></td><td><b>All-India Services</b>: Rajya Sabha alone can initiate creation of new All-India Services by a 2/3rd resolution.</td></tr>
+                    <tr><td><b>Article 324</b></td><td>Superintendence, direction and control of elections vested in the <b>Election Commission of India</b>.</td></tr>
+                    <tr><td><b>Article 356</b></td><td>President's Rule (State Emergency). Maximum duration permissible with Parliamentary approval is <span class="highlight">3 years</span>.</td></tr>
+                    <tr><td><b>BNS / BNSS Changes</b></td><td>Came into force on <span class="highlight">1 July 2024</span>:<br>• <b>BNS Sec 152:</b> Replaced Sedition (IPC 124A) with "Acts endangering sovereignty, unity and integrity of India".<br>• <b>BNS Sec 69:</b> Sexual intercourse on deceitful promise to marry / deceitful employment.<br>• <b>BNS Sec 103(2):</b> Mob lynching by 5+ persons penalized by death or life imprisonment.<br>• <b>BNSS Sec 479:</b> Bail for first-time undertrial offenders after serving 1/3rd maximum imprisonment.</td></tr>
+                </table>
+            </div>
+
+            <!-- Card 2: Sports -->
+            <div class="note-card" data-cat="Sports" id="card-1">
+                <div class="card-header">
+                    <div class="card-title">
+                        <span>🏆</span> Sports Milestones & World Cups
+                    </div>
+                    <div class="card-header-actions">
+                        <button class="btn-card-listen" onclick="playCardByIndex(1)">🔊 Listen</button>
+                        <span class="card-tag">Sports</span>
+                    </div>
+                </div>
+                <table class="fact-table">
+                    <tr><th>Event / Tournament</th><th>Exact Facts & Winners</th></tr>
                     <tr><td><b>ICC Women's T20 WC 2024</b></td><td>Held <span class="highlight">3–20 October 2024</span> in <b>UAE (Dubai & Sharjah)</b>.<br>• Champion: <span class="highlight">New Zealand</span> (maiden title, beat South Africa by 32 runs).<br>• Player of Tournament: <b>Amelia Kerr</b>.</td></tr>
+                    <tr><td><b>Paris Olympics 2024</b></td><td>India won <span class="highlight">6 Medals (1 Silver, 5 Bronze)</span>; Rank: 71st.<br>• Silver: <b>Neeraj Chopra</b> (Javelin — 89.45 m; Pakistan's Arshad Nadeem took Gold at 92.97 m).<br>• Bronze: <b>Manu Bhaker</b> (Women's 10m Air Pistol).<br>• Bronze: <b>Manu Bhaker & Sarabjot Singh</b> (10m Mixed Team).<br>• Bronze: <b>Swapnil Kusale</b> (Men's 50m Rifle 3 Positions).<br>• Bronze: <b>Indian Men's Hockey Team</b> (beat Spain 2–1).<br>• Bronze: <b>Aman Sehrawat</b> (Wrestling 57 kg — youngest Indian medallist at 21).</td></tr>
+                    <tr><td><b>Paris Paralympics 2024</b></td><td>India won historic record <span class="highlight">29 Medals (7 Gold, 9 Silver, 13 Bronze)</span>; Overall Rank: <b>18th</b>. Flagbearers: Sumit Antil & Bhagyashri Jadhav.</td></tr>
                     <tr><td><b>ICC Men's T20 WC 2024</b></td><td>Held June 2024 in USA/West Indies.<br>• Champion: <span class="highlight">India</span> (beat South Africa in final at Barbados).<br>• Player of Tournament: <b>Jasprit Bumrah</b>; Final MoM: <b>Virat Kohli</b> (76).</td></tr>
                     <tr><td><b>ICC Women's ODI WC 2025</b></td><td>Host country is <span class="highlight">India</span> (50-over format).</td></tr>
                     <tr><td><b>Los Angeles 2028 Olympics</b></td><td><span class="highlight">Cricket (T20 format)</span> officially included after 128 years (last played 1900).</td></tr>
                     <tr><td><b>45th Chess Olympiad 2024</b></td><td>Held in Budapest (Hungary). India won <span class="highlight">Historic Double Gold</span> (Both Open & Women's teams!). Gukesh D & Arjun Erigaisi starred.</td></tr>
-                    <tr><td><b>Hangzhou Asian Games 2022</b></td><td>• Badminton Gold: <span class="highlight">Satwiksairaj Rankireddy & Chirag Shetty</span> (Men's Doubles — 1st ever badminton gold).<br>• Equestrian Gold: Dressage Team won gold after a <b>41-year drought</b>!</td></tr>
+                    <tr><td><b>Hangzhou Asian Games 2022</b></td><td>Satwiksairaj Rankireddy & Chirag Shetty won India's <span class="highlight">first-ever Badminton Gold</span> in Asian Games history. Equestrian team won Dressage Gold after 41 years.</td></tr>
                 </table>
             </div>
 
-            <!-- 3. GEOGRAPHY & MINERAL BELTS -->
-            <div class="note-card" data-cat="Geography">
+            <!-- Card 3: Geography -->
+            <div class="note-card" data-cat="Geography" id="card-2">
                 <div class="card-header">
-                    <div class="card-title">🌍 Geography, Mountain Passes & Minerals</div>
-                    <span class="card-tag">Shift 1 & 2 Core</span>
+                    <div class="card-title">
+                        <span>🌍</span> Geography, Mountain Passes & Minerals
+                    </div>
+                    <div class="card-header-actions">
+                        <button class="btn-card-listen" onclick="playCardByIndex(2)">🔊 Listen</button>
+                        <span class="card-tag">Geography</span>
+                    </div>
                 </div>
                 <table class="fact-table">
-                    <tr><th>Topic</th><th>Core Facts & Locations</th></tr>
-                    <tr><td><b>Kashmir Valley</b></td><td>Lies between the <span class="highlight">Great Himalayas</span> (northeast) and the <span class="highlight">Pir Panjal Range</span> (southwest). Drained by <b>Jhelum River</b>; famous for lacustrine <b>Karewas</b> (saffron cultivation).</td></tr>
-                    <tr><td><b>Banihal Pass & Jawahar Tunnel</b></td><td>Located in <span class="highlight">Pir Panjal Range</span> on NH 44 connecting Jammu with Srinagar.</td></tr>
-                    <tr><td><b>Duns</b></td><td>Longitudinal structural valleys between Lesser Himalayas & Outer Shivaliks (<span class="highlight">Dehradun</span> is largest).</td></tr>
-                    <tr><td><b>Bauxite in MP</b></td><td>Mined in the <span class="highlight">Amarkantak Plateau</span> (Anuppur, Balaghat, Katni, Shahdol districts).<br>• <i>National #1:</i> <b>Odisha</b> (>50% output; Panchpatmali, Koraput).</td></tr>
-                    <tr><td><b>Copper in MP</b></td><td><span class="highlight">Malanjkhand Copper Mine</span> (Balaghat district, MP) — largest open-cast copper mine in India (~50% reserves).</td></tr>
-                    <tr><td><b>Manganese in MP</b></td><td><span class="highlight">Bharweli Mine</span> (Balaghat district) — largest underground manganese mine in Asia.</td></tr>
-                    <tr><td><b>Kuno National Park</b></td><td>Located in <span class="highlight">Sheopur & Morena districts, MP</span> — home of <b>Project Cheetah</b> (translocated from Namibia & South Africa).</td></tr>
-                    <tr><td><b>Keibul Lamjao National Park</b></td><td>Located on <span class="highlight">Loktak Lake, Manipur</span> — <b>world's only floating national park</b>, home to endangered <b>Sangai brow-antlered deer</b> on floating biomass (phumdis).</td></tr>
-                    <tr><td><b>Gharial Sanctuary</b></td><td><span class="highlight">National Chambal Sanctuary</span> (tri-junction of MP, Rajasthan, UP) — primary stronghold of Critically Endangered fish-eating crocodile.</td></tr>
-                    <tr><td><b>National Aquatic Animal</b></td><td><span class="highlight">Gangetic River Dolphin</span> (<i>Platanista gangetica</i>) — blind, echolocating (Susu). Dedicated reserve at <b>Vikramshila Sanctuary, Bihar</b>.</td></tr>
-                    <tr><td><b>First Dugong Reserve</b></td><td>India's first Dugong (Sea Cow) Conservation Reserve notified in <span class="highlight">Palk Bay, Tamil Nadu</span>.</td></tr>
+                    <tr><th>Geographical Entity</th><th>Exact Exam Data</th></tr>
+                    <tr><td><b>Kashmir Valley Location</b></td><td>Lies between the <span class="highlight">Great Himalayas (Himadri)</span> to the northeast and the <span class="highlight">Pir Panjal Range</span> (Middle/Lesser Himalayas) to the southwest.</td></tr>
+                    <tr><td><b>Pir Panjal & Banihal Pass</b></td><td>Banihal Pass cuts across the Pir Panjal Range connecting Jammu to Srinagar. It houses the famous <span class="highlight">Jawahar Tunnel</span>.</td></tr>
+                    <tr><td><b>Copper in MP</b></td><td><span class="highlight">Malanjkhand Copper Belt</span> in Balaghat district of Madhya Pradesh produces over 50% of India's copper ore (operated by Hindustan Copper Ltd).</td></tr>
+                    <tr><td><b>Bauxite in MP</b></td><td>Found abundantly in the <span class="highlight">Amarkantak Plateau</span>, Maikala range, and Katni/Jabalpur districts. (Odisha is #1 overall producer in India).</td></tr>
+                    <tr><td><b>Diamonds in MP</b></td><td><span class="highlight">Panna Diamond Mines</span> (Majhgawan pipe) in MP is the only active mechanized diamond mine in India, operated by NMDC.</td></tr>
+                    <tr><td><b>Gold in India</b></td><td><span class="highlight">Hutti Gold Mines</span> (Raichur, Karnataka) is currently the only active primary gold-producing mine in India. Kolar (KGF) is historic.</td></tr>
+                    <tr><td><b>Kuno National Park</b></td><td>Located in Sheopur district, Madhya Pradesh. Selected for <span class="highlight">Project Cheetah</span> (reintroduction from Namibia in Sep 2022 and South Africa in Feb 2023).</td></tr>
+                    <tr><td><b>India's 1st Dugong Reserve</b></td><td>Established in <span class="highlight">Palk Bay</span>, Tamil Nadu (protects herbivorous marine mammal Dugong / Sea Cow).</td></tr>
+                    <tr><td><b>Keibul Lamjao National Park</b></td><td>World's only <span class="highlight">floating national park</span>, located on Loktak Lake, Manipur. Famous for floating decomposed plant masses called <b>Phumdis</b> and the endangered <b>Sangai deer</b> (Rucervus eldii).</td></tr>
+                    <tr><td><b>Highest Peak in South India</b></td><td><span class="highlight">Anamudi</span> (2,695 m) in the Anaimalai Hills, Kerala (also highest in Western Ghats). Doddabetta (2,637 m) is highest in Nilgiris.</td></tr>
+                    <tr><td><b>Highest Peak in Eastern Ghats</b></td><td><span class="highlight">Jindhagada Peak</span> (1,690 m) in Araku Valley, Andhra Pradesh (followed by Arma Konda).</td></tr>
                 </table>
             </div>
 
-            <!-- 4. ECONOMY & 1991 REFORMS -->
-            <div class="note-card" data-cat="Economy">
+            <!-- Card 4: Economy -->
+            <div class="note-card" data-cat="Economy" id="card-3">
                 <div class="card-header">
-                    <div class="card-title">📈 Economy, 1991 Reforms & Banking History</div>
-                    <span class="card-tag">High-Yield</span>
+                    <div class="card-title">
+                        <span>📈</span> Economy, 1991 Reforms & Banking History
+                    </div>
+                    <div class="card-header-actions">
+                        <button class="btn-card-listen" onclick="playCardByIndex(3)">🔊 Listen</button>
+                        <span class="card-tag">Economy</span>
+                    </div>
                 </div>
                 <table class="fact-table">
-                    <tr><th>Theme</th><th>Key Data & Dates</th></tr>
-                    <tr><td><b>1991 Economic Reforms</b></td><td>• Prime Minister: <b>P.V. Narasimha Rao</b>; Finance Minister: <b>Dr. Manmohan Singh</b>.<br>• New Industrial Policy announced on <span class="highlight">24 July 1991</span> (dismantled License Raj).<br>• Rupee devalued in 2 steps on <span class="highlight">1 July & 3 July 1991</span>.<br>• Currently only 2 sectors reserved for public sector: <b>Atomic Energy</b> & <b>Core Railway Operations</b>.</td></tr>
-                    <tr><td><b>Bank Nationalisation</b></td><td>• 1st Phase: <span class="highlight">19 July 1969</span> — 14 major commercial banks nationalised by Indira Gandhi.<br>• 2nd Phase: <span class="highlight">15 April 1980</span> — 6 more commercial banks nationalised.</td></tr>
-                    <tr><td><b>Key Institutions</b></td><td>• <b>NABARD:</b> Established on <span class="highlight">12 July 1982</span> on recommendation of <b>B. Sivaraman Committee</b>.<br>• <b>SEBI:</b> Established 1988; granted statutory powers under <b>SEBI Act, 1992</b>.<br>• <b>NITI Aayog:</b> Established on <span class="highlight">1 January 2015</span> replacing Planning Commission (Chairman: PM).</td></tr>
-                    <tr><td><b>Budget Deficit Formulas</b></td><td>• <b>Fiscal Deficit:</b> Total Expenditure - (Revenue Receipts + Non-debt Capital Receipts).<br>• <b>Revenue Deficit:</b> Revenue Expenditure - Revenue Receipts.<br>• <span class="highlight">Primary Deficit:</span> <b>Fiscal Deficit - Interest Payments</b>.</td></tr>
-                    <tr><td><b>Welfare Schemes Timeline</b></td><td>• <b>ICDS:</b> Launched on <span class="highlight">2 October 1975</span> (Child nutrition & immunization).<br>• <b>Mid-Day Meal:</b> Launched on <span class="highlight">15 August 1995</span> (renamed <b>PM POSHAN</b> in 2021).<br>• <b>MGNREGA:</b> Act passed 2005; launched on <span class="highlight">2 February 2006</span> (100 days wage employment).<br>• <b>PM-KISAN:</b> Launched on <span class="highlight">24 February 2019</span> (₹6,000/year in 3 equal installments).</td></tr>
+                    <tr><th>Economic Milestone</th><th>Key Exam Facts</th></tr>
+                    <tr><td><b>1991 LPG Reforms</b></td><td>Prime Minister was <span class="highlight">P. V. Narasimha Rao</span>; Finance Minister was <span class="highlight">Dr. Manmohan Singh</span>.<br>• Policy: Liberalisation, Privatisation, and Globalisation.<br>• Triggered by Balance of Payments (BoP) crisis with foreign reserves falling to barely 2–3 weeks of imports.</td></tr>
+                    <tr><td><b>Rupee Devaluation 1991</b></td><td>Conducted in two quick steps on <span class="highlight">1 July 1991 (~9%)</span> and <span class="highlight">3 July 1991 (~11%)</span> to boost exports and stem capital flight.</td></tr>
+                    <tr><td><b>SEBI Statutory Status</b></td><td>SEBI was created in 1988 as non-statutory body, but gained <span class="highlight">full statutory regulatory powers</span> via the <b>SEBI Act, 1992</b> following the Harshad Mehta securities scam.</td></tr>
+                    <tr><td><b>1st Bank Nationalisation (1969)</b></td><td>On <span class="highlight">19 July 1969</span>, PM Indira Gandhi nationalised <b>14 major commercial banks</b> having deposits of ₹50 crore or more.</td></tr>
+                    <tr><td><b>2nd Bank Nationalisation (1980)</b></td><td>On <span class="highlight">15 April 1980</span>, <b>6 more banks</b> with deposits of ₹200 crore or more were nationalised.</td></tr>
+                    <tr><td><b>NITI Aayog</b></td><td>Established on <span class="highlight">1 January 2015</span> replacing the Planning Commission. Chairperson: Prime Minister. Ex-officio Think Tank.</td></tr>
+                    <tr><td><b>16th Finance Commission</b></td><td>Constituted under Article 280 for recommendations covering 2026–2031. Chairman: <span class="highlight">Dr. Arvind Panagariya</span> (former Vice-Chairman of NITI Aayog).</td></tr>
                 </table>
             </div>
 
-            <!-- 5. ART, CULTURE & TRIBAL FESTIVALS -->
-            <div class="note-card" data-cat="Culture">
+            <!-- Card 5: Culture -->
+            <div class="note-card" data-cat="Culture" id="card-4">
                 <div class="card-header">
-                    <div class="card-title">🎨 Art, Culture, Festivals & Music Maestros</div>
-                    <span class="card-tag">Shift 1 & 2 Focus</span>
+                    <div class="card-title">
+                        <span>🎨</span> Art, Culture, Festivals & Music Maestros
+                    </div>
+                    <div class="card-header-actions">
+                        <button class="btn-card-listen" onclick="playCardByIndex(4)">🔊 Listen</button>
+                        <span class="card-tag">Culture</span>
+                    </div>
                 </div>
                 <table class="fact-table">
-                    <tr><th>Item</th><th>State / Tradition / Significance</th></tr>
-                    <tr><td><b>Hornbill Festival</b></td><td><span class="highlight">Nagaland</span> (1–10 December at Kisama Village, Kohima). Known as the <b>'Festival of Festivals'</b> because all 16 major Naga tribes celebrate together.</td></tr>
-                    <tr><td><b>Wangala Festival</b></td><td><span class="highlight">Meghalaya</span> — Known as the <b>'100 Drums Festival'</b> celebrated by the <b>Garo tribe</b> in honour of the Sun God 'Saljong'.</td></tr>
-                    <tr><td><b>Chapchar Kut</b></td><td><span class="highlight">Mizoram</span> — Spring post-jhum clearing festival famous for the <b>Cheraw (Bamboo) dance</b>.</td></tr>
-                    <tr><td><b>Pawl Kut & Mim Kut</b></td><td><span class="highlight">Mizoram</span> — Harvest festivals (Pawl Kut = Dec–Jan straw harvest).</td></tr>
-                    <tr><td><b>Sarod Maestros</b></td><td><b>Pandit Buddhadev Das Gupta</b> (Kolkata, Shahjahanpur gharana) & <b>Ustad Ali Akbar Khan</b> (Maihar gharana) = <span class="highlight">SAROD</span>.</td></tr>
-                    <tr><td><b>Baul Tradition</b></td><td><b>Purna Das Baul</b> ('Baul Samrat' of West Bengal) = plays the <span class="highlight">Ektara</span> (one-stringed drone) and Dotara/Khamak.</td></tr>
-                    <tr><td><b>Ancient Inscriptions</b></td><td>• <b>Aihole Inscription:</b> Composed by court poet Ravikirti praising Chalukya King <span class="highlight">Pulakeshin II</span>.<br>• <b>Prayag Prashasti:</b> Composed by Harisena praising Gupta King <span class="highlight">Samudragupta</span>.<br>• <b>Uttaramerur Inscription:</b> 10th-century Chola inscription (Parantaka I) detailing <span class="highlight">village assembly local democracy & Kudavolai ballot</span>.</td></tr>
-                    <tr><td><b>UNESCO 42nd Site</b></td><td><span class="highlight">Sacred Ensembles of the Hoysalas</span> (Belur, Halebidu, Somanathapura in Karnataka) — famous for soapstone star-shaped (stellate) temples.</td></tr>
+                    <tr><th>Cultural Element</th><th>Core Details & Associations</th></tr>
+                    <tr><td><b>Hornbill Festival</b></td><td>Known as the <span class="highlight">"Festival of Festivals"</span>. Celebrated annually from <b>1 to 10 December</b> at <b>Kisama Heritage Village</b> near Kohima, Nagaland. Named after the great Indian hornbill bird.</td></tr>
+                    <tr><td><b>Wangala Festival</b></td><td>The famous <span class="highlight">"100 Drums Festival"</span> of the <b>Garo tribe</b> in Meghalaya. A post-harvest thanksgiving festival dedicated to Misi Saljong (Sun God).</td></tr>
+                    <tr><td><b>Chapchar Kut</b></td><td>Celebrated in <span class="highlight">Mizoram</span> in March upon completion of clearing bamboo forests for Jhum (shifting) cultivation. Famous for Cheraw (bamboo dance).</td></tr>
+                    <tr><td><b>Baul Folk Music</b></td><td>Mystic minstrel folk songs of <span class="highlight">West Bengal</span> & Bangladesh. Recognized by UNESCO Intangible Cultural Heritage. Lead instruments: <b>Ektara</b> (single-string drone) and Dotara.</td></tr>
+                    <tr><td><b>Sarod Maestros</b></td><td>Legendary exponents: <span class="highlight">Pt. Buddhadev Das Gupta</span>, <b>Ustad Ali Akbar Khan</b>, <b>Ustad Amjad Ali Khan</b>.</td></tr>
+                    <tr><td><b>Santoor Maestros</b></td><td>Pt. Shivkumar Sharma, Bhajan Sopori (classical Kashmiri stringed instrument played with wooden mallets).</td></tr>
+                    <tr><td><b>Shehnai Maestro</b></td><td>Ustad Bismillah Khan (Bharat Ratna 2001, played from Red Fort on 15 August 1947).</td></tr>
+                    <tr><td><b>Hoysala Temples (42nd UNESCO Site)</b></td><td>Carved out of <span class="highlight">Chloritic Schist (Soapstone)</span> at Belur, Halebidu, and Somanathapura in Karnataka (12th–13th century stellate star-shaped platform).</td></tr>
                 </table>
             </div>
 
-            <!-- 6. CURRENT AFFAIRS & AWARDS -->
-            <div class="note-card" data-cat="Current">
+            <!-- Card 6: Current -->
+            <div class="note-card" data-cat="Current" id="card-5">
                 <div class="card-header">
-                    <div class="card-title">🌐 Foreign Honours to PM Modi & Global Indices</div>
-                    <span class="card-tag">Repeated Pattern</span>
+                    <div class="card-title">
+                        <span>🌐</span> Foreign Honours to PM Modi & Global Indices
+                    </div>
+                    <div class="card-header-actions">
+                        <button class="btn-card-listen" onclick="playCardByIndex(5)">🔊 Listen</button>
+                        <span class="card-tag">Current Affairs</span>
+                    </div>
                 </div>
                 <table class="fact-table">
-                    <tr><th>Award / Index</th><th>Country / Org & Details</th></tr>
-                    <tr><td><b>Sri Lanka Mitra Vibhushana (2025)</b></td><td>Conferred by <span class="highlight">Sri Lanka</span> (President Anura Kumara Dissanayake). PM Modi became the <b>first Indian recipient</b>.</td></tr>
-                    <tr><td><b>Order of St. Andrew the Apostle (July 2024)</b></td><td><span class="highlight">Russia's</span> highest civilian honour presented by President Vladimir Putin in Moscow.</td></tr>
-                    <tr><td><b>Order of the Druk Gyalpo (March 2024)</b></td><td><span class="highlight">Bhutan's</span> highest civilian honour presented by King Jigme Khesar Namgyel Wangchuck.</td></tr>
-                    <tr><td><b>Grand Cross of Legion of Honour (2023)</b></td><td><span class="highlight">France's</span> highest honour presented on Bastille Day.</td></tr>
-                    <tr><td><b>Order of the Nile (2023)</b></td><td><span class="highlight">Egypt's</span> highest state honour.</td></tr>
-                    <tr><td><b>World Happiness Index 2024</b></td><td>Published by <span class="highlight">UN SDSN</span>.<br>• Rank #1: <b>Finland</b> (7th consecutive year).<br>• India's Rank: <span class="warning">126th</span>.</td></tr>
-                    <tr><td><b>Human Development Index (HDI)</b></td><td>Published by <span class="highlight">UNDP</span> (Amartya Sen & Mahbub ul Haq). Based on 3 pillars: <b>Health</b> (Life Expectancy), <b>Education</b> (Years of schooling), <b>Income</b> (GNI per capita).</td></tr>
-                    <tr><td><b>IMEC Corridor</b></td><td><b>India-Middle East-Europe Economic Corridor:</b> MoU signed on 9 Sep 2023 at G20 New Delhi with <b>8 signatories</b>. Indian gateway ports: <span class="highlight">JNPT & Mundra</span>; Mediterranean ports: <span class="highlight">Haifa & Piraeus</span>.</td></tr>
+                    <tr><th>Honor / Index</th><th>Key Facts</th></tr>
+                    <tr><td><b>Sri Lanka (2024)</b></td><td>Conferred <span class="highlight">Mitra Vibhushana Award</span> on PM Narendra Modi in recognition of India's multi-billion economic lifeline during Sri Lanka's financial crisis.</td></tr>
+                    <tr><td><b>Russia (2024)</b></td><td>Conferred Russia's highest civilian honor: <span class="highlight">Order of St. Andrew the Apostle</span> in Moscow (July 2024).</td></tr>
+                    <tr><td><b>Bhutan (2024)</b></td><td>Conferred Bhutan's highest civilian decoration: <span class="highlight">Order of the Druk Gyalpo</span> (first foreign head of government to receive it).</td></tr>
+                    <tr><td><b>France (2023)</b></td><td>Conferred <span class="highlight">Grand Cross of the Legion of Honour</span> (highest French civilian & military honor).</td></tr>
+                    <tr><td><b>Egypt (2023)</b></td><td>Conferred <span class="highlight">Order of the Nile</span>.</td></tr>
+                    <tr><td><b>World Happiness Report 2024</b></td><td>Published by UN Sustainable Development Solutions Network (<span class="highlight">SDSN</span>).<br>• India Rank: <span class="warning">126th</span> (out of 143 countries).<br>• Rank 1: <span class="highlight">Finland</span> (7th consecutive year).</td></tr>
+                    <tr><td><b>Global Peace Index 2024</b></td><td>Published by Institute for Economics & Peace (IEP).<br>• India Rank: <span class="warning">116th</span>.<br>• Rank 1: <span class="highlight">Iceland</span> (most peaceful country since 2008).</td></tr>
+                    <tr><td><b>IMEC Corridor</b></td><td><b>India-Middle East-Europe Economic Corridor</b> launched at New Delhi G20 Summit (9 Sep 2023). Signatories include India, US, UAE, Saudi Arabia, France, Germany, Italy, EU.</td></tr>
                 </table>
             </div>
 
-            <!-- 7. SCIENCE CORE -->
-            <div class="note-card" data-cat="Science">
+            <!-- Card 7: Science -->
+            <div class="note-card" data-cat="Science" id="card-6">
                 <div class="card-header">
-                    <div class="card-title">🔬 General Science High-Yield Fact Sheet</div>
-                    <span class="card-tag">Direct Questions</span>
+                    <div class="card-title">
+                        <span>🔬</span> General Science High-Yield Fact Sheet
+                    </div>
+                    <div class="card-header-actions">
+                        <button class="btn-card-listen" onclick="playCardByIndex(6)">🔊 Listen</button>
+                        <span class="card-tag">Science</span>
+                    </div>
                 </div>
                 <table class="fact-table">
                     <tr><th>Concept</th><th>Exact Exam Principle</th></tr>
@@ -410,14 +752,134 @@
                     <tr><td><b>Heart Pacemaker</b></td><td><span class="highlight">Sinoatrial (SA) Node</span> located in the right atrium initiates rhythmic electrical impulses.</td></tr>
                     <tr><td><b>Excretory Unit</b></td><td><span class="highlight">Nephron</span> (Glomerulus + Bowman's capsule performs Ultrafiltration).</td></tr>
                     <tr><td><b>Phosphorus Allotropes</b></td><td>• <b>White Phosphorus:</b> Highly toxic, chemiluminescent, catches fire spontaneously in air, stored under water.<br>• <span class="highlight">Red Phosphorus:</span> Stable, non-toxic, used in matchstick heads with sand & glue.</td></tr>
-                    <tr><td><b>Plaster of Paris</b></td><td>Chemical formula: <span class="highlight">CaSO₄ · ½H₂O</span> (Calcium Sulphate Hemihydrate). Formed by heating Gypsum ($CaSO_4 \cdot 2H_2O$) at 373 K.</td></tr>
+                    <tr><td><b>Plaster of Paris</b></td><td>Chemical formula: <span class="highlight">CaSO₄ · ½H₂O</span> (Calcium Sulphate Hemihydrate). Formed by heating Gypsum (CaSO₄ · 2H₂O) at 373 Kelvin (100°C).</td></tr>
+                </table>
+            </div>
+
+            <!-- Card 8: English -->
+            <div class="note-card" data-cat="English" id="card-7">
+                <div class="card-header">
+                    <div class="card-title">
+                        <span>🔤</span> Shift 2 English Vocabulary & Confusable Words
+                    </div>
+                    <div class="card-header-actions">
+                        <button class="btn-card-listen" onclick="playCardByIndex(7)">🔊 Listen</button>
+                        <span class="card-tag">English</span>
+                    </div>
+                </div>
+                <table class="fact-table">
+                    <tr><th>Word / Idiom</th><th>Meaning & Exam Context</th></tr>
+                    <tr><td><b>Mendacious (Adjective)</b></td><td>Untruthful, dishonest, lying, deceitful.<br>• <span class="highlight">Antonyms:</span> Veracious, truthful, candid, upright, honest.<br>• <i>Exam Hook:</i> Mendacious = Lying; Veracious = Truth-teller.</td></tr>
+                    <tr><td><b>Incommensurable (Adjective)</b></td><td>Not able to be judged or measured by the same standard; lacking a common basis of comparison. (Correct spelling asked in 22 Oct Shift 2).</td></tr>
+                    <tr><td><b>Indigenous (Adjective)</b></td><td>Originating or occurring naturally in a particular place; native, endemic, aboriginal.<br>• <span class="warning">Antonyms:</span> Alien, exotic, foreign, imported.</td></tr>
+                    <tr><td><b>In hot water (Idiom)</b></td><td>In serious trouble, difficulty, or disgrace.<br>• <i>Example:</i> The officer found himself in hot water after leaking the confidential report.</td></tr>
+                    <tr><td><b>Allusion vs Illusion vs Elusion vs Delusion</b></td><td>• <b>Allusion:</b> Indirect reference / hint.<br>• <b>Illusion:</b> False perception / optical trick.<br>• <b>Elusion:</b> Act of escaping or dodging.<br>• <b>Delusion:</b> False personal belief or psychotic conviction.</td></tr>
                 </table>
             </div>
 
         </div>
     </div>
 
+    <!-- Floating Audio Bar (Appears when Audio is playing) -->
+    <div class="floating-player-bar" id="floatingPlayerBar">
+        <div class="floating-info">
+            <div class="equalizer-anim">
+                <div class="eq-bar"></div>
+                <div class="eq-bar"></div>
+                <div class="eq-bar"></div>
+                <div class="eq-bar"></div>
+            </div>
+            <div class="floating-text">
+                <div class="floating-title" id="floatingCardTitle">Topic Title</div>
+                <div class="floating-sub" id="floatingStatusSub">Playing section 1 of 8</div>
+            </div>
+        </div>
+        <div class="floating-actions">
+            <button class="btn-voice btn-voice-play" id="floatingPlayBtn" onclick="togglePauseSpeech()" style="padding:6px 10px;">⏸ Pause</button>
+            <button class="btn-voice btn-voice-stop" onclick="stopSpeech()" style="padding:6px 8px;">⏹</button>
+            <button class="btn-voice btn-voice-nav" onclick="jumpSection(1)" style="padding:6px 8px;">⏭</button>
+        </div>
+    </div>
+
     <script>
+        // Speech Synthesis State
+        const synth = window.speechSynthesis;
+        let isMasterPlaying = false;
+        let isPaused = false;
+        let speechRate = 1.0;
+        let currentCardIndex = -1;
+        let currentSentenceQueue = [];
+        let currentSentenceIndex = 0;
+        let activeUtterance = null;
+        let keepAliveTimer = null;
+
+        // Extract cards and structured readable sentences
+        function extractCardSpeechData(cardElement) {
+            const titleEl = cardElement.querySelector('.card-title');
+            const titleText = titleEl ? titleEl.innerText.replace(/[^\w\s\(\)•–\-\/]/g, '').trim() : '';
+
+            const sentences = [];
+            sentences.push(`Now reading: ${titleText}.`);
+
+            const rows = cardElement.querySelectorAll('.fact-table tr');
+            rows.forEach((row, idx) => {
+                if (idx === 0) return; // skip header
+                const cells = row.querySelectorAll('td');
+                if (cells.length >= 2) {
+                    const topicCol = cells[0].innerText.replace(/[\n\r]+/g, ' ').trim();
+                    const factCol = cells[1].innerText.replace(/[\n\r]+/g, ' ').trim();
+                    const sanitized = cleanTextForSpeech(`${topicCol}. ${factCol}`);
+                    if (sanitized) {
+                        sentences.push({
+                            text: sanitized,
+                            rowElement: row
+                        });
+                    }
+                }
+            });
+
+            return {
+                title: titleText,
+                sentences: sentences,
+                cardElement: cardElement
+            };
+        }
+
+        // Clean speech text
+        function cleanTextForSpeech(str) {
+            return str
+                .replace(/CAA/g, 'Constitutional Amendment Act')
+                .replace(/BNS/g, 'Bharatiya Nyaya Sanhita')
+                .replace(/BNSS/g, 'Bharatiya Nagarik Suraksha Sanhita')
+                .replace(/Art\./g, 'Article ')
+                .replace(/Art /g, 'Article ')
+                .replace(/MP\b/g, 'Madhya Pradesh')
+                .replace(/AP\b/g, 'Andhra Pradesh')
+                .replace(/PM\b/g, 'Prime Minister')
+                .replace(/FM\b/g, 'Finance Minister')
+                .replace(/FC\b/g, 'Finance Commission')
+                .replace(/WC\b/g, 'World Cup')
+                .replace(/NP\b/g, 'National Park')
+                .replace(/₹/g, 'Rupees ')
+                .replace(/CaSO₄\s*·\s*½H₂O/g, 'Calcium Sulphate Hemihydrate, C-a-S-O-4 half H-2-O')
+                .replace(/CaSO₄\s*·\s*2H₂O/g, 'Gypsum, C-a-S-O-4 two H-2-O')
+                .replace(/373\s*K/g, '373 Kelvin')
+                .replace(/89\.45\s*m/g, '89.45 meters')
+                .replace(/92\.97\s*m/g, '92.97 meters')
+                .replace(/126th/g, 'one hundred twenty-sixth')
+                .replace(/116th/g, 'one hundred sixteenth')
+                .replace(/71st/g, 'seventy-first')
+                .replace(/18th/g, 'eighteenth')
+                .replace(/42nd/g, 'forty-second')
+                .replace(/2\/3rd/g, 'two-thirds')
+                .replace(/1\/3rd/g, 'one-third')
+                .replace(/[•★⚡👉]/g, '. ')
+                .replace(/~/g, 'approximately ')
+                .replace(/\s+/g, ' ')
+                .trim();
+        }
+
+        // Filter Categories
         function filterCategory(cat, el) {
             document.querySelectorAll('.filter-pills .pill').forEach(p => p.classList.remove('active'));
             if (el) el.classList.add('active');
@@ -432,6 +894,7 @@
             });
         }
 
+        // Search Filter
         function filterNotes() {
             const query = document.getElementById('searchInput').value.toLowerCase();
             const cards = document.querySelectorAll('.note-card');
@@ -444,6 +907,248 @@
                     card.style.display = 'none';
                 }
             });
+        }
+
+        // Voice Speed
+        function changeVoiceSpeed(rate) {
+            speechRate = parseFloat(rate);
+            if (synth.speaking && !synth.paused) {
+                // restart current sentence at new rate
+                synth.cancel();
+                playNextSentence();
+            }
+        }
+
+        // Master Play / Pause Toggle
+        function toggleMasterSpeech() {
+            if (!('speechSynthesis' in window)) {
+                alert('Web Speech is not supported on this browser. Please use Chrome or Edge.');
+                return;
+            }
+
+            if (isMasterPlaying) {
+                if (synth.paused) {
+                    synth.resume();
+                    isPaused = false;
+                    updateUIState(true);
+                } else {
+                    synth.pause();
+                    isPaused = true;
+                    updateUIState(false, true);
+                }
+            } else {
+                startMasterSpeech();
+            }
+        }
+
+        function togglePauseSpeech() {
+            if (synth.speaking) {
+                if (synth.paused) {
+                    synth.resume();
+                    isPaused = false;
+                    updateUIState(true);
+                } else {
+                    synth.pause();
+                    isPaused = true;
+                    updateUIState(false, true);
+                }
+            }
+        }
+
+        function startMasterSpeech() {
+            stopSpeech();
+            isMasterPlaying = true;
+            isPaused = false;
+            currentCardIndex = 0;
+            loadAndPlayCard(currentCardIndex);
+        }
+
+        function playCardByIndex(idx) {
+            if (!('speechSynthesis' in window)) {
+                alert('Web Speech is not supported on this browser. Please use Chrome or Edge.');
+                return;
+            }
+            stopSpeech();
+            isMasterPlaying = true;
+            isPaused = false;
+            currentCardIndex = idx;
+            loadAndPlayCard(currentCardIndex);
+        }
+
+        function jumpSection(delta) {
+            const cards = document.querySelectorAll('.note-card');
+            let nextIdx = currentCardIndex + delta;
+            if (nextIdx < 0) nextIdx = 0;
+            if (nextIdx >= cards.length) {
+                stopSpeech();
+                return;
+            }
+            stopSpeech();
+            isMasterPlaying = true;
+            isPaused = false;
+            currentCardIndex = nextIdx;
+            loadAndPlayCard(currentCardIndex);
+        }
+
+        function loadAndPlayCard(cardIdx) {
+            const cards = document.querySelectorAll('.note-card');
+            if (cardIdx >= cards.length) {
+                // Completed all cards!
+                stopSpeech();
+                document.getElementById('voiceStatusLine').innerHTML = '<span>✅ Audio revision complete! Best of luck on 24 Oct!</span>';
+                return;
+            }
+
+            const card = cards[cardIdx];
+            card.style.display = 'block'; // ensure visible
+            card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+            // Highlight card
+            cards.forEach(c => c.classList.remove('is-speaking'));
+            card.classList.add('is-speaking');
+
+            // Update card buttons
+            document.querySelectorAll('.btn-card-listen').forEach((btn, i) => {
+                if (i === cardIdx) {
+                    btn.classList.add('is-active');
+                    btn.innerHTML = '🔊 Playing...';
+                } else {
+                    btn.classList.remove('is-active');
+                    btn.innerHTML = '🔊 Listen';
+                }
+            });
+
+            const cardData = extractCardSpeechData(card);
+            currentSentenceQueue = cardData.sentences;
+            currentSentenceIndex = 0;
+
+            // Update Header & Floating Player
+            const title = cardData.title;
+            document.getElementById('floatingPlayerBar').classList.add('active');
+            document.getElementById('floatingCardTitle').innerText = title;
+            document.getElementById('floatingStatusSub').innerText = `Card ${cardIdx + 1} of ${cards.length}`;
+            document.getElementById('voiceStatusLine').innerHTML = `<span class="equalizer-anim"><span class="eq-bar"></span><span class="eq-bar"></span><span class="eq-bar"></span></span> <span>Reading: ${title} (${cardIdx + 1}/${cards.length})</span>`;
+
+            updateUIState(true);
+            playNextSentence();
+            startKeepAlive();
+        }
+
+        function playNextSentence() {
+            if (!isMasterPlaying) return;
+
+            // Clear previous row highlight
+            document.querySelectorAll('.fact-table tr').forEach(r => r.classList.remove('row-speaking'));
+
+            if (currentSentenceIndex >= currentSentenceQueue.length) {
+                // Move to next card
+                currentCardIndex++;
+                loadAndPlayCard(currentCardIndex);
+                return;
+            }
+
+            const item = currentSentenceQueue[currentSentenceIndex];
+            const textToSpeak = typeof item === 'string' ? item : item.text;
+
+            if (typeof item !== 'string' && item.rowElement) {
+                item.rowElement.classList.add('row-speaking');
+            }
+
+            activeUtterance = new SpeechSynthesisUtterance(textToSpeak);
+            activeUtterance.rate = speechRate;
+            activeUtterance.pitch = 1.0;
+            activeUtterance.lang = 'en-US';
+
+            // Find an English voice if available
+            const voices = synth.getVoices();
+            const preferredVoice = voices.find(v => (v.name.includes('Natural') || v.name.includes('Google') || v.name.includes('Zira') || v.name.includes('India') || v.name.includes('Samantha') || v.name.includes('Female')) && v.lang.startsWith('en')) || voices.find(v => v.lang.startsWith('en'));
+            if (preferredVoice) {
+                activeUtterance.voice = preferredVoice;
+            }
+
+            activeUtterance.onend = function() {
+                currentSentenceIndex++;
+                playNextSentence();
+            };
+
+            activeUtterance.onerror = function(e) {
+                console.warn('Speech error:', e);
+                currentSentenceIndex++;
+                playNextSentence();
+            };
+
+            synth.speak(activeUtterance);
+        }
+
+        function stopSpeech() {
+            if (synth.speaking || synth.pending || synth.paused) {
+                synth.cancel();
+            }
+            isMasterPlaying = false;
+            isPaused = false;
+            currentCardIndex = -1;
+            currentSentenceQueue = [];
+            currentSentenceIndex = 0;
+            activeUtterance = null;
+            stopKeepAlive();
+
+            document.querySelectorAll('.note-card').forEach(c => c.classList.remove('is-speaking'));
+            document.querySelectorAll('.fact-table tr').forEach(r => r.classList.remove('row-speaking'));
+            document.querySelectorAll('.btn-card-listen').forEach(b => {
+                b.classList.remove('is-active');
+                b.innerHTML = '🔊 Listen';
+            });
+
+            document.getElementById('floatingPlayerBar').classList.remove('active');
+            updateUIState(false);
+            document.getElementById('voiceStatusLine').innerHTML = '<span>Status: Stopped. Ready to play.</span>';
+        }
+
+        function updateUIState(playing, paused = false) {
+            const masterBtn = document.getElementById('btnMasterPlay');
+            const masterIcon = document.getElementById('masterPlayIcon');
+            const masterText = document.getElementById('masterPlayText');
+            const floatingBtn = document.getElementById('floatingPlayBtn');
+
+            if (paused) {
+                masterIcon.innerText = '▶';
+                masterText.innerText = 'Resume Audio';
+                floatingBtn.innerText = '▶ Resume';
+                document.getElementById('voiceStatusLine').innerHTML = '<span>⏸ Audio Paused</span>';
+            } else if (playing) {
+                masterIcon.innerText = '⏸';
+                masterText.innerText = 'Pause Audio';
+                floatingBtn.innerText = '⏸ Pause';
+            } else {
+                masterIcon.innerText = '▶';
+                masterText.innerText = 'Listen to All Notes';
+                floatingBtn.innerText = '⏸ Pause';
+            }
+        }
+
+        // Keep-alive watchdog prevents Chrome mobile voice freeze
+        function startKeepAlive() {
+            stopKeepAlive();
+            keepAliveTimer = setInterval(() => {
+                if (synth.speaking && !synth.paused) {
+                    synth.pause();
+                    synth.resume();
+                }
+            }, 8000);
+        }
+
+        function stopKeepAlive() {
+            if (keepAliveTimer) {
+                clearInterval(keepAliveTimer);
+                keepAliveTimer = null;
+            }
+        }
+
+        // Initialize voices on user interaction
+        if ('speechSynthesis' in window) {
+            window.speechSynthesis.onvoiceschanged = () => {
+                synth.getVoices();
+            };
         }
     </script>
 </body>
