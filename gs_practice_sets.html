@@ -598,16 +598,20 @@
 
         <!-- Subject Filters -->
         <div class="section-filter" id="sectionFilterBar">
-            <div class="sec-pill active" onclick="setSubject('All')">All (25 Qs)</div>
-            <div class="sec-pill" onclick="setSubject('Polity')">🏛️ Polity</div>
-            <div class="sec-pill" onclick="setSubject('Economy')">📈 Economy</div>
-            <div class="sec-pill" onclick="setSubject('History')">📜 History</div>
-            <div class="sec-pill" onclick="setSubject('Geography')">🌍 Geography</div>
-            <div class="sec-pill" onclick="setSubject('Sports')">🏆 Sports</div>
-            <div class="sec-pill" onclick="setSubject('Art & Culture')">🎨 Art &amp; Culture</div>
-            <div class="sec-pill" onclick="setSubject('Science')">🔬 Science</div>
-            <div class="sec-pill" onclick="setSubject('International Relations')">🌐 IR &amp; Foreign Policy</div>
-            <div class="sec-pill" onclick="setSubject('Bookmarks')">⭐ Bookmarked (<span id="bookmarkCount">0</span>)</div>
+            <div class="sec-pill active" onclick="setSubject('All', this)">All (25 Qs)</div>
+            <div class="sec-pill" onclick="setSubject('Polity', this)">🏛️ Polity</div>
+            <div class="sec-pill" onclick="setSubject('Economy', this)">📈 Economy</div>
+            <div class="sec-pill" onclick="setSubject('History', this)">📜 History</div>
+            <div class="sec-pill" onclick="setSubject('Geography', this)">🌍 Geography</div>
+            <div class="sec-pill" onclick="setSubject('Science', this)">🔬 Science</div>
+            <div class="sec-pill" onclick="setSubject('New Criminal Laws', this)">⚖️ New Criminal Laws</div>
+            <div class="sec-pill" onclick="setSubject('Sports', this)">🏆 Sports</div>
+            <div class="sec-pill" onclick="setSubject('Art & Culture', this)">🎨 Art &amp; Culture</div>
+            <div class="sec-pill" onclick="setSubject('International Relations', this)">🌐 IR &amp; Corridors</div>
+            <div class="sec-pill" onclick="setSubject('Environment', this)">🌿 Environment</div>
+            <div class="sec-pill" onclick="setSubject('Space & Defence', this)">🚀 Space &amp; Defence</div>
+            <div class="sec-pill" onclick="setSubject('Books & Awards', this)">📚 Books &amp; Awards</div>
+            <div class="sec-pill" onclick="setSubject('Bookmarks', this)">⭐ Bookmarked (<span id="bookmarkCount">0</span>)</div>
         </div>
 
         <!-- Score & Actions Bar -->
@@ -683,9 +687,8 @@
             bar.innerHTML = '';
             GS_PRACTICE_SETS.forEach((s, idx) => {
                 const btn = document.createElement('button');
-                const isPred = idx >= 10;
-                btn.className = `set-btn ${idx === currentSetIdx ? 'active' : ''} ${isPred ? 'prediction' : ''}`;
-                btn.innerHTML = `${isPred ? '🔥 ' : ''}Set ${idx + 1}`;
+                btn.className = `set-btn ${idx === currentSetIdx ? 'active' : ''} prediction`;
+                btn.innerHTML = idx === 19 ? `🏆 Final Mock 20` : `🔥 Set ${idx + 1}`;
                 btn.onclick = () => switchSet(idx);
                 bar.appendChild(btn);
             });
@@ -697,7 +700,11 @@
             showSolutions = false;
             document.getElementById('btnSolText').innerText = 'Show Solutions';
             document.getElementById('btnSolIcon').innerText = '👁️';
-            
+            activeSubject = 'All';
+            document.querySelectorAll('#sectionFilterBar .sec-pill').forEach((pill, pIdx) => {
+                if (pIdx === 0) pill.classList.add('active');
+                else pill.classList.remove('active');
+            });
             renderSetSelector();
             renderActiveSetInfo();
             renderQuestions();
@@ -712,15 +719,21 @@
             document.getElementById('cbtSimulatorLink').href = `mock_test.html?test=${cur.set_id}`;
         }
 
-        function setSubject(subj) {
+        function setSubject(subj, el) {
             activeSubject = subj;
             document.querySelectorAll('#sectionFilterBar .sec-pill').forEach(pill => {
-                if (pill.innerText.includes(subj)) {
-                    pill.classList.add('active');
-                } else {
-                    pill.classList.remove('active');
-                }
+                pill.classList.remove('active');
             });
+            if (el) {
+                el.classList.add('active');
+            } else {
+                document.querySelectorAll('#sectionFilterBar .sec-pill').forEach(pill => {
+                    const onc = pill.getAttribute('onclick') || '';
+                    if (onc.includes(`'${subj}'`)) {
+                        pill.classList.add('active');
+                    }
+                });
+            }
             renderQuestions();
         }
 

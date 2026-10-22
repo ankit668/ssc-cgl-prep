@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ssc-prep-v56';
+const CACHE_NAME = 'ssc-prep-v57';
 const urlsToCache = [
   './',
   './manifest.json',
