@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>SSC CGL 22 Oct 2026 Shift Mirror Mock — 4 Sections (100 Qs)</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="icon-192.png">
+    <link rel="apple-touch-icon" href="icon-192.png">
+    <meta name="theme-color" content="#0B1120">
+    <style>
+        :root {
+            --bg-color: #0B1120;
+            --container-bg: #1E293B;
+            --card-bg: #162032;
+            --text-color: #E2E8F0;
+            --text-muted: #94A3B8;
+            --border-color: #334155;
+            --accent-blue: #38BDF8;
+            --accent-green: #10B981;
+            --accent-amber: #F59E0B;
+            --accent-purple: #A855F7;
+            --accent-rose: #F43F5E;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            padding: 14px 10px 100px 10px;
+            line-height: 1.5;
+        }
+
+        .container {
+            max-width: 920px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 14px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .header h1 {
+            font-size: 1.3rem;
+            color: #F8FAFC;
+            margin-bottom: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .prediction-badge {
+            background: linear-gradient(135deg, #DC2626, #F59E0B);
+            color: #FFF;
+            font-size: 0.7rem;
+            font-weight: 800;
+            padding: 3px 8px;
+            border-radius: 9999px;
+            text-transform: uppercase;
+            box-shadow: 0 0 10px rgba(220, 38, 38, 0.4);
+        }
+
+        .header p {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            margin-bottom: 10px;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-top: 6px;
+        }
+
+        .btn-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            background: var(--container-bg);
+            color: #CBD5E1;
+            text-decoration: none;
+            padding: 6px 11px;
+            border-radius: 6px;
+            font-size: 0.78rem;
+            font-weight: 600;
+            border: 1px solid var(--border-color);
+        }
+
+        /* Section Tabs */
+        .section-tabs {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 8px;
+            margin-bottom: 14px;
+        }
+
+        @media (min-width: 640px) {
+            .section-tabs {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
+        .tab-btn {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 10px 8px;
+            border-radius: 8px;
+            font-size: 0.82rem;
+            font-weight: 700;
+            cursor: pointer;
+            text-align: center;
+            transition: all 0.2s ease;
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+        }
+
+        .tab-btn:hover {
+            border-color: var(--accent-blue);
+        }
+
+        .tab-btn.active {
+            background: linear-gradient(135deg, #0284C7, #0369A1);
+            border-color: #38BDF8;
+            color: #FFF;
+            box-shadow: 0 0 12px rgba(56, 189, 248, 0.35);
+        }
+
+        .tab-sub {
+            font-size: 0.68rem;
+            font-weight: 500;
+            opacity: 0.85;
+        }
+
+        /* Timer & Control Bar */
+        .control-bar {
+            background: #111C2E;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 10px 14px;
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .timer-display {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 1.15rem;
+            font-weight: 800;
+            font-family: monospace;
+            color: #38BDF8;
+        }
+
+        .timer-display.warning {
+            color: #F59E0B;
+        }
+
+        .timer-display.danger {
+            color: #EF4444;
+            animation: pulse 1s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        .score-stats {
+            display: flex;
+            gap: 12px;
+            font-size: 0.82rem;
+            font-weight: 600;
+        }
+
+        .stat-badge {
+            padding: 3px 8px;
+            border-radius: 4px;
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .stat-green { color: #10B981; }
+        .stat-red { color: #EF4444; }
+
+        .btn-action {
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            color: #CBD5E1;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 0.78rem;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        .btn-action.primary {
+            background: linear-gradient(135deg, #10B981, #059669);
+            color: white;
+            border: none;
+        }
+
+        /* Question Card */
+        .q-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 16px;
+            margin-bottom: 16px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+        }
+
+        .q-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .q-badges {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .q-num {
+            background: #0284C7;
+            color: #FFF;
+            font-size: 0.72rem;
+            font-weight: 800;
+            padding: 2px 7px;
+            border-radius: 4px;
+        }
+
+        .q-topic {
+            background: #1E293B;
+            color: #94A3B8;
+            font-size: 0.7rem;
+            padding: 2px 8px;
+            border-radius: 4px;
+            border: 1px solid #334155;
+        }
+
+        .q-text {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: #F1F5F9;
+            margin-bottom: 14px;
+            line-height: 1.55;
+        }
+
+        .options-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+
+        @media (min-width: 600px) {
+            .options-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .opt-btn {
+            background: #0F172A;
+            border: 1px solid var(--border-color);
+            color: #CBD5E1;
+            padding: 10px 12px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            text-align: left;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            width: 100%;
+        }
+
+        .opt-btn:hover:not(.locked) {
+            border-color: var(--accent-blue);
+            background: #16243E;
+        }
+
+        .opt-letter {
+            font-weight: 700;
+            color: var(--accent-blue);
+            background: rgba(56, 189, 248, 0.1);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            flex-shrink: 0;
+        }
+
+        .opt-btn.correct {
+            background: rgba(16, 185, 129, 0.18) !important;
+            border-color: #10B981 !important;
+            color: #34D399 !important;
+            font-weight: 700;
+        }
+
+        .opt-btn.wrong {
+            background: rgba(239, 68, 68, 0.18) !important;
+            border-color: #EF4444 !important;
+            color: #F87171 !important;
+            font-weight: 700;
+        }
+
+        /* Explanations */
+        .solution-box {
+            background: rgba(56, 189, 248, 0.06);
+            border-left: 3px solid #38BDF8;
+            padding: 12px;
+            border-radius: 0 6px 6px 0;
+            font-size: 0.82rem;
+            color: #CBD5E1;
+            margin-top: 10px;
+            line-height: 1.5;
+        }
+
+        .shortcut-box {
+            background: rgba(245, 158, 11, 0.08);
+            border-left: 3px solid #F59E0B;
+            padding: 12px;
+            border-radius: 0 6px 6px 0;
+            font-size: 0.82rem;
+            color: #FDE68A;
+            margin-top: 8px;
+            line-height: 1.5;
+        }
+
+        .hidden { display: none; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>
+                <span>SSC CGL 22 Oct 2026 Shift 1 Mirror Mock</span>
+                <span class="prediction-badge">100 MCQs • 4 Sections</span>
+            </h1>
+            <p>Directly formulated from the 22 Oct 2026 Shift 1 exam analysis & sister concepts for 24 Oct</p>
+            <div class="nav-links">
+                <a href="index.html" class="btn-link">🏠 Home</a>
+                <a href="mock_test.html" class="btn-link">⏱️ CBT 15-Min Simulator</a>
+                <a href="gs_practice_sets.html" class="btn-link">🎯 20 GS Sets (500 Qs)</a>
+                <a href="real_gs_shifts.html" class="btn-link">📚 590 Real Shifts</a>
+            </div>
+        </div>
+
+        <!-- Section Switcher Tabs -->
+        <div class="section-tabs" id="sectionTabs">
+            <button class="tab-btn active" onclick="switchSection(0)">
+                <span>📐 Quantitative Aptitude</span>
+                <span class="tab-sub">25 Qs • 15 Minutes</span>
+            </button>
+            <button class="tab-btn" onclick="switchSection(1)">
+                <span>🧠 Reasoning & GI</span>
+                <span class="tab-sub">25 Qs • 15 Minutes</span>
+            </button>
+            <button class="tab-btn" onclick="switchSection(2)">
+                <span>📖 English Comprehension</span>
+                <span class="tab-sub">25 Qs • 15 Minutes</span>
+            </button>
+            <button class="tab-btn" onclick="switchSection(3)">
+                <span>🏛️ General Awareness</span>
+                <span class="tab-sub">25 Qs • 15 Minutes</span>
+            </button>
+        </div>
+
+        <!-- 15-Minute Sectional Timer & Status Bar -->
+        <div class="control-bar">
+            <div class="timer-display" id="timerDisplay">⏱️ 15:00</div>
+            <div class="score-stats">
+                <span class="stat-badge">Attempted: <b id="statAttempted">0/25</b></span>
+                <span class="stat-badge stat-green">✔ <b id="statCorrect">0</b></span>
+                <span class="stat-badge stat-red">✖ <b id="statWrong">0</b></span>
+                <span class="stat-badge">Score: <b id="statScore">0.00</b>/50</span>
+            </div>
+            <div style="display: flex; gap: 6px;">
+                <button class="btn-action" onclick="toggleSolutions()" id="btnToggleSol">👁️ Show Solutions</button>
+                <button class="btn-action primary" onclick="resetSectionTimer()">🔄 Restart 15m</button>
+            </div>
+        </div>
+
+        <!-- Questions Container -->
+        <div id="questions-container"></div>
+    </div>
+
+    <script src="oct22_analysis_data.js"></script>
+    <script>
+        let curSecIdx = 0;
+        let showSolutions = false;
+        let userAnswers = {}; // { secIdx: { qId: selectedOpt } }
+        let timerSeconds = 15 * 60;
+        let timerInterval = null;
+        const LETTERS = ['A', 'B', 'C', 'D'];
+
+        function init() {
+            if (typeof OCT22_ANALYSIS_DATA === 'undefined') {
+                fetch('oct22_analysis_data.json')
+                    .then(res => res.json())
+                    .then(data => {
+                        window.OCT22_ANALYSIS_DATA = data;
+                        renderSection();
+                        startSectionTimer();
+                    });
+            } else {
+                renderSection();
+                startSectionTimer();
+            }
+        }
+
+        function switchSection(newIdx) {
+            curSecIdx = newIdx;
+            showSolutions = false;
+            document.getElementById('btnToggleSol').innerText = '👁️ Show Solutions';
+
+            document.querySelectorAll('#sectionTabs .tab-btn').forEach((btn, idx) => {
+                if (idx === newIdx) btn.classList.add('active');
+                else btn.classList.remove('active');
+            });
+
+            renderSection();
+            resetSectionTimer();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function renderSection() {
+            const container = document.getElementById('questions-container');
+            container.innerHTML = '';
+            const sec = OCT22_ANALYSIS_DATA[curSecIdx];
+            const attempts = userAnswers[curSecIdx] || {};
+
+            sec.questions.forEach(q => {
+                const card = document.createElement('div');
+                card.className = 'q-card';
+                const selected = attempts[q.id];
+                const isAnswered = selected !== undefined;
+
+                let optsHtml = '';
+                q.options.forEach((optText, optIdx) => {
+                    let optClass = 'opt-btn';
+                    if (isAnswered || showSolutions) {
+                        optClass += ' locked';
+                        if (optIdx === q.correct) optClass += ' correct';
+                        else if (selected === optIdx) optClass += ' wrong';
+                    }
+                    optsHtml += `
+                        <button class="${optClass}" onclick="pickOption(${q.id}, ${optIdx})" ${isAnswered ? 'disabled' : ''}>
+                            <span class="opt-letter">${LETTERS[optIdx]}</span>
+                            <span>${optText}</span>
+                        </button>
+                    `;
+                });
+
+                const isVisible = showSolutions || isAnswered;
+
+                card.innerHTML = `
+                    <div class="q-header">
+                        <div class="q-badges">
+                            <span class="q-num">Q${q.id}</span>
+                            <span class="q-topic">📌 ${q.topic}</span>
+                        </div>
+                    </div>
+                    <div class="q-text">${q.question}</div>
+                    <div class="options-grid">${optsHtml}</div>
+                    <div class="solution-box ${isVisible ? '' : 'hidden'}">
+                        <b>📘 Step-by-Step Solution:</b><br>${q.solution}
+                    </div>
+                    <div class="shortcut-box ${isVisible ? '' : 'hidden'}">
+                        <b>⚡ SSC 5-Sec Topper Trick:</b><br>${q.shortcut}
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+
+            updateStats();
+        }
+
+        function pickOption(qId, optIdx) {
+            if (!userAnswers[curSecIdx]) userAnswers[curSecIdx] = {};
+            if (userAnswers[curSecIdx][qId] !== undefined) return;
+
+            userAnswers[curSecIdx][qId] = optIdx;
+            renderSection();
+        }
+
+        function toggleSolutions() {
+            showSolutions = !showSolutions;
+            document.getElementById('btnToggleSol').innerText = showSolutions ? '🙈 Hide Solutions' : '👁️ Show Solutions';
+            renderSection();
+        }
+
+        function updateStats() {
+            const sec = OCT22_ANALYSIS_DATA[curSecIdx];
+            const attempts = userAnswers[curSecIdx] || {};
+            let attempted = 0, correct = 0, wrong = 0;
+
+            sec.questions.forEach(q => {
+                if (attempts[q.id] !== undefined) {
+                    attempted++;
+                    if (attempts[q.id] === q.correct) correct++;
+                    else wrong++;
+                }
+            });
+
+            const score = (correct * 2) - (wrong * 0.5);
+            document.getElementById('statAttempted').innerText = `${attempted}/25`;
+            document.getElementById('statCorrect').innerText = correct;
+            document.getElementById('statWrong').innerText = wrong;
+            document.getElementById('statScore').innerText = score.toFixed(2);
+        }
+
+        function startSectionTimer() {
+            clearInterval(timerInterval);
+            timerInterval = setInterval(() => {
+                timerSeconds--;
+                updateTimerDisplay();
+                if (timerSeconds <= 0) {
+                    clearInterval(timerInterval);
+                    alert("⏱️ 15-Minute Sectional Timer Ended! Check your score.");
+                }
+            }, 1000);
+        }
+
+        function resetSectionTimer() {
+            clearInterval(timerInterval);
+            timerSeconds = 15 * 60;
+            updateTimerDisplay();
+            startSectionTimer();
+        }
+
+        function updateTimerDisplay() {
+            const mins = Math.floor(timerSeconds / 60);
+            const secs = timerSeconds % 60;
+            const str = `⏱️ ${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+            const el = document.getElementById('timerDisplay');
+            el.innerText = str;
+            if (timerSeconds <= 60) el.className = 'timer-display danger';
+            else if (timerSeconds <= 180) el.className = 'timer-display warning';
+            else el.className = 'timer-display';
+        }
+
+        window.onload = init;
+    </script>
+</body>
+</html>
