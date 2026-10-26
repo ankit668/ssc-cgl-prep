@@ -49,7 +49,7 @@ window.MENSURATION_3D_DATA = [
     "category": "cube_cuboid",
     "category_name": "Cube & Cuboid",
     "exam": "CHSL 2020 Pre",
-    "question": "A solid cube having volume  46656 cm3, is cut into 27 cubes of equal volume. The surface area (in cm²) of the smaller cubes is:",
+    "question": "A solid cube having volume 46656 cm3, is cut into 27 cubes of equal volume. The surface area (in cm²) of the smaller cubes is:",
     "options": {
       "a": "864",
       "b": "936",
@@ -72,7 +72,7 @@ window.MENSURATION_3D_DATA = [
     "category": "cube_cuboid",
     "category_name": "Cube & Cuboid",
     "exam": "CGL 2023 Pre",
-    "question": "A métallic cube has each of its side of length 12 cm. It is melted and recast into three small cubes. Out of these cubes, two have their sides as 6 cm and 8 cm, respectively. The length of each side of the third cube is:",
+    "question": "A metallic cube has each of its side of length 12 cm. It is melted and recast into three small cubes. Out of these cubes, two have their sides as 6 cm and 8 cm, respectively. The length of each side of the third cube is:",
     "options": {
       "a": "1. 7 cm",
       "b": "9 cm",
@@ -142,7 +142,7 @@ window.MENSURATION_3D_DATA = [
     "category": "cube_cuboid",
     "category_name": "Cube & Cuboid",
     "exam": "UPSC CSAT 2024",
-    "question": "What is the least  possible number of cuts required to cut a cube into 64 identical pieces?",
+    "question": "What is the least possible number of cuts required to cut a cube into 64 identical pieces?",
     "options": {
       "a": "8",
       "b": "9",
@@ -233,7 +233,7 @@ window.MENSURATION_3D_DATA = [
     "category": "cube_cuboid",
     "category_name": "Cube & Cuboid",
     "exam": "Selection Post 12, 2024",
-    "question": "Three solid iron cubes of edges  8 cm, 10 cm and 12 cm are melted together to make a new cube. It is observed that  496 cm3 of the melted material is lost due to improper handling.  The area (in cm2) of the whole surface of the newly formed cube is:",
+    "question": "Three solid iron cubes of edges 8 cm, 10 cm and 12 cm are melted together to make a new cube. It is observed that 496 cm3 of the melted material is lost due to improper handling. The area (in cm2) of the whole surface of the newly formed cube is:",
     "options": {
       "a": "3375",
       "b": "1176",
@@ -471,7 +471,7 @@ window.MENSURATION_3D_DATA = [
     "category": "cube_cuboid",
     "category_name": "Cube & Cuboid",
     "exam": "CHSL 2024 Pre",
-    "question": "The volume of rectangular block is 12288 m³. Its dimension are in the ratio of 4:3 2. If the entire surface is  polished at the rate  2 paise per m2,  then find the total cost of polishing.",
+    "question": "The volume of rectangular block is 12288 m³. Its dimension are in the ratio of 4:3 2. If the entire surface is polished at the rate 2 paise per m2, then find the total cost of polishing.",
     "options": {
       "a": "33.28",
       "b": "44.42",
@@ -518,7 +518,7 @@ window.MENSURATION_3D_DATA = [
     "category": "cube_cuboid",
     "category_name": "Cube & Cuboid",
     "exam": "CGL 2022 Pre",
-    "question": "Three cubes of equal volume are joined end to end. Find the surface area of the resulting cuboid if the diagonal of the cube is 6√3  cm.",
+    "question": "Three cubes of equal volume are joined end to end. Find the surface area of the resulting cuboid if the diagonal of the cube is 6√3 cm.",
     "options": {
       "a": "509 cm²",
       "b": "516 cm",
@@ -613,7 +613,7 @@ window.MENSURATION_3D_DATA = [
     "category": "cube_cuboid",
     "category_name": "Cube & Cuboid",
     "exam": "CHSL 2020 Pre",
-    "question": "From a rectangular sheet of dimensions 32cm x 18cm, a square of side 3 cm is cut form the four corners of the sheet and a box is made. The volume of the box is:",
+    "question": "From a rectangular sheet of dimensions 32cm x 18cm, a square of side 3 cm is cut from the four corners of the sheet and a box is made. The volume of the box is:",
     "options": {
       "a": "946 cm3",
       "b": "936 cm3",
@@ -637,7 +637,7 @@ window.MENSURATION_3D_DATA = [
     "category": "cube_cuboid",
     "category_name": "Cube & Cuboid",
     "exam": "CPO 2024 Pre",
-    "question": "A woman working in a company was supplied a rectangular solid (cuboid shape) of wax with dimensions 70 cm, 44 cm and 20 cm to prepare cylindrical candles, each 14 cm in diameter and 20 cm of height. Find the number of candles.ͩ",
+    "question": "A woman working in a company was supplied a rectangular solid (cuboid shape) of wax with dimensions 70 cm, 44 cm and 20 cm to prepare cylindrical candles, each 14 cm in diameter and 20 cm of height. Find the number of candles.",
     "options": {
       "a": "15",
       "b": "20",
@@ -660,7 +660,7 @@ window.MENSURATION_3D_DATA = [
     "category": "cube_cuboid",
     "category_name": "Cube & Cuboid",
     "exam": "MTS 2021",
-    "question": "A large solid cube is melted and cast into 'N' small solid spheres, each of radius 3 cm, and 'N + 2' small solid cuboids, each of dimensions 4 cm x 4 cm x 6.5 cm. If the length of each side of the large solid cube is 12 cm, then find the value 'N'.  [Use π = 22/7]",
+    "question": "A large solid cube is melted and cast into 'N' small solid spheres, each of radius 3 cm, and 'N + 2' small solid cuboids, each of dimensions 4 cm x 4 cm x 6.5 cm. If the length of each side of the large solid cube is 12 cm, then find the value 'N'. [Use π = 22/7]",
     "options": {
       "a": "6",
       "b": "7",
@@ -707,7 +707,7 @@ window.MENSURATION_3D_DATA = [
     "category": "cylinder_cone",
     "category_name": "Cylinder, Cone & Frustum",
     "exam": "CHSL 2022 Mains",
-    "question": ".The radii of two cylinders are in the ratio 2:1 and their heights are in the ratio 5:2. The ratio of their volumes is:",
+    "question": "The radii of two cylinders are in the ratio 2:1 and their heights are in the ratio 5:2. The ratio of their volumes is:",
     "options": {
       "a": "20:1",
       "b": "15:1",
@@ -751,7 +751,7 @@ window.MENSURATION_3D_DATA = [
     "category": "cylinder_cone",
     "category_name": "Cylinder, Cone & Frustum",
     "exam": "CGL 2024 Pre",
-    "question": ".The base radius of a circular cylinder is 10.5 cm. If the area of its curved surface is 792 cm 2 , then what is the volume of the cylinder?",
+    "question": "The base radius of a circular cylinder is 10.5 cm. If the area of its curved surface is 792 cm 2 , then what is the volume of the cylinder?",
     "options": {
       "a": "4185 cm3",
       "b": "4518 cm3",
@@ -938,7 +938,7 @@ window.MENSURATION_3D_DATA = [
     "category": "cylinder_cone",
     "category_name": "Cylinder, Cone & Frustum",
     "exam": "CGL 2021 Pre",
-    "question": ".A 35 cm high bucket in the form of a frustum is full of water. Radii of its lower and upper ends are 12 cm and 18 cm, respectively. If water from this bucket is poured in a cylindrical drum, whose base radius is 20 cm, then what will be the height of water (in cm) in the drum?",
+    "question": "A 35 cm high bucket in the form of a frustum is full of water. Radii of its lower and upper ends are 12 cm and 18 cm, respectively. If water from this bucket is poured in a cylindrical drum, whose base radius is 20 cm, then what will be the height of water (in cm) in the drum?",
     "options": {
       "a": "16.25",
       "b": "19.95",
@@ -962,7 +962,7 @@ window.MENSURATION_3D_DATA = [
     "category": "cylinder_cone",
     "category_name": "Cylinder, Cone & Frustum",
     "exam": "CGL MAINS 2020",
-    "question": "A cylindrical tube, open at both ends, is made of a metal sheet which is  0.5 cm thick. Its outer radius is 4 cm and length is 2 m. How much metal (in cm3 ) has been used in making the tube?",
+    "question": "A cylindrical tube, open at both ends, is made of a metal sheet which is 0.5 cm thick. Its outer radius is 4 cm and length is 2 m. How much metal (in cm3 ) has been used in making the tube?",
     "options": {
       "a": "800π",
       "b": "450π",
@@ -1014,7 +1014,7 @@ window.MENSURATION_3D_DATA = [
       "a": "230π",
       "b": "430π",
       "c": "330π",
-      "d": "120π."
+      "d": "120π"
     },
     "answer": "b",
     "correct_text": "430π",
@@ -1033,10 +1033,10 @@ window.MENSURATION_3D_DATA = [
     "category": "cylinder_cone",
     "category_name": "Cylinder, Cone & Frustum",
     "exam": "CHSL 2023 Pre",
-    "question": ".If the curved surface area of a cylinder is increased by 20%, and height is decreased by 4%, then the net decrease or increase in the volume will be:",
+    "question": "If the curved surface area of a cylinder is increased by 20%, and height is decreased by 4%, then the net decrease or increase in the volume will be:",
     "options": {
       "a": "36% decrease",
-      "b": "20% increase.",
+      "b": "20% increase",
       "c": "50% increase",
       "d": "33% decrease"
     },
@@ -1057,7 +1057,7 @@ window.MENSURATION_3D_DATA = [
     "category": "cylinder_cone",
     "category_name": "Cylinder, Cone & Frustum",
     "exam": "CPO 2024 Pre",
-    "question": "A solid metal cylinder of 12 cm height and 7 cm radius is melted and recast into two cones in the proportion of 1:2 (volume), keeping the height 12 cm. What would be the percentage change in the flat surface area before and after  [Use π22/7]?",
+    "question": "A solid metal cylinder of 12 cm height and 7 cm radius is melted and recast into two cones in the proportion of 1:2 (volume), keeping the height 12 cm. What would be the percentage change in the flat surface area before and after [Use π22/7]?",
     "options": {
       "a": "35 %",
       "b": "20%",
@@ -1128,7 +1128,7 @@ window.MENSURATION_3D_DATA = [
     "category": "cylinder_cone",
     "category_name": "Cylinder, Cone & Frustum",
     "exam": "CPO 2019 Pre",
-    "question": ".A right circular cylinder of maximum possible size is cut out from a solid wooden cube. The remaining material of the cube is what percentage of the original cube? (Take pi = 3.14 )",
+    "question": "A right circular cylinder of maximum possible size is cut out from a solid wooden cube. The remaining material of the cube is what percentage of the original cube? (Take pi = 3.14 )",
     "options": {
       "a": "22.4",
       "b": "21.5",
@@ -1151,7 +1151,7 @@ window.MENSURATION_3D_DATA = [
     "category": "cylinder_cone",
     "category_name": "Cylinder, Cone & Frustum",
     "exam": "CPO 2018 Pre",
-    "question": ".An 18m deep well with diameter  7m is dug and the earth from digging is spread evenly to form a platform 18m X 14m. The height of the platform is:",
+    "question": "An 18m deep well with diameter 7m is dug and the earth from digging is spread evenly to form a platform 18m X 14m. The height of the platform is:",
     "options": {
       "a": "2.6 m",
       "b": "3.05 m",
@@ -1174,7 +1174,7 @@ window.MENSURATION_3D_DATA = [
     "category": "cylinder_cone",
     "category_name": "Cylinder, Cone & Frustum",
     "exam": "MTS 2021",
-    "question": "A goldsmith uses 110 cm³ of gold to make a wire 1 mm of diameter. He will use this wire to make  gold chains of equal lengths. If each chain requires  56 cm length of wire, then how many gold chains can he make? [Use π = 22/7]",
+    "question": "A goldsmith uses 110 cm³ of gold to make a wire 1 mm of diameter. He will use this wire to make gold chains of equal lengths. If each chain requires 56 cm length of wire, then how many gold chains can he make? [Use π = 22/7]",
     "options": {
       "a": "210",
       "b": "320",
@@ -1222,7 +1222,7 @@ window.MENSURATION_3D_DATA = [
     "category": "cylinder_cone",
     "category_name": "Cylinder, Cone & Frustum",
     "exam": "MTS 2020 Pre",
-    "question": ".The material of a sphere of radius r is melted and recast into a hollow cylindrical shell of thickness a and outer radius b. What is its length assuming that no material is lost in recasting?",
+    "question": "The material of a sphere of radius r is melted and recast into a hollow cylindrical shell of thickness a and outer radius b. What is its length assuming that no material is lost in recasting?",
     "options": {
       "a": "4r3 / 3a(2a - b)",
       "b": "4r3 / 3a (b+a)(b-a)",
@@ -1246,7 +1246,7 @@ window.MENSURATION_3D_DATA = [
     "category": "cylinder_cone",
     "category_name": "Cylinder, Cone & Frustum",
     "exam": "CGL MAINS 2019",
-    "question": "The circumference of the base of a right circular cone is 44 cm and Smo its height is 24cm. The curved surface area (in cm²) of the cone is :",
+    "question": "The circumference of the base of a right circular cone is 44 cm and its height is 24cm. The curved surface area (in cm²) of the cone is :",
     "options": {
       "a": "572",
       "b": "550",
@@ -1269,7 +1269,7 @@ window.MENSURATION_3D_DATA = [
     "category": "cylinder_cone",
     "category_name": "Cylinder, Cone & Frustum",
     "exam": "CGL 2023 Pre",
-    "question": ".A conical tent of height 10 m and base diameter 48 m was erected by a company in a park. Find the curved surface area of the tent (in m2 ) .",
+    "question": "A conical tent of height 10 m and base diameter 48 m was erected by a company in a park. Find the curved surface area of the tent (in m2 ) .",
     "options": {
       "a": "56 𝝅",
       "b": "1248 𝝅",
@@ -1382,7 +1382,7 @@ window.MENSURATION_3D_DATA = [
     "category": "cylinder_cone",
     "category_name": "Cylinder, Cone & Frustum",
     "exam": "CGL MAINS 2020",
-    "question": "Volume of a cone whose radius of a base and height are r and h respectively, is 400 cm³.What will be the volume of a cone whose  radius of base and and height are  2r cm and h cm respectively?",
+    "question": "Volume of a cone whose radius of a base and height are r and h respectively, is 400 cm³.What will be the volume of a cone whose radius of base and and height are 2r cm and h cm respectively?",
     "options": {
       "a": "100 cm³",
       "b": "1600 cm³",
@@ -1404,7 +1404,7 @@ window.MENSURATION_3D_DATA = [
     "category": "cylinder_cone",
     "category_name": "Cylinder, Cone & Frustum",
     "exam": "CGL MAINS 2020",
-    "question": "The curved surface area of a  (right circular cone is 2310 cm²  and its radius is  21 cm. If its radius is increased by 100% and height is reduced by 50%, then its capacity (in litres) will be correct to one decimal place (Take pi = (22/7)",
+    "question": "The curved surface area of a (right circular cone is 2310 cm² and its radius is 21 cm. If its radius is increased by 100% and height is reduced by 50%, then its capacity (in litres) will be correct to one decimal place (Take pi = (22/7)",
     "options": {
       "a": "27.8",
       "b": "28.2",
@@ -1429,7 +1429,7 @@ window.MENSURATION_3D_DATA = [
     "category": "cylinder_cone",
     "category_name": "Cylinder, Cone & Frustum",
     "exam": "CGL MAINS 2019",
-    "question": "A conical tent has to accommodate  25 persons. Each person must  have  4 m2 of space on the ground and  80 m3 of air to breathe. Find the height of the tent.",
+    "question": "A conical tent has to accommodate 25 persons. Each person must have 4 m2 of space on the ground and 80 m3 of air to breathe. Find the height of the tent.",
     "options": {
       "a": "50 m",
       "b": "60 m",
@@ -1452,7 +1452,7 @@ window.MENSURATION_3D_DATA = [
     "category": "cylinder_cone",
     "category_name": "Cylinder, Cone & Frustum",
     "exam": "CGL MAINS 2018",
-    "question": "A right circular solid cone of radius 3.2 cm and height 7.2 cm is melted and recast into a right circular cylinder of height  9.6 cm. What is the diameter of the base of the cylinder?",
+    "question": "A right circular solid cone of radius 3.2 cm and height 7.2 cm is melted and recast into a right circular cylinder of height 9.6 cm. What is the diameter of the base of the cylinder?",
     "options": {
       "a": "4.2 cm",
       "b": "4.5 cm",
@@ -1475,7 +1475,7 @@ window.MENSURATION_3D_DATA = [
     "category": "cylinder_cone",
     "category_name": "Cylinder, Cone & Frustum",
     "exam": "Selection Post 12, 2024",
-    "question": ".There is a large cone with a diameter of 14m and height of 12m. It is being filled with water at a rate of 2 m³ in every 20 seconds. How long will it take to fill the cone?",
+    "question": "There is a large cone with a diameter of 14m and height of 12m. It is being filled with water at a rate of 2 m³ in every 20 seconds. How long will it take to fill the cone?",
     "options": {
       "a": "12320 sec",
       "b": "616 sec",
@@ -1498,7 +1498,7 @@ window.MENSURATION_3D_DATA = [
     "category": "cylinder_cone",
     "category_name": "Cylinder, Cone & Frustum",
     "exam": "CHSL 2023 Pre",
-    "question": "A metallic sphere of radius  21 cm is melted and then recast into smaller cones each with a radius of 7cm, and a height of 3 cm. Find the number of cones obtained.",
+    "question": "A metallic sphere of radius 21 cm is melted and then recast into smaller cones each with a radius of 7cm, and a height of 3 cm. Find the number of cones obtained.",
     "options": {
       "a": "325",
       "b": "252",
@@ -1520,7 +1520,7 @@ window.MENSURATION_3D_DATA = [
     "category": "cylinder_cone",
     "category_name": "Cylinder, Cone & Frustum",
     "exam": "CPO 2024 Pre",
-    "question": ".How many metres of cloth will be required to make a conical tent, the radius of whose base is 21 metres and height is 28 metres. The width of the cloth is 5 metres. etres. (Where π = (22/7)",
+    "question": "How many metres of cloth will be required to make a conical tent, the radius of whose base is 21 metres and height is 28 metres. The width of the cloth is 5 metres. (Where π = (22/7)",
     "options": {
       "a": "470",
       "b": "462",
@@ -1543,7 +1543,7 @@ window.MENSURATION_3D_DATA = [
     "category": "cylinder_cone",
     "category_name": "Cylinder, Cone & Frustum",
     "exam": "MTS 2020 Pre",
-    "question": "A solid right circular cone is cut into two parts by a plane  parallel to its base and at a point one-third vertically below its vertex. What is the ratio of the volume of the smaller cone to that of the whole cone?",
+    "question": "A solid right circular cone is cut into two parts by a plane parallel to its base and at a point one-third vertically below its vertex. What is the ratio of the volume of the smaller cone to that of the whole cone?",
     "options": {
       "a": "1:91",
       "b": "1:270",
@@ -1566,7 +1566,7 @@ window.MENSURATION_3D_DATA = [
     "category": "cylinder_cone",
     "category_name": "Cylinder, Cone & Frustum",
     "exam": "MTS 2020 Pre",
-    "question": "A right circular cone is inscribed in a cube of side  9 cm occupying the maximum space possible. What is the ratio of the volume of the cube  to the volume of the cone? (Take pi = 22/7 )",
+    "question": "A right circular cone is inscribed in a cube of side 9 cm occupying the maximum space possible. What is the ratio of the volume of the cube to the volume of the cone? (Take pi = 22/7 )",
     "options": {
       "a": "81:22",
       "b": "11:42",
@@ -1589,7 +1589,7 @@ window.MENSURATION_3D_DATA = [
     "category": "cylinder_cone",
     "category_name": "Cylinder, Cone & Frustum",
     "exam": "CGL 2022 Pre",
-    "question": "The radii of the ends of a frustum of a cone  7 cm high are  5 cm and 3 cm. Find the volume.correct to one decimal place. (use pi = 22/7 )",
+    "question": "The radii of the ends of a frustum of a cone 7 cm high are 5 cm and 3 cm. Find the volume.correct to one decimal place. (use pi = 22/7 )",
     "options": {
       "a": "345.6 cm3",
       "b": "359.3 cm3",
@@ -1662,7 +1662,7 @@ window.MENSURATION_3D_DATA = [
     "category": "sphere_hemisphere",
     "category_name": "Sphere & Hemisphere",
     "exam": "CGL 2022 Pre",
-    "question": ".If the volume of a sphere is 179 ⅔ m3 , what is its surface area?",
+    "question": "If the volume of a sphere is 179 ⅔ m3 , what is its surface area?",
     "options": {
       "a": "221m ^ 2",
       "b": "154m ^ 2",
@@ -1686,7 +1686,7 @@ window.MENSURATION_3D_DATA = [
     "category": "sphere_hemisphere",
     "category_name": "Sphere & Hemisphere",
     "exam": "CGL 2022 Pre",
-    "question": ".How many spherical lead shots each of diameter 8.4 cm can be obtained from a rectangular solid of lead with dimension 88 cm, 63 cm, 42 cm (take π = 22/7)?",
+    "question": "How many spherical lead shots each of diameter 8.4 cm can be obtained from a rectangular solid of lead with dimension 88 cm, 63 cm, 42 cm (take π = 22/7)?",
     "options": {
       "a": "920",
       "b": "750",
@@ -1733,7 +1733,7 @@ window.MENSURATION_3D_DATA = [
     "category": "sphere_hemisphere",
     "category_name": "Sphere & Hemisphere",
     "exam": "CGL 2023 Pre",
-    "question": "A spherical ball of lead, 3 cm in diameter, is melted and recast into three spherical balls. The diameters of two of  these balls are 3/2 cm and 2 cm, 2 respectively. Find the diameter of the third ball.",
+    "question": "A spherical ball of lead, 3 cm in diameter, is melted and recast into three spherical balls. The diameters of two of these balls are 3/2 cm and 2 cm, 2 respectively. Find the diameter of the third ball.",
     "options": {
       "a": "2.1 cm",
       "b": "3.3 cm",
@@ -1806,7 +1806,7 @@ window.MENSURATION_3D_DATA = [
     "category": "sphere_hemisphere",
     "category_name": "Sphere & Hemisphere",
     "exam": "CGL 2022 Pre",
-    "question": ".The length of the side of a cube is 5.6 cm. What is the volume of the largest sphere that can be taken out of the cube?",
+    "question": "The length of the side of a cube is 5.6 cm. What is the volume of the largest sphere that can be taken out of the cube?",
     "options": {
       "a": "91.98 cm3",
       "b": "99.96 cm3",
@@ -1828,7 +1828,7 @@ window.MENSURATION_3D_DATA = [
     "category": "sphere_hemisphere",
     "category_name": "Sphere & Hemisphere",
     "exam": "CGL 2021 Pre",
-    "question": ".From the body of a solid cube of edge 7 cm, a solid sphere is removed. The volume of the remaining solid was found to be 163 ⅓ cm3. What is the diameter (in cm) of the sphere ?(Take pi = 22/7 )",
+    "question": "From the body of a solid cube of edge 7 cm, a solid sphere is removed. The volume of the remaining solid was found to be 163 ⅓ cm3. What is the diameter (in cm) of the sphere ?(Take pi = 22/7 )",
     "options": {
       "a": "10",
       "b": "7",
@@ -1852,7 +1852,7 @@ window.MENSURATION_3D_DATA = [
     "category": "sphere_hemisphere",
     "category_name": "Sphere & Hemisphere",
     "exam": "CGL 2021 Pre",
-    "question": ".A cylindrical vessel of diameter 32 cm is partially filled with water. A solid metallic sphere of radius 12 cm is dropped into it. What will be the increase in the level of water in the vessel (in cm)?",
+    "question": "A cylindrical vessel of diameter 32 cm is partially filled with water. A solid metallic sphere of radius 12 cm is dropped into it. What will be the increase in the level of water in the vessel (in cm)?",
     "options": {
       "a": "9",
       "b": "27",
@@ -1970,7 +1970,7 @@ window.MENSURATION_3D_DATA = [
     "category": "sphere_hemisphere",
     "category_name": "Sphere & Hemisphere",
     "exam": "CGL 2023 Pre",
-    "question": ".A hemispherical bowl has a radius of 7 cm. It is to be painted from inside as well as outside. Find the cost of painting it at the rate of ₹40 per 20 cm²? (Take thickness of the bowl as negligible).",
+    "question": "A hemispherical bowl has a radius of 7 cm. It is to be painted from inside as well as outside. Find the cost of painting it at the rate of ₹40 per 20 cm²? (Take thickness of the bowl as negligible).",
     "options": {
       "a": "1,232",
       "c": "1,432",
@@ -2066,7 +2066,7 @@ window.MENSURATION_3D_DATA = [
     "category": "sphere_hemisphere",
     "category_name": "Sphere & Hemisphere",
     "exam": "CGL MAINS 2020",
-    "question": ".The curved surface area of a solid hemisphere is  22 cm2 What is the total surface area of the hemisphere? (Use pi = 22/7 )",
+    "question": "The curved surface area of a solid hemisphere is 22 cm². What is the total surface area of the hemisphere? (Use pi = 22/7 )",
     "options": {
       "a": "66 cm2",
       "b": "44 cm2",
@@ -2114,7 +2114,7 @@ window.MENSURATION_3D_DATA = [
     "category": "sphere_hemisphere",
     "category_name": "Sphere & Hemisphere",
     "exam": "MTS 2021",
-    "question": "A toy is formed by placing a solid circular cone on a solid hemisphere and the radius of the common base of the cone and the hemisphere is 15 cm. If the volume of the toy is 2850 π c * m ^ 3 , then find the total surface area of that toy.",
+    "question": "A toy is formed by placing a solid circular cone on a solid hemisphere and the radius of the common base of the cone and the hemisphere is 15 cm. If the volume of the toy is 2850 π cm³ , then find the total surface area of that toy.",
     "options": {
       "a": "755 𝝅 cm2",
       "b": "685  𝝅 cm2",
@@ -2164,7 +2164,7 @@ window.MENSURATION_3D_DATA = [
     "category": "sphere_hemisphere",
     "category_name": "Sphere & Hemisphere",
     "exam": "SP 2023 Phase-11 Matric. L.",
-    "question": ".A spherical ball of diameter  8 cm is cut into two equal parts. The curved area of one such part has to be painted with green colour, while the other part has to be painted with red colour. The bases of both the hemispheres are to be painted with blue colour. The cost of painting with blue is Rs. 2 cm2 while the cost of painting the curved area is Rs 3 cm2  What will be the cost (in Rs) of painting the hemispheres? Take pi = 3.14",
+    "question": "A spherical ball of diameter 8 cm is cut into two equal parts. The curved area of one such part has to be painted with green colour, while the other part has to be painted with red colour. The bases of both the hemispheres are to be painted with blue colour. The cost of painting with blue is Rs. 2 cm2 while the cost of painting the curved area is Rs 3 cm2 What will be the cost (in Rs) of painting the hemispheres? Take pi = 3.14",
     "options": {
       "a": "₹451.92",
       "b": "₹803.84",
@@ -2195,10 +2195,10 @@ window.MENSURATION_3D_DATA = [
       "a": "10√3",
       "b": "20√3",
       "c": "30√3",
-      "d": "40√3)"
+      "d": "40√3"
     },
     "answer": "d",
-    "correct_text": "40√3)",
+    "correct_text": "40√3",
     "formula": "LSA = Base Perimeter × h; Volume = Base Area × h",
     "steps": [
       "Base is equilateral triangle of side a = 4 cm.",
@@ -2286,7 +2286,7 @@ window.MENSURATION_3D_DATA = [
     "category": "prism_pyramid",
     "category_name": "Prism & Pyramid",
     "exam": "CGL MAINS 2018",
-    "question": "The base of a right prism is a regular hexagon of side  5 cm. If its height is 12√3 cm, then its volume (in cm2 ) is:",
+    "question": "The base of a right prism is a regular hexagon of side 5 cm. If its height is 12√3 cm, then its volume (in cm2 ) is:",
     "options": {
       "a": "900",
       "b": "1800",
@@ -2379,7 +2379,7 @@ window.MENSURATION_3D_DATA = [
     "category": "prism_pyramid",
     "category_name": "Prism & Pyramid",
     "exam": "CGL 2021 Pre",
-    "question": ".The total surface area of a right pyramid, with base as a square of side  8 cm, is 208 cm². What is the slant height (in cm) of the pyramid?",
+    "question": "The total surface area of a right pyramid, with base as a square of side 8 cm, is 208 cm². What is the slant height (in cm) of the pyramid?",
     "options": {
       "a": "7",
       "b": "10",

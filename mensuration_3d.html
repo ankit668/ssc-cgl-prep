@@ -534,6 +534,35 @@
             white-space: nowrap;
         }
 
+                .card-actions {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            margin-top: 4px;
+        }
+
+        .retry-btn {
+            background: #0F172A;
+            border: 1px solid var(--border-color);
+            color: var(--text-muted);
+            font-size: 0.78rem;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            transition: all 0.2s;
+        }
+
+        .retry-btn:hover {
+            color: var(--accent-blue);
+            border-color: var(--accent-blue);
+            background: #1e293b;
+        }
+
         .toggle-sol-btn {
             background: none;
             border: none;
@@ -889,7 +918,7 @@
                     const isBookmarked = !!userBookmarks[q.id];
                     const chosen = userAttempts[q.id];
                     const isAnswered = chosen !== undefined;
-                    const isSolOpen = showAllSolutions;
+                    const isSolOpen = showAllSolutions || isAnswered;
 
                     html += `
                     <div class="q-card" id="q-${q.id}" data-id="${q.id}">
@@ -913,10 +942,13 @@
                             ${renderOptionBtn(q, 'd', chosen)}
                         </div>
 
-                        <button class="toggle-sol-btn" data-id="${q.id}">
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                            <span>${isSolOpen ? 'Hide Solution' : 'View Formula & Topper Trick'}</span>
-                        </button>
+                        <div class="card-actions">
+                            <button class="toggle-sol-btn" data-id="${q.id}">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                                <span>${isSolOpen ? 'Hide Solution' : 'View Formula & Topper Trick'}</span>
+                            </button>
+                            ${isAnswered ? `<button class="retry-btn" data-id="${q.id}" title="Reset this question to try again">↺ Re-attempt</button>` : ''}
+                        </div>
 
                         <div class="solution-box ${isSolOpen ? 'visible' : ''}" id="sol-${q.id}">
                             <div class="formula-badge">
@@ -983,6 +1015,18 @@
                                 else if (o === opt) b.classList.add('wrong');
                             });
                         }
+                    });
+                });
+
+                // Retry Individual Question
+                document.querySelectorAll('.retry-btn').forEach(btn => {
+                    btn.addEventListener('click', function(e) {
+                        e.stopPropagation();
+                        const qid = this.getAttribute('data-id');
+                        delete userAttempts[qid];
+                        localStorage.setItem(STORAGE_ATTEMPTS, JSON.stringify(userAttempts));
+                        updateStats();
+                        renderQuestions();
                     });
                 });
 
