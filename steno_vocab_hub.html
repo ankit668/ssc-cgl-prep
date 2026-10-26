@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>SSC Steno Master Vocab Hub (813 Words & 343 MCQs)</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="icon-192.png">
+    <link rel="apple-touch-icon" href="icon-192.png">
+    <meta name="theme-color" content="#0B1120">
+    <style>
+        :root {
+            --bg-color: #0B1120;
+            --container-bg: #1E293B;
+            --card-bg: #162032;
+            --text-color: #E2E8F0;
+            --text-muted: #94A3B8;
+            --border-color: #334155;
+            --accent-blue: #38BDF8;
+            --accent-cyan: #06B6D4;
+            --accent-green: #10B981;
+            --accent-red: #EF4444;
+            --accent-amber: #F59E0B;
+            --accent-purple: #A855F7;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.5;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Top Header */
+        header {
+            background-color: rgba(30, 41, 59, 0.95);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            padding: 12px 16px;
+        }
+
+        .header-inner {
+            max-width: 1050px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+        }
+
+        .brand-area {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .back-btn {
+            background: #0F172A;
+            border: 1px solid var(--border-color);
+            color: var(--accent-blue);
+            padding: 8px 12px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.85rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s;
+        }
+
+        .back-btn:hover {
+            background: #1e293b;
+            border-color: var(--accent-blue);
+        }
+
+        .title-block h1 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #F8FAFC;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .title-block p {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        .badge-count {
+            background: linear-gradient(135deg, #0284c7, #0369a1);
+            color: #FFF;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.72rem;
+            font-weight: 700;
+        }
+
+        /* Main View Switcher */
+        .mode-switcher {
+            display: flex;
+            background: #0F172A;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 3px;
+            gap: 4px;
+        }
+
+        .mode-btn {
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-size: 0.82rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s;
+        }
+
+        .mode-btn.active {
+            background: #0284c7;
+            color: #FFF;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1050px;
+            margin: 0 auto;
+            padding: 16px;
+            width: 100%;
+            flex: 1;
+        }
+
+        /* Stats Bar */
+        .stats-bar {
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 12px 16px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 16px;
+        }
+
+        .stat-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .stat-label {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+
+        .stat-val {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #F8FAFC;
+        }
+
+        .stat-val.green { color: var(--accent-green); }
+        .stat-val.red { color: var(--accent-red); }
+        .stat-val.blue { color: var(--accent-blue); }
+
+        /* Controls Panel */
+        .controls-panel {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .search-row {
+            display: flex;
+            gap: 10px;
+        }
+
+        .search-input {
+            flex: 1;
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 10px 14px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .search-input:focus {
+            border-color: var(--accent-blue);
+        }
+
+        .action-btn {
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 10px 14px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+
+        .action-btn:hover {
+            border-color: var(--accent-blue);
+            color: var(--accent-blue);
+        }
+
+        .action-btn.active {
+            background: #0284c7;
+            border-color: #0284c7;
+            color: #FFF;
+        }
+
+        /* Tabs Container */
+        .tabs-container {
+            display: flex;
+            gap: 8px;
+            overflow-x: auto;
+            padding-bottom: 6px;
+            scrollbar-width: thin;
+        }
+
+        .tab-btn {
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-muted);
+            padding: 8px 14px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+            white-space: nowrap;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s;
+        }
+
+        .tab-btn:hover {
+            color: #FFF;
+            border-color: var(--text-muted);
+        }
+
+        .tab-btn.active {
+            background: var(--accent-blue);
+            color: #0F172A;
+            border-color: var(--accent-blue);
+            font-weight: 700;
+        }
+
+        .tab-count {
+            background: rgba(0, 0, 0, 0.25);
+            padding: 1px 6px;
+            border-radius: 10px;
+            font-size: 0.72rem;
+        }
+
+        /* Vocab Cards List (Mode 1) */
+        .vocab-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+            gap: 14px;
+        }
+
+        .vocab-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 14px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+            transition: transform 0.15s, border-color 0.2s;
+        }
+
+        .vocab-card:hover {
+            border-color: #475569;
+            transform: translateY(-2px);
+        }
+
+        .vocab-top {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 8px;
+        }
+
+        .vocab-word-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .vocab-term {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #F8FAFC;
+        }
+
+        .vocab-tag {
+            background: rgba(56, 189, 248, 0.12);
+            color: var(--accent-blue);
+            font-size: 0.68rem;
+            font-weight: 600;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+
+        .vocab-actions-mini {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .icon-btn {
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            cursor: pointer;
+            padding: 4px;
+            border-radius: 4px;
+            transition: color 0.2s;
+        }
+
+        .icon-btn:hover {
+            color: var(--accent-blue);
+        }
+
+        .icon-btn.active {
+            color: var(--accent-amber);
+        }
+
+        .vocab-meaning {
+            font-size: 0.9rem;
+            color: #CBD5E1;
+            line-height: 1.45;
+        }
+
+        .vocab-extra-box {
+            background: #0F172A;
+            border-radius: 6px;
+            padding: 8px 10px;
+            font-size: 0.8rem;
+            border-left: 3px solid var(--accent-blue);
+        }
+
+        .vocab-extra-box.spelling-box {
+            border-left-color: var(--accent-red);
+            background: rgba(239, 68, 68, 0.08);
+        }
+
+        .vocab-extra-box.antonym-box {
+            border-left-color: var(--accent-amber);
+            background: rgba(245, 158, 11, 0.08);
+        }
+
+        .vocab-extra-label {
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            margin-bottom: 2px;
+        }
+
+        .vocab-extra-val {
+            color: #E2E8F0;
+            word-break: break-word;
+        }
+
+        /* MCQ Practice Cards (Mode 2) */
+        .mcq-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .mcq-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 16px;
+        }
+
+        .mcq-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 12px;
+        }
+
+        .mcq-meta {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .mcq-num {
+            background: #0F172A;
+            color: var(--accent-blue);
+            font-weight: 700;
+            font-size: 0.8rem;
+            padding: 2px 8px;
+            border-radius: 4px;
+            border: 1px solid #334e68;
+        }
+
+        .mcq-cat-tag {
+            background: rgba(168, 85, 247, 0.12);
+            color: var(--accent-purple);
+            font-size: 0.72rem;
+            font-weight: 600;
+            padding: 2px 8px;
+            border-radius: 4px;
+        }
+
+        .mcq-question {
+            font-size: 0.95rem;
+            color: #F8FAFC;
+            font-weight: 500;
+            margin-bottom: 14px;
+            line-height: 1.5;
+            white-space: pre-line;
+        }
+
+        .mcq-options-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 10px;
+            margin-bottom: 12px;
+        }
+
+        .mcq-opt-btn {
+            background: #0F172A;
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 10px 14px;
+            border-radius: 8px;
+            text-align: left;
+            font-size: 0.88rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.2s;
+        }
+
+        .mcq-opt-btn:hover {
+            border-color: #475569;
+            background: #182234;
+        }
+
+        .mcq-opt-btn.correct {
+            background: rgba(16, 185, 129, 0.15) !important;
+            border-color: var(--accent-green) !important;
+            color: #A7F3D0 !important;
+        }
+
+        .mcq-opt-btn.wrong {
+            background: rgba(239, 68, 68, 0.15) !important;
+            border-color: var(--accent-red) !important;
+            color: #FECACA !important;
+        }
+
+        .mcq-card-actions {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            margin-top: 4px;
+        }
+
+        .mcq-toggle-sol-btn {
+            background: none;
+            border: none;
+            color: var(--accent-blue);
+            font-size: 0.82rem;
+            font-weight: 600;
+            cursor: pointer;
+            padding: 4px 0;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .mcq-retry-btn {
+            background: #0F172A;
+            border: 1px solid var(--border-color);
+            color: var(--text-muted);
+            font-size: 0.78rem;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .mcq-retry-btn:hover {
+            color: var(--accent-blue);
+            border-color: var(--accent-blue);
+        }
+
+        .mcq-solution-box {
+            background: #0F172A;
+            border: 1px solid #1E3A5F;
+            border-radius: 8px;
+            padding: 12px;
+            margin-top: 10px;
+            font-size: 0.85rem;
+            color: #CBD5E1;
+            display: none;
+        }
+
+        .mcq-solution-box.visible {
+            display: block;
+        }
+
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 48px 16px;
+            color: var(--text-muted);
+        }
+
+        .empty-state h3 {
+            font-size: 1.1rem;
+            color: #F8FAFC;
+            margin-bottom: 8px;
+        }
+
+        @media (max-width: 640px) {
+            .header-inner {
+                flex-wrap: wrap;
+            }
+            .vocab-grid {
+                grid-template-columns: 1fr;
+            }
+            .mcq-options-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header-inner">
+            <div class="brand-area">
+                <a href="index.html" class="back-btn" title="Back to Main Prep Hub">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                    Hub
+                </a>
+                <div class="title-block">
+                    <h1>SSC Steno Master Vocab <span class="badge-count" id="headerCountBadge">813 Words</span></h1>
+                    <p>Maths Maestro Edition • 8 Sections + 343 Practice MCQs + Audio Pronunciation</p>
+                </div>
+            </div>
+
+            <!-- Mode Switcher -->
+            <div class="mode-switcher">
+                <button id="modeVocabBtn" class="mode-btn active" title="Vocabulary Dictionary & Flashcards">
+                    📖 Vocab Bank
+                </button>
+                <button id="modeMcqBtn" class="mode-btn" title="Interactive MCQ Practice Tests">
+                    🎯 MCQ Arena (<span id="modeMcqCount">343</span>)
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <!-- Stats Bar -->
+        <div class="stats-bar">
+            <div class="stat-item">
+                <span class="stat-label">Active Items</span>
+                <span class="stat-val" id="statTotal">813</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">MCQ Attempted</span>
+                <span class="stat-val blue" id="statAttempted">0</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Correct</span>
+                <span class="stat-val green" id="statCorrect">0</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Accuracy</span>
+                <span class="stat-val" id="statAccuracy">0%</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Bookmarked</span>
+                <span class="stat-val" id="statBookmarked">0</span>
+            </div>
+        </div>
+
+        <!-- Controls Panel -->
+        <div class="controls-panel">
+            <div class="search-row">
+                <input type="text" id="searchInput" class="search-input" placeholder="🔍 Search word, definition, synonym, idiom, or wrong spelling...">
+                <button id="bookmarkedOnlyBtn" class="action-btn" title="Filter bookmarked items">
+                    🔖 Bookmarked (<span id="bookmarkedCount">0</span>)
+                </button>
+                <button id="audioAllBtn" class="action-btn" title="Stop ongoing speech">
+                    ⏹️ Stop Audio
+                </button>
+            </div>
+
+            <!-- Section Tabs -->
+            <div class="tabs-container" id="tabsContainer">
+                <!-- Dynamically rendered based on active mode -->
+            </div>
+        </div>
+
+        <!-- Mode 1: Vocab Cards Grid -->
+        <div id="vocabView" class="vocab-grid">
+            <!-- Dynamically populated -->
+        </div>
+
+        <!-- Mode 2: MCQ Practice List -->
+        <div id="mcqView" class="mcq-list" style="display: none;">
+            <!-- Dynamically populated -->
+        </div>
+
+        <!-- Empty State -->
+        <div id="emptyState" class="empty-state" style="display: none;">
+            <h3>No results found</h3>
+            <p>Try searching for another keyword or selecting a different section tab.</p>
+        </div>
+
+    </div>
+
+    <!-- Offline Dataset Script -->
+    <script src="steno_vocab_data.js"></script>
+
+    <!-- App Logic -->
+    <script>
+        (function() {
+            // State
+            let dataset = window.STENO_VOCAB_DATA || { entries: [], mcqs: [] };
+            let entries = dataset.entries || [];
+            let mcqs = dataset.mcqs || [];
+
+            let currentMode = 'vocab'; // 'vocab' | 'mcq'
+            let currentTab = 'all';
+            let searchQuery = '';
+            let showOnlyBookmarked = false;
+
+            // Persistence Keys
+            const STORAGE_BOOKMARKS_VOCAB = 'steno_vocab_bookmarks_v1';
+            const STORAGE_ATTEMPTS_MCQ = 'steno_vocab_mcq_attempts_v1';
+
+            let vocabBookmarks = JSON.parse(localStorage.getItem(STORAGE_BOOKMARKS_VOCAB) || '{}');
+            let mcqAttempts = JSON.parse(localStorage.getItem(STORAGE_ATTEMPTS_MCQ) || '{}');
+
+            // Speech Synthesis Setup with Global Utterance Pinning (fixes Chromium GC bug)
+            window._activeUtterance = null;
+            let speechWatchdog = null;
+
+            function stopAudio() {
+                if ('speechSynthesis' in window) {
+                    window.speechSynthesis.cancel();
+                }
+                if (speechWatchdog) clearInterval(speechWatchdog);
+                window._activeUtterance = null;
+            }
+
+            function speakText(text) {
+                if (!('speechSynthesis' in window)) return;
+                stopAudio();
+
+                const clean = text.replace(/[\*\_\-\/]/g, ' ').replace(/\s+/g, ' ').trim();
+                const u = new SpeechSynthesisUtterance(clean);
+                u.rate = 0.95;
+                u.pitch = 1.0;
+                u.lang = 'en-US';
+
+                window._activeUtterance = u;
+
+                // Watchdog to prevent Chromium silence bug
+                speechWatchdog = setInterval(() => {
+                    if (!window.speechSynthesis.speaking) {
+                        clearInterval(speechWatchdog);
+                    } else {
+                        window.speechSynthesis.pause();
+                        window.speechSynthesis.resume();
+                    }
+                }, 5000);
+
+                u.onend = () => {
+                    clearInterval(speechWatchdog);
+                    window._activeUtterance = null;
+                };
+
+                u.onerror = () => {
+                    clearInterval(speechWatchdog);
+                    window._activeUtterance = null;
+                };
+
+                window.speechSynthesis.speak(u);
+            }
+
+            // DOM Elements
+            const modeVocabBtn = document.getElementById('modeVocabBtn');
+            const modeMcqBtn = document.getElementById('modeMcqBtn');
+            const modeMcqCount = document.getElementById('modeMcqCount');
+            const headerCountBadge = document.getElementById('headerCountBadge');
+
+            const vocabView = document.getElementById('vocabView');
+            const mcqView = document.getElementById('mcqView');
+            const emptyState = document.getElementById('emptyState');
+            const tabsContainer = document.getElementById('tabsContainer');
+            const searchInput = document.getElementById('searchInput');
+            const bookmarkedOnlyBtn = document.getElementById('bookmarkedOnlyBtn');
+            const audioAllBtn = document.getElementById('audioAllBtn');
+
+            // Stats Elements
+            const statTotal = document.getElementById('statTotal');
+            const statAttempted = document.getElementById('statAttempted');
+            const statCorrect = document.getElementById('statCorrect');
+            const statAccuracy = document.getElementById('statAccuracy');
+            const statBookmarked = document.getElementById('statBookmarked');
+            const bookmarkedCount = document.getElementById('bookmarkedCount');
+
+            // Fallback fetch if JS data script failed
+            if (!entries || entries.length === 0) {
+                fetch('steno_vocab_data.json')
+                    .then(r => r.json())
+                    .then(data => {
+                        dataset = data;
+                        entries = dataset.entries || [];
+                        mcqs = dataset.mcqs || [];
+                        initApp();
+                    })
+                    .catch(err => {
+                        console.error('Failed to load dataset:', err);
+                        vocabView.innerHTML = '<div class="empty-state"><h3>Error loading vocabulary</h3><p>Please reload or ensure steno_vocab_data.json is accessible.</p></div>';
+                    });
+            } else {
+                initApp();
+            }
+
+            function initApp() {
+                modeMcqCount.textContent = mcqs.length;
+                renderTabs();
+                updateStats();
+                renderCurrentView();
+                setupEventListeners();
+            }
+
+            function setupEventListeners() {
+                // Mode Toggle
+                modeVocabBtn.addEventListener('click', () => {
+                    if (currentMode === 'vocab') return;
+                    currentMode = 'vocab';
+                    modeVocabBtn.classList.add('active');
+                    modeMcqBtn.classList.remove('active');
+                    vocabView.style.display = 'grid';
+                    mcqView.style.display = 'none';
+                    headerCountBadge.textContent = `${entries.length} Words`;
+                    currentTab = 'all';
+                    renderTabs();
+                    updateStats();
+                    renderCurrentView();
+                });
+
+                modeMcqBtn.addEventListener('click', () => {
+                    if (currentMode === 'mcq') return;
+                    currentMode = 'mcq';
+                    modeMcqBtn.classList.add('active');
+                    modeVocabBtn.classList.remove('active');
+                    vocabView.style.display = 'none';
+                    mcqView.style.display = 'flex';
+                    headerCountBadge.textContent = `${mcqs.length} MCQs`;
+                    currentTab = 'all';
+                    renderTabs();
+                    updateStats();
+                    renderCurrentView();
+                });
+
+                // Search
+                searchInput.addEventListener('input', (e) => {
+                    searchQuery = e.target.value.toLowerCase().trim();
+                    renderCurrentView();
+                });
+
+                // Bookmarked Filter
+                bookmarkedOnlyBtn.addEventListener('click', () => {
+                    showOnlyBookmarked = !showOnlyBookmarked;
+                    bookmarkedOnlyBtn.classList.toggle('active', showOnlyBookmarked);
+                    renderCurrentView();
+                });
+
+                // Stop Audio Button
+                audioAllBtn.addEventListener('click', stopAudio);
+            }
+
+            function renderTabs() {
+                let tabsHtml = '';
+                if (currentMode === 'vocab') {
+                    const sections = [
+                        { id: 'all', name: 'All Words', count: entries.length },
+                        { id: 'synonyms', name: '🔤 Synonyms', count: entries.filter(i => i.section === 'synonyms').length },
+                        { id: 'antonyms', name: '↔️ Antonyms', count: entries.filter(i => i.section === 'antonyms').length },
+                        { id: 'ows', name: '🎯 One-Word', count: entries.filter(i => i.section === 'ows').length },
+                        { id: 'idioms', name: '💡 Idioms', count: entries.filter(i => i.section === 'idioms').length },
+                        { id: 'spelling', name: '✍️ Spelling', count: entries.filter(i => i.section === 'spelling').length },
+                        { id: 'homonyms', name: '👥 Homonyms', count: entries.filter(i => i.section === 'homonyms').length },
+                        { id: 'cloze', name: '📝 Cloze Words', count: entries.filter(i => i.section === 'cloze').length },
+                        { id: 'master_az', name: '📚 Master A–Z', count: entries.filter(i => i.section === 'master_az').length }
+                    ];
+
+                    tabsHtml = sections.map(s => `
+                        <button class="tab-btn ${currentTab === s.id ? 'active' : ''}" data-tab="${s.id}">
+                            ${s.name} <span class="tab-count">${s.count}</span>
+                        </button>
+                    `).join('');
+                } else {
+                    const mcqCategories = [
+                        { id: 'all', name: 'All MCQs', count: mcqs.length },
+                        { id: 'spelling', name: '✍️ Spelling Traps', count: mcqs.filter(m => m.category === 'spelling').length },
+                        { id: 'synonyms', name: '🔤 Synonyms', count: mcqs.filter(m => m.category === 'synonyms').length },
+                        { id: 'antonyms', name: '↔️ Antonyms', count: mcqs.filter(m => m.category === 'antonyms').length },
+                        { id: 'ows', name: '🎯 One-Word', count: mcqs.filter(m => m.category === 'ows').length },
+                        { id: 'idioms', name: '💡 Idioms & Phrases', count: mcqs.filter(m => m.category === 'idioms').length }
+                    ];
+
+                    tabsHtml = mcqCategories.map(s => `
+                        <button class="tab-btn ${currentTab === s.id ? 'active' : ''}" data-tab="${s.id}">
+                            ${s.name} <span class="tab-count">${s.count}</span>
+                        </button>
+                    `).join('');
+                }
+
+                tabsContainer.innerHTML = tabsHtml;
+
+                // Tab Click Handlers
+                tabsContainer.querySelectorAll('.tab-btn').forEach(btn => {
+                    btn.addEventListener('click', function() {
+                        tabsContainer.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                        this.classList.add('active');
+                        currentTab = this.getAttribute('data-tab');
+                        renderCurrentView();
+                    });
+                });
+            }
+
+            function updateStats() {
+                if (currentMode === 'vocab') {
+                    const bCount = Object.keys(vocabBookmarks).filter(k => vocabBookmarks[k]).length;
+                    statTotal.textContent = entries.length;
+                    statBookmarked.textContent = bCount;
+                    bookmarkedCount.textContent = bCount;
+                } else {
+                    const total = mcqs.length;
+                    const attemptedKeys = Object.keys(mcqAttempts);
+                    const attempted = attemptedKeys.length;
+                    let correct = 0;
+
+                    attemptedKeys.forEach(k => {
+                        const m = mcqs.find(item => item.id == k);
+                        if (m && mcqAttempts[k] === m.answer) correct++;
+                    });
+
+                    const accuracy = attempted > 0 ? Math.round((correct / attempted) * 100) : 0;
+                    statTotal.textContent = total;
+                    statAttempted.textContent = attempted;
+                    statCorrect.textContent = correct;
+                    statAccuracy.textContent = `${accuracy}%`;
+                }
+            }
+
+            function renderCurrentView() {
+                if (currentMode === 'vocab') {
+                    renderVocabView();
+                } else {
+                    renderMcqView();
+                }
+            }
+
+            // Mode 1: Render Vocab Cards
+            function renderVocabView() {
+                const filtered = entries.filter(item => {
+                    if (currentTab !== 'all' && item.section !== currentTab) return false;
+                    if (showOnlyBookmarked && !vocabBookmarks[item.id]) return false;
+                    if (searchQuery) {
+                        const s = (item.term + ' ' + item.meaning + ' ' + item.extra).toLowerCase();
+                        if (!s.includes(searchQuery)) return false;
+                    }
+                    return true;
+                });
+
+                if (filtered.length === 0) {
+                    vocabView.innerHTML = '';
+                    emptyState.style.display = 'block';
+                    return;
+                }
+
+                emptyState.style.display = 'none';
+
+                let html = '';
+                filtered.forEach(item => {
+                    const isBm = !!vocabBookmarks[item.id];
+                    let extraClass = '';
+                    if (item.section === 'spelling') extraClass = 'spelling-box';
+                    else if (item.section === 'antonyms') extraClass = 'antonym-box';
+
+                    html += `
+                    <div class="vocab-card" id="vocab-${item.id}">
+                        <div>
+                            <div class="vocab-top">
+                                <div class="vocab-word-row">
+                                    <span class="vocab-term">${escapeHtml(item.term)}</span>
+                                    <span class="vocab-tag">${item.icon} ${escapeHtml(item.section_name)}</span>
+                                </div>
+                                <div class="vocab-actions-mini">
+                                    <button class="icon-btn audio-btn" data-id="${item.id}" title="Pronounce word and definition">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+                                    </button>
+                                    <button class="icon-btn bookmark-btn ${isBm ? 'active' : ''}" data-id="${item.id}" title="${isBm ? 'Remove Bookmark' : 'Bookmark Word'}">
+                                        ${isBm ? '★' : '☆'}
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="vocab-meaning" style="margin-top: 6px;">
+                                ${escapeHtml(item.meaning)}
+                            </div>
+                        </div>
+
+                        ${item.extra ? `
+                        <div class="vocab-extra-box ${extraClass}">
+                            <div class="vocab-extra-label">${escapeHtml(item.col3_label)}</div>
+                            <div class="vocab-extra-val">${escapeHtml(item.extra)}</div>
+                        </div>` : ''}
+                    </div>`;
+                });
+
+                vocabView.innerHTML = html;
+                attachVocabEvents();
+            }
+
+            function attachVocabEvents() {
+                // Audio Speak
+                vocabView.querySelectorAll('.audio-btn').forEach(btn => {
+                    btn.addEventListener('click', function(e) {
+                        e.stopPropagation();
+                        const id = this.getAttribute('data-id');
+                        const item = entries.find(x => x.id == id);
+                        if (!item) return;
+
+                        let speech = `${item.term}. Meaning: ${item.meaning}.`;
+                        if (item.extra && item.extra !== '—') {
+                            if (item.section === 'spelling') speech += ` Note wrong spellings: ${item.extra}.`;
+                            else if (item.section === 'antonyms') speech += ` Antonym: ${item.extra}.`;
+                            else speech += ` Synonyms: ${item.extra}.`;
+                        }
+                        speakText(speech);
+                    });
+                });
+
+                // Bookmark Toggle
+                vocabView.querySelectorAll('.bookmark-btn').forEach(btn => {
+                    btn.addEventListener('click', function(e) {
+                        e.stopPropagation();
+                        const id = this.getAttribute('data-id');
+                        vocabBookmarks[id] = !vocabBookmarks[id];
+                        localStorage.setItem(STORAGE_BOOKMARKS_VOCAB, JSON.stringify(vocabBookmarks));
+                        updateStats();
+
+                        if (vocabBookmarks[id]) {
+                            this.classList.add('active');
+                            this.textContent = '★';
+                            this.title = 'Remove Bookmark';
+                        } else {
+                            this.classList.remove('active');
+                            this.textContent = '☆';
+                            this.title = 'Bookmark Word';
+                            if (showOnlyBookmarked) renderVocabView();
+                        }
+                    });
+                });
+            }
+
+            // Mode 2: Render MCQ Practice Cards
+            function renderMcqView() {
+                const filtered = mcqs.filter(m => {
+                    if (currentTab !== 'all' && m.category !== currentTab) return false;
+                    if (searchQuery) {
+                        const s = (m.question + ' ' + m.explanation + ' ' + Object.values(m.options).join(' ')).toLowerCase();
+                        if (!s.includes(searchQuery)) return false;
+                    }
+                    return true;
+                });
+
+                if (filtered.length === 0) {
+                    mcqView.innerHTML = '';
+                    emptyState.style.display = 'block';
+                    return;
+                }
+
+                emptyState.style.display = 'none';
+
+                let html = '';
+                filtered.forEach(m => {
+                    const chosen = mcqAttempts[m.id];
+                    const isAnswered = chosen !== undefined;
+
+                    html += `
+                    <div class="mcq-card" id="mcq-${m.id}">
+                        <div class="mcq-header">
+                            <div class="mcq-meta">
+                                <span class="mcq-num">Q${m.id}</span>
+                                <span class="mcq-cat-tag">${escapeHtml(m.category_name)}</span>
+                            </div>
+                        </div>
+
+                        <div class="mcq-question">${escapeHtml(m.question)}</div>
+
+                        <div class="mcq-options-grid">
+                            ${renderMcqOption(m, 'a', chosen)}
+                            ${renderMcqOption(m, 'b', chosen)}
+                            ${renderMcqOption(m, 'c', chosen)}
+                            ${renderMcqOption(m, 'd', chosen)}
+                        </div>
+
+                        <div class="mcq-card-actions">
+                            <button class="mcq-toggle-sol-btn" data-id="${m.id}">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                                <span>${isAnswered ? 'Hide Explanation' : 'View Explanation'}</span>
+                            </button>
+                            ${isAnswered ? `<button class="mcq-retry-btn" data-id="${m.id}">↺ Re-attempt</button>` : ''}
+                        </div>
+
+                        <div class="mcq-solution-box ${isAnswered ? 'visible' : ''}" id="sol-mcq-${m.id}">
+                            ${m.explanation.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')}
+                        </div>
+                    </div>`;
+                });
+
+                mcqView.innerHTML = html;
+                attachMcqEvents();
+            }
+
+            function renderMcqOption(m, optKey, chosen) {
+                const optVal = m.options[optKey] || '';
+                let extraClass = '';
+
+                if (chosen !== undefined) {
+                    if (optKey === m.answer) extraClass = 'correct';
+                    else if (chosen === optKey) extraClass = 'wrong';
+                }
+
+                return `
+                <button class="mcq-opt-btn ${extraClass}" data-mid="${m.id}" data-opt="${optKey}" ${chosen !== undefined ? 'disabled' : ''}>
+                    <span style="font-weight:700; color:var(--text-muted); min-width:20px;">(${optKey})</span>
+                    <span style="flex:1;">${escapeHtml(optVal)}</span>
+                </button>`;
+            }
+
+            function attachMcqEvents() {
+                // Option Click
+                mcqView.querySelectorAll('.mcq-opt-btn').forEach(btn => {
+                    btn.addEventListener('click', function() {
+                        const mid = this.getAttribute('data-mid');
+                        const opt = this.getAttribute('data-opt');
+                        const m = mcqs.find(x => x.id == mid);
+                        if (!m) return;
+
+                        mcqAttempts[mid] = opt;
+                        localStorage.setItem(STORAGE_ATTEMPTS_MCQ, JSON.stringify(mcqAttempts));
+                        updateStats();
+
+                        // Reveal solution
+                        const solBox = document.getElementById(`sol-mcq-${mid}`);
+                        if (solBox) solBox.classList.add('visible');
+
+                        // Re-render this card options
+                        const card = document.getElementById(`mcq-${mid}`);
+                        if (card) {
+                            card.querySelectorAll('.mcq-opt-btn').forEach(b => {
+                                const o = b.getAttribute('data-opt');
+                                b.disabled = true;
+                                if (o === m.answer) b.classList.add('correct');
+                                else if (o === opt) b.classList.add('wrong');
+                            });
+                            // Add retry button if not present
+                            const actions = card.querySelector('.mcq-card-actions');
+                            if (actions && !actions.querySelector('.mcq-retry-btn')) {
+                                const retry = document.createElement('button');
+                                retry.className = 'mcq-retry-btn';
+                                retry.setAttribute('data-id', mid);
+                                retry.textContent = '↺ Re-attempt';
+                                retry.onclick = () => resetMcqQuestion(mid);
+                                actions.appendChild(retry);
+                            }
+                        }
+                    });
+                });
+
+                // Toggle Explanation
+                mcqView.querySelectorAll('.mcq-toggle-sol-btn').forEach(btn => {
+                    btn.addEventListener('click', function() {
+                        const mid = this.getAttribute('data-id');
+                        const solBox = document.getElementById(`sol-mcq-${mid}`);
+                        if (solBox) {
+                            const isVis = solBox.classList.toggle('visible');
+                            this.querySelector('span').textContent = isVis ? 'Hide Explanation' : 'View Explanation';
+                        }
+                    });
+                });
+
+                // Retry Button
+                mcqView.querySelectorAll('.mcq-retry-btn').forEach(btn => {
+                    btn.addEventListener('click', function(e) {
+                        e.stopPropagation();
+                        const mid = this.getAttribute('data-id');
+                        resetMcqQuestion(mid);
+                    });
+                });
+            }
+
+            function resetMcqQuestion(mid) {
+                delete mcqAttempts[mid];
+                localStorage.setItem(STORAGE_ATTEMPTS_MCQ, JSON.stringify(mcqAttempts));
+                updateStats();
+                renderMcqView();
+            }
+
+            function escapeHtml(str) {
+                if (!str) return '';
+                return String(str)
+                    .replace(/&/g, '&amp;')
+                    .replace(/</g, '&lt;')
+                    .replace(/>/g, '&gt;')
+                    .replace(/"/g, '&quot;')
+                    .replace(/'/g, '&#039;');
+            }
+        })();
+    </script>
+</body>
+</html>

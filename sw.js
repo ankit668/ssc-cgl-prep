@@ -1,8 +1,11 @@
-const CACHE_NAME = 'ssc-prep-tier2-v4';
+const CACHE_NAME = 'ssc-prep-tier2-v5';
 const urlsToCache = [
   './',
   './manifest.json',
   './index.html',
+  './steno_vocab_hub.html',
+  './steno_vocab_data.js',
+  './steno_vocab_data.json',
   './mensuration_3d.html',
   './mensuration_3d_data.js',
   './mensuration_3d_data.json',
