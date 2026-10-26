@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>3D Mensuration Master Hub • 108 PYQs (Vishesh Shukla)</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="icon-192.png">
+    <link rel="apple-touch-icon" href="icon-192.png">
+    <meta name="theme-color" content="#0B1120">
+    <style>
+        :root {
+            --bg-color: #0B1120;
+            --container-bg: #1E293B;
+            --card-bg: #162032;
+            --card-hover: #1c2a42;
+            --text-color: #E2E8F0;
+            --text-muted: #94A3B8;
+            --border-color: #334155;
+            --accent-cyan: #06B6D4;
+            --accent-blue: #38BDF8;
+            --accent-green: #10B981;
+            --accent-red: #EF4444;
+            --accent-amber: #F59E0B;
+            --accent-purple: #A855F7;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.5;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Top Header */
+        header {
+            background-color: rgba(30, 41, 59, 0.95);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            padding: 12px 16px;
+        }
+
+        .header-inner {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+        }
+
+        .brand-area {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .back-btn {
+            background: #0F172A;
+            border: 1px solid var(--border-color);
+            color: var(--accent-blue);
+            padding: 8px 12px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.85rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s;
+        }
+
+        .back-btn:hover {
+            background: #1e293b;
+            border-color: var(--accent-blue);
+        }
+
+        .title-block h1 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #F8FAFC;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .title-block p {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        .badge-108 {
+            background: linear-gradient(135deg, #0284c7, #0369a1);
+            color: #FFF;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 16px;
+            width: 100%;
+            flex: 1;
+        }
+
+        /* Golden Formulas Accordion */
+        .cheat-sheet-box {
+            background: linear-gradient(145deg, #162032 0%, #1a273f 100%);
+            border: 1px solid #334e68;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            overflow: hidden;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.25);
+        }
+
+        .cheat-toggle-btn {
+            width: 100%;
+            background: none;
+            border: none;
+            color: #F8FAFC;
+            padding: 14px 18px;
+            font-size: 0.95rem;
+            font-weight: 700;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            text-align: left;
+        }
+
+        .cheat-toggle-btn:hover {
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        .cheat-content {
+            padding: 0 18px 18px 18px;
+            display: none;
+            border-top: 1px solid rgba(255, 255, 255, 0.07);
+        }
+
+        .cheat-content.open {
+            display: block;
+        }
+
+        .formula-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 12px;
+            margin-top: 14px;
+        }
+
+        .formula-card {
+            background: #0F172A;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 12px;
+        }
+
+        .formula-card h4 {
+            color: var(--accent-blue);
+            font-size: 0.85rem;
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .formula-card ul {
+            list-style: none;
+            font-size: 0.78rem;
+            color: #CBD5E1;
+            line-height: 1.6;
+        }
+
+        .formula-card ul li strong {
+            color: var(--accent-amber);
+        }
+
+        /* Stats Bar */
+        .stats-bar {
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 12px 16px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 16px;
+        }
+
+        .stat-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .stat-label {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+
+        .stat-val {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #F8FAFC;
+        }
+
+        .stat-val.green { color: var(--accent-green); }
+        .stat-val.red { color: var(--accent-red); }
+        .stat-val.blue { color: var(--accent-blue); }
+
+        /* Filter Controls */
+        .controls-panel {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .search-row {
+            display: flex;
+            gap: 10px;
+        }
+
+        .search-input {
+            flex: 1;
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 10px 14px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .search-input:focus {
+            border-color: var(--accent-blue);
+        }
+
+        .action-btn {
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 10px 14px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+
+        .action-btn:hover {
+            border-color: var(--accent-blue);
+            color: var(--accent-blue);
+        }
+
+        .action-btn.active {
+            background: #0284c7;
+            border-color: #0284c7;
+            color: #FFF;
+        }
+
+        /* Category Tabs */
+        .tabs-container {
+            display: flex;
+            gap: 8px;
+            overflow-x: auto;
+            padding-bottom: 6px;
+            scrollbar-width: thin;
+        }
+
+        .tab-btn {
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-muted);
+            padding: 8px 14px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+            white-space: nowrap;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s;
+        }
+
+        .tab-btn:hover {
+            color: #FFF;
+            border-color: var(--text-muted);
+        }
+
+        .tab-btn.active {
+            background: var(--accent-blue);
+            color: #0F172A;
+            border-color: var(--accent-blue);
+            font-weight: 700;
+        }
+
+        .tab-count {
+            background: rgba(0, 0, 0, 0.25);
+            padding: 1px 6px;
+            border-radius: 10px;
+            font-size: 0.72rem;
+        }
+
+        /* Question Cards */
+        .questions-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .q-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 16px;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+            transition: border-color 0.2s, background-color 0.2s;
+        }
+
+        .q-card:hover {
+            border-color: #475569;
+        }
+
+        .q-header {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .q-meta {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .q-number {
+            background: #0F172A;
+            color: var(--accent-blue);
+            font-weight: 700;
+            font-size: 0.8rem;
+            padding: 3px 8px;
+            border-radius: 6px;
+            border: 1px solid #334e68;
+        }
+
+        .q-category-tag {
+            background: rgba(6, 182, 212, 0.12);
+            color: var(--accent-cyan);
+            font-size: 0.72rem;
+            font-weight: 600;
+            padding: 2px 8px;
+            border-radius: 4px;
+        }
+
+        .q-exam-tag {
+            background: rgba(245, 158, 11, 0.12);
+            color: var(--accent-amber);
+            font-size: 0.72rem;
+            font-weight: 600;
+            padding: 2px 8px;
+            border-radius: 4px;
+        }
+
+        .bookmark-btn {
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            cursor: pointer;
+            padding: 4px;
+            font-size: 1.1rem;
+            transition: color 0.2s;
+        }
+
+        .bookmark-btn:hover, .bookmark-btn.bookmarked {
+            color: var(--accent-amber);
+        }
+
+        .q-text {
+            font-size: 0.95rem;
+            color: #F8FAFC;
+            font-weight: 500;
+            margin-bottom: 14px;
+            line-height: 1.55;
+        }
+
+        /* Options Grid */
+        .options-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 10px;
+            margin-bottom: 12px;
+        }
+
+        .opt-btn {
+            background: #0F172A;
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 10px 14px;
+            border-radius: 8px;
+            text-align: left;
+            font-size: 0.88rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.2s;
+        }
+
+        .opt-btn:hover {
+            border-color: #475569;
+            background: #182234;
+        }
+
+        .opt-letter {
+            font-weight: 700;
+            color: var(--text-muted);
+            min-width: 22px;
+        }
+
+        .opt-text {
+            flex: 1;
+        }
+
+        /* Correct / Wrong Option States */
+        .opt-btn.correct {
+            background: rgba(16, 185, 129, 0.15) !important;
+            border-color: var(--accent-green) !important;
+            color: #A7F3D0 !important;
+        }
+
+        .opt-btn.correct .opt-letter {
+            color: var(--accent-green) !important;
+        }
+
+        .opt-btn.wrong {
+            background: rgba(239, 68, 68, 0.15) !important;
+            border-color: var(--accent-red) !important;
+            color: #FECACA !important;
+        }
+
+        .opt-btn.wrong .opt-letter {
+            color: var(--accent-red) !important;
+        }
+
+        /* Solution Drawer */
+        .solution-box {
+            background: #0F172A;
+            border: 1px solid #1E3A5F;
+            border-radius: 8px;
+            padding: 14px;
+            margin-top: 12px;
+            display: none;
+        }
+
+        .solution-box.visible {
+            display: block;
+            animation: fadeIn 0.25s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-4px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .formula-badge {
+            background: rgba(56, 189, 248, 0.12);
+            color: var(--accent-blue);
+            border-left: 3px solid var(--accent-blue);
+            padding: 6px 10px;
+            font-size: 0.82rem;
+            font-weight: 600;
+            border-radius: 0 4px 4px 0;
+            margin-bottom: 10px;
+        }
+
+        .solution-steps {
+            list-style: decimal inside;
+            font-size: 0.85rem;
+            color: #CBD5E1;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .solution-steps li {
+            margin-bottom: 4px;
+        }
+
+        .topper-trick-box {
+            background: rgba(245, 158, 11, 0.1);
+            border: 1px solid rgba(245, 158, 11, 0.3);
+            border-radius: 6px;
+            padding: 8px 12px;
+            font-size: 0.82rem;
+            color: #FDE68A;
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+        }
+
+        .topper-trick-box strong {
+            color: var(--accent-amber);
+            white-space: nowrap;
+        }
+
+        .toggle-sol-btn {
+            background: none;
+            border: none;
+            color: var(--accent-blue);
+            font-size: 0.82rem;
+            font-weight: 600;
+            cursor: pointer;
+            padding: 6px 0;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .toggle-sol-btn:hover {
+            color: #7dd3fc;
+        }
+
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 48px 16px;
+            color: var(--text-muted);
+        }
+
+        .empty-state h3 {
+            font-size: 1.1rem;
+            color: #F8FAFC;
+            margin-bottom: 8px;
+        }
+
+        /* Mobile tweaks */
+        @media (max-width: 640px) {
+            .options-grid {
+                grid-template-columns: 1fr;
+            }
+            .stats-bar {
+                gap: 12px;
+            }
+            .header-inner {
+                flex-wrap: wrap;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header-inner">
+            <div class="brand-area">
+                <a href="index.html" class="back-btn" title="Back to Main Prep Hub">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                    Hub
+                </a>
+                <div class="title-block">
+                    <h1>3D Mensuration Master <span class="badge-108">108 PYQs</span></h1>
+                    <p>English Edition • Complete Derivations + 5-Sec Topper Tricks</p>
+                </div>
+            </div>
+            <button id="showAllSolBtn" class="action-btn" title="Toggle solutions for all visible questions">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                Show All Solutions
+            </button>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <!-- Golden 3D Formulas & Inscribed Shapes Accordion -->
+        <div class="cheat-sheet-box">
+            <button id="cheatToggleBtn" class="cheat-toggle-btn" aria-expanded="false">
+                <span>📐 Golden 3D Formulas & Inscribed Solid Ratios (Vishesh Shukla Rules)</span>
+                <svg id="cheatArrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div id="cheatContent" class="cheat-content">
+                <div class="formula-grid">
+                    <div class="formula-card">
+                        <h4>📦 Cube & Cuboid</h4>
+                        <ul>
+                            <li>• Cube Space Diagonal: <strong>d = a√3</strong></li>
+                            <li>• Cuboid Space Diagonal: <strong>d = √(l² + b² + h²)</strong></li>
+                            <li>• Algebraic Relation: <strong>(l+b+h)² = d² + TSA</strong></li>
+                            <li>• Minimum cuts for N pieces: Factorise N = x·y·z close to ∛N. Total cuts = <strong>(x-1)+(y-1)+(z-1)</strong></li>
+                            <li>• Water Level Rise: <strong>Δh = V_submerged / (Length × Breadth)</strong></li>
+                        </ul>
+                    </div>
+                    <div class="formula-card">
+                        <h4>🌀 Cylinder & Frustum</h4>
+                        <ul>
+                            <li>• Cylinder: <strong>V = πr²h</strong>, <strong>CSA = 2πrh</strong>, <strong>TSA = 2πr(h+r)</strong></li>
+                            <li>• Rolled Sheet: Length becomes 2πr₁ (h₁=B) or Breadth becomes 2πr₂ (h₂=L). <strong>V₁/V₂ = L/B</strong></li>
+                            <li>• Frustum Volume: <strong>V = ⅓πh(R² + r² + Rr)</strong></li>
+                            <li>• Frustum Slant Height: <strong>l = √[h² + (R - r)²]</strong></li>
+                            <li>• Frustum CSA: <strong>π(R + r)l</strong>; TSA = CSA + π(R² + r²)</li>
+                        </ul>
+                    </div>
+                    <div class="formula-card">
+                        <h4>⚪ Sphere & Hemisphere</h4>
+                        <ul>
+                            <li>• Sphere: <strong>V = ⁴⁄₃πr³</strong>, <strong>SA = 4πr²</strong></li>
+                            <li>• Hemisphere: <strong>V = ⅔πr³</strong>, <strong>CSA = 2πr²</strong>, <strong>TSA = 3πr²</strong></li>
+                            <li>• Hollow Sphere Shell: <strong>V = ⁴⁄₃π(R³ - r³)</strong></li>
+                            <li>• Melting N Small Spheres: <strong>R = ∛N · r</strong>; <strong>SA ratio = 1 : ∛N</strong></li>
+                            <li>• Cutting Sphere into 2 Hemispheres: Adds <strong>2πr²</strong> (TSA becomes 6πr²)</li>
+                        </ul>
+                    </div>
+                    <div class="formula-card">
+                        <h4>📐 Prism & Pyramid</h4>
+                        <ul>
+                            <li>• Prism: <strong>V = Base Area × h</strong>, <strong>LSA = Base Perimeter × h</strong></li>
+                            <li>• Pyramid: <strong>V = ⅓ × Base Area × h</strong>, <strong>LSA = ½ × Perimeter × l</strong></li>
+                            <li>• Pyramid Slant Height: <strong>l² = h² + r_in²</strong></li>
+                            <li>• Pyramid Slant Edge: <strong>e² = h² + R_circum²</strong></li>
+                            <li>• Regular Tetrahedron (side a): <strong>h = a√(⅔)</strong>, <strong>V = a³/(6√2)</strong>, <strong>TSA = √3 a²</strong></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Live Stats Bar -->
+        <div class="stats-bar">
+            <div class="stat-item">
+                <span class="stat-label">Total Questions</span>
+                <span class="stat-val" id="statTotal">108</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Attempted</span>
+                <span class="stat-val blue" id="statAttempted">0</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Correct</span>
+                <span class="stat-val green" id="statCorrect">0</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Accuracy</span>
+                <span class="stat-val" id="statAccuracy">0%</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Bookmarked</span>
+                <span class="stat-val" id="statBookmarked">0</span>
+            </div>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="controls-panel">
+            <div class="search-row">
+                <input type="text" id="searchInput" class="search-input" placeholder="🔍 Search formula, keyword, or exam (e.g. frustum, wire, CGL Mains, ratio)...">
+                <button id="bookmarkedOnlyBtn" class="action-btn" title="Filter bookmarked questions">
+                    🔖 Bookmarked (<span id="bookmarkedCount">0</span>)
+                </button>
+                <button id="resetStatsBtn" class="action-btn" title="Reset test attempts">
+                    ↺ Reset
+                </button>
+            </div>
+
+            <!-- Shape Category Tabs -->
+            <div class="tabs-container">
+                <button class="tab-btn active" data-cat="all">All <span class="tab-count">108</span></button>
+                <button class="tab-btn" data-cat="cube_cuboid">📦 Cube & Cuboid <span class="tab-count">29</span></button>
+                <button class="tab-btn" data-cat="cylinder_cone">🌀 Cylinder, Cone & Frustum <span class="tab-count">42</span></button>
+                <button class="tab-btn" data-cat="sphere_hemisphere">⚪ Sphere & Hemisphere <span class="tab-count">22</span></button>
+                <button class="tab-btn" data-cat="prism_pyramid">📐 Prism & Pyramid <span class="tab-count">15</span></button>
+            </div>
+        </div>
+
+        <!-- Questions Container -->
+        <div id="questionsList" class="questions-list">
+            <!-- Dynamically populated -->
+        </div>
+
+        <!-- Empty State -->
+        <div id="emptyState" class="empty-state" style="display: none;">
+            <h3>No questions found</h3>
+            <p>Try adjusting your search query or switching categories.</p>
+        </div>
+
+    </div>
+
+    <!-- Offline Data Script -->
+    <script src="mensuration_3d_data.js"></script>
+
+    <!-- App Logic -->
+    <script>
+        (function() {
+            // State
+            let questions = window.MENSURATION_3D_DATA || [];
+            let currentCategory = 'all';
+            let searchQuery = '';
+            let showOnlyBookmarked = false;
+            let showAllSolutions = false;
+
+            // Persistence Keys
+            const STORAGE_ATTEMPTS = 'mensuration_3d_attempts_v1';
+            const STORAGE_BOOKMARKS = 'mensuration_3d_bookmarks_v1';
+
+            let userAttempts = JSON.parse(localStorage.getItem(STORAGE_ATTEMPTS) || '{}');
+            let userBookmarks = JSON.parse(localStorage.getItem(STORAGE_BOOKMARKS) || '{}');
+
+            // DOM Elements
+            const cheatToggleBtn = document.getElementById('cheatToggleBtn');
+            const cheatContent = document.getElementById('cheatContent');
+            const cheatArrow = document.getElementById('cheatArrow');
+            const questionsList = document.getElementById('questionsList');
+            const emptyState = document.getElementById('emptyState');
+            const searchInput = document.getElementById('searchInput');
+            const showAllSolBtn = document.getElementById('showAllSolBtn');
+            const bookmarkedOnlyBtn = document.getElementById('bookmarkedOnlyBtn');
+            const resetStatsBtn = document.getElementById('resetStatsBtn');
+            const tabButtons = document.querySelectorAll('.tab-btn');
+
+            // Stats Elements
+            const statTotal = document.getElementById('statTotal');
+            const statAttempted = document.getElementById('statAttempted');
+            const statCorrect = document.getElementById('statCorrect');
+            const statAccuracy = document.getElementById('statAccuracy');
+            const statBookmarked = document.getElementById('statBookmarked');
+            const bookmarkedCount = document.getElementById('bookmarkedCount');
+
+            // Accordion Toggle
+            cheatToggleBtn.addEventListener('click', () => {
+                const isOpen = cheatContent.classList.toggle('open');
+                cheatToggleBtn.setAttribute('aria-expanded', isOpen);
+                cheatArrow.style.transform = isOpen ? 'rotate(180deg)' : 'rotate(0deg)';
+                cheatArrow.style.transition = 'transform 0.2s';
+            });
+
+            // Fallback fetch if JS data script failed
+            if (!questions || questions.length === 0) {
+                fetch('mensuration_3d_data.json')
+                    .then(r => r.json())
+                    .then(data => {
+                        questions = data;
+                        initApp();
+                    })
+                    .catch(err => {
+                        console.error('Failed to load dataset:', err);
+                        questionsList.innerHTML = '<div class="empty-state"><h3>Error loading questions</h3><p>Please reload or ensure mensuration_3d_data.json is accessible.</p></div>';
+                    });
+            } else {
+                initApp();
+            }
+
+            function initApp() {
+                updateStats();
+                renderQuestions();
+                setupEventListeners();
+            }
+
+            function setupEventListeners() {
+                // Category Tabs
+                tabButtons.forEach(btn => {
+                    btn.addEventListener('click', () => {
+                        tabButtons.forEach(b => b.classList.remove('active'));
+                        btn.classList.add('active');
+                        currentCategory = btn.getAttribute('data-cat');
+                        renderQuestions();
+                    });
+                });
+
+                // Search
+                searchInput.addEventListener('input', (e) => {
+                    searchQuery = e.target.value.toLowerCase().trim();
+                    renderQuestions();
+                });
+
+                // Toggle All Solutions
+                showAllSolBtn.addEventListener('click', () => {
+                    showAllSolutions = !showAllSolutions;
+                    showAllSolBtn.classList.toggle('active', showAllSolutions);
+                    showAllSolBtn.innerHTML = showAllSolutions 
+                        ? `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23"/></svg> Hide Solutions`
+                        : `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg> Show All Solutions`;
+
+                    document.querySelectorAll('.solution-box').forEach(box => {
+                        if (showAllSolutions) box.classList.add('visible');
+                        else box.classList.remove('visible');
+                    });
+                });
+
+                // Bookmarked Only Filter
+                bookmarkedOnlyBtn.addEventListener('click', () => {
+                    showOnlyBookmarked = !showOnlyBookmarked;
+                    bookmarkedOnlyBtn.classList.toggle('active', showOnlyBookmarked);
+                    renderQuestions();
+                });
+
+                // Reset Stats
+                resetStatsBtn.addEventListener('click', () => {
+                    if (confirm('Reset your practice test score and history? Bookmarks will remain preserved.')) {
+                        userAttempts = {};
+                        localStorage.removeItem(STORAGE_ATTEMPTS);
+                        updateStats();
+                        renderQuestions();
+                    }
+                });
+            }
+
+            function updateStats() {
+                const total = questions.length;
+                const attemptedKeys = Object.keys(userAttempts);
+                const attempted = attemptedKeys.length;
+                let correct = 0;
+
+                attemptedKeys.forEach(k => {
+                    const q = questions.find(item => item.id == k);
+                    if (q && userAttempts[k] === q.answer) correct++;
+                });
+
+                const accuracy = attempted > 0 ? Math.round((correct / attempted) * 100) : 0;
+                const bCount = Object.keys(userBookmarks).filter(k => userBookmarks[k]).length;
+
+                statTotal.textContent = total;
+                statAttempted.textContent = attempted;
+                statCorrect.textContent = correct;
+                statAccuracy.textContent = `${accuracy}%`;
+                statBookmarked.textContent = bCount;
+                bookmarkedCount.textContent = bCount;
+            }
+
+            function filterQuestions() {
+                return questions.filter(q => {
+                    // Category filter
+                    if (currentCategory !== 'all' && q.category !== currentCategory) return false;
+
+                    // Bookmarked filter
+                    if (showOnlyBookmarked && !userBookmarks[q.id]) return false;
+
+                    // Search query
+                    if (searchQuery) {
+                        const qStr = (q.id + ' ' + q.question + ' ' + q.exam + ' ' + q.formula + ' ' + q.trick).toLowerCase();
+                        if (!qStr.includes(searchQuery)) return false;
+                    }
+
+                    return true;
+                });
+            }
+
+            function renderQuestions() {
+                const filtered = filterQuestions();
+
+                if (filtered.length === 0) {
+                    questionsList.innerHTML = '';
+                    emptyState.style.display = 'block';
+                    return;
+                }
+
+                emptyState.style.display = 'none';
+
+                let html = '';
+                filtered.forEach(q => {
+                    const isBookmarked = !!userBookmarks[q.id];
+                    const chosen = userAttempts[q.id];
+                    const isAnswered = chosen !== undefined;
+                    const isSolOpen = showAllSolutions;
+
+                    html += `
+                    <div class="q-card" id="q-${q.id}" data-id="${q.id}">
+                        <div class="q-header">
+                            <div class="q-meta">
+                                <span class="q-number">Q${q.id}</span>
+                                <span class="q-category-tag">${escapeHtml(q.category_name)}</span>
+                                <span class="q-exam-tag">${escapeHtml(q.exam)}</span>
+                            </div>
+                            <button class="bookmark-btn ${isBookmarked ? 'bookmarked' : ''}" data-id="${q.id}" title="${isBookmarked ? 'Remove Bookmark' : 'Bookmark Question'}">
+                                ${isBookmarked ? '★' : '☆'}
+                            </button>
+                        </div>
+
+                        <div class="q-text">${escapeHtml(q.question)}</div>
+
+                        <div class="options-grid">
+                            ${renderOptionBtn(q, 'a', chosen)}
+                            ${renderOptionBtn(q, 'b', chosen)}
+                            ${renderOptionBtn(q, 'c', chosen)}
+                            ${renderOptionBtn(q, 'd', chosen)}
+                        </div>
+
+                        <button class="toggle-sol-btn" data-id="${q.id}">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                            <span>${isSolOpen ? 'Hide Solution' : 'View Formula & Topper Trick'}</span>
+                        </button>
+
+                        <div class="solution-box ${isSolOpen ? 'visible' : ''}" id="sol-${q.id}">
+                            <div class="formula-badge">
+                                <strong>Formula:</strong> ${escapeHtml(q.formula)}
+                            </div>
+                            <ol class="solution-steps">
+                                ${q.steps.map(s => `<li>${escapeHtml(s)}</li>`).join('')}
+                            </ol>
+                            <div class="topper-trick-box">
+                                <strong>⚡ 5-Sec Topper Trick:</strong>
+                                <span>${escapeHtml(q.trick)}</span>
+                            </div>
+                        </div>
+                    </div>`;
+                });
+
+                questionsList.innerHTML = html;
+                attachQuestionEvents();
+            }
+
+            function renderOptionBtn(q, optKey, chosen) {
+                const optVal = q.options[optKey] || '';
+                let extraClass = '';
+
+                if (chosen !== undefined) {
+                    if (optKey === q.answer) {
+                        extraClass = 'correct';
+                    } else if (chosen === optKey) {
+                        extraClass = 'wrong';
+                    }
+                }
+
+                return `
+                <button class="opt-btn ${extraClass}" data-qid="${q.id}" data-opt="${optKey}" ${chosen !== undefined ? 'disabled' : ''}>
+                    <span class="opt-letter">(${optKey})</span>
+                    <span class="opt-text">${escapeHtml(optVal)}</span>
+                </button>`;
+            }
+
+            function attachQuestionEvents() {
+                // Option Selection
+                document.querySelectorAll('.opt-btn').forEach(btn => {
+                    btn.addEventListener('click', function() {
+                        const qid = this.getAttribute('data-qid');
+                        const opt = this.getAttribute('data-opt');
+                        const q = questions.find(item => item.id == qid);
+                        if (!q) return;
+
+                        userAttempts[qid] = opt;
+                        localStorage.setItem(STORAGE_ATTEMPTS, JSON.stringify(userAttempts));
+                        updateStats();
+
+                        // Reveal solution automatically when answered
+                        const solBox = document.getElementById(`sol-${qid}`);
+                        if (solBox) solBox.classList.add('visible');
+
+                        // Re-render this card's options
+                        const card = document.getElementById(`q-${qid}`);
+                        if (card) {
+                            card.querySelectorAll('.opt-btn').forEach(b => {
+                                const o = b.getAttribute('data-opt');
+                                b.disabled = true;
+                                if (o === q.answer) b.classList.add('correct');
+                                else if (o === opt) b.classList.add('wrong');
+                            });
+                        }
+                    });
+                });
+
+                // Toggle Individual Solution
+                document.querySelectorAll('.toggle-sol-btn').forEach(btn => {
+                    btn.addEventListener('click', function() {
+                        const qid = this.getAttribute('data-id');
+                        const solBox = document.getElementById(`sol-${qid}`);
+                        if (solBox) {
+                            const isVis = solBox.classList.toggle('visible');
+                            this.querySelector('span').textContent = isVis ? 'Hide Solution' : 'View Formula & Topper Trick';
+                        }
+                    });
+                });
+
+                // Bookmark Toggle
+                document.querySelectorAll('.bookmark-btn').forEach(btn => {
+                    btn.addEventListener('click', function(e) {
+                        e.stopPropagation();
+                        const qid = this.getAttribute('data-id');
+                        userBookmarks[qid] = !userBookmarks[qid];
+                        localStorage.setItem(STORAGE_BOOKMARKS, JSON.stringify(userBookmarks));
+                        updateStats();
+
+                        if (userBookmarks[qid]) {
+                            this.classList.add('bookmarked');
+                            this.textContent = '★';
+                            this.title = 'Remove Bookmark';
+                        } else {
+                            this.classList.remove('bookmarked');
+                            this.textContent = '☆';
+                            this.title = 'Bookmark Question';
+                            if (showOnlyBookmarked) {
+                                renderQuestions();
+                            }
+                        }
+                    });
+                });
+            }
+
+            function escapeHtml(str) {
+                if (!str) return '';
+                return String(str)
+                    .replace(/&/g, '&amp;')
+                    .replace(/</g, '&lt;')
+                    .replace(/>/g, '&gt;')
+                    .replace(/"/g, '&quot;')
+                    .replace(/'/g, '&#039;');
+            }
+        })();
+    </script>
+</body>
+</html>
