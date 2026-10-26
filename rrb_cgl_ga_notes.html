@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>RRB NTPC & SSC CGL Tier 2 • High-Yield Revision Capsule (9 Subjects)</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="icon-192.png">
+    <link rel="apple-touch-icon" href="icon-192.png">
+    <meta name="theme-color" content="#0B1120">
+    <style>
+        :root {
+            --bg-color: #0B1120;
+            --container-bg: #1E293B;
+            --card-bg: #162032;
+            --text-color: #E2E8F0;
+            --text-muted: #94A3B8;
+            --border-color: #334155;
+            --accent-blue: #38BDF8;
+            --accent-green: #10B981;
+            --accent-amber: #F59E0B;
+            --accent-purple: #A855F7;
+            --accent-rose: #F43F5E;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            padding: 12px 10px 100px 10px;
+            line-height: 1.55;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 12px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .header h1 {
+            font-size: 1.25rem;
+            color: #F8FAFC;
+            margin-bottom: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .notes-badge {
+            background: linear-gradient(135deg, #10B981, #0284C7);
+            color: #FFF;
+            font-size: 0.72rem;
+            font-weight: 800;
+            padding: 2px 8px;
+            border-radius: 9999px;
+            text-transform: uppercase;
+        }
+
+        .header p {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+
+        .btn-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            background: var(--container-bg);
+            color: #CBD5E1;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            border: 1px solid var(--border-color);
+            transition: all 0.2s;
+        }
+        .btn-link:hover {
+            border-color: var(--accent-blue);
+            color: #FFF;
+        }
+
+        /* Master Voice Panel */
+        .voice-master-panel {
+            background: linear-gradient(135deg, #1E293B, #0F172A);
+            border: 1px solid #38BDF8;
+            border-radius: 10px;
+            padding: 10px 14px;
+            margin-bottom: 12px;
+            box-shadow: 0 4px 16px rgba(56, 189, 248, 0.12);
+        }
+
+        .voice-row-top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .voice-title {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.88rem;
+            font-weight: 800;
+            color: #FFF;
+        }
+
+        .voice-speed-select {
+            background: #111C2E;
+            border: 1px solid var(--border-color);
+            color: #38BDF8;
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 3px 8px;
+            border-radius: 6px;
+            outline: none;
+            cursor: pointer;
+        }
+
+        .voice-controls {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            flex-wrap: wrap;
+            background: rgba(0, 0, 0, 0.25);
+            padding: 6px 10px;
+            border-radius: 6px;
+        }
+
+        .btn-v {
+            background: #334155;
+            color: #FFF;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 6px;
+            font-size: 0.76rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+        }
+        .btn-v-play {
+            background: linear-gradient(135deg, #10B981, #059669);
+        }
+        .btn-v:hover {
+            filter: brightness(1.1);
+        }
+
+        .voice-status {
+            font-size: 0.74rem;
+            color: #38BDF8;
+            margin-left: auto;
+            font-weight: 600;
+        }
+
+        /* Search Bar */
+        .search-box {
+            position: relative;
+            margin-bottom: 10px;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 9px 12px 9px 36px;
+            border-radius: 8px;
+            background: #111C2E;
+            border: 1px solid var(--border-color);
+            color: #FFF;
+            font-size: 0.84rem;
+            outline: none;
+        }
+        .search-input:focus {
+            border-color: var(--accent-blue);
+        }
+        .search-icon {
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        /* Filter Pills */
+        .filter-scroll {
+            display: flex;
+            gap: 6px;
+            overflow-x: auto;
+            padding-bottom: 8px;
+            margin-bottom: 12px;
+            scrollbar-width: none;
+        }
+        .filter-scroll::-webkit-scrollbar {
+            display: none;
+        }
+
+        .pill {
+            background: var(--container-bg);
+            color: var(--text-muted);
+            padding: 5px 11px;
+            border-radius: 9999px;
+            font-size: 0.74rem;
+            font-weight: 700;
+            white-space: nowrap;
+            cursor: pointer;
+            border: 1px solid var(--border-color);
+            transition: all 0.2s;
+        }
+
+        .pill.active {
+            background: var(--accent-blue);
+            color: #0B1120;
+            border-color: var(--accent-blue);
+        }
+
+        /* Card Layout */
+        .cards-list {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        .note-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 14px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+            transition: border-color 0.2s;
+        }
+
+        .note-card.is-speaking {
+            border-color: #38BDF8 !important;
+            box-shadow: 0 0 16px rgba(56, 189, 248, 0.4) !important;
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .card-title {
+            font-size: 1.02rem;
+            font-weight: 800;
+            color: #F8FAFC;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .card-header-actions {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .btn-card-speak {
+            background: rgba(56, 189, 248, 0.12);
+            border: 1px solid rgba(56, 189, 248, 0.3);
+            color: #38BDF8;
+            padding: 3px 8px;
+            border-radius: 6px;
+            font-size: 0.72rem;
+            font-weight: 700;
+            cursor: pointer;
+        }
+        .btn-card-speak:hover {
+            background: #38BDF8;
+            color: #0B1120;
+        }
+
+        .card-tag {
+            font-size: 0.68rem;
+            font-weight: 800;
+            padding: 2px 7px;
+            border-radius: 4px;
+            text-transform: uppercase;
+            background: rgba(56, 189, 248, 0.15);
+            color: var(--accent-blue);
+            border: 1px solid rgba(56, 189, 248, 0.3);
+        }
+
+        /* Fact Tables */
+        .fact-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.84rem;
+        }
+
+        .fact-table th, .fact-table td {
+            padding: 8px 10px;
+            border-bottom: 1px solid #1E293B;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        .fact-table tr:not(:first-child) {
+            cursor: pointer;
+            transition: background 0.15s ease;
+        }
+        .fact-table tr:not(:first-child):hover {
+            background: rgba(56, 189, 248, 0.08);
+        }
+        .fact-table tr.row-speaking {
+            background: rgba(56, 189, 248, 0.18) !important;
+            border-left: 4px solid #38BDF8 !important;
+        }
+
+        .fact-table th {
+            color: #94A3B8;
+            font-weight: 700;
+            background: rgba(0, 0, 0, 0.2);
+            font-size: 0.76rem;
+            text-transform: uppercase;
+        }
+
+        .fact-table td b {
+            color: #38BDF8;
+        }
+
+        .highlight {
+            color: #10B981;
+            font-weight: 700;
+        }
+
+        .warning {
+            color: #F59E0B;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>
+                <span>RRB NTPC & SSC CGL Tier 2</span>
+                <span class="notes-badge">High-Yield Capsule</span>
+            </h1>
+            <p>Subject-Wise Core Exam Takeaways Synthesized from 1,093 Official Previous Year Questions</p>
+            <div class="nav-links">
+                <a href="index.html" class="btn-link">🏠 Home</a>
+                <a href="rrb_cgl_ga_hub.html" class="btn-link" style="background:linear-gradient(135deg, #0284C7, #2563EB); color:white; font-weight:700;">🎯 1,093 Question Practice Hub</a>
+                <a href="grand_mocks.html" class="btn-link">🏆 5 Grand Mocks</a>
+                <a href="mock_test.html" class="btn-link">⏱️ CBT Simulator</a>
+            </div>
+        </div>
+
+        <!-- Master Voice Panel -->
+        <div class="voice-master-panel">
+            <div class="voice-row-top">
+                <div class="voice-title">
+                    <span>🎧 Audio Revision Capsule</span>
+                    <span style="font-size:0.68rem; background:#38BDF8; color:#0B1120; padding:1px 6px; border-radius:4px;">HANDS-FREE</span>
+                </div>
+                <div>
+                    <span style="font-size:0.74rem; color:#94A3B8;">Speed: </span>
+                    <select id="voiceSpeed" class="voice-speed-select" onchange="changeVoiceSpeed(this.value)">
+                        <option value="0.9">0.9x</option>
+                        <option value="1.0" selected>1.0x (Normal)</option>
+                        <option value="1.25">1.25x</option>
+                        <option value="1.5">1.5x (Fast)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="voice-controls">
+                <button class="btn-v btn-v-play" id="btnMasterPlay" onclick="toggleMasterAudio()">▶ Listen to All</button>
+                <button class="btn-v" onclick="stopAudio()">⏹ Stop</button>
+                <span class="voice-status" id="voiceStatus">💡 Click or tap ANY row below to speak from there!</span>
+            </div>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="search-box">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="searchInput" class="search-input" placeholder="Search keywords: PowerPoint, Linux, Indus, Dalhousie, Harrod, PM-KISAN, Kathakali, Bharat Ratna..." oninput="filterNotes()">
+        </div>
+
+        <!-- Filter Scroll -->
+        <div class="filter-scroll">
+            <div class="pill active" onclick="filterCategory('All', this)">All 9 Subjects</div>
+            <div class="pill" onclick="filterCategory('Computer', this)">💻 Computer</div>
+            <div class="pill" onclick="filterCategory('History', this)">🏛️ History</div>
+            <div class="pill" onclick="filterCategory('Geography', this)">🌍 Geography</div>
+            <div class="pill" onclick="filterCategory('Economics', this)">📈 Economics</div>
+            <div class="pill" onclick="filterCategory('Govt Schemes', this)">📜 Govt Schemes</div>
+            <div class="pill" onclick="filterCategory('Art & Culture', this)">🎨 Art & Culture</div>
+            <div class="pill" onclick="filterCategory('Awards & Honours', this)">🏆 Awards</div>
+            <div class="pill" onclick="filterCategory('Books & Authors', this)">📚 Books & Authors</div>
+            <div class="pill" onclick="filterCategory('Famous Personalities', this)">👤 Famous People</div>
+        </div>
+
+        <!-- Cards List -->
+        <div class="cards-list" id="cardsList">
+
+            <!-- 1. Computer -->
+            <div class="note-card" data-cat="Computer">
+                <div class="card-header">
+                    <div class="card-title">💻 Computer Science Core (235 PYQs Summary)</div>
+                    <div class="card-header-actions">
+                        <button class="btn-card-speak" onclick="speakCard(this)">🔊 Listen</button>
+                        <span class="card-tag">CGL Tier 2 & NTPC</span>
+                    </div>
+                </div>
+                <table class="fact-table">
+                    <tr><th>Topic / Concept</th><th>High-Yield Exam Takeaway</th></tr>
+                    <tr><td><b>MS Office Extensions</b></td><td>PowerPoint Template: <span class="highlight">.potx</span> | Word Template: <span class="highlight">.dotx</span> | Excel Macro-enabled: <span class="highlight">.xlsm</span> | Standard Excel: .xlsx | Normal PPT: .pptx.</td></tr>
+                    <tr><td><b>Windows Shortcuts</b></td><td>• <span class="highlight">Win + I:</span> Open Settings menu.<br>• <span class="highlight">Alt + Space:</span> Contextual control menu of active window.<br>• <span class="highlight">Ctrl + Shift + Esc:</span> Task Manager direct launch.</td></tr>
+                    <tr><td><b>Linux / Unix Commands</b></td><td>• <span class="highlight">touch:</span> Create an empty file or update timestamp.<br>• <span class="highlight">mkdir -p:</span> Create parent directory tree.<br>• <span class="highlight">grep:</span> Search text patterns using regular expressions.<br>• <span class="highlight">chmod:</span> Modify read, write, execute permissions.</td></tr>
+                    <tr><td><b>Networking & Protocols</b></td><td>• <b>DNS (Domain Name System):</b> Resolves human-readable domain names into IP addresses.<br>• <b>DHCP:</b> Automatically assigns dynamic IP addresses to network hosts.<br>• <b>Port Numbers:</b> HTTP (<span class="highlight">80</span>), HTTPS (<span class="highlight">443</span>), FTP (<span class="highlight">20/21</span>), DNS (53), SMTP (25).</td></tr>
+                    <tr><td><b>Storage & Memory</b></td><td>• <b>Cache Hierarchy:</b> L1 Cache is fastest & on-chip, followed by L2 and L3.<br>• <b>Volatile Memory:</b> RAM loses contents on power shutoff; ROM and Flash SSD are non-volatile.</td></tr>
+                    <tr><td><b>Cybersecurity Essentials</b></td><td>• <b>Phishing:</b> Fraudulent emails impersonating trusted entities to steal credentials.<br>• <b>Trojan Horse:</b> Malware disguised as legitimate, harmless software.<br>• <b>Ransomware:</b> Encrypts user files and demands payment for decryption key.</td></tr>
+                </table>
+            </div>
+
+            <!-- 2. History -->
+            <div class="note-card" data-cat="History">
+                <div class="card-header">
+                    <div class="card-title">🏛️ History & National Movement (273 PYQs Summary)</div>
+                    <div class="card-header-actions">
+                        <button class="btn-card-speak" onclick="speakCard(this)">🔊 Listen</button>
+                        <span class="card-tag">Ancient, Medieval, Modern</span>
+                    </div>
+                </div>
+                <table class="fact-table">
+                    <tr><th>Historical Era</th><th>Core Points & Associations</th></tr>
+                    <tr><td><b>Indus Valley Sites</b></td><td>• <span class="highlight">Lothal (Gujarat):</span> Ancient tidal dockyard.<br>• <span class="highlight">Kalibangan (Rajasthan):</span> Ploughed agricultural fields & fire altars.<br>• <span class="highlight">Mohenjo-daro:</span> The Great Bath & Bronze Dancing Girl.</td></tr>
+                    <tr><td><b>Buddhist Councils</b></td><td>• 1st: Rajgriha (Ajatashatru, Mahakassapa).<br>• 2nd: Vaishali (Kalasoka).<br>• 3rd: <span class="highlight">Pataliputra (Ashoka, Moggaliputta Tissa)</span>.<br>• 4th: <span class="highlight">Kundalvana/Kashmir (Kanishka, Vasumitra)</span> — split into Hinayana and Mahayana.</td></tr>
+                    <tr><td><b>Delhi Sultanate & Mughals</b></td><td>• <b>Alauddin Khilji:</b> Market control regulations, Dagh (horse branding) & Chehra.<br>• <b>Muhammad bin Tughlaq:</b> Capital transfer to Daulatabad & copper token currency.<br>• <b>Mughal Administration:</b> <span class="highlight">Mansabdari System</span> introduced by Akbar; revenue system called <i>Zabt / Bandobast</i> designed by Raja Todar Mal.</td></tr>
+                    <tr><td><b>Governor-Generals</b></td><td>• <span class="highlight">Lord Dalhousie:</span> Doctrine of Lapse (Satara annexed first in 1848), first Railway line (1853 Bombay–Thane), Telegraph.<br>• <span class="highlight">Lord Ripon:</span> Known as the "Father of Local Self-Government" in India; repealed the Vernacular Press Act (1882).</td></tr>
+                    <tr><td><b>Freedom Milestones</b></td><td>• 1905: Swadeshi Movement against Bengal Partition.<br>• 1916: Lucknow Pact (INC & Muslim League joint session).<br>• 1920: Non-Cooperation Movement launched.<br>• 1930: Dandi Salt March (12 March – 6 April) launching Civil Disobedience.<br>• 1942: Quit India Movement ("Do or Die" call by Gandhi at Gowalia Tank, Bombay).</td></tr>
+                </table>
+            </div>
+
+            <!-- 3. Geography -->
+            <div class="note-card" data-cat="Geography">
+                <div class="card-header">
+                    <div class="card-title">🌍 Indian & Physical Geography (202 PYQs Summary)</div>
+                    <div class="card-header-actions">
+                        <button class="btn-card-speak" onclick="speakCard(this)">🔊 Listen</button>
+                        <span class="card-tag">Physical, Rivers, Minerals</span>
+                    </div>
+                </div>
+                <table class="fact-table">
+                    <tr><th>Geographical Feature</th><th>Exact Exam Data</th></tr>
+                    <tr><td><b>River Origins & Tributaries</b></td><td>• <b>Ganga:</b> Originates as Bhagirathi from Gangotri glacier (Gaumukh); joins Alaknanda at <span class="highlight">Devprayag</span> to form the Ganga.<br>• <b>Indus Left-bank Tributaries:</b> Jhelum, Chenab, Ravi, Beas, Satluj.<br>• <b>Godavari (Dakshin Ganga):</b> Originates at Trimbakeshwar, Nashik (Maharashtra); longest river in Peninsular India.</td></tr>
+                    <tr><td><b>Strategic Mountain Passes</b></td><td>• <span class="highlight">Zoji La:</span> Connects Srinagar to Leh.<br>• <span class="highlight">Shipki La:</span> Connects Himachal Pradesh to Tibet (Satluj river enters India through it).<br>• <span class="highlight">Nathu La:</span> Connects Sikkim to Tibet.<br>• <span class="highlight">Palghat Gap:</span> Major mountain pass in Western Ghats connecting Kerala (Palakkad) to Tamil Nadu (Coimbatore).</td></tr>
+                    <tr><td><b>Mineral Belts</b></td><td>• <b>Coal:</b> <span class="highlight">Jharia and Bokaro (Jharkhand)</span> contain India's richest prime coking coal reserves.<br>• <b>Iron Ore:</b> Kudremukh & Bellary (Karnataka), Mayurbhanj (Odisha), Bailadila (Chhattisgarh).<br>• <b>Mica:</b> Koderma (Jharkhand) — historically known as the Mica Capital of the World.</td></tr>
+                    <tr><td><b>Soils of India</b></td><td>• <span class="highlight">Black Soil (Regur):</span> Formed by weathering of basaltic lava; best suited for cotton cultivation; self-ploughing capacity.<br>• <span class="highlight">Alluvial Soil:</span> Covers ~40% of India's land; richest in potash and lime, deficient in nitrogen and phosphorus.</td></tr>
+                </table>
+            </div>
+
+            <!-- 4. Economics -->
+            <div class="note-card" data-cat="Economics">
+                <div class="card-header">
+                    <div class="card-title">📈 Economics & Financial Systems (149 PYQs Summary)</div>
+                    <div class="card-header-actions">
+                        <button class="btn-card-speak" onclick="speakCard(this)">🔊 Listen</button>
+                        <span class="card-tag">Macro, Planning, Banking</span>
+                    </div>
+                </div>
+                <table class="fact-table">
+                    <tr><th>Concept / Institution</th><th>Exam Definitions & Facts</th></tr>
+                    <tr><td><b>Five-Year Plans</b></td><td>• <b>1st FYP (1951–56):</b> Based on <span class="highlight">Harrod-Domar Model</span> (agriculture focus).<br>• <b>2nd FYP (1956–61):</b> Based on <span class="highlight">PC Mahalanobis Model</span> (heavy industrialization focus).<br>• <b>Plan Holiday (1966–69):</b> Three annual plans due to Indo-Pak war and severe droughts.</td></tr>
+                    <tr><td><b>Monetary Policy Tools</b></td><td>• <b>Repo Rate:</b> Rate at which RBI lends short-term funds to commercial banks against government securities.<br>• <b>Cash Reserve Ratio (CRR):</b> Percentage of Net Demand and Time Liabilities (NDTL) that banks must keep in cash with RBI.<br>• <b>Statutory Liquidity Ratio (SLR):</b> Percentage of NDTL that banks must maintain in liquid assets (cash, gold, approved securities).</td></tr>
+                    <tr><td><b>National Income Aggregates</b></td><td>• <b>GDP:</b> Total market value of all final goods and services produced within domestic territory in a year.<br>• <span class="highlight">National Income</span> technically refers to: <b>Net National Product at Factor Cost (NNP at FC)</b>.</td></tr>
+                    <tr><td><b>Inflation Indices</b></td><td>• <b>CPI (Consumer Price Index):</b> Measures retail price change; base year 2012; published by NSO; anchor for RBI monetary policy.<br>• <b>WPI (Wholesale Price Index):</b> Measures wholesale price change; base year 2011-12; excludes services; published by Office of Economic Adviser.</td></tr>
+                </table>
+            </div>
+
+            <!-- 5. Govt Schemes -->
+            <div class="note-card" data-cat="Govt Schemes">
+                <div class="card-header">
+                    <div class="card-title">📜 Flagship Government Schemes (74 PYQs Summary)</div>
+                    <div class="card-header-actions">
+                        <button class="btn-card-speak" onclick="speakCard(this)">🔊 Listen</button>
+                        <span class="card-tag">Welfare, Financial Inclusion</span>
+                    </div>
+                </div>
+                <table class="fact-table">
+                    <tr><th>Scheme Name</th><th>Core Eligibility, Nodal Ministry & Financials</th></tr>
+                    <tr><td><b>PM-KISAN</b></td><td>Pradhan Mantri Kisan Samman Nidhi: <span class="highlight">₹6,000 per year</span> provided in 3 equal installments of ₹2,000 directly to bank accounts. Ministry of Agriculture.</td></tr>
+                    <tr><td><b>PMJJBY & PMSBY</b></td><td>• <b>PM Jeevan Jyoti Bima Yojana:</b> Life cover of ₹2 Lakh; premium <span class="highlight">₹436/year</span> (age 18–50).<br>• <b>PM Suraksha Bima Yojana:</b> Accidental death/disability cover of ₹2 Lakh; premium <span class="highlight">₹20/year</span> (age 18–70).</td></tr>
+                    <tr><td><b>Ayushman Bharat (PM-JAY)</b></td><td>Health coverage of up to <span class="highlight">₹5 Lakh per family per year</span> for secondary and tertiary care hospitalization. World's largest government-funded health scheme.</td></tr>
+                    <tr><td><b>PM Jan Dhan Yojana (PMJDY)</b></td><td>National Mission for Financial Inclusion launched on <span class="highlight">28 August 2014</span>. Offers zero-balance savings accounts, RuPay debit card, and built-in overdraft facility.</td></tr>
+                    <tr><td><b>PM Ujjwala Yojana</b></td><td>Provides deposit-free LPG connections to women belonging to BPL households. Tagline: <i>"Swachh Indhan, Behtar Jeevan"</i>.</td></tr>
+                </table>
+            </div>
+
+            <!-- 6. Art & Culture -->
+            <div class="note-card" data-cat="Art & Culture">
+                <div class="card-header">
+                    <div class="card-title">🎨 Art, Culture & Classical Traditions (60 PYQs Summary)</div>
+                    <div class="card-header-actions">
+                        <button class="btn-card-speak" onclick="speakCard(this)">🔊 Listen</button>
+                        <span class="card-tag">Dances, Music, Festivals</span>
+                    </div>
+                </div>
+                <table class="fact-table">
+                    <tr><th>Cultural Element</th><th>Key Associations & Exponents</th></tr>
+                    <tr><td><b>8 Classical Dances</b></td><td>• <b>Bharatanatyam:</b> Tamil Nadu (Rukmini Devi Arundale, Yamini Krishnamurthy).<br>• <b>Kathak:</b> Northern India (Pt. Birju Maharaj, Sitara Devi).<br>• <b>Kathakali & Mohiniyattam:</b> Kerala.<br>• <b>Kuchipudi:</b> Andhra Pradesh.<br>• <b>Sattriya:</b> Assam (founded by medieval saint Sankaradeva).</td></tr>
+                    <tr><td><b>Folk Festivals & Tribes</b></td><td>• <span class="highlight">Hornbill Festival:</span> Nagaland (1–10 December at Kisama).<br>• <span class="highlight">Wangala (100 Drums):</span> Garo tribe, Meghalaya.<br>• <span class="highlight">Chapchar Kut:</span> Mizoram.<br>• <span class="highlight">Sarhul:</span> Tribal festival of Jharkhand celebrating the Sal tree blossom.</td></tr>
+                    <tr><td><b>Musical Maestros</b></td><td>• <b>Sitar:</b> Pt. Ravi Shankar, Ustad Vilayat Khan.<br>• <b>Sarod:</b> Ustad Amjad Ali Khan, Ali Akbar Khan.<br>• <b>Santoor:</b> Pt. Shivkumar Sharma, Bhajan Sopori.<br>• <b>Shehnai:</b> Ustad Bismillah Khan (Bharat Ratna 2001).</td></tr>
+                </table>
+            </div>
+
+            <!-- 7. Awards -->
+            <div class="note-card" data-cat="Awards & Honours">
+                <div class="card-header">
+                    <div class="card-title">🏆 Awards & National Honours (46 PYQs Summary)</div>
+                    <div class="card-header-actions">
+                        <button class="btn-card-speak" onclick="speakCard(this)">🔊 Listen</button>
+                        <span class="card-tag">Civilian, Gallantry, Literary</span>
+                    </div>
+                </div>
+                <table class="fact-table">
+                    <tr><th>Award Category</th><th>Key Exam Facts</th></tr>
+                    <tr><td><b>Bharat Ratna</b></td><td>Instituted in <span class="highlight">1954</span>. First recipients were <b>C. Rajagopalachari, Dr. S. Radhakrishnan, and Dr. C.V. Raman</b>. Non-Indian recipients: Khan Abdul Ghaffar Khan (1987) & Nelson Mandela (1990).</td></tr>
+                    <tr><td><b>Gallantry Awards</b></td><td>• <b>Wartime Gallantry:</b> Param Vir Chakra (PVC — highest), Maha Vir Chakra, Vir Chakra.<br>• <b>Peacetime Gallantry:</b> <span class="highlight">Ashok Chakra</span> (highest peacetime), Kirti Chakra, Shaurya Chakra.</td></tr>
+                    <tr><td><b>Literary Awards</b></td><td>• <b>Jnanpith Award:</b> Highest Indian literary award; first winner was <span class="highlight">G. Sankara Kurup</span> (Malayalam, 1965).<br>• <b>Saraswati Samman:</b> Annual award for outstanding prose/poetry in 22 scheduled languages, given by KK Birla Foundation.</td></tr>
+                    <tr><td><b>International Honors</b></td><td>• <b>Nobel Prize in Literature 1913:</b> Awarded to <span class="highlight">Rabindranath Tagore</span> for <i>Gitanjali</i> (first Asian Nobel laureate).</td></tr>
+                </table>
+            </div>
+
+            <!-- 8. Books & Authors & Famous Personalities -->
+            <div class="note-card" data-cat="Books & Authors">
+                <div class="card-header">
+                    <div class="card-title">📚 Books, Authors & Historic Personalities (54 PYQs Summary)</div>
+                    <div class="card-header-actions">
+                        <button class="btn-card-speak" onclick="speakCard(this)">🔊 Listen</button>
+                        <span class="card-tag">Literature & Founders</span>
+                    </div>
+                </div>
+                <table class="fact-table">
+                    <tr><th>Book / Personality</th><th>Author & Significance</th></tr>
+                    <tr><td><b>Ancient & Medieval Classics</b></td><td>• <b>Arthashastra:</b> Kautilya / Chanakya (political statecraft).<br>• <b>Indica:</b> Megasthenes (Greek ambassador to Chandragupta Maurya).<br>• <b>Rajatarangini:</b> Kalhana (historical chronicle of the kings of Kashmir).<br>• <b>Ain-i-Akbari & Akbarnama:</b> Abul Fazl.</td></tr>
+                    <tr><td><b>Nationalist Era Literature</b></td><td>• <b>Discovery of India & Glimpses of World History:</b> Jawaharlal Nehru.<br>• <b>Poverty and Un-British Rule in India:</b> Dadabhai Naoroji (Drain of Wealth theory).<br>• <b>Anandmath:</b> Bankim Chandra Chattopadhyay (contains national song <i>Vande Mataram</i>).<br>• <b>India Divided:</b> Dr. Rajendra Prasad.</td></tr>
+                    <tr><td><b>Social Reformers & Founders</b></td><td>• <span class="highlight">Raja Ram Mohan Roy:</span> Founded Brahmo Samaj (1828); instrumental in abolition of Sati (1829).<br>• <span class="highlight">Swami Dayanand Saraswati:</span> Founded Arya Samaj (1875); coined slogan <i>"Go back to the Vedas"</i>; author of <i>Satyarth Prakash</i>.<br>• <span class="highlight">Jyotirao Phule:</span> Founded Satyashodhak Samaj (1873); author of <i>Gulamgiri</i>.</td></tr>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        const synth = window.speechSynthesis;
+        let isSpeaking = false;
+        let currentUtterance = null;
+        let speechRate = 1.0;
+
+        function changeVoiceSpeed(rate) {
+            speechRate = parseFloat(rate);
+            if (synth.speaking) {
+                synth.cancel();
+            }
+        }
+
+        function filterCategory(cat, el) {
+            document.querySelectorAll('.filter-scroll .pill').forEach(p => p.classList.remove('active'));
+            if (el) el.classList.add('active');
+
+            const cards = document.querySelectorAll('.note-card');
+            cards.forEach(card => {
+                if (cat === 'All' || card.getAttribute('data-cat') === cat) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        function filterNotes() {
+            const query = document.getElementById('searchInput').value.trim().toLowerCase();
+            const cards = document.querySelectorAll('.note-card');
+
+            cards.forEach(card => {
+                const text = card.innerText.toLowerCase();
+                if (text.includes(query)) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        // Click-to-Speak row delegation
+        document.addEventListener('click', (e) => {
+            if (e.target.closest('button, a, input, select, .pill, .filter-scroll')) return;
+
+            const tr = e.target.closest('.fact-table tr');
+            if (tr && !tr.querySelector('th')) {
+                speakRow(tr);
+            }
+        });
+
+        function speakRow(row) {
+            if (!('speechSynthesis' in window)) return;
+            stopAudio();
+
+            document.querySelectorAll('.fact-table tr').forEach(r => r.classList.remove('row-speaking'));
+            row.classList.add('row-speaking');
+
+            const cells = row.querySelectorAll('td');
+            if (cells.length >= 2) {
+                const topic = cells[0].innerText.replace(/[\n\r]+/g, ' ').trim();
+                const fact = cells[1].innerText.replace(/[\n\r]+/g, ' ').trim();
+                const textToSpeak = `${topic}. ${fact}`.replace(/[•]/g, ', ');
+
+                currentUtterance = new SpeechSynthesisUtterance(textToSpeak);
+                currentUtterance.rate = speechRate;
+                currentUtterance.lang = 'en-US';
+
+                currentUtterance.onend = () => {
+                    row.classList.remove('row-speaking');
+                    document.getElementById('voiceStatus').innerText = 'Status: Ready';
+                };
+
+                document.getElementById('voiceStatus').innerText = `🔊 Reading: ${topic}`;
+                synth.speak(currentUtterance);
+            }
+        }
+
+        function speakCard(btn) {
+            const card = btn.closest('.note-card');
+            if (!card) return;
+            const rows = Array.from(card.querySelectorAll('.fact-table tr')).slice(1);
+            if (rows.length > 0) {
+                speakRow(rows[0]);
+            }
+        }
+
+        function toggleMasterAudio() {
+            const firstRow = document.querySelector('.fact-table tr:not(:first-child)');
+            if (firstRow) speakRow(firstRow);
+        }
+
+        function stopAudio() {
+            if (synth.speaking || synth.pending) {
+                synth.cancel();
+            }
+            document.querySelectorAll('.fact-table tr').forEach(r => r.classList.remove('row-speaking'));
+            document.getElementById('voiceStatus').innerText = 'Status: Stopped';
+        }
+    </script>
+</body>
+</html>
