@@ -400,7 +400,10 @@
             </div>
             <div class="voice-controls">
                 <button class="btn-v btn-v-play" id="btnMasterPlay" onclick="toggleMasterAudio()">▶ Listen to All</button>
+                <button class="btn-v" id="btnPauseAudio" onclick="togglePauseAudio()">⏸ Pause</button>
                 <button class="btn-v" onclick="stopAudio()">⏹ Stop</button>
+                <button class="btn-v" onclick="skipRow(-1)" title="Previous Row">⏮</button>
+                <button class="btn-v" onclick="skipRow(1)" title="Next Row">⏭</button>
                 <span class="voice-status" id="voiceStatus">💡 Click or tap ANY row below to speak from there!</span>
             </div>
         </div>
@@ -578,15 +581,24 @@
     </div>
 
     <script>
+        // Bulletproof Global Speech State (Prevents Chrome 4-5 Word Cut-Off Bug)
         const synth = window.speechSynthesis;
-        let isSpeaking = false;
-        let currentUtterance = null;
+        window._activeUtterance = null; // GC Prevention Lock
+        window._utteranceQueue = [];
+        window._speechKeepAlive = null;
+
+        let isPlaying = false;
+        let isPaused = false;
         let speechRate = 1.0;
+        let currentRow = null;
+        let currentChunks = [];
+        let currentChunkIndex = 0;
 
         function changeVoiceSpeed(rate) {
             speechRate = parseFloat(rate);
-            if (synth.speaking) {
+            if (synth.speaking && !synth.paused) {
                 synth.cancel();
+                playCurrentChunk();
             }
         }
 
@@ -618,9 +630,9 @@
             });
         }
 
-        // Click-to-Speak row delegation
+        // Click-to-Speak row delegation: Click ANY row to speak from there
         document.addEventListener('click', (e) => {
-            if (e.target.closest('button, a, input, select, .pill, .filter-scroll')) return;
+            if (e.target.closest('button, a, input, select, .pill, .filter-scroll, .voice-master-panel')) return;
 
             const tr = e.target.closest('.fact-table tr');
             if (tr && !tr.querySelector('th')) {
@@ -628,30 +640,194 @@
             }
         });
 
+        // Clean & Format Text for Natural Pronunciation
+        function cleanTextForSpeech(str) {
+            return str
+                .replace(/\.potx\b/gi, 'dot pot-x')
+                .replace(/\.dotx\b/gi, 'dot dot-x')
+                .replace(/\.xlsm\b/gi, 'dot x-l-s-m')
+                .replace(/\.xlsx\b/gi, 'dot x-l-s-x')
+                .replace(/\.pptx\b/gi, 'dot p-p-t-x')
+                .replace(/\.ppsx\b/gi, 'dot p-p-s-x')
+                .replace(/Win\s*\+\s*I\b/gi, 'Windows key plus I')
+                .replace(/Alt\s*\+\s*Space\b/gi, 'Alt plus Space')
+                .replace(/Ctrl\s*\+\s*Shift\s*\+\s*Esc\b/gi, 'Control plus Shift plus Escape')
+                .replace(/HTTP\s*\(\s*80\s*\)/gi, 'HTTP port 80')
+                .replace(/HTTPS\s*\(\s*443\s*\)/gi, 'HTTPS port 443')
+                .replace(/FTP\s*\(\s*20\/21\s*\)/gi, 'FTP ports 20 and 21')
+                .replace(/₹\s*([0-9,]+)/g, '$1 Rupees ')
+                .replace(/₹/g, 'Rupees ')
+                .replace(/1st\b/gi, 'first')
+                .replace(/2nd\b/gi, 'second')
+                .replace(/3rd\b/gi, 'third')
+                .replace(/4th\b/gi, 'fourth')
+                .replace(/~/g, 'approximately ')
+                .replace(/[•★⚡👉]/g, '. ')
+                .replace(/\s+/g, ' ')
+                .trim();
+        }
+
+        // Split long sentences into safe ~80-100 char chunks to prevent Chrome stalls
+        function splitIntoChunks(text) {
+            const rawParts = text.split(/(?<=[.!?;
+])\s+/);
+            const chunks = [];
+            rawParts.forEach(part => {
+                const trimmed = part.trim();
+                if (trimmed.length > 120) {
+                    const subParts = trimmed.split(/(?<=[,–—])\s+/);
+                    subParts.forEach(sub => {
+                        if (sub.trim()) chunks.push(sub.trim());
+                    });
+                } else if (trimmed.length > 0) {
+                    chunks.push(trimmed);
+                }
+            });
+            return chunks.length > 0 ? chunks : [text];
+        }
+
         function speakRow(row) {
-            if (!('speechSynthesis' in window)) return;
+            if (!('speechSynthesis' in window)) {
+                alert('Web Speech API is not supported in this browser.');
+                return;
+            }
+
             stopAudio();
+            isPlaying = true;
+            isPaused = false;
+            currentRow = row;
 
             document.querySelectorAll('.fact-table tr').forEach(r => r.classList.remove('row-speaking'));
             row.classList.add('row-speaking');
+            row.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 
             const cells = row.querySelectorAll('td');
-            if (cells.length >= 2) {
-                const topic = cells[0].innerText.replace(/[\n\r]+/g, ' ').trim();
-                const fact = cells[1].innerText.replace(/[\n\r]+/g, ' ').trim();
-                const textToSpeak = `${topic}. ${fact}`.replace(/[•]/g, ', ');
+            if (cells.length < 2) return;
 
-                currentUtterance = new SpeechSynthesisUtterance(textToSpeak);
-                currentUtterance.rate = speechRate;
-                currentUtterance.lang = 'en-US';
+            const topic = cells[0].innerText.replace(/[\n\r]+/g, ' ').trim();
+            const fact = cells[1].innerText.replace(/[\n\r]+/g, ' ').trim();
+            const cleaned = cleanTextForSpeech(`${topic}: ${fact}`);
 
-                currentUtterance.onend = () => {
-                    row.classList.remove('row-speaking');
-                    document.getElementById('voiceStatus').innerText = 'Status: Ready';
-                };
+            currentChunks = splitIntoChunks(cleaned);
+            currentChunkIndex = 0;
 
-                document.getElementById('voiceStatus').innerText = `🔊 Reading: ${topic}`;
-                synth.speak(currentUtterance);
+            document.getElementById('voiceStatus').innerHTML = `🔊 Reading: <b>${topic}</b>`;
+            updateMasterBtn(true);
+            startKeepAlive();
+            playCurrentChunk();
+        }
+
+        function playCurrentChunk() {
+            if (!isPlaying || isPaused) return;
+
+            if (currentChunkIndex >= currentChunks.length) {
+                // Current row completed! Automatically move to next row
+                advanceToNextRow();
+                return;
+            }
+
+            const chunkText = currentChunks[currentChunkIndex];
+            const utterance = new SpeechSynthesisUtterance(chunkText);
+            utterance.rate = speechRate;
+            utterance.lang = 'en-US';
+
+            // Select natural voice if available
+            const voices = synth.getVoices();
+            const voice = voices.find(v => v.lang.startsWith('en') && (v.name.includes('Google') || v.name.includes('Natural') || v.name.includes('Zira') || v.name.includes('India'))) || voices.find(v => v.lang.startsWith('en'));
+            if (voice) utterance.voice = voice;
+
+            // CRUCIAL: Retain utterance reference on window to prevent Chrome Garbage Collection mid-sentence!
+            window._activeUtterance = utterance;
+
+            utterance.onend = () => {
+                currentChunkIndex++;
+                setTimeout(() => {
+                    playCurrentChunk();
+                }, 30);
+            };
+
+            utterance.onerror = (e) => {
+                console.warn('Speech chunk error:', e);
+                currentChunkIndex++;
+                setTimeout(() => {
+                    playCurrentChunk();
+                }, 30);
+            };
+
+            synth.speak(utterance);
+        }
+
+        function advanceToNextRow() {
+            if (!currentRow) return;
+
+            // Find next visible row in the table
+            let nextRow = currentRow.nextElementSibling;
+            while (nextRow && (nextRow.querySelector('th') || nextRow.style.display === 'none')) {
+                nextRow = nextRow.nextElementSibling;
+            }
+
+            if (nextRow) {
+                speakRow(nextRow);
+            } else {
+                // Try next card
+                const currentCard = currentRow.closest('.note-card');
+                let nextCard = currentCard ? currentCard.nextElementSibling : null;
+                while (nextCard && nextCard.style.display === 'none') {
+                    nextCard = nextCard.nextElementSibling;
+                }
+                if (nextCard) {
+                    const firstRow = nextCard.querySelector('.fact-table tr:not(:first-child)');
+                    if (firstRow) {
+                        speakRow(firstRow);
+                        return;
+                    }
+                }
+                // Completed all notes!
+                stopAudio();
+                document.getElementById('voiceStatus').innerText = '✅ Section reading complete!';
+            }
+        }
+
+        function skipRow(delta) {
+            if (!currentRow) {
+                toggleMasterAudio();
+                return;
+            }
+            if (delta > 0) {
+                advanceToNextRow();
+            } else {
+                let prevRow = currentRow.previousElementSibling;
+                while (prevRow && (prevRow.querySelector('th') || prevRow.style.display === 'none')) {
+                    prevRow = prevRow.previousElementSibling;
+                }
+                if (prevRow) speakRow(prevRow);
+            }
+        }
+
+        function toggleMasterAudio() {
+            if (isPlaying) {
+                togglePauseAudio();
+                return;
+            }
+            const cards = Array.from(document.querySelectorAll('.note-card')).filter(c => c.style.display !== 'none');
+            if (cards.length > 0) {
+                const firstRow = cards[0].querySelector('.fact-table tr:not(:first-child)');
+                if (firstRow) speakRow(firstRow);
+            }
+        }
+
+        function togglePauseAudio() {
+            if (!isPlaying) return;
+            if (synth.paused) {
+                synth.resume();
+                isPaused = false;
+                document.getElementById('btnPauseAudio').innerText = '⏸ Pause';
+                document.getElementById('voiceStatus').innerText = '🔊 Playing resumed';
+            } else {
+                synth.pause();
+                isPaused = true;
+                document.getElementById('btnPauseAudio').innerText = '▶ Resume';
+                document.getElementById('voiceStatus').innerText = '⏸ Audio Paused';
             }
         }
 
@@ -664,17 +840,56 @@
             }
         }
 
-        function toggleMasterAudio() {
-            const firstRow = document.querySelector('.fact-table tr:not(:first-child)');
-            if (firstRow) speakRow(firstRow);
-        }
-
         function stopAudio() {
-            if (synth.speaking || synth.pending) {
+            if (synth.speaking || synth.pending || synth.paused) {
                 synth.cancel();
             }
+            isPlaying = false;
+            isPaused = false;
+            currentChunks = [];
+            currentChunkIndex = 0;
+            window._activeUtterance = null;
+            stopKeepAlive();
+
             document.querySelectorAll('.fact-table tr').forEach(r => r.classList.remove('row-speaking'));
-            document.getElementById('voiceStatus').innerText = 'Status: Stopped';
+            updateMasterBtn(false);
+            document.getElementById('btnPauseAudio').innerText = '⏸ Pause';
+            document.getElementById('voiceStatus').innerText = '💡 Click or tap ANY row below to speak from there!';
+        }
+
+        function updateMasterBtn(running) {
+            const btn = document.getElementById('btnMasterPlay');
+            if (running) {
+                btn.innerText = '⏸ Pause';
+                btn.style.background = '#F59E0B';
+            } else {
+                btn.innerText = '▶ Listen to All';
+                btn.style.background = 'linear-gradient(135deg, #10B981, #059669)';
+            }
+        }
+
+        // Chrome 15-Second Keep-Alive Watchdog
+        function startKeepAlive() {
+            stopKeepAlive();
+            window._speechKeepAlive = setInterval(() => {
+                if (synth.speaking && !synth.paused) {
+                    synth.pause();
+                    synth.resume();
+                }
+            }, 6000);
+        }
+
+        function stopKeepAlive() {
+            if (window._speechKeepAlive) {
+                clearInterval(window._speechKeepAlive);
+                window._speechKeepAlive = null;
+            }
+        }
+
+        if ('speechSynthesis' in window) {
+            window.speechSynthesis.onvoiceschanged = () => {
+                synth.getVoices();
+            };
         }
     </script>
 </body>

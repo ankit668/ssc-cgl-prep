@@ -911,21 +911,113 @@
         }
 
         // Web Speech API Voice
+        // Bulletproof Speech Engine for Question Cards (Zero Cut-Off)
+        window._hubActiveUtterance = null;
+        window._hubSpeakingId = null;
+        let hubChunkIndex = 0;
+        let hubSpeechChunks = [];
+
         function speakQuestion(qId) {
             if (!('speechSynthesis' in window)) {
                 alert('Speech synthesis not supported in this browser.');
                 return;
             }
+
+            // If already speaking this question, toggle stop
+            if (window._hubSpeakingId === qId && (synth.speaking || synth.pending)) {
+                stopHubSpeech();
+                return;
+            }
+
+            stopHubSpeech();
             const q = allQuestions.find(item => item.id === qId);
             if (!q) return;
 
-            window.speechSynthesis.cancel();
-            const textToSpeak = `${q.question}. Option A: ${q.options[0]}. Option B: ${q.options[1]}. Option C: ${q.options[2]}. Option D: ${q.options[3]}. Correct answer is option ${q.ans}: ${q.options[q.ans_idx]}.`;
-            
-            const utterance = new SpeechSynthesisUtterance(textToSpeak);
+            window._hubSpeakingId = qId;
+
+            // Break question into short, clean natural speech chunks
+            hubSpeechChunks = [
+                `Question ${q.num}: ${q.question}`,
+                `Option A: ${q.options[0]}`,
+                `Option B: ${q.options[1]}`,
+                `Option C: ${q.options[2]}`,
+                `Option D: ${q.options[3]}`,
+                `Correct answer is Option ${q.ans}: ${q.options[q.ans_idx]}`,
+                `Explanation: ${q.explanation}`
+            ];
+            hubChunkIndex = 0;
+
+            updateSpeakBtnUI(qId, true);
+            playNextHubChunk(qId);
+        }
+
+        function playNextHubChunk(qId) {
+            if (window._hubSpeakingId !== qId) return;
+
+            if (hubChunkIndex >= hubSpeechChunks.length) {
+                stopHubSpeech();
+                return;
+            }
+
+            const chunk = hubSpeechChunks[hubChunkIndex];
+            const utterance = new SpeechSynthesisUtterance(chunk);
             utterance.rate = 1.0;
             utterance.lang = 'en-US';
-            window.speechSynthesis.speak(utterance);
+
+            const voices = synth.getVoices();
+            const voice = voices.find(v => v.lang.startsWith('en') && (v.name.includes('Google') || v.name.includes('Natural') || v.name.includes('Zira') || v.name.includes('India'))) || voices.find(v => v.lang.startsWith('en'));
+            if (voice) utterance.voice = voice;
+
+            // Pin utterance to window so Garbage Collection NEVER terminates audio!
+            window._hubActiveUtterance = utterance;
+
+            utterance.onend = () => {
+                hubChunkIndex++;
+                setTimeout(() => {
+                    playNextHubChunk(qId);
+                }, 35);
+            };
+
+            utterance.onerror = (e) => {
+                console.warn('Speech chunk error:', e);
+                hubChunkIndex++;
+                setTimeout(() => {
+                    playNextHubChunk(qId);
+                }, 35);
+            };
+
+            synth.speak(utterance);
+        }
+
+        function stopHubSpeech() {
+            if (synth.speaking || synth.pending || synth.paused) {
+                synth.cancel();
+            }
+            if (window._hubSpeakingId) {
+                updateSpeakBtnUI(window._hubSpeakingId, false);
+            }
+            window._hubSpeakingId = null;
+            window._hubActiveUtterance = null;
+            hubChunkIndex = 0;
+            hubSpeechChunks = [];
+        }
+
+        function updateSpeakBtnUI(qId, isSpeaking) {
+            const card = document.getElementById(`card_${qId}`);
+            if (card) {
+                const btn = card.querySelector('.btn-action-icon[onclick*="speakQuestion"]');
+                if (btn) {
+                    if (isSpeaking) {
+                        btn.innerHTML = '⏹ Stop';
+                        btn.style.color = '#EF4444';
+                        btn.style.borderColor = '#EF4444';
+                    } else {
+                        btn.innerHTML = '🔊 Speak';
+                        btn.style.color = '';
+                        btn.style.borderColor = '';
+                    }
+                }
+            }
         }
 
         // Pagination
