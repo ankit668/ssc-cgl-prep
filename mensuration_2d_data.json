@@ -1,0 +1,1167 @@
+{
+  "module": "2D Mensuration Master Hub",
+  "source": "Maths Maestro (Vishesh Shukla) - Exam Shot Edition",
+  "total_questions": 44,
+  "total_formulas": 14,
+  "questions": [
+    {
+      "id": 1,
+      "category": "triangle",
+      "category_name": "Triangles",
+      "exam": "Maths Maestro Concept Booster",
+      "question": "In a triangle PQR, S is any point on side QR such that QS : SR is 3 : 4. Perpendiculars from point S are drawn on sides PQ and PR at point T and U respectively such that ST = 8 cm and SU = 15 cm. Find the ratio of sides PQ and PR.",
+      "options": {
+        "a": "32 : 45",
+        "b": "3 : 4",
+        "c": "45 : 32",
+        "d": "8 : 15"
+      },
+      "answer": "c",
+      "correct_text": "45 : 32",
+      "formula": "Base division ratio = Area division ratio: Area(ΔPQS) / Area(ΔPRS) = QS / SR",
+      "steps": [
+        "Point S divides base QR in ratio QS : SR = 3 : 4. Since both triangles PQS and PRS share the common vertex P, their areas are directly proportional to their bases: Area(ΔPQS) / Area(ΔPRS) = 3 / 4.",
+        "Area of ΔPQS can also be written taking PQ as base and ST as height: Area(ΔPQS) = ½ × PQ × ST = ½ × PQ × 8.",
+        "Area of ΔPRS taking PR as base and SU as height: Area(ΔPRS) = ½ × PR × SU = ½ × PR × 15.",
+        "Equating the ratio: (½ × PQ × 8) / (½ × PR × 15) = 3 / 4.",
+        "Simplifying: (8 × PQ) / (15 × PR) = 3 / 4  ⇒  PQ / PR = (3 × 15) / (4 × 8) = 45 / 32."
+      ],
+      "trick": "Directly cross-multiply heights with area ratio: (PQ × 8) / (PR × 15) = 3 / 4  ⇒  PQ / PR = (3 × 15) / (4 × 8) = 45 : 32. Takes 5 seconds!"
+    },
+    {
+      "id": 2,
+      "category": "triangle",
+      "category_name": "Triangles",
+      "exam": "SSC CGL / CHSL Standard Theorem",
+      "question": "From any point inside an equilateral triangle, the lengths of perpendiculars drawn to the three sides are 'x' cm, 'y' cm, and 'z' cm. Its area (in cm²) is:",
+      "options": {
+        "a": "(√2 / 3)(x + y + z)²",
+        "b": "(√3 / 2)(x + y + z)²",
+        "c": "(1 / √3)(x + y + z)²",
+        "d": "(√3 / 4)(x + y + z)²"
+      },
+      "answer": "c",
+      "correct_text": "(1 / √3)(x + y + z)²",
+      "formula": "Equilateral Triangle with interior perpendiculars: h = x + y + z; Area = h² / √3 = (x + y + z)² / √3",
+      "steps": [
+        "Let side of equilateral triangle be 'a'. Total area Δ = ½·a·x + ½·a·y + ½·a·z = ½·a·(x + y + z).",
+        "We also know area of equilateral triangle Δ = (√3 / 4) a².",
+        "Equating: ½·a·(x + y + z) = (√3 / 4) a²  ⇒  a = 2(x + y + z) / √3.",
+        "Total height of equilateral triangle is h = x + y + z.",
+        "Substituting 'a' into area: Δ = (√3 / 4) × [4(x + y + z)² / 3] = (1 / √3)(x + y + z)²."
+      ],
+      "trick": "Direct result: Area of equilateral triangle when total height H is known is H² / √3. Here H = x + y + z, so Area = (x + y + z)² / √3."
+    },
+    {
+      "id": 3,
+      "category": "triangle",
+      "category_name": "Triangles",
+      "exam": "CHSL 2022 Pre",
+      "question": "Find the area of a triangle whose length of each side is 13 inches, 15 inches and 14 inches.",
+      "options": {
+        "a": "84 square inches",
+        "b": "81.2 square inches",
+        "c": "42.1 square inches",
+        "d": "84.2 square inches"
+      },
+      "answer": "a",
+      "correct_text": "84 square inches",
+      "formula": "Heron's Formula: Area = √[s(s - a)(s - b)(s - c)] where s = (a + b + c) / 2",
+      "steps": [
+        "Calculate semi-perimeter s: s = (13 + 14 + 15) / 2 = 42 / 2 = 21 inches.",
+        "Apply Heron's formula: Area = √[21 × (21 - 13) × (21 - 14) × (21 - 15)].",
+        "Area = √[21 × 8 × 7 × 6] = √[(7 × 3) × (4 × 2) × 7 × (3 × 2)].",
+        "Pairing factors: √(7² × 3² × 4²) = 7 × 3 × 4 = 84 square inches."
+      ],
+      "trick": "GOLDEN SSC HERONIAN TRIPLET: Memorize (13, 14, 15)  ⇒  Area = 84! Also memorize (10, 17, 21)  ⇒  Area = 84! Both appear frequently in SSC exams; solve in 0 seconds."
+    },
+    {
+      "id": 4,
+      "category": "triangle",
+      "category_name": "Triangles",
+      "exam": "CGL 2018 Pre",
+      "question": "The area of a triangle is 15 sq cm and the radius of its incircle is 3 cm. Its perimeter is equal to:",
+      "options": {
+        "a": "12 cm",
+        "b": "20 cm",
+        "c": "5 cm",
+        "d": "10 cm"
+      },
+      "answer": "d",
+      "correct_text": "10 cm",
+      "formula": "In-radius: r = Δ / s  ⇒  Perimeter P = 2s = 2Δ / r",
+      "steps": [
+        "Given area Δ = 15 cm² and in-radius r = 3 cm.",
+        "Relation between area, in-radius, and semi-perimeter: r = Δ / s.",
+        "s = Δ / r = 15 / 3 = 5 cm.",
+        "Perimeter P = 2 × s = 2 × 5 = 10 cm."
+      ],
+      "trick": "Perimeter P = 2Δ / r = 2(15) / 3 = 30 / 3 = 10 cm. Direct 3-second mental math!"
+    },
+    {
+      "id": 5,
+      "category": "triangle",
+      "category_name": "Triangles",
+      "exam": "CGL 2023 Pre",
+      "question": "The area of two triangles is in the ratio 5 : 3 and their heights are in the ratio 5 : 7. Find the ratio of their bases.",
+      "options": {
+        "a": "3 : 5",
+        "b": "7 : 3",
+        "c": "7 : 5",
+        "d": "2 : 3"
+      },
+      "answer": "b",
+      "correct_text": "7 : 3",
+      "formula": "Area = ½ × base × height  ⇒  Base ratio = (Area₁ / Height₁) : (Area₂ / Height₂)",
+      "steps": [
+        "Let the bases be b₁ and b₂. Area ratio: Δ₁ / Δ₂ = (½ × b₁ × h₁) / (½ × b₂ × h₂) = (b₁ / b₂) × (h₁ / h₂).",
+        "Substitute known ratios: 5 / 3 = (b₁ / b₂) × (5 / 7).",
+        "Cancel 5 on both sides: ⅓ = (b₁ / b₂) × (1 / 7).",
+        "Multiply by 7: b₁ / b₂ = 7 / 3."
+      ],
+      "trick": "Base ratio = (Δ₁ / h₁) : (Δ₂ / h₂) = (5/5) : (3/7) = 1 : (3/7) = 7 : 3."
+    },
+    {
+      "id": 6,
+      "category": "triangle",
+      "category_name": "Triangles",
+      "exam": "CGL 2023 Pre",
+      "question": "The ratio of the length of each equal side and the third side of an isosceles triangle is 3 : 5. If the area of the triangle is 30√11 cm², then the length of the third side (in cm) is:",
+      "options": {
+        "a": "10√6",
+        "b": "5√6",
+        "c": "13√6",
+        "d": "11√6"
+      },
+      "answer": "a",
+      "correct_text": "10√6",
+      "formula": "Isosceles triangle altitude h = √[a² - (b/2)²]; Area = ½ × b × h",
+      "steps": [
+        "Let the equal sides be a = 3x and the third base side be b = 5x.",
+        "Altitude on the base bisects it into two segments of length 5x / 2.",
+        "By Pythagoras theorem, altitude h = √[(3x)² - (5x/2)²] = √[9x² - 25x²/4] = √[11x²/4] = (x√11) / 2.",
+        "Area = ½ × base × height = ½ × (5x) × ((x√11) / 2) = (5√11 / 4) x².",
+        "Given Area = 30√11  ⇒  (5√11 / 4) x² = 30√11  ⇒  x² = (30 × 4) / 5 = 24  ⇒  x = √24 = 2√6.",
+        "Third side b = 5x = 5 × 2√6 = 10√6 cm."
+      ],
+      "trick": "Ratio sides (3, 3, 5). Half-base = 2.5. Height = √(3² - 2.5²) = √(9 - 6.25) = √2.75 = √(11/4) = √11 / 2. Unit Area = ½ × 5 × (√11/2) = 1.25√11. Actual Area = 30√11. Ratio multiplier² = 30 / 1.25 = 24  ⇒  multiplier = 2√6. Base = 5 × 2√6 = 10√6."
+    },
+    {
+      "id": 7,
+      "category": "triangle",
+      "category_name": "Triangles",
+      "exam": "CGL 2022 Pre",
+      "question": "The perimeter of a triangle with sides of integer values is equal to 13. How many such triangles are possible?",
+      "options": {
+        "a": "5",
+        "b": "8",
+        "c": "7",
+        "d": "6"
+      },
+      "answer": "a",
+      "correct_text": "5",
+      "formula": "Number of integer triangles with fixed perimeter P: If P is odd: round((P + 3)² / 48); If P is even: round(P² / 48)",
+      "steps": [
+        "Here perimeter P = 13 is an odd integer.",
+        "Applying Maths Maestro's formula for odd perimeter: N = round((P + 3)² / 48).",
+        "Substitute P = 13: N = round((13 + 3)² / 48) = round(16² / 48) = round(256 / 48) = round(5.333) = 5.",
+        "Verification by listing all integer triplets (a ≤ b ≤ c with a + b + c = 13 and a + b > c):",
+        "Possible triplets: (1, 6, 6), (2, 5, 6), (3, 5, 5), (3, 4, 6), (4, 4, 5). Exactly 5 triangles!"
+      ],
+      "trick": "Nearest integer formula: (13 + 3)² / 48 = 256 / 48 = 5.33  ⇒  Nearest integer is 5! Solved in 5 seconds."
+    },
+    {
+      "id": 8,
+      "category": "triangle",
+      "category_name": "Triangles",
+      "exam": "CGL 2019 Pre",
+      "question": "The length of each equal side of an isosceles triangle is 15 cm and the included angle between those two sides is 90°. Find the area of the triangle.",
+      "options": {
+        "a": "225 cm²",
+        "b": "112.5 cm²",
+        "c": "255 cm²",
+        "d": "125 cm²"
+      },
+      "answer": "b",
+      "correct_text": "112.5 cm²",
+      "formula": "Area = ½ × a × b × sin(θ) = ½ × a² for right-angled isosceles triangle",
+      "steps": [
+        "The two equal sides have length a = 15 cm and the angle between them is θ = 90°.",
+        "This is a right-angled isosceles triangle where the two legs are the equal sides.",
+        "Area = ½ × base × height = ½ × 15 × 15 = 225 / 2 = 112.5 cm²."
+      ],
+      "trick": "Included angle 90° means legs are perpendicular: ½ × 15² = 225 / 2 = 112.5 cm²."
+    },
+    {
+      "id": 9,
+      "category": "triangle",
+      "category_name": "Triangles",
+      "exam": "MTS 2021",
+      "question": "A goat is tied with a 10.5 m long rope to one corner of a plot which is in the shape of an equilateral triangle each side of which is 16 m long. Find the area that the goat can graze on. (Take π = 22/7)",
+      "options": {
+        "a": "53.5 m²",
+        "b": "62.25 m²",
+        "c": "57.75 m²",
+        "d": "51.75 m²"
+      },
+      "answer": "c",
+      "correct_text": "57.75 m²",
+      "formula": "Grazing Area = Area of sector = (θ / 360°) × π r², where θ = 60° for equilateral triangle",
+      "steps": [
+        "In an equilateral triangle, each interior angle is θ = 60°.",
+        "The rope length r = 10.5 m = 21 / 2 m is less than side 16 m, so the grazed region is simply a circular sector of radius 10.5 m and angle 60°.",
+        "Area = (60° / 360°) × π r² = (1 / 6) × (22 / 7) × (21 / 2) × (21 / 2).",
+        "Simplifying: (1 / 6) × 33 × (21 / 2) = (11 × 21) / 4 = 231 / 4 = 57.75 m²."
+      ],
+      "trick": "r = 10.5 = 21/2. For r = 7, full circle = 154. Here r is 1.5 times 7, so circle area = 154 × 1.5² = 154 × 2.25 = 346.5. Equilateral corner = 1/6 of circle: 346.5 / 6 = 57.75 m²!"
+    },
+    {
+      "id": 10,
+      "category": "triangle",
+      "category_name": "Triangles",
+      "exam": "CHSL 2023 Pre",
+      "question": "The sides of a triangle are 20 cm, 21 cm and 29 cm. The area of the triangle formed by joining the mid points of the sides of the triangle will be:",
+      "options": {
+        "a": "58.5 cm²",
+        "b": "47.5 cm²",
+        "c": "67.5 cm²",
+        "d": "52.5 cm²"
+      },
+      "answer": "d",
+      "correct_text": "52.5 cm²",
+      "formula": "Midpoint triangle area = ¼ × (Original Triangle Area); Check for Pythagorean triplet (20, 21, 29)",
+      "steps": [
+        "Check the sides 20, 21, 29: 20² + 21² = 400 + 441 = 841 = 29². This is a right-angled triangle!",
+        "Area of original right-angled triangle = ½ × 20 × 21 = 210 cm².",
+        "The triangle formed by joining the midpoints of the sides of any triangle has an area equal to ¼ of the original triangle.",
+        "Area of midpoint triangle = 210 / 4 = 52.5 cm² (or 52 ½ cm²)."
+      ],
+      "trick": "(20, 21, 29) is a classic right triangle: Area = (20 × 21) / 2 = 210. Midpoint triangle is always ¼ of area: 210 / 4 = 52.5 cm²."
+    },
+    {
+      "id": 11,
+      "category": "triangle",
+      "category_name": "Triangles",
+      "exam": "CHSL 2022 Pre",
+      "question": "Sides of a triangle are 12 cm, 9 cm and 9 cm. What is the radius of the circumcircle of this triangle?",
+      "options": {
+        "a": "4√5 cm",
+        "b": "27 / (2√5) cm",
+        "c": "25 cm",
+        "d": "27 / √5 cm"
+      },
+      "answer": "b",
+      "correct_text": "27 / (2√5) cm",
+      "formula": "Circumradius: R = (a × b × c) / (4 × Area)",
+      "steps": [
+        "Given an isosceles triangle with sides a = 12 cm, b = 9 cm, c = 9 cm.",
+        "Altitude on base 12 bisects the base into two halves of 6 cm each.",
+        "Height h = √(9² - 6²) = √(81 - 36) = √45 = 3√5 cm.",
+        "Area Δ = ½ × base × height = ½ × 12 × 3√5 = 18√5 cm².",
+        "Circumradius R = (a × b × c) / (4Δ) = (12 × 9 × 9) / (4 × 18√5).",
+        "Simplifying: (12 × 81) / (72√5) = 972 / (72√5) = 27 / (2√5) cm."
+      ],
+      "trick": "Isosceles sides (9, 9, 12). Base = 12  ⇒  half = 6. Height = √(81 - 36) = 3√5. Area = 6 × 3√5 = 18√5. R = (9 × 9 × 12) / (4 × 18√5) = 27 / (2√5)."
+    },
+    {
+      "id": 12,
+      "category": "triangle",
+      "category_name": "Triangles",
+      "exam": "CHSL 2022 Pre",
+      "question": "If the square of product of three sides of the triangle is 1024 units and the area of its circumcircle is 16π, what is the area of the given triangle?",
+      "options": {
+        "a": "2 sq. units",
+        "b": "3 sq. units",
+        "c": "2.5 sq. units",
+        "d": "4 sq. units"
+      },
+      "answer": "a",
+      "correct_text": "2 sq. units",
+      "formula": "Circumradius R = abc / (4Δ)  ⇒  Δ = abc / (4R)",
+      "steps": [
+        "Given (abc)² = 1024  ⇒  abc = √1024 = 32.",
+        "Area of circumcircle = π R² = 16π  ⇒  R² = 16  ⇒  Circumradius R = 4 units.",
+        "Using the circumradius formula: R = abc / (4Δ)  ⇒  Δ = abc / (4R).",
+        "Substitute abc = 32 and R = 4: Δ = 32 / (4 × 4) = 32 / 16 = 2 sq. units."
+      ],
+      "trick": "abc = 32, R = 4. Triangle Area = abc / (4R) = 32 / 16 = 2 sq units. Direct 5-second problem!"
+    },
+    {
+      "id": 13,
+      "category": "triangle",
+      "category_name": "Triangles",
+      "exam": "CHSL 2020 Pre",
+      "question": "If the perimeter of an isosceles right triangle is 15(√2 + 1) cm, then the area of the triangle will be:",
+      "options": {
+        "a": "46.5 cm²",
+        "b": "45 cm²",
+        "c": "56.25 cm²",
+        "d": "55 cm²"
+      },
+      "answer": "c",
+      "correct_text": "56.25 cm²",
+      "formula": "Isosceles right triangle perimeter P = a(2 + √2) = a√2(√2 + 1); Area = a² / 2",
+      "steps": [
+        "Let the equal legs be 'a'. The hypotenuse is a√2.",
+        "Perimeter P = a + a + a√2 = a(2 + √2) = a√2(√2 + 1).",
+        "Equating: a√2(√2 + 1) = 15(√2 + 1)  ⇒  a√2 = 15  ⇒  a = 15 / √2.",
+        "Area = ½ × a² = ½ × (15 / √2)² = ½ × (225 / 2) = 225 / 4 = 56.25 cm²."
+      ],
+      "trick": "Factorize perimeter: a√2(√2 + 1) = 15(√2 + 1)  ⇒  Hypotenuse h = a√2 = 15. In right isosceles triangle, Area = (Hypotenuse)² / 4 = 15² / 4 = 225 / 4 = 56.25 cm²!"
+    },
+    {
+      "id": 14,
+      "category": "triangle",
+      "category_name": "Triangles",
+      "exam": "CHSL 2020 Pre",
+      "question": "The in-radius and circumradius of a right-angled triangle are 3 cm and 12.5 cm respectively. The area of the triangle is:",
+      "options": {
+        "a": "64 cm²",
+        "b": "48 cm²",
+        "c": "88 cm²",
+        "d": "84 cm²"
+      },
+      "answer": "d",
+      "correct_text": "84 cm²",
+      "formula": "Right-angled triangle master relation: Area Δ = r(r + 2R) = r(s)",
+      "steps": [
+        "In any right-angled triangle, hypotenuse c = 2R = 2 × 12.5 = 25 cm.",
+        "In-radius r = (a + b - c) / 2  ⇒  a + b - 25 = 2(3) = 6  ⇒  a + b = 31 cm.",
+        "Semi-perimeter s = (a + b + c) / 2 = (31 + 25) / 2 = 28 cm.",
+        "Area Δ = r × s = 3 × 28 = 84 cm².",
+        "Alternatively, directly use the golden formula: Area = r(r + 2R) = 3(3 + 25) = 3 × 28 = 84 cm²."
+      ],
+      "trick": "MATHS MAESTRO GOLDEN SHORTCUT: In a right triangle, Area = r(r + 2R) = 3 × (3 + 2 × 12.5) = 3 × 28 = 84 cm². Solved mentally in 3 seconds!"
+    },
+    {
+      "id": 15,
+      "category": "triangle",
+      "category_name": "Triangles",
+      "exam": "CHSL 2018 Pre",
+      "question": "Two equilateral triangles are drawn on the hypotenuse and one of the perpendicular sides of a right-angled isosceles triangle. Their areas are H and A respectively. A / H is equal to:",
+      "options": {
+        "a": "1 / 2",
+        "b": "1 / 4",
+        "c": "1 / √2",
+        "d": "1 / 3"
+      },
+      "answer": "a",
+      "correct_text": "1 / 2",
+      "formula": "Areas of similar figures constructed on sides of right triangle: Area ratio = (Side ratio)²",
+      "steps": [
+        "Let the perpendicular legs of the right-angled isosceles triangle be 'x'.",
+        "Then the hypotenuse is x√2.",
+        "An equilateral triangle of side 'x' has area A = (√3 / 4) x².",
+        "An equilateral triangle on hypotenuse of side 'x√2' has area H = (√3 / 4) (x√2)² = (√3 / 4) × 2x².",
+        "Ratio A / H = [(√3 / 4) x²] / [(√3 / 4) 2x²] = 1 / 2."
+      ],
+      "trick": "Since both are equilateral triangles, their areas are directly proportional to the squares of their sides: A / H = (Perpendicular side)² / (Hypotenuse)² = x² / (x√2)² = 1 / 2."
+    },
+    {
+      "id": 16,
+      "category": "triangle",
+      "category_name": "Triangles",
+      "exam": "CPO 2022 Pre",
+      "question": "The differences between the semi-perimeter and the sides of ΔPQR are 18 cm, 17 cm and 25 cm respectively. Find the area of the triangle.",
+      "options": {
+        "a": "180√510 cm²",
+        "b": "30√510 cm²",
+        "c": "330√510 cm²",
+        "d": "230√510 cm²"
+      },
+      "answer": "b",
+      "correct_text": "30√510 cm²",
+      "formula": "Sum of differences (s - a) + (s - b) + (s - c) = 3s - 2s = s; Area = √[s(s - a)(s - b)(s - c)]",
+      "steps": [
+        "Given s - a = 18, s - b = 17, and s - c = 25.",
+        "Add all three equations: (s - a) + (s - b) + (s - c) = 3s - (a + b + c).",
+        "Since a + b + c = 2s, we get: 3s - 2s = s = 18 + 17 + 25 = 60 cm.",
+        "Apply Heron's formula: Area = √[s(s - a)(s - b)(s - c)] = √[60 × 18 × 17 × 25].",
+        "Factorize under radical: √[(4 × 15) × (9 × 2) × 17 × 25] = √(4 × 9 × 25) × √(15 × 2 × 17) = (2 × 3 × 5) × √510 = 30√510 cm²."
+      ],
+      "trick": "s = sum of differences = 18 + 17 + 25 = 60. Area = √(60 × 18 × 17 × 25) = 5 × 3 × 2 × √(30 × 17) = 30√510 cm²."
+    },
+    {
+      "id": 17,
+      "category": "triangle",
+      "category_name": "Triangles",
+      "exam": "CPO 2018 Pre",
+      "question": "The sides of a triangle are 10 cm, 24 cm and 26 cm. At each of its vertices, circles of radius 3.5 cm are drawn. What is the area of the triangle excluding the portion covered by the sectors of the circles? (Take π = 22/7)",
+      "options": {
+        "a": "100.75 cm²",
+        "b": "81.5 cm²",
+        "c": "75.75 cm²",
+        "d": "78.25 cm²"
+      },
+      "answer": "a",
+      "correct_text": "100.75 cm²",
+      "formula": "Sum of sector angles in any triangle = 180°  ⇒  Total sectors area = Area of Semicircle = ½ π r²",
+      "steps": [
+        "Verify the sides: 10² + 24² = 100 + 576 = 676 = 26². The triangle is right-angled!",
+        "Area of triangle = ½ × base × height = ½ × 10 × 24 = 120 cm².",
+        "The sum of the three interior angles of a triangle is A + B + C = 180°.",
+        "Therefore, the three sectors at the vertices together form exactly a semicircle of radius r = 3.5 cm = 7/2 cm.",
+        "Area of semicircle = ½ × (22 / 7) × (7 / 2) × (7 / 2) = 77 / 4 = 19.25 cm².",
+        "Excluded area = Area of triangle - Area of sectors = 120 - 19.25 = 100.75 cm²."
+      ],
+      "trick": "Triangle area = ½ × 10 × 24 = 120. The 3 vertex sectors of any triangle ALWAYS equal a semicircle (180°): ½ × (22/7) × 3.5² = 19.25. Excluded area = 120 - 19.25 = 100.75 cm²."
+    },
+    {
+      "id": 18,
+      "category": "quadrilateral",
+      "category_name": "Quadrilaterals & Hexagons",
+      "exam": "Maths Maestro Type-2 Booster",
+      "question": "PQRS is a quadrilateral. The diagonals of PQRS intersect at the point T. The areas of the triangle PQT and RST are 20 cm² and 45 cm² respectively. If the area of triangle PST is 18 cm², then find the area of triangle QRT?",
+      "options": {
+        "a": "25 cm²",
+        "b": "50 cm²",
+        "c": "30 cm²",
+        "d": "40 cm²"
+      },
+      "answer": "b",
+      "correct_text": "50 cm²",
+      "formula": "In any convex quadrilateral whose diagonals divide it into 4 triangles: A₁ × A₂ = A₃ × A₄ (opposite triangle areas product is equal)",
+      "steps": [
+        "Let the four triangles formed by intersection of diagonals at T be A₁ = Area(ΔPQT), A₂ = Area(ΔRST), A₃ = Area(ΔPST), and A₄ = Area(ΔQRT).",
+        "In any quadrilateral, the ratio of areas of adjacent triangles sharing a diagonal line segment equals the ratio of segments of that diagonal.",
+        "This gives the universal quadrilateral property: Area(ΔPQT) × Area(ΔRST) = Area(ΔPST) × Area(ΔQRT).",
+        "Substitute given values: 20 × 45 = 18 × Area(ΔQRT).",
+        "900 = 18 × Area(ΔQRT)  ⇒  Area(ΔQRT) = 900 / 18 = 50 cm²."
+      ],
+      "trick": "Cross-product of opposite triangle areas is equal: 20 × 45 = 18 × X  ⇒  X = 900 / 18 = 50 cm². Takes 3 seconds!"
+    },
+    {
+      "id": 19,
+      "category": "quadrilateral",
+      "category_name": "Quadrilaterals & Hexagons",
+      "exam": "Maths Maestro Geometry Special",
+      "question": "ABCD is a square of side 20 cm. A bigger circle of area A₁ is inscribed touching the bottom side and two corner quarter-circles, and a smaller circle of area A₂ touches the bottom edge and the bigger circle. Find the value of A₁ - A₂.",
+      "options": {
+        "a": "825π / 16 cm²",
+        "b": "850π / 16 cm²",
+        "c": "875π / 16 cm²",
+        "d": "900π / 16 cm²"
+      },
+      "answer": "c",
+      "correct_text": "875π / 16 cm²",
+      "formula": "Circles in square with quadrants: r₁ = 3a / 8; r₂ = a / 16",
+      "steps": [
+        "Given side of square a = 20 cm.",
+        "By standard configuration for a circle touching two corner quadrants and base: Radius of bigger circle r₁ = 3a / 8 = (3 × 20) / 8 = 15 / 2 cm.",
+        "Radius of the smaller circle touching between bottom edge and bigger circle: r₂ = a / 16 = 20 / 16 = 5 / 4 cm.",
+        "Area A₁ = π r₁² = π (15/2)² = 225π / 4 = 900π / 16 cm².",
+        "Area A₂ = π r₂² = π (5/4)² = 25π / 16 cm².",
+        "Difference A₁ - A₂ = (900π - 25π) / 16 = 875π / 16 cm²."
+      ],
+      "trick": "Remember the standard Maestro ratios for this configuration: r₁ = 3a/8 = 15/2, r₂ = a/16 = 5/4. Difference = π(225/4 - 25/16) = π(900 - 25)/16 = 875π / 16."
+    },
+    {
+      "id": 20,
+      "category": "quadrilateral",
+      "category_name": "Quadrilaterals & Hexagons",
+      "exam": "SSC Classical Shaded Region",
+      "question": "If the side of a square is 14 cm, then find the area of the shaded 4-leaf petal region formed by drawing semicircles on all four sides of the square.",
+      "options": {
+        "a": "112 cm²",
+        "b": "124 cm²",
+        "c": "98 cm²",
+        "d": "28 cm²"
+      },
+      "answer": "a",
+      "correct_text": "112 cm²",
+      "formula": "Area of 4-leaf petals in a square of side 'a': Area = (4 / 7) a²",
+      "steps": [
+        "Drawing 4 semicircles on the sides of a square creates an overlap in the form of 4 symmetrical petals.",
+        "Total area of 4 semicircles = 4 × [½ π (a/2)²] = 2 × π × (a² / 4) = (π / 2) a².",
+        "The sum of areas of the 4 semicircles covers the square once plus the overlap (the 4 petals) once: Area of 4 petals = (π / 2) a² - a² = (π/2 - 1) a².",
+        "Using π = 22/7: (22/14 - 1) a² = (8 / 14) a² = (4 / 7) a².",
+        "Substitute a = 14 cm: Area = (4 / 7) × 14² = (4 / 7) × 196 = 4 × 28 = 112 cm²."
+      ],
+      "trick": "MATHS MAESTRO 4-PETAL RULE: The shaded 4-leaf area is ALWAYS exactly (4/7) a²! For a = 14: (4/7) × 196 = 112 cm². Instant answer!"
+    },
+    {
+      "id": 21,
+      "category": "quadrilateral",
+      "category_name": "Quadrilaterals & Hexagons",
+      "exam": "SSC Advanced Geometry",
+      "question": "Semicircles are drawn outwardly on all 4 sides of a square of side 20 cm, and a circumscribing circle passes through all 4 vertices. Find the total area of the 4 crescent-shaped (lunes) shaded regions.",
+      "options": {
+        "a": "200 cm²",
+        "b": "400 cm²",
+        "c": "800 cm²",
+        "d": "1600 cm²"
+      },
+      "answer": "b",
+      "correct_text": "400 cm²",
+      "formula": "Lunes of Hippocrates on a square: Total Area of 4 crescents = Area of the Square = a²",
+      "steps": [
+        "Given side of the square a = 20 cm.",
+        "Area of the square ABCD = a² = 20² = 400 cm².",
+        "Four semicircles constructed on the four sides have diameter 'a'. Total area of 4 semicircles = 4 × [½ π (a/2)²] = ½ π a².",
+        "The circumcircle of the square has diameter equal to the diagonal d = a√2, so circumradius R = a / √2. Area of circumcircle = π R² = π (a / √2)² = ½ π a².",
+        "Notice: Total area of 4 semicircles (½ π a²) EXACTLY equals the area of the circumcircle (½ π a²)!",
+        "Therefore, Area of 4 crescents = (Area of 4 semicircles + Area of square) - Area of circumcircle = Area of square = a² = 400 cm²."
+      ],
+      "trick": "THEOREM OF HIPPOCRATES: The combined area of the 4 crescents formed on the sides of a square is ALWAYS identically equal to the area of the square itself! Area = 20² = 400 cm² in 1 second."
+    },
+    {
+      "id": 22,
+      "category": "quadrilateral",
+      "category_name": "Quadrilaterals & Hexagons",
+      "exam": "Maths Maestro Quadrant Special",
+      "question": "Four identical semicircles are drawn along the two radii of a quadrant of a circle. If XA = 7 cm (where XA is the diameter of each small semicircle, so total quadrant radius a = 14 cm), what is the area of the remaining shaded region in the quadrant?",
+      "options": {
+        "a": "32 cm²",
+        "b": "84 cm²",
+        "c": "86 cm²",
+        "d": "88 cm²"
+      },
+      "answer": "b",
+      "correct_text": "84 cm²",
+      "formula": "Area of shaded region in quadrant with 4 small semicircles = (3 / 7) a²",
+      "steps": [
+        "Let the total radius of the quadrant be 'a'. The two radii each contain 2 identical semicircles, so XA = a / 2 = 7 cm  ⇒  Quadrant radius a = 14 cm.",
+        "From Maths Maestro's standard derivation for this configuration, the shaded area equals: Shaded Area = (3 / 7) a².",
+        "Substitute a = 14 cm: Area = (3 / 7) × 14² = (3 / 7) × 196 = 3 × 28 = 84 cm²."
+      ],
+      "trick": "Direct Maestro formula for quadrant with 4 semicircles: Area = (3/7) a². Since XA = 7, a = 14  ⇒  (3/7) × 196 = 84 cm²."
+    },
+    {
+      "id": 23,
+      "category": "quadrilateral",
+      "category_name": "Quadrilaterals & Hexagons",
+      "exam": "CGL 2023 Pre",
+      "question": "The length, breadth and height of a hall are 10 m, 20 m and 15 m respectively. Find the cost of whitewashing the four walls inside the hall and the ceiling at the rate of ₹10.20/m².",
+      "options": {
+        "a": "₹13,394",
+        "b": "₹11,220",
+        "c": "₹15,320",
+        "d": "₹16,542"
+      },
+      "answer": "b",
+      "correct_text": "₹11,220",
+      "formula": "Area of 4 walls + ceiling = 2h(l + b) + (l × b); Total Cost = Total Area × Rate",
+      "steps": [
+        "Given dimensions: length l = 10 m, breadth b = 20 m, height h = 15 m.",
+        "Area of 4 walls = 2h(l + b) = 2 × 15 × (10 + 20) = 30 × 30 = 900 m².",
+        "Area of ceiling = l × b = 10 × 20 = 200 m².",
+        "Total surface to whitewash = 900 + 200 = 1100 m².",
+        "Total cost = 1100 × ₹10.20 = 110 × 102 = ₹11,220."
+      ],
+      "trick": "Area = 2(15)(30) + 200 = 900 + 200 = 1100 m². Cost = 1100 × 10.20 = 11 × 1020 = ₹11,220."
+    },
+    {
+      "id": 24,
+      "category": "quadrilateral",
+      "category_name": "Quadrilaterals & Hexagons",
+      "exam": "CGL MAINS 2020",
+      "question": "ABCDEF is a regular hexagon. Side of the hexagon is 36 cm. What is the area of the triangle ABC?",
+      "options": {
+        "a": "324√3 cm²",
+        "b": "360√3 cm²",
+        "c": "240√3 cm²",
+        "d": "192√3 cm²"
+      },
+      "answer": "a",
+      "correct_text": "324√3 cm²",
+      "formula": "In a regular hexagon of side a: Area(ΔABC) = (√3 / 4) a² = (1 / 6) × Area of Hexagon",
+      "steps": [
+        "In a regular hexagon, each interior angle is 120°. In ΔABC, AB = BC = 36 cm and ∠B = 120°.",
+        "Area of ΔABC = ½ × AB × BC × sin(120°) = ½ × 36 × 36 × (√3 / 2) = 18 × 18 × √3 = 324√3 cm².",
+        "Alternative viewpoint: A regular hexagon is made of 6 congruent equilateral triangles of side 'a'. ΔABC has area exactly equal to 1 of those equilateral triangles!",
+        "Area = (√3 / 4) × a² = (√3 / 4) × 36² = (√3 / 4) × 1296 = 324√3 cm²."
+      ],
+      "trick": "HEXAGON SYMMETRY TRICK: Triangle formed by two adjacent sides (like ΔABC) always has area = (√3 / 4) a²! Area = (√3 / 4) × 36² = 324√3 cm²."
+    },
+    {
+      "id": 25,
+      "category": "quadrilateral",
+      "category_name": "Quadrilaterals & Hexagons",
+      "exam": "CGL MAINS 2019",
+      "question": "ABCD is a quadrilateral. The length of diagonal AC is 24 cm. The sum of perpendiculars drawn from vertex B and D on the diagonal AC is 10 cm. What is the area of the quadrilateral?",
+      "options": {
+        "a": "240 cm²",
+        "b": "180 cm²",
+        "c": "120 cm²",
+        "d": "90 cm²"
+      },
+      "answer": "c",
+      "correct_text": "120 cm²",
+      "formula": "Area of Quadrilateral = ½ × diagonal × (h₁ + h₂)",
+      "steps": [
+        "The diagonal AC divides quadrilateral ABCD into two triangles: ΔABC and ΔADC.",
+        "Area(ABCD) = Area(ΔABC) + Area(ΔADC) = ½ × AC × h₁ + ½ × AC × h₂ = ½ × AC × (h₁ + h₂).",
+        "Substitute AC = 24 cm and (h₁ + h₂) = 10 cm:",
+        "Area = ½ × 24 × 10 = 12 × 10 = 120 cm²."
+      ],
+      "trick": "Direct formula: ½ × d × (sum of heights) = ½ × 24 × 10 = 120 cm². Takes 2 seconds!"
+    },
+    {
+      "id": 26,
+      "category": "quadrilateral",
+      "category_name": "Quadrilaterals & Hexagons",
+      "exam": "Selection Post 2022 Phase-10 Matric",
+      "question": "A regular hexagon is circumscribed by a circle of radius 4.5 cm. What is the area (in cm²) of the hexagon?",
+      "options": {
+        "a": "(243√3) / 8",
+        "b": "(243√3) / 4",
+        "c": "(81√3) / 2",
+        "d": "(81√3) / 4"
+      },
+      "answer": "a",
+      "correct_text": "(243√3) / 8",
+      "formula": "In a circumscribed regular hexagon, side of hexagon a = circumradius R = 4.5 cm; Area = 6 × (√3 / 4) a²",
+      "steps": [
+        "When a circle circumscribes a regular hexagon, the vertices of the hexagon lie on the circle.",
+        "The distance from the center to any vertex is the circumradius R, which equals the side length 'a' of the hexagon: a = R = 4.5 cm = 9 / 2 cm.",
+        "Area of regular hexagon = 6 × [(√3 / 4) a²] = (3√3 / 2) a².",
+        "Substitute a = 9/2: Area = (3√3 / 2) × (9/2)² = (3√3 / 2) × (81 / 4) = (243√3) / 8 cm²."
+      ],
+      "trick": "Hexagon side = radius = 9/2. Area = 6 × (√3 / 4) × (81 / 4) = (3 × 81√3) / 8 = (243√3) / 8."
+    },
+    {
+      "id": 27,
+      "category": "quadrilateral",
+      "category_name": "Quadrilaterals & Hexagons",
+      "exam": "MTS 2020 Pre",
+      "question": "The area of a square is S, and that of the square formed by joining the mid-points of the given square is A. The value of A / S is equal to:",
+      "options": {
+        "a": "0.25",
+        "b": "0.5",
+        "c": "0.125",
+        "d": "1.25"
+      },
+      "answer": "b",
+      "correct_text": "0.5",
+      "formula": "Midpoint square area = ½ × (Original square area)",
+      "steps": [
+        "Let the original square have side 'a'. Its area is S = a².",
+        "Joining the midpoints of the sides of the square creates a new square rotated by 45°.",
+        "By Pythagoras theorem, the side of the new square is √[(a/2)² + (a/2)²] = √[a²/2] = a / √2.",
+        "Area of new square A = (a / √2)² = a² / 2 = S / 2.",
+        "Ratio A / S = (S / 2) / S = 1 / 2 = 0.5."
+      ],
+      "trick": "Joining midpoints of sides of any square always produces a square with EXACTLY half the area: A/S = 1/2 = 0.5."
+    },
+    {
+      "id": 28,
+      "category": "quadrilateral",
+      "category_name": "Quadrilaterals & Hexagons",
+      "exam": "CPO 2022 Pre",
+      "question": "A field is in the shape of a rectangle of length 90 m and breadth 75 m. In one corner of the field, a pit, which is 18 m long, 15 m broad and 6 m deep, has been dug out. The earth taken out of it is evenly spread over the remaining part of the field. Find the rise in the level of the field (in cm)?",
+      "options": {
+        "a": "27 cm",
+        "b": "25 cm",
+        "c": "28 cm",
+        "d": "24 cm"
+      },
+      "answer": "b",
+      "correct_text": "25 cm",
+      "formula": "Rise in level = Volume of earth dug / Remaining surface area",
+      "steps": [
+        "Volume of earth dug from pit = length × breadth × depth = 18 × 15 × 6 = 1620 m³.",
+        "Total area of rectangular field = 90 × 75 = 6750 m².",
+        "Area of pit = 18 × 15 = 270 m².",
+        "Remaining area of field where earth is spread = 6750 - 270 = 6480 m².",
+        "Rise in level h = Volume / Remaining Area = 1620 / 6480 = 1 / 4 m.",
+        "Convert to centimeters: (1 / 4) × 100 = 25 cm."
+      ],
+      "trick": "Rise = (18 × 15 × 6) / (90 × 75 - 18 × 15) = 1620 / (6750 - 270) = 1620 / 6480 = 1/4 m = 25 cm."
+    },
+    {
+      "id": 29,
+      "category": "quadrilateral",
+      "category_name": "Quadrilaterals & Hexagons",
+      "exam": "CPO 2019 Pre",
+      "question": "A circular wire of diameter 77 cm is bent in the form of a rectangle whose length is 142% of its breadth (length = (71/50) of breadth). What is the area of the rectangle? (Take π = 22/7)",
+      "options": {
+        "a": "3450 sq. cm",
+        "b": "3520 sq. cm",
+        "c": "3550 sq. cm",
+        "d": "3620 sq. cm"
+      },
+      "answer": "c",
+      "correct_text": "3550 sq. cm",
+      "formula": "Wire length = Circumference = 2π r; Perimeter of rectangle = 2(l + b) = Wire length",
+      "steps": [
+        "Diameter d = 77 cm  ⇒  radius r = 77 / 2 cm.",
+        "Length of wire = 2π r = 2 × (22 / 7) × (77 / 2) = 22 × 11 = 242 cm.",
+        "Length of rectangle is 142% of breadth: l / b = 142 / 100 = 71 / 50.",
+        "Let l = 71x and b = 50x. Perimeter = 2(l + b) = 2(71x + 50x) = 2 × 121x = 242x.",
+        "Equating perimeters: 242x = 242  ⇒  x = 1.",
+        "Thus, l = 71 cm and b = 50 cm.",
+        "Area of rectangle = l × b = 71 × 50 = 3550 sq. cm."
+      ],
+      "trick": "Perimeter = 242 cm. Ratio 71 : 50 sum = 121. 2 × 121 = 242, so x = 1 exactly! Area = 71 × 50 = 3550 cm²."
+    },
+    {
+      "id": 30,
+      "category": "quadrilateral",
+      "category_name": "Quadrilaterals & Hexagons",
+      "exam": "CHSL 2019 Pre",
+      "question": "A circle is inscribed inside a square, and another square is inscribed inside this circle. What is the ratio of the area of the largest square to that of the smallest square?",
+      "options": {
+        "a": "4 : 1",
+        "b": "√2 : 1",
+        "c": "3 : 1",
+        "d": "2 : 1"
+      },
+      "answer": "d",
+      "correct_text": "2 : 1",
+      "formula": "Outer Square : Inscribed Circle : Inscribed Square = a² : (π/4)a² : (a²/2)",
+      "steps": [
+        "Let the outer large square have side 'a'. Its area is S₁ = a².",
+        "The inscribed circle has diameter equal to the side of the square: d = a  ⇒  radius r = a / 2.",
+        "The smaller square is inscribed inside this circle, so its diagonal equals the diameter of the circle: D_inner = 2r = a.",
+        "Area of square in terms of its diagonal is (Diagonal)² / 2 = a² / 2.",
+        "Ratio of area of largest square to smallest square = a² / (a² / 2) = 2 : 1."
+      ],
+      "trick": "NESTED SQUARE THEOREM: When a square is inscribed in a circle that is itself inscribed in an outer square, the inner square area is ALWAYS exactly half the outer square area! Ratio = 2 : 1."
+    },
+    {
+      "id": 31,
+      "category": "quadrilateral",
+      "category_name": "Quadrilaterals & Hexagons",
+      "exam": "MTS 2020 Pre",
+      "question": "There is a rectangular plot, 120 m long and 98 m wide, with semi-circular flower beds along the breadth on both sides of the plot. The cost of putting a fence all around the boundary of this entire plot at ₹16.50 per m is: (Take π = 22/7)",
+      "options": {
+        "a": "₹8,910",
+        "b": "₹9,042",
+        "c": "₹9,009",
+        "d": "₹8,943"
+      },
+      "answer": "b",
+      "correct_text": "₹9,042",
+      "formula": "Boundary = 2 × Length + 2 × (Semicircle arc length) = 2L + 2π r = 2L + π D",
+      "steps": [
+        "Plot length L = 120 m and width B = 98 m.",
+        "Two semicircles are attached on the two breadth sides. Their diameter is D = 98 m  ⇒  radius r = 49 m.",
+        "The outer boundary consists of the two straight lengths (2 × 120 m) plus the curved boundaries of the two semicircles.",
+        "Two semicircular arcs of radius 49 m combine into one full circumference: 2π r = 2 × (22 / 7) × 49 = 44 × 7 = 308 m.",
+        "Total perimeter = 2(120) + 308 = 240 + 308 = 548 m.",
+        "Total cost at ₹16.50/m = 548 × 16.50 = 548 × (33 / 2) = 274 × 33 = ₹9,042."
+      ],
+      "trick": "Two semicircles make a full circle: Perimeter = 2(120) + π(98) = 240 + 308 = 548 m. Cost = 548 × 16.5 = 274 × 33 = ₹9,042."
+    },
+    {
+      "id": 32,
+      "category": "quadrilateral",
+      "category_name": "Quadrilaterals & Hexagons",
+      "exam": "CPO 2020 Pre",
+      "question": "A rectangular lawn whose length is twice of its breadth is extended by having four semi-circular portions on its sides. If the smaller side of the rectangular lawn is 12 m, what is the total cost of leveling the entire lawn at the rate of ₹100 per square metre? (Take π = 3.14)",
+      "options": {
+        "a": "₹85,320",
+        "b": "₹97,625",
+        "c": "₹86,540",
+        "d": "₹78,650"
+      },
+      "answer": "a",
+      "correct_text": "₹85,320",
+      "formula": "Total Area = (l × b) + π r₁² + π r₂², where r₁ = l/2 and r₂ = b/2",
+      "steps": [
+        "Given breadth b = 12 m, so length l = 2 × 12 = 24 m.",
+        "Area of central rectangle = 24 × 12 = 288 m².",
+        "Two semicircles on length sides (diameter 24 m, radius 12 m) form 1 circle of radius 12 m: Area = π × 12² = 144π.",
+        "Two semicircles on breadth sides (diameter 12 m, radius 6 m) form 1 circle of radius 6 m: Area = π × 6² = 36π.",
+        "Combined area of 4 semicircles = 144π + 36π = 180π m².",
+        "Using π = 3.14: 180 × 3.14 = 565.2 m².",
+        "Total area of extended lawn = 288 + 565.2 = 853.2 m².",
+        "Total cost at ₹100/m² = 853.2 × 100 = ₹85,320."
+      ],
+      "trick": "Area = 288 + π(12² + 6²) = 288 + 180π = 288 + 565.2 = 853.2 m². At ₹100/m²  ⇒  ₹85,320."
+    },
+    {
+      "id": 33,
+      "category": "circle_shaded",
+      "category_name": "Circles & Shaded Regions",
+      "exam": "CGL 2024 Pre",
+      "question": "What is the central angle of a sector of a circle whose area and perimeter are, respectively, equal to 209 cm² and 63 cm if it is given that its radius is a non-negative integer (roundup to one decimal place)? (Take π = 22/7)",
+      "options": {
+        "a": "55.5°",
+        "b": "53.5°",
+        "c": "49.5°",
+        "d": "51.5°"
+      },
+      "answer": "c",
+      "correct_text": "49.5°",
+      "formula": "Perimeter of sector = 2r + l = 63; Area = ½ × l × r = 209",
+      "steps": [
+        "Let radius be 'r' and arc length be 'l'.",
+        "Perimeter of sector = 2r + l = 63  ⇒  l = 63 - 2r.",
+        "Area of sector = ½ × l × r = 209  ⇒  ½ × (63 - 2r) × r = 209.",
+        "63r - 2r² = 418  ⇒  2r² - 63r + 418 = 0.",
+        "Solving quadratic equation: Discriminant D = 63² - 4(2)(418) = 3969 - 3344 = 625.",
+        "r = (63 ± 25) / 4  ⇒  r = 88 / 4 = 22 cm (since radius is an integer; other root is 9.5).",
+        "Then arc length l = 63 - 2(22) = 63 - 44 = 19 cm.",
+        "Central angle θ = (l / 2π r) × 360° = [19 / (2 × (22/7) × 22)] × 360° = (19 × 7 × 360) / 968 = 47880 / 968 ≈ 49.46° ≈ 49.5°."
+      ],
+      "trick": "Arc formula: l = 63 - 2r. ½(l)(r) = 209  ⇒  r(63 - 2r) = 418. Test integers: r = 22 gives 22 × (63 - 44) = 22 × 19 = 418! Perfect. Arc l = 19 cm. θ = (19 / (2 × 22/7 × 22)) × 360° = 49.46° ≈ 49.5°."
+    },
+    {
+      "id": 34,
+      "category": "circle_shaded",
+      "category_name": "Circles & Shaded Regions",
+      "exam": "CGL 2020 Pre",
+      "question": "The area of a quadrant of a circle is π/9 m². Its radius (in metres) is equal to:",
+      "options": {
+        "a": "3 / 2",
+        "b": "1 / 8",
+        "c": "1 / 2",
+        "d": "2 / 3"
+      },
+      "answer": "d",
+      "correct_text": "2 / 3",
+      "formula": "Area of quadrant = ¼ π r²",
+      "steps": [
+        "Given area of quadrant = π / 9 m².",
+        "Formula for quadrant area: ¼ π r² = π / 9.",
+        "Cancel π on both sides: ¼ r² = 1 / 9.",
+        "r² = 4 / 9  ⇒  r = 2 / 3 m."
+      ],
+      "trick": "¼ π r² = π / 9  ⇒  r² = 4/9  ⇒  r = 2/3 m. Direct 2-second answer!"
+    },
+    {
+      "id": 35,
+      "category": "circle_shaded",
+      "category_name": "Circles & Shaded Regions",
+      "exam": "Selection Post 2022 Phase-10 Higher Sec",
+      "question": "A chord of a circle of radius 21 cm makes a right angle at the centre. Find the area of the major segment (take π = 22/7) closest to the nearest integer.",
+      "options": {
+        "a": "1360 cm²",
+        "b": "1436 cm²",
+        "c": "1260 cm²",
+        "d": "1160 cm²"
+      },
+      "answer": "c",
+      "correct_text": "1260 cm²",
+      "formula": "Major Segment Area = Total Circle Area - Minor Segment Area",
+      "steps": [
+        "Radius r = 21 cm. Total area of circle = π r² = (22 / 7) × 21 × 21 = 22 × 63 = 1386 cm².",
+        "The chord subtends 90° at center. Area of minor sector = (90° / 360°) × 1386 = ¼ × 1386 = 346.5 cm².",
+        "Area of triangle formed by the two radii = ½ × r × r = ½ × 21 × 21 = 441 / 2 = 220.5 cm².",
+        "Area of minor segment = Area of minor sector - Area of triangle = 346.5 - 220.5 = 126 cm².",
+        "Area of major segment = Total Circle Area - Minor segment = 1386 - 126 = 1260 cm²."
+      ],
+      "trick": "Major segment = (¾ of circle) + (Triangle area) = ¾(1386) + ½(21²) = 1039.5 + 220.5 = 1260 cm²."
+    },
+    {
+      "id": 36,
+      "category": "circle_shaded",
+      "category_name": "Circles & Shaded Regions",
+      "exam": "CGL 2024 Pre",
+      "question": "One-quarter of a circular pizza of radius 21 cm was removed from the whole pizza. What is the perimeter (in cm) of the remaining pizza? (Use π = 22/7)",
+      "options": {
+        "a": "99 cm",
+        "b": "141 cm",
+        "c": "128 cm",
+        "d": "131 cm"
+      },
+      "answer": "b",
+      "correct_text": "141 cm",
+      "formula": "Perimeter of remaining ¾ pizza = ¾ (2π r) + 2r (arc + two exposed radii)",
+      "steps": [
+        "Total circumference of circle = 2π r = 2 × (22 / 7) × 21 = 2 × 66 = 132 cm.",
+        "Removing one-quarter leaves ¾ of the circumference: Arc length = ¾ × 132 = 99 cm.",
+        "CRITICAL EXAM STEP: The boundary of the remaining piece also includes the two cut edges (each of length equal to radius r = 21 cm).",
+        "Total perimeter = Arc length + 2r = 99 + 2(21) = 99 + 42 = 141 cm."
+      ],
+      "trick": "DON'T FORGET THE 2 RADII! Arc = ¾ × 132 = 99. Perimeter = 99 + 2(21) = 99 + 42 = 141 cm."
+    },
+    {
+      "id": 37,
+      "category": "circle_shaded",
+      "category_name": "Circles & Shaded Regions",
+      "exam": "CGL MAINS 20TH JAN 2025",
+      "question": "Akshay places three identical rings of diameter 21 cm in such a manner that each one touches the other two rings. He observes that there is a space enclosed by the circles. What is the area (in cm²) of this enclosed portion? (Take π = 22/7, √3 = 1.732, rounded off to 2 decimal places)",
+      "options": {
+        "a": "17.70 cm²",
+        "b": "18.25 cm²",
+        "c": "24.12 cm²",
+        "d": "20.65 cm²"
+      },
+      "answer": "a",
+      "correct_text": "17.70 cm²",
+      "formula": "Area enclosed between 3 mutually touching identical circles of radius r = (√3 - π / 2) r² ≈ 0.161 r²",
+      "steps": [
+        "Diameter = 21 cm  ⇒  radius r = 10.5 cm = 21 / 2 cm.",
+        "Joining the centers of the 3 circles forms an equilateral triangle of side a = 2r = 21 cm.",
+        "Area of equilateral triangle = (√3 / 4) a² = (√3 / 4) × 21² = (√3 / 4) × 441 = 110.25 × √3 = 110.25 × 1.732 = 190.953 cm².",
+        "Each circle covers a 60° sector inside this triangle. The three 60° sectors combine into a semicircle of radius r = 10.5 cm.",
+        "Area of 3 sectors = ½ π r² = ½ × (22 / 7) × (21 / 2)² = 110.25 × (11 / 7) = 173.25 cm².",
+        "Enclosed area = Triangle Area - Sectors Area = 190.953 - 173.25 = 17.703 ≈ 17.70 cm²."
+      ],
+      "trick": "MAESTRO DIRECT TRICK: Enclosed area between 3 circles = r²(√3 - π/2) ≈ r²(1.732 - 1.5714) = 0.1606 r². Here r = 10.5, so 0.1606 × 110.25 ≈ 17.70 cm²!"
+    },
+    {
+      "id": 38,
+      "category": "circle_shaded",
+      "category_name": "Circles & Shaded Regions",
+      "exam": "Maths Maestro Special",
+      "question": "A tight rubber band is stretched around three identical circular cylinders of radius r touching each other. Find the total length of the rubber band.",
+      "options": {
+        "a": "6r + 2πr",
+        "b": "3r + 2πr",
+        "c": "6r + πr",
+        "d": "4r + 2πr"
+      },
+      "answer": "a",
+      "correct_text": "6r + 2πr",
+      "formula": "Rubber band around 3 equal circles = 6r + 2π r (or 3d + π d)",
+      "steps": [
+        "Between each pair of adjacent circles, the rubber band runs straight along a tangent of length equal to the distance between centers: d = 2r.",
+        "There are 3 such straight segments: 3 × 2r = 6r.",
+        "At each of the 3 outer corners, the band wraps around an arc of the circle. Each corner arc has an angle of 120°.",
+        "Sum of the 3 corner arcs = 3 × 120° = 360°, which forms the complete circumference of one circle = 2π r.",
+        "Total length of rubber band = 6r + 2π r (or 2r(3 + π))."
+      ],
+      "trick": "Straight portions = 3 × (distance between centers) = 3 × 2r = 6r. Curved portions always sum to 1 full circle = 2πr. Total = 6r + 2πr."
+    },
+    {
+      "id": 39,
+      "category": "circle_shaded",
+      "category_name": "Circles & Shaded Regions",
+      "exam": "Maths Maestro Special",
+      "question": "A tight rubber band covers four identical circles of radius r arranged in a square pattern touching each other. Find the length of the rubber band.",
+      "options": {
+        "a": "8r + 2πr",
+        "b": "4r + 2πr",
+        "c": "8r + πr",
+        "d": "16r + 2πr"
+      },
+      "answer": "a",
+      "correct_text": "8r + 2πr",
+      "formula": "General Rubber Band Formula for n touching identical circles: Length = 2nr + 2π r",
+      "steps": [
+        "There are 4 straight segments connecting the four circles, each equal to the distance between adjacent centers = 2r. Sum of straight parts = 4 × 2r = 8r.",
+        "At each of the 4 corners, the band wraps around an arc of 90°.",
+        "Sum of the 4 corner arcs = 4 × 90° = 360° = 1 full circle circumference = 2π r.",
+        "Total length = 8r + 2π r."
+      ],
+      "trick": "UNIVERSAL MAESTRO FORMULA: For 'n' identical circles wrapped in a ring by a rubber band, Length = 2nr + 2πr. For n = 4  ⇒  8r + 2πr!"
+    },
+    {
+      "id": 40,
+      "category": "circle_shaded",
+      "category_name": "Circles & Shaded Regions",
+      "exam": "SSC Classical Geometry Theorem",
+      "question": "What is the maximum possible area of a triangle that can be inscribed inside a semicircle of radius r?",
+      "options": {
+        "a": "r²",
+        "b": "2r²",
+        "c": "½ r²",
+        "d": "(π / 4) r²"
+      },
+      "answer": "a",
+      "correct_text": "r²",
+      "formula": "Maximum triangle in semicircle of radius r: Base = 2r, Max height = r  ⇒  Area = ½(2r)(r) = r²",
+      "steps": [
+        "To maximize the area of an inscribed triangle, its base must be as large as possible, which is the diameter of the semicircle: Base = 2r.",
+        "The height from the base to the third vertex on the semicircle arc is maximized when the vertex is at the apex (highest point) of the arc, where height = radius = r.",
+        "Maximum Area = ½ × Base × Height = ½ × (2r) × r = r².",
+        "This triangle is uniquely an isosceles right-angled triangle with hypotenuse 2r."
+      ],
+      "trick": "Max base = diameter = 2r. Max height = radius = r. Max Area = ½ × 2r × r = r²!"
+    },
+    {
+      "id": 41,
+      "category": "circle_shaded",
+      "category_name": "Circles & Shaded Regions",
+      "exam": "Maths Maestro Semicircle Inscribed Special",
+      "question": "A semicircle is inscribed in a triangle of sides 13 cm, 14 cm, and 15 cm such that its diameter lies along the 15 cm base and its curved arc touches the other two sides. Find the radius 'r' of the semicircle.",
+      "options": {
+        "a": "6.222 cm",
+        "b": "6.111 cm",
+        "c": "5.888 cm",
+        "d": "6.888 cm"
+      },
+      "answer": "a",
+      "correct_text": "6.222 cm",
+      "formula": "Area = ½ × a × r + ½ × b × r = ½ × r × (a + b) (where a and b are the touching sides)",
+      "steps": [
+        "The triangle has sides 13, 14, 15. The base is 15 cm, and the touching sides are 13 cm and 14 cm.",
+        "Total area of (13, 14, 15) triangle = 84 cm² (standard SSC Heronian triplet).",
+        "Let the center of the semicircle be on the 15 cm base. Radii drawn to the points of tangency on the 13 cm and 14 cm sides are perpendicular to them.",
+        "Joining the center to the opposite vertex splits the triangle into two smaller triangles with bases 13 cm and 14 cm and heights both equal to 'r'.",
+        "Total Area = ½ × 13 × r + ½ × 14 × r = ½ × r × (13 + 14) = (27 / 2) r.",
+        "Equating: (27 / 2) r = 84  ⇒  r = (84 × 2) / 27 = 168 / 27 = 56 / 9 ≈ 6.222 cm."
+      ],
+      "trick": "Area = ½ r (13 + 14) = 84  ⇒  27r / 2 = 84  ⇒  r = 168 / 27 = 56 / 9 = 6.222 cm. Quick and elegant!"
+    },
+    {
+      "id": 42,
+      "category": "circle_shaded",
+      "category_name": "Circles & Shaded Regions",
+      "exam": "SSC Advanced Geometry",
+      "question": "Two identical circles of radius 1 cm intersect so that their centers and the two points at which they intersect form a square of side 1 cm. Find the area (in sq. cm) of the portion that is common to the two circles.",
+      "options": {
+        "a": "(π / 2 - 1) cm²",
+        "b": "(π - 1) cm²",
+        "c": "(π / 4 - ½) cm²",
+        "d": "(2π - 1) cm²"
+      },
+      "answer": "a",
+      "correct_text": "(π / 2 - 1) cm²",
+      "formula": "Common Area = 2 × (Quadrant Area) - Area of Square = 2(¼ π r²) - r² = (π / 2 - 1) r²",
+      "steps": [
+        "Given that the centers C₁, C₂ and the intersection points P, Q form a square of side 1 cm.",
+        "Since all four sides are 1 cm and radius r = 1 cm, the angle subtended by chord PQ at both centers is 90°.",
+        "Each circle contributes a quadrant (90° sector) of radius 1 cm over the square region.",
+        "The sum of the two quadrants covers the common lens region twice and the rest of the square once: Area(Common) = 2 × Area(Quadrant) - Area(Square).",
+        "Area(Quadrant) = ¼ π (1)² = π / 4.",
+        "Area(Square) = 1 × 1 = 1 cm².",
+        "Common Area = 2 × (π / 4) - 1 = π / 2 - 1 cm²."
+      ],
+      "trick": "Two quadrants overlap over the 1×1 square: 2(π/4) - 1 = π/2 - 1 cm²."
+    },
+    {
+      "id": 43,
+      "category": "circle_shaded",
+      "category_name": "Circles & Shaded Regions",
+      "exam": "SSC Classical Geometry",
+      "question": "Two circles of unit radii are so drawn that the centre of each lies on the circumference of the other. The area of the region common to both the circles is:",
+      "options": {
+        "a": "(2π / 3 - √3 / 2)",
+        "b": "(4π / 3 - √3 / 2)",
+        "c": "(2π / 3 - √3 / 4)",
+        "d": "(π / 3 - √3 / 2)"
+      },
+      "answer": "a",
+      "correct_text": "(2π / 3 - √3 / 2)",
+      "formula": "Common Area of two circles passing through each other's centers = (2π / 3 - √3 / 2) r²",
+      "steps": [
+        "Let the centers be C₁ and C₂, with distance C₁C₂ = r = 1.",
+        "The intersection points P and Q form two equilateral triangles ΔPC₁C₂ and ΔQC₁C₂ of side 1.",
+        "Therefore, the angle subtended by chord PQ at each center is 60° + 60° = 120°.",
+        "The common area consists of two identical circular segments corresponding to 120° central angle.",
+        "Area of one 120° sector = (120° / 360°) × π (1)² = π / 3.",
+        "Area of rhombus PC₁QC₂ (made of two equilateral triangles of side 1) = 2 × [(√3 / 4) × 1²] = √3 / 2.",
+        "Common area = 2 × (Sector area) - Rhombus area = 2(π / 3) - √3 / 2 = 2π / 3 - √3 / 2."
+      ],
+      "trick": "Two equilateral triangles form 120° at centers. Common lens = 2 × (120° sector) - 2 × (Equilateral Δ) = 2(π/3) - 2(√3/4) = 2π/3 - √3/2. Master formula: r²(2π/3 - √3/2)!"
+    },
+    {
+      "id": 44,
+      "category": "circle_shaded",
+      "category_name": "Circles & Shaded Regions",
+      "exam": "Maths Maestro Semicircle Special",
+      "question": "What is the area of the largest square that can be inscribed in a semicircle of radius r?",
+      "options": {
+        "a": "(4 / 5) r²",
+        "b": "(2 / 5) r²",
+        "c": "(3 / 5) r²",
+        "d": "½ r²"
+      },
+      "answer": "a",
+      "correct_text": "(4 / 5) r²",
+      "formula": "Maximum square in semicircle of radius r: Side x = 2r / √5  ⇒  Area = (4 / 5) r²",
+      "steps": [
+        "Let the square have side 'x' with its base on the diameter of the semicircle, centered symmetrically at the midpoint.",
+        "The base extends x/2 on each side of the center.",
+        "The top two corners of the square lie on the semicircle arc at distance 'r' from the center.",
+        "By Pythagoras theorem: (x / 2)² + x² = r²  ⇒  x² / 4 + x² = r²  ⇒  (5 / 4) x² = r².",
+        "Area of square = x² = (4 / 5) r² = 0.8 r²."
+      ],
+      "trick": "GOLDEN MAESTRO RESULT: Max square in semicircle = (4/5) r² = 0.8 r². If r = 5 cm, Area = (4/5) × 25 = 20 cm²!"
+    }
+  ],
+  "formulas": [
+    {
+      "id": "f1",
+      "category": "Triangles",
+      "title": "Heron's Formula & Standard Triangles",
+      "formula": "Δ = √[s(s-a)(s-b)(s-c)], where s = (a+b+c)/2",
+      "note": "SSC repeaters: (13, 14, 15)  ⇒  Area = 84; (10, 17, 21)  ⇒  Area = 84. No calculation required in exam!"
+    },
+    {
+      "id": "f2",
+      "category": "Triangles",
+      "title": "In-Radius & Circumradius Master Relations",
+      "formula": "r = Δ / s ; R = abc / (4Δ) ; Right Triangle: r = (a + b - c)/2 ; Δ = r(r + 2R)",
+      "note": "For any right triangle with in-radius r and circumradius R: Area is ALWAYS r(r + 2R)."
+    },
+    {
+      "id": "f3",
+      "category": "Triangles",
+      "title": "Equilateral Triangle Perpendiculars",
+      "formula": "Total height H = h₁ + h₂ + h₃ ; Area = H² / √3 = (h₁ + h₂ + h₃)² / √3",
+      "note": "Perpendiculars from ANY interior point sum directly to the triangle's altitude!"
+    },
+    {
+      "id": "f4",
+      "category": "Triangles",
+      "title": "Number of Integer Triangles for Perimeter P",
+      "formula": "If P is even: round(P² / 48) | If P is odd: round((P + 3)² / 48)",
+      "note": "Applies to integer side triangles a ≤ b ≤ c with a + b > c."
+    },
+    {
+      "id": "f5",
+      "category": "Quadrilaterals",
+      "title": "Universal Quadrilateral Diagonals Theorem",
+      "formula": "A₁ × A₂ = A₃ × A₄",
+      "note": "The product of the areas of opposite triangles formed by intersecting diagonals is always equal."
+    },
+    {
+      "id": "f6",
+      "category": "Quadrilaterals",
+      "title": "Leaf Petals in Square of Side a",
+      "formula": "Area of 4 petals = (4 / 7) a² | Area of 2 corner leaves = (2 / 7) a²",
+      "note": "Derived from (π/2 - 1)a² with π = 22/7  ⇒  (4/7)a²."
+    },
+    {
+      "id": "f7",
+      "category": "Quadrilaterals",
+      "title": "Lunes of Hippocrates (Crescents on Square / Right Triangle)",
+      "formula": "Area of 4 crescents = Area of Square = a² | Area of 2 crescents on right Δ = Area(Δ)",
+      "note": "Semicircles on sides minus circumcircle = base polygon area exactly!"
+    },
+    {
+      "id": "f8",
+      "category": "Quadrilaterals",
+      "title": "Rectangular Pathways Formula",
+      "formula": "Outside Path: 2w(l + b + 2w) | Inside Path: 2w(l + b - 2w) | Crossroads: w(l + b - w)",
+      "note": "w = path width; l, b = field dimensions."
+    },
+    {
+      "id": "f9",
+      "category": "Quadrilaterals",
+      "title": "Regular Hexagon Special Areas",
+      "formula": "Total = 6 × (√3/4)a² | Alternate vertices Δ = 3 × (√3/4)a² | Corner ΔABC = (√3/4)a²",
+      "note": "Corner triangle area is exactly 1/6 of total hexagon area."
+    },
+    {
+      "id": "f10",
+      "category": "Circles",
+      "title": "Area Enclosed by 3 Mutually Touching Circles",
+      "formula": "Area = (√3 - π / 2) r² ≈ 0.161 r²",
+      "note": "Equilateral Δ of side 2r minus three 60° sectors (semicircle)."
+    },
+    {
+      "id": "f11",
+      "category": "Circles",
+      "title": "Area Enclosed by 4 Mutually Touching Circles",
+      "formula": "Area = (4 - π) r² = (6 / 7) r²",
+      "note": "Square of side 2r minus four 90° sectors (1 full circle)."
+    },
+    {
+      "id": "f12",
+      "category": "Circles",
+      "title": "Universal Rubber Band Around n Circles",
+      "formula": "Total Length = 2nr + 2π r = nd + π d",
+      "note": "3 circles: 6r + 2πr | 4 circles: 8r + 2πr | Straight = 2nr, Curved corners = 1 full circle."
+    },
+    {
+      "id": "f13",
+      "category": "Circles",
+      "title": "Maximum Inscribed Figures in Semicircle of Radius r",
+      "formula": "Max Triangle = r² | Max Square = (4 / 5) r² | Max Inscribed Circle Radius = r / 2",
+      "note": "Max triangle is right-isosceles with base 2r and altitude r."
+    },
+    {
+      "id": "f14",
+      "category": "Circles",
+      "title": "Overlapping Circles Through Each Other's Centers",
+      "formula": "Common Area = (2π / 3 - √3 / 2) r²",
+      "note": "Central angle is 120°. Common lens = 2 × (120° sector) - Rhombus area."
+    }
+  ]
+}
