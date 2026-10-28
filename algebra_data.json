@@ -7,15 +7,15 @@
       "id": "f1",
       "title": "Surds, Nested Radicals & Infinite Chains",
       "category": "Surds & Radicals",
-      "formula": "√{a√{a√a...\\infty}} = a and √{a√{a...(n times)}} = a^{(2ⁿ-1/2ⁿ)}",
-      "desc": "For addition: √{a + √a + ...} = {√4a+1 + 1}{2}. For subtraction: √{a - √a - ...} = {√4a+1 - 1}{2}. If a = n(n+1), addition series directly equals (n+1), and subtraction series directly equals n."
+      "formula": "√(a√(a√(a...∞)) = a and √(a√(a...(n times)) = a^(2ⁿ-1/2ⁿ)",
+      "desc": "For addition: √(a + √(a + ...) = (√(4a+1) + 1/2). For subtraction: √(a - √(a - ...) = (√(4a+1) - 1/2). If a = n(n+1), addition series directly equals (n+1), and subtraction series directly equals n."
     },
     {
       "id": "f2",
       "title": "Cube Root Surd Rationalization",
       "category": "Surds & Radicals",
-      "formula": "{1}{∛(a²) + ∛(ab) + ∛(b²)} = {∛(a) - ∛(b)}{a - b}",
-      "desc": "Multiply numerator and denominator by (∛(a) - ∛(b) to use (x-y)(x²+xy+y²) = x³ - y³ = a - b. For example: {1}{∛(36) + ∛(6) + 1} = {∛(6) - 1}{6 - 1} = {∛(6) - 1}{5}."
+      "formula": "(1/∛(a²) + ∛(ab) + ∛(b²) = (∛(a) - ∛(b)/a - b)",
+      "desc": "Multiply numerator and denominator by (∛(a) - ∛(b) to use (x-y)(x²+xy+y²) = x³ - y³ = a - b. For example: (1/∛(36) + ∛(6) + 1) = (∛(6) - 1/6 - 1) = (∛(6) - 1/5)."
     },
     {
       "id": "f3",
@@ -64,14 +64,14 @@
       "title": "x + 1/x = k Complete Ladder of Powers",
       "category": "Power Ladders",
       "formula": "x² + 1/x² = k² - 2, x³ + 1/x³ = k³ - 3k, x⁴ + 1/x⁴ = (k² - 2)² - 2",
-      "desc": "For power 5: x⁵ + 1/x⁵ = (x² + 1/x²)(x³ + 1/x³) - (x + 1/x). For power 7: x⁷ + 1/x⁷ = (x³ + 1/x³)(x⁴ + 1/x⁴) - (x + 1/x)."
+      "desc": "For power 5: x⁵ + 1/x⁵ = (x² + 1/x²(x³ + 1/x³ - (x + 1/x). For power 7: x⁷ + 1/x⁷ = (x³ + 1/x³(x⁴ + 1/x⁴) - (x + 1/x)."
     },
     {
       "id": "f10",
       "title": "x - 1/x = k Complete Ladder of Powers",
       "category": "Power Ladders",
       "formula": "x² + 1/x² = k² + 2, x³ - 1/x³ = k³ + 3k",
-      "desc": "For power 5: x⁵ - 1/x⁵ = (x² + 1/x²)(x³ - 1/x³) + (x - 1/x). For power 7: x⁷ - 1/x⁷ = (x³ - 1/x³)(x⁴ + 1/x⁴) + (x - 1/x)."
+      "desc": "For power 5: x⁵ - 1/x⁵ = (x² + 1/x²(x³ - 1/x³ + (x - 1/x). For power 7: x⁷ - 1/x⁷ = (x³ - 1/x³(x⁴ + 1/x⁴) + (x - 1/x)."
     },
     {
       "id": "f11",
@@ -116,7 +116,7 @@
         "10400"
       ],
       "answer": "10402",
-      "solution": "Given x - 1/x = 10.\nStep 1: Square both sides:\n\n(x - 1/x)² = 10² ⟹ x² + 1/x² - 2 = 100 ⟹ x² + 1/x² = 102\n\nStep 2: Square again to reach power 4:\n\n(x² + 1/x²)² = 102² ⟹ x⁴ + 1/x⁴ + 2 = 10404 ⟹ x⁴ + 1/x⁴ = 10404 - 2 = 10402.",
+      "solution": "Given x - 1/x = 10.\nStep 1: Square both sides:\n\n(x - 1/x)² = 10² ⟹ x² + 1/x² - 2 = 100 ⟹ x² + 1/x² = 102\n\nStep 2: Square again to reach power 4:\n\n(x² + 1/x²² = 102² ⟹ x⁴ + 1/x⁴ + 2 = 10404 ⟹ x⁴ + 1/x⁴ = 10404 - 2 = 10402.",
       "trick": "Maestro's 2-Step Square Rule: k² + 2 = 10² + 2 = 102. Next step: 102² - 2 = 10404 - 2 = 10402. Solved in 5 seconds!"
     },
     {
@@ -132,15 +132,15 @@
         "726√2"
       ],
       "answer": "717√2",
-      "solution": "Step 1: Reduce from power 4 to power 2:\n\nx² + 1/x² = √254 + 2 = √256 = 16\n\nStep 2: Reduce from power 2 to power 1:\n\nx + 1/x = √16 + 2 = √18 = 3√2\n\nStep 3: Calculate power 3:\n\nx³ + 1/x³ = (3√2)³ - 3(3√2) = 54√2 - 9√2 = 45√2\n\nStep 4: Combine using the Power 5 Formula:\n\nx⁵ + 1/x⁵ = (x² + 1/x²)(x³ + 1/x³) - (x + 1/x)\n\n\n= 16 × 45√2 - 3√2 = 720√2 - 3√2 = 717√2.",
-      "trick": "Reverse root ladder: 254 ⟹ √256 = 16 ⟹ √18 = 3√2. Then (16)(45√2) - 3√2 = 720√2 - 3√2 = 717√2."
+      "solution": "Step 1: Reduce from power 4 to power 2:\n\nx² + 1/x² = √(254 + 2) = √256 = 16\n\nStep 2: Reduce from power 2 to power 1:\n\nx + 1/x = √(16 + 2) = √18 = 3√2\n\nStep 3: Calculate power 3:\n\nx³ + 1/x³ = (3√2³ - 3(3√2 = 54√2 - 9√2 = 45√2\n\nStep 4: Combine using the Power 5 Formula:\n\nx⁵ + 1/x⁵ = (x² + 1/x²(x³ + 1/x³ - (x + 1/x)\n\n\n= 16 × 45√2 - 3√2 = 720√2 - 3√2 = 717√2.",
+      "trick": "Reverse root ladder: 254 ⟹ √256 = 16 ⟹ √18 = 3√2. Then (16)(45√2 - 3√2 = 720√2 - 3√2 = 717√2."
     },
     {
       "id": "alg_03",
       "type": "Type 1: x ± 1/x Powers & Transformations",
       "exam": "SSC CGL 2023 Pre",
       "page": 46,
-      "question": "If (x² + 1/x²) = 7 and 0 < x < 1, find the value of x² - 1/x².",
+      "question": "If (x² + 1/x² = 7 and 0 < x < 1, find the value of x² - 1/x².",
       "options": [
         "3√5",
         "4√3",
@@ -148,8 +148,8 @@
         "-3√5"
       ],
       "answer": "-3√5",
-      "solution": "Step 1: Find x + 1/x:\n\nx + 1/x = √7 + 2 = 3\n\nStep 2: Find x - 1/x. Since 0 < x < 1, x < 1/x, so x - 1/x must be negative:\n\nx - 1/x = -√7 - 2 = -√5\n\nStep 3: Calculate x² - 1/x²:\n\nx² - 1/x² = (x + 1/x)(x - 1/x) = 3 × (-√5) = -3√5.",
-      "trick": "Watch the constraint 0 < x < 1! It forces x - 1/x < 0. Therefore, (x+1/x)(x-1/x) = 3(-√5) = -3√5."
+      "solution": "Step 1: Find x + 1/x:\n\nx + 1/x = √(7 + 2) = 3\n\nStep 2: Find x - 1/x. Since 0 < x < 1, x < 1/x, so x - 1/x must be negative:\n\nx - 1/x = -√(7 - 2) = -√5\n\nStep 3: Calculate x² - 1/x²:\n\nx² - 1/x² = (x + 1/x)(x - 1/x) = 3 × (-√5 = -3√5.",
+      "trick": "Watch the constraint 0 < x < 1! It forces x - 1/x < 0. Therefore, (x+1/x)(x-1/x) = 3(-√5 = -3√5."
     },
     {
       "id": "alg_04",
@@ -164,7 +164,7 @@
         "-8892"
       ],
       "answer": "-8898",
-      "solution": "Given x - 1/x = -6.\nStep 1: Find x² + 1/x² = (-6)² + 2 = 36 + 2 = 38.\nStep 2: Find x³ - 1/x³ = (-6)³ + 3(-6) = -216 - 18 = -234.\nStep 3: Power 5 difference formula:\n\nx⁵ - 1/x⁵ = (x² + 1/x²)(x³ - 1/x³) + (x - 1/x)\n\n\n= 38 × (-234) + (-6) = -8892 - 6 = -8898.",
+      "solution": "Given x - 1/x = -6.\nStep 1: Find x² + 1/x² = (-6)² + 2 = 36 + 2 = 38.\nStep 2: Find x³ - 1/x³ = (-6)³ + 3(-6) = -216 - 18 = -234.\nStep 3: Power 5 difference formula:\n\nx⁵ - 1/x⁵ = (x² + 1/x²(x³ - 1/x³ + (x - 1/x)\n\n\n= 38 × (-234) + (-6) = -8892 - 6 = -8898.",
       "trick": "Maestro's Power 5 Difference formula: (x²+1/x²)(x³-1/x³) + (x-1/x) = 38(-234) - 6 = -8892 - 6 = -8898."
     },
     {
@@ -196,7 +196,7 @@
         "60725√21"
       ],
       "answer": "60605√21",
-      "solution": "Factorize x⁸ - 1/x⁸ = (x⁴ + 1/x⁴)(x² + 1/x²)(x + 1/x)(x - 1/x).\nStep 1: Given x + 1/x = 5.\nSince x > 1, x - 1/x = √5² - 4 = √21.\nStep 2: x² + 1/x² = 5² - 2 = 23.\nStep 3: x⁴ + 1/x⁴ = 23² - 2 = 529 - 2 = 527.\nStep 4: Multiply all factors:\n\nx⁸ - 1/x⁸ = 527 × 23 × 5 × √21\n\n\n= 527 × 115 × √21 = 60605√21.",
+      "solution": "Factorize x⁸ - 1/x⁸ = (x⁴ + 1/x⁴)(x² + 1/x²(x + 1/x)(x - 1/x).\nStep 1: Given x + 1/x = 5.\nSince x > 1, x - 1/x = √(5² - 4) = √21.\nStep 2: x² + 1/x² = 5² - 2 = 23.\nStep 3: x⁴ + 1/x⁴ = 23² - 2 = 529 - 2 = 527.\nStep 4: Multiply all factors:\n\nx⁸ - 1/x⁸ = 527 × 23 × 5 × √21\n\n\n= 527 × 115 × √21 = 60605√21.",
       "trick": "Continuous Difference of Squares: x⁸ - 1/x⁸ = (x⁴ + 1/x⁴)(x² + 1/x²)(x + 1/x)(x - 1/x) = 527 × 23 × 5 × √21 = 60605√21."
     },
     {
@@ -252,7 +252,7 @@
       "type": "Type 1: x ± 1/x Powers & Transformations",
       "exam": "SSC CGL 2022 Pre",
       "page": 53,
-      "question": "If (x - 1/x)² = 12, what is the value of (x² - 1/x²), given that x > 0?",
+      "question": "If (x - 1/x)² = 12, what is the value of (x² - 1/x², given that x > 0?",
       "options": [
         "6√2",
         "8√3",
@@ -261,7 +261,7 @@
       ],
       "answer": "6√3",
       "solution": "Given (x - 1/x)² = 12 ⟹ x - 1/x = √12 = 2√3 (since x > 1 or positive).\nStep 1: Find x + 1/x:\n\n(x + 1/x)² = (x - 1/x)² + 4 = 12 + 4 = 16 ⟹ x + 1/x = 4\n\nStep 2: Calculate x² - 1/x²:\n\nx² - 1/x² = (x + 1/x)(x - 1/x) = 4 × 2√3 = 8√3 or 6√3?\n\nWait: if x² + 1/x² = 14 ⟹ (x+1/x)² = 16 ⟹ x+1/x = 4. If x - 1/x = √12 = 2√3 ⟹ 4 × 2√3 = 8√3.\nWait, on Slide 53, Vishesh Shukla marked option (b) 8√3!",
-      "trick": "Maestro's 4ab identity: (x+1/x) = √12 + 4 = 4. Then (x+1/x)(x-1/x) = 4 × √12 = 4(2√3) = 8√3."
+      "trick": "Maestro's 4ab identity: (x+1/x) = √(12 + 4) = 4. Then (x+1/x)(x-1/x) = 4 × √12 = 4(2√3 = 8√3."
     },
     {
       "id": "alg_11",
@@ -284,7 +284,7 @@
       "type": "Type 1: x ± 1/x Powers & Transformations",
       "exam": "SSC CGL 2021 Pre",
       "page": 55,
-      "question": "If x = 4 + √15, what is the value of (x² + 1/x²)?",
+      "question": "If x = 4 + √15, what is the value of (x² + 1/x²?",
       "options": [
         "48",
         "54",
@@ -292,7 +292,7 @@
         "62"
       ],
       "answer": "62",
-      "solution": "Given x = 4 + √15.\nCheck 4² - (√15)² = 16 - 15 = 1. Since the difference of squares is 1, the reciprocal is simply the conjugate:\n\n1/x = 4 - √15\n\nStep 1: Add both:\n\nx + 1/x = (4 + √15) + (4 - √15) = 8\n\nStep 2: Square:\n\nx² + 1/x² = 8² - 2 = 64 - 2 = 62.",
+      "solution": "Given x = 4 + √15.\nCheck 4² - (√15² = 16 - 15 = 1. Since the difference of squares is 1, the reciprocal is simply the conjugate:\n\n1/x = 4 - √15\n\nStep 1: Add both:\n\nx + 1/x = (4 + √15 + (4 - √15 = 8\n\nStep 2: Square:\n\nx² + 1/x² = 8² - 2 = 64 - 2 = 62.",
       "trick": "Maestro's Conjugate Shortcut: When a² - b = 1, x + 1/x = 2 × first term = 2(4) = 8. Then x² + 1/x² = 8² - 2 = 62 in 3 seconds!"
     },
     {
@@ -308,7 +308,7 @@
         "162"
       ],
       "answer": "140",
-      "solution": "Divide x⁴ - 34x² + 1 = 0 by x²:\n\nx² + 1/x² = 34\n\nStep 1: Find x - 1/x:\n\nx - 1/x = √34 - 2 = √32 = 4√2 or x + 1/x = √36 = 6\n\nIf x + 1/x = 6, then x - 1/x = √6² - 4 = √32.\nWait, if the question asks for x³ - 1/x³ or x³ + 1/x³:\nIf x + 1/x = 6 ⟹ x³ + 1/x³ = 6³ - 3(6) = 216 - 18 = 198.\nOn Slide 56, options: (a) 12, (b) 14, (c) 18, (d) 16 for x² - x⁻² or similar!\nNotice (x² - 1/x²) = (x+1/x)(x-1/x) = ... On slide 56, Vishesh Shukla marked 14 or 12.",
+      "solution": "Divide x⁴ - 34x² + 1 = 0 by x²:\n\nx² + 1/x² = 34\n\nStep 1: Find x - 1/x:\n\nx - 1/x = √(34 - 2) = √32 = 4√2 or x + 1/x = √36 = 6\n\nIf x + 1/x = 6, then x - 1/x = √(6² - 4) = √32.\nWait, if the question asks for x³ - 1/x³ or x³ + 1/x³:\nIf x + 1/x = 6 ⟹ x³ + 1/x³ = 6³ - 3(6) = 216 - 18 = 198.\nOn Slide 56, options: (a) 12, (b) 14, (c) 18, (d) 16 for x² - x⁻² or similar!\nNotice (x² - 1/x²) = (x+1/x)(x-1/x) = ... On slide 56, Vishesh Shukla marked 14 or 12.",
       "trick": "Direct quadratic division: x² + 1/x² = 34. Then (x - 1/x) = √32, and powers reduce predictably."
     },
     {
@@ -332,7 +332,7 @@
       "type": "Type 1: x ± 1/x Powers & Transformations",
       "exam": "SSC CGL 2020 Pre",
       "page": 58,
-      "question": "If √x - {1}{√x} = √7, then the value of x² + 1/x² is:",
+      "question": "If √(x) - (1/√(x) = √7, then the value of x² + 1/x² is:",
       "options": [
         "60",
         "75",
@@ -340,8 +340,8 @@
         "79"
       ],
       "answer": "79",
-      "solution": "Given √x - {1}{√x} = √7.\nStep 1: Square to reach x + 1/x:\n\nx + 1/x = (√7)² + 2 = 7 + 2 = 9\n\nStep 2: Square again to reach x² + 1/x²:\n\nx² + 1/x² = 9² - 2 = 81 - 2 = 79.",
-      "trick": "2-Step Ladder: (√7)² + 2 = 9. Then 9² - 2 = 79. Done in 4 seconds!"
+      "solution": "Given √(x) - (1/√(x) = √7.\nStep 1: Square to reach x + 1/x:\n\nx + 1/x = (√7² + 2 = 7 + 2 = 9\n\nStep 2: Square again to reach x² + 1/x²:\n\nx² + 1/x² = 9² - 2 = 81 - 2 = 79.",
+      "trick": "2-Step Ladder: (√7² + 2 = 9. Then 9² - 2 = 79. Done in 4 seconds!"
     },
     {
       "id": "alg_16",
@@ -356,7 +356,7 @@
         "612√5"
       ],
       "answer": "406√5",
-      "solution": "Divide by x:\n\nx + 1/x = 2√5\n\nStep 1: x² + 1/x² = (2√5)² - 2 = 20 - 2 = 18.\nStep 2: x³ + 1/x³ = (2√5)³ - 3(2√5) = 40√5 - 6√5 = 34√5.\nStep 3: Combine for power 5:\n\nx⁵ + 1/x⁵ = (x² + 1/x²)(x³ + 1/x³) - (x + 1/x)\n\n\n= 18 × 34√5 - 2√5 = 612√5 - 2√5 = ?\n\nWait, 18 × 34 = 612 - 2 = 610√5? Wait, if x² + 1/x² = 18 and x³ + 1/x³ = (2√5)[20 - 3] = 34√5, then 18 × 34 - 2 = 610√5. On slide 59 Vishesh Shukla marked 610√5 (or 406√5 if k = √5).",
+      "solution": "Divide by x:\n\nx + 1/x = 2√5\n\nStep 1: x² + 1/x² = (2√5² - 2 = 20 - 2 = 18.\nStep 2: x³ + 1/x³ = (2√5³ - 3(2√5 = 40√5 - 6√5 = 34√5.\nStep 3: Combine for power 5:\n\nx⁵ + 1/x⁵ = (x² + 1/x²(x³ + 1/x³ - (x + 1/x)\n\n\n= 18 × 34√5 - 2√5 = 612√5 - 2√5 = ?\n\nWait, 18 × 34 = 612 - 2 = 610√5? Wait, if x² + 1/x² = 18 and x³ + 1/x³ = (2√5[20 - 3] = 34√5, then 18 × 34 - 2 = 610√5. On slide 59 Vishesh Shukla marked 610√5 (or 406√5 if k = √5.",
       "trick": "Power 5 combination: (x²+1/x²)(x³+1/x³) - (x+1/x)."
     },
     {
@@ -388,15 +388,15 @@
         "8 1/3"
       ],
       "answer": "8 1/3",
-      "solution": "Target is (5x)² + 1/6x)².\nDivide given equation 30x² - 15x + 1 = 0 by 6x:\n\n5x - 15/6 + 1/6x = 0 ⟹ 5x + 1/6x = 5/2\n\nSquare both sides:\n\n(5x + 1/6x)² = 25x² + (1/36x²) + 2(5x)1/6x)\n\n\n5/2)² = 25x² + (1/36x²) + 5/3\n\n\n25x² + (1/36x²) = 25/4 - 5/3 = (75 - 20/12) = 55/12 ...\n\nWait, on Slide 61, Vishesh Shukla divided by 6x and calculated the exact fractional option.",
-      "trick": "Divide by 6x to produce the exact target linear terms (5x + 1/6x). Square and subtract 2 × 5 × 1/6."
+      "solution": "Target is (5x)² + 1/(6x)².\nDivide given equation 30x² - 15x + 1 = 0 by 6x:\n\n5x - 15/6 + 1/6x = 0 ⟹ 5x + 1/6x = 5/2\n\nSquare both sides:\n\n(5x + 1/(6x)² = 25x² + (1/36x²) + 2(5x)1/(6x)\n\n\n5/2)² = 25x² + (1/36x²) + 5/3\n\n\n25x² + (1/36x²) = 25/4 - 5/3 = (75 - 20/12) = 55/12 ...\n\nWait, on Slide 61, Vishesh Shukla divided by 6x and calculated the exact fractional option.",
+      "trick": "Divide by 6x to produce the exact target linear terms (5x + 1/(6x). Square and subtract 2 × 5 × 1/6."
     },
     {
       "id": "alg_19",
       "type": "Type 1: x ± 1/x Powers & Transformations",
       "exam": "SSC CPO 2024 Pre",
       "page": 62,
-      "question": "If x + 1/x = -2, then find the value of (x¹⁷ + {1}{x¹⁷})(x¹² - {1}{x¹²}).",
+      "question": "If x + 1/x = -2, then find the value of (x¹⁷ + (1)(x¹⁷)(x¹² - (1)(x¹²).",
       "options": [
         "-15",
         "15",
@@ -404,7 +404,7 @@
         "0"
       ],
       "answer": "0",
-      "solution": "Maestro's Golden Rule: Whenever x + 1/x = -2 ⟹ x = -1.\nSubstitute x = -1:\nTerm 1: x¹⁷ + {1}{x¹⁷} = (-1)¹⁷ + {1}{(-1)¹⁷} = -1 - 1 = -2.\nTerm 2: x¹² - {1}{x¹²} = (-1)¹² - {1}{(-1)¹²} = 1 - 1 = 0.\nProduct = (-2) × 0 = 0!",
+      "solution": "Maestro's Golden Rule: Whenever x + 1/x = -2 ⟹ x = -1.\nSubstitute x = -1:\nTerm 1: x¹⁷ + (1)(x¹⁷) = (-1)¹⁷ + (1)(-1)¹⁷) = -1 - 1 = -2.\nTerm 2: x¹² - (1)(x¹²) = (-1)¹² - (1)(-1)¹²) = 1 - 1 = 0.\nProduct = (-2) × 0 = 0!",
       "trick": "When x + 1/x = -2 ⟹ x = -1. Any even power minus its reciprocal is 1 - 1 = 0. Multiplying anything by 0 gives 0 immediately!"
     },
     {
@@ -420,7 +420,7 @@
         "15"
       ],
       "answer": "11",
-      "solution": "Let u = 2x. The equation is u⁴ + 1/u⁴ = 14159.\nStep 1: Add 2 and take square root:\n\nu² + (1/u²) = √14159 + 2 = √14161 = 119\n\nStep 2: Add 2 and take square root again:\n\nu + 1/u = √119 + 2 = √121 = 11\n\nSince u = 2x, 2x + 1/2x = 11.",
+      "solution": "Let u = 2x. The equation is u⁴ + 1/u⁴ = 14159.\nStep 1: Add 2 and take square root:\n\nu² + (1/u²) = √(14159 + 2) = √14161 = 119\n\nStep 2: Add 2 and take square root again:\n\nu + 1/u = √(119 + 2) = √121 = 11\n\nSince u = 2x, 2x + 1/2x = 11.",
       "trick": "Reverse root ladder: 14159 ➔ (+2) ➔ √14161 = 119 ➔ (+2) ➔ √121 = 11. Done in 5 seconds!"
     },
     {
@@ -684,7 +684,7 @@
       "type": "Type 3: Sum of Squares & Symmetric Systems",
       "exam": "SSC CGL Mains 2018",
       "page": 82,
-      "question": "If a²+b²+c² + 96 = 8(a+b-2c), then √ab - bc + ca is equal to:",
+      "question": "If a²+b²+c² + 96 = 8(a+b-2c), then √(ab - bc + ca) is equal to:",
       "options": [
         "4",
         "2√3",
@@ -693,7 +693,7 @@
       ],
       "answer": "4",
       "solution": "Bring all terms to the left side:\n\n(a² - 8a) + (b² - 8b) + (c² + 16c) + 96 = 0\n\nComplete squares:\n\n(a - 4)² - 16 + (b - 4)² - 16 + (c + 8)² - 64 + 96 = 0\n\n\n(a - 4)² + (b - 4)² + (c + 8)² = 0\n\nSince sum of squares is 0:\n\na = 4, b = 4, c = -8\n\nCalculate ab - bc + ca:\n\nab - bc + ca = 4(4) - 4(-8) + (-8)(4) = 16 + 32 - 32 = 16\n\n\n√16 = 4.",
-      "trick": "Maestro's Vertex Shortcut: a = 8/2 = 4, b = 8/2 = 4, c = -16/2 = -8. Target = √16 + 32 - 32 = √16 = 4."
+      "trick": "Maestro's Vertex Shortcut: a = 8/2 = 4, b = 8/2 = 4, c = -16/2 = -8. Target = √(16 + 32 - 32) = √16 = 4."
     },
     {
       "id": "alg_38",
@@ -724,7 +724,7 @@
         "1"
       ],
       "answer": "√3",
-      "solution": "Rewrite as sum of perfect squares:\n\n(x² - 2√3x + 3) + (4y² - 2√3y + 3/4) + (3z² - 2√3z + 1) - 3 - 3/4 - 1 + 2 = 0\n\nOr use Maestro's Vertex Shortcut directly:\n\nx = {2√3}{2(1)} = √3\n\n\ny = {2√3}{2(4)} = {√3}{4}\n\n\nz = {2√3}{2(3)} = {1}{√3} = {√3}{3}\n\nNow evaluate x - 4y + 3z:\n\nx - 4y + 3z = √3 - 4({√3}{4}) + 3({√3}{3}) = √3 - √3 + √3 = √3.",
+      "solution": "Rewrite as sum of perfect squares:\n\n(x² - 2√3x + 3) + (4y² - 2√3y + 3/4) + (3z² - 2√3z + 1) - 3 - 3/4 - 1 + 2 = 0\n\nOr use Maestro's Vertex Shortcut directly:\n\nx = (2√3/2(1) = √3\n\n\ny = (2√3/2(4) = (√3/4)\n\n\nz = (2√3/2(3) = (1/√3 = (√3/3)\n\nNow evaluate x - 4y + 3z:\n\nx - 4y + 3z = √3 - 4(√3/4) + 3(√3/3) = √3 - √3 + √3 = √3.",
       "trick": "Maestro's Vertex Rule: x = √3, y = √3/4, z = √3/3. Then √3 - √3 + √3 = √3 directly!"
     },
     {
@@ -772,7 +772,7 @@
         "12"
       ],
       "answer": "12",
-      "solution": "Express as a³ - b³:\n\n(√5x)³ - (3√3y)³ = (√5x - 3√3y)[(√5x)² + (3√3y)² + (√5x)(3√3y)]\n\n\n= (√5x - 3√3y)[5x² + 27y² + 3√15xy]\n\nComparing with (Ax² + By² + Cxy):\n\nA = 5, B = 27, C = 3√15\n\nCalculate 6A + B - √15C:\n\n6(5) + 27 - √15(3√15) = 30 + 27 - 45 = 57 - 45 = 12.",
+      "solution": "Express as a³ - b³:\n\n(√5x)³ - (3√3y)³ = (√5x - 3√3y)[(√5x)² + (3√3y)² + (√5x)(3√3y)]\n\n\n= (√5x - 3√3y)[5x² + 27y² + 3√15xy]\n\nComparing with (Ax² + By² + Cxy):\n\nA = 5, B = 27, C = 3√15\n\nCalculate 6A + B - √15C:\n\n6(5) + 27 - √15(3√15 = 30 + 27 - 45 = 57 - 45 = 12.",
       "trick": "A = 5, B = 27, C = 3√15. Value = 30 + 27 - 3(15) = 57 - 45 = 12."
     },
     {
@@ -796,7 +796,7 @@
       "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
       "exam": "SSC CGL 2021 Pre",
       "page": 90,
-      "question": "If 6√6p³ + 2√2q³ = (√6p + √2q)(Sp² + Mq² - Npq), then the positive value of √S² + M² + 2N² is:",
+      "question": "If 6√6p³ + 2√2q³ = (√6p + √2q)(Sp² + Mq² - Npq), then the positive value of √(S² + M² + 2N²) is:",
       "options": [
         "10",
         "8",
@@ -804,8 +804,8 @@
         "12"
       ],
       "answer": "8",
-      "solution": "Express as a³ + b³:\n\n(√6p)³ + (√2q)³ = (√6p + √2q)[(√6p)² + (√2q)² - (√6p)(√2q)]\n\n\n= (√6p + √2q)[6p² + 2q² - √12pq]\n\nComparing with (Sp² + Mq² - Npq):\n\nS = 6, M = 2, N = √12 = 2√3\n\nCalculate √S² + M² + 2N²:\n\n√6² + 2² + 2(12) = √36 + 4 + 24 = √64 = 8.",
-      "trick": "S=6, M=2, N²=12. Value = √36 + 4 + 24 = √64 = 8."
+      "solution": "Express as a³ + b³:\n\n(√6p)³ + (√2q)³ = (√6p + √2q)[(√6p)² + (√2q)² - (√6p)(√2q)]\n\n\n= (√6p + √2q)[6p² + 2q² - √12pq]\n\nComparing with (Sp² + Mq² - Npq):\n\nS = 6, M = 2, N = √12 = 2√3\n\nCalculate √(S² + M² + 2N²):\n\n√(6² + 2² + 2(12) = √(36 + 4 + 24) = √64 = 8.",
+      "trick": "S=6, M=2, N²=12. Value = √(36 + 4 + 24) = √64 = 8."
     },
     {
       "id": "alg_45",
@@ -852,8 +852,8 @@
         "4 - √3"
       ],
       "answer": "4",
-      "solution": "Factorize 4√3x² + 5x - 2√3:\nProduct of coefficients = 4√3 × (-2√3) = -24.\nTwo numbers with product -24 and sum 5 are 8 and -3.\n\n4√3x² + 8x - 3x - 2√3 = 4x(√3x + 2) - √3(√3x + 2) = (4x - √3)(√3x + 2)\n\nComparing with (Ax + 2)(Bx + C):\n\n(Ax + 2) = (√3x + 2) ⟹ A = √3\n\n\n(Bx + C) = (4x - √3) ⟹ B = 4, C = -√3\n\nCalculate A + B + C:\n\nA + B + C = √3 + 4 + (-√3) = 4.",
-      "trick": "Factoring: (√3x + 2)(4x - √3). Here A = √3, B = 4, C = -√3. Sum = 4 immediately!"
+      "solution": "Factorize 4√3x² + 5x - 2√3:\nProduct of coefficients = 4√3 × (-2√3 = -24.\nTwo numbers with product -24 and sum 5 are 8 and -3.\n\n4√3x² + 8x - 3x - 2√3 = 4x(√3x + 2) - √3(√3x + 2) = (4x - √3(√3x + 2)\n\nComparing with (Ax + 2)(Bx + C):\n\n(Ax + 2) = (√3x + 2) ⟹ A = √3\n\n\n(Bx + C) = (4x - √3 ⟹ B = 4, C = -√3\n\nCalculate A + B + C:\n\nA + B + C = √3 + 4 + (-√3 = 4.",
+      "trick": "Factoring: (√3x + 2)(4x - √3. Here A = √3, B = 4, C = -√3. Sum = 4 immediately!"
     },
     {
       "id": "alg_48",
@@ -964,7 +964,7 @@
         "386"
       ],
       "answer": "344",
-      "solution": "Given x = √10 + √11 and y = √10 - √11.\nStep 1: Calculate x + y and xy:\n\nx + y = 2√10\n\n\nxy = (√10 + √11)(√10 - √11) = 10 - 11 = -1\n\nStep 2: Find x² + y²:\n\nx² + y² = (x+y)² - 2xy = (2√10)² - 2(-1) = 40 + 2 = 42\n\nStep 3: Evaluate 7x² - 50xy + 7y²:\n\n7(x² + y²) - 50xy = 7(42) - 50(-1) = 294 + 50 = 344.",
+      "solution": "Given x = √10 + √11 and y = √10 - √11.\nStep 1: Calculate x + y and xy:\n\nx + y = 2√10\n\n\nxy = (√10 + √11(√10 - √11 = 10 - 11 = -1\n\nStep 2: Find x² + y²:\n\nx² + y² = (x+y)² - 2xy = (2√10² - 2(-1) = 40 + 2 = 42\n\nStep 3: Evaluate 7x² - 50xy + 7y²:\n\n7(x² + y²) - 50xy = 7(42) - 50(-1) = 294 + 50 = 344.",
       "trick": "Sum of squares: x+y = 2√10 ⟹ x²+y² = 40 - 2(-1) = 42. Value = 7(42) + 50 = 294 + 50 = 344."
     }
   ]
