@@ -8,13 +8,14 @@
     <link rel="icon" type="image/png" href="icon-192.png">
     <link rel="apple-touch-icon" href="icon-192.png">
     <meta name="theme-color" content="#0B1120">
+
     <style>
         :root {
             --bg-color: #0B1120;
             --container-bg: #1E293B;
             --card-bg: #162032;
             --card-hover: #1c2a42;
-            --text-color: #E2E8F0;
+            --text-color: #F8FAFC;
             --text-muted: #94A3B8;
             --border-color: #334155;
             --accent-cyan: #06B6D4;
@@ -36,7 +37,7 @@
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             background-color: var(--bg-color);
             color: var(--text-color);
-            line-height: 1.5;
+            line-height: 1.6;
             min-height: 100vh;
             display: flex;
             flex-direction: column;
@@ -102,7 +103,7 @@
         }
 
         .badge-pro {
-            background: linear-gradient(135deg, #0284C7, #06B6D4);
+            background: linear-gradient(135deg, #D97706, #F59E0B);
             color: #fff;
             font-size: 0.65rem;
             padding: 2px 6px;
@@ -136,7 +137,7 @@
         .stat-item .num {
             font-size: 1.25rem;
             font-weight: 700;
-            color: var(--accent-cyan);
+            color: var(--accent-amber);
         }
 
         .stat-item .lbl {
@@ -205,7 +206,7 @@
         .formula-item {
             background: var(--card-bg);
             border: 1px solid rgba(255,255,255,0.06);
-            border-left: 3px solid var(--accent-cyan);
+            border-left: 3px solid var(--accent-amber);
             border-radius: 8px;
             padding: 12px;
         }
@@ -228,20 +229,21 @@
         }
 
         .formula-math {
-            font-family: "Courier New", Courier, monospace;
             background: rgba(0, 0, 0, 0.35);
-            padding: 6px 8px;
+            padding: 8px 10px;
             border-radius: 6px;
-            font-size: 0.85rem;
+            font-size: 0.92rem;
             color: #38BDF8;
-            margin: 6px 0;
-            word-break: break-all;
+            margin: 8px 0;
+            font-family: inherit;
+            line-height: 1.5;
+            word-break: break-word;
         }
 
         .formula-desc {
-            font-size: 0.75rem;
+            font-size: 0.78rem;
             color: var(--text-muted);
-            line-height: 1.4;
+            line-height: 1.5;
         }
 
         /* Search & Filters */
@@ -270,8 +272,8 @@
         }
 
         .search-box input:focus {
-            border-color: var(--accent-cyan);
-            box-shadow: 0 0 0 2px rgba(6, 182, 212, 0.2);
+            border-color: var(--accent-amber);
+            box-shadow: 0 0 0 2px rgba(245, 158, 11, 0.2);
         }
 
         .search-icon {
@@ -315,9 +317,9 @@
         }
 
         .tab-btn.active {
-            background: var(--accent-cyan);
+            background: var(--accent-amber);
             color: #0B1120;
-            border-color: var(--accent-cyan);
+            border-color: var(--accent-amber);
             font-weight: 700;
         }
 
@@ -332,37 +334,37 @@
             background: var(--container-bg);
             border: 1px solid var(--border-color);
             border-radius: 14px;
-            padding: 16px;
+            padding: 18px;
             transition: border-color 0.2s, box-shadow 0.2s;
             position: relative;
         }
 
         .q-card:hover {
-            border-color: rgba(56, 189, 248, 0.3);
+            border-color: rgba(245, 158, 11, 0.3);
         }
 
         .q-header {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            margin-bottom: 12px;
-            font-size: 0.75rem;
+            margin-bottom: 14px;
+            font-size: 0.78rem;
         }
 
         .q-tag-left {
             display: flex;
             align-items: center;
-            gap: 6px;
+            gap: 8px;
         }
 
         .q-num-badge {
             background: #0F172A;
             border: 1px solid var(--border-color);
-            color: var(--accent-cyan);
+            color: var(--accent-amber);
             padding: 3px 8px;
             border-radius: 6px;
             font-weight: 700;
-            font-size: 0.75rem;
+            font-size: 0.78rem;
         }
 
         .exam-tag {
@@ -379,7 +381,7 @@
             border: none;
             color: var(--text-muted);
             cursor: pointer;
-            font-size: 1.1rem;
+            font-size: 1.2rem;
             line-height: 1;
             padding: 2px 4px;
             transition: color 0.2s;
@@ -390,19 +392,20 @@
         }
 
         .q-text {
-            font-size: 0.95rem;
-            color: #F8FAFC;
-            line-height: 1.6;
-            margin-bottom: 16px;
+            font-size: 1.08rem;
+            color: #FFFFFF;
+            line-height: 1.7;
+            margin-bottom: 18px;
             font-weight: 500;
+            letter-spacing: 0.2px;
         }
 
-        /* Options */
+        /* Options Grid */
         .options-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 10px;
-            margin-bottom: 14px;
+            gap: 12px;
+            margin-bottom: 16px;
         }
 
         @media (max-width: 600px) {
@@ -415,39 +418,39 @@
             background: var(--card-bg);
             border: 1px solid var(--border-color);
             border-radius: 10px;
-            padding: 10px 14px;
+            padding: 12px 16px;
             color: var(--text-color);
-            font-size: 0.88rem;
+            font-size: 0.98rem;
             text-align: left;
             cursor: pointer;
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 12px;
             transition: all 0.2s;
             position: relative;
         }
 
         .opt-btn:hover:not(:disabled) {
             background: var(--card-hover);
-            border-color: var(--accent-cyan);
+            border-color: var(--accent-amber);
         }
 
         .opt-key {
             background: rgba(255, 255, 255, 0.06);
-            width: 24px;
-            height: 24px;
+            width: 26px;
+            height: 26px;
             display: inline-flex;
             align-items: center;
             justify-content: center;
             border-radius: 6px;
-            font-size: 0.75rem;
+            font-size: 0.78rem;
             font-weight: 700;
             color: var(--text-muted);
             flex-shrink: 0;
         }
 
         .opt-btn.correct {
-            background: rgba(16, 185, 129, 0.15) !important;
+            background: rgba(16, 185, 129, 0.18) !important;
             border-color: var(--accent-green) !important;
             color: #34D399 !important;
         }
@@ -458,7 +461,7 @@
         }
 
         .opt-btn.wrong {
-            background: rgba(239, 68, 68, 0.15) !important;
+            background: rgba(239, 68, 68, 0.18) !important;
             border-color: var(--accent-red) !important;
             color: #F87171 !important;
         }
@@ -470,7 +473,7 @@
 
         /* Solution & Topper Trick Panel */
         .solution-box {
-            margin-top: 12px;
+            margin-top: 14px;
             background: #0F172A;
             border: 1px solid var(--border-color);
             border-radius: 10px;
@@ -490,9 +493,9 @@
 
         .sol-header {
             background: rgba(255, 255, 255, 0.03);
-            padding: 8px 12px;
+            padding: 10px 14px;
             border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-            font-size: 0.75rem;
+            font-size: 0.8rem;
             font-weight: 700;
             color: var(--accent-cyan);
             display: flex;
@@ -501,23 +504,23 @@
         }
 
         .sol-body {
-            padding: 12px;
-            font-size: 0.85rem;
-            color: #CBD5E1;
-            line-height: 1.6;
+            padding: 14px;
+            font-size: 0.92rem;
+            color: #E2E8F0;
+            line-height: 1.8;
             white-space: pre-line;
         }
 
         .topper-trick-box {
-            margin-top: 10px;
+            margin-top: 12px;
             background: rgba(245, 158, 11, 0.08);
             border: 1px solid rgba(245, 158, 11, 0.25);
             border-radius: 8px;
-            padding: 10px 12px;
+            padding: 12px 14px;
         }
 
         .trick-header {
-            font-size: 0.75rem;
+            font-size: 0.82rem;
             font-weight: 700;
             color: var(--accent-amber);
             display: flex;
@@ -527,9 +530,9 @@
         }
 
         .trick-body {
-            font-size: 0.82rem;
+            font-size: 0.88rem;
             color: #FDE68A;
-            line-height: 1.5;
+            line-height: 1.6;
         }
 
         .toggle-sol-btn {
@@ -538,7 +541,7 @@
             color: var(--accent-blue);
             padding: 6px 12px;
             border-radius: 6px;
-            font-size: 0.78rem;
+            font-size: 0.8rem;
             font-weight: 600;
             cursor: pointer;
             display: inline-flex;
@@ -771,14 +774,12 @@
 
             function renderQuestions() {
                 let filtered = rawQuestions.filter(q => {
-                    // Category filter
                     if (currentFilter === "bookmarked") {
                         if (!userBookmarks[q.id]) return false;
                     } else if (currentFilter !== "all" && q.type !== currentFilter) {
                         return false;
                     }
 
-                    // Search query filter
                     if (searchQuery) {
                         const haystack = (q.question + " " + q.exam + " " + q.type + " " + (q.trick || "")).toLowerCase();
                         if (!haystack.includes(searchQuery)) return false;
@@ -814,7 +815,7 @@
                                 </button>
                             </div>
 
-                            <div class="q-text">${formatMathText(q.question)}</div>
+                            <div class="q-text">${escapeHtml(q.question)}</div>
 
                             <div class="options-grid">
                                 ${q.options.map((opt, optIdx) => {
@@ -831,7 +832,7 @@
                                     return `
                                         <button class="opt-btn ${btnClass}" data-qid="${q.id}" data-opt="${escapeHtml(opt)}" ${isAnswered ? 'disabled' : ''}>
                                             <span class="opt-key">${optKey}</span>
-                                            <span>${formatMathText(opt)}</span>
+                                            <span>${escapeHtml(opt)}</span>
                                         </button>
                                     `;
                                 }).join("")}
@@ -852,14 +853,14 @@
                                 <div class="sol-header">
                                     <span>📐</span> Verified Step-by-Step Proof
                                 </div>
-                                <div class="sol-body">${formatMathText(q.solution)}</div>
+                                <div class="sol-body">${escapeHtml(q.solution)}</div>
 
                                 ${q.trick ? `
                                     <div class="topper-trick-box">
                                         <div class="trick-header">
                                             <span>⚡</span> Maths Maestro 5-Sec Topper Trick:
                                         </div>
-                                        <div class="trick-body">${formatMathText(q.trick)}</div>
+                                        <div class="trick-body">${escapeHtml(q.trick)}</div>
                                     </div>
                                 ` : ''}
                             </div>
@@ -867,7 +868,6 @@
                     `;
                 }).join("");
 
-                // Event Listeners for dynamic items
                 // Option click
                 document.querySelectorAll(".opt-btn").forEach(btn => {
                     btn.addEventListener("click", function() {
@@ -881,11 +881,9 @@
                         updateStats();
                         renderQuestions();
 
-                        // Automatically open solution after answer
                         const sol = document.getElementById(`sol-${qid}`);
                         if (sol) sol.classList.add("open");
 
-                        // Gentle vibration on mobile
                         if (navigator.vibrate) {
                             const q = rawQuestions.find(item => item.id === qid);
                             if (q && selectedOpt === q.answer) {
@@ -932,33 +930,6 @@
                         }
                     });
                 });
-            }
-
-            function formatMathText(str) {
-                if (!str) return "";
-                // Replace simple LaTeX syntax for clean mobile rendering
-                return escapeHtml(str)
-                    .replace(/\left\(/g, "(")
-                    .replace(/\right\)/g, ")")
-                    .replace(/\left\[/g, "[")
-                    .replace(/\right\]/g, "]")
-                    .replace(/\frac\{([^}]+)\}\{([^}]+)\}/g, "$1/$2")
-                    .replace(/\sqrt\{([^}]+)\}/g, "√($1)")
-                    .replace(/\sqrt\[4\]\{([^}]+)\}/g, "∜($1)")
-                    .replace(/\sqrt\[3\]\{([^}]+)\}/g, "∛($1)")
-                    .replace(/\times/g, "×")
-                    .replace(/\div/g, "÷")
-                    .replace(/\implies/g, " ⟹ ")
-                    .replace(/\ne/g, " ≠ ")
-                    .replace(/\le/g, " ≤ ")
-                    .replace(/\ge/g, " ≥ ")
-                    .replace(/\dots/g, "...")
-                    .replace(/\quad/g, "  ")
-                    .replace(/\text\{([^}]+)\}/g, "$1")
-                    .replace(/\pm/g, "±")
-                    .replace(/\mp/g, "∓")
-                    .replace(/\$\$/g, "")
-                    .replace(/\$/g, "");
             }
 
             function escapeHtml(str) {
