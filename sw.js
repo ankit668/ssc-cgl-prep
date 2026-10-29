@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ssc-prep-tier2-v18';
+const CACHE_NAME = 'ssc-prep-tier2-v19';
 const urlsToCache = [
   './',
   './manifest.json',
@@ -9,6 +9,9 @@ const urlsToCache = [
   './xmp_set1.html',
   './xmp_set1_data.js',
   './xmp_set1_data.json',
+  './xmp_set2.html',
+  './xmp_set2_data.js',
+  './xmp_set2_data.json',
   './ai_mentor.js',
   './ai_mentor.css',
   './geometry.html',
