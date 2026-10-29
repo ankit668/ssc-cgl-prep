@@ -130,6 +130,10 @@ Guidelines:
         `;
         document.body.appendChild(root);
 
+        // Check for collisions with #fatman-fab or bottom bars
+        detectFabCollisions();
+        window.addEventListener("load", detectFabCollisions);
+
         // Bind Events
         bindUIEvents();
         renderHistory();
@@ -140,6 +144,14 @@ Guidelines:
         }
     }
 
+
+    function detectFabCollisions() {
+        const fatman = document.getElementById("fatman-fab");
+        const toggleBtn = document.getElementById("aim-float-toggle");
+        if (fatman && toggleBtn) {
+            toggleBtn.classList.add("aim-stacked");
+        }
+    }
     function bindUIEvents() {
         const toggleBtn = document.getElementById("aim-float-toggle");
         const drawer = document.getElementById("aim-drawer");
