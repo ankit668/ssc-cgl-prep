@@ -1,0 +1,554 @@
+/* ==========================================================================
+   AI MENTOR / DOUBT SOLVER - CSS STYLES
+   Designed for SSC CGL Prep (Maths Maestro & Tier 2 Hub)
+   Fully responsive, dark-mode glassmorphic theme.
+   ========================================================================== */
+
+:root {
+    --aim-bg: #0F172A;
+    --aim-surface: #1E293B;
+    --aim-card: #162032;
+    --aim-border: #334155;
+    --aim-border-focus: #38BDF8;
+    --aim-cyan: #06B6D4;
+    --aim-blue: #38BDF8;
+    --aim-green: #10B981;
+    --aim-red: #EF4444;
+    --aim-amber: #F59E0B;
+    --aim-purple: #A855F7;
+    --aim-text: #F8FAFC;
+    --aim-text-muted: #94A3B8;
+}
+
+/* Floating Trigger Button */
+.aim-float-btn {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 9990;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 18px;
+    background: linear-gradient(135deg, #0284C7 0%, #0D9488 100%);
+    color: #FFFFFF;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 999px;
+    font-family: inherit;
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 8px 24px -4px rgba(2, 132, 199, 0.45), 0 2px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    backdrop-filter: blur(8px);
+    -webkit-tap-highlight-color: transparent;
+}
+
+.aim-float-btn:hover {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 12px 28px -4px rgba(2, 132, 199, 0.6), 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.aim-float-btn:active {
+    transform: scale(0.97);
+}
+
+.aim-float-btn .aim-sparkle {
+    font-size: 1.15rem;
+    animation: aimPulse 2s infinite ease-in-out;
+}
+
+@keyframes aimPulse {
+    0%, 100% { transform: scale(1); filter: drop-shadow(0 0 2px rgba(255,255,255,0.6)); }
+    50% { transform: scale(1.15) rotate(5deg); filter: drop-shadow(0 0 6px #38BDF8); }
+}
+
+/* "Ask AI" button on individual Question Cards */
+.ask-ai-card-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background: rgba(14, 165, 233, 0.12);
+    color: var(--aim-blue);
+    border: 1px solid rgba(56, 189, 248, 0.35);
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.ask-ai-card-btn:hover {
+    background: rgba(14, 165, 233, 0.25);
+    border-color: var(--aim-blue);
+    transform: translateY(-1px);
+}
+
+.ask-ai-card-btn:active {
+    transform: scale(0.96);
+}
+
+/* Chat Drawer Container */
+.aim-drawer {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    width: 390px;
+    max-width: calc(100vw - 32px);
+    height: 580px;
+    max-height: calc(100vh - 48px);
+    background: var(--aim-surface);
+    border: 1px solid var(--aim-border);
+    border-radius: 18px;
+    z-index: 9999;
+    box-shadow: 0 20px 45px -10px rgba(0, 0, 0, 0.65), 0 0 0 1px rgba(255, 255, 255, 0.05);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(20px) scale(0.96);
+    transition: opacity 0.25s ease, transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--aim-text);
+}
+
+.aim-drawer.open {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0) scale(1);
+}
+
+/* Header */
+.aim-header {
+    background: rgba(15, 23, 42, 0.95);
+    border-bottom: 1px solid var(--aim-border);
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.aim-header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.aim-avatar {
+    width: 34px;
+    height: 34px;
+    background: linear-gradient(135deg, #0284C7, #0D9488);
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    box-shadow: 0 2px 8px rgba(6, 182, 212, 0.35);
+}
+
+.aim-title-group h3 {
+    font-size: 0.92rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.aim-title-group .aim-status-badge {
+    font-size: 0.72rem;
+    color: var(--aim-cyan);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 500;
+}
+
+.aim-status-badge::before {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: var(--aim-green);
+    border-radius: 50%;
+    box-shadow: 0 0 6px var(--aim-green);
+}
+
+.aim-header-actions {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.aim-icon-btn {
+    background: transparent;
+    border: none;
+    color: var(--aim-text-muted);
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.15s ease;
+}
+
+.aim-icon-btn:hover {
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--aim-text);
+}
+
+/* Quick Prompt Chips */
+.aim-chips-bar {
+    padding: 8px 12px;
+    background: #0B1120;
+    border-bottom: 1px solid rgba(51, 65, 85, 0.5);
+    display: flex;
+    gap: 6px;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+}
+
+.aim-chips-bar::-webkit-scrollbar {
+    display: none;
+}
+
+.aim-chip {
+    background: rgba(30, 41, 59, 0.85);
+    color: var(--aim-text-muted);
+    border: 1px solid var(--aim-border);
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    flex-shrink: 0;
+}
+
+.aim-chip:hover {
+    background: rgba(56, 189, 248, 0.15);
+    border-color: var(--aim-blue);
+    color: var(--aim-blue);
+}
+
+/* Messages Area */
+.aim-messages {
+    flex: 1;
+    padding: 14px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background: var(--aim-surface);
+    scrollbar-width: thin;
+    scrollbar-color: var(--aim-border) transparent;
+}
+
+.aim-messages::-webkit-scrollbar {
+    width: 5px;
+}
+.aim-messages::-webkit-scrollbar-thumb {
+    background: var(--aim-border);
+    border-radius: 4px;
+}
+
+/* Message Bubbles */
+.aim-msg {
+    max-width: 88%;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    padding: 10px 13px;
+    border-radius: 12px;
+    word-break: break-word;
+    position: relative;
+    animation: aimFadeIn 0.2s ease;
+}
+
+@keyframes aimFadeIn {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.aim-msg.assistant {
+    align-self: flex-start;
+    background: var(--aim-card);
+    color: var(--aim-text);
+    border: 1px solid var(--aim-border);
+    border-top-left-radius: 3px;
+}
+
+.aim-msg.user {
+    align-self: flex-end;
+    background: linear-gradient(135deg, #0284C7, #0369A1);
+    color: #FFFFFF;
+    border-top-right-radius: 3px;
+}
+
+.aim-msg.system-info {
+    align-self: center;
+    background: rgba(51, 65, 85, 0.4);
+    border: 1px dashed var(--aim-border);
+    color: var(--aim-text-muted);
+    font-size: 0.76rem;
+    text-align: center;
+    max-width: 95%;
+}
+
+/* Bubble content styling */
+.aim-msg p {
+    margin: 0 0 6px 0;
+}
+.aim-msg p:last-child {
+    margin: 0;
+}
+.aim-msg strong {
+    color: #FFFFFF;
+    font-weight: 700;
+}
+.aim-msg code {
+    background: rgba(0, 0, 0, 0.35);
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 0.82rem;
+    color: var(--aim-cyan);
+}
+.aim-msg pre {
+    background: #0B1120;
+    padding: 8px 10px;
+    border-radius: 6px;
+    overflow-x: auto;
+    font-size: 0.8rem;
+    border: 1px solid var(--aim-border);
+    margin: 6px 0;
+}
+
+.aim-msg-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 6px;
+    padding-top: 6px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.aim-mini-btn {
+    background: transparent;
+    border: none;
+    color: var(--aim-text-muted);
+    font-size: 0.72rem;
+    cursor: pointer;
+    padding: 2px 6px;
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    transition: all 0.15s;
+}
+
+.aim-mini-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--aim-text);
+}
+
+/* Typing Indicator */
+.aim-typing-indicator {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 6px 10px;
+}
+.aim-dot {
+    width: 6px;
+    height: 6px;
+    background: var(--aim-cyan);
+    border-radius: 50%;
+    animation: aimWave 1.3s infinite ease-in-out;
+}
+.aim-dot:nth-child(2) { animation-delay: 0.2s; }
+.aim-dot:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes aimWave {
+    0%, 60%, 100% { transform: translateY(0); opacity: 0.4; }
+    30% { transform: translateY(-4px); opacity: 1; }
+}
+
+/* Input Area */
+.aim-input-area {
+    background: #0B1120;
+    border-top: 1px solid var(--aim-border);
+    padding: 10px 12px;
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+}
+
+.aim-textarea {
+    flex: 1;
+    background: #162032;
+    border: 1px solid var(--aim-border);
+    border-radius: 10px;
+    padding: 9px 12px;
+    font-family: inherit;
+    font-size: 0.85rem;
+    color: var(--aim-text);
+    resize: none;
+    max-height: 100px;
+    min-height: 38px;
+    line-height: 1.4;
+    outline: none;
+    transition: border-color 0.15s;
+}
+
+.aim-textarea:focus {
+    border-color: var(--aim-blue);
+}
+
+.aim-send-btn {
+    background: linear-gradient(135deg, #0284C7, #0D9488);
+    border: none;
+    color: #FFFFFF;
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1rem;
+    flex-shrink: 0;
+    transition: all 0.2s;
+}
+
+.aim-send-btn:hover:not(:disabled) {
+    transform: scale(1.05);
+}
+
+.aim-send-btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+/* Settings Modal (Overlay inside drawer) */
+.aim-settings-view {
+    position: absolute;
+    inset: 0;
+    background: rgba(15, 23, 42, 0.98);
+    z-index: 100;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: auto;
+}
+
+.aim-settings-view h4 {
+    margin: 0 0 10px 0;
+    font-size: 1.05rem;
+    color: #FFFFFF;
+}
+
+.aim-settings-view p {
+    font-size: 0.82rem;
+    color: var(--aim-text-muted);
+    line-height: 1.5;
+    margin-bottom: 14px;
+}
+
+.aim-settings-input-group {
+    margin-bottom: 16px;
+}
+
+.aim-settings-input-group label {
+    display: block;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--aim-blue);
+    margin-bottom: 6px;
+}
+
+.aim-settings-input {
+    width: 100%;
+    background: #0B1120;
+    border: 1px solid var(--aim-border);
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-family: monospace;
+    font-size: 0.85rem;
+    color: var(--aim-text);
+    outline: none;
+    box-sizing: border-box;
+}
+
+.aim-settings-input:focus {
+    border-color: var(--aim-blue);
+}
+
+.aim-guide-box {
+    background: rgba(6, 182, 212, 0.08);
+    border: 1px dashed rgba(6, 182, 212, 0.35);
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 0.76rem;
+    color: var(--aim-text-muted);
+    line-height: 1.4;
+    margin-bottom: 16px;
+}
+
+.aim-guide-box a {
+    color: var(--aim-cyan);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.aim-save-btn {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(135deg, #0284C7, #0D9488);
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 0.88rem;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.aim-save-btn:hover {
+    opacity: 0.95;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 640px) {
+    .aim-float-btn {
+        bottom: 16px;
+        right: 16px;
+        padding: 10px 15px;
+        font-size: 0.82rem;
+    }
+
+    .aim-drawer {
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100vw;
+        max-width: 100vw;
+        height: 82vh;
+        max-height: 85vh;
+        border-radius: 20px 20px 0 0;
+        border-bottom: none;
+        transform: translateY(100%);
+    }
+
+    .aim-drawer.open {
+        transform: translateY(0);
+    }
+}
