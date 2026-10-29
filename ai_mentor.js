@@ -37,6 +37,11 @@ Guidelines:
 
     let chatHistory = [];
     let currentQuestionContext = null;
+    try {
+        currentQuestionContext = JSON.parse(sessionStorage.getItem("ssc_ai_q_context_v1") || "null");
+    } catch (e) {
+        currentQuestionContext = null;
+    }
     let isGenerating = false;
 
     // Load History
@@ -403,6 +408,14 @@ Guidelines:
         const userText = textarea.value.trim();
         if (!userText || isGenerating) return;
 
+        // If user tapped a contextual chip but no question is attached yet, prompt them clearly
+        const isContextualChip = userText.includes("this question") || userText.includes("for this?");
+        if (isContextualChip && !currentQuestionContext) {
+            textarea.value = "";
+            addMessage("assistant", "👉 **Which question would you like to solve?**\n\nTap the **\"✨ Ask AI\"** button on any question card (e.g. Q1, Q2) to link it directly, or paste your question text right here!");
+            return;
+        }
+
         if (!apiKey) {
             showSettings(true);
             return;
@@ -439,19 +452,24 @@ Guidelines:
                               `\nUser Query: ${userText}`;
             }
 
-            // Include last 6 turns for conversational context
-            const recentHistory = chatHistory.slice(-6);
-            recentHistory.forEach(item => {
-                if (item.role === "user") {
-                    contents.push({ role: "user", parts: [{ text: item.text }] });
-                } else if (item.role === "assistant") {
-                    contents.push({ role: "model", parts: [{ text: item.text }] });
+            // Build strictly alternating conversation turns without past error messages
+            const validHistory = chatHistory.slice(0, -1).filter(item => {
+                const t = item.text || "";
+                return !t.startsWith("⚠️") && !t.startsWith("❌");
+            }).slice(-4);
+
+            validHistory.forEach(item => {
+                const role = item.role === "user" ? "user" : "model";
+                if (contents.length > 0 && contents[contents.length - 1].role === role) {
+                    contents[contents.length - 1].parts[0].text += "\n" + item.text;
+                } else {
+                    contents.push({ role: role, parts: [{ text: item.text }] });
                 }
             });
 
-            // If question context was attached, make sure latest prompt carries it
+            // Ensure current turn is strictly appended as user role
             if (contents.length > 0 && contents[contents.length - 1].role === "user") {
-                contents[contents.length - 1].parts[0].text = queryPrompt;
+                contents[contents.length - 1].parts[0].text += "\n" + queryPrompt;
             } else {
                 contents.push({ role: "user", parts: [{ text: queryPrompt }] });
             }
@@ -468,10 +486,10 @@ Guidelines:
     }
 
     const MODEL_CASCADE = [
+        "gemini-3.7-flash",
         "gemini-3.8-flash",
         "gemini-3.5-flash",
-        "gemini-3.1-flash-lite",
-        "gemini-2.5-flash"
+        "gemini-3.1-flash-lite"
     ];
 
     async function executeGenerateContent(queryPrompt, contents, typingNode, cascadeAttempt = 0) {
@@ -481,17 +499,39 @@ Guidelines:
             },
             contents: contents,
             generationConfig: {
-                temperature: 0.35,
-                maxOutputTokens: 1200
+                temperature: 0.3,
+                maxOutputTokens: 1200,
+                thinkingConfig: {
+                    thinkingBudget: 0
+                }
             }
         };
 
         const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${currentModel}:generateContent?key=${apiKey}`;
-        const response = await fetch(endpoint, {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(requestBody)
-        });
+        const abortCtrl = new AbortController();
+        const timeoutTimer = setTimeout(() => abortCtrl.abort(), 14000);
+
+        let response;
+        try {
+            response = await fetch(endpoint, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(requestBody),
+                signal: abortCtrl.signal
+            });
+        } catch (fetchErr) {
+            clearTimeout(timeoutTimer);
+            if (fetchErr.name === "AbortError" && cascadeAttempt < MODEL_CASCADE.length - 1) {
+                const nextModel = MODEL_CASCADE[cascadeAttempt + 1];
+                addMessage("system-info", `⚡ Request timed out on ${currentModel.replace('gemini-', '')}. Rerouting to ${nextModel.replace('gemini-', '')}...`);
+                currentModel = nextModel;
+                localStorage.setItem(STORAGE_MODEL, currentModel);
+                updateModelBadge();
+                return await executeGenerateContent(queryPrompt, contents, typingNode, cascadeAttempt + 1);
+            }
+            throw fetchErr;
+        }
+        clearTimeout(timeoutTimer);
 
         if (!response.ok) {
             const errData = await response.json().catch(() => ({}));
@@ -639,6 +679,9 @@ Guidelines:
             trick: qData.trick,
             userAttempt: userAttempt
         };
+        try {
+            sessionStorage.setItem("ssc_ai_q_context_v1", JSON.stringify(currentQuestionContext));
+        } catch (e) {}
 
         drawer.classList.add("open");
         showSettings(false);
