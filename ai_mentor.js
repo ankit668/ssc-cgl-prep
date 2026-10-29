@@ -15,7 +15,7 @@
     const STORAGE_MODEL = "ssc_ai_mentor_model_v1";
 
     // Defaults
-    const DEFAULT_MODEL = "gemini-1.5-flash";
+    const DEFAULT_MODEL = "gemini-2.5-flash";
     const SYSTEM_INSTRUCTION = `You are "Maestro AI", an elite SSC CGL Tier-1 & Tier-2 mentor and topper tutor, following Vishesh Shukla's Maths Maestro methodology.
 Your mission is to help SSC aspirants clear tricky doubts with maximum speed and clarity.
 Guidelines:
@@ -28,6 +28,13 @@ Guidelines:
     // State
     let apiKey = localStorage.getItem(STORAGE_KEY) || "";
     let currentModel = localStorage.getItem(STORAGE_MODEL) || DEFAULT_MODEL;
+
+    // Automatically migrate legacy retired models (like 1.5-flash) to modern active models
+    if (currentModel === "gemini-1.5-flash" || !currentModel) {
+        currentModel = DEFAULT_MODEL;
+        localStorage.setItem(STORAGE_MODEL, currentModel);
+    }
+
     let chatHistory = [];
     let currentQuestionContext = null;
     let isGenerating = false;
@@ -66,7 +73,7 @@ Guidelines:
                         <div class="aim-avatar">📐</div>
                         <div class="aim-title-group">
                             <h3>Maestro AI Mentor</h3>
-                            <span class="aim-status-badge">SSC Doubt Solver • ${currentModel.replace('gemini-', '')}</span>
+                            <span class="aim-status-badge" id="aim-model-badge">SSC Doubt Solver • ${escapeHtml(currentModel.replace('gemini-', ''))}</span>
                         </div>
                     </div>
                     <div class="aim-header-actions">
@@ -108,9 +115,11 @@ Guidelines:
                         <div class="aim-settings-input-group">
                             <label for="aim-model-select">AI Model</label>
                             <select id="aim-model-select" class="aim-settings-input" style="color:#FFF;">
-                                <option value="gemini-1.5-flash" ${currentModel === 'gemini-1.5-flash' ? 'selected' : ''}>Gemini 1.5 Flash (Ultra-fast, recommended)</option>
-                                <option value="gemini-2.0-flash" ${currentModel === 'gemini-2.0-flash' ? 'selected' : ''}>Gemini 2.0 Flash (Next-gen)</option>
+                                <option value="gemini-2.5-flash" ${currentModel === 'gemini-2.5-flash' ? 'selected' : ''}>Gemini 2.5 Flash (Ultra-fast, recommended)</option>
+                                <option value="gemini-2.0-flash" ${currentModel === 'gemini-2.0-flash' ? 'selected' : ''}>Gemini 2.0 Flash</option>
+                                <option value="gemini-3.5-flash" ${currentModel === 'gemini-3.5-flash' ? 'selected' : ''}>Gemini 3.5 Flash</option>
                             </select>
+                            <div id="aim-model-status" style="font-size:0.75rem; color:var(--aim-cyan); margin-top:4px;"></div>
                         </div>
 
                         <div class="aim-guide-box">
@@ -141,9 +150,11 @@ Guidelines:
         // If no API key, show welcome prompt in messages
         if (!apiKey) {
             renderWelcomeMessage();
+        } else {
+            // Auto-refresh model list in background
+            refreshAvailableModels(apiKey);
         }
     }
-
 
     function detectFabCollisions() {
         const fatman = document.getElementById("fatman-fab");
@@ -152,6 +163,7 @@ Guidelines:
             toggleBtn.classList.add("aim-stacked");
         }
     }
+
     function bindUIEvents() {
         const toggleBtn = document.getElementById("aim-float-toggle");
         const drawer = document.getElementById("aim-drawer");
@@ -194,15 +206,20 @@ Guidelines:
             const modelVal = document.getElementById("aim-model-select").value;
 
             apiKey = inputVal;
-            currentModel = modelVal;
+            currentModel = modelVal || DEFAULT_MODEL;
 
             localStorage.setItem(STORAGE_KEY, apiKey);
             localStorage.setItem(STORAGE_MODEL, currentModel);
 
+            updateModelBadge();
             showSettings(false);
             addMessage("system-info", `✅ Configuration saved! Model: ${currentModel}`);
             if (chatHistory.length === 0) {
                 renderWelcomeMessage();
+            }
+
+            if (apiKey) {
+                refreshAvailableModels(apiKey);
             }
         });
 
@@ -242,11 +259,69 @@ Guidelines:
         });
     }
 
+    function updateModelBadge() {
+        const badge = document.getElementById("aim-model-badge");
+        if (badge) {
+            badge.textContent = `SSC Doubt Solver • ${currentModel.replace('gemini-', '')}`;
+        }
+    }
+
+    async function refreshAvailableModels(key) {
+        if (!key) return;
+        try {
+            const resp = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?key=${key}`);
+            if (!resp.ok) return;
+            const data = await resp.json();
+            const models = data.models || [];
+
+            // Filter models supporting generateContent
+            const supported = models.filter(m =>
+                m.supportedGenerationMethods && m.supportedGenerationMethods.includes("generateContent")
+            );
+
+            if (supported.length > 0) {
+                const select = document.getElementById("aim-model-select");
+                if (select) {
+                    const flashModels = supported.filter(m => m.name.includes("flash"));
+                    const otherModels = supported.filter(m => !m.name.includes("flash") && m.name.includes("pro"));
+                    const allList = [...flashModels, ...otherModels];
+
+                    let html = "";
+                    allList.forEach(m => {
+                        const cleanName = m.name.replace("models/", "");
+                        const isSel = cleanName === currentModel ? "selected" : "";
+                        const displayName = m.displayName || cleanName;
+                        html += `<option value="${cleanName}" ${isSel}>${displayName} (${cleanName})</option>`;
+                    });
+
+                    select.innerHTML = html;
+
+                    // If currentModel is not supported in the user's account, pick the best one
+                    const hasCurrent = allList.some(m => m.name.replace("models/", "") === currentModel);
+                    if (!hasCurrent && allList.length > 0) {
+                        currentModel = allList[0].name.replace("models/", "");
+                        localStorage.setItem(STORAGE_MODEL, currentModel);
+                        select.value = currentModel;
+                        updateModelBadge();
+                    }
+
+                    const status = document.getElementById("aim-model-status");
+                    if (status) {
+                        status.textContent = `✓ Auto-synced ${allList.length} active models from your account.`;
+                    }
+                }
+            }
+        } catch (e) {
+            console.warn("Could not auto-sync model list", e);
+        }
+    }
+
     function showSettings(show) {
         const settingsView = document.getElementById("aim-settings-view");
         settingsView.style.display = show ? "flex" : "none";
         if (show) {
             document.getElementById("aim-key-input").focus();
+            if (apiKey) refreshAvailableModels(apiKey);
         }
     }
 
@@ -381,47 +456,7 @@ Guidelines:
                 contents.push({ role: "user", parts: [{ text: queryPrompt }] });
             }
 
-            const requestBody = {
-                systemInstruction: {
-                    parts: [{ text: SYSTEM_INSTRUCTION }]
-                },
-                contents: contents,
-                generationConfig: {
-                    temperature: 0.35,
-                    maxOutputTokens: 1200
-                }
-            };
-
-            const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${currentModel}:generateContent?key=${apiKey}`;
-            const response = await fetch(endpoint, {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify(requestBody)
-            });
-
-            removeTypingIndicator(typingNode);
-
-            if (!response.ok) {
-                const errData = await response.json().catch(() => ({}));
-                const errMsg = errData.error?.message || `HTTP ${response.status} error`;
-                if (response.status === 400 || response.status === 403) {
-                    addMessage("assistant", `❌ **API Key Error**: ${errMsg}\n\nPlease check your key in ⚙️ Settings.`);
-                } else if (response.status === 429) {
-                    addMessage("assistant", `⏳ **Rate Limit**: Free tier limit reached. Please wait 30 seconds and try again.`);
-                } else {
-                    addMessage("assistant", `⚠️ **Error**: ${errMsg}`);
-                }
-                return;
-            }
-
-            const data = await response.json();
-            const aiText = data.candidates?.[0]?.content?.parts?.[0]?.text;
-
-            if (aiText) {
-                addMessage("assistant", aiText);
-            } else {
-                addMessage("assistant", "No response generated. Please try rephrasing your question.");
-            }
+            await executeGenerateContent(queryPrompt, contents, typingNode, false);
 
         } catch (err) {
             removeTypingIndicator(typingNode);
@@ -429,6 +464,70 @@ Guidelines:
         } finally {
             isGenerating = false;
             setSendButtonState(false);
+        }
+    }
+
+    async function executeGenerateContent(queryPrompt, contents, typingNode, isRetry) {
+        const requestBody = {
+            systemInstruction: {
+                parts: [{ text: SYSTEM_INSTRUCTION }]
+            },
+            contents: contents,
+            generationConfig: {
+                temperature: 0.35,
+                maxOutputTokens: 1200
+            }
+        };
+
+        const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${currentModel}:generateContent?key=${apiKey}`;
+        const response = await fetch(endpoint, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(requestBody)
+        });
+
+        if (!response.ok) {
+            const errData = await response.json().catch(() => ({}));
+            const errMsg = errData.error?.message || `HTTP ${response.status} error`;
+
+            // Auto-heal if model was retired or not found
+            if (!isRetry && (errMsg.includes("not found for API version") || response.status === 404)) {
+                addMessage("system-info", `🔄 Model "${currentModel}" is retired or not found on this endpoint. Auto-discovering active models...`);
+                await refreshAvailableModels(apiKey);
+
+                // Try gemini-2.5-flash or gemini-2.0-flash
+                if (currentModel !== "gemini-2.5-flash") {
+                    currentModel = "gemini-2.5-flash";
+                } else {
+                    currentModel = "gemini-2.0-flash";
+                }
+                localStorage.setItem(STORAGE_MODEL, currentModel);
+                updateModelBadge();
+                addMessage("system-info", `⚡ Switched to active model: ${currentModel}. Retrying your question...`);
+                return await executeGenerateContent(queryPrompt, contents, typingNode, true);
+            }
+
+            removeTypingIndicator(typingNode);
+
+            if (response.status === 400 || response.status === 403) {
+                addMessage("assistant", `❌ **API Key Error**: ${errMsg}\n\nPlease check your key in ⚙️ Settings.`);
+            } else if (response.status === 429) {
+                addMessage("assistant", `⏳ **Rate Limit**: Free tier limit reached. Please wait 30 seconds and try again.`);
+            } else {
+                addMessage("assistant", `⚠️ **Error**: ${errMsg}`);
+            }
+            return;
+        }
+
+        removeTypingIndicator(typingNode);
+
+        const data = await response.json();
+        const aiText = data.candidates?.[0]?.content?.parts?.[0]?.text;
+
+        if (aiText) {
+            addMessage("assistant", aiText);
+        } else {
+            addMessage("assistant", "No response generated. Please try rephrasing your question.");
         }
     }
 

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ssc-prep-tier2-v13';
+const CACHE_NAME = 'ssc-prep-tier2-v14';
 const urlsToCache = [
   './',
   './manifest.json',
