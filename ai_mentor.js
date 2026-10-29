@@ -15,7 +15,7 @@
     const STORAGE_MODEL = "ssc_ai_mentor_model_v1";
 
     // Defaults
-    const DEFAULT_MODEL = "gemini-2.5-flash";
+    const DEFAULT_MODEL = "gemini-3.8-flash";
     const SYSTEM_INSTRUCTION = `You are "Maestro AI", an elite SSC CGL Tier-1 & Tier-2 mentor and topper tutor, following Vishesh Shukla's Maths Maestro methodology.
 Your mission is to help SSC aspirants clear tricky doubts with maximum speed and clarity.
 Guidelines:
@@ -29,8 +29,8 @@ Guidelines:
     let apiKey = localStorage.getItem(STORAGE_KEY) || "";
     let currentModel = localStorage.getItem(STORAGE_MODEL) || DEFAULT_MODEL;
 
-    // Automatically migrate legacy retired models (like 1.5-flash) to modern active models
-    if (currentModel === "gemini-1.5-flash" || !currentModel) {
+    // Automatically migrate legacy retired models to gemini-3.8-flash
+    if (!currentModel || currentModel.includes("1.5") || currentModel.includes("2.0") || currentModel.includes("2.5")) {
         currentModel = DEFAULT_MODEL;
         localStorage.setItem(STORAGE_MODEL, currentModel);
     }
@@ -115,9 +115,9 @@ Guidelines:
                         <div class="aim-settings-input-group">
                             <label for="aim-model-select">AI Model</label>
                             <select id="aim-model-select" class="aim-settings-input" style="color:#FFF;">
-                                <option value="gemini-2.5-flash" ${currentModel === 'gemini-2.5-flash' ? 'selected' : ''}>Gemini 2.5 Flash (Ultra-fast, recommended)</option>
-                                <option value="gemini-2.0-flash" ${currentModel === 'gemini-2.0-flash' ? 'selected' : ''}>Gemini 2.0 Flash</option>
+                                <option value="gemini-3.8-flash" ${currentModel === 'gemini-3.8-flash' ? 'selected' : ''}>Gemini 3.8 Flash (Ultra-fast & recommended)</option>
                                 <option value="gemini-3.5-flash" ${currentModel === 'gemini-3.5-flash' ? 'selected' : ''}>Gemini 3.5 Flash</option>
+                                <option value="gemini-3.1-flash-lite" ${currentModel === 'gemini-3.1-flash-lite' ? 'selected' : ''}>Gemini 3.1 Flash-Lite</option>
                             </select>
                             <div id="aim-model-status" style="font-size:0.75rem; color:var(--aim-cyan); margin-top:4px;"></div>
                         </div>
@@ -490,20 +490,22 @@ Guidelines:
             const errData = await response.json().catch(() => ({}));
             const errMsg = errData.error?.message || `HTTP ${response.status} error`;
 
-            // Auto-heal if model was retired or not found
-            if (!isRetry && (errMsg.includes("not found for API version") || response.status === 404)) {
-                addMessage("system-info", `🔄 Model "${currentModel}" is retired or not found on this endpoint. Auto-discovering active models...`);
-                await refreshAvailableModels(apiKey);
-
-                // Try gemini-2.5-flash or gemini-2.0-flash
-                if (currentModel !== "gemini-2.5-flash") {
-                    currentModel = "gemini-2.5-flash";
-                } else {
-                    currentModel = "gemini-2.0-flash";
+            // Auto-heal if model was retired, deprecated or not found
+            if (!isRetry && (
+                errMsg.includes("no longer available") ||
+                errMsg.includes("not found") ||
+                errMsg.includes("not supported") ||
+                response.status === 404
+            )) {
+                const match = errMsg.match(/use models\/([a-zA-Z0-9.\-_]+)/i);
+                let targetModel = "gemini-3.8-flash";
+                if (match && match[1]) {
+                    targetModel = match[1].replace("models/", "");
                 }
+                currentModel = targetModel;
                 localStorage.setItem(STORAGE_MODEL, currentModel);
                 updateModelBadge();
-                addMessage("system-info", `⚡ Switched to active model: ${currentModel}. Retrying your question...`);
+                addMessage("system-info", `⚡ Auto-switched to active model: ${currentModel}. Retrying your question...`);
                 return await executeGenerateContent(queryPrompt, contents, typingNode, true);
             }
 
