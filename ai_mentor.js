@@ -456,7 +456,7 @@ Guidelines:
                 contents.push({ role: "user", parts: [{ text: queryPrompt }] });
             }
 
-            await executeGenerateContent(queryPrompt, contents, typingNode, false);
+            await executeGenerateContent(queryPrompt, contents, typingNode, 0);
 
         } catch (err) {
             removeTypingIndicator(typingNode);
@@ -467,7 +467,14 @@ Guidelines:
         }
     }
 
-    async function executeGenerateContent(queryPrompt, contents, typingNode, isRetry) {
+    const MODEL_CASCADE = [
+        "gemini-3.8-flash",
+        "gemini-3.5-flash",
+        "gemini-3.1-flash-lite",
+        "gemini-2.5-flash"
+    ];
+
+    async function executeGenerateContent(queryPrompt, contents, typingNode, cascadeAttempt = 0) {
         const requestBody = {
             systemInstruction: {
                 parts: [{ text: SYSTEM_INSTRUCTION }]
@@ -490,23 +497,39 @@ Guidelines:
             const errData = await response.json().catch(() => ({}));
             const errMsg = errData.error?.message || `HTTP ${response.status} error`;
 
-            // Auto-heal if model was retired, deprecated or not found
-            if (!isRetry && (
-                errMsg.includes("no longer available") ||
-                errMsg.includes("not found") ||
-                errMsg.includes("not supported") ||
-                response.status === 404
-            )) {
+            // 1. High Demand / 503 Traffic Overload Failover
+            const isHighDemand = response.status === 503 ||
+                                 errMsg.includes("high demand") ||
+                                 errMsg.includes("overloaded") ||
+                                 errMsg.includes("Spikes in demand");
+
+            if (isHighDemand && cascadeAttempt < MODEL_CASCADE.length - 1) {
+                const nextModel = MODEL_CASCADE[cascadeAttempt + 1];
+                addMessage("system-info", `⏳ Model "${currentModel.replace('gemini-', '')}" is at peak capacity. Seamlessly switching to ${nextModel.replace('gemini-', '')}...`);
+                currentModel = nextModel;
+                localStorage.setItem(STORAGE_MODEL, currentModel);
+                updateModelBadge();
+                await new Promise(r => setTimeout(r, 700));
+                return await executeGenerateContent(queryPrompt, contents, typingNode, cascadeAttempt + 1);
+            }
+
+            // 2. Retired / Deprecated Model Auto-Migration
+            const isRetired = errMsg.includes("no longer available") ||
+                              errMsg.includes("not found") ||
+                              errMsg.includes("not supported") ||
+                              response.status === 404;
+
+            if (isRetired && cascadeAttempt < MODEL_CASCADE.length - 1) {
                 const match = errMsg.match(/use models\/([a-zA-Z0-9.\-_]+)/i);
-                let targetModel = "gemini-3.8-flash";
+                let targetModel = MODEL_CASCADE[cascadeAttempt + 1];
                 if (match && match[1]) {
                     targetModel = match[1].replace("models/", "");
                 }
                 currentModel = targetModel;
                 localStorage.setItem(STORAGE_MODEL, currentModel);
                 updateModelBadge();
-                addMessage("system-info", `⚡ Auto-switched to active model: ${currentModel}. Retrying your question...`);
-                return await executeGenerateContent(queryPrompt, contents, typingNode, true);
+                addMessage("system-info", `⚡ Auto-switched to active model: ${currentModel}. Retrying...`);
+                return await executeGenerateContent(queryPrompt, contents, typingNode, cascadeAttempt + 1);
             }
 
             removeTypingIndicator(typingNode);
@@ -515,6 +538,8 @@ Guidelines:
                 addMessage("assistant", `❌ **API Key Error**: ${errMsg}\n\nPlease check your key in ⚙️ Settings.`);
             } else if (response.status === 429) {
                 addMessage("assistant", `⏳ **Rate Limit**: Free tier limit reached. Please wait 30 seconds and try again.`);
+            } else if (isHighDemand) {
+                addMessage("assistant", `⏳ **Server Peak Traffic**: Google's servers are currently experiencing global traffic spikes on all free tier Flash models. Please wait 1-2 minutes and tap again!`);
             } else {
                 addMessage("assistant", `⚠️ **Error**: ${errMsg}`);
             }
