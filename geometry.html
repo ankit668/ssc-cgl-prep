@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Geometry Master Hub • 40 PYQs (Maths Maestro)</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="icon-192.png">
+    <link rel="apple-touch-icon" href="icon-192.png">
+    <meta name="theme-color" content="#0B1120">
+
+    <style>
+        :root {
+            --bg-color: #0B1120;
+            --container-bg: #1E293B;
+            --card-bg: #162032;
+            --card-hover: #1c2a42;
+            --text-color: #F8FAFC;
+            --text-muted: #94A3B8;
+            --border-color: #334155;
+            --accent-cyan: #06B6D4;
+            --accent-blue: #38BDF8;
+            --accent-green: #10B981;
+            --accent-red: #EF4444;
+            --accent-amber: #F59E0B;
+            --accent-purple: #A855F7;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background-color: rgba(30, 41, 59, 0.95);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            padding: 12px 16px;
+        }
+
+        .header-inner {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+        }
+
+        .brand-area {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .back-btn {
+            background: #0F172A;
+            border: 1px solid var(--border-color);
+            color: var(--accent-blue);
+            padding: 8px 12px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.85rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s;
+        }
+
+        .back-btn:hover {
+            background: #1e293b;
+            border-color: var(--accent-blue);
+        }
+
+        .title-block h1 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #F8FAFC;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .title-block p {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        .badge-pro {
+            background: linear-gradient(135deg, #0284C7, #06B6D4);
+            color: #fff;
+            font-size: 0.65rem;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 16px;
+            width: 100%;
+            flex: 1;
+        }
+
+        /* Stats Bar */
+        .stats-bar {
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 12px 16px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 8px;
+            margin-bottom: 16px;
+            text-align: center;
+        }
+
+        .stat-item .num {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--accent-cyan);
+        }
+
+        .stat-item .lbl {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Formulas Accordion */
+        .formula-card-section {
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+
+        .formula-header {
+            padding: 14px 16px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            user-select: none;
+            background: rgba(15, 23, 42, 0.6);
+            transition: background 0.2s;
+        }
+
+        .formula-header:hover {
+            background: rgba(15, 23, 42, 0.9);
+        }
+
+        .formula-title {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--accent-cyan);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .formula-toggle-icon {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            transition: transform 0.2s;
+        }
+
+        .formula-content {
+            display: none;
+            padding: 16px;
+            border-top: 1px solid var(--border-color);
+            background: #0f172a;
+        }
+
+        .formula-content.open {
+            display: block;
+        }
+
+        .formula-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 12px;
+        }
+
+        .formula-item {
+            background: var(--card-bg);
+            border: 1px solid rgba(255,255,255,0.06);
+            border-left: 3px solid var(--accent-cyan);
+            border-radius: 8px;
+            padding: 12px;
+        }
+
+        .formula-item h4 {
+            font-size: 0.85rem;
+            color: #F8FAFC;
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .formula-item .cat-pill {
+            font-size: 0.65rem;
+            color: var(--accent-blue);
+            background: rgba(56, 189, 248, 0.1);
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+
+        .formula-math {
+            background: rgba(0, 0, 0, 0.35);
+            padding: 8px 10px;
+            border-radius: 6px;
+            font-size: 0.92rem;
+            color: #38BDF8;
+            margin: 8px 0;
+            font-family: inherit;
+            line-height: 1.5;
+            word-break: break-word;
+        }
+
+        .formula-desc {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+        }
+
+        /* Search & Filters */
+        .controls-area {
+            margin-bottom: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .search-box {
+            position: relative;
+            width: 100%;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 12px 14px 12px 38px;
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            color: var(--text-color);
+            font-size: 0.9rem;
+            outline: none;
+            transition: all 0.2s;
+        }
+
+        .search-box input:focus {
+            border-color: var(--accent-cyan);
+            box-shadow: 0 0 0 2px rgba(6, 182, 212, 0.2);
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            pointer-events: none;
+        }
+
+        .filter-tabs {
+            display: flex;
+            gap: 8px;
+            overflow-x: auto;
+            padding-bottom: 4px;
+            scrollbar-width: none;
+        }
+
+        .filter-tabs::-webkit-scrollbar {
+            display: none;
+        }
+
+        .tab-btn {
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-muted);
+            padding: 8px 14px;
+            border-radius: 8px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            white-space: nowrap;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .tab-btn:hover {
+            border-color: var(--accent-blue);
+            color: var(--text-color);
+        }
+
+        .tab-btn.active {
+            background: var(--accent-cyan);
+            color: #0B1120;
+            border-color: var(--accent-cyan);
+            font-weight: 700;
+        }
+
+        /* Question Cards */
+        .questions-container {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .q-card {
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 14px;
+            padding: 18px;
+            transition: border-color 0.2s, box-shadow 0.2s;
+            position: relative;
+        }
+
+        .q-card:hover {
+            border-color: rgba(6, 182, 212, 0.3);
+        }
+
+        .q-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 14px;
+            font-size: 0.78rem;
+        }
+
+        .q-tag-left {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .q-num-badge {
+            background: #0F172A;
+            border: 1px solid var(--border-color);
+            color: var(--accent-cyan);
+            padding: 3px 8px;
+            border-radius: 6px;
+            font-weight: 700;
+            font-size: 0.78rem;
+        }
+
+        .exam-tag {
+            color: var(--text-muted);
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            padding: 3px 8px;
+            border-radius: 6px;
+            font-weight: 600;
+        }
+
+        .bookmark-btn {
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            cursor: pointer;
+            font-size: 1.2rem;
+            line-height: 1;
+            padding: 2px 4px;
+            transition: color 0.2s;
+        }
+
+        .bookmark-btn.bookmarked {
+            color: var(--accent-amber);
+        }
+
+        .q-text {
+            font-size: 1.08rem;
+            color: #FFFFFF;
+            line-height: 1.7;
+            margin-bottom: 18px;
+            font-weight: 500;
+            letter-spacing: 0.2px;
+        }
+
+        /* Options Grid */
+        .options-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        @media (max-width: 600px) {
+            .options-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .opt-btn {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 12px 16px;
+            color: var(--text-color);
+            font-size: 0.98rem;
+            text-align: left;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            transition: all 0.2s;
+            position: relative;
+        }
+
+        .opt-btn:hover:not(:disabled) {
+            background: var(--card-hover);
+            border-color: var(--accent-cyan);
+        }
+
+        .opt-key {
+            background: rgba(255, 255, 255, 0.06);
+            width: 26px;
+            height: 26px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 6px;
+            font-size: 0.78rem;
+            font-weight: 700;
+            color: var(--text-muted);
+            flex-shrink: 0;
+        }
+
+        .opt-btn.correct {
+            background: rgba(16, 185, 129, 0.18) !important;
+            border-color: var(--accent-green) !important;
+            color: #34D399 !important;
+        }
+
+        .opt-btn.correct .opt-key {
+            background: var(--accent-green);
+            color: #064E3B;
+        }
+
+        .opt-btn.wrong {
+            background: rgba(239, 68, 68, 0.18) !important;
+            border-color: var(--accent-red) !important;
+            color: #F87171 !important;
+        }
+
+        .opt-btn.wrong .opt-key {
+            background: var(--accent-red);
+            color: #7F1D1D;
+        }
+
+        /* Solution & Topper Trick Panel */
+        .solution-box {
+            margin-top: 14px;
+            background: #0F172A;
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            overflow: hidden;
+            display: none;
+        }
+
+        .solution-box.open {
+            display: block;
+            animation: fadeIn 0.25s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-4px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .sol-header {
+            background: rgba(255, 255, 255, 0.03);
+            padding: 10px 14px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: var(--accent-cyan);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .sol-body {
+            padding: 14px;
+            font-size: 0.92rem;
+            color: #E2E8F0;
+            line-height: 1.8;
+            white-space: pre-line;
+        }
+
+        .topper-trick-box {
+            margin-top: 12px;
+            background: rgba(6, 182, 212, 0.08);
+            border: 1px solid rgba(6, 182, 212, 0.25);
+            border-radius: 8px;
+            padding: 12px 14px;
+        }
+
+        .trick-header {
+            font-size: 0.82rem;
+            font-weight: 700;
+            color: var(--accent-cyan);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin-bottom: 4px;
+        }
+
+        .trick-body {
+            font-size: 0.88rem;
+            color: #A5F3FC;
+            line-height: 1.6;
+        }
+
+        .toggle-sol-btn {
+            background: none;
+            border: 1px dashed var(--border-color);
+            color: var(--accent-blue);
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s;
+        }
+
+        .toggle-sol-btn:hover {
+            border-color: var(--accent-blue);
+            background: rgba(56, 189, 248, 0.08);
+        }
+
+        /* Footer */
+        footer {
+            border-top: 1px solid var(--border-color);
+            padding: 16px;
+            text-align: center;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-top: 24px;
+        }
+
+        .reset-btn {
+            background: transparent;
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            color: var(--accent-red);
+            font-size: 0.75rem;
+            padding: 4px 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-top: 8px;
+            transition: all 0.2s;
+        }
+
+        .reset-btn:hover {
+            background: rgba(239, 68, 68, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <div class="brand-area">
+                <a href="index.html" class="back-btn" title="Back to Dashboard">← Home</a>
+                <div class="title-block">
+                    <h1>Geometry Master Hub <span class="badge-pro">Maths Maestro</span></h1>
+                    <p>40 Solved PYQs (CGL, CPO, CHSL) • 16 Golden Formulas</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Stats Summary -->
+        <section class="stats-bar">
+            <div class="stat-item">
+                <div class="num" id="stat-total">40</div>
+                <div class="lbl">Questions</div>
+            </div>
+            <div class="stat-item">
+                <div class="num" id="stat-attempted" style="color: var(--accent-blue);">0</div>
+                <div class="lbl">Attempted</div>
+            </div>
+            <div class="stat-item">
+                <div class="num" id="stat-accuracy" style="color: var(--accent-green);">0%</div>
+                <div class="lbl">Accuracy</div>
+            </div>
+            <div class="stat-item">
+                <div class="num" id="stat-bookmarks" style="color: var(--accent-amber);">0</div>
+                <div class="lbl">Bookmarked</div>
+            </div>
+        </section>
+
+        <!-- Formulas Accordion -->
+        <section class="formula-card-section">
+            <div class="formula-header" id="formula-toggle">
+                <div class="formula-title">
+                    <span>⚡</span> 16 Golden Geometry Formulas & Topper Shortcuts
+                </div>
+                <div class="formula-toggle-icon" id="formula-chevron">▼ Click to Expand</div>
+            </div>
+            <div class="formula-content" id="formula-panel">
+                <div class="formula-grid" id="formula-container">
+                    <!-- Formulas populated dynamically -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Search & Filter Controls -->
+        <div class="controls-area">
+            <div class="search-box">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="search-input" placeholder="Search by question, theorem, center, chord, tangent or exam year (e.g. Incenter, Apollonius, Cyclic Quad, CGL 2024)...">
+            </div>
+
+            <div class="filter-tabs">
+                <button class="tab-btn active" data-filter="all">All (40)</button>
+                <button class="tab-btn" data-filter="Type 1: Lines & Angles">Type 1: Lines & Angles (8)</button>
+                <button class="tab-btn" data-filter="Type 2: Similarity & Bisectors">Type 2: Similarity & Bisectors (6)</button>
+                <button class="tab-btn" data-filter="Type 3: Centers of Triangles">Type 3: Centers of Triangles (10)</button>
+                <button class="tab-btn" data-filter="Type 4: Special Triangles">Type 4: Special Triangles (6)</button>
+                <button class="tab-btn" data-filter="Type 5: Circles & Tangents">Type 5: Circles & Tangents (10)</button>
+                <button class="tab-btn" data-filter="bookmarked">⭐ Bookmarked</button>
+            </div>
+        </div>
+
+        <!-- Question List -->
+        <div class="questions-container" id="questions-list">
+            <!-- Questions rendered via JS -->
+        </div>
+
+        <footer>
+            <p>Designed for SSC CGL 2024–2025 Tier 1 & Tier 2 Aspirants • Maths Maestro (Vishesh Shukla)</p>
+            <button class="reset-btn" id="reset-progress-btn">Reset All Answers & Progress</button>
+        </footer>
+    </main>
+
+    <!-- Load Local JS Dataset for Instant Offline Rendering -->
+    <script src="geometry_data.js"></script>
+    <script>
+        (function() {
+            // Local Storage Keys
+            const STORAGE_ATTEMPTS = "ssc_geom_attempts_v1";
+            const STORAGE_BOOKMARKS = "ssc_geom_bookmarks_v1";
+
+            let userAttempts = JSON.parse(localStorage.getItem(STORAGE_ATTEMPTS) || "{}");
+            let userBookmarks = JSON.parse(localStorage.getItem(STORAGE_BOOKMARKS) || "{}");
+
+            let currentFilter = "all";
+            let searchQuery = "";
+
+            const rawQuestions = window.GEOMETRY_DATA || [];
+            const rawFormulas = window.GEOMETRY_FORMULAS || [];
+
+            // DOM Elements
+            const formulaToggle = document.getElementById("formula-toggle");
+            const formulaPanel = document.getElementById("formula-panel");
+            const formulaChevron = document.getElementById("formula-chevron");
+            const formulaContainer = document.getElementById("formula-container");
+
+            const searchInput = document.getElementById("search-input");
+            const tabButtons = document.querySelectorAll(".tab-btn");
+            const questionsList = document.getElementById("questions-list");
+
+            const statTotal = document.getElementById("stat-total");
+            const statAttempted = document.getElementById("stat-attempted");
+            const statAccuracy = document.getElementById("stat-accuracy");
+            const statBookmarks = document.getElementById("stat-bookmarks");
+            const resetBtn = document.getElementById("reset-progress-btn");
+
+            // Initialize
+            init();
+
+            function init() {
+                renderFormulas();
+                renderQuestions();
+                updateStats();
+                bindEvents();
+            }
+
+            function bindEvents() {
+                // Formula Toggle
+                formulaToggle.addEventListener("click", () => {
+                    const isOpen = formulaPanel.classList.toggle("open");
+                    formulaChevron.textContent = isOpen ? "▲ Click to Collapse" : "▼ Click to Expand";
+                });
+
+                // Search Input
+                searchInput.addEventListener("input", (e) => {
+                    searchQuery = e.target.value.toLowerCase().trim();
+                    renderQuestions();
+                });
+
+                // Filter Tabs
+                tabButtons.forEach(btn => {
+                    btn.addEventListener("click", () => {
+                        tabButtons.forEach(b => b.classList.remove("active"));
+                        btn.classList.add("active");
+                        currentFilter = btn.getAttribute("data-filter");
+                        renderQuestions();
+                    });
+                });
+
+                // Reset Progress
+                resetBtn.addEventListener("click", () => {
+                    if (confirm("Reset all attempted answers and saved score for Geometry?")) {
+                        userAttempts = {};
+                        localStorage.removeItem(STORAGE_ATTEMPTS);
+                        renderQuestions();
+                        updateStats();
+                    }
+                });
+            }
+
+            function renderFormulas() {
+                formulaContainer.innerHTML = rawFormulas.map(f => `
+                    <div class="formula-item">
+                        <h4>
+                            <span>${escapeHtml(f.title)}</span>
+                            <span class="cat-pill">${escapeHtml(f.category)}</span>
+                        </h4>
+                        <div class="formula-math">${escapeHtml(f.formula)}</div>
+                        <div class="formula-desc">${escapeHtml(f.desc)}</div>
+                    </div>
+                `).join("");
+            }
+
+            function updateStats() {
+                const total = rawQuestions.length;
+                const attemptedKeys = Object.keys(userAttempts);
+                const attemptedCount = attemptedKeys.length;
+                let correctCount = 0;
+
+                attemptedKeys.forEach(qid => {
+                    const q = rawQuestions.find(item => item.id === qid);
+                    if (q && userAttempts[qid] === q.answer) {
+                        correctCount++;
+                    }
+                });
+
+                const accuracy = attemptedCount > 0 ? Math.round((correctCount / attemptedCount) * 100) : 0;
+                const bookmarkCount = Object.values(userBookmarks).filter(Boolean).length;
+
+                statTotal.textContent = total;
+                statAttempted.textContent = attemptedCount;
+                statAccuracy.textContent = accuracy + "%";
+                statBookmarks.textContent = bookmarkCount;
+            }
+
+            function renderQuestions() {
+                let filtered = rawQuestions.filter(q => {
+                    if (currentFilter === "bookmarked") {
+                        if (!userBookmarks[q.id]) return false;
+                    } else if (currentFilter !== "all" && q.type !== currentFilter) {
+                        return false;
+                    }
+
+                    if (searchQuery) {
+                        const haystack = (q.question + " " + q.exam + " " + q.type + " " + (q.trick || "")).toLowerCase();
+                        if (!haystack.includes(searchQuery)) return false;
+                    }
+
+                    return true;
+                });
+
+                if (filtered.length === 0) {
+                    questionsList.innerHTML = `
+                        <div style="text-align:center; padding: 40px; color: var(--text-muted); background: var(--container-bg); border-radius: 12px; border: 1px dashed var(--border-color);">
+                            <div style="font-size: 2rem; margin-bottom: 8px;">🔍</div>
+                            <p>No questions found matching your filter/search.</p>
+                        </div>
+                    `;
+                    return;
+                }
+
+                questionsList.innerHTML = filtered.map(q => {
+                    const isBookmarked = !!userBookmarks[q.id];
+                    const chosenAns = userAttempts[q.id];
+                    const isAnswered = chosenAns !== undefined;
+
+                    return `
+                        <div class="q-card" id="card-${q.id}">
+                            <div class="q-header">
+                                <div class="q-tag-left">
+                                    <span class="q-num-badge">Q${q.id.replace('geom_', '')}</span>
+                                    <span class="exam-tag">${escapeHtml(q.exam)}</span>
+                                </div>
+                                <button class="bookmark-btn ${isBookmarked ? 'bookmarked' : ''}" data-id="${q.id}" title="${isBookmarked ? 'Remove Bookmark' : 'Bookmark Question'}">
+                                    ${isBookmarked ? '★' : '☆'}
+                                </button>
+                            </div>
+
+                            <div class="q-text">${escapeHtml(q.question)}</div>
+
+                            <div class="options-grid">
+                                ${q.options.map((opt, optIdx) => {
+                                    const optKey = ['A', 'B', 'C', 'D'][optIdx];
+                                    let btnClass = "";
+                                    if (isAnswered) {
+                                        if (opt === q.answer) {
+                                            btnClass = "correct";
+                                        } else if (opt === chosenAns) {
+                                            btnClass = "wrong";
+                                        }
+                                    }
+
+                                    return `
+                                        <button class="opt-btn ${btnClass}" data-qid="${q.id}" data-opt="${escapeHtml(opt)}" ${isAnswered ? 'disabled' : ''}>
+                                            <span class="opt-key">${optKey}</span>
+                                            <span>${escapeHtml(opt)}</span>
+                                        </button>
+                                    `;
+                                }).join("")}
+                            </div>
+
+                            <div style="display:flex; justify-content:space-between; align-items:center; margin-top:8px;">
+                                <button class="toggle-sol-btn" data-qid="${q.id}">
+                                    <span>👁️ View Solution & Topper Trick</span>
+                                </button>
+                                ${isAnswered ? `
+                                    <span style="font-size:0.75rem; color:${chosenAns === q.answer ? 'var(--accent-green)' : 'var(--accent-red)'}; font-weight:700;">
+                                        ${chosenAns === q.answer ? '✓ Correct Answer' : '✗ Incorrect Attempt'}
+                                    </span>
+                                ` : ''}
+                            </div>
+
+                            <div class="solution-box" id="sol-${q.id}">
+                                <div class="sol-header">
+                                    <span>📐</span> Verified Step-by-Step Proof
+                                </div>
+                                <div class="sol-body">${escapeHtml(q.solution)}</div>
+
+                                ${q.trick ? `
+                                    <div class="topper-trick-box">
+                                        <div class="trick-header">
+                                            <span>⚡</span> Maths Maestro 5-Sec Topper Trick:
+                                        </div>
+                                        <div class="trick-body">${escapeHtml(q.trick)}</div>
+                                    </div>
+                                ` : ''}
+                            </div>
+                        </div>
+                    `;
+                }).join("");
+
+                // Option click
+                document.querySelectorAll(".opt-btn").forEach(btn => {
+                    btn.addEventListener("click", function() {
+                        const qid = this.getAttribute("data-qid");
+                        const selectedOpt = this.getAttribute("data-opt");
+                        if (userAttempts[qid] !== undefined) return;
+
+                        userAttempts[qid] = selectedOpt;
+                        localStorage.setItem(STORAGE_ATTEMPTS, JSON.stringify(userAttempts));
+
+                        updateStats();
+                        renderQuestions();
+
+                        const sol = document.getElementById(`sol-${qid}`);
+                        if (sol) sol.classList.add("open");
+
+                        if (navigator.vibrate) {
+                            const q = rawQuestions.find(item => item.id === qid);
+                            if (q && selectedOpt === q.answer) {
+                                navigator.vibrate(40);
+                            } else {
+                                navigator.vibrate([60, 50, 60]);
+                            }
+                        }
+                    });
+                });
+
+                // Solution toggle
+                document.querySelectorAll(".toggle-sol-btn").forEach(btn => {
+                    btn.addEventListener("click", function() {
+                        const qid = this.getAttribute("data-qid");
+                        const sol = document.getElementById(`sol-${qid}`);
+                        if (sol) {
+                            const isOpen = sol.classList.toggle("open");
+                            this.querySelector("span").textContent = isOpen ? "Hide Solution" : "👁️ View Solution & Topper Trick";
+                        }
+                    });
+                });
+
+                // Bookmark toggle
+                document.querySelectorAll(".bookmark-btn").forEach(btn => {
+                    btn.addEventListener("click", function(e) {
+                        e.stopPropagation();
+                        const qid = this.getAttribute("data-id");
+                        userBookmarks[qid] = !userBookmarks[qid];
+                        localStorage.setItem(STORAGE_BOOKMARKS, JSON.stringify(userBookmarks));
+                        updateStats();
+
+                        if (userBookmarks[qid]) {
+                            this.classList.add("bookmarked");
+                            this.textContent = "★";
+                            this.title = "Remove Bookmark";
+                        } else {
+                            this.classList.remove("bookmarked");
+                            this.textContent = "☆";
+                            this.title = "Bookmark Question";
+                            if (currentFilter === "bookmarked") {
+                                renderQuestions();
+                            }
+                        }
+                    });
+                });
+            }
+
+            function escapeHtml(str) {
+                if (!str) return "";
+                return String(str)
+                    .replace(/&/g, "&amp;")
+                    .replace(/</g, "&lt;")
+                    .replace(/>/g, "&gt;")
+                    .replace(/"/g, "&quot;")
+                    .replace(/'/g, "&#039;");
+            }
+        })();
+    </script>
+</body>
+</html>
