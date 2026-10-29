@@ -21,7 +21,7 @@ Your mission is to help SSC aspirants clear tricky doubts with maximum speed and
 Guidelines:
 1. Tone: Encouraging, analytical, concise, and focused on exam speed.
 2. Short-Tricks: Whenever relevant, highlight 5-10 second topper shortcuts (unit digit, digital sum, option elimination, symmetry, triplets).
-3. Math Typography: Use clean textbook typography (e.g. x² + 1/x², √3, 30°, πr²h) instead of raw LaTeX markup like \\frac or \\left.
+3. Math Typography: NEVER output raw LaTeX markup (strictly NO \frac, \text, \mathbf, \times, \left, or wrapping dollar signs like $...$). Write clean textbook math directly: e.g. 60/20, 20 mins, 60 km, 90 km/h, 90 + 90 = 180 km, x² + 1/x², √3, 30°. Keep solutions instantly readable for students.
 4. Explanations: Break down complex algebraic or geometric transitions step-by-step so anyone can understand.
 5. Traps: Point out common pitfalls where aspirants lose negative marks.`;
 
@@ -631,15 +631,122 @@ Guidelines:
         }
     }
 
+    function cleanLatex(str) {
+        if (!str) return "";
+        let s = str;
+
+        // 1. Fractions \frac{a}{b} -> (a / b)
+        for (let i = 0; i < 3; i++) {
+            s = s.replace(/\\frac\{([^{}]+)\}\{([^{}]+)\}/g, "($1 / $2)");
+        }
+
+        // 2. LaTeX text/font wrappers: \text{...}, \mathbf{...}, \mathrm{...}, \bm{...}
+        s = s.replace(/\\text\{([^{}]+)\}/g, "$1");
+        s = s.replace(/\\mathbf\{([^{}]+)\}/g, "**$1**");
+        s = s.replace(/\\mathrm\{([^{}]+)\}/g, "$1");
+        s = s.replace(/\\bm\{([^{}]+)\}/g, "**$1**");
+        s = s.replace(/\\underline\{([^{}]+)\}/g, "$1");
+
+        // 3. Operators & math symbols
+        s = s.replace(/\\times/g, "×");
+        s = s.replace(/\\div/g, "÷");
+        s = s.replace(/\\pm/g, "±");
+        s = s.replace(/\\cdot/g, "·");
+        s = s.replace(/\\sqrt\{([^{}]+)\}/g, "√($1)");
+        s = s.replace(/\\sqrt/g, "√");
+        s = s.replace(/\\circ/g, "°");
+        s = s.replace(/\\degree/g, "°");
+        s = s.replace(/\\le(q)?/g, "≤");
+        s = s.replace(/\\ge(q)?/g, "≥");
+        s = s.replace(/\\ne(q)?/g, "≠");
+        s = s.replace(/\\approx/g, "≈");
+        s = s.replace(/\\pi/g, "π");
+        s = s.replace(/\\theta/g, "θ");
+        s = s.replace(/\\alpha/g, "α");
+        s = s.replace(/\\beta/g, "β");
+        s = s.replace(/\\Rightarrow|\\implies/g, "⟹");
+
+        // 4. Strip surrounding math dollar signs: $...$ and $$...$$
+        s = s.replace(/\$\$([^$]+)\$\$/g, "$1");
+        s = s.replace(/\$([^$]+)\$/g, "$1");
+
+        // 5. Clean LaTeX parenthesis wrappers: \( \), \[ \]
+        s = s.replace(/\\\(/g, "").replace(/\\\)/g, "");
+        s = s.replace(/\\\[/g, "").replace(/\\\]/g, "");
+
+        return s;
+    }
+
     function formatMarkdown(text) {
         if (!text) return "";
-        let html = escapeHtml(text);
 
-        // Code blocks: ```...```
-        html = html.replace(/```([\s\S]*?)```/g, "<pre><code>$1</code></pre>");
+        // First clean raw LaTeX artifacts
+        let raw = cleanLatex(text);
+
+        // Pre-parse code blocks
+        const codeBlocks = [];
+        raw = raw.replace(/```([\s\S]*?)```/g, (m, code) => {
+            codeBlocks.push(code);
+            return `__CODE_BLOCK_${codeBlocks.length - 1}__`;
+        });
+
+        // Convert Markdown tables into clean HTML tables
+        raw = raw.replace(/((?:^|\n)\|[^\n]+\|(?:\n\|[^\n]+\|)+)/g, (match) => {
+            const lines = match.trim().split("\n").map(l => l.trim()).filter(l => l.startsWith("|"));
+            if (lines.length < 2) return match;
+
+            let tableHtml = `<div style="overflow-x:auto; margin:10px 0;"><table style="width:100%; border-collapse:collapse; font-size:0.8rem; border:1px solid #334155; background:#0B1120; border-radius:8px; overflow:hidden;">`;
+            let headerLine = null;
+            let dataLines = [];
+
+            if (lines[1] && lines[1].includes("---")) {
+                headerLine = lines[0];
+                dataLines = lines.slice(2);
+            } else {
+                dataLines = lines;
+            }
+
+            if (headerLine) {
+                const ths = headerLine.split("|").slice(1, -1).map(c => c.trim());
+                tableHtml += `<thead><tr style="background:#1E293B; border-bottom:1px solid #334155;">`;
+                ths.forEach(th => {
+                    tableHtml += `<th style="padding:6px 10px; text-align:left; color:#38BDF8; font-weight:700;">${th}</th>`;
+                });
+                tableHtml += `</tr></thead>`;
+            }
+
+            tableHtml += `<tbody>`;
+            dataLines.forEach((row, i) => {
+                if (row.includes("---")) return;
+                const tds = row.split("|").slice(1, -1).map(c => c.trim());
+                const bg = i % 2 === 0 ? "transparent" : "rgba(255,255,255,0.02)";
+                tableHtml += `<tr style="border-bottom:1px solid rgba(51,65,85,0.5); background:${bg};">`;
+                tds.forEach(td => {
+                    tableHtml += `<td style="padding:6px 10px; color:#F8FAFC;">${td}</td>`;
+                });
+                tableHtml += `</tr>`;
+            });
+
+            tableHtml += `</tbody></table></div>`;
+            return tableHtml;
+        });
+
+        let html = escapeHtml(raw);
+
+        // Restore code blocks safely
+        html = html.replace(/__CODE_BLOCK_(\d+)__/g, (m, idx) => {
+            return `<pre><code>${escapeHtml(codeBlocks[Number(idx)])}</code></pre>`;
+        });
 
         // Inline code: `...`
         html = html.replace(/`([^`]+)`/g, "<code>$1</code>");
+
+        // Headings
+        html = html.replace(/^### (.*$)/gim, '<h4 style="color:#38BDF8; margin:12px 0 4px 0; font-size:0.92rem; font-weight:700;">$1</h4>');
+        html = html.replace(/^## (.*$)/gim, '<h3 style="color:#06B6D4; margin:14px 0 6px 0; font-size:1rem; font-weight:700;">$1</h3>');
+
+        // Horizontal rules
+        html = html.replace(/^---$/gim, '<hr style="border:none; border-top:1px solid var(--aim-border); margin:10px 0;">');
 
         // Bold: **...**
         html = html.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
