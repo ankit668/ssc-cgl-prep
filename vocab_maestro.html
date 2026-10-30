@@ -461,6 +461,7 @@
                 <a href="index.html" class="nav-btn" title="Back to Dashboard">← Home</a>
                 <a href="steno_vocab_hub.html" class="nav-btn" title="Steno Vocab Hub">📖 Steno Hub</a>
                 <a href="xmp.html" class="nav-btn" style="color:var(--accent-cyan); border-color:var(--accent-cyan);" title="Maths Maestro Practice">🔥 XMP Hub</a>
+                <a href="progress.html" class="nav-btn" style="color:#00e676; border-color:#00e676;" title="My Study Progress">📊 My Progress</a>
                 <div class="title-block">
                     <h1>📚 Vocabs Maestro <span class="badge-pro">Master Hub</span></h1>
                     <p>1,400+ Solved Words • 50-Day Course • Homonyms • SSC 2025 • Phase 14 • Vishesh Shukla</p>
@@ -534,6 +535,8 @@
 
             const STORAGE_BOOKMARKS = "ssc_vocab_maestro_bookmarks_v1";
             let bookmarks = JSON.parse(localStorage.getItem(STORAGE_BOOKMARKS) || "{}");
+            const STORAGE_LEARNED = "ssc_progress_v1";
+            let learned = JSON.parse(localStorage.getItem(STORAGE_LEARNED) || "{}");
 
             let currentModule = "phase_14";
             let currentSubFilter = "all";
@@ -822,6 +825,7 @@
 
                 cardsContainer.innerHTML = renderLimit.map(item => {
                     const isBookmarked = !!bookmarks[item.id];
+                    const isLearned = !!learned[item.id];
                     return `
                         <div class="vocab-card" id="card-${item.id}">
                             <div>
@@ -832,6 +836,9 @@
                                     </div>
                                     <div class="card-actions-top">
                                         <span class="badge-exam">${escapeHtml(item.tag)}</span>
+                                        <button class="icon-btn learned-btn ${isLearned ? 'learned' : ''}" data-id="${item.id}" title="${isLearned ? 'Learned ✅ (Click to unmark)' : 'Mark as Learned'}">
+                                            ${isLearned ? '✅' : '○'}
+                                        </button>
                                         <button class="icon-btn bookmark-btn ${isBookmarked ? 'bookmarked' : ''}" data-id="${item.id}" title="${isBookmarked ? 'Remove Bookmark' : 'Bookmark Word'}">
                                             ${isBookmarked ? '★' : '☆'}
                                         </button>
@@ -881,6 +888,35 @@
                             u.rate = 0.9;
                             u.lang = 'en-US';
                             window.speechSynthesis.speak(u);
+                        }
+                    });
+                });
+
+                // Learned toggle
+                cardsContainer.querySelectorAll(".learned-btn").forEach(btn => {
+                    btn.addEventListener("click", function(e) {
+                        e.stopPropagation();
+                        const id = this.getAttribute("data-id");
+                        learned[id] = !learned[id];
+                        localStorage.setItem(STORAGE_LEARNED, JSON.stringify(learned));
+                        
+                        const todayIso = new Date().toISOString().slice(0, 10);
+                        let daily = {};
+                        try { daily = JSON.parse(localStorage.getItem('ssc_daily_v1') || '{}'); } catch(err){}
+                        if (learned[id]) {
+                            if (!daily[todayIso]) daily[todayIso] = [];
+                            if (!daily[todayIso].includes(id)) daily[todayIso].push(id);
+                        } else {
+                            if (daily[todayIso]) daily[todayIso] = daily[todayIso].filter(x => x !== id);
+                        }
+                        localStorage.setItem('ssc_daily_v1', JSON.stringify(daily));
+
+                        if (learned[id]) {
+                            this.classList.add("learned");
+                            this.textContent = "✅";
+                        } else {
+                            this.classList.remove("learned");
+                            this.textContent = "○";
                         }
                     });
                 });

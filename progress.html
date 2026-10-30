@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>📊 My Progress — SSC Prep</title>
+<link rel="icon" href="favicon.ico">
+<style>
+:root {
+  --bg: #0a0f1e;
+  --card: #111827;
+  --border: #1e2d45;
+  --cyan: #00e5ff;
+  --gold: #ffd700;
+  --green: #00e676;
+  --orange: #ff9100;
+  --red: #ef5350;
+  --text: #e0e8f0;
+  --muted: #7a8fa8;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', sans-serif; min-height: 100vh; }
+
+/* Header */
+.prog-header {
+  background: linear-gradient(135deg, #0d1b2e 0%, #102040 100%);
+  border-bottom: 2px solid var(--cyan);
+  padding: 16px 20px;
+  display: flex; align-items: center; gap: 14px;
+}
+.prog-header a { color: var(--cyan); text-decoration: none; font-size: 1.3rem; }
+.prog-header h1 { font-size: 1.2rem; color: var(--gold); }
+.prog-header .sub { font-size: 0.78rem; color: var(--muted); margin-top: 2px; }
+
+/* Top Stats Bar */
+.stats-bar {
+  display: flex; flex-wrap: wrap; gap: 12px;
+  padding: 16px 20px;
+}
+.stat-card {
+  flex: 1; min-width: 120px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px 16px;
+  text-align: center;
+}
+.stat-card .num { font-size: 2rem; font-weight: 700; color: var(--cyan); line-height: 1; }
+.stat-card .lbl { font-size: 0.72rem; color: var(--muted); margin-top: 4px; }
+.stat-card.gold .num { color: var(--gold); }
+.stat-card.green .num { color: var(--green); }
+.stat-card.orange .num { color: var(--orange); }
+
+/* Streak row */
+.streak-row {
+  display: flex; gap: 6px; flex-wrap: wrap;
+  padding: 0 20px 16px;
+  align-items: center;
+}
+.streak-day {
+  width: 28px; height: 28px; border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  font-size: 0.65rem;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  color: var(--muted);
+}
+.streak-day.done { background: var(--green); color: #000; font-weight: 700; border-color: var(--green); }
+.streak-day.today { border: 2px solid var(--cyan); }
+.streak-lbl { font-size: 0.78rem; color: var(--muted); padding: 0 20px 8px; }
+
+/* Category sections */
+.section {
+  padding: 0 20px 20px;
+}
+.section-head {
+  display: flex; align-items: center; justify-content: space-between;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px 12px 0 0;
+  padding: 12px 16px;
+  cursor: pointer;
+  user-select: none;
+}
+.section-head h2 { font-size: 0.95rem; }
+.section-head .prog-bar-mini {
+  width: 100px; height: 8px;
+  background: var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.section-head .prog-bar-mini-fill {
+  height: 100%; border-radius: 4px;
+  background: linear-gradient(90deg, var(--cyan), var(--green));
+  transition: width 0.4s ease;
+}
+.section-head .pct { font-size: 0.78rem; color: var(--cyan); min-width: 38px; text-align: right; }
+.section-body {
+  background: #0d1526;
+  border: 1px solid var(--border);
+  border-top: none;
+  border-radius: 0 0 12px 12px;
+  padding: 10px;
+  display: flex; flex-wrap: wrap; gap: 6px;
+}
+.section-body.collapsed { display: none; }
+
+/* Word chips */
+.word-chip {
+  display: inline-flex; align-items: center; gap: 5px;
+  padding: 5px 10px; border-radius: 20px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+.word-chip.learned {
+  background: rgba(0,230,118,0.15);
+  border-color: var(--green);
+  color: var(--green);
+}
+.word-chip .ck { font-size: 0.85rem; }
+
+/* Reset */
+.reset-btn {
+  display: block; margin: 0 20px 24px auto;
+  padding: 7px 20px; border-radius: 8px;
+  background: none; border: 1px solid var(--red);
+  color: var(--red); font-size: 0.8rem; cursor: pointer;
+}
+.reset-btn:hover { background: rgba(239,83,80,0.15); }
+
+/* Bottom nav spacer */
+.bottom-spacer { height: 80px; }
+
+/* Back link */
+.back-link {
+  display: inline-flex; align-items: center; gap: 6px;
+  color: var(--cyan); text-decoration: none; font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .stat-card .num { font-size: 1.6rem; }
+  .streak-day { width: 24px; height: 24px; font-size: 0.55rem; }
+}
+</style>
+</head>
+<body>
+
+<div class="prog-header">
+  <a href="index.html" class="back-link">←</a>
+  <div>
+    <h1>📊 My Study Progress</h1>
+    <div class="sub">Maestro Ma'am tracks your vocab mastery 👩‍🏫</div>
+  </div>
+</div>
+
+<!-- Stats -->
+<div class="stats-bar" id="stats-bar">
+  <div class="stat-card" id="sc-total"><div class="num">…</div><div class="lbl">Total Words</div></div>
+  <div class="stat-card green" id="sc-learned"><div class="num">0</div><div class="lbl">Learned ✅</div></div>
+  <div class="stat-card gold" id="sc-today"><div class="num">0</div><div class="lbl">Studied Today</div></div>
+  <div class="stat-card orange" id="sc-streak"><div class="num">0</div><div class="lbl">Day Streak 🔥</div></div>
+</div>
+
+<!-- 7-day streak -->
+<div class="streak-lbl">📅 Last 7 Days</div>
+<div class="streak-row" id="streak-row"></div>
+
+<!-- Category sections -->
+<div id="sections-container"></div>
+
+<button class="reset-btn" id="reset-btn">🗑️ Reset All Progress</button>
+<div class="bottom-spacer"></div>
+
+<script src="vocab_maestro_data.js"></script>
+<script>
+(function() {
+  'use strict';
+
+  const STORAGE_KEY = 'ssc_progress_v1';
+  const DAILY_KEY   = 'ssc_daily_v1';   // { "2026-10-30": [ids...] }
+  const STREAK_KEY  = 'ssc_streak_v1';  // { streak: N, lastDate: "YYYY-MM-DD" }
+
+  // ── Load stored data ─────────────────────────────────────────────────────
+  let learned = {};
+  let daily   = {};
+  let streakData = { streak: 0, lastDate: '' };
+  try { learned    = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); } catch(e){}
+  try { daily      = JSON.parse(localStorage.getItem(DAILY_KEY)   || '{}'); } catch(e){}
+  try { streakData = JSON.parse(localStorage.getItem(STREAK_KEY)  || '{}') || { streak:0, lastDate:'' }; } catch(e){}
+
+  // ── Date helpers ─────────────────────────────────────────────────────────
+  function toISO(d) { return d.toISOString().slice(0,10); }
+  const TODAY = toISO(new Date());
+
+  // ── Build vocabulary corpus ──────────────────────────────────────────────
+  // Uses the global VOCAB_MAESTRO_DATA injected by vocab_maestro_data.js
+  const SECTIONS = [];
+  const src = window.VOCAB_MAESTRO_DATA || window.VOCAB_DATA || {};
+
+  const LABELS = {
+    phase_14: { label: 'Phase 14 (2026)', icon: '🔥', color: '#ff6f00' },
+    ssc_2025: { label: 'SSC 2025 Vocabs',  icon: '📘', color: '#00b0ff' },
+    days_50:  { label: '50-Day Course',     icon: '📅', color: '#69f0ae' },
+    homonyms: { label: 'CGL Homonyms',      icon: '🔗', color: '#ea80fc' },
+    title:    { label: 'Day 1-25 Title Vocabs', icon: '📖', color: '#ffd740' },
+    compiler: { label: 'Compiler Vocabs',   icon: '🗂️', color: '#80d8ff' },
+  };
+
+  // Build sections from the data
+  Object.entries(LABELS).forEach(([key, meta]) => {
+    const items = src[key];
+    if (!Array.isArray(items) || items.length === 0) return;
+    SECTIONS.push({ key, ...meta, items });
+  });
+
+  // ── Render Stats ─────────────────────────────────────────────────────────
+  function countAll() { return SECTIONS.reduce((a, s) => a + s.items.length, 0); }
+  function countLearned() { return Object.keys(learned).filter(k => learned[k]).length; }
+  function countToday() { return (daily[TODAY] || []).length; }
+
+  function updateStats() {
+    document.querySelector('#sc-total .num').textContent    = countAll();
+    document.querySelector('#sc-learned .num').textContent  = countLearned();
+    document.querySelector('#sc-today .num').textContent    = countToday();
+    document.querySelector('#sc-streak .num').textContent   = streakData.streak || 0;
+  }
+
+  // ── Render Streak Row ────────────────────────────────────────────────────
+  function renderStreak() {
+    const row = document.getElementById('streak-row');
+    row.innerHTML = '';
+    for (let i = 6; i >= 0; i--) {
+      const d = new Date(); d.setDate(d.getDate() - i);
+      const iso = toISO(d);
+      const dayNum = d.getDate();
+      const count = (daily[iso] || []).length;
+      const div = document.createElement('div');
+      div.className = 'streak-day' + (count > 0 ? ' done' : '') + (iso === TODAY ? ' today' : '');
+      div.innerHTML = `<span>${dayNum}</span><span style="font-size:0.6rem">${count > 0 ? count : ''}</span>`;
+      div.title = `${iso}: ${count} words`;
+      row.appendChild(div);
+    }
+  }
+
+  // ── Render Sections ──────────────────────────────────────────────────────
+  function renderSections() {
+    const container = document.getElementById('sections-container');
+    container.innerHTML = '';
+
+    SECTIONS.forEach(sec => {
+      const total   = sec.items.length;
+      const doneIds = sec.items.map(it => it.id).filter(id => learned[id]);
+      const done    = doneIds.length;
+      const pct     = total > 0 ? Math.round(done / total * 100) : 0;
+
+      const div = document.createElement('div');
+      div.className = 'section';
+
+      div.innerHTML = `
+        <div class="section-head" data-key="${sec.key}">
+          <h2>${sec.icon} ${sec.label} <span style="color:var(--muted);font-size:0.8rem;font-weight:400">(${done}/${total})</span></h2>
+          <div style="display:flex;align-items:center;gap:8px">
+            <div class="prog-bar-mini"><div class="prog-bar-mini-fill" style="width:${pct}%"></div></div>
+            <span class="pct">${pct}%</span>
+          </div>
+        </div>
+        <div class="section-body collapsed" id="body-${sec.key}"></div>
+      `;
+
+      // Build word chips
+      const body = div.querySelector('.section-body');
+      sec.items.forEach(item => {
+        const chip = document.createElement('span');
+        const word = item.word || item.phrase || item.entry || '—';
+        chip.className = 'word-chip' + (learned[item.id] ? ' learned' : '');
+        chip.dataset.id = item.id;
+        chip.dataset.section = sec.key;
+        chip.innerHTML = `<span class="ck">${learned[item.id] ? '✅' : '○'}</span> ${word}`;
+        chip.title = item.meaning || item.definition || '';
+        chip.addEventListener('click', () => toggleWord(item.id, chip));
+        body.appendChild(chip);
+      });
+
+      // Toggle collapse
+      div.querySelector('.section-head').addEventListener('click', () => {
+        body.classList.toggle('collapsed');
+      });
+
+      container.appendChild(div);
+    });
+  }
+
+  // ── Toggle Word Learned ──────────────────────────────────────────────────
+  function toggleWord(id, chip) {
+    const wasLearned = !!learned[id];
+    learned[id] = !wasLearned;
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(learned));
+
+    if (!wasLearned) {
+      // Mark studied today
+      if (!daily[TODAY]) daily[TODAY] = [];
+      if (!daily[TODAY].includes(id)) daily[TODAY].push(id);
+      localStorage.setItem(DAILY_KEY, JSON.stringify(daily));
+      updateStreak();
+    } else {
+      // Remove from today if un-marking
+      if (daily[TODAY]) {
+        daily[TODAY] = daily[TODAY].filter(x => x !== id);
+        localStorage.setItem(DAILY_KEY, JSON.stringify(daily));
+      }
+    }
+
+    chip.className = 'word-chip' + (learned[id] ? ' learned' : '');
+    chip.querySelector('.ck').textContent = learned[id] ? '✅' : '○';
+
+    // Update section header counters & bar
+    const section = chip.closest('.section');
+    if (section) {
+      const head = section.querySelector('.section-head');
+      const key = head.dataset.key;
+      const sec = SECTIONS.find(s => s.key === key);
+      const done = sec.items.filter(it => learned[it.id]).length;
+      const pct  = sec.items.length > 0 ? Math.round(done / sec.items.length * 100) : 0;
+      head.querySelector('h2 span').textContent = `(${done}/${sec.items.length})`;
+      head.querySelector('.prog-bar-mini-fill').style.width = pct + '%';
+      head.querySelector('.pct').textContent = pct + '%';
+    }
+
+    updateStats();
+    renderStreak();
+  }
+
+  // ── Streak Calculation ───────────────────────────────────────────────────
+  function updateStreak() {
+    const today = TODAY;
+    const last  = streakData.lastDate;
+    if (last === today) return; // already counted today
+
+    const yesterday = toISO(new Date(new Date().getTime() - 86400000));
+    if (last === yesterday) {
+      streakData.streak = (streakData.streak || 0) + 1;
+    } else if (!last || last < yesterday) {
+      streakData.streak = 1;
+    }
+    streakData.lastDate = today;
+    localStorage.setItem(STREAK_KEY, JSON.stringify(streakData));
+    document.querySelector('#sc-streak .num').textContent = streakData.streak;
+  }
+
+  // ── Reset ────────────────────────────────────────────────────────────────
+  document.getElementById('reset-btn').addEventListener('click', () => {
+    if (!confirm('Beta, are you sure? Sab progress delete ho jayega! 😢')) return;
+    learned = {}; daily = {}; streakData = { streak: 0, lastDate: '' };
+    localStorage.removeItem(STORAGE_KEY);
+    localStorage.removeItem(DAILY_KEY);
+    localStorage.removeItem(STREAK_KEY);
+    renderSections();
+    updateStats();
+    renderStreak();
+  });
+
+  // ── Init ─────────────────────────────────────────────────────────────────
+  updateStats();
+  renderStreak();
+  renderSections();
+})();
+</script>
+
+</body>
+</html>
