@@ -46,6 +46,7 @@ Guidelines:
         currentQuestionContext = null;
     }
     let isGenerating = false;
+    let pendingImageData = null; // { mimeType, base64 } for image doubt upload
 
     // Load History
     try {
@@ -105,6 +106,12 @@ Guidelines:
 
                 <!-- Input Area -->
                 <div class="aim-input-area">
+                    <input type="file" id="aim-img-input" accept="image/*" style="display:none;">
+                    <button class="aim-img-btn" id="aim-img-btn" title="Upload image doubt 📸" style="background:none;border:none;cursor:pointer;font-size:1.35rem;padding:0 6px;opacity:0.75;flex-shrink:0;" aria-label="Upload image">📸</button>
+                    <div id="aim-img-preview" style="display:none;position:relative;flex-shrink:0;">
+                        <img id="aim-img-thumb" style="height:36px;width:36px;object-fit:cover;border-radius:6px;border:2px solid var(--aim-cyan,#0ff);" alt="preview">
+                        <button id="aim-img-clear" title="Remove image" style="position:absolute;top:-6px;right:-6px;background:#e53935;border:none;border-radius:50%;width:16px;height:16px;font-size:0.6rem;color:#fff;cursor:pointer;line-height:16px;text-align:center;padding:0;">✕</button>
+                    </div>
                     <textarea class="aim-textarea" id="aim-input" placeholder="Beta, kya doubt hai? Ask Ma'am anything... 😊" rows="1"></textarea>
                     <button class="aim-send-btn" id="aim-send-btn" title="Send (Enter)">➤</button>
                 </div>
@@ -239,6 +246,44 @@ Guidelines:
                 renderHistory();
                 renderWelcomeMessage();
             }
+        });
+
+        // Image upload button
+        const imgBtn = document.getElementById("aim-img-btn");
+        const imgInput = document.getElementById("aim-img-input");
+        const imgPreview = document.getElementById("aim-img-preview");
+        const imgThumb = document.getElementById("aim-img-thumb");
+        const imgClear = document.getElementById("aim-img-clear");
+
+        imgBtn.addEventListener("click", () => imgInput.click());
+
+        imgInput.addEventListener("change", (e) => {
+            const file = e.target.files[0];
+            if (!file) return;
+            if (!file.type.startsWith("image/")) {
+                addMessage("system-info", "Sirf image file upload karo Beta! (JPG, PNG, etc.)");
+                return;
+            }
+            const reader = new FileReader();
+            reader.onload = (ev) => {
+                const dataUrl = ev.target.result;
+                const base64 = dataUrl.split(",")[1];
+                pendingImageData = { mimeType: file.type, base64: base64 };
+                imgThumb.src = dataUrl;
+                imgPreview.style.display = "block";
+                imgBtn.style.opacity = "1";
+                textarea.placeholder = "Beta, yeh image ke baare mein kya poochna hai? Ma'am solve kar doongi!";
+                textarea.focus();
+            };
+            reader.readAsDataURL(file);
+            imgInput.value = "";
+        });
+
+        imgClear.addEventListener("click", () => {
+            pendingImageData = null;
+            imgPreview.style.display = "none";
+            imgBtn.style.opacity = "0.75";
+            textarea.placeholder = "Beta, kya doubt hai? Ask Ma'am anything... ";
         });
 
         // Send message
@@ -409,7 +454,7 @@ Guidelines:
     async function handleSend() {
         const textarea = document.getElementById("aim-input");
         const userText = textarea.value.trim();
-        if (!userText || isGenerating) return;
+        if ((!userText && !pendingImageData) || isGenerating) return;
 
         // If user tapped a contextual chip but no question is attached yet, prompt them clearly
         const isContextualChip = userText.includes("this question") || userText.includes("for this?");
@@ -431,7 +476,18 @@ Guidelines:
 
         textarea.value = "";
         textarea.style.height = "auto";
-        addMessage("user", userText);
+        // Display user message — include image thumbnail if present
+        const imgPreviewEl = document.getElementById("aim-img-preview");
+        const imgThumbEl = document.getElementById("aim-img-thumb");
+        const displayText = userText || "(Image uploaded)";
+        if (pendingImageData) {
+            const imgPreviewSrc = imgThumbEl ? imgThumbEl.src : "";
+            addMessage("user", displayText + (imgPreviewSrc ? `\n\n![image](${imgPreviewSrc})` : ""));
+            if (imgPreviewEl) imgPreviewEl.style.display = "none";
+            document.getElementById("aim-img-btn").style.opacity = "0.75";
+        } else {
+            addMessage("user", displayText);
+        }
 
         // Show typing indicator
         isGenerating = true;
@@ -471,13 +527,26 @@ Guidelines:
             });
 
             // Ensure current turn is strictly appended as user role
-            if (contents.length > 0 && contents[contents.length - 1].role === "user") {
-                contents[contents.length - 1].parts[0].text += "\n" + queryPrompt;
+            // Build user parts — include image if pending
+            const userParts = [];
+            if (pendingImageData) {
+                userParts.push({ inlineData: { mimeType: pendingImageData.mimeType, data: pendingImageData.base64 } });
+                if (queryPrompt) userParts.push({ text: "Beta ne yeh image share ki hai — Ma'am please solve karo! " + queryPrompt });
+                else userParts.push({ text: "Beta ne yeh image share ki hai — Ma'am please is question/doubt ko solve karo step-by-step!" });
             } else {
-                contents.push({ role: "user", parts: [{ text: queryPrompt }] });
+                userParts.push({ text: queryPrompt });
             }
 
-            await executeGenerateContent(queryPrompt, contents, typingNode, 0);
+            if (contents.length > 0 && contents[contents.length - 1].role === "user") {
+                contents[contents.length - 1].parts.push(...userParts);
+            } else {
+                contents.push({ role: "user", parts: userParts });
+            }
+
+            const capturedImage = pendingImageData;
+            pendingImageData = null; // Clear after sending
+
+            await executeGenerateContent(queryPrompt || "(image doubt)", contents, typingNode, 0);
 
         } catch (err) {
             removeTypingIndicator(typingNode);
