@@ -8,6 +8,7 @@
     <link rel="icon" type="image/png" href="icon-192.png">
     <link rel="apple-touch-icon" href="icon-192.png">
     <meta name="theme-color" content="#0B1120">
+    <link rel="stylesheet" href="ai_mentor.css">
     <style>
         :root {
             --bg-color: #0B1120;
@@ -835,6 +836,9 @@
                             <button class="btn-action-icon ${isBookmarked ? 'bookmarked' : ''}" onclick="toggleBookmark('${q.id}', this)" title="Save for revision">
                                 ⭐ ${isBookmarked ? 'Saved' : 'Save'}
                             </button>
+                            <button class="btn-action-icon ask-ai-card-btn" onclick="askAiAboutGaQuestion('${q.id}')" title="Ask AI Mentor doubt about this question" style="color:var(--accent-cyan); border-color:rgba(6,182,212,0.35);">
+                                ✨ Ask AI
+                            </button>
                         </div>
                     </div>
                     <div class="q-text">${q.question}</div>
@@ -916,6 +920,23 @@
         window._hubSpeakingId = null;
         let hubChunkIndex = 0;
         let hubSpeechChunks = [];
+
+                function askAiAboutGaQuestion(qid) {
+            const q = (typeof rrbQuestions !== 'undefined' ? rrbQuestions : []).find(item => item.id === qid);
+            if (q && window.askAIMentorAboutQuestion) {
+                const ansKey = (q.ans || '').toLowerCase();
+                const correctText = q[ansKey] || q.ans;
+                window.askAIMentorAboutQuestion({
+                    id: q.id,
+                    exam: q.subject || 'RRB NTPC & CGL Tier 2 GA',
+                    question: q.question,
+                    options: [q.a, q.b, q.c, q.d].filter(Boolean),
+                    answer: correctText,
+                    solution: q.exp || '',
+                    trick: ''
+                }, userStats.answers[q.id]);
+            }
+        }
 
         function speakQuestion(qId) {
             if (!('speechSynthesis' in window)) {
@@ -1066,5 +1087,7 @@
             }
         }
     </script>
+    <!-- AI Mentor Doubt Solver -->
+    <script src="ai_mentor.js" defer></script>
 </body>
 </html>

@@ -8,6 +8,7 @@
     <link rel="icon" type="image/png" href="icon-192.png">
     <link rel="apple-touch-icon" href="icon-192.png">
     <meta name="theme-color" content="#0B1120">
+    <link rel="stylesheet" href="ai_mentor.css">
 
     <style>
         :root {
@@ -580,6 +581,27 @@
         .reset-btn:hover {
             background: rgba(239, 68, 68, 0.1);
         }
+    
+        .ask-ai-card-btn {
+            background: linear-gradient(135deg, rgba(6, 182, 212, 0.15), rgba(59, 130, 246, 0.15));
+            border: 1px solid rgba(6, 182, 212, 0.4);
+            color: var(--accent-cyan);
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s;
+        }
+
+        .ask-ai-card-btn:hover {
+            border-color: var(--accent-cyan);
+            background: linear-gradient(135deg, rgba(6, 182, 212, 0.3), rgba(59, 130, 246, 0.3));
+            transform: translateY(-1px);
+        }
     </style>
 </head>
 <body>
@@ -838,10 +860,15 @@
                                 }).join("")}
                             </div>
 
-                            <div style="display:flex; justify-content:space-between; align-items:center; margin-top:8px;">
-                                <button class="toggle-sol-btn" data-qid="${q.id}">
-                                    <span>👁️ View Solution & Topper Trick</span>
-                                </button>
+                            <div style="display:flex; justify-content:space-between; align-items:center; margin-top:8px; gap:8px; flex-wrap:wrap;">
+                                <div style="display:flex; align-items:center; gap:8px;">
+                                    <button class="toggle-sol-btn" data-qid="${q.id}">
+                                        <span>👁️ View Solution & Topper Trick</span>
+                                    </button>
+                                    <button class="ask-ai-card-btn" data-qid="${q.id}" title="Ask AI Mentor doubt about this question">
+                                        <span>✨ Ask AI</span>
+                                    </button>
+                                </div>
                                 ${isAnswered ? `
                                     <span style="font-size:0.75rem; color:${chosenAns === q.answer ? 'var(--accent-green)' : 'var(--accent-red)'}; font-weight:700;">
                                         ${chosenAns === q.answer ? '✓ Correct Answer' : '✗ Incorrect Attempt'}
@@ -907,6 +934,18 @@
                     });
                 });
 
+                // Ask AI Mentor on question card
+                document.querySelectorAll(".ask-ai-card-btn").forEach(btn => {
+                    btn.addEventListener("click", function(e) {
+                        e.stopPropagation();
+                        const qid = this.getAttribute("data-qid");
+                        const q = rawQuestions.find(item => item.id === qid);
+                        if (q && window.askAIMentorAboutQuestion) {
+                            window.askAIMentorAboutQuestion(q, userAttempts[qid]);
+                        }
+                    });
+                });
+
                 // Bookmark toggle
                 document.querySelectorAll(".bookmark-btn").forEach(btn => {
                     btn.addEventListener("click", function(e) {
@@ -943,5 +982,7 @@
             }
         })();
     </script>
+    <!-- AI Mentor Doubt Solver -->
+    <script src="ai_mentor.js" defer></script>
 </body>
 </html>

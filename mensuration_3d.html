@@ -8,6 +8,7 @@
     <link rel="icon" type="image/png" href="icon-192.png">
     <link rel="apple-touch-icon" href="icon-192.png">
     <meta name="theme-color" content="#0B1120">
+    <link rel="stylesheet" href="ai_mentor.css">
     <style>
         :root {
             --bg-color: #0B1120;
@@ -606,6 +607,27 @@
                 flex-wrap: wrap;
             }
         }
+    
+        .ask-ai-card-btn {
+            background: linear-gradient(135deg, rgba(6, 182, 212, 0.15), rgba(59, 130, 246, 0.15));
+            border: 1px solid rgba(6, 182, 212, 0.4);
+            color: var(--accent-cyan);
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s;
+        }
+
+        .ask-ai-card-btn:hover {
+            border-color: var(--accent-cyan);
+            background: linear-gradient(135deg, rgba(6, 182, 212, 0.3), rgba(59, 130, 246, 0.3));
+            transform: translateY(-1px);
+        }
     </style>
 </head>
 <body>
@@ -947,6 +969,9 @@
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
                                 <span>${isSolOpen ? 'Hide Solution' : 'View Formula & Topper Trick'}</span>
                             </button>
+                            <button class="ask-ai-card-btn" data-id="${q.id}" title="Ask AI Mentor doubt about this question">
+                                <span>✨ Ask AI</span>
+                            </button>
                             ${isAnswered ? `<button class="retry-btn" data-id="${q.id}" title="Reset this question to try again">↺ Re-attempt</button>` : ''}
                         </div>
 
@@ -1031,6 +1056,29 @@
                 });
 
                 // Toggle Individual Solution
+                // Ask AI Mentor on question card
+                document.querySelectorAll(".ask-ai-card-btn").forEach(btn => {
+                    btn.addEventListener("click", function(e) {
+                        e.stopPropagation();
+                        const qid = this.getAttribute("data-id");
+                        const q = questions.find(item => item.id === qid);
+                        if (q && window.askAIMentorAboutQuestion) {
+                            const steps = Array.isArray(q.solution) ? q.solution.join('\n') : (q.solution || '');
+                            const opts = q.options ? [q.options.a, q.options.b, q.options.c, q.options.d] : [];
+                            const correctAns = q.options && q.answer ? q.options[q.answer] : q.answer;
+                            window.askAIMentorAboutQuestion({
+                                id: q.id,
+                                exam: q.exam || '3D Mensuration',
+                                question: q.question,
+                                options: opts,
+                                answer: correctAns,
+                                solution: steps,
+                                trick: q.topper_trick || ''
+                            }, userAttempts[qid]);
+                        }
+                    });
+                });
+
                 document.querySelectorAll('.toggle-sol-btn').forEach(btn => {
                     btn.addEventListener('click', function() {
                         const qid = this.getAttribute('data-id');
@@ -1078,5 +1126,7 @@
             }
         })();
     </script>
+    <!-- AI Mentor Doubt Solver -->
+    <script src="ai_mentor.js" defer></script>
 </body>
 </html>

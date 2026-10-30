@@ -7,6 +7,7 @@
     <meta name="description" content="SSC CGL 2026 Offline Prep App with 4600+ PYQs across Maths, Reasoning, GK and English.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="ai_mentor.css">
     <link rel="icon" type="image/png" href="icon-192.png">
     <link rel="apple-touch-icon" href="icon-192.png">
     <meta name="theme-color" content="#4f46e5">
@@ -382,7 +383,12 @@
                             <div class="eduqity-question-area">
                                 <!-- Question Panel -->
                                 <div class="question-container">
-                                    <span class="question-source-tag" id="question-year-tag">CGL 2024 PYQ</span>
+                                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                                        <span class="question-source-tag" id="question-year-tag">CGL 2024 PYQ</span>
+                                        <button id="quiz-ask-ai-btn" class="btn btn-secondary" style="font-size:0.75rem; padding:4px 10px; color:#38BDF8; border-color:rgba(56,189,248,0.3); background:rgba(56,189,248,0.08); font-weight:700; display:inline-flex; align-items:center; gap:4px; cursor:pointer;" title="Ask AI Mentor doubt about this question">
+                                            <span>✨ Ask AI</span>
+                                        </button>
+                                    </div>
                                     <div class="question-text" id="quiz-question-text">
                                         Question text goes here...
                                     </div>
@@ -1286,6 +1292,43 @@
         });
       }
     </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const quizAiBtn = document.getElementById('quiz-ask-ai-btn');
+            if (quizAiBtn) {
+                quizAiBtn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    if (typeof activeQuiz !== 'undefined' && activeQuiz && activeQuiz.questions) {
+                        const q = activeQuiz.questions[activeQuiz.currentIndex];
+                        const savedAnswer = activeQuiz.userAnswers[activeQuiz.currentIndex];
+                        if (q && window.askAIMentorAboutQuestion) {
+                            let correctText = '';
+                            if (typeof q.correct === 'number' && q.options && q.options[q.correct]) {
+                                correctText = q.options[q.correct];
+                            } else {
+                                correctText = String(q.correct || '');
+                            }
+                            let userChosenText = '';
+                            if (typeof savedAnswer === 'number' && q.options && q.options[savedAnswer]) {
+                                userChosenText = q.options[savedAnswer];
+                            }
+                            window.askAIMentorAboutQuestion({
+                                id: q.id || `quiz_q${activeQuiz.currentIndex + 1}`,
+                                exam: q.year || 'CGL PYQ Quiz',
+                                question: q.question,
+                                options: q.options || [],
+                                answer: correctText,
+                                solution: q.solution || '',
+                                trick: q.trick || ''
+                            }, userChosenText);
+                        }
+                    }
+                });
+            }
+        });
+    </script>
+    <!-- AI Mentor Doubt Solver -->
+    <script src="ai_mentor.js" defer></script>
 </body>
 </html>
 
