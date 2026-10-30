@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ssc-prep-tier2-v27';
+const CACHE_NAME = 'ssc-prep-tier2-v28';
 const urlsToCache = [
   './',
   './manifest.json',
@@ -8,6 +8,7 @@ const urlsToCache = [
   './xmp_data.json',
   './vocab_maestro.html',
   './progress.html',
+  './phase14_quiz.html',
   './vocab_maestro_data.js',
   './vocab_maestro_data.json',
   './steno_vocab_hub.html',

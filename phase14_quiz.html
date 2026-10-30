@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Phase 14 MCQ Exam Simulator • Vocabs Maestro</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="icon-192.png">
+    <link rel="apple-touch-icon" href="icon-192.png">
+    <meta name="theme-color" content="#0B1120">
+    <link rel="stylesheet" href="ai_mentor.css">
+
+    <style>
+        :root {
+            --bg-color: #0B1120;
+            --container-bg: #1E293B;
+            --card-bg: #162032;
+            --card-hover: #1c2a42;
+            --text-color: #F8FAFC;
+            --text-muted: #94A3B8;
+            --border-color: #334155;
+            --accent-cyan: #06B6D4;
+            --accent-blue: #38BDF8;
+            --accent-green: #10B981;
+            --accent-red: #EF4444;
+            --accent-amber: #F59E0B;
+            --accent-purple: #A855F7;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 70px;
+        }
+
+        header {
+            background: rgba(30, 41, 59, 0.85);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 12px 16px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .nav-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 6px 12px;
+            border-radius: 8px;
+            font-size: 0.82rem;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+
+        .nav-btn:hover {
+            background: rgba(255, 255, 255, 0.12);
+            border-color: var(--accent-cyan);
+        }
+
+        .title-block h1 {
+            font-size: 1.15rem;
+            color: var(--accent-amber);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .main-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 16px;
+            width: 100%;
+            flex: 1;
+        }
+
+        /* Config Panel */
+        .quiz-config {
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 20px;
+        }
+
+        .config-row {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .config-group {
+            flex: 1;
+            min-width: 180px;
+        }
+
+        .config-group label {
+            display: block;
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            margin-bottom: 4px;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+
+        .config-select {
+            width: 100%;
+            padding: 8px 12px;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            color: var(--text-color);
+            font-size: 0.88rem;
+            outline: none;
+        }
+
+        .btn-start {
+            background: linear-gradient(135deg, var(--accent-cyan), #3B82F6);
+            color: #000;
+            font-weight: 700;
+            border: none;
+            padding: 10px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.95rem;
+            transition: transform 0.15s, opacity 0.15s;
+        }
+
+        .btn-start:hover {
+            opacity: 0.92;
+            transform: translateY(-1px);
+        }
+
+        /* Status & Timer bar */
+        .quiz-status-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 10px 16px;
+            margin-bottom: 16px;
+        }
+
+        .status-pill {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+        }
+
+        .status-pill strong {
+            color: var(--accent-cyan);
+        }
+
+        .timer-box {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--accent-amber);
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .score-pill {
+            font-size: 0.85rem;
+            color: var(--accent-green);
+            font-weight: 700;
+        }
+
+        /* Progress Bar */
+        .quiz-progress-bar {
+            width: 100%;
+            height: 6px;
+            background: var(--border-color);
+            border-radius: 3px;
+            overflow: hidden;
+            margin-bottom: 16px;
+        }
+
+        .quiz-progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent-cyan), var(--accent-green));
+            width: 0%;
+            transition: width 0.3s;
+        }
+
+        /* Question Card */
+        .q-card {
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+
+        .q-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .q-badge {
+            font-size: 0.72rem;
+            padding: 3px 8px;
+            border-radius: 4px;
+            background: rgba(6, 182, 212, 0.15);
+            color: var(--accent-cyan);
+            border: 1px solid rgba(6, 182, 212, 0.3);
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+
+        .q-direction {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 12px;
+            line-height: 1.4;
+        }
+
+        .q-text {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #FFF;
+            margin-bottom: 18px;
+            letter-spacing: 0.5px;
+        }
+
+        /* Options */
+        .options-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .option-btn {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 12px 16px;
+            text-align: left;
+            color: var(--text-color);
+            font-size: 0.95rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            transition: all 0.15s;
+        }
+
+        .option-btn:hover:not(.disabled) {
+            background: var(--card-hover);
+            border-color: var(--accent-blue);
+        }
+
+        .option-key {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.08);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.82rem;
+            font-weight: 700;
+            color: var(--text-muted);
+            flex-shrink: 0;
+        }
+
+        .option-text {
+            flex: 1;
+        }
+
+        /* Option states */
+        .option-btn.correct {
+            background: rgba(16, 185, 129, 0.15) !important;
+            border-color: var(--accent-green) !important;
+            color: #6EE7B7 !important;
+        }
+
+        .option-btn.correct .option-key {
+            background: var(--accent-green);
+            color: #000;
+        }
+
+        .option-btn.wrong {
+            background: rgba(239, 68, 68, 0.15) !important;
+            border-color: var(--accent-red) !important;
+            color: #FCA5A5 !important;
+        }
+
+        .option-btn.wrong .option-key {
+            background: var(--accent-red);
+            color: #FFF;
+        }
+
+        .option-btn.disabled {
+            cursor: default;
+        }
+
+        /* Explanation Box */
+        .explanation-box {
+            background: #0F172A;
+            border: 1px solid var(--border-color);
+            border-left: 3px solid var(--accent-cyan);
+            border-radius: 8px;
+            padding: 14px 16px;
+            margin-bottom: 20px;
+            display: none;
+            font-size: 0.88rem;
+            line-height: 1.5;
+        }
+
+        .explanation-box.show {
+            display: block;
+        }
+
+        .explanation-title {
+            font-weight: 700;
+            color: var(--accent-cyan);
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        /* Action Buttons */
+        .q-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .btn-action {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 9px 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.88rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.15s;
+        }
+
+        .btn-action:hover {
+            border-color: var(--accent-cyan);
+            background: var(--card-hover);
+        }
+
+        .btn-action.primary {
+            background: linear-gradient(135deg, var(--accent-blue), #2563EB);
+            border: none;
+            color: #FFF;
+            font-weight: 600;
+        }
+
+        .btn-action.ask-ai {
+            border-color: var(--accent-purple);
+            color: #D8B4FE;
+            background: rgba(168, 85, 247, 0.1);
+        }
+
+        .btn-action.ask-ai:hover {
+            background: rgba(168, 85, 247, 0.2);
+        }
+
+        /* Result Modal Screen */
+        .result-screen {
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 30px 24px;
+            text-align: center;
+            display: none;
+        }
+
+        .result-screen.show {
+            display: block;
+        }
+
+        .result-score {
+            font-size: 3.2rem;
+            font-weight: 800;
+            color: var(--accent-cyan);
+            line-height: 1;
+            margin: 16px 0 8px;
+        }
+
+        .result-message {
+            font-size: 1.1rem;
+            color: #FFF;
+            margin-bottom: 24px;
+        }
+
+        .result-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        .result-stat {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 12px;
+        }
+
+        .result-stat .val {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--text-color);
+        }
+
+        .result-stat .lbl {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-top: 4px;
+        }
+
+        @media (max-width: 600px) {
+            .header-inner { flex-direction: column; align-items: stretch; }
+            .nav-links { justify-content: center; }
+            .q-text { font-size: 1.15rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-inner">
+            <div class="title-block">
+                <h1>🧪 Phase 14 MCQ Exam Simulator</h1>
+            </div>
+            <div class="nav-links">
+                <a href="vocab_maestro.html" class="nav-btn">📚 Vocabs Maestro</a>
+                <a href="progress.html" class="nav-btn" style="color:var(--accent-green); border-color:var(--accent-green);">📊 Progress</a>
+                <a href="index.html" class="nav-btn">← Home</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-container">
+
+        <!-- Config Bar -->
+        <div class="quiz-config" id="quiz-config">
+            <div class="config-row">
+                <div class="config-group">
+                    <label>Category Filter</label>
+                    <select id="sel-category" class="config-select">
+                        <option value="all">⚡ All Categories (290 Questions)</option>
+                        <option value="Synonyms">Synonyms (50)</option>
+                        <option value="Antonyms">Antonyms (44)</option>
+                        <option value="Idioms & Phrases">Idioms & Phrases (47)</option>
+                        <option value="One Word Substitution">One Word Substitution (56)</option>
+                        <option value="Spelling">Spelling Tests (66)</option>
+                        <option value="Phrasal Verbs">Phrasal Verbs (9)</option>
+                        <option value="Homonyms & Confusables">Homonyms & Confusables (18)</option>
+                    </select>
+                </div>
+                <div class="config-group">
+                    <label>Question Count</label>
+                    <select id="sel-count" class="config-select">
+                        <option value="10">10 Questions (Quick Sprint)</option>
+                        <option value="25" selected>25 Questions (Standard Mock)</option>
+                        <option value="50">50 Questions (Deep Drill)</option>
+                        <option value="all">All Available Questions</option>
+                    </select>
+                </div>
+                <div style="align-self: flex-end;">
+                    <button class="btn-start" id="btn-start-quiz">🚀 Start Quiz</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quiz Area (Hidden before start) -->
+        <div id="quiz-workspace" style="display:none;">
+
+            <!-- Status & Timer -->
+            <div class="quiz-status-bar">
+                <div class="status-pill">Question <strong id="cur-q-num">1</strong> of <strong id="total-q-num">25</strong></div>
+                <div class="timer-box">⏱️ <span id="timer-display">00:00</span></div>
+                <div class="score-pill">Score: <span id="cur-score">0</span></div>
+            </div>
+
+            <div class="quiz-progress-bar">
+                <div class="quiz-progress-fill" id="progress-fill"></div>
+            </div>
+
+            <!-- Question Card -->
+            <div class="q-card">
+                <div class="q-header">
+                    <span class="q-badge" id="q-cat-badge">Synonyms</span>
+                    <span style="font-size:0.75rem; color:var(--text-muted);" id="q-id-badge">p14_001</span>
+                </div>
+
+                <div class="q-direction" id="q-direction">Select the most appropriate SYNONYM of the given word:</div>
+                <div class="q-text" id="q-text">Abstain</div>
+
+                <div class="options-list" id="options-list">
+                    <!-- Options injected here -->
+                </div>
+
+                <!-- Explanation -->
+                <div class="explanation-box" id="explanation-box">
+                    <div class="explanation-title">💡 Explanation & Context:</div>
+                    <div id="explanation-content"></div>
+                </div>
+
+                <!-- Actions -->
+                <div class="q-actions">
+                    <button class="btn-action ask-ai" id="btn-ask-mentor">
+                        <span>👩‍🏫 Ask Maestro Ma'am</span>
+                    </button>
+                    <div style="display:flex; gap:8px;">
+                        <button class="btn-action" id="btn-prev-q">← Prev</button>
+                        <button class="btn-action primary" id="btn-next-q">Next Question →</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Result Screen -->
+        <div class="result-screen" id="result-screen">
+            <h2 style="color:var(--accent-amber);">🎉 Quiz Completed!</h2>
+            <div class="result-score" id="res-score">18/25</div>
+            <div class="result-message" id="res-msg">Shabash Beta! Bahut badhiya performance! 🌟</div>
+
+            <div class="result-grid">
+                <div class="result-stat">
+                    <div class="val" id="res-accuracy" style="color:var(--accent-green);">72%</div>
+                    <div class="lbl">Accuracy</div>
+                </div>
+                <div class="result-stat">
+                    <div class="val" id="res-correct" style="color:var(--accent-green);">18</div>
+                    <div class="lbl">Correct</div>
+                </div>
+                <div class="result-stat">
+                    <div class="val" id="res-wrong" style="color:var(--accent-red);">7</div>
+                    <div class="lbl">Wrong</div>
+                </div>
+                <div class="result-stat">
+                    <div class="val" id="res-time">03:42</div>
+                    <div class="lbl">Total Time</div>
+                </div>
+            </div>
+
+            <div style="display:flex; justify-content:center; gap:12px; flex-wrap:wrap;">
+                <button class="btn-start" id="btn-retake">🔄 Retake Quiz</button>
+                <a href="vocab_maestro.html" class="btn-action" style="padding:10px 20px;">📚 Review Vocabs</a>
+                <a href="progress.html" class="btn-action" style="padding:10px 20px; color:var(--accent-green); border-color:var(--accent-green);">📊 View Progress</a>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Include Vocab Data & AI Mentor -->
+    <script src="vocab_maestro_data.js"></script>
+    <script src="ai_mentor.js"></script>
+
+    <script>
+    (function () {
+        'use strict';
+
+        const rawData = window.VOCAB_MAESTRO_DATA || {};
+        const phase14 = rawData.phase_14 || [];
+
+        // State
+        let quizQuestions = [];
+        let currentIndex = 0;
+        let score = 0;
+        let timerSeconds = 0;
+        let timerInterval = null;
+        let userAnswers = {}; // { qIndex: { chosenOpt, isCorrect } }
+
+        // DOM Elements
+        const selCategory = document.getElementById("sel-category");
+        const selCount = document.getElementById("sel-count");
+        const btnStartQuiz = document.getElementById("btn-start-quiz");
+        const quizConfig = document.getElementById("quiz-config");
+        const quizWorkspace = document.getElementById("quiz-workspace");
+        const resultScreen = document.getElementById("result-screen");
+
+        const curQNum = document.getElementById("cur-q-num");
+        const totalQNum = document.getElementById("total-q-num");
+        const timerDisplay = document.getElementById("timer-display");
+        const curScore = document.getElementById("cur-score");
+        const progressFill = document.getElementById("progress-fill");
+
+        const qCatBadge = document.getElementById("q-cat-badge");
+        const qIdBadge = document.getElementById("q-id-badge");
+        const qDirection = document.getElementById("q-direction");
+        const qText = document.getElementById("q-text");
+        const optionsList = document.getElementById("options-list");
+        const explanationBox = document.getElementById("explanation-box");
+        const explanationContent = document.getElementById("explanation-content");
+
+        const btnPrevQ = document.getElementById("btn-prev-q");
+        const btnNextQ = document.getElementById("btn-next-q");
+        const btnAskMentor = document.getElementById("btn-ask-mentor");
+        const btnRetake = document.getElementById("btn-retake");
+
+        // Event Listeners
+        btnStartQuiz.addEventListener("click", startQuiz);
+        btnPrevQ.addEventListener("click", () => navigateQuestion(-1));
+        btnNextQ.addEventListener("click", () => navigateQuestion(1));
+        btnRetake.addEventListener("click", () => {
+            resultScreen.classList.remove("show");
+            quizConfig.style.display = "block";
+        });
+
+        btnAskMentor.addEventListener("click", () => {
+            const q = quizQuestions[currentIndex];
+            if (!q) return;
+
+            const uAns = userAnswers[currentIndex];
+            const attemptInfo = uAns ? (uAns.isCorrect ? "Correct" : `Incorrectly chosen option: "${uAns.chosenOpt}"`) : "Not attempted yet";
+
+            if (window.askAIMentorAboutQuestion) {
+                window.askAIMentorAboutQuestion({
+                    id: q.item.id,
+                    exam: "SSC Selection Post Phase 14 (2026)",
+                    question: `${q.direction}\nTarget Word: "${q.targetWord}"\nOptions:\nA) ${q.options[0]}\nB) ${q.options[1]}\nC) ${q.options[2]}\nD) ${q.options[3]}`,
+                    options: q.options,
+                    answer: q.correctAnswer,
+                    solution: `Correct Answer: ${q.correctAnswer}\nDefinition / Meaning: ${q.item.meaning}\nDetails / Synonyms: ${q.item.detail}`,
+                    trick: "Focus on roots, prefixes, and exam elimination shortcuts.",
+                    userAttempt: attemptInfo
+                });
+            } else {
+                alert("Maestro Ma'am AI Mentor is loading. Please try again in a second!");
+            }
+        });
+
+        // Generate Quiz Questions
+        function generateQuiz(category, countLimit) {
+            let pool = phase14;
+            if (category !== "all") {
+                pool = pool.filter(x => x.category === category);
+            }
+            if (pool.length === 0) pool = phase14;
+
+            // Shuffle pool
+            const shuffled = [...pool].sort(() => 0.5 - Math.random());
+            const selected = countLimit === "all" ? shuffled : shuffled.slice(0, parseInt(countLimit, 10));
+
+            return selected.map(item => buildQuestionObj(item, pool));
+        }
+
+        function buildQuestionObj(item, pool) {
+            const cat = item.category;
+            let direction = "";
+            let targetWord = item.word;
+            let correctAnswer = "";
+            let distractors = [];
+
+            // Helper to get random distractors
+            function getDistractors(filterFn, extractorFn, count = 3) {
+                const candidates = pool.filter(x => x.id !== item.id && filterFn(x)).map(extractorFn).filter(Boolean);
+                const unique = [...new Set(candidates)];
+                return unique.sort(() => 0.5 - Math.random()).slice(0, count);
+            }
+
+            if (cat === "Synonyms") {
+                direction = "Select the most appropriate SYNONYM of the given word:";
+                // pick primary synonym or first from list
+                correctAnswer = (item.synonyms && item.synonyms.length > 0) ? item.synonyms[0] : (item.detail ? item.detail.split(",")[0].trim() : item.meaning);
+                distractors = getDistractors(x => x.category === "Synonyms", x => (x.synonyms && x.synonyms[0]) || (x.detail && x.detail.split(",")[0].trim()) || x.word);
+            } else if (cat === "Antonyms") {
+                direction = "Select the most appropriate ANTONYM of the given word:";
+                correctAnswer = (item.synonyms && item.synonyms.length > 0) ? item.synonyms[0] : (item.detail ? item.detail.split(",")[0].trim() : "Opposite meaning");
+                distractors = getDistractors(x => x.category === "Antonyms", x => (x.synonyms && x.synonyms[0]) || (x.detail && x.detail.split(",")[0].trim()) || x.word);
+            } else if (cat === "Idioms & Phrases") {
+                direction = "Select the most appropriate meaning of the given IDIOM / PHRASE:";
+                correctAnswer = item.meaning || item.detail;
+                distractors = getDistractors(x => x.category === "Idioms & Phrases", x => x.meaning);
+            } else if (cat === "One Word Substitution") {
+                direction = "Select the option that can be used as a ONE-WORD SUBSTITUTE for the given group of words:";
+                targetWord = `"${item.meaning}"`;
+                correctAnswer = item.word;
+                distractors = getDistractors(x => x.category === "One Word Substitution", x => x.word);
+            } else if (cat === "Spelling") {
+                direction = "Select the correctly spelt word related to the context:";
+                targetWord = `Meaning: "${item.meaning}"`;
+                correctAnswer = item.word;
+                distractors = createMisspellings(item.word);
+            } else {
+                direction = `Select the most appropriate meaning of the given term (${cat}):`;
+                correctAnswer = item.meaning || item.detail;
+                distractors = getDistractors(x => true, x => x.meaning || x.word);
+            }
+
+            // Fallback distractors if pool was small
+            while (distractors.length < 3) {
+                const dummy = ["Inconsequential", "Perseverance", "Ambiguous", "Mitigate", "Equivocal"][distractors.length];
+                if (!distractors.includes(dummy) && dummy !== correctAnswer) distractors.push(dummy);
+            }
+
+            // Build 4 options and shuffle
+            const options = [correctAnswer, ...distractors.slice(0, 3)].sort(() => 0.5 - Math.random());
+
+            return {
+                item,
+                direction,
+                targetWord,
+                correctAnswer,
+                options
+            };
+        }
+
+        // Smart misspelling generator for spelling test
+        function createMisspellings(word) {
+            const list = [];
+            if (word.includes("cc")) list.push(word.replace("cc", "c"));
+            if (word.includes("mm")) list.push(word.replace("mm", "m"));
+            if (word.includes("ss")) list.push(word.replace("ss", "s"));
+            if (word.includes("ll")) list.push(word.replace("ll", "l"));
+            if (word.includes("tt")) list.push(word.replace("tt", "t"));
+            if (word.includes("ei")) list.push(word.replace("ei", "ie"));
+            if (word.includes("ie")) list.push(word.replace("ie", "ei"));
+            if (word.endsWith("ous")) list.push(word.replace(/ous$/, "us"));
+            if (word.includes("ant")) list.push(word.replace("ant", "ent"));
+            if (word.includes("ent")) list.push(word.replace("ent", "ant"));
+            if (word.includes("able")) list.push(word.replace("able", "ible"));
+
+            // Add simple letter drop or swap
+            if (list.length < 3 && word.length > 5) {
+                list.push(word.slice(0, 3) + word.charAt(4) + word.charAt(3) + word.slice(5));
+            }
+            if (list.length < 3 && word.length > 4) {
+                list.push(word.slice(0, -2) + word.slice(-1));
+            }
+            if (list.length < 3) {
+                list.push(word + "e");
+            }
+            return [...new Set(list)].filter(w => w !== word).slice(0, 3);
+        }
+
+        // Start Quiz
+        function startQuiz() {
+            const cat = selCategory.value;
+            const cnt = selCount.value;
+
+            quizQuestions = generateQuiz(cat, cnt);
+            if (quizQuestions.length === 0) {
+                alert("No questions found for this selection!");
+                return;
+            }
+
+            currentIndex = 0;
+            score = 0;
+            userAnswers = {};
+            timerSeconds = 0;
+
+            quizConfig.style.display = "none";
+            resultScreen.classList.remove("show");
+            quizWorkspace.style.display = "block";
+
+            totalQNum.textContent = quizQuestions.length;
+            curScore.textContent = "0";
+
+            // Timer
+            if (timerInterval) clearInterval(timerInterval);
+            timerInterval = setInterval(() => {
+                timerSeconds++;
+                const mins = String(Math.floor(timerSeconds / 60)).padStart(2, '0');
+                const secs = String(timerSeconds % 60).padStart(2, '0');
+                timerDisplay.textContent = `${mins}:${secs}`;
+            }, 1000);
+
+            renderCurrentQuestion();
+        }
+
+        // Render Current Question
+        function renderCurrentQuestion() {
+            const q = quizQuestions[currentIndex];
+            if (!q) return;
+
+            curQNum.textContent = currentIndex + 1;
+            qCatBadge.textContent = q.item.category;
+            qIdBadge.textContent = q.item.id;
+            qDirection.textContent = q.direction;
+            qText.textContent = q.targetWord;
+
+            // Progress bar
+            const pct = Math.round(((currentIndex + 1) / quizQuestions.length) * 100);
+            progressFill.style.width = `${pct}%`;
+
+            // Prev / Next button state
+            btnPrevQ.disabled = currentIndex === 0;
+            btnNextQ.textContent = currentIndex === quizQuestions.length - 1 ? "Finish Quiz 🏁" : "Next Question →";
+
+            // Render Options
+            optionsList.innerHTML = "";
+            const keys = ["A", "B", "C", "D"];
+            const answered = userAnswers[currentIndex];
+
+            q.options.forEach((opt, idx) => {
+                const btn = document.createElement("button");
+                btn.className = "option-btn";
+                btn.innerHTML = `<span class="option-key">${keys[idx]}</span><span class="option-text">${escapeHtml(opt)}</span>`;
+
+                if (answered) {
+                    btn.classList.add("disabled");
+                    if (opt === q.correctAnswer) {
+                        btn.classList.add("correct");
+                    }
+                    if (opt === answered.chosenOpt && !answered.isCorrect) {
+                        btn.classList.add("wrong");
+                    }
+                } else {
+                    btn.addEventListener("click", () => handleOptionSelect(opt, q));
+                }
+
+                optionsList.appendChild(btn);
+            });
+
+            // Explanation box
+            if (answered) {
+                explanationBox.classList.add("show");
+                explanationContent.innerHTML = `
+                    <strong>Correct Answer:</strong> <span style="color:var(--accent-green); font-weight:700;">${escapeHtml(q.correctAnswer)}</span><br>
+                    <strong>Meaning:</strong> ${escapeHtml(q.item.meaning)}<br>
+                    ${q.item.detail ? `<strong>Details / Alternate:</strong> ${escapeHtml(q.item.detail)}` : ''}
+                `;
+            } else {
+                explanationBox.classList.remove("show");
+            }
+        }
+
+        // Handle Option Select
+        function handleOptionSelect(chosenOpt, q) {
+            const isCorrect = chosenOpt === q.correctAnswer;
+            userAnswers[currentIndex] = { chosenOpt, isCorrect };
+
+            if (isCorrect) {
+                score++;
+                curScore.textContent = score;
+            }
+
+            renderCurrentQuestion();
+        }
+
+        // Navigation
+        function navigateQuestion(delta) {
+            const nextIdx = currentIndex + delta;
+            if (nextIdx < 0) return;
+            if (nextIdx >= quizQuestions.length) {
+                finishQuiz();
+                return;
+            }
+            currentIndex = nextIdx;
+            renderCurrentQuestion();
+        }
+
+        // Finish Quiz & Results
+        function finishQuiz() {
+            if (timerInterval) clearInterval(timerInterval);
+
+            quizWorkspace.style.display = "none";
+            resultScreen.classList.add("show");
+
+            const total = quizQuestions.length;
+            const accuracy = Math.round((score / total) * 100);
+            const wrong = total - score;
+
+            const mins = String(Math.floor(timerSeconds / 60)).padStart(2, '0');
+            const secs = String(timerSeconds % 60).padStart(2, '0');
+
+            document.getElementById("res-score").textContent = `${score}/${total}`;
+            document.getElementById("res-accuracy").textContent = `${accuracy}%`;
+            document.getElementById("res-correct").textContent = score;
+            document.getElementById("res-wrong").textContent = wrong;
+            document.getElementById("res-time").textContent = `${mins}:${secs}`;
+
+            let encouragement = "";
+            if (accuracy >= 80) {
+                encouragement = "🌟 Shandar Beta! Outstanding performance! SSC CGL Tier 1 & 2 vocabulary is in your bag! Keep it up! 🚀";
+            } else if (accuracy >= 60) {
+                encouragement = "👏 Bahut acha attempt! Ek baar weak words ko review kar lo, full marks pakke hain! 💪";
+            } else {
+                encouragement = "💡 Koi baat nahi Beta! Practice makes perfect. Maestro Ma'am ke saath revise karo aur dobara attempt karo! 🌸";
+            }
+            document.getElementById("res-msg").textContent = encouragement;
+        }
+
+        function escapeHtml(str) {
+            if (!str) return "";
+            return String(str)
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;")
+                .replace(/'/g, "&#039;");
+        }
+
+    })();
+    </script>
+</body>
+</html>
