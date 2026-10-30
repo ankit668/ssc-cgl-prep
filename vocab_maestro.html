@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Vocabs Maestro Master Hub • 1,400+ Words & 50-Day Course (Maths Maestro)</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="icon-192.png">
+    <link rel="apple-touch-icon" href="icon-192.png">
+    <meta name="theme-color" content="#0B1120">
+    <link rel="stylesheet" href="ai_mentor.css">
+
+    <style>
+        :root {
+            --bg-color: #0B1120;
+            --container-bg: #1E293B;
+            --card-bg: #162032;
+            --card-hover: #1c2a42;
+            --text-color: #F8FAFC;
+            --text-muted: #94A3B8;
+            --border-color: #334155;
+            --accent-cyan: #06B6D4;
+            --accent-blue: #38BDF8;
+            --accent-green: #10B981;
+            --accent-red: #EF4444;
+            --accent-amber: #F59E0B;
+            --accent-purple: #A855F7;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            min-height: 100vh;
+            padding-bottom: 90px;
+        }
+
+        header {
+            background: rgba(30, 41, 59, 0.85);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            padding: 12px 16px;
+        }
+
+        .header-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .brand-area {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .nav-btn {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            text-decoration: none;
+            padding: 6px 12px;
+            border-radius: 8px;
+            font-size: 0.82rem;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s;
+        }
+
+        .nav-btn:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: var(--accent-cyan);
+            color: var(--accent-cyan);
+        }
+
+        .title-block h1 {
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: #FFFFFF;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .badge-pro {
+            background: linear-gradient(135deg, #A855F7, #3B82F6);
+            color: #FFFFFF;
+            font-size: 0.7rem;
+            padding: 2px 7px;
+            border-radius: 6px;
+            font-weight: 800;
+            text-transform: uppercase;
+        }
+
+        .title-block p {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            margin-top: 2px;
+        }
+
+        main {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 16px;
+        }
+
+        /* Stats Summary */
+        .stats-bar {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            margin-bottom: 16px;
+        }
+
+        .stat-item {
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 12px 8px;
+            text-align: center;
+        }
+
+        .stat-item .num {
+            font-size: 1.35rem;
+            font-weight: 800;
+            color: var(--accent-cyan);
+        }
+
+        .stat-item .lbl {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-top: 2px;
+        }
+
+        /* Top Module Tabs */
+        .module-tabs {
+            display: flex;
+            gap: 8px;
+            overflow-x: auto;
+            padding-bottom: 6px;
+            margin-bottom: 16px;
+            scrollbar-width: thin;
+        }
+
+        .module-tab-btn {
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-muted);
+            padding: 10px 16px;
+            border-radius: 10px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            white-space: nowrap;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .module-tab-btn:hover {
+            color: #FFFFFF;
+            border-color: var(--accent-cyan);
+        }
+
+        .module-tab-btn.active {
+            background: linear-gradient(135deg, rgba(6, 182, 212, 0.2), rgba(59, 130, 246, 0.2));
+            border-color: var(--accent-cyan);
+            color: var(--accent-cyan);
+        }
+
+        /* Sub Filter Bar */
+        .controls-area {
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 14px;
+            margin-bottom: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .search-box {
+            position: relative;
+        }
+
+        .search-box input {
+            width: 100%;
+            background: #0F172A;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 10px 14px 10px 38px;
+            color: #FFFFFF;
+            font-size: 0.88rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .search-box input:focus {
+            border-color: var(--accent-cyan);
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+        }
+
+        .filter-scroll {
+            display: flex;
+            gap: 6px;
+            overflow-x: auto;
+            padding-bottom: 4px;
+            scrollbar-width: thin;
+        }
+
+        .pill-btn {
+            background: #0F172A;
+            border: 1px solid var(--border-color);
+            color: var(--text-muted);
+            padding: 5px 12px;
+            border-radius: 6px;
+            font-size: 0.78rem;
+            font-weight: 600;
+            white-space: nowrap;
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+
+        .pill-btn:hover {
+            color: #FFFFFF;
+            border-color: var(--accent-blue);
+        }
+
+        .pill-btn.active {
+            background: var(--accent-blue);
+            color: #0B1120;
+            border-color: var(--accent-blue);
+            font-weight: 700;
+        }
+
+        /* Card Layout */
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 14px;
+        }
+
+        .vocab-card {
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: transform 0.15s, border-color 0.15s, box-shadow 0.15s;
+            position: relative;
+        }
+
+        .vocab-card:hover {
+            border-color: rgba(6, 182, 212, 0.4);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 14px rgba(0,0,0,0.3);
+        }
+
+        .card-top {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 8px;
+            margin-bottom: 8px;
+        }
+
+        .word-title {
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: #FFFFFF;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .badge-cat {
+            font-size: 0.65rem;
+            padding: 2px 6px;
+            border-radius: 4px;
+            background: rgba(56, 189, 248, 0.12);
+            color: var(--accent-blue);
+            border: 1px solid rgba(56, 189, 248, 0.25);
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .badge-exam {
+            font-size: 0.65rem;
+            padding: 2px 6px;
+            border-radius: 4px;
+            background: rgba(245, 158, 11, 0.12);
+            color: var(--accent-amber);
+            border: 1px solid rgba(245, 158, 11, 0.25);
+            font-weight: 700;
+        }
+
+        .card-actions-top {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .icon-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            color: var(--text-muted);
+            padding: 3px 6px;
+            border-radius: 4px;
+            transition: all 0.15s;
+        }
+
+        .icon-btn:hover {
+            color: var(--accent-amber);
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .icon-btn.bookmarked {
+            color: var(--accent-amber);
+        }
+
+        .word-meaning {
+            font-size: 0.9rem;
+            color: #E2E8F0;
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+
+        .word-hindi {
+            font-size: 0.85rem;
+            color: #34D399;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .word-example {
+            font-size: 0.82rem;
+            color: #94A3B8;
+            font-style: italic;
+            background: rgba(0, 0, 0, 0.2);
+            border-left: 2px solid var(--accent-cyan);
+            padding: 6px 10px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+
+        .synonyms-cloud {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+            margin-top: 8px;
+            margin-bottom: 12px;
+        }
+
+        .syn-tag {
+            background: rgba(15, 23, 42, 0.8);
+            border: 1px solid var(--border-color);
+            color: #38BDF8;
+            font-size: 0.72rem;
+            padding: 2px 7px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+
+        .card-footer {
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+            padding-top: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+        }
+
+        .speak-btn {
+            background: transparent;
+            border: 1px solid var(--border-color);
+            color: var(--text-muted);
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            transition: all 0.2s;
+        }
+
+        .speak-btn:hover {
+            color: #FFFFFF;
+            border-color: var(--accent-blue);
+        }
+
+        .ask-ai-card-btn {
+            background: linear-gradient(135deg, rgba(6, 182, 212, 0.15), rgba(59, 130, 246, 0.15));
+            border: 1px solid rgba(6, 182, 212, 0.4);
+            color: var(--accent-cyan);
+            padding: 5px 12px;
+            border-radius: 6px;
+            font-size: 0.78rem;
+            font-weight: 700;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            transition: all 0.2s;
+        }
+
+        .ask-ai-card-btn:hover {
+            border-color: var(--accent-cyan);
+            background: linear-gradient(135deg, rgba(6, 182, 212, 0.3), rgba(59, 130, 246, 0.3));
+            transform: translateY(-1px);
+        }
+
+        footer {
+            border-top: 1px solid var(--border-color);
+            padding: 16px;
+            text-align: center;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <div class="brand-area">
+                <a href="index.html" class="nav-btn" title="Back to Dashboard">← Home</a>
+                <a href="steno_vocab_hub.html" class="nav-btn" title="Steno Vocab Hub">📖 Steno Hub</a>
+                <a href="xmp.html" class="nav-btn" style="color:var(--accent-cyan); border-color:var(--accent-cyan);" title="Maths Maestro Practice">🔥 XMP Hub</a>
+                <div class="title-block">
+                    <h1>📚 Vocabs Maestro <span class="badge-pro">Master Hub</span></h1>
+                    <p>1,400+ Solved Words • 50-Day Course • Homonyms • SSC 2025 • Phase 14 • Vishesh Shukla</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Stats Summary -->
+        <section class="stats-bar">
+            <div class="stat-item">
+                <div class="num" id="stat-total">1,400+</div>
+                <div class="lbl">Total Words</div>
+            </div>
+            <div class="stat-item">
+                <div class="num" id="stat-active-module" style="color: var(--accent-blue);">50 Days</div>
+                <div class="lbl">Current View</div>
+            </div>
+            <div class="stat-item">
+                <div class="num" id="stat-visible" style="color: var(--accent-green);">0</div>
+                <div class="lbl">Words Showing</div>
+            </div>
+            <div class="stat-item">
+                <div class="num" id="stat-bookmarks" style="color: var(--accent-amber);">0</div>
+                <div class="lbl">Bookmarked</div>
+            </div>
+        </section>
+
+        <!-- Module Selection Tabs -->
+        <div class="module-tabs" id="module-tabs">
+            <button class="module-tab-btn active" data-mod="days_50">⚡ 50-Day Vocab Course (Days 1–50)</button>
+            <button class="module-tab-btn" data-mod="homonyms">🎯 CGL 2025 Homonyms Vault (33 Pairs)</button>
+            <button class="module-tab-btn" data-mod="ssc_2025">🏛️ SSC 2025 Exam-Wise Vocabs (1,044)</button>
+            <button class="module-tab-btn" data-mod="phase_14">🚀 Selection Post Phase 14 (304)</button>
+            <button class="module-tab-btn" data-mod="bookmarks">⭐ Bookmarked Words</button>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="controls-area">
+            <div class="search-box">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="search-input" placeholder="Search by word, meaning, Hindi translation, or exam keyword...">
+            </div>
+
+            <!-- Dynamic Pill Bar (Changes with module) -->
+            <div class="filter-scroll" id="dynamic-pills">
+                <!-- Injected via JS -->
+            </div>
+        </div>
+
+        <!-- Cards Grid Container -->
+        <div class="cards-grid" id="cards-container">
+            <!-- Rendered via JS -->
+        </div>
+
+        <footer>
+            <p>SSC CGL 2024–2026 High-Yield Vocabulary Master Hub • Maths Maestro (Vishesh Shukla)</p>
+        </footer>
+    </main>
+
+    <!-- Load Local JS Dataset -->
+    <script src="vocab_maestro_data.js"></script>
+    <script>
+        (function() {
+            const rawData = window.VOCAB_MAESTRO_DATA || {};
+            const homonyms = rawData.homonyms || [];
+            const ssc2025 = rawData.ssc_2025 || [];
+            const phase14 = rawData.phase_14 || [];
+            const days50 = rawData.days_50 || [];
+
+            const STORAGE_BOOKMARKS = "ssc_vocab_maestro_bookmarks_v1";
+            let bookmarks = JSON.parse(localStorage.getItem(STORAGE_BOOKMARKS) || "{}");
+
+            let currentModule = "days_50";
+            let currentSubFilter = "all";
+            let searchQuery = "";
+
+            // DOM Elements
+            const cardsContainer = document.getElementById("cards-container");
+            const dynamicPills = document.getElementById("dynamic-pills");
+            const searchInput = document.getElementById("search-input");
+            const moduleTabBtns = document.querySelectorAll(".module-tab-btn");
+
+            const statActiveModule = document.getElementById("stat-active-module");
+            const statVisible = document.getElementById("stat-visible");
+            const statBookmarks = document.getElementById("stat-bookmarks");
+
+            init();
+
+            function init() {
+                updateStats();
+                setupTabs();
+                renderPills();
+                renderCards();
+                setupSearch();
+            }
+
+            function setupTabs() {
+                moduleTabBtns.forEach(btn => {
+                    btn.addEventListener("click", () => {
+                        moduleTabBtns.forEach(b => b.classList.remove("active"));
+                        btn.classList.add("active");
+                        currentModule = btn.getAttribute("data-mod");
+                        currentSubFilter = "all";
+                        searchQuery = "";
+                        searchInput.value = "";
+                        renderPills();
+                        renderCards();
+                        updateStats();
+                    });
+                });
+            }
+
+            function setupSearch() {
+                searchInput.addEventListener("input", (e) => {
+                    searchQuery = e.target.value.toLowerCase().trim();
+                    renderCards();
+                });
+            }
+
+            function updateStats() {
+                statBookmarks.textContent = Object.values(bookmarks).filter(Boolean).length;
+                if (currentModule === "days_50") statActiveModule.textContent = "50-Day";
+                else if (currentModule === "homonyms") statActiveModule.textContent = "Homonyms";
+                else if (currentModule === "ssc_2025") statActiveModule.textContent = "SSC 2025";
+                else if (currentModule === "phase_14") statActiveModule.textContent = "Phase 14";
+                else if (currentModule === "bookmarks") statActiveModule.textContent = "Saved";
+            }
+
+            function renderPills() {
+                dynamicPills.innerHTML = "";
+                let pillsHtml = '';
+
+                if (currentModule === "days_50") {
+                    pillsHtml += `<button class="pill-btn ${currentSubFilter === 'all' ? 'active' : ''}" data-sub="all">All 50 Days</button>`;
+                    for (let d = 1; d <= 50; d++) {
+                        pillsHtml += `<button class="pill-btn ${currentSubFilter === String(d) ? 'active' : ''}" data-sub="${d}">Day ${d}</button>`;
+                    }
+                } else if (currentModule === "ssc_2025") {
+                    pillsHtml += `
+                        <button class="pill-btn ${currentSubFilter === 'all' ? 'active' : ''}" data-sub="all">All Exams (1,044)</button>
+                        <button class="pill-btn ${currentSubFilter === 'CHSL Pre 2025' ? 'active' : ''}" data-sub="CHSL Pre 2025">CHSL Pre 2025</button>
+                        <button class="pill-btn ${currentSubFilter === 'CGL Pre 2025' ? 'active' : ''}" data-sub="CGL Pre 2025">CGL Pre 2025</button>
+                        <button class="pill-btn ${currentSubFilter === 'CPO Pre 2025' ? 'active' : ''}" data-sub="CPO Pre 2025">CPO Pre 2025</button>
+                        <button class="pill-btn ${currentSubFilter === 'Selection Post 2025' ? 'active' : ''}" data-sub="Selection Post 2025">Selection Post</button>
+                        <button class="pill-btn ${currentSubFilter === 'Mains Additional Vocab' ? 'active' : ''}" data-sub="Mains Additional Vocab">Mains Additional</button>
+                    `;
+                } else if (currentModule === "phase_14") {
+                    pillsHtml += `
+                        <button class="pill-btn ${currentSubFilter === 'all' ? 'active' : ''}" data-sub="all">All (304)</button>
+                        <button class="pill-btn ${currentSubFilter === 'Synonyms' ? 'active' : ''}" data-sub="Synonyms">Synonyms</button>
+                        <button class="pill-btn ${currentSubFilter === 'Antonyms' ? 'active' : ''}" data-sub="Antonyms">Antonyms</button>
+                        <button class="pill-btn ${currentSubFilter === 'One Word Substitution' ? 'active' : ''}" data-sub="One Word Substitution">OWS</button>
+                        <button class="pill-btn ${currentSubFilter === 'Idioms & Phrases' ? 'active' : ''}" data-sub="Idioms & Phrases">Idioms</button>
+                    `;
+                } else if (currentModule === "homonyms") {
+                    pillsHtml += `<button class="pill-btn active" data-sub="all">All 33 Homonym Pairs (CGL 2025)</button>`;
+                } else if (currentModule === "bookmarks") {
+                    pillsHtml += `<button class="pill-btn active" data-sub="all">Your Bookmarked Words</button>`;
+                }
+
+                dynamicPills.innerHTML = pillsHtml;
+
+                dynamicPills.querySelectorAll(".pill-btn").forEach(btn => {
+                    btn.addEventListener("click", () => {
+                        dynamicPills.querySelectorAll(".pill-btn").forEach(b => b.classList.remove("active"));
+                        btn.classList.add("active");
+                        currentSubFilter = btn.getAttribute("data-sub");
+                        renderCards();
+                    });
+                });
+            }
+
+            function renderCards() {
+                cardsContainer.innerHTML = "";
+                let itemsToRender = [];
+
+                if (currentModule === "homonyms") {
+                    itemsToRender = homonyms.map(h => ({
+                        id: h.id,
+                        word: h.word,
+                        tag: "CGL 2025 Homonym",
+                        badge: `Q#${h.num}`,
+                        meaning: h.meanings.join(" • "),
+                        hindi: h.hindi,
+                        example: h.examples.join("<br><br>"),
+                        synonyms: []
+                    }));
+                } else if (currentModule === "ssc_2025") {
+                    let filtered = ssc2025;
+                    if (currentSubFilter !== "all") {
+                        filtered = filtered.filter(x => x.exam === currentSubFilter);
+                    }
+                    itemsToRender = filtered.map(s => ({
+                        id: s.id,
+                        word: s.word,
+                        tag: s.exam,
+                        badge: s.category,
+                        meaning: s.details,
+                        hindi: "",
+                        example: "",
+                        synonyms: []
+                    }));
+                } else if (currentModule === "phase_14") {
+                    let filtered = phase14;
+                    if (currentSubFilter !== "all") {
+                        filtered = filtered.filter(x => x.category === currentSubFilter);
+                    }
+                    itemsToRender = filtered.map(p => ({
+                        id: p.id,
+                        word: p.word,
+                        tag: "Phase 14 (2026)",
+                        badge: p.category,
+                        meaning: p.meaning,
+                        hindi: "",
+                        example: "",
+                        synonyms: p.related ? p.related.split(",").map(s => s.trim()) : []
+                    }));
+                } else if (currentModule === "days_50") {
+                    let daysSubset = days50;
+                    if (currentSubFilter !== "all") {
+                        daysSubset = daysSubset.filter(d => String(d.day) === currentSubFilter);
+                    }
+                    daysSubset.forEach(d => {
+                        d.entries.forEach((e, idx) => {
+                            itemsToRender.push({
+                                id: `day${d.day}_${idx}`,
+                                word: e.word,
+                                tag: `Day ${d.day}`,
+                                badge: "50-Day Series",
+                                meaning: e.meaning,
+                                hindi: "",
+                                example: e.examples.join(" | "),
+                                synonyms: e.synonyms
+                            });
+                        });
+                    });
+                } else if (currentModule === "bookmarks") {
+                    // Collect bookmarked across all modules
+                    homonyms.forEach(h => {
+                        if (bookmarks[h.id]) {
+                            itemsToRender.push({
+                                id: h.id,
+                                word: h.word,
+                                tag: "Homonym",
+                                badge: `Q#${h.num}`,
+                                meaning: h.meanings.join(" • "),
+                                hindi: h.hindi,
+                                example: h.examples.join("<br>"),
+                                synonyms: []
+                            });
+                        }
+                    });
+                    ssc2025.forEach(s => {
+                        if (bookmarks[s.id]) {
+                            itemsToRender.push({
+                                id: s.id,
+                                word: s.word,
+                                tag: s.exam,
+                                badge: s.category,
+                                meaning: s.details,
+                                hindi: "",
+                                example: "",
+                                synonyms: []
+                            });
+                        }
+                    });
+                    phase14.forEach(p => {
+                        if (bookmarks[p.id]) {
+                            itemsToRender.push({
+                                id: p.id,
+                                word: p.word,
+                                tag: "Phase 14",
+                                badge: p.category,
+                                meaning: p.meaning,
+                                hindi: "",
+                                example: "",
+                                synonyms: p.related ? p.related.split(",").map(s => s.trim()) : []
+                            });
+                        }
+                    });
+                }
+
+                // Apply search filter
+                if (searchQuery) {
+                    itemsToRender = itemsToRender.filter(item => {
+                        const haystack = (item.word + " " + item.meaning + " " + item.hindi + " " + (item.synonyms || []).join(" ") + " " + item.tag).toLowerCase();
+                        return haystack.includes(searchQuery);
+                    });
+                }
+
+                statVisible.textContent = itemsToRender.length;
+
+                if (itemsToRender.length === 0) {
+                    cardsContainer.innerHTML = `
+                        <div style="grid-column: 1 / -1; text-align:center; padding: 50px 20px; color: var(--text-muted); background: var(--container-bg); border-radius: 12px; border: 1px dashed var(--border-color);">
+                            <div style="font-size: 2.2rem; margin-bottom: 8px;">🔍</div>
+                            <h3 style="color:#FFFFFF; font-size:1.1rem; margin-bottom:4px;">No words found</h3>
+                            <p style="font-size:0.85rem;">Try another search term or switch to another module tab.</p>
+                        </div>
+                    `;
+                    return;
+                }
+
+                // Render first 250 items for superfast rendering if large list
+                const renderLimit = itemsToRender.slice(0, 300);
+
+                cardsContainer.innerHTML = renderLimit.map(item => {
+                    const isBookmarked = !!bookmarks[item.id];
+                    return `
+                        <div class="vocab-card" id="card-${item.id}">
+                            <div>
+                                <div class="card-top">
+                                    <div class="word-title">
+                                        <span>${escapeHtml(item.word)}</span>
+                                        <span class="badge-cat">${escapeHtml(item.badge)}</span>
+                                    </div>
+                                    <div class="card-actions-top">
+                                        <span class="badge-exam">${escapeHtml(item.tag)}</span>
+                                        <button class="icon-btn bookmark-btn ${isBookmarked ? 'bookmarked' : ''}" data-id="${item.id}" title="${isBookmarked ? 'Remove Bookmark' : 'Bookmark Word'}">
+                                            ${isBookmarked ? '★' : '☆'}
+                                        </button>
+                                    </div>
+                                </div>
+
+                                ${item.hindi ? `<div class="word-hindi">🇮🇳 ${escapeHtml(item.hindi)}</div>` : ''}
+
+                                <div class="word-meaning">${escapeHtml(item.meaning)}</div>
+
+                                ${item.example ? `<div class="word-example">${item.example}</div>` : ''}
+
+                                ${item.synonyms && item.synonyms.length > 0 ? `
+                                    <div class="synonyms-cloud">
+                                        ${item.synonyms.map(s => `<span class="syn-tag">${escapeHtml(s)}</span>`).join("")}
+                                    </div>
+                                ` : ''}
+                            </div>
+
+                            <div class="card-footer">
+                                <button class="speak-btn" data-word="${escapeHtml(item.word)}">
+                                    <span>🔊 Listen</span>
+                                </button>
+                                <button class="ask-ai-card-btn" data-id="${item.id}" data-word="${escapeHtml(item.word)}" data-meaning="${escapeHtml(item.meaning)}">
+                                    <span>✨ Ask AI</span>
+                                </button>
+                            </div>
+                        </div>
+                    `;
+                }).join("");
+
+                attachCardEvents(itemsToRender);
+            }
+
+            function attachCardEvents(items) {
+                // Audio pronunciation
+                cardsContainer.querySelectorAll(".speak-btn").forEach(btn => {
+                    btn.addEventListener("click", function(e) {
+                        e.stopPropagation();
+                        const word = this.getAttribute("data-word");
+                        if ('speechSynthesis' in window && word) {
+                            window.speechSynthesis.cancel();
+                            const u = new SpeechSynthesisUtterance(word);
+                            u.rate = 0.9;
+                            u.lang = 'en-US';
+                            window.speechSynthesis.speak(u);
+                        }
+                    });
+                });
+
+                // Bookmark toggle
+                cardsContainer.querySelectorAll(".bookmark-btn").forEach(btn => {
+                    btn.addEventListener("click", function(e) {
+                        e.stopPropagation();
+                        const id = this.getAttribute("data-id");
+                        bookmarks[id] = !bookmarks[id];
+                        localStorage.setItem(STORAGE_BOOKMARKS, JSON.stringify(bookmarks));
+                        updateStats();
+                        if (bookmarks[id]) {
+                            this.classList.add("bookmarked");
+                            this.textContent = "★";
+                        } else {
+                            this.classList.remove("bookmarked");
+                            this.textContent = "☆";
+                            if (currentModule === "bookmarks") {
+                                renderCards();
+                            }
+                        }
+                    });
+                });
+
+                // Ask AI Mentor
+                cardsContainer.querySelectorAll(".ask-ai-card-btn").forEach(btn => {
+                    btn.addEventListener("click", function(e) {
+                        e.stopPropagation();
+                        const id = this.getAttribute("data-id");
+                        const item = items.find(x => x.id === id);
+                        if (item && window.askAIMentorAboutQuestion) {
+                            window.askAIMentorAboutQuestion({
+                                id: item.id,
+                                exam: item.tag || 'Vocabs Maestro',
+                                question: `I need a high-yield breakdown and mnemonic for this vocabulary word: "${item.word}".\nDefinition: ${item.meaning}\n${item.example ? 'Example: ' + item.example : ''}`,
+                                options: item.synonyms || [],
+                                answer: item.word,
+                                solution: `Meaning: ${item.meaning}\nSynonyms: ${(item.synonyms || []).join(', ')}`,
+                                trick: 'Generate 5-second Hindi memory trick and common exam traps for this word.'
+                            }, null);
+                        }
+                    });
+                });
+            }
+
+            function escapeHtml(str) {
+                if (!str) return "";
+                return String(str)
+                    .replace(/&/g, "&amp;")
+                    .replace(/</g, "&lt;")
+                    .replace(/>/g, "&gt;")
+                    .replace(/"/g, "&quot;")
+                    .replace(/'/g, "&#039;");
+            }
+        })();
+    </script>
+
+    <!-- AI Mentor Doubt Solver -->
+    <script src="ai_mentor.js" defer></script>
+</body>
+</html>

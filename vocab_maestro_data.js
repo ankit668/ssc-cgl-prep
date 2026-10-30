@@ -1,0 +1,21577 @@
+// Vocabs Maestro Master Dataset - Vishesh Shukla (Maths Maestro)
+window.VOCAB_MAESTRO_DATA = {
+  "title": "Vocabs Maestro Master Hub",
+  "compiler": "Vishesh Shukla (Maths Maestro)",
+  "homonyms": [
+    {
+      "id": "homo_01",
+      "num": 1,
+      "word": "INTROIT",
+      "meanings": [
+        "¢ Church hymn sung at the beginning of a service",
+        "¢ Musical performance (orchestral introduction)"
+      ],
+      "hindi": "UfeaaTere Bite / Te Att",
+      "examples": [
+        "¢ — The introit began solemnly as the priest entered the cathedral.",
+        "¢ The orchestra's introit set the tone for the entire concert."
+      ]
+    },
+    {
+      "id": "homo_02",
+      "num": 2,
+      "word": "GULES",
+      "meanings": [
+        "¢ Red color in heraldry (heraldic red)",
+        "¢ Color of sauce (reddish)"
+      ],
+      "hindi": "OT TT / BMCSH AT",
+      "examples": [
+        "¢ — The shield displayed a field of gules with a silver cross.",
+        "¢ — The gules sauce added a deep red hue to the dish."
+      ]
+    },
+    {
+      "id": "homo_03",
+      "num": 3,
+      "word": "BAILEY",
+      "meanings": [
+        "¢ Outer wall or courtyard ofa castle (fortification)",
+        "¢ Field or enclosed pasture area"
+      ],
+      "hindi": "feat @T aredt dar / IRE aa",
+      "examples": [
+        "¢ — The bailey surrounding the keep was heavily fortified.",
+        "¢ Sheep grazed peacefillly in the bailey beyond the village."
+      ]
+    },
+    {
+      "id": "homo_04",
+      "num": 4,
+      "word": "FANON",
+      "meanings": [
+        "¢ — Liturgical vestment worn by the Pope (religious garment)",
+        "¢ Philosopher Frantz Fanon (reference to famous theorist)"
+      ],
+      "hindi": "Ufa Gea / ae Wicd At",
+      "examples": [
+        "¢ The Pope wore the ceremonial fanon during the Easter procession.",
+        "¢  Fanon's theories on colonialism revolutionized postcolonial studies."
+      ]
+    },
+    {
+      "id": "homo_05",
+      "num": 5,
+      "word": "ORIEL",
+      "meanings": [
+        "¢ Projecting window in Gothic architecture (bay window)",
+        "¢ Frequency device term in physics/engineering"
+      ],
+      "hindi": "RSet / orate STP",
+      "examples": [
+        "¢ The medieval mansion featured an ornate oriel overlooking the garden.",
+        "¢ — The oriel circuit measured the frequency response of the signal."
+      ]
+    },
+    {
+      "id": "homo_06",
+      "num": 6,
+      "word": "PIKE",
+      "meanings": [
+        "¢ Medieval weapon (long spear used by infantry)",
+        "¢ Predatory freshwater fish"
+      ],
+      "hindi": "UTE / ASA",
+      "examples": [
+        "¢ Medieval soldiers wielded the pike as their primary weapon in formation.",
+        "¢ The pike lurks beneath the water waiting to ambush smaller fish."
+      ]
+    },
+    {
+      "id": "homo_07",
+      "num": 7,
+      "word": "PAULDRON",
+      "meanings": [
+        "¢ Armor piece protecting the shoulder (shoulder plate)",
+        "¢ Body part term (anatomical reference)"
+      ],
+      "hindi": "6Y G1 GAT / AER BT SAT",
+      "examples": [
+        "¢ — The knight's pauldron bore scratches from previous battles.",
+        "¢ — The pauldron joint connects the arm to the torso."
+      ]
+    },
+    {
+      "id": "homo_08",
+      "num": 8,
+      "word": "TRIPOS",
+      "meanings": [
+        "¢ Examination system at Cambridge University (academic assessment)",
+        "¢ — Three-legged stool (furniture)"
+      ],
+      "hindi": "U&tait Wore / at TRY areht eat",
+      "examples": [
+        "¢ She excelled in the mathematical tripos at Cambridge University.",
+        "¢ — The ancient tripos provided a stable base for the ceremonial cauldron.",
+        "PAGE 4 ---"
+      ]
+    },
+    {
+      "id": "homo_09",
+      "num": 9,
+      "word": "RHEME",
+      "meanings": [
+        "¢ — Linguistic term (part of utterance that comments on the theme)",
+        "¢ Biological sense (root/rhizome in botany)"
+      ],
+      "hindi": "UTSTS Beg / otf are",
+      "examples": [
+        "¢ Inthe sentence \"The cat is sleeping,\" \"is sleeping\" is the rheme.",
+        "¢ The rheme of the plant extended underground seeking nutrients."
+      ]
+    },
+    {
+      "id": "homo_10",
+      "num": 10,
+      "word": "COMPACT",
+      "meanings": [
+        "¢ Small object (something compressed into small space)",
+        "¢ Agreement or contract (mutual understanding)"
+      ],
+      "hindi": "Btet ad/ wagitar",
+      "examples": [
+        "¢ She carried a compact mirror in her handbag for touch-ups.",
+        "¢ The two nations signed a compact to reduce carbon emissions."
+      ]
+    },
+    {
+      "id": "homo_11",
+      "num": 11,
+      "word": "BARK",
+      "meanings": [
+        "¢ Tree covering (outer layer of tree trunk)",
+        "¢ Sound made by a dog"
+      ],
+      "hindi": "us wl Ora / ea or lear",
+      "examples": [
+        "¢ The rough bark of the oak tree protected it from insects.",
+        "¢ The dog's sharp bark alerted us to the stranger at the gate.",
+        "PAGE 5 ---"
+      ]
+    },
+    {
+      "id": "homo_12",
+      "num": 12,
+      "word": "FAIR",
+      "meanings": [
+        "¢ Beautiful or attractive (aesthetically pleasing)",
+        "¢ — Just or equal (impartial treatment)",
+        "¢ Festival or gathering (public event)"
+      ],
+      "hindi": "Yak / GAT / ar",
+      "examples": [
+        "¢ She had a fair complexion and delicate features.",
+        "¢ The judge ensured fair treatment for all parties involved.",
+        "¢ The village fair attracted thousands of visitors annually."
+      ]
+    },
+    {
+      "id": "homo_13",
+      "num": 13,
+      "word": "PEAK",
+      "meanings": [
+        "¢ Mountain top (highest point of a mountain)",
+        "¢ Reach highest point (achieve maximum level)"
+      ],
+      "hindi": "Ta Prax / Waar fag",
+      "examples": [
+        "¢ The climber reached the peak of Mount Everest after weeks of effort.",
+        "¢ His career peaked when he won the international championship."
+      ]
+    },
+    {
+      "id": "homo_14",
+      "num": 14,
+      "word": "DECK",
+      "meanings": [
+        "¢ — Ship floor (upper level ofa ship where people walk)",
+        "¢ Set of playing cards (collection of cards for games)"
+      ],
+      "hindi": "STeTsl PT Bo / AUIS Ta / --- PAGE 6 ---",
+      "examples": [
+        "¢ — The sailors swabbed the deck of the ship every morning.",
+        "¢ He shuffled the deck of cards before dealing."
+      ]
+    },
+    {
+      "id": "homo_15",
+      "num": 15,
+      "word": "MINE",
+      "meanings": [
+        "¢ Coal pit or excavation (underground resource extraction)",
+        "¢  Possessive pronoun (belonging to me)"
+      ],
+      "hindi": "qr / at (adaray",
+      "examples": [
+        "¢ The coal mine employed hundreds of workers in the region.",
+        "¢ — This book is mine; please return it when you finish.",
+        "16. BAT (Q16)",
+        "English Meanings:",
+        "¢ Sports equipment (used in cricket, baseball, softball)",
+        "¢ Flying mammal with membranous wings",
+        "Hindi Translation: Tel / TATTES",
+        "Examples:",
+        "¢ The batsman gripped the bat firmly before facing the fast bowler.",
+        "¢ The bat emerged from its cave at dusk to hunt for insects."
+      ]
+    },
+    {
+      "id": "homo_17",
+      "num": 17,
+      "word": "WELL",
+      "meanings": [
+        "¢ Water source (deep hole for extracting underground water)",
+        "¢ — Adverb (ina satisfactory or good manner)"
+      ],
+      "hindi": "pai / rest Rea",
+      "examples": [
+        "¢ — The villagers drew fresh water from the well every morning.",
+        "¢ She performed well in the examination despite her nervousness."
+      ]
+    },
+    {
+      "id": "homo_18",
+      "num": 18,
+      "word": "SEAL",
+      "meanings": [
+        "¢ Stamp or closure (device used to authenticate documents)",
+        "¢ Sea animal (marine mammal with flippers)"
+      ],
+      "hindi": "Yet /aaat WTA",
+      "examples": [
+        "¢ — The official seal on the document verified its authenticity.",
+        "¢ The seal basked on the ice floe in the Arctic waters."
+      ]
+    },
+    {
+      "id": "homo_19",
+      "num": 19,
+      "word": "MATCH",
+      "meanings": [
+        "¢ Game or competition (athletic contest)",
+        "¢ Small stick used to create fire (for igniting fire)"
+      ],
+      "hindi": "Ge / Arfera wt ate",
+      "examples": [
+        "¢ — The tennis match lasted three hours before the champion emerged victorious.",
+        "¢ He struck a match to light the candle during the power outage."
+      ]
+    },
+    {
+      "id": "homo_20",
+      "num": 20,
+      "word": "LIGHT",
+      "meanings": [
+        "¢ — Illumination (electromagnetic radiation visible to the eye)",
+        "¢ Not heavy or soft (of little weight; delicate)"
+      ],
+      "hindi": "WHR / FehT",
+      "examples": [
+        "¢ — The light from the full moon illuminated the entire pathway.",
+        "¢ — The lightweight luggage was easy to carry through the airport."
+      ]
+    },
+    {
+      "id": "homo_21",
+      "num": 21,
+      "word": "BANK",
+      "meanings": [
+        "¢ River edge (sloping land bordering a body of water)",
+        "¢ Financial institution (establishment that handles money)"
+      ],
+      "hindi": "adt wide /aa",
+      "examples": [
+        "¢ The ducks waddled along the bank searching for food.",
+        "¢ She deposited her savings in the bank to earn interest."
+      ]
+    },
+    {
+      "id": "homo_22",
+      "num": 22,
+      "word": "CAN",
+      "meanings": [
+        "¢ Container (metal or plastic vessel for storing contents)",
+        "¢ — Ability (to have the power or skill to do something)"
+      ],
+      "hindi": "feat / WHAT",
+      "examples": [
+        "¢ The can of tomato sauce sat on the pantry shelf.",
+        "¢ You can complete this project if you work diligently.",
+        "PAGE 9 ---"
+      ]
+    },
+    {
+      "id": "homo_23",
+      "num": 23,
+      "word": "BOW",
+      "meanings": [
+        "¢ Weapon (curved instrument for shooting arrows)",
+        "¢ Gesture of respect (bending the body as a sign of courtesy)"
+      ],
+      "hindi": "UIT / FP AT",
+      "examples": [
+        "¢ The archer drew the bow taut before releasing the arrow.",
+        "¢ He took a bow after receiving the standing ovation.",
+        "24, RIGHT",
+        "English Meanings:",
+        "¢ Correct (in accordance with fact or truth)",
+        "¢ Direction (toward the right side; opposite of left)",
+        "Hindi Translation: wet / ae",
+        "Examples:",
+        "¢ Your answer is right; you solved the equation correctly.",
+        "¢ Turn right at the next traffic signal to reach the destination."
+      ]
+    },
+    {
+      "id": "homo_25",
+      "num": 25,
+      "word": "WATCH",
+      "meanings": [
+        "¢ — Timepiece (portable device for telling time)",
+        "¢ Period of duty (shift during which someone is on guard)"
+      ],
+      "hindi": "ust / uevant",
+      "examples": [
+        "¢ She glanced at her watch to check the current time.",
+        "¢ The night watch remained alert throughout their shift.",
+        "PAGE 10 ---"
+      ]
+    },
+    {
+      "id": "homo_26",
+      "num": 26,
+      "word": "RING",
+      "meanings": [
+        "¢ — Jewelry (circular band worn on the finger)",
+        "¢ Sound (to produce a clear ringing tone)"
+      ],
+      "hindi": "srt (OT",
+      "examples": [
+        "¢ — The diamond ring sparkled brilliantly in the sunlight.",
+        "¢ The church bells ring loudly every Sunday morning.",
+        "27. BAT (Q27)",
+        "English Meanings:",
+        "¢ — Flying mammal (nocturnal creature with wings)",
+        "¢ Sports equipment (stick used to hit a ball)",
+        "Hindi Translation: FATS / Tec",
+        "Examples:",
+        "¢ — The bat navigated through the dark cave using echolocation.",
+        "¢ The cricket bat was made from high-quality willow wood."
+      ]
+    },
+    {
+      "id": "homo_28",
+      "num": 28,
+      "word": "LETTER",
+      "meanings": [
+        "¢ Message (written communication sent to someone)",
+        "¢ Alphabet character (symbol of writing system)"
+      ],
+      "hindi": "UA / S@iX",
+      "examples": [
+        "PAGE 11 ---",
+        "¢ She received a handwritten letter from her grandmother abroad.",
+        "¢ — The capital letter 'A' begins the English alphabet."
+      ]
+    },
+    {
+      "id": "homo_29",
+      "num": 29,
+      "word": "WAVE",
+      "meanings": [
+        "¢ Sea movement (moving ridge of water on ocean surface)",
+        "¢ Gesture (moving hand back and forth in greeting)"
+      ],
+      "hindi": "(et / STU fear",
+      "examples": [
+        "¢ — The surfer rode the giant wave with impressive skill.",
+        "¢ She waved enthusiastically to her friend across the street."
+      ]
+    },
+    {
+      "id": "homo_30",
+      "num": 30,
+      "word": "NAIL",
+      "meanings": [
+        "¢ Metal pin (fastener with sharp point and flat head)",
+        "¢ Part of the finger (hardened plate covering fingertip)"
+      ],
+      "hindi": "@tet / aga",
+      "examples": [
+        "¢ He hammered the nail into the wooden plank securely.",
+        "¢ — She polished her nails with a vibrant red shade.",
+        "31. SEAL (Q31)",
+        "English Meanings:",
+        "¢ Stamp or emblem (official mark of authenticity)",
+        "¢ Marine animal (aquatic mammal with flippers)",
+        "PAGE 12 ---",
+        "Hindi Translation: Yet / wast WIAA",
+        "Examples:",
+        "¢ The king's seal was embossed on every official decree.",
+        "¢ The seal colony thrived in the cold northern waters."
+      ]
+    },
+    {
+      "id": "homo_32",
+      "num": 32,
+      "word": "ROCK",
+      "meanings": [
+        "¢ Music genre (style of popular music)",
+        "¢ — Stone (hard mineral material)"
+      ],
+      "hindi": "WH Wid / TAR",
+      "examples": [
+        "¢ The rock band performed to an enthusiastic crowd.",
+        "¢ — The climber carefillly navigated over the rough rock surface."
+      ]
+    },
+    {
+      "id": "homo_33",
+      "num": 33,
+      "word": "PLANE",
+      "meanings": [
+        "¢ — Aircraft (flying vehicle for transportation)",
+        "¢ Tool for shaving wood (carpentry instrument)"
+      ],
+      "hindi": "41S OTe / BT",
+      "examples": [
+        "¢ The plane took off smoothly from the runway at dawn.",
+        "¢ The craftsman used a plane to smooth the wooden surface.",
+        "34. MATCH (Q34)",
+        "English Meanings:",
+        "¢ Game or contest (competitive event between opponents)",
+        "PAGE 13 ---",
+        "¢ — Stick for fire (small wooden stick tipped with chemicals)",
+        "Hindi Translation: Ge / Herat det",
+        "Examples:",
+        "¢ — The football match ended in a thrilling draw.",
+        "¢ She lit a match to start the campfire.",
+        "35. BAT (Q35)",
+        "English Meanings:",
+        "¢ — Animal (winged nocturnal mammal)",
+        "¢ — Cricket/baseball equipment (stick for hitting)",
+        "Hindi Translation: TANTS / fete wT ae",
+        "Examples:",
+        "¢ — The bat hung upside down from the cave ceiling.",
+        "¢ The batsman selected a new bat for the championship match."
+      ]
+    },
+    {
+      "id": "homo_36",
+      "num": 36,
+      "word": "YARD",
+      "meanings": [
+        "¢ Garden area (open ground attached to a house)",
+        "¢ Unit of measurement (equal to three feet or 0.9144 meters)"
+      ],
+      "hindi": "APT / 7 ATT)",
+      "examples": [
+        "¢ The children played in the yard during recess.",
+        "¢ — The fabric was sold at five dollars per yard.",
+        "PAGE 14 ---"
+      ]
+    },
+    {
+      "id": "homo_37",
+      "num": 37,
+      "word": "SPRING",
+      "meanings": [
+        "¢ Water source (place where groundwater emerges)",
+        "¢ Season (period of the year following winter)"
+      ],
+      "hindi": "geal / aaa",
+      "examples": [
+        "¢ — The hikers drank fresh water from the mountain spring.",
+        "¢ Spring flowers bloom beautifully after the harsh winter."
+      ]
+    },
+    {
+      "id": "homo_38",
+      "num": 38,
+      "word": "DUCK",
+      "meanings": [
+        "¢ Bird (aquatic waterfowl with webbed feet)",
+        "¢ Bend down quickly (move downward abruptly to avoid something)"
+      ],
+      "hindi": "ITE / WP STAT",
+      "examples": [
+        "¢ The duck paddled across the pond with its ducklings.",
+        "¢ He had to duck under the low ceiling to enter the room.",
+        "39, PARK",
+        "English Meanings:",
+        "¢ Garden area (public green space for recreation)",
+        "¢ To stop a vehicle (place a car ina stationary position)",
+        "Hindi Translation: U1 / PR wt Pra",
+        "Examples:",
+        "¢ Children played games in the public park after school.",
+        "¢ She parked her car in the designated parking lot.",
+        "PAGE 15 ---",
+        "40. LIGHT (Q40)",
+        "English Meanings:",
+        "¢ — Illumination (brightness from a source)",
+        "¢ Not heavy (of little weight; easy to carry)",
+        "Hindi Translation: WHR / FehT",
+        "Examples:",
+        "¢ — The light bulb emitted a warm glow throughout the room.",
+        "¢ — The light suitcase was perfect for weekend travel.",
+        "41. FAIR (Q41)",
+        "English Meanings:",
+        "¢ Festival (public event with entertainment and activities)",
+        "¢ — Just or impartial (treating everyone equally without bias)",
+        "Hindi Translation: 4 / zaragof",
+        "Examples:",
+        "¢ The summer fair featured carnival rides and food stalls.",
+        "¢ — The teacher implemented fair grading policies for all students."
+      ]
+    },
+    {
+      "id": "homo_42",
+      "num": 42,
+      "word": "FILE",
+      "meanings": [
+        "¢ Document (collection of related papers or records)",
+        "¢ Tool for smoothing metal (carpentry/metalworking instrument)"
+      ],
+      "hindi": "Wise / at",
+      "examples": [
+        "PAGE 16 ---",
+        "¢ He submitted the file containing all the required documents.",
+        "¢ The metalworker used a file to smooth the rough edges."
+      ]
+    }
+  ],
+  "ssc_2025": [
+    {
+      "id": "s25_0001",
+      "num": 1,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Idiosyncrasy",
+      "details": "Aperson's unusual characteristic Peculiarity, Trait, Quirk"
+    },
+    {
+      "id": "s25_0002",
+      "num": 2,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Hapless",
+      "details": "Unlucky or unfortunate Unlucky, Luckless, IIl-fated"
+    },
+    {
+      "id": "s25_0003",
+      "num": 3,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Transhistorical",
+      "details": "Timeless, beyond historical context Timeless, Eternal, Perpetual"
+    },
+    {
+      "id": "s25_0004",
+      "num": 4,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Glib",
+      "details": "Fluent but insincere in speech Articulate, Smooth-talking, Slick"
+    },
+    {
+      "id": "s25_0005",
+      "num": 5,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Fastidious",
+      "details": "Very attentive to detail Meticulous, Careful, Precise"
+    },
+    {
+      "id": "s25_0006",
+      "num": 6,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Teleological",
+      "details": "Relating to purpose or goal-directed Purpose-driven, Goal-oriented, Directed"
+    },
+    {
+      "id": "s25_0007",
+      "num": 7,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Abrogate",
+      "details": "To formally cancel or repeal Repeal, Abolish, Annul"
+    },
+    {
+      "id": "s25_0008",
+      "num": 8,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Epistemic",
+      "details": "Relating to knowledge or understanding Knowledge-related, Cognitive, Intellectual"
+    },
+    {
+      "id": "s25_0009",
+      "num": 9,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Surrender",
+      "details": "To yield or give up Yield, Capitulate, Submit"
+    },
+    {
+      "id": "s25_0010",
+      "num": 10,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Diffident",
+      "details": "Lacking self-confidence or reserved Timid, Shy, Bashful"
+    },
+    {
+      "id": "s25_0011",
+      "num": 12,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Ebullient",
+      "details": "Overflowing with enthusiasm Joyful, Exuberant, Enthusiastic"
+    },
+    {
+      "id": "s25_0012",
+      "num": 13,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Pellucid",
+      "details": "Clear, easy to understand Clear, Transparent, Lucid"
+    },
+    {
+      "id": "s25_0013",
+      "num": 14,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Querulous",
+      "details": "Complaining or expressing dissatisfaction Complaining, Whining, Grumbling"
+    },
+    {
+      "id": "s25_0014",
+      "num": 15,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Cogent",
+      "details": "Persuasive and convincing Persuasive, Compelling, Convincing"
+    },
+    {
+      "id": "s25_0015",
+      "num": 17,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Bellicose",
+      "details": "Aggressive or warlike in nature"
+    },
+    {
+      "id": "s25_0016",
+      "num": 18,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Integrity",
+      "details": "Quality of being honest"
+    },
+    {
+      "id": "s25_0017",
+      "num": 19,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Wane",
+      "details": "To decrease or diminish Decline, Lessen, Decrease"
+    },
+    {
+      "id": "s25_0018",
+      "num": 20,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Vacillate",
+      "details": "To be indecisive or hesitate Waver, Hesitate, Fluctuate"
+    },
+    {
+      "id": "s25_0019",
+      "num": 21,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Turgid",
+      "details": "Overly inflated or pompous Inflated, Bloated, Swollen"
+    },
+    {
+      "id": "s25_0020",
+      "num": 22,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Palimpsestic",
+      "details": "Referring to multiple layers Layered, Multi-layered, Composite"
+    },
+    {
+      "id": "s25_0021",
+      "num": 23,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Aporetic",
+      "details": "Involving doubt or contradiction Conflicted, Contradictory, Paradoxical"
+    },
+    {
+      "id": "s25_0022",
+      "num": 24,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Provenance",
+      "details": "The origin or source Origin, Source, Root"
+    },
+    {
+      "id": "s25_0023",
+      "num": 25,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Disparate",
+      "details": "Essentially different in kind Different, Distinct, Dissimilar"
+    },
+    {
+      "id": "s25_0024",
+      "num": 26,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Reticent",
+      "details": "Reserved in speech Reserved, Quiet, Taciturn"
+    },
+    {
+      "id": "s25_0025",
+      "num": 27,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Quixotic",
+      "details": "Unrealistically idealistic Idealistic, Impractical, Visionary"
+    },
+    {
+      "id": "s25_0026",
+      "num": 28,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Dread",
+      "details": "A great fear or apprehension Fear, Terror, Alarm"
+    },
+    {
+      "id": "s25_0027",
+      "num": 29,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Mythopoeic",
+      "details": "Pertaining to creation of myths Myth-making, Mythological, Legendary"
+    },
+    {
+      "id": "s25_0028",
+      "num": 30,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Pernicious",
+      "details": "Having harmful effect Malicious, Harmful, Damaging"
+    },
+    {
+      "id": "s25_0029",
+      "num": 31,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Existential",
+      "details": "Relating to existence Philosophical, Essential, Fundamental"
+    },
+    {
+      "id": "s25_0030",
+      "num": 32,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Renounce",
+      "details": "To reject or give up Reject, Disown, Forsake"
+    },
+    {
+      "id": "s25_0031",
+      "num": 33,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Wisdom",
+      "details": "Ability to make sound judgments Knowledge, Sagacity, Insight"
+    },
+    {
+      "id": "s25_0032",
+      "num": 34,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Uplift",
+      "details": "To raise or improve Improve, Elevate, Enhance"
+    },
+    {
+      "id": "s25_0033",
+      "num": 35,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Eternal",
+      "details": "Lasting forever Infinite, Perpetual, Everlasting"
+    },
+    {
+      "id": "s25_0034",
+      "num": 36,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Impediment",
+      "details": "An obstacle or hindrance Barrier, Obstacle, Obstruction"
+    },
+    {
+      "id": "s25_0035",
+      "num": 37,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Garrulous",
+      "details": "Excessively talkative Loquacious, Verbose, Chatty"
+    },
+    {
+      "id": "s25_0036",
+      "num": 38,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Efficiency",
+      "details": "Ability to accomplish with minimal waste Effectiveness, Productivity, Proficiency"
+    },
+    {
+      "id": "s25_0037",
+      "num": 39,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Sagacious",
+      "details": "Having good judgment Insightful, Wise, Discerning"
+    },
+    {
+      "id": "s25_0038",
+      "num": 40,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Clout",
+      "details": "Influence or power Power, Influence, Authority"
+    },
+    {
+      "id": "s25_0039",
+      "num": 41,
+      "exam": "CHSL Pre 2025",
+      "category": "Synonyms",
+      "word": "Mirage",
+      "details": "Optical illusion or something not real Fantasy, Illusion, Hallucination"
+    },
+    {
+      "id": "s25_0040",
+      "num": 1,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Serene",
+      "details": "Calm, peaceful, untroubled Chaotic, Turbulent, Disturbed"
+    },
+    {
+      "id": "s25_0041",
+      "num": 2,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Sagacious",
+      "details": "Wise, insightful Foolish, Stupid, Ignorant"
+    },
+    {
+      "id": "s25_0042",
+      "num": 3,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Felicity",
+      "details": "Great happiness Misery, Sadness, Suffering"
+    },
+    {
+      "id": "s25_0043",
+      "num": 4,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Repudiate",
+      "details": "To reject or disown Accept, Acknowledge, Embrace"
+    },
+    {
+      "id": "s25_0044",
+      "num": 5,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Credulous",
+      "details": "Easily believing Skeptical, Doubtful, Cynical"
+    },
+    {
+      "id": "s25_0045",
+      "num": 6,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Ineffable",
+      "details": "Too great to be expressed Expressible, Describable, Articulable"
+    },
+    {
+      "id": "s25_0046",
+      "num": 7,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Ignorance",
+      "details": "Lack of knowledge Knowledge, Wisdom, Understanding"
+    },
+    {
+      "id": "s25_0047",
+      "num": 8,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Iconoclast",
+      "details": "Person opposing beliefs Conformist, Conservative, Traditionalist"
+    },
+    {
+      "id": "s25_0048",
+      "num": 9,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Upright",
+      "details": "Honest, moral Corrupt, Dishonest, Immoral"
+    },
+    {
+      "id": "s25_0049",
+      "num": 10,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Gregarious",
+      "details": "Sociable, enjoying company Solitary, Antisocial, Hermitic"
+    },
+    {
+      "id": "s25_0050",
+      "num": 12,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Connive",
+      "details": "Secretly cooperate Oppose, Resist, Counter"
+    },
+    {
+      "id": "s25_0051",
+      "num": 13,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Futile",
+      "details": "Useless, incapable of results Effective, Productive, Successful"
+    },
+    {
+      "id": "s25_0052",
+      "num": 14,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Garrulous",
+      "details": "Excessively talkative Quiet, Silent, Taciturn"
+    },
+    {
+      "id": "s25_0053",
+      "num": 15,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Profuse",
+      "details": "Abundant, overflowing Scarce, Sparse, Limited"
+    },
+    {
+      "id": "s25_0054",
+      "num": 16,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Innocuous",
+      "details": "Harmless, inoffensive Harmful, Dangerous, Toxic"
+    },
+    {
+      "id": "s25_0055",
+      "num": 17,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Esoteric",
+      "details": "Understood by few Common, Familiar, Public"
+    },
+    {
+      "id": "s25_0056",
+      "num": 18,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Tacit",
+      "details": "Implied or understood Explicit, Stated, Clear"
+    },
+    {
+      "id": "s25_0057",
+      "num": 19,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Felicitous",
+      "details": "Well-chosen, appropriate Unfortunate, Unsuitable, Inept"
+    },
+    {
+      "id": "s25_0058",
+      "num": 20,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Sporadic",
+      "details": "Occurring irregularly Frequent, Regular, Constant"
+    },
+    {
+      "id": "s25_0059",
+      "num": 21,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Fastidious",
+      "details": "Very attentive to detail Sloppy, Careless, Negligent"
+    },
+    {
+      "id": "s25_0060",
+      "num": 22,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Venerate",
+      "details": "Respect or honor greatly Despise, Scorn, Disrespect"
+    },
+    {
+      "id": "s25_0061",
+      "num": 23,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Retired",
+      "details": "Stopped working, withdrawn Active, Working, Engaged"
+    },
+    {
+      "id": "s25_0062",
+      "num": 24,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Veracity",
+      "details": "Truthfulness, accuracy Falsehood, Deception, Lying"
+    },
+    {
+      "id": "s25_0063",
+      "num": 25,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Immutable",
+      "details": "Unchanging over time Alterable, Changeable, Variable"
+    },
+    {
+      "id": "s25_0064",
+      "num": 26,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Debacle",
+      "details": "Complete failure or disaster Success, Triumph, Victory"
+    },
+    {
+      "id": "s25_0065",
+      "num": 27,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Minute",
+      "details": "Extremely small Enormous, Huge, Vast"
+    },
+    {
+      "id": "s25_0066",
+      "num": 28,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Extinguished",
+      "details": "Put out, no longer burning Ignited, Lit, Burning"
+    },
+    {
+      "id": "s25_0067",
+      "num": 29,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Impulsively",
+      "details": "Acting without thinking Carefully, Deliberately, Thoughtfully"
+    },
+    {
+      "id": "s25_0068",
+      "num": 30,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Intimate",
+      "details": "Close, personal, familiar Distant, Remote, Detached"
+    },
+    {
+      "id": "s25_0069",
+      "num": 31,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Chicanery",
+      "details": "Deception or trickery Honesty, Sincerity, Frankness"
+    },
+    {
+      "id": "s25_0070",
+      "num": 32,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Condemned",
+      "details": "Officially declared wrong Praised, Commended, Lauded"
+    },
+    {
+      "id": "s25_0071",
+      "num": 33,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Belligerent",
+      "details": "Hostile, aggressive Peaceful, Amicable, Friendly"
+    },
+    {
+      "id": "s25_0072",
+      "num": 34,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Disgracers",
+      "details": "Those who bring shame Honorees, Celebrants, Heroes"
+    },
+    {
+      "id": "s25_0073",
+      "num": 35,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Sublime",
+      "details": "Inspiring awe, majestic Mediocre, Ordinary, Commonplace"
+    },
+    {
+      "id": "s25_0074",
+      "num": 36,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Candid",
+      "details": "Honest, straightforward Evasive, Deceptive, Misleading"
+    },
+    {
+      "id": "s25_0075",
+      "num": 37,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Celerity",
+      "details": "Speed, swiftness Slowness, Sluggishness, Lethargy"
+    },
+    {
+      "id": "s25_0076",
+      "num": 38,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Amplify",
+      "details": "Make larger, increase Reduce, Diminish, Decrease"
+    },
+    {
+      "id": "s25_0077",
+      "num": 39,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Flexible",
+      "details": "Capable of bending Rigid, Stiff, Inflexible"
+    },
+    {
+      "id": "s25_0078",
+      "num": 40,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Ebullient",
+      "details": "Overflowing with enthusiasm Depressed, Melancholic, Sad"
+    },
+    {
+      "id": "s25_0079",
+      "num": 41,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Trivial",
+      "details": "Of little importance Important, Significant, Crucial"
+    },
+    {
+      "id": "s25_0080",
+      "num": 42,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Euphemism",
+      "details": "Mild expression replacing harsh Directness, Bluntness, Frankness"
+    },
+    {
+      "id": "s25_0081",
+      "num": 43,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Exquisite",
+      "details": "Extremely beautiful Coarse, Ugly, Crude"
+    },
+    {
+      "id": "s25_0082",
+      "num": 44,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Heresy",
+      "details": "Belief contrary to doctrine Orthodoxy, Conformity, Tradition"
+    },
+    {
+      "id": "s25_0083",
+      "num": 45,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Disparate",
+      "details": "Essentially different Similar, Alike, Comparable"
+    },
+    {
+      "id": "s25_0084",
+      "num": 46,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Deleterious",
+      "details": "Harmful, causing damage Harmless, Beneficial, Helpful"
+    },
+    {
+      "id": "s25_0085",
+      "num": 47,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Sufficient",
+      "details": "Adequate, enough Inadequate, Insufficient, Lacking"
+    },
+    {
+      "id": "s25_0086",
+      "num": 48,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Sanguine",
+      "details": "Optimistic, hopeful Melancholic, Pessimistic, Gloomy"
+    },
+    {
+      "id": "s25_0087",
+      "num": 49,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Hegemony",
+      "details": "Dominance, leadership Subordination, Servitude, Inferiority"
+    },
+    {
+      "id": "s25_0088",
+      "num": 50,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Contumacious",
+      "details": "Rebellious, disobedient Obedient, Compliant, Submissive"
+    },
+    {
+      "id": "s25_0089",
+      "num": 51,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Foment",
+      "details": "Provoke or stir up Quash, Suppress, Prevent"
+    },
+    {
+      "id": "s25_0090",
+      "num": 52,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Abstruse",
+      "details": "Difficult to understand Clear, Simple, Obvious"
+    },
+    {
+      "id": "s25_0091",
+      "num": 53,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Evanescent",
+      "details": "Fleeting, temporary Enduring, Permanent, Lasting"
+    },
+    {
+      "id": "s25_0092",
+      "num": 54,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Concomitant",
+      "details": "Accompanying, occurring together Separate, Isolated, Detached"
+    },
+    {
+      "id": "s25_0093",
+      "num": 55,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Parsimonious",
+      "details": "Extremely frugal or stingy Generous, Lavish, Prodigal"
+    },
+    {
+      "id": "s25_0094",
+      "num": 56,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Somnolent",
+      "details": "Sleepy, drowsy Awake, Alert, Vigilant"
+    },
+    {
+      "id": "s25_0095",
+      "num": 58,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Ephemeral",
+      "details": "Lasting very short time Eternal, Perpetual, Everlasting"
+    },
+    {
+      "id": "s25_0096",
+      "num": 59,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Tenebrous",
+      "details": "Dark, shadowy Bright, Illuminated, Radiant"
+    },
+    {
+      "id": "s25_0097",
+      "num": 60,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Apathy",
+      "details": "Lack of interest Enthusiasm, Passion, Zeal"
+    },
+    {
+      "id": "s25_0098",
+      "num": 61,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Reprobate",
+      "details": "Morally unprincipled person Virtuous, Moral, Upright"
+    },
+    {
+      "id": "s25_0099",
+      "num": 62,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Exacerbate",
+      "details": "Worsen or intensify Alleviate, Relieve, Soothe"
+    },
+    {
+      "id": "s25_0100",
+      "num": 63,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Misanthropic",
+      "details": "Disliking humankind Sociable, Philanthropic, Altruistic"
+    },
+    {
+      "id": "s25_0101",
+      "num": 64,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Quaint",
+      "details": "Charming in old-fashioned way Ordinary, Modern, Contemporary"
+    },
+    {
+      "id": "s25_0102",
+      "num": 65,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Obloquy",
+      "details": "Strong public criticism Praise, Commendation, Approval"
+    },
+    {
+      "id": "s25_0103",
+      "num": 66,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Surreptitious",
+      "details": "Secret, stealthy Overt, Open, Obvious"
+    },
+    {
+      "id": "s25_0104",
+      "num": 67,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Noisome",
+      "details": "Offensive or harmful Fragrant, Pleasant, Aromatic"
+    },
+    {
+      "id": "s25_0105",
+      "num": 68,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Ineluctable",
+      "details": "Impossible to avoid Preventable, Avoidable, Escapable"
+    },
+    {
+      "id": "s25_0106",
+      "num": 69,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Turbulent",
+      "details": "Disordered, conflicted Calm, Peaceful, Tranquil"
+    },
+    {
+      "id": "s25_0107",
+      "num": 70,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Egalitarian",
+      "details": "Believing in equality Biased, Prejudiced, Discriminatory"
+    },
+    {
+      "id": "s25_0108",
+      "num": 71,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Monstrous",
+      "details": "Extremely large or frightful Beautiful, Attractive, Lovely"
+    },
+    {
+      "id": "s25_0109",
+      "num": 72,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Elucidate",
+      "details": "Explain or make clear Obscure, Confuse, Complicate"
+    },
+    {
+      "id": "s25_0110",
+      "num": 73,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Euphemism",
+      "details": "Mild expression Directness, Candor, Bluntness"
+    },
+    {
+      "id": "s25_0111",
+      "num": 74,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Obsolete",
+      "details": "Outdated, no longer in use Current, Modern, Up-to-date"
+    },
+    {
+      "id": "s25_0112",
+      "num": 1,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Aperson",
+      "details": "who loves and collects stamps Philatelist Stamp collector, Numismatist"
+    },
+    {
+      "id": "s25_0113",
+      "num": 2,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "A belief",
+      "details": "that the Earth is the center of universe Geocentrism Earth-centrism, Geocentric system"
+    },
+    {
+      "id": "s25_0114",
+      "num": 3,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Aperson",
+      "details": "who studies birds Ornithologist Bird specialist, Avian expert"
+    },
+    {
+      "id": "s25_0115",
+      "num": 4,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Aplace",
+      "details": "where records and documents are stored. Archive Repository, Library"
+    },
+    {
+      "id": "s25_0116",
+      "num": 5,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "The",
+      "details": "killing of one's own mother Matricide Mother-killing, Matricidal act"
+    },
+    {
+      "id": "s25_0117",
+      "num": 6,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "A large-scale",
+      "details": "departure of people Exodus Mass migration, Great departure"
+    },
+    {
+      "id": "s25_0118",
+      "num": 7,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Aperson",
+      "details": "unable to pay debts Bankrupt Insolvent, Debtor"
+    },
+    {
+      "id": "s25_0119",
+      "num": 8,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Aperson",
+      "details": "who believes everything determined by fate Fatalist Determinist, Believer in destiny"
+    },
+    {
+      "id": "s25_0120",
+      "num": 9,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "The",
+      "details": "art of beautiful handwriting Calligraphy Penmanship, Decorative writing"
+    },
+    {
+      "id": "s25_0121",
+      "num": 10,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Asudden",
+      "details": "and violent event causing destruction Cataclysm Catastrophe, Disaster"
+    },
+    {
+      "id": "s25_0122",
+      "num": 12,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Aperson",
+      "details": "who studies casually without seriousness Dilettante Amateur, Dabbler"
+    },
+    {
+      "id": "s25_0123",
+      "num": 13,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Aperson",
+      "details": "who studies stars and space Astronomer Stargazer, Celestial scientist"
+    },
+    {
+      "id": "s25_0124",
+      "num": 14,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Aperson",
+      "details": "supporting status quo, opposed to change Conservative Traditionalist, Status-quo supporter"
+    },
+    {
+      "id": "s25_0125",
+      "num": 15,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Aperson",
+      "details": "trained to care for animals Veterinarian Animal doctor, Vet"
+    },
+    {
+      "id": "s25_0126",
+      "num": 16,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Astain",
+      "details": "caused by discoloring substance Blot Stain, Mark"
+    },
+    {
+      "id": "s25_0127",
+      "num": 17,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Aperson",
+      "details": "who loves collecting books Bibliophile Book lover, Booklover"
+    },
+    {
+      "id": "s25_0128",
+      "num": 18,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Amedicine",
+      "details": "with calming or soothing effect Sedative Tranquilizer, Calming agent"
+    },
+    {
+      "id": "s25_0129",
+      "num": 19,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Aperson",
+      "details": "believing world controlled by stars Astrologer Star-reader, Fortune teller"
+    },
+    {
+      "id": "s25_0130",
+      "num": 20,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Aplace",
+      "details": "where dead bodies are examined Morgue Mortuary, Death house"
+    },
+    {
+      "id": "s25_0131",
+      "num": 21,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Aperson",
+      "details": "who performs magic tricks Magician Sorcerer, Illusionist"
+    },
+    {
+      "id": "s25_0132",
+      "num": 22,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Aperson",
+      "details": "who repairs shoes Cobbler Shoemaker, Shoe repairer"
+    },
+    {
+      "id": "s25_0133",
+      "num": 23,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "A longing",
+      "details": "for past times Nostalgia Homesickness, Yearning"
+    },
+    {
+      "id": "s25_0134",
+      "num": 24,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Astyle",
+      "details": "characterized by exaggerated sentimentality Melodrama Theatrical, Over-emotional"
+    },
+    {
+      "id": "s25_0135",
+      "num": 25,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Aperson",
+      "details": "studying the human mind Psychologist Mental health specialist, Therapist"
+    },
+    {
+      "id": "s25_0136",
+      "num": 26,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Aperson",
+      "details": "living in solitude Recluse Hermit, Loner"
+    },
+    {
+      "id": "s25_0137",
+      "num": 27,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Aperson",
+      "details": "denying existence of God Atheist Non-believer, Godless person"
+    },
+    {
+      "id": "s25_0138",
+      "num": 28,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "A feeling",
+      "details": "of apprehension in tense situations Trepidation Fear, Anxiety"
+    },
+    {
+      "id": "s25_0139",
+      "num": 29,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Aperson",
+      "details": "lover of fine arts Aesthete Art appreciator, Connoisseur"
+    },
+    {
+      "id": "s25_0140",
+      "num": 30,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Aperson",
+      "details": "studying rocks and minerals Mineralogist Rock specialist, Geologist"
+    },
+    {
+      "id": "s25_0141",
+      "num": 31,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Aperson",
+      "details": "working with gemstones Gemologist Gem expert, Jewel specialist"
+    },
+    {
+      "id": "s25_0142",
+      "num": 32,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "The",
+      "details": "study of human mind and functions Psychology Mental science, Mind study"
+    },
+    {
+      "id": "s25_0143",
+      "num": 33,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Persistent",
+      "details": "harassment to do something Importune Pester, Badger"
+    },
+    {
+      "id": "s25_0144",
+      "num": 34,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Aperson",
+      "details": "living in foreign country Expatriate Ex-pat, Alien resident"
+    },
+    {
+      "id": "s25_0145",
+      "num": 35,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Aperson",
+      "details": "who writes dictionaries Lexicographer Dictionary maker, Word scholar"
+    },
+    {
+      "id": "s25_0146",
+      "num": 36,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "A government",
+      "details": "by single person Autocracy One-man rule, Tyranny"
+    },
+    {
+      "id": "s25_0147",
+      "num": 37,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Aplace",
+      "details": "where soldiers are stationed Barracks Military quarters, Garrison"
+    },
+    {
+      "id": "s25_0148",
+      "num": 38,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Showing",
+      "details": "deep respect Reverent Respectful, Honorific"
+    },
+    {
+      "id": "s25_0149",
+      "num": 39,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Aspecch",
+      "details": "praising someone excessively Panegyric Eulogy, Praise speech"
+    },
+    {
+      "id": "s25_0150",
+      "num": 40,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Astate",
+      "details": "of stunned confusion Daze Bewilderment, Stupor"
+    },
+    {
+      "id": "s25_0151",
+      "num": 41,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Aperson",
+      "details": "opposing authority and tradition Anarchist Rebel, Revolutionary"
+    },
+    {
+      "id": "s25_0152",
+      "num": 42,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Aperson",
+      "details": "who talks non-stop Garrulous Talkative, Loquacious"
+    },
+    {
+      "id": "s25_0153",
+      "num": 43,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Killing",
+      "details": "of an unborn baby Foeticide Fetal killing, Abortion"
+    },
+    {
+      "id": "s25_0154",
+      "num": 44,
+      "exam": "CHSL Pre 2025",
+      "category": "Antonyms",
+      "word": "Aperson",
+      "details": "not drinking alcohol Teetotaler Non-drinker, Abstainer"
+    },
+    {
+      "id": "s25_0155",
+      "num": 1,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Smoke",
+      "details": "and mirrors Deception and illusion Trickery, Illusion"
+    },
+    {
+      "id": "s25_0156",
+      "num": 2,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Whatever",
+      "details": "floats your boat Something that makes you happy Whatever pleases you, Your preference"
+    },
+    {
+      "id": "s25_0157",
+      "num": 3,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "At",
+      "details": "face value Accepting without questioning Taking literally, Surface understanding"
+    },
+    {
+      "id": "s25_0158",
+      "num": 4,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "With",
+      "details": "a grain of salt View with suspicion or doubt Skeptically, Doubtfully"
+    },
+    {
+      "id": "s25_0159",
+      "num": 5,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "In",
+      "details": "stride Accept without letting bother you Calmly, Unperturbed"
+    },
+    {
+      "id": "s25_0160",
+      "num": 6,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Out",
+      "details": "of context Outside original meaning Misrepresented, Distorted"
+    },
+    {
+      "id": "s25_0161",
+      "num": 7,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "As",
+      "details": "thick as thieves Very close and loyal Inseparable, Intimate"
+    },
+    {
+      "id": "s25_0162",
+      "num": 8,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Part",
+      "details": "and parcel Integral and unavoidable component Essential part, Necessary component"
+    },
+    {
+      "id": "s25_0163",
+      "num": 9,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Turn",
+      "details": "over a new leaf Start fresh or improve behavior Rehabilitation, Fresh start"
+    },
+    {
+      "id": "s25_0164",
+      "num": 10,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Keep",
+      "details": "nose to grindstone"
+    },
+    {
+      "id": "s25_0165",
+      "num": 12,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Pull",
+      "details": "the plug"
+    },
+    {
+      "id": "s25_0166",
+      "num": 13,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Chalk",
+      "details": "and cheese"
+    },
+    {
+      "id": "s25_0167",
+      "num": 14,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Played",
+      "details": "cards right"
+    },
+    {
+      "id": "s25_0168",
+      "num": 15,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Stabbed",
+      "details": "in back"
+    },
+    {
+      "id": "s25_0169",
+      "num": 16,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Took",
+      "details": "bull by horns"
+    },
+    {
+      "id": "s25_0170",
+      "num": 17,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Burned",
+      "details": "midnight oil"
+    },
+    {
+      "id": "s25_0171",
+      "num": 18,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Can",
+      "details": "of worms"
+    },
+    {
+      "id": "s25_0172",
+      "num": 19,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Slip",
+      "details": "of tongue"
+    },
+    {
+      "id": "s25_0173",
+      "num": 20,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Red",
+      "details": "herring"
+    },
+    {
+      "id": "s25_0174",
+      "num": 21,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Feather",
+      "details": "in cap"
+    },
+    {
+      "id": "s25_0175",
+      "num": 22,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Waxed",
+      "details": "and waned"
+    },
+    {
+      "id": "s25_0176",
+      "num": 23,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "See",
+      "details": "eye to eye"
+    },
+    {
+      "id": "s25_0177",
+      "num": 24,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Sit",
+      "details": "on fence"
+    },
+    {
+      "id": "s25_0178",
+      "num": 25,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "All",
+      "details": "hands on deck Everyone working together Collective effort, Teamwork"
+    },
+    {
+      "id": "s25_0179",
+      "num": 26,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Fallen",
+      "details": "off radar Become unnoticed Forgotten, Overlooked"
+    },
+    {
+      "id": "s25_0180",
+      "num": 27,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Dicing",
+      "details": "with death Taking extreme risks Dangerous action, Risk-taking"
+    },
+    {
+      "id": "s25_0181",
+      "num": 28,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Fringe",
+      "details": "benefits Extra perks beyond salary Additional benefits, Extras"
+    },
+    {
+      "id": "s25_0182",
+      "num": 29,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Wild",
+      "details": "goose chase Futile or hopeless pursuit Useless search, Pointless"
+    },
+    {
+      "id": "s25_0183",
+      "num": 30,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Below",
+      "details": "the belt Unfair or unjust behavior Dishonorable, Unethical"
+    },
+    {
+      "id": "s25_0184",
+      "num": 31,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Star-crossed",
+      "details": "lovers Doomed relationship Tragic love, Ill-fated"
+    },
+    {
+      "id": "s25_0185",
+      "num": 32,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Ivory",
+      "details": "tower Privileged seclusion Isolation, Exclusivity"
+    },
+    {
+      "id": "s25_0186",
+      "num": 33,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Midas",
+      "details": "touch Ability to turn anything golden Success, Profit-making"
+    },
+    {
+      "id": "s25_0187",
+      "num": 34,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Out",
+      "details": "and about Active and socializing Socially active, Engaged"
+    },
+    {
+      "id": "s25_0188",
+      "num": 35,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "At",
+      "details": "sixes and sevens In chaos or confusion Disorder, Confusion"
+    },
+    {
+      "id": "s25_0189",
+      "num": 36,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Mum's",
+      "details": "the word Keep quiet Silence, Secrecy"
+    },
+    {
+      "id": "s25_0190",
+      "num": 37,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "In",
+      "details": "dribs and drabs In small, irregular amounts Piecemeal, Gradually"
+    },
+    {
+      "id": "s25_0191",
+      "num": 38,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Took",
+      "details": "wind out of sails Took away energy or strength Discouraged, Weakened"
+    },
+    {
+      "id": "s25_0192",
+      "num": 39,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "On",
+      "details": "warpath Angry and ready to fight Hostile, Aggressive"
+    },
+    {
+      "id": "s25_0193",
+      "num": 40,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Every",
+      "details": "nook and cranny Every small corner Everywhere, Thoroughly"
+    },
+    {
+      "id": "s25_0194",
+      "num": 41,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Tread",
+      "details": "on toes Offend or annoy someone Insult, Displease"
+    },
+    {
+      "id": "s25_0195",
+      "num": 42,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Achilles'",
+      "details": "heel Weakness or vulnerable point Weakness, Flaw"
+    },
+    {
+      "id": "s25_0196",
+      "num": 43,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Baptism",
+      "details": "by fire Difficult test of abilities Challenging experience, Trial"
+    },
+    {
+      "id": "s25_0197",
+      "num": 44,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Swan",
+      "details": "song Final performance before retirement Last act, Finale"
+    },
+    {
+      "id": "s25_0198",
+      "num": 45,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Stepping",
+      "details": "stone Stage or event toward greater goal Progress, Advancement"
+    },
+    {
+      "id": "s25_0199",
+      "num": 46,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "On",
+      "details": "same wavelength Similar ideas, mutual understanding Agreement, Harmony"
+    },
+    {
+      "id": "s25_0200",
+      "num": 47,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Bite",
+      "details": "bullet Do something painful but necessary Accept, Endure"
+    },
+    {
+      "id": "s25_0201",
+      "num": 48,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Face",
+      "details": "the music Face consequences of actions Confront, Accept responsibility"
+    },
+    {
+      "id": "s25_0202",
+      "num": 49,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Beat",
+      "details": "around bush Avoid important topic Dodge, Evade"
+    },
+    {
+      "id": "s25_0203",
+      "num": 50,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Let",
+      "details": "cat out of bag"
+    },
+    {
+      "id": "s25_0204",
+      "num": 51,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Bitter",
+      "details": "pill to swallow"
+    },
+    {
+      "id": "s25_0205",
+      "num": 52,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Stitch",
+      "details": "in time saves nine"
+    },
+    {
+      "id": "s25_0206",
+      "num": 53,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Too",
+      "details": "much good thing"
+    },
+    {
+      "id": "s25_0207",
+      "num": 54,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Every",
+      "details": "cloud silver lining"
+    },
+    {
+      "id": "s25_0208",
+      "num": 55,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Bridge",
+      "details": "the gap"
+    },
+    {
+      "id": "s25_0209",
+      "num": 56,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Hit",
+      "details": "nail on head"
+    },
+    {
+      "id": "s25_0210",
+      "num": 57,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Throw",
+      "details": "in towel"
+    },
+    {
+      "id": "s25_0211",
+      "num": 58,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Kill",
+      "details": "two birds with stone"
+    },
+    {
+      "id": "s25_0212",
+      "num": 59,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Add",
+      "details": "fuel to fire"
+    },
+    {
+      "id": "s25_0213",
+      "num": 60,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "White",
+      "details": "elephant"
+    },
+    {
+      "id": "s25_0214",
+      "num": 61,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Look",
+      "details": "before leap"
+    },
+    {
+      "id": "s25_0215",
+      "num": 62,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "On",
+      "details": "collision course"
+    },
+    {
+      "id": "s25_0216",
+      "num": 63,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Straight",
+      "details": "from horse's mouth"
+    },
+    {
+      "id": "s25_0217",
+      "num": 64,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Go",
+      "details": "break leg"
+    },
+    {
+      "id": "s25_0218",
+      "num": 65,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Break",
+      "details": "bank"
+    },
+    {
+      "id": "s25_0219",
+      "num": 66,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Jump",
+      "details": "through hoops"
+    },
+    {
+      "id": "s25_0220",
+      "num": 67,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Toe",
+      "details": "the line"
+    },
+    {
+      "id": "s25_0221",
+      "num": 68,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Slap",
+      "details": "on wrist"
+    },
+    {
+      "id": "s25_0222",
+      "num": 69,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Pound",
+      "details": "of flesh"
+    },
+    {
+      "id": "s25_0223",
+      "num": 70,
+      "exam": "CHSL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "In",
+      "details": "same boat"
+    },
+    {
+      "id": "s25_0224",
+      "num": 2,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Secretariat",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0225",
+      "num": 3,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Precarious",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0226",
+      "num": 4,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Personnel",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0227",
+      "num": 5,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Quarantine",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0228",
+      "num": 6,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Adversity",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0229",
+      "num": 7,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Personal",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0230",
+      "num": 8,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Delusion",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0231",
+      "num": 9,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Kindergarten",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0232",
+      "num": 10,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Bureaucrat",
+      "details": "High"
+    },
+    {
+      "id": "s25_0233",
+      "num": 12,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Abeyance",
+      "details": "High"
+    },
+    {
+      "id": "s25_0234",
+      "num": 13,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Irresistible",
+      "details": "High"
+    },
+    {
+      "id": "s25_0235",
+      "num": 14,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Acknowledgement",
+      "details": "High"
+    },
+    {
+      "id": "s25_0236",
+      "num": 15,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Obstinate",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0237",
+      "num": 16,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Extroversion",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0238",
+      "num": 17,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Conspicuous",
+      "details": "High"
+    },
+    {
+      "id": "s25_0239",
+      "num": 18,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Humorous",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0240",
+      "num": 19,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Business",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0241",
+      "num": 20,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Jaundice",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0242",
+      "num": 21,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Extragalactic",
+      "details": "High"
+    },
+    {
+      "id": "s25_0243",
+      "num": 22,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Evanescence",
+      "details": "High"
+    },
+    {
+      "id": "s25_0244",
+      "num": 23,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Psychology",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0245",
+      "num": 24,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Anthropomorphous",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0246",
+      "num": 25,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Voluptuous",
+      "details": "High"
+    },
+    {
+      "id": "s25_0247",
+      "num": 26,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Anniversary",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0248",
+      "num": 27,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Gnawing",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0249",
+      "num": 28,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Liaison",
+      "details": "High"
+    },
+    {
+      "id": "s25_0250",
+      "num": 29,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Millionaire",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0251",
+      "num": 30,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Grandiloquence",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0252",
+      "num": 31,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Itinerary",
+      "details": "High"
+    },
+    {
+      "id": "s25_0253",
+      "num": 32,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Colonel",
+      "details": "High"
+    },
+    {
+      "id": "s25_0254",
+      "num": 33,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Palate",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0255",
+      "num": 34,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Insouciant",
+      "details": "High"
+    },
+    {
+      "id": "s25_0256",
+      "num": 35,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Inimical",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0257",
+      "num": 36,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Palette",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0258",
+      "num": 37,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Neutral",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0259",
+      "num": 38,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Enthusiasm",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0260",
+      "num": 39,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Pallet",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0261",
+      "num": 40,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Assassination",
+      "details": "High"
+    },
+    {
+      "id": "s25_0262",
+      "num": 41,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Curable",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0263",
+      "num": 42,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Arraign",
+      "details": "High"
+    },
+    {
+      "id": "s25_0264",
+      "num": 43,
+      "exam": "CHSL Pre 2025",
+      "category": "Spellings",
+      "word": "Recession",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0265",
+      "num": 1,
+      "exam": "CPO Pre 2025",
+      "category": "Synonyms",
+      "word": "Fugal",
+      "details": "Spending money freely and wastefully Thrifty, Prodigal, Extravagant"
+    },
+    {
+      "id": "s25_0266",
+      "num": 2,
+      "exam": "CPO Pre 2025",
+      "category": "Synonyms",
+      "word": "Intransigence",
+      "details": "Refusal to compromise or change Stubbornness, Obstinacy, Pigheadedness"
+    },
+    {
+      "id": "s25_0267",
+      "num": 3,
+      "exam": "CPO Pre 2025",
+      "category": "Synonyms",
+      "word": "Melancholy",
+      "details": "Deep, persistent sadness or depression Sadness, Despondency, Gloom"
+    },
+    {
+      "id": "s25_0268",
+      "num": 4,
+      "exam": "CPO Pre 2025",
+      "category": "Synonyms",
+      "word": "Tranquilizing",
+      "details": "Producing calmness, soothing Soothing, Calming, Sedating"
+    },
+    {
+      "id": "s25_0269",
+      "num": 5,
+      "exam": "CPO Pre 2025",
+      "category": "Synonyms",
+      "word": "Calumny",
+      "details": "False and malicious accusation Slander, Libel, Defamation"
+    },
+    {
+      "id": "s25_0270",
+      "num": 6,
+      "exam": "CPO Pre 2025",
+      "category": "Synonyms",
+      "word": "Disconsolate",
+      "details": "Extremely unhappy and comfortless Unhappy, Miserable, Forlorn"
+    },
+    {
+      "id": "s25_0271",
+      "num": 7,
+      "exam": "CPO Pre 2025",
+      "category": "Synonyms",
+      "word": "Effrontery",
+      "details": "Shameless audacity, bold disrespect Audacity, Nerve, Impertinence"
+    },
+    {
+      "id": "s25_0272",
+      "num": 8,
+      "exam": "CPO Pre 2025",
+      "category": "Synonyms",
+      "word": "Apposite",
+      "details": "Highly appropriate or relevant Relevant, Apt, Suitable"
+    },
+    {
+      "id": "s25_0273",
+      "num": 9,
+      "exam": "CPO Pre 2025",
+      "category": "Synonyms",
+      "word": "Ignominy",
+      "details": "Public disgrace or shame Disgrace, Shame, Dishonor"
+    },
+    {
+      "id": "s25_0274",
+      "num": 10,
+      "exam": "CPO Pre 2025",
+      "category": "Synonyms",
+      "word": "Neophyte",
+      "details": "Beginner or novice Beginner, Newcomer, Trainee"
+    },
+    {
+      "id": "s25_0275",
+      "num": 12,
+      "exam": "CPO Pre 2025",
+      "category": "Synonyms",
+      "word": "Disparaging",
+      "details": "Showing lack of respect Belittling, Derogatory, Demeaning"
+    },
+    {
+      "id": "s25_0276",
+      "num": 13,
+      "exam": "CPO Pre 2025",
+      "category": "Synonyms",
+      "word": "Elucidate",
+      "details": "Make something clear Clarify, Explain, Illuminate"
+    },
+    {
+      "id": "s25_0277",
+      "num": 14,
+      "exam": "CPO Pre 2025",
+      "category": "Synonyms",
+      "word": "Capitulate",
+      "details": "Surrender or give up Surrender, Yield, Submit"
+    },
+    {
+      "id": "s25_0278",
+      "num": 15,
+      "exam": "CPO Pre 2025",
+      "category": "Synonyms",
+      "word": "Exculpate",
+      "details": "Clear from blame or guilt Exonerate, Vindicate, Absolve"
+    },
+    {
+      "id": "s25_0279",
+      "num": 16,
+      "exam": "CPO Pre 2025",
+      "category": "Synonyms",
+      "word": "Absolve",
+      "details": "Free from guilt or responsibility Pardon, Forgive, Acquit"
+    },
+    {
+      "id": "s25_0280",
+      "num": 17,
+      "exam": "CPO Pre 2025",
+      "category": "Synonyms",
+      "word": "Egregious",
+      "details": "Outstandingly bad or shocking Shocking, Heinous, Flagrant"
+    },
+    {
+      "id": "s25_0281",
+      "num": 18,
+      "exam": "CPO Pre 2025",
+      "category": "Synonyms",
+      "word": "Gregarious",
+      "details": "Fond of company, sociable Sociable, Social, Friendly"
+    },
+    {
+      "id": "s25_0282",
+      "num": 19,
+      "exam": "CPO Pre 2025",
+      "category": "Synonyms",
+      "word": "Laconic",
+      "details": "Using very few words Concise, Brief, Terse"
+    },
+    {
+      "id": "s25_0283",
+      "num": 20,
+      "exam": "CPO Pre 2025",
+      "category": "Synonyms",
+      "word": "Magnanimous",
+      "details": "Very generous and forgiving Generous, Gracious, Noble"
+    },
+    {
+      "id": "s25_0284",
+      "num": 21,
+      "exam": "CPO Pre 2025",
+      "category": "Synonyms",
+      "word": "Quarrel",
+      "details": "Heated argument or disagreement Feud, Dispute, Conflict"
+    },
+    {
+      "id": "s25_0285",
+      "num": 22,
+      "exam": "CPO Pre 2025",
+      "category": "Synonyms",
+      "word": "Ambiguous",
+      "details": "Having more than one meaning Vague, Unclear, Equivocal"
+    },
+    {
+      "id": "s25_0286",
+      "num": 1,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Obstinate",
+      "details": "Stubbornly refusing to change Pliable, Flexible, Yielding"
+    },
+    {
+      "id": "s25_0287",
+      "num": 2,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Superfluous",
+      "details": "More than needed, unnecessary Essential, Necessary, Required"
+    },
+    {
+      "id": "s25_0288",
+      "num": 3,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Propitiate",
+      "details": "Appease or win favor Enrage, Anger, Infuriate"
+    },
+    {
+      "id": "s25_0289",
+      "num": 4,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Dogmatic",
+      "details": "Strongly opinionated, asserting views Flexible, Open-minded, Humble"
+    },
+    {
+      "id": "s25_0290",
+      "num": 5,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Clandestine",
+      "details": "Done secretly, often illegally Open, Public, Transparent"
+    },
+    {
+      "id": "s25_0291",
+      "num": 6,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Sanguine",
+      "details": "Optimistic or cheerful Pessimistic, Negative, Gloomy"
+    },
+    {
+      "id": "s25_0292",
+      "num": 7,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Rebarbative",
+      "details": "Causing dislike or irritation Attractive, Appealing, Charming"
+    },
+    {
+      "id": "s25_0293",
+      "num": 8,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Exonerate",
+      "details": "Free from blame or accusation Convict, Incriminate, Condemn"
+    },
+    {
+      "id": "s25_0294",
+      "num": 9,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Scrupulous",
+      "details": "Extremely careful about honesty Immoral, Unethical, Dishonest"
+    },
+    {
+      "id": "s25_0295",
+      "num": 10,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Intransigence",
+      "details": "Refusal to compromise Compromise, Agreement, Compliance"
+    },
+    {
+      "id": "s25_0296",
+      "num": 12,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Tedious",
+      "details": "Too long, slow, or boring Exciting, Interesting, Engaging"
+    },
+    {
+      "id": "s25_0297",
+      "num": 13,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Covert",
+      "details": "Hidden or secret Overt, Open, Obvious"
+    },
+    {
+      "id": "s25_0298",
+      "num": 14,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Disparate",
+      "details": "Fundamentally different in kind Alike, Similar, Same"
+    },
+    {
+      "id": "s25_0299",
+      "num": 15,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Candid",
+      "details": "Honest, open, frank Deceitful, Dishonest, Evasive"
+    },
+    {
+      "id": "s25_0300",
+      "num": 16,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Accentuate",
+      "details": "Emphasize or make noticeable Obscure, Downplay, Minimize"
+    },
+    {
+      "id": "s25_0301",
+      "num": 17,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Cursory",
+      "details": "Done quickly without attention Thorough, Careful, Detailed"
+    },
+    {
+      "id": "s25_0302",
+      "num": 18,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Maladroit",
+      "details": "Clumsy or lacking skill Skillful, Dexterous, Adept"
+    },
+    {
+      "id": "s25_0303",
+      "num": 19,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Harbinger",
+      "details": "Sign or signal of something Follower, Result, Consequence"
+    },
+    {
+      "id": "s25_0304",
+      "num": 1,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Attributing",
+      "details": "human qualities to objects Anthropomorphism"
+    },
+    {
+      "id": "s25_0305",
+      "num": 2,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "helping others through charity Philanthropist"
+    },
+    {
+      "id": "s25_0306",
+      "num": 3,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "with uncontrollable urge to steal Kleptomaniac"
+    },
+    {
+      "id": "s25_0307",
+      "num": 4,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "One",
+      "details": "who expects worst always Pessimist"
+    },
+    {
+      "id": "s25_0308",
+      "num": 5,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "excessively worried about health Hypochondriac"
+    },
+    {
+      "id": "s25_0309",
+      "num": 6,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Honesty",
+      "details": "and strong moral principles Integrity"
+    },
+    {
+      "id": "s25_0310",
+      "num": 7,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Pretending",
+      "details": "to have virtues not practiced Hypocrisy"
+    },
+    {
+      "id": "s25_0311",
+      "num": 8,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Humility",
+      "details": "and lack of vanity Modesty"
+    },
+    {
+      "id": "s25_0312",
+      "num": 9,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Willingness",
+      "details": "to give freely Generosity"
+    },
+    {
+      "id": "s25_0313",
+      "num": 10,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Ashort",
+      "details": "interesting story Anecdote"
+    },
+    {
+      "id": "s25_0314",
+      "num": 12,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Government",
+      "details": "by the wealthy Plutocracy"
+    },
+    {
+      "id": "s25_0315",
+      "num": 13,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Expression",
+      "details": "of sympathy Condolence"
+    },
+    {
+      "id": "s25_0316",
+      "num": 14,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Love",
+      "details": "of mankind, charity Philanthropy"
+    },
+    {
+      "id": "s25_0317",
+      "num": 15,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "One",
+      "details": "studying stars to predict events Astrologer"
+    },
+    {
+      "id": "s25_0318",
+      "num": 16,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Using",
+      "details": "long words excessively Sesquipedalian"
+    },
+    {
+      "id": "s25_0319",
+      "num": 17,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Art",
+      "details": "of arranging printed text Typography"
+    },
+    {
+      "id": "s25_0320",
+      "num": 18,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Decorative",
+      "details": "handwriting Calligraphy"
+    },
+    {
+      "id": "s25_0321",
+      "num": 19,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Map-making",
+      "details": "science Cartography"
+    },
+    {
+      "id": "s25_0322",
+      "num": 20,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Art",
+      "details": "of taking photographs Photography"
+    },
+    {
+      "id": "s25_0323",
+      "num": 21,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Overstating",
+      "details": "facts Exaggeration"
+    },
+    {
+      "id": "s25_0324",
+      "num": 22,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Delaying",
+      "details": "tasks unnecessarily Procrastination"
+    },
+    {
+      "id": "s25_0325",
+      "num": 23,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Desire",
+      "details": "to do something wrong Temptation"
+    },
+    {
+      "id": "s25_0326",
+      "num": 24,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Discussion",
+      "details": "to reach agreement Negotiation"
+    },
+    {
+      "id": "s25_0327",
+      "num": 25,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "One",
+      "details": "sensitive to beauty and art Aesthete"
+    },
+    {
+      "id": "s25_0328",
+      "num": 26,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Temporary",
+      "details": "suspension Abeyance"
+    },
+    {
+      "id": "s25_0329",
+      "num": 27,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "One",
+      "details": "helping humanity Philanthropist"
+    },
+    {
+      "id": "s25_0330",
+      "num": 28,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Compulsive",
+      "details": "thief Kleptomaniac"
+    },
+    {
+      "id": "s25_0331",
+      "num": 29,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "with negative outlook Pessimist"
+    },
+    {
+      "id": "s25_0332",
+      "num": 30,
+      "exam": "CPO Pre 2025",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "overly anxious about health Hypochondriac"
+    },
+    {
+      "id": "s25_0333",
+      "num": 1,
+      "exam": "CPO Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Not",
+      "details": "worth salt Undeserving of respect"
+    },
+    {
+      "id": "s25_0334",
+      "num": 2,
+      "exam": "CPO Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Where",
+      "details": "shoe pinches Point of real difficulty"
+    },
+    {
+      "id": "s25_0335",
+      "num": 3,
+      "exam": "CPO Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Rest",
+      "details": "on laurels Bask in past glory"
+    },
+    {
+      "id": "s25_0336",
+      "num": 4,
+      "exam": "CPO Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Will",
+      "details": "not pass muster Will not meet required standards"
+    },
+    {
+      "id": "s25_0337",
+      "num": 5,
+      "exam": "CPO Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Finger",
+      "details": "in pie Being involved in something"
+    },
+    {
+      "id": "s25_0338",
+      "num": 6,
+      "exam": "CPO Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Axe",
+      "details": "to grind Hidden personal motive"
+    },
+    {
+      "id": "s25_0339",
+      "num": 7,
+      "exam": "CPO Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Jump",
+      "details": "gun Act too soon"
+    },
+    {
+      "id": "s25_0340",
+      "num": 8,
+      "exam": "CPO Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Hit",
+      "details": "books Start studying seriously"
+    },
+    {
+      "id": "s25_0341",
+      "num": 9,
+      "exam": "CPO Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Hit",
+      "details": "ground running Start working energetically"
+    },
+    {
+      "id": "s25_0342",
+      "num": 10,
+      "exam": "CPO Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Hit",
+      "details": "below belt Unfair or unethical remark"
+    },
+    {
+      "id": "s25_0343",
+      "num": 12,
+      "exam": "CPO Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Send",
+      "details": "to Coventry Ignore someone deliberately"
+    },
+    {
+      "id": "s25_0344",
+      "num": 13,
+      "exam": "CPO Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Hornet's",
+      "details": "nest Source of controversy"
+    },
+    {
+      "id": "s25_0345",
+      "num": 14,
+      "exam": "CPO Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Call",
+      "details": "it day Stop working for day"
+    },
+    {
+      "id": "s25_0346",
+      "num": 15,
+      "exam": "CPO Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Take",
+      "details": "with grain of salt Accept with doubt"
+    },
+    {
+      "id": "s25_0347",
+      "num": 1,
+      "exam": "CPO Pre 2025",
+      "category": "Spellings",
+      "word": "Unassailable",
+      "details": "High"
+    },
+    {
+      "id": "s25_0348",
+      "num": 2,
+      "exam": "CPO Pre 2025",
+      "category": "Spellings",
+      "word": "Electrophoresis",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0349",
+      "num": 3,
+      "exam": "CPO Pre 2025",
+      "category": "Spellings",
+      "word": "Fabulous",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0350",
+      "num": 4,
+      "exam": "CPO Pre 2025",
+      "category": "Spellings",
+      "word": "Intransigent",
+      "details": "High"
+    },
+    {
+      "id": "s25_0351",
+      "num": 5,
+      "exam": "CPO Pre 2025",
+      "category": "Spellings",
+      "word": "Enigmatic",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0352",
+      "num": 6,
+      "exam": "CPO Pre 2025",
+      "category": "Spellings",
+      "word": "Beautiful",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0353",
+      "num": 7,
+      "exam": "CPO Pre 2025",
+      "category": "Spellings",
+      "word": "Desperation",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0354",
+      "num": 8,
+      "exam": "CPO Pre 2025",
+      "category": "Spellings",
+      "word": "Magnetic",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0355",
+      "num": 9,
+      "exam": "CPO Pre 2025",
+      "category": "Spellings",
+      "word": "Marvelous",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0356",
+      "num": 10,
+      "exam": "CPO Pre 2025",
+      "category": "Spellings",
+      "word": "Depression",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0357",
+      "num": 12,
+      "exam": "CPO Pre 2025",
+      "category": "Spellings",
+      "word": "Charming",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0358",
+      "num": 13,
+      "exam": "CPO Pre 2025",
+      "category": "Spellings",
+      "word": "Jubilation",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0359",
+      "num": 14,
+      "exam": "CPO Pre 2025",
+      "category": "Spellings",
+      "word": "Puzzling",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0360",
+      "num": 16,
+      "exam": "CPO Pre 2025",
+      "category": "Spellings",
+      "word": "Fascination",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0361",
+      "num": 17,
+      "exam": "CPO Pre 2025",
+      "category": "Spellings",
+      "word": "Cuddle",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0362",
+      "num": 18,
+      "exam": "CPO Pre 2025",
+      "category": "Spellings",
+      "word": "Decline",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0363",
+      "num": 19,
+      "exam": "CPO Pre 2025",
+      "category": "Spellings",
+      "word": "Flimsy",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0364",
+      "num": 20,
+      "exam": "CPO Pre 2025",
+      "category": "Spellings",
+      "word": "Coddle",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0365",
+      "num": 21,
+      "exam": "CPO Pre 2025",
+      "category": "Spellings",
+      "word": "Downfall",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0366",
+      "num": 22,
+      "exam": "CPO Pre 2025",
+      "category": "Spellings",
+      "word": "Funny",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0367",
+      "num": 23,
+      "exam": "CPO Pre 2025",
+      "category": "Spellings",
+      "word": "Huddle",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0368",
+      "num": 24,
+      "exam": "CPO Pre 2025",
+      "category": "Spellings",
+      "word": "Discomfiture",
+      "details": "High"
+    },
+    {
+      "id": "s25_0369",
+      "num": 25,
+      "exam": "CPO Pre 2025",
+      "category": "Spellings",
+      "word": "Irrational",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0370",
+      "num": 26,
+      "exam": "CPO Pre 2025",
+      "category": "Spellings",
+      "word": "Satisfy",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0371",
+      "num": 27,
+      "exam": "CPO Pre 2025",
+      "category": "Spellings",
+      "word": "Protect",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0372",
+      "num": 28,
+      "exam": "CPO Pre 2025",
+      "category": "Spellings",
+      "word": "Partisan",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0373",
+      "num": 1,
+      "exam": "Selection Post 2025",
+      "category": "Synonyms",
+      "word": "Vigilant",
+      "details": "Watchful, alert Alert, Observant, Attentive"
+    },
+    {
+      "id": "s25_0374",
+      "num": 2,
+      "exam": "Selection Post 2025",
+      "category": "Synonyms",
+      "word": "Obsequious",
+      "details": "Overly submissive, flattering Submissive, Servile, Fawning"
+    },
+    {
+      "id": "s25_0375",
+      "num": 3,
+      "exam": "Selection Post 2025",
+      "category": "Synonyms",
+      "word": "Pinnacle",
+      "details": "Highest point Peak, Summit, Apex"
+    },
+    {
+      "id": "s25_0376",
+      "num": 4,
+      "exam": "Selection Post 2025",
+      "category": "Synonyms",
+      "word": "Cacophony",
+      "details": "Harsh noise Discord, Noise, Dissonance"
+    },
+    {
+      "id": "s25_0377",
+      "num": 5,
+      "exam": "Selection Post 2025",
+      "category": "Synonyms",
+      "word": "Deteriorate",
+      "details": "Become worse Worsen, Degrade, Decline"
+    },
+    {
+      "id": "s25_0378",
+      "num": 6,
+      "exam": "Selection Post 2025",
+      "category": "Synonyms",
+      "word": "Abstruse",
+      "details": "Hard to understand Difficult, Obscure, Complex"
+    },
+    {
+      "id": "s25_0379",
+      "num": 7,
+      "exam": "Selection Post 2025",
+      "category": "Synonyms",
+      "word": "Loathe",
+      "details": "Dislike intensely Hate, Despise, Abhor"
+    },
+    {
+      "id": "s25_0380",
+      "num": 8,
+      "exam": "Selection Post 2025",
+      "category": "Synonyms",
+      "word": "Conundrum",
+      "details": "Difficult problem Problem, Puzzle, Riddle"
+    },
+    {
+      "id": "s25_0381",
+      "num": 9,
+      "exam": "Selection Post 2025",
+      "category": "Synonyms",
+      "word": "Defer",
+      "details": "Postpone Delay, Procrastinate, Adjourn"
+    },
+    {
+      "id": "s25_0382",
+      "num": 10,
+      "exam": "Selection Post 2025",
+      "category": "Synonyms",
+      "word": "Alacrity",
+      "details": "Cheerful readiness Eagerness, Enthusiasm, Keenness"
+    },
+    {
+      "id": "s25_0383",
+      "num": 11,
+      "exam": "Selection Post 2025",
+      "category": "Synonyms",
+      "word": "Juvenile",
+      "details": "Childish, immature Childish, Puerile, Infantile"
+    },
+    {
+      "id": "s25_0384",
+      "num": 12,
+      "exam": "Selection Post 2025",
+      "category": "Synonyms",
+      "word": "Summon",
+      "details": "Call officially Call, Summons, Convoke"
+    },
+    {
+      "id": "s25_0385",
+      "num": 13,
+      "exam": "Selection Post 2025",
+      "category": "Synonyms",
+      "word": "Bawdy",
+      "details": "Indecent, crude Coarse, Lewd, Ribald"
+    },
+    {
+      "id": "s25_0386",
+      "num": 14,
+      "exam": "Selection Post 2025",
+      "category": "Synonyms",
+      "word": "Deft",
+      "details": "Skillful, adroit Skillful, Adept, Nimble"
+    },
+    {
+      "id": "s25_0387",
+      "num": 15,
+      "exam": "Selection Post 2025",
+      "category": "Synonyms",
+      "word": "Reticent",
+      "details": "Habitually silent Reserved, Quiet, Taciturn"
+    },
+    {
+      "id": "s25_0388",
+      "num": 16,
+      "exam": "Selection Post 2025",
+      "category": "Synonyms",
+      "word": "Relinquish",
+      "details": "Give up Abandon, Renounce, Surrender"
+    },
+    {
+      "id": "s25_0389",
+      "num": 17,
+      "exam": "Selection Post 2025",
+      "category": "Synonyms",
+      "word": "Foster",
+      "details": "Encourage, promote Promote, Encourage, Nurture"
+    },
+    {
+      "id": "s25_0390",
+      "num": 18,
+      "exam": "Selection Post 2025",
+      "category": "Synonyms",
+      "word": "Ubiquitous",
+      "details": "Present everywhere Omnipresent, Universal, Pervasive"
+    },
+    {
+      "id": "s25_0391",
+      "num": 19,
+      "exam": "Selection Post 2025",
+      "category": "Synonyms",
+      "word": "Allay",
+      "details": "Reduce fear or pain Pacify, Soothe, Calm"
+    },
+    {
+      "id": "s25_0392",
+      "num": 1,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Affluent",
+      "details": "Rich, wealthy Destitute, Poor, Impoverished"
+    },
+    {
+      "id": "s25_0393",
+      "num": 2,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Wilt",
+      "details": "Wither, droop Revive, Flourish, Bloom"
+    },
+    {
+      "id": "s25_0394",
+      "num": 3,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Quell",
+      "details": "Suppress, calm Agitate, Provoke, Incite"
+    },
+    {
+      "id": "s25_0395",
+      "num": 4,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Tangible",
+      "details": "Can be touched Intangible, Abstract, Imperceptible"
+    },
+    {
+      "id": "s25_0396",
+      "num": 5,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Magnanimous",
+      "details": "Generous, noble Petty, Grudging, Mean"
+    },
+    {
+      "id": "s25_0397",
+      "num": 6,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Impute",
+      "details": "Assign blame Support, Defend, Absolve"
+    },
+    {
+      "id": "s25_0398",
+      "num": 7,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Imitate",
+      "details": "Copy Innovate, Create, Originate"
+    },
+    {
+      "id": "s25_0399",
+      "num": 8,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Meticulous",
+      "details": "Very careful Negligent, Careless, Sloppy"
+    },
+    {
+      "id": "s25_0400",
+      "num": 9,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Enhance",
+      "details": "Improve Diminish, Reduce, Decrease"
+    },
+    {
+      "id": "s25_0401",
+      "num": 10,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Lucid",
+      "details": "Clear, understandable ‘Vague, Obscure, Unclear"
+    },
+    {
+      "id": "s25_0402",
+      "num": 11,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Benevolent",
+      "details": "Kind, charitable Malevolent, Cruel, Unkind"
+    },
+    {
+      "id": "s25_0403",
+      "num": 12,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Inflate",
+      "details": "Exaggerate Reduce, Minimize, Deflate"
+    },
+    {
+      "id": "s25_0404",
+      "num": 13,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Wan",
+      "details": "Pale, weak Healthy, Robust, Vigorous"
+    },
+    {
+      "id": "s25_0405",
+      "num": 14,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Hostile",
+      "details": "Unfriendly, aggressive Friendly, Amicable, Cordial"
+    },
+    {
+      "id": "s25_0406",
+      "num": 15,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Dominate",
+      "details": "Control, rule Submit, Yield, Surrender"
+    },
+    {
+      "id": "s25_0407",
+      "num": 16,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Mature",
+      "details": "Fully developed Immature, Childish, Undeveloped"
+    },
+    {
+      "id": "s25_0408",
+      "num": 17,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Prudent",
+      "details": "Wise, careful Thoughtless, Rash, Imprudent"
+    },
+    {
+      "id": "s25_0409",
+      "num": 18,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Vilify",
+      "details": "Defame, slander Commend, Praise, Acclaim"
+    },
+    {
+      "id": "s25_0410",
+      "num": 19,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Authorize",
+      "details": "Permit, allow Forbid, Prohibit, Ban"
+    },
+    {
+      "id": "s25_0411",
+      "num": 20,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Resilient",
+      "details": "Able to recover quickly Fragile, Brittle, Delicate"
+    },
+    {
+      "id": "s25_0412",
+      "num": 21,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Affirm",
+      "details": "Confirm, assert Refuse, Deny, Reject"
+    },
+    {
+      "id": "s25_0413",
+      "num": 22,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Yoke",
+      "details": "Bond, join together Liberate, Free, Separate"
+    },
+    {
+      "id": "s25_0414",
+      "num": 23,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Prominent",
+      "details": "Famous, notable Obscure, Unknown, Inconspicuous"
+    },
+    {
+      "id": "s25_0415",
+      "num": 24,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Eloquent",
+      "details": "Fluent, persuasive Inexpressive, Inarticulate, Mumbling"
+    },
+    {
+      "id": "s25_0416",
+      "num": 25,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Deliberate",
+      "details": "Done intentionally Rash, Careless, Thoughtless"
+    },
+    {
+      "id": "s25_0417",
+      "num": 26,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Candid",
+      "details": "Honest, frank Deceitful, Dishonest, Deceptive"
+    },
+    {
+      "id": "s25_0418",
+      "num": 27,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Diligent",
+      "details": "Hardworking, persistent Lazy, Slothful, Indolent"
+    },
+    {
+      "id": "s25_0419",
+      "num": 28,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Knave",
+      "details": "Dishonest man Paragon, Saint, Hero"
+    },
+    {
+      "id": "s25_0420",
+      "num": 29,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Audacity",
+      "details": "Daring, boldness Modesty, Timidity, Caution"
+    },
+    {
+      "id": "s25_0421",
+      "num": 30,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Durable",
+      "details": "Strong, lasting Fragile, Weak, Breakable"
+    },
+    {
+      "id": "s25_0422",
+      "num": 31,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Lax",
+      "details": "Careless, loose Reliable, Strict, Rigorous"
+    },
+    {
+      "id": "s25_0423",
+      "num": 32,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Commendable",
+      "details": "Praiseworthy, admirable Blameworthy, Condemnable, Shameful"
+    },
+    {
+      "id": "s25_0424",
+      "num": 33,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Assert",
+      "details": "State firmly Deny, Retract, Disclaim"
+    },
+    {
+      "id": "s25_0425",
+      "num": 34,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Eminent",
+      "details": "Famous, distinguished Obscure, Unknown, Unnoticed"
+    },
+    {
+      "id": "s25_0426",
+      "num": 35,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Scrupulous",
+      "details": "Very honest, careful Dishonest, Unethical, Immoral"
+    },
+    {
+      "id": "s25_0427",
+      "num": 1,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Act",
+      "details": "of imitating someone's speech Mimicry"
+    },
+    {
+      "id": "s25_0428",
+      "num": 2,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Communicable",
+      "details": "disease spreading rapidly Contagious"
+    },
+    {
+      "id": "s25_0429",
+      "num": 3,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Extreme",
+      "details": "old age with foolish behavior Dotage"
+    },
+    {
+      "id": "s25_0430",
+      "num": 4,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Independent",
+      "details": "person settling dispute Arbitrator"
+    },
+    {
+      "id": "s25_0431",
+      "num": 5,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Backward",
+      "details": "jump in story to earlier time Flashback"
+    },
+    {
+      "id": "s25_0432",
+      "num": 7,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "When",
+      "details": "opposite of expected happens Situational Irony"
+    },
+    {
+      "id": "s25_0433",
+      "num": 8,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Four-footed",
+      "details": "animal Quadruped"
+    },
+    {
+      "id": "s25_0434",
+      "num": 9,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Art",
+      "details": "of making maps Cartography"
+    },
+    {
+      "id": "s25_0435",
+      "num": 10,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Condition",
+      "details": "of having one chromosome Monosomy"
+    },
+    {
+      "id": "s25_0436",
+      "num": 1,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Short",
+      "details": "story with moral lesson Parable"
+    },
+    {
+      "id": "s25_0437",
+      "num": 12,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Child",
+      "details": "born after father's death Posthumous"
+    },
+    {
+      "id": "s25_0438",
+      "num": 13,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Sound",
+      "details": "of funeral bell Knell"
+    },
+    {
+      "id": "s25_0439",
+      "num": 14,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "speaking many languages Polyglot"
+    },
+    {
+      "id": "s25_0440",
+      "num": 15,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Fear",
+      "details": "of closed spaces Claustrophobia"
+    },
+    {
+      "id": "s25_0441",
+      "num": 16,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Killing",
+      "details": "of whole group of people Genocide"
+    },
+    {
+      "id": "s25_0442",
+      "num": 17,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Region",
+      "details": "where nothing escapes Black Hole"
+    },
+    {
+      "id": "s25_0443",
+      "num": 18,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Fiction",
+      "details": "aware of its fictional nature Metafiction"
+    },
+    {
+      "id": "s25_0444",
+      "num": 19,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "rejecting accepted beliefs Iconoclast"
+    },
+    {
+      "id": "s25_0445",
+      "num": 20,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Story",
+      "details": "ending left unresolved Cliffhanger"
+    },
+    {
+      "id": "s25_0446",
+      "num": 21,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Dissection",
+      "details": "of dead body Autopsy"
+    },
+    {
+      "id": "s25_0447",
+      "num": 22,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "who cannot make mistakes Infallible"
+    },
+    {
+      "id": "s25_0448",
+      "num": 23,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "enjoying their own pain Masochist"
+    },
+    {
+      "id": "s25_0449",
+      "num": 24,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "obsessed with travelling Dromomaniac"
+    },
+    {
+      "id": "s25_0450",
+      "num": 25,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Place",
+      "details": "where aircraft are kept Hangar"
+    },
+    {
+      "id": "s25_0451",
+      "num": 26,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Consistently",
+      "details": "excluded person Pariah"
+    },
+    {
+      "id": "s25_0452",
+      "num": 27,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Property",
+      "details": "inherited from father Patrimony"
+    },
+    {
+      "id": "s25_0453",
+      "num": 28,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Talkative",
+      "details": "person Garrulous"
+    },
+    {
+      "id": "s25_0454",
+      "num": 29,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Medicine",
+      "details": "inducing sleep Narcotic"
+    },
+    {
+      "id": "s25_0455",
+      "num": 30,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "One",
+      "details": "studying evolution of mankind Anthropologist"
+    },
+    {
+      "id": "s25_0456",
+      "num": 31,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Place",
+      "details": "where wild animals kept Zoo"
+    },
+    {
+      "id": "s25_0457",
+      "num": 32,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Person's",
+      "details": "peculiar habit or mannerism Idiosyncrasy"
+    },
+    {
+      "id": "s25_0458",
+      "num": 33,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Study",
+      "details": "of sound and its effects Acoustics"
+    },
+    {
+      "id": "s25_0459",
+      "num": 34,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Speech",
+      "details": "delivered without preparation Impromptu"
+    },
+    {
+      "id": "s25_0460",
+      "num": 35,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Act",
+      "details": "of placing body in grave Interment"
+    },
+    {
+      "id": "s25_0461",
+      "num": 36,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "forced to flee country Refugee"
+    },
+    {
+      "id": "s25_0462",
+      "num": 37,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "spending money recklessly Spendthrift"
+    },
+    {
+      "id": "s25_0463",
+      "num": 39,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Group",
+      "details": "graduating from institution Alumni"
+    },
+    {
+      "id": "s25_0464",
+      "num": 40,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Killing",
+      "details": "of one's mother Matricide"
+    },
+    {
+      "id": "s25_0465",
+      "num": 41,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Place",
+      "details": "keeping dead bodies Morgue"
+    },
+    {
+      "id": "s25_0466",
+      "num": 42,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Misappropriation",
+      "details": "of money Embezzlement"
+    },
+    {
+      "id": "s25_0467",
+      "num": 43,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Inscription",
+      "details": "on stone for deceased Epitaph"
+    },
+    {
+      "id": "s25_0468",
+      "num": 44,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "without settled home Vagabond"
+    },
+    {
+      "id": "s25_0469",
+      "num": 45,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Extremely",
+      "details": "selective person Fastidious"
+    },
+    {
+      "id": "s25_0470",
+      "num": 46,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "with long experience Veteran"
+    },
+    {
+      "id": "s25_0471",
+      "num": 47,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Short",
+      "details": "stay at place Sojourn"
+    },
+    {
+      "id": "s25_0472",
+      "num": 48,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "who writes books Author"
+    },
+    {
+      "id": "s25_0473",
+      "num": 49,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Murder",
+      "details": "of a king Regicide"
+    },
+    {
+      "id": "s25_0474",
+      "num": 50,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Poem",
+      "details": "of mourning Elegy"
+    },
+    {
+      "id": "s25_0475",
+      "num": 51,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Political",
+      "details": "disorder and no government Anarchy"
+    },
+    {
+      "id": "s25_0476",
+      "num": 52,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Symbol",
+      "details": "serving as emblem Totem"
+    },
+    {
+      "id": "s25_0477",
+      "num": 53,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Short",
+      "details": "amusing story Anecdote"
+    },
+    {
+      "id": "s25_0478",
+      "num": 54,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Man",
+      "details": "whose wife is dead Widower"
+    },
+    {
+      "id": "s25_0479",
+      "num": 55,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Act",
+      "details": "of killing one's brother Fratricide"
+    },
+    {
+      "id": "s25_0480",
+      "num": 56,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Official",
+      "details": "pardon for offenders Amnesty"
+    },
+    {
+      "id": "s25_0481",
+      "num": 57,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Partner",
+      "details": "in crime Accomplice"
+    },
+    {
+      "id": "s25_0482",
+      "num": 58,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Practice",
+      "details": "of expressing less than meant Litotes"
+    },
+    {
+      "id": "s25_0483",
+      "num": 59,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "hating mankind Misanthrope"
+    },
+    {
+      "id": "s25_0484",
+      "num": 60,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Humorous",
+      "details": "poem of five lines Limerick"
+    },
+    {
+      "id": "s25_0485",
+      "num": 61,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Ideal",
+      "details": "society with justice Utopia"
+    },
+    {
+      "id": "s25_0486",
+      "num": 62,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "indifferent to pleasure/pain Stoic"
+    },
+    {
+      "id": "s25_0487",
+      "num": 63,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Official",
+      "details": "reprimand or criticism Censure"
+    },
+    {
+      "id": "s25_0488",
+      "num": 64,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "abstaining from indulgence Ascetic"
+    },
+    {
+      "id": "s25_0489",
+      "num": 65,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "State",
+      "details": "of disuse or inactivity Desuetude"
+    },
+    {
+      "id": "s25_0490",
+      "num": 66,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Professional",
+      "details": "who prepares maps Cartographer"
+    },
+    {
+      "id": "s25_0491",
+      "num": 67,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "eating excessively Glutton"
+    },
+    {
+      "id": "s25_0492",
+      "num": 68,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Self-contradictory",
+      "details": "yet true statement Paradox."
+    },
+    {
+      "id": "s25_0493",
+      "num": 69,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Speech",
+      "details": "praising someone highly Encomium"
+    },
+    {
+      "id": "s25_0494",
+      "num": 70,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Act",
+      "details": "of intentionally setting fire Arson"
+    },
+    {
+      "id": "s25_0495",
+      "num": 71,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Fear",
+      "details": "of public speaking Glossophobia"
+    },
+    {
+      "id": "s25_0496",
+      "num": 72,
+      "exam": "Selection Post 2025",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "opposing official policy Dissident"
+    },
+    {
+      "id": "s25_0497",
+      "num": 1,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Keep",
+      "details": "wolf away from door Avoid financial hardship"
+    },
+    {
+      "id": "s25_0498",
+      "num": 2,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Throw",
+      "details": "down gauntlet Issue a challenge"
+    },
+    {
+      "id": "s25_0499",
+      "num": 3,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Steal",
+      "details": "march on someone Gain advantage secretly"
+    },
+    {
+      "id": "s25_0500",
+      "num": 4,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Cast",
+      "details": "first stone Accuse someone first"
+    },
+    {
+      "id": "s25_0501",
+      "num": 5,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Dime",
+      "details": "a dozen Very common"
+    },
+    {
+      "id": "s25_0502",
+      "num": 6,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Hoist",
+      "details": "with own petard Hurt by own scheme"
+    },
+    {
+      "id": "s25_0503",
+      "num": 7,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Break",
+      "details": "the bank Spend too much money"
+    },
+    {
+      "id": "s25_0504",
+      "num": 8,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Jump",
+      "details": "through hoops Go through many difficulties"
+    },
+    {
+      "id": "s25_0505",
+      "num": 9,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Toe",
+      "details": "the line Follow rules"
+    },
+    {
+      "id": "s25_0506",
+      "num": 10,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Slap",
+      "details": "on wrist Mild warning"
+    },
+    {
+      "id": "s25_0507",
+      "num": 12,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "In",
+      "details": "same boat Facing same situation"
+    },
+    {
+      "id": "s25_0508",
+      "num": 13,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Throw",
+      "details": "hat in ring Announce candidacy"
+    },
+    {
+      "id": "s25_0509",
+      "num": 14,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "To",
+      "details": "oil hinges of silence Bribe for silence"
+    },
+    {
+      "id": "s25_0510",
+      "num": 15,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Go",
+      "details": "extra mile Work harder than expected"
+    },
+    {
+      "id": "s25_0511",
+      "num": 16,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Take",
+      "details": "to task Scold"
+    },
+    {
+      "id": "s25_0512",
+      "num": 17,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Not",
+      "details": "one's cup of tea Something disliked"
+    },
+    {
+      "id": "s25_0513",
+      "num": 18,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "In",
+      "details": "black and white Officially in writing"
+    },
+    {
+      "id": "s25_0514",
+      "num": 19,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Give",
+      "details": "cold shoulder Ignore someone"
+    },
+    {
+      "id": "s25_0515",
+      "num": 20,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Have",
+      "details": "last laugh Succeed eventually"
+    },
+    {
+      "id": "s25_0516",
+      "num": 21,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Show",
+      "details": "clean pair of heels Run away"
+    },
+    {
+      "id": "s25_0517",
+      "num": 22,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Turn",
+      "details": "over new leaf Start afresh"
+    },
+    {
+      "id": "s25_0518",
+      "num": 23,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Tooth",
+      "details": "and nail With full strength"
+    },
+    {
+      "id": "s25_0519",
+      "num": 24,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Spill",
+      "details": "beans Reveal secret"
+    },
+    {
+      "id": "s25_0520",
+      "num": 25,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Turn",
+      "details": "deaf ear Ignore advice"
+    },
+    {
+      "id": "s25_0521",
+      "num": 26,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Pull",
+      "details": "someone's leg Joke with them"
+    },
+    {
+      "id": "s25_0522",
+      "num": 27,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Cry",
+      "details": "over spilt milk Regret past loss"
+    },
+    {
+      "id": "s25_0523",
+      "num": 28,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Clutching",
+      "details": "at straws Hoping without reason"
+    },
+    {
+      "id": "s25_0524",
+      "num": 29,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "All",
+      "details": "at sea Confused"
+    },
+    {
+      "id": "s25_0525",
+      "num": 30,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Go",
+      "details": "for song Sell very cheaply"
+    },
+    {
+      "id": "s25_0526",
+      "num": 31,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Bell",
+      "details": "the cat Take risky initiative"
+    },
+    {
+      "id": "s25_0527",
+      "num": 32,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Gift",
+      "details": "of gab Talent for speaking"
+    },
+    {
+      "id": "s25_0528",
+      "num": 33,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Token",
+      "details": "strike Warning strike"
+    },
+    {
+      "id": "s25_0529",
+      "num": 34,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Bury",
+      "details": "hatchet Make peace"
+    },
+    {
+      "id": "s25_0530",
+      "num": 35,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Get",
+      "details": "to point Speak directly"
+    },
+    {
+      "id": "s25_0531",
+      "num": 36,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Jack",
+      "details": "up rates Increase prices"
+    },
+    {
+      "id": "s25_0532",
+      "num": 37,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Speak",
+      "details": "your mind Express frankly"
+    },
+    {
+      "id": "s25_0533",
+      "num": 38,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Leave",
+      "details": "no stone unturned Search thoroughly"
+    },
+    {
+      "id": "s25_0534",
+      "num": 39,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "On",
+      "details": "cloud nine Extremely happy"
+    },
+    {
+      "id": "s25_0535",
+      "num": 40,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Flog",
+      "details": "dead horse Waste time"
+    },
+    {
+      "id": "s25_0536",
+      "num": 41,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Cut",
+      "details": "no ice Have no effect"
+    },
+    {
+      "id": "s25_0537",
+      "num": 42,
+      "exam": "Selection Post 2025",
+      "category": "Idioms & Phrases",
+      "word": "Throw",
+      "details": "hat over windmill Act recklessly"
+    },
+    {
+      "id": "s25_0538",
+      "num": 1,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Despotic",
+      "details": "High"
+    },
+    {
+      "id": "s25_0539",
+      "num": 2,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Chauvinism",
+      "details": "High"
+    },
+    {
+      "id": "s25_0540",
+      "num": 3,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Belligerent",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0541",
+      "num": 4,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Supersede",
+      "details": "High"
+    },
+    {
+      "id": "s25_0542",
+      "num": 5,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Quiescence",
+      "details": "High"
+    },
+    {
+      "id": "s25_0543",
+      "num": 6,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Dialectic",
+      "details": "High"
+    },
+    {
+      "id": "s25_0544",
+      "num": 7,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Extemporaneous",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0545",
+      "num": 8,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Melancholy",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0546",
+      "num": 9,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Solipsism",
+      "details": "High"
+    },
+    {
+      "id": "s25_0547",
+      "num": 10,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Aesthetic",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0548",
+      "num": 12,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Epigram",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0549",
+      "num": 13,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Scrumptious",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0550",
+      "num": 14,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Ascetic",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0551",
+      "num": 16,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Capitulation",
+      "details": "High"
+    },
+    {
+      "id": "s25_0552",
+      "num": 17,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Hermeneutics",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0553",
+      "num": 18,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Utilitarianism",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0554",
+      "num": 19,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Obsolescence",
+      "details": "High"
+    },
+    {
+      "id": "s25_0555",
+      "num": 20,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Phallocentrism",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0556",
+      "num": 21,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Dumbbell",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0557",
+      "num": 22,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Vanquish",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0558",
+      "num": 23,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Structuralism",
+      "details": "High"
+    },
+    {
+      "id": "s25_0559",
+      "num": 24,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Noticeable",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0560",
+      "num": 25,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Pediatrician",
+      "details": "High"
+    },
+    {
+      "id": "s25_0561",
+      "num": 26,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Metafiction",
+      "details": "High"
+    },
+    {
+      "id": "s25_0562",
+      "num": 27,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Enigmatic",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0563",
+      "num": 28,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Disambiguate",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0564",
+      "num": 29,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Height",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0565",
+      "num": 30,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Meticulous",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0566",
+      "num": 31,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Inadvertently",
+      "details": "High"
+    },
+    {
+      "id": "s25_0567",
+      "num": 32,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Exhilarate",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0568",
+      "num": 33,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Antediluvian",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0569",
+      "num": 34,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Unequivocal",
+      "details": "High"
+    },
+    {
+      "id": "s25_0570",
+      "num": 35,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Prophylaxis",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0571",
+      "num": 36,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Essentialism",
+      "details": "High"
+    },
+    {
+      "id": "s25_0572",
+      "num": 37,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Equilibrium",
+      "details": "High"
+    },
+    {
+      "id": "s25_0573",
+      "num": 38,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Grateful",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0574",
+      "num": 39,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Determinism",
+      "details": "High"
+    },
+    {
+      "id": "s25_0575",
+      "num": 40,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Plenipotentiary",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0576",
+      "num": 41,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Exaggerate",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0577",
+      "num": 42,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Syzygy",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0578",
+      "num": 43,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Artisan",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0579",
+      "num": 44,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Invigilator",
+      "details": "High"
+    },
+    {
+      "id": "s25_0580",
+      "num": 45,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Naturalism",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0581",
+      "num": 46,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Recluse",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0582",
+      "num": 47,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Polysemy",
+      "details": "High"
+    },
+    {
+      "id": "s25_0583",
+      "num": 48,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Neoliberalism",
+      "details": "High"
+    },
+    {
+      "id": "s25_0584",
+      "num": 49,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Sycophant",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0585",
+      "num": 50,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Intertextuality",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0586",
+      "num": 51,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Asceticism",
+      "details": "High"
+    },
+    {
+      "id": "s25_0587",
+      "num": 52,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Pedagogy",
+      "details": "High"
+    },
+    {
+      "id": "s25_0588",
+      "num": 53,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Similitude",
+      "details": "High"
+    },
+    {
+      "id": "s25_0589",
+      "num": 54,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Iconoclast",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0590",
+      "num": 55,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Psephology",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0591",
+      "num": 56,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Postmodernism",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0592",
+      "num": 57,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Twelfth",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0593",
+      "num": 58,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Hagiography",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0594",
+      "num": 59,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Vicereine",
+      "details": "High"
+    },
+    {
+      "id": "s25_0595",
+      "num": 60,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Thermodynamics",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0596",
+      "num": 61,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Quintessence",
+      "details": "High"
+    },
+    {
+      "id": "s25_0597",
+      "num": 62,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Acquiescence",
+      "details": "High"
+    },
+    {
+      "id": "s25_0598",
+      "num": 63,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Sanguine",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0599",
+      "num": 64,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Ventriculoperitoneal",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0600",
+      "num": 65,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Epitome",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0601",
+      "num": 66,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Noble",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0602",
+      "num": 67,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Perseverance",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0603",
+      "num": 68,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Cytochrome",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0604",
+      "num": 69,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Expostulation",
+      "details": "High"
+    },
+    {
+      "id": "s25_0605",
+      "num": 70,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Psychopharmacology",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0606",
+      "num": 71,
+      "exam": "Selection Post 2025",
+      "category": "Spellings",
+      "word": "Pensive",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0607",
+      "num": 1,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Vigilant",
+      "details": "Watchful, alert Alert, Observant, Attentive"
+    },
+    {
+      "id": "s25_0608",
+      "num": 2,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Obsequious",
+      "details": "Overly submissive Submissive, Servile, Flattering"
+    },
+    {
+      "id": "s25_0609",
+      "num": 3,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Pinnacle",
+      "details": "Highest point Peak, Apex, Summit"
+    },
+    {
+      "id": "s25_0610",
+      "num": 4,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Cacophony",
+      "details": "Harsh noise Discord, Dissonance, Noise"
+    },
+    {
+      "id": "s25_0611",
+      "num": 5,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Deteriorate",
+      "details": "Become worse Decline, Worsen, Degrade"
+    },
+    {
+      "id": "s25_0612",
+      "num": 6,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Abstruse",
+      "details": "Hard to understand Difficult, Obscure, Complex"
+    },
+    {
+      "id": "s25_0613",
+      "num": 7,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Loathe",
+      "details": "Dislike intensely Hate, Despise, Abhor"
+    },
+    {
+      "id": "s25_0614",
+      "num": 8,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Conundrum",
+      "details": "Difficult problem Puzzle, Riddle, Problem"
+    },
+    {
+      "id": "s25_0615",
+      "num": 9,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Defer",
+      "details": "Postpone Delay, Adjourn, Procrastinate"
+    },
+    {
+      "id": "s25_0616",
+      "num": 10,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Alacrity",
+      "details": "Cheerful readiness Eagerness, Enthusiasm, Readiness"
+    },
+    {
+      "id": "s25_0617",
+      "num": 12,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Summon",
+      "details": "Call officially Convoke, Call, Subpoena"
+    },
+    {
+      "id": "s25_0618",
+      "num": 13,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Bawdy",
+      "details": "Indecent, crude Coarse, Lewd, Ribald"
+    },
+    {
+      "id": "s25_0619",
+      "num": 14,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Deft",
+      "details": "Skillful, adroit Adept, Nimble, Dexterous"
+    },
+    {
+      "id": "s25_0620",
+      "num": 15,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Reticent",
+      "details": "Habitually silent Quiet, Reserved, Taciturn"
+    },
+    {
+      "id": "s25_0621",
+      "num": 16,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Relinquish",
+      "details": "Give up, abandon Abandon, Renounce, Surrender"
+    },
+    {
+      "id": "s25_0622",
+      "num": 17,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Foster",
+      "details": "Encourage, promote Promote, Nurture, Encourage"
+    },
+    {
+      "id": "s25_0623",
+      "num": 18,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Ubiquitous",
+      "details": "Present everywhere Omnipresent, Universal, Pervasive"
+    },
+    {
+      "id": "s25_0624",
+      "num": 19,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Allay",
+      "details": "Reduce fear or pain Pacify, Calm, Soothe"
+    },
+    {
+      "id": "s25_0625",
+      "num": 20,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Feeble",
+      "details": "Weak, frail Weak, Fragile, Delicate"
+    },
+    {
+      "id": "s25_0626",
+      "num": 21,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Chronic",
+      "details": "Long lasting Persistent, Prolonged, Enduring"
+    },
+    {
+      "id": "s25_0627",
+      "num": 22,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Recalcitrant",
+      "details": "Stubbornly resistant Disobedient, Rebellious, Defiant"
+    },
+    {
+      "id": "s25_0628",
+      "num": 23,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Insolent",
+      "details": "Rude, disrespectful Disrespectful, Impertinent, Cheeky"
+    },
+    {
+      "id": "s25_0629",
+      "num": 24,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Withdraw",
+      "details": "Take back, retreat Recede, Retreat, Retract"
+    },
+    {
+      "id": "s25_0630",
+      "num": 25,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Castigate",
+      "details": "Criticize severely Condemn, Reprimand, Censure"
+    },
+    {
+      "id": "s25_0631",
+      "num": 26,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Esoteric",
+      "details": "Understood by few Mysterious, Secret, Obscure"
+    },
+    {
+      "id": "s25_0632",
+      "num": 27,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Perfunctory",
+      "details": "Done without care Careless, Hasty, Superficial"
+    },
+    {
+      "id": "s25_0633",
+      "num": 28,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Exaggerate",
+      "details": "Overstate Amplify, Overstate, Magnify"
+    },
+    {
+      "id": "s25_0634",
+      "num": 29,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Gratify",
+      "details": "Please, satisfy Satisfy, Please, Delight"
+    },
+    {
+      "id": "s25_0635",
+      "num": 30,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Carnal",
+      "details": "Related to body Earthly, Physical, Corporeal"
+    },
+    {
+      "id": "s25_0636",
+      "num": 31,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Candid",
+      "details": "Honest, frank Frank, Honest, Straightforward"
+    },
+    {
+      "id": "s25_0637",
+      "num": 32,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Exquisite",
+      "details": "Extremely beautiful Delicate, Fine, Beautiful"
+    },
+    {
+      "id": "s25_0638",
+      "num": 33,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Frivolous",
+      "details": "Silly, trivial Trivial, Silly, Trifling"
+    },
+    {
+      "id": "s25_0639",
+      "num": 34,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Taciturn",
+      "details": "Habitually silent Reserved, Quiet, Laconic"
+    },
+    {
+      "id": "s25_0640",
+      "num": 35,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Vicinity",
+      "details": "Nearby area Proximity, Neighborhood, Area"
+    },
+    {
+      "id": "s25_0641",
+      "num": 36,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Enervate",
+      "details": "Weaken of energy Exhaust, Weaken, Deplete"
+    },
+    {
+      "id": "s25_0642",
+      "num": 37,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Encumbrance",
+      "details": "Burden, obstacle Obstacle, Hindrance, Burden"
+    },
+    {
+      "id": "s25_0643",
+      "num": 38,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Reckless",
+      "details": "Careless, without caution Rash, Careless, Thoughtless"
+    },
+    {
+      "id": "s25_0644",
+      "num": 39,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Diligent",
+      "details": "Persistent, hardworking Hardworking, Industrious, Conscientious"
+    },
+    {
+      "id": "s25_0645",
+      "num": 40,
+      "exam": "CGL Pre 2025",
+      "category": "Synonyms",
+      "word": "Exasperate",
+      "details": "Irritate, annoy Annoy, Irritate, Vex"
+    },
+    {
+      "id": "s25_0646",
+      "num": 1,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Affluent",
+      "details": "Rich, wealthy Destitute, Poor, Impoverished"
+    },
+    {
+      "id": "s25_0647",
+      "num": 2,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Wilt",
+      "details": "Wither, droop Revive, Flourish, Bloom"
+    },
+    {
+      "id": "s25_0648",
+      "num": 3,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Quell",
+      "details": "Suppress, calm Agitate, Provoke, Incite"
+    },
+    {
+      "id": "s25_0649",
+      "num": 4,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Tangible",
+      "details": "Can be touched Intangible, Abstract, Imperceptible"
+    },
+    {
+      "id": "s25_0650",
+      "num": 5,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Magnanimous",
+      "details": "Generous, noble Petty, Mean, Grudging"
+    },
+    {
+      "id": "s25_0651",
+      "num": 6,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Impute",
+      "details": "Assign blame Support, Defend, Absolve"
+    },
+    {
+      "id": "s25_0652",
+      "num": 7,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Imitate",
+      "details": "Copy Innovate, Create, Originate"
+    },
+    {
+      "id": "s25_0653",
+      "num": 8,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Meticulous",
+      "details": "Very careful Negligent, Careless, Sloppy"
+    },
+    {
+      "id": "s25_0654",
+      "num": 9,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Enhance",
+      "details": "Improve Diminish, Reduce, Decrease"
+    },
+    {
+      "id": "s25_0655",
+      "num": 10,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Lucid",
+      "details": "Clear, understandable Vague, Obscure, Unclear"
+    },
+    {
+      "id": "s25_0656",
+      "num": 12,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Inflate",
+      "details": "Exaggerate Reduce, Minimize, Deflate"
+    },
+    {
+      "id": "s25_0657",
+      "num": 13,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Wan",
+      "details": "Pale, weak Healthy, Robust, Vigorous"
+    },
+    {
+      "id": "s25_0658",
+      "num": 14,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Hostile",
+      "details": "Unfriendly, aggressive Friendly, Amicable, Cordial"
+    },
+    {
+      "id": "s25_0659",
+      "num": 15,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Dominate",
+      "details": "Control, rule Submit, Yield, Surrender"
+    },
+    {
+      "id": "s25_0660",
+      "num": 16,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Mature",
+      "details": "Fully developed Immature, Childish, Undeveloped"
+    },
+    {
+      "id": "s25_0661",
+      "num": 17,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Prudent",
+      "details": "Wise, careful Thoughtless, Rash, Imprudent"
+    },
+    {
+      "id": "s25_0662",
+      "num": 18,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Vilify",
+      "details": "Defame, slander Commend, Praise, Acclaim"
+    },
+    {
+      "id": "s25_0663",
+      "num": 19,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Authorize",
+      "details": "Permit, allow Forbid, Prohibit, Ban"
+    },
+    {
+      "id": "s25_0664",
+      "num": 20,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Resilient",
+      "details": "Able to recover Fragile, Brittle, Delicate"
+    },
+    {
+      "id": "s25_0665",
+      "num": 21,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Affirm",
+      "details": "Confirm, assert Refuse, Deny, Reject"
+    },
+    {
+      "id": "s25_0666",
+      "num": 22,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Yoke",
+      "details": "Bond, join Liberate, Free, Separate"
+    },
+    {
+      "id": "s25_0667",
+      "num": 23,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Prominent",
+      "details": "Famous, notable Obscure, Unknown, Inconspicuous"
+    },
+    {
+      "id": "s25_0668",
+      "num": 24,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Eloquent",
+      "details": "Fluent, persuasive Inexpressive, Inarticulate, Mumbling"
+    },
+    {
+      "id": "s25_0669",
+      "num": 25,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Deliberate",
+      "details": "Done intentionally Rash, Careless, Thoughtless"
+    },
+    {
+      "id": "s25_0670",
+      "num": 26,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Candid",
+      "details": "Honest, frank Deceitful, Dishonest, Deceptive"
+    },
+    {
+      "id": "s25_0671",
+      "num": 27,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Diligent",
+      "details": "Hardworking, persistent Lazy, Slothful, Indolent"
+    },
+    {
+      "id": "s25_0672",
+      "num": 28,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Knave",
+      "details": "Dishonest man Paragon, Saint, Hero"
+    },
+    {
+      "id": "s25_0673",
+      "num": 29,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Audacity",
+      "details": "Daring, boldness Modesty, Timidity, Caution"
+    },
+    {
+      "id": "s25_0674",
+      "num": 30,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Durable",
+      "details": "Strong, lasting Fragile, Weak, Breakable"
+    },
+    {
+      "id": "s25_0675",
+      "num": 31,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Lax",
+      "details": "Careless, loose Reliable, Strict, Rigorous"
+    },
+    {
+      "id": "s25_0676",
+      "num": 32,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Commendable",
+      "details": "Praiseworthy Blameworthy, Condemnable, Shameful"
+    },
+    {
+      "id": "s25_0677",
+      "num": 33,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Assert",
+      "details": "State firmly Deny, Retract, Disclaim"
+    },
+    {
+      "id": "s25_0678",
+      "num": 34,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Eminent",
+      "details": "Famous, distinguished Obscure, Unknown, Unnoticed"
+    },
+    {
+      "id": "s25_0679",
+      "num": 35,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Scrupulous",
+      "details": "Very honest Dishonest, Unethical, Immoral"
+    },
+    {
+      "id": "s25_0680",
+      "num": 36,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Superficial",
+      "details": "Shallow Deep, Profound, Thorough"
+    },
+    {
+      "id": "s25_0681",
+      "num": 37,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Approve",
+      "details": "Accept, agree Reject, Disapprove, Oppose"
+    },
+    {
+      "id": "s25_0682",
+      "num": 38,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Arraign",
+      "details": "Accuse, call court Justify, Acquit, Exonerate"
+    },
+    {
+      "id": "s25_0683",
+      "num": 39,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Liberation",
+      "details": "Freedom Captivity, Imprisonment, Bondage"
+    },
+    {
+      "id": "s25_0684",
+      "num": 41,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Veracity",
+      "details": "Honesty, truthfulness Falsehood, Deception, Lying"
+    },
+    {
+      "id": "s25_0685",
+      "num": 42,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Oracular",
+      "details": "Wise, mysterious Lucid, Clear, Obvious"
+    },
+    {
+      "id": "s25_0686",
+      "num": 43,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Peevish",
+      "details": "Easily irritated Suave, Calm, Good-natured"
+    },
+    {
+      "id": "s25_0687",
+      "num": 44,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Slander",
+      "details": "False spoken statement Praise, Commendation, Approval"
+    },
+    {
+      "id": "s25_0688",
+      "num": 45,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Pompous",
+      "details": "Arrogant, showy Submissive, Humble, Modest"
+    },
+    {
+      "id": "s25_0689",
+      "num": 46,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Vindicate",
+      "details": "Prove right, justify Accuse, Condemn, Blame"
+    },
+    {
+      "id": "s25_0690",
+      "num": 1,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Place",
+      "details": "where aircraft kept Hangar"
+    },
+    {
+      "id": "s25_0691",
+      "num": 2,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Consistently",
+      "details": "excluded person Pariah"
+    },
+    {
+      "id": "s25_0692",
+      "num": 3,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Property",
+      "details": "inherited from father Patrimony"
+    },
+    {
+      "id": "s25_0693",
+      "num": 4,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Talkative",
+      "details": "person Garrulous"
+    },
+    {
+      "id": "s25_0694",
+      "num": 5,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Medicine",
+      "details": "inducing sleep Narcotic"
+    },
+    {
+      "id": "s25_0695",
+      "num": 6,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "One",
+      "details": "studying evolution of mankind Anthropologist"
+    },
+    {
+      "id": "s25_0696",
+      "num": 7,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Place",
+      "details": "with wild animals Zoo"
+    },
+    {
+      "id": "s25_0697",
+      "num": 8,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Person's",
+      "details": "peculiar habit Idiosyncrasy"
+    },
+    {
+      "id": "s25_0698",
+      "num": 9,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Study",
+      "details": "of sound effects Acoustics"
+    },
+    {
+      "id": "s25_0699",
+      "num": 10,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Speech",
+      "details": "without preparation Impromptu"
+    },
+    {
+      "id": "s25_0700",
+      "num": 12,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "forced to flee Refugee"
+    },
+    {
+      "id": "s25_0701",
+      "num": 13,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "spending recklessly Spendthrift"
+    },
+    {
+      "id": "s25_0702",
+      "num": 15,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Group",
+      "details": "graduating from school Alumni"
+    },
+    {
+      "id": "s25_0703",
+      "num": 16,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Killing",
+      "details": "of one's mother Matricide"
+    },
+    {
+      "id": "s25_0704",
+      "num": 17,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Place",
+      "details": "keeping dead bodies Morgue"
+    },
+    {
+      "id": "s25_0705",
+      "num": 18,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Misappropriation",
+      "details": "of money Embezzlement"
+    },
+    {
+      "id": "s25_0706",
+      "num": 19,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Inscription",
+      "details": "on stone Epitaph"
+    },
+    {
+      "id": "s25_0707",
+      "num": 20,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "without settled home Vagabond"
+    },
+    {
+      "id": "s25_0708",
+      "num": 21,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Extremely",
+      "details": "selective person Fastidious"
+    },
+    {
+      "id": "s25_0709",
+      "num": 22,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "with long experience Veteran"
+    },
+    {
+      "id": "s25_0710",
+      "num": 23,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Short",
+      "details": "stay at place Sojourn"
+    },
+    {
+      "id": "s25_0711",
+      "num": 24,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "who writes books Author"
+    },
+    {
+      "id": "s25_0712",
+      "num": 25,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Murder",
+      "details": "of a king Regicide"
+    },
+    {
+      "id": "s25_0713",
+      "num": 26,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Poem",
+      "details": "of mourning Elegy"
+    },
+    {
+      "id": "s25_0714",
+      "num": 27,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Political",
+      "details": "disorder Anarchy"
+    },
+    {
+      "id": "s25_0715",
+      "num": 28,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Symbol",
+      "details": "serving emblem Totem"
+    },
+    {
+      "id": "s25_0716",
+      "num": 29,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Short",
+      "details": "amusing story Anecdote"
+    },
+    {
+      "id": "s25_0717",
+      "num": 30,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Man",
+      "details": "whose wife dead Widower"
+    },
+    {
+      "id": "s25_0718",
+      "num": 31,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Killing",
+      "details": "one's brother Fratricide"
+    },
+    {
+      "id": "s25_0719",
+      "num": 32,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Official",
+      "details": "pardon Amnesty"
+    },
+    {
+      "id": "s25_0720",
+      "num": 33,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Partner",
+      "details": "in crime Accomplice"
+    },
+    {
+      "id": "s25_0721",
+      "num": 34,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Expressing",
+      "details": "less than meant Litotes"
+    },
+    {
+      "id": "s25_0722",
+      "num": 35,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "hating mankind Misanthrope"
+    },
+    {
+      "id": "s25_0723",
+      "num": 36,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Humorous",
+      "details": "five-line poem Limerick"
+    },
+    {
+      "id": "s25_0724",
+      "num": 37,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Ideal",
+      "details": "society Utopia"
+    },
+    {
+      "id": "s25_0725",
+      "num": 38,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "indifferent to pleasure Stoic"
+    },
+    {
+      "id": "s25_0726",
+      "num": 39,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Official",
+      "details": "reprimand Censure"
+    },
+    {
+      "id": "s25_0727",
+      "num": 40,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "abstaining from indulgence Ascetic"
+    },
+    {
+      "id": "s25_0728",
+      "num": 41,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "State",
+      "details": "of disuse Desuetude"
+    },
+    {
+      "id": "s25_0729",
+      "num": 42,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Professional",
+      "details": "making maps Cartographer"
+    },
+    {
+      "id": "s25_0730",
+      "num": 43,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "eating excessively Glutton"
+    },
+    {
+      "id": "s25_0731",
+      "num": 44,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Self-contradictory",
+      "details": "true statement Paradox"
+    },
+    {
+      "id": "s25_0732",
+      "num": 45,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Speech",
+      "details": "praising highly Encomium"
+    },
+    {
+      "id": "s25_0733",
+      "num": 46,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Act",
+      "details": "of setting fire Arson"
+    },
+    {
+      "id": "s25_0734",
+      "num": 47,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Fear",
+      "details": "of public speaking Glossophobia"
+    },
+    {
+      "id": "s25_0735",
+      "num": 48,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "opposing official policy Dissident"
+    },
+    {
+      "id": "s25_0736",
+      "num": 49,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Excessive",
+      "details": "self-importance Arrogance"
+    },
+    {
+      "id": "s25_0737",
+      "num": 50,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Mental",
+      "details": "weariness, lack enthusiasm Ennui"
+    },
+    {
+      "id": "s25_0738",
+      "num": 51,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "General",
+      "details": "pardon by government Amnesty"
+    },
+    {
+      "id": "s25_0739",
+      "num": 52,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Secret",
+      "details": "or disguised writing Cipher"
+    },
+    {
+      "id": "s25_0740",
+      "num": 53,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Something",
+      "details": "impossible to read Illegible"
+    },
+    {
+      "id": "s25_0741",
+      "num": 54,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Deep",
+      "details": "bottomless chasm Abyss"
+    },
+    {
+      "id": "s25_0742",
+      "num": 55,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Abandoning",
+      "details": "religious faith Apostate"
+    },
+    {
+      "id": "s25_0743",
+      "num": 56,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Formal",
+      "details": "split in religion Schism"
+    },
+    {
+      "id": "s25_0744",
+      "num": 57,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "supporting change Reformer"
+    },
+    {
+      "id": "s25_0745",
+      "num": 58,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Extremely",
+      "details": "old-fashioned Antediluvian"
+    },
+    {
+      "id": "s25_0746",
+      "num": 59,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Indifferent",
+      "details": "to pain pleasure Stoic"
+    },
+    {
+      "id": "s25_0747",
+      "num": 60,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "One",
+      "details": "pretending knowledge Charlatan"
+    },
+    {
+      "id": "s25_0748",
+      "num": 61,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "opposing war Pacifist"
+    },
+    {
+      "id": "s25_0749",
+      "num": 62,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Belief",
+      "details": "against doctrine Heresy"
+    },
+    {
+      "id": "s25_0750",
+      "num": 63,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Loud",
+      "details": "confused noise Cacophony"
+    },
+    {
+      "id": "s25_0751",
+      "num": 64,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Traditional",
+      "details": "poem writer Bard"
+    },
+    {
+      "id": "s25_0752",
+      "num": 65,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Excessively",
+      "details": "concerned with details Pedant"
+    },
+    {
+      "id": "s25_0753",
+      "num": 66,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Leave",
+      "details": "suddenly hurriedly Abscond."
+    },
+    {
+      "id": "s25_0754",
+      "num": 67,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "One",
+      "details": "living for pleasure Epicure"
+    },
+    {
+      "id": "s25_0755",
+      "num": 68,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "believing in fate Fatalist"
+    },
+    {
+      "id": "s25_0756",
+      "num": 69,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "pretending to be Impostor"
+    },
+    {
+      "id": "s25_0757",
+      "num": 70,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Government",
+      "details": "rulers stealing Kleptocracy"
+    },
+    {
+      "id": "s25_0758",
+      "num": 71,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Place",
+      "details": "with wild animals Menagerie"
+    },
+    {
+      "id": "s25_0759",
+      "num": 72,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Building",
+      "details": "keeping bodies Mortuary"
+    },
+    {
+      "id": "s25_0760",
+      "num": 73,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Government",
+      "details": "ruled by priests Theocracy"
+    },
+    {
+      "id": "s25_0761",
+      "num": 74,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Harmless",
+      "details": "pill Placebo"
+    },
+    {
+      "id": "s25_0762",
+      "num": 75,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Cancellation",
+      "details": "of penalty Remission"
+    },
+    {
+      "id": "s25_0763",
+      "num": 76,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Trickery",
+      "details": "for goal Chicanery"
+    },
+    {
+      "id": "s25_0764",
+      "num": 77,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Study",
+      "details": "of ancient societies Archaeologist"
+    },
+    {
+      "id": "s25_0765",
+      "num": 78,
+      "exam": "CGL Pre 2025",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "loving books Bibliophile"
+    },
+    {
+      "id": "s25_0766",
+      "num": 1,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Hobson's",
+      "details": "choice No real choice"
+    },
+    {
+      "id": "s25_0767",
+      "num": 2,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Move",
+      "details": "heaven and earth Work tirelessly"
+    },
+    {
+      "id": "s25_0768",
+      "num": 3,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Fly",
+      "details": "off handle Become suddenly angry"
+    },
+    {
+      "id": "s25_0769",
+      "num": 4,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Make",
+      "details": "no bones Be direct, honest"
+    },
+    {
+      "id": "s25_0770",
+      "num": 5,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Two",
+      "details": "strings to bow Additional skill or option"
+    },
+    {
+      "id": "s25_0771",
+      "num": 6,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Show",
+      "details": "white feather Act cowardly"
+    },
+    {
+      "id": "s25_0772",
+      "num": 7,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Bury",
+      "details": "hatchet Reconcile after conflict"
+    },
+    {
+      "id": "s25_0773",
+      "num": 8,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Blow",
+      "details": "hot and cold Change mood frequently"
+    },
+    {
+      "id": "s25_0774",
+      "num": 9,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Throw",
+      "details": "cold water Oppose or discourage"
+    },
+    {
+      "id": "s25_0775",
+      "num": 10,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Keep",
+      "details": "at bay Keep away safely"
+    },
+    {
+      "id": "s25_0776",
+      "num": 12,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Fiddle",
+      "details": "while Rome burns Waste time during crisis"
+    },
+    {
+      "id": "s25_0777",
+      "num": 13,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Eat",
+      "details": "humble pie Accept defeat gracefully"
+    },
+    {
+      "id": "s25_0778",
+      "num": 14,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Carry",
+      "details": "coals to Newcastle Provide where abundant"
+    },
+    {
+      "id": "s25_0779",
+      "num": 15,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Toe",
+      "details": "the line Obey rules exactly"
+    },
+    {
+      "id": "s25_0780",
+      "num": 16,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "In",
+      "details": "the doldrums State of depression"
+    },
+    {
+      "id": "s25_0781",
+      "num": 17,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Chew",
+      "details": "cud of reflection Ponder deeply"
+    },
+    {
+      "id": "s25_0782",
+      "num": 18,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Not",
+      "details": "fit to candle Greatly inferior"
+    },
+    {
+      "id": "s25_0783",
+      "num": 19,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Cry",
+      "details": "stinking fish Undervalue own worth"
+    },
+    {
+      "id": "s25_0784",
+      "num": 20,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Won",
+      "details": "laurels Achieved distinction"
+    },
+    {
+      "id": "s25_0785",
+      "num": 21,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Came",
+      "details": "of age Reached adulthood"
+    },
+    {
+      "id": "s25_0786",
+      "num": 22,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Gall",
+      "details": "and wormwood Deep frustration"
+    },
+    {
+      "id": "s25_0787",
+      "num": 23,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Sword",
+      "details": "of Damocles Constant threat"
+    },
+    {
+      "id": "s25_0788",
+      "num": 24,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Keeps",
+      "details": "good table Serves quality meals"
+    },
+    {
+      "id": "s25_0789",
+      "num": 25,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Hand",
+      "details": "and glove Very closely associated"
+    },
+    {
+      "id": "s25_0790",
+      "num": 26,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Currying",
+      "details": "favour Seeking approval"
+    },
+    {
+      "id": "s25_0791",
+      "num": 27,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Chapter",
+      "details": "and verse Precise reference"
+    },
+    {
+      "id": "s25_0792",
+      "num": 28,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Flash",
+      "details": "in pan Sudden but brief"
+    },
+    {
+      "id": "s25_0793",
+      "num": 29,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Bite",
+      "details": "thumb at Insult contemptuously"
+    },
+    {
+      "id": "s25_0794",
+      "num": 30,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Sound",
+      "details": "and fury Great uproar"
+    },
+    {
+      "id": "s25_0795",
+      "num": 31,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Whistle",
+      "details": "in dark Brave front despite fear"
+    },
+    {
+      "id": "s25_0796",
+      "num": 32,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Yeoman",
+      "details": "service Exceptionally loyal service"
+    },
+    {
+      "id": "s25_0797",
+      "num": 33,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Coals",
+      "details": "of fire Shame enemy through kindness"
+    },
+    {
+      "id": "s25_0798",
+      "num": 34,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Eat",
+      "details": "crow Admit error humbly"
+    },
+    {
+      "id": "s25_0799",
+      "num": 35,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Draw",
+      "details": "long bow Fabricate exaggerate"
+    },
+    {
+      "id": "s25_0800",
+      "num": 36,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Mad",
+      "details": "as hatter Completely insane"
+    },
+    {
+      "id": "s25_0801",
+      "num": 37,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Skin",
+      "details": "of teeth Barest possible margin"
+    },
+    {
+      "id": "s25_0802",
+      "num": 38,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Throw",
+      "details": "hat in ring Announce candidacy"
+    },
+    {
+      "id": "s25_0803",
+      "num": 39,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "High",
+      "details": "dudgeon Offended with dignity"
+    },
+    {
+      "id": "s25_0804",
+      "num": 40,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Cook",
+      "details": "someone's goose Ruin plans prospects"
+    },
+    {
+      "id": "s25_0805",
+      "num": 41,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Sup",
+      "details": "with devil Collaborate immorally"
+    },
+    {
+      "id": "s25_0806",
+      "num": 42,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Sail",
+      "details": "close to wind Operate at edge"
+    },
+    {
+      "id": "s25_0807",
+      "num": 43,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "On",
+      "details": "tenterhooks Painful suspense"
+    },
+    {
+      "id": "s25_0808",
+      "num": 44,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Hang",
+      "details": "fire Delay taking action"
+    },
+    {
+      "id": "s25_0809",
+      "num": 45,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Play",
+      "details": "second fiddle Support accepting inferior"
+    },
+    {
+      "id": "s25_0810",
+      "num": 46,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Know",
+      "details": "wind blows Sense trending events"
+    },
+    {
+      "id": "s25_0811",
+      "num": 47,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Break",
+      "details": "one's duck First success"
+    },
+    {
+      "id": "s25_0812",
+      "num": 48,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Cut",
+      "details": "someone dead Ignore deliberately"
+    },
+    {
+      "id": "s25_0813",
+      "num": 49,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Play",
+      "details": "gooseberry Unwanted third person"
+    },
+    {
+      "id": "s25_0814",
+      "num": 50,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "At",
+      "details": "sea Feeling confused"
+    },
+    {
+      "id": "s25_0815",
+      "num": 51,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Cut",
+      "details": "Gordian knot Solve decisively"
+    },
+    {
+      "id": "s25_0816",
+      "num": 52,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Harp",
+      "details": "same string Repeat endlessly"
+    },
+    {
+      "id": "s25_0817",
+      "num": 53,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Writing",
+      "details": "on wall Warning of doom"
+    },
+    {
+      "id": "s25_0818",
+      "num": 54,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Jump",
+      "details": "shark Peak then decline"
+    },
+    {
+      "id": "s25_0819",
+      "num": 55,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Not",
+      "details": "in line Outside expertise"
+    },
+    {
+      "id": "s25_0820",
+      "num": 56,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Red",
+      "details": "herring False clue"
+    },
+    {
+      "id": "s25_0821",
+      "num": 57,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Go",
+      "details": "for song Sell cheaply"
+    },
+    {
+      "id": "s25_0822",
+      "num": 58,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Not",
+      "details": "mince matters Speak directly"
+    },
+    {
+      "id": "s25_0823",
+      "num": 59,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Throw",
+      "details": "cap over Act recklessly"
+    },
+    {
+      "id": "s25_0824",
+      "num": 60,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Back",
+      "details": "drawing board Start over"
+    },
+    {
+      "id": "s25_0825",
+      "num": 61,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Nip",
+      "details": "in bud Early stage"
+    },
+    {
+      "id": "s25_0826",
+      "num": 62,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Sitting",
+      "details": "fence Remain undecided"
+    },
+    {
+      "id": "s25_0827",
+      "num": 63,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Clean",
+      "details": "breast of Admit honestly"
+    },
+    {
+      "id": "s25_0828",
+      "num": 64,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Rising",
+      "details": "to occasion Perform exceptionally"
+    },
+    {
+      "id": "s25_0829",
+      "num": 65,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Kicked",
+      "details": "up row Reacted aggressively"
+    },
+    {
+      "id": "s25_0830",
+      "num": 66,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Barking",
+      "details": "wrong tree Accusing wrongly"
+    },
+    {
+      "id": "s25_0831",
+      "num": 67,
+      "exam": "CGL Pre 2025",
+      "category": "Idioms & Phrases",
+      "word": "Grasp",
+      "details": "at straws Show courage"
+    },
+    {
+      "id": "s25_0832",
+      "num": 1,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Gregarious",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0833",
+      "num": 2,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Lightning",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0834",
+      "num": 3,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Malfeasance",
+      "details": "High"
+    },
+    {
+      "id": "s25_0835",
+      "num": 4,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Surveillance",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0836",
+      "num": 5,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Aesthetics",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0837",
+      "num": 6,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Insatiable",
+      "details": "High"
+    },
+    {
+      "id": "s25_0838",
+      "num": 7,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Innocuous",
+      "details": "High"
+    },
+    {
+      "id": "s25_0839",
+      "num": 8,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Coercion",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0840",
+      "num": 9,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Perseverance",
+      "details": "High"
+    },
+    {
+      "id": "s25_0841",
+      "num": 10,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Epitaph",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0842",
+      "num": 12,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Ubiquitous",
+      "details": "High"
+    },
+    {
+      "id": "s25_0843",
+      "num": 13,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Pseudonym",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0844",
+      "num": 14,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Bureaucracy",
+      "details": "High"
+    },
+    {
+      "id": "s25_0845",
+      "num": 16,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Circumlocution",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0846",
+      "num": 17,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Questionnaire",
+      "details": "High"
+    },
+    {
+      "id": "s25_0847",
+      "num": 18,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Interrupt",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0848",
+      "num": 19,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Misanthrope",
+      "details": "High"
+    },
+    {
+      "id": "s25_0849",
+      "num": 20,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Diploma",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0850",
+      "num": 21,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Belief",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0851",
+      "num": 22,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Quintessential",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0852",
+      "num": 23,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Preposterous",
+      "details": "High"
+    },
+    {
+      "id": "s25_0853",
+      "num": 24,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Harass",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0854",
+      "num": 25,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Resurgence",
+      "details": "High"
+    },
+    {
+      "id": "s25_0855",
+      "num": 26,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Legitimate",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0856",
+      "num": 27,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Government",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0857",
+      "num": 28,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Archetype",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0858",
+      "num": 29,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Kneel",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0859",
+      "num": 30,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Calendar",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0860",
+      "num": 31,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Mischievous",
+      "details": "High"
+    },
+    {
+      "id": "s25_0861",
+      "num": 32,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Achieved",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0862",
+      "num": 33,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Permanent",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0863",
+      "num": 34,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Aberration",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0864",
+      "num": 35,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Accessible",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0865",
+      "num": 36,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Connoisseur",
+      "details": "High"
+    },
+    {
+      "id": "s25_0866",
+      "num": 37,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Discrepancy",
+      "details": "High"
+    },
+    {
+      "id": "s25_0867",
+      "num": 38,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Committee",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0868",
+      "num": 39,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Acquire",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0869",
+      "num": 40,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Insurmountable",
+      "details": "High"
+    },
+    {
+      "id": "s25_0870",
+      "num": 41,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Accommodate",
+      "details": "High"
+    },
+    {
+      "id": "s25_0871",
+      "num": 42,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Absence",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0872",
+      "num": 43,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Odyssey",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0873",
+      "num": 44,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Entrepreneur",
+      "details": "High"
+    },
+    {
+      "id": "s25_0874",
+      "num": 45,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Reconcile",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0875",
+      "num": 46,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Influential",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0876",
+      "num": 47,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Belligerent",
+      "details": "High"
+    },
+    {
+      "id": "s25_0877",
+      "num": 48,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Perspicacious",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0878",
+      "num": 49,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Magnanimous",
+      "details": "High"
+    },
+    {
+      "id": "s25_0879",
+      "num": 50,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Excellent",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0880",
+      "num": 51,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Loneliness",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0881",
+      "num": 52,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Intelligent",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0882",
+      "num": 53,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Existence",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0883",
+      "num": 54,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Guidance",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0884",
+      "num": 55,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Superannuation",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0885",
+      "num": 56,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Apiary",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0886",
+      "num": 57,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Supersede",
+      "details": "High"
+    },
+    {
+      "id": "s25_0887",
+      "num": 58,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Liaison",
+      "details": "High"
+    },
+    {
+      "id": "s25_0888",
+      "num": 59,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Resplendent",
+      "details": "High"
+    },
+    {
+      "id": "s25_0889",
+      "num": 60,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Garrulous",
+      "details": "High"
+    },
+    {
+      "id": "s25_0890",
+      "num": 61,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Maneuverer",
+      "details": "High"
+    },
+    {
+      "id": "s25_0891",
+      "num": 62,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Idiosyncrasy",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0892",
+      "num": 63,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Grateful",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0893",
+      "num": 64,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Reservoir",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0894",
+      "num": 65,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Dichotomy",
+      "details": "High"
+    },
+    {
+      "id": "s25_0895",
+      "num": 66,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Guarantee",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0896",
+      "num": 67,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Camouflage",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0897",
+      "num": 68,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Vernacular",
+      "details": "High"
+    },
+    {
+      "id": "s25_0898",
+      "num": 69,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Embellish",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0899",
+      "num": 70,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Acknowledge",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0900",
+      "num": 71,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Incredible",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0901",
+      "num": 72,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Vicereine",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0902",
+      "num": 73,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Thermodynamics",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0903",
+      "num": 74,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Deleterious",
+      "details": "High"
+    },
+    {
+      "id": "s25_0904",
+      "num": 75,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Quintessence",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0905",
+      "num": 716,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Acquiescence",
+      "details": "High"
+    },
+    {
+      "id": "s25_0906",
+      "num": 77,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Sanguine",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0907",
+      "num": 78,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Ventriculoperitoneal",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0908",
+      "num": 79,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Epitome",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0909",
+      "num": 80,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Noble",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0910",
+      "num": 81,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Perseverance",
+      "details": "High"
+    },
+    {
+      "id": "s25_0911",
+      "num": 82,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Cytochrome",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0912",
+      "num": 83,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Expostulation",
+      "details": "High"
+    },
+    {
+      "id": "s25_0913",
+      "num": 84,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Psychopharmacology",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0914",
+      "num": 85,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Pensive",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0915",
+      "num": 86,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Adept",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0916",
+      "num": 87,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Trisomy",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0917",
+      "num": 88,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Embarrassment",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0918",
+      "num": 89,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Sluggard",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0919",
+      "num": 90,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Temerarious",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0920",
+      "num": 91,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Rendezvous",
+      "details": "High"
+    },
+    {
+      "id": "s25_0921",
+      "num": 92,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Utilitarianism",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0922",
+      "num": 93,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Porphyroblastic",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0923",
+      "num": 94,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Nitrocellulose",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0924",
+      "num": 95,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Pithy",
+      "details": "Easy"
+    },
+    {
+      "id": "s25_0925",
+      "num": 96,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Conscientious",
+      "details": "High"
+    },
+    {
+      "id": "s25_0926",
+      "num": 97,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Infinitesimal",
+      "details": "High"
+    },
+    {
+      "id": "s25_0927",
+      "num": 98,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Reprove",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0928",
+      "num": 99,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Organometallic",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0929",
+      "num": 100,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Parsimonious",
+      "details": "High"
+    },
+    {
+      "id": "s25_0930",
+      "num": 101,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Phytoremediation",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0931",
+      "num": 102,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Schizotypal",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0932",
+      "num": 103,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Serene",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0933",
+      "num": 104,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Camouflage",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0934",
+      "num": 105,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Onomatopoeia",
+      "details": "Very High"
+    },
+    {
+      "id": "s25_0935",
+      "num": 106,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Rudimentary",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0936",
+      "num": 107,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Autarky",
+      "details": "High"
+    },
+    {
+      "id": "s25_0937",
+      "num": 108,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Resurrection",
+      "details": "Medium"
+    },
+    {
+      "id": "s25_0938",
+      "num": 109,
+      "exam": "CGL Pre 2025",
+      "category": "Spellings",
+      "word": "Obfuscation",
+      "details": "High"
+    },
+    {
+      "id": "s25_0939",
+      "num": 1,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Perfidious",
+      "details": "Betrays trust, deceitful Treacherous, Unfaithful, Disloyal"
+    },
+    {
+      "id": "s25_0940",
+      "num": 2,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Abnegate",
+      "details": "Reject or give up Renounce, Relinquish, Forsake"
+    },
+    {
+      "id": "s25_0941",
+      "num": 3,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Nebulous",
+      "details": "Unclear, indefinite Vague, Hazy, Indistinct"
+    },
+    {
+      "id": "s25_0942",
+      "num": 4,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Caustic",
+      "details": "Sharp, biting, hurtful Sarcastic, Acerbic, Cutting"
+    },
+    {
+      "id": "s25_0943",
+      "num": 5,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Bibliophile",
+      "details": "Loves collecting books Book-lover, Bibliophile, Bookworm"
+    },
+    {
+      "id": "s25_0944",
+      "num": 6,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Deleterious",
+      "details": "Causing damage or harm Harmful, Damaging, Injurious"
+    },
+    {
+      "id": "s25_0945",
+      "num": 7,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Juvenile",
+      "details": "Young, immature Childish, Puerile, Infantile"
+    },
+    {
+      "id": "s25_0946",
+      "num": 8,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Callow",
+      "details": "Young, lacking experience Inexperienced, Immature, Green"
+    },
+    {
+      "id": "s25_0947",
+      "num": 9,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Apogee",
+      "details": "Highest point or climax Peak, Zenith, Acme"
+    },
+    {
+      "id": "s25_0948",
+      "num": 10,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Nonchalant",
+      "details": "Calm, casually indifferent Carefree, Composed, Unconcerned"
+    },
+    {
+      "id": "s25_0949",
+      "num": 12,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Propitious",
+      "details": "Indicating good chance Favorable, Auspicious, Fortunate"
+    },
+    {
+      "id": "s25_0950",
+      "num": 13,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Illuminate",
+      "details": "Make clear, light up Explain, Clarify, Elucidate"
+    },
+    {
+      "id": "s25_0951",
+      "num": 14,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Garrulous",
+      "details": "Talking too much Talkative, Verbose, Loquacious"
+    },
+    {
+      "id": "s25_0952",
+      "num": 15,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Intransigent",
+      "details": "Unwilling to change Stubborn, Adamant, Uncompromising"
+    },
+    {
+      "id": "s25_0953",
+      "num": 16,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Luminous",
+      "details": "Giving off light Radiant, Shining, Bright"
+    },
+    {
+      "id": "s25_0954",
+      "num": 17,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Exiguous",
+      "details": "Very small in amount Scanty, Meagre, Sparse"
+    },
+    {
+      "id": "s25_0955",
+      "num": 18,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Haphazard",
+      "details": "Done without planning Random, Chaotic, Disorganized"
+    },
+    {
+      "id": "s25_0956",
+      "num": 19,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Rebellious",
+      "details": "Resisting control Disobedient, Defiant, Insurgent"
+    },
+    {
+      "id": "s25_0957",
+      "num": 20,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Eulogy",
+      "details": "Speech of praise Tribute, Encomium, Panegyric"
+    },
+    {
+      "id": "s25_0958",
+      "num": 21,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Cogent",
+      "details": "Clear, logical, convincing Convincing, Compelling, Persuasive"
+    },
+    {
+      "id": "s25_0959",
+      "num": 22,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Invective",
+      "details": "Harsh or insulting language Tirade, Abuse, Vituperation"
+    },
+    {
+      "id": "s25_0960",
+      "num": 23,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Ebullient",
+      "details": "Full of energy, excitement Enthusiastic, Exuberant, Lively"
+    },
+    {
+      "id": "s25_0961",
+      "num": 24,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Complaisant",
+      "details": "Willing to please Submissive, Obliging, Compliant"
+    },
+    {
+      "id": "s25_0962",
+      "num": 25,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Felicitous",
+      "details": "Well-chosen, suitable Appropriate, Apt, Fitting"
+    },
+    {
+      "id": "s25_0963",
+      "num": 26,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Dilatory",
+      "details": "Slow to act Tardy, Sluggish, Lingering"
+    },
+    {
+      "id": "s25_0964",
+      "num": 27,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Circumspect",
+      "details": "Careful considering risks Cautious, Prudent, Discreet"
+    },
+    {
+      "id": "s25_0965",
+      "num": 28,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Cadaverous",
+      "details": "Very thin, pale Pale, Gaunt, Skeletal"
+    },
+    {
+      "id": "s25_0966",
+      "num": 29,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Coruscate",
+      "details": "Shine brightly Sparkle, Glitter, Gleam"
+    },
+    {
+      "id": "s25_0967",
+      "num": 30,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Obfuscation",
+      "details": "Making unclear Confusion, Obscurity, Obfuscation"
+    },
+    {
+      "id": "s25_0968",
+      "num": 31,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Chicanery",
+      "details": "Trickery to deceive Deception, Trickery, Fraud"
+    },
+    {
+      "id": "s25_0969",
+      "num": 32,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Perspicuous",
+      "details": "Clearly expressed Clear, Lucid, Transparent"
+    },
+    {
+      "id": "s25_0970",
+      "num": 33,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Grumpy",
+      "details": "Easily annoyed Irritable, Surly, Cantankerous"
+    },
+    {
+      "id": "s25_0971",
+      "num": 34,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Trenchant",
+      "details": "Sharp, forceful, clear Incisive, Cutting, Penetrating"
+    },
+    {
+      "id": "s25_0972",
+      "num": 35,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Condemn",
+      "details": "Strongly disapprove Criticize, Censure, Denounce"
+    },
+    {
+      "id": "s25_0973",
+      "num": 36,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Sentient",
+      "details": "Able to feel, perceive Conscious, Aware, Feeling"
+    },
+    {
+      "id": "s25_0974",
+      "num": 37,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Ephemeral",
+      "details": "Lasting very short time Short-lived, Fleeting, Transient"
+    },
+    {
+      "id": "s25_0975",
+      "num": 38,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Upbraid",
+      "details": "Scold or criticise Reprimand, Rebuke, Chide"
+    },
+    {
+      "id": "s25_0976",
+      "num": 39,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Asperity",
+      "details": "Harshness of tone Harshness, Bitterness, Severity"
+    },
+    {
+      "id": "s25_0977",
+      "num": 40,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Awry",
+      "details": "Not straight Askew, Crooked, Twisted"
+    },
+    {
+      "id": "s25_0978",
+      "num": 41,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Irrepressible",
+      "details": "Impossible to control Uncontrollable, Unrestrained, Exuberant"
+    },
+    {
+      "id": "s25_0979",
+      "num": 42,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Truncated",
+      "details": "Cut short Shortened, Abbreviated, Curtailed"
+    },
+    {
+      "id": "s25_0980",
+      "num": 43,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Festivity",
+      "details": "Time of celebration Celebration, Festivity, Merriment"
+    },
+    {
+      "id": "s25_0981",
+      "num": 44,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Phiegmatic",
+      "details": "Calm, not easily excited Calm, Composed, Unemotional"
+    },
+    {
+      "id": "s25_0982",
+      "num": 45,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Anachronistic",
+      "details": "Belonging to earlier time Outdated, Obsolete, Archaic"
+    },
+    {
+      "id": "s25_0983",
+      "num": 46,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Exhilaration",
+      "details": "Great joy and excitement Excitement, Elation, Joy"
+    },
+    {
+      "id": "s25_0984",
+      "num": 47,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Cavil",
+      "details": "Raise petty objections Quibble, Carp, Nitpick"
+    },
+    {
+      "id": "s25_0985",
+      "num": 48,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Conflagration",
+      "details": "Large destructive fire Fire, Inferno, Blaze"
+    },
+    {
+      "id": "s25_0986",
+      "num": 49,
+      "exam": "Mains Additional Vocab",
+      "category": "Synonyms",
+      "word": "Pernicious",
+      "details": "Very harmful Harmful, Damaging, Noxious"
+    },
+    {
+      "id": "s25_0987",
+      "num": 1,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Perfidious",
+      "details": "Treacherous, unfaithful Loyal, Faithful, Dependable"
+    },
+    {
+      "id": "s25_0988",
+      "num": 2,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Puissant",
+      "details": "Very powerful Feeble, Weak, Powerless"
+    },
+    {
+      "id": "s25_0989",
+      "num": 3,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Erudite",
+      "details": "Highly educated Uninformed, Ignorant, Uneducated"
+    },
+    {
+      "id": "s25_0990",
+      "num": 4,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Encomium",
+      "details": "High praise Castigation, Censure, Condemnation"
+    },
+    {
+      "id": "s25_0991",
+      "num": 5,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Evanescent",
+      "details": "Short-lived Enduring, Permanent, Eternal"
+    },
+    {
+      "id": "s25_0992",
+      "num": 6,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Lachrymose",
+      "details": "Tearful, sad Jovial, Cheerful, Happy"
+    },
+    {
+      "id": "s25_0993",
+      "num": 7,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Cacophony",
+      "details": "Harsh loud sound Harmony, Melody, Concord"
+    },
+    {
+      "id": "s25_0994",
+      "num": 8,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Subterfuge",
+      "details": "Hidden trick Candour, Honesty, Frankness"
+    },
+    {
+      "id": "s25_0995",
+      "num": 9,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Extirpate",
+      "details": "Remove completely Establish, Plant, Root"
+    },
+    {
+      "id": "s25_0996",
+      "num": 10,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Placatory",
+      "details": "Calming, pacifying Aggravating, Provoking, Irritating"
+    },
+    {
+      "id": "s25_0997",
+      "num": 12,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Mendacious",
+      "details": "Lying, untruthful Truthful, Honest, Sincere"
+    },
+    {
+      "id": "s25_0998",
+      "num": 13,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Quixotic",
+      "details": "Unrealistic idealistic Pragmatic, Realistic, Practical"
+    },
+    {
+      "id": "s25_0999",
+      "num": 14,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Obsequious",
+      "details": "Overly submissive Assertive, Bold, Confident"
+    },
+    {
+      "id": "s25_1000",
+      "num": 15,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Soporific",
+      "details": "Sleep-causing Stimulating, Energizing, Invigorating"
+    },
+    {
+      "id": "s25_1001",
+      "num": 16,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Oppugn",
+      "details": "Attack or argue Defend, Support, Champion"
+    },
+    {
+      "id": "s25_1002",
+      "num": 17,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Demur",
+      "details": "Raise objection Agree, Consent, Assent"
+    },
+    {
+      "id": "s25_1003",
+      "num": 18,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Zany",
+      "details": "Crazy, weird Sensible, Sane, Serious"
+    },
+    {
+      "id": "s25_1004",
+      "num": 19,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Incessant",
+      "details": "Without stopping Intermittent, Sporadic, Occasional"
+    },
+    {
+      "id": "s25_1005",
+      "num": 20,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Piquant",
+      "details": "Sharp taste Bland, Dull, Tasteless"
+    },
+    {
+      "id": "s25_1006",
+      "num": 21,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Pulchritude",
+      "details": "Physical beauty Ugliness, Unattractiveness, Homeliness"
+    },
+    {
+      "id": "s25_1007",
+      "num": 22,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Incorrigible",
+      "details": "Cannot be corrected Reclaimable, Reformable, Improvable"
+    },
+    {
+      "id": "s25_1008",
+      "num": 23,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Abrogate",
+      "details": "Cancel officially Uphold, Maintain, Preserve"
+    },
+    {
+      "id": "s25_1009",
+      "num": 24,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Reverence",
+      "details": "Deep respect Contempt, Disrespect, Scorn"
+    },
+    {
+      "id": "s25_1010",
+      "num": 25,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Incandescent",
+      "details": "Glowing bright Dusky, Dark, Dim"
+    },
+    {
+      "id": "s25_1011",
+      "num": 26,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Turpitude",
+      "details": "Moral corruption Morality, Virtue, Integrity"
+    },
+    {
+      "id": "s25_1012",
+      "num": 27,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Lassitude",
+      "details": "Tiredness, weakness Vigour, Energy, Vitality"
+    },
+    {
+      "id": "s25_1013",
+      "num": 28,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Sagacious",
+      "details": "Very wise Foolish, Stupid, Unwise"
+    },
+    {
+      "id": "s25_1014",
+      "num": 29,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Opprobrium",
+      "details": "Public disgrace Honour, Glory, Praise"
+    },
+    {
+      "id": "s25_1015",
+      "num": 30,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Refulgent",
+      "details": "Shining brightly Dull, Dim, Dark"
+    },
+    {
+      "id": "s25_1016",
+      "num": 31,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Obdurate",
+      "details": "Stubborn, hard-hearted Yielding, Flexible, Pliable"
+    },
+    {
+      "id": "s25_1017",
+      "num": 32,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Pusillanimous",
+      "details": "Cowardly Brave, Courageous, Valiant"
+    },
+    {
+      "id": "s25_1018",
+      "num": 33,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Vociferous",
+      "details": "Very noisy Silent, Quiet, Muted"
+    },
+    {
+      "id": "s25_1019",
+      "num": 34,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Furtive",
+      "details": "Secretive, hidden Open, Obvious, Transparent"
+    },
+    {
+      "id": "s25_1020",
+      "num": 35,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Exiguous",
+      "details": "Very small amount Plentiful, Abundant, Copious"
+    },
+    {
+      "id": "s25_1021",
+      "num": 36,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Transitory",
+      "details": "Short-lived Eternal, Perpetual, Everlasting"
+    },
+    {
+      "id": "s25_1022",
+      "num": 37,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Vindicate",
+      "details": "Prove innocent Accuse, Incriminate, Condemn"
+    },
+    {
+      "id": "s25_1023",
+      "num": 38,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Dissemble",
+      "details": "Hide truth Reveal, Disclose, Expose"
+    },
+    {
+      "id": "s25_1024",
+      "num": 39,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Ostentatious",
+      "details": "Showy display Modest, Humble, Unassuming"
+    },
+    {
+      "id": "s25_1025",
+      "num": 40,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Impecunious",
+      "details": "Having no money Wealthy, Rich, Affluent"
+    },
+    {
+      "id": "s25_1026",
+      "num": 41,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Pernicious",
+      "details": "Very harmful Innocuous, Harmless, Benign"
+    },
+    {
+      "id": "s25_1027",
+      "num": 42,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Lugubrious",
+      "details": "Very sad Joyous, Happy, Cheerful"
+    },
+    {
+      "id": "s25_1028",
+      "num": 43,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Redolent",
+      "details": "Fragrant, smelling Unscented, Odourless, Scentless"
+    },
+    {
+      "id": "s25_1029",
+      "num": 44,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Incipient",
+      "details": "Beginning stage Advanced, Developed, Mature"
+    },
+    {
+      "id": "s25_1030",
+      "num": 45,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Pulverize",
+      "details": "Crush into powder Restore, Rebuild, Reconstruct"
+    },
+    {
+      "id": "s25_1031",
+      "num": 46,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Recalcitrance",
+      "details": "Stubborn disobedience Compliance, Obedience, Agreement"
+    },
+    {
+      "id": "s25_1032",
+      "num": 47,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Torpor",
+      "details": "Inactivity, dullness Liveliness, Vigor, Vitality"
+    },
+    {
+      "id": "s25_1033",
+      "num": 48,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Prosaic",
+      "details": "Dull, ordinary Imaginative, Creative, Poetic"
+    },
+    {
+      "id": "s25_1034",
+      "num": 49,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Palliate",
+      "details": "Reduce pain, relieve Worsen, Aggravate, Intensify"
+    },
+    {
+      "id": "s25_1035",
+      "num": 50,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Munificent",
+      "details": "Very generous Stingy, Miserly, Niggardly"
+    },
+    {
+      "id": "s25_1036",
+      "num": 51,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Quell",
+      "details": "Stop, calm down Provoke, Incite, Agitate"
+    },
+    {
+      "id": "s25_1037",
+      "num": 52,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Esoteric",
+      "details": "Difficult to understand Straightforward, Simple, Plain"
+    },
+    {
+      "id": "s25_1038",
+      "num": 1,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Official",
+      "details": "reprimand or criticism Censure"
+    },
+    {
+      "id": "s25_1039",
+      "num": 2,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "abstaining from indulgence Ascetic"
+    },
+    {
+      "id": "s25_1040",
+      "num": 3,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "State",
+      "details": "of disuse or inactivity Desuetude"
+    },
+    {
+      "id": "s25_1041",
+      "num": 4,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Political",
+      "details": "system by wealthy Plutocracy"
+    },
+    {
+      "id": "s25_1042",
+      "num": 5,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "State",
+      "details": "of temporary suspension Abeyance"
+    },
+    {
+      "id": "s25_1043",
+      "num": 6,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Professional",
+      "details": "preparing maps Cartographer"
+    },
+    {
+      "id": "s25_1044",
+      "num": 7,
+      "exam": "Mains Additional Vocab",
+      "category": "Antonyms",
+      "word": "Person",
+      "details": "eating excessively Glut"
+    }
+  ],
+  "phase_14": [
+    {
+      "id": "p14_001",
+      "category": "Synonyms",
+      "word": "Abstain",
+      "meaning": "To deliberately avoid doing",
+      "related": "something"
+    },
+    {
+      "id": "p14_002",
+      "category": "Synonyms",
+      "word": "Refrain, desist, forgo, avoid",
+      "meaning": "Adjusted",
+      "related": "Changed to suit a situation"
+    },
+    {
+      "id": "p14_003",
+      "category": "Synonyms",
+      "word": "Adapted, modified, altered, amended",
+      "meaning": "Affluent",
+      "related": "Having great wealth"
+    },
+    {
+      "id": "p14_004",
+      "category": "Synonyms",
+      "word": "Wealthy, rich, prosperous, opulent",
+      "meaning": "Agitation",
+      "related": "Disturbance or unrest"
+    },
+    {
+      "id": "p14_005",
+      "category": "Synonyms",
+      "word": "Disturbance, turmoil, commotion, unrest",
+      "meaning": "Austere",
+      "related": "Strict; without luxury"
+    },
+    {
+      "id": "p14_006",
+      "category": "Synonyms",
+      "word": "Strict, stern, severe, ascetic",
+      "meaning": "Autocratic",
+      "related": "Exercising absolute power"
+    },
+    {
+      "id": "p14_007",
+      "category": "Synonyms",
+      "word": "Authoritarian, dictatorial, tyrannical,",
+      "meaning": "domineering",
+      "related": "Bafflement"
+    },
+    {
+      "id": "p14_008",
+      "category": "Synonyms",
+      "word": "A state of confusion",
+      "meaning": "Bewilderment, perplexity, confusion,",
+      "related": "puzzlement"
+    },
+    {
+      "id": "p14_009",
+      "category": "Synonyms",
+      "word": "Broad acceptance",
+      "meaning": "(among nations)",
+      "related": "General agreement among"
+    },
+    {
+      "id": "p14_010",
+      "category": "Synonyms",
+      "word": "nations",
+      "meaning": "Consensus, agreement, accord,",
+      "related": "concurrence"
+    },
+    {
+      "id": "p14_011",
+      "category": "Synonyms",
+      "word": "Candid",
+      "meaning": "Honest and straightforward",
+      "related": "Frank, honest, forthright, outspoken"
+    },
+    {
+      "id": "p14_012",
+      "category": "Synonyms",
+      "word": "Casual",
+      "meaning": "Informal or relaxed",
+      "related": "Informal, relaxed, unceremonious,"
+    },
+    {
+      "id": "p14_013",
+      "category": "Synonyms",
+      "word": "spontaneous",
+      "meaning": "Consented",
+      "related": "Agreed or gave permission"
+    },
+    {
+      "id": "p14_014",
+      "category": "Synonyms",
+      "word": "Assented, agreed, acquiesced, concurred",
+      "meaning": "Cordial",
+      "related": "Warm and friendly"
+    },
+    {
+      "id": "p14_015",
+      "category": "Synonyms",
+      "word": "Friendly, amiable, affable, genial",
+      "meaning": "Disrespect",
+      "related": "Lack of respect"
+    },
+    {
+      "id": "p14_016",
+      "category": "Synonyms",
+      "word": "Irreverence, insolence, rudeness,",
+      "meaning": "contempt",
+      "related": "Disseminate"
+    },
+    {
+      "id": "p14_017",
+      "category": "Synonyms",
+      "word": "Spread information widely",
+      "meaning": "Spread, distribute, circulate, propagate",
+      "related": "Enigmatic"
+    },
+    {
+      "id": "p14_018",
+      "category": "Synonyms",
+      "word": "Difficult to understand",
+      "meaning": "Mysterious, puzzling, cryptic, inscrutable",
+      "related": "Enormous"
+    },
+    {
+      "id": "p14_019",
+      "category": "Synonyms",
+      "word": "Extremely large",
+      "meaning": "Colossal, immense, gigantic, vast",
+      "related": "Ephemeral"
+    },
+    {
+      "id": "p14_020",
+      "category": "Synonyms",
+      "word": "Lasting a short time",
+      "meaning": "Short-lived, fleeting, brief, transient",
+      "related": "Ephemeral"
+    },
+    {
+      "id": "p14_021",
+      "category": "Synonyms",
+      "word": "Existing only briefly",
+      "meaning": "Transitory, temporary, momentary,",
+      "related": "fleeting"
+    },
+    {
+      "id": "p14_022",
+      "category": "Synonyms",
+      "word": "Faint",
+      "meaning": "Lacking strength or intensity",
+      "related": "Weak, feeble, dim, indistinct"
+    },
+    {
+      "id": "p14_023",
+      "category": "Synonyms",
+      "word": "Forbid",
+      "meaning": "Officially prohibit something",
+      "related": "Ban, prohibit, disallow, proscribe"
+    },
+    {
+      "id": "p14_024",
+      "category": "Synonyms",
+      "word": "Fragile",
+      "meaning": "Easily broken or damaged",
+      "related": "Delicate, brittle, frail, breakable"
+    },
+    {
+      "id": "p14_025",
+      "category": "Synonyms",
+      "word": "Frenzy",
+      "meaning": "Wild excitement or activity",
+      "related": "Rampage, mania, furor, hysteria"
+    },
+    {
+      "id": "p14_026",
+      "category": "Synonyms",
+      "word": "Frugal",
+      "meaning": "Careful about spending money",
+      "related": "Economical, thrifty, sparing, prudent"
+    },
+    {
+      "id": "p14_027",
+      "category": "Synonyms",
+      "word": "Futile",
+      "meaning": "Producing no useful result",
+      "related": "Ineffective, useless, vain, fruitless"
+    },
+    {
+      "id": "p14_028",
+      "category": "Synonyms",
+      "word": "Glittering",
+      "meaning": "Shining brightly",
+      "related": "Gleaming, sparkling, shimmering,"
+    },
+    {
+      "id": "p14_029",
+      "category": "Synonyms",
+      "word": "glistening",
+      "meaning": "Hideous",
+      "related": "Extremely ugly or unpleasant"
+    },
+    {
+      "id": "p14_030",
+      "category": "Synonyms",
+      "word": "Obnoxious, grotesque, repulsive,",
+      "meaning": "dreadful",
+      "related": "Humble"
+    },
+    {
+      "id": "p14_031",
+      "category": "Synonyms",
+      "word": "Modest; not arrogant",
+      "meaning": "Modest, unassuming, meek,",
+      "related": "unpretentious"
+    },
+    {
+      "id": "p14_032",
+      "category": "Synonyms",
+      "word": "Imminent",
+      "meaning": "About to happen soon",
+      "related": "Approaching, impending, forthcoming,"
+    },
+    {
+      "id": "p14_033",
+      "category": "Synonyms",
+      "word": "near",
+      "meaning": "Impeccable",
+      "related": "Without any faults"
+    },
+    {
+      "id": "p14_034",
+      "category": "Synonyms",
+      "word": "Flawless, perfect, faultless, exemplary",
+      "meaning": "Impecunious",
+      "related": "Having little or no money"
+    },
+    {
+      "id": "p14_035",
+      "category": "Synonyms",
+      "word": "Penniless, indigent, destitute, poor",
+      "meaning": "Indistinct",
+      "related": "Not clear or sharply defined"
+    },
+    {
+      "id": "p14_036",
+      "category": "Synonyms",
+      "word": "Blurry, vague, unclear, obscure",
+      "meaning": "Insinuate",
+      "related": "Suggest something indirectly"
+    },
+    {
+      "id": "p14_037",
+      "category": "Synonyms",
+      "word": "To hint, imply, suggest, intimate",
+      "meaning": "Lucid",
+      "related": "Clear and easy to understand"
+    },
+    {
+      "id": "p14_038",
+      "category": "Synonyms",
+      "word": "Clear, intelligible, coherent,",
+      "meaning": "comprehensible",
+      "related": "Obedient"
+    },
+    {
+      "id": "p14_039",
+      "category": "Synonyms",
+      "word": "Willing to follow instructions",
+      "meaning": "Compliant, dutiful, submissive, docile",
+      "related": "Obviate"
+    },
+    {
+      "id": "p14_040",
+      "category": "Synonyms",
+      "word": "Prevent or remove a need",
+      "meaning": "Prevent, preclude, avert, eliminate",
+      "related": "Passive"
+    },
+    {
+      "id": "p14_041",
+      "category": "Synonyms",
+      "word": "Not active or resisting",
+      "meaning": "Inactive, inert, submissive, dormant",
+      "related": "Placid"
+    },
+    {
+      "id": "p14_042",
+      "category": "Synonyms",
+      "word": "Calm and peaceful",
+      "meaning": "Calm, serene, tranquil, peaceful",
+      "related": "Precise"
+    },
+    {
+      "id": "p14_043",
+      "category": "Synonyms",
+      "word": "Exact and accurate",
+      "meaning": "Accurate, exact, specific, meticulous",
+      "related": "Querulous"
+    },
+    {
+      "id": "p14_044",
+      "category": "Synonyms",
+      "word": "Frequently complaining",
+      "meaning": "Complaining, whining, petulant, peevish",
+      "related": "Reproduce"
+    },
+    {
+      "id": "p14_045",
+      "category": "Synonyms",
+      "word": "Produce again or multiply",
+      "meaning": "Proliferate, replicate, duplicate, copy",
+      "related": "Revile"
+    },
+    {
+      "id": "p14_046",
+      "category": "Synonyms",
+      "word": "Criticise abusively",
+      "meaning": "Criticise, vilify, denounce, berate",
+      "related": "Sheltered"
+    },
+    {
+      "id": "p14_047",
+      "category": "Synonyms",
+      "word": "Protected from harm",
+      "meaning": "Protected, guarded, shielded,",
+      "related": "safeguarded"
+    },
+    {
+      "id": "p14_048",
+      "category": "Synonyms",
+      "word": "Solitary",
+      "meaning": "Alone; without companions",
+      "related": "Lonely, isolated, single, secluded"
+    },
+    {
+      "id": "p14_049",
+      "category": "Synonyms",
+      "word": "Squander",
+      "meaning": "Waste carelessly",
+      "related": "Dissipate, waste, fritter away, misuse"
+    },
+    {
+      "id": "p14_050",
+      "category": "Synonyms",
+      "word": "Stanch",
+      "meaning": "Stop a flow",
+      "related": "Suppress, stem, halt, check"
+    },
+    {
+      "id": "p14_051",
+      "category": "Synonyms",
+      "word": "Subsidiary",
+      "meaning": "Secondary or subordinate",
+      "related": "Secondary, subordinate, auxiliary,"
+    },
+    {
+      "id": "p14_052",
+      "category": "Synonyms",
+      "word": "supplementary",
+      "meaning": "Sycophant",
+      "related": "A person who flatters for"
+    },
+    {
+      "id": "p14_053",
+      "category": "Synonyms",
+      "word": "advantage",
+      "meaning": "Bootlicker, flatterer, toady, fawner",
+      "related": "Tirade"
+    },
+    {
+      "id": "p14_054",
+      "category": "Synonyms",
+      "word": "A long, angry speech",
+      "meaning": "Diatribe, rant, harangue, invective",
+      "related": "Transient"
+    },
+    {
+      "id": "p14_055",
+      "category": "Synonyms",
+      "word": "Lasting only a short time",
+      "meaning": "Temporary, fleeting, transitory, short-lived",
+      "related": "Weepy"
+    },
+    {
+      "id": "p14_056",
+      "category": "Synonyms",
+      "word": "Inclined to cry; tearful",
+      "meaning": "Tearful, lachrymose, weeping, sobbing",
+      "related": "ANTONYMS"
+    },
+    {
+      "id": "p14_057",
+      "category": "Antonyms",
+      "word": "Abolish",
+      "meaning": "To officially put an end to something",
+      "related": "Establish, introduce, institute"
+    },
+    {
+      "id": "p14_058",
+      "category": "Antonyms",
+      "word": "Aborted",
+      "meaning": "Brought to an unsuccessful end",
+      "related": "Completed, accomplished, fulfilled"
+    },
+    {
+      "id": "p14_059",
+      "category": "Antonyms",
+      "word": "Abundant",
+      "meaning": "Available in large quantities",
+      "related": "Scarce, insufficient, meagre"
+    },
+    {
+      "id": "p14_060",
+      "category": "Antonyms",
+      "word": "Amplify",
+      "meaning": "To increase in strength or intensity",
+      "related": "Reduce, diminish, weaken"
+    },
+    {
+      "id": "p14_061",
+      "category": "Antonyms",
+      "word": "Ancient",
+      "meaning": "Belonging to the distant past",
+      "related": "Modern, recent, contemporary"
+    },
+    {
+      "id": "p14_062",
+      "category": "Antonyms",
+      "word": "Benevolent",
+      "meaning": "Kind and well-meaning",
+      "related": "Malevolent, cruel, unkind"
+    },
+    {
+      "id": "p14_063",
+      "category": "Antonyms",
+      "word": "Bold",
+      "meaning": "Showing confidence or courage",
+      "related": "Timid, shy, cowardly"
+    },
+    {
+      "id": "p14_064",
+      "category": "Antonyms",
+      "word": "Clandestine",
+      "meaning": "Kept secret or done secretly",
+      "related": "Open, public, overt"
+    },
+    {
+      "id": "p14_065",
+      "category": "Antonyms",
+      "word": "Contumacio",
+      "meaning": "us",
+      "related": "Stubbornly disobedient to authority"
+    },
+    {
+      "id": "p14_066",
+      "category": "Antonyms",
+      "word": "Obedient, compliant, submissive",
+      "meaning": "Courage",
+      "related": "The ability to face danger or difficulty"
+    },
+    {
+      "id": "p14_067",
+      "category": "Antonyms",
+      "word": "Cowardice, fear, timidity",
+      "meaning": "Courteous",
+      "related": "Polite and respectful"
+    },
+    {
+      "id": "p14_068",
+      "category": "Antonyms",
+      "word": "Rude, impolite, discourteous",
+      "meaning": "Dauntless",
+      "related": "Fearless and determined"
+    },
+    {
+      "id": "p14_069",
+      "category": "Antonyms",
+      "word": "Fearful, timid, apprehensive",
+      "meaning": "Dilatory",
+      "related": "Slow; causing delay"
+    },
+    {
+      "id": "p14_070",
+      "category": "Antonyms",
+      "word": "Prompt, punctual, expeditious",
+      "meaning": "Ecstatic",
+      "related": "Extremely happy"
+    },
+    {
+      "id": "p14_071",
+      "category": "Antonyms",
+      "word": "Miserable, depressed, dejected",
+      "meaning": "Enlightened",
+      "related": "Having knowledge or understanding"
+    },
+    {
+      "id": "p14_072",
+      "category": "Antonyms",
+      "word": "Ignorant, uninformed,",
+      "meaning": "unenlightened",
+      "related": "Ephemeral"
+    },
+    {
+      "id": "p14_073",
+      "category": "Antonyms",
+      "word": "Lasting for a short time",
+      "meaning": "Permanent, enduring, perpetual",
+      "related": "Extol"
+    },
+    {
+      "id": "p14_074",
+      "category": "Antonyms",
+      "word": "To praise enthusiastically",
+      "meaning": "Condemn, denounce, criticise",
+      "related": "Fearless"
+    },
+    {
+      "id": "p14_075",
+      "category": "Antonyms",
+      "word": "Free from fear",
+      "meaning": "Afraid, fearful, apprehensive",
+      "related": "Hostile"
+    },
+    {
+      "id": "p14_076",
+      "category": "Antonyms",
+      "word": "Unfriendly or antagonistic",
+      "meaning": "Friendly, cordial, amicable",
+      "related": "Impartial"
+    },
+    {
+      "id": "p14_077",
+      "category": "Antonyms",
+      "word": "Fair and unbiased",
+      "meaning": "Biased, prejudiced, partial",
+      "related": "Ineluctable"
+    },
+    {
+      "id": "p14_078",
+      "category": "Antonyms",
+      "word": "Impossible to avoid or escape",
+      "meaning": "Avoidable, preventable, escapable",
+      "related": "Innate"
+    },
+    {
+      "id": "p14_079",
+      "category": "Antonyms",
+      "word": "Existing naturally from birth",
+      "meaning": "Acquired, learned, developed",
+      "related": "Invigorating"
+    },
+    {
+      "id": "p14_080",
+      "category": "Antonyms",
+      "word": "Giving energy or strength",
+      "meaning": "Exhausting, tiring, enervating",
+      "related": "Jejune"
+    },
+    {
+      "id": "p14_081",
+      "category": "Antonyms",
+      "word": "Naive, dull, or lacking substance",
+      "meaning": "Mature, sophisticated, substantial",
+      "related": "Kinetic"
+    },
+    {
+      "id": "p14_082",
+      "category": "Antonyms",
+      "word": "Relating to motion",
+      "meaning": "Static, stationary, motionless",
+      "related": "Loquacious"
+    },
+    {
+      "id": "p14_083",
+      "category": "Antonyms",
+      "word": "Tending to talk a great deal",
+      "meaning": "Taciturn, reticent, silent",
+      "related": "Lucid"
+    },
+    {
+      "id": "p14_084",
+      "category": "Antonyms",
+      "word": "Clear and easy to understand",
+      "meaning": "Obscure, confusing, ambiguous",
+      "related": "Meticulous"
+    },
+    {
+      "id": "p14_085",
+      "category": "Antonyms",
+      "word": "Extremely careful and precise",
+      "meaning": "Careless, negligent, sloppy",
+      "related": "Monotony"
+    },
+    {
+      "id": "p14_086",
+      "category": "Antonyms",
+      "word": "Lack of variety; tedious sameness",
+      "meaning": "Variety, diversity, variation",
+      "related": "Necessity"
+    },
+    {
+      "id": "p14_087",
+      "category": "Antonyms",
+      "word": "Something essential or required",
+      "meaning": "Luxury, option, dispensability",
+      "related": "Obsolete"
+    },
+    {
+      "id": "p14_088",
+      "category": "Antonyms",
+      "word": "No longer in use",
+      "meaning": "Modern, current, contemporary",
+      "related": "Perilous"
+    },
+    {
+      "id": "p14_089",
+      "category": "Antonyms",
+      "word": "Full of danger or risk",
+      "meaning": "Safe, secure, harmless",
+      "related": "Permanent"
+    },
+    {
+      "id": "p14_090",
+      "category": "Antonyms",
+      "word": "Lasting indefinitely",
+      "meaning": "Temporary, transient, fleeting",
+      "related": "Prudent"
+    },
+    {
+      "id": "p14_091",
+      "category": "Antonyms",
+      "word": "Wise and careful in judgment",
+      "meaning": "Reckless, imprudent, rash",
+      "related": "Rebarbative"
+    },
+    {
+      "id": "p14_092",
+      "category": "Antonyms",
+      "word": "Unpleasant or repellent",
+      "meaning": "Attractive, appealing, charming",
+      "related": "Relevance"
+    },
+    {
+      "id": "p14_093",
+      "category": "Antonyms",
+      "word": "Irrelevance, inapplicability,",
+      "meaning": "unrelatedness",
+      "related": "Scathing"
+    },
+    {
+      "id": "p14_094",
+      "category": "Antonyms",
+      "word": "Severely critical or harsh",
+      "meaning": "Mild, praising, complimentary",
+      "related": "Stimulate"
+    },
+    {
+      "id": "p14_095",
+      "category": "Antonyms",
+      "word": "To encourage activity or growth",
+      "meaning": "Suppress, inhibit, discourage",
+      "related": "Tangible"
+    },
+    {
+      "id": "p14_096",
+      "category": "Antonyms",
+      "word": "Able to be touched or clearly perceived",
+      "meaning": "Intangible, abstract, elusive",
+      "related": "Traduce"
+    },
+    {
+      "id": "p14_097",
+      "category": "Antonyms",
+      "word": "reputation",
+      "meaning": "Praise, honour, commend",
+      "related": "Unresolved"
+    },
+    {
+      "id": "p14_098",
+      "category": "Antonyms",
+      "word": "Not settled or solved",
+      "meaning": "Resolved, settled, decided",
+      "related": "Vigilant"
+    },
+    {
+      "id": "p14_099",
+      "category": "Antonyms",
+      "word": "Alert and watchful",
+      "meaning": "Careless, inattentive, negligent",
+      "related": "Vindictive"
+    },
+    {
+      "id": "p14_100",
+      "category": "Antonyms",
+      "word": "Having a desire for revenge",
+      "meaning": "Forgiving, merciful, benevolent",
+      "related": "Zealous"
+    },
+    {
+      "id": "p14_101",
+      "category": "Antonyms",
+      "word": "Showing great enthusiasm or dedication",
+      "meaning": "Indifferent, apathetic,",
+      "related": "unenthusiastic"
+    },
+    {
+      "id": "p14_102",
+      "category": "Idioms & Phrases",
+      "word": "At one sitting",
+      "meaning": "In one continuous session",
+      "related": "At one stretch"
+    },
+    {
+      "id": "p14_103",
+      "category": "Idioms & Phrases",
+      "word": "At sixes and sevens",
+      "meaning": "In a state of confusion or disorder",
+      "related": "In disarray"
+    },
+    {
+      "id": "p14_104",
+      "category": "Idioms & Phrases",
+      "word": "Bark up the wrong tree",
+      "meaning": "To follow a mistaken idea or accuse the wrong",
+      "related": "person"
+    },
+    {
+      "id": "p14_105",
+      "category": "Idioms & Phrases",
+      "word": "Be mistaken",
+      "meaning": "Bell the cat",
+      "related": "To undertake a dangerous or difficult task"
+    },
+    {
+      "id": "p14_106",
+      "category": "Idioms & Phrases",
+      "word": "Take a risk",
+      "meaning": "A blessing in disguise",
+      "related": "Something that seems bad but turns out well"
+    },
+    {
+      "id": "p14_107",
+      "category": "Idioms & Phrases",
+      "word": "Hidden advantage",
+      "meaning": "The blind leading the",
+      "related": "blind"
+    },
+    {
+      "id": "p14_108",
+      "category": "Idioms & Phrases",
+      "word": "equally inexperienced",
+      "meaning": "The uninformed guiding the",
+      "related": "uninformed"
+    },
+    {
+      "id": "p14_109",
+      "category": "Idioms & Phrases",
+      "word": "A bolt from the blue",
+      "meaning": "A sudden and unexpected event",
+      "related": "A complete surprise"
+    },
+    {
+      "id": "p14_110",
+      "category": "Idioms & Phrases",
+      "word": "A bone of contention",
+      "meaning": "A subject that causes disagreement",
+      "related": "Cause of dispute"
+    },
+    {
+      "id": "p14_111",
+      "category": "Idioms & Phrases",
+      "word": "Burn the midnight oil",
+      "meaning": "To work or study late into the night",
+      "related": "Work late"
+    },
+    {
+      "id": "p14_112",
+      "category": "Idioms & Phrases",
+      "word": "By leaps and bounds",
+      "meaning": "Very rapidly",
+      "related": "Rapidly, swiftly"
+    },
+    {
+      "id": "p14_113",
+      "category": "Idioms & Phrases",
+      "word": "Call a spade a spade",
+      "meaning": "To speak plainly and directly",
+      "related": "Speak frankly"
+    },
+    {
+      "id": "p14_114",
+      "category": "Idioms & Phrases",
+      "word": "Do something unnecessary",
+      "meaning": "Cast away",
+      "related": "To discard or abandon"
+    },
+    {
+      "id": "p14_115",
+      "category": "Idioms & Phrases",
+      "word": "Throw away",
+      "meaning": "A castle in the air",
+      "related": "An unrealistic dream or plan"
+    },
+    {
+      "id": "p14_116",
+      "category": "Idioms & Phrases",
+      "word": "Daydream",
+      "meaning": "Clip someone’s wings",
+      "related": "To restrict someone’s freedom or power"
+    },
+    {
+      "id": "p14_117",
+      "category": "Idioms & Phrases",
+      "word": "Limit, restrain",
+      "meaning": "A cock and bull story",
+      "related": "An unbelievable or fabricated story"
+    },
+    {
+      "id": "p14_118",
+      "category": "Idioms & Phrases",
+      "word": "Tall tale",
+      "meaning": "To cook the books",
+      "related": "To falsify financial records"
+    },
+    {
+      "id": "p14_119",
+      "category": "Idioms & Phrases",
+      "word": "Manipulate accounts",
+      "meaning": "Crow over",
+      "related": "To boast about a victory or success"
+    },
+    {
+      "id": "p14_120",
+      "category": "Idioms & Phrases",
+      "word": "Gloat",
+      "meaning": "Face the music",
+      "related": "To accept the consequences of one’s actions"
+    },
+    {
+      "id": "p14_121",
+      "category": "Idioms & Phrases",
+      "word": "Answer for one’s actions",
+      "meaning": "A fish out of water",
+      "related": "Someone uncomfortable in an unfamiliar situation"
+    },
+    {
+      "id": "p14_122",
+      "category": "Idioms & Phrases",
+      "word": "Feel out of place",
+      "meaning": "A flash in the pan",
+      "related": "A brief success that does not last"
+    },
+    {
+      "id": "p14_123",
+      "category": "Idioms & Phrases",
+      "word": "Short-lived success",
+      "meaning": "Hit the nail right on the",
+      "related": "head"
+    },
+    {
+      "id": "p14_124",
+      "category": "Idioms & Phrases",
+      "word": "Be exactly right",
+      "meaning": "Hobson’s choice",
+      "related": "A situation offering no real alternative"
+    },
+    {
+      "id": "p14_125",
+      "category": "Idioms & Phrases",
+      "word": "No choice",
+      "meaning": "In the doldrums",
+      "related": "In a state of low spirits or inactivity"
+    },
+    {
+      "id": "p14_126",
+      "category": "Idioms & Phrases",
+      "word": "In a slump",
+      "meaning": "An ivory tower",
+      "related": "A state of isolation from practical realities"
+    },
+    {
+      "id": "p14_127",
+      "category": "Idioms & Phrases",
+      "word": "Detachment from reality",
+      "meaning": "The jewel in the crown",
+      "related": "The most valuable or important part"
+    },
+    {
+      "id": "p14_128",
+      "category": "Idioms & Phrases",
+      "word": "The prized possession",
+      "meaning": "Keep one’s powder dry",
+      "related": "To remain prepared for future action"
+    },
+    {
+      "id": "p14_129",
+      "category": "Idioms & Phrases",
+      "word": "Stay ready",
+      "meaning": "Lead someone up the",
+      "related": "garden path"
+    },
+    {
+      "id": "p14_130",
+      "category": "Idioms & Phrases",
+      "word": "To deceive or mislead someone",
+      "meaning": "Mislead",
+      "related": "Look a gift horse in the"
+    },
+    {
+      "id": "p14_131",
+      "category": "Idioms & Phrases",
+      "word": "mouth",
+      "meaning": "To find fault with a gift",
+      "related": "Be ungrateful"
+    },
+    {
+      "id": "p14_132",
+      "category": "Idioms & Phrases",
+      "word": "Move heaven and earth",
+      "meaning": "To make every possible effort",
+      "related": "Do everything possible"
+    },
+    {
+      "id": "p14_133",
+      "category": "Idioms & Phrases",
+      "word": "A nine days’ wonder",
+      "meaning": "Something that attracts attention briefly and is soon",
+      "related": "forgotten"
+    },
+    {
+      "id": "p14_134",
+      "category": "Idioms & Phrases",
+      "word": "Passing sensation",
+      "meaning": "Be on tenterhooks",
+      "related": "To be in a state of anxious suspense"
+    },
+    {
+      "id": "p14_135",
+      "category": "Idioms & Phrases",
+      "word": "Be on edge",
+      "meaning": "Pass the buck",
+      "related": "To shift responsibility to someone else"
+    },
+    {
+      "id": "p14_136",
+      "category": "Idioms & Phrases",
+      "word": "Evade responsibility",
+      "meaning": "Play second fiddle",
+      "related": "To occupy a subordinate position"
+    },
+    {
+      "id": "p14_137",
+      "category": "Idioms & Phrases",
+      "word": "Play a supporting role",
+      "meaning": "A Pyrrhic victory",
+      "related": "A victory gained at such a great cost that it is almost"
+    },
+    {
+      "id": "p14_138",
+      "category": "Idioms & Phrases",
+      "word": "a defeat",
+      "meaning": "Costly victory",
+      "related": "Run out of steam"
+    },
+    {
+      "id": "p14_139",
+      "category": "Idioms & Phrases",
+      "word": "To lose energy or enthusiasm",
+      "meaning": "Lose momentum",
+      "related": "Run the gauntlet"
+    },
+    {
+      "id": "p14_140",
+      "category": "Idioms & Phrases",
+      "word": "Face an ordeal",
+      "meaning": "Set one’s face against",
+      "related": "To strongly oppose something"
+    },
+    {
+      "id": "p14_141",
+      "category": "Idioms & Phrases",
+      "word": "Oppose firmly",
+      "meaning": "A storm in a teacup",
+      "related": "A great fuss over a trivial matter"
+    },
+    {
+      "id": "p14_142",
+      "category": "Idioms & Phrases",
+      "word": "Make a mountain out of a",
+      "meaning": "molehill",
+      "related": "A straw in the wind"
+    },
+    {
+      "id": "p14_143",
+      "category": "Idioms & Phrases",
+      "word": "Early indication",
+      "meaning": "Take the bull by the",
+      "related": "horns"
+    },
+    {
+      "id": "p14_144",
+      "category": "Idioms & Phrases",
+      "word": "Face the problem boldly",
+      "meaning": "The thin end of the",
+      "related": "wedge"
+    },
+    {
+      "id": "p14_145",
+      "category": "Idioms & Phrases",
+      "word": "serious",
+      "meaning": "First step toward escalation",
+      "related": "Through the roof"
+    },
+    {
+      "id": "p14_146",
+      "category": "Idioms & Phrases",
+      "word": "To rise or increase dramatically",
+      "meaning": "Soar, skyrocket",
+      "related": "The tip of the iceberg"
+    },
+    {
+      "id": "p14_147",
+      "category": "Idioms & Phrases",
+      "word": "Small visible part",
+      "meaning": "Up in the air",
+      "related": "Unsettled or uncertain"
+    },
+    {
+      "id": "p14_148",
+      "category": "Idioms & Phrases",
+      "word": "Undecided",
+      "meaning": "Wear one’s heart on",
+      "related": "one’s sleeve"
+    },
+    {
+      "id": "p14_149",
+      "category": "Idioms & Phrases",
+      "word": "To show one’s emotions openly",
+      "meaning": "Be emotionally transparent",
+      "related": "Within a stone’s throw"
+    },
+    {
+      "id": "p14_150",
+      "category": "Idioms & Phrases",
+      "word": "Very close to a place",
+      "meaning": "Nearby",
+      "related": "ONE WORD SUBSTITUTION"
+    },
+    {
+      "id": "p14_151",
+      "category": "Idioms & Phrases",
+      "word": "Victory",
+      "meaning": "An act of defeating an enemy or opponent",
+      "related": "Triumph, success"
+    },
+    {
+      "id": "p14_152",
+      "category": "Idioms & Phrases",
+      "word": "Blasphemy",
+      "meaning": "The act of showing disrespect towards God or sacred things",
+      "related": "Sacrilege, impiety"
+    },
+    {
+      "id": "p14_153",
+      "category": "Idioms & Phrases",
+      "word": "Voluntary",
+      "meaning": "Done by one's own choice",
+      "related": "Willing, intentional"
+    },
+    {
+      "id": "p14_154",
+      "category": "Idioms & Phrases",
+      "word": "Calligraphy",
+      "meaning": "The art of beautiful handwriting",
+      "related": "Penmanship"
+    },
+    {
+      "id": "p14_155",
+      "category": "Idioms & Phrases",
+      "word": "Virtue",
+      "meaning": "Behaviour showing high moral standards",
+      "related": "Goodness, morality"
+    },
+    {
+      "id": "p14_156",
+      "category": "Idioms & Phrases",
+      "word": "Orphan",
+      "meaning": "A child whose parents are dead",
+      "related": "Parentless child"
+    },
+    {
+      "id": "p14_157",
+      "category": "Idioms & Phrases",
+      "word": "Comrade",
+      "meaning": "A companion who shares one's activities or struggles",
+      "related": "Companion, associate"
+    },
+    {
+      "id": "p14_158",
+      "category": "Idioms & Phrases",
+      "word": "Apocalypse",
+      "meaning": "An event involving widespread destruction or the end of the",
+      "related": "world"
+    },
+    {
+      "id": "p14_159",
+      "category": "Idioms & Phrases",
+      "word": "Catastrophe, doomsday",
+      "meaning": "Copyright",
+      "related": "The legal right to control the use of an original work"
+    },
+    {
+      "id": "p14_160",
+      "category": "Idioms & Phrases",
+      "word": "Legal ownership",
+      "meaning": "Nyctophobia",
+      "related": "An extreme fear of darkness or night"
+    },
+    {
+      "id": "p14_161",
+      "category": "Idioms & Phrases",
+      "word": "Fear of darkness",
+      "meaning": "Tranquil",
+      "related": "Free from disturbance; calm"
+    },
+    {
+      "id": "p14_162",
+      "category": "Idioms & Phrases",
+      "word": "Peaceful, serene",
+      "meaning": "Magnanimous",
+      "related": "Generous and forgiving, especially towards a rival"
+    },
+    {
+      "id": "p14_163",
+      "category": "Idioms & Phrases",
+      "word": "Generous, noble",
+      "meaning": "Sphygmomanom",
+      "related": "eter"
+    },
+    {
+      "id": "p14_164",
+      "category": "Idioms & Phrases",
+      "word": "Blood pressure monitor",
+      "meaning": "Sinecure",
+      "related": "A position requiring little or no work but providing payment"
+    },
+    {
+      "id": "p14_165",
+      "category": "Idioms & Phrases",
+      "word": "Cushy job",
+      "meaning": "Stevedore",
+      "related": "A person employed to load and unload ships"
+    },
+    {
+      "id": "p14_166",
+      "category": "Idioms & Phrases",
+      "word": "Dockworker",
+      "meaning": "Epic",
+      "related": "A long narrative poem about heroic deeds"
+    },
+    {
+      "id": "p14_167",
+      "category": "Idioms & Phrases",
+      "word": "Heroic poem",
+      "meaning": "Tornado",
+      "related": "A violently rotating column of air"
+    },
+    {
+      "id": "p14_168",
+      "category": "Idioms & Phrases",
+      "word": "Twister",
+      "meaning": "Ascend",
+      "related": "To move or climb upwards"
+    },
+    {
+      "id": "p14_169",
+      "category": "Idioms & Phrases",
+      "word": "Rise, mount",
+      "meaning": "Plagiarist",
+      "related": "A person who copies another's work and presents it as their"
+    },
+    {
+      "id": "p14_170",
+      "category": "Idioms & Phrases",
+      "word": "own",
+      "meaning": "Literary thief",
+      "related": "Decade"
+    },
+    {
+      "id": "p14_171",
+      "category": "Idioms & Phrases",
+      "word": "A period of ten years",
+      "meaning": "Ten-year period",
+      "related": "Dignitary"
+    },
+    {
+      "id": "p14_172",
+      "category": "Idioms & Phrases",
+      "word": "VIP, official",
+      "meaning": "Refugee",
+      "related": "A person forced to leave their country to escape danger or"
+    },
+    {
+      "id": "p14_173",
+      "category": "Idioms & Phrases",
+      "word": "persecution",
+      "meaning": "Displaced person",
+      "related": "Novice"
+    },
+    {
+      "id": "p14_174",
+      "category": "Idioms & Phrases",
+      "word": "A person new to an activity or field",
+      "meaning": "Beginner, newcomer",
+      "related": "Inhabitant"
+    },
+    {
+      "id": "p14_175",
+      "category": "Idioms & Phrases",
+      "word": "Resident, dweller",
+      "meaning": "Antagonist",
+      "related": "A person who opposes another"
+    },
+    {
+      "id": "p14_176",
+      "category": "Idioms & Phrases",
+      "word": "Opponent, adversary",
+      "meaning": "Deaf",
+      "related": "Unable to hear fully or at all"
+    },
+    {
+      "id": "p14_177",
+      "category": "Idioms & Phrases",
+      "word": "Hearing-impaired",
+      "meaning": "Outlaw",
+      "related": "A person who has broken the law or is excluded from legal"
+    },
+    {
+      "id": "p14_178",
+      "category": "Idioms & Phrases",
+      "word": "protection",
+      "meaning": "Fugitive, criminal",
+      "related": "Illiterate"
+    },
+    {
+      "id": "p14_179",
+      "category": "Idioms & Phrases",
+      "word": "Unable to read or write",
+      "meaning": "Unlettered",
+      "related": "Solitary"
+    },
+    {
+      "id": "p14_180",
+      "category": "Idioms & Phrases",
+      "word": "Existing or living alone",
+      "meaning": "Alone, isolated",
+      "related": "Astronomer"
+    },
+    {
+      "id": "p14_181",
+      "category": "Idioms & Phrases",
+      "word": "Space scientist",
+      "meaning": "Chatterbox",
+      "related": "A person who talks excessively"
+    },
+    {
+      "id": "p14_182",
+      "category": "Idioms & Phrases",
+      "word": "Talkative person",
+      "meaning": "Poet",
+      "related": "A person who writes poetry"
+    },
+    {
+      "id": "p14_183",
+      "category": "Idioms & Phrases",
+      "word": "Verse writer",
+      "meaning": "Orphanage",
+      "related": "A place where orphaned children are cared for"
+    },
+    {
+      "id": "p14_184",
+      "category": "Idioms & Phrases",
+      "word": "Children's home",
+      "meaning": "Mint",
+      "related": "A place where coins are produced"
+    },
+    {
+      "id": "p14_185",
+      "category": "Idioms & Phrases",
+      "word": "Coin-producing facility",
+      "meaning": "Granary",
+      "related": "A building used for storing grain"
+    },
+    {
+      "id": "p14_186",
+      "category": "Idioms & Phrases",
+      "word": "Grain store",
+      "meaning": "Detention",
+      "related": "The act of keeping someone in custody or confinement"
+    },
+    {
+      "id": "p14_187",
+      "category": "Idioms & Phrases",
+      "word": "Confinement, custody",
+      "meaning": "Wisdom",
+      "related": "The ability to make sound judgments based on knowledge and"
+    },
+    {
+      "id": "p14_188",
+      "category": "Idioms & Phrases",
+      "word": "experience",
+      "meaning": "Sagacity, prudence",
+      "related": "Syllogism"
+    },
+    {
+      "id": "p14_189",
+      "category": "Idioms & Phrases",
+      "word": "Deductive argument",
+      "meaning": "Biopsy",
+      "related": "The removal of tissue for examination"
+    },
+    {
+      "id": "p14_190",
+      "category": "Idioms & Phrases",
+      "word": "Tissue examination",
+      "meaning": "Toxicology",
+      "related": "The scientific study of poisons and their effects"
+    },
+    {
+      "id": "p14_191",
+      "category": "Idioms & Phrases",
+      "word": "Study of toxins",
+      "meaning": "Astronomy",
+      "related": "The scientific study of celestial objects and the universe"
+    },
+    {
+      "id": "p14_192",
+      "category": "Idioms & Phrases",
+      "word": "Study of space",
+      "meaning": "Altruism",
+      "related": "Concern for the well-being of others without personal gain"
+    },
+    {
+      "id": "p14_193",
+      "category": "Idioms & Phrases",
+      "word": "Selflessness",
+      "meaning": "Repatriate",
+      "related": "To return someone to their own country"
+    },
+    {
+      "id": "p14_194",
+      "category": "Idioms & Phrases",
+      "word": "Send back home",
+      "meaning": "Blizzard",
+      "related": "A severe snowstorm with strong winds"
+    },
+    {
+      "id": "p14_195",
+      "category": "Idioms & Phrases",
+      "word": "Snowstorm",
+      "meaning": "Epigraph",
+      "related": "A quotation placed at the beginning of a book or chapter"
+    },
+    {
+      "id": "p14_196",
+      "category": "Idioms & Phrases",
+      "word": "Introductory quotation",
+      "meaning": "Anthem",
+      "related": "A formal or celebratory song associated with a group or nation"
+    },
+    {
+      "id": "p14_197",
+      "category": "Idioms & Phrases",
+      "word": "Hymn, national song",
+      "meaning": "Extempore",
+      "related": "Spoken or performed without preparation"
+    },
+    {
+      "id": "p14_198",
+      "category": "Idioms & Phrases",
+      "word": "Impromptu, spontaneous",
+      "meaning": "Hurricane",
+      "related": "A powerful tropical storm"
+    },
+    {
+      "id": "p14_199",
+      "category": "Idioms & Phrases",
+      "word": "Tropical cyclone",
+      "meaning": "Genetics",
+      "related": "The study of heredity and variation"
+    },
+    {
+      "id": "p14_200",
+      "category": "Idioms & Phrases",
+      "word": "Study of inheritance",
+      "meaning": "Anthropology",
+      "related": "The study of human societies, cultures and development"
+    },
+    {
+      "id": "p14_201",
+      "category": "Idioms & Phrases",
+      "word": "Study of humankind",
+      "meaning": "Spasm",
+      "related": "A sudden, involuntary contraction of a muscle"
+    },
+    {
+      "id": "p14_202",
+      "category": "Idioms & Phrases",
+      "word": "Muscle contraction",
+      "meaning": "Nomenclature",
+      "related": "A system of naming things"
+    },
+    {
+      "id": "p14_203",
+      "category": "Idioms & Phrases",
+      "word": "Naming system",
+      "meaning": "Apartheid",
+      "related": "A system of racial segregation and discrimination"
+    },
+    {
+      "id": "p14_204",
+      "category": "Idioms & Phrases",
+      "word": "Racial segregation",
+      "meaning": "Equinox",
+      "related": "The time when day and night are approximately equal in length"
+    },
+    {
+      "id": "p14_205",
+      "category": "Idioms & Phrases",
+      "word": "Equal day and night",
+      "meaning": "Typhoon",
+      "related": "A powerful tropical cyclone occurring in the northwestern"
+    },
+    {
+      "id": "p14_206",
+      "category": "Idioms & Phrases",
+      "word": "Pacific",
+      "meaning": "Tropical cyclone",
+      "related": "Gale"
+    },
+    {
+      "id": "p14_207",
+      "category": "Idioms & Phrases",
+      "word": "A very strong wind",
+      "meaning": "Strong wind, squall",
+      "related": "SPELLING"
+    },
+    {
+      "id": "p14_208",
+      "category": "Spellings",
+      "word": "Aggravate",
+      "meaning": "To make a problem or situation worse",
+      "related": "Aggravate"
+    },
+    {
+      "id": "p14_209",
+      "category": "Spellings",
+      "word": "Anonymous",
+      "meaning": "Not identified by name",
+      "related": "Anonymous"
+    },
+    {
+      "id": "p14_210",
+      "category": "Spellings",
+      "word": "Baffled",
+      "meaning": "Completely confused",
+      "related": "Baffled"
+    },
+    {
+      "id": "p14_211",
+      "category": "Spellings",
+      "word": "Ballistics",
+      "meaning": "The study of the motion of projectiles",
+      "related": "Ballistics"
+    },
+    {
+      "id": "p14_212",
+      "category": "Spellings",
+      "word": "Beneficial",
+      "meaning": "Producing a good or helpful effect",
+      "related": "Beneficial"
+    },
+    {
+      "id": "p14_213",
+      "category": "Spellings",
+      "word": "Benefited",
+      "meaning": "Received an advantage or benefit",
+      "related": "British variant: Benefitted"
+    },
+    {
+      "id": "p14_214",
+      "category": "Spellings",
+      "word": "Brainstorming",
+      "meaning": "Generating ideas through group discussion",
+      "related": "Brainstorming"
+    },
+    {
+      "id": "p14_215",
+      "category": "Spellings",
+      "word": "Buoyant",
+      "meaning": "Able to float; cheerful and optimistic",
+      "related": "Buoyant"
+    },
+    {
+      "id": "p14_216",
+      "category": "Spellings",
+      "word": "Celestial",
+      "meaning": "Relating to the sky or outer space",
+      "related": "Celestial"
+    },
+    {
+      "id": "p14_217",
+      "category": "Spellings",
+      "word": "Characteristic",
+      "meaning": "A distinguishing feature or quality",
+      "related": "Characteristic"
+    },
+    {
+      "id": "p14_218",
+      "category": "Spellings",
+      "word": "Chauffeur",
+      "meaning": "A person employed to drive a car",
+      "related": "Chauffeur"
+    },
+    {
+      "id": "p14_219",
+      "category": "Spellings",
+      "word": "Classic",
+      "meaning": "Judged to be of lasting quality",
+      "related": "Classic"
+    },
+    {
+      "id": "p14_220",
+      "category": "Spellings",
+      "word": "Colloquial",
+      "meaning": "Used in ordinary, informal conversation",
+      "related": "Colloquial"
+    },
+    {
+      "id": "p14_221",
+      "category": "Spellings",
+      "word": "Column",
+      "meaning": "A vertical arrangement or supporting pillar",
+      "related": "Column"
+    },
+    {
+      "id": "p14_222",
+      "category": "Spellings",
+      "word": "Commissioner",
+      "meaning": "A person appointed to an official position",
+      "related": "Commissioner"
+    },
+    {
+      "id": "p14_223",
+      "category": "Spellings",
+      "word": "Commitment",
+      "meaning": "A promise or dedication to something",
+      "related": "Commitment"
+    },
+    {
+      "id": "p14_224",
+      "category": "Spellings",
+      "word": "Compatible",
+      "meaning": "Able to exist or work together",
+      "related": "Compatible"
+    },
+    {
+      "id": "p14_225",
+      "category": "Spellings",
+      "word": "Conciliatory",
+      "meaning": "Intended to reduce anger or conflict",
+      "related": "Conciliatory"
+    },
+    {
+      "id": "p14_226",
+      "category": "Spellings",
+      "word": "Conjectural",
+      "meaning": "Based on guesswork rather than certain knowledge",
+      "related": "Conjectural"
+    },
+    {
+      "id": "p14_227",
+      "category": "Spellings",
+      "word": "Connoisseur",
+      "meaning": "An expert judge in matters of taste",
+      "related": "Connoisseur"
+    },
+    {
+      "id": "p14_228",
+      "category": "Spellings",
+      "word": "Conscientious",
+      "meaning": "Careful, responsible and thorough",
+      "related": "Conscientious"
+    },
+    {
+      "id": "p14_229",
+      "category": "Spellings",
+      "word": "Courtesy",
+      "meaning": "Polite behaviour and respect",
+      "related": "Courtesy"
+    },
+    {
+      "id": "p14_230",
+      "category": "Spellings",
+      "word": "Debonair",
+      "meaning": "Confident, stylish and charming",
+      "related": "Debonair"
+    },
+    {
+      "id": "p14_231",
+      "category": "Spellings",
+      "word": "Disappearance",
+      "meaning": "The act of vanishing or no longer being seen",
+      "related": "Disappearance"
+    },
+    {
+      "id": "p14_232",
+      "category": "Spellings",
+      "word": "Disguise",
+      "meaning": "To change appearance to conceal identity",
+      "related": "Disguise"
+    },
+    {
+      "id": "p14_233",
+      "category": "Spellings",
+      "word": "Dwellings",
+      "meaning": "Places where people live",
+      "related": "Dwellings"
+    },
+    {
+      "id": "p14_234",
+      "category": "Spellings",
+      "word": "Effervescent",
+      "meaning": "Giving off bubbles; lively and enthusiastic",
+      "related": "Effervescent"
+    },
+    {
+      "id": "p14_235",
+      "category": "Spellings",
+      "word": "Elegy",
+      "meaning": "A poem expressing sorrow, often for the dead",
+      "related": "Elegy"
+    },
+    {
+      "id": "p14_236",
+      "category": "Spellings",
+      "word": "Elimination",
+      "meaning": "The act of removing or excluding something",
+      "related": "Elimination"
+    },
+    {
+      "id": "p14_237",
+      "category": "Spellings",
+      "word": "Embarrassment",
+      "meaning": "A feeling of awkwardness or shame",
+      "related": "Embarrassment"
+    },
+    {
+      "id": "p14_238",
+      "category": "Spellings",
+      "word": "Exaggerate",
+      "meaning": "To represent something as greater than it is",
+      "related": "Exaggerate"
+    },
+    {
+      "id": "p14_239",
+      "category": "Spellings",
+      "word": "Flamboyant",
+      "meaning": "Noticeably bold, colourful or extravagant",
+      "related": "Flamboyant"
+    },
+    {
+      "id": "p14_240",
+      "category": "Spellings",
+      "word": "Frangible",
+      "meaning": "Easily broken or shattered",
+      "related": "Frangible"
+    },
+    {
+      "id": "p14_241",
+      "category": "Spellings",
+      "word": "Gallery",
+      "meaning": "A place or room for displaying artwork",
+      "related": "Gallery"
+    },
+    {
+      "id": "p14_242",
+      "category": "Spellings",
+      "word": "Haemorrhage /",
+      "meaning": "Hemorrhage",
+      "related": "Heavy bleeding; loss of blood"
+    },
+    {
+      "id": "p14_243",
+      "category": "Spellings",
+      "word": "British: Haemorrhage; US:",
+      "meaning": "Hemorrhage",
+      "related": "Hazardous"
+    },
+    {
+      "id": "p14_244",
+      "category": "Spellings",
+      "word": "Involving danger or risk",
+      "meaning": "Hazardous",
+      "related": "Incandescent"
+    },
+    {
+      "id": "p14_245",
+      "category": "Spellings",
+      "word": "Incandescent",
+      "meaning": "Incorrigible",
+      "related": "Impossible or very difficult to reform"
+    },
+    {
+      "id": "p14_246",
+      "category": "Spellings",
+      "word": "Incorrigible",
+      "meaning": "Indefatigable",
+      "related": "Persisting without becoming tired"
+    },
+    {
+      "id": "p14_247",
+      "category": "Spellings",
+      "word": "Indefatigable",
+      "meaning": "Intricate",
+      "related": "Very detailed or complicated"
+    },
+    {
+      "id": "p14_248",
+      "category": "Spellings",
+      "word": "Intricate",
+      "meaning": "Irresistible",
+      "related": "Too attractive or powerful to be resisted"
+    },
+    {
+      "id": "p14_249",
+      "category": "Spellings",
+      "word": "Irresistible",
+      "meaning": "Judicious",
+      "related": "Showing good judgment"
+    },
+    {
+      "id": "p14_250",
+      "category": "Spellings",
+      "word": "Judicious",
+      "meaning": "Liaison",
+      "related": "Communication or cooperation between people or"
+    },
+    {
+      "id": "p14_251",
+      "category": "Spellings",
+      "word": "groups",
+      "meaning": "Liaison",
+      "related": "Lieutenant"
+    },
+    {
+      "id": "p14_252",
+      "category": "Spellings",
+      "word": "Lieutenant",
+      "meaning": "Liturgical",
+      "related": "Relating to formal religious worship"
+    },
+    {
+      "id": "p14_253",
+      "category": "Spellings",
+      "word": "Liturgical",
+      "meaning": "Luxuriant",
+      "related": "Rich, abundant and flourishing"
+    },
+    {
+      "id": "p14_254",
+      "category": "Spellings",
+      "word": "Luxuriant",
+      "meaning": "Manoeuvre",
+      "related": "A planned movement or skilful action"
+    },
+    {
+      "id": "p14_255",
+      "category": "Spellings",
+      "word": "British: Manoeuvre; US:",
+      "meaning": "Maneuver",
+      "related": "Measurable"
+    },
+    {
+      "id": "p14_256",
+      "category": "Spellings",
+      "word": "Able to be measured",
+      "meaning": "Measurable",
+      "related": "Obstinate"
+    },
+    {
+      "id": "p14_257",
+      "category": "Spellings",
+      "word": "Obstinate",
+      "meaning": "Pageant",
+      "related": "A public spectacle or elaborate show"
+    },
+    {
+      "id": "p14_258",
+      "category": "Spellings",
+      "word": "Pasteurized",
+      "meaning": "Treated with heat to destroy harmful microorganisms",
+      "related": "Pasteurized"
+    },
+    {
+      "id": "p14_259",
+      "category": "Spellings",
+      "word": "Premature",
+      "meaning": "Happening before the expected time",
+      "related": "Premature"
+    },
+    {
+      "id": "p14_260",
+      "category": "Spellings",
+      "word": "Pseudonym",
+      "meaning": "A fictitious name used instead of one's real name",
+      "related": "Pseudonym"
+    },
+    {
+      "id": "p14_261",
+      "category": "Spellings",
+      "word": "Questionable",
+      "meaning": "Doubtful or open to suspicion",
+      "related": "Questionable"
+    },
+    {
+      "id": "p14_262",
+      "category": "Spellings",
+      "word": "Questionnaire",
+      "meaning": "A set of written questions",
+      "related": "Questionnaire"
+    },
+    {
+      "id": "p14_263",
+      "category": "Spellings",
+      "word": "Quiescence",
+      "meaning": "A state of inactivity or quietness",
+      "related": "Quiescence"
+    },
+    {
+      "id": "p14_264",
+      "category": "Spellings",
+      "word": "Recalcitrant",
+      "meaning": "Stubbornly resistant to authority",
+      "related": "Recalcitrant"
+    },
+    {
+      "id": "p14_265",
+      "category": "Spellings",
+      "word": "Refrigerator",
+      "meaning": "An appliance used to keep food cold",
+      "related": "Refrigerator"
+    },
+    {
+      "id": "p14_266",
+      "category": "Spellings",
+      "word": "Religious",
+      "meaning": "Relating to religion or religious belief",
+      "related": "Religious"
+    },
+    {
+      "id": "p14_267",
+      "category": "Spellings",
+      "word": "Saccharine",
+      "meaning": "Excessively sweet; sometimes insincerely sentimental",
+      "related": "Saccharine"
+    },
+    {
+      "id": "p14_268",
+      "category": "Spellings",
+      "word": "Simultaneous",
+      "meaning": "Happening at the same time",
+      "related": "Simultaneous"
+    },
+    {
+      "id": "p14_269",
+      "category": "Spellings",
+      "word": "Soliloquies",
+      "meaning": "Speeches in which characters speak their thoughts",
+      "related": "aloud, usually alone"
+    },
+    {
+      "id": "p14_270",
+      "category": "Spellings",
+      "word": "Singular: Soliloquy",
+      "meaning": "Spacecraft",
+      "related": "A vehicle designed for travel in space"
+    },
+    {
+      "id": "p14_271",
+      "category": "Spellings",
+      "word": "Spacecraft",
+      "meaning": "Sustainability",
+      "related": "The ability to continue without exhausting resources"
+    },
+    {
+      "id": "p14_272",
+      "category": "Spellings",
+      "word": "Sustainability",
+      "meaning": "Unprecedented",
+      "related": "Never having happened or existed before"
+    },
+    {
+      "id": "p14_273",
+      "category": "Spellings",
+      "word": "Unprecedented",
+      "meaning": "Worldwide",
+      "related": "Extending throughout the world"
+    },
+    {
+      "id": "p14_274",
+      "category": "Spellings",
+      "word": "Worldwide",
+      "meaning": "PHRASAL VERBS",
+      "related": "SSC SELECTION POST — PHASE 14 — 2026"
+    },
+    {
+      "id": "p14_275",
+      "category": "Spellings",
+      "word": "PHRASAL VERB",
+      "meaning": "MEANING",
+      "related": "SYNONYM / USAGE"
+    },
+    {
+      "id": "p14_276",
+      "category": "Spellings",
+      "word": "Brush aside",
+      "meaning": "To dismiss or ignore something",
+      "related": "Dismiss, disregard"
+    },
+    {
+      "id": "p14_277",
+      "category": "Spellings",
+      "word": "Give away",
+      "meaning": "To donate or reveal something",
+      "related": "Donate, disclose"
+    },
+    {
+      "id": "p14_278",
+      "category": "Spellings",
+      "word": "Give up",
+      "meaning": "To stop trying or surrender",
+      "related": "Quit, abandon"
+    },
+    {
+      "id": "p14_279",
+      "category": "Spellings",
+      "word": "Look into",
+      "meaning": "To investigate something",
+      "related": "Examine, investigate"
+    },
+    {
+      "id": "p14_280",
+      "category": "Spellings",
+      "word": "Look up to",
+      "meaning": "To admire or respect someone",
+      "related": "Admire, respect"
+    },
+    {
+      "id": "p14_281",
+      "category": "Spellings",
+      "word": "Put aside",
+      "meaning": "To save for later or disregard temporarily",
+      "related": "Set aside, reserve"
+    },
+    {
+      "id": "p14_282",
+      "category": "Spellings",
+      "word": "Put out",
+      "meaning": "To extinguish; to inconvenience",
+      "related": "Extinguish, annoy"
+    },
+    {
+      "id": "p14_283",
+      "category": "Spellings",
+      "word": "Run across",
+      "meaning": "To meet or find unexpectedly",
+      "related": "Encounter, discover"
+    },
+    {
+      "id": "p14_284",
+      "category": "Spellings",
+      "word": "Run into",
+      "meaning": "To meet unexpectedly or encounter a",
+      "related": "problem"
+    },
+    {
+      "id": "p14_285",
+      "category": "Spellings",
+      "word": "Meet, encounter",
+      "meaning": "HOMONYMS, HOMOPHONES & CONFUSABLES",
+      "related": "SSC SELECTION POST — PHASE 14 — 2026"
+    },
+    {
+      "id": "p14_286",
+      "category": "Spellings",
+      "word": "EXAMPLE / DISTINCTION",
+      "meaning": "Amalgamate",
+      "related": "To combine into one"
+    },
+    {
+      "id": "p14_287",
+      "category": "Spellings",
+      "word": "Merge, unite",
+      "meaning": "Bullet",
+      "related": "A small projectile fired from a gun"
+    },
+    {
+      "id": "p14_288",
+      "category": "Spellings",
+      "word": "A bullet point is a symbol used in a",
+      "meaning": "list",
+      "related": "Capsule"
+    },
+    {
+      "id": "p14_289",
+      "category": "Spellings",
+      "word": "A small container, often for medicine",
+      "meaning": "A compact enclosure",
+      "related": "Construction"
+    },
+    {
+      "id": "p14_290",
+      "category": "Spellings",
+      "word": "The process of building something",
+      "meaning": "Building, assembly",
+      "related": "Content"
+    },
+    {
+      "id": "p14_291",
+      "category": "Spellings",
+      "word": "Contents of a book; content with life",
+      "meaning": "Foundation",
+      "related": "The base supporting a structure; an underlying"
+    },
+    {
+      "id": "p14_292",
+      "category": "Spellings",
+      "word": "principle",
+      "meaning": "Building foundation; foundation of",
+      "related": "knowledge"
+    },
+    {
+      "id": "p14_293",
+      "category": "Spellings",
+      "word": "Ground",
+      "meaning": "The surface of the earth; a basis or reason",
+      "related": "Ground level; grounds for a decision"
+    },
+    {
+      "id": "p14_294",
+      "category": "Spellings",
+      "word": "Incorporation",
+      "meaning": "The act of combining or forming into a whole",
+      "related": "Integration, inclusion"
+    },
+    {
+      "id": "p14_295",
+      "category": "Spellings",
+      "word": "Lattice",
+      "meaning": "A framework of crossed strips or bars",
+      "related": "Grid, framework"
+    },
+    {
+      "id": "p14_296",
+      "category": "Spellings",
+      "word": "Marine",
+      "meaning": "Relating to the sea",
+      "related": "Maritime, nautical"
+    },
+    {
+      "id": "p14_297",
+      "category": "Spellings",
+      "word": "Morphology",
+      "meaning": "The study of form and structure",
+      "related": "Study of word or organism structure"
+    },
+    {
+      "id": "p14_298",
+      "category": "Spellings",
+      "word": "Object",
+      "meaning": "A thing; also, to express disagreement",
+      "related": "A physical object; object to a"
+    },
+    {
+      "id": "p14_299",
+      "category": "Spellings",
+      "word": "proposal",
+      "meaning": "Principal vs",
+      "related": "Principle"
+    },
+    {
+      "id": "p14_300",
+      "category": "Spellings",
+      "word": "rule or belief",
+      "meaning": "The principal addressed a principle",
+      "related": "Scale"
+    },
+    {
+      "id": "p14_301",
+      "category": "Spellings",
+      "word": "climb",
+      "meaning": "Weigh on a scale; scale a wall",
+      "related": "Shield"
+    },
+    {
+      "id": "p14_302",
+      "category": "Spellings",
+      "word": "Guard, defend",
+      "meaning": "Show",
+      "related": "To display or demonstrate"
+    },
+    {
+      "id": "p14_303",
+      "category": "Spellings",
+      "word": "Exhibit, reveal",
+      "meaning": "Soul / Sole",
+      "related": "Soul: spiritual essence; Sole: the bottom of a foot or"
+    },
+    {
+      "id": "p14_304",
+      "category": "Spellings",
+      "word": "only one",
+      "meaning": "They are homophones",
+      "related": "Vessel"
+    }
+  ],
+  "days_50": [
+    {
+      "day": 1,
+      "entries_count": 10,
+      "entries": [
+        {
+          "word": "Shimmer",
+          "meaning": "to shine with a light that seems to move slightly.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Clown",
+          "meaning": "(a) someone who performs in a circus.",
+          "examples": [
+            "Who’s the clown standing in the middle of the road."
+          ],
+          "synonyms": [
+            ". rude",
+            "impertinent",
+            "impudent",
+            "insolent.",
+            ". stupid",
+            "inane",
+            "fatuous",
+            "imbecile",
+            "dolt",
+            "cretin",
+            "dullard",
+            "dunce",
+            "moron",
+            "simpleton",
+            "nincompoop",
+            "ignoramus",
+            "goofus",
+            "bozo",
+            "ninny",
+            "chump."
+          ]
+        },
+        {
+          "word": "Oblivious",
+          "meaning": "not aware of or concerned about what is happening around one.",
+          "examples": [],
+          "synonyms": [
+            "oblivious",
+            "unaware",
+            "unconscious",
+            "heedless",
+            "unmindful",
+            "unheeding."
+          ]
+        },
+        {
+          "word": "Snorkel",
+          "meaning": "(a) to swim underwater while using a snorkel.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Unruffled",
+          "meaning": "not upset or disturbed.",
+          "examples": [
+            "She remained unruffled despite the delays."
+          ],
+          "synonyms": [
+            "unruffled",
+            "unfazed",
+            "composed",
+            "peaceful.",
+            "analogue to",
+            "tantamount to",
+            "akin to",
+            "similar to",
+            "analogous",
+            "comparable",
+            "parallel",
+            "similar",
+            "corresponding",
+            "equivalent",
+            "kindred",
+            "Kinship",
+            "affinity",
+            "sympathy"
+          ]
+        },
+        {
+          "word": "Rapport",
+          "meaning": "harmonious relationship",
+          "examples": [
+            "She was able to establish a good rapport with the children."
+          ],
+          "synonyms": [
+            "rapport",
+            "affinity",
+            "bond",
+            "empathy",
+            "harmony",
+            "accord"
+          ]
+        },
+        {
+          "word": "Peer",
+          "meaning": "a person who is of the same age or position in society as you.",
+          "examples": [
+            "teenagers spending time with their peer group."
+          ],
+          "synonyms": [
+            "peer",
+            "contemporary",
+            "coevals"
+          ]
+        },
+        {
+          "word": "Perverse",
+          "meaning": "(a)  wrong or different in a way that others feel strange or offensive.",
+          "examples": [
+            "in two general elections the outcome was quite perverse."
+          ],
+          "synonyms": [
+            "perverse",
+            "awkward",
+            "illogical",
+            "unreasonable."
+          ]
+        },
+        {
+          "word": "Pervert",
+          "meaning": "to cause a person or his mind to become (immoral / decadent) or not normal.",
+          "examples": [
+            "movies that pervert the minds of young people by glorifying violence."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Immaterial",
+          "meaning": "1. Unimportant / irrelevant / inconsequential / insignificant / trivial / petty / trifling",
+          "examples": [
+            "the difference in our ages is immaterial."
+          ],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": ", page 1, copy 1.\n\n         Maths Maestro SSC                          Maths Maestro - Vishesh Shukla\nShimmer :  to shine with a light that seems to move slightly.\n   eg : water, shimmering in the sunlight.\nClown : (a) someone who performs in a circus.\n              (b) someone who does funny things.\n              (c)  a rude, stupid person \n \neg:  Who’s the clown standing in the middle of the roa"
+    },
+    {
+      "day": 2,
+      "entries_count": 9,
+      "entries": [
+        {
+          "word": "Redundancy",
+          "meaning": "1. The state of being not or no longer needed or useful.",
+          "examples": [],
+          "synonyms": [
+            "Redundancy",
+            "superfluity",
+            "redundant",
+            "superfluous",
+            "unnecessary",
+            "inessential",
+            "unessential",
+            "needless",
+            "disposable",
+            "unwanted"
+          ]
+        },
+        {
+          "word": "Dearth",
+          "meaning": "1. A scarcity or lack of something.",
+          "examples": [
+            "there is a dearth of evidence."
+          ],
+          "synonyms": [
+            "dearth",
+            "lack",
+            "scarcity",
+            "shortage",
+            "shortfall",
+            "deficiency",
+            "paucity",
+            "insufficiency",
+            "Insufficient",
+            "smidgen",
+            "morsel",
+            "modicum",
+            "meagre",
+            "paltry",
+            "scanty",
+            "sparse",
+            "scarce"
+          ]
+        },
+        {
+          "word": "Advocate",
+          "meaning": "noun - 1. A person who publicly supports or recommends a particular cause or policy.",
+          "examples": [
+            "he advocates traditional teaching methods. ( verb)"
+          ],
+          "synonyms": [
+            "Advocate",
+            "supporter",
+            "adherent",
+            "apostle",
+            "champion",
+            "backer",
+            "protector",
+            "patron"
+          ]
+        },
+        {
+          "word": "Bicker",
+          "meaning": "1. Argue about petty ( trivial / trifling / minor / small) and trivial ( unimportant) matters.",
+          "examples": [
+            "couples who bicker over who gets what from the divorce."
+          ],
+          "synonyms": [
+            "bicker",
+            "squabble",
+            "argue",
+            "quarrel",
+            "wrangle",
+            "fight",
+            "fall out",
+            "dispute",
+            "lock horns",
+            "spat",
+            "be at each other’s",
+            "bickering",
+            "fighting"
+          ]
+        },
+        {
+          "word": "Petty",
+          "meaning": "of little importance",
+          "examples": [
+            "both groups are known to fight over petty issues."
+          ],
+          "synonyms": [
+            "petty",
+            "unimportant",
+            "trivial",
+            "trifling",
+            "minor",
+            "small",
+            "slight",
+            "insignificant",
+            "inessential",
+            "inconsequential"
+          ]
+        },
+        {
+          "word": "Petulant",
+          "meaning": "1. Insolent or rude in speech or behaviour",
+          "examples": [
+            "a petulant and fussy ( often upset or unhappy, finicky) man who always blames everyone else for his"
+          ],
+          "synonyms": [
+            "petulant",
+            "irascible",
+            "insolent",
+            "impertinent",
+            "rude",
+            "choleric",
+            "waspish",
+            "peevish",
+            "snappish"
+          ]
+        },
+        {
+          "word": "Insolent",
+          "meaning": "1. showing a rude and arrogant lack of respect.",
+          "examples": [
+            "she hated the insolent tone of his voice."
+          ],
+          "synonyms": [
+            "insolent",
+            "rude",
+            "impolite",
+            "impertinent",
+            "impudent",
+            "cheeky",
+            "ill-mannered",
+            "unmannerly",
+            "discourteous",
+            "audacious",
+            "brazen",
+            "bold"
+          ]
+        },
+        {
+          "word": "Vibrant",
+          "meaning": "full of energy and life.",
+          "examples": [
+            "she has a vibrant personality."
+          ],
+          "synonyms": [
+            "vibrant",
+            "lively",
+            "animated",
+            "spirited",
+            "full of spirit",
+            "high spirited"
+          ]
+        },
+        {
+          "word": "Dissension",
+          "meaning": "disagreement",
+          "examples": [
+            "these issues caused a lot of dissension in the party."
+          ],
+          "synonyms": [
+            "dissension",
+            "conflict",
+            "disaccord",
+            "disagreement",
+            "dispute",
+            "dissent",
+            "debate"
+          ]
+        }
+      ],
+      "raw_preview": ", page 2, copy 1.\n\n         Maths Maestro SSC                          Maths Maestro - Vishesh Shukla\nRedundancy :  1. The state of being not or no longer needed or useful.\n                          2. The state of being no longer in employment because there is no more work available.\n   eg : the redundancy of 19th-century heavy plant machinery.\n          The factory’s workers face redundancy.\n  R"
+    },
+    {
+      "day": 3,
+      "entries_count": 14,
+      "entries": [
+        {
+          "word": "Reasonable",
+          "meaning": "1. Fair and sensible",
+          "examples": [
+            "reasonable prices."
+          ],
+          "synonyms": [
+            "reasonable",
+            "sensible",
+            "rational",
+            "logical",
+            "fair",
+            "equitable",
+            "practical",
+            "appropriate",
+            "suitable"
+          ]
+        },
+        {
+          "word": "Intoxicate",
+          "meaning": "of alcohol, a drug etc. to make someone unable to think and behave normally.",
+          "examples": [
+            "The little bit of beer I drank was not enough to intoxicate me."
+          ],
+          "synonyms": [
+            "Intoxicate",
+            "inebriate",
+            "go to someone’s head",
+            "drunk",
+            "tipsy",
+            "squiffy",
+            "hammered (very drunk)"
+          ]
+        },
+        {
+          "word": "Spectacle",
+          "meaning": "display / show / presentation / performance / exhibition / rendition / rendering",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gesticulate",
+          "meaning": "to make gestures ( to move your arms and hands especially when speaking in an angry or",
+          "examples": [
+            "when she got angry she started to gesticulate her feelings with her hands."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Carcade",
+          "meaning": "a procession of motor vehicles, typically carrying and escorting a famous or important person.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Procession",
+          "meaning": "a number of people or vehicles moving forward in an orderly fashion, especially as part of a",
+          "examples": [
+            "a funeral procession"
+          ],
+          "synonyms": [
+            "procession",
+            "parade",
+            "march",
+            "cavalcade",
+            "motorcade",
+            "carcade"
+          ]
+        },
+        {
+          "word": "Escort",
+          "meaning": "Noun - a person, vehicle, or group accompanying another for protection or as a mark of rank.",
+          "examples": [
+            "a police escort."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Vie",
+          "meaning": "compete eagerly with someone in order to do or achieve something.",
+          "examples": [
+            "the athletes were vying for a place in the Indian Cricket team."
+          ],
+          "synonyms": [
+            "vie",
+            "compete",
+            "strive",
+            "endeavour",
+            "contend",
+            "contest",
+            "struggle",
+            "fight",
+            "cross swords",
+            "lock horns",
+            "jostle",
+            "grapple",
+            "wrestle"
+          ]
+        },
+        {
+          "word": "Fossilize",
+          "meaning": "to become a fossil or to cause something to become a fossil.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Palaeontology / Paleontology",
+          "meaning": "study of fossils.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Rash",
+          "meaning": "acting or done without careful consideration of the consequences.",
+          "examples": [
+            "it would be extremely rash to make such an assumption."
+          ],
+          "synonyms": [
+            "rash",
+            "reckless",
+            "careless",
+            "impetuous",
+            "impulsive",
+            "hasty",
+            "incautious"
+          ]
+        },
+        {
+          "word": "Flex",
+          "meaning": "1. to bend a body part.",
+          "examples": [
+            "he flexed the muscles of his right arm."
+          ],
+          "synonyms": [
+            "Flex",
+            "squirm",
+            "wriggle  ( eg. he looked uncomfortable and squirmed in his chair)."
+          ]
+        },
+        {
+          "word": "Depict",
+          "meaning": "to show someone or something in a picture, painting, photograph etc.",
+          "examples": [
+            "The wall was painted with a large mural depicting famous scenes from Indian History."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Fragile",
+          "meaning": "(of an object) easily broken or damaged.",
+          "examples": [
+            "fragile items such as glass and china."
+          ],
+          "synonyms": [
+            "fragile",
+            "flimsy",
+            "frail",
+            "brittle",
+            "tenuous",
+            "delicate",
+            "breakable.",
+            "idioms",
+            "ows"
+          ]
+        }
+      ],
+      "raw_preview": ", page 3, copy 1.\n\nMaths Maestro\n         Maths Maestro SSC                          Maths Maestro - Vishesh Shukla\nReasonable  :  1. Fair and sensible\n                         2. Fairly or moderately good\n                         3. Not too expensive\nEg.  reasonable prices.\n       No reasonable person could have objected.\n reasonable /  sensible / rational / logical / fair / equitable / practical"
+    },
+    {
+      "day": 4,
+      "entries_count": 16,
+      "entries": [
+        {
+          "word": "Acclaimed",
+          "meaning": "publicly praised or celebrated.",
+          "examples": [
+            "She is being acclaimed as the greatest dancer of her generation."
+          ],
+          "synonyms": [
+            "acclaimed",
+            "renowned",
+            "praised",
+            "celebrated",
+            "acknowledged"
+          ]
+        },
+        {
+          "word": "Hence",
+          "meaning": "1. For this reason",
+          "examples": [
+            "The company lost a great deal of money. Hence, the CEO was asked to resign."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Consequence",
+          "meaning": "a result or effect, typically one that is unwelcome or unpleasant.",
+          "examples": [
+            "abrupt withdrawal of drug treatment can have serious consequences."
+          ],
+          "synonyms": [
+            "consequence",
+            "result",
+            "upshot",
+            "outcome",
+            "effect",
+            "reaction",
+            "ramification",
+            "implication",
+            "repercussion"
+          ]
+        },
+        {
+          "word": "Emaciated",
+          "meaning": "abnormally thin or weak, especially because of illness or a lack of food.",
+          "examples": [
+            "she was so emaciated she could hardly stand."
+          ],
+          "synonyms": [
+            "emaciated",
+            "lanky",
+            "scrawny",
+            "scraggy",
+            "lean",
+            "slender",
+            "gangling",
+            "thin",
+            "skinny",
+            "tenuous",
+            "fragile",
+            "frail",
+            "brittle",
+            "flimsy",
+            "breakable",
+            "tenuous"
+          ]
+        },
+        {
+          "word": "Peculiar",
+          "meaning": "unusual and strange",
+          "examples": [
+            "she has the most peculiar ideas."
+          ],
+          "synonyms": [
+            "peculiar",
+            "odd",
+            "strange",
+            "weird",
+            "unusual",
+            "bizarre",
+            "queer",
+            "abnormal",
+            "quirky",
+            "freak"
+          ]
+        },
+        {
+          "word": "Stupefy",
+          "meaning": "1. Make someone unable to think or feel properly.",
+          "examples": [
+            "the offence of administering drugs to a woman with intent to stupefy her."
+          ],
+          "synonyms": [
+            "Stupefy",
+            "Stun",
+            "daze",
+            "befuddle",
+            "anaesthetize",
+            "Stupefy",
+            "shock",
+            "stun",
+            "astound",
+            "amaze",
+            "astonish",
+            "startle",
+            "confound",
+            "take aback",
+            "flabbergast"
+          ]
+        },
+        {
+          "word": "exhilarated",
+          "meaning": "very happy",
+          "examples": [
+            "all this hustle and bustle makes me feel exhilarated."
+          ],
+          "synonyms": [
+            "exhilarated",
+            "happy",
+            "animated",
+            "elated",
+            "delighted",
+            "joyous",
+            "gleeful",
+            "jubilant",
+            "exultant",
+            "ecstatic",
+            "euphoric"
+          ]
+        },
+        {
+          "word": "Impetuous",
+          "meaning": "1. Acting or done quickly and without thought or care.",
+          "examples": [
+            "an impetuous decision"
+          ],
+          "synonyms": [
+            "impetuous",
+            "rash",
+            "hasty",
+            "impulsive",
+            "reckless",
+            "careless",
+            "incautious",
+            "impetuous",
+            "powerful",
+            "forceful"
+          ]
+        },
+        {
+          "word": "Subtly",
+          "meaning": "1.with subtleness, in a subtle manner",
+          "examples": [
+            "some diseases start subtly."
+          ],
+          "synonyms": [
+            "idioms",
+            "ows"
+          ]
+        },
+        {
+          "word": "Jump thegun",
+          "meaning": "To do something too soon and too quickly",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "A dime a dozen",
+          "meaning": "Something common and not special",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Encyclopedia",
+          "meaning": "book giving information about everything.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Fauna",
+          "meaning": "the animals of particular region.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Malcontent",
+          "meaning": "a person who is never happy with what he has.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Diagnosis",
+          "meaning": "the art of identifying a disease from its signs and symptoms.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Pessimist",
+          "meaning": "one who looks at the dark side of life.",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": ", page 4, copy 1.\n\nMaths Maestro\n         Maths Maestro SSC                          Maths Maestro - Vishesh Shukla\nAcclaimed   :  publicly praised or celebrated.\nEg. She is being acclaimed as the greatest dancer of her generation.\n acclaimed / renowned / praised / celebrated / acknowledged\nHence  : 1. For this reason\n               2. Later than the present time\n               3. in consequence\nE"
+    },
+    {
+      "day": 5,
+      "entries_count": 12,
+      "entries": [
+        {
+          "word": "Shake",
+          "meaning": "to cause to move to and fro, up and down, or from side to side in a repetitive manner.",
+          "examples": [
+            "she shook her head in disapproval"
+          ],
+          "synonyms": [
+            "shake",
+            "vibrate",
+            "quiver",
+            "quaver",
+            "shiver",
+            "shudder",
+            "tremble ( I shuddered with horror. )"
+          ]
+        },
+        {
+          "word": "Worry",
+          "meaning": "verb -  feel or cause to feel anxious or troubled",
+          "examples": [
+            "PM modi was worried about the soldiers in the war."
+          ],
+          "synonyms": [
+            "Verb - worry",
+            "fret",
+            "agonize",
+            "brood",
+            "dwell on",
+            "be on tenterhooks",
+            "Noun - worry",
+            "anxiety",
+            "disturbance",
+            "perturbation",
+            "trouble",
+            "bother",
+            "distress",
+            "concern",
+            "upset",
+            "unease"
+          ]
+        },
+        {
+          "word": "Unfathomable",
+          "meaning": "impossible to fathom ( impossible to understand )",
+          "examples": [
+            "her grey hair were dark with some unfathomable emotion."
+          ],
+          "synonyms": [
+            "Unfathomable",
+            "incomprehensible",
+            "impenetrable",
+            "inscrutable",
+            "incalculable",
+            "enigmatic",
+            "esoteric",
+            "abstruse",
+            "obscure",
+            "arcane",
+            "recondite"
+          ]
+        },
+        {
+          "word": "ignore",
+          "meaning": "refuse to take notice of or acknowledge ( disregard )",
+          "examples": [
+            "he ignored her question.",
+            "she snubbed me in the market .",
+            "Shun single use plastic."
+          ],
+          "synonyms": [
+            "ignore",
+            "disregard",
+            "eschew",
+            "avoid",
+            "shun",
+            "snub"
+          ]
+        },
+        {
+          "word": "Untidy",
+          "meaning": "not arranged neatly and in order.",
+          "examples": [
+            "The place was untidy."
+          ],
+          "synonyms": [
+            "untidy",
+            "disordered",
+            "disorderly",
+            "messy",
+            "disheveled",
+            "cluttered",
+            "disorganized",
+            "chaotic",
+            "haywire",
+            "muddled"
+          ]
+        },
+        {
+          "word": "Excrement",
+          "meaning": "solid waste passed out of the body. ( process : defecation )",
+          "examples": [
+            "I spotted a pile of human excrement on the ground."
+          ],
+          "synonyms": [
+            "excrement",
+            "faeces",
+            "excreta",
+            "stools",
+            "dung",
+            "poo",
+            "poop"
+          ]
+        },
+        {
+          "word": "Diagnose",
+          "meaning": "identify the nature of ( an illness or other problem) by examination of the symptoms.",
+          "examples": [
+            "Two doctors failed to diagnose a punctured lung."
+          ],
+          "synonyms": [
+            "diagnose",
+            "identify",
+            "determine",
+            "recognize",
+            "discover",
+            "spot",
+            "detect",
+            "distinguish"
+          ]
+        },
+        {
+          "word": "Hostile",
+          "meaning": "showing or feeling opposition or dislike",
+          "examples": [
+            "a hostile audience."
+          ],
+          "synonyms": [
+            "hostile",
+            "unfriendly",
+            "aggressive",
+            "antagonistic",
+            "belligerent",
+            "bellicose",
+            "pugnacious",
+            "truculent",
+            "confrontational",
+            "rancorous",
+            "warlike",
+            "warmonger",
+            "combative"
+          ]
+        },
+        {
+          "word": "Gruesome",
+          "meaning": "causing repulsion or horror",
+          "examples": [
+            "The most gruesome murder."
+          ],
+          "synonyms": [
+            "gruesome",
+            "horrific",
+            "shocking",
+            "frightful",
+            "grisly",
+            "ghastly",
+            "repellently",
+            "terrible",
+            "macabre",
+            "horrid",
+            "horrifying"
+          ]
+        },
+        {
+          "word": "A bad patch",
+          "meaning": "a period of time when a person faces lots of troubles",
+          "examples": [],
+          "synonyms": [
+            "Turn a deaf ear to : disregard",
+            "avoid intentionally"
+          ]
+        },
+        {
+          "word": "Straight shooter",
+          "meaning": "straightforward person",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Incapable of being read",
+          "meaning": "illegible",
+          "examples": [],
+          "synonyms": [
+            "One that cannot be harmed",
+            "wounded : invulnerable"
+          ]
+        }
+      ],
+      "raw_preview": ", page 5, copy 1.\n\nMaths Maestro\n         Maths Maestro SSC                          Maths Maestro - Vishesh Shukla\nShake   : to cause to move to and fro, up and down, or from side to side in a repetitive manner.\nEg. she shook her head in disapproval\nshake / vibrate / quiver / quaver / shiver / shudder / tremble ( I shuddered with horror. )\nWorry  :  verb -  feel or cause to feel anxious or troubl"
+    },
+    {
+      "day": 6,
+      "entries_count": 17,
+      "entries": [
+        {
+          "word": "Evade",
+          "meaning": "escape or avoid someone or something in a skilful or cunning way.",
+          "examples": [
+            "friends helped him to evade capture for a time."
+          ],
+          "synonyms": [
+            "evade",
+            "prevaricate",
+            "elude",
+            "avoid",
+            "dodge",
+            "steer clear of"
+          ]
+        },
+        {
+          "word": "Nurture",
+          "meaning": "care for and protect someone or something while they are growing.",
+          "examples": [
+            "James was nurtured by his parents in a very big family."
+          ],
+          "synonyms": [
+            "nurture",
+            "bring up",
+            "cultivate",
+            "burgeon",
+            "flourish",
+            "thrive",
+            "nourish",
+            "look after",
+            "foster"
+          ]
+        },
+        {
+          "word": "entourage",
+          "meaning": "a group of people attending or surrounding an important person.",
+          "examples": [
+            "an entourage or loyal courtiers."
+          ],
+          "synonyms": [
+            "entourage",
+            "retinue",
+            "contingent",
+            "posse",
+            "cabal",
+            "coterie",
+            "clique",
+            "horde",
+            "attendants",
+            "followers"
+          ]
+        },
+        {
+          "word": "Handful",
+          "meaning": "1. A small quantity",
+          "examples": [],
+          "synonyms": [
+            "Handful",
+            "scanty",
+            "scarce",
+            "sparse",
+            "morsel",
+            "modicum",
+            "smidgen",
+            "Handful",
+            "nuisance",
+            "problem",
+            "bother",
+            "irritant",
+            "headache"
+          ]
+        },
+        {
+          "word": "intrigue",
+          "meaning": "1. Arouse the curiosity or interest of",
+          "examples": [
+            "I was intrigued by your question. Eg. ram and shyam intrigued with the local nobles."
+          ],
+          "synonyms": [
+            "Intrigue",
+            "fascinate",
+            "attract",
+            "lure",
+            "tempt",
+            "tantalize",
+            "interest",
+            "Intrigue",
+            "conspire",
+            "plot",
+            "connive",
+            "collude",
+            "machinate"
+          ]
+        },
+        {
+          "word": "profound",
+          "meaning": "very great or intense ( any quality or emotion )",
+          "examples": [
+            "profound knowledge of science."
+          ],
+          "synonyms": [
+            "Profound",
+            "heartfelt",
+            "complete",
+            "intense",
+            "great",
+            "extreme"
+          ]
+        },
+        {
+          "word": "dignity",
+          "meaning": "the state or quality of being worthy of honour or respect.",
+          "examples": [
+            "The dignity of labour ."
+          ],
+          "synonyms": [
+            "Dignity",
+            "propriety",
+            "etiquettes",
+            "stateliness",
+            "decorum"
+          ]
+        },
+        {
+          "word": "Gambit",
+          "meaning": "plan / plot / machination / tactic / stratagem / scheme",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "despair",
+          "meaning": "hopelessness / desperation / distress / anguish / pain / unhappiness/ dejection / depression",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "traumatic",
+          "meaning": "disturbing / disconcerting / stressful",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Cliche",
+          "meaning": "a phrase or opinion that is overused",
+          "examples": [
+            "that old cliche “ a woman’s place is in the home”."
+          ],
+          "synonyms": [
+            "Cliche",
+            "platitude",
+            "banal",
+            "trite",
+            "stereotypical",
+            "stereotyped",
+            "timeworn",
+            "shopworn",
+            "hackneyed"
+          ]
+        },
+        {
+          "word": "Grateful",
+          "meaning": "thankful",
+          "examples": [
+            "I am grateful to you for all your help."
+          ],
+          "synonyms": [
+            "Grateful",
+            "thankful",
+            "appreciative",
+            "indebted",
+            "obliged",
+            "obligated"
+          ]
+        },
+        {
+          "word": "Through thick and thin",
+          "meaning": "under all conditions, no matter how challenging or difficult",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Pull a long face",
+          "meaning": "to look sad",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "To bring to light",
+          "meaning": "to disclose",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Cut corners",
+          "meaning": "do something in an inexpensive and easy way.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Give off gas bubbles",
+          "meaning": "effervescent",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": ", page 6, copy 1.\n\nMaths Maestro\n         Maths Maestro SSC                          Maths Maestro - Vishesh Shukla\nEvade   : escape or avoid someone or something in a skilful or cunning way.\nEg. friends helped him to evade capture for a time.\nevade / prevaricate /elude / avoid / dodge / steer clear of \nNurture   :  care for and protect someone or something while they are growing.\nEg. James was nu"
+    },
+    {
+      "day": 7,
+      "entries_count": 16,
+      "entries": [
+        {
+          "word": "Introspection",
+          "meaning": "the examination or observation of one’s own mental and emotional processes. ( self-",
+          "examples": [
+            "quiet introspection can be extremely valuable."
+          ],
+          "synonyms": [
+            "introspection",
+            "brooding",
+            "self-analysis",
+            "self-observation",
+            "soul-searching"
+          ]
+        },
+        {
+          "word": "Appraisal",
+          "meaning": "an act of assessing something or someone. (analysis)",
+          "examples": [
+            "she carried out a thorough appraisal."
+          ],
+          "synonyms": [
+            "Appraisal",
+            "assessment",
+            "analysis",
+            "evaluation",
+            "estimation",
+            "gauging"
+          ]
+        },
+        {
+          "word": "Plunge",
+          "meaning": "1. Jump or dive quickly and energetically.",
+          "examples": [
+            "1. Our little daughters whooped as they plunged into the sea."
+          ],
+          "synonyms": [
+            "Plunge",
+            "jump",
+            "dive",
+            "Plunge",
+            "thrust",
+            "push",
+            "force"
+          ]
+        },
+        {
+          "word": "Astonish",
+          "meaning": "surprise or impress someone greatly.",
+          "examples": [
+            "you never fail to astonish me."
+          ],
+          "synonyms": [
+            "astonish",
+            "surprise",
+            "amaze",
+            "astound",
+            "stagger",
+            "startle",
+            "stun",
+            "confound",
+            "stupefy",
+            "shock",
+            "take someone’s"
+          ]
+        },
+        {
+          "word": "Victim",
+          "meaning": "a person harmed, injured, or killed as a result of a crime, accident or other event or action.",
+          "examples": [
+            "victims of domestic violence."
+          ],
+          "synonyms": [
+            "Victim",
+            "sufferer",
+            "casualty"
+          ]
+        },
+        {
+          "word": "Underneath",
+          "meaning": "situated directly below",
+          "examples": [
+            "our bedroom is right underneath theirs."
+          ],
+          "synonyms": [
+            "Underneath",
+            "beneath",
+            "under",
+            "below"
+          ]
+        },
+        {
+          "word": "Superannuated",
+          "meaning": "outdated, old, out of date",
+          "examples": [
+            "superannuated equipments."
+          ],
+          "synonyms": [
+            "Superannuated",
+            "outdated",
+            "outmoded",
+            "archaic",
+            "obsolete",
+            "antiquated",
+            "bygone",
+            "old",
+            "out of date"
+          ]
+        },
+        {
+          "word": "Festal",
+          "meaning": "relating to feast or festival",
+          "examples": [],
+          "synonyms": [
+            "Festal",
+            "festive",
+            "merry",
+            "joyous"
+          ]
+        },
+        {
+          "word": "Buoyant",
+          "meaning": "1. Cheerful and optimistic",
+          "examples": [
+            "buoyant mood. ( happy mood )"
+          ],
+          "synonyms": [
+            "Buoyant",
+            "cheerful",
+            "cheery",
+            "happy",
+            "carefree",
+            "l glad",
+            "merry",
+            "joyful",
+            "bubbly",
+            "blithe",
+            "effervescent",
+            "jovial",
+            "jolly",
+            "glad"
+          ]
+        },
+        {
+          "word": "Stout",
+          "meaning": "brave and strong ( fat )",
+          "examples": [
+            "stout boys"
+          ],
+          "synonyms": [
+            "Stout",
+            "sturdy",
+            "burly",
+            "brawny",
+            "fat",
+            "portly",
+            "rotund"
+          ]
+        },
+        {
+          "word": "Easy does it",
+          "meaning": "used to tell someone to do something slowly and carefully",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Fair weather friend",
+          "meaning": "a person whose friendship cannot be relied on in times of difficulty",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Creature of habit",
+          "meaning": "one who does same thing in the same way ( follows same routine everyday )",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Hit the roof",
+          "meaning": "to become very angry",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "One who loves mankind",
+          "meaning": "philanthropist",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "A religious war",
+          "meaning": "crusade ( movement )",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": ", page 7, copy 1.\n\nMaths Maestro\n         Maths Maestro SSC                          Maths Maestro - Vishesh Shukla\nIntrospection    : the examination or observation of one’s own mental and emotional processes. ( self- \nanalysis)\nEg. quiet introspection can be extremely valuable.\nintrospection / brooding / self-analysis / self-observation / soul-searching \nAppraisal  :  an act of assessing somethi"
+    },
+    {
+      "day": 8,
+      "entries_count": 16,
+      "entries": [
+        {
+          "word": "Brittle",
+          "meaning": "easily broken",
+          "examples": [
+            "her bones became  brittle."
+          ],
+          "synonyms": [
+            "Brittle",
+            "breakable",
+            "fragile",
+            "frail",
+            "tenuous",
+            "delicate"
+          ]
+        },
+        {
+          "word": "foolhardy",
+          "meaning": "foolishly doing things that are too dangerous or risky",
+          "examples": [
+            "it would be foolhardy to go into the party without support."
+          ],
+          "synonyms": [
+            "Foolhardy",
+            "reckless",
+            "careless",
+            "rash",
+            "incautious",
+            "impulsive",
+            "impetuous"
+          ]
+        },
+        {
+          "word": "Roam",
+          "meaning": "to go to different places without having a particular purpose or plan, walk aimlessly",
+          "examples": [
+            "tigers once roamed over most of Asia."
+          ],
+          "synonyms": [
+            "Roam",
+            "meander",
+            "maunder",
+            "loiter",
+            "wander",
+            "stroll",
+            "walk",
+            "peregrinate",
+            "navigate"
+          ]
+        },
+        {
+          "word": "Majestic",
+          "meaning": "grand, royal, impressive",
+          "examples": [
+            "majestic asiatic lions."
+          ],
+          "synonyms": [
+            "Majestic",
+            "epic",
+            "glorious",
+            "august",
+            "grand",
+            "heroic",
+            "imperial",
+            "magnificent",
+            "royal",
+            "splendid",
+            "stately"
+          ]
+        },
+        {
+          "word": "Subtle",
+          "meaning": "1. hard to notice or see",
+          "examples": [
+            "The disease started subtly."
+          ],
+          "synonyms": [
+            "Subtle",
+            "fine",
+            "minute",
+            "Subtle",
+            "clever",
+            "skilful",
+            "adroit",
+            "cunning",
+            "crafty",
+            "artful"
+          ]
+        },
+        {
+          "word": "implicit",
+          "meaning": "not directly expressed ( indirect )",
+          "examples": [
+            "implicit criticism"
+          ],
+          "synonyms": [
+            "implicit",
+            "indirect",
+            "inferred",
+            "implied",
+            "hinted",
+            "suggested",
+            "understood",
+            "unspoken",
+            "unexpressed"
+          ]
+        },
+        {
+          "word": "Toddler",
+          "meaning": "a young child who is just learning to walk. ( between the age of 1 and 3 )",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "doze",
+          "meaning": "sleep lightly.",
+          "examples": [
+            "he found his mother dozing by the fire."
+          ],
+          "synonyms": [
+            "Doze",
+            "nap",
+            "catnap",
+            "drowse",
+            "snooze",
+            "forty winks"
+          ]
+        },
+        {
+          "word": "Sullen",
+          "meaning": "bad tempered and joyless ( dukhi aur sanki, chidchida)",
+          "examples": [],
+          "synonyms": [
+            "Sullen",
+            "surly",
+            "sulky",
+            "morose",
+            "unfriendly",
+            "grumpy",
+            "resentful",
+            "stroppy"
+          ]
+        },
+        {
+          "word": "Countenance",
+          "meaning": "a person’s face or facial expression",
+          "examples": [
+            "sad countenance."
+          ],
+          "synonyms": [
+            "Countenance",
+            "face",
+            "features",
+            "expression",
+            "look",
+            "physiognomy",
+            "appearance",
+            "mug",
+            "fizzog"
+          ]
+        },
+        {
+          "word": "Start from scratch",
+          "meaning": "to start or create something from the very beginning.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Break a leg",
+          "meaning": "wish someone good luck.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Henpecked husband",
+          "meaning": "oppressed husband",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "At a low ebb",
+          "meaning": "in a depressed or weak state. ( pakistan is at a low ebb )",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Off and on",
+          "meaning": "now and then ( irregular)",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Lion like characteristics",
+          "meaning": "leonine",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": ", page 8, copy 1.\n\nMaths Maestro\n         Maths Maestro SSC                          Maths Maestro - Vishesh Shukla\nBrittle   : easily broken\nEg. her bones became  brittle.\nBrittle / breakable / fragile / frail / tenuous / delicate\nfoolhardy  :  foolishly doing things that are too dangerous or risky\nEg. it would be foolhardy to go into the party without support.\nFoolhardy / reckless / careless / r"
+    },
+    {
+      "day": 9,
+      "entries_count": 19,
+      "entries": [
+        {
+          "word": "Demeanor / demeanour",
+          "meaning": "outward behaviour",
+          "examples": [
+            "his happy demeanour."
+          ],
+          "synonyms": [
+            "Demeanour",
+            "manner",
+            "attitude",
+            "appearance",
+            "bearing",
+            "look",
+            "behaviour",
+            "conduct",
+            "comportment"
+          ]
+        },
+        {
+          "word": "intermittent",
+          "meaning": "irregular, not continuous or steady",
+          "examples": [
+            "intermittent rain, intermittent fasting"
+          ],
+          "synonyms": [
+            "intermittent",
+            "irregular",
+            "erratic",
+            "sporadic",
+            "fitful",
+            "spasmodic",
+            "broken",
+            "fragmentary",
+            "discontinuous",
+            "patchy",
+            "scattered",
+            "off and on",
+            "in fits and starts",
+            "occasional",
+            "periodic"
+          ]
+        },
+        {
+          "word": "Dwell on",
+          "meaning": "to think about something for a long time.",
+          "examples": [
+            "there is no need to dwell on the past, don’t dwell upon your mistakes."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Viable",
+          "meaning": "capable of working successfully",
+          "examples": [
+            "can you tell me a viable solution to the problem ?"
+          ],
+          "synonyms": [
+            "Viable",
+            "workable",
+            "feasible",
+            "practical",
+            "applicable",
+            "usable",
+            "possible",
+            "achievable",
+            "attainable",
+            "sensible"
+          ]
+        },
+        {
+          "word": "Perspicuous",
+          "meaning": "easily understood ( noun - perspicuity / clearness / lucidity )",
+          "examples": [
+            "perspicuous explanation."
+          ],
+          "synonyms": [
+            "Perspicuous",
+            "clear",
+            "lucid",
+            "crystal clear",
+            "unambiguous",
+            "transparent",
+            "intelligible",
+            "plain"
+          ]
+        },
+        {
+          "word": "perspicacious",
+          "meaning": "clever / sharp / alert / quick / shrewd / observant / astute / acute / aware",
+          "examples": [
+            "perspicacious boy"
+          ],
+          "synonyms": [
+            "Noun - perspicacity ( cleverness",
+            "shrewdness",
+            "intelligence )"
+          ]
+        },
+        {
+          "word": "Prominent",
+          "meaning": "important, famous",
+          "examples": [
+            "he is a prominent member of the parliament."
+          ],
+          "synonyms": [
+            "Prominent",
+            "important",
+            "well known",
+            "famous",
+            "eminent",
+            "distinguished",
+            "notable",
+            "noteworthy",
+            "illustrious",
+            "renowned",
+            "acclaimed",
+            "famed",
+            "celebrated",
+            "Noun - prominence ( supremacy",
+            "excellence )"
+          ]
+        },
+        {
+          "word": "Untenable",
+          "meaning": "indefensible, undefendable, insupportable ( bachane Layak nahi hai )",
+          "examples": [
+            "untenable argument, untenable position."
+          ],
+          "synonyms": [
+            "Untenable",
+            "indefensible",
+            "undefendable",
+            "insupportable",
+            "unarguable"
+          ]
+        },
+        {
+          "word": "Cabal",
+          "meaning": "a secret group of people",
+          "examples": [
+            "a cabal of revolutionaries.",
+            "contingent of reporters."
+          ],
+          "synonyms": [
+            "Cabal",
+            "group",
+            "gang",
+            "clique (small group)",
+            "faction",
+            "coterie",
+            "ring",
+            "caucus",
+            "horde (large group)",
+            "contingent"
+          ]
+        },
+        {
+          "word": "Break the ice",
+          "meaning": "start conversation or  to say or do something that makes people feel more relaxed",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Jaundiced eye",
+          "meaning": "resentment ( virodh )",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Off and on",
+          "meaning": "irregular / periodic / intermittent / erratic",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "A rainy day",
+          "meaning": "a time when money is urgently or unexpectedly  needed",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Introvert",
+          "meaning": "one who does not express oneself freely",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Versatile",
+          "meaning": "one who adapts oneself readily to various situations",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gourmand",
+          "meaning": "a lover of good food",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Physiology",
+          "meaning": "study of body functions",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Homogeneous",
+          "meaning": "belonging to the same kind",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Demagogue",
+          "meaning": "a leader who sways his followers by his oratory ( hitler)",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": ", page 9, copy 1.\n\nMaths Maestro\n         Maths Maestro SSC                          Maths Maestro - Vishesh Shukla\nDemeanor / demeanour    : outward behaviour\nEg. his happy demeanour.\nDemeanour / manner / attitude / appearance / bearing / look / behaviour / conduct / comportment / \ndeportment \nintermittent   :  irregular, not continuous or steady\nEg. intermittent rain, intermittent fasting \ninter"
+    },
+    {
+      "day": 10,
+      "entries_count": 16,
+      "entries": [
+        {
+          "word": "incinerate",
+          "meaning": "to burn something completely",
+          "examples": [
+            "The waste is incinerated in a large furnace."
+          ],
+          "synonyms": [
+            "incinerate",
+            "burn",
+            "destroy",
+            "cremate"
+          ]
+        },
+        {
+          "word": "Entourage",
+          "meaning": "a group of people",
+          "examples": [
+            "an entourage of loyal courtiers.",
+            "coterie of advisers, contingent of reporters"
+          ],
+          "synonyms": [
+            "entourage",
+            "contingent",
+            "retinue",
+            "delegation",
+            "posse",
+            "clique",
+            "horde",
+            "cabal",
+            "coterie"
+          ]
+        },
+        {
+          "word": "inhibitor",
+          "meaning": "one that inhibits ( problem, hurdle )",
+          "examples": [
+            "alcohol is an inhibitor in the path of a person who wants to attain a healthy body.",
+            "inhibitor / obstacle / hindrance / impediment / restraint / deterrent / liability"
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "ramify",
+          "meaning": "to split up (separate) into branches.",
+          "examples": [],
+          "synonyms": [
+            "Ramify",
+            "separate",
+            "furcate"
+          ]
+        },
+        {
+          "word": "immaterial",
+          "meaning": "1. Not important or significant ( of little or no importance)",
+          "examples": [
+            "1. The difference in our ages is immaterial"
+          ],
+          "synonyms": [
+            "Immaterial",
+            "insignificant",
+            "trivial",
+            "trifling",
+            "petty",
+            "Immaterial",
+            "incorporeal ( ghosts are supposed to be incorporeal )"
+          ]
+        },
+        {
+          "word": "ghost",
+          "meaning": "bhoot",
+          "examples": [],
+          "synonyms": [
+            "Ghost",
+            "apparition",
+            "poltergeist",
+            "bogey",
+            "spook",
+            "phantom",
+            "spectre"
+          ]
+        },
+        {
+          "word": "preposterous",
+          "meaning": "stupid, silly, foolish ( tum logon ki trh)",
+          "examples": [
+            "a preposterous idea"
+          ],
+          "synonyms": [
+            "Preposterous",
+            "silly",
+            "stupid",
+            "foolish",
+            "absurd",
+            "ridiculous",
+            "risible",
+            "farcical",
+            "ludicrous",
+            "asinine",
+            "imbecilic"
+          ]
+        },
+        {
+          "word": "imbecile",
+          "meaning": "a stupid person or thing",
+          "examples": [
+            "you are imbecile, imbecile suggestion"
+          ],
+          "synonyms": [
+            "Imbecile ( stupid person)",
+            "fool",
+            "idiot",
+            "cretin",
+            "moron",
+            "dolt",
+            "halfwit",
+            "dunce",
+            "dullard",
+            "simpleton",
+            "ignoramus",
+            "dummy",
+            "clod"
+          ]
+        },
+        {
+          "word": "Salient",
+          "meaning": "very important or noticeable",
+          "examples": [
+            "salient features"
+          ],
+          "synonyms": [
+            "Salient",
+            "noticeable",
+            "conspicuous",
+            "important",
+            "main",
+            "principal",
+            "major",
+            "chief",
+            "primary",
+            "notable",
+            "outstanding",
+            "prominent",
+            "essential",
+            "crucial",
+            "vital",
+            "prime",
+            "central",
+            "striking"
+          ]
+        },
+        {
+          "word": "Gift of the gab",
+          "meaning": "a talent for speaking ( oratory ) ( modi ji, shashi tharoor )",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Maiden speech",
+          "meaning": "first speech",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "cascade",
+          "meaning": "a fall of water from a great height",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "posthumous",
+          "meaning": "a child born after the death of his father",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "extempore",
+          "meaning": "a speech made without preparation",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "hyperbol",
+          "meaning": "exaggerated claims, not meant to be taken seriously",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "ramification",
+          "meaning": "the possible results of an action ( consequence / result / aftermath / outcome / effect )",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": ", page 10, copy 1.\n\nMaths Maestro\n         Maths Maestro SSC                          Maths Maestro - Vishesh Shukla\nincinerate    : to burn something completely \nEg. The waste is incinerated in a large furnace.\nincinerate / burn / destroy / cremate \nEntourage    :  a group of people \nEg. an entourage of loyal courtiers.\nentourage / contingent / retinue / delegation / posse / clique / horde / caba"
+    },
+    {
+      "day": 11,
+      "entries_count": 17,
+      "entries": [
+        {
+          "word": "innocuous",
+          "meaning": "harmless ( causing no injury, not likely to bother or offend anyone )",
+          "examples": [
+            "it was an innocuous question."
+          ],
+          "synonyms": [
+            "innocuous",
+            "harmless",
+            "safe",
+            "non-dangerous",
+            "inoffensive"
+          ]
+        },
+        {
+          "word": "bother",
+          "meaning": "trouble or difficulty",
+          "examples": [
+            "he saved me the bother of having to come up with a speech."
+          ],
+          "synonyms": [
+            "Bother",
+            "trouble",
+            "effort",
+            "exertion",
+            "inconvenience",
+            "fuss",
+            "bustle",
+            "disruption",
+            "pains",
+            "hassle"
+          ]
+        },
+        {
+          "word": "naive",
+          "meaning": "( of a person or action ) showing a lack of experience",
+          "examples": [
+            "a  naive belief that all people are good."
+          ],
+          "synonyms": [
+            "Naive",
+            "credulous",
+            "gullible",
+            "innocent",
+            "unsophisticated",
+            "ingenuous"
+          ]
+        },
+        {
+          "word": "Virulent",
+          "meaning": "1. Poisonous, toxic",
+          "examples": [
+            "a virulent snake."
+          ],
+          "synonyms": [
+            "Virulent",
+            "poisonous",
+            "toxic",
+            "venomous",
+            "noxious",
+            "deadly",
+            "lethal",
+            "fatal",
+            "mortal",
+            "dangerous",
+            "harmful",
+            "Virulent",
+            "hostile",
+            "malicious",
+            "malevolent",
+            "malign",
+            "bitter",
+            "rancorous",
+            "acrimonious",
+            "spiteful"
+          ]
+        },
+        {
+          "word": "inimical",
+          "meaning": "1. dangerous, harmful",
+          "examples": [
+            "inimical practices, an inimical alien power."
+          ],
+          "synonyms": [
+            "inimical",
+            "harmful",
+            "injurious",
+            "detrimental",
+            "deleterious",
+            "pernicious",
+            "damaging",
+            "hurtful",
+            "dangerous",
+            "ruinous",
+            "inimical",
+            "unfriendly",
+            "hostile",
+            "antagonistic",
+            "unkind",
+            "malevolent",
+            "malign",
+            "inhospitable"
+          ]
+        },
+        {
+          "word": "panorama",
+          "meaning": "view ( wide )",
+          "examples": [
+            "The bridge offers a wonderful panorama of Kanpur."
+          ],
+          "synonyms": [
+            "Panorama",
+            "view",
+            "vista",
+            "outlook",
+            "scene",
+            "scenery",
+            "landscape"
+          ]
+        },
+        {
+          "word": "Peer",
+          "meaning": "noun - a person belongs to the same age as someone else",
+          "examples": [
+            "peer group"
+          ],
+          "synonyms": [
+            "Peer",
+            "contemporary",
+            "coevals"
+          ]
+        },
+        {
+          "word": "Peer",
+          "meaning": "verb - to look narrowly or curiously",
+          "examples": [
+            "I slowly peered through the mask."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "idler",
+          "meaning": "a person who avoids work, lazy, aimless person",
+          "examples": [],
+          "synonyms": [
+            "Idler",
+            "loafer",
+            "layabout",
+            "good for nothing",
+            "lounger",
+            "shirker",
+            "sluggard"
+          ]
+        },
+        {
+          "word": "Drain",
+          "meaning": "1.  make something empty",
+          "examples": [
+            "we drained the swimming pool."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Let the dust settle",
+          "meaning": "to wait for a situation to become clear or certain",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "High and dry",
+          "meaning": "helpless / powerless / weak / incapable",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Alchemy",
+          "meaning": "study of chemistry in a medieval fashion",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Utopia",
+          "meaning": "a perfect society in which people work well with each other and are happy",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Contagion",
+          "meaning": "a situation in which a disease is spread by touching someone or something",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Paleography",
+          "meaning": "the study of ancient writings and scriptures",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Astronomy",
+          "meaning": "a book on the study of stars",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": ", page 11, copy 1.\n\nMaths Maestro\n         Maths Maestro SSC                          Maths Maestro - Vishesh Shukla\ninnocuous  :  harmless ( causing no injury, not likely to bother or offend anyone ) \nEg. it was an innocuous question.\ninnocuous / harmless / safe / non-dangerous / inoffensive\nbother  :   trouble or difficulty\nEg. he saved me the bother of having to come up with a speech.\nBother / "
+    },
+    {
+      "day": 12,
+      "entries_count": 20,
+      "entries": [
+        {
+          "word": "Strand",
+          "meaning": "noun - The shore of a sea, lake, or large river",
+          "examples": [
+            "The strand of Goa.",
+            "his girlfriend stranded him in a difficult period of life."
+          ],
+          "synonyms": [
+            "Strand",
+            "seashore",
+            "shore",
+            "beach",
+            "coast",
+            "seaside",
+            "littoral",
+            "plage"
+          ]
+        },
+        {
+          "word": "Hansom",
+          "meaning": "a two wheeled horse-drawn cab.",
+          "examples": [],
+          "synonyms": [
+            "Hansom",
+            "wagon",
+            "car",
+            "cab ( like wagon- R )"
+          ]
+        },
+        {
+          "word": "Rattle",
+          "meaning": "1. Jingle / jangle / clatter / bang / clang / clank ( ghantiyon ya kisi aur chij  ka bajna - jingle bell",
+          "examples": [
+            "The windows rattled in the wind.",
+            "she turned quickly rattled by his presence."
+          ],
+          "synonyms": [
+            "Rattle - 2. disturb",
+            "perturb",
+            "unnerve",
+            "agitate",
+            "frighten",
+            "scare",
+            "upset"
+          ]
+        },
+        {
+          "word": "Reflective",
+          "meaning": "thinking something, thoughtful, of serious nature",
+          "examples": [
+            "one of the brothers was talkative while the other was reflective."
+          ],
+          "synonyms": [
+            "Reflective",
+            "cogitative",
+            "contemplative",
+            "thoughtful",
+            "meditative",
+            "pensive",
+            "ruminant",
+            "ruminative"
+          ]
+        },
+        {
+          "word": "prosaic",
+          "meaning": "boring , lacking imaginativeness or originality, ordinary, general",
+          "examples": [
+            "The actor’s life was far more prosaic than it appears in the movie.",
+            "insipid coffee ( tasteless coffee )"
+          ],
+          "synonyms": [
+            "Prosaic",
+            "unimaginative",
+            "boring",
+            "dull",
+            "dry",
+            "humdrum",
+            "mundane",
+            "monotonous",
+            "dreary",
+            "insipid"
+          ]
+        },
+        {
+          "word": "Prosaic",
+          "meaning": "2. Ordinary / everyday / usual / common / routine / boring ( boring because of repetition )",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Blemish",
+          "meaning": "a noticeable imperfection, a mark",
+          "examples": [
+            "the girl’s hands were without a blemish."
+          ],
+          "synonyms": [
+            "Blemish",
+            "imperfection",
+            "fault",
+            "flaw",
+            "defect",
+            "deformity",
+            "bruise",
+            "scar",
+            "dent"
+          ]
+        },
+        {
+          "word": "Adequate",
+          "meaning": "satisfactory or acceptable in quality or quantity ( sufficient )",
+          "examples": [
+            "This office is perfectly adequate for my needs."
+          ],
+          "synonyms": [
+            "Adequate",
+            "sufficient",
+            "enough",
+            "ample",
+            "apposite",
+            "appropriate",
+            "suitable",
+            "acceptable",
+            "satisfactory"
+          ]
+        },
+        {
+          "word": "Opposite",
+          "meaning": "inadequate / insufficient / deficient / poor / scant / scarce / meagre / sparse / paltry / modicum /",
+          "examples": [],
+          "synonyms": [
+            "exiguous",
+            "lacking"
+          ]
+        },
+        {
+          "word": "Reclining",
+          "meaning": "leaning or lying back in a relaxed position with the back supported.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "On cloud nine",
+          "meaning": "being very delighted ( happy )",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "A bitter pill",
+          "meaning": "facing a distressing situation ( in problem )",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Fell flat with",
+          "meaning": "had no effect on",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Slap on the wrist",
+          "meaning": "a mild punishment",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Body and soul",
+          "meaning": "completely or entirely ( wholly )",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Narcissist",
+          "meaning": "a person who admires himself / herself too much especially their appearance",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Sabotage",
+          "meaning": "wilful destruction",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Paparazzi",
+          "meaning": "photographers who follow celebrities to get their pictures to sell them",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "introvert",
+          "meaning": "someone who is reserved and shy",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Sycophant",
+          "meaning": "one who is a boot licker and flatterer ( chaploos )",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": ", page 12, copy 1.\n\nMaths Maestro\n         Maths Maestro SSC                          Maths Maestro - Vishesh Shukla\nStrand   : noun - The shore of a sea, lake, or large river\nEg. The strand of Goa.\nStrand / seashore / shore / beach / coast / seaside / littoral / plage\nStrand - verb -  leave someone without the means to move from somewhere\nEg. his girlfriend stranded him in a difficult period of l"
+    },
+    {
+      "day": 13,
+      "entries_count": 15,
+      "entries": [
+        {
+          "word": "Pine away",
+          "meaning": "to become weak and unhealthy due to sadness or loss",
+          "examples": [
+            "since his wife left him, he spends his time alone, pining away."
+          ],
+          "synonyms": [
+            "Pine away",
+            "decline",
+            "weaken",
+            "waste away",
+            "withering",
+            "fade"
+          ]
+        },
+        {
+          "word": "incubation",
+          "meaning": "noun -   the process of incubating eggs, cells, bacteria, a disease etc. ( to sit on eggs so as to",
+          "examples": [],
+          "synonyms": [
+            "incubate  (verb)",
+            "advance",
+            "encourage",
+            "cultivate",
+            "further",
+            "nourish",
+            "nurture"
+          ]
+        },
+        {
+          "word": "Adequate",
+          "meaning": "satisfactory or acceptable in quality or quantity.",
+          "examples": [
+            "this office is perfectly adequate for my needs.",
+            "the application will not be processed until the requisite fee is paid."
+          ],
+          "synonyms": [
+            "Adequate",
+            "sufficient",
+            "enough",
+            "ample",
+            "requisite",
+            "apposite",
+            "appropriate",
+            "satisfactory",
+            "Requisite  - necessary",
+            "required",
+            "essential",
+            "needed",
+            "compulsory",
+            "prerequisite",
+            "indispensable",
+            "vital"
+          ]
+        },
+        {
+          "word": "scupper",
+          "meaning": "1.  sink a ship or its crew deliberately ( scupper / sink / submerge )",
+          "examples": [
+            "the ship was scuppered and seriously damaged."
+          ],
+          "synonyms": [
+            "2. Prevent from woking or succeeding ( scupper",
+            "thwart",
+            "ruin",
+            "wreck",
+            "destroy",
+            "devastate",
+            "sabotage",
+            "bring to naught )"
+          ]
+        },
+        {
+          "word": "Even as",
+          "meaning": "while,  at the very same time, exactly when",
+          "examples": [
+            "they are finishing the job even as we speak."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Fillip",
+          "meaning": "something which acts as a stimulus or boost to an activity",
+          "examples": [
+            "the halving of car tax would provide a fillip to sales."
+          ],
+          "synonyms": [
+            "Fillip",
+            "boost",
+            "encouragement",
+            "motivation",
+            "stimulus",
+            "incentive",
+            "impetus",
+            "inducement",
+            "uplift",
+            "reviver",
+            "aid"
+          ]
+        },
+        {
+          "word": "Mundane",
+          "meaning": "boring",
+          "examples": [
+            "his life is very mundane."
+          ],
+          "synonyms": [
+            "Mundane",
+            "boring",
+            "dull",
+            "humdrum",
+            "monotonous",
+            "prosaic",
+            "insipid",
+            "dreary",
+            "tedious",
+            "tiresome",
+            "unexciting"
+          ]
+        },
+        {
+          "word": "Splinter",
+          "meaning": "break into small pieces",
+          "examples": [
+            "a splinter of ice. ( noun - piece )"
+          ],
+          "synonyms": [
+            "Splinter",
+            "splint",
+            "shatter",
+            "smash",
+            "fracture",
+            "split",
+            "crack",
+            "disintegrate",
+            "crumble",
+            "spall"
+          ]
+        },
+        {
+          "word": "Disagreement",
+          "meaning": "lack of consensus or approval",
+          "examples": [],
+          "synonyms": [
+            "Disagreement",
+            "dissension",
+            "dissent",
+            "dispute",
+            "disaccord",
+            "contention",
+            "debate",
+            "quarrel",
+            "conflict"
+          ]
+        },
+        {
+          "word": "A bull market",
+          "meaning": "market where prices are rising",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Horticulture",
+          "meaning": "the science and art of growing vegetables, fruits and flowers",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Pergola",
+          "meaning": "an arched( curved) structure in a garden having climbing plants",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Philanthropist",
+          "meaning": "the one who loves mankind",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Graft",
+          "meaning": "a piece of a living tissue or plant that is transplanted surgically",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Weary",
+          "meaning": "tired, feeling or showing extreme tiredness",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": ", page 13, copy 1.\n\nMaths Maestro\n         Maths Maestro SSC                          Maths Maestro - Vishesh Shukla\nPine away  : to become weak and unhealthy due to sadness or loss\nEg. since his wife left him, he spends his time alone, pining away.\nPine away / decline / weaken / waste away / withering / fade\nincubation: noun -   the process of incubating eggs, cells, bacteria, a disease etc. ( to"
+    },
+    {
+      "day": 14,
+      "entries_count": 18,
+      "entries": [
+        {
+          "word": "agglomeration",
+          "meaning": "a mass or collection of things",
+          "examples": [
+            "the arts centre is an agglomeration of theatres, galleries, shops, restaurants and bars."
+          ],
+          "synonyms": [
+            "Agglomeration",
+            "collection",
+            "aggregation",
+            "accumulation",
+            "stockpile",
+            "stack",
+            "assemblage"
+          ]
+        },
+        {
+          "word": "Fallout",
+          "meaning": "1. the adverse results of a situation or action.",
+          "examples": [
+            "he is prepared to take calculated risks regardless of political fallout. ( result )"
+          ],
+          "synonyms": [
+            "Former friends who have fallen out. ( quarrel",
+            "fight )",
+            "Fallout",
+            "effects",
+            "results",
+            "outcome",
+            "repercussions",
+            "consequences",
+            "ramifications",
+            "implications",
+            "after-effects",
+            "by-product"
+          ]
+        },
+        {
+          "word": "Resolved",
+          "meaning": "firmly determined to do something.   Noun - resoluteness",
+          "examples": [
+            "He is resolved to crack SSC CGL 2025."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Bruising",
+          "meaning": "bruises on the skin ( zakhm)",
+          "examples": [
+            "her arm showed signs of bruising.",
+            "her eyes were smarting due to smoke."
+          ],
+          "synonyms": [
+            "Bruising",
+            "painfulness",
+            "inflammation",
+            "aching",
+            "ache",
+            "smarting",
+            "throbbing"
+          ]
+        },
+        {
+          "word": "Throbbing",
+          "meaning": "causing pain in a series of regular beats.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Expedient",
+          "meaning": "( of an action ) convenient and practical",
+          "examples": [
+            "do the right thing, not the expedient thing."
+          ],
+          "synonyms": [
+            "Expedient",
+            "convenient",
+            "advantageous",
+            "useful",
+            "of use",
+            "beneficial",
+            "effective"
+          ]
+        },
+        {
+          "word": "Opportune",
+          "meaning": "( of a time ) especially convenient or appropriate for a particular action or event.",
+          "examples": [
+            "an opportune moment ( shubh )"
+          ],
+          "synonyms": [
+            "Opportune",
+            "advantageous",
+            "auspicious",
+            "favourable",
+            "heaven-sent",
+            "providential",
+            "timely",
+            "apt",
+            "well timed"
+          ]
+        },
+        {
+          "word": "Drubbing",
+          "meaning": "beating ( pitai )",
+          "examples": [
+            "i will give the thieves  a drubbing if I can."
+          ],
+          "synonyms": [
+            "Drubbing",
+            "beating",
+            "thrashing",
+            "walloping",
+            "battering",
+            "slapping",
+            "smacking",
+            "punching",
+            "whipping",
+            "flogging",
+            "cudgelling"
+          ]
+        },
+        {
+          "word": "Scoundrel",
+          "meaning": "rascal, a disreputable person",
+          "examples": [
+            "scoundrel man"
+          ],
+          "synonyms": [
+            "Scoundrel",
+            "rascal",
+            "unprincipled",
+            "reprobate",
+            "depraved",
+            "hound",
+            "despicable",
+            "rogue",
+            "cheat"
+          ]
+        },
+        {
+          "word": "Subaltern",
+          "meaning": "junior",
+          "examples": [],
+          "synonyms": [
+            "Subaltern",
+            "junior",
+            "number two",
+            "subordinate",
+            "proxy",
+            "second in command",
+            "assistant",
+            "lieutenant"
+          ]
+        },
+        {
+          "word": "Slack off",
+          "meaning": "to ease pressure on something",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Pig in a poke",
+          "meaning": "something that is bought without examining properly",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Over and above",
+          "meaning": "in addition to",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Ominous",
+          "meaning": "giving the worrying impression that something bad is going to happen",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Abridgement",
+          "meaning": "a shortened version of a larger work",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Flora",
+          "meaning": "plants of a particular region",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "invigilator",
+          "meaning": "person supervising the exam",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Rectify",
+          "meaning": "adjust or make right / correct / amend",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": ", page 14, copy 1.\n\nMaths Maestro\n         Maths Maestro SSC                          Maths Maestro - Vishesh Shukla\nagglomeration :  a mass or collection of things\nEg. the arts centre is an agglomeration of theatres, galleries, shops, restaurants and bars.\nAgglomeration / collection / aggregation / accumulation / stockpile / stack / assemblage \nFallout : 1. the adverse results of a situation or a"
+    },
+    {
+      "day": 15,
+      "entries_count": 17,
+      "entries": [
+        {
+          "word": "trounce",
+          "meaning": "defeat heavily in a contest",
+          "examples": [
+            "RCB trounced Punjab Kings in the final of IPL."
+          ],
+          "synonyms": [
+            "Trounce",
+            "defeat",
+            "beat someone hollow",
+            "rout",
+            "overwhelm",
+            "bring someone to their knees",
+            "hammer",
+            "thrash",
+            "whip",
+            "pulverize",
+            "skunk"
+          ]
+        },
+        {
+          "word": "Raider",
+          "meaning": "a person who attacks an enemy in their territory",
+          "examples": [
+            "masked raiders burst into the Taj Hotel."
+          ],
+          "synonyms": [
+            "Raider",
+            "attacker",
+            "assailant",
+            "marauder",
+            "thief",
+            "burglar",
+            "plunderer",
+            "pillager",
+            "ransacker",
+            "looter"
+          ]
+        },
+        {
+          "word": "Fledgling",
+          "meaning": "1. A young bird, chick",
+          "examples": [
+            "at hockey he is still a fledgling and needs to work on his basic skating skills.",
+            "he received a rudimentary education."
+          ],
+          "synonyms": [
+            "Fledgling",
+            "emerging",
+            "arising",
+            "beginning",
+            "dawning",
+            "budding",
+            "embryonic",
+            "nascent",
+            "infant",
+            "tyro",
+            "novitiate",
+            "abecedarian",
+            "Rudimentary",
+            "basic",
+            "elementary",
+            "introductory",
+            "early",
+            "primary",
+            "initial",
+            "fundamental",
+            "rudimental"
+          ]
+        },
+        {
+          "word": "Ebb",
+          "meaning": "( of an emotion of quality ) gradually decrease",
+          "examples": [
+            "his enthusiasm was ebbing away."
+          ],
+          "synonyms": [
+            "Ebb",
+            "diminish",
+            "dwindle",
+            "decrease",
+            "wane",
+            "fade away",
+            "decline",
+            "let up",
+            "lessen",
+            "weaken",
+            "recede",
+            "retreat"
+          ]
+        },
+        {
+          "word": "Catapult",
+          "meaning": "verb - hurl or launch something with or as if with a catapult ( noun - gulel )",
+          "examples": [
+            "the explosion catapulted the car 30  yards along the road."
+          ],
+          "synonyms": [
+            "Catapult",
+            "launch",
+            "hurl",
+            "propel",
+            "fling"
+          ]
+        },
+        {
+          "word": "Duly",
+          "meaning": "properly / correctly / rightly / fittingly / aptly .",
+          "examples": [
+            "duly signed."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Debris",
+          "meaning": "waste pieces of something",
+          "examples": [
+            "workers were cleaning the roads of the debris from shattered buildings."
+          ],
+          "synonyms": [
+            "Debris",
+            "waste",
+            "detritus",
+            "rubble",
+            "scrap",
+            "wreckage"
+          ]
+        },
+        {
+          "word": "Graze",
+          "meaning": "1. ( of cattle, sheep, etc. ) eat grass in a field.",
+          "examples": [
+            "cattle graze on the open meadows(charagaah).",
+            "she fell down and grazed her knees."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Bask",
+          "meaning": "relax / lie / lounge / sprawl / sunbathe / laze ( fail k letna, ikdum khul k)",
+          "examples": [
+            "They were basking in the afternoon sun."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Ace in the hole",
+          "meaning": "a major advantage that one keeps hidden until an ideal time",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Dead ringer",
+          "meaning": "an exact duplicate",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Water under the bridge",
+          "meaning": "anything from the past that is not significant or important anymore",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Versatile",
+          "meaning": "one who has the ability to do many different things",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Vain",
+          "meaning": "having or showing an excessively high opinion of oneself and one’s achievement ( ghamandi )",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Equinox",
+          "meaning": "the date when both, day and night are of approximately equal length",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "extempore",
+          "meaning": "a speech made without preparation",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Negotiator",
+          "meaning": "one who mediates in a deal or complex situation",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": ", page 15, copy 1.\n\nMaths Maestro\n         Maths Maestro SSC                          Maths Maestro - Vishesh Shukla\ntrounce :  defeat heavily in a contest\nEg. RCB trounced Punjab Kings in the final of IPL.\nTrounce / defeat /  beat someone hollow / rout / overwhelm / bring someone to their knees / hammer / \nthrash / whip / pulverize / skunk \nRaider  :  a person who attacks an enemy in their territ"
+    },
+    {
+      "day": 16,
+      "entries_count": 17,
+      "entries": [
+        {
+          "word": "Enteric",
+          "meaning": "relating to or occurring in the intestines.",
+          "examples": [
+            "the complexity of the enteric nervous system."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Gravitate",
+          "meaning": "move towards or be attracted to a person or thing.",
+          "examples": [
+            "we instantly gravitated towards one another."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Cesspool",
+          "meaning": "1. an underground container for the temporary storage of liquid waste or sewage.",
+          "examples": [
+            "This  town is not the cesspool.",
+            "it is not difficult to see why you are enamoured of her.",
+            "he became besotted with the IPL cheerleaders."
+          ],
+          "synonyms": [
+            "Enamoured of",
+            "enthralled by",
+            "love-struck by",
+            "besotted with",
+            "infatuated with",
+            "fascinated by",
+            "beguiled by"
+          ]
+        },
+        {
+          "word": "Proactive",
+          "meaning": "(of a person or action ) creating or controlling a situation rather than just responding to it after",
+          "examples": [
+            "employers must take a proactive approach to equal."
+          ],
+          "synonyms": [
+            "Proactive",
+            "take-charge",
+            "go-ahead",
+            "enterprising"
+          ]
+        },
+        {
+          "word": "Peddle",
+          "meaning": "sell from door to door ( bechna)",
+          "examples": [
+            "those  boys are involved in drug peddling."
+          ],
+          "synonyms": [
+            "Peddle",
+            "sell",
+            "tout",
+            "vend",
+            "hawk",
+            "deal in",
+            "trade in",
+            "traffic in",
+            "promote",
+            "advocate"
+          ]
+        },
+        {
+          "word": "vociferous",
+          "meaning": "loud and forceful ( jo baat ko jada ghumata nahi hai, seedha seedha bol deta hai)",
+          "examples": [
+            "vociferous opponent."
+          ],
+          "synonyms": [
+            "Vociferous",
+            "outspoken",
+            "vocal",
+            "vehement",
+            "forthright",
+            "frank",
+            "plain-spoken",
+            "vigorous",
+            "emphatic"
+          ]
+        },
+        {
+          "word": "Earnest",
+          "meaning": "serious minded",
+          "examples": [
+            "an earnest student"
+          ],
+          "synonyms": [
+            "Earnest",
+            "serious",
+            "serious - minded",
+            "solemn",
+            "sober",
+            "staid"
+          ]
+        },
+        {
+          "word": "Strident",
+          "meaning": "( of a sound ) loud and harsh ( grating )",
+          "examples": [
+            "his voice had become increasingly strident.",
+            "stridulous breathing"
+          ],
+          "synonyms": [
+            "Strident",
+            "harsh",
+            "raucous",
+            "rough",
+            "grating",
+            "rasping",
+            "jarring",
+            "stentorian",
+            "screeching",
+            "ear-piercing",
+            "discordant",
+            "dissonant",
+            "stridulous"
+          ]
+        },
+        {
+          "word": "Green light",
+          "meaning": "to permit something to proceed",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "All and sundry",
+          "meaning": "everyone without distinction",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Sea change",
+          "meaning": "major transformation ( bada badlaav)",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Give cold shoulder",
+          "meaning": "ignore, avoid or be unfriendly towards someone",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Clamour",
+          "meaning": "a loud appeal or demand",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Series of stars",
+          "meaning": "constellation",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Philology",
+          "meaning": "the study of languages",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Acerbic",
+          "meaning": "sharp and direct",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Amateur",
+          "meaning": "one who does something not professionally but for pleasure.",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": ", page 16, copy 1.\n\nMaths Maestro\n         Maths Maestro SSC                          Maths Maestro - Vishesh Shukla\nEnteric  :  relating to or occurring in the intestines.\nEg. the complexity of the enteric nervous system.\nGravitate  :  move towards or be attracted to a person or thing.\nEg. we instantly gravitated towards one another.\nCesspool    : 1. an underground container for the temporary sto"
+    },
+    {
+      "day": 17,
+      "entries_count": 15,
+      "entries": [
+        {
+          "word": "Fulmination",
+          "meaning": "an expression of vehement protest",
+          "examples": [
+            "The fulminations of media moralists.",
+            "He harangued the public on their ignorance."
+          ],
+          "synonyms": [
+            "Fulmination",
+            "protest",
+            "objection",
+            "complaint",
+            "criticism",
+            "condemnation",
+            "censure",
+            "decrying",
+            "invective",
+            "rant",
+            "invective",
+            "railing",
+            "tirade",
+            "diatribe",
+            "harangue",
+            "berating",
+            "reproval",
+            "obloquy",
+            "vilification",
+            "vituperation",
+            "opprobrium ( datna, bura bhala kehna)"
+          ]
+        },
+        {
+          "word": "Derision",
+          "meaning": "contemptuous ridicule or mockery { majaak ( negative) }",
+          "examples": [
+            "my stories were greeted with derision and disbelief."
+          ],
+          "synonyms": [
+            "Syn - Derision",
+            "mockery",
+            "ridicule",
+            "jeering",
+            "jeer",
+            "sneer",
+            "sneering",
+            "scoffing",
+            "Ant - praise",
+            "respect"
+          ]
+        },
+        {
+          "word": "Vehement",
+          "meaning": "showing strong feeling, forceful, passionate, or intense",
+          "examples": [
+            "her voice was low but vehement, vehement protest",
+            "he was dithering about the date of meeting."
+          ],
+          "synonyms": [
+            "Syn - vehement",
+            "passionate",
+            "forceful",
+            "ardent",
+            "impassioned",
+            "heated",
+            "spirited",
+            "urgent",
+            "fervent",
+            "fervid",
+            "strong",
+            "forcible",
+            "intense",
+            "emphatic",
+            "vigorous",
+            "Ant - mild",
+            "apathetic",
+            "Dither",
+            "hesitate",
+            "falter",
+            "waver",
+            "vacillate",
+            "oscillate",
+            "fluctuate",
+            "change one’s mind",
+            "be in two minds"
+          ]
+        },
+        {
+          "word": "Fringe",
+          "meaning": "border / edge / periphery",
+          "examples": [
+            "The southern fringes of the country."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Orthodox",
+          "meaning": "traditional / conventional ( jo bhot samay se chala aa rha hai, rudhiwadi )",
+          "examples": [
+            "Ram’s views were orthodox in his time."
+          ],
+          "synonyms": [
+            "Syn - Orthodox",
+            "traditional",
+            "conventional",
+            "conservative",
+            "observant",
+            "conformist",
+            "devout",
+            "true-blue",
+            "Ant - unorthodox",
+            "unconventional",
+            "innovative",
+            "experimental"
+          ]
+        },
+        {
+          "word": "Trample",
+          "meaning": "tread and crush ( kuchal dena )",
+          "examples": [
+            "ram trampled the flowers"
+          ],
+          "synonyms": [
+            "Trample",
+            "tread",
+            "walk over",
+            "squash",
+            "crush"
+          ]
+        },
+        {
+          "word": "Fidelity",
+          "meaning": "loyalty, faithfulness",
+          "examples": [
+            "we rely on the fidelity of our customers"
+          ],
+          "synonyms": [
+            "Syn - Fidelity",
+            "loyalty",
+            "allegiance",
+            "obedience",
+            "constancy",
+            "fealty",
+            "Ant - infidelity",
+            "disloyalty",
+            "treachery",
+            "unfaithfulness",
+            "perfidy",
+            "faithlessness",
+            "inconstancy",
+            "falsity"
+          ]
+        },
+        {
+          "word": "Trinity",
+          "meaning": "a group of three people or things",
+          "examples": [
+            "The hindu trimurti or trinity is comprised or Brahma, Vishnu, and Shiva."
+          ],
+          "synonyms": [
+            "Trinity",
+            "trio",
+            "troika",
+            "triunity"
+          ]
+        },
+        {
+          "word": "Armed to the teeth",
+          "meaning": "fully armed, having many weapons",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Apropos of nothing",
+          "meaning": "having no relevance to any previous discussion or situation",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Veteran",
+          "meaning": "a person having significant experience in an occupation",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Ablution",
+          "meaning": "the act of washing oneself",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Mausoleum",
+          "meaning": "a very expensive and elaborately built tomb",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Mint",
+          "meaning": "a place where coins and medals are made",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Matricide",
+          "meaning": "the act of killing one’s mother",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": ", page 17, copy 1.\n\nMaths Maestro\n         Maths Maestro SSC                          Maths Maestro - Vishesh Shukla\nFulmination   :  an expression of vehement protest \nEg. The fulminations of media moralists.\nFulmination / protest / objection / complaint / criticism / condemnation / censure / decrying / invective / \nrant / invective / railing / tirade / diatribe / harangue / berating / reproval /"
+    },
+    {
+      "day": 18,
+      "entries_count": 17,
+      "entries": [
+        {
+          "word": "Vintage",
+          "meaning": "1. Vintage / period / era / time / year",
+          "examples": [
+            "rifles of various sizes and vintages.",
+            "a vintage Sherlock Holmes adventure."
+          ],
+          "synonyms": [
+            "2. Vintage",
+            "high quality",
+            "quality ( especially from the past )"
+          ]
+        },
+        {
+          "word": "Convergence",
+          "meaning": "junction / intersection / confluence  ( intersecting lines, confluence of Ganga and Yamuna)",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Misgiving",
+          "meaning": "a feeling of doubt or apprehension about the outcome or consequences of something. ( pata",
+          "examples": [
+            "Many people have expressed misgivings about his ability to do the job.",
+            "2.  she doesn’t scruple to ask her parents for money."
+          ],
+          "synonyms": [
+            "Syn - misgiving",
+            "doubt",
+            "suspicion",
+            "qualm",
+            "scruple",
+            "second thoughts",
+            "compunction",
+            "Scruple   -     1. misgiving",
+            "doubt",
+            "Syn - scruple",
+            "hesitate",
+            "be reluctant"
+          ]
+        },
+        {
+          "word": "Hue",
+          "meaning": "1.  A colour or shade",
+          "examples": [
+            "social media filled with influencers of all hues and shades."
+          ],
+          "synonyms": [
+            "2. Type",
+            "kind",
+            "nature",
+            "sort"
+          ]
+        },
+        {
+          "word": "Unsettling",
+          "meaning": "noun -  causing anxiety or uneasines,",
+          "examples": [
+            "The IPL finale came as an unsettling shock."
+          ],
+          "synonyms": [
+            "Syn - unsettling",
+            "disturbing"
+          ]
+        },
+        {
+          "word": "Unsettle",
+          "meaning": "verb -   cause to feel anxious or uneasy, disturb",
+          "examples": [
+            "the crisis has unsettled financial markets."
+          ],
+          "synonyms": [
+            "Syn - unsettle",
+            "disturb",
+            "discompose",
+            "unnerve",
+            "upset",
+            "disquiet",
+            "perturb",
+            "discomfit",
+            "disconcert",
+            "dismay"
+          ]
+        },
+        {
+          "word": "intricacy",
+          "meaning": "noun -  complexity / complication ( jatilta )",
+          "examples": [
+            "The intricacies of english grammar"
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "intricate",
+          "meaning": "adjective - very complicated or detailed",
+          "examples": [
+            "an intricate network of canals.                    Eg. convoluted plot in the movie."
+          ],
+          "synonyms": [
+            "Syn - intricate",
+            "complex",
+            "complicated",
+            "convoluted",
+            "tangled",
+            "entangled",
+            "knotty",
+            "labyrinthine",
+            "winding",
+            "Ant - simple",
+            "straightforward"
+          ]
+        },
+        {
+          "word": "Evince",
+          "meaning": "reveal the presence of ( a quality or feeling ) / indicate",
+          "examples": [
+            "she evinced an interest in art at an early age."
+          ],
+          "synonyms": [
+            "Syn - evince",
+            "reveal",
+            "indicate",
+            "exhibit",
+            "display",
+            "demonstrate",
+            "convey"
+          ]
+        },
+        {
+          "word": "Neck of the woods",
+          "meaning": "neighbourhood",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "At daggers drawn with",
+          "meaning": "to be bitterly hostile towards each other",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "To bridge the gap",
+          "meaning": "to reduce differences and reconcile",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Nostalgia",
+          "meaning": "an excessively intense desire for returning to past or lost conditions",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Aboriginal",
+          "meaning": "existing in a land from the earliest times or from before the arrival of the colonists",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Kennel",
+          "meaning": "small shelter for the dog",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Legacy",
+          "meaning": "the property left to someone by a will",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Bohemian",
+          "meaning": "an eccentric manner of living { non conformist }",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": ", page 18, copy 1.\n\nMaths Maestro\n         Maths Maestro SSC                          Maths Maestro - Vishesh Shukla\nVintage    :  1. Vintage / period / era / time / year\nEg. rifles of various sizes and vintages.\n                     2. Vintage / high quality / quality ( especially from the past )\nEg. a vintage Sherlock Holmes adventure.\nConvergence :   junction / intersection / confluence  ( inte"
+    },
+    {
+      "day": 19,
+      "entries_count": 17,
+      "entries": [
+        {
+          "word": "Brave",
+          "meaning": "adjective - ready to face and endure danger or pain, showing courage (bahadur)",
+          "examples": [
+            "Brave indian soldiers",
+            "these six men braved the rough seas."
+          ],
+          "synonyms": [
+            "Syn - brave",
+            "courageous",
+            "plucky",
+            "fearless",
+            "valiant",
+            "valorous",
+            "intrepid",
+            "heroic",
+            "lionhearted",
+            "manful",
+            "bold",
+            "daring",
+            "gallant",
+            "unflinching",
+            "unshrinking",
+            "unafraid",
+            "dauntless",
+            "doughty",
+            "gutsy",
+            "spunky",
+            "ballsy",
+            "Ant - cowardly",
+            "fearful",
+            "Brave - verb - endure or face ( sahena",
+            "samna krna)",
+            "Syn - brave",
+            "endure",
+            "put up with",
+            "bear",
+            "face",
+            "suffer",
+            "go through",
+            "confront"
+          ]
+        },
+        {
+          "word": "Scorching",
+          "meaning": "1. Very hot, red hot ( bhot jada grm)",
+          "examples": [
+            "the scorching july sun",
+            "she set a scorching pace."
+          ],
+          "synonyms": [
+            "Syn - scorching",
+            "red hot",
+            "blazing",
+            "flaming",
+            "fiery",
+            "burning",
+            "blistering",
+            "searing",
+            "sweltering",
+            "torrid",
+            "parching",
+            "broiling",
+            "sizzling",
+            "scalding",
+            "Ant - freezing",
+            "cold",
+            "chill",
+            "chilling",
+            "frosty",
+            "frozen",
+            "glacial",
+            "wintry",
+            "biting",
+            "Syn - scorching",
+            "very fast",
+            "quick",
+            "swift"
+          ]
+        },
+        {
+          "word": "Splatter",
+          "meaning": "splash with a liquid ( pani ya koi taral pdarth ko ucchal dena )",
+          "examples": [
+            "a passing cart rolled by, splattering him with mud."
+          ],
+          "synonyms": [
+            "Syn - splatter",
+            "splash",
+            "spray"
+          ]
+        },
+        {
+          "word": "Prescient",
+          "meaning": "having or showing knowledge of events before they take place ( jo cheejon k hone se pahle hi",
+          "examples": [
+            "a prescient warning."
+          ],
+          "synonyms": [
+            "Syn - prescient",
+            "prophetic",
+            "predictive",
+            "visionary",
+            "clairvoyant",
+            "prognostic",
+            "revelatory",
+            "foreknowing"
+          ]
+        },
+        {
+          "word": "Swanky",
+          "meaning": "luxurious / deluxe / sumptuous / stylish",
+          "examples": [
+            "Honey Singh’s videos often feature swanky cars."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Helm",
+          "meaning": "1. Ship wheel ( pani wale jahaj ka handle )",
+          "examples": [
+            "The chairman is to step down after four years at the helm."
+          ],
+          "synonyms": [
+            "2. A position of leadership ( helm",
+            "in charge",
+            "in control",
+            "at the top",
+            "managing )"
+          ]
+        },
+        {
+          "word": "Behest",
+          "meaning": "a person’s orders or command ( aadesh )",
+          "examples": [
+            "they had assembled at his behest ( wo sb uske aadesh pe  / bulane pe ikatthe hue hain )"
+          ],
+          "synonyms": [
+            "Syn - behest",
+            "instruction",
+            "bidding",
+            "request",
+            "wish",
+            "command",
+            "order",
+            "decree",
+            "edict",
+            "directive",
+            "mandate"
+          ]
+        },
+        {
+          "word": "Zero tolerance",
+          "meaning": "a policy of not allowing any violations of a rule or law",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "In black and white",
+          "meaning": "in writing",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Bite the dust",
+          "meaning": "to die",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Pedal to the metal",
+          "meaning": "to go full speed, especially while driving a vehicle",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Blessing in disguise",
+          "meaning": "bad things that turn out to be good",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Constellation",
+          "meaning": "a group of stars having a particular shape",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "islet",
+          "meaning": "a small island ( atoll )",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Hangar",
+          "meaning": "a huge building with a spacious area to house aircrafts",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Alimony",
+          "meaning": "allowance given to a wife from her husband on separation",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Absolution",
+          "meaning": "formal forgiveness of a person’s sins",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": ", page 19, copy 1.\n\nMaths Maestro\n         Maths Maestro SSC                          Maths Maestro - Vishesh Shukla\nBrave     : adjective - ready to face and endure danger or pain, showing courage (bahadur)\nEg. Brave indian soldiers\nSyn - brave / courageous / plucky / fearless / valiant / valorous / intrepid / heroic / lionhearted / manful / \nbold / daring / gallant / unflinching / unshrinking / "
+    },
+    {
+      "day": 20,
+      "entries_count": 16,
+      "entries": [
+        {
+          "word": "Rebuke",
+          "meaning": "express sharp disapproval or criticism of someone because of their behaviour or actions.",
+          "examples": [
+            "she had rebuked him for drinking too much.",
+            "a mafia boss who has turned the town into his private fiefdom."
+          ],
+          "synonyms": [
+            "Syn - rebuke",
+            "criticize",
+            "reprimand",
+            "reproach",
+            "scold",
+            "admonish",
+            "reprove",
+            "chastise",
+            "chide",
+            "upbraid",
+            "berate",
+            "take someone to task",
+            "castigate",
+            "lambast",
+            "haul over the coals",
+            "censure",
+            "tell off",
+            "objurgate",
+            "give",
+            "someone a piece of one’s mind",
+            "reprehend",
+            "Ant -  praise",
+            "compliment",
+            "commend"
+          ]
+        },
+        {
+          "word": "Echelon",
+          "meaning": "a level or rank in an organization, a profession or society. ( top ki position / top k log )",
+          "examples": [
+            "the upper echelons of the business world. ( business world k bade bade log )"
+          ],
+          "synonyms": [
+            "Syn -  echelon",
+            "level",
+            "rank",
+            "grade",
+            "step",
+            "tier",
+            "stratum ."
+          ]
+        },
+        {
+          "word": "Cease",
+          "meaning": "come or bring to an end ( rukna ya rok dena )",
+          "examples": [
+            "Russia-Ukraine conflict shows no signs of ceasing."
+          ],
+          "synonyms": [
+            "Syn - cease",
+            "come to an end",
+            "end",
+            "halt",
+            "stop",
+            "conclude",
+            "terminate",
+            "finish",
+            "wind up",
+            "pause",
+            "discontinue",
+            "Ant - start",
+            "continue"
+          ]
+        },
+        {
+          "word": "intransigence",
+          "meaning": "refusal to change one’s views or to agree about something. ( kattarta )",
+          "examples": [
+            "opponents accused him of intransigence."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "intransigent",
+          "meaning": "unwilling or refusing to change one’s views or to  agree about something ( kattar, adiyal,",
+          "examples": [
+            "her father had tried persuasion, but she was intransigent"
+          ],
+          "synonyms": [
+            "Syn - intransigent",
+            "uncompromising",
+            "inflexible",
+            "unbending",
+            "unyielding",
+            "unpersuadable",
+            "unaccommodating",
+            ".uncooperative",
+            "stubborn",
+            "obstinate",
+            "obdurate",
+            "pig-headed",
+            "bull-headed",
+            "adamant",
+            "stiff-necked",
+            "bloody-minded",
+            "mulish",
+            "recalcitrant",
+            "pervicacious",
+            "froward",
+            "wayward",
+            "refractory",
+            "Ant - compliant",
+            "flexible"
+          ]
+        },
+        {
+          "word": "Splash",
+          "meaning": "a sound made by something striking or falling into liquid ( pani me patthar marne pe ane wali",
+          "examples": [
+            "we hit the water with a mighty splash."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Smelter",
+          "meaning": ".a worker who smelts ore / a factory for smelting a metal from its ore ( ayask se dhatu nikalne ki",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Yell",
+          "meaning": "verb -  to utter aloud, cry, scream or shout ( chillana )",
+          "examples": [
+            "you heard me losing my temper and yelling at her.",
+            "she was nearing the climax of her speech"
+          ],
+          "synonyms": [
+            "Syn -  yell",
+            "cry out",
+            "yelp",
+            "shout",
+            "howl",
+            "yowl",
+            "scream",
+            "shriek",
+            "screech",
+            "squeal",
+            "bawl",
+            "holler",
+            "ululate",
+            "Ant - whisper",
+            "murmur ( bubudana, ekdm dheere bolna )",
+            "Syn - climax",
+            "peak",
+            "pinnacle",
+            "height",
+            "acme",
+            "apex",
+            "zenith",
+            "apogee",
+            "culmination ( apex court - supreme"
+          ]
+        },
+        {
+          "word": "High and dry",
+          "meaning": "abandoned",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Method to my madness",
+          "meaning": "strange or crazy actions that appear meaningless but in the end are done for a",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Deadlock",
+          "meaning": "a state in which progress is impossible",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Tenacious",
+          "meaning": "holding on to something or keeping an opinion with determination",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meticulous",
+          "meaning": "a perfectionist / sedulous",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Mortuary",
+          "meaning": "a room where dead bodies are kept until burial",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Defamation",
+          "meaning": "the action of damaging the good reputation of someone",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "overlook",
+          "meaning": "fail to notice / ignore / condone ( an offence etc.)",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": ", page 20, copy 1.\n\nMaths Maestro\n         Maths Maestro SSC                          Maths Maestro - Vishesh Shukla\nRebuke    : express sharp disapproval or criticism of someone because of their behaviour or actions.        \n(dantna, criticize karna)\nEg. she had rebuked him for drinking too much.\nSyn - rebuke / criticize / reprimand / reproach / scold / admonish / reprove / chastise / chide / upb"
+    },
+    {
+      "day": 21,
+      "entries_count": 16,
+      "entries": [
+        {
+          "word": "Smelt",
+          "meaning": "extract ( metal ) from its ore by a process involving heating and melting. ( ayask se dhatu nikalna)",
+          "examples": [
+            "coal was used to smelt the steel for the tinplate.",
+            "the port engine’s sound rose to a crescendo."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Hysteria",
+          "meaning": "exaggerated or uncontrollable emotion or excitement. ( jb aap apni bhavnao pe control kho",
+          "examples": [
+            "mass hysteria erupts as the people crowd in to view the race."
+          ],
+          "synonyms": [
+            "Syn -  hysteria",
+            "frenzy",
+            "wildness",
+            "hysteric",
+            "Ant -  calmness",
+            "self-possession"
+          ]
+        },
+        {
+          "word": "Erupt",
+          "meaning": "( of a volcano ) become active and eject lava, ash, and gases. ( jwalamukhi ya kisi aur chij ka foot",
+          "examples": [
+            "Mount Pinatubo began erupting in June."
+          ],
+          "synonyms": [
+            "Syn - erupt",
+            "flare up",
+            "explode",
+            "break out",
+            "blow up"
+          ]
+        },
+        {
+          "word": "Exaggerate",
+          "meaning": "represent something as being larger, better, or worse than it really is ( atisanyokti krna,",
+          "examples": [
+            "you cannot exaggerate the importance of these issues."
+          ],
+          "synonyms": [
+            "Syn - exaggerate",
+            "overstate",
+            "overemphasize",
+            "overstress",
+            "overestimate",
+            "overvalue",
+            "magnify",
+            "embellish",
+            "embroider",
+            "over-elaborate",
+            "hyperbolize",
+            "catastrophize",
+            "shoot a line",
+            "make a big thing of",
+            "Ant of exaggerate -  play down",
+            "understate"
+          ]
+        },
+        {
+          "word": "Musty",
+          "meaning": "1.having a bad smell ( bekar si mahek aana )",
+          "examples": [
+            "for 1. A dark musty library."
+          ],
+          "synonyms": [
+            "Syn -  1. musty",
+            "stinking",
+            "reeking",
+            "rancid",
+            "malodorous",
+            "noisome",
+            "fetid",
+            "miasmic",
+            "noxious",
+            "stale",
+            "mouldy",
+            "fusty",
+            "smelly",
+            "funky",
+            "Ant -  fresh",
+            "fragrant",
+            "Syn - 2. Musty",
+            "unoriginal",
+            "uninspired",
+            "unimaginative",
+            "hackneyed",
+            "stale",
+            "outdated",
+            "outmoded",
+            "out of date",
+            "Ant -      fresh",
+            "modern"
+          ]
+        },
+        {
+          "word": "Stumble",
+          "meaning": "to fall by hitting your foot on something / lose one’s balance ( ldkhada jana )",
+          "examples": [
+            "her foot caught in the rug and she stumbled."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Receptive",
+          "meaning": "willing to listen to or accept ideas, suggestions etc. ( khule dimag ka insaan- jo nayi cheejein",
+          "examples": [
+            "a receptive audience."
+          ],
+          "synonyms": [
+            "Syn - receptive",
+            "open-minded",
+            "open",
+            "flexible",
+            "welcoming",
+            "responsive",
+            "Ant - resistant",
+            "unresponsive"
+          ]
+        },
+        {
+          "word": "Unwitting",
+          "meaning": "1. not aware of the full facts ( koi insaan kisi chij se anjaan )-",
+          "examples": [],
+          "synonyms": [
+            "Syn - unknowing",
+            "unconscious",
+            "oblivious",
+            "unaware",
+            "unmindful",
+            "uninformed",
+            "ignorant",
+            "in the dark",
+            "incognizant",
+            "nescient",
+            "2. Unwitting",
+            "Unintentional",
+            "unintended",
+            "inadvertent",
+            "involuntary",
+            "unmeant",
+            "unplanned",
+            "unpremeditated",
+            "accidental ( dhoke se ho jana kisi chij ka )"
+          ]
+        },
+        {
+          "word": "In the flesh",
+          "meaning": "in bodily form",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "To breast the tape",
+          "meaning": "to win a race",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Piece of cake",
+          "meaning": "something which is very simple",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Abrogate",
+          "meaning": "cancel or do away with ( a law or agreement )",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Hyperbole",
+          "meaning": "an exaggerated statement not to be taken seriously or literally",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Procrastinate",
+          "meaning": "to keep postponing doing a task later because you are lazy",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Sanguinary",
+          "meaning": "a battle or anything involving or causing much bloodshed / gore",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Credible",
+          "meaning": "something which is worth believing",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": ", page 21, copy 1.\n\nMaths Maestro\n         Maths Maestro SSC                          Maths Maestro - Vishesh Shukla\nSmelt    : extract ( metal ) from its ore by a process involving heating and melting. ( ayask se dhatu nikalna)\nEg.  coal was used to smelt the steel for the tinplate.\nCrescendo   -  the loudest point reached in a gradually increasing sound. ( kisi awaaz ka badhte hi jana \nuske high"
+    },
+    {
+      "day": 22,
+      "entries_count": 17,
+      "entries": [
+        {
+          "word": "Glaring",
+          "meaning": "1. Giving out or reflecting a strong or dazzling light. ( bhot tej raushni k sath jalne wali chij )",
+          "examples": [
+            "The glaring sun.",
+            "Their glaring eyes.",
+            "An act of defiance."
+          ],
+          "synonyms": [
+            "Syn - glaring",
+            "dazzling",
+            "blinding",
+            "Ant - dim",
+            "soft",
+            "Syn - defiance",
+            "resistance",
+            "opposition",
+            "non-compliance",
+            "disobedience",
+            "insubordination",
+            "contumacy",
+            "Ant - obedience",
+            "submission"
+          ]
+        },
+        {
+          "word": "Appreciable",
+          "meaning": "large or important enough to be noticed (bhot  adhik ya kafi jyada mahatvapoorna )",
+          "examples": [
+            "Students may have to travel appreciable distances. ( bhot lambi dooriyan )"
+          ],
+          "synonyms": [
+            "Syn -  appreciable",
+            "considerable",
+            "substantial",
+            "significant",
+            "sizeable",
+            "goodly"
+          ]
+        },
+        {
+          "word": "Ponderable",
+          "meaning": "having appreciable weight or significance, measurable  ( kafi bhaari ya mahatvapoorna  ya",
+          "examples": [],
+          "synonyms": [
+            "Syn - ponderable",
+            "appreciable",
+            "measurable",
+            "Ant -  imponderable",
+            "immeasurable",
+            "very light"
+          ]
+        },
+        {
+          "word": "Stepping-stone",
+          "meaning": "an action or event that helps one to make progress towards a goal. ( koi chij jo appko",
+          "examples": [
+            "Maths Maestro’s lectures are a stepping stone to beat the competition of SSC CGL."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Spring",
+          "meaning": "verb - 1.   Jump suddenly upwards or forwards  ( koodna aage ki disha me )",
+          "examples": [
+            "I sprang out of bed",
+            "Madness and creativity could spring from the same source."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Astounding",
+          "meaning": "surprisingly impressive or notable ( ashcharyachakit kr dene wala, bhot alag aur kamaal ka )",
+          "examples": [
+            "The summit offers astounding views."
+          ],
+          "synonyms": [
+            "Syn -  astounding",
+            "amazing",
+            "astonishing",
+            "stupendous",
+            "staggering",
+            "shocking",
+            "surprising",
+            "breathtaking",
+            "striking",
+            "impressive",
+            "stunning",
+            "awe-inspiring",
+            "remarkable",
+            "notable",
+            "noteworthy",
+            "extraordinary",
+            "outstanding",
+            "incredible",
+            "unbelievable",
+            "phenomenal",
+            "uncommon",
+            "mind-boggling",
+            "mind-blowing"
+          ]
+        },
+        {
+          "word": "Fade",
+          "meaning": "to disappear gradually ( dheere dheere kho jana ya km ho jana)",
+          "examples": [
+            "the light had faded and dusk was advancing"
+          ],
+          "synonyms": [
+            "Syn -  fade",
+            "dim",
+            "dwindle",
+            "decline",
+            "vanish",
+            "wane"
+          ]
+        },
+        {
+          "word": "Oriental",
+          "meaning": "a person or thing from eastern asia. ( 7 or  8 countries - macau, mongolia, hongkong, Japan,",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Envy",
+          "meaning": "to feel a desire to have someone else has. ( mujhe bhi wo chahiye jo uske paas hai wali soch)",
+          "examples": [
+            "I envy the way you have made so many friends."
+          ],
+          "synonyms": [
+            "Syn - noun - envy",
+            "desire"
+          ]
+        },
+        {
+          "word": "Good grief",
+          "meaning": "an expression of surprise or frustration",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Get into hot water",
+          "meaning": "to get into trouble",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Appeal to caesar",
+          "meaning": "appeal to the  highest possible authority ( jaise kisi case ke liye seedha supreme court",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Sanguine",
+          "meaning": "positive / optimistic / bullish / buoyant / hopeful ( yaad rkhna SANGUINARY mtlb GORE mtlb",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Credible",
+          "meaning": "something which is worth believing",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "infanticide",
+          "meaning": "murder of an infant",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Animosity",
+          "meaning": "strong hostility ( virodh, nfrat)",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Humane",
+          "meaning": "one who loves humanity and believes in universal brotherhood ( opposite - misanthrope )",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": ", page 22, copy 1.\n\nMaths Maestro\n         Maths Maestro SSC                          Maths Maestro - Vishesh Shukla\nGlaring    : 1. Giving out or reflecting a strong or dazzling light. ( bhot tej raushni k sath jalne wali chij )\nEg. The glaring sun. \nSyn - glaring / dazzling / blinding \nAnt - dim / soft\n                2. Staring fiercely or fixedly. ( gusse se ghoorna)\nEg.  Their glaring eyes.\nD"
+    },
+    {
+      "day": 23,
+      "entries_count": 17,
+      "entries": [
+        {
+          "word": "Stupendous",
+          "meaning": "extremely impressive . ( adbhut ya bhot kmaal ka  )",
+          "examples": [
+            "the most stupendous views",
+            "ether in which this little earth floats ( wo hawa, space, akash jisme ye dharti tairti hai )"
+          ],
+          "synonyms": [
+            "Syn -  amazing",
+            "astounding",
+            "astonishing",
+            "extraordinary",
+            "remarkable",
+            "wonderful",
+            "phenomenal",
+            "staggering",
+            "breathtaking",
+            "fantastic",
+            "mind-boggling",
+            "mind-blowing",
+            "great",
+            "awesome",
+            "Ant -  ordinary",
+            "run of the mill",
+            "Ether  -  the air",
+            "the sky  ( hawa, akash)"
+          ]
+        },
+        {
+          "word": "Noxious or Obnoxious",
+          "meaning": "harmful, poisonous, or very unpleasant  (hanikarak, jahrila, bhot kharab jaise",
+          "examples": [
+            "they were overcome by the noxious fumes"
+          ],
+          "synonyms": [
+            "Syn -  noxious",
+            "obnoxious",
+            "poisonous",
+            "toxic",
+            "deadly",
+            "virulent",
+            "harmful",
+            "dangerous",
+            "pernicious",
+            "damaging",
+            "destructive",
+            "nasty",
+            "disgusting",
+            "awful",
+            "terrible",
+            "vile",
+            "foul",
+            "nauseating",
+            "noisome",
+            "nocuous",
+            "Ant -   innocuous",
+            "safe",
+            "pleasant"
+          ]
+        },
+        {
+          "word": "Endure",
+          "meaning": "suffer ( something painful or difficult ) ( kisi musibat ya dard ko sahena)",
+          "examples": [
+            "it seemed impossible that anyone could endure such pain"
+          ],
+          "synonyms": [
+            "Syn -  endure",
+            "undergo",
+            "go through",
+            "live through",
+            "experience",
+            "suffer",
+            "tolerate",
+            "put up with",
+            "brave",
+            "bear",
+            "sustain"
+          ]
+        },
+        {
+          "word": "Enhearten",
+          "meaning": "to give or restore strength and courage to ( kisi ko sahas bandhana musibat me )",
+          "examples": [
+            "Their cheerfulness enheartened his saddened spirit."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Surmount",
+          "meaning": "1.  overcome ( a difficulty or obstacle ) ( kisi musibat ya smasya ko jeet jana )",
+          "examples": [
+            "all manner of cultural differences were surmounted.",
+            "the tomb was surmounted by a sculptured angel ( makabare k upr ek devdoot  ki murti rakhi hui thi )"
+          ],
+          "synonyms": [
+            "Syn -  overcome",
+            "conquer",
+            "get over",
+            "get the better of",
+            "get the best of",
+            "beat"
+          ]
+        },
+        {
+          "word": "Tramp",
+          "meaning": "a person who travels from place to place and does not have a home or much money  ( ek insaan",
+          "examples": [
+            "tramp / vagrant / vagabond / derelict / down and out / itinerant / drifter / wanderer / beggar / mendicant /"
+          ],
+          "synonyms": [
+            "hobo",
+            "bum",
+            "streety",
+            "crusty"
+          ]
+        },
+        {
+          "word": "Ardent",
+          "meaning": "very enthusiastic or passionate  ( bhot joshila, utsaah se bhara hua )",
+          "examples": [
+            "an ardent supporter of the cause of education"
+          ],
+          "synonyms": [
+            "Syn -  ardent",
+            "passionate",
+            "avid",
+            "impassioned",
+            "fervent",
+            "fervid",
+            "zealous",
+            "vehement",
+            "intense",
+            "fierce",
+            "fiery",
+            "enthusiastic",
+            "mad keen",
+            "demonstrative"
+          ]
+        },
+        {
+          "word": "Consuming",
+          "meaning": "( of a feeling ) completely filling one’s mind and attention ( ek aisi pagalpan wali feeling kisi",
+          "examples": [
+            "consuming desire"
+          ],
+          "synonyms": [
+            "Syn - consuming",
+            "longing",
+            "yearning",
+            "pulsating"
+          ]
+        },
+        {
+          "word": "Transcend",
+          "meaning": "to rise above or go beyond the normal limits of something or someone. ( kisi chij ya insaan ke",
+          "examples": [
+            "He knows that he will transcend Shakespeare because he is learning vocabularies from Vocab Maestro."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Syn",
+          "meaning": "transcend / surpass / excel /. Exceed / beat / outdo /. Outstrip / leave behind / outrival / outvie /",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Save your breath",
+          "meaning": "to make an effort that will be futile or refrain from arguing about a lost cause",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Burn your bridges",
+          "meaning": "to eliminate the possibility of return or retreat",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gourmet",
+          "meaning": "who loves good food and knows a lot about it",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Bilingual",
+          "meaning": "one who can speak two languages",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Feasible",
+          "meaning": "something that is capable of being accomplished",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Botany",
+          "meaning": "the scientific study of plants and their structure",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Alliteration",
+          "meaning": "words that begin with the same letter, syllable or sound ( raghupati raghav raja ram )",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": ", page 23, copy 1.\n\nMaths Maestro\n         Maths Maestro SSC                          Maths Maestro - Vishesh Shukla\nStupendous     :   extremely impressive . ( adbhut ya bhot kmaal ka  )\nEg. the most stupendous views\nSyn -  amazing / astounding / astonishing / extraordinary / remarkable / wonderful / phenomenal / \nstaggering / breathtaking / fantastic / mind-boggling / mind-blowing / great / awes"
+    },
+    {
+      "day": 24,
+      "entries_count": 16,
+      "entries": [
+        {
+          "word": "Menial",
+          "meaning": "(of work) not requiring much skill and lacking prestige. ( aisa kaam jisme skill ki jarurat nahi hai )",
+          "examples": [
+            "menial factory jobs",
+            "I will try to induce him to give me a job of some sort."
+          ],
+          "synonyms": [
+            "Syn -  menial",
+            "unskilled",
+            "lowly",
+            "boring",
+            "dull",
+            "blue-collar",
+            "Ant -   noble",
+            "elevated",
+            "skilled",
+            "Syn -  induce",
+            "persuade",
+            "convince",
+            "prompt",
+            "urge",
+            "impel",
+            "motivate",
+            "twist someone’s arm ( koot k"
+          ]
+        },
+        {
+          "word": "Through",
+          "meaning": "having reached the end of an activity.   (kisi kaam ko khtm kr lena )",
+          "examples": [
+            "If you are through using the phone, I would like to use it next. ( agr tum phone chala chuke ho to ab"
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Pull up",
+          "meaning": "1.   to bring to a stop / halt ( rok dena / ruk jana)",
+          "examples": [
+            "They pulled up and went where the going seemed easier.",
+            "The pilot pulled the plane up in an attempt to avoid the building."
+          ],
+          "synonyms": [
+            "Syn -  pull up",
+            "stop",
+            "halt"
+          ]
+        },
+        {
+          "word": "Coax",
+          "meaning": "gently and persistently persuade someone to do something. ( kisi ko kisi kaam k liye manana lekin",
+          "examples": [
+            "the trainees were coaxed into doing boring work."
+          ],
+          "synonyms": [
+            "Syn -  coax",
+            "persuade",
+            "wheedle",
+            "cajole",
+            "get round",
+            "inveigle",
+            "butter up",
+            "blandish"
+          ]
+        },
+        {
+          "word": "Doom",
+          "meaning": "death, destruction , or some other terrible fate  ( mrityu, vinash)",
+          "examples": [
+            "the aircraft was sent crashing to its doom in the building"
+          ],
+          "synonyms": [
+            "Syn -  doom",
+            "destruction",
+            "downfall",
+            "ruin",
+            "ruination",
+            "rack and ruin",
+            "catastrophe",
+            "disaster",
+            "death",
+            "end",
+            "termination",
+            "quietus"
+          ]
+        },
+        {
+          "word": "Pioneer",
+          "meaning": "a person who is among the first to explore or settle a new country or area.",
+          "examples": [],
+          "synonyms": [
+            "Syn - pioneer",
+            "settler",
+            "colonist",
+            "colonizer",
+            "explorer",
+            "trailblazer",
+            "discoverer"
+          ]
+        },
+        {
+          "word": "Remould",
+          "meaning": "change the appearance, structure, or character of  ( kisi chiz ko ekdum badal dena)",
+          "examples": [
+            "The sculptor carefully remoulded the clay into a lifelike figure."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Scorn",
+          "meaning": "noun - a feeling and expression of contempt or disdain for someone or something. ( kisi chiz ka",
+          "examples": [
+            "I do not wish to become the object of scorn."
+          ],
+          "synonyms": [
+            "Syn - scorn",
+            "contempt",
+            "derision",
+            "disdain",
+            "mockery",
+            "sneering",
+            "scoffing",
+            "despite",
+            "Ant - admiration",
+            "respect"
+          ]
+        },
+        {
+          "word": "A beast of burden",
+          "meaning": "an animal that carries luggage",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Cast someone adrift",
+          "meaning": "to leave someone without any support or purpose",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "To take the veil",
+          "meaning": "to become a nun",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Fugitive",
+          "meaning": "one who runs away from law",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Cartographer",
+          "meaning": "man who draws maps",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Remorse",
+          "meaning": "having a feeling of guilt",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Stoic",
+          "meaning": "not to be affected by pains and pleasures of life",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "iconoclast",
+          "meaning": "a person who criticizes traditional beliefs and customs",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": ", page 24, copy 1.\n\nMaths Maestro\n         Maths Maestro SSC                          Maths Maestro - Vishesh Shukla\nMenial   :  (of work) not requiring much skill and lacking prestige. ( aisa kaam jisme skill ki jarurat nahi hai )\n                   or a person with a menial job. ( jaise koi majdoor) \nEg. menial factory jobs\nSyn -  menial / unskilled / lowly / boring / dull / blue-collar\nAnt -   "
+    },
+    {
+      "day": 25,
+      "entries_count": 20,
+      "entries": [
+        {
+          "word": "Assert",
+          "meaning": "state a fact or belief confidently and forcefully  ( kisi baat ko bhot confidence se aur jor se",
+          "examples": [
+            "The company asserts that the cuts will not affect development.",
+            "the ascendancy of good over evil ( burai pe sacchai jyada powerful hai )"
+          ],
+          "synonyms": [
+            "Syn -   assert",
+            "affirm",
+            "declare",
+            "state",
+            "insist",
+            "Syn -  ascendancy",
+            "dominance",
+            "domination",
+            "supremacy",
+            "superiority",
+            "predominance",
+            "primacy",
+            "dominion",
+            "the upper hand",
+            "the whip hand",
+            "paramountcy",
+            "sovereignty"
+          ]
+        },
+        {
+          "word": "Scoff",
+          "meaning": "speak to someone or about something in a scornfully derisive or mocking way   (kisi insaan ya",
+          "examples": [
+            "The world no longer scoffs at the dreamer."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Sorely",
+          "meaning": "very much  ( bhot jyada)",
+          "examples": [
+            "He had been confined in prison and sorely punished."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Outcast",
+          "meaning": "a person who has been rejected or ostracized by their society or social group. ( ek aisa insaan",
+          "examples": [
+            "She went from trusted pal to ostracized outcast overnight."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Syn",
+          "meaning": "outcast / reject / persona non grata / pariah / leper / exile / castaway",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Ant",
+          "meaning": "insider",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Ostracize",
+          "meaning": "exclude from a society or group ( kisi society ya group se nikal dena )",
+          "examples": [
+            "she was declared a witch and ostracized by the villagers"
+          ],
+          "synonyms": [
+            "Syn -  ostracize",
+            "exclude",
+            "outcast",
+            "excommunicate",
+            "freeze out",
+            "Ant - welcome",
+            "accept",
+            "befriend",
+            "include"
+          ]
+        },
+        {
+          "word": "Waif",
+          "meaning": "a homeless, neglected, or abandoned person, especially a child. ( aisa insaan ya baccha jise cchhod",
+          "examples": [
+            ". she is foster mother to various waifs and strays."
+          ],
+          "synonyms": [
+            "Syn -  waifs",
+            "ragamuffin",
+            "guttersnipe",
+            "foundling",
+            "orphan",
+            "stray",
+            "gamin"
+          ]
+        },
+        {
+          "word": "indelible",
+          "meaning": "impossible to remove or forget (jise bhula pana aur mitana asambhav ho)",
+          "examples": [
+            "indelible impression, an indelible marker pen"
+          ],
+          "synonyms": [
+            "Syn - indelible",
+            "ineradicable",
+            "ineffaceable",
+            "indestructible",
+            "permanent",
+            "lasting",
+            "unfading",
+            "imperishable"
+          ]
+        },
+        {
+          "word": "Kindle",
+          "meaning": "set something on fire ( kisi chiz me  ya dil me  aag laga dena)",
+          "examples": [
+            "He kindled a fire of dry grass."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Anew",
+          "meaning": "over again, once more",
+          "examples": [
+            "kindle anew in your mind the fire of hope ( fir se apne dimag me asha ki aag jala lo )"
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "To the manner born",
+          "meaning": "to do something  as though it is coming naturally",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Buy a lemon",
+          "meaning": "to buy something that is of much less value",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Be my guest",
+          "meaning": "please do it",
+          "examples": [],
+          "synonyms": [
+            "To have a nodding acquaintance     :  know somebody",
+            "something slightly"
+          ]
+        },
+        {
+          "word": "To miss the bus",
+          "meaning": "to lose an opportunity",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Testimonial",
+          "meaning": "a formal statement  testifying to someone’s character and qualification",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Exit Poll",
+          "meaning": "a poll taken of voters leaving the voting place that is usually used for predicting the winners.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Tiny",
+          "meaning": "something that is very small",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Catalogue",
+          "meaning": "a list or collection of books or informative graphics",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Forgery",
+          "meaning": "making a false document with a false signature",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": ", page 25, copy 1.\n\nMaths Maestro\n         Maths Maestro SSC                          Maths Maestro - Vishesh Shukla\nAssert   :  state a fact or belief confidently and forcefully  ( kisi baat ko bhot confidence se aur jor se \nkahena)\n                  \nEg. The company asserts that the cuts will not affect development.\nSyn -   assert  / affirm / declare / state / insist \nAscendancy   -   occupation"
+    },
+    {
+      "day": 26,
+      "entries_count": 19,
+      "entries": [
+        {
+          "word": "Thee",
+          "meaning": "you ( tum)",
+          "examples": [
+            "something belongs to thee ( something belongs to you )",
+            "Honour thy father and thy mother. ( honour / respect your father and your mother )"
+          ],
+          "synonyms": [
+            "Thy   -   your  ( tumhare",
+            "apne)"
+          ]
+        },
+        {
+          "word": "embrace",
+          "meaning": "1.  The act of holding someone in your arms  (kisi ko gale se lagana )",
+          "examples": [
+            "Her aunt embraced her warmly.",
+            "besides traditional methods, artists are embracing new technology"
+          ],
+          "synonyms": [
+            "Syn -  embrace",
+            "hug",
+            "cuddle",
+            "Syn -  embrace",
+            "welcome",
+            "accept",
+            "support",
+            "back",
+            "champion",
+            "espouse"
+          ]
+        },
+        {
+          "word": "Scanty",
+          "meaning": "small or insufficient in quantity or amount ( bhot km)",
+          "examples": [
+            "They paid whatever they could out of their scanty wages to their families."
+          ],
+          "synonyms": [
+            "Syn -  scanty",
+            "meagre",
+            "scant",
+            "scarce",
+            "minimal",
+            "limited",
+            "modest",
+            "sparse",
+            "morsel",
+            "modicum",
+            "smidgen",
+            "paltry",
+            "negligible",
+            "inadequate",
+            "deficient",
+            "be thin on the ground",
+            "few and far between",
+            "measly",
+            "exiguous",
+            "Ant -  abundant",
+            "ample",
+            "plentiful"
+          ]
+        },
+        {
+          "word": "Dismay",
+          "meaning": "verb -  cause someone to feel concern and distress  ( kisi ko chinta me daal dena )",
+          "examples": [
+            "they were dismayed by the U-turn in policy"
+          ],
+          "synonyms": [
+            "Syn -  dismay",
+            "appal",
+            "horrify",
+            "shock",
+            "disconcert",
+            "take aback",
+            "frighten",
+            "scare",
+            "discompose",
+            "perturb",
+            "Ant -  encourage",
+            "please"
+          ]
+        },
+        {
+          "word": "Perturb",
+          "meaning": "verb - disturb  ( kisi ko disturb kr dena )",
+          "examples": [
+            "It perturbed him that his son was thinking about leaving school."
+          ],
+          "synonyms": [
+            "Syn -  perturb",
+            "worry",
+            "upset",
+            "unsettle",
+            "disturb",
+            "concern",
+            "trouble",
+            "disquiet",
+            "discompose",
+            "disconcert",
+            "bother",
+            "dismay",
+            "distress",
+            "Ant -   calm",
+            "reassure"
+          ]
+        },
+        {
+          "word": "Outwit",
+          "meaning": "deceive by greater ingenuity ( to defeat or trick someone by being more intelligent or clever( kisi",
+          "examples": [
+            ". desire outwits mother nature"
+          ],
+          "synonyms": [
+            "Syn -  outwit",
+            "outsmart",
+            "out-think",
+            "outplay",
+            "outfox"
+          ]
+        },
+        {
+          "word": "Render",
+          "meaning": "provide or give ( a service, help etc. ) (kisi ko koi sahayta uplabdh karana)",
+          "examples": [
+            "you could render assistance to someone in need"
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Recede",
+          "meaning": "1. to move back or away  ( piche htna)",
+          "examples": [
+            "I never receded, not for a second",
+            "The prospects of an early end to the war receded"
+          ],
+          "synonyms": [
+            "Syn - recede",
+            "retreat",
+            "go back",
+            "fall back",
+            "Ant - advance",
+            "approach",
+            "Syn - recede",
+            "diminish",
+            "lessen",
+            "decrease",
+            "dwindle",
+            "abate",
+            "fade",
+            "subside",
+            "wane",
+            "Ant - grow",
+            "intensify"
+          ]
+        },
+        {
+          "word": "Anew",
+          "meaning": "over again, once more",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "To play with fire",
+          "meaning": "to take foolish risk",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Backseat driver",
+          "meaning": "a person who offers unsolicited advice ( bina maange hi gyaan dene wala )",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "As hard as nails",
+          "meaning": "physically or mentally tough",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "The whys and wherefores",
+          "meaning": "reasons",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "A night owl",
+          "meaning": "a person who prefers to be awake late at night",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "amateur",
+          "meaning": "one who does a thing for pleasure and not as a profession",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Pessimist",
+          "meaning": "one who takes a dark view of things",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Shrewd",
+          "meaning": "clever and judicious",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Lucrative",
+          "meaning": "profitable",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Arsenal",
+          "meaning": "a place for storage of arms and ammunition",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": ", page 26, copy 1.\nMaths Maestro\n\n\n--- PAGE 2 ---\n\nMaths Maestro\n         Maths Maestro SSC                          Maths Maestro - Vishesh Shukla\nThee   :   you ( tum)\n                  \nEg. something belongs to thee ( something belongs to you )\nThy   -   your  ( tumhare / apne)\nEg. Honour thy father and thy mother. ( honour / respect your father and your mother )\nembrace :   1.  The act of hold"
+    },
+    {
+      "day": 27,
+      "entries_count": 19,
+      "entries": [
+        {
+          "word": "Affliction",
+          "meaning": "1. Affliction / Disorder / disease / malady / ailment  ( koi beemari )",
+          "examples": [
+            "He died from a mysterious affliction.",
+            "She lost her sight and is now learning to live with her affliction.",
+            "even though he was bigger, he never looked down on me"
+          ],
+          "synonyms": [
+            "2. Affliction",
+            "suffering",
+            "distress",
+            "pain",
+            "misery ( koi dard, takleef, pareshani )"
+          ]
+        },
+        {
+          "word": "Voyeurism",
+          "meaning": "the activity of getting pleasure secretly, from watching other people’s private lives (iska",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Look down on",
+          "meaning": "regard someone with a feeling of superiority  ( doosro ko cchota smjhna, unka mjaak",
+          "examples": [
+            "his mother had social pretensions and looked down on most of our neighbours"
+          ],
+          "synonyms": [
+            "Syn -  look down on",
+            "disdain",
+            "scorn",
+            "spurn",
+            "disparage",
+            "look down one’s nose at"
+          ]
+        },
+        {
+          "word": "Ways and means",
+          "meaning": "methods and resources for achieving something. ( sansadhan )",
+          "examples": [
+            "the company is seeking ways and means of safeguarding jobs"
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Pledge",
+          "meaning": "a serious promise or agreement ( vachan )",
+          "examples": [
+            "The conference ended with a joint pledge to limit pollution."
+          ],
+          "synonyms": [
+            "Syn - pledge",
+            "promise",
+            "undertaking",
+            "vow",
+            "word of honour",
+            "commitment",
+            "assurance",
+            "oath"
+          ]
+        },
+        {
+          "word": "Ecstasy",
+          "meaning": "a state of very great happiness, extreme delight  ( bhot jada khushi )",
+          "examples": [
+            "when the child heard the music for the first time he went into ecstasies"
+          ],
+          "synonyms": [
+            "Syn -  ecstasy",
+            "merriment",
+            "buoyancy",
+            "rapture",
+            "bliss",
+            "elation",
+            "euphoria",
+            "cloud nine",
+            "overjoyed",
+            "seventh",
+            "heaven",
+            "joy",
+            "jubilation",
+            "exultation",
+            "exaltation"
+          ]
+        },
+        {
+          "word": "By that time",
+          "meaning": "till then ( tb tk)",
+          "examples": [
+            ". By that time, meeting will be over ( tb tk meeting khtm ho jaegi )"
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Outlook",
+          "meaning": "the future of someone or something / the way of thinking / a view / a place ( iski hindi khud",
+          "examples": [
+            "The outlook was far from encouraging ( yaha future ki baat ho rahi hai )"
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Plain",
+          "meaning": "easy to see or understand  ( simple / plain )",
+          "examples": [
+            "He could hear the sound of my voice plainly ( easily ) ."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Liability",
+          "meaning": "1 . liability / accountability / responsibility ( dayitva, kartavya )",
+          "examples": [
+            "once you contact the card protection scheme your liability for any loss ends.",
+            "Your affliction is not a liability, but an asset of great value."
+          ],
+          "synonyms": [
+            "2.  Liability",
+            "hindrance",
+            "burden",
+            "handicap ( koi musibat, ek rukawat )"
+          ]
+        },
+        {
+          "word": "Self-reliance",
+          "meaning": "self support / self-standing",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Bag and baggage",
+          "meaning": "with all belongings",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Bed or roses",
+          "meaning": "a pleasant condition of life",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Take stock of",
+          "meaning": "survey",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Poignant",
+          "meaning": "evoking a keen sense of sadness or regret",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Compere",
+          "meaning": "host ( a person who introduces the performers or contestants in a variety show )",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Mindful",
+          "meaning": "taking heed or care, being conscious",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Maintain",
+          "meaning": "cause to continue, keep up, preserve",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Integrity",
+          "meaning": "the quality of being honest and having strong moral principles",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": ", page 27, copy 1.\nMaths Maestro\n\n\n--- PAGE 6 ---\n\nMaths Maestro\n         Maths Maestro SSC                          Maths Maestro - Vishesh Shukla\nAffliction    :   1. Affliction / Disorder / disease / malady / ailment  ( koi beemari )\n                  \nEg.  He died from a mysterious affliction. \n                        2. Affliction / suffering / distress / pain / misery ( koi dard, takleef, pa"
+    },
+    {
+      "day": 28,
+      "entries_count": 14,
+      "entries": [
+        {
+          "word": "Shinny",
+          "meaning": "climb( up / down ) / ascend / mount ( chadhna )",
+          "examples": [
+            "he loved to shinny up that tree"
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Clench",
+          "meaning": "grasp something tightly and firmly ( tenacious grip ) ( majboot tarike se kisi chiz ko pkdna )",
+          "examples": [
+            "We found him in bed asleep, with the money tightly clenched in his hand."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Dividend",
+          "meaning": "a sum of money paid regularly ( typically annually ) by a company to its shareholders out of its",
+          "examples": [
+            "desire had commenced to pay dividends"
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Commence",
+          "meaning": "begin ( shuru krna )",
+          "examples": [
+            "his design team commenced work"
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Syn",
+          "meaning": "commence / begin / start / start off / get down to business / get the ball rolling / get going / get off the",
+          "examples": [],
+          "synonyms": [
+            "ground",
+            "set about",
+            "go about",
+            "enter on",
+            "initiate",
+            "get the show on the road"
+          ]
+        },
+        {
+          "word": "Ant",
+          "meaning": "conclude",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "intoxicate",
+          "meaning": "1. ( of alcoholic drink or a drug ) cause someone to lose control of their behaviour ( alcohol ya",
+          "examples": [
+            "we don’t allow people into sessions if they are intoxicated by alcohol or drugs"
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Syn",
+          "meaning": "intoxicate /  inebriate / befuddle / fuddle / stupefy / go to someone’s head",
+          "examples": [
+            "he was exhilarated with the joy of his newly discovered world of sound"
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Escort",
+          "meaning": "1. Noun - a person, vehicle, or group accompanying another for protection or as a mark of rank. (",
+          "examples": [
+            "a police escort",
+            "he escorted her back to her hotel"
+          ],
+          "synonyms": [
+            "Syn -  escort",
+            "guard",
+            "bodyguard",
+            "protector",
+            "safeguard",
+            "defender",
+            "chaperone",
+            "Syn -  escort",
+            "accompany",
+            ". Protect",
+            "defend",
+            "take out",
+            "safeguard"
+          ]
+        },
+        {
+          "word": "Hunch",
+          "meaning": "noun - a feeling or guess based on intuition ( aatm smjh- sixth sense ) rather than fact. ( tukka )",
+          "examples": [
+            "i have a hunch that someone is telling lies"
+          ],
+          "synonyms": [
+            "Syn -  hunch",
+            "feeling",
+            "guess",
+            "conjecture",
+            "surmise",
+            "presentiment",
+            "premonition",
+            "gut feeling",
+            "sixth sense"
+          ]
+        },
+        {
+          "word": "impulse",
+          "meaning": "something that causes something to happen. ( utprerak )",
+          "examples": [
+            "it was this impulse of thought which converted his affliction into an asset"
+          ],
+          "synonyms": [
+            "Syn - impulse",
+            "instinct",
+            "urge",
+            "drive",
+            "compulsion",
+            "inspiration",
+            "incentive"
+          ]
+        },
+        {
+          "word": "Destined",
+          "meaning": "certain to meet a particular fate ( kisi chiz ka kuch tay hona )",
+          "examples": [
+            "the act seems destined to failure",
+            "the moving story of their doomed love affair"
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "The whys and wherefores",
+          "meaning": "underlying reason",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "In dire straits",
+          "meaning": "very bad situation",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": ", page 28, copy 1.\nMaths Maestro\n\n\n--- PAGE 10 ---\n\nMaths Maestro\n         Maths Maestro SSC                          Maths Maestro - Vishesh Shukla\nShinny : climb( up / down ) / ascend / mount ( chadhna )\nEg. he loved to shinny up that tree \nClench : grasp something tightly and firmly ( tenacious grip ) ( majboot tarike se kisi chiz ko pkdna )\nEg. We found him in bed asleep, with the money tightl"
+    },
+    {
+      "day": 29,
+      "entries_count": 18,
+      "entries": [
+        {
+          "word": "skeptical",
+          "meaning": "Not easily convinced; having doubts or reservations about the truth of something.( संदेहपूणर्भ; ͩ कसी",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Syn",
+          "meaning": "Skeptical, Sceptical, Doubtful, suspicious, unconvinced, questioning",
+          "examples": [
+            "She was skeptical about the success of the new plan."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Whatsoever",
+          "meaning": "At all; of any kind (used for emphasis, especially in negative statements).( ͩ कसी भी प्रकार का; ज़रा",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Syn",
+          "meaning": "At all, whatever, in any way",
+          "examples": [
+            "He has no interest whatsoever in politics."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Sacrilege",
+          "meaning": "The violation or misuse of something considered sacred or holy. (पͪ वत्र वस्तु या स्थान का अपमान;",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Syn",
+          "meaning": "Profanation, desecration, blasphemy",
+          "examples": [
+            "Destroying the ancient temple was considered an act of sacrilege."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Conjecture",
+          "meaning": "An opinion or conclusion formed on the basis of incomplete information. ( अनुमान; अपूणर्भ जानकारी",
+          "examples": [
+            "Any explanation at this stage is pure conjecture."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Syn",
+          "meaning": "Guess, speculation, assumption, supposition, hunch, surmise",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Verily",
+          "meaning": "Truly; certainly (used for emphasis, often in a formal or old-fashioned style). ( Ǔनश्चय ही; वास्तव में )",
+          "examples": [
+            "Verily, he has worked hard to achieve success."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Syn",
+          "meaning": "Truly, indeed, certainly",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Devious",
+          "meaning": "Showing a skillful use of underhanded tactics to achieve goals; dishonest or deceitful. ( कुǑटल;",
+          "examples": [
+            "He used devious methods to gain power.",
+            "We reached the village by a devious mountain path."
+          ],
+          "synonyms": [
+            "Meaning 2 : (Path",
+            "Route",
+            "Method)  Not straightforward; winding or indirect.(टेढ़ा-मेढ़ा; घुमावदार; सीधा न होने वाला)"
+          ]
+        },
+        {
+          "word": "Syn",
+          "meaning": "Indirect, winding, roundabout",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Pathos",
+          "meaning": "A quality in speech, writing, or art that evokes pity, sadness, or sympathy. ( करुणा; भावुकता; ऐसी भावना",
+          "examples": [
+            "The movie is full of pathos and emotional moments."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Ribald",
+          "meaning": "Referring to humor or language that is amusing but rude or slightly offensive, especially related to",
+          "examples": [
+            "The comedian was known for his ribald jokes."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Tribulation",
+          "meaning": "A cause of great trouble or suffering. ( कष्ट; ͪ वपͪ त्ति; भारी दुख या कǑठनाई )",
+          "examples": [
+            "She showed courage during times of tribulation."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Syn",
+          "meaning": "Hardship, suffering, adversity, affliction",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Make a hash of",
+          "meaning": "To spoil something by doing it badly",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Get the picture",
+          "meaning": "To understand what is happening or being explained",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": ", page 29, copy 1.\nMaths Maestro\n\n\n--- PAGE 14 ---\n\nMaths Maestro\n         Maths Maestro SSC                          Maths Maestro - Vishesh Shukla\nskeptical :  Not easily convinced; having doubts or reservations about the truth of something.( संदेहपूणर्भ; ͩ कसी \nबात को आसानी से सच न मानने वाला )\nSyn : Skeptical, Sceptical, Doubtful, suspicious, unconvinced, questioning\nEg. She was skeptical abou"
+    },
+    {
+      "day": 30,
+      "entries_count": 19,
+      "entries": [
+        {
+          "word": "Anguish",
+          "meaning": "Severe mental or physical pain or suffering. ( तीव्र पीड़ा; गहरा मानͧ सक या शारीǐरक कष्ट )",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Syn",
+          "meaning": "Agony, distress, torment, suffering",
+          "examples": [
+            "She cried in anguish after hearing the bad news."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Alienism",
+          "meaning": "Mental illness; the state of insanity (an old or formal term).( मानͧ सक ͪ वकार; पागलपन की अवस्था)",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Syn",
+          "meaning": "Insanity, mental illness, madness, lunacy",
+          "examples": [
+            "In earlier times, alienism was poorly understood by society."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Implication",
+          "meaning": "Meaning 1 (Suggestion / Hidden Meaning):  Something that is suggested or implied but not stated directly.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Syn",
+          "meaning": "Inference, suggestion, hint, indication, insinuation",
+          "examples": [
+            "His silence had an implication that he agreed."
+          ],
+          "synonyms": [
+            "Meaning 2 (Result",
+            "Effect):  A possible effect or consequence of an action or decision. (पǐरणाम; प्रभाव)"
+          ]
+        },
+        {
+          "word": "Syn",
+          "meaning": "Consequence, outcome, repercussion",
+          "examples": [
+            "The new law has serious implications for the economy."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Allusive",
+          "meaning": "Referring to something indirectly; making a reference without mentioning it clearly. ( अप्रत्यक्ष रूप से ͩ",
+          "examples": [
+            "His allusive comments confused everyone."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Syn",
+          "meaning": "Indirect, referential, suggestive, oblique, inexplicit, implicit",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Albinism",
+          "meaning": "A genetic condition in which a person lacks normal pigmentation in the skin, hair, and eyes. ( एक",
+          "examples": [
+            "Albinism affects a person’s skin and eye color from birth."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Syn",
+          "meaning": "Pigment deficiency, hypopigmentation (medical context)",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Irrevocable",
+          "meaning": "Impossible to change, cancel, or reverse.(अपǐरवतर्तनीय; िजसे बदला या वापस नहीं ͧ लया जा सकता )",
+          "examples": [
+            "The decision was irrevocable and could not be appealed."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Reciprocity",
+          "meaning": "The practice of exchanging things with others for mutual benefit.(परस्पर आदान-प्रदान; आपसी लाभ के ͧ",
+          "examples": [
+            "Friendship is based on reciprocity and trust."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Syn",
+          "meaning": "Mutual exchange, give-and-take, mutuality",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Accost",
+          "meaning": "To approach and speak to someone, often in a bold or aggressive way. ( ͩ कसी को अचानक या ज़ोर से",
+          "examples": [
+            "He was accosted by a stranger on the street."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "A cloven hoof",
+          "meaning": "A sign of evil intention hidden beneath an outward appearance of goodness; the revelation of",
+          "examples": [
+            "He appeared generous at first, but his actions later showed the cloven hoof."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Ruminant",
+          "meaning": "An animal that chews the cud and has a stomach with several compartments. ( जुगाली करने वाला",
+          "examples": [
+            "Cows and goats are ruminant animals."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Syn",
+          "meaning": "Cud-chewing animal (contextual)",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "An axe to grind",
+          "meaning": "A personal or selfish reason for doing something",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": ", page 30, copy 1.\nMaths Maestro\n\n\n--- PAGE 18 ---\n\nMaths Maestro\n         Maths Maestro SSC                          Maths Maestro - Vishesh Shukla\nAnguish :  Severe mental or physical pain or suffering. ( तीव्र पीड़ा; गहरा मानͧ सक या शारीǐरक कष्ट )\nSyn : Agony, distress, torment, suffering\nEg. She cried in anguish after hearing the bad news.\n             The prisoners lived in constant anguish.\nA"
+    },
+    {
+      "day": 31,
+      "entries_count": 19,
+      "entries": [
+        {
+          "word": "Exemplary",
+          "meaning": "Worthy of imitation; serving as an excellent model or ideal example. ( आदशर्व, अनुकरणीय, उदाहरणीय",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Syn",
+          "meaning": "Ideal, Model,Imitable, Prototypical, Paradigmatic",
+          "examples": [
+            "Her exemplary conduct during the crisis earned her respect from everyone."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Ruminant",
+          "meaning": "An animal that chews the cud and has a four-chambered stomach for digesting plant material",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Syn",
+          "meaning": "Cud-chewer, Herbivorous mammal",
+          "examples": [
+            "A cow is a ruminant that chews its cud to aid digestion."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Syn",
+          "meaning": "Reflective, Contemplative, Meditative, Pensive, Thoughtful",
+          "examples": [
+            "He became ruminant after the incident and kept thinking about it for days."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Moron",
+          "meaning": "A very foolish or stupid person (informal and offensive in tone). ( मूखर्व, बेवकूफ़ व्यिक्त)",
+          "examples": [
+            "Only a moron would ignore such clear instructions."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Syn",
+          "meaning": "Idiot, Fool, Imbecile, Dunce, Simpleton, cretin, dolt, ignoramus, dullard, oaf, nincompoop, clown,",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Puerile",
+          "meaning": "Childishly silly or immature; showing a lack of seriousness or maturity.( बालसुलभ, बचकाना, अपǐरपक्व )",
+          "examples": [
+            "His puerile remarks made the discussion less serious."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Syn",
+          "meaning": "Childish, Immature, Infantile, Juvenile, Trivial",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Preposterous",
+          "meaning": "Utterly absurd; completely unreasonable or contrary to common sense.( हास्यास्पद, Ǔनरथर्वक,",
+          "examples": [
+            "It is preposterous to believe that the earth is flat."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Syn",
+          "meaning": "Absurd, Ludicrous, Ridiculous, Irrational, Nonsensical, foolish, farcical, comical, risible, asinine, inane,",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Quiet",
+          "meaning": "Making little or no noise; silent or calm.(शांत, चुप, शोर रǑहत)",
+          "examples": [
+            "The library was very quiet during the exam."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Quite",
+          "meaning": "To a considerable degree; completely or fairly (used as an adverb for emphasis).(काफी, पूणर्वतः, ǒबल्कुल",
+          "examples": [
+            "The movie was quite interesting."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Syn",
+          "meaning": "Fairly, Completely, Rather, Entirely, Pretty (informal usage)",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Pathos",
+          "meaning": "A quality that evokes pity, sympathy, or deep emotional sadness.( करुणा, दया, करुण भाव )",
+          "examples": [
+            "The story was filled with pathos and moved the audience to tears."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Echoes",
+          "meaning": "1. Repeated sounds reflected from a surface.",
+          "examples": [
+            "The echoes of his footsteps filled the empty hallway."
+          ],
+          "synonyms": [
+            "(प्रǓतध्वǓनयाँ; गूंज; (रूपक) स्मृǓतयाँ",
+            "प्रǓतǒबंब)"
+          ]
+        },
+        {
+          "word": "Defer",
+          "meaning": "1. To postpone or delay something.",
+          "examples": [
+            "The committee decided to defer the decision until next week."
+          ],
+          "synonyms": [
+            "(स्थͬ गत करना; टालना; सम्मानपूवर्वक मान लेना",
+            "झुकना )"
+          ]
+        },
+        {
+          "word": "Syn",
+          "meaning": "Postpone, Delay, Adjourn, Suspend, Yield (to authority)",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Wild goose chase",
+          "meaning": "A futile or useless pursuit",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": ", page 31, copy 1.\nMaths Maestro\n\n\n--- PAGE 22 ---\n\nMaths Maestro\n         Maths Maestro SSC                          Maths Maestro - Vishesh Shukla\nExemplary:  Worthy of imitation; serving as an excellent model or ideal example. ( आदशर्व, अनुकरणीय, उदाहरणीय \n)\nSyn : Ideal, Model,Imitable, Prototypical, Paradigmatic\nEg. Her exemplary conduct during the crisis earned her respect from everyone.\nRumi"
+    },
+    {
+      "day": 32,
+      "entries_count": 18,
+      "entries": [
+        {
+          "word": "Expedite",
+          "meaning": "To make a process happen faster; to speed up the progress of something.( ͩ कसी कायर्मा को तेज़ करना /",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Syn",
+          "meaning": "Accelerate, Hasten, Speed up, Fast-track, Advance",
+          "examples": [
+            "The authorities took steps to expedite the delivery of relief materials."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Remit",
+          "meaning": "Meaning 1 (Financial): To send money as payment..( धन भेजना / भुगतान भेजना)",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Syn",
+          "meaning": "Send, Transfer, Forward, Dispatch, Transmit",
+          "examples": [
+            "She remitted the money to her parents."
+          ],
+          "synonyms": [
+            "Meaning 2 (Formal",
+            "Legal): To cancel, pardon, or reduce a punishment, fine, or debt. (दंड",
+            "जुमार्माना",
+            "ऋण को माफ़ करना"
+          ]
+        },
+        {
+          "word": "Syn",
+          "meaning": "Forgive, Cancel, Abolish, Pardon, Revoke",
+          "examples": [
+            "The court decided to remit the prisoner’s sentence.",
+            "The court granted remission of his sentence due to good conduct."
+          ],
+          "synonyms": [
+            "penalty.( दंड",
+            "जुमार्माना",
+            "ऋण की माफी या कमी)"
+          ]
+        },
+        {
+          "word": "Syn",
+          "meaning": "Pardon, Forgiveness, Cancellation, Abolition, Commutation",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Repudiate",
+          "meaning": "To refuse to accept, deny, or reject something formally or publicly.( अस्वीकार करना / खंडन करना /",
+          "examples": [
+            "He repudiated the allegations made against him."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Syn",
+          "meaning": "Reject, Deny, Disown, Renounce, Refuse, Abjure",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Realm",
+          "meaning": "A kingdom or a particular field or domain of activity or knowledge.( राज्य; क्षेत्र / क्षेत्राͬ धकार )",
+          "examples": [
+            "This topic belongs to the realm of advanced mathematics."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Syn",
+          "meaning": "Kingdom, Domain, Sphere, Province, Territory, Field, Area, Region, World, Scope",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Accommodate",
+          "meaning": "To provide space, lodging, or adjustment for someone; to make room for or adapt to.( स्थान",
+          "examples": [
+            "The hostel can accommodate up to fifty students."
+          ],
+          "synonyms": [
+            "देना",
+            "समायोिजत करना",
+            "व्यवस्था करना)"
+          ]
+        },
+        {
+          "word": "Accommodate",
+          "meaning": "To help someone by doing what they need; to oblige or meet someone’s needs.( ͩ कसी की सुͪ वधा के",
+          "examples": [
+            "The teacher accommodated the students by giving them extra time."
+          ],
+          "synonyms": [
+            "अनुसार करना",
+            "सहायता करना",
+            "अनुकूल बनाना)"
+          ]
+        },
+        {
+          "word": "Syn",
+          "meaning": "Oblige, Assist, Help, Serve, Support, Favour, Comply, Adapt, Adjust, Suit",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Embarrass",
+          "meaning": "To make someone feel awkward, ashamed, or self-conscious.(  शͧ मर्मिंदा करना / संकोच में डालना )",
+          "examples": [
+            "He didn’t mean to embarrass her in front of the class."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Acclimate",
+          "meaning": "To become accustomed or adapted to a new climate, environment, or situation.",
+          "examples": [
+            "It took him a few weeks to acclimate to the new city."
+          ],
+          "synonyms": [
+            "(नए वातावरण या पǐरिस्थǓत के अनुकूल होना",
+            "अभ्यस्त होना)"
+          ]
+        },
+        {
+          "word": "Inure",
+          "meaning": "To become accustomed to something unpleasant or difficult.",
+          "examples": [
+            "Soldiers are inured to harsh living conditions."
+          ],
+          "synonyms": [
+            "(कǑठन या अͪ प्रिय चीज़ों का अभ्यस्त होना",
+            "सहनशील बन जाना )"
+          ]
+        },
+        {
+          "word": "Syn",
+          "meaning": "Accustom, Habituate, Harden, Condition, Adapt, Acclimate, Desensitize, Season, Toughen, Brace",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Hang in there",
+          "meaning": "Don’t give up; remain patient in a difficult situation.",
+          "examples": [],
+          "synonyms": [
+            "person” — thing",
+            "invention is more accurate).",
+            "handwriting",
+            "spelling)."
+          ]
+        }
+      ],
+      "raw_preview": ", page 32, copy 1.\nMaths Maestro\n\n\n--- PAGE 26 ---\n\nMaths Maestro\n         Maths Maestro SSC                          Maths Maestro - Vishesh Shukla\nExpedite:  To make a process happen faster; to speed up the progress of something.( ͩ कसी कायर्मा को तेज़ करना / \nशीघ्र पूरा करना )\nSyn : Accelerate, Hasten, Speed up, Fast-track, Advance\nEg. The authorities took steps to expedite the delivery of relie"
+    },
+    {
+      "day": 33,
+      "entries_count": 21,
+      "entries": [
+        {
+          "word": "Abyss",
+          "meaning": "A very deep or bottomless chasm; an immeasurably deep space or gulf.( अथाह गहराई / गहरी खाई / गतर्जि)",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Syn",
+          "meaning": "Chasm, Gulf, Void, Pit, Depth, Abysm, Cavern, Precipice, Deep, Gap",
+          "examples": [
+            "The climber stared into the dark abyss below."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Fissure",
+          "meaning": "A long, narrow crack or split in something, especially in rock or the earth.( दरार / लंबी संकीणर्जि दरार)",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Syn",
+          "meaning": "Crack, Crevice, Split, Rift, Cleft, Fracture, Chink, Break, Seam, Gap",
+          "examples": [
+            "A deep fissure appeared in the wall after the earthquake."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Deterrence",
+          "meaning": "The act of discouraging or preventing someone from doing something through fear of",
+          "examples": [],
+          "synonyms": [
+            "consequences.(भय द्वारा रोकथाम",
+            "हतोत्साहन)"
+          ]
+        },
+        {
+          "word": "Syn",
+          "meaning": "Prevention, Discouragement, Inhibition, Restraint, Check, Hindrance, Obstruction, Suppression,",
+          "examples": [
+            "Strict laws act as a deterrence against crime."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Plausible",
+          "meaning": "Seeming reasonable or likely to be true; believable.( संभाͪ वत / ͪ वश्वसनीय / तकर्जिसंगत प्रतीत होने वाला)",
+          "examples": [
+            "She gave a plausible explanation for her absence."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Syn",
+          "meaning": "Credible, Believable, Reasonable, Probable, Likely, Convincing, Acceptable, Sensible, Tenable,",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Improbable",
+          "meaning": "Not likely to happen or be true; unlikely.( असंभाͪ वत / अͪ वश्वसनीय)",
+          "examples": [
+            "It is highly improbable that he will miss the exam without a valid reason."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Syn",
+          "meaning": "Unlikely, Doubtful, Implausible, Unbelievable, Unthinkable, Questionable, Fantastic, Remote, Fanciful,",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Occurrence",
+          "meaning": "An event or something that happens or takes place.( घटना / घǑटत होना)",
+          "examples": [
+            "The occurrence of earthquakes in this region is quite frequent."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Syn",
+          "meaning": "Event, Happening, Incident, Occasion, Episode, Phenomenon, Case, Instance, Affair, Circurrence",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Economical",
+          "meaning": "Giving good value or saving money; not wasteful in the use of resources.(ͩ कफायती)",
+          "examples": [
+            "This car is very economical in fuel consumption."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Provident",
+          "meaning": "Showing foresight by preparing for the future; careful in managing resources.( दूरदशर्शी)",
+          "examples": [
+            "A provident person always saves money for future needs."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Syn",
+          "meaning": "Prudent, Thrifty, Frugal, Foresighted, Cautious, Economical, Saving, Wise, Discreet,",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Sagacious",
+          "meaning": "Having or showing keen mental discernment and good judgment; wise.(  बुद्ͬ धमान / ͪ ववेकी / सूझ-",
+          "examples": [
+            "The sagacious leader made decisions that benefited the nation."
+          ],
+          "synonyms": []
+        },
+        {
+          "word": "Accretion",
+          "meaning": "A gradual increase or growth by the addition of layers or parts over time.",
+          "examples": [
+            "The accretion of sediments slowly expanded the riverbank."
+          ],
+          "synonyms": [
+            "( क्रͧ मक वृद्ͬ ध",
+            "परत-दर-परत बढ़ोतरी",
+            "संचय)"
+          ]
+        },
+        {
+          "word": "Accrue",
+          "meaning": "To increase, accumulate, or be received gradually over time (especially money, benefits, or interest).",
+          "examples": [
+            "Interest will accrue on the savings account over time."
+          ],
+          "synonyms": [
+            "(क्रमशः जमा होना",
+            "बढ़ना",
+            "अिजर्जित होना)"
+          ]
+        },
+        {
+          "word": "Syn",
+          "meaning": "Accumulate, Gather, Amass, Collect, Increase",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "After a fashion",
+          "meaning": "To a limited extent; not completely or perfectly.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Level playing field",
+          "meaning": "A situation in which everyone has a fair and equal chance.",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": ", page 33, copy 1.\nMaths Maestro\n\n\n--- PAGE 30 ---\n\nMaths Maestro\n         Maths Maestro SSC                          Maths Maestro - Vishesh Shukla\nAbyss:  A very deep or bottomless chasm; an immeasurably deep space or gulf.( अथाह गहराई / गहरी खाई / गतर्जि)\nSyn : Chasm, Gulf, Void, Pit, Depth, Abysm, Cavern, Precipice, Deep, Gap\nEg. The climber stared into the dark abyss below.\nFissure: A long, n"
+    },
+    {
+      "day": 34,
+      "entries_count": 39,
+      "entries": [
+        {
+          "word": "Meaning",
+          "meaning": "To approach and speak to someone boldly or aggressively.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Approach, Address, Confront, Hail, Stop, Waylay, Challenge, Greet",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Example",
+          "meaning": "He was accosted by a stranger outside the station.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A thing that is added or attached to something larger or more important.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Ged",
+          "meaning": "Main cheez se juda extra add-on part.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Attachment, Addition, Extension, Adjunct, Supplement, Accessory, Outgrowth, Limb",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To add something to the end ofa document or writing.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "GewZ",
+          "meaning": "End mein extra cheez add kar dena.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Add, Attach, Annex, Affix, Supplement, Subjoin, Incorporate, Tag",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Having practical knowledge and good judgment; shrewd understanding.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Genz",
+          "meaning": "Smart samajh wala, practical dimaag type.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Shrewd, Astute, Insightful, Perceptive, Knowledgeable, Wise, Acumen, Understanding",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Example",
+          "meaning": "He is very tech-savvy and learns software quickly.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Having keen insight and sharp understanding.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Genz",
+          "meaning": "Bahut tez samajh wala, instantly pakadne wala.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Perceptive, Astute, Insightful, Discerning, Sharp, Observant, Sagacious, Penetrating",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Example",
+          "meaning": "The perspicacious student solved the puzzle quickly.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Having great wisdom and sound judgment.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Deep wise aur mature decision lene wala.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Wise, Sagacious, Judicious, Prudent, Discerning, Insightful, Sensible, Learned",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "/ Example",
+          "meaning": "The sapient leader guided the team wisely.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Having deep perception and quick understanding.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Genz",
+          "meaning": "Sharp observation wala, jaldi samajhne wala.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Perceptive, Insightful, Discerning, Astute, Observant, Perspicacious, Sharp, Sagacious",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "/ Example",
+          "meaning": "The percipient reader grasped the hidden message easily.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Clear, direct, and sharply analytical in thought or expression.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen",
+          "meaning": "Sharp thinking aur straight-point analysis wala.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Sharp, Penetrating, Acute, Insightful, Keen, Trenchant, Perceptive, Astute",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Based on instinctive understanding rather than conscious reasoning.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gerd",
+          "meaning": "Instinct se samajhne wala, natural feel type.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Instinctive, Perceptive, Insightful, Inherent, Innate, Natural, Spontaneous, Perceptual",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Example",
+          "meaning": "He made an intuitive decision without overthinking.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Excessive in spending, use, or display; lavish beyond necessity.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "GewZ",
+          "meaning": "Zarurat se zyada kharch aur show-off karne wala.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Excessive, Lavish, Immoderate, Prodigal, Wasteful, Opulent, Overindulgent, Luxurious",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Not showing foresight; wasteful and careless about future needs.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Genz",
+          "meaning": "Future na sochne wala, aaj hi sab uda dene wala.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Wasteful, Prodigal, Thriftless, Imprudent, Reckless, Extravagant, Shortsighted, Careless",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Example",
+          "meaning": "His improvident spending left him with no savings.",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": "For SSC CGL PRE and MAINS | Newspaper + PYQs + Mocks\n\nMeaning: To approach and speak to someone boldly or aggressively.\n|Gem-Z: Achanak jaake directly baat chipka dena.\nSynonyms: Approach, Address, Confront, Hail, Stop, Waylay, Challenge, Greet\n\nExample: He was accosted by a stranger outside the station.\n\nMeaning: A thing that is added or attached to something larger or more important.\n\nGed: Main "
+    },
+    {
+      "day": 35,
+      "entries_count": 32,
+      "entries": [
+        {
+          "word": "Meaning",
+          "meaning": "Recklessly wasteful and wildly extravagant in spending or behavior.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "; Paisa aur resources uda dene wala, fill wasteful nature ka.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Wasteful, Extravagant, Prodigal, Improvident, Reckless, Thriftless, Dissolute",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Lacking moderation or self-control; excessive or extreme.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Over karne wala, self-control kam nature ka.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Excessive, Immoderate, Unrestrained, Extreme, Overindulgent, Inordinate, Profligate, Extravagant",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Feeling continuous dull pain or deep hurt.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Sore, Throbbing, Painful, Tender, Hurting, Pained, Agonizing, Smarting",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To avoid or evade something skillfully or quickly.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Smartly bach nikalna ya avoid kar dena.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Evade, Avoid, Elude, Sidestep, Shun, Escape, Circumvent, Bypass",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Expressed clearly and briefly; concise and to the point.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Short, clear aur seedha bolne wala style.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Concise, Brief; Terse, Laconic, Crisp, Pithy, To-the-point",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Shortened by condensing while keeping the main meaning.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Full content ka short version bana hua.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Condensed, Shortened, Summarized, Concise, Compendious, Epitomized, Truncated, Digest",
+          "examples": [],
+          "synonyms": [
+            "FROLIC (N.",
+            "V.)"
+          ]
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Play or move about ina lively and carefree way.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Full masti mein khelna-koodna wala fun action.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Play, Romp, Gambol, Cavort, Lark, Sport, Revel, Prance",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Hard, dull, and repetitive work that is exhausting.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Roz ka boring tiring routine kaam type.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Toil, Grind, Labor, Slog, Chore, Tedium, Menial work, Hard work",
+          "examples": [],
+          "synonyms": [
+            "RUN ABOUT",
+            "RUN AROUND (Phrase)"
+          ]
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To move busily from place to place in a hurried way.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Kaam ke chakkar mein idhar-udhar bhaagte rehna.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Bustle, Scurry, Hurry, Rush about, Roam, Hustle, Move around, Dart about",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Grand display marked by splendor, ceremony, and magnificence.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Full grand show aur royal display type.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Grandeur, Splendor, Magnificence, Pageantry, Ostentation, Ceremony, Show, Display",
+          "examples": [],
+          "synonyms": [
+            "ANTIC (N.",
+            "Adj.",
+            "V.)"
+          ]
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Playful, funny, or absurd actions meant to amuse.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Funny masti wale actions karne wala behavior.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Prank, Caper, Frolic, Buffoonery, Tomfoolery, Escapade, Trick, Jest",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": "For SSC CGL PRE and MAINS | Newspaper + PYQs + Mocks\n\nPROFLIGATE (Adj.)\n\nMeaning: Recklessly wasteful and wildly extravagant in spending or behavior.\n\nGen-Z:; Paisa aur resources uda dene wala, fill wasteful nature ka.\n\nSynonyms: Wasteful, Extravagant, Prodigal, Improvident, Reckless, Thriftless, Dissolute\nExample 1: The profligate heir wasted his entire inheritance na few years.\n\nExample 2: His p"
+    },
+    {
+      "day": 36,
+      "entries_count": 36,
+      "entries": [
+        {
+          "word": "Meaning",
+          "meaning": "Comically or repulsively ugly or distorted.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Itna weird aur ugly looking wala ki dekhte hi ajeeb lage.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Ugly, Hideous, Deformed, Distorted, Monstrous, Bizarre, Repulsive, Misshapen",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "An adventurous or daring act, especially one that is reckless or mischievous.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "; Risky masti ya adventurous kaand type action.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Adventure, Prank, Caper, Antic, Frolic, Exploit, Mischief, Venture",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To deny, contradict, or declare to be untrue.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Seedha oppose karke deny kar dena.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Deny, Contradict, Refite, Dispute, Oppose, Rebut, Counter, Challenge",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To reject, refuse to accept, or disown something formally.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Officially reject ya clearly mana kar dena.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Reject, Disown, Renounce, Deny, Refuse, Dismiss, Rebuff, Abjure",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To pass gradually or slowly into something.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Dheere-dheere andar ghus ya spread ho jaana.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Penetrate, Percolate, Infiltrate, Soak into, Permeate, Filter, Diffuse into",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "The state of being calm, peacefil, and free from disturbance.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Full shanti aur peaceful mind wala calm state.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Calmness, Serenity, Peace, Repose, Equanimity, Equipoise, Composure, Stillness, Placidity",
+          "examples": [],
+          "synonyms": [
+            "REPOSE (N.",
+            "V.)"
+          ]
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A state of rest, sleep, or calm tranquility; to lie or be at rest.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Shanti se rest aur calm rehne wala peacefil state.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Rest, Relaxation, Calm, Peace, Serenity, Tranquillity, Composure, Ease",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Mental calmness and composure, especially in difficult situations.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Pressure mein bhi calm aur balanced rehne wala mindset.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Calmness, Composure, Serenity, Poise, Selfcontrol, Tranquillity, Equipoise, Balance",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "The state of being sober, serious, and showing self-control or moderation.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Controlled, serious aur disciplined calm state.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Seriousness, Temperance, Moderation, Self-control, Restraint, Composure, Gravity, Abstinence",
+          "examples": [],
+          "synonyms": [
+            "SOBER (Adj.",
+            "N.",
+            "V.)"
+          ]
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Not affected by alcohol; serious, calm, and sensible in manner or judgment.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Calm, sensible aur control mein rehne wala insaan/personality type.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Serious, Sensible, Calm, Composed, Rational, Temperate, Grave, Level-headed",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "The practice of deliberately refraining from indulgence, especially in alcohol or pleasures.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Selfcontrol se kisi cheez se door rehne wala disciplined state.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Self-restraint, Temperance, Sobriety, Restraint, Selfdenial, Moderation, Refrainment, Continence",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Serious, calm, steady, and not easily excited or emotional.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Bahut serious, composed aur stable nature wala insaan.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Serious, Sedate, Sober, Composed, Dignified, Reserved, Grave, Placid",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": "For SSC CGL PRE and MAINS | Newspaper + PYQs + Mocks\n\nGROTESQUE (Adj.)\n\nMeaning: Comically or repulsively ugly or distorted.\n\nGen-Z: Itna weird aur ugly looking wala ki dekhte hi ajeeb lage.\n\nSynonyms: Ugly, Hideous, Deformed, Distorted, Monstrous, Bizarre, Repulsive, Misshapen\nExample 1: The grotesque mask frightened the children.\n\nExample 2: The painting showed a grotesque figure.\n\nESCAPADE (N.)"
+    },
+    {
+      "day": 37,
+      "entries_count": 36,
+      "entries": [
+        {
+          "word": "Meaning",
+          "meaning": "The state of voluntarily abstaining from marriage and sexual relations.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Shaadi aur sexual relations se door rehne ki disciplined state.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Chastity, Abstinence, Continence, Sexual abstinence, Purity, Self-restraint",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Lasting for a very long time; continuing or recurring repeatedly.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "; Aisi quality ya problem jo hamesha rehti hai ya baar-baar hoti rehti hai.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Everlasting, Enduring, Persistent, Perpetual, Constant, Continuous, Recurring, Long-lasting",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Lasting for a long time; enduring and permanent.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Enduring, Lasting, Permanent, Persistent, Everlasting, Steadfast, Unfading, Constant",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Under constant pressure, attack, or trouble from many sides.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Besieged, Embattled, Harassed, Troubled, Pressured, Persecuted, Oppressed, Overburdened",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A city that is surrounded and under continuous attack or severe pressure.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Besieged city, Encircled city, Blockaded city, Under-siege city, Embattled city, War-torn city (contextual)",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "In a difficult situation with very limited choices or no easy escape.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Aisi situation jahan banda phas gaya ho aur koi easy option na ho.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Ina fix, Ina bind, Ina dilemma, Cornered, Ina spot, In trouble, Ina pickle (informal)",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Serious, sincere, and formal in manner or expression.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Aisa serious aur sincere mood ya behaviour jahan mazaak bilkul nahi hota.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Serious, Grave, Sincere, Earnest, Dignified, Formal, Somber, Austere",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Forming a united whole; well-connected and working together smoothly.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Aisi group quality jahan sab parts properly connected ho aur unity se kaam karen.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Unified, United, Integrated, Well-knit, Coherent, Harmonious, Connected, Consolidated",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Having the quality of sticking firmly to a surface or object.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Sticky, Tacky, Gluey, Gummy, Bonding, Glutinous, Viscid (contextual)",
+          "examples": [],
+          "synonyms": [
+            "ADHERENT (Adj.",
+            "N.)"
+          ]
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Sticking firmly to something; a person who strongly supports a belief or idea.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "(Adj.) Aisi quality jo kisi cheez se chipki rahe. / (N.) Aisa insaan jo kisi idea ya belief ko strongly support kare.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Very determined; holding firmly and not giving up easily.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Persistent, Determined, Resolute, Dogged, Unyielding, Steadfast, Firm, Stubborn (contextual)",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To defeat someone completely and decisively.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Kisi ko completely hara dena ya dominate karke jeet jaana.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Defeat, Conquer, Overcome, Subdue, Crush, Rout, Triumph over, Beat decisively",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To defeat someone heavily or in a one-sided manner.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Kisi ko buri tarah se hara dena — one-sided jeet maar dena.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Thrash, Rout, Crush, Drub, Hammer, Clobber (informal), Beat soundly, Overwhelm",
+          "examples": [],
+          "synonyms": [
+            "GET THE BETTER OF (Idiom",
+            "Phrasal Verb)"
+          ]
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To defeat, outsmart, or gain an advantage over someone or something.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Kisi par upper hand le lena ya smartly jeet jaana.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Overcome, Outwit, Outmaneuver, Prevail over, Gain the upper hand, Surpass, Defeat",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": "For SSC CGL PRE and MAINS | Newspaper + PYQs + Mocks\n\nCELIBACY (N.)\n\nMeaning: The state of voluntarily abstaining from marriage and sexual relations.\nGen-Z: Shaadi aur sexual relations se door rehne ki disciplined state.\n\nSynonyms: Chastity, Abstinence, Continence, Sexual abstinence, Purity, Self-restraint\nExample 1: He chose celibacy to focus on his spiritual life.\n\nExample 2: The monk observed c"
+    },
+    {
+      "day": 38,
+      "entries_count": 25,
+      "entries": [
+        {
+          "word": "Meaning",
+          "meaning": "Filled with bitter criticism or extreme verbal anger.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Aisi language ya tone jo bahut toxic, harsh aur gusse bhari ho.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Caustic, Acrimonious, Scathing, Venomous, Rancorous, Bitter, Harsh",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Very sharp, clear, and forcefill in expression or analysis.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "; Aisi baat ya analysis jo sharp, direct aur strongly impactful ho.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Incisive, Sharp, Penetrating, Cutting, Insightful, Cogent, Forceful",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Sharp, harsh, and severe in tone; also causing tightening effect.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "; Aisi tone ya taste jo sharp, kadvi aur thodi harsh feel ho.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Harsh, Caustic, Acerbic, Severe, Stern, Bitter, Sharp",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Sharply critical and biting, often with sarcasm.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Caustic, Acerbic, Biting, Cutting, Sardonic, Sarcastic, Scathing",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Extremely hostile, bitter, or highly harmful; very intense.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "; Aisi hate, criticism ya disease jo extremely intense aur aggressive ho.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Hostile, Bitter, Venomous, Malicious, Rancorous, Severe, Toxic",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Causing serious harm in a gradual or hidden way.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Aisi cheez jo dheere-dheere hidden way me bahut damage kare.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Harmfil, Destructive, Detrimental, Deleterious, Insidious, Damaging, Toxic",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Having a desire to do harm; evil in intention.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Malicious, Evil, Spiteful, Hostile, Vicious, Ill-willed, Nefarious",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A sudden release of strong emotion like anger, joy, or tears.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Achanak se strong emotions ka phat padna wali situation.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Eruption, Explosion, Flare-up, Burst, Fit, Tantrum, Emotional eruption",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Threatening harm; having an evil or destructive influence.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Aisi look, effect ya intention jo dangerous, evil aur harm karne wali ho.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Menacing, Ominous, Sinister, Malevolent, Malignant, Threatening, Dire",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": "For SSC CGL PRE and MAINS | Newspaper + PYQs + Mocks\n\nVITRIOLIC (Adj.)\n\nMeaning: Filled with bitter criticism or extreme verbal anger.\n\nGen-Z: Aisi language ya tone jo bahut toxic, harsh aur gusse bhari ho.\nSynonyms: Caustic, Acrimonious, Scathing, Venomous, Rancorous, Bitter, Harsh\nExample 1: The speech was fill of vitriolic attacks on the opposition.\n\nExample 2: He posted vitriolic comments onli"
+    },
+    {
+      "day": 39,
+      "entries_count": 28,
+      "entries": [
+        {
+          "word": "Meaning",
+          "meaning": "A large number or great quantity of something.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Bahut zyada quantity me ek saath hone wali cheezon ki situation.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Multitude, Plenty, Host, Mass, Heap, Numerous amount",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Understood or implied without being directly stated in words.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "; Aisi understanding jo bina bole hi samajh aa jaaye.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Implicit, Unspoken, Implied, Unstated, Inferred, Silent",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "An indirect or subtle suggestion, usually with a negative meaning.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Seedha na bolkar indirectly negative hint dene wali baat.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Hint, Suggestion, Implication, Allusion, Intimation, Inference",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Reserved and speaking very little; naturally quiet.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Aisa insaan jo naturally quiet ho aur bahut kam bole.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Reserved, Reticent, Silent, Quiet, Uncommunicative, Introverted (contextual)",
+          "examples": [],
+          "synonyms": [
+            "GLUT (N.",
+            "V.)"
+          ]
+        },
+        {
+          "word": "Meaning",
+          "meaning": "An excessive supply of something; to overfill or flood beyond capacity.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "(N.) Bahut zyada excess quantity ka overload hona. / (V.) Itna bhar dena ki oversupply ho jaye.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A person who eats or consumes excessively; someone with extreme desire for something.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "; Aisa insaan jo bahut zyada consume kare ya over-lalach rakhe.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Overeater, Voracious eater, Greedy eater, Excessive consumer, Gourmand (contextual)",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To ruin or cause something to fail completely.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Kisi plan ya cheez ko totally fail ya barbaad kar dene wali action.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Ruin, Wreck, Sabotage, Doom, Thwart, Destroy",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Efforts made to reach out and help or connect with people.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Logon tak actively pahunch kar help ya connect karne wali effort situation.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Public engagement, Community service, Reach-out efforts, Extension work, Assistance drive",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "The act of absorbing, receiving, or accepting something.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Absorption, Intake, Assimilation, Acceptance, Reception, Adoption",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To encourage, fuel, or intensify emotions, conflict, or interest.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Emotion, hype ya situation ko aur zyada bhadka dena ya boost karna wali action.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Fuel, Ignite, Fan, Incite, Provoke, Intensify",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": "For SSC CGL PRE and MAINS | Newspaper + PYQs + Mocks\n\nRAFT (N.)\n\nMeaning: A large number or great quantity of something.\n\nGen-Z: Bahut zyada quantity me ek saath hone wali cheezon ki situation.\nSynonyms: Multitude, Plenty, Host, Mass, Heap, Numerous amount\nExample 1: The company received a raft of complaints.\n\nExample 2: A raft of new rules was introduced this year.\n\nTACIT (Adj.)\n\nMeaning: Underst"
+    },
+    {
+      "day": 40,
+      "entries_count": 35,
+      "entries": [
+        {
+          "word": "Meaning",
+          "meaning": "A small glowing piece of coal or wood remaining in a dying fire.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Aag ka chhota sa jalta hua tukda jo dheere-dheere glow karta rahe.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Cinder, Live coal, Glowing coal, Spark (contextual), Ash ember",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To produce good results or become fruitful after effort or time.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Bear fruit, Yield results, Materialize, Produce, Come to fruition, Prosper",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To deliberately ruin or cause something to fail; also to move quickly with short steps.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "(V.) Plan ko jaan-bujhkar fail kar dena / ya jaldi-jaldi chhote steps me move karna.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Sabotage, Ruin, Wreck, Scupper, Sink, Dash, Scamper (movement context)",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Not showing someone in an attractive or favorable way.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Aisi photo, comment ya view jo kisi ko achha ya attractive na dikhaye.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Uncomplimentary, Unfavorable, Disparaging, Critical, Detracting, Negative",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Steady and firm without weakening in determination or support.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "; Aisi determination ya support jo bilkul bhi na hile aur consistently strong rahe.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Steadfast, Unwavering, Firm, Resolute, Constant, Undaunted",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A warning or caution given before something to prevent problems or misunderstanding.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Pehle se diya gaya warning ya caution taaki baad me issue na ho.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Warning, Caution, Disclaimer, Advisory, Reservation, Condition",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To warn or correct someone firmly in a serious but often gentle way.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Kisi ko firmly samjhana ya warn karna taaki wo galti na repeat kare.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Warn, Rebuke, Reprimand, Chide, Counsel, Advise",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To strongly criticize or express formal disapproval.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Kisi galti ko strongly criticize ya officially disapprove karna wali action.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Rebuke, Reprove, Censure, Condemn, Blame, Admonish",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A firm warning or gentle reprimand meant to correct behavior.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Sudharne ke liye diya gaya serious warning ya samjhane wali baat ki situation.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Warning, Reprimand, Rebuke, Reproof, Caution, Counsel",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A condition attached to an agreement or arrangement.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Deal ya rule ke saath judi hui specific condition wali situation.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Condition, Clause, Stipulation, Requirement, Reservation, Qualification",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A person authorized to act on behalf of another.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Representative, Agent, Substitute, Delegate, Stand-in, Nominee",
+          "examples": [],
+          "synonyms": [
+            "SUBALTERN (N.",
+            "Adj.)"
+          ]
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A person of lower rank or status; relating to a subordinate position.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "(N.) Lower rank position wala insaan. / (Adj.) Lower status ya subordinate position se related quality.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A person who manages aflairs or acts as an official agent for another.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Agent, Representative, Administrator, Delegate, Steward, Manager",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": "For SSC CGL PRE and MAINS | Newspaper + PYQs + Mocks\n\nEMBER (N.)\n\nMeaning: A small glowing piece of coal or wood remaining in a dying fire.\nGen-Z: Aag ka chhota sa jalta hua tukda jo dheere-dheere glow karta rahe.\nSynonyms: Cinder, Live coal, Glowing coal, Spark (contextual), Ash ember\nExample 1: The embers of the fire were still warm at night.\n\nExample 2: He stirred the embers to keep the fire al"
+    },
+    {
+      "day": 41,
+      "entries_count": 48,
+      "entries": [
+        {
+          "word": "Meaning",
+          "meaning": "To scold or criticize someone officially for a mistake or wrongdoing.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab kisi ko uski galti ke liye formally daant lagti hai, especially by a boss, teacher, ya authority.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Scold, Rebuke, Admonish, Reprove, Chastise, Criticize",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To guess or assume something without having complete proof:",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab bina full evidence ke kisi situation ke baare mein logical guess laga do.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Guess, Assume, Infer, Conclude, Speculate, Presume",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To form an opinion or conclusion based on incomplete information.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab proper proof na ho, lekin clues dekhkar strong guess bana lo.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Speculate, Assume, Surmise, Infer, Hypothesize, Presume",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To publicize or promote something loudly and repeatedly.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab kisi cheez ka over promotion karo — har jagah uska danka bajana.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Publicize, Promote, Hype, Advertise, Broadcast, Proclaim",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A feeling of dissatisfaction, discontent, or lack of loyalty toward authority, a system, or an organization.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab system, government, ya kisi authority se mann uth jaye — loyalty khatam ho jaye.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Discontent, Dissatisfaction, Resentment, Alienation, Disloyalty, Displeasure",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A feeling of annoyance or dissatisfaction, especially because of unfair treatment.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab kisi baat se irritate ho jao ya andar hi andar khafa ho jao — thoda sa \"andar ka gussa.\"",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Annoyance, Discontent, Dissatisfaction, Irritation, Resentment, Grievance",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A feeling of slight anger or irritation caused by something unpleasant or disturbing.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab koi choti si cheez baar-baar irritate kare — halka sa gussa ya chidh.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Irritation, Displeasure, Frustration, Aggravation, Vexation, Discomfort",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A secret meeting between two people, especially lovers.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab kisi se chup-chup ke milne ka plan ho — secret romantic meetup.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Tryst, Rendezvous, Meeting, Appointment, Encounter",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Characterized by moral decline, excessive luxury, or self-indulgence.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab koi insaan ya society over-luxury, comfort, ya enjoyment mein itni doob jaye ki values girne",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Self-indulgent, Corrupt, Immoral, Luxurious, Degenerate, Excessive, Dissolute, Debauched, Louche",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Excessive indulgence in sensual pleasures such as alcohol, parties, or immoral activities.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab banda fill control chhodkar pleasure, party, ya bad habits mein overdo kar de — total wild",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Dissipation, Immorality, Corruption, Decadence, Vice, Profligacy, Depravity",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Of questionable morality or reputation; slightly disreputable in an intriguing way.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Thoda shady type — classy bhi lagta hai but character doubttill sa ho.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Disreputable, Shady, Dissolute, Debauched, Decadent, Sleazy",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Lacking moderation or self-control; excessive in behavior, speech, or actions.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab banda control lose kar de — zyada hi extreme ho jaye, chahe gussa ho ya enjoyment.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Excessive, Immoderate, Overindulgent, Intense, Unrestrained, Extravagant",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To scatter, disperse, or gradually disappear; to waste something like time, money, or energy.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Ya toh cheez hawa mein udh jaaye (spread ho kar khatam ho jaye), ya phir resources faltu mein",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Disperse, Scatter, Vanish, Evaporate, Waste, Squander",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A yellow metal made of copper and zinc; also used informally to mean boldness or shameless confidence.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Ya toh ek metal (peetal), ya phir jab kisi mein full besharmi ya zabardast confidence ho — \"kitni",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": " ¢ = (Metal) Alloy, Bronze-like metal",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "The highest-ranking officials or senior leaders in an organization, especially in the military or corporate",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Company ya army ke sabse bade bosses — jo real decision-makers hote hain.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Senior officials, High command, Executives, Leadership, Higher-ups, Authorities",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "More than is reasonable, appropriate, or necessary; excessive or unjustified.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab koi cheez zarurat se zyada ho — extra pressure, extra tension, bina reason ke.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Excessive, Unwarranted, Unjustified, Improper, Inappropriate, Disproportionate",
+          "examples": [],
+          "synonyms": [
+            "DISAFFECTION - Loss of loyalty",
+            "discontent",
+            "ANNOYANCE - Light anger",
+            "irritation",
+            "14. BRASS - Metal OR audacity",
+            "nerve",
+            "15. TOP BRASS - Senior officials",
+            "leaders"
+          ]
+        }
+      ],
+      "raw_preview": "- SSC CGL PRE & MAINS\n\nNewspapers + PYQs + Mocks\n\n4. IMPORTANT NOTE: This vocabulary list combines words from newspapers, SSC CGL PYQs, and mock\ntests. Direct questions from these words are commonly seen in SSC CGL Pre & Mains exams. Master these for\nguaranteed marks in the vocabulary/antonym sections!\n\n1. REPRIMAND (V.)\n\nMeaning: To scold or criticize someone officially for a mistake or wrongdoin"
+    },
+    {
+      "day": 42,
+      "entries_count": 58,
+      "entries": [
+        {
+          "word": "Meaning",
+          "meaning": "To make or repair something quickly using whatever materials are available.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab koi cheez jaldi-jaldi jugaad se bana di jaye, bas kaam chalane ke liye.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Improvise, Patch up, Mend, Repair, Assemble, Fix",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Rough or harsh in texture or manner.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab koi cheez khurduri ya rude ho, chahe surface ho ya language.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Rough, Harsh, Crude, Rugged, Unrefined, Abrasive",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To remain floating or staying near in one place.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab koi cheez hawa mein ek jagah mandrati rahe, ya koi insaan paas hi khada rahe.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Float, Linger, Hang, Drift, Loiter, Stay nearby",
+          "examples": [],
+          "synonyms": [
+            "4. SHRIEK (V.",
+            "N.)"
+          ]
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A loud, high-pitched cry of fear or excitement.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab koi bahut tez aur sharp awaaz mein chillata hai.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Scream, Screech, Yell, Cry, Howl, Squawk",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A very sharp and high-pitched sound.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab awaaz kaan chubhane wali patli aur sharp ho.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Piercing, Sharp, High-pitched, Strident, Screeching, Ear-splitting",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab koi har situation mein positive rahe — \"sab ho jayega\" attitude.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Optimistic, Hopefil, Positive, Upbeat, Confident",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab koi colour blood jaisa deep red ho.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Crimson, Scarlet, Blood-red, Ruddy",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Involving bloodshed or extreme violence.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab bahut violent situation ho jisme khoon-kharaba ho.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Bloody, Brutal, Violent, Savage, Bloodthirsty",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab koi cheez paani par aasani se tairti rahe.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Floating, Afloat, Light, Suspended",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab mood bahut energetic aur positive ho.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Cheerful, Optimistic, Upbeat, Lively",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Very small, weak, or insignificant.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab koi cheez bahut chhoti ya weak ho — bilkul dum nahi.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Weak, Feeble, Tiny, Small, Insignificant, Meagre",
+          "examples": [],
+          "synonyms": [
+            "10. WRINKLE (N.",
+            "V.)"
+          ]
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Skin par chhoti-chhoti age lines.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Crease, Furrow, Line, Fold",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab kapda ya skin sikud jaye.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Crease, Crumple, Pucker, Fold",
+          "examples": [],
+          "synonyms": [
+            "11. SLACK (Adj.",
+            "V.",
+            "N.)"
+          ]
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab koi cheez dhili ho jaye.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Loose, Lax, Drooping, Sagging",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab koi kaam mein dheela pad jaye.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Lazy, Negligent, Idle, Careless",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Very slow and lacking energy.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab body ya kaam bahut slow ho jaye.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Slow, Lethargic, Lazy, Dull, Torpid",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Unable to move or act.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab koi bilkul inactive ho — zero movement.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Motionless, Passive, Immobile, Lifeless",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Weak or lacking energy.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab thakaan ya garmi se energy low ho jaye.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Lethargic, Sluggish, Weak, Listless",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Habitually lazy.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab koi kaam karna hi nahi chahta — fill aalsi mode.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Lazy, Idle, Slothful, Work-shy",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Showing little enthusiasm or effort.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab koi carelessly kaam kare — na interest, na effort.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Careless, Apathetic, Lazy, Indifferent",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Lacking energy or interest.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab koi bikul dull aur uninterested ho.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Lethargic, Sluggish, Apathetic, Weary",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Lazy and lacking ambition.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab koi kaam se bhagne wala aur aimless ho.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Lazy, Idle, Indolent, Slothful",
+          "examples": [],
+          "synonyms": [
+            "COBBLE Make",
+            "repair quickly with jugaad",
+            "SANGUINARY Involving bloodshed",
+            "violence",
+            "WRINKLE Crease",
+            "line OR to form folds"
+          ]
+        }
+      ],
+      "raw_preview": "- SSC CGL PRE & MAINS\n\nNewspapers + PYQs + Mocks\n\n4. IMPORTANT NOTE: This vocabulary list combines words from newspapers, SSC CGL PYQs, and mock\ntests. Direct questions from these words are commonly seen in SSC CGL Pre & Mains exams. Master these for\nguaranteed marks in the vocabulary/antonym sections!\n\n1. COBBLE (V.)\n\nMeaning: To make or repair something quickly using whatever materials are avail"
+    },
+    {
+      "day": 43,
+      "entries_count": 47,
+      "entries": [
+        {
+          "word": "Meaning",
+          "meaning": "Strong verbal or written attacks on someone's opinions or beliefs.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab koi public mein kisi ke ideas par aggressive criticism kare — debate ka attack mode.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Controversy, Dispute, Argument, Debate, Diatribe, Criticism",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "The act of proving an argument or statement wrong.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab kisi claim ko strong evidence se galat prove kar diya jaye.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Rebuttal, Denial, Disproof, Contradiction, Counterargument, Rejection",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab koi dusron ki galtiyaan nikaalta hai ya criticize karta hai.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Fault-finding, Disapproving, Judgmental, Censorious, Disparaging",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab koi situation bahut important stage par ho.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Crucial, Vital, Essential, Decisive, Pivotal",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Showing strong dislike or aggression.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab koi dushmani wala attitude rakhe — aggressive ya unfriendly ho.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Unfriendly, Aggressive, Antagonistic, Adverse, Belligerent, Opposed",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab koi disease bahut dangerous aur fast-spreading ho.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Deadly, Poisonous, Toxic, Harmful, Malignant",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab bahut aggressive aur hateful criticism ho.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Bitter, Hostile, Malicious, Vicious, Venomous",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Filled with bitter and hateful criticism.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab koi bahut zahreeli language mein attack kare.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Bitter, Caustic, Acidic, Venomous, Malicious, Acrimonious",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A person who takes part in an argument or debate.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jo debate ya argument mein actively participate kare.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Debater, Arguer, Opponent, Contender, Challenger, Adversary",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Domineering and controlling toward others.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab koi bahut dominate kare aur dusron par apni marzi thope.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Domineering, Bossy, Arrogant, Tyrannical, Authoritarian",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Comprehensive or covering everything.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab koi idea sab chhoti cheezon ko cover kare — overall main objective.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Comprehensive, Broad, Inclusive, Extensive, All-encompassing",
+          "examples": [],
+          "synonyms": [
+            "10. AUTHORITARIAN (Adj.",
+            "N.)"
+          ]
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Favoring strict obedience to authority and limiting freedom.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab koi strict control rakhe aur bas obey karne ko bole.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Dictatorial, Autocratic, Tyrannical, Despotic, Oppressive",
+          "examples": [],
+          "synonyms": [
+            "11. OFFHAND (Adj.",
+            "Adv.)"
+          ]
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab koi bina soche ya casually bol de.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Casual, Spontaneous, Impromptu, Unplanned, Hasty",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab koi thoda rude tone mein jawab de.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Curt, Dismissive, Abrupt, Indifferent",
+          "examples": [],
+          "synonyms": [
+            "12. YELP (V.",
+            "N.)"
+          ]
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A short, sharp cry of pain or surprise.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab koi achanak chhoti par tez awaaz nikaale.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Squeal, Cry out, Yip, Bark, Shriek",
+          "examples": [],
+          "synonyms": [
+            "13. SQUALL (N.",
+            "V.)"
+          ]
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab achanak tez hawa aur baarish ka short storm aa jaye.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Storm, Gale, Tempest, Gust, Windstorm",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab koi zor-zor se rota ya chillata hai.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Wail, Bawl, Scream, Yell",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab lambi aur tez awaaz nikle — wolffdog jaisi.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Yowl, Wail, Yelp, Cry, Roar",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab koi bahut zor se rota ya hasta hai.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Bawl, Roar, Shriek, Scream",
+          "examples": [],
+          "synonyms": [
+            "POLEMICS Strong aggressive criticism",
+            "debate",
+            "VIRULENT Extremely harmful",
+            "dangerous OR bitter criticism",
+            "DISPUTANT Person in debate",
+            "argument",
+            "AUTHORITARIAN Favoring strict obedience",
+            "control",
+            "OFFHAND Casual, without prep OR rude",
+            "dismissive",
+            "SQUALL Sudden storm",
+            "wind OR cry loudly",
+            "HOWL Long loud cry like wolf OR cry",
+            "laugh loudly"
+          ]
+        }
+      ],
+      "raw_preview": "- SSC CGL PRE & MAINS\n\nNewspapers + PYQs + Mocks\n\n4. IMPORTANT NOTE: This vocabulary list combines words from newspapers, SSC CGL PYQs, and mock\ntests. Direct questions from these words are commonly seen in SSC CGL Pre & Mains exams. Master these for\nguaranteed marks in the vocabulary/antonym sections!\n\n1. POLEMICS (N.)\n\nMeaning: Strong verbal or written attacks on someone's opinions or beliefs.\n\n"
+    },
+    {
+      "day": 44,
+      "entries_count": 39,
+      "entries": [
+        {
+          "word": "Meaning",
+          "meaning": "Self-confidence and composure, especially in a difficult situation.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Tough situation mein bhi calm aur confident rehne wala attitude.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Composure, Poise, Assurance, Confidence, Collectedness, Sangftoid, Equanimity, Self-possession",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A confident manner or feeling of certainty.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Apne upar strong confidence hone ka attitude.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Confidence, Certainty, Self confidence, Conviction, Poise, Composure",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Requiring much effort, skill, or attention.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Bahut effort, time ya skill maangne wala.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Challenging, Difficult, Tough, Arduous, Exacting, Taxing, Rigorous",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A state in which opposing forces or influences are balanced.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Perfect balance ki state.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Balance, Stability, Harmony, Evenness, Steadiness",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "The state of remaining calm and composed.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Tough situation mein bhi calm aur controlled rehne ka attitude.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Composure, Calmness, Poise, Equanimity, Sangfroid, Selfcontrol",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Calmness and self-control, especially in a difficult situation.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Danger ya pressure wali situation mein bhi panic na karne wala attitude.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Composure, Coolness, Aplomb, Equanimity, Collectedness, Selfpossession",
+          "examples": [],
+          "synonyms": [
+            "7. PLEDGE (N.",
+            "V.)"
+          ]
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A serious promise or commitment.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Kisi kaam ko karne ka strong promise.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Promise, Oath, Vow, Commitment, Assurance, Guarantee",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Not bragging about one's abilities or achievements.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Apni achievements ka show-off na karne wala.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Humble, Unassuming, Self-effacing, Reserved, Meek, Unpretentious, Low-key, Down-to-earth",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Shy because of lack of self-confidence.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Selfconfidence kam hone ki wajah se shy rehne wala.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Shy, Timid, Bashful, Hesitant, Insecure, Reserved, Meek",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Characterized by showy display to impress others.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Wealth ya achievements ka show-off karne wala.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Showy, Flashy, Pretentious, Gaudy, Flamboyant, Extravagant, Pompous",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Not showy or pretentious; simple and modest.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Show-off na karne wala; simple rehne wala.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Modest, Simple, Humble, Unpretentious, Plain, Low-key, Down-to-earth",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "The quality or state of being calm.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Complete peace aur calmness ki state.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Calmness, Serenity, Peace, Quietness, Stillness, Equanimity, Harmony",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Reserved, modest, and shy in behavior.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Shy aur modest nature wala.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Modest, Reserved, Bashful, Meek, Coy, Reticent, Unassuming",
+          "examples": [],
+          "synonyms": [
+            "ASSURANCE Confident manner",
+            "certainty",
+            "DEMANDING Requiring much effort",
+            "skill",
+            "PLEDGE Serious promise",
+            "commitment"
+          ]
+        }
+      ],
+      "raw_preview": "- SSC CGL PRE & MAINS\n\nNewspapers + PYQs + Mocks\n\n4. IMPORTANT NOTE: This vocabulary list combines words from newspapers, SSC CGL PYQs, and mock\ntests. Direct questions from these words are commonly seen in SSC CGL Pre & Mains exams. Master these for\nguaranteed marks in the vocabulary/antonym sections!\n\n1. APLOMB (N.)\n\nMeaning: Self-confidence and composure, especially in a difficult situation.\n\nG"
+    },
+    {
+      "day": 45,
+      "entries_count": 39,
+      "entries": [
+        {
+          "word": "Meaning",
+          "meaning": "Done quietly or without attracting much attention.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Koi cheez chup-chaap ya subtle way mein karna, zyada show-off nahi.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Subtle, Quiet, Understated, Discreet, Reserved, Muted, Unobtrusive, Private, Downplayed",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Having a humble opinion of one's abilities; not boastful.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Aisa banda jo apni achievements ka show-off nahi karta.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Humble, Unassuming, Self-effacing, Unpretentious, Down-to-earth, Reserved, Meek, Demure",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A very large or excessive amount.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "K isi cheez ki bahut zyada quantity hone ki situation.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Excess, Surplus, Abundance, Glut, Overflow, Profision, Multitude, Myriad, Cornucopia",
+          "examples": [],
+          "synonyms": [
+            "4. SURFEIT (Noun",
+            "Verb)"
+          ]
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Excessive amount; more than needed.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": " ¢ Noun — Kisi cheez ki itni zyada quantity ki bore ho jao.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Excess, Glut, Surplus, Overabundance, Oversupply, Overflow, Profusion",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Enough or more than enough.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "K isi cheez ki comfortably enough quantity hona.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Abundant, Plentiful, Copious, Generous, Sufficient, Adequate, Substantial",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Ordinary; not particularly special.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Bilkul normal banda ya cheez — koi khas baat nahi.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Ordinary, Average, Typical, Common, Mediocre, Routine, Unremarkable",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Thinly scattered; not dense.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Quantity bahut kam ho aur cheezein door-door ho.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Scanty, Scarce, Meagre, Thin, Limited, Patchy, Scattered, Rare",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Sullen and gloomy.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Aisa banda jo udaas aur irritated mood mei rahta ho.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Gloomy, Sullen, Moody, Sulky, Melancholy, Dour, Glum",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A small piece or amount.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "K isi cheez ka chhota sa tukda ya little bit.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Bit, Bite, Fragment, Crumb, Particle, Scrap, Tidbit",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A small quantity of something.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Thodi si quantity / little amount.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Small amount, Bit, Trace, Hint, Particle, Touch",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Happening at the right time as if by divine help or luck.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Aisi cheez jo perfect time par ho jaye aur lage kismat ne help kar di.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Fortunate, Lucky, Opportune, Favorable, Heaven-sent, Blessed",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Happening by chance or accident.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Achanak chance se ho jana — plan nahi tha.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Accidental, Chance, Coincidental, Random, Unplanned, Unexpected",
+          "examples": [],
+          "synonyms": [
+            "13. FLAKE (Noun",
+            "Verb)"
+          ]
+        },
+        {
+          "word": "Meaning",
+          "meaning": " ¢ Noun: Small thin piece broken off.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": " ¢ Noun — Kisi cheez ka patla sa tukda.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": " ¢ Noun: Chip, Fragment, Particle, Crumb",
+          "examples": [],
+          "synonyms": [
+            "PLETHORA Very large",
+            "excessive amount",
+            "MORSEL Small piece",
+            "amount",
+            "Happening by chance",
+            "accident"
+          ]
+        }
+      ],
+      "raw_preview": "- SSC CGL PRE & MAINS\n\nNewspapers + PYQs + Mocks\n\n4. IMPORTANT NOTE: This vocabulary list combines words from newspapers, SSC CGL PYQs, and mock\ntests. Direct questions from these words are commonly seen in SSC CGL Pre & Mains exams. Master these for\nguaranteed marks in the vocabulary/antonym sections!\n\n1. LOWKEY (Adj./Adv.)\n\nMeaning: Done quietly or without attracting much attention.\n\nGen-Z Expla"
+    },
+    {
+      "day": 46,
+      "entries_count": 45,
+      "entries": [
+        {
+          "word": "Meaning",
+          "meaning": "To officially declare someone not guilty ofa crime or wrongdoing.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Kisi par laga blame ya accusation hata dena aur prove ho jana ki woh innocent hai.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Absolve, Acquit, Clear, Vindicate, Discharge, Pardon, Justify, Exculpate, Extricate",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To mention something as an example, proof, or authority.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Kisi baat ko example, proof, ya reference ke taur par mention karna to support an argument.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Quote, Refer, Mention, Invoke, Allude, Adduce",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To strongly encourage or try to persuade someone to do something.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Kisi ko strongly kehna ya push karna ki woh koi kaam kare.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Encourage, Press, Persuade, Prompt, Exhort, Advocate",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To gently push or encourage someone to do something.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Kisi ko halka sa push ya hint dena taaki woh koi kaam kare.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Prod, Prompt, Encourage, Push, Spur, Motivate",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To persuade someone by flattery or gentle coaxing.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Kisi ko meethi baaton ya buttering se mana lena.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Coax, Cajole, Sweet-talk, Flatter, Blandish",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To strongly encourage or urge someone to do something.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Kisi ko seriously motivate ya strongly kehna ki woh koi kaam kare.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Urge, Encourage, Press, Persuade, Advocate, Enjoin",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To persuade or influence someone to do something; to cause something.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Kisi ko influence karke koi kaam karwana.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Persuade, Influence, Prompt, Lead, Motivate, Incite",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To drive or force someone to take action.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Koi strong reason ya feeling andar se push kare ki tum action lo.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Compel, Drive, Propel, Urge, Force, Motivate",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To provoke or irritate someone so that they react.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Kisi ko taunt ya chidhakar reaction dilwana.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Prod, Provoke, Spur, Incite, Agitate, Needle",
+          "examples": [],
+          "synonyms": [
+            "10. DELUGE (N.",
+            "V.)"
+          ]
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A severe flood or overwhelming amount.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab bahut zyada quantity ek saath aa jaye, like flood of messages.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Flood, Inundation, Torrent, Overflow, Avalanche, Outpouring",
+          "examples": [],
+          "synonyms": [
+            "11. MANOEUVRE (N.",
+            "V.)"
+          ]
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A carefilly planned move to gain advantage.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Koi smart strategic move jo situation ko apne favour me kare.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Tactic, Strategy, Move, Ploy, Stratagem, Ruse",
+          "examples": [],
+          "synonyms": [
+            "12. SPIKE (N.",
+            "V.)"
+          ]
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A sudden sharp increase.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab koi cheez achanak se fast increase ho jaye.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Surge, Jump, Rise, Upsurge, Escalation, Leap",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To increase or spread rapidly.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab koi cheez bahut tezi se badhne ya failne lage.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Multiply, Spread, Increase, Mushroom, Propagate, Escalate",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To encourage development or activity.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Kisi cheez ko boost ya activate karna.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Encourage, Promote, Spur, Trigger, Energize, Motivate",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To give energy or strength.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Kisi ko fresh energy ya power dena.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Energize, Revitalize, Refresh, Strengthen, Reinforce, Enliven",
+          "examples": [],
+          "synonyms": [
+            "CITE Mention as example",
+            "proof",
+            "NUDGE Gently push",
+            "encourage",
+            "EXHORT Strongly urge",
+            "motivate",
+            "INDUCE Persuade",
+            "influence to do",
+            "IMPEL Drive",
+            "force to action",
+            "GOAD Provoke",
+            "irritate reaction",
+            "DELUGE Severe flood",
+            "overwhelming amount",
+            "PROLIFERATE Increase",
+            "spread rapidly",
+            "INVIGORATE Give energy",
+            "strength"
+          ]
+        }
+      ],
+      "raw_preview": "- SSC CGL PRE & MAINS\n\nNewspapers + PYQs + Mocks\n\n4. IMPORTANT NOTE: This vocabulary list combines words from newspapers, SSC CGL PYQs, and mock\ntests. Direct questions from these words are commonly seen in SSC CGL Pre & Mains exams. Master these for\nguaranteed marks in the vocabulary/antonym sections!\n\n1. EXONERATE (V.)\n\nMeaning: To officially declare someone not guilty ofa crime or wrongdoing.\n\n"
+    },
+    {
+      "day": 47,
+      "entries_count": 45,
+      "entries": [
+        {
+          "word": "Meaning",
+          "meaning": "People, animals, or plants that live in a particular place.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Kisi jagah ke rehne wale log ya creatures jo wahan commonly milte hain.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Inhabitants, Residents, Dwellers, Occupants",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "The original inhabitants of a country or region.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Kisi jagah ke sabse pehle rehne wale native log.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Natives, Indigenous people, First inhabitants, Autochthons",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A group chosen to represent others.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Logon ka representative group jo kisi organization ya country ki taraf‘se aata hai.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Deputation, Mission, Representatives, Committee",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A group of assistants or followers accompanying an important person.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "K isi important person ke saath chalne wala support group.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Entourage, Suite, Attendants, Escort",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A group forming part ofa larger group.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Bade group ka ek representative hissa jo kisi event ya mission me aata hai.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Detachment, Unit, Delegation, Party",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A group gathered for a particular purpose, especially to catch criminals.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Logon ka temporary group jo kisi kaam ke liye banaya jata hai, especially criminals pakadne ke",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Squad, Band, Party, Crew",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A small secret group plotting something.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Chhota secret plotting group jo chupke se decisions influence karta hai.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Clique, Coterie, Faction, Ring, Junta",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A small exclusive group of people.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Chhota exclusive group jo dusron ko include nahi karta.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Coterie, Cabal, Faction, Circle",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A large crowd or group of people.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Logon ka bahut bada bheed jaisa group.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Crowd, Mob, Multitude, Swarm",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To leave secretly to avoid arrest or legal action.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Secretly bhaag jana taaki punishment se bacha ja sake.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Flee, Escape, Decamp, Bolt",
+          "examples": [],
+          "synonyms": [
+            "11. ABSCONDED (V.",
+            "Adj.)"
+          ]
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Left secretly to avoid arrest or punishment.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab koi chupke se bhaag jaye punishment ya police se bachne ke liye.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Fled, Escaped, Decamped, Eloped",
+          "examples": [],
+          "synonyms": [
+            "12. FUGITIVE (N.",
+            "Adj.)"
+          ]
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A person who is running away to avoid arrest.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Aisa criminal jo police se bachne ke liye bhaag gaya ho.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Runaway, Escapee, Absconder",
+          "examples": [],
+          "synonyms": [
+            "13. AT LARGE (Phrase",
+            "Adj.)"
+          ]
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Free or not captured, especially a criminal.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Jab criminal abhi bhi free ho aur police ne pakda na ho.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Free, Loose, Uncaptured",
+          "examples": [],
+          "synonyms": [
+            "14, DILUTE (V.",
+            "Adj.)"
+          ]
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To make something weaker by adding another substance.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Kisi cheez ki strength kam kar dena mix karke.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Weaken, Thin, Attenuate, Diminish",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "The freedom or authority to make decisions.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z Explanation",
+          "meaning": "Kisi person ki apni judgement se decision lene ki power.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Judgement, Prudence, Discernment, Tact",
+          "examples": [],
+          "synonyms": [
+            "GROUP",
+            "PEOPLE WORDS",
+            "ABORIGINES Original",
+            "native inhabitants",
+            "RETINUE Assistants",
+            "followers of important person",
+            "ESCAPE",
+            "CRIMINAL WORDS",
+            "REDUCE",
+            "WEAKEN",
+            "DILUTE Make weaker",
+            "thinner"
+          ]
+        }
+      ],
+      "raw_preview": "- SSC CGL PRE & MAINS\n\nNewspapers + PYQs + Mocks\n\n4. IMPORTANT NOTE: This vocabulary list combines words from newspapers, SSC CGL PYQs, and mock\ntests. Direct questions from these words are commonly seen in SSC CGL Pre & Mains exams. Master these for\nguaranteed marks in the vocabulary/antonym sections!\n\n1. DENIZENS (N.)\n\nMeaning: People, animals, or plants that live in a particular place.\n\nGen-Z E"
+    },
+    {
+      "day": 48,
+      "entries_count": 38,
+      "entries": [
+        {
+          "word": "Meaning",
+          "meaning": "A person or thing that is likely to cause harm or danger.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Threat, Danger, Peril, Hazard, Risk, Evil, Scourge",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "The state of something about to happen very soon.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Koi event bahut jaldi hone ki situation.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Nearness, Impendingness, Approaching, Forthcoming, Looming",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "About to happen very soon.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Bahut jaldi hone wala.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Impending, Approaching, Forthcoming, Looming, Near",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A hidden or unexpected danger or difficulty.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Hidden problem ya danger jo baad me trouble create kare.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Trap, Snare, Hazard, Danger, Catch, Hidden risk",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A feeling of irritation or slight anger.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Chhoti baat se irritation ya chidh.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Irritation, Aggravation, Vexation, Displeasure, Exasperation",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A loud disturbance or noisy commotion.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Bahut tez shor-sharaba ya hungama.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Uproar, Commotion, Tumult, Hullabaloo, Pandemonium, Din, Clamor, Brouhaha,",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A chaotic fight or competition where everyone is involved.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Bina rules wali sab logon ki mixed fight ya chaotic competition.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Brawl, Melee, Fray, Affray, Donnybrook, Ruckus, Pandemonium, Scrimmage",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A confused fight involving many people.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Bahut logon ke beech ek saath mixed fight.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Brawl, Fray, Affray, Donnybrook, Free-for-all, Ruckus, Scrimmage, Broil, Row",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A petty quarrel about a trivial matter.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Chhoti si baat par bekaar ka jhagda.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Quarrel, Spat, Tiff, Bicker, Altercation, Wrangle, Row",
+          "examples": [],
+          "synonyms": [
+            "SCRAP (N.",
+            "V.)"
+          ]
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Chhoti si fight ya jhagda.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Scuffle, Brawl, Fray, Melee, Tussle, Rumble",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Kisi cheez ka chhota bacha hua tukda.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Fragment, Piece, Bit, Remnant, Shred",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Kisi plan ya cheez ko completely cancel kar dena.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Discard, Abandon, Cancel, Dump, Eliminate",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A long-lasting bitter quarrel.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Lambi chalne wali dushmani ya jhagda.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Rivalry, Hostility, Conflict, Enmity, Vendetta, Dispute",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Having a strong ambition to achieve something.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Kisi goal ya success ko achieve karne ki strong ambition rakhne wala.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Ambitious, Hopeful, Determined, Striving, Eager, Enterprising",
+          "examples": [],
+          "synonyms": []
+        }
+      ],
+      "raw_preview": "- SSC CGL PRE & MAINS\nNewspapers + PYQs + Mocks\n\n4, IMPORTANT NOTE: This vocabulary list combines words from newspapers, SSC CGL\nPYQs, and mock tests. Direct questions from these words are commonly seen in SSC CGL Pre &\nMains exams. Master these for guaranteed marks in the vocabulary/antonym sections!\n\nMENACE (N.)\n\nMeaning: A person or thing that is likely to cause harm or danger.\nGen-Z; Dangerous"
+    },
+    {
+      "day": 49,
+      "entries_count": 36,
+      "entries": [
+        {
+          "word": "Meaning",
+          "meaning": "To appear as a big threat or something bad that is about to happen.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "; Sir pe latak raha ho, kabhi bhi problem aa sakti hai.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Threaten, Impend, Hover, Hang over, Be imminent, Approach dangerously, Casta",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To think carefully about something before making a decision.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Kisi cheez ko dhyan se sochna, decide karne se pehle.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Consider, Contemplate, Reflect on, Think over, Deliberate, Ponder, Weigh,",
+          "examples": [],
+          "synonyms": [
+            "DELIBERATE (Adj.",
+            "V.)"
+          ]
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Intentional, Planned, Purposeful, Conscious, Calculated, Premeditated, Willful;",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To think deeply and carefully about something.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Kisi cheez ko deeply sochna, dimaag laga ke.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Think, Contemplate, Ponder, Reflect, Deliberate, Mull over, Meditate on, Ruminate,",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "The act of thinking deeply and carefully about something.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Deep soch wali state, jab banda kisi cheez par focus karke soch raha ho.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Thought, Reflection, Consideration, Deliberation, Pondering, Meditation,",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Into a state of nervous excitement, panic, or confusion.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Panic, Get flustered, Lose composure, Get worked up, Become agitated, Freak out,",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Feeling nervous, anxious, or shaky.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Itna nervous ho ki body bhi thodi shaky lage.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Nervous, Anxious, Restless, Uneasy, Edgy, Tense, Fidgety, Jumpy, Shaky",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Feeling nervous, tense, or easily irritated.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Thoda sa nervous + irritate, chhoti baat pe bhi react karna.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Nervous, Tense, Anxious, Irritable, On edge, Restless, Uneasy, Jumpy, Touchy",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Very nervous, tense, or unable to relax.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Itna tension me ki bilkul relax nahi ho pa raha.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Nervous, Tense, Anxious, Edgy, Restless, Uneasy, Jumpy, Agitated",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To find out something with certainty; to confirm.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Pakka pata lagana, confirm kar lena.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Determine, Establish, Confirm, Verify, Find out, Discover, Check, Identify, Validate",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Scattered pieces of waste, remains, or broken things.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Tooti hui cheezein ya kachra jo idhar-udhar pada ho.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Rubble, Wreckage, Ruins, Remains, Fragments, Scrap, Waste, Litter, Trash",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Small remaining parts or leftover pieces of something.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Jo thoda bahut bacha reh jata hai.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Remains, Leftovers, Residue, Fragments, Traces, Bits, Scrap, Vestiges",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A pile or heap of something.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Cheezon ka dher ya chhota sa pile bana hua.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Heap, Pile, Stack, Hillock, Mass, Bunch, Cluster, Accumulation",
+          "examples": [],
+          "synonyms": [
+            "Word",
+            "Phrase Meaning",
+            "Word",
+            "Phrase",
+            "Into a Tizzy State of panic",
+            "confusion"
+          ]
+        }
+      ],
+      "raw_preview": "- SSC CGL PRE & MAINS\nNewspapers + PYQs + Mocks\n\n4, IMPORTANT NOTE: This vocabulary list combines words from newspapers, SSC CGL\nPYQs, and mock tests. Direct questions from these words are commonly seen in SSC CGL Pre &\nMains exams. Master these for guaranteed marks in the vocabulary/antonym sections!\n\nLOOM OVER (Phrasal Verb)\nMeaning: To appear as a big threat or something bad that is about to ha"
+    },
+    {
+      "day": 50,
+      "entries_count": 30,
+      "entries": [
+        {
+          "word": "Meaning",
+          "meaning": "Planned actions or methods used to achieve a goal.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Strategy, Plan, Approach, Technique, Method, Maneuver, Game plan, Scheme,",
+          "examples": [],
+          "synonyms": [
+            "CRUMBLE (V.",
+            "N.)"
+          ]
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Break, Collapse, Disintegrate, Fall apart, Fragment, Shatter, Decay, Deteriorate;",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To stop working, collapse, or lose control (emotionally/physically).",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Kaam karna band ho jana, toot jana ya control kho dena.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Fail, Collapse, Malfunction, Stop working, Give way, Crash, Fall apart, Lose control",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "To leave something or someone completely.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Puri tarah chhod dena ya saath chhod dena.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Leave, Desert, Quit, Forsake, Give up, Relinquish, Discard, Drop, Renounce",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "The act of leaving someone or something completely.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Kisi ko ya kisi cheez ko beech me chhod dene ka act.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Abandonment, Leaving, Forsaking, Withdrawal, Defection, Betrayal, Discarding",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Shocked or surprised so much that you cannot react properly.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Itna shock ho jana ki kuch samajh ya react hina ho.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Shocked, Astonished, Amazed, Startled, Dazed, Speechless, Dumbfounded,",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Extremely shocked or surprised.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Astonished, Amazed, Stunned, Shocked, Dumbfounded, Speechless, Startled,",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "So shocked or surprised that you are unable to think clearly.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Itna shock ho jana ki dimaag kaam karna band ho jaye.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Stunned, Dazed, Dumbfounded, Shocked, Numb, Confused, Overwhelmed,",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Greatly shocked or surprised.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Bahut zyada shock ya surprise ho jana.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Amazed, Astonished, Stunned, Shocked, Flabbergasted, Dumbfounded, Startled,",
+          "examples": [],
+          "synonyms": [
+            "STRUCK (V.",
+            "Adj.)",
+            "Meaning (Adj.): Strongly affected (emotionally",
+            "suddenly)."
+          ]
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Hit, Strike, Impact, Smash, Collide; Affected, Moved, Impressed, Shocked,",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "A position or opinion about something; a way of standing.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Kisi issue par tumhara clear opinion ya position.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Position, Stand, Attitude, Viewpoint, Opinion, Perspective, Approach, Posture",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Meaning",
+          "meaning": "Unity or agreement among people with a shared purpose.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Gen-Z",
+          "meaning": "Ekta aur support, jab log ek saath khade hote hain.",
+          "examples": [],
+          "synonyms": []
+        },
+        {
+          "word": "Synonyms",
+          "meaning": "Unity, Togetherness, Support, Harmony, Brotherhood, Alliance, Cooperation,",
+          "examples": [],
+          "synonyms": [
+            "Word",
+            "Phrase Meaning",
+            "Word",
+            "Phrase",
+            "Strongly affected emotionally",
+            "suddenly"
+          ]
+        }
+      ],
+      "raw_preview": "- SSC CGL PRE & MAINS\nNewspapers + PYQs + Mocks\n\n4, IMPORTANT NOTE: This vocabulary list combines words from newspapers, SSC CGL\nPYQs, and mock tests. Direct questions from these words are commonly seen in SSC CGL Pre &\nMains exams. Master these for guaranteed marks in the vocabulary/antonym sections!\n\nTACTICS (N.)\nMeaning: Planned actions or methods used to achieve a goal.\nGen-Z; Kaam nikalne ke "
+    }
+  ]
+};
