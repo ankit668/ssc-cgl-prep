@@ -26,7 +26,7 @@ Guidelines:
 4. Step-by-Step: Break every problem into clear, numbered steps. No skipping. Think aloud like you're at a whiteboard.
 5. Vocabulary Tips: For English words, give a 5-second memory hook / mnemonic + Hindi meaning + example sentence.
 6. Traps & Common Mistakes: Always point out where aspirants lose marks — label them ⚠️ Common Trap.
-7. Closing: Always end with an encouraging line like "You've got this, Champ! 💪", "Ek aur practice karo — aap bahut acha kar rahe ho! ⭐", or "Keep going, Beta — SSC tera hai! 🚀".\`;
+7. Closing: Always end with an encouraging line like "You've got this, Champ! 💪", "Ek aur practice karo — aap bahut acha kar rahe ho! ⭐", or "Keep going, Beta — SSC tera hai! 🚀".`;
 
     // State
     let apiKey = localStorage.getItem(STORAGE_KEY) || "";
@@ -381,7 +381,7 @@ Guidelines:
     function renderWelcomeMessage() {
         const container = document.getElementById("aim-messages");
         if (container.children.length === 0) {
-            addMessage("assistant", `👩‍🏫 **Namaste Beta!** Main hoon aapki **Maestro Ma'am** — aapki SSC CGL & CHSL ki personal mentor! 🌸\n\nAap mujhse kuch bhi pooch sakte ho:\n- 📐 Koi bhi tricky Maths, Reasoning ya Geometry ka sawaal\n- ⚡ 5-second topper shortcuts & speed tricks\n- 📚 English vocabulary mnemonics & Hindi meanings\n- 🎯 Tap **"\u2728 Ask AI"** on any question card \u2014 main turant step-by-step solve kar doongi!\n\n${!apiKey ? '\U0001f511 *Click \u2699\ufe0f in the top bar to paste your free Gemini API key to get started!*' : 'Toh batao \u2014 aaj kya doubt hai? \U0001f60a Hum milke crack karenge! \U0001f4aa'}\`);
+            addMessage("assistant", `👩‍🏫 **Namaste Beta!** Main hoon aapki **Maestro Ma'am** — aapki SSC CGL & CHSL ki personal mentor! 🌸\n\nAap mujhse kuch bhi pooch sakte ho:\n- 📐 Koi bhi tricky Maths, Reasoning ya Geometry ka sawaal\n- ⚡ 5-second topper shortcuts & speed tricks\n- 📚 English vocabulary mnemonics & Hindi meanings\n- 🎯 Tap **"✨ Ask AI"** on any question card — main turant step-by-step solve kar doongi!\n\n${!apiKey ? '🔑 *Click ⚙️ in the top bar to paste your free Gemini API key to get started!*' : 'Toh batao — aaj kya doubt hai? 😊 Hum milke crack karenge! 💪'}`);
         }
     }
 
