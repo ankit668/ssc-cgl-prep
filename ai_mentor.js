@@ -16,14 +16,17 @@
 
     // Defaults
     const DEFAULT_MODEL = "gemini-3.8-flash";
-    const SYSTEM_INSTRUCTION = `You are "Maestro AI", an elite SSC CGL Tier-1 & Tier-2 mentor and topper tutor, following Vishesh Shukla's Maths Maestro methodology.
-Your mission is to help SSC aspirants clear tricky doubts with maximum speed and clarity.
+    const SYSTEM_INSTRUCTION = `You are "Maestro Ma'am" 👩‍🏫, an expert, warm, and encouraging female SSC CGL & CHSL teacher and mentor, following Vishesh Shukla's Maths Maestro methodology.
+Your personality: You are like a brilliant, caring Didi (elder sister) or teacher — patient, clear, motivating, and always rooting for the student. You address students affectionately ("Beta", "Champ", "Dear Student") and celebrate their progress.
+Your mission is to help SSC aspirants clear every doubt with warmth, maximum speed, and crystal clarity.
 Guidelines:
-1. Tone: Encouraging, analytical, concise, and focused on exam speed.
-2. Short-Tricks: Whenever relevant, highlight 5-10 second topper shortcuts (unit digit, digital sum, option elimination, symmetry, triplets).
-3. Math Typography: NEVER output raw LaTeX markup (strictly NO \frac, \text, \mathbf, \times, \left, or wrapping dollar signs like $...$). Write clean textbook math directly: e.g. 60/20, 20 mins, 60 km, 90 km/h, 90 + 90 = 180 km, x² + 1/x², √3, 30°. Keep solutions instantly readable for students.
-4. Explanations: Break down complex algebraic or geometric transitions step-by-step so anyone can understand.
-5. Traps: Point out common pitfalls where aspirants lose negative marks.`;
+1. Tone & Persona: Warm, nurturing, confident, and enthusiastic. Speak like a real teacher — simple Hindi-English mix when helpful, e.g. "Beta, yeh dekho — ek shortcut hai!". Always end answers with an encouraging phrase.
+2. Short-Tricks: Highlight 5-10 second topper shortcuts (unit digit, digital sum, option elimination, symmetry, triplets) with ⭐ emoji markers.
+3. Math Typography: NEVER output raw LaTeX markup (strictly NO \\frac, \\text, \\mathbf, \\times, \\left, or wrapping dollar signs like $...$). Write clean textbook math: e.g. 60/20, 20 mins, 60 km, 90 km/h, 90 + 90 = 180 km, x² + 1/x², √3, 30°.
+4. Step-by-Step: Break every problem into clear, numbered steps. No skipping. Think aloud like you're at a whiteboard.
+5. Vocabulary Tips: For English words, give a 5-second memory hook / mnemonic + Hindi meaning + example sentence.
+6. Traps & Common Mistakes: Always point out where aspirants lose marks — label them ⚠️ Common Trap.
+7. Closing: Always end with an encouraging line like "You've got this, Champ! 💪", "Ek aur practice karo — aap bahut acha kar rahe ho! ⭐", or "Keep going, Beta — SSC tera hai! 🚀".\`;
 
     // State
     let apiKey = localStorage.getItem(STORAGE_KEY) || "";
@@ -67,7 +70,7 @@ Guidelines:
             <!-- Floating Button -->
             <button class="aim-float-btn" id="aim-float-toggle" title="Ask Maestro AI Mentor">
                 <span class="aim-sparkle">✨</span>
-                <span>AI Mentor</span>
+                <span>Ma'am 👩‍🏫</span>
             </button>
 
             <!-- Chat Drawer -->
@@ -77,7 +80,7 @@ Guidelines:
                     <div class="aim-header-left">
                         <div class="aim-avatar">📐</div>
                         <div class="aim-title-group">
-                            <h3>Maestro AI Mentor</h3>
+                            <h3>Maestro Ma'am 👩‍🏫</h3>
                             <span class="aim-status-badge" id="aim-model-badge">SSC Doubt Solver • ${escapeHtml(currentModel.replace('gemini-', ''))}</span>
                         </div>
                     </div>
@@ -90,9 +93,9 @@ Guidelines:
 
                 <!-- Chips Bar -->
                 <div class="aim-chips-bar" id="aim-chips-bar">
-                    <button class="aim-chip" data-prompt="Explain this question step-by-step with clear logic.">💡 Step-by-Step</button>
-                    <button class="aim-chip" data-prompt="What is the 5-second topper trick or option elimination shortcut for this?">⚡ 5-Sec Shortcut</button>
-                    <button class="aim-chip" data-prompt="Why would a student make a mistake here? What is the trap?">⚠️ Common Traps</button>
+                    <button class="aim-chip" data-prompt="Ma'am, please explain this step-by-step like teaching a beginner.">💡 Step-by-Step</button>
+                    <button class="aim-chip" data-prompt="Ma'am, give me the fastest 5-second topper shortcut for this!">⚡ 5-Sec Shortcut</button>
+                    <button class="aim-chip" data-prompt="Ma'am, what is the common mistake students make here? Where do they lose marks?">⚠️ Common Traps</button>
                     <button class="aim-chip" data-prompt="Give me another similar practice question with options and solution based on this concept.">🔄 Similar Question</button>
                     <button class="aim-chip" data-prompt="Provide a quick formula & identities cheat-sheet for this topic.">📝 Formula Recap</button>
                 </div>
@@ -102,7 +105,7 @@ Guidelines:
 
                 <!-- Input Area -->
                 <div class="aim-input-area">
-                    <textarea class="aim-textarea" id="aim-input" placeholder="Ask a math doubt or tap a chip..." rows="1"></textarea>
+                    <textarea class="aim-textarea" id="aim-input" placeholder="Beta, kya doubt hai? Ask Ma'am anything... 😊" rows="1"></textarea>
                     <button class="aim-send-btn" id="aim-send-btn" title="Send (Enter)">➤</button>
                 </div>
 
@@ -333,7 +336,7 @@ Guidelines:
     function renderWelcomeMessage() {
         const container = document.getElementById("aim-messages");
         if (container.children.length === 0) {
-            addMessage("assistant", `👋 **Namaste Aspirant!** I am your **Maestro AI Mentor**.\n\nYou can ask me:\n- 📐 How to solve any tricky geometry or algebra problem\n- ⚡ 5-second topper shortcuts & unit-digit tricks\n- 🎯 Tap **"✨ Ask AI"** on any question card for instant step-by-step doubt clearing!\n\n${!apiKey ? '👉 *Click ⚙️ in the top bar to paste your free Gemini API key to get started!*' : ''}`);
+            addMessage("assistant", `👩‍🏫 **Namaste Beta!** Main hoon aapki **Maestro Ma'am** — aapki SSC CGL & CHSL ki personal mentor! 🌸\n\nAap mujhse kuch bhi pooch sakte ho:\n- 📐 Koi bhi tricky Maths, Reasoning ya Geometry ka sawaal\n- ⚡ 5-second topper shortcuts & speed tricks\n- 📚 English vocabulary mnemonics & Hindi meanings\n- 🎯 Tap **"\u2728 Ask AI"** on any question card \u2014 main turant step-by-step solve kar doongi!\n\n${!apiKey ? '\U0001f511 *Click \u2699\ufe0f in the top bar to paste your free Gemini API key to get started!*' : 'Toh batao \u2014 aaj kya doubt hai? \U0001f60a Hum milke crack karenge! \U0001f4aa'}\`);
         }
     }
 
