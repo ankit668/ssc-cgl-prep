@@ -170,6 +170,32 @@ body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', sans-
 <div class="streak-lbl">📅 Last 7 Days</div>
 <div class="streak-row" id="streak-row"></div>
 
+<!-- Daily Study Reminder Card -->
+<div style="margin: 0 20px 20px; background: #111827; border: 1px solid #1e2d45; border-left: 3px solid #00e5ff; border-radius: 12px; padding: 14px 18px;">
+  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:10px;">
+    <div>
+      <h3 style="font-size:0.95rem; color:#ffd700; display:flex; align-items:center; gap:6px;">
+        ⏰ Daily Morning Study Reminder
+      </h3>
+      <p style="font-size:0.78rem; color:#7a8fa8; margin-top:2px;">
+        Maestro Ma'am will send you a gentle push notification to revise 10 words every morning.
+      </p>
+    </div>
+    <div style="display:flex; align-items:center; gap:8px;">
+      <input type="time" id="reminder-time-input" value="08:00" style="background:#0a0f1e; border:1px solid #1e2d45; border-radius:6px; color:#e0e8f0; padding:6px 10px; font-size:0.85rem;">
+      <button id="reminder-toggle-btn" style="background:#00e5ff; color:#000; font-weight:700; border:none; border-radius:6px; padding:7px 14px; font-size:0.82rem; cursor:pointer;">
+        Enable 🔔
+      </button>
+    </div>
+  </div>
+  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; font-size:0.75rem; color:#7a8fa8; border-top:1px solid #1e2d45; padding-top:8px;">
+    <span id="reminder-status-text">Status: Off (Tap Enable to start)</span>
+    <button id="reminder-test-btn" style="background:rgba(255,255,255,0.06); border:1px solid #1e2d45; border-radius:6px; color:#38bdf8; padding:4px 10px; cursor:pointer; font-size:0.75rem;">
+      Send Test Alert 🚀
+    </button>
+  </div>
+</div>
+
 <!-- Category sections -->
 <div id="sections-container"></div>
 
@@ -177,6 +203,7 @@ body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', sans-
 <div class="bottom-spacer"></div>
 
 <script src="vocab_maestro_data.js"></script>
+<script src="reminder.js"></script>
 <script>
 (function() {
   'use strict';
@@ -368,7 +395,52 @@ body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', sans-
   updateStats();
   renderStreak();
   renderSections();
+
+  // ── Bind Reminder Controls ────────────────────────────────────────────────
+  const timeInput = document.getElementById('reminder-time-input');
+  const toggleBtn = document.getElementById('reminder-toggle-btn');
+  const statusText = document.getElementById('reminder-status-text');
+  const testBtn = document.getElementById('reminder-test-btn');
+
+  function updateReminderUI() {
+    if (!window.StudyReminder) return;
+    const isEn = window.StudyReminder.isEnabled();
+    timeInput.value = window.StudyReminder.getTime();
+    if (isEn) {
+      toggleBtn.textContent = 'Enabled ✅';
+      toggleBtn.style.background = '#00e676';
+      statusText.textContent = `Status: Active — Alert scheduled daily at ${window.StudyReminder.getTime()} 🌸`;
+    } else {
+      toggleBtn.textContent = 'Enable 🔔';
+      toggleBtn.style.background = '#00e5ff';
+      statusText.textContent = 'Status: Off (Tap Enable to start)';
+    }
+  }
+
+  toggleBtn.addEventListener('click', async () => {
+    if (!window.StudyReminder) return;
+    const currentlyEn = window.StudyReminder.isEnabled();
+    const success = await window.StudyReminder.setEnabled(!currentlyEn);
+    if (!success && !currentlyEn) {
+      alert("Please allow notification permissions in your browser so Maestro Ma'am can send your reminder!");
+    }
+    updateReminderUI();
+  });
+
+  timeInput.addEventListener('change', () => {
+    if (!window.StudyReminder) return;
+    window.StudyReminder.setTime(timeInput.value);
+    updateReminderUI();
+  });
+
+  testBtn.addEventListener('click', () => {
+    if (window.StudyReminder) window.StudyReminder.sendTest();
+  });
+
+  // Init reminder UI on load
+  setTimeout(updateReminderUI, 100);
 })();
+
 </script>
 
 </body>

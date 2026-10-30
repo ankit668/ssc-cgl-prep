@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ssc-prep-tier2-v28';
+const CACHE_NAME = 'ssc-prep-tier2-v29';
 const urlsToCache = [
   './',
   './manifest.json',
@@ -9,6 +9,7 @@ const urlsToCache = [
   './vocab_maestro.html',
   './progress.html',
   './phase14_quiz.html',
+  './reminder.js',
   './vocab_maestro_data.js',
   './vocab_maestro_data.json',
   './steno_vocab_hub.html',
@@ -157,6 +158,25 @@ self.addEventListener('activate', event => {
           }
         })
       );
+    })
+  );
+});
+
+// Notification Click Handler (Maestro Ma'am Daily Reminder)
+self.addEventListener('notificationclick', event => {
+  event.notification.close();
+  const targetUrl = (event.notification.data && event.notification.data.url) ? event.notification.data.url : 'vocab_maestro.html';
+
+  event.waitUntil(
+    clients.matchAll({ type: 'window', includeUncontrolled: true }).then(windowClients => {
+      for (let client of windowClients) {
+        if (client.url.includes(targetUrl) && 'focus' in client) {
+          return client.focus();
+        }
+      }
+      if (clients.openWindow) {
+        return clients.openWindow(targetUrl);
+      }
     })
   );
 });
