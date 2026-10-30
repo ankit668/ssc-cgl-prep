@@ -416,7 +416,9 @@
 
         <!-- Filter Scroll -->
         <div class="filter-scroll">
-            <div class="pill active" onclick="filterCategory('All', this)">All 9 Subjects</div>
+            <div class="pill active" onclick="filterCategory('All', this)">All 11 Subjects</div>
+            <div class="pill" onclick="filterCategory('Science', this)">🔬 General Science</div>
+            <div class="pill" onclick="filterCategory('Polity', this)">⚖️ Indian Polity</div>
             <div class="pill" onclick="filterCategory('Computer', this)">💻 Computer</div>
             <div class="pill" onclick="filterCategory('History', this)">🏛️ History</div>
             <div class="pill" onclick="filterCategory('Geography', this)">🌍 Geography</div>
@@ -574,6 +576,44 @@
                     <tr><td><b>Ancient & Medieval Classics</b></td><td>• <b>Arthashastra:</b> Kautilya / Chanakya (political statecraft).<br>• <b>Indica:</b> Megasthenes (Greek ambassador to Chandragupta Maurya).<br>• <b>Rajatarangini:</b> Kalhana (historical chronicle of the kings of Kashmir).<br>• <b>Ain-i-Akbari & Akbarnama:</b> Abul Fazl.</td></tr>
                     <tr><td><b>Nationalist Era Literature</b></td><td>• <b>Discovery of India & Glimpses of World History:</b> Jawaharlal Nehru.<br>• <b>Poverty and Un-British Rule in India:</b> Dadabhai Naoroji (Drain of Wealth theory).<br>• <b>Anandmath:</b> Bankim Chandra Chattopadhyay (contains national song <i>Vande Mataram</i>).<br>• <b>India Divided:</b> Dr. Rajendra Prasad.</td></tr>
                     <tr><td><b>Social Reformers & Founders</b></td><td>• <span class="highlight">Raja Ram Mohan Roy:</span> Founded Brahmo Samaj (1828); instrumental in abolition of Sati (1829).<br>• <span class="highlight">Swami Dayanand Saraswati:</span> Founded Arya Samaj (1875); coined slogan <i>"Go back to the Vedas"</i>; author of <i>Satyarth Prakash</i>.<br>• <span class="highlight">Jyotirao Phule:</span> Founded Satyashodhak Samaj (1873); author of <i>Gulamgiri</i>.</td></tr>
+                </table>
+            </div>
+
+            <!-- 9. General Science (NCERT Class 9-10 Physics, Chemistry, Biology) -->
+            <div class="note-card" data-cat="Science">
+                <div class="card-header">
+                    <div class="card-title">🔬 General Science (NCERT Physics, Chemistry & Biology Core)</div>
+                    <div class="card-header-actions">
+                        <button class="btn-card-speak" onclick="speakCard(this)">🔊 Listen</button>
+                        <span class="card-tag">Class 9–10 NCERT Takeaways</span>
+                    </div>
+                </div>
+                <table class="fact-table">
+                    <tr><th>Science Domain</th><th>High-Yield Exam Takeaway</th></tr>
+                    <tr><td><b>Physics: Motion & Force</b></td><td>• <b>Equations of Motion:</b> v = u + at | s = ut + 0.5 at² | v² = u² + 2as.<br>• <b>Newton's Laws:</b> 1st Law defines Inertia (mass is measure of inertia); 2nd Law gives F = ma; 3rd Law establishes action-reaction pairs.<br>• <b>Work & Energy:</b> Work = F × s × cos(θ); Kinetic Energy = 0.5 mv²; 1 kilowatt-hour (kWh) = <span class="highlight">3.6 × 10⁶ Joules</span>.</td></tr>
+                    <tr><td><b>Physics: Optics & Electricity</b></td><td>• <b>Mirrors:</b> Concave mirror forms real/inverted images (used in headlights & dentist mirrors); Convex mirror always forms virtual/diminished images (vehicle rear-view).<br>• <b>Lens Power:</b> P = 1 / f (in metres), unit: <span class="highlight">Dioptre (D)</span>. Convex lens has positive power, concave has negative.<br>• <b>Ohm's Law:</b> V = IR; Resistivity depends only on material and temperature (independent of dimensions).</td></tr>
+                    <tr><td><b>Chemistry: Acids, Bases & Salts</b></td><td>• <b>pH Values:</b> Pure water = 7.0 | Human blood = <span class="highlight">7.35 – 7.45</span> | Acid rain < 5.6 | Gastric juice ~ 1.2.<br>• <b>Important Compounds:</b> Baking Soda (<span class="highlight">NaHCO₃</span>), Washing Soda (<span class="highlight">Na₂CO₃·10H₂O</span>), Bleaching Powder (<span class="highlight">CaOCl₂</span>), Plaster of Paris (<span class="highlight">CaSO₄·0.5H₂O</span>).<br>• <b>Galvanization:</b> Coating iron with <span class="highlight">Zinc</span> to prevent rusting.</td></tr>
+                    <tr><td><b>Biology: Cell Biology & Human Body</b></td><td>• <b>Cell Organelles:</b> Mitochondria is the "Powerhouse of the Cell" (produces ATP); Ribosomes synthesize proteins; Lysosomes are "Suicide Bags".<br>• <b>Digestive System:</b> Digestion begins in mouth (salivary amylase digests starch); Bile juice produced by liver, stored in gallbladder (emulsifies fats); Insulin secreted by pancreas (β-cells).<br>• <b>Circulation:</b> Normal human blood pressure is <span class="highlight">120/80 mmHg</span>; Universal donor is O-negative, recipient is AB-positive.</td></tr>
+                    <tr><td><b>Biology: Vitamins & Deficiency</b></td><td>• <b>Vitamin A (Retinol):</b> Night blindness.<br>• <b>Vitamin B1 (Thiamine):</b> Beriberi.<br>• <b>Vitamin C (Ascorbic Acid):</b> Scurvy, impaired wound healing.<br>• <b>Vitamin D (Calciferol):</b> Rickets in children, osteomalacia in adults.<br>• <b>Vitamin K (Phylloquinone):</b> Failure of blood clotting.</td></tr>
+                </table>
+            </div>
+
+            <!-- 10. Indian Polity & Constitution -->
+            <div class="note-card" data-cat="Polity">
+                <div class="card-header">
+                    <div class="card-title">⚖️ Indian Polity & Constitution Core</div>
+                    <div class="card-header-actions">
+                        <button class="btn-card-speak" onclick="speakCard(this)">🔊 Listen</button>
+                        <span class="card-tag">Articles, Parts & Amendments</span>
+                    </div>
+                </div>
+                <table class="fact-table">
+                    <tr><th>Polity Theme</th><th>High-Yield Exam Takeaway</th></tr>
+                    <tr><td><b>Preamble & Borrowed Features</b></td><td>• <b>Preamble:</b> "Sovereign, Socialist, Secular, Democratic, Republic". Socialist, Secular & Integrity added by <span class="highlight">42nd Amendment (1976)</span>.<br>• <b>Sources:</b> Fundamental Rights (USA), Parliamentary system & Rule of Law (UK), DPSP (Ireland), Emergency provisions (GoI Act 1935), Amendment procedure (South Africa).</td></tr>
+                    <tr><td><b>Fundamental Rights (Part III, Arts 12–35)</b></td><td>• <b>Art 14:</b> Equality before law.<br>• <b>Art 17:</b> Abolition of Untouchability.<br>• <b>Art 21:</b> Protection of life and personal liberty; <span class="highlight">Art 21A:</span> Right to free & compulsory education (6–14 yrs, 86th Amdt).<br>• <b>Art 32:</b> Right to Constitutional Remedies ("Heart and Soul of the Constitution" by Dr. B.R. Ambedkar); 5 Writs: Habeas Corpus, Mandamus, Prohibition, Certiorari, Quo Warranto.</td></tr>
+                    <tr><td><b>DPSP & Fundamental Duties</b></td><td>• <b>DPSP (Part IV, Arts 36–51):</b> Non-justiciable; Art 40 (Village Panchayats), Art 44 (<span class="highlight">Uniform Civil Code</span>), Art 50 (Separation of Judiciary from Executive).<br>• <b>Fundamental Duties (Part IVA, Art 51A):</b> 11 duties added on Swaran Singh Committee recommendation (42nd Amdt 1976 + 86th Amdt 2002).</td></tr>
+                    <tr><td><b>Union Executive & Parliament</b></td><td>• <b>President:</b> Min age 35 years; Art 61 (Impeachment), Art 72 (Pardoning power), Art 123 (Ordinance making power).<br>• <b>Parliament:</b> Lok Sabha (min age 25, term 5 yrs); Rajya Sabha (permanent house, min age 30, 1/3rd members retire every 2 years, term 6 yrs). Joint sitting summoned by President, presided by Lok Sabha Speaker (Art 108).</td></tr>
+                    <tr><td><b>Panchayati Raj & Key Amendments</b></td><td>• <b>73rd Amendment (1992):</b> Added Part IX & 11th Schedule (29 functional subjects) for Panchayati Raj (3-tier: Gram, Panchayat Samiti, Zila Parishad per Balwant Rai Mehta Committee).<br>• <b>44th Amendment (1978):</b> Removed Right to Property from Fundamental Rights, making it a legal right under <span class="highlight">Article 300A</span>.<br>• <b>Emergencies:</b> National Emergency (Art 352), President's Rule (Art 356), Financial Emergency (Art 360).</td></tr>
                 </table>
             </div>
 

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ssc-prep-tier2-v20';
+const CACHE_NAME = 'ssc-prep-tier2-v21';
 const urlsToCache = [
   './',
   './manifest.json',
@@ -79,7 +79,6 @@ const urlsToCache = [
   './roots_ui.js',
   './root_mcqs.js',
   './root_words.js',
-  './study_notes.js',
   './fatman_data.js',
   './fatman_ui.js',
   './history_data.js',
