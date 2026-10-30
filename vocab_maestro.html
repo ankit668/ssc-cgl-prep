@@ -495,7 +495,7 @@
             <button class="module-tab-btn active" data-mod="days_50">⚡ 50-Day Vocab Course (Days 1–50)</button>
             <button class="module-tab-btn" data-mod="homonyms">🎯 CGL 2025 Homonyms Vault (33 Pairs)</button>
             <button class="module-tab-btn" data-mod="ssc_2025">🏛️ SSC 2025 Exam-Wise Vocabs (1,044)</button>
-            <button class="module-tab-btn" data-mod="phase_14">🚀 Selection Post Phase 14 (304)</button>
+            <button class="module-tab-btn" data-mod="phase_14">🚀 Selection Post Phase 14 (290)</button>
             <button class="module-tab-btn" data-mod="bookmarks">⭐ Bookmarked Words</button>
         </div>
 
@@ -523,7 +523,7 @@
     </main>
 
     <!-- Load Local JS Dataset -->
-    <script src="vocab_maestro_data.js"></script>
+        <script src="vocab_maestro_data.js"></script>
     <script>
         (function() {
             const rawData = window.VOCAB_MAESTRO_DATA || {};
@@ -535,7 +535,7 @@
             const STORAGE_BOOKMARKS = "ssc_vocab_maestro_bookmarks_v1";
             let bookmarks = JSON.parse(localStorage.getItem(STORAGE_BOOKMARKS) || "{}");
 
-            let currentModule = "days_50";
+            let currentModule = "phase_14";
             let currentSubFilter = "all";
             let searchQuery = "";
 
@@ -552,6 +552,11 @@
             init();
 
             function init() {
+                // Set default active tab to phase_14 or days_50
+                moduleTabBtns.forEach(b => {
+                    if (b.getAttribute("data-mod") === currentModule) b.classList.add("active");
+                    else b.classList.remove("active");
+                });
                 updateStats();
                 setupTabs();
                 renderPills();
@@ -611,11 +616,14 @@
                     `;
                 } else if (currentModule === "phase_14") {
                     pillsHtml += `
-                        <button class="pill-btn ${currentSubFilter === 'all' ? 'active' : ''}" data-sub="all">All (304)</button>
-                        <button class="pill-btn ${currentSubFilter === 'Synonyms' ? 'active' : ''}" data-sub="Synonyms">Synonyms</button>
-                        <button class="pill-btn ${currentSubFilter === 'Antonyms' ? 'active' : ''}" data-sub="Antonyms">Antonyms</button>
-                        <button class="pill-btn ${currentSubFilter === 'One Word Substitution' ? 'active' : ''}" data-sub="One Word Substitution">OWS</button>
-                        <button class="pill-btn ${currentSubFilter === 'Idioms & Phrases' ? 'active' : ''}" data-sub="Idioms & Phrases">Idioms</button>
+                        <button class="pill-btn ${currentSubFilter === 'all' ? 'active' : ''}" data-sub="all">All (290)</button>
+                        <button class="pill-btn ${currentSubFilter === 'Synonyms' ? 'active' : ''}" data-sub="Synonyms">Synonyms (50)</button>
+                        <button class="pill-btn ${currentSubFilter === 'Antonyms' ? 'active' : ''}" data-sub="Antonyms">Antonyms (44)</button>
+                        <button class="pill-btn ${currentSubFilter === 'One Word Substitution' ? 'active' : ''}" data-sub="One Word Substitution">OWS (56)</button>
+                        <button class="pill-btn ${currentSubFilter === 'Idioms & Phrases' ? 'active' : ''}" data-sub="Idioms & Phrases">Idioms (47)</button>
+                        <button class="pill-btn ${currentSubFilter === 'Spelling' ? 'active' : ''}" data-sub="Spelling">Spelling (66)</button>
+                        <button class="pill-btn ${currentSubFilter === 'Phrasal Verbs' ? 'active' : ''}" data-sub="Phrasal Verbs">Phrasal Verbs (9)</button>
+                        <button class="pill-btn ${currentSubFilter === 'Homonyms & Confusables' ? 'active' : ''}" data-sub="Homonyms & Confusables">Confusables (18)</button>
                     `;
                 } else if (currentModule === "homonyms") {
                     pillsHtml += `<button class="pill-btn active" data-sub="all">All 33 Homonym Pairs (CGL 2025)</button>`;
@@ -670,16 +678,30 @@
                     if (currentSubFilter !== "all") {
                         filtered = filtered.filter(x => x.category === currentSubFilter);
                     }
-                    itemsToRender = filtered.map(p => ({
-                        id: p.id,
-                        word: p.word,
-                        tag: "Phase 14 (2026)",
-                        badge: p.category,
-                        meaning: p.meaning,
-                        hindi: "",
-                        example: "",
-                        synonyms: p.related ? p.related.split(",").map(s => s.trim()) : []
-                    }));
+                    itemsToRender = filtered.map(p => {
+                        let exampleNote = "";
+                        if (p.category === 'Idioms & Phrases' && p.detail) {
+                            exampleNote = `💡 <strong>Alternative / Expression:</strong> ${escapeHtml(p.detail)}`;
+                        } else if (p.category === 'One Word Substitution' && p.detail) {
+                            exampleNote = `🎯 <strong>Definition / Synonym:</strong> ${escapeHtml(p.detail)}`;
+                        } else if (p.category === 'Spelling' && p.detail) {
+                            exampleNote = `✏️ <strong>Correct Spelling:</strong> <span style="color:#10B981; font-weight:700;">${escapeHtml(p.detail)}</span>`;
+                        } else if (p.category === 'Phrasal Verbs' && p.detail) {
+                            exampleNote = `🔄 <strong>Usage / Meaning:</strong> ${escapeHtml(p.detail)}`;
+                        } else if (p.category === 'Homonyms & Confusables' && p.detail) {
+                            exampleNote = `⚖️ <strong>Distinction / Example:</strong> ${escapeHtml(p.detail)}`;
+                        }
+                        return {
+                            id: p.id,
+                            word: p.word,
+                            tag: "Phase 14 (2026)",
+                            badge: p.category,
+                            meaning: p.meaning,
+                            hindi: "",
+                            example: exampleNote,
+                            synonyms: p.synonyms || []
+                        };
+                    });
                 } else if (currentModule === "days_50") {
                     let daysSubset = days50;
                     if (currentSubFilter !== "all") {
@@ -691,7 +713,7 @@
                                 id: `day${d.day}_${idx}`,
                                 word: e.word,
                                 tag: `Day ${d.day}`,
-                                badge: "50-Day Series",
+                                badge: "50-Day Course",
                                 meaning: e.meaning,
                                 hindi: "",
                                 example: e.examples.join(" | "),
@@ -710,7 +732,7 @@
                                 badge: `Q#${h.num}`,
                                 meaning: h.meanings.join(" • "),
                                 hindi: h.hindi,
-                                example: h.examples.join("<br>"),
+                                example: h.examples.join("<br><br>"),
                                 synonyms: []
                             });
                         }
@@ -731,6 +753,18 @@
                     });
                     phase14.forEach(p => {
                         if (bookmarks[p.id]) {
+                            let exampleNote = "";
+                            if (p.category === 'Idioms & Phrases' && p.detail) {
+                                exampleNote = `💡 <strong>Alternative / Expression:</strong> ${escapeHtml(p.detail)}`;
+                            } else if (p.category === 'One Word Substitution' && p.detail) {
+                                exampleNote = `🎯 <strong>Definition / Synonym:</strong> ${escapeHtml(p.detail)}`;
+                            } else if (p.category === 'Spelling' && p.detail) {
+                                exampleNote = `✏️ <strong>Correct Spelling:</strong> <span style="color:#10B981; font-weight:700;">${escapeHtml(p.detail)}</span>`;
+                            } else if (p.category === 'Phrasal Verbs' && p.detail) {
+                                exampleNote = `🔄 <strong>Usage / Meaning:</strong> ${escapeHtml(p.detail)}`;
+                            } else if (p.category === 'Homonyms & Confusables' && p.detail) {
+                                exampleNote = `⚖️ <strong>Distinction / Example:</strong> ${escapeHtml(p.detail)}`;
+                            }
                             itemsToRender.push({
                                 id: p.id,
                                 word: p.word,
@@ -738,10 +772,27 @@
                                 badge: p.category,
                                 meaning: p.meaning,
                                 hindi: "",
-                                example: "",
-                                synonyms: p.related ? p.related.split(",").map(s => s.trim()) : []
+                                example: exampleNote,
+                                synonyms: p.synonyms || []
                             });
                         }
+                    });
+                    days50.forEach(d => {
+                        d.entries.forEach((e, idx) => {
+                            const bId = `day${d.day}_${idx}`;
+                            if (bookmarks[bId]) {
+                                itemsToRender.push({
+                                    id: bId,
+                                    word: e.word,
+                                    tag: `Day ${d.day}`,
+                                    badge: "50-Day Course",
+                                    meaning: e.meaning,
+                                    hindi: "",
+                                    example: e.examples.join(" | "),
+                                    synonyms: e.synonyms
+                                });
+                            }
+                        });
                     });
                 }
 
@@ -766,7 +817,7 @@
                     return;
                 }
 
-                // Render first 250 items for superfast rendering if large list
+                // Render limit for fast rendering
                 const renderLimit = itemsToRender.slice(0, 300);
 
                 cardsContainer.innerHTML = renderLimit.map(item => {
@@ -795,7 +846,10 @@
 
                                 ${item.synonyms && item.synonyms.length > 0 ? `
                                     <div class="synonyms-cloud">
-                                        ${item.synonyms.map(s => `<span class="syn-tag">${escapeHtml(s)}</span>`).join("")}
+                                        <span style="font-size:0.75rem; font-weight:700; color:${item.badge === 'Antonyms' ? '#F43F5E' : '#38BDF8'}; margin-right:4px;">
+                                            ${item.badge === 'Antonyms' ? 'Antonyms:' : 'Synonyms:'}
+                                        </span>
+                                        ${item.synonyms.map(s => `<span class="syn-tag" ${item.badge === 'Antonyms' ? 'style="background:rgba(244,63,94,0.12); color:#FDA4AF; border-color:rgba(244,63,94,0.25);"' : ''}>${escapeHtml(s)}</span>`).join("")}
                                     </div>
                                 ` : ''}
                             </div>
@@ -862,7 +916,7 @@
                             window.askAIMentorAboutQuestion({
                                 id: item.id,
                                 exam: item.tag || 'Vocabs Maestro',
-                                question: `I need a high-yield breakdown and mnemonic for this vocabulary word: "${item.word}".\nDefinition: ${item.meaning}\n${item.example ? 'Example: ' + item.example : ''}`,
+                                question: `I need a high-yield breakdown and mnemonic for this vocabulary word: "${item.word}".\nDefinition: ${item.meaning}\n${item.example ? 'Context: ' + item.example.replace(/<[^>]+>/g, '') : ''}`,
                                 options: item.synonyms || [],
                                 answer: item.word,
                                 solution: `Meaning: ${item.meaning}\nSynonyms: ${(item.synonyms || []).join(', ')}`,
