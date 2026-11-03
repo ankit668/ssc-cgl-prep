@@ -1,8 +1,8 @@
 {
   "title": "Maths Maestro - Expected Mock Practice (XMP Master Hub)",
   "instructor": "Vishesh Shukla",
-  "total_questions": 46,
-  "total_formulas": 12,
+  "total_questions": 72,
+  "total_formulas": 15,
   "formulas": [
     {
       "id": "xmp1_f01",
@@ -99,6 +99,27 @@
       "formula": "Semi-perimeter s = 21 cm  |  Area = 84 cm²  |  Inradius r = Area / s = 4 cm",
       "desc": "Standard SSC triangle formed by fusing 5-12-13 and 9-12-15 right triangles along common altitude h = 12. Base = 5 + 9 = 14 cm. Circumradius R = abc / (4 × Area) = (13 × 14 × 15) / (4 × 84) = 8.125 cm.",
       "set": "Set 2"
+    },
+    {
+      "id": "xmp3_f01",
+      "title": "Frustum of a Regular Pyramid",
+      "topic": "Mensuration (3D)",
+      "page": 8,
+      "content": "• Base Areas: Let area of lower base be A₁ and area of upper base be A₂.\n• Height: h = perpendicular distance between parallel bases.\n• Volume: V = (h / 3) × [A₁ + A₂ + √(A₁ × A₂)].\n• Slant Height (l): l² = h² + [(a - b)/2]² (for regular square base with sides a and b).\n• Lateral Surface Area (LSA): (1/2) × (Perimeter₁ + Perimeter₂) × l.\n• Total Surface Area (TSA): LSA + A₁ + A₂."
+    },
+    {
+      "id": "xmp3_f02",
+      "title": "Hemisphere & Maximum Inscribed Cube",
+      "topic": "Mensuration (3D)",
+      "page": 12,
+      "content": "• Curved Surface Area (CSA): 2πr²\n• Total Surface Area (TSA): 3πr²\n• Volume: (2/3)πr³\n• Difference (TSA - CSA): πr² (area of circular flat base)\n• Maximum Cube inside Hemisphere of radius r:\n  Side of Cube a = r × √(2 / 3) = r × √6 / 3."
+    },
+    {
+      "id": "xmp3_f03",
+      "title": "Spherical Shell & Gully Cricket Ball",
+      "topic": "Mensuration (3D)",
+      "page": 13,
+      "content": "• Outer Radius = R, Inner Radius = r, Thickness = t = R - r.\n• Internal Volume (Capacity): (4/3)πr³\n• Outer Volume (Displacement): (4/3)πR³\n• Material Volume (Rubber / Leather used): (4/3)π(R³ - r³)\n• Total Surface Area (Outer + Inner): 4π(R² + r²)\n• Hemispherical Shell Cut in Half:\n  - Curved Surface Area: 2π(R² + r²)\n  - Flat Rim Area: π(R² - r²)\n  - Total Surface Area (TSA): 2πR² + 2πr² + π(R² - r²) = 3πR² + πr²."
     }
   ],
   "questions": [
@@ -883,6 +904,448 @@
       "solution": "Step 1: Decompose 83 into powers of 2:\n83 = 64 + 19\n= 64 + 16 + 3\n= 64 + 16 + 2 + 1\n= 2⁶ + 2⁴ + 2¹ + 2⁰.\n\nStep 2: Fill binary bit positions from 2⁶ down to 2⁰:\n2⁶ (64) = 1\n2⁵ (32) = 0\n2⁴ (16) = 1\n2³ (8) = 0\n2² (4) = 0\n2¹ (2) = 1\n2⁰ (1) = 1\nBinary representation = 1010011.",
       "trick": "Maestro's Power Decomposition: 83 = 64 + 16 + 3 = 1010011. Last two bits must be 11 (since 83 is odd and 83 mod 4 = 3). Only 1010011 matches! 2 seconds.",
       "set": "Set 2"
+    },
+    {
+      "id": "xmp3_01",
+      "type": "Mixture & Alligation",
+      "exam": "SSC CGL Tier 2 Expected",
+      "page": 1,
+      "question": "Plastic and leather are two types of materials used to manufacture industrial washers. How many kg of pure plastic must be added to a mixture of 16 kg of a first washer material and 25 kg of a second washer material to produce a new batch containing exactly 40% leather? The ratio of plastic to leather by weight is 3:1 in the first material and 6:19 in the second material.",
+      "options": [
+        "19.5 kg",
+        "18.5 kg",
+        "17.5 kg",
+        "16.5 kg"
+      ],
+      "answer": "16.5 kg",
+      "solution": "Step 1: Calculate Plastic & Leather in Material 1 (16 kg):\nRatio of Plastic : Leather = 3 : 1 (Total 4 units = 16 kg ⟹ 1 unit = 4 kg).\nPlastic = 3 × 4 = 12 kg.\nLeather = 1 × 4 = 4 kg.\n\nStep 2: Calculate Plastic & Leather in Material 2 (25 kg):\nRatio of Plastic : Leather = 6 : 19 (Total 25 units = 25 kg ⟹ 1 unit = 1 kg).\nPlastic = 6 kg.\nLeather = 19 kg.\n\nStep 3: Total mixture before adding extra plastic:\nTotal Plastic = 12 + 6 = 18 kg.\nTotal Leather = 4 + 19 = 23 kg.\n\nStep 4: Requirement in the final batch:\nThe new batch must contain exactly 40% leather and 60% plastic (Ratio Plastic : Leather = 60 : 40 = 3 : 2).\nSince only pure plastic is added, the amount of leather remains unchanged at 23 kg.\nLeather = 2 units = 23 kg ⟹ 1 unit = 11.5 kg.\nRequired Plastic = 3 units = 3 × 11.5 = 34.5 kg.\n\nStep 5: Plastic to add:\nPure plastic added = 34.5 - 18 = 16.5 kg.",
+      "trick": "Constant Component Shortcut: Leather does not change! Total leather = 4 kg + 19 kg = 23 kg = 40% of new total. Total new mixture = 23 / 0.40 = 57.5 kg. Current mixture = 16 + 25 = 41 kg. Pure plastic added = 57.5 - 41 = 16.5 kg in 10 seconds!",
+      "set": "Set 3"
+    },
+    {
+      "id": "xmp3_02",
+      "type": "Geometry (Circles)",
+      "exam": "SSC CGL Tier 2 Expected",
+      "page": 2,
+      "question": "Tangents PT and PS are drawn from an external point P to a circle of radius 5 cm. If the distance from P to the center O is 13 cm, find the area of quadrilateral PTOS.",
+      "options": [
+        "30 cm²",
+        "45 cm²",
+        "60 cm²",
+        "65 cm²"
+      ],
+      "answer": "60 cm²",
+      "solution": "Step 1: Identify geometry properties:\nTangent is perpendicular to radius at the point of contact ⟹ ∠PTO = ∠PSO = 90°.\nTherefore, △PTO and △PSO are congruent right-angled triangles.\n\nStep 2: Find tangent length PT:\nIn right △PTO:\nPO = 13 cm, OT = radius = 5 cm.\nBy Pythagorean triplet (5, 12, 13):\nPT = √(13² - 5²) = √(169 - 25) = √144 = 12 cm.\n\nStep 3: Area of quadrilateral PTOS:\nArea(PTOS) = Area(△PTO) + Area(△PSO) = 2 × [ (1/2) × OT × PT ]\nArea(PTOS) = OT × PT = 5 × 12 = 60 cm².",
+      "trick": "Maestro Triplet Shortcut: Hypotenuse = 13, Base = 5 ⟹ Perpendicular = 12. Quadrilateral PTOS is composed of two congruent right triangles ⟹ Total Area = radius × tangent = 5 × 12 = 60 cm² immediately!",
+      "set": "Set 3"
+    },
+    {
+      "id": "xmp3_03",
+      "type": "Algebra",
+      "exam": "SSC CGL Tier 2 Expected",
+      "page": 3,
+      "question": "If p + q + r = 0 and pq + qr + rp = -35, then find the value of p⁴ + q⁴ + r⁴.",
+      "options": [
+        "2400",
+        "2450",
+        "3675",
+        "4900"
+      ],
+      "answer": "2450",
+      "solution": "Step 1: Find p² + q² + r²:\n(p + q + r)² = p² + q² + r² + 2(pq + qr + rp)\n0² = p² + q² + r² + 2(-35)\np² + q² + r² = 70.\n\nStep 2: Square (p² + q² + r²):\n(p² + q² + r²)² = p⁴ + q⁴ + r⁴ + 2(p²q² + q²r² + r²p²)\n70² = p⁴ + q⁴ + r⁴ + 2(p²q² + q²r² + r²p²)\n4900 = p⁴ + q⁴ + r⁴ + 2(p²q² + q²r² + r²p²).\n\nStep 3: Evaluate p²q² + q²r² + r²p²:\n(pq + qr + rp)² = p²q² + q²r² + r²p² + 2pqr(p + q + r)\nSince p + q + r = 0, the last term vanishes:\np²q² + q²r² + r²p² = (pq + qr + rp)² = (-35)² = 1225.\n\nStep 4: Calculate p⁴ + q⁴ + r⁴:\np⁴ + q⁴ + r⁴ = 4900 - 2(1225) = 4900 - 2450 = 2450.",
+      "trick": "Maestro's Golden Identity: When p + q + r = 0, p⁴ + q⁴ + r⁴ = 2(pq + qr + rp)² directly! Answer = 2 × (-35)² = 2 × 1225 = 2450. Solved in 3 seconds without pen!",
+      "set": "Set 3"
+    },
+    {
+      "id": "xmp3_04",
+      "type": "Geometry (Circles)",
+      "exam": "SSC CGL Tier 2 Expected",
+      "page": 4,
+      "question": "The common direct tangent of two circles is 26 cm long, while their common transverse tangent is 10 cm long. Find the product of their radii (r₁ × r₂).",
+      "options": [
+        "72",
+        "86",
+        "100",
+        "144"
+      ],
+      "answer": "144",
+      "solution": "Step 1: Formula for Tangents:\nDirect Common Tangent: DCT² = d² - (r₁ - r₂)²\nTransverse Common Tangent: TCT² = d² - (r₁ + r₂)²\nwhere d is the distance between centers.\n\nStep 2: Subtract the two equations:\nDCT² - TCT² = [d² - (r₁ - r₂)²] - [d² - (r₁ + r₂)²]\nDCT² - TCT² = (r₁ + r₂)² - (r₁ - r₂)² = 4 × r₁ × r₂.\n\nStep 3: Solve for r₁ × r₂:\n4 × r₁ × r₂ = 26² - 10² = 676 - 100 = 576.\nr₁ × r₂ = 576 / 4 = 144.",
+      "trick": "Maestro's Radii Product Formula: r₁ × r₂ = (DCT² - TCT²) / 4 = (26² - 10²) / 4 = (36 × 16) / 4 = 9 × 16 = 144. Zero algebra needed!",
+      "set": "Set 3"
+    },
+    {
+      "id": "xmp3_05",
+      "type": "Profit, Loss & Discount",
+      "exam": "SSC CGL Tier 2 Expected",
+      "page": 5,
+      "question": "A seller offers a 20% discount and still earns a 25% profit. If the profit made is Rs. 75, find the marked price of the article.",
+      "options": [
+        "Rs. 504.25",
+        "Rs. 468.75",
+        "Rs. 490.00",
+        "Rs. 570.00"
+      ],
+      "answer": "Rs. 468.75",
+      "solution": "Step 1: Calculate Cost Price (CP):\nProfit = 25% of CP = 1/4 of CP.\n(1/4) CP = Rs. 75 ⟹ CP = 75 × 4 = Rs. 300.\n\nStep 2: Calculate Selling Price (SP):\nSP = CP + Profit = 300 + 75 = Rs. 375.\n\nStep 3: Calculate Marked Price (MP):\nDiscount = 20% ⟹ SP = 80% of MP = 4/5 of MP.\n(4/5) MP = 375 ⟹ MP = 375 × (5/4) = 1875 / 4 = Rs. 468.75.",
+      "trick": "CP : MP Ratio Method: CP / MP = (100 - Discount) / (100 + Profit) = 80 / 125 = 16 / 25. Profit = 25% on CP ⟹ 1/4 of 16 units = 4 units = Rs. 75 ⟹ 1 unit = 18.75. Marked Price = 25 units = 25 × 18.75 = Rs. 468.75!",
+      "set": "Set 3"
+    },
+    {
+      "id": "xmp3_06",
+      "type": "Profit, Loss & Discount",
+      "exam": "SSC CGL Tier 2 Expected",
+      "page": 6,
+      "question": "A shopkeeper earns a profit of 19% on the cost price of an article after giving three consecutive discounts of 11%, 13% and 15% to a customer. What would have been the profit percentage, had the shopkeeper given discounts of 11% and 13% only?",
+      "options": [
+        "35%",
+        "40%",
+        "45%",
+        "50%"
+      ],
+      "answer": "40%",
+      "solution": "Step 1: Express SP under three discounts:\nSP₁ = MP × (1 - 0.11) × (1 - 0.13) × (1 - 0.15) = MP × 0.89 × 0.87 × 0.85.\nGiven SP₁ = 119% of CP = 1.19 CP.\n\nStep 2: Relate to SP with two discounts only:\nSP₂ = MP × (1 - 0.11) × (1 - 0.13) = MP × 0.89 × 0.87.\nNotice: SP₁ = SP₂ × 0.85 ⟹ SP₂ = SP₁ / 0.85.\n\nStep 3: Calculate new profit percentage:\nSP₂ = (1.19 CP) / 0.85 = (119 / 85) CP.\n119 / 85 = (17 × 7) / (17 × 5) = 7 / 5 = 1.40 CP.\nSP₂ = 1.40 CP ⟹ Profit = 40%.",
+      "trick": "Maestro's Multiplier Elimination: Discounts of 11% and 13% cancel out completely! New SP = 1.19 / (1 - 0.15) = 1.19 / 0.85 = 119/85 = 7/5 = 1.40 ⟹ 40% profit! Solved in 5 seconds without touching 11% or 13%!",
+      "set": "Set 3"
+    },
+    {
+      "id": "xmp3_07",
+      "type": "Mensuration (3D)",
+      "exam": "SSC CGL Tier 2 Expected",
+      "page": 7,
+      "question": "A square pyramid is sliced by a plane parallel to its base at a point that is one-third of the way down from the apex along its height. If the volume of the original pyramid is 540 cm³, determine the volume of the frustum formed.",
+      "options": [
+        "415 cm³",
+        "578 cm³",
+        "520 cm³",
+        "480 cm³"
+      ],
+      "answer": "520 cm³",
+      "solution": "Step 1: Understand the slicing ratio:\nThe cut is 1/3 down from apex ⟹ Height of top cut pyramid h₁ = (1/3)H, where H is total height.\nLinear ratio of cut pyramid to full pyramid = 1 : 3.\n\nStep 2: Ratio of Volumes:\nSince the cut pyramid is geometrically similar to the original pyramid:\nVolume ratio = (h₁ / H)³ = (1/3)³ = 1 / 27.\n\nStep 3: Calculate volume of top cut pyramid:\nV_top = 540 × (1 / 27) = 20 cm³.\n\nStep 4: Calculate volume of the frustum:\nV_frustum = V_original - V_top = 540 - 20 = 520 cm³.",
+      "trick": "Cubic Similarity Trick: Volume of frustum = (1 - (1/3)³) × V_total = (26/27) × 540 = 26 × 20 = 520 cm³ immediately!",
+      "set": "Set 3"
+    },
+    {
+      "id": "xmp3_08",
+      "type": "Geometry (Circles)",
+      "exam": "SSC CGL Tier 2 Expected",
+      "page": 9,
+      "question": "In a circle with a diameter of 34 cm, two parallel chords are drawn on opposite sides of the center. The length of one chord is 30 cm, and the perpendicular distance between the two chords is 23 cm. Calculate the length of the other chord.",
+      "options": [
+        "14 cm",
+        "16 cm",
+        "20 cm",
+        "24 cm"
+      ],
+      "answer": "16 cm",
+      "solution": "Step 1: Circle parameters:\nDiameter = 34 cm ⟹ Radius R = 17 cm.\n\nStep 2: Distance of first chord from center:\nChord AB = 30 cm ⟹ Half chord = 15 cm.\nDistance d₁ = √(17² - 15²) = √(289 - 225) = √64 = 8 cm.\n\nStep 3: Distance of second chord from center:\nTotal perpendicular distance between parallel chords on opposite sides = d₁ + d₂ = 23 cm.\nd₂ = 23 - 8 = 15 cm.\n\nStep 4: Length of second chord:\nHalf chord = √(R² - d₂²) = √(17² - 15²) = √64 = 8 cm.\nTotal length of second chord = 2 × 8 = 16 cm.",
+      "trick": "Symmetric Triplet Shortcut: R = 17 forms Pythagorean triplet (8, 15, 17). One chord has half-length 15 (distance 8). Since total distance is 8 + 15 = 23, the other chord must have distance 15 and half-length 8 ⟹ Chord length = 2 × 8 = 16 cm in 5 seconds!",
+      "set": "Set 3"
+    },
+    {
+      "id": "xmp3_09",
+      "type": "Trigonometry",
+      "exam": "SSC CGL Tier 2 Expected",
+      "page": 10,
+      "question": "Simplify the expression: (cos³ θ + sin³ θ) / (cos θ + sin θ) + (cos³ θ - sin³ θ) / (cos θ - sin θ).",
+      "options": [
+        "1",
+        "0",
+        "2",
+        "-2"
+      ],
+      "answer": "2",
+      "solution": "Step 1: Apply algebraic identities for sum and difference of cubes:\na³ + b³ = (a + b)(a² - ab + b²)\na³ - b³ = (a - b)(a² + ab + b²)\n\nStep 2: Simplify each term:\nTerm 1 = [(cos θ + sin θ)(cos² θ - cos θ sin θ + sin² θ)] / (cos θ + sin θ) = cos² θ - cos θ sin θ + sin² θ = 1 - cos θ sin θ.\nTerm 2 = [(cos θ - sin θ)(cos² θ + cos θ sin θ + sin² θ)] / (cos θ - sin θ) = cos² θ + cos θ sin θ + sin² θ = 1 + cos θ sin θ.\n\nStep 3: Combine terms:\nTotal = (1 - cos θ sin θ) + (1 + cos θ sin θ) = 1 + 1 = 2.",
+      "trick": "Topper Value Putting: Put θ = 0°: sin 0° = 0, cos 0° = 1 ⟹ (1/1) + (1/1) = 2. Option C marked in 2 seconds!",
+      "set": "Set 3"
+    },
+    {
+      "id": "xmp3_10",
+      "type": "Mensuration (3D)",
+      "exam": "SSC CGL Tier 2 Expected",
+      "page": 11,
+      "question": "If the radius of a solid hemisphere is 7 cm, what is the difference between its total surface area and its curved surface area?",
+      "options": [
+        "154 cm²",
+        "77 cm²",
+        "169 cm²",
+        "88 cm²"
+      ],
+      "answer": "154 cm²",
+      "solution": "Step 1: Formula for Hemisphere:\nCurved Surface Area (CSA) = 2πr².\nTotal Surface Area (TSA) = 3πr² (CSA + circular base area πr²).\n\nStep 2: Difference:\nDifference = TSA - CSA = 3πr² - 2πr² = πr².\n\nStep 3: Substitute r = 7 cm:\nDifference = (22 / 7) × 7² = 22 × 7 = 154 cm².",
+      "trick": "Direct Base Area Rule: TSA - CSA of a solid hemisphere is simply the area of its circular base = πr² = 22/7 × 49 = 154 cm² without computing TSA or CSA separately!",
+      "set": "Set 3"
+    },
+    {
+      "id": "xmp3_11",
+      "type": "Trigonometry",
+      "exam": "SSC CGL Tier 2 Expected",
+      "page": 14,
+      "question": "What is the value of: [sin(42°) sec(48°) + cos(42°) cosec(48°) + tan(38°) tan(52°)] / [cosec²(31°) - tan²(59°)]?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": "3",
+      "solution": "Step 1: Complementary angle relationships in Numerator:\nsec(48°) = cosec(42°) = 1 / sin(42°) ⟹ sin(42°) × sec(48°) = 1.\ncosec(48°) = sec(42°) = 1 / cos(42°) ⟹ cos(42°) × cosec(48°) = 1.\ntan(52°) = cot(38°) = 1 / tan(38°) ⟹ tan(38°) × tan(52°) = 1.\nNumerator = 1 + 1 + 1 = 3.\n\nStep 2: Denominator:\ntan(59°) = cot(31°).\nDenominator = cosec²(31°) - cot²(31°) = 1 (standard trigonometric identity).\n\nStep 3: Value of expression:\nResult = 3 / 1 = 3.",
+      "trick": "Complementary Pair Trick: Whenever angles add up to 90°, sin·sec = 1, cos·cosec = 1, tan·tan = 1 ⟹ Numerator = 1 + 1 + 1 = 3. Denominator = cosec²(31°) - cot²(31°) = 1. Result = 3 instantly!",
+      "set": "Set 3"
+    },
+    {
+      "id": "xmp3_12",
+      "type": "Trigonometry",
+      "exam": "SSC CGL Tier 2 Expected",
+      "page": 15,
+      "question": "If sin A + cos A = √2, determine the value of tan A + cot A.",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": "2",
+      "solution": "Step 1: Deduce angle A:\nsin A + cos A = √2 occurs when A = 45°:\nsin(45°) + cos(45°) = 1/√2 + 1/√2 = 2/√2 = √2.\n\nStep 2: Evaluate tan A + cot A:\ntan(45°) + cot(45°) = 1 + 1 = 2.\n\nStep 3: Algebraic verification:\nSquaring sin A + cos A = √2 gives sin² A + cos² A + 2 sin A cos A = 2 ⟹ 1 + 2 sin A cos A = 2 ⟹ sin A cos A = 1/2.\ntan A + cot A = (sin² A + cos² A) / (sin A cos A) = 1 / (1/2) = 2.",
+      "trick": "Standard Angle Recognition: sin A + cos A = √2 implies A = 45° automatically! tan 45° + cot 45° = 1 + 1 = 2 in 1 second!",
+      "set": "Set 3"
+    },
+    {
+      "id": "xmp3_13",
+      "type": "Trigonometry",
+      "exam": "SSC CGL Tier 2 Expected",
+      "page": 16,
+      "question": "If sin θ + sin³ θ = cos² θ, find the value of cos⁶ θ - 4 cos⁴ θ + 8 cos² θ.",
+      "options": [
+        "4",
+        "1",
+        "0",
+        "-2"
+      ],
+      "answer": "4",
+      "solution": "Step 1: Factorize the given equation:\nsin θ + sin³ θ = cos² θ ⟹ sin θ(1 + sin² θ) = cos² θ.\nSince 1 + sin² θ = 1 + (1 - cos² θ) = 2 - cos² θ:\nsin θ (2 - cos² θ) = cos² θ.\n\nStep 2: Square both sides to eliminate sin θ:\nsin² θ (2 - cos² θ)² = cos⁴ θ\n(1 - cos² θ)(4 - 4 cos² θ + cos⁴ θ) = cos⁴ θ.\n\nStep 3: Expand the left-hand side:\n4 - 4 cos² θ + cos⁴ θ - 4 cos² θ + 4 cos⁴ θ - cos⁶ θ = cos⁴ θ\n4 - 8 cos² θ + 5 cos⁴ θ - cos⁶ θ = cos⁴ θ\n4 - 8 cos² θ + 4 cos⁴ θ - cos⁶ θ = 0\ncos⁶ θ - 4 cos⁴ θ + 8 cos² θ = 4.",
+      "trick": "Maestro's Elimination Identity: Notice that (2 - cos²θ)² gives the constant 4 on expansion, which shifts to the RHS when all cos terms are collected on the LHS. The value equals the constant term = 4!",
+      "set": "Set 3"
+    },
+    {
+      "id": "xmp3_14",
+      "type": "Geometry (Circles & Triangles)",
+      "exam": "SSC CGL Tier 2 Expected",
+      "page": 17,
+      "question": "In a circle with center O, AD is a diameter and AC is a chord. Point B is on AD such that OB = 7 cm and BC = 9 cm. If ∠OBC = 60°, find the radius of the circle.",
+      "options": [
+        "16 cm",
+        "√67 cm",
+        "25 cm",
+        "12 cm"
+      ],
+      "answer": "√67 cm",
+      "solution": "Step 1: Identify the triangle:\nJoin OC. Since C lies on the circle and O is the center, OC is the radius R.\nIn △OBC:\nSide OB = 7 cm, Side BC = 9 cm, ∠OBC = 60°.\n\nStep 2: Apply Law of Cosines in △OBC:\nOC² = OB² + BC² - 2 × OB × BC × cos(60°)\nR² = 7² + 9² - 2 × 7 × 9 × (1/2)\nR² = 49 + 81 - 63\nR² = 130 - 63 = 67.\n\nStep 3: Radius R:\nR = √67 cm.",
+      "trick": "Cosine Rule on Center Triangle: Join OC = R directly. In △OBC: R² = 7² + 9² - 7×9 = 49 + 81 - 63 = 67 ⟹ R = √67 cm. Solved in 10 seconds without circle theorem baggage!",
+      "set": "Set 3"
+    },
+    {
+      "id": "xmp3_15",
+      "type": "Trigonometry & Geometry",
+      "exam": "SSC CGL Tier 2 Expected",
+      "page": 18,
+      "question": "In a triangle ABC, if the three sides are a = 5, b = 7 and c = 3, what is angle B?",
+      "options": [
+        "90°",
+        "120°",
+        "135°",
+        "150°"
+      ],
+      "answer": "120°",
+      "solution": "Step 1: Apply Law of Cosines for angle B:\ncos B = (a² + c² - b²) / (2ac)\n\nStep 2: Substitute side lengths a = 5, b = 7, c = 3:\ncos B = (5² + 3² - 7²) / (2 × 5 × 3)\ncos B = (25 + 9 - 49) / 30 = -15 / 30 = -1/2.\n\nStep 3: Determine angle B:\ncos B = -1/2 ⟹ B = 180° - 60° = 120°.",
+      "trick": "Obtuse Cosine Rule: Check a² + c² = 25 + 9 = 34 < 49 (b²) ⟹ Angle B is obtuse! cos B = (34 - 49) / 30 = -1/2 ⟹ Angle = 120° directly!",
+      "set": "Set 3"
+    },
+    {
+      "id": "xmp3_16",
+      "type": "Geometry (Triangles)",
+      "exam": "SSC CGL Tier 2 Expected",
+      "page": 18,
+      "question": "Side AB of triangle ABC is 80 cm long, and the perimeter of the triangle is 170 cm. If ∠ABC = 60°, find the length of the shortest side of triangle ABC.",
+      "options": [
+        "17 cm",
+        "25 cm",
+        "30 cm",
+        "45 cm"
+      ],
+      "answer": "17 cm",
+      "solution": "Step 1: Set up side variables:\nLet c = AB = 80 cm, a = BC, b = AC.\nPerimeter = a + b + c = 170 ⟹ a + b + 80 = 170 ⟹ a + b = 90 ⟹ b = 90 - a.\n\nStep 2: Apply Law of Cosines at ∠B = 60°:\nb² = a² + c² - 2ac cos(60°)\n(90 - a)² = a² + 80² - 2 × a × 80 × (1/2)\n8100 - 180a + a² = a² + 6400 - 80a.\n\nStep 3: Solve for a:\n8100 - 6400 = 180a - 80a\n1700 = 100a ⟹ a = 17 cm.\n\nStep 4: Find all side lengths:\na = 17 cm, b = 90 - 17 = 73 cm, c = 80 cm.\nThe shortest side is a = 17 cm.",
+      "trick": "Maestro's Linear Cancellation: a² cancels out on both sides: 90² - 80² = (2 × 90 - 80) × a ⟹ (90 - 80)(90 + 80) = 100a ⟹ 10 × 170 = 100a ⟹ a = 17 cm. Instant calculation!",
+      "set": "Set 3"
+    },
+    {
+      "id": "xmp3_17",
+      "type": "Geometry (Circles)",
+      "exam": "SSC CGL Tier 2 Expected",
+      "page": 19,
+      "question": "In a circle of radius 42 cm, an arc subtends an angle of 15 degrees at the centre. Find the length of the arc. (Take π = 22/7)",
+      "options": [
+        "11 cm",
+        "22 cm",
+        "33 cm",
+        "44 cm"
+      ],
+      "answer": "11 cm",
+      "solution": "Step 1: Arc length formula:\nLength of arc = (θ / 360°) × 2πr\n\nStep 2: Substitute given values:\nθ = 15°, r = 42 cm, π = 22/7.\nArc length = (15 / 360) × 2 × (22 / 7) × 42\n15 / 360 = 1 / 24.\n(22 / 7) × 42 = 22 × 6 = 132.\nArc length = (1 / 24) × 2 × 132 = 264 / 24 = 11 cm.",
+      "trick": "Circumference Fraction: Total circumference = 2 × (22/7) × 42 = 264 cm. 15° is 1/24 of 360° ⟹ Arc = 264 / 24 = 11 cm directly!",
+      "set": "Set 3"
+    },
+    {
+      "id": "xmp3_18",
+      "type": "Profit, Loss & Discount",
+      "exam": "SSC CGL Tier 2 Expected",
+      "page": 20,
+      "question": "A dealer claims to sell goods at cost price but uses a weight of 960 grams in place of a standard kilogram (1000 grams). Determine the approximate percentage gain achieved by the dealer.",
+      "options": [
+        "4.17%",
+        "5.18%",
+        "6.78%",
+        "7.42%"
+      ],
+      "answer": "4.17%",
+      "solution": "Step 1: Identify error in weight:\nTrue weight = 1000 g.\nFaulty weight used = 960 g.\nError = 1000 - 960 = 40 g.\n\nStep 2: Formula for Profit % of Dishonest Dealer:\nProfit % = [Error / (False Weight)] × 100%\nProfit % = [40 / 960] × 100% = [1 / 24] × 100%.\n\nStep 3: Convert 1/24 to percentage:\n1/24 × 100% = 25 / 6% = 4.166...% ≈ 4.17%.",
+      "trick": "Percentage Fraction Memory: 1/24 = 4.167% (or 4 1/6%). Marked in 1 second without calculation!",
+      "set": "Set 3"
+    },
+    {
+      "id": "xmp3_19",
+      "type": "Algebra",
+      "exam": "SSC CGL Tier 2 Expected",
+      "page": 21,
+      "question": "If x + 1/x = 2, then what is the value of x¹⁷ + 1/x¹⁹?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": "2",
+      "solution": "Step 1: Solve x + 1/x = 2:\nx² - 2x + 1 = 0 ⟹ (x - 1)² = 0 ⟹ x = 1.\n\nStep 2: Substitute x = 1 into the target expression:\nx¹⁷ + 1/x¹⁹ = 1¹⁷ + 1 / (1¹⁹) = 1 + 1 = 2.",
+      "trick": "Universal Identity: Whenever x + 1/x = 2, x is strictly equal to 1. Therefore, xⁿ + 1/xᵐ = 1 + 1 = 2 for any positive integers n and m!",
+      "set": "Set 3"
+    },
+    {
+      "id": "xmp3_20",
+      "type": "Simple Interest",
+      "exam": "SSC CGL Tier 2 Expected",
+      "page": 22,
+      "question": "A sum of Rs. 15,600 is invested in a scheme of simple interest. The person receives Rs. 4,680 as interest after 3 years. If he had invested the same sum for 5 years at a rate 2% lower than the original rate, what would be the interest?",
+      "options": [
+        "Rs. 6,240",
+        "Rs. 5,400",
+        "Rs. 6,500",
+        "Rs. 5,850"
+      ],
+      "answer": "Rs. 6,240",
+      "solution": "Step 1: Find the original interest rate R:\nSI for 3 years = Rs. 4,680 ⟹ Annual SI = 4,680 / 3 = Rs. 1,560.\nRate R = (Annual SI / Principal) × 100% = (1,560 / 15,600) × 100% = 10% per annum.\n\nStep 2: Calculate new rate:\nNew Rate = 10% - 2% = 8% per annum.\n\nStep 3: Calculate new interest for 5 years:\nNew SI = (Principal × New Rate × Time) / 100\nNew SI = (15,600 × 8 × 5) / 100 = 156 × 40 = Rs. 6,240.",
+      "trick": "Rate Inspection: 4680 in 3 yrs = 1560/yr = exactly 10% of 15,600. New rate = 10 - 2 = 8%. For 5 years, total % = 8 × 5 = 40%. Interest = 40% of 15,600 = 4 × 1560 = Rs. 6,240!",
+      "set": "Set 3"
+    },
+    {
+      "id": "xmp3_21",
+      "type": "Geometry (Polygons)",
+      "exam": "SSC CGL Tier 2 Expected",
+      "page": 23,
+      "question": "If a regular polygon has 90 diagonals, what is the measure of each interior angle?",
+      "options": [
+        "126°",
+        "181°",
+        "156°",
+        "140°"
+      ],
+      "answer": "156°",
+      "solution": "Step 1: Formula for number of diagonals in an n-sided polygon:\nNumber of diagonals = n(n - 3) / 2 = 90.\nn(n - 3) = 180.\n\nStep 2: Solve for n:\nFactors of 180 differing by 3 are 15 and 12 (15 × 12 = 180) ⟹ n = 15 sides.\n\nStep 3: Measure of each interior angle:\nExterior angle = 360° / n = 360° / 15 = 24°.\nInterior angle = 180° - Exterior angle = 180° - 24° = 156°.",
+      "trick": "Exterior Angle Route: n(n-3) = 180 ⟹ n = 15. Each exterior angle = 360 / 15 = 24° ⟹ Each interior angle = 180° - 24° = 156°. Faster than using (n-2)×180/n!",
+      "set": "Set 3"
+    },
+    {
+      "id": "xmp3_22",
+      "type": "Compound Interest",
+      "exam": "SSC CGL Tier 2 Expected",
+      "page": 24,
+      "question": "If Rs. 2,000 amounts to Rs. 2,315.25 in 3 years at compound interest compounded annually, what is the rate percent per annum?",
+      "options": [
+        "7%",
+        "5%",
+        "9%",
+        "10%"
+      ],
+      "answer": "5%",
+      "solution": "Step 1: Ratio of Amount to Principal:\nA / P = 2315.25 / 2000 = 231525 / 200000.\nDivide numerator and denominator by 25:\n231525 / 25 = 9261.\n200000 / 25 = 8000.\nA / P = 9261 / 8000.\n\nStep 2: Take cube root for 3 years:\nSince A / P = (1 + R/100)³:\n9261 / 8000 = (21 / 20)³ ⟹ 1 + R/100 = 21 / 20.\n\nStep 3: Solve for R:\nR/100 = 21/20 - 1 = 1/20 ⟹ R = (1/20) × 100 = 5%.",
+      "trick": "Cube Recognition: 8000 = 20³ and 9261 = 21³! 20 becomes 21 in 1 year ⟹ 1 unit increase on 20 = 1/20 = 5% in 3 seconds!",
+      "set": "Set 3"
+    },
+    {
+      "id": "xmp3_23",
+      "type": "Averages",
+      "exam": "SSC CGL Tier 2 Expected",
+      "page": 25,
+      "question": "The average of 5 consecutive odd numbers is 61. What is the difference between the highest and lowest numbers?",
+      "options": [
+        "5",
+        "8",
+        "6",
+        "3"
+      ],
+      "answer": "8",
+      "solution": "Step 1: Set up the 5 consecutive odd numbers:\nSince the average of 5 consecutive odd numbers is 61, the middle (3rd) number is 61.\nThe 5 numbers are: 57, 59, 61, 63, 65.\n\nStep 2: Find the difference:\nHighest number = 65.\nLowest number = 57.\nDifference = 65 - 57 = 8.",
+      "trick": "Universal Consecutive Gap Shortcut: For any n consecutive odd (or even) numbers, the difference between the highest and lowest is ALWAYS 2 × (n - 1). Here n = 5 ⟹ Diff = 2 × (5 - 1) = 8. The average 61 is irrelevant!",
+      "set": "Set 3"
+    },
+    {
+      "id": "xmp3_24",
+      "type": "Percentages & Ratio",
+      "exam": "SSC CGL Tier 2 Expected",
+      "page": 26,
+      "question": "In an innings of 108 runs, a batsman hit 9 boundaries (fours) and 3 sixes. Find the percentage of runs scored by running between the wickets.",
+      "options": [
+        "50%",
+        "65%",
+        "32%",
+        "48%"
+      ],
+      "answer": "50%",
+      "solution": "Step 1: Calculate runs scored in boundaries:\n9 boundaries (fours) = 9 × 4 = 36 runs.\n3 sixes = 3 × 6 = 18 runs.\nTotal runs from boundaries = 36 + 18 = 54 runs.\n\nStep 2: Runs scored by running:\nTotal runs = 108.\nRuns by running = 108 - 54 = 54 runs.\n\nStep 3: Percentage of runs by running:\nPercentage = (54 / 108) × 100% = (1 / 2) × 100% = 50%.",
+      "trick": "Half-Score Inspection: 36 + 18 = 54, which is exactly half of 108 ⟹ Remaining half must be 50%! Answer marked in 2 seconds!",
+      "set": "Set 3"
+    },
+    {
+      "id": "xmp3_25",
+      "type": "Partnership",
+      "exam": "SSC CGL Tier 2 Expected",
+      "page": 27,
+      "question": "A and B invest in a business in the ratio 4:5. After 10 months, B leaves the business after withdrawing his investment. In the first year (12 months), the business made a total profit of Rs. 49,000. What is B's share of the profit?",
+      "options": [
+        "Rs. 25,000",
+        "Rs. 20,000",
+        "Rs. 24,000",
+        "Rs. 22,000"
+      ],
+      "answer": "Rs. 25,000",
+      "solution": "Step 1: Calculate profit sharing ratio:\nProfit ratio = (Investment of A × Time of A) : (Investment of B × Time of B)\nA stayed for full 12 months ⟹ A's weight = 4 × 12 = 48.\nB stayed for 10 months ⟹ B's weight = 5 × 10 = 50.\nRatio A : B = 48 : 50 = 24 : 25.\n\nStep 2: Total ratio units:\nTotal units = 24 + 25 = 49 units.\n\nStep 3: Calculate B's share:\n49 units = Rs. 49,000 ⟹ 1 unit = Rs. 1,000.\nB's share = 25 × 1,000 = Rs. 25,000.",
+      "trick": "Unit Simplification: Ratio = 48 : 50 ⟹ Sum = 98 units (or 24 : 25 ⟹ Sum = 49 units). Since total profit is Rs. 49,000, 1 unit = Rs. 1,000 ⟹ B's share = 25 × 1000 = Rs. 25,000!",
+      "set": "Set 3"
+    },
+    {
+      "id": "xmp3_26",
+      "type": "Number System (LCM)",
+      "exam": "SSC CGL Tier 2 Expected",
+      "page": 28,
+      "question": "Find the smallest number which is a perfect square and is divisible by 6, 10, 15, and 30.",
+      "options": [
+        "400",
+        "900",
+        "2500",
+        "1600"
+      ],
+      "answer": "900",
+      "solution": "Step 1: Find the LCM of 6, 10, 15, and 30:\n6 = 2 × 3\n10 = 2 × 5\n15 = 3 × 5\n30 = 2 × 3 × 5\nLCM(6, 10, 15, 30) = 30 = 2¹ × 3¹ × 5¹.\n\nStep 2: Make it a perfect square:\nFor a number to be a perfect square, all exponents of prime factors must be even.\nMultiply by 2 × 3 × 5 = 30:\nSmallest square = 30 × 30 = 900.\n\nStep 3: Verification:\n900 = 30² (perfect square).\n900 / 6 = 150, 900 / 10 = 90, 900 / 15 = 60, 900 / 30 = 30.",
+      "trick": "Option Elimination: 400 is not divisible by 6 (400/6 is not integer). 2500 is not divisible by 3. 1600 is not divisible by 3. Only 900 is divisible by 3 and is a perfect square! Option B without LCM!",
+      "set": "Set 3"
     }
   ]
 }

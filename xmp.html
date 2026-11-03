@@ -663,7 +663,7 @@
                 <a href="index.html" class="back-btn" title="Back to Dashboard">← Home</a>
                 <div class="title-block">
                     <h1>🔥 Maths Maestro <span class="badge-pro">XMP Master Hub</span></h1>
-                    <p>46 Solved Tier 2 Expected PYQs • 12 Golden Formulas & Concept Sheets • Vishesh Shukla</p>
+                    <p>72 Solved Tier 2 Expected PYQs • 15 Golden Formulas & Concept Sheets • Vishesh Shukla</p>
                 </div>
             </div>
         </div>
@@ -673,7 +673,7 @@
         <!-- Stats Summary -->
         <section class="stats-bar">
             <div class="stat-item">
-                <div class="num" id="stat-total">46</div>
+                <div class="num" id="stat-total">72</div>
                 <div class="lbl">Questions</div>
             </div>
             <div class="stat-item">
@@ -694,7 +694,7 @@
         <section class="formula-card-section">
             <div class="formula-header" id="formula-toggle">
                 <div class="formula-title">
-                    <span>⚡</span> 12 Golden Exam Formulas & Concept Master Sheets
+                    <span>⚡</span> 15 Golden Exam Formulas & Concept Master Sheets
                 </div>
                 <div class="formula-toggle-icon" id="formula-chevron">▼ Click to Expand</div>
             </div>
@@ -714,14 +714,15 @@
 
             <!-- Set Filter Row -->
             <div class="filter-row" id="set-tabs">
-                <button class="set-btn active" data-set="all">All Sets (46)</button>
+                <button class="set-btn active" data-set="all">All Sets (72)</button>
                 <button class="set-btn" data-set="Set 1">⚡ Set 1 (22 Qs)</button>
                 <button class="set-btn" data-set="Set 2">⚡ Set 2 (24 Qs)</button>
+                <button class="set-btn" data-set="Set 3">⚡ Set 3 (26 Qs)</button>
             </div>
 
             <!-- Topic Filter Row -->
             <div class="filter-row" id="topic-tabs">
-                <button class="tab-btn active" data-topic="all">All Topics (46)</button>
+                <button class="tab-btn active" data-topic="all">All Topics (72)</button>
                 <button class="tab-btn" data-topic="Geometry & Tangents">Geometry & Tangents (11)</button>
                 <button class="tab-btn" data-topic="Number System & Identities">Number System & Identities (11)</button>
                 <button class="tab-btn" data-topic="Commercial Math & Mixtures">Commercial Math & Mixtures (10)</button>
@@ -779,8 +780,8 @@
             let currentTopic = "all";
             let searchQuery = "";
 
-            const rawQuestions = window.XMP_DATA || [];
-            const rawFormulas = window.XMP_FORMULAS || [];
+            const rawQuestions = (Array.isArray(window.XMP_DATA) ? window.XMP_DATA : (window.XMP_DATA && window.XMP_DATA.questions)) || window.XMP_QUESTIONS || [];
+            const rawFormulas = (window.XMP_DATA && window.XMP_DATA.formulas) || window.XMP_FORMULAS || [];
 
             // DOM Elements
             const formulaToggle = document.getElementById("formula-toggle");
