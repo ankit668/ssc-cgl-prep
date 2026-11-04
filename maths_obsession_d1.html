@@ -1,0 +1,1364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Maths Obsession Day 1 • 19 PYQs & 5 Golden Formulas (Maths Maestro)</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="icon-192.png">
+    <link rel="apple-touch-icon" href="icon-192.png">
+    <meta name="theme-color" content="#0B1120">
+    <link rel="stylesheet" href="ai_mentor.css">
+
+    <style>
+        :root {
+            --bg-color: #0B1120;
+            --container-bg: #1E293B;
+            --card-bg: #162032;
+            --card-hover: #1c2a42;
+            --text-color: #F8FAFC;
+            --text-muted: #94A3B8;
+            --border-color: #334155;
+            --accent-cyan: #06B6D4;
+            --accent-blue: #38BDF8;
+            --accent-green: #10B981;
+            --accent-red: #EF4444;
+            --accent-amber: #F59E0B;
+            --accent-purple: #A855F7;
+            --accent-orange: #F97316;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            min-height: 100vh;
+            padding-bottom: 90px;
+        }
+
+        header {
+            background: rgba(30, 41, 59, 0.85);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            padding: 12px 16px;
+        }
+
+        .header-content {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .back-btn {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 8px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s;
+        }
+
+        .back-btn:hover {
+            border-color: var(--accent-orange);
+            color: var(--accent-orange);
+        }
+
+        .header-title-box h1 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #FFF;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .badge-obsession {
+            background: linear-gradient(135deg, #EA580C, #F97316);
+            color: #FFF;
+            font-size: 0.72rem;
+            font-weight: 800;
+            padding: 3px 8px;
+            border-radius: 12px;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        .header-subtitle {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            margin-top: 2px;
+        }
+
+        .header-actions {
+            display: flex;
+            gap: 8px;
+        }
+
+        .btn-header-action {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 7px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.82rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            transition: all 0.2s;
+        }
+
+        .btn-header-action:hover {
+            border-color: var(--accent-cyan);
+            color: var(--accent-cyan);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 16px;
+        }
+
+        /* Hero Card */
+        .hero-card {
+            background: linear-gradient(135deg, rgba(234, 88, 12, 0.12), rgba(30, 41, 59, 0.9));
+            border: 1px solid rgba(249, 115, 22, 0.35);
+            border-radius: 16px;
+            padding: 18px 20px;
+            margin-bottom: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-card::before {
+            content: '';
+            position: absolute;
+            top: -30px;
+            right: -30px;
+            width: 140px;
+            height: 140px;
+            background: radial-gradient(circle, rgba(249, 115, 22, 0.25) 0%, transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .hero-stats {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            margin-top: 14px;
+        }
+
+        .stat-item {
+            background: rgba(15, 23, 42, 0.65);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 10px;
+            padding: 10px 8px;
+            text-align: center;
+        }
+
+        .stat-val {
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: var(--accent-orange);
+        }
+
+        .stat-label {
+            font-size: 0.72rem;
+            color: var(--text-muted);
+            margin-top: 2px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Formula Hub Drawer */
+        .formula-section {
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 14px;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+
+        .formula-header {
+            padding: 14px 18px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            user-select: none;
+            background: rgba(249, 115, 22, 0.08);
+            border-bottom: 1px solid transparent;
+            transition: all 0.2s;
+        }
+
+        .formula-header:hover {
+            background: rgba(249, 115, 22, 0.14);
+        }
+
+        .formula-header.open {
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .formula-title-text {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--accent-orange);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .formula-chevron {
+            transition: transform 0.3s;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        .formula-header.open .formula-chevron {
+            transform: rotate(180deg);
+        }
+
+        .formula-body {
+            display: none;
+            padding: 16px;
+            gap: 12px;
+            flex-direction: column;
+        }
+
+        .formula-body.open {
+            display: flex;
+        }
+
+        .formula-card {
+            background: var(--card-bg);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-left: 4px solid var(--accent-orange);
+            border-radius: 10px;
+            padding: 14px 16px;
+        }
+
+        .formula-card-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 6px;
+        }
+
+        .formula-card-title {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: #FFF;
+        }
+
+        .formula-card-page {
+            font-size: 0.72rem;
+            background: rgba(249, 115, 22, 0.15);
+            color: var(--accent-orange);
+            padding: 2px 7px;
+            border-radius: 6px;
+            font-weight: 700;
+        }
+
+        .formula-formula-box {
+            background: rgba(15, 23, 42, 0.85);
+            border: 1px dashed rgba(249, 115, 22, 0.3);
+            border-radius: 8px;
+            padding: 10px 12px;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+            font-size: 0.86rem;
+            color: #FDBA74;
+            margin: 8px 0;
+            line-height: 1.5;
+            white-space: pre-wrap;
+        }
+
+        .formula-desc-box {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            line-height: 1.55;
+            white-space: pre-line;
+        }
+
+        /* Filter Tabs */
+        .filter-tabs {
+            display: flex;
+            gap: 8px;
+            overflow-x: auto;
+            padding-bottom: 8px;
+            margin-bottom: 16px;
+            scrollbar-width: thin;
+        }
+
+        .filter-tab {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-muted);
+            padding: 7px 14px;
+            border-radius: 20px;
+            font-size: 0.82rem;
+            font-weight: 600;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: all 0.2s;
+        }
+
+        .filter-tab:hover {
+            border-color: var(--accent-orange);
+            color: var(--text-color);
+        }
+
+        .filter-tab.active {
+            background: var(--accent-orange);
+            border-color: var(--accent-orange);
+            color: #FFF;
+        }
+
+        /* Search Bar */
+        .search-box {
+            position: relative;
+            margin-bottom: 18px;
+        }
+
+        .search-input {
+            width: 100%;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 10px 14px 10px 38px;
+            color: var(--text-color);
+            font-size: 0.88rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .search-input:focus {
+            border-color: var(--accent-orange);
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            pointer-events: none;
+        }
+
+        /* Question Cards */
+        .question-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 14px;
+            padding: 18px;
+            margin-bottom: 18px;
+            transition: border-color 0.2s, box-shadow 0.2s;
+            position: relative;
+        }
+
+        .question-card:hover {
+            border-color: rgba(249, 115, 22, 0.4);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+        }
+
+        .question-card.answered-correct {
+            border-color: rgba(16, 185, 129, 0.5);
+        }
+
+        .question-card.answered-incorrect {
+            border-color: rgba(239, 68, 68, 0.5);
+        }
+
+        .card-top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 12px;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .card-meta-left {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .q-number-badge {
+            background: linear-gradient(135deg, #EA580C, #F97316);
+            color: #FFF;
+            font-size: 0.78rem;
+            font-weight: 800;
+            padding: 3px 9px;
+            border-radius: 6px;
+        }
+
+        .topic-badge {
+            background: rgba(56, 189, 248, 0.12);
+            color: var(--accent-blue);
+            font-size: 0.74rem;
+            font-weight: 600;
+            padding: 3px 8px;
+            border-radius: 6px;
+            border: 1px solid rgba(56, 189, 248, 0.25);
+        }
+
+        .exam-badge {
+            background: rgba(168, 85, 247, 0.12);
+            color: var(--accent-purple);
+            font-size: 0.74rem;
+            font-weight: 600;
+            padding: 3px 8px;
+            border-radius: 6px;
+            border: 1px solid rgba(168, 85, 247, 0.25);
+        }
+
+        .page-badge {
+            background: rgba(148, 163, 184, 0.12);
+            color: var(--text-muted);
+            font-size: 0.72rem;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+
+        .bookmark-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            font-size: 1.15rem;
+            cursor: pointer;
+            padding: 4px;
+            transition: color 0.2s, transform 0.2s;
+        }
+
+        .bookmark-btn:hover {
+            color: var(--accent-amber);
+            transform: scale(1.15);
+        }
+
+        .bookmark-btn.active {
+            color: var(--accent-amber);
+        }
+
+        .q-text {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: var(--text-color);
+            margin-bottom: 16px;
+            white-space: pre-line;
+        }
+
+        /* DI Visual Table/Boxes */
+        .di-table-wrapper {
+            background: rgba(15, 23, 42, 0.8);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            padding: 10px;
+            margin: 10px 0 16px 0;
+            overflow-x: auto;
+        }
+
+        .di-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.82rem;
+            text-align: left;
+        }
+
+        .di-table th {
+            background: rgba(249, 115, 22, 0.15);
+            color: var(--accent-orange);
+            padding: 6px 10px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .di-table td {
+            padding: 6px 10px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            color: var(--text-color);
+        }
+
+        /* Options */
+        .options-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 9px;
+            margin-bottom: 14px;
+        }
+
+        @media (min-width: 600px) {
+            .options-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .opt-btn {
+            background: rgba(30, 41, 59, 0.7);
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 11px 14px;
+            border-radius: 9px;
+            text-align: left;
+            cursor: pointer;
+            font-size: 0.88rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.2s;
+            position: relative;
+        }
+
+        .opt-btn:hover:not(:disabled) {
+            background: rgba(249, 115, 22, 0.1);
+            border-color: rgba(249, 115, 22, 0.4);
+        }
+
+        .opt-prefix {
+            font-weight: 700;
+            color: var(--accent-orange);
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            background: rgba(249, 115, 22, 0.12);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.75rem;
+            flex-shrink: 0;
+        }
+
+        .opt-btn.correct {
+            background: rgba(16, 185, 129, 0.18) !important;
+            border-color: var(--accent-green) !important;
+            color: #A7F3D0 !important;
+        }
+
+        .opt-btn.correct .opt-prefix {
+            background: var(--accent-green);
+            color: #064E3B;
+        }
+
+        .opt-btn.incorrect {
+            background: rgba(239, 68, 68, 0.18) !important;
+            border-color: var(--accent-red) !important;
+            color: #FECACA !important;
+        }
+
+        .opt-btn.incorrect .opt-prefix {
+            background: var(--accent-red);
+            color: #7F1D1D;
+        }
+
+        .opt-btn:disabled {
+            cursor: default;
+        }
+
+        /* Card Actions */
+        .card-actions-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-top: 10px;
+            padding-top: 12px;
+            border-top: 1px solid rgba(255, 255, 255, 0.07);
+        }
+
+        .btn-solution-toggle {
+            background: transparent;
+            border: 1px solid var(--border-color);
+            color: var(--accent-cyan);
+            padding: 6px 12px;
+            border-radius: 7px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s;
+        }
+
+        .btn-solution-toggle:hover {
+            background: rgba(6, 182, 212, 0.1);
+            border-color: var(--accent-cyan);
+        }
+
+        .btn-ai-doubt {
+            background: linear-gradient(135deg, rgba(168, 85, 247, 0.2), rgba(56, 189, 248, 0.2));
+            border: 1px solid rgba(168, 85, 247, 0.4);
+            color: #E9D5FF;
+            padding: 6px 13px;
+            border-radius: 7px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s;
+        }
+
+        .btn-ai-doubt:hover {
+            background: linear-gradient(135deg, rgba(168, 85, 247, 0.35), rgba(56, 189, 248, 0.35));
+            border-color: var(--accent-purple);
+            color: #FFF;
+        }
+
+        /* Solution Container */
+        .solution-container {
+            display: none;
+            margin-top: 14px;
+            padding-top: 14px;
+            border-top: 1px dashed rgba(255, 255, 255, 0.1);
+        }
+
+        .solution-container.visible {
+            display: block;
+            animation: fadeIn 0.25s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-4px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .textbook-solution-box {
+            background: rgba(15, 23, 42, 0.7);
+            border: 1px solid rgba(56, 189, 248, 0.25);
+            border-radius: 10px;
+            padding: 14px;
+            margin-bottom: 10px;
+        }
+
+        .solution-heading {
+            font-size: 0.82rem;
+            font-weight: 700;
+            color: var(--accent-blue);
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .solution-text {
+            font-size: 0.88rem;
+            line-height: 1.6;
+            color: #E2E8F0;
+            white-space: pre-line;
+        }
+
+        .trick-box {
+            background: linear-gradient(135deg, rgba(245, 158, 11, 0.12), rgba(249, 115, 22, 0.08));
+            border: 1px solid rgba(245, 158, 11, 0.35);
+            border-radius: 10px;
+            padding: 12px 14px;
+        }
+
+        .trick-heading {
+            font-size: 0.82rem;
+            font-weight: 700;
+            color: var(--accent-amber);
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .trick-text {
+            font-size: 0.88rem;
+            line-height: 1.55;
+            color: #FEF3C7;
+            white-space: pre-line;
+        }
+
+        /* Bottom Sticky Bar */
+        .bottom-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(12px);
+            border-top: 1px solid var(--border-color);
+            padding: 10px 16px;
+            z-index: 40;
+        }
+
+        .bottom-bar-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+        }
+
+        .bottom-score {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+
+        .bottom-score span {
+            color: var(--accent-orange);
+            font-weight: 800;
+        }
+
+        .bottom-btns {
+            display: flex;
+            gap: 8px;
+        }
+
+        .btn-bottom {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 7px 12px;
+            border-radius: 8px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            transition: all 0.2s;
+        }
+
+        .btn-bottom:hover {
+            border-color: var(--accent-orange);
+            color: var(--accent-orange);
+        }
+
+        /* Modal Jump */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.75);
+            backdrop-filter: blur(4px);
+            z-index: 100;
+            align-items: center;
+            justify-content: center;
+            padding: 16px;
+        }
+
+        .modal-overlay.open {
+            display: flex;
+        }
+
+        .modal-card {
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            width: 100%;
+            max-width: 480px;
+            padding: 20px;
+            max-height: 80vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .modal-title {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: #FFF;
+            margin-bottom: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .modal-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 8px;
+            overflow-y: auto;
+            padding: 4px;
+        }
+
+        .jump-btn {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 10px 0;
+            border-radius: 8px;
+            font-weight: 700;
+            cursor: pointer;
+            text-align: center;
+            transition: all 0.2s;
+        }
+
+        .jump-btn:hover {
+            border-color: var(--accent-orange);
+            color: var(--accent-orange);
+        }
+
+        .jump-btn.answered-correct {
+            background: rgba(16, 185, 129, 0.2);
+            border-color: var(--accent-green);
+            color: var(--accent-green);
+        }
+
+        .jump-btn.answered-incorrect {
+            background: rgba(239, 68, 68, 0.2);
+            border-color: var(--accent-red);
+            color: var(--accent-red);
+        }
+
+        .modal-close {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 40px 20px;
+            color: var(--text-muted);
+        }
+
+        .empty-icon {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+            color: var(--accent-orange);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <div class="header-left">
+                <a href="index.html" class="back-btn" title="Back to Hub">
+                    ← <span>Home</span>
+                </a>
+                <div class="header-title-box">
+                    <h1>
+                        <span>Maths Obsession</span>
+                        <span class="badge-obsession">Day 1</span>
+                    </h1>
+                    <div class="header-subtitle">Vishesh Shukla • High-Yield DI, Arithmetic & Geometry</div>
+                </div>
+            </div>
+            <div class="header-actions">
+                <button id="header-formula-btn" class="btn-header-action" title="Toggle Formulas">
+                    <span>⚡</span> Formulas
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Hero Card -->
+        <div class="hero-card">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:10px;">
+                <div>
+                    <h2 style="font-size:1.15rem; font-weight:800; color:#FFF; margin-bottom:4px;">
+                        🔥 Day 1 Mock Practice Hub
+                    </h2>
+                    <p style="font-size:0.84rem; color:var(--text-muted); max-width:550px;">
+                        Full 24-slide masterclass: 19 rigorous questions + 5 Golden Formula sheets. Origin shifts, LCM models, AP heights, and 5-second mental tricks.
+                    </p>
+                </div>
+                <div style="display:flex; gap:8px;">
+                    <button id="reset-progress-btn" class="btn-header-action" style="font-size:0.75rem; padding:5px 10px;">
+                        🔄 Reset
+                    </button>
+                </div>
+            </div>
+
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div id="stat-total" class="stat-val">19</div>
+                    <div class="stat-label">Questions</div>
+                </div>
+                <div class="stat-item">
+                    <div id="stat-attempted" class="stat-val">0</div>
+                    <div class="stat-label">Attempted</div>
+                </div>
+                <div class="stat-item">
+                    <div id="stat-accuracy" class="stat-val">0%</div>
+                    <div class="stat-label">Accuracy</div>
+                </div>
+                <div class="stat-item">
+                    <div id="stat-bookmarks" class="stat-val">0</div>
+                    <div class="stat-label">Bookmarked</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Formula Hub Drawer -->
+        <div class="formula-section">
+            <div id="formula-toggle" class="formula-header">
+                <div class="formula-title-text">
+                    <span>⚡</span> Golden Formula Sheet & Concept Invariants (5 Cards)
+                </div>
+                <div id="formula-chevron" class="formula-chevron">▼</div>
+            </div>
+            <div id="formula-panel" class="formula-body">
+                <div id="formula-container" style="display:flex; flex-direction:column; gap:12px;">
+                    <!-- Rendered by JS -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="filter-tabs">
+            <button class="filter-tab active" data-filter="all">All (19)</button>
+            <button class="filter-tab" data-filter="Data Interpretation">Data Interpretation (2)</button>
+            <button class="filter-tab" data-filter="Mensuration">Mensuration (2)</button>
+            <button class="filter-tab" data-filter="Geometry">Geometry (4)</button>
+            <button class="filter-tab" data-filter="Statistics">Statistics (3)</button>
+            <button class="filter-tab" data-filter="Profit & Loss">Profit & Loss (2)</button>
+            <button class="filter-tab" data-filter="Number System">Number System (4)</button>
+            <button class="filter-tab" data-filter="Coordinate Geometry">Coordinate Geometry (2)</button>
+            <button class="filter-tab" data-filter="bookmarked">⭐ Bookmarked</button>
+        </div>
+
+        <!-- Search Box -->
+        <div class="search-box">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="search-input" class="search-input" placeholder="Search by topic, formula, question text, or keywords (e.g. cylinder, rhombus, assumed mean)...">
+        </div>
+
+        <!-- Questions List -->
+        <div id="questions-list">
+            <!-- Rendered by JS -->
+        </div>
+    </div>
+
+    <!-- Bottom Sticky Bar -->
+    <div class="bottom-bar">
+        <div class="bottom-bar-inner">
+            <div class="bottom-score">
+                Score: <span id="bottom-score-val">0 / 19</span> (<span id="bottom-accuracy-val">0%</span>)
+            </div>
+            <div class="bottom-btns">
+                <button id="btn-jump-modal" class="btn-bottom">
+                    <span>📑</span> Grid Jump
+                </button>
+                <a href="xmp.html" class="btn-bottom" style="text-decoration:none;">
+                    <span>⚡</span> XMP Master
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Grid Jump Modal -->
+    <div id="jump-modal" class="modal-overlay">
+        <div class="modal-card">
+            <div class="modal-title">
+                <span>Jump to Question</span>
+                <button id="modal-close-btn" class="modal-close">&times;</button>
+            </div>
+            <div id="modal-grid" class="modal-grid">
+                <!-- Jump buttons rendered by JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="maths_obsession_d1_data.js"></script>
+    <script>
+        (function() {
+            const STORAGE_ATTEMPTS = "ssc_obs1_attempts_v1";
+            const STORAGE_BOOKMARKS = "ssc_obs1_bookmarks_v1";
+
+            let userAttempts = JSON.parse(localStorage.getItem(STORAGE_ATTEMPTS) || "{}");
+            let userBookmarks = JSON.parse(localStorage.getItem(STORAGE_BOOKMARKS) || "{}");
+
+            let currentFilter = "all";
+            let searchQuery = "";
+
+            const rawQuestions = window.MATHS_OBSESSION_D1_QUESTIONS || (window.MATHS_OBSESSION_D1_DATA && window.MATHS_OBSESSION_D1_DATA.questions) || [];
+            const rawFormulas = window.MATHS_OBSESSION_D1_FORMULAS || (window.MATHS_OBSESSION_D1_DATA && window.MATHS_OBSESSION_D1_DATA.formulas) || [];
+
+            // DOM Elements
+            const formulaToggle = document.getElementById("formula-toggle");
+            const formulaPanel = document.getElementById("formula-panel");
+            const formulaChevron = document.getElementById("formula-chevron");
+            const formulaContainer = document.getElementById("formula-container");
+            const headerFormulaBtn = document.getElementById("header-formula-btn");
+
+            const searchInput = document.getElementById("search-input");
+            const filterTabs = document.querySelectorAll(".filter-tab");
+            const questionsList = document.getElementById("questions-list");
+
+            const statTotal = document.getElementById("stat-total");
+            const statAttempted = document.getElementById("stat-attempted");
+            const statAccuracy = document.getElementById("stat-accuracy");
+            const statBookmarks = document.getElementById("stat-bookmarks");
+            const resetBtn = document.getElementById("reset-progress-btn");
+
+            const bottomScoreVal = document.getElementById("bottom-score-val");
+            const bottomAccuracyVal = document.getElementById("bottom-accuracy-val");
+            const btnJumpModal = document.getElementById("btn-jump-modal");
+            const jumpModal = document.getElementById("jump-modal");
+            const modalCloseBtn = document.getElementById("modal-close-btn");
+            const modalGrid = document.getElementById("modal-grid");
+
+            // Initialize
+            init();
+
+            function init() {
+                renderFormulas();
+                renderQuestions();
+                updateStats();
+                bindEvents();
+            }
+
+            function bindEvents() {
+                // Formula Accordion
+                const toggleFormula = () => {
+                    const isOpen = formulaPanel.classList.toggle("open");
+                    formulaToggle.classList.toggle("open", isOpen);
+                };
+                formulaToggle.addEventListener("click", toggleFormula);
+                if (headerFormulaBtn) {
+                    headerFormulaBtn.addEventListener("click", () => {
+                        if (!formulaPanel.classList.contains("open")) {
+                            toggleFormula();
+                        }
+                        formulaPanel.scrollIntoView({ behavior: "smooth" });
+                    });
+                }
+
+                // Filter Tabs
+                filterTabs.forEach(tab => {
+                    tab.addEventListener("click", () => {
+                        filterTabs.forEach(t => t.classList.remove("active"));
+                        tab.classList.add("active");
+                        currentFilter = tab.getAttribute("data-filter");
+                        renderQuestions();
+                    });
+                });
+
+                // Search
+                searchInput.addEventListener("input", (e) => {
+                    searchQuery = e.target.value.toLowerCase().trim();
+                    renderQuestions();
+                });
+
+                // Reset Progress
+                resetBtn.addEventListener("click", () => {
+                    if (confirm("Reset all your answers and progress for Obsession Day 1?")) {
+                        userAttempts = {};
+                        localStorage.removeItem(STORAGE_ATTEMPTS);
+                        renderQuestions();
+                        updateStats();
+                    }
+                });
+
+                // Jump Modal
+                btnJumpModal.addEventListener("click", () => {
+                    renderJumpGrid();
+                    jumpModal.classList.add("open");
+                });
+                modalCloseBtn.addEventListener("click", () => {
+                    jumpModal.classList.remove("open");
+                });
+                jumpModal.addEventListener("click", (e) => {
+                    if (e.target === jumpModal) {
+                        jumpModal.classList.remove("open");
+                    }
+                });
+            }
+
+            function renderFormulas() {
+                formulaContainer.innerHTML = rawFormulas.map(f => `
+                    <div class="formula-card">
+                        <div class="formula-card-top">
+                            <div class="formula-card-title">${escapeHtml(f.title)}</div>
+                            <div class="formula-card-page">Slide Page ${f.page}</div>
+                        </div>
+                        <div class="formula-formula-box">${escapeHtml(f.formula)}</div>
+                        <div class="formula-desc-box">${escapeHtml(f.desc)}</div>
+                    </div>
+                `).join("");
+            }
+
+            function renderQuestions() {
+                const filtered = rawQuestions.filter((q, index) => {
+                    // Filter match
+                    if (currentFilter === "bookmarked") {
+                        if (!userBookmarks[q.id]) return false;
+                    } else if (currentFilter !== "all") {
+                        if (!q.type.toLowerCase().includes(currentFilter.toLowerCase())) return false;
+                    }
+
+                    // Search match
+                    if (searchQuery) {
+                        const haystack = `${q.question} ${q.type} ${q.exam} ${q.solution} ${q.trick} Q${index+1}`.toLowerCase();
+                        if (!haystack.includes(searchQuery)) return false;
+                    }
+                    return true;
+                });
+
+                if (filtered.length === 0) {
+                    questionsList.innerHTML = `
+                        <div class="empty-state">
+                            <div class="empty-icon">🔍</div>
+                            <h3>No questions match your filter</h3>
+                            <p style="font-size:0.85rem; margin-top:4px;">Try selecting another topic tab or clearing your search term.</p>
+                        </div>
+                    `;
+                    return;
+                }
+
+                questionsList.innerHTML = filtered.map((q) => {
+                    const originalIndex = rawQuestions.findIndex(item => item.id === q.id);
+                    const qNum = originalIndex + 1;
+                    const attempt = userAttempts[q.id];
+                    const isBookmarked = !!userBookmarks[q.id];
+                    const isAnswered = !!attempt;
+
+                    let cardClass = "question-card";
+                    if (isAnswered) {
+                        cardClass += attempt.isCorrect ? " answered-correct" : " answered-incorrect";
+                    }
+
+                    const optPrefixes = ["A", "B", "C", "D"];
+
+                    return `
+                        <div id="card-${q.id}" class="${cardClass}">
+                            <div class="card-top">
+                                <div class="card-meta-left">
+                                    <span class="q-number-badge">Q${qNum}</span>
+                                    <span class="topic-badge">${escapeHtml(q.type)}</span>
+                                    <span class="exam-badge">${escapeHtml(q.exam)}</span>
+                                    <span class="page-badge">Page ${q.page}</span>
+                                </div>
+                                <button class="bookmark-btn ${isBookmarked ? 'active' : ''}" data-id="${q.id}" title="${isBookmarked ? 'Remove Bookmark' : 'Add Bookmark'}">
+                                    ${isBookmarked ? '★' : '☆'}
+                                </button>
+                            </div>
+
+                            <div class="q-text">${escapeHtml(q.question)}</div>
+
+                            <div class="options-grid">
+                                ${q.options.map((opt, oIdx) => {
+                                    let btnClass = "opt-btn";
+                                    let disabledAttr = "";
+
+                                    if (isAnswered) {
+                                        disabledAttr = "disabled";
+                                        if (opt === q.answer) {
+                                            btnClass += " correct";
+                                        } else if (attempt.selected === opt) {
+                                            btnClass += " incorrect";
+                                        }
+                                    }
+
+                                    return `
+                                        <button class="${btnClass}" data-qid="${q.id}" data-opt="${escapeHtml(opt)}" ${disabledAttr}>
+                                            <span class="opt-prefix">${optPrefixes[oIdx]}</span>
+                                            <span>${escapeHtml(opt)}</span>
+                                        </button>
+                                    `;
+                                }).join("")}
+                            </div>
+
+                            <div class="card-actions-bar">
+                                <button class="btn-solution-toggle" data-qid="${q.id}">
+                                    <span>💡</span> ${isAnswered ? 'View Solution' : 'Reveal Solution'}
+                                </button>
+                                <button class="btn-ai-doubt" data-qid="${q.id}" title="Ask Maestro Ma'am AI Doubt">
+                                    <span>✨</span> Ask Maestro Ma'am
+                                </button>
+                            </div>
+
+                            <div id="sol-${q.id}" class="solution-container ${isAnswered ? 'visible' : ''}">
+                                <div class="textbook-solution-box">
+                                    <div class="solution-heading">📖 Step-by-Step Textbook Solution</div>
+                                    <div class="solution-text">${escapeHtml(q.solution)}</div>
+                                </div>
+                                <div class="trick-box">
+                                    <div class="trick-heading">⚡ Maestro's Shortcut & Handwritten Trick</div>
+                                    <div class="trick-text">${escapeHtml(q.trick)}</div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }).join("");
+
+                attachCardListeners();
+            }
+
+            function attachCardListeners() {
+                // Option click
+                document.querySelectorAll(".opt-btn:not(:disabled)").forEach(btn => {
+                    btn.addEventListener("click", function() {
+                        const qid = this.getAttribute("data-qid");
+                        const selectedOpt = this.getAttribute("data-opt");
+                        const question = rawQuestions.find(q => q.id === qid);
+                        if (!question) return;
+
+                        const isCorrect = (selectedOpt === question.answer);
+                        userAttempts[qid] = {
+                            selected: selectedOpt,
+                            isCorrect: isCorrect,
+                            time: Date.now()
+                        };
+                        localStorage.setItem(STORAGE_ATTEMPTS, JSON.stringify(userAttempts));
+
+                        // Re-render and auto-open solution
+                        renderQuestions();
+                        updateStats();
+
+                        const card = document.getElementById(`card-${qid}`);
+                        if (card) {
+                            card.scrollIntoView({ behavior: "smooth", block: "nearest" });
+                        }
+                    });
+                });
+
+                // Solution Toggle
+                document.querySelectorAll(".btn-solution-toggle").forEach(btn => {
+                    btn.addEventListener("click", function() {
+                        const qid = this.getAttribute("data-qid");
+                        const solBox = document.getElementById(`sol-${qid}`);
+                        if (solBox) {
+                            solBox.classList.toggle("visible");
+                        }
+                    });
+                });
+
+                // Bookmark Toggle
+                document.querySelectorAll(".bookmark-btn").forEach(btn => {
+                    btn.addEventListener("click", function() {
+                        const qid = this.getAttribute("data-qid");
+                        if (userBookmarks[qid]) {
+                            delete userBookmarks[qid];
+                        } else {
+                            userBookmarks[qid] = true;
+                        }
+                        localStorage.setItem(STORAGE_BOOKMARKS, JSON.stringify(userBookmarks));
+                        updateStats();
+                        renderQuestions();
+                    });
+                });
+
+                // AI Mentor Integration
+                document.querySelectorAll(".btn-ai-doubt").forEach(btn => {
+                    btn.addEventListener("click", function() {
+                        const qid = this.getAttribute("data-qid");
+                        const q = rawQuestions.find(item => item.id === qid);
+                        if (!q) return;
+
+                        const promptText = `I have a doubt in Maths Obsession Day 1, Question (${q.type}):\n\n${q.question}\n\nCorrect Answer: ${q.answer}\n\nMaestro Ma'am, please explain the mathematical concept step-by-step and show me Vishesh Sir's handwritten shortcut in simple Hinglish!`;
+
+                        if (window.openAiMentorWithPrompt) {
+                            window.openAiMentorWithPrompt(promptText);
+                        } else {
+                            alert("AI Mentor is initializing. Please wait a moment or click the floating AI icon at bottom right.");
+                        }
+                    });
+                });
+            }
+
+            function updateStats() {
+                const total = rawQuestions.length;
+                const attemptedKeys = Object.keys(userAttempts);
+                const attempted = attemptedKeys.length;
+                const correct = attemptedKeys.filter(k => userAttempts[k].isCorrect).length;
+                const accuracy = attempted > 0 ? Math.round((correct / attempted) * 100) : 0;
+                const bookmarkCount = Object.keys(userBookmarks).length;
+
+                if (statTotal) statTotal.textContent = total;
+                if (statAttempted) statAttempted.textContent = attempted;
+                if (statAccuracy) statAccuracy.textContent = `${accuracy}%`;
+                if (statBookmarks) statBookmarks.textContent = bookmarkCount;
+
+                if (bottomScoreVal) bottomScoreVal.textContent = `${correct} / ${total}`;
+                if (bottomAccuracyVal) bottomAccuracyVal.textContent = `${accuracy}%`;
+            }
+
+            function renderJumpGrid() {
+                modalGrid.innerHTML = rawQuestions.map((q, idx) => {
+                    const qNum = idx + 1;
+                    const attempt = userAttempts[q.id];
+                    let btnClass = "jump-btn";
+                    if (attempt) {
+                        btnClass += attempt.isCorrect ? " answered-correct" : " answered-incorrect";
+                    }
+                    return `
+                        <button class="${btnClass}" data-qid="${q.id}">
+                            Q${qNum}
+                        </button>
+                    `;
+                }).join("");
+
+                modalGrid.querySelectorAll(".jump-btn").forEach(btn => {
+                    btn.addEventListener("click", function() {
+                        const qid = this.getAttribute("data-qid");
+                        jumpModal.classList.remove("open");
+                        // If filtered out, switch to all
+                        if (currentFilter !== "all") {
+                            currentFilter = "all";
+                            filterTabs.forEach(t => t.classList.toggle("active", t.getAttribute("data-filter") === "all"));
+                            renderQuestions();
+                        }
+                        setTimeout(() => {
+                            const card = document.getElementById(`card-${qid}`);
+                            if (card) {
+                                card.scrollIntoView({ behavior: "smooth", block: "center" });
+                            }
+                        }, 100);
+                    });
+                });
+            }
+
+            function escapeHtml(str) {
+                if (!str) return "";
+                return str
+                    .replace(/&/g, "&amp;")
+                    .replace(/</g, "&lt;")
+                    .replace(/>/g, "&gt;")
+                    .replace(/"/g, "&quot;")
+                    .replace(/'/g, "&#039;");
+            }
+        })();
+    </script>
+    <script src="ai_mentor.js?v=31" defer></script>
+</body>
+</html>
