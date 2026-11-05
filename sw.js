@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ssc-prep-tier2-v34';
+const CACHE_NAME = 'ssc-prep-tier2-v35';
 const urlsToCache = [
   './',
   './manifest.json',
@@ -27,6 +27,9 @@ const urlsToCache = [
   './maths_obsession_d1.html',
   './maths_obsession_d1_data.js',
   './maths_obsession_d1_data.json',
+  './mixture_alligation.html',
+  './mixture_alligation_data.js',
+  './mixture_alligation_data.json',
   './ai_mentor.js',
   './ai_mentor.js?v=31',
   './ai_mentor.css',
