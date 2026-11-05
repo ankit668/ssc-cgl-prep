@@ -46,7 +46,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Alloy & Ratio Mixing",
     "sub_topic": "Type 1: Alloy & Metal Ratios",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "75 kg of an alloy A is mixed with 125 kg of alloy B. If alloy A has Zinc and Copper in the ratio\n5:1 and alloy B has Copper and Tin in the ratio 3:2, what is the amount of Copper in the new\nalloy in kg?\n\n75 kg fAseng A Hl 125 kg fang B& are ara aren S| ale faserg A A OM (Zinc) sik aa\n(Copper) ®T Sure 5:1 8 cer seg BA cist (Copper) she fea (Tin) HT squid 3:28, das Pyeng a\naid wt arr fect art",
+    "question": "75 kg of an alloy A is mixed with 125 kg of alloy B. If alloy A has Zinc and Copper in the ratio 5:1 and alloy B has Copper and Tin in the ratio 3:2, what is the amount of Copper in the new alloy in kg?",
     "options": [
       "80.5 kg",
       "85.0 kg",
@@ -63,7 +63,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Relative Density & Weight",
     "sub_topic": "Type 1: Alloy & Metal Ratios",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "Analloy is prepared by mixing three metals A, B and C in the proportion 2:3:5 by volume.\nThe ratio of the weight of the same volume (relative density) of the metals A, Band Care in\nthe ratio 5:6:3. In 86 kg of the alloy, what is the weight, in kg, of metal B?\n\nue fsreng A, Baa C as agai @ sac (Volume) & shard 2:3:5 Fen SAR St OTS | SA\nUgel GAM Arar & UR (Relative Density) HT sqald HA: 5:6:3 8 86 kg sxeng A alg BST UR\nfecarerm?",
+    "question": "An alloy is prepared by mixing three metals A, B and C in the proportion 2:3:5 by volume. The ratio of the weight of the same volume (relative density) of the metals A, B and C are in the ratio 5:6:3. In 86 kg of the alloy, what is the weight, in kg, of metal B?",
     "options": [
       "45 kg",
       "40 kg",
@@ -80,7 +80,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Weighted Concentration",
     "sub_topic": "Type 1: Alloy & Metal Ratios",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A milkman has two types of milk mixtures. In the first container, the concentration of milk\nis 80% and in the second container, the concentration of milk is 60%. If he mixes 24 L of the\nfirst container's milk and 16 L of the second container's milk, what is the percentage of milk in\nthe new mixture?\n\nWh Qual & Ue al a & ge for Sl Tet Ora A Gel at Sia 80% TU GAR TAH 60% SI Ale gS\nTSA Ua S 24 L aa GaN aS 16 L sor free, are sora ge profane fear eM?",
+    "question": "A milkman has two types of milk mixtures. In the first container, the concentration of milk is 80% and in the second container, the concentration of milk is 60%. If he mixes 24 L of the first container's milk and 16 L of the second container's milk, what is the percentage of milk in the new mixture?",
     "options": [
       "75%",
       "72%",
@@ -97,7 +97,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Juice & Lemonade Mixing",
     "sub_topic": "Type 1: Alloy & Metal Ratios",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "Four bottles of the same capacity are 20%, 30%, 50% and 60% full of grape juice,\nrespectively. They are then filled completely by adding lemonade. The contents of the four\nbottles are emptied into another vessel. What is the percentage of lemonade in the final\nmixture?\n\nTHM SAA EY IR Tete A PA: 20%, 30%, 50% TU 60% SFR BIW (Grape Juice) W181 FS VT\nurl AAMAS (Lemonade) HX WRT HA Sa S| Te A AR Hare Hl a Ue Ura A Ste STAT |\nsifaa fsa aars @1 oferta forcast?",
+    "question": "Four bottles of the same capacity are 20%, 30%, 50% and 60% full of grape juice, respectively. They are then filled completely by adding lemonade. The contents of the four bottles are emptied into another vessel. What is the percentage of lemonade in the final mixture?",
     "options": [
       "75%",
       "65%",
@@ -114,7 +114,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Equal Quantity Mixing",
     "sub_topic": "Type 1: Alloy & Metal Ratios",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A container has 30% alcohol and 70% water in it. It is mixed with another sample (in equal\nquantity) having 50% alcohol and 50% water. What would be the alcohol content in the final\nmixture?\n\nUb UAH 30% HeHIST A 70% UTS | SS GA AT TTS GER sr S fray ares faa 50%\nAHA AU 50% UPS | sift sora sreenlect wr Ufaara foc Sr?",
+    "question": "A container has 30% alcohol and 70% water in it. It is mixed with another sample (in equal quantity) having 50% alcohol and 50% water. What would be the alcohol content in the final mixture?",
     "options": [
       "45%",
       "50%",
@@ -131,7 +131,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Dilution & Percentage",
     "sub_topic": "Type 1: Alloy & Metal Ratios",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "While making a lemonade solution of 5 L containing 60% lemon juice for a party, 3 L of\nwater is added. The percentage of lemon juice in the new solution is:\n\nwe Tete fa 60% ATS Ga 5 LOS HAH 3 L ort fren fear snare | AT aaa Alga Gr era\nfecarerm?",
+    "question": "While making a lemonade solution of 5 L containing 60% lemon juice for a party, 3 L of water is added. The percentage of lemon juice in the new solution is:",
     "options": [
       "37.5%",
       "40.0%",
@@ -148,7 +148,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Syrup Fraction Removal",
     "sub_topic": "Type 1: Alloy & Metal Ratios",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A solution preparer has a 20 L flask containing 15 L of pure syrup. He filled the flask\ncompletely with water and then takes out 4 L of the mixture. What is the quantity of syrup (in\nL) in the 4 L mixture taken out?\n\nUb UAH 20 L ea A 15 LYS RRS VASO S TT ear areas sik fie fs & 4 L Pera fee\nred 1 repre re 4-1 fraser A fren a) art fever ert",
+    "question": "A solution preparer has a 20 L flask containing 15 L of pure syrup. He filled the flask completely with water and then takes out 4 L of the mixture. What is the quantity of syrup (in L) in the 4 L mixture taken out?",
     "options": [
       "2.5L",
       "2.0L",
@@ -165,7 +165,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Removal & Water Addition",
     "sub_topic": "Type 1: Alloy & Metal Ratios",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A vessel contains a 45 L solution of acid and water in which the ratio of acid and water is 4:1.\nIf 15 Lof the solution are taken out and 10 L of water are added to it, then what is the final ratio\nof acid and water in the resulting solution?\n\nUb UAH 45 L Stel HR Ger TAHT, FAA sire SHR Ser HT SGU 4:1 B | Ble 15 L rs Prepret fear\nIU TT 10 L Ot fren ear Te, at ae sor A aie SHR Oe HT STATA AT SPT?",
+    "question": "A vessel contains a 45 L solution of acid and water in which the ratio of acid and water is 4:1. If 15 L of the solution are taken out and 10 L of water are added to it, then what is the final ratio of acid and water in the resulting solution?",
     "options": [
       "2:3",
       "3:2",
@@ -182,7 +182,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Multi-Liquid Mixing",
     "sub_topic": "Type 1: Alloy & Metal Ratios",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "Solution A contains liquids X, Y and Zin the ratio 2:5:3, solution B contains liquids X and Y\nin the ratio 3:2, while solution C contains liquids Y and Zin the ratio 4:1. Five litres of A, three\nlitres of B and two litres of C are mixed. What is the percentage of liquid Y in the new solution?\n\nWGA A XY:Z = 2:5:3, HABA XY = 3:29 MACH Y:Z=4:131A HSL, BS 3LAMCH2L Mae\nwed 81 aaa a y orale fear se?",
+    "question": "Solution A contains liquids X, Y and Z in the ratio 2:5:3, solution B contains liquids X and Y in the ratio 3:2, while solution C contains liquids Y and Z in the ratio 4:1. Five litres of A, three litres of B and two litres of C are mixed. What is the percentage of liquid Y in the new solution?",
     "options": [
       "45.0%",
       "47.5%",
@@ -199,7 +199,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Equal Capacity Mixing",
     "sub_topic": "Type 1: Alloy & Metal Ratios",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "One cup has oil and water in the ratio 3:1, while another cup of the same capacity has them\nin the ratio 5:3. If the contents of both cups are poured into a vessel, then what will be the final\nratio of oil to water?\n\nUb HUA Ia AR UA HT SUT 3:1 S Hal VA GA Ta ER HT A Te sq 5:3 81 SAT Hay Ht\nare ar wz aa sik ort ar sifea arqora ear eT?",
+    "question": "One cup has oil and water in the ratio 3:1, while another cup of the same capacity has them in the ratio 5:3. If the contents of both cups are poured into a vessel, then what will be the final ratio of oil to water?",
     "options": [
       "13:6",
       "11:5",
@@ -216,7 +216,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Equal Volume Mixing",
     "sub_topic": "Type 1: Alloy & Metal Ratios",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "Two vessels contain milk and water in the ratio 5:4 and 3:1. If both vessels are mixed in the\nratio 1:1 (equal quantities), find the final ratio of milk and water in the new mixture.\n\nSLOAN A ger sie UA ar SOTA HAT: 5:4 TM 3:1 S| Ble VAT OTA & sor wel TA AM (1:1) A rea\nWG, dau sora ge she or wr squid ear SPT?",
+    "question": "Two vessels contain milk and water in the ratio 5:4 and 3:1. If both vessels are mixed in the ratio 1:1 (equal quantities), find the final ratio of milk and water in the new mixture.",
     "options": [
       "20:9",
       "13:8",
@@ -233,7 +233,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Alloy Ratio Mixing",
     "sub_topic": "Type 1: Alloy & Metal Ratios",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "The ratios of lead to tin in alloys X and Y are 2:3 and 4:1, respectively. Alloys X and Y are\ntaken in the ratio 3:2 and melted to form a new alloy Z. What is the final ratio of lead to tinin\nalloy Z?\n\nfPsrerg xX aa Y ART (Lead) sik fea (Tin) HT SGA HA: 2:3 TU 4:1 BX GUY G1 3:2% sqUTa A\ndar foacnnr AS Peng Z TAS oS | ZA Sher sh fea HT ifs srqara ea eT?",
+    "question": "The ratios of lead to tin in alloys X and Y are 2:3 and 4:1, respectively. Alloys X and Y are taken in the ratio 3:2 and melted to form a new alloy Z. What is the final ratio of lead to tin in alloy Z?",
     "options": [
       "29:16",
       "28:17",
@@ -250,7 +250,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Alloy Ratio Mixing",
     "sub_topic": "Type 1: Alloy & Metal Ratios",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "Alloy X contains Iron and Nickel in the ratio 3:5 and alloy Y contains Iron and Nickel in the\nratio 2:1. Alloys X and Y are taken in the ratio 5:4 and melted to form a new alloy Z. The\npercentage of Iron in the new alloy is closest to:\n\nfPsterg XH cet (Iron) sik Fea (Nickel) HT quia 3:5 Fea rseng Y F211 X TM Y HI 5:4\nSOT Fa AS Prseag Z TAS oT S| AS seg A ate wr feera fear Ve?",
+    "question": "Alloy X contains Iron and Nickel in the ratio 3:5 and alloy Y contains Iron and Nickel in the ratio 2:1. Alloys X and Y are taken in the ratio 5:4 and melted to form a new alloy Z. The percentage of Iron in the new alloy is closest to:",
     "options": [
       "5.0%",
       "51.7%",
@@ -267,7 +267,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Mixture Ratio Mixing",
     "sub_topic": "Type 1: Alloy & Metal Ratios",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "Two vessels contain a mixture of alcohol and water. In the first mixture, the quantity of\nalcohol is 20% less than water, and in the second mixture, the difference between alcohol and\nwater is 25% of the total mixture. If 8 L of the first mixture and 12 L of the second mixture are\nmixed, find the final ratio of alcohol and water.\n\noats sreplect ak ort ar Pram S| cee rawr F sreplect STAT Ur S 20% HH eV aa Gar HoT\nSeHIET SR OMT HT sie Ha fo HT 25% S| Ale TSet srs 8 L Taga sr & 12 L wr frat\nNG, Ht sift srqura Beat PUT |",
+    "question": "Two vessels contain a mixture of alcohol and water. In the first mixture, the quantity of alcohol is 20% less than water, and in the second mixture, the difference between alcohol and water is 25% of the total mixture. If 8 L of the first mixture and 12 L of the second mixture are mixed, find the final ratio of alcohol and water.",
     "options": [
       "31:29",
       "29:31",
@@ -284,7 +284,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Equal Volume Mixing",
     "sub_topic": "Type 1: Alloy & Metal Ratios",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "Three glasses of equal volume contain milk mixed with water. The ratios of milk and water\nare 7:5, 11:4, and 13:7 respectively. Contents of these glasses are poured into a large vessel.\nThe final ratio of milk and water is:\n\nWAM staat & cis Praag ger sie Ort aor sor S| Ze SA UH PT SOTA HA: 7:5, 11:4 TUT 13:7 S|\ndei faniatareive ss oad srt arte sifaa snr a gu sik ort ar squid ea ST?",
+    "question": "Three glasses of equal volume contain milk mixed with water. The ratios of milk and water are 7:5, 11:4, and 13:7 respectively. Contents of these glasses are poured into a large vessel. The final ratio of milk and water is:",
     "options": [
       "104:61",
       "101:59",
@@ -301,7 +301,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Equal Volume Mixing",
     "sub_topic": "Type 1: Alloy & Metal Ratios",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "Three glasses of equal volume contain spirit mixed with oil. The ratios of spirit and oil are\n3:4, 2:3, and 1:8 respectively. Contents of these glasses are poured into a large vessel. The final\nratio of spirit to oil is:\n\nSAM ara & os frearay a Peake ate cet or is 2 Rahe sik IaH SUT HA: 3:4, 2:3 TALS\nSi dai fartat aaah te a8 ora F sre ore 81 sitar sora Rae sik Aa HT squad Fa SPT?",
+    "question": "Three glasses of equal volume contain spirit mixed with oil. The ratios of spirit and oil are 3:4, 2:3, and 1:8 respectively. Contents of these glasses are poured into a large vessel. The final ratio of spirit to oil is:",
     "options": [
       "36:63",
       "63:90",
@@ -318,7 +318,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Volume Ratio Mixing",
     "sub_topic": "Type 1: Alloy & Metal Ratios",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "Three vessels A, Band C contain a mixture of milk and water. The ratio of milk to water in\nthe vessels are 3:4, 2:3 and 3:1 respectively. If the contents of A, B and C are mixed in the ratio\n5:2:3 by volume, what is the final ratio of milk to water?\n\nAAO A, BATCH ge sie Ur cor ers | SAH Gu SR UP HT SOTA HA: 3:4, 2:3 GUT 3:1 31 aS A,\nBOM C Olah Hl sacs & srqUrd 5:2:3 F rare ay, a sifes fase a ge sik ot wr srqure ea\nerm?",
+    "question": "Three vessels A, Band C contain a mixture of milk and water. The ratio of milk to water in the vessels are 3:4, 2:3 and 3:1 respectively. If the contents of A, B and C are mixed in the ratio 5:2:3 by volume, what is the final ratio of milk to water?",
     "options": [
       "311:389",
       "315:385",
@@ -335,7 +335,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Fraction & Ratio Mixing",
     "sub_topic": "Type 1: Alloy & Metal Ratios",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "There are 3 mixtures containing milk (M) and water (W). Mixture 1: Milk is 37.5% of the\nmixture. Mixture 2: Milk is 28.56% less than water. Mixture 3: The ratio of M:W is 5:4. If 44\nlitre of the 1st mixture, 33 litre of the 2nd mixture and 55 litre of the 3rd mixture are mixed\ntogether, then find the ratio of milk and water in the new mixture.\n\ndis suit a ge (Mp sie ort (Ww) 81 fs A ger 37.5% SI Pr 2A gears 28.56% HA S| As 3\nF gu si Unto Sigurd 5:4 @ 1 Bie AN: 44 L, 33 L aa SS L sr ree ony, draw sora ge she ort\nHl AGUA Be USTC |",
+    "question": "There are 3 mixtures containing milk (M) and water (W). Mixture 1: Milk is 37.5% of the mixture. Mixture 2: Milk is 28.56% less than water. Mixture 3: The ratio of M:W is 5:4. If 44 litre of the 1st mixture, 33 litre of the 2nd mixture and 55 litre of the 3rd mixture are mixed together, then find the ratio of milk and water in the new mixture.",
     "options": [
       "19:23",
       "145:199",
@@ -352,7 +352,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Capacity & Ratio Mixing",
     "sub_topic": "Type 1: Alloy & Metal Ratios",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A milkman uses three containers for selling milk, their capacities being 30L, 20L and 10L\nrespectively. He fills respectively 90%, 75% and 80% of the containers with a mix of milk and\nwater. The ratio of milk to water in them are 4:1, 3:2 and 7:3 respectively. What is the ratio of\ntotal quantity of milk to total water carried by him?\n\nUh GUAT 3OL, 20L Ta 1OL AAT aa A AN ST STAT PLATS | TS SAA HA: 90%, 75% AUT 8O%\nTh GUO hr sor UR S| STS Ge SAR OA HT SU HAR: 4:1, 3:2 TUT 7:3 Bl FAH UT Ha gs Ar\nPAU Hr sora Fa SPT?",
+    "question": "A milkman uses three containers for selling milk, their capacities being 30L, 20L and 10L respectively. He fills respectively 90%, 75% and 80% of the containers with a mix of milk and water. The ratio of milk to water in them are 4:1, 3:2 and 7:3 respectively. What is the ratio of total quantity of milk to total water carried by him?",
     "options": [
       "169:81",
       "155:73",
@@ -369,7 +369,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Fractional Mixing",
     "sub_topic": "Type 1: Alloy & Metal Ratios",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "Three vessels whose capacities are in the ratio 4:3:1 are completely filled with milk and\nwater. The ratio of milk and water in the three mixtures are 3:1, 4:1 and 2:3 respectively. If 1/4\npart of the first, 1/3 part of the second and 2/5 part of the third mixture are combined, find the\npercentage of milk in the new mixture.\n\nois oral at errant 4:3:1 & orqura A Sl Saad Qe sh OM HT HUTT HAT: 3:1, 4:1 TAT 2:3 Sle Ved UA\n11/4 YET, GAN HT 1/3 HPT TAT ALAS iT 2/5 HET PAT oT, TV TG fErsvoT FF ger apr feta fea SET?",
+    "question": "Three vessels whose capacities are in the ratio 4:3:1 are completely filled with milk and water. The ratio of milk and water in the three mixtures are 3:1, 4:1 and 2:3 respectively. If 1/4 part of the first, 1/3 part of the second and 2/5 part of the third mixture are combined, find the percentage of milk in the new mixture.",
     "options": [
       "65%",
       "70%",
@@ -386,7 +386,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Uniform Mixing & Replacement",
     "sub_topic": "Type 1: Alloy & Metal Ratios",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "Three boxes of capacity 15 kg, 25 kg and 40 kg are completely filled with three varieties of\nsugar A, Band C respectively. All the three boxes were emptied and the three types of sugar\nwere thoroughly mixed, and the mixture was put back in the three boxes. How many\nkilograms of Type B sugar would be in the second box?\n\n15kg, 25 kg qr 40 kg ata are a Saat A HAT: A, BAM CUMR Gat wn gs V1 dh feast eT\nPre UA: res RS ia Ht oS sik ae Scat A wx short} | GR fSed F BER Sra fort\narte",
+    "question": "Three boxes of capacity 15 kg, 25 kg and 40 kg are completely filled with three varieties of sugar A, Band C respectively. All the three boxes were emptied and the three types of sugar were thoroughly mixed, and the mixture was put back in the three boxes. How many kilograms of Type B sugar would be in the second box?",
     "options": [
       "7.5 kg",
       "7.8125 kg",
@@ -403,7 +403,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Constant Component Ratio",
     "sub_topic": "Type 1: Alloy & Metal Ratios",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "The ratio of cement and sand ina concrete mix is 5:9. If 45 kg of cement is added to the mix,\nthe ratio becomes 5:6. Find the initial quantity of the mixture.\n\nUe thonte fer a Stic she ta wT squad 5:92 | ale 45 kg Sic sik fren ear ay, AH squid 5:6 Br STAT\nSUR Rem at Arad Sis |",
+    "question": "The ratio of cement and sand ina concrete mix is 5:9. If 45 kg of cement is added to the mix, the ratio becomes 5:6. Find the initial quantity of the mixture.",
     "options": [
       "252 kg",
       "288 kg",
@@ -420,7 +420,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Constant Component Ratio",
     "sub_topic": "Type 1: Alloy & Metal Ratios",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A 980 litre mixture contains acid and water in the ratio 9:5. After the addition of some\nmore water, the ratio of acid to water becomes 3:2. The quantity of water added was:\n\n980 L& PsA oie hk UF BT SUT 9:5 1 HS she OM rawr & ae Sra Sh UA wT seq 3:2 BT\narea é | Fare me ot et AT aa HA |",
+    "question": "A 980 litre mixture contains acid and water in the ratio 9:5. After the addition of some more water, the ratio of acid to water becomes 3:2. The quantity of water added was:",
     "options": [
       "70 litres",
       "55 litres",
@@ -437,7 +437,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Equal Addition to Ratios",
     "sub_topic": "Type 1: Alloy & Metal Ratios",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "The ratio of milk and water ina vessel is 7:4. If 165 litres of milk and 165 litres of water are\nadded, the quantity of milk becomes 20% more than the quantity of water. Find the initial\nquantity of milk.\n\nWe Ora gu SR UP wT SOTA 7:4 S| TAS 165 L Ga Ta 165 L Ur she fren fear ony, ar geet arr ort\n820% afte Brad | Re ge #1 Aaa SST",
+    "question": "The ratio of milk and water ina vessel is 7:4. If 165 litres of milk and 165 litres of water are added, the quantity of milk becomes 20% more than the quantity of water. Find the initial quantity of milk.",
     "options": [
       "105 litres",
       "90 litres",
@@ -454,7 +454,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Removal & Replacement",
     "sub_topic": "Type 1: Alloy & Metal Ratios",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "Ina mixture of 135 L, the ratio of milk and water is 8:7. If some amount of the mixture is\nremoved in which 24 L was milk, and 12 L of water is added afterwards into the remaining\nmixture, then find the new ratio of milk and water.\n\n135 L® Ue Para ge sik Ut hr argon 8:7 21 Pam aes um Pera fea ora @ FSR 24 L ge eal\nSee sre Vy AsO 12 L UM fren fear ra S| AAT ge: OA segura ae HHS",
+    "question": "In a mixture of 135 L, the ratio of milk and water is 8:7. If some amount of the mixture is removed in which 24 L was milk, and 12 L of water is added afterwards into the remaining mixture, then find the new ratio of milk and water.",
     "options": [
       "10:11",
       "8:9",
@@ -471,7 +471,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Sequential Addition",
     "sub_topic": "Type 2: Replacement & Successive Dilution",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A mixture of acid and water has a certain percentage of acid. When 2 L of acid is added to\nthe mixture, the new mixture contains 50% water. If 4 L of water is then added to this new\nmixture, the resulting mixture contains 30% acid. What is the percentage of acid in the\noriginal mixture?\n\nSH AROS ve sora ara at up Psa ufasraareé | ae fer 2 ava Preraroraré, hag so\nF50% uM sare! ale sa ae sr a 4 L ort sik ren fearany, at oko sor F 30% srt Stare |\nFer rs A area ST UA ra ra PUST |",
+    "question": "A mixture of acid and water has a certain percentage of acid. When 2 L of acid is added to the mixture, the new mixture contains 50% water. If 4 L of water is then added to this new mixture, the resulting mixture contains 30% acid. What is the percentage of acid in the original mixture?",
     "options": [
       "20%",
       "25%",
@@ -488,7 +488,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Multi-Step Ratio Transitions",
     "sub_topic": "Type 2: Replacement & Successive Dilution",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "Ina vessel, milk is 25% less than water. When X litre milk is added to the mixture, the ratio\nof milk and water becomes 9:8. Then Y litre water is extracted from the mixture, and this ratio\nbecomes 9:7. Now, 20 litre milk is added again, and the new ratio of milk and water becomes\n13:9. Find the value of (X + Y).\n\nUe ada F gy, UNS 25% HA V1 Ga X hex gu Mena Tas, TH ge SR OT HT segura 9:8 BTA |\nfoxy chez orf Pepre ear ore é, ERTS Segre 9:7 ST aT S| Sa 20 cher Gu sie Fra WR srUTE 13:9\nBroa S 1 (K+ Y) STAM ad HHS",
+    "question": "In a vessel, milk is 25% less than water. When X litre milk is added to the mixture, the ratio of milk and water becomes 9:8. Then Y litre water is extracted from the mixture, and this ratio becomes 9:7. Now, 20 litre milk is added again, and the new ratio of milk and water becomes 13:9. Find the value of (X + Y).",
     "options": [
       "60",
       "68",
@@ -505,7 +505,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Sequential Ratio Addition",
     "sub_topic": "Type 2: Replacement & Successive Dilution",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "Ina vessel, the ratio of milk and water is 7:3. When X litre milk is added, the ratio becomes\n4:1. Now in this mixture, 15 litre milk and 5 litre water is added, then the new ratio becomes\n51:14. Find X.\nWe adr A gu sik UA aT sqUra 7:3 8 | X Chex qe aA UR seqUra 4:1 STATS | Sar sa wr A 15\nHex gu cers chee Ureh rere Gras, FEATS AA SUT 51:14 Sl GAT S| X HT AM at HUST |",
+    "question": "In a vessel, the ratio of milk and water is 7:3. When X litre milk is added, the ratio becomes 4:1. Now in this mixture, 15 litre milk and 5 litre water is added, then the new ratio becomes 51:14. Find X.",
     "options": [
       "12L",
       "15L",
@@ -522,7 +522,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Replacement & Reverse Percentage",
     "sub_topic": "Type 2: Replacement & Successive Dilution",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A vessel contains a mixture of milk and water in the ratio 9:7. 16 litres of mixture is taken\nout from the vessel, and 4 litres of pure water and 2 litres of pure milk is added. If the\nresultant mixture contains 54/2500 % water (approximately 46.3%), then what was the initial\nquantity of mixture in the vessel?\n\nWem TdT A Ge AR OT HT STUTT 9:7 BI 16 Chex feo Preprer fern aed S Ta 4 Tex Ys OMA si 2 chez\nYs gu rerfeararan es | ale uforeh Perso F oH 54/2500 % (PTT 46.3%) @, MUR rao Bt\nFAT ad UST |",
+    "question": "A vessel contains a mixture of milk and water in the ratio 9:7. 16 litres of mixture is taken out from the vessel, and 4 litres of pure water and 2 litres of pure milk is added. If the resultant mixture contains 54/2500 % water (approximately 46.3%), then what was the initial quantity of mixture in the vessel?",
     "options": [
       "80 L",
       "64L",
@@ -539,7 +539,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Successive Ratio Reversals",
     "sub_topic": "Type 2: Replacement & Successive Dilution",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A vessel contains 6 litres of water and 15 litres of milk. 20% of the contents are removed.\nTo the remaining contents, X litres of water is added to reverse the ratio of water and milk.\nThen Y litres of milk is added again to reverse the ratio of milk and water. Find Y.\n\nUm da A 6 hex Ut sie 15 cher gue sm a1 20% Prerafeararaé | 5 sors x cher ort\nfrevax Urt sik gu ar etqura See fear ara es | fee y Chex gu rarer srqured UA: Gere aT TAT S| Y\nSIS Kalie",
+    "question": "A vessel contains 6 litres of water and 15 litres of milk. 20% of the contents are removed. To the remaining contents, X litres of water is added to reverse the ratio of water and milk. Then Y litres of milk is added again to reverse the ratio of milk and water. Find Y.",
     "options": [
       "80 L",
       "63L",
@@ -556,7 +556,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Pineapple Juice & Water Ratio",
     "sub_topic": "Type 2: Replacement & Successive Dilution",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A container has a 42-litre mixture of pineapple juice and water in the ratio 11:x. When 2\nlitres of water is added to the mixture, the ratio of pineapple juice and water becomes 1:1.\nWhat is the value of x?\n\nWh OA 42 hee SATS WH Sie Ut aor FOr, forTeHT SOTA L1:x S| sora 2 che orf rar we\nSPAT BE SAR OT HT SUT 1:1 BY TT S| x BTA ad HHT",
+    "question": "A container has a 42-litre mixture of pineapple juice and water in the ratio 11:x. When 2 litres of water is added to the mixture, the ratio of pineapple juice and water becomes 1:1. What is the value of x?",
     "options": [
       "8",
       "9",
@@ -573,7 +573,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Alcohol Dilution & Additions",
     "sub_topic": "Type 2: Replacement & Successive Dilution",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "The ratios of alcohol and water in solutions A and Bare 6:5 and 4:3 respectively. If 11 litres\nof A is mixed with 7 litres of B and then 2 litres of alcohol and 3 litres of water are added, what\nis the percentage of alcohol in the final mixture obtained (correct to one decimal place)?\n\nfaa A TUBA selec Sik UF HT SeqUre HA: 6:5 TAT 4:3 31 Te A H 11 Mek AR BH 7 chez\nPreamunt angie 8 2 Hex semen Hk 3 cher OF ara ary, a sifea Fema siemiea wr ufesra",
+    "question": "The ratios of alcohol and water in solutions A and Bare 6:5 and 4:3 respectively. If 11 litres of A is mixed with 7 litres of B and then 2 litres of alcohol and 3 litres of water are added, what is the percentage of alcohol in the final mixture obtained (correct to one decimal place)?",
     "options": [
       "48%",
       "52.17%",
@@ -590,7 +590,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Ratio Mixing & Water Addition",
     "sub_topic": "Type 2: Replacement & Successive Dilution",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "The ratios of alcohol to water in solutions A and Bare 4:3 and 7:5 respectively. A and Bare\nmixed in the ratio 3:4. In 700 ml of the resulting solution, how much water (in ml) should be\nmixed so as to obtain a solution in which alcohol to water ratio is 5:4?\n\nACT A PUB A septs SiR UP Hl StU PAT: 4:3 T7351 A ABH 3:4 aeqara A fread\nares | ORO alet & 700 ml F faa Ur rere TW alee SteplSel AR UP BT SOTA 5:4 Bl ae?",
+    "question": "The ratios of alcohol to water in solutions A and Bare 4:3 and 7:5 respectively. A and Bare mixed in the ratio 3:4. In 700 ml of the resulting solution, how much water (in ml) should be mixed so as to obtain a solution in which alcohol to water ratio is 5:4?",
     "options": [
       "20 mL",
       "25 mL",
@@ -607,7 +607,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Container Capacity Ratio Mixing",
     "sub_topic": "Type 2: Replacement & Successive Dilution",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "The capacities of three containers P, Q and R are in the proportion 3:5:7. They are\ncompletely filled with a mixture of milk and water in the proportions 2:3, 3:2and 4:1\nrespectively. If the mixtures of all the three containers are mixed together, then what will be\nthe proportion of milk to water in the final mixture?\n\nP,QUUMR Gt Heme G1 aE 3:5:7 BH BUTT A Sl SAA Gel SAR OA HT Sea HAR: 2:3, 3:2 Ta 4:1\nsak seen > fem ofa fearon, af sifea sora ge sie ole agora ea eT?",
+    "question": "The capacities of three containers P, Q and R are in the proportion 3:5:7. They are completely filled with a mixture of milk and water in the proportions 2:3, 3:2and 4:1 respectively. If the mixtures of all the three containers are mixed together, then what will be the proportion of milk to water in the final mixture?",
     "options": [
       "45:20",
       "49:26",
@@ -624,7 +624,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Reverse Alligation on Drums",
     "sub_topic": "Type 2: Replacement & Successive Dilution",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "There are two drums, each containing a mixture of paints A and B. Indrum 1, A and Bare\nin the ratio 17:3. The mixtures from drums 1 and 2 are mixed in the ratio 5:3 and in this final\nmixture, A and Bare in the ratio 11:4. In drum 2, then A and B were in the ratio what?\n\naS A Si BU HTT S| Tea SAA AB = 17:38] GAT Sa PT HT 5:3 & aqua A fara\nOras cer sifes so A A:B = 11:4 81 GaN SAA A:B HT SU SAM Ul?",
+    "question": "There are two drums, each containing a mixture of paints A and B. Indrum 1, A and Bare in the ratio 17:3. The mixtures from drums 1 and 2 are mixed in the ratio 5:3 and in this final mixture, A and Bare in the ratio 11:4. In drum 2, then A and B were in the ratio what?",
     "options": [
       "90:75",
       "97:83",
@@ -641,7 +641,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Successive Replacement",
     "sub_topic": "Type 2: Replacement & Successive Dilution",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A container is full of milk. One-fourth of it is taken out and then an equal amount of water\nis poured into the container to fill it. This operation is done three times. Find the final ratio of\nmilk and water in the container.\n\nWh UA GUS TS | SAT UH-ars UT Preparer Sor St AT A OA ae fear aa S| Ge iar a aR\nplore! sia a gu sik ur ar erqora aia wise",
+    "question": "A container is full of milk. One-fourth of it is taken out and then an equal amount of water is poured into the container to fill it. This operation is done three times. Find the final ratio of milk and water in the container.",
     "options": [
       "27:37",
       "64:37",
@@ -658,7 +658,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Successive Replacement",
     "sub_topic": "Type 2: Replacement & Successive Dilution",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "60 litres of wine is kept ina vessel. 6 litres of wine was taken out and the same amount of\nwater was added to it. This process was done two more times. How much wine is there in the\nvessel now?\n\nUb UAH 60 thet BR1a SSSA B 6 chez Bera Prepreepr Sa St UH ean fear ara 8 | Te VA al aR\nSRA oT S| ora Ora a feet aera ago?",
+    "question": "60 litres of wine is kept ina vessel. 6 litres of wine was taken out and the same amount of water was added to it. This process was done two more times. How much wine is there in the vessel now?",
     "options": [
       "48.60 L",
       "43.74 L",
@@ -675,7 +675,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Successive Replacement",
     "sub_topic": "Type 2: Replacement & Successive Dilution",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A drum contains 200 litres of spirit. 40 litres of this liquid is removed and replaced with\nwater. 40 litres of this mixture is again removed and replaced with water. How much water is\npresent in this drum now?\n\nWe SAF 200 cher ake 81 TaN S 40 chee Preprrax Sora St rN ren fear are S | GH: 40 chee fasor\nPra SAAT St UA fren faa ae V | sta SAA UM wt ar oat 82",
+    "question": "A drum contains 200 litres of spirit. 40 litres of this liquid is removed and replaced with water. 40 litres of this mixture is again removed and replaced with water. How much water is present in this drum now?",
     "options": [
       "72.0 L",
       "80.0 L",
@@ -692,7 +692,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Variable Successive Replacement",
     "sub_topic": "Type 2: Replacement & Successive Dilution",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A vessel is full of 100 L orange juice. If 20 L juice is taken out and replaced by same amount\nof water. Then 10 L mixture is taken out and replaced by water and again further 10 L mixture\nis taken out and replaced by water. After that 20 L mixture is taken out and replaced by water.\nAt the end of 4th process what will be the amount of water in the mixture?\n\nUh UAH 100 L Gat STS ARTI 20 LH Pepreaee Se St Ut fren Var ara V | fz 10 L FAs\nPrepreree Ut PrearaT aT S,, Te HiswaT GA: 10 L Te ae Fi 20 LH Ure Seas oH S| Tet Wiars are\nPrema orf et aen feat ert",
+    "question": "A vessel is full of 100 L orange juice. If 20 L juice is taken out and replaced by same amount of water. Then 10 L mixture is taken out and replaced by water and again further 10 L mixture is taken out and replaced by water. After that 20 L mixture is taken out and replaced by water. At the end of 4th process what will be the amount of water in the mixture?",
     "options": [
       "42.50 L",
       "45.00 L",
@@ -709,7 +709,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Successive Replacement Initial Quantity",
     "sub_topic": "Type 2: Replacement & Successive Dilution",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A jar was full of alcohol. A person used to draw out 12.5% of the alcohol from the jar and\nreplaced it with water. He repeated the same process 3 times and thus there was only 6 L860\nml alcohol left in the jar. Find the initial amount of alcohol in the jar.\n\nUP UR AHSAG UT Ul WAP IR 12.5% HACHST STAPL So St Ara A UH UR fear aT | Te UisPaT\nSER Gets Te! Sit Fae 6 L 860 ml seme TaN! UAB eH sreplect bl Arar a PAST |",
+    "question": "A jar was full of alcohol. A person used to draw out 12.5% of the alcohol from the jar and replaced it with water. He repeated the same process 3 times and thus there was only 6 L860 ml alcohol left in the jar. Find the initial amount of alcohol in the jar.",
     "options": [
       "10.976 L",
       "8.192 L",
@@ -726,7 +726,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Repeated Dilution Percentage",
     "sub_topic": "Type 2: Replacement & Successive Dilution",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A jar contains a mixture of 120 ml water and 300 ml alcohol. A person takes out 20% of the\nmixture and substitutes it with water of the same amount. The process is repeated one more\ntime. Find the percentage of water in the mixture now.\n\nUH GRA 120 ml UT six 300 ml sepred HT fs 8 | Fs HT 20% Prepreeex Ser St Ara A Ot rar\nfear oa S| Te UPA US IR SR ews oe! srg sor UM pr ofagrd sd HiT |",
+    "question": "A jar contains a mixture of 120 ml water and 300 ml alcohol. A person takes out 20% of the mixture and substitutes it with water of the same amount. The process is repeated one more time. Find the percentage of water in the mixture now.",
     "options": [
       "48%",
       "52%",
@@ -743,7 +743,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Solution Replacement Ratio",
     "sub_topic": "Type 2: Replacement & Successive Dilution",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A solution contains milk and water in the ratio 5:3. If 30% of the solution is replaced by\nmilk, then what will be the ratio of milk and water in the new solution?\nUe fata F Gel Sh UA HT SAT 5:3 8 | Ate FAIA HT 30% UM Premrere TAST OTS Ge UR AAT STG,\nalae faces a ge sik orl er segura ee eT?",
+    "question": "A solution contains milk and water in the ratio 5:3. If 30% of the solution is replaced by milk, then what will be the ratio of milk and water in the new solution?",
     "options": [
       "55:20",
       "59:21",
@@ -760,7 +760,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Repeated Milk Replacement",
     "sub_topic": "Type 2: Replacement & Successive Dilution",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "The ratio of milk to water ina 150 litres mixture is 4:1. 15 litres of this mixture is withdrawn\nand replaced with milk. This process is repeated 2 more times. What is the percentage of milk\nin the final mixture?\n\n150 thee & far a ge sie OT HT segura 4:1 81 15 Chex sor Pereaex Sart St ge fren fear are S|\nTe WAST IIR SR SS VI S| sites sr A ge ar feared feerar Se?",
+    "question": "The ratio of milk to water ina 150 litres mixture is 4:1. 15 litres of this mixture is withdrawn and replaced with milk. This process is repeated 2 more times. What is the percentage of milk in the final mixture?",
     "options": [
       "72%",
       "80%",
@@ -777,7 +777,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Single Dilution Initial Spirit",
     "sub_topic": "Type 2: Replacement & Successive Dilution",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A vessel contained a solution of spirit and water, in which water was 75%. Five litres of the\nsolution was taken out and the same quantity of water was added. If the resulting solution\ncontains 15% spirit, the quantity of spirit in the solution at the beginning was:\n\nup Gad fake sie ott cr aie a, aA UT 75% al SAH S 5 her Hla Mapraer sat Aas ot\nfren fear tram afe oRoneh ata Ft 15% RURee, doy F fake wt Arar feo ete",
+    "question": "A vessel contained a solution of spirit and water, in which water was 75%. Five litres of the solution was taken out and the same quantity of water was added. If the resulting solution contains 15% spirit, the quantity of spirit in the solution at the beginning was:",
     "options": [
       "2.50 litres",
       "3.00 litres",
@@ -794,7 +794,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Dilution Volume to Withdraw",
     "sub_topic": "Type 2: Replacement & Successive Dilution",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A vessel has 60 litres of solution of acid and water, having 75% acid. How many litres of the\nsolution must be withdrawn from the vessel and replaced by the same quantity of water so\nthat the resulting solution would have 50% acid?\n\nUb UAH 60 Ther shat Sik Ur or ater, PRA 75% sia 81 fas Chex det PpraHexr Se St ATA\nUrt freran ore fee UR ora let A 50% set Le TE?",
+    "question": "A vessel has 60 litres of solution of acid and water, having 75% acid. How many litres of the solution must be withdrawn from the vessel and replaced by the same quantity of water so that the resulting solution would have 50% acid?",
     "options": [
       "20 L",
       "15L",
@@ -811,7 +811,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Two-Step Successive Removal",
     "sub_topic": "Type 2: Replacement & Successive Dilution",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A vessel contains a mixture of alcohol and water. The quantity of alcohol is 49% of total\nmixture. Some quantity of mixture is taken out and replaced by water. This process is\nrepeated once more. Now the quantity of alcohol is 9% of total mixture. If total quantity of\nmixture was 20 litres, find the quantity of mixture taken out each time.\n\nUh TAA seplect ae Uh or Pare | seplea Ha fer HT 49% 81 He fra Papretex Set St AM\nFort Prema rare | ae wiswar ys: Vets oT S| sig sieplect Ha for Hr 9% | ale Ger fy 20\nHex a, AIae aR Pores Aa aa His",
+    "question": "A vessel contains a mixture of alcohol and water. The quantity of alcohol is 49% of total mixture. Some quantity of mixture is taken out and replaced by water. This process is repeated once more. Now the quantity of alcohol is 9% of total mixture. If total quantity of mixture was 20 litres, find the quantity of mixture taken out each time.",
     "options": [
       "9.50 litres",
       "10.80 litres",
@@ -828,7 +828,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Successive Replacement Variable Steps",
     "sub_topic": "Type 2: Replacement & Successive Dilution",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A vessel is completely filled with alcohol. 20 litres of alcohol is taken out and replaced by\nwater. Again 15 litres of mixture is taken out and vessel is filled with water again. Now\nconcentration of alcohol in the mixture becomes 73 23/25%. What is the capacity of the\ncontainer?\n\nUb UA Wie: HeHSa a NT S| FSH S 20 Chex srecpleat Preprerepx So et UA Fre ar SAS | GA: 15\nCHhee Faro Prepreree SAAT ST ON rere ora S| ote aor A sreep rec hl Sia 73 23/25% B | WA Ht\nara aid UST |",
+    "question": "A vessel is completely filled with alcohol. 20 litres of alcohol is taken out and replaced by water. Again 15 litres of mixture is taken out and vessel is filled with water again. Now concentration of alcohol in the mixture becomes 73 23/25%. What is the capacity of the container?",
     "options": [
       "95 litres",
       "110 litres",
@@ -845,7 +845,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Container Combination & Dilution",
     "sub_topic": "Type 2: Replacement & Successive Dilution",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A large container has a 70 litre mixture of Tea and Water in the ratio 3:4. To this, a 40 litre\nTea and Water mixture is added, having Tea to Water ratio 1:1. After this, 15 litres of the\nsolution is replaced with pure water. What is the ratio of Water to Tea in the final mixture?\n\nUh TS TAA 70 hex a Sie Ur aor Ps 3:4 & srqaTa A S| SAA 40 cher HT UH sik fs raw\nHATS, FTA ST SHR UP HT SkqUTa 1:1 S| SAH Se 15 Cher Ale Peprarax Soa A Yew OPA ree sa\n81 sifee er A OFT sh ara Hr SUT AT SPT?",
+    "question": "A large container has a 70 litre mixture of Tea and Water in the ratio 3:4. To this, a 40 litre Tea and Water mixture is added, having Tea to Water ratio 1:1. After this, 15 litres of the solution is replaced with pure water. What is the ratio of Water to Tea in the final mixture?",
     "options": [
       "120:80",
       "147:95",
@@ -862,7 +862,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Three-Stage Dilution",
     "sub_topic": "Type 2: Replacement & Successive Dilution",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "30% of a 60% alcohol solution is replaced with water. From the resulting solution, again\none-third is replaced with water. Finally, 20% of the solution is replaced with water. What is\nthe concentration of alcohol in the final solution?\n\n60% HCHIST AA MA HT 30% HPT PSA UP S Heit oar Sra S | ORO Get HT GA: Wey\nfears um Preererex ort rare are 8 | sia F ala HT 20% UPT Prepreeee Ort fren fear ara s | siferr ater\nA arene ct sisal fect Sete",
+    "question": "30% of a 60% alcohol solution is replaced with water. From the resulting solution, again one-third is replaced with water. Finally, 20% of the solution is replaced with water. What is the concentration of alcohol in the final solution?",
     "options": [
       "20.0%",
       "22.4%",
@@ -879,7 +879,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Fraction of Mixture to Replace",
     "sub_topic": "Type 2: Replacement & Successive Dilution",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A mixture of milk and water contains 15 parts of milk and 5 parts of water. How much\nfraction of the mixture should be removed and replaced by water so that the ratio of water\nand milk becomes equal?\n\nQe sik OM & fsa 15 ue gu shes UT OT S| sro opr feo UT repre UTS oferta fear\nwv af oF SR GUT STOTT RTS BY GT?",
+    "question": "A mixture of milk and water contains 15 parts of milk and 5 parts of water. How much fraction of the mixture should be removed and replaced by water so that the ratio of water and milk becomes equal?",
     "options": [
       "1/2",
       "1/3",
@@ -896,7 +896,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Fraction of Mixture to Replace",
     "sub_topic": "Type 2: Replacement & Successive Dilution",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "The ratio of milk and water in a mixture is 9:4. How much part of the mixture should be\nremoved and replaced by water so that ratio of milk and water is 1:1?\n\nue fer A ger ah Orit ar srqura 9:4 8 | Piso ar fos UT Prepretene OFS ferent fever one cafes\nPswrd ge sik otter argo 1:1 BST?",
+    "question": "The ratio of milk and water in a mixture is 9:4. How much part of the mixture should be removed and replaced by water so that ratio of milk and water is 1:1?",
     "options": [
       "5/18",
       "4/15",
@@ -913,7 +913,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Two-Stage Variable Volume Dilution",
     "sub_topic": "Type 2: Replacement & Successive Dilution",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A can has 40 litres of water and milk mixed in the ratio 3:2. If 5 litres of the mixture is\nemptied and 3 litres of water are added and the same process is carried out one more time,\nwhat will be the final ratio of milk to water?\n\nWh OA 40 hex ot she gu 32% srqura A fren Safe s chee Pam Preprarax 3 Chex Url rer oe\nSRSA Us IR sik VSS HY, ge sik OM wr ifs srqora ea eT?",
+    "question": "A can has 40 litres of water and milk mixed in the ratio 3:2. If 5 litres of the mixture is emptied and 3 litres of water are added and the same process is carried out one more time, what will be the final ratio of milk to water?",
     "options": [
       "77:151",
       "65:143",
@@ -930,7 +930,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Removal & Milk Addition",
     "sub_topic": "Type 2: Replacement & Successive Dilution",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A vessel contains 90 L of mixture of milk and water in the ratio 11:4 respectively. 15 L of\nmixture is replaced by 5 L milk. What is the ratio of milk and water in the resulting mixture?\n\nUe ada F 90 L srs fSraa ge sik OFT hr srqure 11:4 81 15 L sor Peraee saa 5 L gu rea\naT eS | OfOTeN iso A ger she UA ear sega are HST |",
+    "question": "A vessel contains 90 L of mixture of milk and water in the ratio 11:4 respectively. 15 L of mixture is replaced by 5 L milk. What is the ratio of milk and water in the resulting mixture?",
     "options": [
       "3:1",
       "4:1",
@@ -947,7 +947,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Sequential Step Replacement",
     "sub_topic": "Type 2: Replacement & Successive Dilution",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "There is a vessel holding 50 L of milk. 5 L of milk is initially taken out and 7 L water is\npoured in. After this, 8 L of the mixture is replaced with 4 L of water and finally 10 L of mixture\nis replaced with 12 L water. How much milk (in litres) is there in the vessel now?\n\nWH dt A SOL gue FIAT 5 L ge Preprete 7 L Uh rare ore S| SAT ST 8 L PT Prepretee 4 L\nUMtaen sia 8 10 L fas Peres 12 L ur ara ore 8 | sa aa gu wt ae fers?",
+    "question": "There is a vessel holding 50 L of milk. 5 L of milk is initially taken out and 7 L water is poured in. After this, 8 L of the mixture is replaced with 4 L of water and finally 10 L of mixture is replaced with 12 L water. How much milk (in litres) is there in the vessel now?",
     "options": [
       "28 L",
       "30.14 L",
@@ -964,7 +964,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Multi-Step Replacement Ratio",
     "sub_topic": "Type 2: Replacement & Successive Dilution",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "96 L of a mixture contains milk and water in the ratio 2:1. From this mixture, 24 Lis taken\nout and 12 L water is added. After this, 12 L of the current mixture is taken out and 6 L water is\nadded. Finally, 18 L of the current mixture is taken out and 12 L water is added. What is the\ncurrent ratio of milk and water in the mixture?\n\n96 L& fer a ge sik Or wr Segara 2:1 8 24 L reo Preprerey 12 L OF rear atta 8 | fbx 12. L Peso\nProrat 6 LUM aan sia F 18 L rs Prepreraee 12. L Uh rere Sra a | Sta gel SiR UP HT Srqara eT\n2",
+    "question": "96 L of a mixture contains milk and water in the ratio 2:1. From this mixture, 24 Lis taken out and 12 L water is added. After this, 12 L of the current mixture is taken out and 6 L water is added. Finally, 18 L of the current mixture is taken out and 12 L water is added. What is the current ratio of milk and water in the mixture?",
     "options": [
       "40:51",
       "51:40",
@@ -981,7 +981,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Multi-Step Fractional Reduction",
     "sub_topic": "Type 2: Replacement & Successive Dilution",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "150 L of a mixture contains milk and water in the ratio 7:3. 30 L of mixture is taken out and\n10 L of water is added. Then 20 L of the current mixture is taken out and 8 L of water is added.\nThen 25 Lof the current mixture is taken out and 15 L water is added. What is the current ratio\nof milk and water in the mixture?\n150 L® fsa gu sik Ur ar squad 7:3 | 30 L fer Preprerepe 10 L Ur rere aa 8 | fHX 20 L\nPs Frere 8 LUM aa Te Fi 25 L fron Preprereey 15 L Ol Pree eT S| Ste GU SAR OT HT\nATO PAT SPT?",
+    "question": "150 L of a mixture contains milk and water in the ratio 7:3. 30 L of mixture is taken out and 10 L of water is added. Then 20 L of the current mixture is taken out and 8 L of water is added. Then 25 L of the current mixture is taken out and 15 L water is added. What is the current ratio of milk and water in the mixture?",
     "options": [
       "2387:2215",
       "2400:2200",
@@ -998,7 +998,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Three-Liquid Selective Replacement",
     "sub_topic": "Type 2: Replacement & Successive Dilution",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A solution contains 60 L kerosene, 80 L petrol and 110 L diesel. 20% of this solution is\nreplaced by kerosene and then 3/5 of the obtained solution is replaced by petrol. Find the\nquantity of diesel in the mixture now.\n\nUm Hat 60 L BURA, 80 L Tela aa 110 L Shag S| Ma HT 20% YET Preprerepxt Gres B Ulead\nfear areas cen ex ed Ghar 3/5 UT Hl Tear S videnita fear ora es | sta Storer at AAT grt PHASTT |",
+    "question": "A solution contains 60 L kerosene, 80 L petrol and 110 L diesel. 20% of this solution is replaced by kerosene and then 3/5 of the obtained solution is replaced by petrol. Find the quantity of diesel in the mixture now.",
     "options": [
       "29.7 L",
       "31.6L",
@@ -1015,7 +1015,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Liquid Replacement Initial Quantity",
     "sub_topic": "Type 2: Replacement & Successive Dilution",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A vessel contains a solution of two liquids X and Y in the ratio 4:1. When 15 L of the solution\nis taken out and replaced by the same quantity of liquid Y, the ratio of X and Y becomes 3:2.\nThe original quantity (in litres) of the solution in the vessel was:\n\nUp adr A X she y OT 41H srqora A V1 ale 15 L fer Prepreae sot S aes Y fren fear aT\nARAM SGA 3:2 BTS, a ORB fro at ara eee eft?",
+    "question": "A vessel contains a solution of two liquids X and Y in the ratio 4:1. When 15 L of the solution is taken out and replaced by the same quantity of liquid Y, the ratio of X and Y becomes 3:2. The original quantity (in litres) of the solution in the vessel was:",
     "options": [
       "60 L",
       "75 L",
@@ -1032,7 +1032,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Replacement & Kerosene Ratio",
     "sub_topic": "Type 2: Replacement & Successive Dilution",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A solution contains petrol and kerosene in the ratio 3:2. 10 litres of this solution have been\nremoved and replaced with petrol. If the resulting ratio of kerosene to petrol is 1:2, find the\noriginal quantity of kerosene in the solution.\n\nWee ear Tete she Ph Aer HT StU 3:28 | SAAS 10 L Hrs PreprereHr Veter fren fear aren S| ae\nTar agora Pret aor Aer: Veter = 1:2 SSG, TUR Ret ter Ht Aa a SHS |",
+    "question": "A solution contains petrol and kerosene in the ratio 3:2. 10 litres of this solution have been removed and replaced with petrol. If the resulting ratio of kerosene to petrol is 1:2, find the original quantity of kerosene in the solution.",
     "options": [
       "18L",
       "22L",
@@ -1049,7 +1049,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Unbalanced Removal & Addition",
     "sub_topic": "Type 2: Replacement & Successive Dilution",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "The ratio of milk and water in a vessel is 7:5. If 24 litres of mixture is taken out and 42 litres\nwater is added, then the ratio of milk and water becomes 28:41. Find the quantity of milk in the\ninitial mixture.\n\nWe adr A gu sik OP wT srqUT 7:5 8 | Ale 24 L rs Preprerey 42 L UT rare Oe ae AT STU\n28:41 ay, AUR ere ge wl aT ana wrfere |",
+    "question": "The ratio of milk and water in a vessel is 7:5. If 24 litres of mixture is taken out and 42 litres water is added, then the ratio of milk and water becomes 28:41. Find the quantity of milk in the initial mixture.",
     "options": [
       "64L",
       "70 L",
@@ -1066,7 +1066,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Replacement & Linear Difference",
     "sub_topic": "Type 3: Rule of Alligation (Price, Profit/Loss, SI, Speed)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A vessel contains a mixture of 120 L milk and 30 L water. 'x' L of mixture is taken out. Then\n30 L milk and 15 L water are added. If the difference between milk and water becomes 87 L,\nfind x.\n\nUh IT F120 L GY aa 30 LUNG! SAAS x L Pryor Prepre fea ie S | SASH Se 30 L GUAM AS L\nUri Pree Gras | SAS sta gel SH UP HT SiR 87 L BY AMG, aT x ae BST",
+    "question": "A vessel contains a mixture of 120 L milk and 30 L water. 'x' L of mixture is taken out. Then 30 L milk and 15 L water are added. If the difference between milk and water becomes 87 L, find x.",
     "options": [
       "15",
       "20",
@@ -1083,7 +1083,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Replacement & Equalizing Components",
     "sub_topic": "Type 3: Rule of Alligation (Price, Profit/Loss, SI, Speed)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "200 litres of acid is mixed with 100 litres of water. A certain quantity x of the mixture is\ntaken out and 10 litres acid and 77 litres water are added. If the final mixture contains 50%\nacid, find x.\n\n200 L St SR 100 LUM rarer aren S| sor Hr x L uP Preprer fea ara S AAT 10 L ST AR 77 LUFT\nPrerararar@ | afe sifes rs A 50% site Bl, atx are HST |",
+    "question": "200 litres of acid is mixed with 100 litres of water. A certain quantity x of the mixture is taken out and 10 litres acid and 77 litres water are added. If the final mixture contains 50% acid, find x.",
     "options": [
       "72L",
       "56L",
@@ -1100,7 +1100,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Sequential Ratio Dilution",
     "sub_topic": "Type 3: Rule of Alligation (Price, Profit/Loss, SI, Speed)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A solution of volume 60 litres has spirit and water in the proportion 3:1. Water is added to\nchange this proportion to 3:2. If one-third of this diluted solution is taken out, how many litres\nof spirit must be added to the remaining solution to bring the proportion back to 3:1?\n\n60 L& thar a Rake she Ur Hr srqura 3:1 S| SAA OM rere argon 3:2 He fear ae S| Ale Sa Tete\nDet or Uap-AeVrs UT Prorat AAT SAY, a SOTA HY YA: 3:1 HA fore fever ake frat rte",
+    "question": "A solution of volume 60 litres has spirit and water in the proportion 3:1. Water is added to change this proportion to 3:2. If one-third of this diluted solution is taken out, how many litres of spirit must be added to the remaining solution to bring the proportion back to 3:1?",
     "options": [
       "12 litres",
       "30 litres",
@@ -1117,7 +1117,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "System of Coffee Mixtures",
     "sub_topic": "Type 3: Rule of Alligation (Price, Profit/Loss, SI, Speed)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "Two types of coffee, Arabica and Robusta, are mixed and then sold at 88 per 100 gm. The\nprofit is 20% if Arabica and Robusta are mixed in the ratio 1:3. The profit is 10% if Arabica and\nRobusta are mixed in the ratio 3:1. What are the cost prices, per 100 gm, of Arabica and\nRobusta coffees, and what is their ratio?\n\nVOR Gt HI, SAITHT SR VAT, HI Pranx 888 Wi 100 WA Ht axa Sal oa | | Ale SRIHT SV\nFT HI 1:3 BH SOTA A TAT GT SY ATHY 20% Bla S Ta 3: & BGT A AA UR ATH 10% Bla S|\nRTH SH VST HT APTA Fea (AAS 100 AA) aa SAT STATA Bt HATT |",
+    "question": "Two types of coffee, Arabica and Robusta, are mixed and then sold at 88 per 100 gm. The profit is 20% if Arabica and Robusta are mixed in the ratio 1:3. The profit is 10% if Arabica and Robusta are mixed in the ratio 3:1. What are the cost prices, per 100 gm, of Arabica and Robusta coffees, and what is their ratio?",
     "options": [
       "83.33, 70, 25:21",
       "72.5, 68, 30:25",
@@ -1134,7 +1134,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Multi-Step Container Transfer",
     "sub_topic": "Type 3: Rule of Alligation (Price, Profit/Loss, SI, Speed)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "120 litres of a mixture of milk and water in the ratio 5:3 is present in container A. 30 litres\nof the mixture is transferred to container B. Then container A is filled with 30 litres of water.\nThen 40 litres of the mixture is again transferred from container A to container B. The ratio of\nmilk to water in container B is equal to:\n\nUp Hea A F120 cher ge she OM ar far 5:3 & arqura B81 30 ther sor Hea BA emake fear\nGAT | HX HEA A A 30 hex UH ux fear ara S| SUH Ta HER A V 40 Cher sO GA: Hea BA\nTST GA S| HEAR BA Ge Sh OH HT SGU AT SPT?",
+    "question": "120 litres of a mixture of milk and water in the ratio 5:3 is present in container A. 30 litres of the mixture is transferred to container B. Then container A is filled with 30 litres of water. Then 40 litres of the mixture is again transferred from container A to container B. The ratio of milk to water in container B is equal to:",
     "options": [
       "17:19",
       "25:21",
@@ -1151,7 +1151,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Combined Class Range",
     "sub_topic": "Type 3: Rule of Alligation (Price, Profit/Loss, SI, Speed)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "There are two classes, M and N. The ratio of boys to girls in class M is 1:4. The ratio of boys\nto girls in class N is 3:4. Which of the following cannot be the ratio of girls to boys in class M\nand N together?\n\nalwansil M HRN Fase Sie ASA HT SUT HAT: 1:4 TAT 3:4 Sl Val Hana Ht reas OR ashes\nok Asal SSM sega Aus TSS?",
+    "question": "There are two classes, M and N. The ratio of boys to girls in class M is 1:4. The ratio of boys to girls in class N is 3:4. Which of the following cannot be the ratio of girls to boys in class M and N together?",
     "options": [
       "3:2",
       "7:3",
@@ -1168,7 +1168,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Basic Rule of Alligation",
     "sub_topic": "Type 3: Rule of Alligation (Price, Profit/Loss, SI, Speed)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "In what ratio should tea powder costing 7350 per kg be mixed with tea powder costing\n250 per kg so that the cost of the mixture is 275 per kg?\n\n%350 Ufa fear arch a UNSSX HT F250 Ula feorn are ara USSR & Ure fers srqure a fran wre ales\nSor HT AES F275 Ula feo St aT?",
+    "question": "In what ratio should tea powder costing ₹350 per kg be mixed with tea powder costing ₹250 per kg so that the cost of the mixture is ₹275 per kg?",
     "options": [
       "1:3",
       "3:1",
@@ -1185,7 +1185,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Reverse Pricing Alligation",
     "sub_topic": "Type 3: Rule of Alligation (Price, Profit/Loss, SI, Speed)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A grocer mixes two varieties of tea worth %125 per kg and 2135 per kg. In what ratio must\nhe mix the two varieties so that, by selling the mixture at 7143 per kg, he may gain 10%?\n\nWh GHAR F125 Wid foro ae F135 la feos arch ara awl fran SI ale ae Perso wt 143 oe fea\nTAHT 10% TH PAM ASAT @, a aM forest cal few srqura B fray afew?",
+    "question": "A grocer mixes two varieties of tea worth ₹125 per kg and ₹135 per kg. In what ratio must he mix the two varieties so that, by selling the mixture at ₹143 per kg, he may gain 10%?",
     "options": [
       "3:2",
       "2:3",
@@ -1202,7 +1202,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Reverse Pricing & Quantity",
     "sub_topic": "Type 3: Rule of Alligation (Price, Profit/Loss, SI, Speed)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A 20% gain is made by selling the mixture of two types of sweets at $180 per kg. If one type\nof sweet costing 220 per kg was mixed with 120 kg of another type of sweet costing 7140 per\nkg, how many kilograms of the former type of sweet were mixed?\n\naver ot frorsal & frst at 2180 wie foo Fay UR 20% TY Sta S| Ale 220 HAA feoar areht flows wT\n3140 Ufa fear arch 120 fern ors & are ara Ta Sy, a Tech WER wt ars fear ferciara ete",
+    "question": "A 20% gain is made by selling the mixture of two types of sweets at ₹180 per kg. If one type of sweet costing ₹220 per kg was mixed with 120 kg of another type of sweet costing ₹140 per kg, how many kilograms of the former type of sweet were mixed?",
     "options": [
       "12.50 kg",
       "17.14 kg",
@@ -1219,7 +1219,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Reverse Pricing & Unknown Quantity",
     "sub_topic": "Type 3: Rule of Alligation (Price, Profit/Loss, SI, Speed)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "How many kg of rice costing ¥40 per kg should be mixed with 10 kg rice costing $55 per kg\nso that by selling the mixture at ¥54 per kg, there is a gain of 20%?\n\n40 Ole foron arel fered feo cia aract ht 55 Whe fora arel 10 feoan aract & Ure rere ore crite FEO\nB54 Wid Hal SIA TR 20% TH Sl?",
+    "question": "How many kg of rice costing ₹40 per kg should be mixed with 10 kg rice costing ₹55 per kg so that by selling the mixture at ₹54 per kg, there is a gain of 20%?",
     "options": [
       "14 kg",
       "18kg",
@@ -1236,7 +1236,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Profit & Loss Alligation",
     "sub_topic": "Type 3: Rule of Alligation (Price, Profit/Loss, SI, Speed)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A shopkeeper has 1800 kg of sugar. A part of it is sold at 25% profit and the rest at 10%\nprofit. He gains 20% on the whole. The quantity sold at 25% profit is:\n\nUh GHMER & UT 1800 fear Sh S| SAT UH PT 25% TUT TUNG 10% AYU SA Ha S| Pet\nFre 20% MH Sa S| 25% MUA sa ag SH Gl EM fas?",
+    "question": "A shopkeeper has 1800 kg of sugar. A part of it is sold at 25% profit and the rest at 10% profit. He gains 20% on the whole. The quantity sold at 25% profit is:",
     "options": [
       "600 kg",
       "800 kg",
@@ -1253,7 +1253,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Profit & Loss with Negative Loss",
     "sub_topic": "Type 3: Rule of Alligation (Price, Profit/Loss, SI, Speed)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A trader has 540 kg of pulses. A part of it he sells at 15% profit and the rest at 5% loss. He\ngains 10% on the whole. How much was sold at 15% profit?\n\nWh STON UTS 540 fH aa S| FSH UH UPT 15% MYT FAY 5% SII OR TAT GT S| HT\nPTH 10% MH SAMS 15% THAR Sel Ts Ara feet ett?",
+    "question": "A trader has 540 kg of pulses. A part of it he sells at 15% profit and the rest at 5% loss. He gains 10% on the whole. How much was sold at 15% profit?",
     "options": [
       "360 kg",
       "180 kg",
@@ -1270,7 +1270,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Profit & Loss Alligation on Items",
     "sub_topic": "Type 3: Rule of Alligation (Price, Profit/Loss, SI, Speed)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A person purchased 100 apples at 10 each. A part of them he sold at 20% profit and the\nremaining at 10% loss. The net profit on the whole transaction was 11%. Find the number of\napples sold at 20% profit.\n\nUb fat 7 100 Ha 10 Uist Fa HT SX G WI | HS Ss 20% TUT TA AT 10% SII WK Fal | TY -S\nWR11% MH FST 20% MY A a 1 Val HT PVT Bt PUTT |",
+    "question": "A person purchased 100 apples at 10 each. A part of them he sold at 20% profit and the remaining at 10% loss. The net profit on the whole transaction was 11%. Find the number of apples sold at 20% profit.",
     "options": [
       "70",
       "60",
@@ -1287,7 +1287,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Algebraic Mixing with Unknowns",
     "sub_topic": "Type 3: Rule of Alligation (Price, Profit/Loss, SI, Speed)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "Aarav purchased 'y' kg rice at ¥40/kg and sold 8 kg of it at ty per kg and the remaining at\n%60/kg. Overall profit percent earned is 10%, then what quantity of rice Aarav sold at %60/kg?\n\nAa 'y' fa Tact = 40/fa Slax S Aer SHA 8 foo aaa Ty WS foo Stars aarary 60 /fem\nBRA ST ale PAA 10% @, A TofS Ht ax Fa TW ara wt Ha fever eh",
+    "question": "Aarav purchased 'y' kg rice at ₹40/kg and sold 8 kg of it at ₹y per kg and the remaining at ₹60/kg. Overall profit percent earned is 10%, then what quantity of rice Aarav sold at ₹60/kg?",
     "options": [
       "20 kg",
       "15 kg",
@@ -1304,7 +1304,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Overall Profit Alligation",
     "sub_topic": "Type 3: Rule of Alligation (Price, Profit/Loss, SI, Speed)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "Subhash purchases a refrigerator and a washing machine for ¥4,500. He sells the\nrefrigerator at a profit of 10% and the washing machine at a profit of 15%. He earns a total\nprofit of 600. What is the difference between the original prices of the refrigerator and the\nwashing machine?\n\nGUIS Usp UipaRey Sh Ue TR ARH £4,500 A Ula SI Ge Mp aReR HI 10% THT Ta TAT\nFT Hh 15% MUU ITA S| FA HPA T600 STAY Sle S | LPT Bi AAT ANA H eal a fcr\nSHAR UT?",
+    "question": "Subhash purchases a refrigerator and a washing machine for ₹4,500. He sells the refrigerator at a profit of 10% and the washing machine at a profit of 15%. He earns a total profit of ₹600. What is the difference between the original prices of the refrigerator and the washing machine?",
     "options": [
       "%1,200",
       "%1,000",
@@ -1321,7 +1321,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Weighted CP & Overall Profit",
     "sub_topic": "Type 3: Rule of Alligation (Price, Profit/Loss, SI, Speed)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "Deepak purchased 30 kg wheat at %40 per kg and 20 kg wheat at 50 per kg. What profit\ndid he get when he mixed the two varieties together and sold the entire mixture at $52.80 per\nkg?\n\ndae 9 30 fear ag =40 Ole fear cen 20 fear Ag t50 Vie feo Slax a Alar SMA fovea crt Rrearepez\n352.80 Wid foul Slax Y sas Ra fa TY gan?",
+    "question": "Deepak purchased 30 kg wheat at ₹40 per kg and 20 kg wheat at ₹50 per kg. What profit did he get when he mixed the two varieties together and sold the entire mixture at ₹52.80 per kg?",
     "options": [
       "20%",
       "15%",
@@ -1338,7 +1338,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Unknown Profit Component Alligation",
     "sub_topic": "Type 3: Rule of Alligation (Price, Profit/Loss, SI, Speed)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A vendor has 120 kg of sugar. He sells 40 kg at some profit and sells the remaining part at\n12% profit. If he earns a total of 14% profit on the whole transaction, then find at what % profit\nhe sells the 40 kg of sugar.\n\nue fara & ore 120 nate ae 40 fries TUT sas she Vy SA 12% MUIR SITs |\nMETI TY Me We 14% STAY UM SATS, A TAST SAA 40 feo Ah fay % TU TR set?",
+    "question": "A vendor has 120 kg of sugar. He sells 40 kg at some profit and sells the remaining part at 12% profit. If he earns a total of 14% profit on the whole transaction, then find at what % profit he sells the 40 kg of sugar.",
     "options": [
       "18%",
       "15%",
@@ -1355,7 +1355,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Profit/Loss on Two Item Groups",
     "sub_topic": "Type 3: Rule of Alligation (Price, Profit/Loss, SI, Speed)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A man buys 4 type-I cakes and 5 type-II cakes for 720. He sells type-I cakes at a profit of\n20% and type-II cakes at a loss of 10%. If his overall profit is $30, what is the cost price of type-\nland type-II cake?\n\nUe OUfde 4 CIST-1 SHR 5 CISU-1 ea HA T720 H Waa g | CSI-1 HH Hl 20% MUU Aa CU-Ll\nHT 10% SIA AR SAM S| AS PAT AY T30 @, Arar opi Hr Hy yea aa HAST |",
+    "question": "A man buys 4 type-I cakes and 5 type-II cakes for ₹720. He sells type-I cakes at a profit of 20% and type-II cakes at a loss of 10%. If his overall profit is ₹30, what is the cost price of type-I and type-II cake?",
     "options": [
       "42 & €57",
       "₹85 & ₹76",
@@ -1372,7 +1372,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Fraction Alligation on Mixtures",
     "sub_topic": "Type 3: Rule of Alligation (Price, Profit/Loss, SI, Speed)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "Vessels A and B contain mixtures of milk and water in the ratios 3:5 and 1:4 respectively. In\nwhat ratio should quantities of mixture be taken from A and B to form a new mixture in which\nmilk and water is in the ratio 1:2?\n\nad7 A SR BA gu sik Ut aor sor HAT: 3:5 TU 1:4 Fl Uh ATT PO GAM & few A RBS sr fea\norqure Fi fear are anfés Te sor Fi ge she OA HT StU 1:2 BY?",
+    "question": "Vessels A and B contain mixtures of milk and water in the ratios 3:5 and 1:4 respectively. In what ratio should quantities of mixture be taken from A and B to form a new mixture in which milk and water is in the ratio 1:2?",
     "options": [
       "12:7",
       "16:5",
@@ -1389,7 +1389,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Half Milk Alligation",
     "sub_topic": "Type 3: Rule of Alligation (Price, Profit/Loss, SI, Speed)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "Vessels A and B contain mixtures of milk and water in the ratios 3:1 and 1:5 respectively.\nWhen these mixtures are mixed to form a new mixture containing half milk and half water,\nthey must be taken in what ratio?\n\nTATA SIR BA Ge SAR OM Hr so HHT: 3:1 TUT 1:5 Sl Ble SA HT apex sey gel SH sire UH are\nPaO Sas, ase fs stqora F rea ore?",
+    "question": "Vessels A and B contain mixtures of milk and water in the ratios 3:1 and 1:5 respectively. When these mixtures are mixed to form a new mixture containing half milk and half water, they must be taken in what ratio?",
     "options": [
       "7:5",
       "4:3",
@@ -1406,7 +1406,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Alligation on Alcohol Concentrations",
     "sub_topic": "Type 3: Rule of Alligation (Price, Profit/Loss, SI, Speed)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A person buys 2 different kinds of alcohol. In the 1st mixture, alcohol : water = 2:3 and in\nthe 2nd mixture, alcohol : water = 3:7. If he mixes the two mixtures and makes a 3rd mixture of\n60 Lin which alcohol : water = 7:13, then find the quantity of Ist mixture required.\n\nUb Olea ATOR & sepred Han iad S| Teds septs: UT = 2:3 Ta GAA 3:7 S 1 ale Sra Hr\nfrerey 60 L or cierto ear ara s FSSA seeped : UH = 7:13 8, a Geel Fs wt Arar aa HAST |",
+    "question": "A person buys 2 different kinds of alcohol. In the 1st mixture, alcohol : water = 2:3 and in the 2nd mixture, alcohol : water = 3:7. If he mixes the two mixtures and makes a 3rd mixture of 60 Lin which alcohol : water = 7:13, then find the quantity of 1st mixture required.",
     "options": [
       "25 L",
       "30 L",
@@ -1423,7 +1423,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Doubling Volume & Percentage",
     "sub_topic": "Type 3: Rule of Alligation (Price, Profit/Loss, SI, Speed)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "Two alcohol solutions P and Q are mixed in the proportion 2:3 by volume. The volume of\nthe mixture is then doubled by adding solution P such that the resulting mixture has 71%\nalcohol. If solution P has 80% alcohol, then the percentage of alcohol in solution Q is:\n\na sented Ha P sik Q wl 2:3. & argon A Frerar Gray 2 | flex ater P Pray Hat HAT SAT HR AAT\nMATS SAR sia sor F 71% semlea el TANS | He PA 80% AcHlede, dQ HF sewed Hr yfaara\nfeaare?",
+    "question": "Two alcohol solutions P and Q are mixed in the proportion 2:3 by volume. The volume of the mixture is then doubled by adding solution P such that the resulting mixture has 71% alcohol. If solution P has 80% alcohol, then the percentage of alcohol in solution Q is:",
     "options": [
       "40%",
       "50%",
@@ -1440,7 +1440,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Medicine Syrup Alligation",
     "sub_topic": "Type 3: Rule of Alligation (Price, Profit/Loss, SI, Speed)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "In 120 ml of a syrup, chloroquine and hydroxyl chloroquine are in the ratio 3:4. This syrup is\nmixed with 80 ml of another syrup. In the resultant syrup, chloroquine is 40%. Find the ratio of\nchloroquine and hydroxyl chloroquine in the 80 ml syrup.\n\n120 ml RRO A ANG Sk SS Saae FANG GT Sure 3:4 81 SS 80 ml Ger fey & ary rar\nTTS | ORO Ra A ARH 40% 21 80 mi ARTA al aT srqare aa HHS",
+    "question": "In 120 ml of a syrup, chloroquine and hydroxyl chloroquine are in the ratio 3:4. This syrup is mixed with 80 ml of another syrup. In the resultant syrup, chloroquine is 40%. Find the ratio of chloroquine and hydroxyl chloroquine in the 80 ml syrup.",
     "options": [
       "7:4",
       "6:11",
@@ -1457,7 +1457,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Bottle Multiples Weighted Average",
     "sub_topic": "Type 3: Rule of Alligation (Price, Profit/Loss, SI, Speed)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "If a juice bottle of 800 ml has 15% sugar and a syrup bottle of 400 ml has 25% sugar, then 3\nbottles of juice and 2 bottles of syrup are mixed. Find the percentage of sugar in the solution.\n\n800 ml Be Hl alatarF 15% AS ae 400 ml Reg wl sHaagH 25% ANS ale GE S13 alae sik faa\npla claret fires oe, at freer A At aor fete art AST |",
+    "question": "If a juice bottle of 800 ml has 15% sugar and a syrup bottle of 400 ml has 25% sugar, then 3 bottles of juice and 2 bottles of syrup are mixed. Find the percentage of sugar in the solution.",
     "options": [
       "18.5%",
       "16%",
@@ -1474,7 +1474,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Constant Water Pivot Dilution",
     "sub_topic": "Type 3: Rule of Alligation (Price, Profit/Loss, SI, Speed)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A container contains 30 L mixture in which there is 5% salt. Find the quantity of salt to be\nadded to make the solution contain 20% salt.\n\nUh HERA 30 L srs Sas 5% TAH 81 Maa TAS HT lard 20% HA & fare fc ae Pa\nraul",
+    "question": "A container contains 30 L mixture in which there is 5% salt. Find the quantity of salt to be added to make the solution contain 20% salt.",
     "options": [
       "5.625 L",
       "6L",
@@ -1491,7 +1491,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Constant Water Concentration",
     "sub_topic": "Type 3: Rule of Alligation (Price, Profit/Loss, SI, Speed)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A container contains 60 L of a salt solution in which there is 15% salt. Find the quantity of\nsalt to be added to make the concentration of salt in the solution 30%.\n\nUh HERG 60 LAAH G1 Uae A 15% TAS 81 MAA TAS H) Giga 30% HM & fare fs TAH\nfara ore?",
+    "question": "A container contains 60 L of a salt solution in which there is 15% salt. Find the quantity of salt to be added to make the concentration of salt in the solution 30%.",
     "options": [
       "15 L",
       "12L",
@@ -1508,7 +1508,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Multi-Element Alloy Constant Base",
     "sub_topic": "Type 3: Rule of Alligation (Price, Profit/Loss, SI, Speed)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "Analloy of 40 kg contains 60% Tin, 20% Zinc and 20% Lead. How much Tin should be\nadded so that the new alloy contains 75% Tin?\n\n40 feoan Fister F 60% fea, 20% FRM Gea 20% Bhar S| AS seg F fea 75% Her & few fear es\nfrearrérne",
+    "question": "An alloy of 40 kg contains 60% Tin, 20% Zinc and 20% Lead. How much Tin should be added so that the new alloy contains 75% Tin?",
     "options": [
       "20 kg",
       "24 kg",
@@ -1525,7 +1525,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Fraction of Mixture Replaced",
     "sub_topic": "Type 3: Rule of Alligation (Price, Profit/Loss, SI, Speed)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A vessel contains a mixture of spirit and water in which the percentage of spirit is 40%. A\npart of this mixture is replaced by another mixture containing 60% spirit, and the final\npercentage of spirit becomes 45%. The quantity of mixture replaced is:\n\nwe ada 8 Rae she Uri or srs feraa aR 40% 8 | sm Up UT Hl 60% Rae are Fs\npieentta farce é six sifes wsard 45% St aT S| Mise sor pr MET ae PST",
+    "question": "A vessel contains a mixture of spirit and water in which the percentage of spirit is 40%. A part of this mixture is replaced by another mixture containing 60% spirit, and the final percentage of spirit becomes 45%. The quantity of mixture replaced is:",
     "options": [
       "1/3",
       "1/4",
@@ -1542,7 +1542,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Density Alligation",
     "sub_topic": "Type 3: Rule of Alligation (Price, Profit/Loss, SI, Speed)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A chemist mixes two liquids A and B. One litre of A weighs 900 g and one litre of B weighs\n1.2kg. If half litre of the mixture weighs 520 g, then the percentage of liquid A in the mixture\nis:\n\nUb CORA A Sik Bal ga free 1 A B11 MER UR 900 g AUB STI He UR 12kgel Ble sO\n3 Chex ST UR 520 g 8, Asa A HT UfaRrd aa HST",
+    "question": "A chemist mixes two liquids A and B. One litre of A weighs 900 g and one litre of B weighs 1.2kg. If half litre of the mixture weighs 520 g, then the percentage of liquid A in the mixture is:",
     "options": [
       "47.50%",
       "53.33%",
@@ -1559,7 +1559,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Relative Density Alligation",
     "sub_topic": "Type 3: Rule of Alligation (Price, Profit/Loss, SI, Speed)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "Gold is 2% times as heavy as silver, and silver is 1% times as heavy as zinc. In what ratio\nshould gold and zinc be mixed so that the mixture is 1% times as heavy as silver?\n\nSAT aaa 24 TAT URS aa ait GAB 14 TAT UTS 1S Sik red Hr fos srqora A ferare ore af\nProrat B 134 TAT UN et?",
+    "question": "Gold is 2½ times as heavy as silver, and silver is 1⅓ times as heavy as zinc. In what ratio should gold and zinc be mixed so that the mixture is 1¾ times as heavy as silver?",
     "options": [
       "5:7",
       "4:3",
@@ -1576,7 +1576,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Class Examination Marks Alligation",
     "sub_topic": "Type 4: Advanced Exam Challengers (Averages, Exam Scores, Coins)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "Average marks of all 240 students ina class is 62.5. If the average marks of fail candidates\nis 50 and the average of pass candidates is 75, then find the number of fail candidates in the\nclass?\n\nUm Hala Url 240 GA HT sik si 62.5 81 Ale spel Sra HT sik SO Gar Selol SAN HT sit 75\n@ deqdhtionieitenad aie",
+    "question": "Average marks of all 240 students ina class is 62.5. If the average marks of fail candidates is 50 and the average of pass candidates is 75, then find the number of fail candidates in the class?",
     "options": [
       "95",
       "120",
@@ -1593,7 +1593,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Weighted Cost & Target Profit",
     "sub_topic": "Type 4: Advanced Exam Challengers (Averages, Exam Scores, Coins)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A vendor buys two types of sugar costing ¥220/kg and %180/kg respectively. The quantities\npurchased are 450 kg and 350 kg respectively. He wants to earn 15% profit on the first type\nand 25% overall profit. At what price per kg should he sell the second type of sugar?\n\nUp fase £220/kg ae F180 /kg Ht at HAT: 450 kg SN 350 kg Mla | de Vet WHR Ht a aR\n15% MU AU HA 25% TH PAM AS S| GA VOR Hl Sh fos Fea we gay?",
+    "question": "A vendor buys two types of sugar costing ₹220/kg and ₹180/kg respectively. The quantities purchased are 450 kg and 350 kg respectively. He wants to earn 15% profit on the first type and 25% overall profit. At what price per kg should he sell the second type of sugar?",
     "options": [
       "₹198.75/kg",
       "₹253.29/kg",
@@ -1610,7 +1610,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Savings Alligation",
     "sub_topic": "Type 4: Advanced Exam Challengers (Averages, Exam Scores, Coins)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "Two friends, Ravi and Rahul, have a combined total of 90,000. Ravi spends 20% of his\nmoney, while Rahul spends 30% of his money. They are left with a sum that constitutes 72% of\nthe whole amount. Find the amount of money left with Ravi.\n\nUfa She USAH UT HA 90,000 S 1 VS ATH UR HT 20% AUT 30% Was HLA S| Sl a OTS AT\nUN HA UM HI 72% SI Ua OS Sah SS TA gt HHT",
+    "question": "Two friends, Ravi and Rahul, have a combined total of ₹90,000. Ravi spends 20% of his money, while Rahul spends 30% of his money. They are left with a sum that constitutes 72% of the whole amount. Find the amount of money left with Ravi.",
     "options": [
       "₹14,400",
       "318,000",
@@ -1627,7 +1627,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Wage & Penalty Alligation",
     "sub_topic": "Type 4: Advanced Exam Challengers (Averages, Exam Scores, Coins)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A labourer was appointed on the condition that he would be paid 120 for each day of work\nbut would be fined %30 per day for absence. After 25 days, he received ¥2,400. Find the\nnumber of days he was absent.\n\nUb HOARY fetes F120 Hoge TU START LEA TR 30 Wher GA Ht Mt OR ATTA 25 fet are\nSS F2,400 Ured Gul ae fears fer srqufeya Ter?",
+    "question": "A labourer was appointed on the condition that he would be paid ₹120 for each day of work but would be fined ₹30 per day for absence. After 25 days, he received ₹2,400. Find the number of days he was absent.",
     "options": [
       "3 days",
       "4 days",
@@ -1644,7 +1644,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Negative Marking Alligation",
     "sub_topic": "Type 4: Advanced Exam Challengers (Averages, Exam Scores, Coins)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "There are 200 multiple choice questions in a test. A candidate gets 5 marks for every\ncorrect answer and 1 mark is deducted for every wrong or unattempted answer. If he scored\n880 marks, how many questions did he answer correctly?\n\nup Wile 200 agtmcthy Ux S| US USGI UR 5 sis GU Meta STAN VHT 1 Sie rel MTA S|\nafe snares 880 sia urea fou, Aaa feos Wa Set fee?",
+    "question": "There are 200 multiple choice questions in a test. A candidate gets 5 marks for every correct answer and 1 mark is deducted for every wrong or unattempted answer. If he scored 880 marks, how many questions did he answer correctly?",
     "options": [
       "160",
       "170",
@@ -1661,7 +1661,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Average Shift & Student Count",
     "sub_topic": "Type 4: Advanced Exam Challengers (Averages, Exam Scores, Coins)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "Several students took an exam. There was an error in the answer key which affected the\nmarks of 30 students and their average marks reduced from 65 to 50. The average of the\nremaining students increased by 5 marks. This resulted in a reduction of the overall average\nby 2.5 marks. Find the total number of students.\n\nWe Wea SR Hull Ht Ae & GRU 30 SA & si Wunlaa BU sik FAH saa 65 B Tew 50 BAI\nYS OAT HT ANAS Se TS MAM! SAH HAIS Pe HAT 2.5 se HH VTA HAGA Ht POT ga\n\nwife",
+    "question": "Several students took an exam. There was an error in the answer key which affected the marks of 30 students and their average marks reduced from 65 to 50. The average of the remaining students increased by 5 marks. This resulted in a reduction of the overall average by 2.5 marks. Find the total number of students.",
     "options": [
       "70",
       "80",
@@ -1678,7 +1678,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Weighted Deviation in Class Scores",
     "sub_topic": "Type 4: Advanced Exam Challengers (Averages, Exam Scores, Coins)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A class consists of 30 boys and 20 girls. In the mid-semester examination, the average\nscore of the girls was 10 higher than that of the boys. In the final exam, the average score of the\ngirls dropped by 5 while the average score of the entire class increased by 2.5. Find the\nincrease in the average score of the boys.\n\nUb Hah 30 ash sk 20 csfar e | Hearahy Wer a asta wr sikra asaTS 10 aif em! sifas\nWierd asfeal a1 sik 5 Ha Sl ra orale Wl Han HT sik 2.5 Ty TAM sel & sikra F ofS get\npret |",
+    "question": "A class consists of 30 boys and 20 girls. In the mid-semester examination, the average score of the girls was 10 higher than that of the boys. In the final exam, the average score of the girls dropped by 5 while the average score of the entire class increased by 2.5. Find the increase in the average score of the boys.",
     "options": [
       "6.5",
       "7",
@@ -1695,7 +1695,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Three-Group Demographic Alligation",
     "sub_topic": "Type 4: Advanced Exam Challengers (Averages, Exam Scores, Coins)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "Ina club, the average age of men is 45 years, women is 40 years and children is 10 years.\nAverage age of men and women together is 42 years, while average age of women and\nchildren together is 25 years. What is the average age of men and children together?\n\nWh ag A YOO a Shed sy 45 ay, Hise Ht 40 aS cen TaN HT 10 TFS FSS sik alec wt\nUgad sie sq 42 a8 aur afecratt ak Teal a Aad shea sy 25 aT S| YS sik Tall wt gaa sik\nSQ aA HHSC |",
+    "question": "In a club, the average age of men is 45 years, women is 40 years and children is 10 years. Average age of men and women together is 42 years, while average age of women and children together is 25 years. What is the average age of men and children together?",
     "options": [
       "18 years",
       "22 years",
@@ -1712,7 +1712,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Three-Class Weighted Average",
     "sub_topic": "Type 4: Advanced Exam Challengers (Averages, Exam Scores, Coins)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "Three classes X, Y and Z take a test. Their average scores are 83, 76 and 85 respectively.\nThe average score of students in X and Y together is 79 and that of Y and Z together is 81. Find\nthe average score of all three classes together.\n\ndm want, yauz Wan edhe1 sare sia sip HA: 83, 76 TUS eX si Y HT Saga sie 79\nSTUY SiR Z ST AAaT ST 81 S| AAT Hans ar aa shea aa PASAT |",
+    "question": "Three classes X, Y and Z take a test. Their average scores are 83, 76 and 85 respectively. The average score of students in X and Y together is 79 and that of Y and Z together is 81. Find the average score of all three classes together.",
     "options": [
       "80.2",
       "81.5",
@@ -1729,7 +1729,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Three-Category Book Sales",
     "sub_topic": "Type 4: Advanced Exam Challengers (Averages, Exam Scores, Coins)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A man sells 270 books of three types at the same cost price. He earns profits of 15%, 12%\nand 18% on the three types respectively. The average profit on first two types together is 13%\nand the overall profit is 144%. Find the number of books of each type.\nUap Cafes PA HA ST ATH GA THR HH 270 Yee SAAT S| AA UR HA: 15%, 12% TAT 18% TH\nPHA S| TSA al WHR UR SAA AY 134% AM PATH 144% S| Veh VOR Sl Get GI PST gl\n\npret |",
+    "question": "A man sells 270 books of three types at the same cost price. He earns profits of 15%, 12% and 18% on the three types respectively. The average profit on first two types together is 13.5% and the overall profit is 14%. Find the number of books of each type.",
     "options": [
       "120,120,30",
       "100,100,70",
@@ -1746,7 +1746,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Two-Equation Profit Balance",
     "sub_topic": "Type 4: Advanced Exam Challengers (Averages, Exam Scores, Coins)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "Ifa man sells a bicycle at 15% profit and a clock at 40% profit, he earns =1700 profit. If he\nsells the bicycle at 34% profit and the clock at 10% loss, there is no profit and no loss. Find the\ncost prices of the bicycle and clock.\n\nofe pls cafde Big a Hl 15% AU AM TAHT 40% MUU FAAS, ASS T1700 STAY Stare | Ala\nUsha 34% TY GUT TS 10% SIT OR Se HY, HA TY A SIA Sl S| Aighos SR US STHA HT a\n\npret |",
+    "question": "If a man sells a bicycle at 15% profit and a clock at 40% profit, he earns ₹1,700 profit. If he sells the bicycle at 3⅓% profit and the clock at 10% loss, there is no profit and no loss. Find the cost prices of the bicycle and clock.",
     "options": [
       "5000,2500",
       "6000,2000",
@@ -1763,7 +1763,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Couples Event Alcohol Preference",
     "sub_topic": "Type 4: Advanced Exam Challengers (Averages, Exam Scores, Coins)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "Ina party only couples are invited. 3/5 of males are interested in alcoholic drinks. If\noverall 52% people in the party are interested in alcoholic drinks, find the ratio of non-\nalcoholic females to alcoholic females.\n\nwe Uefa hae caafrat wl sree fora Tare | GEST S 3/5 Irs TG HWA S| Ale Ha 52% ANT Ag\nTrig HW &, TAIT Alara she Aare AAS eTsHl HT STATA aT HUST |",
+    "question": "In a party only couples are invited. 3/5 of males are interested in alcoholic drinks. If overall 52% people in the party are interested in alcoholic drinks, find the ratio of non-alcoholic females to alcoholic females.",
     "options": [
       "12:7",
       "14:11",
@@ -1780,7 +1780,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Free Water Dilution Zero Profit",
     "sub_topic": "Type 4: Advanced Exam Challengers (Averages, Exam Scores, Coins)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A milkman sells milk by adding some water in it at 760/litre so that there is no profit and\nno loss. If he had 56 litres of mixture with him, find the quantity of water in it. (Pure milk costs\n%70/litre)\n\nUm guaran gut Ort free t60/eex WR SaaS Mle FAY BIA SIA | Ula TAS THT 56 cher fas 8,\na SeA OM ot arr ara HST (Ye ZU HT AKT z70/chez zs)",
+    "question": "A milkman sells milk by adding some water in it at ₹60/litre so that there is no profit and no loss. If he had 56 litres of mixture with him, find the quantity of water in it. (Pure milk costs ₹70/litre)",
     "options": [
       "7L",
       "8L",
@@ -1797,7 +1797,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Office Demographic Age Alligation",
     "sub_topic": "Type 4: Advanced Exam Challengers (Averages, Exam Scores, Coins)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "In an office with 400 employees, the average age of male employees is 32 years and that\nof female employees is 28 years. If the average age of all employees is 30 years 6 months, find\nthe number of male employees.\n\n400 taal ad we wratea F yeu prahkal HF stead sig 32 at aur asa HtaRat wt 28 ay 8\nofa aah prea a1 siktd sy 30 a 6 Ae 8, AUST SARA ot SST at HUST |",
+    "question": "In an office with 400 employees, the average age of male employees is 32 years and that of female employees is 28 years. If the average age of all employees is 30 years 6 months, find the number of male employees.",
     "options": [
       "150",
       "200",
@@ -1814,7 +1814,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Remaining Shirts Profit Requirement",
     "sub_topic": "Type 4: Advanced Exam Challengers (Averages, Exam Scores, Coins)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A dealer bought 80 shirts for 800 each. He sold 60 of them at a loss of 5%. At what\npercent profit should he sell the remaining shirts so that he gains 10% on the entire\ntransaction?\n\nWh OTT 80 BE T800 Ula AE HT aX S BAAN FAA 60 AE S% SIA TR Bz CH DR Be WR 10% TAY\nUtd Hes & FAW AY Vel Ht feos Waa CH WR SIA SET?",
+    "question": "A dealer bought 80 shirts for ₹800 each. He sold 60 of them at a loss of 5%. At what percent profit should he sell the remaining shirts so that he gains 10% on the entire transaction?",
     "options": [
       "48%",
       "55%",
@@ -1831,7 +1831,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Two-Stage Speed & Distance Alligation",
     "sub_topic": "Type 4: Advanced Exam Challengers (Averages, Exam Scores, Coins)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A person travels 380 km in 10 hours in two stages. In the first stage he travels by car at 30\nkm/h and in the second stage by bike at 50 km/h. How much distance does he travel by bike?\n\nUp afd 10 He F 380 fort ol ara al ao A PRAT eS | Ved TROT A aes HRS 30 frat ier cen GAR AO\nHage S50 fear aan es Tew 8 aa STS Qt ara HHT",
+    "question": "A person travels 380 km in 10 hours in two stages. In the first stage he travels by car at 30 km/h and in the second stage by bike at 50 km/h. How much distance does he travel by bike?",
     "options": [
       "180 km",
       "200 km",
@@ -1848,7 +1848,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Weighted Time Average Speed",
     "sub_topic": "Type 4: Advanced Exam Challengers (Averages, Exam Scores, Coins)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A bike travels at 40 km/h for 20 minutes and at y km/h for 10 minutes. If the average\nspeed for the entire journey is 30 km/h, find y.\n\nWe ase 20 frre aw 40 feet ae i0 frre am y fochhyder at aa S sect S| fe TA ara a sik\nmie 30 ferfeiere, cy sat SIT",
+    "question": "A bike travels at 40 km/h for 20 minutes and at y km/h for 10 minutes. If the average speed for the entire journey is 30 km/h, find y.",
     "options": [
       "10 km/h",
       "15 km/h",
@@ -1865,7 +1865,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Buoyancy & Weight Loss Alligation",
     "sub_topic": "Type 4: Advanced Exam Challengers (Averages, Exam Scores, Coins)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A jeweller was commissioned to make an alloy with 8 kg Platinum and 4 kg Titanium. He\ndishonestly replaced some Platinum with Titanium. Platinum and Titanium lose 5% and 1% of\ntheir weights respectively under water. When weighed under water, the alloy shows 11.61 kg.\nFind the quantity of Platinum stolen.\n\nve viet als fen aera afk 4 fem cgehras 3 faseng sari ht ser pe wets Pare saat\nWire crscPaa fren fear OTA der ue eA 5% Ten CISC 1% UR Ga € | Aseng STATA uR\n11.61 fers | BRT era wt Arar ae HST |",
+    "question": "A jeweller was commissioned to make an alloy with 8 kg Platinum and 4 kg Titanium. He dishonestly replaced some Platinum with Titanium. Platinum and Titanium lose 5% and 1% of their weights respectively under water. When weighed under water, the alloy shows 11.61 kg. Find the quantity of Platinum stolen.",
     "options": [
       "1.25 kg",
       "1.5 kg",
@@ -1882,7 +1882,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Two-Alloy System & Silver Balance",
     "sub_topic": "Type 4: Advanced Exam Challengers (Averages, Exam Scores, Coins)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "Two alloys composed of gold and silver together weigh 24 kg. One alloy contains 70%\ngold and 28 g silver. Another contains 80% gold and 32 silver. Total silver in both alloys\ntogether is 720 g. If both alloys are melted and mixed, what percentage of gold will the new\nalloy contain?\n\nST Si aida FH al sergel wr pet UR 24 fom S| Tech A 70% PTT 28 g/kg Tals, GIA\n\n80% HAT TM 32 g/kg Fidl S| AN A Ha Aidt 720 g 1 VA Ht rawr oR as seg BS Hr faa aa\noie",
+    "question": "Two alloys composed of gold and silver together weigh 24 kg. One alloy contains 70% gold and 28 g/kg silver. Another contains 80% gold and 32 g/kg silver. Total silver in both alloys together is 720 g. If both alloys are melted and mixed, what percentage of gold will the new alloy contain?",
     "options": [
       "72%",
       "75%",
@@ -1899,7 +1899,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Ternary Alloy Composition & Iron:Carbon Ratio",
     "sub_topic": "Type 4: Advanced Exam Challengers (Averages, Exam Scores, Coins)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "Steel is an alloy of iron and carbon. Ferrite is an alloy containing 78% iron, 6% carbon and\n16% chromium. A fused mass of both alloys is made to contain 72% iron, 18% carbon and 10%\nchromium. Find the ratio of steel to ferrite.\n\nMace sik ors at Pyeng s | hase F 78% THT, 6% PISA Tear 16% SUA S| SA wr Frees Ot\nfrre SATs cht S FERTA 72% AST, 18% HIST TU 10% HUTT Vil KAS SR USE HT SITUA TAT\n\nwife",
+    "question": "Steel is an alloy of iron and carbon. Ferrite is an alloy containing 78% iron, 6% carbon and 16% chromium. A fused mass of both alloys is made to contain 72% iron, 18% carbon and 10% chromium. Find the ratio of iron to carbon in steel (and the ratio of steel to ferrite).",
     "options": [
       "28:17",
       "31:19",
@@ -1916,7 +1916,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Three-Component Alloy Alligation",
     "sub_topic": "Type 4: Advanced Exam Challengers (Averages, Exam Scores, Coins)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "In alloy A, there is 65% Aluminium and 35% Magnesium. In alloy B, there is 70%\nAluminium, 10% Magnesium and the remaining impurities. Both alloys are mixed such that\nMagnesium in the new mixture becomes 20%. Find the percentage of impurities in the new\nmixture.\n\nfPerng AF 65% Tegan ak 35% Tiras 21 faseng BH 70% Waa, 10% AAR ae ge\nSBA S | SA SSS THR fran aren s fe aw Aso F 20% Pra St aT era sreysal wr\nfear ae PHSTT |",
+    "question": "In alloy A, there is 65% Aluminium and 35% Magnesium. In alloy B, there is 70% Aluminium, 10% Magnesium and the remaining impurities. Both alloys are mixed such that Magnesium in the new mixture becomes 20%. Find the percentage of impurities in the new mixture.",
     "options": [
       "8%",
       "10%",
@@ -1933,7 +1933,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Trace Metal Alligation",
     "sub_topic": "Type 4: Advanced Exam Challengers (Averages, Exam Scores, Coins)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "Alloy A contains 92% gold and 8% silver. Alloy B contains 78% gold, 6% silver and\nremaining impurities. Alloy C is formed by mixing A and B and contains 7.5% silver. Find the\npercentage of gold in alloy C.\n\nPrag A H 92% UAT SR 8% Aidt S| Frag BH 78% ST, 6% Tal aM MY SYA | | SAN Hr\nrove fseng c arg ord 8 fra 7.5% Tidt’s 1 CAG Hr ulead ae Hier!",
+    "question": "Alloy A contains 92% gold and 8% silver. Alloy B contains 78% gold, 6% silver and remaining impurities. Alloy C is formed by mixing A and B and contains 7.5% silver. Find the percentage of gold in alloy C.",
     "options": [
       "86%",
       "88.5%",
@@ -1950,7 +1950,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Gold Biscuit Mixing Alligation",
     "sub_topic": "Type 4: Advanced Exam Challengers (Averages, Exam Scores, Coins)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "A gold biscuit weighing 15 kg contains 88% gold and the rest copper. It is mixed with\nanother gold biscuit. The resulting alloy weighs 35 kg and contains 92% gold. Find the\npercentage of gold in the second biscuit.\n\n15 furs up aul faepe F 88% PAT AAAS aay S| SS GaN wal faaHe & are rar stars | UR\nPserg ST UR 35 fom aa TAA 92% BTV! TR faHe F GA HT Ulaara aa SST |",
+    "question": "A gold biscuit weighing 15 kg contains 88% gold and the rest copper. It is mixed with another gold biscuit. The resulting alloy weighs 35 kg and contains 92% gold. Find the percentage of gold in the second biscuit.",
     "options": [
       "88%",
       "92%",
@@ -1967,7 +1967,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Interchanged Coin Count Alligation",
     "sub_topic": "Type 4: Advanced Exam Challengers (Averages, Exam Scores, Coins)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "There are two types of coins in a box: 10p and 25p. The total money in the boxis 7.50 and\nthe total number of coins is 48. If the number of coins is interchanged, find the new total\nmoney.\n\nUe fad F 10 0S sik 25 1 & ad S| PAU 27.50 culpa awl Hl ST 4881 ae MTOR}\nRaploreen seg A aaa at oy, Has Pa wey sar |Nrh?",
+    "question": "There are two types of coins in a box: 10p and 25p. The total money in the box is ₹7.50 and the total number of coins is 48. If the number of coins is interchanged, find the new total money.",
     "options": [
       "&7.8",
       "₹9.3",
@@ -1984,7 +1984,7 @@ window.MIXTURE_ALLIGATION_QUESTIONS = [
     "type": "Demographic Car Ownership Alligation",
     "sub_topic": "Type 4: Advanced Exam Challengers (Averages, Exam Scores, Coins)",
     "exam": "SSC CGL / CHSL / CPO PYQ (Maths Maestro)",
-    "question": "In a society there are men, women and children. The ratio of children to men is 12:54. 70%\nof women and 30% of children have a car. Overall, 54% of women and children together have a\ncar. If 75% of the people in the society have a car, find the ratio of men not having a car tomen\nhaving a car.\n\nUh PATA SG, ASG a Tal Sl Tat SH YOM HT SUT 12:54 81 70% AlSesil Ul 30% TaN\nUM PRU Fecal she Tal A Ha 54% TN US HR Sl Ae WR SAAT H 75% AT I He, a\nPRA TA GST SR OR WA Ta SST HT Segara ad SHAT",
+    "question": "In a society there are men, women and children. The ratio of children to men is 12:54. 70% of women and 30% of children have a car. Overall, 54% of women and children together have a car. If 75% of the people in the society have a car, find the ratio of men not having a car to men having a car.",
     "options": [
       "5:7",
       "2:13",
