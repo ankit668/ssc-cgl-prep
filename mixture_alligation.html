@@ -1062,7 +1062,7 @@
     </div>
 
     <!-- Scripts -->
-    <script src="mixture_alligation_data.js?v=38"></script>
+    <script src="mixture_alligation_data.js?v=39"></script>
     <script>
         (function() {
             "use strict";
@@ -1103,6 +1103,24 @@
                 renderQuestions();
                 updateStats();
                 setupEvents();
+
+                // Auto-upgrade if browser served a stale cache with fewer than 222 questions
+                if (rawQuestions.length < 222) {
+                    console.log("Stale dataset detected (" + rawQuestions.length + " Qs). Auto-upgrading to 222 PYQs...");
+                    fetch('mixture_alligation_data.json?t=' + Date.now(), { cache: 'no-store' })
+                        .then(r => r.json())
+                        .then(d => {
+                            if (d && d.questions && d.questions.length >= 222) {
+                                window.MIXTURE_ALLIGATION_QUESTIONS = d.questions;
+                                while(rawQuestions.length > 0) rawQuestions.pop();
+                                d.questions.forEach(q => rawQuestions.push(q));
+                                renderQuestions();
+                                updateStats();
+                                console.log("Upgraded live dataset to " + rawQuestions.length + " questions!");
+                            }
+                        })
+                        .catch(e => console.warn("Live fetch fallback:", e));
+                }
             }
 
             function setupEvents() {

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ssc-prep-tier2-v38';
+const CACHE_NAME = 'ssc-prep-tier2-v39';
 const urlsToCache = [
   './',
   './manifest.json',
@@ -128,29 +128,39 @@ self.addEventListener('install', event => {
 });
 
 self.addEventListener('fetch', event => {
+  const url = event.request.url;
+  // Network-First for HTML and dynamic JS/JSON data files so fresh updates appear immediately
+  const isDynamic = url.endsWith('.html') || url.includes('_data.') || url.endsWith('.json') || url.endsWith('.js');
+
+  if (isDynamic) {
+    event.respondWith(
+      fetch(event.request)
+        .then(response => {
+          if (response && response.status === 200) {
+            const clone = response.clone();
+            caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
+          }
+          return response;
+        })
+        .catch(() => caches.match(event.request))
+    );
+    return;
+  }
+
+  // Cache-First with Network fallback for static images, audio and font assets
   event.respondWith(
     caches.match(event.request, {ignoreSearch: false})
       .then(response => {
         if (response) {
-          return response; // Return from cache
+          return response;
         }
-        // Not in cache, try network
-        return fetch(event.request).then(
-          function(response) {
-            // Check if valid response
-            if(!response || response.status !== 200 || response.type !== 'basic') {
-              return response;
-            }
-            // Clone and cache the new response
-            var responseToCache = response.clone();
-            caches.open(CACHE_NAME)
-              .then(function(cache) {
-                cache.put(event.request, responseToCache);
-              });
+        return fetch(event.request).then(response => {
+          if (!response || response.status !== 200 || response.type !== 'basic') {
             return response;
           }
-        ).catch(() => {
-          console.log('Offline and resource not in cache:', event.request.url);
+          const responseToCache = response.clone();
+          caches.open(CACHE_NAME).then(cache => cache.put(event.request, responseToCache));
+          return response;
         });
       })
   );
