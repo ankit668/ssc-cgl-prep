@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>🔥 Mixture & Alligation Masterclass • 115 Solved PYQs (Maths Maestro)</title>
+    <title>🔥 Mixture & Alligation Masterclass • 222 Solved PYQs (Maths Maestro & Vidyagram)</title>
     <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/png" href="icon-192.png">
     <link rel="apple-touch-icon" href="icon-192.png">
@@ -934,9 +934,9 @@
                 <div class="header-title-box">
                     <h1>
                         🔥 Mixture & Alligation
-                        <span class="badge-masterclass">115 Solved PYQs</span>
+                        <span class="badge-masterclass">222 Solved PYQs</span>
                     </h1>
-                    <div class="header-subtitle">Instructor: Vishesh Shukla (Maths Maestro) • SSC CGL Tier 1/2</div>
+                    <div class="header-subtitle">Instructors: Vishesh Shukla (Maths Maestro) & Aditya Ranjan Sir (Vidyagram) • SSC CGL & RRB NTPC</div>
                 </div>
             </div>
             <div class="header-actions">
@@ -968,7 +968,7 @@
 
             <div class="hero-stats">
                 <div class="stat-item">
-                    <div class="stat-val" id="stat-total">115</div>
+                    <div class="stat-val" id="stat-total">222</div>
                     <div class="stat-label">Total PYQs</div>
                 </div>
                 <div class="stat-item">
@@ -1006,11 +1006,11 @@
                 <input type="text" id="search-input" placeholder="Search 115 questions by keyword, number (e.g. 110), metal, alcohol, profit..." autocomplete="off">
             </div>
             <div class="filter-tabs" id="filter-tabs">
-                <button class="tab-btn active" data-filter="all">All PYQs (115)</button>
-                <button class="tab-btn" data-filter="type1">Type 1: Alloys & Metals (1-25)</button>
-                <button class="tab-btn" data-filter="type2">Type 2: Replacement & Dilution (26-60)</button>
-                <button class="tab-btn" data-filter="type3">Type 3: Rule of Alligation (61-90)</button>
-                <button class="tab-btn" data-filter="type4">Type 4: Exam Challengers (91-115)</button>
+                <button class="tab-btn active" data-filter="all">All PYQs (222)</button>
+                <button class="tab-btn" data-filter="maestro">Maths Maestro (1-115)</button>
+                <button class="tab-btn" data-filter="vidyagram">Vidyagram (116-222)</button>
+                <button class="tab-btn" data-filter="replacement">Replacement & Dilution</button>
+                <button class="tab-btn" data-filter="alligation">Rule of Alligation</button>
                 <button class="tab-btn" data-filter="bookmarked">⭐ Bookmarked</button>
             </div>
         </div>
@@ -1028,7 +1028,7 @@
             <div class="bottom-stats-mini">
                 <div class="bottom-stat-pair">
                     <span class="b-label">Progress</span>
-                    <span class="b-val" id="bottom-score-val">0 / 115</span>
+                    <span class="b-val" id="bottom-score-val">0 / 222</span>
                 </div>
                 <div class="bottom-stat-pair">
                     <span class="b-label">Accuracy</span>
@@ -1037,7 +1037,7 @@
             </div>
             <div class="bottom-actions">
                 <button class="btn-jump-grid" id="btn-open-grid">
-                    <span>🔢</span> Jump Grid (115)
+                    <span>🔢</span> Jump Grid (222)
                 </button>
                 <button class="btn-reset-progress" id="btn-reset" title="Reset all attempts">
                     ↺ Reset
@@ -1046,23 +1046,23 @@
         </div>
     </div>
 
-    <!-- Modal for 115 Questions Jump Grid -->
+    <!-- Modal for 222 Questions Jump Grid -->
     <div class="modal-overlay" id="jump-modal">
         <div class="modal-container">
             <div class="modal-header">
                 <div class="modal-title">
-                    <span>🔢</span> Question Navigator (1 to 115)
+                    <span>🔢</span> Question Navigator (1 to 222)
                 </div>
                 <button class="modal-close-btn" id="modal-close">&times;</button>
             </div>
             <div class="modal-grid" id="modal-grid">
-                <!-- 115 buttons dynamically rendered -->
+                <!-- 222 buttons dynamically rendered -->
             </div>
         </div>
     </div>
 
     <!-- Scripts -->
-    <script src="mixture_alligation_data.js?v=37"></script>
+    <script src="mixture_alligation_data.js?v=38"></script>
     <script>
         (function() {
             "use strict";
@@ -1150,7 +1150,7 @@
 
                 // Reset progress
                 btnReset.addEventListener("click", () => {
-                    if (confirm("Are you sure you want to reset your practice attempts for all 115 questions? Bookmarks will be preserved.")) {
+                    if (confirm("Are you sure you want to reset your practice attempts for all 222 questions? Bookmarks will be preserved.")) {
                         userAttempts = {};
                         localStorage.removeItem(STORAGE_ATTEMPTS);
                         updateStats();
@@ -1175,10 +1175,10 @@
             function getFilteredQuestions() {
                 return rawQuestions.filter(q => {
                     // Filter tab
-                    if (currentFilter === "type1" && !(q.number >= 1 && q.number <= 25)) return false;
-                    if (currentFilter === "type2" && !(q.number >= 26 && q.number <= 60)) return false;
-                    if (currentFilter === "type3" && !(q.number >= 61 && q.number <= 90)) return false;
-                    if (currentFilter === "type4" && !(q.number >= 91 && q.number <= 115)) return false;
+                    if (currentFilter === "maestro" && !(q.number >= 1 && q.number <= 115)) return false;
+                    if (currentFilter === "vidyagram" && !(q.number >= 116 && q.number <= 222)) return false;
+                    if (currentFilter === "replacement" && !q.type.toLowerCase().includes("replacement") && !q.type.toLowerCase().includes("dilution")) return false;
+                    if (currentFilter === "alligation" && !q.type.toLowerCase().includes("alligation")) return false;
                     if (currentFilter === "bookmarked" && !userBookmarks[q.id]) return false;
 
                     // Search query
