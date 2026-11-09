@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>SSC CGL 2026 Tier 1 • English Comprehension Master Hub (1,325 MCQs)</title>
+    <title>SSC CGL 2026 Tier 1 • English Comprehension Master Hub (53 Sets of 25 Qs)</title>
     <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/png" href="icon-192.png">
     <link rel="apple-touch-icon" href="icon-192.png">
@@ -118,7 +118,182 @@
             padding: 16px;
         }
 
-        /* Stats bar */
+        /* Mode Selector Tabs */
+        .mode-nav {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 14px;
+            background: var(--container-bg);
+            padding: 6px;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+            overflow-x: auto;
+        }
+
+        .mode-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 0.88rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            white-space: nowrap;
+            flex: 1;
+            justify-content: center;
+        }
+
+        .mode-btn:hover {
+            color: var(--text-color);
+        }
+
+        .mode-btn.active {
+            background: var(--card-bg);
+            color: var(--accent-blue);
+            border: 1px solid rgba(56, 189, 248, 0.3);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Set Control Banner */
+        .set-control-card {
+            background: linear-gradient(135deg, rgba(2, 132, 199, 0.15), rgba(22, 32, 50, 0.95));
+            border: 1px solid rgba(56, 189, 248, 0.3);
+            border-radius: 14px;
+            padding: 16px;
+            margin-bottom: 16px;
+        }
+
+        .set-header-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-bottom: 12px;
+        }
+
+        .set-title-box h2 {
+            font-size: 1.2rem;
+            font-weight: 800;
+            color: #BAE6FD;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .set-title-box p {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            margin-top: 2px;
+        }
+
+        .set-nav-btns {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .set-btn {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 7px 14px;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .set-btn:hover:not(:disabled) {
+            border-color: var(--accent-blue);
+            color: var(--accent-blue);
+        }
+
+        .set-btn:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+
+        .set-select {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 7px 12px;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            outline: none;
+            cursor: pointer;
+        }
+
+        .set-select:focus {
+            border-color: var(--accent-blue);
+        }
+
+        /* 53 Sets Drawer Grid */
+        .sets-drawer {
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid rgba(51, 65, 85, 0.6);
+            display: none;
+        }
+
+        .sets-drawer.open {
+            display: block;
+            animation: fadeIn 0.2s ease-in;
+        }
+
+        .sets-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(105px, 1fr));
+            gap: 6px;
+            max-height: 240px;
+            overflow-y: auto;
+            padding-right: 4px;
+        }
+
+        .set-pill {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-muted);
+            padding: 6px 8px;
+            border-radius: 8px;
+            font-size: 0.78rem;
+            cursor: pointer;
+            text-align: center;
+            transition: all 0.2s;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .set-pill:hover {
+            border-color: var(--accent-blue);
+            color: var(--text-color);
+        }
+
+        .set-pill.active {
+            background: rgba(56, 189, 248, 0.2);
+            border-color: var(--accent-blue);
+            color: #BAE6FD;
+            font-weight: 700;
+        }
+
+        .set-pill-stat {
+            font-size: 0.68rem;
+            opacity: 0.8;
+        }
+
+        /* Stats Bar */
         .stats-bar {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
@@ -155,7 +330,7 @@
             margin-top: 2px;
         }
 
-        /* Search and controls */
+        /* Search & Filter Card */
         .controls-card {
             background: var(--container-bg);
             border: 1px solid var(--border-color);
@@ -250,65 +425,6 @@
             padding: 1px 6px;
             border-radius: 10px;
             font-size: 0.7rem;
-        }
-
-        /* Pagination bar */
-        .pagination-bar {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 10px;
-            margin: 16px 0;
-            background: var(--container-bg);
-            border: 1px solid var(--border-color);
-            border-radius: 12px;
-            padding: 10px 14px;
-            flex-wrap: wrap;
-        }
-
-        .page-btn {
-            background: var(--card-bg);
-            border: 1px solid var(--border-color);
-            color: var(--text-color);
-            padding: 6px 14px;
-            border-radius: 8px;
-            cursor: pointer;
-            font-size: 0.85rem;
-            font-weight: 600;
-            transition: all 0.2s;
-        }
-
-        .page-btn:hover:not(:disabled) {
-            border-color: var(--accent-blue);
-            color: var(--accent-blue);
-        }
-
-        .page-btn:disabled {
-            opacity: 0.4;
-            cursor: not-allowed;
-        }
-
-        .page-info {
-            font-size: 0.85rem;
-            color: var(--text-muted);
-        }
-
-        .page-select-box {
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            font-size: 0.85rem;
-            color: var(--text-muted);
-        }
-
-        .page-select {
-            background: var(--card-bg);
-            border: 1px solid var(--border-color);
-            color: var(--text-color);
-            padding: 5px 8px;
-            border-radius: 6px;
-            outline: none;
-            font-size: 0.82rem;
         }
 
         /* Question Cards */
@@ -503,6 +619,37 @@
             gap: 6px;
         }
 
+        /* Set Summary Footer */
+        .set-footer-card {
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 14px;
+            padding: 18px;
+            margin-top: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 14px;
+        }
+
+        .set-score-info {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .set-score-stat {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .set-score-stat strong {
+            color: var(--text-color);
+            font-size: 1rem;
+        }
+
         .empty-state {
             text-align: center;
             padding: 40px 20px;
@@ -530,20 +677,74 @@
                 <div class="header-title-box">
                     <h1>
                         <span>SSC CGL 2026 English Master Hub</span>
-                        <span class="hub-badge">1,325 MCQs</span>
+                        <span class="hub-badge">53 Sets • 1,325 MCQs</span>
                     </h1>
-                    <p>All 53 Shifts Chapter-Wise • Clean English Explanations • PWA Offline Ready</p>
+                    <p>All 53 Shifts Segregated in 25-Question Batches • Clean English Explanations • Offline Ready</p>
                 </div>
             </div>
         </div>
     </header>
 
     <div class="container">
-        <!-- Stats Bar -->
+        <!-- View Mode Navigation -->
+        <div class="mode-nav">
+            <button class="mode-btn active" id="modeBtnSets">🎯 Practice Sets (25 Qs each)</button>
+            <button class="mode-btn" id="modeBtnChapters">📂 By Chapter / Topic</button>
+            <button class="mode-btn" id="modeBtnBookmarks">⭐ Bookmarked (<span id="modeBookmarkCount">0</span>)</button>
+        </div>
+
+        <!-- Set Control Banner (Visible in Sets Mode) -->
+        <div class="set-control-card" id="setControlCard">
+            <div class="set-header-row">
+                <div class="set-title-box">
+                    <h2 id="currentSetTitle">🎯 Practice Set 01 (Q.1 – Q.25)</h2>
+                    <p id="currentSetSubtitle">SSC CGL 2026 Shift Simulation • 25 Authentic Questions</p>
+                </div>
+                <div class="set-nav-btns">
+                    <button class="set-btn" id="topPrevSetBtn">◀ Prev Set</button>
+                    <select class="set-select" id="setDropdown">
+                        <!-- 53 Options -->
+                    </select>
+                    <button class="set-btn" id="topNextSetBtn">Next Set ▶</button>
+                    <button class="set-btn" id="toggleGridBtn" style="border-color:var(--accent-blue); color:#BAE6FD;">📑 All 53 Sets Grid</button>
+                </div>
+            </div>
+
+            <!-- Expandable 53 Sets Drawer -->
+            <div class="sets-drawer" id="setsDrawer">
+                <div style="font-size:0.75rem; color:var(--text-muted); margin-bottom:8px; font-weight:700; text-transform:uppercase;">
+                    Select any set to practice (25 questions each):
+                </div>
+                <div class="sets-grid" id="setsGrid">
+                    <!-- 53 pills generated dynamically -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Chapter Filters (Visible in Chapter Mode) -->
+        <div class="controls-card" id="chapterFilterCard" style="display:none;">
+            <div class="filter-section-title">
+                <span>Filter by Chapter / Section</span>
+                <span id="chapterFilterCount" style="color:var(--accent-blue); font-size:0.75rem;">15 Chapters</span>
+            </div>
+            <div class="filter-pills" id="chapterPills">
+                <!-- Dynamically generated -->
+            </div>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="controls-card" style="padding:10px 14px; margin-bottom:14px;">
+            <div class="search-box" style="margin:0;">
+                <span class="search-icon">🔍</span>
+                <input type="text" class="search-input" id="searchInput" placeholder="Search words, idioms, rules, sentence improvement, cloze blanks...">
+            </div>
+        </div>
+
+        <!-- Global / Set Stats Bar -->
         <div class="stats-bar">
             <div class="stat-item">
-                <span class="stat-val" id="statTotal">1,325</span>
-                <span class="stat-lbl">Total Questions</span>
+                <span class="stat-val" id="statBatchSize">25</span>
+                <span class="stat-lbl" id="statBatchLbl">In Current Set</span>
             </div>
             <div class="stat-item">
                 <span class="stat-val" id="statAttempted" style="color:var(--accent-amber);">0</span>
@@ -554,55 +755,27 @@
                 <span class="stat-lbl">Correct</span>
             </div>
             <div class="stat-item">
-                <span class="stat-val" id="statAccuracy" style="color:var(--accent-purple);">0%</span>
-                <span class="stat-lbl">Accuracy</span>
+                <span class="stat-val" id="statScore" style="color:var(--accent-purple);">0 / 50</span>
+                <span class="stat-lbl">Estimated Marks</span>
             </div>
         </div>
 
-        <!-- Controls Card -->
-        <div class="controls-card">
-            <!-- Search -->
-            <div class="search-box">
-                <span class="search-icon">🔍</span>
-                <input type="text" class="search-input" id="searchInput" placeholder="Search questions, words (e.g., esoteric, malediction), shifts, or rules...">
-            </div>
-
-            <!-- Chapter Filter Pills -->
-            <div class="filter-section-title">
-                <span>Select Chapter / Topic</span>
-                <span id="filterMatchingCount" style="color:var(--accent-blue); font-size:0.75rem;">Showing 1,325</span>
-            </div>
-            <div class="filter-pills" id="chapterPills">
-                <!-- Dynamically generated -->
-            </div>
-        </div>
-
-        <!-- Top Pagination -->
-        <div class="pagination-bar" id="topPagination">
-            <button class="page-btn" id="prevPageBtn">◀ Previous</button>
-            <div class="page-info" id="pageInfo">Page 1 of 53</div>
-            <div class="page-select-box">
-                <span>Per page:</span>
-                <select class="page-select" id="pageSizeSelect">
-                    <option value="25" selected>25</option>
-                    <option value="50">50</option>
-                    <option value="100">100</option>
-                    <option value="1325">All</option>
-                </select>
-                <button class="page-btn" id="nextPageBtn">Next ▶</button>
-            </div>
-        </div>
-
-        <!-- Questions List -->
+        <!-- Questions List Container (Only 25 Qs rendered at a time in Set mode!) -->
         <div class="questions-list" id="questionsList">
-            <!-- Rendered dynamically -->
+            <!-- Questions rendered here -->
         </div>
 
-        <!-- Bottom Pagination -->
-        <div class="pagination-bar" id="bottomPagination" style="margin-top:20px;">
-            <button class="page-btn" id="bottomPrevPageBtn">◀ Previous</button>
-            <div class="page-info" id="bottomPageInfo">Page 1 of 53</div>
-            <button class="page-btn" id="bottomNextPageBtn">Next ▶</button>
+        <!-- Set Footer Navigation -->
+        <div class="set-footer-card" id="setFooterCard">
+            <div class="set-score-info">
+                <span class="set-score-stat">Completed: <strong id="footerAttempted">0 / 25</strong></span>
+                <span class="set-score-stat">Correct: <strong id="footerCorrect" style="color:var(--accent-green);">0</strong></span>
+                <span class="set-score-stat">Accuracy: <strong id="footerAccuracy" style="color:var(--accent-blue);">0%</strong></span>
+            </div>
+            <div class="set-nav-btns">
+                <button class="set-btn" id="footerPrevSetBtn">◀ Prev Set</button>
+                <button class="set-btn" id="footerNextSetBtn" style="background:rgba(2, 132, 199, 0.2); border-color:var(--accent-blue); color:#BAE6FD; font-weight:700;">Proceed to Next Set ▶</button>
+            </div>
         </div>
     </div>
 
@@ -611,12 +784,11 @@
     <script>
         (function() {
             let allQuestions = [];
+            let activeMode = "SETS"; // "SETS", "CHAPTERS", "BOOKMARKS"
+            let currentSetNum = 1;
             let activeChapter = "ALL";
             let searchQuery = "";
-            let currentPage = 1;
-            let pageSize = 25;
 
-            // LocalStorage Keys
             const STORAGE_BOOKMARKS = "cgl26_eng_bookmarks";
             const STORAGE_ATTEMPTS = "cgl26_eng_attempts";
 
@@ -633,21 +805,38 @@
 
             // Elements
             const questionsList = document.getElementById("questionsList");
+            const modeBtnSets = document.getElementById("modeBtnSets");
+            const modeBtnChapters = document.getElementById("modeBtnChapters");
+            const modeBtnBookmarks = document.getElementById("modeBtnBookmarks");
+            const modeBookmarkCount = document.getElementById("modeBookmarkCount");
+
+            const setControlCard = document.getElementById("setControlCard");
+            const currentSetTitle = document.getElementById("currentSetTitle");
+            const currentSetSubtitle = document.getElementById("currentSetSubtitle");
+            const setDropdown = document.getElementById("setDropdown");
+            const toggleGridBtn = document.getElementById("toggleGridBtn");
+            const setsDrawer = document.getElementById("setsDrawer");
+            const setsGrid = document.getElementById("setsGrid");
+
+            const topPrevSetBtn = document.getElementById("topPrevSetBtn");
+            const topNextSetBtn = document.getElementById("topNextSetBtn");
+            const footerPrevSetBtn = document.getElementById("footerPrevSetBtn");
+            const footerNextSetBtn = document.getElementById("footerNextSetBtn");
+            const setFooterCard = document.getElementById("setFooterCard");
+
+            const chapterFilterCard = document.getElementById("chapterFilterCard");
             const chapterPills = document.getElementById("chapterPills");
             const searchInput = document.getElementById("searchInput");
-            const filterMatchingCount = document.getElementById("filterMatchingCount");
+
+            const statBatchSize = document.getElementById("statBatchSize");
+            const statBatchLbl = document.getElementById("statBatchLbl");
             const statAttempted = document.getElementById("statAttempted");
             const statCorrect = document.getElementById("statCorrect");
-            const statAccuracy = document.getElementById("statAccuracy");
-            const statTotal = document.getElementById("statTotal");
+            const statScore = document.getElementById("statScore");
 
-            const prevPageBtn = document.getElementById("prevPageBtn");
-            const nextPageBtn = document.getElementById("nextPageBtn");
-            const pageInfo = document.getElementById("pageInfo");
-            const bottomPrevPageBtn = document.getElementById("bottomPrevPageBtn");
-            const bottomNextPageBtn = document.getElementById("bottomNextPageBtn");
-            const bottomPageInfo = document.getElementById("bottomPageInfo");
-            const pageSizeSelect = document.getElementById("pageSizeSelect");
+            const footerAttempted = document.getElementById("footerAttempted");
+            const footerCorrect = document.getElementById("footerCorrect");
+            const footerAccuracy = document.getElementById("footerAccuracy");
 
             function initData() {
                 if (window.CGL26_ENGLISH_DATA && window.CGL26_ENGLISH_DATA.questions) {
@@ -667,47 +856,60 @@
             }
 
             function setupApp() {
-                renderChapterPills();
-                updateStats();
-                applyFilters();
-
-                // Events
-                searchInput.addEventListener("input", function(e) {
-                    searchQuery = e.target.value.toLowerCase().trim();
-                    currentPage = 1;
-                    applyFilters();
-                });
-
-                pageSizeSelect.addEventListener("change", function(e) {
-                    pageSize = parseInt(e.target.value);
-                    currentPage = 1;
-                    applyFilters();
-                });
-
-                prevPageBtn.addEventListener("click", () => changePage(-1));
-                nextPageBtn.addEventListener("click", () => changePage(1));
-                bottomPrevPageBtn.addEventListener("click", () => changePage(-1));
-                bottomNextPageBtn.addEventListener("click", () => changePage(1));
+                buildSetDropdown();
+                buildSetsGrid();
+                buildChapterPills();
+                updateBookmarkCount();
+                bindEvents();
+                renderCurrentView();
             }
 
-            function renderChapterPills() {
+            function buildSetDropdown() {
+                let optionsHtml = '';
+                for (let i = 1; i <= 53; i++) {
+                    const startQ = (i - 1) * 25 + 1;
+                    const endQ = Math.min(i * 25, 1325);
+                    optionsHtml += `<option value="${i}">Set ${i < 10 ? '0' + i : i} (Q.${startQ} – Q.${endQ})</option>`;
+                }
+                setDropdown.innerHTML = optionsHtml;
+            }
+
+            function buildSetsGrid() {
+                let gridHtml = '';
+                for (let i = 1; i <= 53; i++) {
+                    const startQ = (i - 1) * 25 + 1;
+                    const endQ = Math.min(i * 25, 1325);
+                    gridHtml += `
+                        <div class="set-pill ${i === currentSetNum ? 'active' : ''}" data-set="${i}">
+                            <strong>Set ${i < 10 ? '0' + i : i}</strong>
+                            <span class="set-pill-stat">Q.${startQ}–${endQ}</span>
+                        </div>
+                    `;
+                }
+                setsGrid.innerHTML = gridHtml;
+
+                setsGrid.querySelectorAll(".set-pill").forEach(pill => {
+                    pill.addEventListener("click", function() {
+                        const s = parseInt(this.getAttribute("data-set"));
+                        selectSet(s);
+                        setsDrawer.classList.remove("open");
+                    });
+                });
+            }
+
+            function buildChapterPills() {
                 const chapterCounts = {};
                 allQuestions.forEach(q => {
                     chapterCounts[q.chapter] = (chapterCounts[q.chapter] || 0) + 1;
                 });
 
-                const chapters = Object.keys(chapterCounts);
-                
                 let html = `
                     <div class="filter-pill ${activeChapter === 'ALL' ? 'active' : ''}" data-chapter="ALL">
-                        All <span class="filter-pill-count">${allQuestions.length}</span>
-                    </div>
-                    <div class="filter-pill ${activeChapter === 'BOOKMARKED' ? 'active' : ''}" data-chapter="BOOKMARKED">
-                        ⭐ Bookmarked <span class="filter-pill-count" id="pillBookmarkCount">${Object.keys(userBookmarks).length}</span>
+                        All Chapters <span class="filter-pill-count">${allQuestions.length}</span>
                     </div>
                 `;
 
-                chapters.forEach(ch => {
+                Object.keys(chapterCounts).forEach(ch => {
                     html += `
                         <div class="filter-pill ${activeChapter === ch ? 'active' : ''}" data-chapter="${ch}">
                             ${ch} <span class="filter-pill-count">${chapterCounts[ch]}</span>
@@ -717,78 +919,131 @@
 
                 chapterPills.innerHTML = html;
 
-                chapterPills.querySelectorAll(".filter-pill").forEach(p => {
-                    p.addEventListener("click", function() {
+                chapterPills.querySelectorAll(".filter-pill").forEach(pill => {
+                    pill.addEventListener("click", function() {
                         chapterPills.querySelectorAll(".filter-pill").forEach(el => el.classList.remove("active"));
                         this.classList.add("active");
                         activeChapter = this.getAttribute("data-chapter");
-                        currentPage = 1;
-                        applyFilters();
+                        renderCurrentView();
                     });
                 });
             }
 
-            function getFilteredQuestions() {
-                return allQuestions.filter(q => {
-                    // Chapter filter
-                    if (activeChapter === "BOOKMARKED") {
-                        if (!userBookmarks[q.id]) return false;
-                    } else if (activeChapter !== "ALL") {
-                        if (q.chapter !== activeChapter) return false;
-                    }
+            function bindEvents() {
+                modeBtnSets.addEventListener("click", () => switchMode("SETS"));
+                modeBtnChapters.addEventListener("click", () => switchMode("CHAPTERS"));
+                modeBtnBookmarks.addEventListener("click", () => switchMode("BOOKMARKS"));
 
-                    // Search query
-                    if (searchQuery) {
-                        const inQ = q.question.toLowerCase().includes(searchQuery);
-                        const inExp = q.explanation.toLowerCase().includes(searchQuery);
-                        const inShift = q.shift.toLowerCase().includes(searchQuery);
-                        const inOpts = q.options.some(opt => opt.toLowerCase().includes(searchQuery));
-                        if (!inQ && !inExp && !inShift && !inOpts) return false;
-                    }
+                setDropdown.addEventListener("change", function(e) {
+                    selectSet(parseInt(e.target.value));
+                });
 
-                    return true;
+                toggleGridBtn.addEventListener("click", function() {
+                    setsDrawer.classList.toggle("open");
+                });
+
+                topPrevSetBtn.addEventListener("click", () => changeSet(-1));
+                topNextSetBtn.addEventListener("click", () => changeSet(1));
+                footerPrevSetBtn.addEventListener("click", () => changeSet(-1));
+                footerNextSetBtn.addEventListener("click", () => changeSet(1));
+
+                searchInput.addEventListener("input", function(e) {
+                    searchQuery = e.target.value.toLowerCase().trim();
+                    renderCurrentView();
                 });
             }
 
-            function applyFilters() {
-                const filtered = getFilteredQuestions();
-                filterMatchingCount.textContent = `Showing ${filtered.length.toLocaleString()} of ${allQuestions.length.toLocaleString()}`;
+            function switchMode(mode) {
+                activeMode = mode;
+                [modeBtnSets, modeBtnChapters, modeBtnBookmarks].forEach(btn => btn.classList.remove("active"));
 
-                const totalPages = Math.max(1, Math.ceil(filtered.length / pageSize));
-                if (currentPage > totalPages) currentPage = totalPages;
+                if (mode === "SETS") {
+                    modeBtnSets.classList.add("active");
+                    setControlCard.style.display = "block";
+                    chapterFilterCard.style.display = "none";
+                    setFooterCard.style.display = "flex";
+                } else if (mode === "CHAPTERS") {
+                    modeBtnChapters.classList.add("active");
+                    setControlCard.style.display = "none";
+                    chapterFilterCard.style.display = "block";
+                    setFooterCard.style.display = "none";
+                } else if (mode === "BOOKMARKS") {
+                    modeBtnBookmarks.classList.add("active");
+                    setControlCard.style.display = "none";
+                    chapterFilterCard.style.display = "none";
+                    setFooterCard.style.display = "none";
+                }
 
-                updatePaginationControls(totalPages, filtered.length);
-
-                const startIdx = (currentPage - 1) * pageSize;
-                const pageQuestions = filtered.slice(startIdx, startIdx + pageSize);
-
-                renderQuestions(pageQuestions);
+                renderCurrentView();
             }
 
-            function updatePaginationControls(totalPages, totalItems) {
-                const infoText = `Page ${currentPage} of ${totalPages} (${totalItems} items)`;
-                pageInfo.textContent = infoText;
-                bottomPageInfo.textContent = infoText;
+            function selectSet(setNum) {
+                currentSetNum = Math.max(1, Math.min(53, setNum));
+                setDropdown.value = currentSetNum;
 
-                prevPageBtn.disabled = currentPage <= 1;
-                bottomPrevPageBtn.disabled = currentPage <= 1;
-                nextPageBtn.disabled = currentPage >= totalPages;
-                bottomNextPageBtn.disabled = currentPage >= totalPages;
+                const startQ = (currentSetNum - 1) * 25 + 1;
+                const endQ = Math.min(currentSetNum * 25, 1325);
+                currentSetTitle.textContent = `🎯 Practice Set ${currentSetNum < 10 ? '0' + currentSetNum : currentSetNum} (Q.${startQ} – Q.${endQ})`;
+
+                topPrevSetBtn.disabled = currentSetNum <= 1;
+                footerPrevSetBtn.disabled = currentSetNum <= 1;
+                topNextSetBtn.disabled = currentSetNum >= 53;
+                footerNextSetBtn.disabled = currentSetNum >= 53;
+
+                setsGrid.querySelectorAll(".set-pill").forEach(p => {
+                    const sn = parseInt(p.getAttribute("data-set"));
+                    p.classList.toggle("active", sn === currentSetNum);
+                });
+
+                renderCurrentView();
+                window.scrollTo({ top: 120, behavior: 'smooth' });
             }
 
-            function changePage(delta) {
-                currentPage += delta;
-                applyFilters();
-                window.scrollTo({ top: 180, behavior: 'smooth' });
+            function changeSet(delta) {
+                selectSet(currentSetNum + delta);
+            }
+
+            function getQuestionsToRender() {
+                if (searchQuery) {
+                    return allQuestions.filter(q => {
+                        const inQ = q.question.toLowerCase().includes(searchQuery);
+                        const inExp = q.explanation.toLowerCase().includes(searchQuery);
+                        const inCh = q.chapter.toLowerCase().includes(searchQuery);
+                        const inShift = q.shift.toLowerCase().includes(searchQuery);
+                        const inOpts = q.options.some(opt => opt.toLowerCase().includes(searchQuery));
+                        return inQ || inExp || inCh || inShift || inOpts;
+                    });
+                }
+
+                if (activeMode === "SETS") {
+                    return allQuestions.filter(q => q.set_num === currentSetNum);
+                } else if (activeMode === "CHAPTERS") {
+                    if (activeChapter === "ALL") return allQuestions.slice(0, 50);
+                    return allQuestions.filter(q => q.chapter === activeChapter);
+                } else if (activeMode === "BOOKMARKS") {
+                    return allQuestions.filter(q => !!userBookmarks[q.id]);
+                }
+
+                return [];
+            }
+
+            function renderCurrentView() {
+                const questions = getQuestionsToRender();
+                updateStats(questions);
+                renderQuestions(questions);
             }
 
             function renderQuestions(questions) {
                 if (questions.length === 0) {
+                    let msg = "No questions match your current view.";
+                    if (activeMode === "BOOKMARKS") msg = "You haven't bookmarked any questions yet. Click '☆ Bookmark' on any question to save it here for revision!";
+                    else if (searchQuery) msg = `No questions found matching "${escapeHtml(searchQuery)}". Try another search term.`;
+
                     questionsList.innerHTML = `
                         <div class="empty-state">
                             <div class="empty-state-icon">🔍</div>
-                            <h3>No questions match your filter</h3>
-                            <p style="margin-top:6px; font-size:0.85rem; color:var(--text-muted);">Try a different keyword or chapter filter.</p>
+                            <h3>No Questions Found</h3>
+                            <p style="margin-top:6px; font-size:0.85rem; color:var(--text-muted);">${msg}</p>
                         </div>
                     `;
                     return;
@@ -796,14 +1051,14 @@
 
                 const letters = ['A', 'B', 'C', 'D'];
 
-                questionsList.innerHTML = questions.map(q => {
+                questionsList.innerHTML = questions.map((q, idx) => {
                     const isBookmarked = !!userBookmarks[q.id];
                     const attempt = userAttempts[q.id];
                     const isAnswered = !!attempt;
 
                     let optionsHtml = '';
-                    q.options.forEach((optText, idx) => {
-                        const letter = letters[idx];
+                    q.options.forEach((optText, optIdx) => {
+                        const letter = letters[optIdx];
                         let optClass = 'option-btn';
                         if (isAnswered) {
                             if (letter === q.answer) {
@@ -821,13 +1076,16 @@
                         `;
                     });
 
+                    const localNum = activeMode === "SETS" ? (idx + 1) : q.number;
+
                     return `
                         <div class="q-card" id="card-${q.id}">
                             <div class="q-header">
                                 <div class="q-meta">
-                                    <span class="q-num-badge">Q.${q.number}</span>
+                                    <span class="q-num-badge">Q.${localNum} <span style="font-size:0.68rem; opacity:0.8;">(Overall #${q.number})</span></span>
                                     <span class="q-chapter-badge">${escapeHtml(q.chapter)}</span>
                                     ${q.shift ? `<span class="q-shift-badge">⏱️ ${escapeHtml(q.shift)}</span>` : ''}
+                                    <span style="font-size:0.72rem; color:var(--text-muted);">Set ${q.set_num < 10 ? '0' + q.set_num : q.set_num}</span>
                                 </div>
                                 <button class="bookmark-btn ${isBookmarked ? 'bookmarked' : ''}" data-qid="${q.id}">
                                     ${isBookmarked ? '★ Bookmarked' : '☆ Bookmark'}
@@ -846,7 +1104,6 @@
                     `;
                 }).join('');
 
-                // Attach handlers
                 questionsList.querySelectorAll(".option-btn:not(:disabled)").forEach(btn => {
                     btn.addEventListener("click", function() {
                         const qid = this.getAttribute("data-qid");
@@ -872,7 +1129,8 @@
                     localStorage.setItem(STORAGE_ATTEMPTS, JSON.stringify(userAttempts));
                 } catch(e) {}
 
-                updateStats();
+                const currentQs = getQuestionsToRender();
+                updateStats(currentQs);
 
                 const card = document.getElementById(`card-${qid}`);
                 if (!card) return;
@@ -907,26 +1165,42 @@
                     localStorage.setItem(STORAGE_BOOKMARKS, JSON.stringify(userBookmarks));
                 } catch(e) {}
 
-                const countEl = document.getElementById("pillBookmarkCount");
-                if (countEl) countEl.textContent = Object.keys(userBookmarks).length;
+                updateBookmarkCount();
             }
 
-            function updateStats() {
-                const total = allQuestions.length;
-                const attempted = Object.keys(userAttempts).length;
-                let correct = 0;
+            function updateBookmarkCount() {
+                const count = Object.keys(userBookmarks).length;
+                modeBookmarkCount.textContent = count;
+            }
 
-                allQuestions.forEach(q => {
-                    if (userAttempts[q.id] === q.answer) {
-                        correct++;
+            function updateStats(currentQs) {
+                const total = currentQs.length;
+                let attempted = 0;
+                let correct = 0;
+                let wrong = 0;
+
+                currentQs.forEach(q => {
+                    const att = userAttempts[q.id];
+                    if (att) {
+                        attempted++;
+                        if (att === q.answer) correct++;
+                        else wrong++;
                     }
                 });
 
-                statTotal.textContent = total.toLocaleString();
-                statAttempted.textContent = attempted.toLocaleString();
-                statCorrect.textContent = correct.toLocaleString();
+                statBatchSize.textContent = total;
+                statBatchLbl.textContent = activeMode === "SETS" ? `In Set ${currentSetNum}` : "Showing";
+                statAttempted.textContent = `${attempted} / ${total}`;
+                statCorrect.textContent = correct;
+
+                const score = (correct * 2) - (wrong * 0.5);
+                const maxMarks = total * 2;
+                statScore.textContent = `${score.toFixed(1)} / ${maxMarks}`;
+
+                footerAttempted.textContent = `${attempted} / ${total}`;
+                footerCorrect.textContent = correct;
                 const acc = attempted > 0 ? Math.round((correct / attempted) * 100) : 0;
-                statAccuracy.textContent = acc + "%";
+                footerAccuracy.textContent = `${acc}%`;
             }
 
             function escapeHtml(text) {
@@ -941,7 +1215,6 @@
                 return text.replace(/[&<>"']/g, m => map[m]);
             }
 
-            // Register Service Worker
             if ('serviceWorker' in navigator) {
                 window.addEventListener('load', () => {
                     navigator.serviceWorker.register('sw.js').catch(() => {});
