@@ -1,0 +1,1216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>SSC CGL 2026 Tier 1 • Reasoning Master Hub (53 Sets of 25 Qs)</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="icon-192.png">
+    <link rel="apple-touch-icon" href="icon-192.png">
+    <meta name="theme-color" content="#0B1120">
+    <style>
+        :root {
+            --bg-color: #0B1120;
+            --container-bg: #1E293B;
+            --card-bg: #162032;
+            --card-hover: #1c2a42;
+            --text-color: #F8FAFC;
+            --text-muted: #94A3B8;
+            --border-color: #334155;
+            --accent-cyan: #06B6D4;
+            --accent-blue: #38BDF8;
+            --accent-green: #10B981;
+            --accent-red: #EF4444;
+            --accent-amber: #F59E0B;
+            --accent-purple: #A855F7;
+            --accent-orange: #F97316;
+            --accent-emerald: #059669;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            min-height: 100vh;
+            padding-bottom: 90px;
+        }
+
+        header {
+            background: rgba(30, 41, 59, 0.95);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            padding: 12px 16px;
+        }
+
+        .header-content {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .back-btn {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 8px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+
+        .back-btn:hover {
+            border-color: var(--accent-purple);
+            color: var(--accent-purple);
+        }
+
+        .header-title-box h1 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .header-title-box p {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-top: 2px;
+        }
+
+        .hub-badge {
+            font-size: 0.72rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #7C3AED, #A855F7);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 16px;
+        }
+
+        /* Mode Selector Tabs */
+        .mode-nav {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 14px;
+            background: var(--container-bg);
+            padding: 6px;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+            overflow-x: auto;
+        }
+
+        .mode-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 0.88rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            white-space: nowrap;
+            flex: 1;
+            justify-content: center;
+        }
+
+        .mode-btn:hover {
+            color: var(--text-color);
+        }
+
+        .mode-btn.active {
+            background: var(--card-bg);
+            color: #C084FC;
+            border: 1px solid rgba(168, 85, 247, 0.4);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Set Control Banner */
+        .set-control-card {
+            background: linear-gradient(135deg, rgba(124, 58, 237, 0.15), rgba(22, 32, 50, 0.95));
+            border: 1px solid rgba(168, 85, 247, 0.3);
+            border-radius: 14px;
+            padding: 16px;
+            margin-bottom: 16px;
+        }
+
+        .set-header-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-bottom: 12px;
+        }
+
+        .set-title-box h2 {
+            font-size: 1.2rem;
+            font-weight: 800;
+            color: #E9D5FF;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .set-title-box p {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            margin-top: 2px;
+        }
+
+        .set-nav-btns {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .set-btn {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 7px 14px;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .set-btn:hover:not(:disabled) {
+            border-color: var(--accent-purple);
+            color: #C084FC;
+        }
+
+        .set-btn:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+
+        .set-select {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 7px 12px;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            outline: none;
+            cursor: pointer;
+        }
+
+        .set-select:focus {
+            border-color: var(--accent-purple);
+        }
+
+        /* 53 Sets Drawer Grid */
+        .sets-drawer {
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid rgba(51, 65, 85, 0.6);
+            display: none;
+        }
+
+        .sets-drawer.open {
+            display: block;
+            animation: fadeIn 0.2s ease-in;
+        }
+
+        .sets-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(105px, 1fr));
+            gap: 6px;
+            max-height: 240px;
+            overflow-y: auto;
+            padding-right: 4px;
+        }
+
+        .set-pill {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-muted);
+            padding: 6px 8px;
+            border-radius: 8px;
+            font-size: 0.78rem;
+            cursor: pointer;
+            text-align: center;
+            transition: all 0.2s;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .set-pill:hover {
+            border-color: var(--accent-purple);
+            color: var(--text-color);
+        }
+
+        .set-pill.active {
+            background: rgba(168, 85, 247, 0.25);
+            border-color: var(--accent-purple);
+            color: #E9D5FF;
+            font-weight: 700;
+        }
+
+        .set-pill-stat {
+            font-size: 0.68rem;
+            opacity: 0.8;
+        }
+
+        /* Stats Bar */
+        .stats-bar {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            margin-bottom: 16px;
+        }
+
+        @media (max-width: 640px) {
+            .stats-bar {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        .stat-item {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 10px 14px;
+            text-align: center;
+        }
+
+        .stat-val {
+            font-size: 1.35rem;
+            font-weight: 800;
+            display: block;
+            color: #C084FC;
+        }
+
+        .stat-lbl {
+            font-size: 0.72rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-top: 2px;
+        }
+
+        /* Controls card */
+        .controls-card {
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 14px;
+            padding: 14px;
+            margin-bottom: 16px;
+        }
+
+        .search-box {
+            position: relative;
+            margin-bottom: 12px;
+        }
+
+        .search-input {
+            width: 100%;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 10px 14px 10px 38px;
+            border-radius: 10px;
+            font-size: 0.9rem;
+            outline: none;
+            transition: all 0.2s;
+        }
+
+        .search-input:focus {
+            border-color: var(--accent-purple);
+            box-shadow: 0 0 0 3px rgba(168, 85, 247, 0.15);
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        /* Filter Pills */
+        .filter-section-title {
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .filter-pills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-bottom: 12px;
+            max-height: 180px;
+            overflow-y: auto;
+            padding-right: 4px;
+        }
+
+        .filter-pill {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-muted);
+            padding: 5px 11px;
+            border-radius: 20px;
+            font-size: 0.78rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            user-select: none;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .filter-pill:hover {
+            border-color: var(--accent-purple);
+            color: var(--text-color);
+        }
+
+        .filter-pill.active {
+            background: rgba(168, 85, 247, 0.2);
+            border-color: var(--accent-purple);
+            color: #E9D5FF;
+            font-weight: 700;
+        }
+
+        .filter-pill-count {
+            background: rgba(255, 255, 255, 0.08);
+            padding: 1px 6px;
+            border-radius: 10px;
+            font-size: 0.7rem;
+        }
+
+        /* Question Cards */
+        .questions-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .q-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 14px;
+            padding: 18px;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+
+        .q-card:hover {
+            border-color: rgba(168, 85, 247, 0.4);
+        }
+
+        .q-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            margin-bottom: 12px;
+            flex-wrap: wrap;
+        }
+
+        .q-meta {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .q-num-badge {
+            background: #7C3AED;
+            color: white;
+            font-size: 0.75rem;
+            font-weight: 800;
+            padding: 3px 8px;
+            border-radius: 6px;
+        }
+
+        .q-topic-badge {
+            background: rgba(56, 189, 248, 0.15);
+            border: 1px solid rgba(56, 189, 248, 0.3);
+            color: #7DD3FC;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 3px 8px;
+            border-radius: 6px;
+        }
+
+        .bookmark-btn {
+            background: transparent;
+            border: 1px solid var(--border-color);
+            color: var(--text-muted);
+            border-radius: 8px;
+            padding: 4px 10px;
+            cursor: pointer;
+            font-size: 0.78rem;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            transition: all 0.2s;
+        }
+
+        .bookmark-btn.bookmarked {
+            background: rgba(245, 158, 11, 0.2);
+            border-color: var(--accent-amber);
+            color: var(--accent-amber);
+            font-weight: 700;
+        }
+
+        .q-body {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 16px;
+            color: #F1F5F9;
+            font-weight: 500;
+        }
+
+        /* Options */
+        .options-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 8px;
+            margin-bottom: 14px;
+        }
+
+        @media (min-width: 768px) {
+            .options-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .option-btn {
+            background: var(--container-bg);
+            border: 1.5px solid var(--border-color);
+            color: var(--text-color);
+            padding: 12px 14px;
+            border-radius: 10px;
+            cursor: pointer;
+            text-align: left;
+            font-size: 0.9rem;
+            line-height: 1.4;
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            transition: all 0.2s;
+            width: 100%;
+        }
+
+        .option-btn:hover:not(:disabled) {
+            border-color: var(--accent-purple);
+            background: rgba(168, 85, 247, 0.08);
+        }
+
+        .option-letter {
+            background: rgba(255, 255, 255, 0.06);
+            border-radius: 6px;
+            padding: 2px 7px;
+            font-weight: 700;
+            font-size: 0.8rem;
+            flex-shrink: 0;
+            color: var(--text-muted);
+        }
+
+        .option-btn.correct {
+            background: rgba(16, 185, 129, 0.15) !important;
+            border-color: var(--accent-green) !important;
+            color: #A7F3D0 !important;
+        }
+
+        .option-btn.correct .option-letter {
+            background: var(--accent-green);
+            color: #064E3B;
+        }
+
+        .option-btn.wrong {
+            background: rgba(239, 68, 68, 0.15) !important;
+            border-color: var(--accent-red) !important;
+            color: #FCA5A5 !important;
+        }
+
+        .option-btn.wrong .option-letter {
+            background: var(--accent-red);
+            color: #7F1D1D;
+        }
+
+        /* Explanation box */
+        .explanation-box {
+            background: rgba(15, 23, 42, 0.8);
+            border: 1px solid var(--border-color);
+            border-left: 4px solid var(--accent-purple);
+            border-radius: 10px;
+            padding: 14px 16px;
+            margin-top: 12px;
+            font-size: 0.88rem;
+            line-height: 1.6;
+            color: #CBD5E1;
+            display: none;
+        }
+
+        .explanation-box.visible {
+            display: block;
+            animation: fadeIn 0.25s ease-in;
+        }
+
+        .explanation-title {
+            font-size: 0.78rem;
+            font-weight: 700;
+            color: #C084FC;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        /* Set Summary Footer */
+        .set-footer-card {
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 14px;
+            padding: 18px;
+            margin-top: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 14px;
+        }
+
+        .set-score-info {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .set-score-stat {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .set-score-stat strong {
+            color: var(--text-color);
+            font-size: 1rem;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 40px 20px;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 14px;
+        }
+
+        .empty-state-icon {
+            font-size: 2.5rem;
+            margin-bottom: 12px;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(4px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-left">
+                <a href="index.html" class="back-btn">⬅ Home</a>
+                <div class="header-title-box">
+                    <h1>
+                        <span>SSC CGL 2026 Reasoning Master Hub</span>
+                        <span class="hub-badge">53 Sets • 1,325 MCQs</span>
+                    </h1>
+                    <p>All 53 Shifts Segregated in 25-Question Batches • 100% English • Offline Ready</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- View Mode Navigation -->
+        <div class="mode-nav">
+            <button class="mode-btn active" id="modeBtnSets">🎯 Practice Sets (25 Qs each)</button>
+            <button class="mode-btn" id="modeBtnTopics">📂 By Topic</button>
+            <button class="mode-btn" id="modeBtnBookmarks">⭐ Bookmarked (<span id="modeBookmarkCount">0</span>)</button>
+        </div>
+
+        <!-- Set Control Banner (Visible in Sets Mode) -->
+        <div class="set-control-card" id="setControlCard">
+            <div class="set-header-row">
+                <div class="set-title-box">
+                    <h2 id="currentSetTitle">🎯 Practice Set 01 (Q.1 – Q.25)</h2>
+                    <p id="currentSetSubtitle">SSC CGL 2026 Shift Simulation • 25 Authentic Questions</p>
+                </div>
+                <div class="set-nav-btns">
+                    <button class="set-btn" id="topPrevSetBtn">◀ Prev Set</button>
+                    <select class="set-select" id="setDropdown">
+                        <!-- 53 Options -->
+                    </select>
+                    <button class="set-btn" id="topNextSetBtn">Next Set ▶</button>
+                    <button class="set-btn" id="toggleGridBtn" style="border-color:var(--accent-purple); color:#E9D5FF;">📑 All 53 Sets Grid</button>
+                </div>
+            </div>
+
+            <!-- Expandable 53 Sets Drawer -->
+            <div class="sets-drawer" id="setsDrawer">
+                <div style="font-size:0.75rem; color:var(--text-muted); margin-bottom:8px; font-weight:700; text-transform:uppercase;">
+                    Select any set to practice (25 questions each):
+                </div>
+                <div class="sets-grid" id="setsGrid">
+                    <!-- 53 pills generated dynamically -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Topic Filters (Visible in Topic Mode) -->
+        <div class="controls-card" id="topicFilterCard" style="display:none;">
+            <div class="filter-section-title">
+                <span>Filter by Reasoning Topic</span>
+                <span id="topicFilterCount" style="color:#C084FC; font-size:0.75rem;">Topics</span>
+            </div>
+            <div class="filter-pills" id="topicPills">
+                <!-- Dynamically generated -->
+            </div>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="controls-card" style="padding:10px 14px; margin-bottom:14px;">
+            <div class="search-box" style="margin:0;">
+                <span class="search-icon">🔍</span>
+                <input type="text" class="search-input" id="searchInput" placeholder="Search patterns, analogies, blood relations, syllogisms, series...">
+            </div>
+        </div>
+
+        <!-- Global / Set Stats Bar -->
+        <div class="stats-bar">
+            <div class="stat-item">
+                <span class="stat-val" id="statBatchSize">25</span>
+                <span class="stat-lbl" id="statBatchLbl">In Current Set</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-val" id="statAttempted" style="color:var(--accent-amber);">0</span>
+                <span class="stat-lbl">Attempted</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-val" id="statCorrect" style="color:var(--accent-green);">0</span>
+                <span class="stat-lbl">Correct</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-val" id="statScore" style="color:var(--accent-purple);">0 / 50</span>
+                <span class="stat-lbl">Estimated Marks</span>
+            </div>
+        </div>
+
+        <!-- Questions List Container (Only 25 Qs rendered at a time in Set mode!) -->
+        <div class="questions-list" id="questionsList">
+            <!-- Questions rendered here -->
+        </div>
+
+        <!-- Set Footer Navigation -->
+        <div class="set-footer-card" id="setFooterCard">
+            <div class="set-score-info">
+                <span class="set-score-stat">Completed: <strong id="footerAttempted">0 / 25</strong></span>
+                <span class="set-score-stat">Correct: <strong id="footerCorrect" style="color:var(--accent-green);">0</strong></span>
+                <span class="set-score-stat">Accuracy: <strong id="footerAccuracy" style="color:#C084FC;">0%</strong></span>
+            </div>
+            <div class="set-nav-btns">
+                <button class="set-btn" id="footerPrevSetBtn">◀ Prev Set</button>
+                <button class="set-btn" id="footerNextSetBtn" style="background:rgba(124, 58, 237, 0.2); border-color:var(--accent-purple); color:#E9D5FF; font-weight:700;">Proceed to Next Set ▶</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Data Script -->
+    <script src="cgl26_reasoning_data.js"></script>
+    <script>
+        (function() {
+            let allQuestions = [];
+            let activeMode = "SETS"; // "SETS", "TOPICS", "BOOKMARKS"
+            let currentSetNum = 1;
+            let activeTopic = "ALL";
+            let searchQuery = "";
+
+            const STORAGE_BOOKMARKS = "cgl26_reas_bookmarks";
+            const STORAGE_ATTEMPTS = "cgl26_reas_attempts";
+
+            let userBookmarks = {};
+            let userAttempts = {};
+
+            try {
+                userBookmarks = JSON.parse(localStorage.getItem(STORAGE_BOOKMARKS) || "{}");
+                userAttempts = JSON.parse(localStorage.getItem(STORAGE_ATTEMPTS) || "{}");
+            } catch(e) {
+                userBookmarks = {};
+                userAttempts = {};
+            }
+
+            // Elements
+            const questionsList = document.getElementById("questionsList");
+            const modeBtnSets = document.getElementById("modeBtnSets");
+            const modeBtnTopics = document.getElementById("modeBtnTopics");
+            const modeBtnBookmarks = document.getElementById("modeBtnBookmarks");
+            const modeBookmarkCount = document.getElementById("modeBookmarkCount");
+
+            const setControlCard = document.getElementById("setControlCard");
+            const currentSetTitle = document.getElementById("currentSetTitle");
+            const currentSetSubtitle = document.getElementById("currentSetSubtitle");
+            const setDropdown = document.getElementById("setDropdown");
+            const toggleGridBtn = document.getElementById("toggleGridBtn");
+            const setsDrawer = document.getElementById("setsDrawer");
+            const setsGrid = document.getElementById("setsGrid");
+
+            const topPrevSetBtn = document.getElementById("topPrevSetBtn");
+            const topNextSetBtn = document.getElementById("topNextSetBtn");
+            const footerPrevSetBtn = document.getElementById("footerPrevSetBtn");
+            const footerNextSetBtn = document.getElementById("footerNextSetBtn");
+            const setFooterCard = document.getElementById("setFooterCard");
+
+            const topicFilterCard = document.getElementById("topicFilterCard");
+            const topicPills = document.getElementById("topicPills");
+            const searchInput = document.getElementById("searchInput");
+
+            const statBatchSize = document.getElementById("statBatchSize");
+            const statBatchLbl = document.getElementById("statBatchLbl");
+            const statAttempted = document.getElementById("statAttempted");
+            const statCorrect = document.getElementById("statCorrect");
+            const statScore = document.getElementById("statScore");
+
+            const footerAttempted = document.getElementById("footerAttempted");
+            const footerCorrect = document.getElementById("footerCorrect");
+            const footerAccuracy = document.getElementById("footerAccuracy");
+
+            function initData() {
+                if (window.CGL26_REASONING_DATA && window.CGL26_REASONING_DATA.questions) {
+                    allQuestions = window.CGL26_REASONING_DATA.questions;
+                    setupApp();
+                } else {
+                    fetch("cgl26_reasoning_data.json")
+                        .then(r => r.json())
+                        .then(data => {
+                            allQuestions = data.questions;
+                            setupApp();
+                        })
+                        .catch(err => {
+                            questionsList.innerHTML = `<div class="empty-state"><h3>Failed to load question dataset</h3><p>${err.message}</p></div>`;
+                        });
+                }
+            }
+
+            function setupApp() {
+                buildSetDropdown();
+                buildSetsGrid();
+                buildTopicPills();
+                updateBookmarkCount();
+                bindEvents();
+                renderCurrentView();
+            }
+
+            function buildSetDropdown() {
+                let optionsHtml = '';
+                for (let i = 1; i <= 53; i++) {
+                    const startQ = (i - 1) * 25 + 1;
+                    const endQ = Math.min(i * 25, 1325);
+                    optionsHtml += `<option value="${i}">Set ${i < 10 ? '0' + i : i} (Q.${startQ} – Q.${endQ})</option>`;
+                }
+                setDropdown.innerHTML = optionsHtml;
+            }
+
+            function buildSetsGrid() {
+                let gridHtml = '';
+                for (let i = 1; i <= 53; i++) {
+                    const startQ = (i - 1) * 25 + 1;
+                    const endQ = Math.min(i * 25, 1325);
+                    gridHtml += `
+                        <div class="set-pill ${i === currentSetNum ? 'active' : ''}" data-set="${i}">
+                            <strong>Set ${i < 10 ? '0' + i : i}</strong>
+                            <span class="set-pill-stat">Q.${startQ}–${endQ}</span>
+                        </div>
+                    `;
+                }
+                setsGrid.innerHTML = gridHtml;
+
+                setsGrid.querySelectorAll(".set-pill").forEach(pill => {
+                    pill.addEventListener("click", function() {
+                        const s = parseInt(this.getAttribute("data-set"));
+                        selectSet(s);
+                        setsDrawer.classList.remove("open");
+                    });
+                });
+            }
+
+            function buildTopicPills() {
+                const topicCounts = {};
+                allQuestions.forEach(q => {
+                    topicCounts[q.topic] = (topicCounts[q.topic] || 0) + 1;
+                });
+
+                let html = `
+                    <div class="filter-pill ${activeTopic === 'ALL' ? 'active' : ''}" data-topic="ALL">
+                        All Topics <span class="filter-pill-count">${allQuestions.length}</span>
+                    </div>
+                `;
+
+                Object.keys(topicCounts).forEach(top => {
+                    html += `
+                        <div class="filter-pill ${activeTopic === top ? 'active' : ''}" data-topic="${top}">
+                            ${top} <span class="filter-pill-count">${topicCounts[top]}</span>
+                        </div>
+                    `;
+                });
+
+                topicPills.innerHTML = html;
+
+                topicPills.querySelectorAll(".filter-pill").forEach(pill => {
+                    pill.addEventListener("click", function() {
+                        topicPills.querySelectorAll(".filter-pill").forEach(el => el.classList.remove("active"));
+                        this.classList.add("active");
+                        activeTopic = this.getAttribute("data-topic");
+                        renderCurrentView();
+                    });
+                });
+            }
+
+            function bindEvents() {
+                modeBtnSets.addEventListener("click", () => switchMode("SETS"));
+                modeBtnTopics.addEventListener("click", () => switchMode("TOPICS"));
+                modeBtnBookmarks.addEventListener("click", () => switchMode("BOOKMARKS"));
+
+                setDropdown.addEventListener("change", function(e) {
+                    selectSet(parseInt(e.target.value));
+                });
+
+                toggleGridBtn.addEventListener("click", function() {
+                    setsDrawer.classList.toggle("open");
+                });
+
+                topPrevSetBtn.addEventListener("click", () => changeSet(-1));
+                topNextSetBtn.addEventListener("click", () => changeSet(1));
+                footerPrevSetBtn.addEventListener("click", () => changeSet(-1));
+                footerNextSetBtn.addEventListener("click", () => changeSet(1));
+
+                searchInput.addEventListener("input", function(e) {
+                    searchQuery = e.target.value.toLowerCase().trim();
+                    renderCurrentView();
+                });
+            }
+
+            function switchMode(mode) {
+                activeMode = mode;
+                [modeBtnSets, modeBtnTopics, modeBtnBookmarks].forEach(btn => btn.classList.remove("active"));
+
+                if (mode === "SETS") {
+                    modeBtnSets.classList.add("active");
+                    setControlCard.style.display = "block";
+                    topicFilterCard.style.display = "none";
+                    setFooterCard.style.display = "flex";
+                } else if (mode === "TOPICS") {
+                    modeBtnTopics.classList.add("active");
+                    setControlCard.style.display = "none";
+                    topicFilterCard.style.display = "block";
+                    setFooterCard.style.display = "none";
+                } else if (mode === "BOOKMARKS") {
+                    modeBtnBookmarks.classList.add("active");
+                    setControlCard.style.display = "none";
+                    topicFilterCard.style.display = "none";
+                    setFooterCard.style.display = "none";
+                }
+
+                renderCurrentView();
+            }
+
+            function selectSet(setNum) {
+                currentSetNum = Math.max(1, Math.min(53, setNum));
+                setDropdown.value = currentSetNum;
+
+                const startQ = (currentSetNum - 1) * 25 + 1;
+                const endQ = Math.min(currentSetNum * 25, 1325);
+                currentSetTitle.textContent = `🎯 Practice Set ${currentSetNum < 10 ? '0' + currentSetNum : currentSetNum} (Q.${startQ} – Q.${endQ})`;
+
+                topPrevSetBtn.disabled = currentSetNum <= 1;
+                footerPrevSetBtn.disabled = currentSetNum <= 1;
+                topNextSetBtn.disabled = currentSetNum >= 53;
+                footerNextSetBtn.disabled = currentSetNum >= 53;
+
+                setsGrid.querySelectorAll(".set-pill").forEach(p => {
+                    const sn = parseInt(p.getAttribute("data-set"));
+                    p.classList.toggle("active", sn === currentSetNum);
+                });
+
+                renderCurrentView();
+                window.scrollTo({ top: 120, behavior: 'smooth' });
+            }
+
+            function changeSet(delta) {
+                selectSet(currentSetNum + delta);
+            }
+
+            function getQuestionsToRender() {
+                if (searchQuery) {
+                    return allQuestions.filter(q => {
+                        const inQ = q.question.toLowerCase().includes(searchQuery);
+                        const inExp = q.explanation.toLowerCase().includes(searchQuery);
+                        const inTop = q.topic.toLowerCase().includes(searchQuery);
+                        const inOpts = q.options.some(opt => opt.toLowerCase().includes(searchQuery));
+                        return inQ || inExp || inTop || inOpts;
+                    });
+                }
+
+                if (activeMode === "SETS") {
+                    return allQuestions.filter(q => q.set_num === currentSetNum);
+                } else if (activeMode === "TOPICS") {
+                    if (activeTopic === "ALL") return allQuestions.slice(0, 50);
+                    return allQuestions.filter(q => q.topic === activeTopic);
+                } else if (activeMode === "BOOKMARKS") {
+                    return allQuestions.filter(q => !!userBookmarks[q.id]);
+                }
+
+                return [];
+            }
+
+            function renderCurrentView() {
+                const questions = getQuestionsToRender();
+                updateStats(questions);
+                renderQuestions(questions);
+            }
+
+            function renderQuestions(questions) {
+                if (questions.length === 0) {
+                    let msg = "No questions match your current view.";
+                    if (activeMode === "BOOKMARKS") msg = "You haven't bookmarked any questions yet. Click '☆ Bookmark' on any question to save it here for revision!";
+                    else if (searchQuery) msg = `No questions found matching "${escapeHtml(searchQuery)}". Try another search term.`;
+
+                    questionsList.innerHTML = `
+                        <div class="empty-state">
+                            <div class="empty-state-icon">🔍</div>
+                            <h3>No Questions Found</h3>
+                            <p style="margin-top:6px; font-size:0.85rem; color:var(--text-muted);">${msg}</p>
+                        </div>
+                    `;
+                    return;
+                }
+
+                const letters = ['A', 'B', 'C', 'D'];
+
+                questionsList.innerHTML = questions.map((q, idx) => {
+                    const isBookmarked = !!userBookmarks[q.id];
+                    const attempt = userAttempts[q.id];
+                    const isAnswered = !!attempt;
+
+                    let optionsHtml = '';
+                    q.options.forEach((optText, optIdx) => {
+                        const letter = letters[optIdx];
+                        let optClass = 'option-btn';
+                        if (isAnswered) {
+                            if (letter === q.answer) {
+                                optClass += ' correct';
+                            } else if (attempt === letter) {
+                                optClass += ' wrong';
+                            }
+                        }
+
+                        optionsHtml += `
+                            <button class="${optClass}" data-qid="${q.id}" data-letter="${letter}" ${isAnswered ? 'disabled' : ''}>
+                                <span class="option-letter">${letter}</span>
+                                <span>${escapeHtml(optText)}</span>
+                            </button>
+                        `;
+                    });
+
+                    const localNum = activeMode === "SETS" ? (idx + 1) : q.number;
+
+                    return `
+                        <div class="q-card" id="card-${q.id}">
+                            <div class="q-header">
+                                <div class="q-meta">
+                                    <span class="q-num-badge">Q.${localNum} <span style="font-size:0.68rem; opacity:0.8;">(Overall #${q.number})</span></span>
+                                    <span class="q-topic-badge">${escapeHtml(q.topic)}</span>
+                                    <span style="font-size:0.72rem; color:var(--text-muted);">Set ${q.set_num < 10 ? '0' + q.set_num : q.set_num}</span>
+                                </div>
+                                <button class="bookmark-btn ${isBookmarked ? 'bookmarked' : ''}" data-qid="${q.id}">
+                                    ${isBookmarked ? '★ Bookmarked' : '☆ Bookmark'}
+                                </button>
+                            </div>
+                            <div class="q-body">${escapeHtml(q.question)}</div>
+                            <div class="options-grid">
+                                ${optionsHtml}
+                            </div>
+                            <div class="explanation-box ${isAnswered ? 'visible' : ''}" id="exp-${q.id}">
+                                <div class="explanation-title">💡 Official Key & Detailed Explanation</div>
+                                <div><strong>Correct Answer: Option (${q.answer}) — ${escapeHtml(q.correct_text)}</strong></div>
+                                <div style="margin-top:6px;">${escapeHtml(q.explanation)}</div>
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+
+                questionsList.querySelectorAll(".option-btn:not(:disabled)").forEach(btn => {
+                    btn.addEventListener("click", function() {
+                        const qid = this.getAttribute("data-qid");
+                        const selectedLetter = this.getAttribute("data-letter");
+                        handleAnswer(qid, selectedLetter);
+                    });
+                });
+
+                questionsList.querySelectorAll(".bookmark-btn").forEach(btn => {
+                    btn.addEventListener("click", function() {
+                        const qid = this.getAttribute("data-qid");
+                        toggleBookmark(qid, this);
+                    });
+                });
+            }
+
+            function handleAnswer(qid, selectedLetter) {
+                const question = allQuestions.find(q => q.id === qid);
+                if (!question) return;
+
+                userAttempts[qid] = selectedLetter;
+                try {
+                    localStorage.setItem(STORAGE_ATTEMPTS, JSON.stringify(userAttempts));
+                } catch(e) {}
+
+                const currentQs = getQuestionsToRender();
+                updateStats(currentQs);
+
+                const card = document.getElementById(`card-${qid}`);
+                if (!card) return;
+
+                const buttons = card.querySelectorAll(".option-btn");
+                buttons.forEach(btn => {
+                    btn.disabled = true;
+                    const letter = btn.getAttribute("data-letter");
+                    if (letter === question.answer) {
+                        btn.classList.add("correct");
+                    } else if (letter === selectedLetter) {
+                        btn.classList.add("wrong");
+                    }
+                });
+
+                const expBox = document.getElementById(`exp-${qid}`);
+                if (expBox) expBox.classList.add("visible");
+            }
+
+            function toggleBookmark(qid, btn) {
+                if (userBookmarks[qid]) {
+                    delete userBookmarks[qid];
+                    btn.classList.remove("bookmarked");
+                    btn.innerHTML = "☆ Bookmark";
+                } else {
+                    userBookmarks[qid] = true;
+                    btn.classList.add("bookmarked");
+                    btn.innerHTML = "★ Bookmarked";
+                }
+
+                try {
+                    localStorage.setItem(STORAGE_BOOKMARKS, JSON.stringify(userBookmarks));
+                } catch(e) {}
+
+                updateBookmarkCount();
+            }
+
+            function updateBookmarkCount() {
+                const count = Object.keys(userBookmarks).length;
+                modeBookmarkCount.textContent = count;
+            }
+
+            function updateStats(currentQs) {
+                const total = currentQs.length;
+                let attempted = 0;
+                let correct = 0;
+                let wrong = 0;
+
+                currentQs.forEach(q => {
+                    const att = userAttempts[q.id];
+                    if (att) {
+                        attempted++;
+                        if (att === q.answer) correct++;
+                        else wrong++;
+                    }
+                });
+
+                statBatchSize.textContent = total;
+                statBatchLbl.textContent = activeMode === "SETS" ? `In Set ${currentSetNum}` : "Showing";
+                statAttempted.textContent = `${attempted} / ${total}`;
+                statCorrect.textContent = correct;
+
+                const score = (correct * 2) - (wrong * 0.5);
+                const maxMarks = total * 2;
+                statScore.textContent = `${score.toFixed(1)} / ${maxMarks}`;
+
+                footerAttempted.textContent = `${attempted} / ${total}`;
+                footerCorrect.textContent = correct;
+                const acc = attempted > 0 ? Math.round((correct / attempted) * 100) : 0;
+                footerAccuracy.textContent = `${acc}%`;
+            }
+
+            function escapeHtml(text) {
+                if (!text) return "";
+                const map = {
+                    '&': '&amp;',
+                    '<': '&lt;',
+                    '>': '&gt;',
+                    '"': '&quot;',
+                    "'": '&#039;'
+                };
+                return text.replace(/[&<>"']/g, m => map[m]);
+            }
+
+            if ('serviceWorker' in navigator) {
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('sw.js').catch(() => {});
+                });
+            }
+
+            initData();
+        })();
+    </script>
+</body>
+</html>
