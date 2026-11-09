@@ -1,5 +1,11 @@
-const CACHE_NAME = 'ssc-prep-tier2-v39';
+const CACHE_NAME = 'ssc-prep-tier2-v40';
 const urlsToCache = [
+  './cgl26_english.html',
+  './cgl26_english_data.js',
+  './cgl26_english_data.json',
+  './cgl26_gk.html',
+  './cgl26_gk_data.js',
+  './cgl26_gk_data.json',
   './',
   './manifest.json',
   './index.html',

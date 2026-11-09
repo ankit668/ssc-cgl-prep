@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>SSC CGL 2026 Tier 1 • English Comprehension Master Hub (1,325 MCQs)</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="icon-192.png">
+    <link rel="apple-touch-icon" href="icon-192.png">
+    <meta name="theme-color" content="#0B1120">
+    <style>
+        :root {
+            --bg-color: #0B1120;
+            --container-bg: #1E293B;
+            --card-bg: #162032;
+            --card-hover: #1c2a42;
+            --text-color: #F8FAFC;
+            --text-muted: #94A3B8;
+            --border-color: #334155;
+            --accent-cyan: #06B6D4;
+            --accent-blue: #38BDF8;
+            --accent-green: #10B981;
+            --accent-red: #EF4444;
+            --accent-amber: #F59E0B;
+            --accent-purple: #A855F7;
+            --accent-orange: #F97316;
+            --accent-emerald: #059669;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            min-height: 100vh;
+            padding-bottom: 90px;
+        }
+
+        header {
+            background: rgba(30, 41, 59, 0.95);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            padding: 12px 16px;
+        }
+
+        .header-content {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .back-btn {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 8px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+
+        .back-btn:hover {
+            border-color: var(--accent-blue);
+            color: var(--accent-blue);
+        }
+
+        .header-title-box h1 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .header-title-box p {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-top: 2px;
+        }
+
+        .hub-badge {
+            font-size: 0.72rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #0284C7, #38BDF8);
+            color: #041026;
+            padding: 3px 8px;
+            border-radius: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 16px;
+        }
+
+        /* Stats bar */
+        .stats-bar {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            margin-bottom: 16px;
+        }
+
+        @media (max-width: 640px) {
+            .stats-bar {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        .stat-item {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 10px 14px;
+            text-align: center;
+        }
+
+        .stat-val {
+            font-size: 1.35rem;
+            font-weight: 800;
+            display: block;
+            color: var(--accent-blue);
+        }
+
+        .stat-lbl {
+            font-size: 0.72rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-top: 2px;
+        }
+
+        /* Search and controls */
+        .controls-card {
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 14px;
+            padding: 14px;
+            margin-bottom: 16px;
+        }
+
+        .search-box {
+            position: relative;
+            margin-bottom: 12px;
+        }
+
+        .search-input {
+            width: 100%;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 10px 14px 10px 38px;
+            border-radius: 10px;
+            font-size: 0.9rem;
+            outline: none;
+            transition: all 0.2s;
+        }
+
+        .search-input:focus {
+            border-color: var(--accent-blue);
+            box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.15);
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        /* Filter Pills */
+        .filter-section-title {
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .filter-pills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-bottom: 12px;
+            max-height: 180px;
+            overflow-y: auto;
+            padding-right: 4px;
+        }
+
+        .filter-pill {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-muted);
+            padding: 5px 11px;
+            border-radius: 20px;
+            font-size: 0.78rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            user-select: none;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .filter-pill:hover {
+            border-color: var(--accent-blue);
+            color: var(--text-color);
+        }
+
+        .filter-pill.active {
+            background: rgba(56, 189, 248, 0.15);
+            border-color: var(--accent-blue);
+            color: var(--accent-blue);
+            font-weight: 700;
+        }
+
+        .filter-pill-count {
+            background: rgba(255, 255, 255, 0.08);
+            padding: 1px 6px;
+            border-radius: 10px;
+            font-size: 0.7rem;
+        }
+
+        /* Pagination bar */
+        .pagination-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            margin: 16px 0;
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 10px 14px;
+            flex-wrap: wrap;
+        }
+
+        .page-btn {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 6px 14px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+
+        .page-btn:hover:not(:disabled) {
+            border-color: var(--accent-blue);
+            color: var(--accent-blue);
+        }
+
+        .page-btn:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+
+        .page-info {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .page-select-box {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .page-select {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 5px 8px;
+            border-radius: 6px;
+            outline: none;
+            font-size: 0.82rem;
+        }
+
+        /* Question Cards */
+        .questions-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .q-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 14px;
+            padding: 18px;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+
+        .q-card:hover {
+            border-color: rgba(56, 189, 248, 0.4);
+        }
+
+        .q-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            margin-bottom: 12px;
+            flex-wrap: wrap;
+        }
+
+        .q-meta {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .q-num-badge {
+            background: #0369A1;
+            color: white;
+            font-size: 0.75rem;
+            font-weight: 800;
+            padding: 3px 8px;
+            border-radius: 6px;
+        }
+
+        .q-chapter-badge {
+            background: rgba(168, 85, 247, 0.15);
+            border: 1px solid rgba(168, 85, 247, 0.3);
+            color: #C084FC;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 3px 8px;
+            border-radius: 6px;
+        }
+
+        .q-shift-badge {
+            background: rgba(245, 158, 11, 0.12);
+            border: 1px solid rgba(245, 158, 11, 0.3);
+            color: #FCD34D;
+            font-size: 0.72rem;
+            font-weight: 600;
+            padding: 3px 8px;
+            border-radius: 6px;
+        }
+
+        .bookmark-btn {
+            background: transparent;
+            border: 1px solid var(--border-color);
+            color: var(--text-muted);
+            border-radius: 8px;
+            padding: 4px 10px;
+            cursor: pointer;
+            font-size: 0.78rem;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            transition: all 0.2s;
+        }
+
+        .bookmark-btn.bookmarked {
+            background: rgba(245, 158, 11, 0.2);
+            border-color: var(--accent-amber);
+            color: var(--accent-amber);
+            font-weight: 700;
+        }
+
+        .q-body {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 16px;
+            color: #F1F5F9;
+            font-weight: 500;
+        }
+
+        /* Options */
+        .options-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 8px;
+            margin-bottom: 14px;
+        }
+
+        @media (min-width: 768px) {
+            .options-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .option-btn {
+            background: var(--container-bg);
+            border: 1.5px solid var(--border-color);
+            color: var(--text-color);
+            padding: 12px 14px;
+            border-radius: 10px;
+            cursor: pointer;
+            text-align: left;
+            font-size: 0.9rem;
+            line-height: 1.4;
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            transition: all 0.2s;
+            width: 100%;
+        }
+
+        .option-btn:hover:not(:disabled) {
+            border-color: var(--accent-blue);
+            background: rgba(56, 189, 248, 0.05);
+        }
+
+        .option-letter {
+            background: rgba(255, 255, 255, 0.06);
+            border-radius: 6px;
+            padding: 2px 7px;
+            font-weight: 700;
+            font-size: 0.8rem;
+            flex-shrink: 0;
+            color: var(--text-muted);
+        }
+
+        .option-btn.correct {
+            background: rgba(16, 185, 129, 0.15) !important;
+            border-color: var(--accent-green) !important;
+            color: #A7F3D0 !important;
+        }
+
+        .option-btn.correct .option-letter {
+            background: var(--accent-green);
+            color: #064E3B;
+        }
+
+        .option-btn.wrong {
+            background: rgba(239, 68, 68, 0.15) !important;
+            border-color: var(--accent-red) !important;
+            color: #FCA5A5 !important;
+        }
+
+        .option-btn.wrong .option-letter {
+            background: var(--accent-red);
+            color: #7F1D1D;
+        }
+
+        /* Explanation box */
+        .explanation-box {
+            background: rgba(15, 23, 42, 0.8);
+            border: 1px solid var(--border-color);
+            border-left: 4px solid var(--accent-blue);
+            border-radius: 10px;
+            padding: 14px 16px;
+            margin-top: 12px;
+            font-size: 0.88rem;
+            line-height: 1.6;
+            color: #CBD5E1;
+            display: none;
+        }
+
+        .explanation-box.visible {
+            display: block;
+            animation: fadeIn 0.25s ease-in;
+        }
+
+        .explanation-title {
+            font-size: 0.78rem;
+            font-weight: 700;
+            color: var(--accent-blue);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 40px 20px;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 14px;
+        }
+
+        .empty-state-icon {
+            font-size: 2.5rem;
+            margin-bottom: 12px;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(4px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-left">
+                <a href="index.html" class="back-btn">⬅ Home</a>
+                <div class="header-title-box">
+                    <h1>
+                        <span>SSC CGL 2026 English Master Hub</span>
+                        <span class="hub-badge">1,325 MCQs</span>
+                    </h1>
+                    <p>All 53 Shifts Chapter-Wise • Clean English Explanations • PWA Offline Ready</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Stats Bar -->
+        <div class="stats-bar">
+            <div class="stat-item">
+                <span class="stat-val" id="statTotal">1,325</span>
+                <span class="stat-lbl">Total Questions</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-val" id="statAttempted" style="color:var(--accent-amber);">0</span>
+                <span class="stat-lbl">Attempted</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-val" id="statCorrect" style="color:var(--accent-green);">0</span>
+                <span class="stat-lbl">Correct</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-val" id="statAccuracy" style="color:var(--accent-purple);">0%</span>
+                <span class="stat-lbl">Accuracy</span>
+            </div>
+        </div>
+
+        <!-- Controls Card -->
+        <div class="controls-card">
+            <!-- Search -->
+            <div class="search-box">
+                <span class="search-icon">🔍</span>
+                <input type="text" class="search-input" id="searchInput" placeholder="Search questions, words (e.g., esoteric, malediction), shifts, or rules...">
+            </div>
+
+            <!-- Chapter Filter Pills -->
+            <div class="filter-section-title">
+                <span>Select Chapter / Topic</span>
+                <span id="filterMatchingCount" style="color:var(--accent-blue); font-size:0.75rem;">Showing 1,325</span>
+            </div>
+            <div class="filter-pills" id="chapterPills">
+                <!-- Dynamically generated -->
+            </div>
+        </div>
+
+        <!-- Top Pagination -->
+        <div class="pagination-bar" id="topPagination">
+            <button class="page-btn" id="prevPageBtn">◀ Previous</button>
+            <div class="page-info" id="pageInfo">Page 1 of 53</div>
+            <div class="page-select-box">
+                <span>Per page:</span>
+                <select class="page-select" id="pageSizeSelect">
+                    <option value="25" selected>25</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                    <option value="1325">All</option>
+                </select>
+                <button class="page-btn" id="nextPageBtn">Next ▶</button>
+            </div>
+        </div>
+
+        <!-- Questions List -->
+        <div class="questions-list" id="questionsList">
+            <!-- Rendered dynamically -->
+        </div>
+
+        <!-- Bottom Pagination -->
+        <div class="pagination-bar" id="bottomPagination" style="margin-top:20px;">
+            <button class="page-btn" id="bottomPrevPageBtn">◀ Previous</button>
+            <div class="page-info" id="bottomPageInfo">Page 1 of 53</div>
+            <button class="page-btn" id="bottomNextPageBtn">Next ▶</button>
+        </div>
+    </div>
+
+    <!-- Data Script -->
+    <script src="cgl26_english_data.js"></script>
+    <script>
+        (function() {
+            let allQuestions = [];
+            let activeChapter = "ALL";
+            let searchQuery = "";
+            let currentPage = 1;
+            let pageSize = 25;
+
+            // LocalStorage Keys
+            const STORAGE_BOOKMARKS = "cgl26_eng_bookmarks";
+            const STORAGE_ATTEMPTS = "cgl26_eng_attempts";
+
+            let userBookmarks = {};
+            let userAttempts = {};
+
+            try {
+                userBookmarks = JSON.parse(localStorage.getItem(STORAGE_BOOKMARKS) || "{}");
+                userAttempts = JSON.parse(localStorage.getItem(STORAGE_ATTEMPTS) || "{}");
+            } catch(e) {
+                userBookmarks = {};
+                userAttempts = {};
+            }
+
+            // Elements
+            const questionsList = document.getElementById("questionsList");
+            const chapterPills = document.getElementById("chapterPills");
+            const searchInput = document.getElementById("searchInput");
+            const filterMatchingCount = document.getElementById("filterMatchingCount");
+            const statAttempted = document.getElementById("statAttempted");
+            const statCorrect = document.getElementById("statCorrect");
+            const statAccuracy = document.getElementById("statAccuracy");
+            const statTotal = document.getElementById("statTotal");
+
+            const prevPageBtn = document.getElementById("prevPageBtn");
+            const nextPageBtn = document.getElementById("nextPageBtn");
+            const pageInfo = document.getElementById("pageInfo");
+            const bottomPrevPageBtn = document.getElementById("bottomPrevPageBtn");
+            const bottomNextPageBtn = document.getElementById("bottomNextPageBtn");
+            const bottomPageInfo = document.getElementById("bottomPageInfo");
+            const pageSizeSelect = document.getElementById("pageSizeSelect");
+
+            function initData() {
+                if (window.CGL26_ENGLISH_DATA && window.CGL26_ENGLISH_DATA.questions) {
+                    allQuestions = window.CGL26_ENGLISH_DATA.questions;
+                    setupApp();
+                } else {
+                    fetch("cgl26_english_data.json")
+                        .then(r => r.json())
+                        .then(data => {
+                            allQuestions = data.questions;
+                            setupApp();
+                        })
+                        .catch(err => {
+                            questionsList.innerHTML = `<div class="empty-state"><h3>Failed to load question dataset</h3><p>${err.message}</p></div>`;
+                        });
+                }
+            }
+
+            function setupApp() {
+                renderChapterPills();
+                updateStats();
+                applyFilters();
+
+                // Events
+                searchInput.addEventListener("input", function(e) {
+                    searchQuery = e.target.value.toLowerCase().trim();
+                    currentPage = 1;
+                    applyFilters();
+                });
+
+                pageSizeSelect.addEventListener("change", function(e) {
+                    pageSize = parseInt(e.target.value);
+                    currentPage = 1;
+                    applyFilters();
+                });
+
+                prevPageBtn.addEventListener("click", () => changePage(-1));
+                nextPageBtn.addEventListener("click", () => changePage(1));
+                bottomPrevPageBtn.addEventListener("click", () => changePage(-1));
+                bottomNextPageBtn.addEventListener("click", () => changePage(1));
+            }
+
+            function renderChapterPills() {
+                const chapterCounts = {};
+                allQuestions.forEach(q => {
+                    chapterCounts[q.chapter] = (chapterCounts[q.chapter] || 0) + 1;
+                });
+
+                const chapters = Object.keys(chapterCounts);
+                
+                let html = `
+                    <div class="filter-pill ${activeChapter === 'ALL' ? 'active' : ''}" data-chapter="ALL">
+                        All <span class="filter-pill-count">${allQuestions.length}</span>
+                    </div>
+                    <div class="filter-pill ${activeChapter === 'BOOKMARKED' ? 'active' : ''}" data-chapter="BOOKMARKED">
+                        ⭐ Bookmarked <span class="filter-pill-count" id="pillBookmarkCount">${Object.keys(userBookmarks).length}</span>
+                    </div>
+                `;
+
+                chapters.forEach(ch => {
+                    html += `
+                        <div class="filter-pill ${activeChapter === ch ? 'active' : ''}" data-chapter="${ch}">
+                            ${ch} <span class="filter-pill-count">${chapterCounts[ch]}</span>
+                        </div>
+                    `;
+                });
+
+                chapterPills.innerHTML = html;
+
+                chapterPills.querySelectorAll(".filter-pill").forEach(p => {
+                    p.addEventListener("click", function() {
+                        chapterPills.querySelectorAll(".filter-pill").forEach(el => el.classList.remove("active"));
+                        this.classList.add("active");
+                        activeChapter = this.getAttribute("data-chapter");
+                        currentPage = 1;
+                        applyFilters();
+                    });
+                });
+            }
+
+            function getFilteredQuestions() {
+                return allQuestions.filter(q => {
+                    // Chapter filter
+                    if (activeChapter === "BOOKMARKED") {
+                        if (!userBookmarks[q.id]) return false;
+                    } else if (activeChapter !== "ALL") {
+                        if (q.chapter !== activeChapter) return false;
+                    }
+
+                    // Search query
+                    if (searchQuery) {
+                        const inQ = q.question.toLowerCase().includes(searchQuery);
+                        const inExp = q.explanation.toLowerCase().includes(searchQuery);
+                        const inShift = q.shift.toLowerCase().includes(searchQuery);
+                        const inOpts = q.options.some(opt => opt.toLowerCase().includes(searchQuery));
+                        if (!inQ && !inExp && !inShift && !inOpts) return false;
+                    }
+
+                    return true;
+                });
+            }
+
+            function applyFilters() {
+                const filtered = getFilteredQuestions();
+                filterMatchingCount.textContent = `Showing ${filtered.length.toLocaleString()} of ${allQuestions.length.toLocaleString()}`;
+
+                const totalPages = Math.max(1, Math.ceil(filtered.length / pageSize));
+                if (currentPage > totalPages) currentPage = totalPages;
+
+                updatePaginationControls(totalPages, filtered.length);
+
+                const startIdx = (currentPage - 1) * pageSize;
+                const pageQuestions = filtered.slice(startIdx, startIdx + pageSize);
+
+                renderQuestions(pageQuestions);
+            }
+
+            function updatePaginationControls(totalPages, totalItems) {
+                const infoText = `Page ${currentPage} of ${totalPages} (${totalItems} items)`;
+                pageInfo.textContent = infoText;
+                bottomPageInfo.textContent = infoText;
+
+                prevPageBtn.disabled = currentPage <= 1;
+                bottomPrevPageBtn.disabled = currentPage <= 1;
+                nextPageBtn.disabled = currentPage >= totalPages;
+                bottomNextPageBtn.disabled = currentPage >= totalPages;
+            }
+
+            function changePage(delta) {
+                currentPage += delta;
+                applyFilters();
+                window.scrollTo({ top: 180, behavior: 'smooth' });
+            }
+
+            function renderQuestions(questions) {
+                if (questions.length === 0) {
+                    questionsList.innerHTML = `
+                        <div class="empty-state">
+                            <div class="empty-state-icon">🔍</div>
+                            <h3>No questions match your filter</h3>
+                            <p style="margin-top:6px; font-size:0.85rem; color:var(--text-muted);">Try a different keyword or chapter filter.</p>
+                        </div>
+                    `;
+                    return;
+                }
+
+                const letters = ['A', 'B', 'C', 'D'];
+
+                questionsList.innerHTML = questions.map(q => {
+                    const isBookmarked = !!userBookmarks[q.id];
+                    const attempt = userAttempts[q.id];
+                    const isAnswered = !!attempt;
+
+                    let optionsHtml = '';
+                    q.options.forEach((optText, idx) => {
+                        const letter = letters[idx];
+                        let optClass = 'option-btn';
+                        if (isAnswered) {
+                            if (letter === q.answer) {
+                                optClass += ' correct';
+                            } else if (attempt === letter) {
+                                optClass += ' wrong';
+                            }
+                        }
+
+                        optionsHtml += `
+                            <button class="${optClass}" data-qid="${q.id}" data-letter="${letter}" ${isAnswered ? 'disabled' : ''}>
+                                <span class="option-letter">${letter}</span>
+                                <span>${escapeHtml(optText)}</span>
+                            </button>
+                        `;
+                    });
+
+                    return `
+                        <div class="q-card" id="card-${q.id}">
+                            <div class="q-header">
+                                <div class="q-meta">
+                                    <span class="q-num-badge">Q.${q.number}</span>
+                                    <span class="q-chapter-badge">${escapeHtml(q.chapter)}</span>
+                                    ${q.shift ? `<span class="q-shift-badge">⏱️ ${escapeHtml(q.shift)}</span>` : ''}
+                                </div>
+                                <button class="bookmark-btn ${isBookmarked ? 'bookmarked' : ''}" data-qid="${q.id}">
+                                    ${isBookmarked ? '★ Bookmarked' : '☆ Bookmark'}
+                                </button>
+                            </div>
+                            <div class="q-body">${escapeHtml(q.question)}</div>
+                            <div class="options-grid">
+                                ${optionsHtml}
+                            </div>
+                            <div class="explanation-box ${isAnswered ? 'visible' : ''}" id="exp-${q.id}">
+                                <div class="explanation-title">💡 Official Key & Detailed Explanation</div>
+                                <div><strong>Correct Answer: Option (${q.answer}) — ${escapeHtml(q.correct_text)}</strong></div>
+                                <div style="margin-top:6px;">${escapeHtml(q.explanation)}</div>
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+
+                // Attach handlers
+                questionsList.querySelectorAll(".option-btn:not(:disabled)").forEach(btn => {
+                    btn.addEventListener("click", function() {
+                        const qid = this.getAttribute("data-qid");
+                        const selectedLetter = this.getAttribute("data-letter");
+                        handleAnswer(qid, selectedLetter);
+                    });
+                });
+
+                questionsList.querySelectorAll(".bookmark-btn").forEach(btn => {
+                    btn.addEventListener("click", function() {
+                        const qid = this.getAttribute("data-qid");
+                        toggleBookmark(qid, this);
+                    });
+                });
+            }
+
+            function handleAnswer(qid, selectedLetter) {
+                const question = allQuestions.find(q => q.id === qid);
+                if (!question) return;
+
+                userAttempts[qid] = selectedLetter;
+                try {
+                    localStorage.setItem(STORAGE_ATTEMPTS, JSON.stringify(userAttempts));
+                } catch(e) {}
+
+                updateStats();
+
+                const card = document.getElementById(`card-${qid}`);
+                if (!card) return;
+
+                const buttons = card.querySelectorAll(".option-btn");
+                buttons.forEach(btn => {
+                    btn.disabled = true;
+                    const letter = btn.getAttribute("data-letter");
+                    if (letter === question.answer) {
+                        btn.classList.add("correct");
+                    } else if (letter === selectedLetter) {
+                        btn.classList.add("wrong");
+                    }
+                });
+
+                const expBox = document.getElementById(`exp-${qid}`);
+                if (expBox) expBox.classList.add("visible");
+            }
+
+            function toggleBookmark(qid, btn) {
+                if (userBookmarks[qid]) {
+                    delete userBookmarks[qid];
+                    btn.classList.remove("bookmarked");
+                    btn.innerHTML = "☆ Bookmark";
+                } else {
+                    userBookmarks[qid] = true;
+                    btn.classList.add("bookmarked");
+                    btn.innerHTML = "★ Bookmarked";
+                }
+
+                try {
+                    localStorage.setItem(STORAGE_BOOKMARKS, JSON.stringify(userBookmarks));
+                } catch(e) {}
+
+                const countEl = document.getElementById("pillBookmarkCount");
+                if (countEl) countEl.textContent = Object.keys(userBookmarks).length;
+            }
+
+            function updateStats() {
+                const total = allQuestions.length;
+                const attempted = Object.keys(userAttempts).length;
+                let correct = 0;
+
+                allQuestions.forEach(q => {
+                    if (userAttempts[q.id] === q.answer) {
+                        correct++;
+                    }
+                });
+
+                statTotal.textContent = total.toLocaleString();
+                statAttempted.textContent = attempted.toLocaleString();
+                statCorrect.textContent = correct.toLocaleString();
+                const acc = attempted > 0 ? Math.round((correct / attempted) * 100) : 0;
+                statAccuracy.textContent = acc + "%";
+            }
+
+            function escapeHtml(text) {
+                if (!text) return "";
+                const map = {
+                    '&': '&amp;',
+                    '<': '&lt;',
+                    '>': '&gt;',
+                    '"': '&quot;',
+                    "'": '&#039;'
+                };
+                return text.replace(/[&<>"']/g, m => map[m]);
+            }
+
+            // Register Service Worker
+            if ('serviceWorker' in navigator) {
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('sw.js').catch(() => {});
+                });
+            }
+
+            initData();
+        })();
+    </script>
+</body>
+</html>
