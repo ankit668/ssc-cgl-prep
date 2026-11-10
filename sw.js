@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ssc-prep-tier2-v41';
+const CACHE_NAME = 'ssc-prep-tier2-v42';
 const urlsToCache = [
   './cgl26_reasoning.html',
   './cgl26_reasoning_data.js',
@@ -33,6 +33,9 @@ const urlsToCache = [
   './xmp_set3.html',
   './xmp_set3_data.js',
   './xmp_set3_data.json',
+  './xmp_set4.html',
+  './xmp_set4_data.js',
+  './xmp_set4_data.json',
   './maths_obsession_d1.html',
   './maths_obsession_d1_data.js',
   './maths_obsession_d1_data.json',
