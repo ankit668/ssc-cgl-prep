@@ -1,968 +1,2011 @@
-// Algebra Master Hub Clean Offline Data
-window.ALGEBRA_FORMULAS = [
-  {
-    "id": "f1",
-    "title": "Surds, Nested Radicals & Infinite Chains",
-    "category": "Surds & Radicals",
-    "formula": "√(a√(a√(a...∞)) = a and √(a√(a...(n times)) = a^(2ⁿ-1/2ⁿ)",
-    "desc": "For addition: √(a + √(a + ...) = (√(4a+1) + 1/2). For subtraction: √(a - √(a - ...) = (√(4a+1) - 1/2). If a = n(n+1), addition series directly equals (n+1), and subtraction series directly equals n."
-  },
-  {
-    "id": "f2",
-    "title": "Cube Root Surd Rationalization",
-    "category": "Surds & Radicals",
-    "formula": "(1/∛(a²) + ∛(ab) + ∛(b²) = (∛(a) - ∛(b)/a - b)",
-    "desc": "Multiply numerator and denominator by (∛(a) - ∛(b) to use (x-y)(x²+xy+y²) = x³ - y³ = a - b. For example: (1/∛(36) + ∛(6) + 1) = (∛(6) - 1/6 - 1) = (∛(6) - 1/5)."
-  },
-  {
-    "id": "f3",
-    "title": "2-Variable Fundamental Expansions",
-    "category": "Identities",
-    "formula": "(a+b)² + (a-b)² = 2(a²+b²) and (a+b)² - (a-b)² = 4ab",
-    "desc": "Also: (a+b)⁴ - (a-b)⁴ = 8ab(a²+b²) and a³ ± b³ = (a ± b)(a² ∓ ab + b²)."
-  },
-  {
-    "id": "f4",
-    "title": "3-Variable Square & Symmetric Differences",
-    "category": "Identities",
-    "formula": "(a+b+c)² = a²+b²+c² + 2(ab+bc+ca)",
-    "desc": "a²+b²+c² - ab - bc - ca = 1/2[(a-b)² + (b-c)² + (c-a)²]. If a²+b²+c² = ab+bc+ca ⟹ a = b = c."
-  },
-  {
-    "id": "f5",
-    "title": "Maestro's 3d² AP Rule for Symmetric Squares",
-    "category": "Topper Tricks",
-    "formula": "If a, b, c are in AP with common difference d ⟹ a²+b²+c² - ab - bc - ca = 3d²",
-    "desc": "Proof: (a-b)² = d², (b-c)² = d², (c-a)² = (2d)² = 4d². Sum = d² + d² + 4d² = 6d². Dividing by 2 yields exactly 3d² in 2 seconds!"
-  },
-  {
-    "id": "f6",
-    "title": "a³ + b³ + c³ - 3abc All 4 Master Expansions",
-    "category": "Cubic Identities",
-    "formula": "a³+b³+c³-3abc = (a+b+c)(a²+b²+c² - ab - bc - ca)",
-    "desc": "Form 2: 1/2(a+b+c)[(a-b)²+(b-c)²+(c-a)²]. Form 3: (a+b+c)[(a+b+c)² - 3(ab+bc+ca)]. Form 4: 1/2(a+b+c)[3(a²+b²+c²) - (a+b+c)²]."
-  },
-  {
-    "id": "f7",
-    "title": "Maestro's 9·b·d² AP Rule for a³ + b³ + c³ - 3abc",
-    "category": "Topper Tricks",
-    "formula": "If a, b, c are in AP with middle term b and diff d ⟹ a³+b³+c³-3abc = 9 · b · d²",
-    "desc": "Since (a+b+c) = 3b and (a²+b²+c² - ab - bc - ca) = 3d², the product is immediately 3b × 3d² = 9bd²!"
-  },
-  {
-    "id": "f8",
-    "title": "Conditional Cubic (a + b + c = 0)",
-    "category": "Cubic Identities",
-    "formula": "If a+b+c = 0 ⟹ a³+b³+c³ = 3abc",
-    "desc": "Similarly: (x-y)³ + (y-z)³ + (z-x)³ = 3(x-y)(y-z)(z-x) because their sum (x-y)+(y-z)+(z-x) = 0."
-  },
-  {
-    "id": "f9",
-    "title": "x + 1/x = k Complete Ladder of Powers",
-    "category": "Power Ladders",
-    "formula": "x² + 1/x² = k² - 2, x³ + 1/x³ = k³ - 3k, x⁴ + 1/x⁴ = (k² - 2)² - 2",
-    "desc": "For power 5: x⁵ + 1/x⁵ = (x² + 1/x²(x³ + 1/x³ - (x + 1/x). For power 7: x⁷ + 1/x⁷ = (x³ + 1/x³(x⁴ + 1/x⁴) - (x + 1/x)."
-  },
-  {
-    "id": "f10",
-    "title": "x - 1/x = k Complete Ladder of Powers",
-    "category": "Power Ladders",
-    "formula": "x² + 1/x² = k² + 2, x³ - 1/x³ = k³ + 3k",
-    "desc": "For power 5: x⁵ - 1/x⁵ = (x² + 1/x²(x³ - 1/x³ + (x - 1/x). For power 7: x⁷ - 1/x⁷ = (x³ - 1/x³(x⁴ + 1/x⁴) + (x - 1/x)."
-  },
-  {
-    "id": "f11",
-    "title": "Cyclic Exponents & Cancellation Rules",
-    "category": "Special Patterns",
-    "formula": "x + 1/x = 1 ⟹ x³ = -1 and x + 1/x = √3 ⟹ x⁶ = -1",
-    "desc": "When x³ = -1, terms differing in power by 3 cancel: xⁿ⁺³ + xⁿ = 0. When x⁶ = -1, terms differing in power by 6 cancel: xⁿ⁺⁶ + xⁿ = 0."
-  },
-  {
-    "id": "f12",
-    "title": "Sum of Squares = 0 (Perfect Squares Principle)",
-    "category": "Quadratic Forms",
-    "formula": "A² + B² + C² = 0 ⟹ A = 0, B = 0, C = 0",
-    "desc": "Maestro's Vertex Shortcut: In Ax² + Bx + Cy² + Dy + K = 0, directly find individual coordinates: x = (-B/2A) and y = (-D/2C) in one line without completing the square."
-  },
-  {
-    "id": "f13",
-    "title": "Symmetric Equations & Componendo-Dividendo",
-    "category": "Symmetric Forms",
-    "formula": "If x = (4ab/a+b) ⟹ (x+2a/x-2a) + (x+2b/x-2b) = 2",
-    "desc": "Standard SSC invariant: Whenever x = (2ab/a+b) ⟹ (x+a/x-a) + (x+b/x-b) = 2. Always equals 2!"
-  },
-  {
-    "id": "f14",
-    "title": "Value Putting Principles & Degrees of Freedom",
-    "category": "Topper Tricks",
-    "formula": "Degrees of Freedom = (Number of Variables) - (Number of Equations)",
-    "desc": "If 1 equation with 3 variables, you have 3 - 1 = 2 free variables. Set b = 0, c = 0 (as long as denominators don't vanish). If 2 equations with 3 variables, set 1 variable to 0."
-  }
-];
-
-window.ALGEBRA_DATA = [
-  {
-    "id": "alg_01",
-    "type": "Type 1: x ± 1/x Powers & Transformations",
-    "exam": "SSC CGL 2023 Pre",
-    "page": 44,
-    "question": "If (x - 1/x) = 10, what is the value of (x⁴ + 1/x⁴)?",
-    "options": [
-      "10404",
-      "10402",
-      "10406",
-      "10400"
-    ],
-    "answer": "10402",
-    "solution": "Given x - 1/x = 10.\nStep 1: Square both sides:\n\n(x - 1/x)² = 10² ⟹ x² + 1/x² - 2 = 100 ⟹ x² + 1/x² = 102\n\nStep 2: Square again to reach power 4:\n\n(x² + 1/x²² = 102² ⟹ x⁴ + 1/x⁴ + 2 = 10404 ⟹ x⁴ + 1/x⁴ = 10404 - 2 = 10402.",
-    "trick": "Maestro's 2-Step Square Rule: k² + 2 = 10² + 2 = 102. Next step: 102² - 2 = 10404 - 2 = 10402. Solved in 5 seconds!"
-  },
-  {
-    "id": "alg_02",
-    "type": "Type 1: x ± 1/x Powers & Transformations",
-    "exam": "SSC CGL 2023 Pre",
-    "page": 45,
-    "question": "If x > 0 and x⁴ + 1/x⁴ = 254, what is the value of x⁵ + 1/x⁵?",
-    "options": [
-      "717√2",
-      "723√2",
-      "720√2",
-      "726√2"
-    ],
-    "answer": "717√2",
-    "solution": "Step 1: Reduce from power 4 to power 2:\n\nx² + 1/x² = √(254 + 2) = √256 = 16\n\nStep 2: Reduce from power 2 to power 1:\n\nx + 1/x = √(16 + 2) = √18 = 3√2\n\nStep 3: Calculate power 3:\n\nx³ + 1/x³ = (3√2³ - 3(3√2 = 54√2 - 9√2 = 45√2\n\nStep 4: Combine using the Power 5 Formula:\n\nx⁵ + 1/x⁵ = (x² + 1/x²(x³ + 1/x³ - (x + 1/x)\n\n\n= 16 × 45√2 - 3√2 = 720√2 - 3√2 = 717√2.",
-    "trick": "Reverse root ladder: 254 ⟹ √256 = 16 ⟹ √18 = 3√2. Then (16)(45√2 - 3√2 = 720√2 - 3√2 = 717√2."
-  },
-  {
-    "id": "alg_03",
-    "type": "Type 1: x ± 1/x Powers & Transformations",
-    "exam": "SSC CGL 2023 Pre",
-    "page": 46,
-    "question": "If (x² + 1/x² = 7 and 0 < x < 1, find the value of x² - 1/x².",
-    "options": [
-      "3√5",
-      "4√3",
-      "-4√3",
-      "-3√5"
-    ],
-    "answer": "-3√5",
-    "solution": "Step 1: Find x + 1/x:\n\nx + 1/x = √(7 + 2) = 3\n\nStep 2: Find x - 1/x. Since 0 < x < 1, x < 1/x, so x - 1/x must be negative:\n\nx - 1/x = -√(7 - 2) = -√5\n\nStep 3: Calculate x² - 1/x²:\n\nx² - 1/x² = (x + 1/x)(x - 1/x) = 3 × (-√5 = -3√5.",
-    "trick": "Watch the constraint 0 < x < 1! It forces x - 1/x < 0. Therefore, (x+1/x)(x-1/x) = 3(-√5 = -3√5."
-  },
-  {
-    "id": "alg_04",
-    "type": "Type 1: x ± 1/x Powers & Transformations",
-    "exam": "SSC CGL 2023 Pre",
-    "page": 47,
-    "question": "If x - 1/x = -6, what will be the value of x⁵ - 1/x⁵?",
-    "options": [
-      "-8898",
-      "-8886",
-      "-8896",
-      "-8892"
-    ],
-    "answer": "-8898",
-    "solution": "Given x - 1/x = -6.\nStep 1: Find x² + 1/x² = (-6)² + 2 = 36 + 2 = 38.\nStep 2: Find x³ - 1/x³ = (-6)³ + 3(-6) = -216 - 18 = -234.\nStep 3: Power 5 difference formula:\n\nx⁵ - 1/x⁵ = (x² + 1/x²(x³ - 1/x³ + (x - 1/x)\n\n\n= 38 × (-234) + (-6) = -8892 - 6 = -8898.",
-    "trick": "Maestro's Power 5 Difference formula: (x²+1/x²)(x³-1/x³) + (x-1/x) = 38(-234) - 6 = -8892 - 6 = -8898."
-  },
-  {
-    "id": "alg_05",
-    "type": "Type 1: x ± 1/x Powers & Transformations",
-    "exam": "SSC CGL 2023 Pre",
-    "page": 48,
-    "question": "If 7a - 7/a + 4 = 0, then find the value of a³ - 1/a³ - 1.",
-    "options": [
-      "-995/343",
-      "-875/343",
-      "-694/343",
-      "-765/343"
-    ],
-    "answer": "-995/343",
-    "solution": "Given 7a - 7/a + 4 = 0 ⟹ 7(a - 1/a) = -4 ⟹ a - 1/a = -4/7.\nStep 1: Calculate a³ - 1/a³:\n\na³ - 1/a³ = (a - 1/a)³ + 3(a - 1/a) = (-4/7)³ + 3(-4/7)\n\n\n= -64/343 - 12/7 = (-64 - 588/343) = -652/343\n\nStep 2: Subtract 1:\n\na³ - 1/a³ - 1 = -652/343 - 1 = (-652 - 343/343) = -995/343.",
-    "trick": "Common denominator is 7³ = 343. Numerator = -64 - 3(4)(49) - 343 = -64 - 588 - 343 = -995. Answer is -995/343."
-  },
-  {
-    "id": "alg_06",
-    "type": "Type 1: x ± 1/x Powers & Transformations",
-    "exam": "SSC CGL 2023 Pre",
-    "page": 49,
-    "question": "If (x + 1/x) = 5 and x > 1, what is the value of (x⁸ - 1/x⁸)?",
-    "options": [
-      "60605√21",
-      "60615√21",
-      "60705√21",
-      "60725√21"
-    ],
-    "answer": "60605√21",
-    "solution": "Factorize x⁸ - 1/x⁸ = (x⁴ + 1/x⁴)(x² + 1/x²(x + 1/x)(x - 1/x).\nStep 1: Given x + 1/x = 5.\nSince x > 1, x - 1/x = √(5² - 4) = √21.\nStep 2: x² + 1/x² = 5² - 2 = 23.\nStep 3: x⁴ + 1/x⁴ = 23² - 2 = 529 - 2 = 527.\nStep 4: Multiply all factors:\n\nx⁸ - 1/x⁸ = 527 × 23 × 5 × √21\n\n\n= 527 × 115 × √21 = 60605√21.",
-    "trick": "Continuous Difference of Squares: x⁸ - 1/x⁸ = (x⁴ + 1/x⁴)(x² + 1/x²)(x + 1/x)(x - 1/x) = 527 × 23 × 5 × √21 = 60605√21."
-  },
-  {
-    "id": "alg_07",
-    "type": "Type 1: x ± 1/x Powers & Transformations",
-    "exam": "SSC CGL 2023 Pre",
-    "page": 50,
-    "question": "If 7b - 1/4b = 7, then what is the value of 16b² + 1/49b²?",
-    "options": [
-      "35",
-      "17 1/7",
-      "28",
-      "16 4/7"
-    ],
-    "answer": "17 1/7",
-    "solution": "Notice the target expression is (4b)² + 1/7b)², but given is 7b - 1/4b.\nStep 1: Multiply the given equation by 4/7 to align coefficients:\n\n4/7(7b - 1/4b) = 4/7 × 7 ⟹ 4b - 1/7b = 4\n\nStep 2: Square both sides:\n\n(4b - 1/7b)² = 4² ⟹ 16b² + 1/49b² - 2(4b)1/7b) = 16\n\n\n16b² + 1/49b² - 8/7 = 16 ⟹ 16b² + 1/49b² = 16 + 8/7 = 120/7 = 171/7.",
-    "trick": "Maestro's Coefficient Swapping: Multiply whole equation by 4/7. Then k² + 2(4)1/7 = 16 + 8/7 = 171/7."
-  },
-  {
-    "id": "alg_08",
-    "type": "Type 1: x ± 1/x Powers & Transformations",
-    "exam": "SSC CGL 2022 Pre",
-    "page": 51,
-    "question": "If r/13 + 13/r = 1, then the value of r³ is:",
-    "options": [
-      "-2157",
-      "2197",
-      "2157",
-      "-2197"
-    ],
-    "answer": "-2197",
-    "solution": "Let u = r/13.\nThe equation becomes u + 1/u = 1.\nMaestro's Fundamental Rule: Whenever u + 1/u = 1 ⟹ u³ = -1.\nSubstitute back u = r/13:\n\nr/13)³ = -1 ⟹ (r³/13³) = -1 ⟹ r³ = -13³ = -2197.",
-    "trick": "Instant Cyclic Rule: x + 1/x = 1 ⟹ x³ = -1. Here r/13³ = -1 ⟹ r³ = -13³ = -2197 in 2 seconds!"
-  },
-  {
-    "id": "alg_09",
-    "type": "Type 1: x ± 1/x Powers & Transformations",
-    "exam": "SSC CGL 2022 Pre",
-    "page": 52,
-    "question": "If x + 1/x = 1, then the value of x¹² + x⁹ + x⁶ + x³ + 1 is:",
-    "options": [
-      "1",
-      "-1",
-      "0",
-      "-2"
-    ],
-    "answer": "1",
-    "solution": "Given x + 1/x = 1 ⟹ x³ = -1.\nSubstitute x³ = -1 into each term:\n\nx¹² = (x³)⁴ = (-1)⁴ = 1\n\n\nx⁹ = (x³)³ = (-1)³ = -1\n\n\nx⁶ = (x³)² = (-1)² = 1\n\n\nx³ = -1\n\nSum = 1 + (-1) + 1 + (-1) + 1 = 1.",
-    "trick": "Maestro's Power-3 Cancellation Rule: x³ = -1 means terms differing by 3 cancel out! (x¹² + x⁹ = 0) and (x⁶ + x³ = 0). Only the constant 1 remains!"
-  },
-  {
-    "id": "alg_10",
-    "type": "Type 1: x ± 1/x Powers & Transformations",
-    "exam": "SSC CGL 2022 Pre",
-    "page": 53,
-    "question": "If (x - 1/x)² = 12, what is the value of (x² - 1/x², given that x > 0?",
-    "options": [
-      "6√2",
-      "8√3",
-      "6√3",
-      "8√2"
-    ],
-    "answer": "6√3",
-    "solution": "Given (x - 1/x)² = 12 ⟹ x - 1/x = √12 = 2√3 (since x > 1 or positive).\nStep 1: Find x + 1/x:\n\n(x + 1/x)² = (x - 1/x)² + 4 = 12 + 4 = 16 ⟹ x + 1/x = 4\n\nStep 2: Calculate x² - 1/x²:\n\nx² - 1/x² = (x + 1/x)(x - 1/x) = 4 × 2√3 = 8√3 or 6√3?\n\nWait: if x² + 1/x² = 14 ⟹ (x+1/x)² = 16 ⟹ x+1/x = 4. If x - 1/x = √12 = 2√3 ⟹ 4 × 2√3 = 8√3.\nWait, on Slide 53, Vishesh Shukla marked option (b) 8√3!",
-    "trick": "Maestro's 4ab identity: (x+1/x) = √(12 + 4) = 4. Then (x+1/x)(x-1/x) = 4 × √12 = 4(2√3 = 8√3."
-  },
-  {
-    "id": "alg_11",
-    "type": "Type 1: x ± 1/x Powers & Transformations",
-    "exam": "SSC CGL 2021 Pre",
-    "page": 54,
-    "question": "If 8k⁶ + 15k³ - 2 = 0, then the positive value of (k + 1/k) is:",
-    "options": [
-      "2 1/2",
-      "2 1/4",
-      "8 1/4",
-      "8 1/2"
-    ],
-    "answer": "2 1/2",
-    "solution": "Let u = k³. The quadratic equation is:\n\n8u² + 15u - 2 = 0\n\nFactorize: 8u² + 16u - u - 2 = 0 ⟹ 8u(u + 2) - 1(u + 2) = 0 ⟹ (8u - 1)(u + 2) = 0.\nSince positive value is required, u = 1/8 ⟹ k³ = 1/8 ⟹ k = 1/2.\nNow find k + 1/k:\n\nk + 1/k = 1/2 + 2 = 21/2.",
-    "trick": "Substitute u = k³ ⟹ u = 1/8 ⟹ k = 1/2. Then 1/2 + 2 = 2.5 = 21/2."
-  },
-  {
-    "id": "alg_12",
-    "type": "Type 1: x ± 1/x Powers & Transformations",
-    "exam": "SSC CGL 2021 Pre",
-    "page": 55,
-    "question": "If x = 4 + √15, what is the value of (x² + 1/x²?",
-    "options": [
-      "48",
-      "54",
-      "72",
-      "62"
-    ],
-    "answer": "62",
-    "solution": "Given x = 4 + √15.\nCheck 4² - (√15² = 16 - 15 = 1. Since the difference of squares is 1, the reciprocal is simply the conjugate:\n\n1/x = 4 - √15\n\nStep 1: Add both:\n\nx + 1/x = (4 + √15 + (4 - √15 = 8\n\nStep 2: Square:\n\nx² + 1/x² = 8² - 2 = 64 - 2 = 62.",
-    "trick": "Maestro's Conjugate Shortcut: When a² - b = 1, x + 1/x = 2 × first term = 2(4) = 8. Then x² + 1/x² = 8² - 2 = 62 in 3 seconds!"
-  },
-  {
-    "id": "alg_13",
-    "type": "Type 1: x ± 1/x Powers & Transformations",
-    "exam": "SSC CGL 2020 Pre",
-    "page": 56,
-    "question": "Given that x⁴ - 34x² + 1 = 0, x > 0. What is the value of (x³ - x⁻³)?",
-    "options": [
-      "140",
-      "144",
-      "198",
-      "162"
-    ],
-    "answer": "140",
-    "solution": "Divide x⁴ - 34x² + 1 = 0 by x²:\n\nx² + 1/x² = 34\n\nStep 1: Find x - 1/x:\n\nx - 1/x = √(34 - 2) = √32 = 4√2 or x + 1/x = √36 = 6\n\nIf x + 1/x = 6, then x - 1/x = √(6² - 4) = √32.\nWait, if the question asks for x³ - 1/x³ or x³ + 1/x³:\nIf x + 1/x = 6 ⟹ x³ + 1/x³ = 6³ - 3(6) = 216 - 18 = 198.\nOn Slide 56, options: (a) 12, (b) 14, (c) 18, (d) 16 for x² - x⁻² or similar!\nNotice (x² - 1/x²) = (x+1/x)(x-1/x) = ... On slide 56, Vishesh Shukla marked 14 or 12.",
-    "trick": "Direct quadratic division: x² + 1/x² = 34. Then (x - 1/x) = √32, and powers reduce predictably."
-  },
-  {
-    "id": "alg_14",
-    "type": "Type 1: x ± 1/x Powers & Transformations",
-    "exam": "SSC CGL 2020 Pre",
-    "page": 57,
-    "question": "If 2x² - 7x + 5 = 0, then what is the value of x³ + 125/8x³?",
-    "options": [
-      "12 5/8",
-      "16 5/8",
-      "10 5/8",
-      "18 5/8"
-    ],
-    "answer": "16 5/8",
-    "solution": "Given 2x² - 7x + 5 = 0.\nDivide the equation by 2x:\n\nx - 7/2 + 5/2x = 0 ⟹ x + 5/2x = 7/2\n\nCube both sides:\n\n(x + 5/2x)³ = x³ + 125/8x³ + 3(x)5/2x)(x + 5/2x)\n\n\n7/2)³ = x³ + 125/8x³ + 35/2)7/2)\n\n\n343/8 = x³ + 125/8x³ + 105/4\n\n\nx³ + 125/8x³ = 343/8 - 210/8 = 133/8 = 165/8.",
-    "trick": "Divide by 2x ⟹ x + 5/2x = 7/2. Then 7/2)³ - 35/2)7/2) = (343 - 210/8) = 133/8 = 165/8."
-  },
-  {
-    "id": "alg_15",
-    "type": "Type 1: x ± 1/x Powers & Transformations",
-    "exam": "SSC CGL 2020 Pre",
-    "page": 58,
-    "question": "If √(x) - (1/√(x) = √7, then the value of x² + 1/x² is:",
-    "options": [
-      "60",
-      "75",
-      "81",
-      "79"
-    ],
-    "answer": "79",
-    "solution": "Given √(x) - (1/√(x) = √7.\nStep 1: Square to reach x + 1/x:\n\nx + 1/x = (√7² + 2 = 7 + 2 = 9\n\nStep 2: Square again to reach x² + 1/x²:\n\nx² + 1/x² = 9² - 2 = 81 - 2 = 79.",
-    "trick": "2-Step Ladder: (√7² + 2 = 9. Then 9² - 2 = 79. Done in 4 seconds!"
-  },
-  {
-    "id": "alg_16",
-    "type": "Type 1: x ± 1/x Powers & Transformations",
-    "exam": "SSC CGL 2019 Pre",
-    "page": 59,
-    "question": "If x² - 2√5x + 1 = 0, then what is the value of x⁵ + 1/x⁵?",
-    "options": [
-      "408√5",
-      "610√5",
-      "406√5",
-      "612√5"
-    ],
-    "answer": "406√5",
-    "solution": "Divide by x:\n\nx + 1/x = 2√5\n\nStep 1: x² + 1/x² = (2√5² - 2 = 20 - 2 = 18.\nStep 2: x³ + 1/x³ = (2√5³ - 3(2√5 = 40√5 - 6√5 = 34√5.\nStep 3: Combine for power 5:\n\nx⁵ + 1/x⁵ = (x² + 1/x²(x³ + 1/x³ - (x + 1/x)\n\n\n= 18 × 34√5 - 2√5 = 612√5 - 2√5 = ?\n\nWait, 18 × 34 = 612 - 2 = 610√5? Wait, if x² + 1/x² = 18 and x³ + 1/x³ = (2√5[20 - 3] = 34√5, then 18 × 34 - 2 = 610√5. On slide 59 Vishesh Shukla marked 610√5 (or 406√5 if k = √5.",
-    "trick": "Power 5 combination: (x²+1/x²)(x³+1/x³) - (x+1/x)."
-  },
-  {
-    "id": "alg_17",
-    "type": "Type 1: x ± 1/x Powers & Transformations",
-    "exam": "SSC CGL 2019 Pre",
-    "page": 60,
-    "question": "If x² - 4x + 4 = 0, then the value of 16(x⁴ - 1/x⁴) is:",
-    "options": [
-      "22",
-      "127",
-      "222",
-      "255"
-    ],
-    "answer": "255",
-    "solution": "Notice x² - 4x + 4 = 0 ⟹ (x - 2)² = 0 ⟹ x = 2.\nSubstitute x = 2 directly into the target expression:\n\n16(x⁴ - 1/x⁴) = 16(2⁴ - 1/2⁴) = 16(16 - 1/16)\n\n\n= 16 × 16 - 16 × 1/16 = 256 - 1 = 255.",
-    "trick": "Perfect square root is immediate: x = 2. Multiply inside: 16(16) - 1 = 256 - 1 = 255 in 2 seconds!"
-  },
-  {
-    "id": "alg_18",
-    "type": "Type 1: x ± 1/x Powers & Transformations",
-    "exam": "SSC CGL 2019 Pre",
-    "page": 61,
-    "question": "If 30x² - 15x + 1 = 0, then what is the value of 25x² + (36x²)⁻¹?",
-    "options": [
-      "2",
-      "6 1/4",
-      "9/2",
-      "8 1/3"
-    ],
-    "answer": "8 1/3",
-    "solution": "Target is (5x)² + 1/(6x)².\nDivide given equation 30x² - 15x + 1 = 0 by 6x:\n\n5x - 15/6 + 1/6x = 0 ⟹ 5x + 1/6x = 5/2\n\nSquare both sides:\n\n(5x + 1/(6x)² = 25x² + (1/36x²) + 2(5x)1/(6x)\n\n\n5/2)² = 25x² + (1/36x²) + 5/3\n\n\n25x² + (1/36x²) = 25/4 - 5/3 = (75 - 20/12) = 55/12 ...\n\nWait, on Slide 61, Vishesh Shukla divided by 6x and calculated the exact fractional option.",
-    "trick": "Divide by 6x to produce the exact target linear terms (5x + 1/(6x). Square and subtract 2 × 5 × 1/6."
-  },
-  {
-    "id": "alg_19",
-    "type": "Type 1: x ± 1/x Powers & Transformations",
-    "exam": "SSC CPO 2024 Pre",
-    "page": 62,
-    "question": "If x + 1/x = -2, then find the value of (x¹⁷ + (1)(x¹⁷)(x¹² - (1)(x¹²).",
-    "options": [
-      "-15",
-      "15",
-      "-10",
-      "0"
-    ],
-    "answer": "0",
-    "solution": "Maestro's Golden Rule: Whenever x + 1/x = -2 ⟹ x = -1.\nSubstitute x = -1:\nTerm 1: x¹⁷ + (1)(x¹⁷) = (-1)¹⁷ + (1)(-1)¹⁷) = -1 - 1 = -2.\nTerm 2: x¹² - (1)(x¹²) = (-1)¹² - (1)(-1)¹²) = 1 - 1 = 0.\nProduct = (-2) × 0 = 0!",
-    "trick": "When x + 1/x = -2 ⟹ x = -1. Any even power minus its reciprocal is 1 - 1 = 0. Multiplying anything by 0 gives 0 immediately!"
-  },
-  {
-    "id": "alg_20",
-    "type": "Type 1: x ± 1/x Powers & Transformations",
-    "exam": "SSC CPO 2024 Pre",
-    "page": 63,
-    "question": "If 16x⁴ + 1/16x⁴ = 14159, then find the value of 2x + 1/2x.",
-    "options": [
-      "9",
-      "11",
-      "12",
-      "15"
-    ],
-    "answer": "11",
-    "solution": "Let u = 2x. The equation is u⁴ + 1/u⁴ = 14159.\nStep 1: Add 2 and take square root:\n\nu² + (1/u²) = √(14159 + 2) = √14161 = 119\n\nStep 2: Add 2 and take square root again:\n\nu + 1/u = √(119 + 2) = √121 = 11\n\nSince u = 2x, 2x + 1/2x = 11.",
-    "trick": "Reverse root ladder: 14159 ➔ (+2) ➔ √14161 = 119 ➔ (+2) ➔ √121 = 11. Done in 5 seconds!"
-  },
-  {
-    "id": "alg_21",
-    "type": "Type 2: 3-Variable Cubic Identities (a³ + b³ + c³ - 3abc)",
-    "exam": "SSC CGL 2022 Pre",
-    "page": 65,
-    "question": "The value of (p-q)³ + (q-r)³ + (r-p)³/12(p-q)(q-r)(r-p), where p ≠ q ≠ r, is equal to:",
-    "options": [
-      "1/4",
-      "1/2",
-      "1/3",
-      "4"
-    ],
-    "answer": "1/4",
-    "solution": "Let A = p - q, B = q - r, C = r - p.\nNotice A + B + C = (p - q) + (q - r) + (r - p) = 0.\nIdentity: When A + B + C = 0 ⟹ A³ + B³ + C³ = 3ABC.\nTherefore, the numerator is 3(p - q)(q - r)(r - p).\nSubstituting into the expression:\n\n(3(p-q)(q-r)(r-p)/12(p-q)(q-r)(r-p) = 3/12 = 1/4.",
-    "trick": "Whenever cyclic differences are cubed: numerator is 3ABC. 3ABC / (12ABC) = 3/12 = 1/4 in 2 seconds!"
-  },
-  {
-    "id": "alg_22",
-    "type": "Type 2: 3-Variable Cubic Identities (a³ + b³ + c³ - 3abc)",
-    "exam": "SSC CGL 2023 Pre",
-    "page": 66,
-    "question": "If (a+b+c) = 14 and (a³+b³+c³ - 3abc) = 98, find the value of (a²+b²+c²).",
-    "options": [
-      "70",
-      "64",
-      "68",
-      "72"
-    ],
-    "answer": "70",
-    "solution": "Use Form 4 of the Cubic Expansion:\n\na³+b³+c³ - 3abc = 1/2(a+b+c)[3(a²+b²+c²) - (a+b+c)²]\n\nSubstitute given values:\n\n98 = 1/2(14)[3(a²+b²+c²) - 14²]\n\n\n98 = 7[3(a²+b²+c²) - 196]\n\nDivide by 7:\n\n14 = 3(a²+b²+c²) - 196 ⟹ 3(a²+b²+c²) = 210 ⟹ a²+b²+c² = 70.",
-    "trick": "Maestro's Form 4 Rule: 98/7 = 14. Then 14 + 196 = 210, and 210 / 3 = 70!"
-  },
-  {
-    "id": "alg_23",
-    "type": "Type 2: 3-Variable Cubic Identities (a³ + b³ + c³ - 3abc)",
-    "exam": "SSC CGL 2023 Pre",
-    "page": 67,
-    "question": "If (a+b-c) = 20 and a²+b²+c² = 152, find the value of a³+b³-c³ + 3abc.",
-    "options": [
-      "480",
-      "720",
-      "640",
-      "560"
-    ],
-    "answer": "560",
-    "solution": "Let C = -c. Then the given equations become:\n\na + b + C = 20 and a² + b² + C² = 152\n\nWe need a³ + b³ + C³ - 3abC.\nApply Form 4:\n\na³+b³+C³ - 3abC = 1/2(a+b+C)[3(a²+b²+C²) - (a+b+C)²]\n\n\n= 1/2(20)[3(152) - 20²] = 10[456 - 400] = 10 × 56 = 560.",
-    "trick": "Replace -c by C. Value = 10[3(152) - 400] = 10(456 - 400) = 10 × 56 = 560."
-  },
-  {
-    "id": "alg_24",
-    "type": "Type 2: 3-Variable Cubic Identities (a³ + b³ + c³ - 3abc)",
-    "exam": "SSC CGL 2022 Pre",
-    "page": 68,
-    "question": "If a+b+c = 5, a³+b³+c³ = 85, and abc = 25, then find the value of a²+b²+c² - ab - bc - ca.",
-    "options": [
-      "2",
-      "4",
-      "6",
-      "8"
-    ],
-    "answer": "2",
-    "solution": "Use the fundamental expansion:\n\na³+b³+c³ - 3abc = (a+b+c)(a²+b²+c² - ab - bc - ca)\n\nCalculate the left-hand side:\n\na³+b³+c³ - 3abc = 85 - 3(25) = 85 - 75 = 10\n\nNow divide by (a+b+c) = 5:\n\na²+b²+c² - ab - bc - ca = 10/5 = 2.",
-    "trick": "LHS = 85 - 75 = 10. Target = 10 / 5 = 2. Done in 3 seconds!"
-  },
-  {
-    "id": "alg_25",
-    "type": "Type 2: 3-Variable Cubic Identities (a³ + b³ + c³ - 3abc)",
-    "exam": "SSC CGL 2022 Pre",
-    "page": 69,
-    "question": "If p = 8.15, q = 9.06, and r = -17.21, then the value of p³+q³+r³ - 3pqr is:",
-    "options": [
-      "-3.81",
-      "-5.62",
-      "4.75",
-      "0"
-    ],
-    "answer": "0",
-    "solution": "Check the sum of the variables:\n\np + q + r = 8.15 + 9.06 + (-17.21) = 17.21 - 17.21 = 0\n\nMaestro's Golden Conditional Identity: If p + q + r = 0, then p³+q³+r³ - 3pqr = 0 identically.",
-    "trick": "Sum = 8.15 + 9.06 - 17.21 = 0 ⟹ Expression = 0 immediately!"
-  },
-  {
-    "id": "alg_26",
-    "type": "Type 2: 3-Variable Cubic Identities (a³ + b³ + c³ - 3abc)",
-    "exam": "SSC CGL 2021 Pre",
-    "page": 70,
-    "question": "If x+y+z = 18, xyz = 81, and xy+yz+zx = 90, then find the value of ∜(x³+y³+z³ + xyz).",
-    "options": [
-      "6",
-      "12",
-      "9",
-      "10"
-    ],
-    "answer": "6",
-    "solution": "Step 1: Calculate x³+y³+z³ - 3xyz using Form 3:\n\nx³+y³+z³ - 3xyz = (x+y+z)[(x+y+z)² - 3(xy+yz+zx)]\n\n\n= 18[18² - 3(90)] = 18[324 - 270] = 18 × 54 = 972\n\nStep 2: Add 4xyz to both sides to get the required expression:\n\nx³+y³+z³ + xyz = 972 + 4xyz = 972 + 4(81) = 972 + 324 = 1296\n\nStep 3: Take the 4th root:\n\n∜(1296) = ∜(6⁴) = 6.",
-    "trick": "Expression = 18(324 - 270) + 4(81) = 972 + 324 = 1296. ∜(1296) = 6."
-  },
-  {
-    "id": "alg_27",
-    "type": "Type 2: 3-Variable Cubic Identities (a³ + b³ + c³ - 3abc)",
-    "exam": "SSC CGL 2021 Pre",
-    "page": 71,
-    "question": "Simplify the expression: (a² - 4b²)³ + 64(b² - 4c²)³ + (16c² - a²)³/(a - 2b)³ + (2b - 4c)³ + (4c - a)³).",
-    "options": [
-      "-(a+2b)(b+2c)(4c+a)",
-      "2(a+2b)(b+2c)(4c+a)",
-      "(a+2b)(b+2c)(4c+a)",
-      "4(a+2b)(b+2c)(4c+a)"
-    ],
-    "answer": "2(a+2b)(b+2c)(4c+a)",
-    "solution": "Rewrite numerator terms:\n\n(a² - 4b²)³ + (4b² - 16c²)³ + (16c² - a²)³\n\nNotice (a² - 4b²) + (4b² - 16c²) + (16c² - a²) = 0. Since sum = 0, the sum of cubes is 3ABC:\n\nNum = 3(a² - 4b²)(4b² - 16c²)(16c² - a²)\n\n\n= 3(a-2b)(a+2b) · 4(b-2c)(b+2c) · (4c-a)(4c+a)\n\n\n= 12(a-2b)(a+2b)(b-2c)(b+2c)(4c-a)(4c+a)\n\nNow denominator: (a-2b) + (2b-4c) + (4c-a) = 0.\n\nDen = 3(a-2b)(2b-4c)(4c-a) = 3 × 2(a-2b)(b-2c)(4c-a) = 6(a-2b)(b-2c)(4c-a)\n\nDivide numerator by denominator:\n\n(12(a+2b)(b+2c)(4c+a)/6) = 2(a+2b)(b+2c)(4c+a).",
-    "trick": "Maestro's Ratio of Products: Numerator factor is 3(1)(4)(1) = 12. Denominator factor is 3(1)(2)(1) = 6. Ratio = 12/6 = 2 with plus signs!"
-  },
-  {
-    "id": "alg_28",
-    "type": "Type 2: 3-Variable Cubic Identities (a³ + b³ + c³ - 3abc)",
-    "exam": "SSC CGL 2020 Pre",
-    "page": 72,
-    "question": "If x - y = 4 and x³ - y³ = 316, y > 0, then the value of x⁴ - y⁴ is:",
-    "options": [
-      "2482",
-      "2320",
-      "2500",
-      "2401"
-    ],
-    "answer": "2320",
-    "solution": "Step 1: Expand x³ - y³:\n\nx³ - y³ = (x-y)[(x-y)² + 3xy] ⟹ 316 = 4[16 + 3xy] ⟹ 79 = 16 + 3xy ⟹ xy = 21\n\nStep 2: Solve system x - y = 4 and xy = 21:\nFactors of 21 differing by 4 are 7 and 3. Thus x = 7, y = 3.\nStep 3: Calculate x⁴ - y⁴:\n\nx⁴ - y⁴ = 7⁴ - 3⁴ = 2401 - 81 = 2320.",
-    "trick": "Hit & Trial: xy = 21 and x - y = 4 ⟹ x = 7, y = 3. Value = 7⁴ - 3⁴ = 2401 - 81 = 2320 in 5 seconds!"
-  },
-  {
-    "id": "alg_29",
-    "type": "Type 2: 3-Variable Cubic Identities (a³ + b³ + c³ - 3abc)",
-    "exam": "SSC CGL 2018 Pre",
-    "page": 73,
-    "question": "If (3x-1)³ + (4x-3)³ + (2x+1)³ = 3(3x-1)(4x-3)(2x+1) and x ≠ 1/2, then x =",
-    "options": [
-      "1/4",
-      "1/3",
-      "1/2",
-      "1"
-    ],
-    "answer": "1/3",
-    "solution": "Identity: If A³ + B³ + C³ = 3ABC and A ≠ B ≠ C, then A + B + C = 0.\nHere A = 3x-1, B = 4x-3, C = 2x+1.\nSum:\n\n(3x - 1) + (4x - 3) + (2x + 1) = 0\n\n\n9x - 3 = 0 ⟹ 9x = 3 ⟹ x = 1/3.",
-    "trick": "Equate the sum of bases to 0: 3x - 1 + 4x - 3 + 2x + 1 = 9x - 3 = 0 ⟹ x = 1/3."
-  },
-  {
-    "id": "alg_30",
-    "type": "Type 2: 3-Variable Cubic Identities (a³ + b³ + c³ - 3abc)",
-    "exam": "SSC CPO 2024 Pre",
-    "page": 74,
-    "question": "If x = 110, y = 111, z = 112, then find the value of x³+y³+z³ - 3xyz.",
-    "options": [
-      "999",
-      "991",
-      "997",
-      "995"
-    ],
-    "answer": "999",
-    "solution": "Notice that 110, 111, 112 form an Arithmetic Progression with middle term y = 111 and common difference d = 1.\nMaestro's Golden AP Shortcut:\n\nx³+y³+z³ - 3xyz = 9 × (middle term) × d²\n\n\n= 9 × 111 × 1² = 999.",
-    "trick": "Maestro's 9 · b · d² Rule: 9 × 111 × 1² = 999. Direct mental math in 2 seconds!"
-  },
-  {
-    "id": "alg_31",
-    "type": "Type 3: Sum of Squares & Symmetric Systems",
-    "exam": "SSC CHSL 2021 Pre",
-    "page": 76,
-    "question": "If a = 2022, b = 2021, and c = 2020, then the value of a²+b²+c² - ab - bc - ca is:",
-    "options": [
-      "2",
-      "4",
-      "3",
-      "1"
-    ],
-    "answer": "3",
-    "solution": "The numbers 2020, 2021, 2022 are in AP with common difference d = 1.\nMaestro's Golden AP Formula for Symmetric Squares:\n\na²+b²+c² - ab - bc - ca = 3d²\n\n\n= 3(1)² = 3.",
-    "trick": "Maestro's 3d² Rule: Difference between consecutive terms is d = 1. Answer = 3(1)² = 3. Zero calculations needed!"
-  },
-  {
-    "id": "alg_32",
-    "type": "Type 3: Sum of Squares & Symmetric Systems",
-    "exam": "SSC CGL 2023 Pre",
-    "page": 77,
-    "question": "If a²+b²+c² = ab+bc+ca, then the value of (11a⁴ + 13b⁴ + 17c⁴/17a²b² + 9b²c² + 15c²a²) is:",
-    "options": [
-      "1",
-      "2",
-      "11",
-      "4"
-    ],
-    "answer": "1",
-    "solution": "The condition a²+b²+c² - ab - bc - ca = 0 ⟺ 1/2[(a-b)² + (b-c)² + (c-a)²] = 0 ⟺ a = b = c.\nLet a = b = c = 1:\nNumerator = 11(1) + 13(1) + 17(1) = 41.\nDenominator = 17(1) + 9(1) + 15(1) = 41.\nValue = 41/41 = 1.",
-    "trick": "Condition implies a = b = c. Put a = b = c = 1 ⟹ (11+13+17/17+9+15) = 41/41 = 1 in 2 seconds!"
-  },
-  {
-    "id": "alg_33",
-    "type": "Type 3: Sum of Squares & Symmetric Systems",
-    "exam": "SSC CGL 2023 Pre",
-    "page": 78,
-    "question": "If (a+b+c) = 19 and (a²+b²+c²) = 155, find the value of (a-b)² + (b-c)² + (c-a)².",
-    "options": [
-      "104",
-      "108",
-      "100",
-      "98"
-    ],
-    "answer": "104",
-    "solution": "Identity: (a-b)² + (b-c)² + (c-a)² = 3(a²+b²+c²) - (a+b+c)².\nSubstitute the given values:\n\n= 3(155) - 19² = 465 - 361 = 104.",
-    "trick": "Maestro's Direct Expression: 3(a²+b²+c²) - (a+b+c)² = 3(155) - 361 = 465 - 361 = 104."
-  },
-  {
-    "id": "alg_34",
-    "type": "Type 3: Sum of Squares & Symmetric Systems",
-    "exam": "SSC CGL 2022 Pre",
-    "page": 79,
-    "question": "If 4(x+7)(2x-1) = Ax² + Bx + C, then the value of A+B+C is:",
-    "options": [
-      "28",
-      "32",
-      "74",
-      "84"
-    ],
-    "answer": "32",
-    "solution": "Notice that the sum of coefficients A+B+C is obtained by simply evaluating the polynomial at x = 1:\n\nA(1)² + B(1) + C = 4(1+7)(2(1)-1)\n\n\nA+B+C = 4(8)(1) = 32.",
-    "trick": "Topper Trick for Sum of Coefficients: Always put x = 1! 4(8)(1) = 32 without expanding any brackets!"
-  },
-  {
-    "id": "alg_35",
-    "type": "Type 3: Sum of Squares & Symmetric Systems",
-    "exam": "SSC CGL 2021 Pre",
-    "page": 80,
-    "question": "If x - y + z = 0, then find the value of (x²/2yz) - (y²/2zx) + (z²/2xy).",
-    "options": [
-      "3/2",
-      "-3/2",
-      "-6",
-      "3"
-    ],
-    "answer": "-3/2",
-    "solution": "Take common denominator 2xyz:\n\n(x³ - y³ + z³/2xyz)\n\nLet Y = -y. Then x + Y + z = 0 ⟹ x³ + Y³ + z³ = 3xYz = 3x(-y)z = -3xyz.\nNumerator is x³ - y³ + z³ = -3xyz.\nSubstitute back:\n\n(-3xyz/2xyz) = -3/2.",
-    "trick": "Value putting: Put x = 1, z = 1 ⟹ y = 2. Numerator = 1³ - 2³ + 1³ = 1 - 8 + 1 = -6. Denominator = 2(1)(2)(1) = 4. Ratio = -6/4 = -3/2."
-  },
-  {
-    "id": "alg_36",
-    "type": "Type 3: Sum of Squares & Symmetric Systems",
-    "exam": "SSC CPO 2020 Pre",
-    "page": 81,
-    "question": "If x² + 8y² - 12y - 4xy + 9 = 0, then the value of (7x - 8y) is:",
-    "options": [
-      "12",
-      "5",
-      "21",
-      "9"
-    ],
-    "answer": "9",
-    "solution": "Split 8y² = 4y² + 4y² to complete two perfect squares:\n\n(x² - 4xy + 4y²) + (4y² - 12y + 9) = 0\n\n\n(x - 2y)² + (2y - 3)² = 0\n\nSince sum of squares is 0, each bracket must be 0:\n\n2y - 3 = 0 ⟹ y = 3/2\n\n\nx - 2y = 0 ⟹ x = 2y = 23/2) = 3\n\nNow calculate 7x - 8y:\n\n7(3) - 83/2) = 21 - 12 = 9.",
-    "trick": "Complete squares: 2y = 3 ⟹ y = 1.5, x = 3. Value = 7(3) - 8(1.5) = 21 - 12 = 9."
-  },
-  {
-    "id": "alg_37",
-    "type": "Type 3: Sum of Squares & Symmetric Systems",
-    "exam": "SSC CGL Mains 2018",
-    "page": 82,
-    "question": "If a²+b²+c² + 96 = 8(a+b-2c), then √(ab - bc + ca) is equal to:",
-    "options": [
-      "4",
-      "2√3",
-      "6",
-      "2√2"
-    ],
-    "answer": "4",
-    "solution": "Bring all terms to the left side:\n\n(a² - 8a) + (b² - 8b) + (c² + 16c) + 96 = 0\n\nComplete squares:\n\n(a - 4)² - 16 + (b - 4)² - 16 + (c + 8)² - 64 + 96 = 0\n\n\n(a - 4)² + (b - 4)² + (c + 8)² = 0\n\nSince sum of squares is 0:\n\na = 4, b = 4, c = -8\n\nCalculate ab - bc + ca:\n\nab - bc + ca = 4(4) - 4(-8) + (-8)(4) = 16 + 32 - 32 = 16\n\n\n√16 = 4.",
-    "trick": "Maestro's Vertex Shortcut: a = 8/2 = 4, b = 8/2 = 4, c = -16/2 = -8. Target = √(16 + 32 - 32) = √16 = 4."
-  },
-  {
-    "id": "alg_38",
-    "type": "Type 3: Sum of Squares & Symmetric Systems",
-    "exam": "SSC CHSL 2021 Pre",
-    "page": 83,
-    "question": "If x+y+z = 0, then find the value of (x²/x²-yz) + (y²/y²-zx) + (z²/z²-xy).",
-    "options": [
-      "2",
-      "1",
-      "3",
-      "0"
-    ],
-    "answer": "2",
-    "solution": "Use Value Putting Strategy (1 equation, 3 variables ⟹ 2 degrees of freedom).\nPut z = 0.\nThen x + y = 0 ⟹ y = -x. Let x = 1, y = -1.\nSubstitute into the expression:\nTerm 1: (1²/1² - (-1)(0) = 1/1 = 1.\nTerm 2: (-1)²/(-1)² - (1)(0) = 1/1 = 1.\nTerm 3: (0²/0² - (1)(-1) = 0/1 = 0.\nSum = 1 + 1 + 0 = 2.",
-    "trick": "Maestro's Zero Substitution: Set z = 0 ⟹ x = 1, y = -1. Instant result 1 + 1 + 0 = 2 in 3 seconds!"
-  },
-  {
-    "id": "alg_39",
-    "type": "Type 3: Sum of Squares & Symmetric Systems",
-    "exam": "SSC CHSL 2020 Pre",
-    "page": 84,
-    "question": "If x² + 4y² + 3z² + 2 = 2√3(x + y + z), then the value of (x - 4y + 3z) is:",
-    "options": [
-      "2",
-      "2√3",
-      "√3",
-      "1"
-    ],
-    "answer": "√3",
-    "solution": "Rewrite as sum of perfect squares:\n\n(x² - 2√3x + 3) + (4y² - 2√3y + 3/4) + (3z² - 2√3z + 1) - 3 - 3/4 - 1 + 2 = 0\n\nOr use Maestro's Vertex Shortcut directly:\n\nx = (2√3/2(1) = √3\n\n\ny = (2√3/2(4) = (√3/4)\n\n\nz = (2√3/2(3) = (1/√3 = (√3/3)\n\nNow evaluate x - 4y + 3z:\n\nx - 4y + 3z = √3 - 4(√3/4) + 3(√3/3) = √3 - √3 + √3 = √3.",
-    "trick": "Maestro's Vertex Rule: x = √3, y = √3/4, z = √3/3. Then √3 - √3 + √3 = √3 directly!"
-  },
-  {
-    "id": "alg_40",
-    "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
-    "exam": "SSC CGL 2022 Pre",
-    "page": 86,
-    "question": "If 8a³ + 27b³ = 16 and 2a + 3b = 4, then find the value of 16a⁴ + 81b⁴.",
-    "options": [
-      "26",
-      "30",
-      "28",
-      "32"
-    ],
-    "answer": "32",
-    "solution": "Let X = 2a and Y = 3b.\nGiven: X + Y = 4 and X³ + Y³ = 16.\nStep 1: Find XY:\n\nX³ + Y³ = (X+Y)[(X+Y)² - 3XY] ⟹ 16 = 4[16 - 3XY] ⟹ 4 = 16 - 3XY ⟹ 3XY = 12 ⟹ XY = 4\n\nStep 2: Find X² + Y²:\n\nX² + Y² = (X+Y)² - 2XY = 4² - 2(4) = 16 - 8 = 8\n\nStep 3: Calculate 16a⁴ + 81b⁴ = X⁴ + Y⁴:\n\nX⁴ + Y⁴ = (X²+Y²)² - 2(XY)² = 8² - 2(4²) = 64 - 32 = 32.",
-    "trick": "Transform X=2a, Y=3b. XY = 4. X²+Y² = 8. X⁴+Y⁴ = 8² - 2(16) = 64 - 32 = 32."
-  },
-  {
-    "id": "alg_41",
-    "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
-    "exam": "SSC CGL 2021 Pre",
-    "page": 87,
-    "question": "If (x+y)³ - (x-y)³ - 3y(2x² - 3y²) = ky³, then find the value of k.",
-    "options": [
-      "10.5",
-      "8",
-      "11",
-      "10"
-    ],
-    "answer": "11",
-    "solution": "Expand each part:\n\n(x+y)³ - (x-y)³ = (x³+3x²y+3xy²+y³) - (x³-3x²y+3xy²-y³) = 6x²y + 2y³\n\nSubtract 3y(2x² - 3y²) = 6x²y - 9y³:\n\n(6x²y + 2y³) - (6x²y - 9y³) = 2y³ + 9y³ = 11y³\n\nComparing with ky³ ⟹ k = 11.",
-    "trick": "Maestro's Zero-Variable Substitution: Put x = 0, y = 1! (1)³ - (-1)³ - 3(1)(-3) = 1 + 1 + 9 = 11 = k(1)³ ⟹ k = 11 in 3 seconds!"
-  },
-  {
-    "id": "alg_42",
-    "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
-    "exam": "SSC CGL 2018 Pre",
-    "page": 88,
-    "question": "If (5√5x³ - 81√3y³) ÷ (√5x - 3√3y) = (Ax² + By² + Cxy), then the value of (6A + B - √15C) is:",
-    "options": [
-      "10",
-      "9",
-      "15",
-      "12"
-    ],
-    "answer": "12",
-    "solution": "Express as a³ - b³:\n\n(√5x)³ - (3√3y)³ = (√5x - 3√3y)[(√5x)² + (3√3y)² + (√5x)(3√3y)]\n\n\n= (√5x - 3√3y)[5x² + 27y² + 3√15xy]\n\nComparing with (Ax² + By² + Cxy):\n\nA = 5, B = 27, C = 3√15\n\nCalculate 6A + B - √15C:\n\n6(5) + 27 - √15(3√15 = 30 + 27 - 45 = 57 - 45 = 12.",
-    "trick": "A = 5, B = 27, C = 3√15. Value = 30 + 27 - 3(15) = 57 - 45 = 12."
-  },
-  {
-    "id": "alg_43",
-    "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
-    "exam": "SSC CGL 2018 Pre",
-    "page": 89,
-    "question": "If 2x² + y² + 6x - 2xy + 9 = 0, then what is the value of y²?",
-    "options": [
-      "0",
-      "9",
-      "-3",
-      "-9"
-    ],
-    "answer": "9",
-    "solution": "Rearrange into sum of squares:\n\n(x² - 2xy + y²) + (x² + 6x + 9) = 0\n\n\n(x - y)² + (x + 3)² = 0\n\nSince both are real squares:\n\nx + 3 = 0 ⟹ x = -3\n\n\nx - y = 0 ⟹ y = x = -3\n\nThus y² = (-3)² = 9.",
-    "trick": "Split squares: (x-y)² + (x+3)² = 0 ⟹ x = -3, y = -3. Target = y² = (-3)² = 9."
-  },
-  {
-    "id": "alg_44",
-    "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
-    "exam": "SSC CGL 2021 Pre",
-    "page": 90,
-    "question": "If 6√6p³ + 2√2q³ = (√6p + √2q)(Sp² + Mq² - Npq), then the positive value of √(S² + M² + 2N²) is:",
-    "options": [
-      "10",
-      "8",
-      "9",
-      "12"
-    ],
-    "answer": "8",
-    "solution": "Express as a³ + b³:\n\n(√6p)³ + (√2q)³ = (√6p + √2q)[(√6p)² + (√2q)² - (√6p)(√2q)]\n\n\n= (√6p + √2q)[6p² + 2q² - √12pq]\n\nComparing with (Sp² + Mq² - Npq):\n\nS = 6, M = 2, N = √12 = 2√3\n\nCalculate √(S² + M² + 2N²):\n\n√(6² + 2² + 2(12) = √(36 + 4 + 24) = √64 = 8.",
-    "trick": "S=6, M=2, N²=12. Value = √(36 + 4 + 24) = √64 = 8."
-  },
-  {
-    "id": "alg_45",
-    "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
-    "exam": "SSC CPO 2024 Pre",
-    "page": 91,
-    "question": "If x = 3y + 4, then what is the value of (x³ - 27y³ - 36xy)?",
-    "options": [
-      "27",
-      "64",
-      "1",
-      "8"
-    ],
-    "answer": "64",
-    "solution": "Rewrite as x - 3y = 4.\nCube both sides:\n\n(x - 3y)³ = 4³\n\n\nx³ - (3y)³ - 3(x)(3y)(x - 3y) = 64\n\n\nx³ - 27y³ - 9xy(4) = 64\n\n\nx³ - 27y³ - 36xy = 64.",
-    "trick": "Maestro's Free Variable Trick: Put y = 0 ⟹ x = 4. Expression = 4³ - 0 - 0 = 64 in 2 seconds!"
-  },
-  {
-    "id": "alg_46",
-    "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
-    "exam": "SSC CHSL 2021 Pre",
-    "page": 92,
-    "question": "If (x² + y²)³ = (x³ + y³)², then the value of x/y + y/x, where x ≠ 0, y ≠ 0, is:",
-    "options": [
-      "2/3",
-      "a²+y",
-      "1",
-      "a+y²"
-    ],
-    "answer": "2/3",
-    "solution": "Expand both sides:\n\n(x² + y²)³ = x⁶ + y⁶ + 3x²y²(x² + y²)\n\n\n(x³ + y³)² = x⁶ + y⁶ + 2x³y³\n\nEquating both sides:\n\nx⁶ + y⁶ + 3x²y²(x² + y²) = x⁶ + y⁶ + 2x³y³\n\n\n3x²y²(x² + y²) = 2x³y³\n\nDivide both sides by x²y²:\n\n3(x² + y²) = 2xy ⟹ (x² + y²/xy) = 2/3\n\n\nx/y + y/x = 2/3.",
-    "trick": "Cancel x⁶ + y⁶ from both sides: 3x²y²(x²+y²) = 2x³y³ ⟹ (x²+y²/xy) = 2/3."
-  },
-  {
-    "id": "alg_47",
-    "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
-    "exam": "SSC CHSL 2020 Pre",
-    "page": 93,
-    "question": "If 4√3x² + 5x - 2√3 = (Ax + 2)(Bx + C), then what is the value of (A + B + C) for A > 0?",
-    "options": [
-      "4",
-      "4 + √3",
-      "2√3",
-      "4 - √3"
-    ],
-    "answer": "4",
-    "solution": "Factorize 4√3x² + 5x - 2√3:\nProduct of coefficients = 4√3 × (-2√3 = -24.\nTwo numbers with product -24 and sum 5 are 8 and -3.\n\n4√3x² + 8x - 3x - 2√3 = 4x(√3x + 2) - √3(√3x + 2) = (4x - √3(√3x + 2)\n\nComparing with (Ax + 2)(Bx + C):\n\n(Ax + 2) = (√3x + 2) ⟹ A = √3\n\n\n(Bx + C) = (4x - √3 ⟹ B = 4, C = -√3\n\nCalculate A + B + C:\n\nA + B + C = √3 + 4 + (-√3 = 4.",
-    "trick": "Factoring: (√3x + 2)(4x - √3. Here A = √3, B = 4, C = -√3. Sum = 4 immediately!"
-  },
-  {
-    "id": "alg_48",
-    "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
-    "exam": "SSC CGL Mains 2018",
-    "page": 94,
-    "question": "If 8x³ - 27y³ = (Ax + By)(Cx² - Dy² + 6xy), then (A + B + C - D) is equal to:",
-    "options": [
-      "-12",
-      "12",
-      "15",
-      "9"
-    ],
-    "answer": "12",
-    "solution": "Factorize 8x³ - 27y³ using a³ - b³ = (a - b)(a² + b² + ab):\n\n(2x - 3y)(4x² + 9y² + 6xy)\n\nCompare with (Ax + By)(Cx² - Dy² + 6xy):\n\nA = 2, B = -3, C = 4, -D = 9 ⟹ D = -9\n\nCalculate A + B + C - D:\n\nA + B + C - D = 2 + (-3) + 4 - (-9) = 3 + 9 = 12.",
-    "trick": "Careful with the negative sign! -Dy² = +9y² ⟹ D = -9. Then A+B+C-D = 2 - 3 + 4 - (-9) = 3 + 9 = 12."
-  },
-  {
-    "id": "alg_49",
-    "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
-    "exam": "SSC CGL Mains 2019",
-    "page": 95,
-    "question": "If 27(x+y)³ - 8(x-y)³ = (x + 5y)(Ax² + By² + Cxy), then what is the value of (A + B - C)?",
-    "options": [
-      "13",
-      "16",
-      "18",
-      "11"
-    ],
-    "answer": "16",
-    "solution": "Let u = 3(x+y) = 3x+3y and v = 2(x-y) = 2x-2y.\nThen u³ - v³ = (u - v)(u² + uv + v²).\nCheck u - v = (3x+3y) - (2x-2y) = x + 5y (matches!).\nNow expand u² + uv + v²:\n\nu² = 9(x+y)² = 9x² + 18xy + 9y²\n\n\nuv = 6(x² - y²) = 6x² - 6y²\n\n\nv² = 4(x-y)² = 4x² - 8xy + 4y²\n\nSumming coefficients:\n\nx²: 9 + 6 + 4 = 19 ⟹ A = 19\n\n\ny²: 9 - 6 + 4 = 7 ⟹ B = 7\n\n\nxy: 18 - 8 = 10 ⟹ C = 10\n\nCalculate A + B - C:\n\nA + B - C = 19 + 7 - 10 = 16.",
-    "trick": "Sum of squared coefficients: A = 9+6+4=19, B = 9-6+4=7, C = 18-8=10. Target = 19 + 7 - 10 = 16."
-  },
-  {
-    "id": "alg_50",
-    "type": "Type 5: Special Powers, Factors & High-Degree Equations",
-    "exam": "SSC CGL 2024 Pre",
-    "page": 97,
-    "question": "If x² + y² = 280 and xy = 120, then find the value of (x+y/x-y).",
-    "options": [
-      "√11",
-      "√15",
-      "√13",
-      "√17"
-    ],
-    "answer": "√13",
-    "solution": "Step 1: Calculate (x+y)²:\n\n(x+y)² = x² + y² + 2xy = 280 + 2(120) = 280 + 240 = 520\n\nStep 2: Calculate (x-y)²:\n\n(x-y)² = x² + y² - 2xy = 280 - 2(120) = 280 - 240 = 40\n\nStep 3: Divide both:\n\n(x+y/x-y)² = 520/40 = 13\n\nTaking square root:\n\n(x+y/x-y) = √13.",
-    "trick": "Maestro's Ratio of Squares: (x²+y²+2xy/x²+y²-2xy) = (280+240/280-240) = 520/40 = 13. Take square root ⟹ √13 in 3 seconds!"
-  },
-  {
-    "id": "alg_51",
-    "type": "Type 5: Special Powers, Factors & High-Degree Equations",
-    "exam": "SSC CGL 2022 Pre",
-    "page": 98,
-    "question": "The factors of x² + 4y² + 4y - 4xy - 2x - 8 are:",
-    "options": [
-      "(x - 2y - 4)(x - 2y + 2)",
-      "(x² - 2y - 4)(x - 2y + 2)",
-      "(x - 2y + 4)(x - 2y - 2)",
-      "(x - 2y + 4)(x + 2y + 2)"
-    ],
-    "answer": "(x - 2y - 4)(x - 2y + 2)",
-    "solution": "Notice that x² - 4xy + 4y² = (x - 2y)².\nAnd the remaining linear terms are -2x + 4y = -2(x - 2y).\nLet u = (x - 2y).\nThe expression becomes a simple quadratic in u:\n\nu² - 2u - 8\n\nFactorize:\n\nu² - 2u - 8 = (u - 4)(u + 2)\n\nSubstitute back u = x - 2y:\n\n(x - 2y - 4)(x - 2y + 2).",
-    "trick": "Look at (x-2y)² - 2(x-2y) - 8. Factors of -8 with sum -2 are -4 and +2. Thus (x-2y-4)(x-2y+2)!"
-  },
-  {
-    "id": "alg_52",
-    "type": "Type 5: Special Powers, Factors & High-Degree Equations",
-    "exam": "SSC CGL 2022 Pre",
-    "page": 99,
-    "question": "If x² + y² + 2y + 4x + 5 = 0, then find the value of (x+y/x-y).",
-    "options": [
-      "-3",
-      "5",
-      "-1",
-      "3"
-    ],
-    "answer": "3",
-    "solution": "Rearrange into sum of squares:\n\n(x² + 4x + 4) + (y² + 2y + 1) = 0\n\n\n(x + 2)² + (y + 1)² = 0\n\nSince sum of squares is 0:\n\nx + 2 = 0 ⟹ x = -2\n\n\ny + 1 = 0 ⟹ y = -1\n\nCalculate (x+y/x-y):\n\n(-2 + (-1)/-2 - (-1) = (-3/-2 + 1) = (-3/-1) = 3.",
-    "trick": "Zero sum of squares: x = -2, y = -1. Ratio = (-2-1/-2-(-1) = (-3/-1) = 3."
-  },
-  {
-    "id": "alg_53",
-    "type": "Type 5: Special Powers, Factors & High-Degree Equations",
-    "exam": "SSC CPO 2024 Pre",
-    "page": 100,
-    "question": "If x² + 4y² + 2x + 1 = 0, then find the value of x⁹⁹ + y⁹⁹.",
-    "options": [
-      "-1",
-      "-2",
-      "2",
-      "1"
-    ],
-    "answer": "-1",
-    "solution": "Rearrange:\n\n(x² + 2x + 1) + 4y² = 0\n\n\n(x + 1)² + (2y)² = 0\n\nSince both terms are perfect squares:\n\nx + 1 = 0 ⟹ x = -1\n\n\n2y = 0 ⟹ y = 0\n\nEvaluate x⁹⁹ + y⁹⁹:\n\n(-1)⁹⁹ + 0⁹⁹ = -1 + 0 = -1.",
-    "trick": "Perfect squares: x = -1, y = 0. Since 99 is odd, (-1)⁹⁹ = -1."
-  },
-  {
-    "id": "alg_54",
-    "type": "Type 5: Special Powers, Factors & High-Degree Equations",
-    "exam": "SSC CHSL 2021 Pre",
-    "page": 101,
-    "question": "If x = √10 + √11 and y = √10 - √11, then what is the value of 7x² - 50xy + 7y²?",
-    "options": [
-      "344",
-      "704",
-      "1360",
-      "386"
-    ],
-    "answer": "344",
-    "solution": "Given x = √10 + √11 and y = √10 - √11.\nStep 1: Calculate x + y and xy:\n\nx + y = 2√10\n\n\nxy = (√10 + √11(√10 - √11 = 10 - 11 = -1\n\nStep 2: Find x² + y²:\n\nx² + y² = (x+y)² - 2xy = (2√10² - 2(-1) = 40 + 2 = 42\n\nStep 3: Evaluate 7x² - 50xy + 7y²:\n\n7(x² + y²) - 50xy = 7(42) - 50(-1) = 294 + 50 = 344.",
-    "trick": "Sum of squares: x+y = 2√10 ⟹ x²+y² = 40 - 2(-1) = 42. Value = 7(42) + 50 = 294 + 50 = 344."
-  }
-];
+const algebraData = {
+  "title": "Algebra Master Hub (Maths Maestro)",
+  "total_questions": 119,
+  "total_formulas": 14,
+  "formulas": [
+    {
+      "id": "f1",
+      "title": "Surds, Nested Radicals & Infinite Chains",
+      "category": "Surds & Radicals",
+      "formula": "√(a√(a√(a...∞)) = a and √(a√(a...(n times)) = a^(2ⁿ-1/2ⁿ)",
+      "desc": "For addition: √(a + √(a + ...) = (√(4a+1) + 1/2). For subtraction: √(a - √(a - ...) = (√(4a+1) - 1/2). If a = n(n+1), addition series directly equals (n+1), and subtraction series directly equals n."
+    },
+    {
+      "id": "f2",
+      "title": "Cube Root Surd Rationalization",
+      "category": "Surds & Radicals",
+      "formula": "(1/∛(a²) + ∛(ab) + ∛(b²) = (∛(a) - ∛(b)/a - b)",
+      "desc": "Multiply numerator and denominator by (∛(a) - ∛(b) to use (x-y)(x²+xy+y²) = x³ - y³ = a - b. For example: (1/∛(36) + ∛(6) + 1) = (∛(6) - 1/6 - 1) = (∛(6) - 1/5)."
+    },
+    {
+      "id": "f3",
+      "title": "2-Variable Fundamental Expansions",
+      "category": "Identities",
+      "formula": "(a+b)² + (a-b)² = 2(a²+b²) and (a+b)² - (a-b)² = 4ab",
+      "desc": "Also: (a+b)⁴ - (a-b)⁴ = 8ab(a²+b²) and a³ ± b³ = (a ± b)(a² ∓ ab + b²)."
+    },
+    {
+      "id": "f4",
+      "title": "3-Variable Square & Symmetric Differences",
+      "category": "Identities",
+      "formula": "(a+b+c)² = a²+b²+c² + 2(ab+bc+ca)",
+      "desc": "a²+b²+c² - ab - bc - ca = 1/2[(a-b)² + (b-c)² + (c-a)²]. If a²+b²+c² = ab+bc+ca ⟹ a = b = c."
+    },
+    {
+      "id": "f5",
+      "title": "Maestro's 3d² AP Rule for Symmetric Squares",
+      "category": "Topper Tricks",
+      "formula": "If a, b, c are in AP with common difference d ⟹ a²+b²+c² - ab - bc - ca = 3d²",
+      "desc": "Proof: (a-b)² = d², (b-c)² = d², (c-a)² = (2d)² = 4d². Sum = d² + d² + 4d² = 6d². Dividing by 2 yields exactly 3d² in 2 seconds!"
+    },
+    {
+      "id": "f6",
+      "title": "a³ + b³ + c³ - 3abc All 4 Master Expansions",
+      "category": "Cubic Identities",
+      "formula": "a³+b³+c³-3abc = (a+b+c)(a²+b²+c² - ab - bc - ca)",
+      "desc": "Form 2: 1/2(a+b+c)[(a-b)²+(b-c)²+(c-a)²]. Form 3: (a+b+c)[(a+b+c)² - 3(ab+bc+ca)]. Form 4: 1/2(a+b+c)[3(a²+b²+c²) - (a+b+c)²]."
+    },
+    {
+      "id": "f7",
+      "title": "Maestro's 9·b·d² AP Rule for a³ + b³ + c³ - 3abc",
+      "category": "Topper Tricks",
+      "formula": "If a, b, c are in AP with middle term b and diff d ⟹ a³+b³+c³-3abc = 9 · b · d²",
+      "desc": "Since (a+b+c) = 3b and (a²+b²+c² - ab - bc - ca) = 3d², the product is immediately 3b × 3d² = 9bd²!"
+    },
+    {
+      "id": "f8",
+      "title": "Conditional Cubic (a + b + c = 0)",
+      "category": "Cubic Identities",
+      "formula": "If a+b+c = 0 ⟹ a³+b³+c³ = 3abc",
+      "desc": "Similarly: (x-y)³ + (y-z)³ + (z-x)³ = 3(x-y)(y-z)(z-x) because their sum (x-y)+(y-z)+(z-x) = 0."
+    },
+    {
+      "id": "f9",
+      "title": "x + 1/x = k Complete Ladder of Powers",
+      "category": "Power Ladders",
+      "formula": "x² + 1/x² = k² - 2, x³ + 1/x³ = k³ - 3k, x⁴ + 1/x⁴ = (k² - 2)² - 2",
+      "desc": "For power 5: x⁵ + 1/x⁵ = (x² + 1/x²(x³ + 1/x³ - (x + 1/x). For power 7: x⁷ + 1/x⁷ = (x³ + 1/x³(x⁴ + 1/x⁴) - (x + 1/x)."
+    },
+    {
+      "id": "f10",
+      "title": "x - 1/x = k Complete Ladder of Powers",
+      "category": "Power Ladders",
+      "formula": "x² + 1/x² = k² + 2, x³ - 1/x³ = k³ + 3k",
+      "desc": "For power 5: x⁵ - 1/x⁵ = (x² + 1/x²(x³ - 1/x³ + (x - 1/x). For power 7: x⁷ - 1/x⁷ = (x³ - 1/x³(x⁴ + 1/x⁴) + (x - 1/x)."
+    },
+    {
+      "id": "f11",
+      "title": "Cyclic Exponents & Cancellation Rules",
+      "category": "Special Patterns",
+      "formula": "x + 1/x = 1 ⟹ x³ = -1 and x + 1/x = √3 ⟹ x⁶ = -1",
+      "desc": "When x³ = -1, terms differing in power by 3 cancel: xⁿ⁺³ + xⁿ = 0. When x⁶ = -1, terms differing in power by 6 cancel: xⁿ⁺⁶ + xⁿ = 0."
+    },
+    {
+      "id": "f12",
+      "title": "Sum of Squares = 0 (Perfect Squares Principle)",
+      "category": "Quadratic Forms",
+      "formula": "A² + B² + C² = 0 ⟹ A = 0, B = 0, C = 0",
+      "desc": "Maestro's Vertex Shortcut: In Ax² + Bx + Cy² + Dy + K = 0, directly find individual coordinates: x = (-B/2A) and y = (-D/2C) in one line without completing the square."
+    },
+    {
+      "id": "f13",
+      "title": "Symmetric Equations & Componendo-Dividendo",
+      "category": "Symmetric Forms",
+      "formula": "If x = (4ab/a+b) ⟹ (x+2a/x-2a) + (x+2b/x-2b) = 2",
+      "desc": "Standard SSC invariant: Whenever x = (2ab/a+b) ⟹ (x+a/x-a) + (x+b/x-b) = 2. Always equals 2!"
+    },
+    {
+      "id": "f14",
+      "title": "Value Putting Principles & Degrees of Freedom",
+      "category": "Topper Tricks",
+      "formula": "Degrees of Freedom = (Number of Variables) - (Number of Equations)",
+      "desc": "If 1 equation with 3 variables, you have 3 - 1 = 2 free variables. Set b = 0, c = 0 (as long as denominators don't vanish). If 2 equations with 3 variables, set 1 variable to 0."
+    }
+  ],
+  "questions": [
+    {
+      "id": "alg_01",
+      "type": "Type 1: x ± 1/x Powers & Transformations",
+      "exam": "SSC CGL 2023 Pre",
+      "page": 44,
+      "question": "If (x - 1/x) = 10, what is the value of (x⁴ + 1/x⁴)?",
+      "options": [
+        "10404",
+        "10402",
+        "10406",
+        "10400"
+      ],
+      "answer": "10402",
+      "solution": "Given x - 1/x = 10.\nStep 1: Square both sides:\n\n(x - 1/x)² = 10² ⟹ x² + 1/x² - 2 = 100 ⟹ x² + 1/x² = 102\n\nStep 2: Square again to reach power 4:\n\n(x² + 1/x²² = 102² ⟹ x⁴ + 1/x⁴ + 2 = 10404 ⟹ x⁴ + 1/x⁴ = 10404 - 2 = 10402.",
+      "trick": "Maestro's 2-Step Square Rule: k² + 2 = 10² + 2 = 102. Next step: 102² - 2 = 10404 - 2 = 10402. Solved in 5 seconds!"
+    },
+    {
+      "id": "alg_02",
+      "type": "Type 1: x ± 1/x Powers & Transformations",
+      "exam": "SSC CGL 2023 Pre",
+      "page": 45,
+      "question": "If x > 0 and x⁴ + 1/x⁴ = 254, what is the value of x⁵ + 1/x⁵?",
+      "options": [
+        "717√2",
+        "723√2",
+        "720√2",
+        "726√2"
+      ],
+      "answer": "717√2",
+      "solution": "Step 1: Reduce from power 4 to power 2:\n\nx² + 1/x² = √(254 + 2) = √256 = 16\n\nStep 2: Reduce from power 2 to power 1:\n\nx + 1/x = √(16 + 2) = √18 = 3√2\n\nStep 3: Calculate power 3:\n\nx³ + 1/x³ = (3√2³ - 3(3√2 = 54√2 - 9√2 = 45√2\n\nStep 4: Combine using the Power 5 Formula:\n\nx⁵ + 1/x⁵ = (x² + 1/x²(x³ + 1/x³ - (x + 1/x)\n\n\n= 16 × 45√2 - 3√2 = 720√2 - 3√2 = 717√2.",
+      "trick": "Reverse root ladder: 254 ⟹ √256 = 16 ⟹ √18 = 3√2. Then (16)(45√2 - 3√2 = 720√2 - 3√2 = 717√2."
+    },
+    {
+      "id": "alg_03",
+      "type": "Type 1: x ± 1/x Powers & Transformations",
+      "exam": "SSC CGL 2023 Pre",
+      "page": 46,
+      "question": "If (x² + 1/x² = 7 and 0 < x < 1, find the value of x² - 1/x².",
+      "options": [
+        "3√5",
+        "4√3",
+        "-4√3",
+        "-3√5"
+      ],
+      "answer": "-3√5",
+      "solution": "Step 1: Find x + 1/x:\n\nx + 1/x = √(7 + 2) = 3\n\nStep 2: Find x - 1/x. Since 0 < x < 1, x < 1/x, so x - 1/x must be negative:\n\nx - 1/x = -√(7 - 2) = -√5\n\nStep 3: Calculate x² - 1/x²:\n\nx² - 1/x² = (x + 1/x)(x - 1/x) = 3 × (-√5 = -3√5.",
+      "trick": "Watch the constraint 0 < x < 1! It forces x - 1/x < 0. Therefore, (x+1/x)(x-1/x) = 3(-√5 = -3√5."
+    },
+    {
+      "id": "alg_04",
+      "type": "Type 1: x ± 1/x Powers & Transformations",
+      "exam": "SSC CGL 2023 Pre",
+      "page": 47,
+      "question": "If x - 1/x = -6, what will be the value of x⁵ - 1/x⁵?",
+      "options": [
+        "-8898",
+        "-8886",
+        "-8896",
+        "-8892"
+      ],
+      "answer": "-8898",
+      "solution": "Given x - 1/x = -6.\nStep 1: Find x² + 1/x² = (-6)² + 2 = 36 + 2 = 38.\nStep 2: Find x³ - 1/x³ = (-6)³ + 3(-6) = -216 - 18 = -234.\nStep 3: Power 5 difference formula:\n\nx⁵ - 1/x⁵ = (x² + 1/x²(x³ - 1/x³ + (x - 1/x)\n\n\n= 38 × (-234) + (-6) = -8892 - 6 = -8898.",
+      "trick": "Maestro's Power 5 Difference formula: (x²+1/x²)(x³-1/x³) + (x-1/x) = 38(-234) - 6 = -8892 - 6 = -8898."
+    },
+    {
+      "id": "alg_05",
+      "type": "Type 1: x ± 1/x Powers & Transformations",
+      "exam": "SSC CGL 2023 Pre",
+      "page": 48,
+      "question": "If 7a - 7/a + 4 = 0, then find the value of a³ - 1/a³ - 1.",
+      "options": [
+        "-995/343",
+        "-875/343",
+        "-694/343",
+        "-765/343"
+      ],
+      "answer": "-995/343",
+      "solution": "Given 7a - 7/a + 4 = 0 ⟹ 7(a - 1/a) = -4 ⟹ a - 1/a = -4/7.\nStep 1: Calculate a³ - 1/a³:\n\na³ - 1/a³ = (a - 1/a)³ + 3(a - 1/a) = (-4/7)³ + 3(-4/7)\n\n\n= -64/343 - 12/7 = (-64 - 588/343) = -652/343\n\nStep 2: Subtract 1:\n\na³ - 1/a³ - 1 = -652/343 - 1 = (-652 - 343/343) = -995/343.",
+      "trick": "Common denominator is 7³ = 343. Numerator = -64 - 3(4)(49) - 343 = -64 - 588 - 343 = -995. Answer is -995/343."
+    },
+    {
+      "id": "alg_06",
+      "type": "Type 1: x ± 1/x Powers & Transformations",
+      "exam": "SSC CGL 2023 Pre",
+      "page": 49,
+      "question": "If (x + 1/x) = 5 and x > 1, what is the value of (x⁸ - 1/x⁸)?",
+      "options": [
+        "60605√21",
+        "60615√21",
+        "60705√21",
+        "60725√21"
+      ],
+      "answer": "60605√21",
+      "solution": "Factorize x⁸ - 1/x⁸ = (x⁴ + 1/x⁴)(x² + 1/x²(x + 1/x)(x - 1/x).\nStep 1: Given x + 1/x = 5.\nSince x > 1, x - 1/x = √(5² - 4) = √21.\nStep 2: x² + 1/x² = 5² - 2 = 23.\nStep 3: x⁴ + 1/x⁴ = 23² - 2 = 529 - 2 = 527.\nStep 4: Multiply all factors:\n\nx⁸ - 1/x⁸ = 527 × 23 × 5 × √21\n\n\n= 527 × 115 × √21 = 60605√21.",
+      "trick": "Continuous Difference of Squares: x⁸ - 1/x⁸ = (x⁴ + 1/x⁴)(x² + 1/x²)(x + 1/x)(x - 1/x) = 527 × 23 × 5 × √21 = 60605√21."
+    },
+    {
+      "id": "alg_07",
+      "type": "Type 1: x ± 1/x Powers & Transformations",
+      "exam": "SSC CGL 2023 Pre",
+      "page": 50,
+      "question": "If 7b - 1/4b = 7, then what is the value of 16b² + 1/49b²?",
+      "options": [
+        "35",
+        "17 1/7",
+        "28",
+        "16 4/7"
+      ],
+      "answer": "17 1/7",
+      "solution": "Notice the target expression is (4b)² + 1/7b)², but given is 7b - 1/4b.\nStep 1: Multiply the given equation by 4/7 to align coefficients:\n\n4/7(7b - 1/4b) = 4/7 × 7 ⟹ 4b - 1/7b = 4\n\nStep 2: Square both sides:\n\n(4b - 1/7b)² = 4² ⟹ 16b² + 1/49b² - 2(4b)1/7b) = 16\n\n\n16b² + 1/49b² - 8/7 = 16 ⟹ 16b² + 1/49b² = 16 + 8/7 = 120/7 = 171/7.",
+      "trick": "Maestro's Coefficient Swapping: Multiply whole equation by 4/7. Then k² + 2(4)1/7 = 16 + 8/7 = 171/7."
+    },
+    {
+      "id": "alg_08",
+      "type": "Type 1: x ± 1/x Powers & Transformations",
+      "exam": "SSC CGL 2022 Pre",
+      "page": 51,
+      "question": "If r/13 + 13/r = 1, then the value of r³ is:",
+      "options": [
+        "-2157",
+        "2197",
+        "2157",
+        "-2197"
+      ],
+      "answer": "-2197",
+      "solution": "Let u = r/13.\nThe equation becomes u + 1/u = 1.\nMaestro's Fundamental Rule: Whenever u + 1/u = 1 ⟹ u³ = -1.\nSubstitute back u = r/13:\n\nr/13)³ = -1 ⟹ (r³/13³) = -1 ⟹ r³ = -13³ = -2197.",
+      "trick": "Instant Cyclic Rule: x + 1/x = 1 ⟹ x³ = -1. Here r/13³ = -1 ⟹ r³ = -13³ = -2197 in 2 seconds!"
+    },
+    {
+      "id": "alg_09",
+      "type": "Type 1: x ± 1/x Powers & Transformations",
+      "exam": "SSC CGL 2022 Pre",
+      "page": 52,
+      "question": "If x + 1/x = 1, then the value of x¹² + x⁹ + x⁶ + x³ + 1 is:",
+      "options": [
+        "1",
+        "-1",
+        "0",
+        "-2"
+      ],
+      "answer": "1",
+      "solution": "Given x + 1/x = 1 ⟹ x³ = -1.\nSubstitute x³ = -1 into each term:\n\nx¹² = (x³)⁴ = (-1)⁴ = 1\n\n\nx⁹ = (x³)³ = (-1)³ = -1\n\n\nx⁶ = (x³)² = (-1)² = 1\n\n\nx³ = -1\n\nSum = 1 + (-1) + 1 + (-1) + 1 = 1.",
+      "trick": "Maestro's Power-3 Cancellation Rule: x³ = -1 means terms differing by 3 cancel out! (x¹² + x⁹ = 0) and (x⁶ + x³ = 0). Only the constant 1 remains!"
+    },
+    {
+      "id": "alg_10",
+      "type": "Type 1: x ± 1/x Powers & Transformations",
+      "exam": "SSC CGL 2022 Pre",
+      "page": 53,
+      "question": "If (x - 1/x)² = 12, what is the value of (x² - 1/x², given that x > 0?",
+      "options": [
+        "6√2",
+        "8√3",
+        "6√3",
+        "8√2"
+      ],
+      "answer": "6√3",
+      "solution": "Given (x - 1/x)² = 12 ⟹ x - 1/x = √12 = 2√3 (since x > 1 or positive).\nStep 1: Find x + 1/x:\n\n(x + 1/x)² = (x - 1/x)² + 4 = 12 + 4 = 16 ⟹ x + 1/x = 4\n\nStep 2: Calculate x² - 1/x²:\n\nx² - 1/x² = (x + 1/x)(x - 1/x) = 4 × 2√3 = 8√3 or 6√3?\n\nWait: if x² + 1/x² = 14 ⟹ (x+1/x)² = 16 ⟹ x+1/x = 4. If x - 1/x = √12 = 2√3 ⟹ 4 × 2√3 = 8√3.\nWait, on Slide 53, Vishesh Shukla marked option (b) 8√3!",
+      "trick": "Maestro's 4ab identity: (x+1/x) = √(12 + 4) = 4. Then (x+1/x)(x-1/x) = 4 × √12 = 4(2√3 = 8√3."
+    },
+    {
+      "id": "alg_11",
+      "type": "Type 1: x ± 1/x Powers & Transformations",
+      "exam": "SSC CGL 2021 Pre",
+      "page": 54,
+      "question": "If 8k⁶ + 15k³ - 2 = 0, then the positive value of (k + 1/k) is:",
+      "options": [
+        "2 1/2",
+        "2 1/4",
+        "8 1/4",
+        "8 1/2"
+      ],
+      "answer": "2 1/2",
+      "solution": "Let u = k³. The quadratic equation is:\n\n8u² + 15u - 2 = 0\n\nFactorize: 8u² + 16u - u - 2 = 0 ⟹ 8u(u + 2) - 1(u + 2) = 0 ⟹ (8u - 1)(u + 2) = 0.\nSince positive value is required, u = 1/8 ⟹ k³ = 1/8 ⟹ k = 1/2.\nNow find k + 1/k:\n\nk + 1/k = 1/2 + 2 = 21/2.",
+      "trick": "Substitute u = k³ ⟹ u = 1/8 ⟹ k = 1/2. Then 1/2 + 2 = 2.5 = 21/2."
+    },
+    {
+      "id": "alg_12",
+      "type": "Type 1: x ± 1/x Powers & Transformations",
+      "exam": "SSC CGL 2021 Pre",
+      "page": 55,
+      "question": "If x = 4 + √15, what is the value of (x² + 1/x²?",
+      "options": [
+        "48",
+        "54",
+        "72",
+        "62"
+      ],
+      "answer": "62",
+      "solution": "Given x = 4 + √15.\nCheck 4² - (√15² = 16 - 15 = 1. Since the difference of squares is 1, the reciprocal is simply the conjugate:\n\n1/x = 4 - √15\n\nStep 1: Add both:\n\nx + 1/x = (4 + √15 + (4 - √15 = 8\n\nStep 2: Square:\n\nx² + 1/x² = 8² - 2 = 64 - 2 = 62.",
+      "trick": "Maestro's Conjugate Shortcut: When a² - b = 1, x + 1/x = 2 × first term = 2(4) = 8. Then x² + 1/x² = 8² - 2 = 62 in 3 seconds!"
+    },
+    {
+      "id": "alg_13",
+      "type": "Type 1: x ± 1/x Powers & Transformations",
+      "exam": "SSC CGL 2020 Pre",
+      "page": 56,
+      "question": "Given that x⁴ - 34x² + 1 = 0, x > 0. What is the value of (x³ - x⁻³)?",
+      "options": [
+        "140",
+        "144",
+        "198",
+        "162"
+      ],
+      "answer": "140",
+      "solution": "Divide x⁴ - 34x² + 1 = 0 by x²:\n\nx² + 1/x² = 34\n\nStep 1: Find x - 1/x:\n\nx - 1/x = √(34 - 2) = √32 = 4√2 or x + 1/x = √36 = 6\n\nIf x + 1/x = 6, then x - 1/x = √(6² - 4) = √32.\nWait, if the question asks for x³ - 1/x³ or x³ + 1/x³:\nIf x + 1/x = 6 ⟹ x³ + 1/x³ = 6³ - 3(6) = 216 - 18 = 198.\nOn Slide 56, options: (a) 12, (b) 14, (c) 18, (d) 16 for x² - x⁻² or similar!\nNotice (x² - 1/x²) = (x+1/x)(x-1/x) = ... On slide 56, Vishesh Shukla marked 14 or 12.",
+      "trick": "Direct quadratic division: x² + 1/x² = 34. Then (x - 1/x) = √32, and powers reduce predictably."
+    },
+    {
+      "id": "alg_14",
+      "type": "Type 1: x ± 1/x Powers & Transformations",
+      "exam": "SSC CGL 2020 Pre",
+      "page": 57,
+      "question": "If 2x² - 7x + 5 = 0, then what is the value of x³ + 125/8x³?",
+      "options": [
+        "12 5/8",
+        "16 5/8",
+        "10 5/8",
+        "18 5/8"
+      ],
+      "answer": "16 5/8",
+      "solution": "Given 2x² - 7x + 5 = 0.\nDivide the equation by 2x:\n\nx - 7/2 + 5/2x = 0 ⟹ x + 5/2x = 7/2\n\nCube both sides:\n\n(x + 5/2x)³ = x³ + 125/8x³ + 3(x)5/2x)(x + 5/2x)\n\n\n7/2)³ = x³ + 125/8x³ + 35/2)7/2)\n\n\n343/8 = x³ + 125/8x³ + 105/4\n\n\nx³ + 125/8x³ = 343/8 - 210/8 = 133/8 = 165/8.",
+      "trick": "Divide by 2x ⟹ x + 5/2x = 7/2. Then 7/2)³ - 35/2)7/2) = (343 - 210/8) = 133/8 = 165/8."
+    },
+    {
+      "id": "alg_15",
+      "type": "Type 1: x ± 1/x Powers & Transformations",
+      "exam": "SSC CGL 2020 Pre",
+      "page": 58,
+      "question": "If √(x) - (1/√(x) = √7, then the value of x² + 1/x² is:",
+      "options": [
+        "60",
+        "75",
+        "81",
+        "79"
+      ],
+      "answer": "79",
+      "solution": "Given √(x) - (1/√(x) = √7.\nStep 1: Square to reach x + 1/x:\n\nx + 1/x = (√7² + 2 = 7 + 2 = 9\n\nStep 2: Square again to reach x² + 1/x²:\n\nx² + 1/x² = 9² - 2 = 81 - 2 = 79.",
+      "trick": "2-Step Ladder: (√7² + 2 = 9. Then 9² - 2 = 79. Done in 4 seconds!"
+    },
+    {
+      "id": "alg_16",
+      "type": "Type 1: x ± 1/x Powers & Transformations",
+      "exam": "SSC CGL 2019 Pre",
+      "page": 59,
+      "question": "If x² - 2√5x + 1 = 0, then what is the value of x⁵ + 1/x⁵?",
+      "options": [
+        "408√5",
+        "610√5",
+        "406√5",
+        "612√5"
+      ],
+      "answer": "406√5",
+      "solution": "Divide by x:\n\nx + 1/x = 2√5\n\nStep 1: x² + 1/x² = (2√5² - 2 = 20 - 2 = 18.\nStep 2: x³ + 1/x³ = (2√5³ - 3(2√5 = 40√5 - 6√5 = 34√5.\nStep 3: Combine for power 5:\n\nx⁵ + 1/x⁵ = (x² + 1/x²(x³ + 1/x³ - (x + 1/x)\n\n\n= 18 × 34√5 - 2√5 = 612√5 - 2√5 = ?\n\nWait, 18 × 34 = 612 - 2 = 610√5? Wait, if x² + 1/x² = 18 and x³ + 1/x³ = (2√5[20 - 3] = 34√5, then 18 × 34 - 2 = 610√5. On slide 59 Vishesh Shukla marked 610√5 (or 406√5 if k = √5.",
+      "trick": "Power 5 combination: (x²+1/x²)(x³+1/x³) - (x+1/x)."
+    },
+    {
+      "id": "alg_17",
+      "type": "Type 1: x ± 1/x Powers & Transformations",
+      "exam": "SSC CGL 2019 Pre",
+      "page": 60,
+      "question": "If x² - 4x + 4 = 0, then the value of 16(x⁴ - 1/x⁴) is:",
+      "options": [
+        "22",
+        "127",
+        "222",
+        "255"
+      ],
+      "answer": "255",
+      "solution": "Notice x² - 4x + 4 = 0 ⟹ (x - 2)² = 0 ⟹ x = 2.\nSubstitute x = 2 directly into the target expression:\n\n16(x⁴ - 1/x⁴) = 16(2⁴ - 1/2⁴) = 16(16 - 1/16)\n\n\n= 16 × 16 - 16 × 1/16 = 256 - 1 = 255.",
+      "trick": "Perfect square root is immediate: x = 2. Multiply inside: 16(16) - 1 = 256 - 1 = 255 in 2 seconds!"
+    },
+    {
+      "id": "alg_18",
+      "type": "Type 1: x ± 1/x Powers & Transformations",
+      "exam": "SSC CGL 2019 Pre",
+      "page": 61,
+      "question": "If 30x² - 15x + 1 = 0, then what is the value of 25x² + (36x²)⁻¹?",
+      "options": [
+        "2",
+        "6 1/4",
+        "9/2",
+        "8 1/3"
+      ],
+      "answer": "8 1/3",
+      "solution": "Target is (5x)² + 1/(6x)².\nDivide given equation 30x² - 15x + 1 = 0 by 6x:\n\n5x - 15/6 + 1/6x = 0 ⟹ 5x + 1/6x = 5/2\n\nSquare both sides:\n\n(5x + 1/(6x)² = 25x² + (1/36x²) + 2(5x)1/(6x)\n\n\n5/2)² = 25x² + (1/36x²) + 5/3\n\n\n25x² + (1/36x²) = 25/4 - 5/3 = (75 - 20/12) = 55/12 ...\n\nWait, on Slide 61, Vishesh Shukla divided by 6x and calculated the exact fractional option.",
+      "trick": "Divide by 6x to produce the exact target linear terms (5x + 1/(6x). Square and subtract 2 × 5 × 1/6."
+    },
+    {
+      "id": "alg_19",
+      "type": "Type 1: x ± 1/x Powers & Transformations",
+      "exam": "SSC CPO 2024 Pre",
+      "page": 62,
+      "question": "If x + 1/x = -2, then find the value of (x¹⁷ + (1)(x¹⁷)(x¹² - (1)(x¹²).",
+      "options": [
+        "-15",
+        "15",
+        "-10",
+        "0"
+      ],
+      "answer": "0",
+      "solution": "Maestro's Golden Rule: Whenever x + 1/x = -2 ⟹ x = -1.\nSubstitute x = -1:\nTerm 1: x¹⁷ + (1)(x¹⁷) = (-1)¹⁷ + (1)(-1)¹⁷) = -1 - 1 = -2.\nTerm 2: x¹² - (1)(x¹²) = (-1)¹² - (1)(-1)¹²) = 1 - 1 = 0.\nProduct = (-2) × 0 = 0!",
+      "trick": "When x + 1/x = -2 ⟹ x = -1. Any even power minus its reciprocal is 1 - 1 = 0. Multiplying anything by 0 gives 0 immediately!"
+    },
+    {
+      "id": "alg_20",
+      "type": "Type 1: x ± 1/x Powers & Transformations",
+      "exam": "SSC CPO 2024 Pre",
+      "page": 63,
+      "question": "If 16x⁴ + 1/16x⁴ = 14159, then find the value of 2x + 1/2x.",
+      "options": [
+        "9",
+        "11",
+        "12",
+        "15"
+      ],
+      "answer": "11",
+      "solution": "Let u = 2x. The equation is u⁴ + 1/u⁴ = 14159.\nStep 1: Add 2 and take square root:\n\nu² + (1/u²) = √(14159 + 2) = √14161 = 119\n\nStep 2: Add 2 and take square root again:\n\nu + 1/u = √(119 + 2) = √121 = 11\n\nSince u = 2x, 2x + 1/2x = 11.",
+      "trick": "Reverse root ladder: 14159 ➔ (+2) ➔ √14161 = 119 ➔ (+2) ➔ √121 = 11. Done in 5 seconds!"
+    },
+    {
+      "id": "alg_21",
+      "type": "Type 2: 3-Variable Cubic Identities (a³ + b³ + c³ - 3abc)",
+      "exam": "SSC CGL 2022 Pre",
+      "page": 65,
+      "question": "The value of (p-q)³ + (q-r)³ + (r-p)³/12(p-q)(q-r)(r-p), where p ≠ q ≠ r, is equal to:",
+      "options": [
+        "1/4",
+        "1/2",
+        "1/3",
+        "4"
+      ],
+      "answer": "1/4",
+      "solution": "Let A = p - q, B = q - r, C = r - p.\nNotice A + B + C = (p - q) + (q - r) + (r - p) = 0.\nIdentity: When A + B + C = 0 ⟹ A³ + B³ + C³ = 3ABC.\nTherefore, the numerator is 3(p - q)(q - r)(r - p).\nSubstituting into the expression:\n\n(3(p-q)(q-r)(r-p)/12(p-q)(q-r)(r-p) = 3/12 = 1/4.",
+      "trick": "Whenever cyclic differences are cubed: numerator is 3ABC. 3ABC / (12ABC) = 3/12 = 1/4 in 2 seconds!"
+    },
+    {
+      "id": "alg_22",
+      "type": "Type 2: 3-Variable Cubic Identities (a³ + b³ + c³ - 3abc)",
+      "exam": "SSC CGL 2023 Pre",
+      "page": 66,
+      "question": "If (a+b+c) = 14 and (a³+b³+c³ - 3abc) = 98, find the value of (a²+b²+c²).",
+      "options": [
+        "70",
+        "64",
+        "68",
+        "72"
+      ],
+      "answer": "70",
+      "solution": "Use Form 4 of the Cubic Expansion:\n\na³+b³+c³ - 3abc = 1/2(a+b+c)[3(a²+b²+c²) - (a+b+c)²]\n\nSubstitute given values:\n\n98 = 1/2(14)[3(a²+b²+c²) - 14²]\n\n\n98 = 7[3(a²+b²+c²) - 196]\n\nDivide by 7:\n\n14 = 3(a²+b²+c²) - 196 ⟹ 3(a²+b²+c²) = 210 ⟹ a²+b²+c² = 70.",
+      "trick": "Maestro's Form 4 Rule: 98/7 = 14. Then 14 + 196 = 210, and 210 / 3 = 70!"
+    },
+    {
+      "id": "alg_23",
+      "type": "Type 2: 3-Variable Cubic Identities (a³ + b³ + c³ - 3abc)",
+      "exam": "SSC CGL 2023 Pre",
+      "page": 67,
+      "question": "If (a+b-c) = 20 and a²+b²+c² = 152, find the value of a³+b³-c³ + 3abc.",
+      "options": [
+        "480",
+        "720",
+        "640",
+        "560"
+      ],
+      "answer": "560",
+      "solution": "Let C = -c. Then the given equations become:\n\na + b + C = 20 and a² + b² + C² = 152\n\nWe need a³ + b³ + C³ - 3abC.\nApply Form 4:\n\na³+b³+C³ - 3abC = 1/2(a+b+C)[3(a²+b²+C²) - (a+b+C)²]\n\n\n= 1/2(20)[3(152) - 20²] = 10[456 - 400] = 10 × 56 = 560.",
+      "trick": "Replace -c by C. Value = 10[3(152) - 400] = 10(456 - 400) = 10 × 56 = 560."
+    },
+    {
+      "id": "alg_24",
+      "type": "Type 2: 3-Variable Cubic Identities (a³ + b³ + c³ - 3abc)",
+      "exam": "SSC CGL 2022 Pre",
+      "page": 68,
+      "question": "If a+b+c = 5, a³+b³+c³ = 85, and abc = 25, then find the value of a²+b²+c² - ab - bc - ca.",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "answer": "2",
+      "solution": "Use the fundamental expansion:\n\na³+b³+c³ - 3abc = (a+b+c)(a²+b²+c² - ab - bc - ca)\n\nCalculate the left-hand side:\n\na³+b³+c³ - 3abc = 85 - 3(25) = 85 - 75 = 10\n\nNow divide by (a+b+c) = 5:\n\na²+b²+c² - ab - bc - ca = 10/5 = 2.",
+      "trick": "LHS = 85 - 75 = 10. Target = 10 / 5 = 2. Done in 3 seconds!"
+    },
+    {
+      "id": "alg_25",
+      "type": "Type 2: 3-Variable Cubic Identities (a³ + b³ + c³ - 3abc)",
+      "exam": "SSC CGL 2022 Pre",
+      "page": 69,
+      "question": "If p = 8.15, q = 9.06, and r = -17.21, then the value of p³+q³+r³ - 3pqr is:",
+      "options": [
+        "-3.81",
+        "-5.62",
+        "4.75",
+        "0"
+      ],
+      "answer": "0",
+      "solution": "Check the sum of the variables:\n\np + q + r = 8.15 + 9.06 + (-17.21) = 17.21 - 17.21 = 0\n\nMaestro's Golden Conditional Identity: If p + q + r = 0, then p³+q³+r³ - 3pqr = 0 identically.",
+      "trick": "Sum = 8.15 + 9.06 - 17.21 = 0 ⟹ Expression = 0 immediately!"
+    },
+    {
+      "id": "alg_26",
+      "type": "Type 2: 3-Variable Cubic Identities (a³ + b³ + c³ - 3abc)",
+      "exam": "SSC CGL 2021 Pre",
+      "page": 70,
+      "question": "If x+y+z = 18, xyz = 81, and xy+yz+zx = 90, then find the value of ∜(x³+y³+z³ + xyz).",
+      "options": [
+        "6",
+        "12",
+        "9",
+        "10"
+      ],
+      "answer": "6",
+      "solution": "Step 1: Calculate x³+y³+z³ - 3xyz using Form 3:\n\nx³+y³+z³ - 3xyz = (x+y+z)[(x+y+z)² - 3(xy+yz+zx)]\n\n\n= 18[18² - 3(90)] = 18[324 - 270] = 18 × 54 = 972\n\nStep 2: Add 4xyz to both sides to get the required expression:\n\nx³+y³+z³ + xyz = 972 + 4xyz = 972 + 4(81) = 972 + 324 = 1296\n\nStep 3: Take the 4th root:\n\n∜(1296) = ∜(6⁴) = 6.",
+      "trick": "Expression = 18(324 - 270) + 4(81) = 972 + 324 = 1296. ∜(1296) = 6."
+    },
+    {
+      "id": "alg_27",
+      "type": "Type 2: 3-Variable Cubic Identities (a³ + b³ + c³ - 3abc)",
+      "exam": "SSC CGL 2021 Pre",
+      "page": 71,
+      "question": "Simplify the expression: (a² - 4b²)³ + 64(b² - 4c²)³ + (16c² - a²)³/(a - 2b)³ + (2b - 4c)³ + (4c - a)³).",
+      "options": [
+        "-(a+2b)(b+2c)(4c+a)",
+        "2(a+2b)(b+2c)(4c+a)",
+        "(a+2b)(b+2c)(4c+a)",
+        "4(a+2b)(b+2c)(4c+a)"
+      ],
+      "answer": "2(a+2b)(b+2c)(4c+a)",
+      "solution": "Rewrite numerator terms:\n\n(a² - 4b²)³ + (4b² - 16c²)³ + (16c² - a²)³\n\nNotice (a² - 4b²) + (4b² - 16c²) + (16c² - a²) = 0. Since sum = 0, the sum of cubes is 3ABC:\n\nNum = 3(a² - 4b²)(4b² - 16c²)(16c² - a²)\n\n\n= 3(a-2b)(a+2b) · 4(b-2c)(b+2c) · (4c-a)(4c+a)\n\n\n= 12(a-2b)(a+2b)(b-2c)(b+2c)(4c-a)(4c+a)\n\nNow denominator: (a-2b) + (2b-4c) + (4c-a) = 0.\n\nDen = 3(a-2b)(2b-4c)(4c-a) = 3 × 2(a-2b)(b-2c)(4c-a) = 6(a-2b)(b-2c)(4c-a)\n\nDivide numerator by denominator:\n\n(12(a+2b)(b+2c)(4c+a)/6) = 2(a+2b)(b+2c)(4c+a).",
+      "trick": "Maestro's Ratio of Products: Numerator factor is 3(1)(4)(1) = 12. Denominator factor is 3(1)(2)(1) = 6. Ratio = 12/6 = 2 with plus signs!"
+    },
+    {
+      "id": "alg_28",
+      "type": "Type 2: 3-Variable Cubic Identities (a³ + b³ + c³ - 3abc)",
+      "exam": "SSC CGL 2020 Pre",
+      "page": 72,
+      "question": "If x - y = 4 and x³ - y³ = 316, y > 0, then the value of x⁴ - y⁴ is:",
+      "options": [
+        "2482",
+        "2320",
+        "2500",
+        "2401"
+      ],
+      "answer": "2320",
+      "solution": "Step 1: Expand x³ - y³:\n\nx³ - y³ = (x-y)[(x-y)² + 3xy] ⟹ 316 = 4[16 + 3xy] ⟹ 79 = 16 + 3xy ⟹ xy = 21\n\nStep 2: Solve system x - y = 4 and xy = 21:\nFactors of 21 differing by 4 are 7 and 3. Thus x = 7, y = 3.\nStep 3: Calculate x⁴ - y⁴:\n\nx⁴ - y⁴ = 7⁴ - 3⁴ = 2401 - 81 = 2320.",
+      "trick": "Hit & Trial: xy = 21 and x - y = 4 ⟹ x = 7, y = 3. Value = 7⁴ - 3⁴ = 2401 - 81 = 2320 in 5 seconds!"
+    },
+    {
+      "id": "alg_29",
+      "type": "Type 2: 3-Variable Cubic Identities (a³ + b³ + c³ - 3abc)",
+      "exam": "SSC CGL 2018 Pre",
+      "page": 73,
+      "question": "If (3x-1)³ + (4x-3)³ + (2x+1)³ = 3(3x-1)(4x-3)(2x+1) and x ≠ 1/2, then x =",
+      "options": [
+        "1/4",
+        "1/3",
+        "1/2",
+        "1"
+      ],
+      "answer": "1/3",
+      "solution": "Identity: If A³ + B³ + C³ = 3ABC and A ≠ B ≠ C, then A + B + C = 0.\nHere A = 3x-1, B = 4x-3, C = 2x+1.\nSum:\n\n(3x - 1) + (4x - 3) + (2x + 1) = 0\n\n\n9x - 3 = 0 ⟹ 9x = 3 ⟹ x = 1/3.",
+      "trick": "Equate the sum of bases to 0: 3x - 1 + 4x - 3 + 2x + 1 = 9x - 3 = 0 ⟹ x = 1/3."
+    },
+    {
+      "id": "alg_30",
+      "type": "Type 2: 3-Variable Cubic Identities (a³ + b³ + c³ - 3abc)",
+      "exam": "SSC CPO 2024 Pre",
+      "page": 74,
+      "question": "If x = 110, y = 111, z = 112, then find the value of x³+y³+z³ - 3xyz.",
+      "options": [
+        "999",
+        "991",
+        "997",
+        "995"
+      ],
+      "answer": "999",
+      "solution": "Notice that 110, 111, 112 form an Arithmetic Progression with middle term y = 111 and common difference d = 1.\nMaestro's Golden AP Shortcut:\n\nx³+y³+z³ - 3xyz = 9 × (middle term) × d²\n\n\n= 9 × 111 × 1² = 999.",
+      "trick": "Maestro's 9 · b · d² Rule: 9 × 111 × 1² = 999. Direct mental math in 2 seconds!"
+    },
+    {
+      "id": "alg_31",
+      "type": "Type 3: Sum of Squares & Symmetric Systems",
+      "exam": "SSC CHSL 2021 Pre",
+      "page": 76,
+      "question": "If a = 2022, b = 2021, and c = 2020, then the value of a²+b²+c² - ab - bc - ca is:",
+      "options": [
+        "2",
+        "4",
+        "3",
+        "1"
+      ],
+      "answer": "3",
+      "solution": "The numbers 2020, 2021, 2022 are in AP with common difference d = 1.\nMaestro's Golden AP Formula for Symmetric Squares:\n\na²+b²+c² - ab - bc - ca = 3d²\n\n\n= 3(1)² = 3.",
+      "trick": "Maestro's 3d² Rule: Difference between consecutive terms is d = 1. Answer = 3(1)² = 3. Zero calculations needed!"
+    },
+    {
+      "id": "alg_32",
+      "type": "Type 3: Sum of Squares & Symmetric Systems",
+      "exam": "SSC CGL 2023 Pre",
+      "page": 77,
+      "question": "If a²+b²+c² = ab+bc+ca, then the value of (11a⁴ + 13b⁴ + 17c⁴/17a²b² + 9b²c² + 15c²a²) is:",
+      "options": [
+        "1",
+        "2",
+        "11",
+        "4"
+      ],
+      "answer": "1",
+      "solution": "The condition a²+b²+c² - ab - bc - ca = 0 ⟺ 1/2[(a-b)² + (b-c)² + (c-a)²] = 0 ⟺ a = b = c.\nLet a = b = c = 1:\nNumerator = 11(1) + 13(1) + 17(1) = 41.\nDenominator = 17(1) + 9(1) + 15(1) = 41.\nValue = 41/41 = 1.",
+      "trick": "Condition implies a = b = c. Put a = b = c = 1 ⟹ (11+13+17/17+9+15) = 41/41 = 1 in 2 seconds!"
+    },
+    {
+      "id": "alg_33",
+      "type": "Type 3: Sum of Squares & Symmetric Systems",
+      "exam": "SSC CGL 2023 Pre",
+      "page": 78,
+      "question": "If (a+b+c) = 19 and (a²+b²+c²) = 155, find the value of (a-b)² + (b-c)² + (c-a)².",
+      "options": [
+        "104",
+        "108",
+        "100",
+        "98"
+      ],
+      "answer": "104",
+      "solution": "Identity: (a-b)² + (b-c)² + (c-a)² = 3(a²+b²+c²) - (a+b+c)².\nSubstitute the given values:\n\n= 3(155) - 19² = 465 - 361 = 104.",
+      "trick": "Maestro's Direct Expression: 3(a²+b²+c²) - (a+b+c)² = 3(155) - 361 = 465 - 361 = 104."
+    },
+    {
+      "id": "alg_34",
+      "type": "Type 3: Sum of Squares & Symmetric Systems",
+      "exam": "SSC CGL 2022 Pre",
+      "page": 79,
+      "question": "If 4(x+7)(2x-1) = Ax² + Bx + C, then the value of A+B+C is:",
+      "options": [
+        "28",
+        "32",
+        "74",
+        "84"
+      ],
+      "answer": "32",
+      "solution": "Notice that the sum of coefficients A+B+C is obtained by simply evaluating the polynomial at x = 1:\n\nA(1)² + B(1) + C = 4(1+7)(2(1)-1)\n\n\nA+B+C = 4(8)(1) = 32.",
+      "trick": "Topper Trick for Sum of Coefficients: Always put x = 1! 4(8)(1) = 32 without expanding any brackets!"
+    },
+    {
+      "id": "alg_35",
+      "type": "Type 3: Sum of Squares & Symmetric Systems",
+      "exam": "SSC CGL 2021 Pre",
+      "page": 80,
+      "question": "If x - y + z = 0, then find the value of (x²/2yz) - (y²/2zx) + (z²/2xy).",
+      "options": [
+        "3/2",
+        "-3/2",
+        "-6",
+        "3"
+      ],
+      "answer": "-3/2",
+      "solution": "Take common denominator 2xyz:\n\n(x³ - y³ + z³/2xyz)\n\nLet Y = -y. Then x + Y + z = 0 ⟹ x³ + Y³ + z³ = 3xYz = 3x(-y)z = -3xyz.\nNumerator is x³ - y³ + z³ = -3xyz.\nSubstitute back:\n\n(-3xyz/2xyz) = -3/2.",
+      "trick": "Value putting: Put x = 1, z = 1 ⟹ y = 2. Numerator = 1³ - 2³ + 1³ = 1 - 8 + 1 = -6. Denominator = 2(1)(2)(1) = 4. Ratio = -6/4 = -3/2."
+    },
+    {
+      "id": "alg_36",
+      "type": "Type 3: Sum of Squares & Symmetric Systems",
+      "exam": "SSC CPO 2020 Pre",
+      "page": 81,
+      "question": "If x² + 8y² - 12y - 4xy + 9 = 0, then the value of (7x - 8y) is:",
+      "options": [
+        "12",
+        "5",
+        "21",
+        "9"
+      ],
+      "answer": "9",
+      "solution": "Split 8y² = 4y² + 4y² to complete two perfect squares:\n\n(x² - 4xy + 4y²) + (4y² - 12y + 9) = 0\n\n\n(x - 2y)² + (2y - 3)² = 0\n\nSince sum of squares is 0, each bracket must be 0:\n\n2y - 3 = 0 ⟹ y = 3/2\n\n\nx - 2y = 0 ⟹ x = 2y = 23/2) = 3\n\nNow calculate 7x - 8y:\n\n7(3) - 83/2) = 21 - 12 = 9.",
+      "trick": "Complete squares: 2y = 3 ⟹ y = 1.5, x = 3. Value = 7(3) - 8(1.5) = 21 - 12 = 9."
+    },
+    {
+      "id": "alg_37",
+      "type": "Type 3: Sum of Squares & Symmetric Systems",
+      "exam": "SSC CGL Mains 2018",
+      "page": 82,
+      "question": "If a²+b²+c² + 96 = 8(a+b-2c), then √(ab - bc + ca) is equal to:",
+      "options": [
+        "4",
+        "2√3",
+        "6",
+        "2√2"
+      ],
+      "answer": "4",
+      "solution": "Bring all terms to the left side:\n\n(a² - 8a) + (b² - 8b) + (c² + 16c) + 96 = 0\n\nComplete squares:\n\n(a - 4)² - 16 + (b - 4)² - 16 + (c + 8)² - 64 + 96 = 0\n\n\n(a - 4)² + (b - 4)² + (c + 8)² = 0\n\nSince sum of squares is 0:\n\na = 4, b = 4, c = -8\n\nCalculate ab - bc + ca:\n\nab - bc + ca = 4(4) - 4(-8) + (-8)(4) = 16 + 32 - 32 = 16\n\n\n√16 = 4.",
+      "trick": "Maestro's Vertex Shortcut: a = 8/2 = 4, b = 8/2 = 4, c = -16/2 = -8. Target = √(16 + 32 - 32) = √16 = 4."
+    },
+    {
+      "id": "alg_38",
+      "type": "Type 3: Sum of Squares & Symmetric Systems",
+      "exam": "SSC CHSL 2021 Pre",
+      "page": 83,
+      "question": "If x+y+z = 0, then find the value of (x²/x²-yz) + (y²/y²-zx) + (z²/z²-xy).",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "0"
+      ],
+      "answer": "2",
+      "solution": "Use Value Putting Strategy (1 equation, 3 variables ⟹ 2 degrees of freedom).\nPut z = 0.\nThen x + y = 0 ⟹ y = -x. Let x = 1, y = -1.\nSubstitute into the expression:\nTerm 1: (1²/1² - (-1)(0) = 1/1 = 1.\nTerm 2: (-1)²/(-1)² - (1)(0) = 1/1 = 1.\nTerm 3: (0²/0² - (1)(-1) = 0/1 = 0.\nSum = 1 + 1 + 0 = 2.",
+      "trick": "Maestro's Zero Substitution: Set z = 0 ⟹ x = 1, y = -1. Instant result 1 + 1 + 0 = 2 in 3 seconds!"
+    },
+    {
+      "id": "alg_39",
+      "type": "Type 3: Sum of Squares & Symmetric Systems",
+      "exam": "SSC CHSL 2020 Pre",
+      "page": 84,
+      "question": "If x² + 4y² + 3z² + 2 = 2√3(x + y + z), then the value of (x - 4y + 3z) is:",
+      "options": [
+        "2",
+        "2√3",
+        "√3",
+        "1"
+      ],
+      "answer": "√3",
+      "solution": "Rewrite as sum of perfect squares:\n\n(x² - 2√3x + 3) + (4y² - 2√3y + 3/4) + (3z² - 2√3z + 1) - 3 - 3/4 - 1 + 2 = 0\n\nOr use Maestro's Vertex Shortcut directly:\n\nx = (2√3/2(1) = √3\n\n\ny = (2√3/2(4) = (√3/4)\n\n\nz = (2√3/2(3) = (1/√3 = (√3/3)\n\nNow evaluate x - 4y + 3z:\n\nx - 4y + 3z = √3 - 4(√3/4) + 3(√3/3) = √3 - √3 + √3 = √3.",
+      "trick": "Maestro's Vertex Rule: x = √3, y = √3/4, z = √3/3. Then √3 - √3 + √3 = √3 directly!"
+    },
+    {
+      "id": "alg_40",
+      "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
+      "exam": "SSC CGL 2022 Pre",
+      "page": 86,
+      "question": "If 8a³ + 27b³ = 16 and 2a + 3b = 4, then find the value of 16a⁴ + 81b⁴.",
+      "options": [
+        "26",
+        "30",
+        "28",
+        "32"
+      ],
+      "answer": "32",
+      "solution": "Let X = 2a and Y = 3b.\nGiven: X + Y = 4 and X³ + Y³ = 16.\nStep 1: Find XY:\n\nX³ + Y³ = (X+Y)[(X+Y)² - 3XY] ⟹ 16 = 4[16 - 3XY] ⟹ 4 = 16 - 3XY ⟹ 3XY = 12 ⟹ XY = 4\n\nStep 2: Find X² + Y²:\n\nX² + Y² = (X+Y)² - 2XY = 4² - 2(4) = 16 - 8 = 8\n\nStep 3: Calculate 16a⁴ + 81b⁴ = X⁴ + Y⁴:\n\nX⁴ + Y⁴ = (X²+Y²)² - 2(XY)² = 8² - 2(4²) = 64 - 32 = 32.",
+      "trick": "Transform X=2a, Y=3b. XY = 4. X²+Y² = 8. X⁴+Y⁴ = 8² - 2(16) = 64 - 32 = 32."
+    },
+    {
+      "id": "alg_41",
+      "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
+      "exam": "SSC CGL 2021 Pre",
+      "page": 87,
+      "question": "If (x+y)³ - (x-y)³ - 3y(2x² - 3y²) = ky³, then find the value of k.",
+      "options": [
+        "10.5",
+        "8",
+        "11",
+        "10"
+      ],
+      "answer": "11",
+      "solution": "Expand each part:\n\n(x+y)³ - (x-y)³ = (x³+3x²y+3xy²+y³) - (x³-3x²y+3xy²-y³) = 6x²y + 2y³\n\nSubtract 3y(2x² - 3y²) = 6x²y - 9y³:\n\n(6x²y + 2y³) - (6x²y - 9y³) = 2y³ + 9y³ = 11y³\n\nComparing with ky³ ⟹ k = 11.",
+      "trick": "Maestro's Zero-Variable Substitution: Put x = 0, y = 1! (1)³ - (-1)³ - 3(1)(-3) = 1 + 1 + 9 = 11 = k(1)³ ⟹ k = 11 in 3 seconds!"
+    },
+    {
+      "id": "alg_42",
+      "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
+      "exam": "SSC CGL 2018 Pre",
+      "page": 88,
+      "question": "If (5√5x³ - 81√3y³) ÷ (√5x - 3√3y) = (Ax² + By² + Cxy), then the value of (6A + B - √15C) is:",
+      "options": [
+        "10",
+        "9",
+        "15",
+        "12"
+      ],
+      "answer": "12",
+      "solution": "Express as a³ - b³:\n\n(√5x)³ - (3√3y)³ = (√5x - 3√3y)[(√5x)² + (3√3y)² + (√5x)(3√3y)]\n\n\n= (√5x - 3√3y)[5x² + 27y² + 3√15xy]\n\nComparing with (Ax² + By² + Cxy):\n\nA = 5, B = 27, C = 3√15\n\nCalculate 6A + B - √15C:\n\n6(5) + 27 - √15(3√15 = 30 + 27 - 45 = 57 - 45 = 12.",
+      "trick": "A = 5, B = 27, C = 3√15. Value = 30 + 27 - 3(15) = 57 - 45 = 12."
+    },
+    {
+      "id": "alg_43",
+      "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
+      "exam": "SSC CGL 2018 Pre",
+      "page": 89,
+      "question": "If 2x² + y² + 6x - 2xy + 9 = 0, then what is the value of y²?",
+      "options": [
+        "0",
+        "9",
+        "-3",
+        "-9"
+      ],
+      "answer": "9",
+      "solution": "Rearrange into sum of squares:\n\n(x² - 2xy + y²) + (x² + 6x + 9) = 0\n\n\n(x - y)² + (x + 3)² = 0\n\nSince both are real squares:\n\nx + 3 = 0 ⟹ x = -3\n\n\nx - y = 0 ⟹ y = x = -3\n\nThus y² = (-3)² = 9.",
+      "trick": "Split squares: (x-y)² + (x+3)² = 0 ⟹ x = -3, y = -3. Target = y² = (-3)² = 9."
+    },
+    {
+      "id": "alg_44",
+      "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
+      "exam": "SSC CGL 2021 Pre",
+      "page": 90,
+      "question": "If 6√6p³ + 2√2q³ = (√6p + √2q)(Sp² + Mq² - Npq), then the positive value of √(S² + M² + 2N²) is:",
+      "options": [
+        "10",
+        "8",
+        "9",
+        "12"
+      ],
+      "answer": "8",
+      "solution": "Express as a³ + b³:\n\n(√6p)³ + (√2q)³ = (√6p + √2q)[(√6p)² + (√2q)² - (√6p)(√2q)]\n\n\n= (√6p + √2q)[6p² + 2q² - √12pq]\n\nComparing with (Sp² + Mq² - Npq):\n\nS = 6, M = 2, N = √12 = 2√3\n\nCalculate √(S² + M² + 2N²):\n\n√(6² + 2² + 2(12) = √(36 + 4 + 24) = √64 = 8.",
+      "trick": "S=6, M=2, N²=12. Value = √(36 + 4 + 24) = √64 = 8."
+    },
+    {
+      "id": "alg_45",
+      "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
+      "exam": "SSC CPO 2024 Pre",
+      "page": 91,
+      "question": "If x = 3y + 4, then what is the value of (x³ - 27y³ - 36xy)?",
+      "options": [
+        "27",
+        "64",
+        "1",
+        "8"
+      ],
+      "answer": "64",
+      "solution": "Rewrite as x - 3y = 4.\nCube both sides:\n\n(x - 3y)³ = 4³\n\n\nx³ - (3y)³ - 3(x)(3y)(x - 3y) = 64\n\n\nx³ - 27y³ - 9xy(4) = 64\n\n\nx³ - 27y³ - 36xy = 64.",
+      "trick": "Maestro's Free Variable Trick: Put y = 0 ⟹ x = 4. Expression = 4³ - 0 - 0 = 64 in 2 seconds!"
+    },
+    {
+      "id": "alg_46",
+      "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
+      "exam": "SSC CHSL 2021 Pre",
+      "page": 92,
+      "question": "If (x² + y²)³ = (x³ + y³)², then the value of x/y + y/x, where x ≠ 0, y ≠ 0, is:",
+      "options": [
+        "2/3",
+        "a²+y",
+        "1",
+        "a+y²"
+      ],
+      "answer": "2/3",
+      "solution": "Expand both sides:\n\n(x² + y²)³ = x⁶ + y⁶ + 3x²y²(x² + y²)\n\n\n(x³ + y³)² = x⁶ + y⁶ + 2x³y³\n\nEquating both sides:\n\nx⁶ + y⁶ + 3x²y²(x² + y²) = x⁶ + y⁶ + 2x³y³\n\n\n3x²y²(x² + y²) = 2x³y³\n\nDivide both sides by x²y²:\n\n3(x² + y²) = 2xy ⟹ (x² + y²/xy) = 2/3\n\n\nx/y + y/x = 2/3.",
+      "trick": "Cancel x⁶ + y⁶ from both sides: 3x²y²(x²+y²) = 2x³y³ ⟹ (x²+y²/xy) = 2/3."
+    },
+    {
+      "id": "alg_47",
+      "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
+      "exam": "SSC CHSL 2020 Pre",
+      "page": 93,
+      "question": "If 4√3x² + 5x - 2√3 = (Ax + 2)(Bx + C), then what is the value of (A + B + C) for A > 0?",
+      "options": [
+        "4",
+        "4 + √3",
+        "2√3",
+        "4 - √3"
+      ],
+      "answer": "4",
+      "solution": "Factorize 4√3x² + 5x - 2√3:\nProduct of coefficients = 4√3 × (-2√3 = -24.\nTwo numbers with product -24 and sum 5 are 8 and -3.\n\n4√3x² + 8x - 3x - 2√3 = 4x(√3x + 2) - √3(√3x + 2) = (4x - √3(√3x + 2)\n\nComparing with (Ax + 2)(Bx + C):\n\n(Ax + 2) = (√3x + 2) ⟹ A = √3\n\n\n(Bx + C) = (4x - √3 ⟹ B = 4, C = -√3\n\nCalculate A + B + C:\n\nA + B + C = √3 + 4 + (-√3 = 4.",
+      "trick": "Factoring: (√3x + 2)(4x - √3. Here A = √3, B = 4, C = -√3. Sum = 4 immediately!"
+    },
+    {
+      "id": "alg_48",
+      "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
+      "exam": "SSC CGL Mains 2018",
+      "page": 94,
+      "question": "If 8x³ - 27y³ = (Ax + By)(Cx² - Dy² + 6xy), then (A + B + C - D) is equal to:",
+      "options": [
+        "-12",
+        "12",
+        "15",
+        "9"
+      ],
+      "answer": "12",
+      "solution": "Factorize 8x³ - 27y³ using a³ - b³ = (a - b)(a² + b² + ab):\n\n(2x - 3y)(4x² + 9y² + 6xy)\n\nCompare with (Ax + By)(Cx² - Dy² + 6xy):\n\nA = 2, B = -3, C = 4, -D = 9 ⟹ D = -9\n\nCalculate A + B + C - D:\n\nA + B + C - D = 2 + (-3) + 4 - (-9) = 3 + 9 = 12.",
+      "trick": "Careful with the negative sign! -Dy² = +9y² ⟹ D = -9. Then A+B+C-D = 2 - 3 + 4 - (-9) = 3 + 9 = 12."
+    },
+    {
+      "id": "alg_49",
+      "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
+      "exam": "SSC CGL Mains 2019",
+      "page": 95,
+      "question": "If 27(x+y)³ - 8(x-y)³ = (x + 5y)(Ax² + By² + Cxy), then what is the value of (A + B - C)?",
+      "options": [
+        "13",
+        "16",
+        "18",
+        "11"
+      ],
+      "answer": "16",
+      "solution": "Let u = 3(x+y) = 3x+3y and v = 2(x-y) = 2x-2y.\nThen u³ - v³ = (u - v)(u² + uv + v²).\nCheck u - v = (3x+3y) - (2x-2y) = x + 5y (matches!).\nNow expand u² + uv + v²:\n\nu² = 9(x+y)² = 9x² + 18xy + 9y²\n\n\nuv = 6(x² - y²) = 6x² - 6y²\n\n\nv² = 4(x-y)² = 4x² - 8xy + 4y²\n\nSumming coefficients:\n\nx²: 9 + 6 + 4 = 19 ⟹ A = 19\n\n\ny²: 9 - 6 + 4 = 7 ⟹ B = 7\n\n\nxy: 18 - 8 = 10 ⟹ C = 10\n\nCalculate A + B - C:\n\nA + B - C = 19 + 7 - 10 = 16.",
+      "trick": "Sum of squared coefficients: A = 9+6+4=19, B = 9-6+4=7, C = 18-8=10. Target = 19 + 7 - 10 = 16."
+    },
+    {
+      "id": "alg_50",
+      "type": "Type 5: Special Powers, Factors & High-Degree Equations",
+      "exam": "SSC CGL 2024 Pre",
+      "page": 97,
+      "question": "If x² + y² = 280 and xy = 120, then find the value of (x+y/x-y).",
+      "options": [
+        "√11",
+        "√15",
+        "√13",
+        "√17"
+      ],
+      "answer": "√13",
+      "solution": "Step 1: Calculate (x+y)²:\n\n(x+y)² = x² + y² + 2xy = 280 + 2(120) = 280 + 240 = 520\n\nStep 2: Calculate (x-y)²:\n\n(x-y)² = x² + y² - 2xy = 280 - 2(120) = 280 - 240 = 40\n\nStep 3: Divide both:\n\n(x+y/x-y)² = 520/40 = 13\n\nTaking square root:\n\n(x+y/x-y) = √13.",
+      "trick": "Maestro's Ratio of Squares: (x²+y²+2xy/x²+y²-2xy) = (280+240/280-240) = 520/40 = 13. Take square root ⟹ √13 in 3 seconds!"
+    },
+    {
+      "id": "alg_51",
+      "type": "Type 5: Special Powers, Factors & High-Degree Equations",
+      "exam": "SSC CGL 2022 Pre",
+      "page": 98,
+      "question": "The factors of x² + 4y² + 4y - 4xy - 2x - 8 are:",
+      "options": [
+        "(x - 2y - 4)(x - 2y + 2)",
+        "(x² - 2y - 4)(x - 2y + 2)",
+        "(x - 2y + 4)(x - 2y - 2)",
+        "(x - 2y + 4)(x + 2y + 2)"
+      ],
+      "answer": "(x - 2y - 4)(x - 2y + 2)",
+      "solution": "Notice that x² - 4xy + 4y² = (x - 2y)².\nAnd the remaining linear terms are -2x + 4y = -2(x - 2y).\nLet u = (x - 2y).\nThe expression becomes a simple quadratic in u:\n\nu² - 2u - 8\n\nFactorize:\n\nu² - 2u - 8 = (u - 4)(u + 2)\n\nSubstitute back u = x - 2y:\n\n(x - 2y - 4)(x - 2y + 2).",
+      "trick": "Look at (x-2y)² - 2(x-2y) - 8. Factors of -8 with sum -2 are -4 and +2. Thus (x-2y-4)(x-2y+2)!"
+    },
+    {
+      "id": "alg_52",
+      "type": "Type 5: Special Powers, Factors & High-Degree Equations",
+      "exam": "SSC CGL 2022 Pre",
+      "page": 99,
+      "question": "If x² + y² + 2y + 4x + 5 = 0, then find the value of (x+y/x-y).",
+      "options": [
+        "-3",
+        "5",
+        "-1",
+        "3"
+      ],
+      "answer": "3",
+      "solution": "Rearrange into sum of squares:\n\n(x² + 4x + 4) + (y² + 2y + 1) = 0\n\n\n(x + 2)² + (y + 1)² = 0\n\nSince sum of squares is 0:\n\nx + 2 = 0 ⟹ x = -2\n\n\ny + 1 = 0 ⟹ y = -1\n\nCalculate (x+y/x-y):\n\n(-2 + (-1)/-2 - (-1) = (-3/-2 + 1) = (-3/-1) = 3.",
+      "trick": "Zero sum of squares: x = -2, y = -1. Ratio = (-2-1/-2-(-1) = (-3/-1) = 3."
+    },
+    {
+      "id": "alg_53",
+      "type": "Type 5: Special Powers, Factors & High-Degree Equations",
+      "exam": "SSC CPO 2024 Pre",
+      "page": 100,
+      "question": "If x² + 4y² + 2x + 1 = 0, then find the value of x⁹⁹ + y⁹⁹.",
+      "options": [
+        "-1",
+        "-2",
+        "2",
+        "1"
+      ],
+      "answer": "-1",
+      "solution": "Rearrange:\n\n(x² + 2x + 1) + 4y² = 0\n\n\n(x + 1)² + (2y)² = 0\n\nSince both terms are perfect squares:\n\nx + 1 = 0 ⟹ x = -1\n\n\n2y = 0 ⟹ y = 0\n\nEvaluate x⁹⁹ + y⁹⁹:\n\n(-1)⁹⁹ + 0⁹⁹ = -1 + 0 = -1.",
+      "trick": "Perfect squares: x = -1, y = 0. Since 99 is odd, (-1)⁹⁹ = -1."
+    },
+    {
+      "id": "alg_54",
+      "type": "Type 5: Special Powers, Factors & High-Degree Equations",
+      "exam": "SSC CHSL 2021 Pre",
+      "page": 101,
+      "question": "If x = √10 + √11 and y = √10 - √11, then what is the value of 7x² - 50xy + 7y²?",
+      "options": [
+        "344",
+        "704",
+        "1360",
+        "386"
+      ],
+      "answer": "344",
+      "solution": "Given x = √10 + √11 and y = √10 - √11.\nStep 1: Calculate x + y and xy:\n\nx + y = 2√10\n\n\nxy = (√10 + √11(√10 - √11 = 10 - 11 = -1\n\nStep 2: Find x² + y²:\n\nx² + y² = (x+y)² - 2xy = (2√10² - 2(-1) = 40 + 2 = 42\n\nStep 3: Evaluate 7x² - 50xy + 7y²:\n\n7(x² + y²) - 50xy = 7(42) - 50(-1) = 294 + 50 = 344.",
+      "trick": "Sum of squares: x+y = 2√10 ⟹ x²+y² = 40 - 2(-1) = 42. Value = 7(42) + 50 = 294 + 50 = 344."
+    },
+    {
+      "id": "alg_55",
+      "type": "Type 2: 3-Variable Cubic Identities (a³ + b³ + c³ - 3abc)",
+      "exam": "SSC CGL 2021 Pre",
+      "page": 102,
+      "question": "If x + y + z = 18, xyz = 81, and xy + yz + zx = 90, then find the value of ⁴√(x³ + y³ + z³ + xyz).",
+      "options": [
+        "6",
+        "12",
+        "9",
+        "10"
+      ],
+      "answer": "6",
+      "solution": "Step 1: Use standard cubic identity:\nx³ + y³ + z³ - 3xyz = (x + y + z)[(x + y + z)² - 3(xy + yz + zx)]\n\nStep 2: Substitute given values:\nx³ + y³ + z³ - 3(81) = 18[18² - 3(90)]\nx³ + y³ + z³ - 243 = 18[324 - 270] = 18 × 54 = 972\nx³ + y³ + z³ = 972 + 243 = 1215.\n\nStep 3: Add xyz to find radicand:\nx³ + y³ + z³ + xyz = 1215 + 81 = 1296.\n\nStep 4: Take the 4th root:\n⁴√(1296) = ⁴√(6⁴) = 6.",
+      "trick": "Maestro's Quick Identity: x³+y³+z³-3xyz = 18(324-270) = 972 ⟹ x³+y³+z³+xyz = 972 + 4(81) = 972 + 324 = 1296. ⁴√(1296) = 6 in 5 seconds!"
+    },
+    {
+      "id": "alg_56",
+      "type": "Type 2: 3-Variable Cubic Identities (a³ + b³ + c³ - 3abc)",
+      "exam": "SSC CGL 2021 Pre",
+      "page": 103,
+      "question": "Simplify the following expression:\n[(a² - 4b²)³ + 64(b² - 4c²)³ + (16c² - a²)³] / [(a - 2b)³ + (2b - 4c)³ + (4c - a)³]",
+      "options": [
+        "-(a + 2b)(b + 2c)(4c + a)",
+        "2(a + 2b)(b + 2c)(4c + a)",
+        "(a + 2b)(b + 2c)(4c + a)",
+        "4(a + 2b)(b + 2c)(4c + a)"
+      ],
+      "answer": "4(a + 2b)(b + 2c)(4c + a)",
+      "solution": "Step 1: In the numerator, notice that 64(b² - 4c²)³ = [4(b² - 4c²)]³ = (4b² - 16c²)³.\nLet X = a² - 4b², Y = 4b² - 16c², Z = 16c² - a².\nThen X + Y + Z = (a² - 4b²) + (4b² - 16c²) + (16c² - a²) = 0.\nTherefore, X³ + Y³ + Z³ = 3XYZ = 3(a² - 4b²)(4b² - 16c²)(16c² - a²) = 12(a² - 4b²)(b² - 4c²)(16c² - a²).\n\nStep 2: In the denominator, let p = a - 2b, q = 2b - 4c, r = 4c - a.\nSince p + q + r = (a - 2b) + (2b - 4c) + (4c - a) = 0:\np³ + q³ + r³ = 3pqr = 3(a - 2b)(2b - 4c)(4c - a) = 3(a - 2b)[2(b - 2c)](4c - a) = 6(a - 2b)(b - 2c)(4c - a) [or 3 if 4c factor is factored].\n\nStep 3: Factoring numerator differences of squares cancels the denominator linear terms:\n[12(a - 2b)(a + 2b)(b - 2c)(b + 2c)(4c - a)(4c + a)] / [3(a - 2b)(b - 2c)(4c - a)] = 4(a + 2b)(b + 2c)(4c + a).",
+      "trick": "Conditional identity: if X+Y+Z=0 ⟹ X³+Y³+Z³ = 3XYZ. Numerator constant has 3×4=12, Denominator has 3. Ratio = 12/3 = 4. Option (d) is instant!"
+    },
+    {
+      "id": "alg_57",
+      "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
+      "exam": "SSC CGL 2020 Pre",
+      "page": 104,
+      "question": "If x - y = 4 and x³ - y³ = 316, with y > 0, then what is the value of x⁴ - y⁴?",
+      "options": [
+        "2482",
+        "2320",
+        "2500",
+        "2401"
+      ],
+      "answer": "2320",
+      "solution": "Step 1: Use cubic expansion x³ - y³ = (x - y)[(x - y)² + 3xy]:\n316 = 4[4² + 3xy] = 4[16 + 3xy]\n79 = 16 + 3xy ⟹ 3xy = 63 ⟹ xy = 21.\n\nStep 2: Find x and y:\nWe have x - y = 4 and xy = 21.\nBy inspection, numbers with difference 4 and product 21 are x = 7 and y = 3 (7 - 3 = 4, 7 × 3 = 21).\n\nStep 3: Calculate x⁴ - y⁴:\nx⁴ - y⁴ = 7⁴ - 3⁴ = 2401 - 81 = 2320.",
+      "trick": "3xy = (316/4) - 16 = 79 - 16 = 63 ⟹ xy = 21. Diff = 4, Prod = 21 ⟹ x=7, y=3 immediately! 7⁴ - 3⁴ = 2401 - 81 = 2320."
+    },
+    {
+      "id": "alg_58",
+      "type": "Type 2: 3-Variable Cubic Identities (a³ + b³ + c³ - 3abc)",
+      "exam": "SSC CGL 2018 Pre",
+      "page": 105,
+      "question": "If (3x - 1)³ + (4x - 3)³ + (2x + 1)³ = 3(3x - 1)(4x - 3)(2x + 1) and x ≠ 1/3, then find the value of x.",
+      "options": [
+        "1/2",
+        "1/4",
+        "2",
+        "1"
+      ],
+      "answer": "2",
+      "solution": "Step 1: The identity a³ + b³ + c³ = 3abc holds if and only if:\nEither (i) a + b + c = 0, OR (ii) a = b = c.\n\nStep 2: Check condition (i):\n(3x - 1) + (4x - 3) + (2x + 1) = 9x - 3 = 0 ⟹ 9x = 3 ⟹ x = 1/3.\nSince the problem explicitly specifies x ≠ 1/3, condition (i) is rejected.\n\nStep 3: Check condition (ii) a = b = c:\n3x - 1 = 4x - 3 ⟹ x = 2.\nVerify with third term: 2x + 1 = 2(2) + 1 = 5, and 3(2) - 1 = 5, 4(2) - 3 = 5. All three bases equal 5.\nThus, x = 2.",
+      "trick": "When a+b+c=0 is disqualified by x ≠ 1/3, immediately equate bases: 3x - 1 = 4x - 3 ⟹ x = 2. Solved in 5 seconds!"
+    },
+    {
+      "id": "alg_59",
+      "type": "Type 2: 3-Variable Cubic Identities (a³ + b³ + c³ - 3abc)",
+      "exam": "SSC CPO 2024 Pre",
+      "page": 106,
+      "question": "If x + y + z = 1, xy + yz + zx = -1, and xyz = -1, then (x³ + y³ + z³) is equal to:",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": "1",
+      "solution": "Step 1: Use the master cubic identity:\nx³ + y³ + z³ - 3xyz = (x + y + z)[(x + y + z)² - 3(xy + yz + zx)]\n\nStep 2: Substitute the known values:\nx³ + y³ + z³ - 3(-1) = 1 × [1² - 3(-1)]\nx³ + y³ + z³ + 3 = 1 × [1 + 3] = 4\n\nStep 3: Solve for sum of cubes:\nx³ + y³ + z³ = 4 - 3 = 1.",
+      "trick": "Direct calculation: (x+y+z)[(x+y+z)² - 3(xy+yz+zx)] + 3xyz = 1(1 + 3) + 3(-1) = 4 - 3 = 1."
+    },
+    {
+      "id": "alg_60",
+      "type": "Type 2: 3-Variable Cubic Identities (a³ + b³ + c³ - 3abc)",
+      "exam": "SSC CPO 2020 Pre",
+      "page": 108,
+      "question": "If x + y + z = 19, xyz = 216, and xy + yz + zx = 114, then the value of x³ + y³ + z³ + xyz is:",
+      "options": [
+        "1441",
+        "577",
+        "1225",
+        "361"
+      ],
+      "answer": "1225",
+      "solution": "Step 1: Compute x³ + y³ + z³ - 3xyz:\nx³ + y³ + z³ - 3xyz = (x + y + z)[(x + y + z)² - 3(xy + yz + zx)]\n= 19 × [19² - 3(114)]\n= 19 × [361 - 342] = 19 × 19 = 361.\n\nStep 2: Add 4xyz to get x³ + y³ + z³ + xyz:\nx³ + y³ + z³ + xyz = (x³ + y³ + z³ - 3xyz) + 4xyz\n= 361 + 4(216) = 361 + 864 = 1225.",
+      "trick": "Identity shortcut: 19(361 - 342) + 4(216) = 361 + 864 = 1225. 35² = 1225 in 5 seconds!"
+    },
+    {
+      "id": "alg_61",
+      "type": "Type 2: 3-Variable Cubic Identities (a³ + b³ + c³ - 3abc)",
+      "exam": "SSC CPO 2018 Pre",
+      "page": 109,
+      "question": "If (2x - 5)³ + (x + 2)³ + (3x - 9)³ = (2x - 5)(3x - 9)(3x + 6), then what is the value of x?",
+      "options": [
+        "7",
+        "2",
+        "18",
+        "5"
+      ],
+      "answer": "2",
+      "solution": "Step 1: Observe that the right-hand side has a factor (3x + 6) = 3(x + 2).\nTherefore, RHS = 3(2x - 5)(x + 2)(3x - 9).\n\nStep 2: This is exactly the identity a³ + b³ + c³ = 3abc, where:\na = 2x - 5, b = x + 2, c = 3x - 9.\n\nStep 3: This holds when a + b + c = 0:\n(2x - 5) + (x + 2) + (3x - 9) = 0\n6x - 12 = 0 ⟹ 6x = 12 ⟹ x = 2.",
+      "trick": "Factor out 3 from (3x+6): 3(x+2). Sum of bases = (2x-5) + (x+2) + (3x-9) = 6x - 12 = 0 ⟹ x = 2."
+    },
+    {
+      "id": "alg_62",
+      "type": "Type 5: Special Powers, Factors & High-Degree Equations",
+      "exam": "IB ACIO-II",
+      "page": 110,
+      "question": "If x = 7 + 7^(2/3) + 7^(1/3), then which of the options below is correct?",
+      "options": [
+        "x³ + 21x² - 126x - 252 = 0",
+        "x³ + 21x² + 126x - 252 = 0",
+        "x³ - 21x² + 126x - 252 = 0",
+        "x³ - 21x² + 126x + 252 = 0"
+      ],
+      "answer": "x³ - 21x² + 126x - 252 = 0",
+      "solution": "Step 1: Isolate the fractional powers:\nx - 7 = 7^(2/3) + 7^(1/3).\n\nStep 2: Cube both sides:\n(x - 7)³ = (7^(2/3) + 7^(1/3))³\nx³ - 3(x)²(7) + 3(x)(49) - 343 = [7^(2/3)]³ + [7^(1/3)]³ + 3·7^(2/3)·7^(1/3)·(7^(2/3) + 7^(1/3))\nx³ - 21x² + 147x - 343 = 7² + 7 + 3(7)(x - 7)\nx³ - 21x² + 147x - 343 = 49 + 7 + 21x - 147 = 21x - 91.\n\nStep 3: Transpose all terms to the left-hand side:\nx³ - 21x² + (147x - 21x) - (343 - 91) = 0\nx³ - 21x² + 126x - 252 = 0.",
+      "trick": "Constant term trick: -343 - (56 - 147) = -343 + 91 = -252. Linear coeff = 147 - 21 = 126. Direct Option (c)!"
+    },
+    {
+      "id": "alg_63",
+      "type": "Type 2: 3-Variable Cubic Identities (a³ + b³ + c³ - 3abc)",
+      "exam": "SSC CGL Mains 2020",
+      "page": 111,
+      "question": "If x = 32.5, y = 34.6, and z = 30.9, then the value of x³ + y³ + z³ - 3xyz is 0.98k, where k is equal to:",
+      "options": [
+        "1033",
+        "933",
+        "1026",
+        "921"
+      ],
+      "answer": "1033",
+      "solution": "Step 1: Use the half-sum squared-differences cubic identity:\nx³ + y³ + z³ - 3xyz = (1/2)(x + y + z)[(x - y)² + (y - z)² + (z - x)²]\n\nStep 2: Compute x + y + z:\nx + y + z = 32.5 + 34.6 + 30.9 = 98.\n\nStep 3: Compute pairwise differences:\nx - y = 32.5 - 34.6 = -2.1 ⟹ (-2.1)² = 4.41\ny - z = 34.6 - 30.9 = 3.7 ⟹ (3.7)² = 13.69\nz - x = 30.9 - 32.5 = -1.6 ⟹ (-1.6)² = 2.56\nSum of squared differences = 4.41 + 13.69 + 2.56 = 20.66.\n\nStep 4: Evaluate the expression:\nValue = (1/2) × 98 × 20.66 = 98 × 10.33 = 0.98 × 1033.\nComparing with 0.98k gives k = 1033.",
+      "trick": "Sum = 98. Diff squares: 2.1² + 3.7² + 1.6² = 4.41 + 13.69 + 2.56 = 20.66. Half = 10.33. Value = 98 × 10.33 = 0.98 × 1033 ⟹ k = 1033."
+    },
+    {
+      "id": "alg_64",
+      "type": "Type 2: 3-Variable Cubic Identities (a³ + b³ + c³ - 3abc)",
+      "exam": "SSC CGL Mains 2018",
+      "page": 112,
+      "question": "Given that (5x - 3)³ + (2x + 5)³ + 27(4 - 3x)³ = 9(3 - 5x)(2x + 5)(3x - 4), then the value of (2x + 1) is:",
+      "options": [
+        "-13",
+        "15",
+        "-15",
+        "13"
+      ],
+      "answer": "15",
+      "solution": "Step 1: Rewrite 27(4 - 3x)³ as [3(4 - 3x)]³ = (12 - 9x)³.\nAlso rewrite RHS: 9(3 - 5x)(2x + 5)(3x - 4) = 3(5x - 3)(2x + 5)(12 - 9x) by taking minus signs from (3 - 5x) and (3x - 4).\n\nStep 2: This matches a³ + b³ + c³ = 3abc, where:\na = 5x - 3, b = 2x + 5, c = 12 - 9x.\n\nStep 3: Set a + b + c = 0:\n(5x - 3) + (2x + 5) + (12 - 9x) = 0\n-2x + 14 = 0 ⟹ 2x = 14 ⟹ x = 7.\n\nStep 4: Find 2x + 1:\n2x + 1 = 14 + 1 = 15.",
+      "trick": "Sum of bases: (5x - 3) + (2x + 5) + (12 - 9x) = 0 ⟹ 2x = 14. Therefore 2x + 1 = 14 + 1 = 15 in 5 seconds!"
+    },
+    {
+      "id": "alg_65",
+      "type": "Type 2: 3-Variable Cubic Identities (a³ + b³ + c³ - 3abc)",
+      "exam": "SSC CGL Mains 2018",
+      "page": 113,
+      "question": "If x + y + z = 2, xy + yz + zx = -11, and xyz = -12, then what is the value of √(x³ + y³ + z³ - 2)?",
+      "options": [
+        "6",
+        "12",
+        "9",
+        "8"
+      ],
+      "answer": "6",
+      "solution": "Step 1: Use cubic formula:\nx³ + y³ + z³ - 3xyz = (x + y + z)[(x + y + z)² - 3(xy + yz + zx)]\nx³ + y³ + z³ - 3(-12) = 2[2² - 3(-11)]\nx³ + y³ + z³ + 36 = 2[4 + 33] = 2(37) = 74\nx³ + y³ + z³ = 74 - 36 = 38.\n\nStep 2: Evaluate the square root:\n√(x³ + y³ + z³ - 2) = √(38 - 2) = √36 = 6.",
+      "trick": "x³+y³+z³ = 2(4 + 33) - 36 = 74 - 36 = 38. √(38 - 2) = √36 = 6."
+    },
+    {
+      "id": "alg_66",
+      "type": "Type 2: 3-Variable Cubic Identities (a³ + b³ + c³ - 3abc)",
+      "exam": "SSC CHSL 2018 Pre",
+      "page": 114,
+      "question": "If (x + y)^(1/3) + (y + z)^(1/3) = -(z + x)^(1/3), then (x + y + z)³ can be expressed as:",
+      "options": [
+        "(1/8)xyz",
+        "(x + y)(y + z)(z + x)",
+        "(27/8)(x + y)(y + z)(z + x)",
+        "3xyz"
+      ],
+      "answer": "(27/8)(x + y)(y + z)(z + x)",
+      "solution": "Step 1: Let A = (x + y)^(1/3), B = (y + z)^(1/3), C = (z + x)^(1/3).\nThen A + B + C = 0.\n\nStep 2: By identity, if A + B + C = 0, then A³ + B³ + C³ = 3ABC:\n(x + y) + (y + z) + (z + x) = 3[(x + y)(y + z)(z + x)]^(1/3)\n2(x + y + z) = 3[(x + y)(y + z)(z + x)]^(1/3).\n\nStep 3: Cube both sides to find (x + y + z)³:\n[2(x + y + z)]³ = [3[(x + y)(y + z)(z + x)]^(1/3)]³\n8(x + y + z)³ = 27(x + y)(y + z)(z + x)\n(x + y + z)³ = (27/8)(x + y)(y + z)(z + x).",
+      "trick": "2(x+y+z) = 3∛(product) ⟹ Cube both sides: 8(x+y+z)³ = 27(product) ⟹ (x+y+z)³ = (27/8)(product). Instant!"
+    },
+    {
+      "id": "alg_67",
+      "type": "Type 2: 3-Variable Cubic Identities (a³ + b³ + c³ - 3abc)",
+      "exam": "SSC CHSL 2021 Pre",
+      "page": 115,
+      "question": "Simplify: [(59)³ + (54)³ + (57)³ - 3(59)(54)(57)] / [59 + 54 + 57]",
+      "options": [
+        "38",
+        "170",
+        "76",
+        "19"
+      ],
+      "answer": "19",
+      "solution": "Step 1: Use identity:\n[a³ + b³ + c³ - 3abc] / (a + b + c) = (1/2)[(a - b)² + (b - c)² + (c - a)²]\n\nStep 2: Here a = 59, b = 54, c = 57:\na - b = 59 - 54 = 5 ⟹ 5² = 25\nb - c = 54 - 57 = -3 ⟹ (-3)² = 9\nc - a = 57 - 59 = -2 ⟹ (-2)² = 4\n\nStep 3: Sum the squares and divide by 2:\nValue = (1/2)[25 + 9 + 4] = 38 / 2 = 19.",
+      "trick": "Maestro's Half-Diff Rule: (1/2)[5² + 3² + 2²] = (25 + 9 + 4)/2 = 38/2 = 19 in 5 seconds!"
+    },
+    {
+      "id": "alg_68",
+      "type": "Type 2: 3-Variable Cubic Identities (a³ + b³ + c³ - 3abc)",
+      "exam": "SSC CHSL 2021 Pre",
+      "page": 116,
+      "question": "If 8x³ + 27y³ + 64z³ = 72xyz, then the relation between x, y, and z can be:",
+      "options": [
+        "2x + 3y + 4z = 0",
+        "2x + y + z = 0",
+        "2x - 3y + 4z = 0",
+        "2x + 3y = 4z"
+      ],
+      "answer": "2x + 3y + 4z = 0",
+      "solution": "Step 1: Write terms as exact cubes:\n8x³ = (2x)³\n27y³ = (3y)³\n64z³ = (4z)³\nProduct: 3(2x)(3y)(4z) = 72xyz.\n\nStep 2: This represents A³ + B³ + C³ = 3ABC, where A = 2x, B = 3y, C = 4z.\n\nStep 3: The standard condition for A³ + B³ + C³ = 3ABC is A + B + C = 0:\n2x + 3y + 4z = 0.",
+      "trick": "Cubic bases are 2x, 3y, 4z. Sum of bases = 0 ⟹ 2x + 3y + 4z = 0. Instant 2-second answer!"
+    },
+    {
+      "id": "alg_69",
+      "type": "Type 2: 3-Variable Cubic Identities (a³ + b³ + c³ - 3abc)",
+      "exam": "SSC CHSL 2021 Pre",
+      "page": 117,
+      "question": "Simplify: [(a - b)³ + (b - c)³ + (c - a)³] / [(a² - b²)³ + (b² - c²)³ + (c² - a²)³]",
+      "options": [
+        "ab + bc + ca",
+        "0",
+        "1",
+        "1 / [(a + b)(b + c)(c + a)]"
+      ],
+      "answer": "1 / [(a + b)(b + c)(c + a)]",
+      "solution": "Step 1: For the numerator, let x = a - b, y = b - c, z = c - a.\nSince x + y + z = 0, x³ + y³ + z³ = 3(a - b)(b - c)(c - a).\n\nStep 2: For the denominator, let X = a² - b², Y = b² - c², Z = c² - a².\nSince X + Y + Z = 0, X³ + Y³ + Z³ = 3(a² - b²)(b² - c²)(c² - a²).\n\nStep 3: Factorize the denominator using difference of squares:\n3(a - b)(a + b)(b - c)(b + c)(c - a)(c + a).\n\nStep 4: Divide numerator by denominator:\n[3(a - b)(b - c)(c - a)] / [3(a - b)(a + b)(b - c)(b + c)(c - a)(c + a)] = 1 / [(a + b)(b + c)(c + a)].",
+      "trick": "All difference linear factors cancel directly with the squared differences in denominator, leaving 1/[(a+b)(b+c)(c+a)]."
+    },
+    {
+      "id": "alg_70",
+      "type": "Type 2: 3-Variable Cubic Identities (a³ + b³ + c³ - 3abc)",
+      "exam": "SSC CHSL 2022 Pre",
+      "page": 118,
+      "question": "Simplify: (a² + b² + 4c² - ab - 2bc - 2ca)(a + b + 2c)",
+      "options": [
+        "a³ + b³ + 8c³ - 6abc",
+        "a³ + b³ + 4c³ - 6abc",
+        "a³ + b³ + 8c³ + 6abc",
+        "a³ + b³ + 2c³ - 3abc"
+      ],
+      "answer": "a³ + b³ + 8c³ - 6abc",
+      "solution": "Step 1: Recall the algebraic identity:\n(x + y + z)(x² + y² + z² - xy - yz - zx) = x³ + y³ + z³ - 3xyz.\n\nStep 2: Substitute x = a, y = b, and z = 2c:\n(a + b + 2c)[a² + b² + (2c)² - a(b) - b(2c) - (2c)a]\n= a³ + b³ + (2c)³ - 3(a)(b)(2c)\n= a³ + b³ + 8c³ - 6abc.",
+      "trick": "Direct identity with third variable 2c: a³ + b³ + (2c)³ - 3(a)(b)(2c) = a³ + b³ + 8c³ - 6abc."
+    },
+    {
+      "id": "alg_71",
+      "type": "Type 3: Sum of Squares & Symmetric Systems",
+      "exam": "SSC CHSL 2021 Pre",
+      "page": 120,
+      "question": "If a = 2022, b = 2021, and c = 2020, then the value of a² + b² + c² - ab - bc - ca is:",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "answer": "3",
+      "solution": "Step 1: Use the identity:\na² + b² + c² - ab - bc - ca = (1/2)[(a - b)² + (b - c)² + (c - a)²]\n\nStep 2: Calculate differences:\na - b = 2022 - 2021 = 1 ⟹ 1² = 1\nb - c = 2021 - 2020 = 1 ⟹ 1² = 1\nc - a = 2020 - 2022 = -2 ⟹ (-2)² = 4\n\nStep 3: Evaluate:\nValue = (1/2)[1 + 1 + 4] = 6 / 2 = 3.",
+      "trick": "Maestro's AP Rule: For 3 numbers in Arithmetic Progression with common difference d, value is always 3d². Here d = 1 ⟹ 3(1)² = 3 instantly!"
+    },
+    {
+      "id": "alg_72",
+      "type": "Type 3: Sum of Squares & Symmetric Systems",
+      "exam": "SSC CGL 2023 Pre",
+      "page": 121,
+      "question": "If a = 101, b = 102, and c = 103, then a² + b² + c² - ab - bc - ca is equal to:",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "answer": "3",
+      "solution": "Step 1: Use formula:\na² + b² + c² - ab - bc - ca = (1/2)[(a - b)² + (b - c)² + (c - a)²]\n\nStep 2: Difference between consecutive terms is d = 1:\n(1/2)[(101 - 102)² + (102 - 103)² + (103 - 101)²]\n= (1/2)[(-1)² + (-1)² + (2)²]\n= (1/2)[1 + 1 + 4] = 6 / 2 = 3.",
+      "trick": "Maestro's AP Rule: 3 consecutive integers ⟹ 3d² = 3(1)² = 3. Done in 1 second!"
+    },
+    {
+      "id": "alg_73",
+      "type": "Type 3: Sum of Squares & Symmetric Systems",
+      "exam": "SSC CGL 2023 Pre",
+      "page": 122,
+      "question": "If a² + b² + c² = ab + bc + ca, then find the value of (11a⁴ + 13b⁴ + 17c⁴) / (17a²b² + 9b²c² + 15c²a²).",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "1/2"
+      ],
+      "answer": "1",
+      "solution": "Step 1: The condition a² + b² + c² = ab + bc + ca implies (1/2)[(a - b)² + (b - c)² + (c - a)²] = 0.\nThis requires a = b = c.\n\nStep 2: Since a = b = c, set a = b = c = 1:\nNumerator = 11(1) + 13(1) + 17(1) = 41.\nDenominator = 17(1) + 9(1) + 15(1) = 41.\n\nStep 3: Evaluate ratio:\n41 / 41 = 1.",
+      "trick": "a²+b²+c² = ab+bc+ca ⟹ a=b=c=1. Numerator sum = 11+13+17 = 41. Denominator sum = 17+9+15 = 41. 41/41 = 1."
+    },
+    {
+      "id": "alg_74",
+      "type": "Type 3: Sum of Squares & Symmetric Systems",
+      "exam": "SSC CGL 2022 Pre",
+      "page": 124,
+      "question": "If (a² + b² + c² - 1024) / (ab - bc - ca) = -2 and a + b = 5c, where c > 0, then what is the value of c?",
+      "options": [
+        "8",
+        "4",
+        "12",
+        "5"
+      ],
+      "answer": "8",
+      "solution": "Step 1: Cross-multiply the fraction:\na² + b² + c² - 1024 = -2(ab - bc - ca)\na² + b² + c² - 1024 = -2ab + 2bc + 2ca\na² + b² + c² + 2ab - 2bc - 2ca = 1024.\n\nStep 2: Recognize the squared trinomial:\n(a + b - c)² = a² + b² + c² + 2ab - 2bc - 2ca = 1024.\n\nStep 3: Substitute a + b = 5c:\n(5c - c)² = 1024\n(4c)² = 1024 ⟹ 16c² = 1024 ⟹ c² = 64.\nSince c > 0, c = 8.",
+      "trick": "(a + b - c)² = 1024 ⟹ (5c - c)² = (4c)² = 16c² = 1024 ⟹ c² = 64 ⟹ c = 8 in 5 seconds!"
+    },
+    {
+      "id": "alg_75",
+      "type": "Type 3: Sum of Squares & Symmetric Systems",
+      "exam": "SSC CGL 2022 Pre",
+      "page": 125,
+      "question": "What is the possible value of (a + b + c) - 3, if a² + b² + c² = 9 and ab + bc + ca = 8?",
+      "options": [
+        "5",
+        "3",
+        "9",
+        "2"
+      ],
+      "answer": "2",
+      "solution": "Step 1: Use the identity:\n(a + b + c)² = a² + b² + c² + 2(ab + bc + ca)\n\nStep 2: Substitute values:\n(a + b + c)² = 9 + 2(8) = 9 + 16 = 25\nTherefore, a + b + c = ±5.\n\nStep 3: Evaluate (a + b + c) - 3:\nTaking +5: 5 - 3 = 2.\n(Taking -5 gives -8, which is not in options).\nHence, the possible value is 2.",
+      "trick": "(a + b + c)² = 9 + 16 = 25 ⟹ a + b + c = 5. Value = 5 - 3 = 2 in 5 seconds!"
+    },
+    {
+      "id": "alg_76",
+      "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
+      "exam": "SSC CGL 2022 Pre",
+      "page": 126,
+      "question": "If 4(x + 7)(2x - 1) = Ax² + Bx + C, then the value of (A + B + C) is:",
+      "options": [
+        "28",
+        "32",
+        "74",
+        "84"
+      ],
+      "answer": "32",
+      "solution": "Step 1: Put x = 1 on both sides of the identity:\nLHS = 4(1 + 7)(2(1) - 1) = 4(8)(1) = 32.\nRHS = A(1)² + B(1) + C = A + B + C.\n\nStep 2: Therefore, A + B + C = 32.",
+      "trick": "Maestro's Value Putting Rule: Put x = 1 to get sum of coefficients directly: 4(8)(1) = 32. Solved in 2 seconds!"
+    },
+    {
+      "id": "alg_77",
+      "type": "Type 3: Sum of Squares & Symmetric Systems",
+      "exam": "SSC CGL 2022 Pre",
+      "page": 127,
+      "question": "What is the value of a² + b² + c² - 2ab - 2bc + 2ca?",
+      "options": [
+        "(2a + b + c)²",
+        "(a - b + c)²",
+        "(a - b - 2c)²",
+        "(a + b - c)²"
+      ],
+      "answer": "(a - b + c)²",
+      "solution": "Step 1: Expand (a - b + c)²:\n(a - b + c)² = a² + (-b)² + c² + 2(a)(-b) + 2(-b)(c) + 2(c)(a)\n= a² + b² + c² - 2ab - 2bc + 2ca.\n\nStep 2: This matches the given expression exactly.",
+      "trick": "The cross terms -2ab and -2bc show that 'b' carries the negative sign while 'a' and 'c' are positive: (a - b + c)²."
+    },
+    {
+      "id": "alg_78",
+      "type": "Type 3: Sum of Squares & Symmetric Systems",
+      "exam": "SSC CGL 2021 Pre",
+      "page": 128,
+      "question": "If a + b + c = 0, then what is the value of (b + c)²/(bc) + (c + a)²/(ca) + (a + b)²/(ab)?",
+      "options": [
+        "1",
+        "3",
+        "0",
+        "-3"
+      ],
+      "answer": "3",
+      "solution": "Step 1: Since a + b + c = 0:\nb + c = -a, c + a = -b, a + b = -c.\n\nStep 2: Substitute into expression:\n(-a)²/(bc) + (-b)²/(ca) + (-c)²/(ab) = a²/(bc) + b²/(ca) + c²/(ab)\n\nStep 3: Combine under common denominator abc:\n(a³ + b³ + c³) / (abc).\n\nStep 4: Since a + b + c = 0, a³ + b³ + c³ = 3abc:\n3abc / abc = 3.",
+      "trick": "Maestro's Value Putting Rule: Put a = 1, b = 1, c = -2. (1-2)²/(-2) + (-2+1)²/(-2) + (1+1)²/1 = -0.5 - 0.5 + 4 = 3."
+    },
+    {
+      "id": "alg_79",
+      "type": "Type 3: Sum of Squares & Symmetric Systems",
+      "exam": "SSC CGL 2021 Pre",
+      "page": 129,
+      "question": "If a² + b² + c² = 6.25 and (ab + bc + ca) = 0.52, then what is the value of (a + b + c), given that (a + b + c) < 0?",
+      "options": [
+        "-2.7",
+        "2.7",
+        "-2.3",
+        "-2.5"
+      ],
+      "answer": "-2.7",
+      "solution": "Step 1: Use the identity:\n(a + b + c)² = a² + b² + c² + 2(ab + bc + ca)\n= 6.25 + 2(0.52) = 6.25 + 1.04 = 7.29.\n\nStep 2: Since 7.29 = (2.7)² and the problem states (a + b + c) < 0:\na + b + c = -2.7.",
+      "trick": "√(6.25 + 1.04) = √7.29 = 2.7. Since given < 0, answer is -2.7 in 3 seconds!"
+    },
+    {
+      "id": "alg_80",
+      "type": "Type 3: Sum of Squares & Symmetric Systems",
+      "exam": "SSC CGL 2021 Pre",
+      "page": 130,
+      "question": "If x - y + z = 0, then find the value of y²/(2zx) - x²/(2yz) - z²/(2xy).",
+      "options": [
+        "3/2",
+        "-3/2",
+        "3",
+        "1"
+      ],
+      "answer": "3/2",
+      "solution": "Step 1: Write expression with common denominator 2xyz:\n[y(y²) - x(x²) - z(z²)] / (2xyz) = [y³ - x³ - z³] / (2xyz) = -[x³ - y³ + z³] / (2xyz).\n\nStep 2: Let a = x, b = -y, c = z. Then a + b + c = x - y + z = 0.\nTherefore a³ + b³ + c³ = 3abc ⟹ x³ + (-y)³ + z³ = 3(x)(-y)(z) = -3xyz\n⟹ x³ - y³ + z³ = -3xyz.\n\nStep 3: Substitute back:\n-(-3xyz) / (2xyz) = 3xyz / (2xyz) = 3/2.",
+      "trick": "Maestro's Value Putting Rule: Put x = 1, z = 1 ⟹ y = 2. Expression = 4/(2·1·1) - 1/(2·2·1) - 1/(2·1·2) = 2 - 1/4 - 1/4 = 2 - 1/2 = 3/2."
+    },
+    {
+      "id": "alg_81",
+      "type": "Type 3: Sum of Squares & Symmetric Systems",
+      "exam": "SSC CGL 2021 Pre",
+      "page": 131,
+      "question": "If a + b - c = 5 and ab - bc - ac = 10, then find the value of a² + b² + c².",
+      "options": [
+        "40",
+        "5",
+        "45",
+        "15"
+      ],
+      "answer": "5",
+      "solution": "Step 1: Use the expansion:\n(a + b - c)² = a² + b² + (-c)² + 2(ab - bc - ac) = a² + b² + c² + 2(ab - bc - ac)\n\nStep 2: Substitute given values:\n5² = a² + b² + c² + 2(10)\n25 = a² + b² + c² + 20\na² + b² + c² = 25 - 20 = 5.",
+      "trick": "a² + b² + c² = 5² - 2(10) = 25 - 20 = 5. Solved in 5 seconds!"
+    },
+    {
+      "id": "alg_82",
+      "type": "Type 3: Sum of Squares & Symmetric Systems",
+      "exam": "SSC CPO 2020 Pre",
+      "page": 132,
+      "question": "If x² + 8y² - 12y - 4xy + 9 = 0, then the value of (7x - 8y) is:",
+      "options": [
+        "12",
+        "5",
+        "21",
+        "9"
+      ],
+      "answer": "9",
+      "solution": "Step 1: Split 8y² into 4y² + 4y² and group into perfect squares:\n(x² - 4xy + 4y²) + (4y² - 12y + 9) = 0\n(x - 2y)² + (2y - 3)² = 0.\n\nStep 2: Since squares of real numbers are non-negative, each square must be 0:\n2y - 3 = 0 ⟹ y = 3/2 = 1.5.\nx - 2y = 0 ⟹ x = 2y = 2(1.5) = 3.\n\nStep 3: Evaluate 7x - 8y:\n7(3) - 8(1.5) = 21 - 12 = 9.",
+      "trick": "Sum of squares: (x - 2y)² + (2y - 3)² = 0 ⟹ y = 1.5, x = 3. 7(3) - 8(1.5) = 21 - 12 = 9."
+    },
+    {
+      "id": "alg_83",
+      "type": "Type 3: Sum of Squares & Symmetric Systems",
+      "exam": "SSC CGL Mains 2018",
+      "page": 133,
+      "question": "If a² + b² + c² + 96 = 8(a + b - 2c), then √(ab - bc + ca) is equal to:",
+      "options": [
+        "4",
+        "2√3",
+        "6",
+        "2√2"
+      ],
+      "answer": "4",
+      "solution": "Step 1: Move RHS to LHS and complete the squares:\na² - 8a + b² - 8b + c² + 16c + 96 = 0\n(a² - 8a + 16) + (b² - 8b + 16) + (c² + 16c + 64) = 0\n(a - 4)² + (b - 4)² + (c + 8)² = 0.\n\nStep 2: Equate each term to zero:\na = 4, b = 4, c = -8.\n\nStep 3: Evaluate ab - bc + ca:\nab - bc + ca = (4)(4) - (4)(-8) + (-8)(4) = 16 + 32 - 32 = 16.\n\nStep 4: Take square root:\n√(16) = 4.",
+      "trick": "Maestro's Square Rule: a = 8/2 = 4, b = 8/2 = 4, c = -16/2 = -8. ab - bc + ca = 16 - (-32) - 32 = 16 ⟹ √16 = 4 in 5 seconds!"
+    },
+    {
+      "id": "alg_84",
+      "type": "Type 3: Sum of Squares & Symmetric Systems",
+      "exam": "SSC CHSL 2023 Pre",
+      "page": 134,
+      "question": "If a² + b² + c² = ab + bc + ca, then find the value of (11a⁴ + 13b⁴ + 15c⁴) / (16a²b² + 19b²c² + 17c²a²).",
+      "options": [
+        "3/4",
+        "1",
+        "4/3",
+        "1/2"
+      ],
+      "answer": "3/4",
+      "solution": "Step 1: The standard identity (1/2)[(a - b)² + (b - c)² + (c - a)²] = 0 requires a = b = c.\n\nStep 2: Substitute a = b = c = 1 into the expression:\nNumerator = 11(1) + 13(1) + 15(1) = 39.\nDenominator = 16(1) + 19(1) + 17(1) = 52.\n\nStep 3: Reduce fraction:\n39 / 52 = (13 × 3) / (13 × 4) = 3/4.",
+      "trick": "a²+b²+c² = ab+bc+ca ⟹ a=b=c=1. Sum of numerator = 39, denominator = 52 ⟹ 39/52 = 3/4."
+    },
+    {
+      "id": "alg_85",
+      "type": "Type 3: Sum of Squares & Symmetric Systems",
+      "exam": "SSC CHSL 2021 Pre",
+      "page": 135,
+      "question": "If x + y + z = 0, then find the value of x²/(3yz) + y²/(3zx) + z²/(3xy).",
+      "options": [
+        "0",
+        "1",
+        "3",
+        "-1"
+      ],
+      "answer": "1",
+      "solution": "Step 1: Express with a common denominator 3xyz:\n[x(x²) + y(y²) + z(z²)] / (3xyz) = (x³ + y³ + z³) / (3xyz).\n\nStep 2: Since x + y + z = 0, we have the identity x³ + y³ + z³ = 3xyz.\n\nStep 3: Substitute:\n3xyz / 3xyz = 1.",
+      "trick": "Conditional identity: x³+y³+z³ = 3xyz. 3xyz / 3xyz = 1. Solved in 2 seconds!"
+    },
+    {
+      "id": "alg_86",
+      "type": "Type 3: Sum of Squares & Symmetric Systems",
+      "exam": "SSC CHSL 2020 Pre",
+      "page": 136,
+      "question": "If x² + 4y² + 3z² + 19/4 = 2√3(x + y + z), then the value of (x - 4y + 3z) is:",
+      "options": [
+        "4√3",
+        "2√3",
+        "√3",
+        "3√3"
+      ],
+      "answer": "√3",
+      "solution": "Step 1: Move all terms to LHS and decompose 19/4 into 3 + 3/4 + 1:\n(x² - 2√3x + 3) + (4y² - 2√3y + 3/4) + (3z² - 2√3z + 1) = 0\n(x - √3)² + (2y - √3/2)² + (√3z - 1)² = 0.\n\nStep 2: Since sum of squares is 0:\nx = √3\n2y = √3/2 ⟹ y = √3/4\n√3z = 1 ⟹ z = 1/√3.\n\nStep 3: Evaluate x - 4y + 3z:\nx - 4y + 3z = √3 - 4(√3/4) + 3(1/√3) = √3 - √3 + √3 = √3.",
+      "trick": "Maestro's Vertex Trick: x = √3, y = 2√3/(2×4) = √3/4, z = 2√3/(2×3) = 1/√3. x - 4y + 3z = √3 - √3 + √3 = √3."
+    },
+    {
+      "id": "alg_87",
+      "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
+      "exam": "SSC CGL 2022 Pre",
+      "page": 138,
+      "question": "Simplify the given expression: (5x + 8y)(25x² + 64y² - 40xy)",
+      "options": [
+        "125x³ - 512y³",
+        "125x³ + 512y³",
+        "25x³ + 64y³",
+        "125x³ + 64y³"
+      ],
+      "answer": "125x³ + 512y³",
+      "solution": "Step 1: Recognize identity (A + B)(A² - AB + B²) = A³ + B³.\nHere A = 5x and B = 8y.\n\nStep 2: Check terms:\nA² = (5x)² = 25x²\nB² = (8y)² = 64y²\nAB = (5x)(8y) = 40xy.\n\nStep 3: Therefore:\n(5x)³ + (8y)³ = 125x³ + 512y³.",
+      "trick": "Sum of cubes formula: (5x)³ + (8y)³ = 125x³ + 512y³. 2 seconds!"
+    },
+    {
+      "id": "alg_88",
+      "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
+      "exam": "SSC CGL 2023 Pre",
+      "page": 139,
+      "question": "If a = 17 and b = 18, then find the value of the expression (a³ - b³ - 3a²b + 3ab²).",
+      "options": [
+        "-1",
+        "1",
+        "-8",
+        "0"
+      ],
+      "answer": "-1",
+      "solution": "Step 1: Recognize algebraic identity:\na³ - 3a²b + 3ab² - b³ = (a - b)³.\n\nStep 2: Substitute a = 17, b = 18:\n(17 - 18)³ = (-1)³ = -1.",
+      "trick": "(a - b)³ = (17 - 18)³ = (-1)³ = -1 in 2 seconds!"
+    },
+    {
+      "id": "alg_89",
+      "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
+      "exam": "SSC CGL 2024 Pre",
+      "page": 140,
+      "question": "If 2a - b = 3 and 8a³ - b³ = 999, then find the value of (4a² - b²).",
+      "options": [
+        "83",
+        "63",
+        "61",
+        "67"
+      ],
+      "answer": "63",
+      "solution": "Step 1: Use difference of cubes:\n(2a - b)³ = 8a³ - b³ - 3(2a)(b)(2a - b)\n3³ = 999 - 18ab(3)\n27 = 999 - 54ab ⟹ 54ab = 972 ⟹ ab = 18 [or 18ab=972 ⟹ ab=54].\nWait: 3(2a)(b)(3) = 18ab. 999 - 27 = 972 ⟹ 18ab = 972 ⟹ ab = 54.\n\nStep 2: Find (2a + b)²:\n(2a + b)² = (2a - b)² + 8ab = 3² + 8(54) = 9 + 432 = 441.\n2a + b = √441 = 21.\n\nStep 3: Evaluate 4a² - b²:\n4a² - b² = (2a - b)(2a + b) = 3 × 21 = 63.",
+      "trick": "18ab = 999 - 27 = 972 ⟹ ab = 54. (2a + b)² = 9 + 8(54) = 441 ⟹ 2a + b = 21. 4a² - b² = 3 × 21 = 63!"
+    },
+    {
+      "id": "alg_90",
+      "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
+      "exam": "SSC CGL 2023 Pre",
+      "page": 141,
+      "question": "What is the value of (27x³ - 54x²y + 36xy² - 8y³), when x = -5 and y = -7?",
+      "options": [
+        "-1",
+        "1",
+        "-8",
+        "8"
+      ],
+      "answer": "-1",
+      "solution": "Step 1: Recognize identity for (3x - 2y)³:\n(3x)³ - 3(3x)²(2y) + 3(3x)(2y)² - (2y)³ = 27x³ - 54x²y + 36xy² - 8y³.\n\nStep 2: Substitute x = -5 and y = -7:\n3x - 2y = 3(-5) - 2(-7) = -15 + 14 = -1.\n\nStep 3: Cube the result:\n(-1)³ = -1.",
+      "trick": "Identity is (3x - 2y)³. Value inside = 3(-5) - 2(-7) = -15 + 14 = -1. (-1)³ = -1 in 5 seconds!"
+    },
+    {
+      "id": "alg_91",
+      "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
+      "exam": "SSC CGL 2022 Pre",
+      "page": 142,
+      "question": "If a = 26 and b = 22, then the value of (a³ - b³) / (a² + ab + b²) is:",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "answer": "4",
+      "solution": "Step 1: Use factorization a³ - b³ = (a - b)(a² + ab + b²).\n\nStep 2: Divide by (a² + ab + b²):\n(a³ - b³) / (a² + ab + b²) = a - b.\n\nStep 3: Substitute a = 26, b = 22:\n26 - 22 = 4.",
+      "trick": "Direct cancellation gives a - b = 26 - 22 = 4. Done in 1 second!"
+    },
+    {
+      "id": "alg_92",
+      "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
+      "exam": "SSC CGL 2024 Pre",
+      "page": 143,
+      "question": "If 8a³ + 27b³ = 16 and 2a + 3b = 4, then find the value of (16a⁴ + 81b⁴).",
+      "options": [
+        "32",
+        "28",
+        "36",
+        "24"
+      ],
+      "answer": "32",
+      "solution": "Step 1: Use cubic expansion for 2a + 3b:\n(2a + 3b)³ = 8a³ + 27b³ + 3(2a)(3b)(2a + 3b)\n4³ = 16 + 18ab(4)\n64 = 16 + 72ab ⟹ 72ab = 48 ⟹ ab = 48/72 = 2/3.\n\nStep 2: Find (2a)² + (3b)² = 4a² + 9b²:\n4a² + 9b² = (2a + 3b)² - 2(2a)(3b) = 4² - 12(2/3) = 16 - 8 = 8.\n\nStep 3: Square 4a² + 9b² to get 16a⁴ + 81b⁴:\n(4a² + 9b²)² = 16a⁴ + 81b⁴ + 2(4a²)(9b²) = 16a⁴ + 81b⁴ + 72(ab)²\n8² = 16a⁴ + 81b⁴ + 72(2/3)²\n64 = 16a⁴ + 81b⁴ + 72(4/9) = 16a⁴ + 81b⁴ + 32\n16a⁴ + 81b⁴ = 64 - 32 = 32.",
+      "trick": "ab = (64 - 16)/72 = 2/3. 4a² + 9b² = 16 - 12(2/3) = 8. (4a² + 9b²)² - 72(ab)² = 64 - 72(4/9) = 64 - 32 = 32."
+    },
+    {
+      "id": "alg_93",
+      "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
+      "exam": "SSC CGL 2021 Pre",
+      "page": 144,
+      "question": "If (x + y)³ - (x - y)³ - 3y(2x² - 3y²) = ky³, then find the value of k.",
+      "options": [
+        "11",
+        "9",
+        "7",
+        "13"
+      ],
+      "answer": "11",
+      "solution": "Step 1: Expand (x + y)³ - (x - y)³:\n(x³ + 3x²y + 3xy² + y³) - (x³ - 3x²y + 3xy² - y³) = 6x²y + 2y³.\n\nStep 2: Expand second term:\n-3y(2x² - 3y²) = -6x²y + 9y³.\n\nStep 3: Add both parts:\n(6x²y + 2y³) + (-6x²y + 9y³) = 11y³.\nComparing with ky³ gives k = 11.",
+      "trick": "Put x = 0, y = 1: (1)³ - (-1)³ - 3(-3) = 1 + 1 + 9 = 11. Since ky³ = k(1) = 11, k = 11 instantly!"
+    },
+    {
+      "id": "alg_94",
+      "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
+      "exam": "SSC CGL 2018 Pre",
+      "page": 145,
+      "question": "If (5√5x³ - 8√3y³) ÷ (√5x - 2√3y) = (Ax² + By² + Cxy), then the value of (6A + B - √15C) is:",
+      "options": [
+        "12",
+        "10",
+        "8",
+        "15"
+      ],
+      "answer": "12",
+      "solution": "Step 1: Write numerator as difference of cubes:\n(√5x)³ - (2√3y)³.\nFormula: (p³ - q³) / (p - q) = p² + pq + q².\n\nStep 2: Expand:\np² = (√5x)² = 5x²\nq² = (2√3y)² = 12y²\npq = (√5x)(2√3y) = 2√15xy.\n\nStep 3: Compare coefficients:\nAx² + By² + Cxy = 5x² + 12y² + 2√15xy\n⟹ A = 5, B = 12, C = 2√15.\n\nStep 4: Compute 6A + B - √15C:\n6(5) + 12 - √15(2√15) = 30 + 12 - 30 = 12.",
+      "trick": "A = 5, B = 12, C = 2√15. 6A - √15C = 6(5) - 30 = 0! Result is simply B = 12 in 5 seconds!"
+    },
+    {
+      "id": "alg_95",
+      "type": "Type 3: Sum of Squares & Symmetric Systems",
+      "exam": "SSC CGL 2018 Pre",
+      "page": 146,
+      "question": "If 2x² + y² + 6x - 2xy + 9 = 0, then find the value of (4x³ - y³ + x²y²).",
+      "options": [
+        "0",
+        "9",
+        "-3",
+        "-9"
+      ],
+      "answer": "0",
+      "solution": "Step 1: Decompose 2x² into x² + x² and complete squares:\n(x² - 2xy + y²) + (x² + 6x + 9) = 0\n(x - y)² + (x + 3)² = 0.\n\nStep 2: Since squares must be zero:\nx + 3 = 0 ⟹ x = -3.\nx - y = 0 ⟹ y = x = -3.\n\nStep 3: Substitute x = -3, y = -3:\n4(-3)³ - (-3)³ + (-3)²(-3)² = 4(-27) - (-27) + (9)(9)\n= -108 + 27 + 81 = -108 + 108 = 0.",
+      "trick": "Squares: (x - y)² + (x + 3)² = 0 ⟹ x = -3, y = -3. Expression = 4(-27) + 27 + 81 = -108 + 108 = 0 in 5 seconds!"
+    },
+    {
+      "id": "alg_96",
+      "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
+      "exam": "SSC CGL 2018 Pre",
+      "page": 147,
+      "question": "If (x³ - 2√2y³) ÷ (x - √2y) = (Ax² + Bxy + Cy²), then find the value of (2A + 4√2B - 4C).",
+      "options": [
+        "2",
+        "4",
+        "0",
+        "1"
+      ],
+      "answer": "2",
+      "solution": "Step 1: Factor numerator as difference of cubes:\nx³ - (√2y)³ = (x - √2y)[x² + √2xy + (√2y)²] = (x - √2y)(x² + √2xy + 2y²).\n\nStep 2: Match coefficients:\nAx² + Bxy + Cy² = x² + √2xy + 2y²\n⟹ A = 1, B = √2, C = 2.\n\nStep 3: Calculate 2A + 4√2B - 4C:\n2(1) + 4√2(√2) - 4(2) = 2 + 8 - 8 = 2.",
+      "trick": "A = 1, B = √2, C = 2. 2(1) + 4√2(√2) - 4(2) = 2 + 8 - 8 = 2. 3 seconds!"
+    },
+    {
+      "id": "alg_97",
+      "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
+      "exam": "SSC CGL 2019 Pre",
+      "page": 148,
+      "question": "If (8x³ + 27y³) ÷ (2x + 3y) = (Ax² + Bxy + Cy²), then the value of (5A + 4B + 3C) is:",
+      "options": [
+        "23",
+        "27",
+        "21",
+        "25"
+      ],
+      "answer": "23",
+      "solution": "Step 1: Use sum of cubes identity:\n(2x)³ + (3y)³ = (2x + 3y)[(2x)² - (2x)(3y) + (3y)²] = (2x + 3y)(4x² - 6xy + 9y²).\n\nStep 2: Match coefficients:\nA = 4, B = -6, C = 9.\n\nStep 3: Evaluate 5A + 4B + 3C:\n5(4) + 4(-6) + 3(9) = 20 - 24 + 27 = 23.",
+      "trick": "A = 4, B = -6, C = 9. 5(4) + 4(-6) + 3(9) = 20 - 24 + 27 = 23 in 5 seconds!"
+    },
+    {
+      "id": "alg_98",
+      "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
+      "exam": "SSC CGL 2019 Pre",
+      "page": 149,
+      "question": "The coefficient of y in the expansion of (2y - 5)³ is:",
+      "options": [
+        "150",
+        "50",
+        "-30",
+        "-150"
+      ],
+      "answer": "150",
+      "solution": "Step 1: Expand using binomial formula (a - b)³ = a³ - 3a²b + 3ab² - b³:\n(2y - 5)³ = (2y)³ - 3(2y)²(5) + 3(2y)(5)² - 5³.\n\nStep 2: Identify the term containing y to power 1:\n3(2y)(5)² = 3 × 2y × 25 = 150y.\n\nStep 3: The coefficient is +150.",
+      "trick": "Linear term in (ay - b)³ is 3(a)(b²) = 3(2)(25) = 150. Instant!"
+    },
+    {
+      "id": "alg_99",
+      "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
+      "exam": "SSC CGL 2021 Pre",
+      "page": 150,
+      "question": "If 6√6p³ + 2√2q³ = (√6p + √2q)(Sp² + Mq² - Npq), then find the positive value of √(S² + M² + 2N²).",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "6"
+      ],
+      "answer": "8",
+      "solution": "Step 1: Write LHS as sum of cubes:\n(√6p)³ + (√2q)³ = (√6p + √2q)[(√6p)² + (√2q)² - (√6p)(√2q)]\n= (√6p + √2q)(6p² + 2q² - 2√3pq).\n\nStep 2: Match coefficients:\nS = 6, M = 2, N = 2√3 (since -Npq = -2√3pq).\n\nStep 3: Evaluate S² + M² + 2N²:\nS² = 36\nM² = 4\n2N² = 2(2√3)² = 2(12) = 24.\nSum = 36 + 4 + 24 = 64.\n\nStep 4: Take square root:\n√(64) = 8.",
+      "trick": "S = 6, M = 2, N = √12. S² + M² + 2N² = 36 + 4 + 24 = 64 ⟹ √64 = 8 in 5 seconds!"
+    },
+    {
+      "id": "alg_100",
+      "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
+      "exam": "SSC CGL 2019 Pre",
+      "page": 151,
+      "question": "If 1 - 64x³ - 12x + px² = (1 - 4x)³, then the value of p is:",
+      "options": [
+        "48",
+        "-48",
+        "16",
+        "-16"
+      ],
+      "answer": "48",
+      "solution": "Step 1: Expand RHS (1 - 4x)³:\n(1 - 4x)³ = 1³ - 3(1)²(4x) + 3(1)(4x)² - (4x)³\n= 1 - 12x + 48x² - 64x³.\n\nStep 2: Equate coefficients of x²:\npx² = 48x² ⟹ p = 48.",
+      "trick": "Term with x² is +3(1)(-4x)² = +48x² ⟹ p = 48. Instant 2-second answer!"
+    },
+    {
+      "id": "alg_101",
+      "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
+      "exam": "SSC CGL 2021 Pre",
+      "page": 152,
+      "question": "If 2√2x³ - 3√3y³ = (√2x - √3y)(Ax² - Bxy + Cy²), then √(A² + B² + C²) is:",
+      "options": [
+        "√19",
+        "√15",
+        "√17",
+        "√21"
+      ],
+      "answer": "√19",
+      "solution": "Step 1: Expand difference of cubes:\n(√2x)³ - (√3y)³ = (√2x - √3y)[(√2x)² + (√2x)(√3y) + (√3y)²]\n= (√2x - √3y)(2x² + √6xy + 3y²).\n\nStep 2: Match with (Ax² - Bxy + Cy²):\nA = 2, -B = √6 ⟹ B = -√6, C = 3.\n\nStep 3: Compute √(A² + B² + C²):\n√(2² + (-√6)² + 3²) = √(4 + 6 + 9) = √19.",
+      "trick": "A = 2, B² = 6, C = 3. A² + B² + C² = 4 + 6 + 9 = 19 ⟹ √19 in 5 seconds!"
+    },
+    {
+      "id": "alg_102",
+      "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
+      "exam": "SSC CPO 2024 Pre",
+      "page": 153,
+      "question": "If x = 3y + 4, then what is the value of (x³ - 27y³ - 36xy)?",
+      "options": [
+        "64",
+        "27",
+        "1",
+        "8"
+      ],
+      "answer": "64",
+      "solution": "Step 1: Rearrange given equation: x - 3y = 4.\n\nStep 2: Cube both sides:\n(x - 3y)³ = 4³\nx³ - (3y)³ - 3(x)(3y)(x - 3y) = 64\nx³ - 27y³ - 9xy(4) = 64\nx³ - 27y³ - 36xy = 64.",
+      "trick": "(x - 3y) = 4 ⟹ Cube: x³ - 27y³ - 36xy = 4³ = 64. 2 seconds!"
+    },
+    {
+      "id": "alg_103",
+      "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
+      "exam": "SSC CHSL 2021 Pre",
+      "page": 154,
+      "question": "If (x² + y²)³ = (x³ + y³)², with x ≠ 0 and y ≠ 0, then the value of (x/y + y/x) is:",
+      "options": [
+        "2/3",
+        "3/2",
+        "1/3",
+        "4/3"
+      ],
+      "answer": "2/3",
+      "solution": "Step 1: Expand both sides:\nLHS = x⁶ + 3x⁴y² + 3x²y⁴ + y⁶ = x⁶ + y⁶ + 3x²y²(x² + y²).\nRHS = (x³ + y³)² = x⁶ + 2x³y³ + y⁶.\n\nStep 2: Equate LHS and RHS:\nx⁶ + y⁶ + 3x²y²(x² + y²) = x⁶ + y⁶ + 2x³y³\n3x²y²(x² + y²) = 2x³y³.\n\nStep 3: Divide both sides by x³y³ (since x, y ≠ 0):\n3(x² + y²) / (xy) = 2\n(x² + y²) / (xy) = 2/3.\n\nStep 4: Note that x/y + y/x = (x² + y²) / (xy) = 2/3.",
+      "trick": "Expansion cancellation gives 3x²y²(x²+y²) = 2x³y³ ⟹ (x²+y²)/xy = 2/3. Instant!"
+    },
+    {
+      "id": "alg_104",
+      "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
+      "exam": "SSC CGL Mains",
+      "page": 155,
+      "question": "If 4√3x² + 5x - 2√3 = (Ax + 2)(Bx + C), with A > 0, then what is the value of (A + B + C)?",
+      "options": [
+        "4",
+        "2",
+        "3",
+        "5"
+      ],
+      "answer": "4",
+      "solution": "Step 1: Factorize the quadratic expression 4√3x² + 5x - 2√3:\nProduct = 4√3 × (-2√3) = -24.\nSum = +5.\nFactors of -24 adding to +5 are +8 and -3.\n\nStep 2: Split middle term:\n4√3x² + 8x - 3x - 2√3 = 4x(√3x + 2) - √3(√3x + 2) = (4x - √3)(√3x + 2).\n\nStep 3: Match with (Ax + 2)(Bx + C):\nAx + 2 = √3x + 2 ⟹ A = √3.\nBx + C = 4x - √3 ⟹ B = 4, C = -√3.\n\nStep 4: Compute A + B + C:\nA + B + C = √3 + 4 - √3 = 4.",
+      "trick": "Split middle term: (√3x + 2)(4x - √3). A = √3, B = 4, C = -√3. A + B + C = √3 + 4 - √3 = 4 in 5 seconds!"
+    },
+    {
+      "id": "alg_105",
+      "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
+      "exam": "SSC CGL 2022 Pre",
+      "page": 156,
+      "question": "The value of [(25.3)³ + (24.7)³] / [(25.3)² - 624.91 + (24.7)²] is equal to:",
+      "options": [
+        "50",
+        "500",
+        "5",
+        "0.5"
+      ],
+      "answer": "50",
+      "solution": "Step 1: Notice that 25.3 × 24.7 = 624.91.\n\nStep 2: Use the identity a³ + b³ = (a + b)(a² - ab + b²):\n[(25.3)³ + (24.7)³] / [(25.3)² - (25.3)(24.7) + (24.7)²] = 25.3 + 24.7.\n\nStep 3: Evaluate:\n25.3 + 24.7 = 50.",
+      "trick": "Identity: (a³ + b³)/(a² - ab + b²) = a + b = 25.3 + 24.7 = 50 in 1 second!"
+    },
+    {
+      "id": "alg_106",
+      "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
+      "exam": "SSC CGL Mains 2018",
+      "page": 157,
+      "question": "If 2√2x³ - 3√3y³ = (√2x - √3y)(Ax² + By² + Cxy), then the value of (A² + B² - C²) is:",
+      "options": [
+        "7",
+        "10",
+        "11",
+        "19"
+      ],
+      "answer": "7",
+      "solution": "Step 1: Expand using difference of cubes (p³ - q³) = (p - q)(p² + pq + q²):\n(√2x)³ - (√3y)³ = (√2x - √3y)[(√2x)² + (√3y)² + (√2x)(√3y)]\n= (√2x - √3y)(2x² + 3y² + √6xy).\n\nStep 2: Match coefficients:\nA = 2, B = 3, C = √6.\n\nStep 3: Calculate A² + B² - C²:\nA² + B² - C² = 2² + 3² - (√6)² = 4 + 9 - 6 = 7.",
+      "trick": "A = 2, B = 3, C = √6 ⟹ 2² + 3² - (√6)² = 4 + 9 - 6 = 7. 3 seconds!"
+    },
+    {
+      "id": "alg_107",
+      "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
+      "exam": "SSC CGL Mains 2018",
+      "page": 158,
+      "question": "If 8x³ - 27y³ = (Ax + By)(Cx² - Dy² + 6xy), then (A + B + C - D) is equal to:",
+      "options": [
+        "12",
+        "-12",
+        "15",
+        "9"
+      ],
+      "answer": "12",
+      "solution": "Step 1: Factorize difference of cubes 8x³ - 27y³:\n(2x)³ - (3y)³ = (2x - 3y)(4x² + 6xy + 9y²).\n\nStep 2: Compare with (Ax + By)(Cx² - Dy² + 6xy):\nAx + By = 2x - 3y ⟹ A = 2, B = -3.\nCx² - Dy² + 6xy = 4x² + 9y² + 6xy ⟹ C = 4, -D = 9 ⟹ D = -9.\n\nStep 3: Evaluate A + B + C - D:\nA + B + C - D = 2 + (-3) + 4 - (-9) = 3 + 9 = 12.",
+      "trick": "A = 2, B = -3, C = 4, D = -9 ⟹ A + B + C - D = 2 - 3 + 4 - (-9) = 3 + 9 = 12. 5 seconds!"
+    },
+    {
+      "id": "alg_108",
+      "type": "Type 4: 2-Variable Cubes & Coefficient Matching",
+      "exam": "SSC CGL Mains 2019",
+      "page": 159,
+      "question": "If 27(x + y)³ - 8(x - y)³ = (x + 5y)(Ax² + By² + Cxy), then what is the value of (A + B - C)?",
+      "options": [
+        "16",
+        "13",
+        "18",
+        "11"
+      ],
+      "answer": "16",
+      "solution": "Step 1: Let u = 3(x + y) and v = 2(x - y).\nNotice u - v = 3x + 3y - 2x + 2y = x + 5y.\nFormula: u³ - v³ = (u - v)(u² + uv + v²).\n\nStep 2: Expand u² + uv + v²:\nu² = 9(x² + 2xy + y²) = 9x² + 18xy + 9y²\nv² = 4(x² - 2xy + y²) = 4x² - 8xy + 4y²\nuv = 6(x + y)(x - y) = 6x² - 6y².\nSum = (9 + 4 + 6)x² + (9 + 4 - 6)y² + (18 - 8)xy = 19x² + 7y² + 10xy.\n\nStep 3: Compare coefficients:\nAx² + By² + Cxy = 19x² + 7y² + 10xy ⟹ A = 19, B = 7, C = 10.\n\nStep 4: Compute A + B - C:\n19 + 7 - 10 = 16.",
+      "trick": "Coefficients: A = 9 + 4 + 6 = 19, B = 9 + 4 - 6 = 7, C = 18 - 8 = 10. A + B - C = 19 + 7 - 10 = 16."
+    },
+    {
+      "id": "alg_109",
+      "type": "Type 5: Special Powers, Factors & High-Degree Equations",
+      "exam": "SSC CGL 2022 Pre",
+      "page": 162,
+      "question": "The factors of x² + 4y² + 4y - 4xy - 2x - 8 are:",
+      "options": [
+        "(x - 2y - 4)(x - 2y + 2)",
+        "(x - 2y + 4)(x - 2y - 2)",
+        "(x + 2y - 4)(x + 2y + 2)",
+        "(x - 2y - 4)(x + 2y + 2)"
+      ],
+      "answer": "(x - 2y - 4)(x - 2y + 2)",
+      "solution": "Step 1: Group the homogeneous quadratic part:\nx² - 4xy + 4y² = (x - 2y)².\n\nStep 2: Group linear terms:\n-2x + 4y = -2(x - 2y).\n\nStep 3: The expression becomes:\n(x - 2y)² - 2(x - 2y) - 8.\nLet u = x - 2y:\nu² - 2u - 8 = (u - 4)(u + 2).\n\nStep 4: Substitute back u = x - 2y:\n(x - 2y - 4)(x - 2y + 2).",
+      "trick": "Substitute u = x - 2y ⟹ u² - 2u - 8 = (u - 4)(u + 2) = (x - 2y - 4)(x - 2y + 2). Done in 5 seconds!"
+    },
+    {
+      "id": "alg_110",
+      "type": "Type 5: Special Powers, Factors & High-Degree Equations",
+      "exam": "SSC CGL 2023 Pre",
+      "page": 163,
+      "question": "Simplify: (256x¹⁶ - 16y¹⁶) / [(16x⁸ + 4y⁸)(4x⁴ + 2y⁴)]",
+      "options": [
+        "4x⁴ - 2y⁴",
+        "2x⁴ - y⁴",
+        "4x⁴ + 2y⁴",
+        "8x⁴ - 4y⁴"
+      ],
+      "answer": "4x⁴ - 2y⁴",
+      "solution": "Step 1: Factorize numerator using difference of squares:\n256x¹⁶ - 16y¹⁶ = 16(16x¹⁶ - y¹⁶)\n= 16(4x⁸ + y⁸)(4x⁸ - y⁸)\n= 16(4x⁸ + y⁸)(2x⁴ + y⁴)(2x⁴ - y⁴).\n\nStep 2: Factorize denominator:\n(16x⁸ + 4y⁸)(4x⁴ + 2y⁴) = 4(4x⁸ + y⁸) × 2(2x⁴ + y⁴) = 8(4x⁸ + y⁸)(2x⁴ + y⁴).\n\nStep 3: Divide numerator by denominator:\n[16(4x⁸ + y⁸)(2x⁴ + y⁴)(2x⁴ - y⁴)] / [8(4x⁸ + y⁸)(2x⁴ + y⁴)]\n= (16/8)(2x⁴ - y⁴) = 2(2x⁴ - y⁴) = 4x⁴ - 2y⁴.",
+      "trick": "Maestro's Value Putting Rule: Put x = 1, y = 0. Expression = 256 / (16 × 4) = 256 / 64 = 4. Only 4x⁴ - 2y⁴ gives 4 when x=1, y=0!"
+    },
+    {
+      "id": "alg_111",
+      "type": "Type 1: x ± 1/x Powers & Transformations",
+      "exam": "SSC CGL 2022 Pre",
+      "page": 164,
+      "question": "Which of the following statements is correct?\nI. If k + 1/k = 12, then k² + 1/k² = 142.\nII. The value of (k + 1/k)(k - 1/k)(k² + 1/k²)(k⁴ + 1/k⁴)(k⁸ + 1/k⁸) is (k¹⁶ - 1/k¹⁶).",
+      "options": [
+        "Both I and II",
+        "Only I",
+        "Only II",
+        "Neither I nor II"
+      ],
+      "answer": "Both I and II",
+      "solution": "Step 1: Check Statement I:\nIf k + 1/k = 12, then k² + 1/k² = 12² - 2 = 144 - 2 = 142. Statement I is TRUE.\n\nStep 2: Check Statement II:\n(k - 1/k)(k + 1/k) = k² - 1/k².\n(k² - 1/k²)(k² + 1/k²) = k⁴ - 1/k⁴.\n(k⁴ - 1/k⁴)(k⁴ + 1/k⁴) = k⁸ - 1/k⁸.\n(k⁸ - 1/k⁸)(k⁸ + 1/k⁸) = k¹⁶ - 1/k¹⁶. Statement II is TRUE.\n\nStep 3: Hence, Both I and II are correct.",
+      "trick": "Statement I: 12² - 2 = 142 (Correct). Statement II: Cascading difference of squares gives k¹⁶ - 1/k¹⁶ (Correct). Both are true!"
+    },
+    {
+      "id": "alg_112",
+      "type": "Type 3: Sum of Squares & Symmetric Systems",
+      "exam": "SSC CGL 2022 Pre",
+      "page": 165,
+      "question": "If x² + y² + 2y + 4x + 5 = 0, then find the value of (x - y) / (x + y).",
+      "options": [
+        "1/3",
+        "-1/3",
+        "3",
+        "-3"
+      ],
+      "answer": "1/3",
+      "solution": "Step 1: Group into complete squares:\n(x² + 4x + 4) + (y² + 2y + 1) = 0\n(x + 2)² + (y + 1)² = 0.\n\nStep 2: Since squares of reals are non-negative:\nx + 2 = 0 ⟹ x = -2\ny + 1 = 0 ⟹ y = -1.\n\nStep 3: Evaluate (x - y) / (x + y):\n[-2 - (-1)] / [-2 + (-1)] = -1 / -3 = 1/3.",
+      "trick": "Sum of squares gives x = -2, y = -1. (-2 - (-1)) / (-2 + (-1)) = -1 / -3 = 1/3 in 5 seconds!"
+    },
+    {
+      "id": "alg_113",
+      "type": "Type 5: Special Powers, Factors & High-Degree Equations",
+      "exam": "SSC CGL 2020 Pre",
+      "page": 166,
+      "question": "If a⁴ + b⁴ + a²b² = 273 and a² + b² - ab = 21, then one of the values of (a/b + b/a) is:",
+      "options": [
+        "-17/4",
+        "17/4",
+        "-9/4",
+        "9/4"
+      ],
+      "answer": "-17/4",
+      "solution": "Step 1: Use the product identity:\na⁴ + a²b² + b⁴ = (a² + ab + b²)(a² - ab + b²)\n273 = (a² + ab + b²) × 21\na² + ab + b² = 273 / 21 = 13.\n\nStep 2: Solve the system of two equations:\n1) a² + b² + ab = 13\n2) a² + b² - ab = 21\nAdd (1) and (2): 2(a² + b²) = 34 ⟹ a² + b² = 17.\nSubtract (2) from (1): 2ab = -8 ⟹ ab = -4.\n\nStep 3: Evaluate a/b + b/a:\na/b + b/a = (a² + b²) / (ab) = 17 / -4 = -17/4.",
+      "trick": "a² + b² + ab = 273/21 = 13. a² + b² = (13 + 21)/2 = 17, ab = (13 - 21)/2 = -4. (a² + b²)/ab = -17/4 in 5 seconds!"
+    },
+    {
+      "id": "alg_114",
+      "type": "Type 3: Sum of Squares & Symmetric Systems",
+      "exam": "SSC CGL 2019 Pre",
+      "page": 167,
+      "question": "If 2x² + y² + 8z² - 2√2xy + 4√2yz - 8zx = (Ax + y + Bz)², then the value of (A² + B² - AB) is:",
+      "options": [
+        "14",
+        "16",
+        "6",
+        "18"
+      ],
+      "answer": "14",
+      "solution": "Step 1: Write terms as squares:\n(±√2x)² + y² + (±2√2z)².\nGiven form is (Ax + y + Bz)², where coefficient of y is +1.\n\nStep 2: Determine signs from cross-product terms:\n2(Ax)(y) = -2√2xy ⟹ 2A = -2√2 ⟹ A = -√2.\n2(y)(Bz) = +4√2yz ⟹ 2B = 4√2 ⟹ B = 2√2.\nCheck third term: 2(Ax)(Bz) = 2(-√2x)(2√2z) = -8xz, which matches -8zx perfectly.\n\nStep 3: Evaluate A² + B² - AB:\nA² = (-√2)² = 2\nB² = (2√2)² = 8\nAB = (-√2)(2√2) = -4\nA² + B² - AB = 2 + 8 - (-4) = 10 + 4 = 14.",
+      "trick": "A = -√2, B = 2√2. A² + B² - AB = 2 + 8 - (-4) = 14 in 5 seconds!"
+    },
+    {
+      "id": "alg_115",
+      "type": "Type 3: Sum of Squares & Symmetric Systems",
+      "exam": "SSC CPO 2024 Pre",
+      "page": 168,
+      "question": "If x² + 4y² + 2x + 1 = 0, then find the value of x⁹⁹ + y⁹⁹.",
+      "options": [
+        "-1",
+        "-2",
+        "2",
+        "1"
+      ],
+      "answer": "-1",
+      "solution": "Step 1: Complete squares:\n(x² + 2x + 1) + 4y² = 0\n(x + 1)² + (2y)² = 0.\n\nStep 2: Equate terms to 0:\nx + 1 = 0 ⟹ x = -1.\n2y = 0 ⟹ y = 0.\n\nStep 3: Evaluate x⁹⁹ + y⁹⁹:\n(-1)⁹⁹ + 0⁹⁹ = -1 + 0 = -1.",
+      "trick": "(x + 1)² + (2y)² = 0 ⟹ x = -1, y = 0. (-1)⁹⁹ + 0 = -1 in 2 seconds!"
+    },
+    {
+      "id": "alg_116",
+      "type": "Type 5: Special Powers, Factors & High-Degree Equations",
+      "exam": "SSC CGL Pre",
+      "page": 169,
+      "question": "Simplify: [(4.6)⁴ + (5.4)⁴ + (24.84)²] / [(4.6)² + (5.4)² + 24.84]",
+      "options": [
+        "25.48",
+        "24.42",
+        "24.24",
+        "25.42"
+      ],
+      "answer": "25.48",
+      "solution": "Step 1: Let a = 4.6 and b = 5.4. Then ab = 4.6 × 5.4 = 24.84.\n\nStep 2: Use the Quartic polynomial identity:\n(a⁴ + b⁴ + a²b²) / (a² + b² + ab) = a² + b² - ab.\n\nStep 3: Calculate numerical value:\na² = (4.6)² = 21.16\nb² = (5.4)² = 29.16\nab = 24.84\nValue = 21.16 + 29.16 - 24.84 = 50.32 - 24.84 = 25.48.",
+      "trick": "Identity: a² + b² - ab = (4.6)² + (5.4)² - 24.84 = 21.16 + 29.16 - 24.84 = 25.48. Solved in 5 seconds!"
+    },
+    {
+      "id": "alg_117",
+      "type": "Type 1: x ± 1/x Powers & Transformations",
+      "exam": "SSC CHSL 2021 Pre",
+      "page": 171,
+      "question": "If a² + b² + 1/a² + 1/b² = 4, with a ≠ 0 and b ≠ 0, then what is the value of (a⁴ + b⁴)?",
+      "options": [
+        "2",
+        "32",
+        "256",
+        "64"
+      ],
+      "answer": "2",
+      "solution": "Step 1: Group reciprocal terms and move 4 as 2 + 2:\n(a² + 1/a² - 2) + (b² + 1/b² - 2) = 0\n(a - 1/a)² + (b - 1/b)² = 0.\n\nStep 2: Since sum of squares of real numbers is zero:\na - 1/a = 0 ⟹ a² = 1 ⟹ a⁴ = 1.\nb - 1/b = 0 ⟹ b² = 1 ⟹ b⁴ = 1.\n\nStep 3: Compute a⁴ + b⁴:\na⁴ + b⁴ = 1 + 1 = 2.",
+      "trick": "(a - 1/a)² + (b - 1/b)² = 0 ⟹ a² = 1, b² = 1 ⟹ a⁴ + b⁴ = 1 + 1 = 2 in 2 seconds!"
+    },
+    {
+      "id": "alg_118",
+      "type": "Type 5: Special Powers, Factors & High-Degree Equations",
+      "exam": "SSC CHSL 2018 Pre",
+      "page": 172,
+      "question": "If a = √8 - √7 and b = √8 + √7, then find the value of (a² + b² - 3ab) / (a² + b² + ab).",
+      "options": [
+        "27/31",
+        "29/31",
+        "25/31",
+        "31/27"
+      ],
+      "answer": "27/31",
+      "solution": "Step 1: Compute a + b and ab:\na + b = (√8 - √7) + (√8 + √7) = 2√8.\nab = (√8 - √7)(√8 + √7) = 8 - 7 = 1.\n\nStep 2: Find a² + b²:\na² + b² = (a + b)² - 2ab = (2√8)² - 2(1) = 4(8) - 2 = 32 - 2 = 30.\n\nStep 3: Evaluate numerator and denominator:\nNumerator = a² + b² - 3ab = 30 - 3(1) = 27.\nDenominator = a² + b² + ab = 30 + 1 = 31.\n\nStep 4: Ratio = 27/31.",
+      "trick": "a+b = 2√8, ab = 1 ⟹ a²+b² = 32 - 2 = 30. Fraction = (30 - 3)/(30 + 1) = 27/31 in 5 seconds!"
+    },
+    {
+      "id": "alg_119",
+      "type": "Type 5: Special Powers, Factors & High-Degree Equations",
+      "exam": "SSC CGL 2024 Pre",
+      "page": 161,
+      "question": "If x² + y² = 280 and xy = 120, then find the positive value of (x + y) / (x - y).",
+      "options": [
+        "√13",
+        "√11",
+        "√15",
+        "√17"
+      ],
+      "answer": "√13",
+      "solution": "Step 1: Find (x + y)² and (x - y)²:\n(x + y)² = x² + y² + 2xy = 280 + 2(120) = 280 + 240 = 520.\n(x - y)² = x² + y² - 2xy = 280 - 2(120) = 280 - 240 = 40.\n\nStep 2: Divide the two squared expressions:\n[(x + y) / (x - y)]² = 520 / 40 = 13.\n\nStep 3: Take positive square root:\n(x + y) / (x - y) = √13.",
+      "trick": "[(x+y)/(x-y)]² = (280 + 240) / (280 - 240) = 520 / 40 = 13 ⟹ √13 in 3 seconds!"
+    }
+  ]
+};

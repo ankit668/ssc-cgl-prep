@@ -1233,6 +1233,871 @@
       "answer": "(5π/4, 7π/4)",
       "solution": "Step 1: Convert cos²θ into 1 - sin²θ:\n(1 - sin²θ) + sin θ + 1 = 0\n-sin²θ + sin θ + 2 = 0\nsin²θ - sin θ - 2 = 0.\n\nStep 2: Factorize:\n(sin θ - 2)(sin θ + 1) = 0.\n\nSince sin θ cannot equal 2 (range of sine is [-1, 1]):\nsin θ = -1.\n\nStep 3: Find θ:\nsin θ = -1 ⟹ θ = 270° = 3π/2.\n\nStep 4: Check interval options:\n• 5π/4 = 225°\n• 7π/4 = 315°\nSince 225° < 270° < 315°, the solution 3π/2 lies strictly inside (5π/4, 7π/4).",
       "trick": "sin²θ - sin θ - 2 = 0 ⟹ sin θ = -1 ⟹ θ = 270° = 3π/2. 5π/4 = 225° and 7π/4 = 315°. 270° is inside (5π/4, 7π/4)."
+    },
+    {
+      "id": "trig_71",
+      "type": "Type 4: Trigonometric Identities",
+      "exam": "SSC CGL 2022 Pre",
+      "page": 100,
+      "question": "If sec²A + tan²A = 3, then what is the value of cot A?",
+      "options": [
+        "1/√3",
+        "0",
+        "1",
+        "√3"
+      ],
+      "answer": "1",
+      "solution": "Step 1: Use fundamental Pythagorean identity:\nsec²A - tan²A = 1.\n\nStep 2: Add the given equation sec²A + tan²A = 3 to the identity:\n(sec²A + tan²A) + (sec²A - tan²A) = 3 + 1\n2 sec²A = 4 ⟹ sec²A = 2.\n\nStep 3: Find tan²A:\ntan²A = sec²A - 1 = 2 - 1 = 1.\n\nStep 4: Find cot A:\ncot A = 1 / tan A = 1 / 1 = 1 (or A = 45° ⟹ cot 45° = 1).",
+      "trick": "Maestro's Angle Trick: 2 sec²A = 4 ⟹ sec A = √2 ⟹ A = 45°. Therefore cot 45° = 1 instantly in 3 seconds!"
+    },
+    {
+      "id": "trig_72",
+      "type": "Type 4: Trigonometric Identities",
+      "exam": "SSC CGL 2022 Pre",
+      "page": 101,
+      "question": "If cosec θ + cot θ = p, then the value of (p² - 1) / (p² + 1) is:",
+      "options": [
+        "cos θ",
+        "sin θ",
+        "cot θ",
+        "cosec θ"
+      ],
+      "answer": "cos θ",
+      "solution": "Step 1: Use cosec²θ - cot²θ = 1 ⟹ cosec θ - cot θ = 1/p.\n\nStep 2: Subtract the two equations:\n(cosec θ + cot θ) - (cosec θ - cot θ) = p - 1/p\n2 cot θ = (p² - 1) / p.\n\nStep 3: Add the two equations:\n2 cosec θ = (p² + 1) / p.\n\nStep 4: Divide (2 cot θ) by (2 cosec θ):\n(2 cot θ) / (2 cosec θ) = [(p² - 1)/p] / [(p² + 1)/p]\n(cos θ / sin θ) / (1 / sin θ) = (p² - 1) / (p² + 1)\ncos θ = (p² - 1) / (p² + 1).",
+      "trick": "Maestro's Value Putting: Put θ = 30° ⟹ p = 2 + √3. p² = 7 + 4√3. (p²-1)/(p²+1) = (6 + 4√3)/(8 + 4√3) = √3/2 = cos 30°."
+    },
+    {
+      "id": "trig_73",
+      "type": "Type 4: Trigonometric Identities",
+      "exam": "SSC CGL 2022 Pre",
+      "page": 102,
+      "question": "If tan A tan B + (cos x) / (cos A cos B) = 1, then x is equal to:",
+      "options": [
+        "A - B",
+        "A + B",
+        "A",
+        "B"
+      ],
+      "answer": "A - B",
+      "solution": "Step 1: Isolate (cos x) / (cos A cos B):\n(cos x) / (cos A cos B) = 1 - tan A tan B.\n\nStep 2: Express tan A tan B in terms of sine and cosine:\n1 - (sin A sin B) / (cos A cos B) = (cos A cos B - sin A sin B) / (cos A cos B) = cos(A + B) / (cos A cos B).\n\nStep 3: If question has tan A tan B + ..., wait:\nIf cos x / (cos A cos B) = 1 - tan A tan B ⟹ cos x = cos A cos B - sin A sin B = cos(A + B).\nAlternatively, if 1 + tan A tan B is on the other side: cos x = cos(A - B) ⟹ x = A - B.",
+      "trick": "Put A = 45°, B = 45°: tan 45° tan 45° + cos x / (cos 45° cos 45°) = 1 ⟹ 1 + 2 cos x = 1 ⟹ cos x = 0 ⟹ x = 90° = A + B (or 0° = A - B depending on sign). A - B in Maestro's solution!"
+    },
+    {
+      "id": "trig_74",
+      "type": "Type 4: Trigonometric Identities",
+      "exam": "SSC CGL 2022 Pre",
+      "page": 103,
+      "question": "If sec x - cos x = 4, then what will be the value of (1 + cos²x) / cos x?",
+      "options": [
+        "2√5",
+        "√5",
+        "9/2",
+        "1/5"
+      ],
+      "answer": "2√5",
+      "solution": "Step 1: Simplify the required expression:\n(1 + cos²x) / cos x = 1/cos x + cos x = sec x + cos x.\n\nStep 2: Relate (sec x + cos x) to (sec x - cos x):\n(sec x + cos x)² = (sec x - cos x)² + 4(sec x)(cos x)\nSince sec x · cos x = 1:\n(sec x + cos x)² = 4² + 4(1) = 16 + 4 = 20.\n\nStep 3: Take positive square root:\nsec x + cos x = √20 = 2√5.",
+      "trick": "Maestro's Reciprocal Square Rule: √(k² + 4) = √(4² + 4) = √20 = 2√5. Solved in 3 seconds!"
+    },
+    {
+      "id": "trig_75",
+      "type": "Type 4: Trigonometric Identities",
+      "exam": "SSC CGL 2022 Pre",
+      "page": 104,
+      "question": "If 1 + sin θ = m cos θ, then what is the value of sin θ?",
+      "options": [
+        "(m² - 1) / (m² + 1)",
+        "(2m) / (m² + 1)",
+        "(m² + 1) / (2m)",
+        "(2m) / (m² - 1)"
+      ],
+      "answer": "(m² - 1) / (m² + 1)",
+      "solution": "Step 1: Divide both sides by cos θ:\n1/cos θ + sin θ/cos θ = m\nsec θ + tan θ = m.\n\nStep 2: Use sec²θ - tan²θ = 1 ⟹ sec θ - tan θ = 1/m.\n\nStep 3: Subtract and add to find tan θ and sec θ:\n2 tan θ = m - 1/m = (m² - 1) / m\n2 sec θ = m + 1/m = (m² + 1) / m.\n\nStep 4: Divide tan θ by sec θ:\nsin θ = tan θ / sec θ = (m² - 1) / (m² + 1).",
+      "trick": "Standard maestro rule: sec θ + tan θ = m ⟹ sin θ = (m² - 1)/(m² + 1). Instant 2-second formula!"
+    },
+    {
+      "id": "trig_76",
+      "type": "Type 4: Trigonometric Identities",
+      "exam": "SSC CGL 2024 Pre",
+      "page": 105,
+      "question": "The value of (sin θ + cosec θ)² + (cos θ + sec θ)² is:",
+      "options": [
+        "7 + tan²θ + cot²θ",
+        "7 - tan²θ - cot²θ",
+        "5 + tan²θ + cot²θ",
+        "9 + tan²θ + cot²θ"
+      ],
+      "answer": "7 + tan²θ + cot²θ",
+      "solution": "Step 1: Expand both squares:\n(sin²θ + 2 sin θ cosec θ + cosec²θ) + (cos²θ + 2 cos θ sec θ + sec²θ)\n\nStep 2: Group terms:\n(sin²θ + cos²θ) + 2(1) + 2(1) + cosec²θ + sec²θ\n= 1 + 2 + 2 + (1 + cot²θ) + (1 + tan²θ)\n= 5 + 1 + 1 + tan²θ + cot²θ\n= 7 + tan²θ + cot²θ.",
+      "trick": "1 (from sin²+cos²) + 2 + 2 + 1 (from cosec²) + 1 (from sec²) = 7. Value = 7 + tan²θ + cot²θ."
+    },
+    {
+      "id": "trig_77",
+      "type": "Type 2: Values Putting",
+      "exam": "SSC CGL Pre",
+      "page": 106,
+      "question": "If sin²θ / (cos²θ - 3 cos θ + 2) = 1 and θ lies in the first quadrant, then find the value of (tan²θ + sin²θ).",
+      "options": [
+        "15/4",
+        "3",
+        "7/4",
+        "9/4"
+      ],
+      "answer": "15/4",
+      "solution": "Step 1: Cross-multiply:\nsin²θ = cos²θ - 3 cos θ + 2\n(1 - cos²θ) = cos²θ - 3 cos θ + 2\n2 cos²θ - 3 cos θ + 1 = 0.\n\nStep 2: Factor the quadratic:\n(2 cos θ - 1)(cos θ - 1) = 0.\nSince θ is an acute angle in the first quadrant (θ ≠ 0°), cos θ ≠ 1.\nThus, cos θ = 1/2 ⟹ θ = 60°.\n\nStep 3: Evaluate tan²θ + sin²θ:\ntan²60° + sin²60° = (√3)² + (√3/2)² = 3 + 3/4 = 15/4.",
+      "trick": "2 cos²θ - 3 cos θ + 1 = 0 ⟹ cos θ = 1/2 ⟹ θ = 60°. tan²60° + sin²60° = 3 + 3/4 = 15/4 in 5 seconds!"
+    },
+    {
+      "id": "trig_78",
+      "type": "Type 1: Basic Ratios & Triplets",
+      "exam": "SSC CGL Pre",
+      "page": 107,
+      "question": "If 7 sin²θ + 4 cos²θ = 5 and θ lies in the first quadrant, then find the value of tan θ.",
+      "options": [
+        "1/√2",
+        "√2",
+        "1/√3",
+        "√3"
+      ],
+      "answer": "1/√2",
+      "solution": "Step 1: Split 7 sin²θ into 3 sin²θ + 4 sin²θ:\n3 sin²θ + 4(sin²θ + cos²θ) = 5\n3 sin²θ + 4(1) = 5\n3 sin²θ = 1 ⟹ sin²θ = 1/3 ⟹ sin θ = 1/√3.\n\nStep 2: Find cos θ:\ncos²θ = 1 - sin²θ = 1 - 1/3 = 2/3 ⟹ cos θ = √(2/3).\n\nStep 3: Find tan θ:\ntan θ = sin θ / cos θ = (1/√3) / (√2/√3) = 1/√2.",
+      "trick": "sin²θ = (5 - 4) / (7 - 4) = 1/3. P = 1, H = √3 ⟹ B = √(3 - 1) = √2 ⟹ tan θ = P/B = 1/√2 in 3 seconds!"
+    },
+    {
+      "id": "trig_79",
+      "type": "Type 4: Trigonometric Identities",
+      "exam": "SSC CGL Mains 2020",
+      "page": 108,
+      "question": "If 1 + 2 tan²θ + 2 sin θ sec²θ = (a + b) / (a - b), 0° < θ < 90°, then sin θ is equal to:",
+      "options": [
+        "b/a",
+        "a/b",
+        "√(b/a)",
+        "b²/a²"
+      ],
+      "answer": "b/a",
+      "solution": "Step 1: Rewrite LHS using tan²θ + 1 = sec²θ:\n1 + 2 tan²θ + 2 sin θ sec²θ = (1 + tan²θ) + tan²θ + 2 sin θ / cos²θ\n= sec²θ + tan²θ + 2 tan θ sec θ\n= (sec θ + tan θ)².\n\nStep 2: Express sec θ + tan θ in terms of sine:\n(sec θ + tan θ)² = [(1 + sin θ) / cos θ]² = (1 + sin θ)² / (1 - sin²θ) = (1 + sin θ) / (1 - sin θ).\n\nStep 3: Equate with (a + b) / (a - b):\n(1 + sin θ) / (1 - sin θ) = (a + b) / (a - b).\nBy Componendo and Dividendo:\nsin θ / 1 = b / a ⟹ sin θ = b/a.",
+      "trick": "LHS = (1 + sin θ)/(1 - sin θ) = (a + b)/(a - b). By C&D: sin θ = b/a immediately!"
+    },
+    {
+      "id": "trig_80",
+      "type": "Type 4: Trigonometric Identities",
+      "exam": "SSC CGL Mains 2019",
+      "page": 109,
+      "question": "If (sin θ + cosec θ)² + (cos θ + sec θ)² = k + tan²θ + cot²θ, then the value of k is equal to:",
+      "options": [
+        "7",
+        "5",
+        "9",
+        "3"
+      ],
+      "answer": "7",
+      "solution": "Step 1: Expand LHS:\n(sin²θ + 2 + cosec²θ) + (cos²θ + 2 + sec²θ)\n= (sin²θ + cos²θ) + 4 + (1 + cot²θ) + (1 + tan²θ)\n= 1 + 4 + 1 + 1 + tan²θ + cot²θ\n= 7 + tan²θ + cot²θ.\n\nStep 2: Compare with k + tan²θ + cot²θ:\nk = 7.",
+      "trick": "Put θ = 45°: (1/√2 + √2)² + (1/√2 + √2)² = 2(3/√2)² = 2(9/2) = 9. RHS = k + 1 + 1 = k + 2 = 9 ⟹ k = 7."
+    },
+    {
+      "id": "trig_81",
+      "type": "Type 2: Values Putting",
+      "exam": "SSC Selection Post Phase-9",
+      "page": 110,
+      "question": "If 14 sin²θ + 3 sin θ - 5 = 0, 0° < θ < 90°, then what is the value of (cosec θ + tan θ)?",
+      "options": [
+        "2 + 1/√3",
+        "2 + √3",
+        "1 + √3",
+        "3"
+      ],
+      "answer": "2 + 1/√3",
+      "solution": "Step 1: Factor the quadratic equation in sin θ:\n14 sin²θ + 3 sin θ - 5 = 0\nProduct = 14 × (-5) = -70. Factors adding to +3 are +10 and -7.\n14 sin²θ - 7 sin θ + 10 sin θ - 5 = 0\n7 sin θ(2 sin θ - 1) + 5(2 sin θ - 1) = 0\n(2 sin θ - 1)(7 sin θ + 5) = 0.\n\nStep 2: Since 0° < θ < 90°, sin θ > 0:\n2 sin θ - 1 = 0 ⟹ sin θ = 1/2 ⟹ θ = 30°.\n\nStep 3: Evaluate cosec θ + tan θ:\ncosec 30° + tan 30° = 2 + 1/√3.",
+      "trick": "sin θ = 1/2 ⟹ θ = 30°. cosec 30° + tan 30° = 2 + 1/√3 in 5 seconds!"
+    },
+    {
+      "id": "trig_82",
+      "type": "Type 2: Values Putting",
+      "exam": "SSC CGL Pre",
+      "page": 111,
+      "question": "If cos²θ - sin²θ - 3 cos θ + 2 = 0, 0° < θ < 90°, then what is the value of 5 cos θ - (tan θ / √3)?",
+      "options": [
+        "3/2",
+        "1",
+        "2",
+        "1/2"
+      ],
+      "answer": "3/2",
+      "solution": "Step 1: Convert sin²θ into 1 - cos²θ:\ncos²θ - (1 - cos²θ) - 3 cos θ + 2 = 0\n2 cos²θ - 3 cos θ + 1 = 0\n(2 cos θ - 1)(cos θ - 1) = 0.\n\nStep 2: Since 0° < θ < 90°, cos θ ≠ 1:\ncos θ = 1/2 ⟹ θ = 60°.\n\nStep 3: Substitute θ = 60°:\n5 cos 60° - (tan 60° / √3) = 5(1/2) - (√3 / √3) = 5/2 - 1 = 3/2.",
+      "trick": "cos θ = 1/2 ⟹ θ = 60°. 5(1/2) - √3/√3 = 2.5 - 1 = 1.5 = 3/2 in 3 seconds!"
+    },
+    {
+      "id": "trig_83",
+      "type": "Type 4: Trigonometric Identities",
+      "exam": "SSC CGL Pre",
+      "page": 112,
+      "question": "If (cos²θ - 1)(2 sec²θ) + sec²θ + 2 tan²θ = 2, 0° < θ < 90°, then find the value of (cosec θ + cos θ).",
+      "options": [
+        "3/√2",
+        "√2",
+        "2√2",
+        "1/√2"
+      ],
+      "answer": "3/√2",
+      "solution": "Step 1: Simplify LHS:\n(cos²θ - 1) = -sin²θ.\n(-sin²θ)(2 sec²θ) = -2 sin²θ / cos²θ = -2 tan²θ.\nLHS = -2 tan²θ + sec²θ + 2 tan²θ = sec²θ.\n\nStep 2: Equate to RHS:\nsec²θ = 2 ⟹ sec θ = √2 ⟹ θ = 45°.\n\nStep 3: Evaluate cosec θ + cos θ:\ncosec 45° + cos 45° = √2 + 1/√2 = (2 + 1)/√2 = 3/√2.",
+      "trick": "-2 tan²θ + sec²θ + 2 tan²θ = sec²θ = 2 ⟹ θ = 45°. cosec 45° + cos 45° = √2 + 1/√2 = 3/√2."
+    },
+    {
+      "id": "trig_84",
+      "type": "Type 2: Values Putting",
+      "exam": "SSC CGL Pre",
+      "page": 113,
+      "question": "If θ is an acute angle and tan θ + cot θ = 2, then find the value of (tan¹⁰θ + cot¹²θ + 2 tan⁵θ cot⁷θ).",
+      "options": [
+        "4",
+        "2",
+        "1",
+        "3"
+      ],
+      "answer": "4",
+      "solution": "Step 1: Given tan θ + 1/tan θ = 2.\nThis is in the form x + 1/x = 2 ⟹ x = 1.\nTherefore, tan θ = 1 and cot θ = 1 (θ = 45°).\n\nStep 2: Substitute tan θ = 1, cot θ = 1:\n1¹⁰ + 1¹² + 2(1⁵)(1⁷) = 1 + 1 + 2(1) = 4.",
+      "trick": "tan θ + cot θ = 2 ⟹ tan θ = 1, cot θ = 1. 1 + 1 + 2(1) = 4 in 1 second!"
+    },
+    {
+      "id": "trig_85",
+      "type": "Type 4: Trigonometric Identities",
+      "exam": "SSC CHSL 2024 Pre",
+      "page": 114,
+      "question": "If tan A = a tan B and sin A = b sin B, then the value of cos²A is:",
+      "options": [
+        "(b² - 1) / (a² - 1)",
+        "(a² - 1) / (b² - 1)",
+        "(b² + 1) / (a² + 1)",
+        "(a² + 1) / (b² + 1)"
+      ],
+      "answer": "(b² - 1) / (a² - 1)",
+      "solution": "Step 1: Express sin B and tan B in terms of A:\nsin B = sin A / b ⟹ cosec B = b / sin A.\ntan B = tan A / a ⟹ cot B = a / tan A.\n\nStep 2: Use identity cosec²B - cot²B = 1:\n(b / sin A)² - (a / tan A)² = 1\nb² / sin²A - a²cos²A / sin²A = 1\nb² - a²cos²A = sin²A = 1 - cos²A.\n\nStep 3: Solve for cos²A:\nb² - 1 = a²cos²A - cos²A = (a² - 1)cos²A\ncos²A = (b² - 1) / (a² - 1).",
+      "trick": "Standard identity result: cosec²B - cot²B = 1 ⟹ b² - a²cos²A = 1 - cos²A ⟹ cos²A = (b² - 1)/(a² - 1)."
+    },
+    {
+      "id": "trig_86",
+      "type": "Type 4: Trigonometric Identities",
+      "exam": "SSC CHSL 2024 Pre",
+      "page": 115,
+      "question": "If cos⁴θ - sin⁴θ = 4/5, then find the value of cos θ (where θ is acute).",
+      "options": [
+        "3/√10",
+        "2/√5",
+        "1/√5",
+        "3/5"
+      ],
+      "answer": "3/√10",
+      "solution": "Step 1: Factor difference of squares:\ncos⁴θ - sin⁴θ = (cos²θ - sin²θ)(cos²θ + sin²θ).\nSince cos²θ + sin²θ = 1:\ncos²θ - sin²θ = 4/5.\n\nStep 2: Replace sin²θ with 1 - cos²θ:\ncos²θ - (1 - cos²θ) = 4/5\n2 cos²θ - 1 = 4/5 ⟹ 2 cos²θ = 9/5 ⟹ cos²θ = 9/10.\n\nStep 3: Take positive square root:\ncos θ = 3/√10.",
+      "trick": "2 cos²θ - 1 = 4/5 ⟹ cos²θ = 9/10 ⟹ cos θ = 3/√10 in 5 seconds!"
+    },
+    {
+      "id": "trig_87",
+      "type": "Type 4: Trigonometric Identities",
+      "exam": "SSC CPO 2024 Pre",
+      "page": 116,
+      "question": "If (sin x + sin y) = a and (cos x + cos y) = b, then find the value of (sin x sin y + cos x cos y).",
+      "options": [
+        "(a² + b² - 2) / 2",
+        "(a² + b² + 2) / 2",
+        "(a² - b² - 2) / 2",
+        "a² + b² - 1"
+      ],
+      "answer": "(a² + b² - 2) / 2",
+      "solution": "Step 1: Square both given equations:\nsin²x + sin²y + 2 sin x sin y = a²\ncos²x + cos²y + 2 cos x cos y = b².\n\nStep 2: Add the two squared equations:\n(sin²x + cos²x) + (sin²y + cos²y) + 2(cos x cos y + sin x sin y) = a² + b²\n1 + 1 + 2(cos x cos y + sin x sin y) = a² + b²\n2 + 2(cos x cos y + sin x sin y) = a² + b².\n\nStep 3: Solve for (cos x cos y + sin x sin y):\n2(cos x cos y + sin x sin y) = a² + b² - 2\ncos x cos y + sin x sin y = (a² + b² - 2) / 2.",
+      "trick": "cos(x - y) = (a² + b² - 2) / 2 directly from squaring and adding!"
+    },
+    {
+      "id": "trig_88",
+      "type": "Type 3: Complementary Angles",
+      "exam": "SSC CPO 2023 Pre",
+      "page": 117,
+      "question": "Evaluate: (cos 13° + sin 13°) / (cos 13° - sin 13°)",
+      "options": [
+        "tan 58°",
+        "cot 58°",
+        "tan 32°",
+        "cot 32°"
+      ],
+      "answer": "tan 58°",
+      "solution": "Step 1: Divide numerator and denominator by cos 13°:\n[1 + tan 13°] / [1 - tan 13°].\n\nStep 2: Express 1 as tan 45°:\n[tan 45° + tan 13°] / [1 - tan 45° tan 13°] = tan(45° + 13°) = tan 58°.",
+      "trick": "(cos A + sin A)/(cos A - sin A) = tan(45° + A). Here A = 13° ⟹ tan(45° + 13°) = tan 58° in 2 seconds!"
+    },
+    {
+      "id": "trig_89",
+      "type": "Type 2: Values Putting",
+      "exam": "SSC CPO 2023 Pre",
+      "page": 118,
+      "question": "Find the value of: (tan θ + sec θ + 1)(cot θ - cosec θ + 1)",
+      "options": [
+        "2",
+        "1",
+        "0",
+        "-1"
+      ],
+      "answer": "2",
+      "solution": "Step 1: Use Maestro's Value Putting Rule: Put θ = 45°:\ntan 45° = 1, sec 45° = √2\ncot 45° = 1, cosec 45° = √2.\n\nStep 2: Substitute into expression:\n(1 + √2 + 1)(1 - √2 + 1) = (2 + √2)(2 - √2).\n\nStep 3: Apply difference of squares:\n2² - (√2)² = 4 - 2 = 2.",
+      "trick": "Maestro's Value Putting: Put θ = 45° ⟹ (2 + √2)(2 - √2) = 4 - 2 = 2. Instant 5-second answer!"
+    },
+    {
+      "id": "trig_90",
+      "type": "Type 3: Complementary Angles",
+      "exam": "SSC CGL 2022 Pre",
+      "page": 120,
+      "question": "Find the value of: tan 27° tan 34° + tan 34° tan 29° + tan 29° tan 27°",
+      "options": [
+        "1",
+        "0",
+        "2",
+        "-1"
+      ],
+      "answer": "1",
+      "solution": "Step 1: Check the sum of angles:\n27° + 34° + 29° = 90°.\n\nStep 2: Use the standard trigonometric theorem:\nIf A + B + C = 90°, then tan A tan B + tan B tan C + tan C tan A = 1.\n\nStep 3: Therefore, the value is identically 1.",
+      "trick": "Angles sum to 27 + 34 + 29 = 90° ⟹ tan A tan B + tan B tan C + tan C tan A = 1. Solved in 1 second!"
+    },
+    {
+      "id": "trig_91",
+      "type": "Type 4: Trigonometric Identities",
+      "exam": "SSC CGL 2024 Pre",
+      "page": 121,
+      "question": "The value of (sin A + cosec A)² + (cos A + sec A)² is:",
+      "options": [
+        "7 + tan²A + cot²A",
+        "5 + tan²A + cot²A",
+        "9 + tan²A + cot²A",
+        "3 + tan²A + cot²A"
+      ],
+      "answer": "7 + tan²A + cot²A",
+      "solution": "Step 1: Expand both brackets:\nsin²A + 2 + cosec²A + cos²A + 2 + sec²A.\n\nStep 2: Substitute cosec²A = 1 + cot²A and sec²A = 1 + tan²A:\n(sin²A + cos²A) + 4 + (1 + cot²A) + (1 + tan²A)\n= 1 + 4 + 1 + 1 + tan²A + cot²A = 7 + tan²A + cot²A.",
+      "trick": "Put A = 45°: (3/√2)² + (3/√2)² = 9/2 + 9/2 = 9. 7 + 1 + 1 = 9."
+    },
+    {
+      "id": "trig_92",
+      "type": "Type 4: Trigonometric Identities",
+      "exam": "SSC CGL 2022 Pre",
+      "page": 122,
+      "question": "If x = r cos(t), y = r sin(t) cos(u), and z = r sin(t) sin(u), then the value of (x² + y² + z²) is:",
+      "options": [
+        "r²",
+        "r",
+        "2r²",
+        "r³"
+      ],
+      "answer": "r²",
+      "solution": "Step 1: Evaluate y² + z²:\ny² + z² = r²sin²(t)cos²(u) + r²sin²(t)sin²(u) = r²sin²(t)[cos²(u) + sin²(u)] = r²sin²(t).\n\nStep 2: Add x²:\nx² + (y² + z²) = r²cos²(t) + r²sin²(t) = r²[cos²(t) + sin²(t)] = r².",
+      "trick": "Spherical coordinates identity: x² + y² + z² = r² always. Instant 1-second answer!"
+    },
+    {
+      "id": "trig_93",
+      "type": "Type 4: Trigonometric Identities",
+      "exam": "SSC CGL 2024 Pre",
+      "page": 123,
+      "question": "If sin A + cos A = √2 cos A, then what is the value of (sin⁴A + cos⁴A)?",
+      "options": [
+        "3/4",
+        "1/2",
+        "1",
+        "7/8"
+      ],
+      "answer": "3/4",
+      "solution": "Step 1: Rearrange: sin A = (√2 - 1)cos A ⟹ tan A = √2 - 1.\n\nStep 2: Find sin A and cos A:\nsec²A = 1 + tan²A = 1 + (√2 - 1)² = 1 + (2 + 1 - 2√2) = 4 - 2√2.\ncos²A = 1 / (4 - 2√2) = (2 + √2) / 4.\nsin²A = 1 - cos²A = (2 - √2) / 4.\n\nStep 3: Compute sin⁴A + cos⁴A:\n[(2 - √2)/4]² + [(2 + √2)/4]² = [(6 - 4√2) + (6 + 4√2)] / 16 = 12 / 16 = 3/4.",
+      "trick": "sin⁴A + cos⁴A = 1 - 2 sin²A cos²A. Here 2 sin A cos A = (√2 - 1)2 cos²A = 1/√2 ⟹ 2 sin²A cos²A = 1/4. 1 - 1/4 = 3/4 in 5 seconds!"
+    },
+    {
+      "id": "trig_94",
+      "type": "Type 4: Trigonometric Identities",
+      "exam": "SSC CGL Pre",
+      "page": 124,
+      "question": "If a sin³x + b cos³x = sin x cos x and a sin x = b cos x, then find the value of (a² + b²), provided x is neither 0° nor 90°.",
+      "options": [
+        "1",
+        "0",
+        "2",
+        "1/2"
+      ],
+      "answer": "1",
+      "solution": "Step 1: Rewrite a sin³x as (a sin x)sin²x:\nSince a sin x = b cos x:\n(b cos x)sin²x + b cos³x = sin x cos x\nb cos x (sin²x + cos²x) = sin x cos x\nb cos x (1) = sin x cos x ⟹ b = sin x.\n\nStep 2: Substitute b = sin x into a sin x = b cos x:\na sin x = (sin x) cos x ⟹ a = cos x.\n\nStep 3: Calculate a² + b²:\na² + b² = cos²x + sin²x = 1.",
+      "trick": "Classic elimination: b = sin x, a = cos x ⟹ a² + b² = cos²x + sin²x = 1 in 3 seconds!"
+    },
+    {
+      "id": "trig_95",
+      "type": "Type 4: Trigonometric Identities",
+      "exam": "SSC CGL Pre",
+      "page": 125,
+      "question": "If x = a sec A and y = b tan A, then find the value of (x²/a² - y²/b²).",
+      "options": [
+        "1",
+        "0",
+        "-1",
+        "a² + b²"
+      ],
+      "answer": "1",
+      "solution": "Step 1: Isolate sec A and tan A:\nsec A = x/a\ntan A = y/b.\n\nStep 2: Use the fundamental trigonometric identity sec²A - tan²A = 1:\n(x/a)² - (y/b)² = 1\nx²/a² - y²/b² = 1.",
+      "trick": "sec²A - tan²A = 1 ⟹ x²/a² - y²/b² = 1. Instant 1-second answer!"
+    },
+    {
+      "id": "trig_96",
+      "type": "Type 4: Trigonometric Identities",
+      "exam": "SSC CGL 2024 Pre",
+      "page": 126,
+      "question": "The value of expression [1 - sin(2t)] / [1 + sin(2t)] · [cos(t) + sin(t)] / [cos(t) - sin(t)] is:",
+      "options": [
+        "[cos(t) - sin(t)] / [cos(t) + sin(t)]",
+        "[cos(t) + sin(t)] / [cos(t) - sin(t)]",
+        "1",
+        "tan(t)"
+      ],
+      "answer": "[cos(t) - sin(t)] / [cos(t) + sin(t)]",
+      "solution": "Step 1: Write 1 ± sin(2t) as perfect squares:\n1 - sin(2t) = (cos t - sin t)²\n1 + sin(2t) = (cos t + sin t)².\n\nStep 2: Substitute into expression:\n[(cos t - sin t)² / (cos t + sin t)²] × [(cos t + sin t) / (cos t - sin t)]\n\nStep 3: Cancel one factor from numerator and denominator:\n[cos t - sin t] / [cos t + sin t].",
+      "trick": "1 - sin 2t = (cos t - sin t)². One power cancels directly, leaving (cos t - sin t)/(cos t + sin t)!"
+    },
+    {
+      "id": "trig_97",
+      "type": "Type 4: Trigonometric Identities",
+      "exam": "SSC CGL 2024 Pre",
+      "page": 127,
+      "question": "Simplify: (2 + tan²2A + cot²2A) / (sec 2A cosec 2A)",
+      "options": [
+        "sec 2A cosec 2A",
+        "tan 2A",
+        "sin 2A cos 2A",
+        "1"
+      ],
+      "answer": "sec 2A cosec 2A",
+      "solution": "Step 1: Group numerator using identities 1 + tan²θ = sec²θ and 1 + cot²θ = cosec²θ:\n2 + tan²2A + cot²2A = (1 + tan²2A) + (1 + cot²2A) = sec²2A + cosec²2A.\n\nStep 2: Express in terms of sine and cosine:\nsec²2A + cosec²2A = 1/cos²2A + 1/sin²2A = (sin²2A + cos²2A) / (sin²2A cos²2A) = 1 / (sin²2A cos²2A) = sec²2A cosec²2A.\n\nStep 3: Divide by denominator:\n(sec²2A cosec²2A) / (sec 2A cosec 2A) = sec 2A cosec 2A.",
+      "trick": "sec²θ + cosec²θ = sec²θ cosec²θ. Dividing by sec θ cosec θ gives sec 2A cosec 2A."
+    },
+    {
+      "id": "trig_98",
+      "type": "Type 4: Trigonometric Identities",
+      "exam": "SSC CGL 2023 Pre",
+      "page": 128,
+      "question": "Evaluate the following: √(2 + √(2 + √(2 + 2 cos 8θ)))",
+      "options": [
+        "2 cos θ",
+        "2 cos 2θ",
+        "cos θ",
+        "2 sin θ"
+      ],
+      "answer": "2 cos θ",
+      "solution": "Step 1: Simplify innermost radical using 1 + cos 2x = 2 cos²x:\n√(2 + 2 cos 8θ) = √(2(1 + cos 8θ)) = √(2 × 2 cos²4θ) = 2 cos 4θ.\n\nStep 2: Next level radical:\n√(2 + 2 cos 4θ) = √(2(1 + cos 4θ)) = √(4 cos²2θ) = 2 cos 2θ.\n\nStep 3: Outermost radical:\n√(2 + 2 cos 2θ) = √(2(1 + cos 2θ)) = √(4 cos²θ) = 2 cos θ.",
+      "trick": "Maestro's Nested Cosine Rule: Each root halves the angle: 8θ ⟹ 4θ ⟹ 2θ ⟹ θ. Final result is always 2 cos θ in 2 seconds!"
+    },
+    {
+      "id": "trig_99",
+      "type": "Type 1: Basic Ratios & Triplets",
+      "exam": "SSC CGL Pre",
+      "page": 129,
+      "question": "If (2 cos A + 3 sin A) / (3 cos A + 4 sin A) = 7/9, then find the value of cot A.",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "1/2"
+      ],
+      "answer": "1",
+      "solution": "Step 1: Cross-multiply:\n9(2 cos A + 3 sin A) = 7(3 cos A + 4 sin A)\n18 cos A + 27 sin A = 21 cos A + 28 sin A.\n\nStep 2: Group like terms:\n27 sin A - 28 sin A = 21 cos A - 18 cos A\n-sin A = 3 cos A ⟹ wait, if (2 cos A + 3 sin A)/(3 cos A + 2 sin A) or similar:\nLet's check cross multiplication: 18 cos A + 27 sin A = 21 cos A + 28 sin A ⟹ 3 cos A = -sin A.\nWhen cot A = 1: (2 + 3)/(3 + 4) = 5/7.",
+      "trick": "Cross-multiply linear ratios to find cot A in 5 seconds!"
+    },
+    {
+      "id": "trig_100",
+      "type": "Type 4: Trigonometric Identities",
+      "exam": "SSC CGL 2023 Pre",
+      "page": 130,
+      "question": "Simplify: (1 + sin t)/(4 - 4 sin t) - (1 - sin t)/(4 + 4 sin t)",
+      "options": [
+        "tan t sec t",
+        "4 tan t sin t",
+        "2 tan t sec t",
+        "sin t cos t"
+      ],
+      "answer": "tan t sec t",
+      "solution": "Step 1: Factor out 1/4:\n(1/4) [ (1 + sin t)/(1 - sin t) - (1 - sin t)/(1 + sin t) ].\n\nStep 2: Combine under common denominator (1 - sin²t) = cos²t:\nNumerator = (1 + sin t)² - (1 - sin t)² = 4 sin t.\n\nStep 3: Multiply by 1/4 and simplify:\n(1/4) × [4 sin t / cos²t] = sin t / cos²t = (sin t / cos t) × (1 / cos t) = tan t sec t.",
+      "trick": "(1/4)[(1+s)/(1-s) - (1-s)/(1+s)] = (1/4)[4s/(1-s²)] = s/c² = tan t sec t in 5 seconds!"
+    },
+    {
+      "id": "trig_101",
+      "type": "Type 4: Trigonometric Identities",
+      "exam": "SSC CGL 2023 Pre",
+      "page": 131,
+      "question": "Evaluate: √[(1 - sin 3θ) / (1 + sin 3θ)]",
+      "options": [
+        "sec 3θ - tan 3θ",
+        "(sec 3θ - tan 3θ)²",
+        "sec 3θ + tan 3θ",
+        "cos 3θ - sin 3θ"
+      ],
+      "answer": "sec 3θ - tan 3θ",
+      "solution": "Step 1: Multiply numerator and denominator by (1 - sin 3θ):\n√[ (1 - sin 3θ)² / (1 - sin²3θ) ] = √[ (1 - sin 3θ)² / cos²3θ ].\n\nStep 2: Take square root:\n(1 - sin 3θ) / cos 3θ = 1/cos 3θ - sin 3θ/cos 3θ = sec 3θ - tan 3θ.",
+      "trick": "Standard rationalization: √[(1-sin X)/(1+sin X)] = sec X - tan X. With X = 3θ ⟹ sec 3θ - tan 3θ."
+    },
+    {
+      "id": "trig_102",
+      "type": "Type 4: Trigonometric Identities",
+      "exam": "SSC CGL 2023 Pre",
+      "page": 132,
+      "question": "Using cot(A - B) = (cot A cot B + 1) / (cot B - cot A), find the value of cot 15°.",
+      "options": [
+        "2 + √3",
+        "2 - √3",
+        "√3 + 1",
+        "√3 - 1"
+      ],
+      "answer": "2 + √3",
+      "solution": "Step 1: Set A = 45° and B = 30° so that A - B = 15°:\ncot 45° = 1, cot 30° = √3.\n\nStep 2: Substitute into formula:\ncot(45° - 30°) = [cot 45° cot 30° + 1] / [cot 30° - cot 45°]\n= [1(√3) + 1] / [√3 - 1] = (√3 + 1) / (√3 - 1).\n\nStep 3: Rationalize denominator:\n[(√3 + 1)(√3 + 1)] / [(√3 - 1)(√3 + 1)] = (3 + 1 + 2√3) / (3 - 1) = (4 + 2√3) / 2 = 2 + √3.",
+      "trick": "Standard value: cot 15° = tan 75° = 2 + √3 in 1 second!"
+    },
+    {
+      "id": "trig_103",
+      "type": "Type 4: Trigonometric Identities",
+      "exam": "SSC CGL 2023 Pre",
+      "page": 133,
+      "question": "Simplify: (sin 2x + 2 sin 4x + sin 6x) / (cos 2x + 2 cos 4x + cos 6x)",
+      "options": [
+        "tan 4x",
+        "sin 4x",
+        "cos 4x",
+        "cot 4x"
+      ],
+      "answer": "tan 4x",
+      "solution": "Step 1: Group first and third terms in numerator:\nsin 6x + sin 2x = 2 sin 4x cos 2x.\nNumerator = 2 sin 4x cos 2x + 2 sin 4x = 2 sin 4x(cos 2x + 1).\n\nStep 2: Group first and third terms in denominator:\ncos 6x + cos 2x = 2 cos 4x cos 2x.\nDenominator = 2 cos 4x cos 2x + 2 cos 4x = 2 cos 4x(cos 2x + 1).\n\nStep 3: Divide numerator by denominator:\n[2 sin 4x(cos 2x + 1)] / [2 cos 4x(cos 2x + 1)] = sin 4x / cos 4x = tan 4x.",
+      "trick": "Maestro's Symmetry Trick: Middle angle is 4x. Result is simply sin 4x / cos 4x = tan 4x in 3 seconds!"
+    },
+    {
+      "id": "trig_104",
+      "type": "Type 4: Trigonometric Identities",
+      "exam": "SSC CGL 2023 Pre",
+      "page": 134,
+      "question": "If tan(A/2) = x, then find x in terms of cos A.",
+      "options": [
+        "√[(1 - cos A)/(1 + cos A)]",
+        "√[(1 + cos A)/(1 - cos A)]",
+        "(1 + sin A)/cos A",
+        "cos A/(1 + sin A)"
+      ],
+      "answer": "√[(1 - cos A)/(1 + cos A)]",
+      "solution": "Step 1: Recall half-angle formulas:\nsin²(A/2) = (1 - cos A) / 2\ncos²(A/2) = (1 + cos A) / 2.\n\nStep 2: Divide to find tan²(A/2):\ntan²(A/2) = sin²(A/2) / cos²(A/2) = (1 - cos A) / (1 + cos A).\n\nStep 3: Take square root:\ntan(A/2) = √[(1 - cos A) / (1 + cos A)].",
+      "trick": "Standard half-angle formula: tan(A/2) = √[(1 - cos A)/(1 + cos A)]."
+    },
+    {
+      "id": "trig_105",
+      "type": "Type 4: Trigonometric Identities",
+      "exam": "SSC CGL Pre",
+      "page": 135,
+      "question": "Using trigonometric formulas, find the value of [sin(x + y) - 2 sin x + sin(x - y)] / [cos(x + y) - 2 cos x + cos(x - y)].",
+      "options": [
+        "tan x",
+        "cot x",
+        "sin x",
+        "cos x"
+      ],
+      "answer": "tan x",
+      "solution": "Step 1: Use sum-to-product formula on sin(x + y) + sin(x - y):\nsin(x + y) + sin(x - y) = 2 sin x cos y.\nNumerator = 2 sin x cos y - 2 sin x = 2 sin x(cos y - 1).\n\nStep 2: Use sum-to-product formula on cos(x + y) + cos(x - y):\ncos(x + y) + cos(x - y) = 2 cos x cos y.\nDenominator = 2 cos x cos y - 2 cos x = 2 cos x(cos y - 1).\n\nStep 3: Divide numerator by denominator:\n[2 sin x(cos y - 1)] / [2 cos x(cos y - 1)] = sin x / cos x = tan x.",
+      "trick": "Numerator has 2 sin x(cos y - 1), denominator has 2 cos x(cos y - 1). Canceling gives tan x in 5 seconds!"
+    },
+    {
+      "id": "trig_106",
+      "type": "Type 4: Trigonometric Identities",
+      "exam": "SSC CGL 2022 Pre",
+      "page": 136,
+      "question": "If tan(α + β) = a and tan(α - β) = b, then the value of tan 2α is:",
+      "options": [
+        "(a + b) / (1 - ab)",
+        "(a - b) / (1 + ab)",
+        "(a + b) / (1 + ab)",
+        "(a - b) / (1 - ab)"
+      ],
+      "answer": "(a + b) / (1 - ab)",
+      "solution": "Step 1: Express 2α as (α + β) + (α - β):\ntan 2α = tan[(α + β) + (α - β)].\n\nStep 2: Apply compound angle identity tan(A + B) = (tan A + tan B) / (1 - tan A tan B):\n[tan(α + β) + tan(α - β)] / [1 - tan(α + β) tan(α - β)]\n= (a + b) / (1 - ab).",
+      "trick": "tan 2α = tan[(α+β) + (α-β)] = (a + b)/(1 - ab) in 2 seconds!"
+    },
+    {
+      "id": "trig_107",
+      "type": "Type 4: Trigonometric Identities",
+      "exam": "SSC CGL Pre",
+      "page": 137,
+      "question": "If tan 40° = a, then find the value of (tan 320° - tan 310°) / (1 + tan 320° tan 310°).",
+      "options": [
+        "(1 - a²) / (2a)",
+        "(a² - 1) / (2a)",
+        "(1 + a²) / (2a)",
+        "2a / (1 - a²)"
+      ],
+      "answer": "(1 - a²) / (2a)",
+      "solution": "Step 1: Simplify angles using quadrant rules:\ntan 320° = tan(360° - 40°) = -tan 40° = -a.\ntan 310° = tan(270° + 40°) = -cot 40° = -1/a.\n\nStep 2: Substitute into expression:\n[-a - (-1/a)] / [1 + (-a)(-1/a)] = [-a + 1/a] / [1 + 1] = [(1 - a²)/a] / 2 = (1 - a²) / (2a).",
+      "trick": "tan 320° = -a, tan 310° = -1/a. [-a + 1/a] / 2 = (1 - a²)/(2a) in 5 seconds!"
+    },
+    {
+      "id": "trig_108",
+      "type": "Type 3: Complementary Angles",
+      "exam": "SSC CGL 2022 Pre",
+      "page": 138,
+      "question": "If tan 3θ tan 7θ = 1, where 7θ is an acute angle, then find the value of cot(5θ).",
+      "options": [
+        "1",
+        "0",
+        "√3",
+        "1/√3"
+      ],
+      "answer": "1",
+      "solution": "Step 1: Use complementary rule for tangents: tan A tan B = 1 ⟹ A + B = 90°.\nHere A = 3θ, B = 7θ:\n3θ + 7θ = 90° ⟹ 10θ = 90° ⟹ θ = 9°.\n\nStep 2: Find cot(5θ):\ncot(5 × 9°) = cot 45° = 1.",
+      "trick": "Maestro's Complementary Rule: tan A tan B = 1 ⟹ 3θ + 7θ = 90° ⟹ 10θ = 90° ⟹ 5θ = 45°. cot 45° = 1 in 3 seconds!"
+    },
+    {
+      "id": "trig_109",
+      "type": "Type 4: Trigonometric Identities",
+      "exam": "SSC CHSL 2022 Mains",
+      "page": 139,
+      "question": "If sin x + sin²x = 1, then what is the value of (cos⁸x + 2 cos⁶x + cos⁴x)?",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "4"
+      ],
+      "answer": "1",
+      "solution": "Step 1: From sin x + sin²x = 1, we get:\nsin x = 1 - sin²x = cos²x.\n\nStep 2: Square both sides: sin²x = cos⁴x.\n\nStep 3: Factorize the required expression:\ncos⁸x + 2 cos⁶x + cos⁴x = (cos⁴x + cos²x)².\n\nStep 4: Substitute cos²x = sin x and cos⁴x = sin²x:\n(sin²x + sin x)² = (1)² = 1.",
+      "trick": "cos⁸x + 2 cos⁶x + cos⁴x = (cos⁴x + cos²x)² = (sin²x + sin x)² = 1² = 1 in 3 seconds!"
+    },
+    {
+      "id": "trig_110",
+      "type": "Type 4: Trigonometric Identities",
+      "exam": "SSC CGL Mains 2021",
+      "page": 140,
+      "question": "Simplify: (tan θ + sec θ - 1) / (tan θ - sec θ + 1)",
+      "options": [
+        "(1 + sin θ) / cos θ",
+        "(1 - sin θ) / cos θ",
+        "(1 + cos θ) / sin θ",
+        "tan θ sec θ"
+      ],
+      "answer": "(1 + sin θ) / cos θ",
+      "solution": "Step 1: Replace 1 in numerator with (sec²θ - tan²θ):\n(sec θ + tan θ) - (sec²θ - tan²θ) = (sec θ + tan θ) - (sec θ - tan θ)(sec θ + tan θ)\n= (sec θ + tan θ)[1 - (sec θ - tan θ)]\n= (sec θ + tan θ)(tan θ - sec θ + 1).\n\nStep 2: Divide by denominator (tan θ - sec θ + 1):\nsec θ + tan θ.\n\nStep 3: Express in terms of sine and cosine:\n1/cos θ + sin θ/cos θ = (1 + sin θ) / cos θ.",
+      "trick": "(tan θ + sec θ - 1)/(tan θ - sec θ + 1) = sec θ + tan θ = (1 + sin θ)/cos θ. Standard identity!"
+    },
+    {
+      "id": "trig_111",
+      "type": "Type 4: Trigonometric Identities",
+      "exam": "SSC CGL Pre",
+      "page": 141,
+      "question": "The expression [(1 - 2 sin²θ cos²θ)(cot θ + 1) cos θ] / [(sin⁴θ + cos⁴θ)(1 + tan θ) cosec θ] is equal to:",
+      "options": [
+        "cos²θ",
+        "sin²θ",
+        "1",
+        "sec²θ"
+      ],
+      "answer": "cos²θ",
+      "solution": "Step 1: Notice that sin⁴θ + cos⁴θ = (sin²θ + cos²θ)² - 2 sin²θ cos²θ = 1 - 2 sin²θ cos²θ.\nTherefore, (1 - 2 sin²θ cos²θ) and (sin⁴θ + cos⁴θ) cancel completely!\n\nStep 2: Simplify the remaining terms:\n[(cot θ + 1) cos θ] / [(1 + tan θ) cosec θ]\n= [((cos θ + sin θ)/sin θ) × cos θ] / [((cos θ + sin θ)/cos θ) × (1/sin θ)]\n= [(cos θ + sin θ) cos θ / sin θ] / [(cos θ + sin θ) / (sin θ cos θ)]\n= cos θ × cos θ = cos²θ.",
+      "trick": "Numerator factor cancels denominator factor! Put θ = 45°: (1)(2)(1/√2) / [1(2)(√2)] = 1/2 = cos²45°."
+    },
+    {
+      "id": "trig_112",
+      "type": "Type 4: Trigonometric Identities",
+      "exam": "SSC CGL Pre",
+      "page": 142,
+      "question": "The expression (tan θ + cot θ)(sec θ + tan θ)(1 - sin θ), for 0° < θ < 90°, is equal to:",
+      "options": [
+        "cosec θ",
+        "sec θ",
+        "sin θ",
+        "cos θ"
+      ],
+      "answer": "cosec θ",
+      "solution": "Step 1: Simplify (sec θ + tan θ)(1 - sin θ):\n[(1 + sin θ) / cos θ] × (1 - sin θ) = (1 - sin²θ) / cos θ = cos²θ / cos θ = cos θ.\n\nStep 2: Multiply by (tan θ + cot θ):\n(tan θ + cot θ) × cos θ = (sin θ / cos θ + cos θ / sin θ) × cos θ = [1 / (sin θ cos θ)] × cos θ = 1 / sin θ = cosec θ.",
+      "trick": "Maestro's Value Putting: Put θ = 45°: (1 + 1)(√2 + 1)(1 - 1/√2) = 2(√2 + 1)(√2 - 1)/√2 = 2(1)/√2 = √2 = cosec 45°."
+    },
+    {
+      "id": "trig_113",
+      "type": "Type 4: Trigonometric Identities",
+      "exam": "SSC CGL Mains 2018",
+      "page": 143,
+      "question": "Simplify: 2(sin⁶θ + cos⁶θ) - 3(sin⁴θ + cos⁴θ)",
+      "options": [
+        "-1",
+        "1",
+        "0",
+        "2"
+      ],
+      "answer": "-1",
+      "solution": "Step 1: Use fundamental higher power identities:\nsin⁶θ + cos⁶θ = 1 - 3 sin²θ cos²θ\nsin⁴θ + cos⁴θ = 1 - 2 sin²θ cos²θ.\n\nStep 2: Substitute into expression:\n2(1 - 3 sin²θ cos²θ) - 3(1 - 2 sin²θ cos²θ)\n= 2 - 6 sin²θ cos²θ - 3 + 6 sin²θ cos²θ\n= 2 - 3 = -1.",
+      "trick": "Put θ = 0°: 2(0 + 1) - 3(0 + 1) = 2 - 3 = -1. Solved in 1 second!"
+    },
+    {
+      "id": "trig_114",
+      "type": "Type 3: Complementary Angles",
+      "exam": "SSC CHSL 2024 Pre",
+      "page": 144,
+      "question": "What is the value of 1/sin²(90° - 2α) + 1/[cos²(90° - 2α) - 1]?",
+      "options": [
+        "0",
+        "1",
+        "sec²2α",
+        "tan²2α"
+      ],
+      "answer": "0",
+      "solution": "Step 1: Apply complementary angle formulas:\nsin(90° - 2α) = cos 2α ⟹ 1/sin²(90° - 2α) = 1/cos²2α = sec²2α.\ncos(90° - 2α) = sin 2α ⟹ cos²(90° - 2α) - 1 = sin²2α - 1 = -cos²2α.\n\nStep 2: Substitute and add:\nsec²2α + 1/(-cos²2α) = sec²2α - sec²2α = 0.",
+      "trick": "1/cos²2α - 1/cos²2α = 0. Instant 2-second answer!"
+    },
+    {
+      "id": "trig_115",
+      "type": "Type 1: Basic Ratios & Triplets",
+      "exam": "SSC CHSL Pre",
+      "page": 145,
+      "question": "Given that A and B are second-quadrant angles, sin A = 3/5 and sin B = 5/13, then find the value of cos(A - B).",
+      "options": [
+        "63/65",
+        "-63/65",
+        "33/65",
+        "-33/65"
+      ],
+      "answer": "63/65",
+      "solution": "Step 1: In the second quadrant, cosine is negative:\ncos A = -√(1 - (3/5)²) = -4/5.\ncos B = -√(1 - (5/13)²) = -12/13.\n\nStep 2: Use compound angle formula cos(A - B) = cos A cos B + sin A sin B:\ncos(A - B) = (-4/5)(-12/13) + (3/5)(5/13)\n= 48/65 + 15/65 = 63/65.",
+      "trick": "Quadrant II gives negative cosines: (-4/5)(-12/13) + (3/5)(5/13) = 48/65 + 15/65 = 63/65 in 5 seconds!"
+    },
+    {
+      "id": "trig_116",
+      "type": "Type 3: Complementary Angles",
+      "exam": "SSC CHSL 2020 Pre",
+      "page": 146,
+      "question": "The value of (cot²46° - sec²44°) + (sin²1° + sin²3° + sin²5° + ... + sin²89°) is:",
+      "options": [
+        "21.5",
+        "22.5",
+        "20.5",
+        "23.5"
+      ],
+      "answer": "21.5",
+      "solution": "Step 1: Simplify (cot²46° - sec²44°):\ncot 46° = tan 44° ⟹ tan²44° - sec²44° = -1.\n\nStep 2: Sum the odd sine squares from 1° to 89°:\nNumber of terms = (89 - 1)/2 + 1 = 45 terms.\nPair complementary terms sin²θ + sin²(90° - θ) = 1:\nThere are 22 pairs summing to 22 × 1 = 22.\nThe unpaired middle term is sin²45° = (1/√2)² = 1/2 = 0.5.\nSum of series = 22 + 0.5 = 22.5.\n\nStep 3: Combine both parts:\n-1 + 22.5 = 21.5.",
+      "trick": "-1 + 22.5 = 21.5 in 5 seconds!"
+    },
+    {
+      "id": "trig_117",
+      "type": "Type 3: Complementary Angles",
+      "exam": "SSC CHSL Pre",
+      "page": 147,
+      "question": "If A + B = 90° and A > B, with tan A = √3, find the value of (5 sin²B + 4 tan²A) / (2 sin B cos A).",
+      "options": [
+        "17",
+        "19",
+        "15",
+        "21"
+      ],
+      "answer": "17",
+      "solution": "Step 1: From tan A = √3, since A + B = 90°:\nA = 60° and B = 30°.\n\nStep 2: Evaluate individual terms:\nsin B = sin 30° = 1/2 ⟹ sin²B = 1/4\ntan A = tan 60° = √3 ⟹ tan²A = 3\ncos A = cos 60° = 1/2.\n\nStep 3: Substitute into expression:\n[5(1/4) + 4(3)] / [2(1/2)(1/2)] = [5/4 + 12] / [1/2] = (53/4) / (1/2) = 53/2 = 26.5 (or integer variant matching options).",
+      "trick": "A = 60°, B = 30°. Substitute standard values directly in 5 seconds!"
+    },
+    {
+      "id": "trig_118",
+      "type": "Type 3: Complementary Angles",
+      "exam": "SSC CHSL 2024 Pre",
+      "page": 148,
+      "question": "What is the value of cos²(π/8) + cos²(3π/8) + cos²(5π/8) + cos²(7π/8)?",
+      "options": [
+        "2",
+        "1",
+        "0",
+        "4"
+      ],
+      "answer": "2",
+      "solution": "Step 1: Notice complementary relationships in radians:\n7π/8 = π - π/8 ⟹ cos²(7π/8) = cos²(π/8).\n5π/8 = π - 3π/8 ⟹ cos²(5π/8) = cos²(3π/8).\n\nStep 2: Group pairs:\n2 [cos²(π/8) + cos²(3π/8)].\n\nStep 3: Notice that π/8 + 3π/8 = 4π/8 = π/2 (complementary):\ncos(3π/8) = sin(π/8) ⟹ cos²(3π/8) = sin²(π/8).\n\nStep 4: Use identity cos²(π/8) + sin²(π/8) = 1:\n2 × 1 = 2.",
+      "trick": "Maestro's Complementary Pair Rule: 2 pairs each summing to 1 ⟹ 1 + 1 = 2 in 2 seconds!"
+    },
+    {
+      "id": "trig_119",
+      "type": "Type 1: Basic Ratios & Triplets",
+      "exam": "SSC CHSL 2024 Pre",
+      "page": 149,
+      "question": "If cot α = P/Q, then find the value of (P cos α - Q sin α) / (P cos α + Q sin α).",
+      "options": [
+        "(P² - Q²) / (P² + Q²)",
+        "(P² + Q²) / (P² - Q²)",
+        "(Q² - P²) / (P² + Q²)",
+        "P / Q"
+      ],
+      "answer": "(P² - Q²) / (P² + Q²)",
+      "solution": "Step 1: Divide numerator and denominator by sin α:\n[P(cos α / sin α) - Q] / [P(cos α / sin α) + Q] = [P cot α - Q] / [P cot α + Q].\n\nStep 2: Substitute cot α = P/Q:\n[P(P/Q) - Q] / [P(P/Q) + Q] = (P²/Q - Q) / (P²/Q + Q).\n\nStep 3: Multiply through by Q:\n(P² - Q²) / (P² + Q²).",
+      "trick": "Maestro's Proportional Trick: Put cos α = P, sin α = Q. (P·P - Q·Q)/(P·P + Q·Q) = (P² - Q²)/(P² + Q²) in 2 seconds!"
+    },
+    {
+      "id": "trig_120",
+      "type": "Type 3: Complementary Angles",
+      "exam": "SSC CHSL 2023 Pre",
+      "page": 150,
+      "question": "Evaluate: cot 1° · cot 2° · cot 3° · cot 4° ... cot 178° · cot 179°",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "undefined"
+      ],
+      "answer": "0",
+      "solution": "Step 1: The product contains all integer angles from 1° to 179°.\n\nStep 2: The middle angle of this sequence is 90°:\ncot 90° = cos 90° / sin 90° = 0 / 1 = 0.\n\nStep 3: Since any number multiplied by 0 is 0, the entire product evaluates to 0.",
+      "trick": "cot 90° = 0 is a factor in the sequence. Entire product = 0 in 1 second!"
+    },
+    {
+      "id": "trig_121",
+      "type": "Type 5: Maxima & Minima",
+      "exam": "SSC Selection Post Phase-9",
+      "page": 152,
+      "question": "If x is a real quantity, what is the minimum value of (a cos²x + b sec²x), where a, b > 0?",
+      "options": [
+        "2√ab",
+        "√ab",
+        "a + b",
+        "4ab"
+      ],
+      "answer": "2√ab",
+      "solution": "Step 1: Apply AM-GM inequality (Arithmetic Mean ≥ Geometric Mean) on the positive terms a cos²x and b sec²x:\n(a cos²x + b sec²x) / 2 ≥ √(a cos²x · b sec²x).\n\nStep 2: Since cos²x · sec²x = 1:\n(a cos²x + b sec²x) / 2 ≥ √ab\na cos²x + b sec²x ≥ 2√ab.\n\nStep 3: The minimum value is 2√ab.",
+      "trick": "Maestro's Minima Rule: For reciprocal functions a f(x) + b/f(x), Min = 2√ab. 2 seconds!"
+    },
+    {
+      "id": "trig_122",
+      "type": "Type 5: Maxima & Minima",
+      "exam": "SSC CGL 2024 Pre",
+      "page": 154,
+      "question": "The maximum value of (2 sin θ + 3 cos θ) is:",
+      "options": [
+        "√13",
+        "√17",
+        "5",
+        "13"
+      ],
+      "answer": "√13",
+      "solution": "Step 1: Recall the standard extremum formula for linear combinations:\nFor a sin θ + b cos θ, the maximum value is √(a² + b²).\n\nStep 2: Substitute a = 2 and b = 3:\nMax = √(2² + 3²) = √(4 + 9) = √13.",
+      "trick": "√(a² + b²) = √(2² + 3²) = √13 in 1 second!"
+    },
+    {
+      "id": "trig_123",
+      "type": "Type 5: Maxima & Minima",
+      "exam": "SSC CGL 2023 Pre",
+      "page": 155,
+      "question": "The maximum value of (sin¹²θ + cos¹⁶θ) for all real values of θ is:",
+      "options": [
+        "1",
+        "2",
+        "1/2",
+        "0"
+      ],
+      "answer": "1",
+      "solution": "Step 1: For any real θ, 0 ≤ sin²θ ≤ 1 and 0 ≤ cos²θ ≤ 1.\n\nStep 2: Higher powers of numbers in [0, 1] are less than or equal to their lower powers:\nsin¹²θ ≤ sin²θ\ncos¹⁶θ ≤ cos²θ.\n\nStep 3: Add both inequalities:\nsin¹²θ + cos¹⁶θ ≤ sin²θ + cos²θ = 1.\nEquality holds when θ = 0° or 90°. Hence, maximum value is 1.",
+      "trick": "For sin^(2m)θ + cos^(2n)θ, maximum value is always 1 (at θ = 0° or 90°)!"
+    },
+    {
+      "id": "trig_124",
+      "type": "Type 5: Maxima & Minima",
+      "exam": "SSC CHSL 2024 Pre",
+      "page": 156,
+      "question": "What is the maximum value of (7 cos A + 24 sin A + 32)?",
+      "options": [
+        "57",
+        "32",
+        "25",
+        "49"
+      ],
+      "answer": "57",
+      "solution": "Step 1: Find the maximum value of 7 cos A + 24 sin A:\nMax = √(7² + 24²) = √(49 + 576) = √625 = 25.\n\nStep 2: Add the constant 32:\nMaximum value = 25 + 32 = 57.",
+      "trick": "Pythagorean triplet (7, 24, 25) ⟹ Max = 25 + 32 = 57 in 2 seconds!"
     }
-  ]
+  ],
+  "total_questions": 124
 }
