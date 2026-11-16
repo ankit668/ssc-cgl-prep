@@ -698,25 +698,25 @@
       "id": 30,
       "category": "quadrilateral",
       "category_name": "Quadrilaterals & Hexagons",
-      "exam": "CHSL 2019 Pre",
-      "question": "A circle is inscribed inside a square, and another square is inscribed inside this circle. What is the ratio of the area of the largest square to that of the smallest square?",
+      "exam": "CHSL 2019 Pre (Maestro Slide 43)",
+      "question": "In the given concentric geometric figure, a large outer square encloses an inscribed circle, which encloses a second square, which in turn encloses another inscribed circle and a third innermost square. What is the ratio of the area of the largest (outermost) square to that of the smallest (innermost) square?",
       "options": {
         "a": "4 : 1",
         "b": "√2 : 1",
         "c": "3 : 1",
         "d": "2 : 1"
       },
-      "answer": "d",
-      "correct_text": "2 : 1",
-      "formula": "Outer Square : Inscribed Circle : Inscribed Square = a² : (π/4)a² : (a²/2)",
+      "answer": "a",
+      "correct_text": "4 : 1",
+      "formula": "Area of Inscribed Square = ½ × (Area of Enclosing Outer Square)",
       "steps": [
-        "Let the outer large square have side 'a'. Its area is S₁ = a².",
-        "The inscribed circle has diameter equal to the side of the square: d = a  ⇒  radius r = a / 2.",
-        "The smaller square is inscribed inside this circle, so its diagonal equals the diameter of the circle: D_inner = 2r = a.",
-        "Area of square in terms of its diagonal is (Diagonal)² / 2 = a² / 2.",
-        "Ratio of area of largest square to smallest square = a² / (a² / 2) = 2 : 1."
+        "Let the outermost (largest) square have side 'a' and Area S₁ = a².",
+        "The circle inscribed in this outer square has diameter d = a. The second square is inscribed in this circle, so its diagonal is 'a'.",
+        "Area of second square S₂ = (Diagonal)² / 2 = a² / 2 = ½ S₁.",
+        "Similarly, the innermost (third) square is inscribed in the circle that is inscribed in the second square, so its area is S₃ = ½ S₂ = ½ (a² / 2) = a² / 4 = ¼ S₁.",
+        "Therefore, the ratio of the area of the largest square to that of the smallest square is S₁ : S₃ = a² : (a² / 4) = 4 : 1."
       ],
-      "trick": "NESTED SQUARE THEOREM: When a square is inscribed in a circle that is itself inscribed in an outer square, the inner square area is ALWAYS exactly half the outer square area! Ratio = 2 : 1."
+      "trick": "NESTED SQUARES RULE: Every successive inscribed square has exactly HALF the area of the outer square (Ratio 1 : ½ : ¼ : ⅛ ...). From 1st square to 3rd square = 1 : ¼ ⇒ Largest : Smallest = 4 : 1. Instant 2-second answer!"
     },
     {
       "id": 31,
@@ -1062,6 +1062,251 @@
         "Area of square = x² = (4 / 5) r² = 0.8 r²."
       ],
       "trick": "GOLDEN MAESTRO RESULT: Max square in semicircle = (4/5) r² = 0.8 r². If r = 5 cm, Area = (4/5) × 25 = 20 cm²!"
+    },
+    {
+      "id": 45,
+      "category": "circle_shaded",
+      "category_name": "Circles & Shaded Regions",
+      "exam": "Maths Maestro Triangular Bundle Special (Slide 61)",
+      "question": "Ten identical circular cylinders of radius r are held tightly together in a triangular bundle (with 4 cylinders along each edge, arranged in a triangular pack) by a rubber band stretched around them. Find the total stretched length of the rubber band.",
+      "options": {
+        "a": "18r + 2πr",
+        "b": "12r + 2πr",
+        "c": "24r + 2πr",
+        "d": "16r + 2πr"
+      },
+      "answer": "a",
+      "correct_text": "18r + 2πr",
+      "formula": "Rubber Band Length = 3 × (k - 1) × 2r + 2πr (where k is cylinders per side)",
+      "steps": [
+        "Along each of the three sides of the equilateral triangular pack, there are 4 cylinders (k = 4).",
+        "The straight tangential segments of the rubber band connect the outer tangents between the corner cylinders.",
+        "Distance between the center of the first cylinder and the fourth cylinder along each edge = (4 - 1) × 2r = 3 × 2r = 6r.",
+        "Since there are 3 straight sides, the total straight length = 3 × 6r = 18r.",
+        "At the 3 corner vertices, the rubber band curves around the corner cylinders. Each curved corner arc subtends an external angle of 120° (since equilateral interior angle is 60°, 180° - 60° = 120°).",
+        "Sum of the 3 curved corner arcs = 3 × 120° = 360°, which forms exactly one complete circle circumference = 2πr.",
+        "Total Length = Straight Segments + Curved Corners = 18r + 2πr."
+      ],
+      "trick": "Vishesh Sir's Triangular Pack Formula: Straight segments = 3 × (k - 1) × 2r = 3 × 3 × 2r = 18r. Corner arcs always make 1 full circle = 2πr. Total = 18r + 2πr!"
+    },
+    {
+      "id": 46,
+      "category": "circle_shaded",
+      "category_name": "Circles & Shaded Regions",
+      "exam": "Maths Maestro Semicircle Symmetrical Multi-Base (Slide 62)",
+      "question": "A large semicircle of radius R = 7 cm has n = 6 identical small semicircles constructed along its diameter AB symmetrically about the center. A circle of radius r touches the large semicircle internally and touches the small semicircles at the center. Find the area of this inscribed circle.",
+      "options": {
+        "a": "9π cm²",
+        "b": "16π cm²",
+        "c": "4π cm²",
+        "d": "12π cm²"
+      },
+      "answer": "a",
+      "correct_text": "9π cm²",
+      "formula": "r = (n × R) / [2 × (n + 1)]",
+      "steps": [
+        "Given large semicircle radius R = 7 cm and number of small base semicircles n = 6.",
+        "By Vishesh Sir's master theorem for symmetrical base semicircles inscribed circle: r = (n × R) / [2(n + 1)].",
+        "Substitute n = 6 and R = 7 cm: r = (6 × 7) / [2 × (6 + 1)] = 42 / [2 × 7] = 42 / 14 = 3 cm.",
+        "Area of this circle = πr² = π(3)² = 9π cm²."
+      ],
+      "trick": "Direct Maestro Shortcut: r = nR / [2(n + 1)] = (6 × 7) / (2 × 7) = 3 cm ⇒ Area = π(3)² = 9π cm² in 5 seconds!"
+    },
+    {
+      "id": 47,
+      "category": "circle_shaded",
+      "category_name": "Circles & Shaded Regions",
+      "exam": "Maths Maestro 3-Touching Circles Radius Ratio (Slide 56-57)",
+      "question": "Three identical circles of equal radius r touch each other externally. If r₁ is the radius of the smallest circle that can be placed in the central gap touching all three circles, and r₂ is the radius of the smallest circle that can enclose all three circles, find the ratio r₁ : r₂.",
+      "options": {
+        "a": "7 - 4√3",
+        "b": "7 + 4√3",
+        "c": "3 - 2√2",
+        "d": "3 + 2√2"
+      },
+      "answer": "a",
+      "correct_text": "7 - 4√3",
+      "formula": "r₁ / r₂ = [(2/√3) - 1] / [(2/√3) + 1] = 7 - 4√3",
+      "steps": [
+        "Connecting the centers of the 3 touching circles of radius r forms an equilateral triangle of side 2r.",
+        "Circumradius of this triangle R_Δ = side / √3 = 2r / √3.",
+        "The smallest central circle (touching all 3 externally) has radius r₁ = R_Δ - r = (2/√3 - 1)r = [(2 - √3) / √3] r.",
+        "The largest circumscribing circle (enclosing all 3) has radius r₂ = R_Δ + r = (2/√3 + 1)r = [(2 + √3) / √3] r.",
+        "Ratio r₁ : r₂ = (2 - √3) / (2 + √3) = (2 - √3)² / (4 - 3) = 4 + 3 - 4√3 = 7 - 4√3."
+      ],
+      "trick": "Vishesh Sir's Golden Ratio: Small circle / Big circle = (2 - √3) / (2 + √3) = (2 - √3)² = 7 - 4√3. Inverse ratio (Big/Small) = 7 + 4√3!"
+    },
+    {
+      "id": 48,
+      "category": "circle_shaded",
+      "category_name": "Circles & Shaded Regions",
+      "exam": "Maths Maestro 4-Touching Circles Radius Ratio (Slide 58)",
+      "question": "Four identical circles of equal radius r touch each other externally. Find the ratio of the radius of the central circle touching all four circles to the radius of the circle enclosing all four circles.",
+      "options": {
+        "a": "3 - 2√2",
+        "b": "3 + 2√2",
+        "c": "√2 - 1",
+        "d": "√2 + 1"
+      },
+      "answer": "a",
+      "correct_text": "3 - 2√2",
+      "formula": "r_in / r_out = (√2 - 1) / (√2 + 1) = 3 - 2√2",
+      "steps": [
+        "Connecting the centers of the 4 touching circles of radius r forms a square ABCD of side 2r.",
+        "Diagonal of square = (side) × √2 = 2r√2. Distance from center O to vertex = half diagonal = √2 r.",
+        "Radius of central inscribed circle r_in = √2 r - r = (√2 - 1) r.",
+        "Radius of outer circumscribing circle r_out = √2 r + r = (√2 + 1) r.",
+        "Ratio r_in / r_out = (√2 - 1) / (√2 + 1) = (√2 - 1)² / (2 - 1) = 2 + 1 - 2√2 = 3 - 2√2."
+      ],
+      "trick": "Direct Maestro Result: Central / Outer = (√2 - 1) / (√2 + 1) = (√2 - 1)² = 3 - 2√2. Solve in 2 seconds!"
+    },
+    {
+      "id": 49,
+      "category": "circle_shaded",
+      "category_name": "Circles & Shaded Regions",
+      "exam": "SSC CGL Mains Master Ratio (Slide 63)",
+      "question": "A triangle of maximum possible area, a square of maximum possible area, and a circle of maximum possible area are each inscribed in a semicircle of radius r. What is the ratio of their respective areas (Triangle : Square : Circle)?",
+      "options": {
+        "a": "20 : 16 : 5π",
+        "b": "20 : 15 : 4π",
+        "c": "16 : 20 : 5π",
+        "d": "25 : 20 : 6π"
+      },
+      "answer": "a",
+      "correct_text": "20 : 16 : 5π",
+      "formula": "Area(Δ) = r², Area(□) = (4/5)r², Area(○) = (π/4)r²",
+      "steps": [
+        "1. Max triangle inscribed in semicircle of radius r has base = 2r and height = r ⇒ Area(Δ) = ½ × 2r × r = r².",
+        "2. Max square inscribed in semicircle of side a satisfies (a/2)² + a² = r² ⇒ (5/4)a² = r² ⇒ Area(□) = a² = (4/5)r².",
+        "3. Max circle inscribed in semicircle has diameter = r ⇒ radius = r/2 ⇒ Area(○) = π(r/2)² = (π/4)r².",
+        "Ratio = Area(Δ) : Area(□) : Area(○) = r² : (4/5)r² : (π/4)r² = 1 : (4/5) : (π/4).",
+        "Multiply by LCM(5, 4) = 20: 20 × 1 : 20 × (4/5) : 20 × (π/4) = 20 : 16 : 5π."
+      ],
+      "trick": "Vishesh Sir's Golden Triple: Δ : □ : ○ = 1 : 0.8 : 0.25π ⇒ 20 : 16 : 5π. Direct SSC Mains question memorized forever!"
+    },
+    {
+      "id": 50,
+      "category": "circle_shaded",
+      "category_name": "Circles & Shaded Regions",
+      "exam": "SSC CGL Pre (Maestro Slide 54)",
+      "question": "Four identical circular coins each of radius 7 cm are placed on a tabletop such that each coin touches two other coins externally. Find the area of the enclosed central gap between the four coins. (Take π = 22/7)",
+      "options": {
+        "a": "42 cm²",
+        "b": "36 cm²",
+        "c": "48 cm²",
+        "d": "56 cm²"
+      },
+      "answer": "a",
+      "correct_text": "42 cm²",
+      "formula": "Area = (4 - π) r² = (6 / 7) r²",
+      "steps": [
+        "The centers of the four circles form a square of side 2r = 2 × 7 = 14 cm.",
+        "Area of the square = (14)² = 196 cm².",
+        "Inside the square, the 4 corner sectors are 90° each, which together form one full circle of radius r = 7 cm.",
+        "Area of the 4 sectors = πr² = (22/7) × 7² = 154 cm².",
+        "Shaded central area = Area of Square - Area of Circle = 196 - 154 = 42 cm².",
+        "Direct formula: Area = (4 - π)r² = (4 - 22/7)r² = (6/7)r² = (6/7) × 49 = 42 cm²."
+      ],
+      "trick": "4-Circle Enclosed Gap Shortcut: Area = (6 / 7) r² = (6 / 7) × 49 = 42 cm² in 2 seconds!"
+    },
+    {
+      "id": 51,
+      "category": "quadrilateral",
+      "category_name": "Quadrilaterals & Hexagons",
+      "exam": "SSC CGL Pre (Maestro Slide 35)",
+      "question": "A rectangular park 60 m long and 40 m wide has two concrete crossroads each 5 m wide running in the middle of it, one parallel to the length and the other parallel to the breadth. Find the total area of the crossroads.",
+      "options": {
+        "a": "475 m²",
+        "b": "500 m²",
+        "c": "450 m²",
+        "d": "525 m²"
+      },
+      "answer": "a",
+      "correct_text": "475 m²",
+      "formula": "Area of Crossroads = w(l + b - w)",
+      "steps": [
+        "Given length l = 60 m, breadth b = 40 m, and path width w = 5 m.",
+        "Area of path parallel to length = l × w = 60 × 5 = 300 m².",
+        "Area of path parallel to breadth = b × w = 40 × 5 = 200 m².",
+        "The center square of side w is common to both paths and counted twice: Area = w² = 5² = 25 m².",
+        "Total area of crossroads = 300 + 200 - 25 = 475 m².",
+        "Direct Formula: Area = w(l + b - w) = 5 × (60 + 40 - 5) = 5 × 95 = 475 m²."
+      ],
+      "trick": "Crossroads Shortcut: w(l + b - w) = 5 × (100 - 5) = 5 × 95 = 475 m². 3-second mental math!"
+    },
+    {
+      "id": 52,
+      "category": "quadrilateral",
+      "category_name": "Quadrilaterals & Hexagons",
+      "exam": "SSC CHSL Pre (Maestro Slide 35)",
+      "question": "A square lawn of side 35 m is surrounded externally by a uniform gravel pathway of width 2.5 m. Find the area of the pathway.",
+      "options": {
+        "a": "375 m²",
+        "b": "350 m²",
+        "c": "400 m²",
+        "d": "425 m²"
+      },
+      "answer": "a",
+      "correct_text": "375 m²",
+      "formula": "Area of External Path around Square = 4w(a + w)",
+      "steps": [
+        "Inner square side a = 35 m, path width w = 2.5 m.",
+        "Outer square side = a + 2w = 35 + 2(2.5) = 40 m.",
+        "Area of outer square = 40² = 1600 m².",
+        "Area of inner lawn = 35² = 1225 m².",
+        "Area of path = 1600 - 1225 = 375 m².",
+        "Direct formula: Area = 4w(a + w) = 4 × 2.5 × (35 + 2.5) = 10 × 37.5 = 375 m²."
+      ],
+      "trick": "Outside Square Path Rule: 4w(a + w) = 4(2.5)(37.5) = 10 × 37.5 = 375 m² in 4 seconds!"
+    },
+    {
+      "id": 53,
+      "category": "circle_shaded",
+      "category_name": "Circles & Shaded Regions",
+      "exam": "SSC CGL Mains (Maestro Slide 66-67)",
+      "question": "Two circles of radius r = 6 cm are drawn such that the center of each circle lies on the circumference of the other circle. What is the length of their common chord?",
+      "options": {
+        "a": "6√3 cm",
+        "b": "12√3 cm",
+        "c": "6√2 cm",
+        "d": "3√3 cm"
+      },
+      "answer": "a",
+      "correct_text": "6√3 cm",
+      "formula": "Common Chord Length = √3 × r",
+      "steps": [
+        "Let centers be C₁ and C₂. Distance between centers d = C₁C₂ = r.",
+        "The line of centers C₁C₂ bisects the common chord perpendicularly at midpoint M, so C₁M = r / 2.",
+        "If P is an intersection point, in right-angled ΔC₁MP, hypotenuse C₁P = r and base C₁M = r / 2.",
+        "By Pythagoras: PM = √[r² - (r/2)²] = √[3r² / 4] = (√3 / 2) r.",
+        "Total common chord length = 2 × PM = 2 × (√3 / 2) r = √3 r.",
+        "For r = 6 cm: Common chord = 6√3 cm."
+      ],
+      "trick": "Vishesh Sir's Master Rule: Common chord of two circles passing through each other's centers is ALWAYS √3 × r. With r = 6, length = 6√3 cm instantly!"
+    },
+    {
+      "id": 54,
+      "category": "quadrilateral",
+      "category_name": "Quadrilaterals & Hexagons",
+      "exam": "SSC CGL Pre (Maestro Slide 43)",
+      "question": "A circle is inscribed in a square of side a. What is the ratio of the area of the inscribed circle to the area of the enclosing square?",
+      "options": {
+        "a": "11 : 14",
+        "b": "22 : 7",
+        "c": "14 : 11",
+        "d": "7 : 11"
+      },
+      "answer": "a",
+      "correct_text": "11 : 14",
+      "formula": "Area(Circle) : Area(Square) = (π/4)a² : a² = 11 : 14",
+      "steps": [
+        "Square has side a, so Area(Square) = a².",
+        "The inscribed circle has diameter d = a, so its radius r = a / 2.",
+        "Area(Circle) = πr² = π(a / 2)² = (π / 4) a².",
+        "Ratio of Circle to Square = (π / 4) : 1 = (22 / 28) : 1 = 11 : 14.",
+        "Conversely, Ratio of Square to Inscribed Circle is 14 : 11."
+      ],
+      "trick": "SSC Maestro Constant: Inscribed Circle / Square = π/4 = 11/14. Square / Inscribed Circle = 14/11. Instant 1-second recall!"
     }
   ],
   "formulas": [
@@ -1162,6 +1407,36 @@
       "title": "Overlapping Circles Through Each Other's Centers",
       "formula": "Common Area = (2π / 3 - √3 / 2) r²",
       "note": "Central angle is 120°. Common lens = 2 × (120° sector) - Rhombus area."
+    },
+    {
+      "title": "Ratio of Radii for 3 Mutually Touching Circles",
+      "formula": "r_small / r_big = (7 - 4√3) | r_big / r_small = (7 + 4√3)",
+      "note": "Central small circle radius r₁ = [(2/√3) - 1]r. Enclosing big circle radius r₂ = [(2/√3) + 1]r."
+    },
+    {
+      "title": "Ratio of Radii for 4 Mutually Touching Circles",
+      "formula": "r_in / r_out = (3 - 2√2) | r_out / r_in = (3 + 2√2)",
+      "note": "Central small circle radius r_in = (√2 - 1)r. Enclosing big circle radius r_out = (√2 + 1)r."
+    },
+    {
+      "title": "Universal Rubber Band Around Triangular Pack of Circles",
+      "formula": "Length = 3(k - 1) × 2r + 2πr (where k = circles along each edge)",
+      "note": "For 10 cylinders (k=4): Length = 18r + 2πr. Straight parts = 3(k-1)(2r), corners sum to 2πr."
+    },
+    {
+      "title": "Semicircles Distributed on Diameter with Inscribed Circle",
+      "formula": "r = (n × R) / [2 × (n + 1)]",
+      "note": "Where R is radius of large semicircle and n is number of identical small base semicircles."
+    },
+    {
+      "title": "Ratio of Max Figures Inscribed in Semicircle",
+      "formula": "Area(Δ) : Area(□) : Area(○) = 20 : 16 : 5π",
+      "note": "Max Triangle = r², Max Square = (4/5)r², Max Circle = (π/4)r²."
+    },
+    {
+      "title": "Common Chord of Circles Passing Through Each Other's Centers",
+      "formula": "Length = √3 × r",
+      "note": "Distance between centers is r. Midpoint distance is r/2, half-chord is (√3/2)r."
     }
   ]
 }
