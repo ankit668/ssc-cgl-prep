@@ -1,993 +1,1627 @@
-// RRB NTPC CEN 06/2026 Master Hub (180 Pure-English MCQs & 24 Cheat-Sheet Rules)
+// RRB NTPC CEN 06/2026 Master Hub (210 Pure-English MCQs & 26 Cheat-Sheet Rules — incl. Complete Maths Maestro Statistics)
 window.NTPC26_DATA = [
   {
     "category": "statistics",
     "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC CEN 06/2026 Focus",
-    "question": "If the Mean of a distribution is 20 and its Median is 24, find the Mode using the empirical relationship.",
+    "exam": "Maths Maestro Statistics (Slide 5)",
+    "question": "The daily high temperatures (°C) for a city over one week were: Mon 22, Tue 25, Wed 23, Thu 28, Fri 26, Sat 27, Sun 24. What is the range of the high temperatures for this week?",
     "options": {
-      "a": "30",
-      "b": "32",
-      "c": "26",
-      "d": "28"
+      "a": "5°C",
+      "b": "6°C",
+      "c": "7°C",
+      "d": "11°C"
     },
     "answer": "b",
-    "correct_text": "32",
-    "formula": "Mode = 3 × Median − 2 × Mean",
+    "correct_text": "6°C",
+    "formula": "Range = Maximum Value − Minimum Value",
     "steps": [
-      "Given: Mean = 20, Median = 24.",
-      "Apply Karl Pearson's empirical formula: Mode = 3(Median) − 2(Mean).",
-      "Mode = 3(24) − 2(20) = 72 − 40 = 32."
+      "Highest temperature = 28°C (Thursday).",
+      "Lowest temperature = 22°C (Monday).",
+      "Range = 28 − 22 = 6°C."
     ],
-    "trick": "Direct 3-second formula: 3×24 − 2×20 = 72 − 40 = 32.",
+    "trick": "Scan only for Max (28) and Min (22) → 28 − 22 = 6°C in 2 seconds.",
     "id": 1
   },
   {
     "category": "statistics",
     "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC PYQ Pattern",
-    "question": "Find the Median of the following observations: 17, 8, 25, 12, 31, 19, 14, 22, 9.",
+    "exam": "Maths Maestro Statistics (Slide 5)",
+    "question": "A spinner numbered 1, 2, 3, 4, and 5 was spun 500 times with frequencies: Outcome 1 → 95, Outcome 2 → 110, Outcome 3 → 125, Outcome 4 → 80, Outcome 5 → 90. How many times did the spinner land on an outcome less than 3?",
     "options": {
-      "a": "18",
-      "b": "14",
-      "c": "19",
-      "d": "17"
+      "a": "206",
+      "b": "205",
+      "c": "195",
+      "d": "185"
     },
-    "answer": "d",
-    "correct_text": "17",
-    "formula": "For odd n, Median = ((n + 1) / 2)th term in ascending order",
+    "answer": "b",
+    "correct_text": "205",
+    "formula": "Outcomes strictly less than 3 = {1, 2}",
     "steps": [
-      "First, arrange the 9 observations in ascending order: 8, 9, 12, 14, 17, 19, 22, 25, 31.",
-      "Here n = 9 (odd). Median position = (9 + 1) / 2 = 5th observation.",
-      "The 5th term in the sorted list is 17."
+      "Outcomes less than 3 are Outcome 1 and Outcome 2 (do NOT include 3).",
+      "Total frequency = Freq(1) + Freq(2) = 95 + 110 = 205."
     ],
-    "trick": "Never pick the middle term without sorting! Count 4 smallest (8, 9, 12, 14) → the very next smallest is 17.",
+    "trick": "'Less than 3' excludes 3 → simply add 95 + 110 = 205!",
     "id": 2
   },
   {
     "category": "statistics",
     "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC PYQ Pattern",
-    "question": "Find the Median of the data set: 14, 21, 9, 18, 26, 12, 15, 30.",
+    "exam": "Maths Maestro Statistics Q1 (Slide 8)",
+    "question": "The mid-value (class mark) of a class interval is 65. If the class size is 20, what are the upper and lower limits of the class (respectively)?",
     "options": {
-      "a": "17",
-      "b": "16",
-      "c": "16.5",
-      "d": "15.5"
+      "a": "55, 75",
+      "b": "75, 55",
+      "c": "60, 80",
+      "d": "80, 60"
     },
-    "answer": "c",
-    "correct_text": "16.5",
-    "formula": "For even n, Median = Average of (n/2)th and (n/2 + 1)th terms",
+    "answer": "b",
+    "correct_text": "75, 55",
+    "formula": "Upper Limit = Mid + (Size / 2) ; Lower Limit = Mid − (Size / 2)",
     "steps": [
-      "Arrange the 8 terms in ascending order: 9, 12, 14, 15, 18, 21, 26, 30.",
-      "Since n = 8 (even), Median = average of 4th and 5th terms.",
-      "4th term = 15, 5th term = 18 ⇒ Median = (15 + 18) / 2 = 33 / 2 = 16.5."
+      "Half of class size = 20 / 2 = 10.",
+      "Upper limit = 65 + 10 = 75; Lower limit = 65 − 10 = 55.",
+      "Read the order carefully: question asks for 'upper and lower limits' → 75, 55."
     ],
-    "trick": "For 8 numbers, strike off 3 smallest (9, 12, 14) and 3 largest (21, 26, 30). Average the remaining two: (15 + 18)/2 = 16.5.",
+    "trick": "Classic wording trap! Question asks UPPER first, LOWER second → (75, 55), NOT (55, 75)!",
     "id": 3
   },
   {
     "category": "statistics",
     "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC CBT-2 Special",
-    "question": "Calculate the Variance of the data set: 2, 4, 6, 8, 10.",
+    "exam": "Maths Maestro Statistics Q2 (Slide 8)",
+    "question": "In a month, a company's daily sales were ₹1200, ₹1500, ₹1150, ₹1800, and ₹1650. What is the range?",
     "options": {
-      "a": "8",
-      "b": "2√2",
-      "c": "10",
-      "d": "4"
+      "a": "600",
+      "b": "650",
+      "c": "550",
+      "d": "700"
     },
-    "answer": "a",
-    "correct_text": "8",
-    "formula": "Variance (σ²) = Σ(xᵢ − x̄)² / N",
+    "answer": "b",
+    "correct_text": "650",
+    "formula": "Range = Max − Min",
     "steps": [
-      "Find the Mean: x̄ = (2 + 4 + 6 + 8 + 10) / 5 = 30 / 5 = 6.",
-      "Find deviations from Mean (xᵢ − 6): −4, −2, 0, +2, +4.",
-      "Square each deviation: 16, 4, 0, 4, 16. Sum = 40.",
-      "Variance σ² = 40 / 5 = 8."
+      "Maximum sale = 1800; Minimum sale = 1150.",
+      "Range = 1800 − 1150 = 650."
     ],
-    "trick": "For AP {2,4,6,8,10} with n=5, d=2: Variance = d²(n² − 1)/12 = 4 × (25 − 1)/12 = 4 × 2 = 8 in 3 seconds!",
+    "trick": "1800 − 1150 = 650.",
     "id": 4
   },
   {
     "category": "statistics",
     "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC CBT-2 Special",
-    "question": "If the Variance of a dataset is 169, what is its Standard Deviation?",
+    "exam": "Maths Maestro Statistics Q3 (Slide 8)",
+    "question": "What is the range of the first five odd natural numbers?",
     "options": {
-      "a": "±13",
-      "b": "16.9",
-      "c": "26",
-      "d": "13"
+      "a": "8",
+      "b": "10",
+      "c": "9",
+      "d": "12"
     },
-    "answer": "d",
-    "correct_text": "13",
-    "formula": "Standard Deviation (σ) = +√Variance (always non-negative)",
+    "answer": "a",
+    "correct_text": "8",
+    "formula": "First n odd numbers range = (2n − 1) − 1 = 2(n − 1)",
     "steps": [
-      "Given Variance σ² = 169.",
-      "Standard Deviation σ = √169 = 13.",
-      "Note: Standard Deviation is a measure of distance/spread, so it can NEVER be negative (eliminate ±13)."
+      "First five odd natural numbers: 1, 3, 5, 7, 9.",
+      "Range = 9 − 1 = 8."
     ],
-    "trick": "Classic NTPC trap: always pick positive 13, NEVER ±13! SD ≥ 0 always.",
+    "trick": "Range of first n odd numbers = 2(n − 1) = 2 × 4 = 8!",
     "id": 5
   },
   {
     "category": "statistics",
     "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC CBT-2 High-Yield",
-    "question": "The Mean of a distribution is 25 and its Standard Deviation is 5. What is its Coefficient of Variation (CV)?",
+    "exam": "Maths Maestro Statistics Q4 (Slide 10)",
+    "question": "Find the median of the following numbers: 41, 36, 29, 33, 45, 39.",
     "options": {
-      "a": "5%",
-      "b": "25%",
-      "c": "12.5%",
-      "d": "20%"
+      "a": "37.5",
+      "b": "35.5",
+      "c": "37",
+      "d": "36.5"
     },
-    "answer": "d",
-    "correct_text": "20%",
-    "formula": "CV = (Standard Deviation / Mean) × 100%",
+    "answer": "a",
+    "correct_text": "37.5",
+    "formula": "Even n = 6 ⇒ Median = (3rd + 4th term) / 2",
     "steps": [
-      "Given: Mean (x̄) = 25, Standard Deviation (σ) = 5.",
-      "CV = (5 / 25) × 100% = (1 / 5) × 100% = 20%."
+      "Sort in ascending order: 29, 33, 36, 39, 41, 45.",
+      "3rd term = 36, 4th term = 39.",
+      "Median = (36 + 39) / 2 = 75 / 2 = 37.5."
     ],
-    "trick": "CV = (SD / Mean) × 100 = 5/25 × 100 = 20%.",
+    "trick": "Drop 2 smallest (29, 33) and 2 largest (41, 45) → midpoint of 36 & 39 is 37.5!",
     "id": 6
   },
   {
     "category": "statistics",
     "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC CBT-2 High-Yield",
-    "question": "The Standard Deviation of a set of 15 observations is 6. If every observation is increased by 10, what will be the new Standard Deviation?",
+    "exam": "Maths Maestro Statistics Q5 (Slide 10)",
+    "question": "Find the median of the following data: 25.5, 88.1, 15.4, 25.9, 45, 96.2, 38.7, 71.3, 19, 52.8.",
     "options": {
-      "a": "10",
-      "b": "60",
-      "c": "16",
-      "d": "6"
+      "a": "41.85",
+      "b": "45",
+      "c": "38.7",
+      "d": "43.25"
     },
-    "answer": "d",
-    "correct_text": "6",
-    "formula": "SD is independent of change of origin (addition/subtraction)",
+    "answer": "a",
+    "correct_text": "41.85",
+    "formula": "Even n = 10 ⇒ Median = (5th + 6th term) / 2",
     "steps": [
-      "Adding a constant (+10) to every observation shifts the entire distribution right by 10 units.",
-      "The Mean also increases by 10, so every deviation (xᵢ − x̄) remains completely unchanged.",
-      "Therefore, the new Standard Deviation remains 6."
+      "Sort all 10 values: 15.4, 19, 25.5, 25.9, 38.7, 45, 52.8, 71.3, 88.1, 96.2.",
+      "5th term = 38.7, 6th term = 45.",
+      "Median = (38.7 + 45) / 2 = 83.7 / 2 = 41.85."
     ],
-    "trick": "Golden Rule: Addition/Subtraction NEVER changes SD, Variance, Mean Deviation, or Range! Answer = 6 instantly.",
+    "trick": "Just spot the 4 smallest (15.4, 19, 25.5, 25.9) → next two are 38.7 & 45 → average = 41.85!",
     "id": 7
   },
   {
     "category": "statistics",
     "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC CBT-2 High-Yield",
-    "question": "The Variance of 20 observations is 9. If every observation is multiplied by 4, find the new Variance.",
+    "exam": "Maths Maestro Statistics Q6 (Slide 11)",
+    "question": "The weights (in kg) of 9 students in a class were recorded as 45, 52, 58, 48, 60, 55, 62, 50, and 56. What is the median weight?",
     "options": {
-      "a": "12",
-      "b": "81",
-      "c": "36",
-      "d": "144"
+      "a": "55",
+      "b": "56",
+      "c": "58",
+      "d": "62"
     },
-    "answer": "d",
-    "correct_text": "144",
-    "formula": "New Variance = k² × Old Variance",
+    "answer": "a",
+    "correct_text": "55",
+    "formula": "Odd n = 9 ⇒ Median = 5th term in ascending order",
     "steps": [
-      "When each observation is multiplied by k = 4, Standard Deviation becomes k × σ.",
-      "Since Variance = σ², New Variance = k² × Old Variance = 4² × 9.",
-      "New Variance = 16 × 9 = 144."
+      "Sort: 45, 48, 50, 52, 55, 56, 58, 60, 62.",
+      "The 5th term is 55 kg."
     ],
-    "trick": "Multiply data by k ⇒ SD multiplies by k, Variance multiplies by k². Here 9 × 4² = 144!",
+    "trick": "Count 4 smallest (45, 48, 50, 52) → next smallest is 55!",
     "id": 8
   },
   {
     "category": "statistics",
     "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC PYQ Pattern",
-    "question": "Find the Range of the following numbers: −8, 14, −3, 21, 0, −12, 9.",
+    "exam": "Maths Maestro Statistics Q7 (Slide 11)",
+    "question": "What is the median of the data: 15, −8, 0, 7, −2, 11, −5?",
     "options": {
-      "a": "9",
-      "b": "21",
-      "c": "33",
-      "d": "29"
+      "a": "15",
+      "b": "2.5",
+      "c": "0",
+      "d": "−5"
     },
     "answer": "c",
-    "correct_text": "33",
-    "formula": "Range = Maximum Value − Minimum Value",
+    "correct_text": "0",
+    "formula": "Odd n = 7 ⇒ Median = 4th term in ascending order",
     "steps": [
-      "Identify the maximum value in the set: Max = 21.",
-      "Identify the minimum value in the set: Min = −12.",
-      "Range = 21 − (−12) = 21 + 12 = 33."
+      "Arrange carefully including negatives: −8, −5, −2, 0, 7, 11, 15.",
+      "The 4th (middle) value is 0."
     ],
-    "trick": "Watch negative signs! 21 − (−12) = 21 + 12 = 33.",
+    "trick": "There are 3 negative numbers and 3 positive numbers — 0 sits dead center!",
     "id": 9
   },
   {
     "category": "statistics",
     "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC PYQ Pattern",
-    "question": "Find the Standard Deviation of the first 7 natural numbers (1, 2, 3, 4, 5, 6, 7).",
+    "exam": "Maths Maestro Statistics Q8 (Slide 11)",
+    "question": "Sixteen candidates appeared for a test. The scores of the 12 candidates who passed are 10, 8, 12, 9, 11, 7, 13, 9, 10, 12, 11, and 8. What is the median score of all sixteen candidates?",
     "options": {
-      "a": "4",
-      "b": "2",
-      "c": "2.5",
-      "d": "√6"
+      "a": "9",
+      "b": "10",
+      "c": "11",
+      "d": "12"
     },
-    "answer": "b",
-    "correct_text": "2",
-    "formula": "SD of first n natural numbers = √[(n² − 1) / 12]",
+    "answer": "a",
+    "correct_text": "9",
+    "formula": "4 failed candidates MUST have scored less than the lowest passing score (7)",
     "steps": [
-      "Here n = 7.",
-      "Variance = (n² − 1) / 12 = (49 − 1) / 12 = 48 / 12 = 4.",
-      "Standard Deviation = √4 = 2."
+      "The 4 candidates who FAILED scored strictly less than all 12 passing candidates, so they occupy positions 1, 2, 3, and 4.",
+      "Sort the 12 passing scores (positions 5 to 16): 7, 8, 8, 9, 9, 10, 10, 11, 11, 12, 12, 13.",
+      "For n = 16, Median = average of 8th and 9th scores overall.",
+      "Position 8 = 4th passing score = 9; Position 9 = 5th passing score = 9.",
+      "Median = (9 + 9) / 2 = 9."
     ],
-    "trick": "Memorize √[(n² − 1)/12]: for n = 7, √(48/12) = √4 = 2 in 2 seconds!",
+    "trick": "Vishesh Sir's 3-Star Trick: Put the 4 failed students at slots 1–4, then pick slots 8 & 9 (4th & 5th smallest passing scores = 9 & 9) → Median = 9!",
     "id": 10
   },
   {
     "category": "statistics",
     "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC CBT-2 Special",
-    "question": "If the difference between Mean and Mode of a distribution is 48, find the difference between Mean and Median.",
+    "exam": "Maths Maestro Statistics Q9 (Slide 12)",
+    "question": "What is the median of the arithmetic series: 1, 3, 5, ..., 99?",
     "options": {
-      "a": "12",
-      "b": "32",
-      "c": "24",
-      "d": "16"
+      "a": "49",
+      "b": "50",
+      "c": "51",
+      "d": "52"
     },
-    "answer": "d",
-    "correct_text": "16",
-    "formula": "Mean − Mode = 3 × (Mean − Median)",
+    "answer": "b",
+    "correct_text": "50",
+    "formula": "For any Arithmetic Progression, Median = Mean = (First + Last) / 2",
     "steps": [
-      "From Mode = 3 Median − 2 Mean, rearrange as: Mean − Mode = 3(Mean − Median).",
-      "Given: Mean − Mode = 48.",
-      "48 = 3 × (Mean − Median) ⇒ Mean − Median = 48 / 3 = 16."
+      "1, 3, 5, ..., 99 is an AP with 50 terms.",
+      "For any AP, Median = (First term + Last term) / 2 = (1 + 99) / 2 = 50."
     ],
-    "trick": "Always divide (Mean − Mode) by 3 to get (Mean − Median): 48 / 3 = 16!",
+    "trick": "Any AP → Median = (First + Last)/2 = (1 + 99)/2 = 50 in 1 second!",
     "id": 11
   },
   {
     "category": "statistics",
     "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC PYQ Pattern",
-    "question": "The observations 11, 14, 17, x + 2, x + 6, 30, 34, 39 are arranged in ascending order. If their Median is 24, find the value of x.",
+    "exam": "Maths Maestro Statistics Q10 (Slide 12)",
+    "question": "Find the median of the following 7 values: (a + 1), (a − 1.5), (a + 2), (a − 0.5), (a + 0.25), (a − 1.25), (a + 0.75).",
     "options": {
-      "a": "22",
-      "b": "24",
-      "c": "20",
-      "d": "18"
+      "a": "a − 0.5",
+      "b": "a + 0.25",
+      "c": "a + 1",
+      "d": "a − 1.25"
     },
-    "answer": "c",
-    "correct_text": "20",
-    "formula": "Median (even n=8) = (4th term + 5th term) / 2",
+    "answer": "b",
+    "correct_text": "a + 0.25",
+    "formula": "Sort by the constants added to 'a'; 4th term is Median",
     "steps": [
-      "There are n = 8 observations already in ascending order.",
-      "The two middle terms are the 4th term (x + 2) and 5th term (x + 6).",
-      "Median = [(x + 2) + (x + 6)] / 2 = (2x + 8) / 2 = x + 4.",
-      "Given Median = 24 ⇒ x + 4 = 24 ⇒ x = 20."
+      "Sort constants in ascending order: −1.5, −1.25, −0.5, +0.25, +0.75, +1, +2.",
+      "The 4th (middle) constant is +0.25.",
+      "Therefore, Median = a + 0.25."
     ],
-    "trick": "Average of (x+2) and (x+6) is simply x + 4. Set x + 4 = 24 ⇒ x = 20.",
+    "trick": "Ignore 'a': 3 negatives (−1.5, −1.25, −0.5), so the 4th term is the smallest positive (+0.25) → a + 0.25!",
     "id": 12
   },
   {
     "category": "statistics",
     "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC PYQ Pattern",
-    "question": "Find the Mode of the data: 7, 11, 9, 11, 13, 7, 11, 15, 9, 11, 13.",
+    "exam": "Maths Maestro Statistics Q11 (Slide 13)",
+    "question": "Find x if the median of the following 12 numbers arranged in ascending order is 12.5: 5, 7, 8, 10, 11, x, 14, 15, 17, 18, 20, 22.",
     "options": {
-      "a": "7",
-      "b": "13",
-      "c": "11",
-      "d": "9"
+      "a": "11",
+      "b": "10",
+      "c": "13.5",
+      "d": "14"
     },
-    "answer": "c",
+    "answer": "a",
     "correct_text": "11",
-    "formula": "Mode = Observation with the highest frequency",
+    "formula": "Even n = 12 ⇒ Median = (6th + 7th term) / 2",
     "steps": [
-      "Count frequencies: 7 appears 2 times, 9 appears 2 times, 11 appears 4 times, 13 appears 2 times, 15 appears 1 time.",
-      "Since 11 occurs most frequently (4 times), Mode = 11."
+      "6th term = x, 7th term = 14.",
+      "(x + 14) / 2 = 12.5 ⇒ x + 14 = 25 ⇒ x = 11."
     ],
-    "trick": "Scan for the most repeated number: 11 appears four times → Mode = 11.",
+    "trick": "2 × 12.5 − 14 = 25 − 14 = 11!",
     "id": 13
   },
   {
     "category": "statistics",
     "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC CBT-2 High-Yield",
-    "question": "Calculate the Mean Deviation about the Mean for the observations: 3, 6, 9, 12, 15.",
+    "exam": "Maths Maestro Statistics Q12 (Slide 13)",
+    "question": "Find the median of all prime numbers between 1 and 65.",
     "options": {
-      "a": "3.6",
-      "b": "3.0",
-      "c": "4.0",
-      "d": "4.5"
+      "a": "23",
+      "b": "26",
+      "c": "29",
+      "d": "31"
     },
-    "answer": "a",
-    "correct_text": "3.6",
-    "formula": "Mean Deviation = Σ|xᵢ − x̄| / N",
+    "answer": "b",
+    "correct_text": "26",
+    "formula": "There are 18 primes below 65 ⇒ Median = avg of 9th and 10th primes",
     "steps": [
-      "Mean x̄ = (3 + 6 + 9 + 12 + 15) / 5 = 9.",
-      "Absolute deviations |xᵢ − 9|: |3−9|=6, |6−9|=3, |9−9|=0, |12−9|=3, |15−9|=6.",
-      "Sum of absolute deviations = 6 + 3 + 0 + 3 + 6 = 18.",
-      "Mean Deviation = 18 / 5 = 3.6."
+      "Primes between 1 and 65 (18 total): 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61.",
+      "9th prime = 23, 10th prime = 29.",
+      "Median = (23 + 29) / 2 = 52 / 2 = 26."
     ],
-    "trick": "Symmetric around 9: deviations are 6, 3, 0, 3, 6 → Sum = 18 → 18 / 5 = 3.6.",
+    "trick": "Primes up to 50 = 15 primes (+ 53, 59, 61 = 18 primes). Average 9th (23) & 10th (29) = 26!",
     "id": 14
   },
   {
     "category": "statistics",
     "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC CBT-2 High-Yield",
-    "question": "In a grouped frequency distribution, the modal class is 40–50 with frequency f₁ = 28. The frequency of the preceding class is f₀ = 16 and the succeeding class is f₂ = 20. Find the Mode.",
+    "exam": "Maths Maestro Statistics Q13 (Slide 14)",
+    "question": "Find the median of the following fractional data: 1/2, 1/4, 1/8, 1/2, 1/4, 1/4, 1/2.",
     "options": {
-      "a": "46",
-      "b": "47.5",
-      "c": "44",
-      "d": "45"
+      "a": "1/8",
+      "b": "1/4",
+      "c": "1/2",
+      "d": "3/4"
     },
-    "answer": "a",
-    "correct_text": "46",
-    "formula": "Mode = L + [(f₁ − f₀) / (2f₁ − f₀ − f₂)] × h",
+    "answer": "b",
+    "correct_text": "1/4",
+    "formula": "Convert to common denominator 8 (or sort fractions directly); 4th of 7 is Median",
     "steps": [
-      "Given: L = 40, h = 50 − 40 = 10, f₁ = 28, f₀ = 16, f₂ = 20.",
-      "Numerator: f₁ − f₀ = 28 − 16 = 12.",
-      "Denominator: 2f₁ − f₀ − f₂ = 2(28) − 16 − 20 = 56 − 36 = 20.",
-      "Mode = 40 + (12 / 20) × 10 = 40 + 6 = 46."
+      "Arrange the 7 fractions in ascending order: 1/8, 1/4, 1/4, 1/4, 1/2, 1/2, 1/2.",
+      "Here n = 7 (odd), so the 4th term is the median = 1/4."
     ],
-    "trick": "Δ₁ = 28−16 = 12, Δ₂ = 28−20 = 8 ⇒ Mode = 40 + [12/(12+8)]×10 = 40 + 6 = 46!",
+    "trick": "One 1/8 + three 1/4s → the 4th position is clearly 1/4!",
     "id": 15
   },
   {
     "category": "statistics",
     "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC CBT-2 High-Yield",
-    "question": "In a grouped distribution with total frequency N = 60, the median class is 20–30, its frequency is f = 15, and cumulative frequency of the preceding class is cf = 24. Find the Median.",
+    "exam": "Maths Maestro Statistics Q14 (Slide 14)",
+    "question": "If the median of the following data is 13, find the value of k: 15, 11, 8, k + 3, 17, 10, 13, 19.",
     "options": {
-      "a": "26",
-      "b": "23.5",
-      "c": "25",
-      "d": "24"
+      "a": "11",
+      "b": "10",
+      "c": "9",
+      "d": "8"
     },
-    "answer": "d",
-    "correct_text": "24",
-    "formula": "Median = L + [((N/2) − cf) / f] × h",
+    "answer": "b",
+    "correct_text": "10",
+    "formula": "Sort known 7 values: 8, 10, 11, 13, 15, 17, 19; place (k+3) so avg of 4th & 5th = 13",
     "steps": [
-      "Given: N = 60 ⇒ N/2 = 30. L = 20, h = 10, cf = 24, f = 15.",
-      "Median = 20 + [(30 − 24) / 15] × 10.",
-      "Median = 20 + (6 / 15) × 10 = 20 + 4 = 24."
+      "Sorted known values: 8, 10, 11, 13, 15, 17, 19.",
+      "Since n = 8 and Median = 13, the 4th and 5th terms must average to 13.",
+      "With 13 as one of the middle terms, the other middle term (k + 3) must ALSO equal 13.",
+      "k + 3 = 13 ⇒ k = 10."
     ],
-    "trick": "N/2 − cf = 30 − 24 = 6. Then (6/15)×10 = 4 → 20 + 4 = 24.",
+    "trick": "Middle pair averages to 13, and one of them is already 13 ⇒ k + 3 = 13 ⇒ k = 10!",
     "id": 16
   },
   {
     "category": "statistics",
     "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC PYQ Pattern",
-    "question": "The Mean of 12 numbers is 18. If one number is excluded, the Mean becomes 17. What is the excluded number?",
+    "exam": "Maths Maestro Statistics Q15 (Slide 15)",
+    "question": "The median of 25 observations is 50. Two more observations, 40 and 65, are added to the list. What is the median of the 27 observations?",
     "options": {
-      "a": "28",
-      "b": "30",
-      "c": "29",
-      "d": "27"
+      "a": "40",
+      "b": "50",
+      "c": "65",
+      "d": "Cannot be determined"
     },
-    "answer": "c",
-    "correct_text": "29",
-    "formula": "Excluded Value = Old Sum − New Sum",
+    "answer": "b",
+    "correct_text": "50",
+    "formula": "Adding one value < Median and one value > Median keeps the Median UNCHANGED",
     "steps": [
-      "Sum of 12 numbers = 12 × 18 = 216.",
-      "Sum of remaining 11 numbers = 11 × 17 = 187.",
-      "Excluded number = 216 − 187 = 29."
+      "Originally, 50 is the 13th term (12 values ≤ 50 on left, 12 values ≥ 50 on right).",
+      "40 goes to the left of 50 (now 13 on left) and 65 goes to the right of 50 (now 13 on right).",
+      "50 becomes the 14th term of 27 — still the exact middle! Median = 50."
     ],
-    "trick": "Deviation Shortcut: Excluded number took its own 18 PLUS 1 from each of the other 11 numbers = 18 + 11 = 29!",
+    "trick": "One smaller (40 < 50) + one larger (65 > 50) balances both sides → Median stays 50!",
     "id": 17
   },
   {
     "category": "statistics",
     "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC CBT-2 Special",
-    "question": "Two datasets A and B have equal Means of 50. Dataset A has SD = 4 and Dataset B has SD = 7. Which statement is correct?",
+    "exam": "Maths Maestro Statistics Q16 (Slide 15)",
+    "question": "The median of a set of 15 distinct observations is 45. If each of the smallest seven observations of the set is increased by 5, what happens to the median of the new set?",
     "options": {
-      "a": "Both datasets are equally consistent",
-      "b": "Dataset A is more consistent than Dataset B",
-      "c": "Dataset A has higher variance than Dataset B",
-      "d": "Dataset B is more consistent than Dataset A"
+      "a": "Is increased by 5",
+      "b": "Is decreased by 5",
+      "c": "Remains the same as that of the original set",
+      "d": "Cannot be determined"
     },
-    "answer": "b",
-    "correct_text": "Dataset A is more consistent than Dataset B",
-    "formula": "Lower CV (or lower SD for equal means) ⇒ Greater consistency",
+    "answer": "d",
+    "correct_text": "Cannot be determined",
+    "formula": "Increasing the smaller half by 5 can push some values PAST 45!",
     "steps": [
-      "CV(A) = (4 / 50) × 100% = 8%.",
-      "CV(B) = (7 / 50) × 100% = 14%.",
-      "A smaller Coefficient of Variation indicates less dispersion and higher consistency. Hence Dataset A is more consistent."
+      "If the 7th value was 44, adding 5 turns it into 49 (> 45), shifting 45 out of the 8th position!",
+      "Wait: if the 7th value was 30, adding 5 makes it 35 (< 45), leaving 45 unchanged.",
+      "Because we don't know whether the smaller 7 values jump above 45, the new median CANNOT be uniquely determined! (Note: if the LARGEST 7 were increased by 5, median would definitely stay 45.)"
     ],
-    "trick": "Lower CV = More Consistent / Uniform. 8% < 14% ⇒ A wins!",
+    "trick": "Careful trap! Increasing LARGEST 7 by +5 keeps median 45, but increasing SMALLEST 7 by +5 can cross 45 (e.g., 44+5=49) → Cannot be determined!",
     "id": 18
   },
   {
     "category": "statistics",
     "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC PYQ Pattern",
-    "question": "If the Coefficient of Variation of a distribution is 40% and its Standard Deviation is 12, what is its Mean?",
+    "exam": "Maths Maestro Statistics Q17 (Slide 16)",
+    "question": "The different natural numbers 5, 9, 12, 3m + 1, 3m + 3, 20, 25, 30 are in ascending order. How many possible integer values are there for the median of the data for various values of m?",
     "options": {
-      "a": "36",
-      "b": "30",
-      "c": "48",
-      "d": "25"
+      "a": "Only one value",
+      "b": "Only two values",
+      "c": "Only three values",
+      "d": "Five values"
     },
-    "answer": "b",
-    "correct_text": "30",
-    "formula": "Mean = (SD / CV) × 100",
+    "answer": "d",
+    "correct_text": "Five values",
+    "formula": "Median = [(3m + 1) + (3m + 3)] / 2 = 3m + 2, with 12 < 3m + 1 and 3m + 3 < 20",
     "steps": [
-      "CV = (SD / Mean) × 100.",
-      "40 = (12 / Mean) × 100 ⇒ Mean = 1200 / 40 = 30."
+      "Here (3m + 1) and (3m + 3) are distinct natural numbers strictly between 12 and 20 (note: m need not be an integer!).",
+      "12 < 3m + 1 ⇒ 3m + 1 ≥ 13; and 3m + 3 ≤ 19 ⇒ 3m + 1 ≤ 17.",
+      "So (3m + 1) can be 13, 14, 15, 16, or 17 (making 3m + 3 equal to 15, 16, 17, 18, or 19).",
+      "The corresponding medians (3m + 2) are 14, 15, 16, 17, and 18 → 5 integer values!"
     ],
-    "trick": "40% of Mean = 12 ⇒ 10% = 3 ⇒ 100% (Mean) = 30!",
+    "trick": "Don't assume m is an integer! Only (3m+1) & (3m+3) are natural numbers between 13 and 19 → Median (3m+2) ∈ {14, 15, 16, 17, 18} = 5 values!",
     "id": 19
   },
   {
     "category": "statistics",
     "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC CBT-2 Special",
-    "question": "What is the Variance of the constant dataset: 7, 7, 7, 7, 7, 7?",
+    "exam": "Maths Maestro Statistics Q18 (Slide 16)",
+    "question": "Find the difference between the median of the data set {5, 30, 15, 25, 10, 20} and the median when 15 is replaced by 40.",
     "options": {
-      "a": "7",
-      "b": "1",
-      "c": "49",
-      "d": "0"
+      "a": "5",
+      "b": "7.5",
+      "c": "10",
+      "d": "12.5"
     },
-    "answer": "d",
-    "correct_text": "0",
-    "formula": "Variance of identical observations = 0",
+    "answer": "a",
+    "correct_text": "5",
+    "formula": "Compute Median₁ and Median₂ after sorting both lists",
     "steps": [
-      "Mean = 7. Every deviation (7 − 7) = 0.",
-      "Variance = (0 + 0 + 0 + 0 + 0 + 0) / 6 = 0."
+      "Original sorted: 5, 10, 15, 20, 25, 30 ⇒ Median₁ = (15 + 20) / 2 = 17.5.",
+      "Replace 15 with 40 and sort: 5, 10, 20, 25, 30, 40 ⇒ Median₂ = (20 + 25) / 2 = 22.5.",
+      "Difference = 22.5 − 17.5 = 5."
     ],
-    "trick": "No variation in data ⇒ Range = MD = SD = Variance = 0!",
+    "trick": "Middle pair shifts from (15, 20) to (20, 25) → each shifts +5 → difference = 5!",
     "id": 20
   },
   {
     "category": "statistics",
     "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC PYQ Pattern",
-    "question": "The Mean of 5 observations x, x+3, x+6, x+9, x+12 is 18. Find the Mean of the last three observations.",
+    "exam": "Maths Maestro Statistics Q19 (Slide 18)",
+    "question": "Find the median of the grouped distribution: 0–10 (f=7), 10–20 (f=10), 20–30 (f=16), 30–40 (f=12), 40–50 (f=5).",
     "options": {
-      "a": "19",
-      "b": "21",
-      "c": "24",
-      "d": "20"
+      "a": "26",
+      "b": "25",
+      "c": "35",
+      "d": "41"
     },
     "answer": "b",
-    "correct_text": "21",
-    "formula": "In an Arithmetic Progression, Mean = Middle Term",
+    "correct_text": "25",
+    "formula": "Median = L + [((N/2) − cf) / f] × h",
     "steps": [
-      "The 5 observations form an AP with common difference 3. Their Mean is the middle (3rd) term: x + 6.",
-      "Given x + 6 = 18 ⇒ x = 12.",
-      "The last 3 observations are (x+6), (x+9), (x+12), whose middle term is x + 9 = 12 + 9 = 21."
+      "N = 7 + 10 + 16 + 12 + 5 = 50 ⇒ N/2 = 25.",
+      "Cumulative frequencies: 7, 17, 33, 45, 50. Median class is 20–30 (L=20, cf=17, f=16, h=10).",
+      "Median = 20 + [(25 − 17) / 16] × 10 = 20 + (8 / 16) × 10 = 20 + 5 = 25."
     ],
-    "trick": "Middle of all 5 is x+6 = 18; middle of last 3 is just one step ahead (+3) = 18 + 3 = 21!",
+    "trick": "N/2 = 25, cf = 17 → (8/16)×10 = 5 → 20 + 5 = 25!",
     "id": 21
   },
   {
     "category": "statistics",
     "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC CBT-2 High-Yield",
-    "question": "Find the sum of the Mean, Median, and Mode of the dataset: 4, 6, 8, 6, 10, 6, 12, 8, 12.",
+    "exam": "Maths Maestro Statistics Q20 (Slide 19)",
+    "question": "Find the median of the following JUMBLED frequency table: 10–20 (f=18), 0–10 (f=10), 30–40 (f=12), 20–30 (f=20), 40–50 (f=10).",
     "options": {
-      "a": "21",
-      "b": "24",
-      "c": "22",
-      "d": "20"
+      "a": "22.5",
+      "b": "11.5",
+      "c": "23.5",
+      "d": "16.5"
     },
     "answer": "c",
-    "correct_text": "22",
-    "formula": "Mean = Σx/N, Median = Middle term, Mode = Most frequent",
+    "correct_text": "23.5",
+    "formula": "ALWAYS sort class intervals first, then apply Median = L + [((N/2) − cf)/f] × h",
     "steps": [
-      "Sort the 9 values: 4, 6, 6, 6, 8, 8, 10, 12, 12.",
-      "Mean = (4+6+6+6+8+8+10+12+12) / 9 = 72 / 9 = 8.",
-      "Median = 5th value = 8.",
-      "Mode = 6 (occurs 3 times).",
-      "Sum = Mean + Median + Mode = 8 + 8 + 6 = 22."
+      "First rearrange in ascending order: 0–10 (10), 10–20 (18), 20–30 (20), 30–40 (12), 40–50 (10).",
+      "N = 70 ⇒ N/2 = 35. Cumulative freqs: 10, 28, 48, 60, 70.",
+      "Median class is 20–30 (L=20, cf=28, f=20, h=10).",
+      "Median = 20 + [(35 − 28) / 20] × 10 = 20 + 3.5 = 23.5."
     ],
-    "trick": "Sorted list immediately shows 5th term = 8, Mode = 6, Sum = 72 ⇒ Mean = 8. Total = 8 + 8 + 6 = 22.",
+    "trick": "Vishesh Sir's Trap Alert: Rows were out of order! Sort 0–10, 10–20 first → cf=28 → 20 + (7/20)×10 = 23.5!",
     "id": 22
   },
   {
     "category": "statistics",
     "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC CBT-2 Special",
-    "question": "If the Median of a data set is 15 and the Mode is 21, find the Mean.",
+    "exam": "Maths Maestro Statistics Q21 (Slide 20)",
+    "question": "Find the median of the grouped data: 0–10 (5), 10–20 (8), 20–30 (12), 30–40 (15), 40–50 (20), 50–60 (14), 60–70 (10), 70–80 (6).",
     "options": {
-      "a": "12",
-      "b": "14",
-      "c": "18",
-      "d": "13.5"
+      "a": "40.5",
+      "b": "41.5",
+      "c": "42.5",
+      "d": "60"
     },
-    "answer": "a",
-    "correct_text": "12",
-    "formula": "Mean = (3 × Median − Mode) / 2",
+    "answer": "c",
+    "correct_text": "42.5",
+    "formula": "Median = L + [((N/2) − cf) / f] × h",
     "steps": [
-      "Use Mode = 3 Median − 2 Mean ⇒ 2 Mean = 3 Median − Mode.",
-      "2 Mean = 3(15) − 21 = 45 − 21 = 24.",
-      "Mean = 24 / 2 = 12."
+      "N = 5 + 8 + 12 + 15 + 20 + 14 + 10 + 6 = 90 ⇒ N/2 = 45.",
+      "Cumulative frequencies: 5, 13, 25, 40, 60, 74, 84, 90.",
+      "Median class is 40–50 (L=40, cf=40, f=20, h=10).",
+      "Median = 40 + [(45 − 40) / 20] × 10 = 40 + (5 / 20) × 10 = 40 + 2.5 = 42.5."
     ],
-    "trick": "(3×15 − 21)/2 = (45 − 21)/2 = 12.",
+    "trick": "45 − 40 = 5 → (5/20)×10 = 2.5 → 40 + 2.5 = 42.5!",
     "id": 23
   },
   {
     "category": "statistics",
     "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC PYQ Pattern",
-    "question": "The class mark (midpoint) of a class interval is 25 and its class width is 10. Find the class interval.",
+    "exam": "Maths Maestro Statistics Q22 (Slide 21)",
+    "question": "A survey histogram has class intervals with bar heights (frequencies): 0–2 (2), 2–4 (3), 4–6 (5), 6–8 (6), 8–10 (4), 10–12 (3), 12–14 (2). What is the median of this distribution?",
     "options": {
-      "a": "25 − 35",
-      "b": "15 − 25",
-      "c": "15 − 35",
-      "d": "20 − 30"
+      "a": "5.45",
+      "b": "4.26",
+      "c": "6.83",
+      "d": "7.81"
     },
-    "answer": "d",
-    "correct_text": "20 − 30",
-    "formula": "Lower Limit = Class Mark − h/2, Upper Limit = Class Mark + h/2",
+    "answer": "c",
+    "correct_text": "6.83",
+    "formula": "Read histogram bar heights as frequencies f; apply grouped median formula",
     "steps": [
-      "Given Class Mark = 25, Class Width h = 10 ⇒ h/2 = 5.",
-      "Lower Limit = 25 − 5 = 20.",
-      "Upper Limit = 25 + 5 = 30.",
-      "Class interval = 20 − 30."
+      "Total frequency N = 2 + 3 + 5 + 6 + 4 + 3 + 2 = 25 ⇒ N/2 = 12.5.",
+      "Cumulative frequencies: 2, 5, 10, 16, 20, 23, 25.",
+      "Median class is 6–8 (L = 6, cf = 10, f = 6, h = 2).",
+      "Median = 6 + [(12.5 − 10) / 6] × 2 = 6 + (5 / 6) = 6.83."
     ],
-    "trick": "Add and subtract half the width (5) from 25 → 20 to 30!",
+    "trick": "Median class is 6–8 → only option (c) 6.83 lies inside [6, 8]! Instant 5-second elimination!",
     "id": 24
   },
   {
     "category": "statistics",
     "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC CBT-2 High-Yield",
-    "question": "The arithmetic mean of the marks scored by 40 boys is 65 and by 60 girls is 75. Find the combined mean of all 100 students.",
+    "exam": "Maths Maestro Statistics Q23 (Slide 22)",
+    "question": "Weights of students are given in a 'Less than' cumulative table: Less than 40 kg (5), Less than 45 kg (12), Less than 50 kg (27), Less than 55 kg (35), Less than 60 kg (40). Find the median weight.",
     "options": {
-      "a": "70",
-      "b": "72",
-      "c": "69",
-      "d": "71"
+      "a": "45.32",
+      "b": "41.65",
+      "c": "42.27",
+      "d": "47.67"
     },
     "answer": "d",
-    "correct_text": "71",
-    "formula": "Combined Mean = (n₁x̄₁ + n₂x̄₂) / (n₁ + n₂)",
+    "correct_text": "47.67",
+    "formula": "In 'Less than' tables, counts ARE cumulative frequencies (cf); class freq f = cf_curr − cf_prev",
     "steps": [
-      "Ratio of counts n₁ : n₂ = 40 : 60 = 2 : 3.",
-      "Combined Mean = (2 × 65 + 3 × 75) / (2 + 3) = (130 + 225) / 5 = 355 / 5 = 71."
+      "Total students N = 40 ⇒ N/2 = 20.",
+      "cf crosses 20 in 'Less than 50 kg' (cf = 27), so Median class is 45–50 (L = 45, h = 5).",
+      "Preceding cf = 12; class frequency f = 27 − 12 = 15.",
+      "Median = 45 + [(20 − 12) / 15] × 5 = 45 + 8/3 = 45 + 2.67 = 47.67 kg."
     ],
-    "trick": "Deviation method: Base 65 + (3/5) × (75 − 65) = 65 + 6 = 71 in 3 seconds!",
+    "trick": "Don't re-add 'Less than' values! N = last row (40), f = 27 − 12 = 15 → 45 + (8/15)×5 = 47.67!",
     "id": 25
   },
   {
     "category": "statistics",
     "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC CBT-2 Special",
+    "exam": "Maths Maestro Statistics Q24 (Slide 23)",
+    "question": "What is the mode of the following data: 15, 20, 25, 15, 30, 25, 15, 20, 30, 15?",
+    "options": {
+      "a": "20",
+      "b": "15",
+      "c": "30",
+      "d": "25"
+    },
+    "answer": "b",
+    "correct_text": "15",
+    "formula": "Mode = Most frequently occurring observation",
+    "steps": [
+      "Count occurrences: 15 appears 4 times; 20, 25, 30 appear 2 times each.",
+      "Hence Mode = 15."
+    ],
+    "trick": "15 occurs 4 times (highest frequency) → Mode = 15.",
+    "id": 26
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q25 (Slide 23)",
+    "question": "What is the mode of the decimal dataset: 5.1, 5.3, 5.2, 5.1, 5.4, 5.3, 5.2, 5.1, 5.4, 5.1?",
+    "options": {
+      "a": "5.1",
+      "b": "5.2",
+      "c": "5.3",
+      "d": "5.4"
+    },
+    "answer": "a",
+    "correct_text": "5.1",
+    "formula": "Mode = Highest frequency value",
+    "steps": [
+      "5.1 appears 4 times; 5.2, 5.3, and 5.4 appear 2 times each.",
+      "Mode = 5.1."
+    ],
+    "trick": "5.1 appears 4 times → Mode = 5.1.",
+    "id": 27
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q26 (Slide 24)",
+    "question": "If the mode of the following data is 20, find the value of m: 20, 15, 23, 15, 20, 22, (2m + 6), 18, 20, 15.",
+    "options": {
+      "a": "8",
+      "b": "7",
+      "c": "5",
+      "d": "4"
+    },
+    "answer": "b",
+    "correct_text": "7",
+    "formula": "To break the 3–3 tie between 20 and 15 in favor of 20, set (2m + 6) = 20",
+    "steps": [
+      "Count frequencies: 20 appears 3 times and 15 also appears 3 times.",
+      "For 20 to be the unique mode, the unknown term (2m + 6) must equal 20.",
+      "2m + 6 = 20 ⇒ 2m = 14 ⇒ m = 7."
+    ],
+    "trick": "Tie breaker! Set 2m + 6 = 20 ⇒ m = 7 in 2 seconds!",
+    "id": 28
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q27 (Slide 25)",
+    "question": "Find the mode of the grouped distribution: 0–10 (5), 10–20 (12), 20–30 (15), 30–40 (8), 40–50 (6).",
+    "options": {
+      "a": "24",
+      "b": "23",
+      "c": "25",
+      "d": "27"
+    },
+    "answer": "b",
+    "correct_text": "23",
+    "formula": "Mode = L + [(f₁ − f₀) / (2f₁ − f₀ − f₂)] × h",
+    "steps": [
+      "Highest frequency is 15 in class 20–30 (L = 20, h = 10, f₁ = 15, f₀ = 12, f₂ = 8).",
+      "Mode = 20 + [(15 − 12) / (30 − 12 − 8)] × 10 = 20 + (3 / 10) × 10 = 20 + 3 = 23."
+    ],
+    "trick": "Δ₁ = 15−12 = 3, Δ₂ = 15−8 = 7 ⇒ 20 + [3/(3+7)]×10 = 23!",
+    "id": 29
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q28 (Slide 26)",
+    "question": "Find the mode of the given distribution: 10–20 (15), 20–35 (30), 35–50 (45), 50–60 (35), 60–70 (25), 70–85 (18).",
+    "options": {
+      "a": "35",
+      "b": "44",
+      "c": "54",
+      "d": "42"
+    },
+    "answer": "b",
+    "correct_text": "44",
+    "formula": "Mode = L + [(f₁ − f₀) / (2f₁ − f₀ − f₂)] × h (watch modal class width h = 50 − 35 = 15!)",
+    "steps": [
+      "Modal class is 35–50 (highest freq f₁ = 45, L = 35, h = 50 − 35 = 15, f₀ = 30, f₂ = 35).",
+      "Δ₁ = 45 − 30 = 15; Δ₂ = 45 − 35 = 10.",
+      "Mode = 35 + [15 / (15 + 10)] × 15 = 35 + (15 / 25) × 15 = 35 + 9 = 44."
+    ],
+    "trick": "Watch class width h = 15 (not 10)! 35 + (15/25)×15 = 35 + 9 = 44!",
+    "id": 30
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q29 (Slide 29)",
+    "question": "What is the algebraic sum of the deviations from the mean for the set of values: 15, 20, 25, 30, 35, 42, 53?",
+    "options": {
+      "a": "10",
+      "b": "−5",
+      "c": "0",
+      "d": "1"
+    },
+    "answer": "c",
+    "correct_text": "0",
+    "formula": "Σ(xᵢ − x̄) = 0 for ANY dataset",
+    "steps": [
+      "You do NOT need to compute the mean at all!",
+      "By a universal mathematical identity, the algebraic (signed) sum of deviations of any set of values from its arithmetic mean is always 0."
+    ],
+    "trick": "Zero calculation needed! Sum of deviations from Mean is ALWAYS 0!",
+    "id": 31
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q30 (Slide 30)",
+    "question": "The weights of 4 friends are 48 kg, 52 kg, 44 kg, and 56 kg. If 5 kg is added to the weight of each friend, what is their new average weight?",
+    "options": {
+      "a": "45 kg",
+      "b": "47 kg",
+      "c": "50 kg",
+      "d": "55 kg"
+    },
+    "answer": "d",
+    "correct_text": "55 kg",
+    "formula": "If each observation increases by k, New Mean = Old Mean + k",
+    "steps": [
+      "Original average = (48 + 52 + 44 + 56) / 4 = 200 / 4 = 50 kg.",
+      "Adding 5 kg to each friend raises the average by 5 kg: 50 + 5 = 55 kg."
+    ],
+    "trick": "Pairs (48+52=100, 44+56=100) → avg 50 + 5 = 55 kg!",
+    "id": 32
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q31 (Slide 30)",
+    "question": "If the arithmetic mean of the series m₁, m₂, ..., mₚ is 1, then what will be the arithmetic mean of the series n × m₁, n × m₂, ..., n × mₚ (where n ≠ 0)?",
+    "options": {
+      "a": "1",
+      "b": "n / p",
+      "c": "n",
+      "d": "mₚ"
+    },
+    "answer": "c",
+    "correct_text": "n",
+    "formula": "Multiplying every term by n multiplies the Mean by n",
+    "steps": [
+      "Original Mean = 1.",
+      "Every term is multiplied by n ⇒ New Mean = n × 1 = n."
+    ],
+    "trick": "Same operation applies to Mean: 1 × n = n in 1 second!",
+    "id": 33
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q32 (Slide 32)",
+    "question": "The monthly electricity bill (in ₹) of 40 families is grouped as: 100–200 (8), 200–300 (12), 300–400 (10), 400–500 (6), 500–600 (4). Calculate the mean electricity bill.",
+    "options": {
+      "a": "₹312",
+      "b": "₹253",
+      "c": "₹315",
+      "d": "₹416"
+    },
+    "answer": "c",
+    "correct_text": "₹315",
+    "formula": "Mean = Σ(fᵢ xᵢ) / Σfᵢ (where xᵢ is class midpoint)",
+    "steps": [
+      "Midpoints xᵢ: 150, 250, 350, 450, 550.",
+      "Assumed mean A = 350; deviations dᵢ: −200, −100, 0, +100, +200.",
+      "Σ(fᵢ dᵢ) = 8(−200) + 12(−100) + 10(0) + 6(+100) + 4(+200) = −1600 − 1200 + 600 + 800 = −1400.",
+      "Mean = 350 + (−1400 / 40) = 350 − 35 = ₹315."
+    ],
+    "trick": "Assumed Mean 350 shortcut: (−16 − 12 + 6 + 8) × 100 / 40 = −35 ⇒ 350 − 35 = ₹315!",
+    "id": 34
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q33 (Slide 33)",
+    "question": "Consider the grouped distribution: 10–20 (5), 20–30 (10), 30–40 (m), 40–50 (8), 50–60 (7). If the mean of this data is 35.5, find the value of m.",
+    "options": {
+      "a": "9",
+      "b": "10.25",
+      "c": "10",
+      "d": "8.75"
+    },
+    "answer": "c",
+    "correct_text": "10",
+    "formula": "Σ(fᵢ xᵢ) = Mean × Σfᵢ",
+    "steps": [
+      "Midpoints: 15, 25, 35, 45, 55.",
+      "Σ(fᵢ xᵢ) = 5(15) + 10(25) + 35m + 8(45) + 7(55) = 75 + 250 + 360 + 385 + 35m = 1070 + 35m.",
+      "Σfᵢ = 30 + m. Given Mean = 35.5 ⇒ 1070 + 35m = 35.5(30 + m) = 1065 + 35.5m.",
+      "0.5m = 5 ⇒ m = 10."
+    ],
+    "trick": "Deviation around 35: net known = 5(−20) + 10(−10) + 8(+10) + 7(+20) = +20. Total freq = 20 / 0.5 = 40 ⇒ m = 40 − 30 = 10!",
+    "id": 35
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q34 (Slide 34)",
+    "question": "A histogram of daily commute time (in minutes) has bars: 0–15 (5), 15–30 (12), 30–45 (7), 45–60 (5), 60–75 (10), 75–90 (31), 90–105 (32). Calculate the mean daily commute time.",
+    "options": {
+      "a": "71.33 minutes",
+      "b": "70.44 minutes",
+      "c": "78.32 minutes",
+      "d": "75.35 minutes"
+    },
+    "answer": "b",
+    "correct_text": "70.44 minutes",
+    "formula": "Mean = Σ(fᵢ × midpoint) / Σfᵢ",
+    "steps": [
+      "Midpoints: 7.5, 22.5, 37.5, 52.5, 67.5, 82.5, 97.5. Total employees N = 5+12+7+5+10+31+32 = 102.",
+      "Σ(fᵢ xᵢ) = 37.5 + 270 + 262.5 + 262.5 + 675 + 2557.5 + 3120 = 7185.",
+      "Mean = 7185 / 102 = 70.44 minutes."
+    ],
+    "trick": "Use assumed mean A = 67.5 with step u = −4, −3, −2, −1, 0, +1, +2: Σfu = −20−36−14−5+0+31+64 = +20 ⇒ 67.5 + (20×15)/102 = 67.5 + 2.94 = 70.44!",
+    "id": 36
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q35 (Slide 38)",
+    "question": "For the grouped distribution 0–10 (f=2), 10–20 (f=4), 20–30 (f=6), 30–40 (f=8), find its Mean, Mean Deviation, Variance, and Standard Deviation respectively.",
+    "options": {
+      "a": "25, 8, 100, 10",
+      "b": "20, 8, 100, 10",
+      "c": "25, 10, 64, 8",
+      "d": "25, 6, 100, 10"
+    },
+    "answer": "a",
+    "correct_text": "25, 8, 100, 10",
+    "formula": "Midpoints xᵢ = {5, 15, 25, 35}; N = 20",
+    "steps": [
+      "Mean = [2(5) + 4(15) + 6(25) + 8(35)] / 20 = (10 + 60 + 150 + 280) / 20 = 500 / 20 = 25.",
+      "|xᵢ − 25| = {20, 10, 0, 10}. Mean Deviation = [2(20) + 4(10) + 6(0) + 8(10)] / 20 = 160 / 20 = 8.",
+      "(xᵢ − 25)² = {400, 100, 0, 100}. Variance = [2(400) + 4(100) + 6(0) + 8(100)] / 20 = 2000 / 20 = 100.",
+      "Standard Deviation = √100 = 10."
+    ],
+    "trick": "Master 4-in-1 drill! Once Mean = 25, deviations are simply 20, 10, 0, 10 → MD = 8, Var = 100, SD = 10!",
+    "id": 37
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q36 (Slide 39)",
+    "question": "What is the formula for the Population Variance of a set of n observations x₁, x₂, ..., xₙ whose mean is x̄?",
+    "options": {
+      "a": "Σ(xᵢ − x̄)² / n",
+      "b": "√[ Σ(xᵢ − x̄)² / n ]",
+      "c": "(Σxᵢ)² / n",
+      "d": "Σ|xᵢ − x̄| / n"
+    },
+    "answer": "a",
+    "correct_text": "Σ(xᵢ − x̄)² / n",
+    "formula": "Variance = Average of squared deviations from the Mean",
+    "steps": [
+      "Variance σ² = [ Σ(xᵢ − x̄)² ] / n.",
+      "Note: Taking its square root gives Standard Deviation; using |xᵢ − x̄| gives Mean Deviation."
+    ],
+    "trick": "Without square root = Variance | With square root = Standard Deviation!",
+    "id": 38
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q37 (Slide 39)",
+    "question": "For a set of n observations x₁, x₂, ..., xₙ with mean x̄, which expression represents the Population Standard Deviation?",
+    "options": {
+      "a": "Σ(xᵢ − x̄)² / n",
+      "b": "√[ Σ(xᵢ − x̄)² / n ]",
+      "c": "(Σxᵢ)² / n",
+      "d": "Σ(xᵢ − x̄) / n"
+    },
+    "answer": "b",
+    "correct_text": "√[ Σ(xᵢ − x̄)² / n ]",
+    "formula": "SD (σ) = √[ Σ(xᵢ − x̄)² / n ]",
+    "steps": [
+      "Standard Deviation is defined as the positive square root of Variance: σ = √[ Σ(xᵢ − x̄)² / n ]."
+    ],
+    "trick": "Standard Deviation = √Variance.",
+    "id": 39
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q38 (Slide 40)",
+    "question": "The mean of the observation set x₁, x₂, ..., x₁₀ is 20. What will be the mean of x₁ + 1, x₂ + 2, ..., x₁₀ + 10?",
+    "options": {
+      "a": "26",
+      "b": "25.5",
+      "c": "24.25",
+      "d": "26.5"
+    },
+    "answer": "b",
+    "correct_text": "25.5",
+    "formula": "New Mean = Old Mean + Mean of (1, 2, ..., 10)",
+    "steps": [
+      "By linearity of expectation/mean: New Mean = Mean(xᵢ) + Mean(1, 2, ..., 10).",
+      "Mean of first 10 natural numbers = (10 + 1) / 2 = 5.5.",
+      "New Mean = 20 + 5.5 = 25.5."
+    ],
+    "trick": "Just add (n+1)/2 = 5.5 to 20 → 25.5 in 2 seconds!",
+    "id": 40
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q39 (Slide 40)",
+    "question": "If the mean of the observation set x₁, x₂, ..., x₁₀ is 15, what will be the mean of x₁ + 1², x₂ + 2², ..., x₁₀ + 10²?",
+    "options": {
+      "a": "50",
+      "b": "52.5",
+      "c": "53.5",
+      "d": "55"
+    },
+    "answer": "c",
+    "correct_text": "53.5",
+    "formula": "Mean of first n squares = (n + 1)(2n + 1) / 6",
+    "steps": [
+      "Sum of squares 1² + 2² + ... + 10² = 10 × 11 × 21 / 6 = 385.",
+      "Mean of the added squares = 385 / 10 = 38.5.",
+      "New Mean = 15 + 38.5 = 53.5."
+    ],
+    "trick": "Mean of 1²..10² = (11×21)/6 = 38.5 ⇒ 15 + 38.5 = 53.5!",
+    "id": 41
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q40 (Slide 41)",
+    "question": "The mean of a set of 150 observations is 90. If 15 is subtracted from each observation and the resulting value is divided by 5, what is the mean of the new set?",
+    "options": {
+      "a": "25",
+      "b": "10",
+      "c": "15",
+      "d": "22.5"
+    },
+    "answer": "c",
+    "correct_text": "15",
+    "formula": "Apply the exact same operations to the old Mean: (Old Mean − 15) / 5",
+    "steps": [
+      "New Mean = (90 − 15) / 5 = 75 / 5 = 15."
+    ],
+    "trick": "(90 − 15) / 5 = 15 in 2 seconds! Ignore n = 150 completely!",
+    "id": 42
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q41 (Slide 41)",
+    "question": "The numbers 10, 12, 14, 18, 20, 22, and m are arranged in ascending order. The mean of these numbers is equal to their median. What is the value of m?",
+    "options": {
+      "a": "25",
+      "b": "30",
+      "c": "64",
+      "d": "82"
+    },
+    "answer": "b",
+    "correct_text": "30",
+    "formula": "Median of 7 sorted terms = 4th term = 18 ⇒ Mean = 18",
+    "steps": [
+      "Since the 7 numbers are in ascending order, Median = 4th term = 18.",
+      "Given Mean = Median = 18 ⇒ Total sum = 18 × 7 = 126.",
+      "Sum of first 6 numbers = 10 + 12 + 14 + 18 + 20 + 22 = 96.",
+      "m = 126 − 96 = 30."
+    ],
+    "trick": "Deviations from 18: −8, −6, −4, 0, +2, +4 → net = −12. So m = 18 + 12 = 30!",
+    "id": 43
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q42 (Slide 42)",
+    "question": "If the mean of 5, 8, m, n, and 16 is 10 and the median is 9, with n > m, what are the values of m and n respectively?",
+    "options": {
+      "a": "5, 6",
+      "b": "9, 12",
+      "c": "7, 9",
+      "d": "8, 9"
+    },
+    "answer": "b",
+    "correct_text": "9, 12",
+    "formula": "Sum = 5 × 10 = 50 ⇒ m + n = 21; Median (3rd term) = 9",
+    "steps": [
+      "Total sum = 5 × 10 = 50 ⇒ 5 + 8 + m + n + 16 = 50 ⇒ m + n = 21.",
+      "Since 9 is the median of 5 numbers (with 5, 8 < 9 and 16 > 9), one of m or n must equal 9.",
+      "Because n > m and m + n = 21, we get m = 9 and n = 12."
+    ],
+    "trick": "m + n = 21 instantly eliminates (a), (c), (d) — only (9, 12) sums to 21!",
+    "id": 44
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q43 (Slide 42)",
+    "question": "If m, n, and o are the median, mode, and range respectively of the data: 6, 2, 8, 10, 5, 2, 12, 11, 2, 8, 4, find the value of (4m − n + 3o).",
+    "options": {
+      "a": "43.5",
+      "b": "52",
+      "c": "31",
+      "d": "64"
+    },
+    "answer": "b",
+    "correct_text": "52",
+    "formula": "Sort 11 items → 6th is Median (m), most frequent is Mode (n), Max − Min is Range (o)",
+    "steps": [
+      "Sorted 11 values: 2, 2, 2, 4, 5, 6, 8, 8, 10, 11, 12.",
+      "Median m = 6th term = 6.",
+      "Mode n = 2 (occurs 3 times).",
+      "Range o = 12 − 2 = 10.",
+      "4m − n + 3o = 4(6) − 2 + 3(10) = 24 − 2 + 30 = 52."
+    ],
+    "trick": "m = 6, n = 2, o = 10 ⇒ 24 − 2 + 30 = 52!",
+    "id": 45
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q44 (Slide 43)",
+    "question": "What is the mean of the range and median of the 25 observations: 15, 20, 25, 30, 20, 15, 25, 30, 20, 35, 20, 40, 35, 20, 25, 30, 15, 20, 40, 25, 30, 15, 20, 35, 25?",
+    "options": {
+      "a": "20",
+      "b": "35",
+      "c": "25",
+      "d": "42"
+    },
+    "answer": "c",
+    "correct_text": "25",
+    "formula": "Count frequencies to find 13th term (Median) without rewriting all 25 numbers!",
+    "steps": [
+      "Frequency tally: 15 (4 times), 20 (7 times), 25 (5 times), 30 (4 times), 35 (3 times), 40 (2 times). Total = 25.",
+      "Range = 40 − 15 = 25.",
+      "Median = 13th term: 4 + 7 = 11 terms are ≤ 20, and positions 12–16 are all 25 ⇒ Median = 25.",
+      "Mean of Range and Median = (25 + 25) / 2 = 25."
+    ],
+    "trick": "Never sort 25 numbers by hand! Tally freqs: 15(4), 20(7) → 11 items → 13th is 25; Range = 40−15 = 25 → Avg = 25!",
+    "id": 46
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q45 (Slide 43)",
+    "question": "What is the mean of the median and the mode of the data: 10, 15, 12, 18, 15, 20, 15, 12, 10, 18?",
+    "options": {
+      "a": "12.5",
+      "b": "11",
+      "c": "15",
+      "d": "24"
+    },
+    "answer": "c",
+    "correct_text": "15",
+    "formula": "Average of Median and Mode",
+    "steps": [
+      "Sorted 10 values: 10, 10, 12, 12, 15, 15, 15, 18, 18, 20.",
+      "Median = avg of 5th and 6th = (15 + 15) / 2 = 15.",
+      "Mode = 15 (appears 3 times).",
+      "Mean of Median and Mode = (15 + 15) / 2 = 15."
+    ],
+    "trick": "Both Median and Mode equal 15 → their average is 15!",
+    "id": 47
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q46 (Slide 44)",
+    "question": "For a moderately skewed distribution, which empirical relationship between Mean, Median, and Mode is correct?",
+    "options": {
+      "a": "Mean − Mode = 3 (Mean − Median)",
+      "b": "Mode = 2 Median − Mean",
+      "c": "Mean + Mode = 2 Median",
+      "d": "Median = (Mean + Mode) / 2"
+    },
+    "answer": "a",
+    "correct_text": "Mean − Mode = 3 (Mean − Median)",
+    "formula": "Mode = 3 Median − 2 Mean ⇔ Mean − Mode = 3(Mean − Median)",
+    "steps": [
+      "Start from Mode = 3 Median − 2 Mean.",
+      "Subtract both sides from Mean: Mean − Mode = 3 Mean − 3 Median = 3(Mean − Median)."
+    ],
+    "trick": "Remember BOTH forms: Mode = 3M − 2x̄ AND (x̄ − Mode) = 3(x̄ − M)!",
+    "id": 48
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q47 (Slide 45)",
+    "question": "Find the value of M if the mean of the following distribution is 28: X = [12, 18, M, 30, 36, 42] with Frequencies F = [4, 6, 8, M, 10, 6].",
+    "options": {
+      "a": "17",
+      "b": "18.4",
+      "c": "17.65",
+      "d": "16.25"
+    },
+    "answer": "b",
+    "correct_text": "18.4",
+    "formula": "Σ(F × X) = Mean × ΣF",
+    "steps": [
+      "Σ(F × X) = 4(12) + 6(18) + 8M + 30M + 10(36) + 6(42) = 48 + 108 + 38M + 360 + 252 = 768 + 38M.",
+      "ΣF = 4 + 6 + 8 + M + 10 + 6 = 34 + M.",
+      "Equating: 768 + 38M = 28(34 + M) = 952 + 28M.",
+      "10M = 952 − 768 = 184 ⇒ M = 18.4."
+    ],
+    "trick": "Deviation from 28: 4(−16) + 6(−10) + 8(M−28) + M(+2) + 10(+8) + 6(+14) = 0 ⇒ 10M = 184 ⇒ M = 18.4!",
+    "id": 49
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q48 (Slide 45)",
+    "question": "What is the mean deviation about the mean of the data: 5, 8, 11, 13, 15, 17, 20, 22, 25, 29?",
+    "options": {
+      "a": "5.25",
+      "b": "6.1",
+      "c": "6.25",
+      "d": "4.35"
+    },
+    "answer": "b",
+    "correct_text": "6.1",
+    "formula": "MD = Σ|xᵢ − x̄| / N",
+    "steps": [
+      "Sum = 5+8+11+13+15+17+20+22+25+29 = 165 ⇒ Mean x̄ = 165 / 10 = 16.5.",
+      "Absolute deviations from 16.5: 11.5, 8.5, 5.5, 3.5, 1.5, 0.5, 3.5, 5.5, 8.5, 12.5.",
+      "Sum of absolute deviations = 61.",
+      "Mean Deviation = 61 / 10 = 6.1."
+    ],
+    "trick": "Half-sum shortcut: 5 values are < 16.5 (sum = 52), 5 values are > 16.5 (sum = 113) ⇒ Σ|dev| = 113 − 52 = 61 ⇒ MD = 61/10 = 6.1 in 5 seconds!",
+    "id": 50
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q49 (Slide 46)",
+    "question": "Find the variance of the following data points: 9, 11, 13, 15, 17, 19.",
+    "options": {
+      "a": "10",
+      "b": "10.5",
+      "c": "11.67",
+      "d": "12"
+    },
+    "answer": "c",
+    "correct_text": "11.67",
+    "formula": "AP Variance = d²(n² − 1) / 12",
+    "steps": [
+      "The 6 numbers form an AP with d = 2, n = 6, Mean = 14.",
+      "Deviations from 14: −5, −3, −1, +1, +3, +5 → Squares: 25, 9, 1, 1, 9, 25 (Sum = 70).",
+      "Variance = 70 / 6 = 35 / 3 ≈ 11.67."
+    ],
+    "trick": "AP formula: 2²(6² − 1)/12 = 4×35/12 = 35/3 = 11.67!",
+    "id": 51
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q50 (Slide 46)",
+    "question": "Find the standard deviation of the following data points: 10, 12, 14, 16, 18.",
+    "options": {
+      "a": "2",
+      "b": "2.5",
+      "c": "2.83",
+      "d": "3"
+    },
+    "answer": "c",
+    "correct_text": "2.83",
+    "formula": "SD = √[ d²(n² − 1) / 12 ]",
+    "steps": [
+      "Mean = 14; Deviations: −4, −2, 0, +2, +4 → Squares sum = 16+4+0+4+16 = 40.",
+      "Variance = 40 / 5 = 8.",
+      "Standard Deviation = √8 = 2√2 ≈ 2.83."
+    ],
+    "trick": "Variance = 4(25−1)/12 = 8 ⇒ SD = √8 ≈ 2.83!",
+    "id": 52
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q51 (Slide 47)",
+    "question": "If the ratio of the Mode and Median of a certain data is 13 : 11, then the ratio of its Mean and Median is:",
+    "options": {
+      "a": "12 : 11",
+      "b": "10 : 11",
+      "c": "11 : 10",
+      "d": "11 : 12"
+    },
+    "answer": "b",
+    "correct_text": "10 : 11",
+    "formula": "Mode = 3 Median − 2 Mean",
+    "steps": [
+      "Let Mode = 13 and Median = 11.",
+      "13 = 3(11) − 2(Mean) ⇒ 2(Mean) = 33 − 13 = 20 ⇒ Mean = 10.",
+      "Therefore, Mean : Median = 10 : 11."
+    ],
+    "trick": "Plug Mode=13, Median=11 directly: Mean = (33 − 13)/2 = 10 → Ratio 10 : 11!",
+    "id": 53
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q52 (Slide 47)",
+    "question": "What is the formula for the variance of the first 'n' natural numbers?",
+    "options": {
+      "a": "(n² + 1) / 12",
+      "b": "n(n + 1) / 12",
+      "c": "(n² − 1) / 12",
+      "d": "(n + 1)² / 12"
+    },
+    "answer": "c",
+    "correct_text": "(n² − 1) / 12",
+    "formula": "Variance(1, 2, ..., n) = (n² − 1) / 12",
+    "steps": [
+      "Mean of squares = (n+1)(2n+1)/6; Square of mean = (n+1)²/4.",
+      "Variance = (n+1)(2n+1)/6 − (n+1)²/4 = (n+1)[2(2n+1) − 3(n+1)] / 12 = (n+1)(n−1)/12 = (n² − 1)/12."
+    ],
+    "trick": "Check with n = 1 (single number {1}): Variance MUST be 0 → only (n² − 1)/12 gives 0!",
+    "id": 54
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q53 (Slide 48)",
+    "question": "Find the standard deviation of the population data: 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21.",
+    "options": {
+      "a": "5.92",
+      "b": "6.32",
+      "c": "6.78",
+      "d": "7.15"
+    },
+    "answer": "b",
+    "correct_text": "6.32",
+    "formula": "SD of AP = d × √[(n² − 1) / 12]",
+    "steps": [
+      "This is an AP with n = 11 terms and common difference d = 2.",
+      "Variance = d²(n² − 1)/12 = 4 × (121 − 1)/12 = 4 × 10 = 40.",
+      "Standard Deviation = √40 ≈ 6.32."
+    ],
+    "trick": "AP Shortcut: Var = 4 × (120/12) = 40 ⇒ SD = √40 ≈ 6.32 in 4 seconds!",
+    "id": 55
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q54 (Slide 48)",
+    "question": "If the variance of 6 values is 1.69, what is its standard deviation?",
+    "options": {
+      "a": "1.3",
+      "b": "2.6",
+      "c": "0.13",
+      "d": "0.26"
+    },
+    "answer": "a",
+    "correct_text": "1.3",
+    "formula": "SD = +√Variance",
+    "steps": [
+      "SD = √1.69 = 1.3 (since 13² = 169)."
+    ],
+    "trick": "√1.69 = 1.3 (ignore '6 values'!).",
+    "id": 56
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q55 (Slide 49)",
+    "question": "The variance of five values is 25. If each value is tripled, what is the new standard deviation?",
+    "options": {
+      "a": "5",
+      "b": "15",
+      "c": "75",
+      "d": "225"
+    },
+    "answer": "b",
+    "correct_text": "15",
+    "formula": "Old SD = √Variance; New SD = k × Old SD",
+    "steps": [
+      "Original Variance = 25 ⇒ Original SD = √25 = 5.",
+      "Each value is multiplied by k = 3 ⇒ New SD = 3 × 5 = 15."
+    ],
+    "trick": "Read carefully: given VARIANCE (25), asked SD! √25 = 5 → triple it = 15!",
+    "id": 57
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q56 (Slide 49)",
+    "question": "The variance of five values is 49. If each value is halved, what is the new standard deviation?",
+    "options": {
+      "a": "7",
+      "b": "3.5",
+      "c": "24.5",
+      "d": "12.25"
+    },
+    "answer": "b",
+    "correct_text": "3.5",
+    "formula": "Old SD = √49 = 7; Halving data halves SD",
+    "steps": [
+      "Original SD = √49 = 7.",
+      "Each value is divided by 2 ⇒ New SD = 7 / 2 = 3.5."
+    ],
+    "trick": "√49 = 7 → divide by 2 = 3.5!",
+    "id": 58
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q57 (Slide 50)",
+    "question": "The mean of a distribution is 50 and the standard deviation is 5. What is the value of the coefficient of variation (CV)?",
+    "options": {
+      "a": "10%",
+      "b": "20%",
+      "c": "50%",
+      "d": "75%"
+    },
+    "answer": "a",
+    "correct_text": "10%",
+    "formula": "CV = (SD / Mean) × 100%",
+    "steps": [
+      "CV = (5 / 50) × 100% = 10%."
+    ],
+    "trick": "5 is 10% of 50 → CV = 10%!",
+    "id": 59
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q58 (Slide 51)",
+    "question": "If the variance of the data {3, 5, 7, 9, 11} is 8, what will be the variance of {6, 10, 14, 18, 22}?",
+    "options": {
+      "a": "8",
+      "b": "16",
+      "c": "32",
+      "d": "64"
+    },
+    "answer": "c",
+    "correct_text": "32",
+    "formula": "New Variance = k² × Old Variance",
+    "steps": [
+      "Notice every element of {6, 10, 14, 18, 22} is 2× the corresponding element of {3, 5, 7, 9, 11} (k = 2).",
+      "New Variance = 2² × 8 = 4 × 8 = 32."
+    ],
+    "trick": "Data doubled (k=2) ⇒ Variance multiplies by 2² = 4 → 8 × 4 = 32!",
+    "id": 60
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q59 (Slide 51)",
+    "question": "If the standard deviation of a population is 8.5, what is the population variance?",
+    "options": {
+      "a": "72.25",
+      "b": "17",
+      "c": "4.25",
+      "d": "72.50"
+    },
+    "answer": "a",
+    "correct_text": "72.25",
+    "formula": "Variance = (Standard Deviation)²",
+    "steps": [
+      "Variance = (8.5)² = 72.25."
+    ],
+    "trick": "Vedic square trick for ending in 5: 8×9 = 72, append .25 → 72.25 in 1 second!",
+    "id": 61
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q60 (Slide 52)",
+    "question": "What is the mean deviation about the median of the distribution: 55, 62, 71, 48, 80, 50, 75, 58?",
+    "options": {
+      "a": "5.62",
+      "b": "9.625",
+      "c": "10.38",
+      "d": "7.69"
+    },
+    "answer": "b",
+    "correct_text": "9.625",
+    "formula": "MD (about Median) = Σ|xᵢ − Median| / N",
+    "steps": [
+      "Sort the 8 values: 48, 50, 55, 58, 62, 71, 75, 80.",
+      "Median = (58 + 62) / 2 = 60.",
+      "Absolute deviations from 60: 12, 10, 5, 2, 2, 11, 15, 20 → Sum = 77.",
+      "Mean Deviation about Median = 77 / 8 = 9.625."
+    ],
+    "trick": "Half-sum shortcut: (Upper 4 sum − Lower 4 sum) / 8 = [(62+71+75+80) − (48+50+55+58)] / 8 = (288 − 211)/8 = 77/8 = 9.625!",
+    "id": 62
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q61 (Slide 52)",
+    "question": "The sum of deviations of n numbers from 15 and 25 are c and d respectively. If d / c = −3, what is the mean of these numbers?",
+    "options": {
+      "a": "16.25",
+      "b": "17.5",
+      "c": "15",
+      "d": "10.34"
+    },
+    "answer": "b",
+    "correct_text": "17.5",
+    "formula": "c = n(x̄ − 15), d = n(x̄ − 25) ⇒ (x̄ − 25) / (x̄ − 15) = d / c",
+    "steps": [
+      "Sum of deviations from 15: c = Σ(xᵢ − 15) = n(x̄ − 15).",
+      "Sum of deviations from 25: d = Σ(xᵢ − 25) = n(x̄ − 25).",
+      "Divide: d / c = (x̄ − 25) / (x̄ − 15) = −3.",
+      "x̄ − 25 = −3x̄ + 45 ⇒ 4x̄ = 70 ⇒ x̄ = 17.5."
+    ],
+    "trick": "Section formula shortcut! Mean divides [15, 25] in ratio |c| : |d| = 1 : 3 → 15 + (1/4)×10 = 17.5 in 3 seconds!",
+    "id": 63
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "Maths Maestro Statistics Q62 (Slide 53)",
+    "question": "The sum of deviations of a set of n values measured from 10 is 50, and the sum of deviations measured from 20 is 10. What is the mean of the values?",
+    "options": {
+      "a": "35.25",
+      "b": "22.5",
+      "c": "21.45",
+      "d": "20.29"
+    },
+    "answer": "b",
+    "correct_text": "22.5",
+    "formula": "n = (S₁ − S₂) / (b − a) ; Mean = a + S₁ / n",
+    "steps": [
+      "Σxᵢ − 10n = 50 and Σxᵢ − 20n = 10.",
+      "Subtract the two equations: 10n = 50 − 10 = 40 ⇒ n = 4.",
+      "Mean x̄ = 10 + (50 / 4) = 10 + 12.5 = 22.5 (Check: 20 + 10/4 = 22.5!)."
+    ],
+    "trick": "Vishesh Sir's 5-Second Formula: n = (50 − 10)/(20 − 10) = 4 ⇒ Mean = 20 + 10/4 = 22.5!",
+    "id": 64
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "RRB NTPC CBT-2 Extra",
+    "question": "The point of intersection of the 'less than' ogive and the 'more than' ogive gives which measure on the x-axis?",
+    "options": {
+      "a": "Mode",
+      "b": "Median",
+      "c": "Range",
+      "d": "Mean"
+    },
+    "answer": "b",
+    "correct_text": "Median",
+    "formula": "Intersection of Less-than & More-than Ogives = Median | Histogram = Mode",
+    "steps": [
+      "An ogive plots cumulative frequencies. The rising 'less than' curve and falling 'more than' curve intersect at cumulative frequency N/2.",
+      "The x-coordinate of this intersection is the Median."
+    ],
+    "trick": "Ogive → Median | Histogram → Mode!",
+    "id": 65
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "RRB NTPC CBT-2 Extra",
+    "question": "Which graphical representation is used to determine the Mode of a continuous grouped frequency distribution?",
+    "options": {
+      "a": "Scatter Plot",
+      "b": "Pie Chart",
+      "c": "Ogive",
+      "d": "Histogram"
+    },
+    "answer": "d",
+    "correct_text": "Histogram",
+    "formula": "Mode is determined graphically using a Histogram",
+    "steps": [
+      "Joining top corners of the tallest (modal) bar diagonally to adjacent bars locates the exact Mode on the horizontal axis."
+    ],
+    "trick": "Histogram = Mode | Ogive = Median!",
+    "id": 66
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "RRB NTPC CBT-2 Extra",
+    "question": "Find the Interquartile Range (IQR) of the sorted data: 5, 8, 12, 15, 19, 24, 30.",
+    "options": {
+      "a": "12",
+      "b": "25",
+      "c": "16",
+      "d": "14"
+    },
+    "answer": "c",
+    "correct_text": "16",
+    "formula": "Q₁ = ((n+1)/4)th term, Q₃ = (3(n+1)/4)th term, IQR = Q₃ − Q₁",
+    "steps": [
+      "For n = 7: Q₁ = 2nd term = 8; Q₃ = 6th term = 24.",
+      "IQR = Q₃ − Q₁ = 24 − 8 = 16."
+    ],
+    "trick": "For 7 sorted values: 6th − 2nd = 24 − 8 = 16!",
+    "id": 67
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "RRB NTPC CBT-2 Extra",
+    "question": "What is the Semi-Interquartile Range (Quartile Deviation) if Q₁ = 18 and Q₃ = 42?",
+    "options": {
+      "a": "12",
+      "b": "30",
+      "c": "15",
+      "d": "24"
+    },
+    "answer": "a",
+    "correct_text": "12",
+    "formula": "Quartile Deviation = (Q₃ − Q₁) / 2",
+    "steps": [
+      "QD = (42 − 18) / 2 = 24 / 2 = 12."
+    ],
+    "trick": "Half of IQR = 24 / 2 = 12.",
+    "id": 68
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "RRB NTPC CBT-2 Extra",
     "question": "In a dataset of 10 observations, Σxᵢ = 50 and Σxᵢ² = 340. Find the Standard Deviation.",
     "options": {
-      "a": "4",
+      "a": "9",
       "b": "√14",
-      "c": "9",
+      "c": "4",
       "d": "3"
     },
     "answer": "d",
     "correct_text": "3",
     "formula": "σ = √[ (Σxᵢ² / N) − (Σxᵢ / N)² ]",
     "steps": [
-      "Mean x̄ = Σxᵢ / N = 50 / 10 = 5.",
-      "Mean of squares = Σxᵢ² / N = 340 / 10 = 34.",
-      "Variance σ² = 34 − 5² = 34 − 25 = 9.",
-      "Standard Deviation σ = √9 = 3."
+      "Mean x̄ = 50 / 10 = 5; Mean of squares = 340 / 10 = 34.",
+      "Variance = 34 − 5² = 34 − 25 = 9 ⇒ SD = √9 = 3."
     ],
-    "trick": "Shortcut: √(Mean of Squares − Square of Mean) = √(34 − 25) = √9 = 3!",
-    "id": 26
+    "trick": "√(Mean of Squares − Square of Mean) = √(34 − 25) = 3!",
+    "id": 69
   },
   {
     "category": "statistics",
     "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC PYQ Pattern",
-    "question": "The point of intersection of the 'less than' ogive and the 'more than' ogive gives which measure of central tendency on the x-axis?",
+    "exam": "RRB NTPC CBT-2 Extra",
+    "question": "Two datasets A and B both have Mean = 50. Dataset A has SD = 4 and Dataset B has SD = 7. Which statement is correct?",
     "options": {
-      "a": "Mean",
-      "b": "Range",
-      "c": "Median",
-      "d": "Mode"
-    },
-    "answer": "c",
-    "correct_text": "Median",
-    "formula": "Intersection of Less-than & More-than Ogives = Median",
-    "steps": [
-      "An ogive is a cumulative frequency curve.",
-      "The 'less than' ogive rises from 0 to N, while the 'more than' ogive falls from N to 0.",
-      "They intersect precisely at cumulative frequency N/2, whose x-coordinate is the Median."
-    ],
-    "trick": "Remember pair: Ogive → Median | Histogram → Mode!",
-    "id": 27
-  },
-  {
-    "category": "statistics",
-    "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC PYQ Pattern",
-    "question": "Which graphical representation is used to determine the Mode of a continuous grouped frequency distribution?",
-    "options": {
-      "a": "Pie Chart",
-      "b": "Histogram",
-      "c": "Ogive",
-      "d": "Scatter Plot"
-    },
-    "answer": "b",
-    "correct_text": "Histogram",
-    "formula": "Mode is determined graphically using a Histogram",
-    "steps": [
-      "In a Histogram, the tallest rectangle represents the modal class.",
-      "Joining its top corners diagonally to the adjacent rectangles' top corners locates the Mode on the x-axis."
-    ],
-    "trick": "Histogram = Mode | Ogive = Median — standard 1-second RRB theory question!",
-    "id": 28
-  },
-  {
-    "category": "statistics",
-    "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC CBT-2 Special",
-    "question": "Find the Interquartile Range (IQR) of the sorted data: 5, 8, 12, 15, 19, 24, 30.",
-    "options": {
-      "a": "25",
-      "b": "16",
-      "c": "14",
-      "d": "12"
-    },
-    "answer": "b",
-    "correct_text": "16",
-    "formula": "Q₁ = ((n+1)/4)th term, Q₃ = (3(n+1)/4)th term, IQR = Q₃ − Q₁",
-    "steps": [
-      "Here n = 7 (already sorted). (n + 1) / 4 = 8 / 4 = 2.",
-      "First Quartile Q₁ = 2nd term = 8.",
-      "Third Quartile Q₃ = 3 × 2 = 6th term = 24.",
-      "Interquartile Range (IQR) = Q₃ − Q₁ = 24 − 8 = 16."
-    ],
-    "trick": "For 7 sorted items, Q₁ is 2nd (8), Median is 4th (15), Q₃ is 6th (24). IQR = 24 − 8 = 16!",
-    "id": 29
-  },
-  {
-    "category": "statistics",
-    "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC CBT-2 High-Yield",
-    "question": "What is the Semi-Interquartile Range (Quartile Deviation) if Q₁ = 18 and Q₃ = 42?",
-    "options": {
-      "a": "12",
-      "b": "15",
-      "c": "24",
-      "d": "30"
-    },
-    "answer": "a",
-    "correct_text": "12",
-    "formula": "Quartile Deviation = (Q₃ − Q₁) / 2",
-    "steps": [
-      "Given Q₁ = 18 and Q₃ = 42.",
-      "Quartile Deviation (QD) = (42 − 18) / 2 = 24 / 2 = 12."
-    ],
-    "trick": "QD = Half of (Q₃ − Q₁) = 24 / 2 = 12.",
-    "id": 30
-  },
-  {
-    "category": "statistics",
-    "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC PYQ Pattern",
-    "question": "If the Mean of 8, 12, k, 16, 20 is 15, find the value of k.",
-    "options": {
-      "a": "17",
-      "b": "21",
-      "c": "15",
-      "d": "19"
+      "a": "Both datasets are equally consistent",
+      "b": "Dataset B is more consistent than Dataset A",
+      "c": "Dataset A has higher variance than Dataset B",
+      "d": "Dataset A is more consistent than Dataset B"
     },
     "answer": "d",
-    "correct_text": "19",
-    "formula": "Sum = Mean × N",
+    "correct_text": "Dataset A is more consistent than Dataset B",
+    "formula": "Lower CV ⇒ Higher consistency / uniformity",
     "steps": [
-      "Total sum of 5 numbers = 15 × 5 = 75.",
-      "Sum of known numbers = 8 + 12 + 16 + 20 = 56.",
-      "k = 75 − 56 = 19."
+      "CV(A) = (4/50)×100 = 8%; CV(B) = (7/50)×100 = 14%.",
+      "Lower CV implies less spread and greater consistency."
     ],
-    "trick": "Deviations from 15: −7, −3, +1, +5 → Net = −4. So k must supply +4 → 15 + 4 = 19!",
-    "id": 31
+    "trick": "Lower CV = More Consistent!",
+    "id": 70
   },
   {
     "category": "statistics",
     "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC CBT-2 Special",
+    "exam": "RRB NTPC CBT-2 Extra",
+    "question": "The arithmetic mean of 40 boys is 65 and of 60 girls is 75. Find the combined mean of all 100 students.",
+    "options": {
+      "a": "69",
+      "b": "72",
+      "c": "70",
+      "d": "71"
+    },
+    "answer": "d",
+    "correct_text": "71",
+    "formula": "Combined Mean = (n₁x̄₁ + n₂x̄₂) / (n₁ + n₂)",
+    "steps": [
+      "Ratio 40 : 60 = 2 : 3 ⇒ Combined Mean = (2×65 + 3×75) / 5 = 355 / 5 = 71."
+    ],
+    "trick": "Base 65 + (3/5)×(75 − 65) = 65 + 6 = 71!",
+    "id": 71
+  },
+  {
+    "category": "statistics",
+    "category_name": "Elementary Statistics",
+    "exam": "RRB NTPC CBT-2 Extra",
     "question": "The Mean of 10 observations was calculated as 45. Later it was found that one observation 32 was misread as 23. Find the correct Mean.",
     "options": {
-      "a": "45.5",
-      "b": "44.1",
-      "c": "46.0",
+      "a": "46.0",
+      "b": "45.5",
+      "c": "44.1",
       "d": "45.9"
     },
     "answer": "d",
     "correct_text": "45.9",
-    "formula": "Correct Mean = Wrong Mean + (Correct Value − Wrong Value) / N",
+    "formula": "Correct Mean = Wrong Mean + (Correct − Wrong) / N",
     "steps": [
-      "Error in sum = Correct − Wrong = 32 − 23 = +9.",
-      "Correction to Mean = +9 / 10 = +0.9.",
+      "Net correction = (32 − 23) / 10 = +9 / 10 = +0.9.",
       "Correct Mean = 45 + 0.9 = 45.9."
     ],
-    "trick": "True value is 9 higher → distribute +9 across 10 items = +0.9 → 45.9!",
-    "id": 32
+    "trick": "+9 / 10 = +0.9 → 45.9!",
+    "id": 72
   },
   {
     "category": "statistics",
     "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC CBT-2 Special",
-    "question": "What is the algebraic sum of the deviations of a set of observations from their Arithmetic Mean?",
+    "exam": "RRB NTPC CBT-2 Extra",
+    "question": "If the Arithmetic Mean of two positive numbers is 10 and their Geometric Mean is 8, find their Harmonic Mean.",
     "options": {
-      "a": "Always 0",
-      "b": "Always positive",
-      "c": "Equal to Variance",
-      "d": "Equal to N"
-    },
-    "answer": "a",
-    "correct_text": "Always 0",
-    "formula": "Σ(xᵢ − x̄) = 0",
-    "steps": [
-      "Σ(xᵢ − x̄) = Σxᵢ − N·x̄.",
-      "Since x̄ = Σxᵢ / N, we have Σxᵢ = N·x̄.",
-      "Hence Σ(xᵢ − x̄) = N·x̄ − N·x̄ = 0 always."
-    ],
-    "trick": "Fundamental property of Arithmetic Mean: sum of signed deviations is ALWAYS zero.",
-    "id": 33
-  },
-  {
-    "category": "statistics",
-    "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC PYQ Pattern",
-    "question": "The sum of absolute deviations Σ|xᵢ − A| is minimum when A is equal to which measure?",
-    "options": {
-      "a": "Standard Deviation",
-      "b": "Mode",
-      "c": "Median",
-      "d": "Mean"
+      "a": "7.2",
+      "b": "8.0",
+      "c": "6.4",
+      "d": "6.0"
     },
     "answer": "c",
-    "correct_text": "Median",
-    "formula": "Σ|xᵢ − A| is minimum at A = Median; Σ(xᵢ − A)² is minimum at A = Mean",
+    "correct_text": "6.4",
+    "formula": "GM² = AM × HM",
     "steps": [
-      "The sum of absolute deviations Σ|xᵢ − A| is minimized when A = Median.",
-      "By contrast, the sum of SQUARED deviations Σ(xᵢ − A)² is minimized when A = Mean."
+      "8² = 10 × HM ⇒ HM = 64 / 10 = 6.4."
     ],
-    "trick": "Absolute |x−A| → Median | Squared (x−A)² → Mean. High-frequency NTPC theory question!",
-    "id": 34
+    "trick": "HM = GM² / AM = 64 / 10 = 6.4!",
+    "id": 73
   },
   {
     "category": "statistics",
     "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC PYQ Pattern",
-    "question": "Find the Mean of the following discrete frequency distribution: x = [2, 4, 6, 8] with frequencies f = [3, 5, 2, 2].",
-    "options": {
-      "a": "5.0",
-      "b": "4.8",
-      "c": "4.5",
-      "d": "4.2"
-    },
-    "answer": "c",
-    "correct_text": "4.5",
-    "formula": "Mean = Σ(fᵢxᵢ) / Σfᵢ",
-    "steps": [
-      "Compute fᵢxᵢ: 2×3 = 6, 4×5 = 20, 6×2 = 12, 8×2 = 16.",
-      "Σ(fᵢxᵢ) = 6 + 20 + 12 + 16 = 54.",
-      "Total frequency Σfᵢ = 3 + 5 + 2 + 2 = 12.",
-      "Mean = 54 / 12 = 4.5."
-    ],
-    "trick": "54 / 12 = 9 / 2 = 4.5.",
-    "id": 35
-  },
-  {
-    "category": "statistics",
-    "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC PYQ Pattern",
+    "exam": "RRB NTPC CBT-2 Extra",
     "question": "In a pie chart representing a family's monthly budget, 35% is spent on food. What is the central angle of the sector representing food?",
     "options": {
-      "a": "116°",
+      "a": "108°",
       "b": "126°",
-      "c": "108°",
+      "c": "116°",
       "d": "135°"
     },
     "answer": "b",
     "correct_text": "126°",
-    "formula": "Central Angle = (% / 100) × 360° = % × 3.6°",
+    "formula": "Central Angle = % × 3.6°",
     "steps": [
-      "100% corresponds to 360°, so 1% = 3.6°.",
-      "For 35%: Angle = 35 × 3.6° = 126°."
+      "35 × 3.6° = 126°."
     ],
-    "trick": "Multiply % by 3.6: 35 × 3.6 = 70 × 1.8 = 126° in 3 seconds!",
-    "id": 36
+    "trick": "Multiply % by 3.6: 35 × 3.6 = 126°!",
+    "id": 74
   },
   {
     "category": "statistics",
     "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC CBT-2 Special",
-    "question": "Find the Variance of the first 5 odd natural numbers: 1, 3, 5, 7, 9.",
+    "exam": "RRB NTPC CBT-2 Extra",
+    "question": "The sum of absolute deviations Σ|xᵢ − A| is minimum when A equals which statistical measure?",
     "options": {
-      "a": "4",
-      "b": "10",
-      "c": "8",
-      "d": "6"
-    },
-    "answer": "c",
-    "correct_text": "8",
-    "formula": "Variance of AP with common diff d = d²(n² − 1) / 12",
-    "steps": [
-      "Mean x̄ = 5.",
-      "Deviations from 5: −4, −2, 0, +2, +4.",
-      "Squared deviations: 16, 4, 0, 4, 16 → Sum = 40.",
-      "Variance = 40 / 5 = 8."
-    ],
-    "trick": "AP formula: d²(n² − 1)/12 = 2²(25 − 1)/12 = 4 × 2 = 8!",
-    "id": 37
-  },
-  {
-    "category": "statistics",
-    "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC CBT-2 High-Yield",
-    "question": "The Standard Deviation of a dataset is 8. If each observation is divided by 2 and then 5 is subtracted from each, what is the new Standard Deviation?",
-    "options": {
-      "a": "−1",
-      "b": "4",
-      "c": "16",
-      "d": "1"
-    },
-    "answer": "b",
-    "correct_text": "4",
-    "formula": "For y = (x / k) − c, New SD = Old SD / |k|",
-    "steps": [
-      "Dividing every observation by 2 divides the Standard Deviation by 2: 8 / 2 = 4.",
-      "Subtracting 5 is a change of origin and has ZERO effect on Standard Deviation.",
-      "Hence, New SD = 4."
-    ],
-    "trick": "Ignore the −5 completely! Just divide SD by 2 → 8 / 2 = 4.",
-    "id": 38
-  },
-  {
-    "category": "statistics",
-    "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC PYQ Pattern",
-    "question": "For a perfectly symmetrical (normal) distribution, which of the following relations holds true?",
-    "options": {
-      "a": "Mean > Median > Mode",
-      "b": "Mean + Mode = Median",
-      "c": "Mean < Median < Mode",
-      "d": "Mean = Median = Mode"
+      "a": "Standard Deviation",
+      "b": "Mode",
+      "c": "Mean",
+      "d": "Median"
     },
     "answer": "d",
-    "correct_text": "Mean = Median = Mode",
-    "formula": "Symmetric distribution: Mean = Median = Mode (Skewness = 0)",
+    "correct_text": "Median",
+    "formula": "Σ|xᵢ − A| is minimized at Median; Σ(xᵢ − A)² is minimized at Mean",
     "steps": [
-      "In a symmetric bell-shaped distribution, the peak (Mode), middle value (Median), and balance point (Mean) all coincide.",
-      "Positively skewed: Mean > Median > Mode. Negatively skewed: Mean < Median < Mode."
+      "Absolute deviation sum is minimum about Median; squared deviation sum is minimum about Mean."
     ],
-    "trick": "Symmetry = all three equal! Right-skewed = Mean > Median > Mode.",
-    "id": 39
-  },
-  {
-    "category": "statistics",
-    "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC CBT-2 Special",
-    "question": "Find the Mean of the first 10 prime numbers.",
-    "options": {
-      "a": "12.9",
-      "b": "13.1",
-      "c": "12.5",
-      "d": "11.9"
-    },
-    "answer": "a",
-    "correct_text": "12.9",
-    "formula": "Sum of first 10 primes = 129",
-    "steps": [
-      "First 10 prime numbers: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29.",
-      "Sum = 2+3+5+7+11+13+17+19+23+29 = 129.",
-      "Mean = 129 / 10 = 12.9."
-    ],
-    "trick": "Memorize: Sum of first 10 primes = 129 ⇒ Mean = 12.9! (Remember 1 is NOT prime!)",
-    "id": 40
-  },
-  {
-    "category": "statistics",
-    "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC PYQ Pattern",
-    "question": "What is the Geometric Mean of 4, 8, and 16?",
-    "options": {
-      "a": "10",
-      "b": "6",
-      "c": "8",
-      "d": "9.33"
-    },
-    "answer": "c",
-    "correct_text": "8",
-    "formula": "GM of n numbers = (x₁ · x₂ · ... · xₙ)^(1/n)",
-    "steps": [
-      "Product = 4 × 8 × 16 = 2² × 2³ × 2⁴ = 2⁹.",
-      "Geometric Mean = (2⁹)^(1/3) = 2³ = 8."
-    ],
-    "trick": "In a GP (4, 8, 16), the Geometric Mean is simply the middle term = 8!",
-    "id": 41
-  },
-  {
-    "category": "statistics",
-    "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC PYQ Pattern",
-    "question": "What is the Harmonic Mean of 6 and 12?",
-    "options": {
-      "a": "7.5",
-      "b": "9",
-      "c": "8.5",
-      "d": "8"
-    },
-    "answer": "d",
-    "correct_text": "8",
-    "formula": "HM of two numbers a and b = 2ab / (a + b)",
-    "steps": [
-      "HM = (2 × 6 × 12) / (6 + 12) = 144 / 18 = 8.",
-      "Note: Average speed for equal distances at 6 km/h and 12 km/h is also this exact Harmonic Mean!"
-    ],
-    "trick": "2×6×12 / 18 = 144 / 18 = 8. Also check AM × HM = GM² ⇒ 9 × 8 = 72 = 6×12!",
-    "id": 42
-  },
-  {
-    "category": "statistics",
-    "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC CBT-2 High-Yield",
-    "question": "If the Arithmetic Mean of two positive numbers is 10 and their Geometric Mean is 8, find their Harmonic Mean.",
-    "options": {
-      "a": "7.2",
-      "b": "6.0",
-      "c": "8.0",
-      "d": "6.4"
-    },
-    "answer": "d",
-    "correct_text": "6.4",
-    "formula": "GM² = AM × HM",
-    "steps": [
-      "Given AM = 10, GM = 8.",
-      "Using GM² = AM × HM ⇒ 8² = 10 × HM ⇒ 64 = 10 × HM.",
-      "HM = 64 / 10 = 6.4."
-    ],
-    "trick": "Direct relation: HM = GM² / AM = 64 / 10 = 6.4 in 2 seconds!",
-    "id": 43
-  },
-  {
-    "category": "statistics",
-    "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC CBT-2 Special",
-    "question": "Which measure of central tendency is MOST affected by extreme outliers (very large or very small values)?",
-    "options": {
-      "a": "Median",
-      "b": "Arithmetic Mean",
-      "c": "Quartile",
-      "d": "Mode"
-    },
-    "answer": "b",
-    "correct_text": "Arithmetic Mean",
-    "formula": "Mean uses every value; Median depends only on middle position",
-    "steps": [
-      "Arithmetic Mean sums every observation, so a single huge outlier pulls the Mean dramatically.",
-      "Median and Mode are positional/frequency measures and remain unaffected by extreme values."
-    ],
-    "trick": "Outlier magnet = Arithmetic Mean! Outlier resistant = Median.",
-    "id": 44
-  },
-  {
-    "category": "statistics",
-    "category_name": "Elementary Statistics",
-    "exam": "RRB NTPC CBT-2 High-Yield",
-    "question": "Find the Mean Deviation about the Median for the data: 4, 7, 10, 13, 18.",
-    "options": {
-      "a": "4",
-      "b": "5",
-      "c": "4.4",
-      "d": "3.6"
-    },
-    "answer": "a",
-    "correct_text": "4",
-    "formula": "MD (Median) = Σ|xᵢ − Median| / N",
-    "steps": [
-      "The 5 numbers are sorted: 4, 7, 10, 13, 18 ⇒ Median = 10.",
-      "Absolute deviations from 10: |4−10|=6, |7−10|=3, |10−10|=0, |13−10|=3, |18−10|=8.",
-      "Sum = 6 + 3 + 0 + 3 + 8 = 20.",
-      "Mean Deviation about Median = 20 / 5 = 4."
-    ],
-    "trick": "Deviations from 10 are 6, 3, 0, 3, 8 → Sum = 20 → 20 / 5 = 4!",
-    "id": 45
+    "trick": "Absolute |x−A| → Median | Squared (x−A)² → Mean!",
+    "id": 75
   },
   {
     "category": "science",
@@ -995,12 +1629,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Physics Numerical",
     "question": "A train starts from rest and attains a velocity of 72 km/h in 5 minutes with uniform acceleration. Find its acceleration (in m/s²).",
     "options": {
-      "a": "1/15 m/s²",
+      "a": "1/10 m/s²",
       "b": "1/5 m/s²",
-      "c": "2/15 m/s²",
-      "d": "1/10 m/s²"
+      "c": "1/15 m/s²",
+      "d": "2/15 m/s²"
     },
-    "answer": "a",
+    "answer": "c",
     "correct_text": "1/15 m/s²",
     "formula": "v = u + at (Convert km/h to m/s by multiplying by 5/18)",
     "steps": [
@@ -1010,7 +1644,7 @@ window.NTPC26_DATA = [
       "Acceleration a = (v − u) / t = (20 − 0) / 300 = 1/15 m/s²."
     ],
     "trick": "72 km/h = 20 m/s, 5 min = 300 s ⇒ a = 20/300 = 1/15 m/s²!",
-    "id": 46
+    "id": 76
   },
   {
     "category": "science",
@@ -1018,12 +1652,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Physics Numerical",
     "question": "An object of mass 15 kg is moving with a uniform velocity of 4 m/s. What is the kinetic energy possessed by the object?",
     "options": {
-      "a": "120 J",
-      "b": "240 J",
-      "c": "30 J",
+      "a": "240 J",
+      "b": "30 J",
+      "c": "120 J",
       "d": "60 J"
     },
-    "answer": "a",
+    "answer": "c",
     "correct_text": "120 J",
     "formula": "KE = ½ m v²",
     "steps": [
@@ -1031,7 +1665,7 @@ window.NTPC26_DATA = [
       "KE = ½ × 15 × (4)² = ½ × 15 × 16 = 15 × 8 = 120 Joules."
     ],
     "trick": "½ × 15 × 16 = 15 × 8 = 120 J in 2 seconds.",
-    "id": 47
+    "id": 77
   },
   {
     "category": "science",
@@ -1039,12 +1673,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Physics Numerical",
     "question": "If the velocity of a moving body is doubled, its kinetic energy becomes how many times the original kinetic energy?",
     "options": {
-      "a": "Half",
-      "b": "4 times",
-      "c": "8 times",
-      "d": "2 times"
+      "a": "4 times",
+      "b": "8 times",
+      "c": "2 times",
+      "d": "Half"
     },
-    "answer": "b",
+    "answer": "a",
     "correct_text": "4 times",
     "formula": "KE ∝ v²",
     "steps": [
@@ -1052,7 +1686,7 @@ window.NTPC26_DATA = [
       "When velocity becomes 2v: KE₂ = ½ m (2v)² = 4 × (½ m v²) = 4 KE₁."
     ],
     "trick": "KE is proportional to v²: double speed → 2² = 4× KE! (Momentum p = mv only doubles.)",
-    "id": 48
+    "id": 78
   },
   {
     "category": "science",
@@ -1060,12 +1694,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Physics Numerical",
     "question": "A 60 W electric bulb is used for 6 hours per day. Calculate the units (kWh) of electrical energy consumed by the bulb in 30 days.",
     "options": {
-      "a": "1.08 units",
-      "b": "10.8 units",
-      "c": "18 units",
-      "d": "3.6 units"
+      "a": "10.8 units",
+      "b": "3.6 units",
+      "c": "1.08 units",
+      "d": "18 units"
     },
-    "answer": "b",
+    "answer": "a",
     "correct_text": "10.8 units",
     "formula": "Units (kWh) = (Power in Watts × Hours per day × Days) / 1000",
     "steps": [
@@ -1073,7 +1707,7 @@ window.NTPC26_DATA = [
       "Convert to kWh (Units): 10,800 / 1000 = 10.8 kWh = 10.8 units."
     ],
     "trick": "(60 × 6 × 30) / 1000 = 10800 / 1000 = 10.8 units! Classic NCERT Class 9 numerical.",
-    "id": 49
+    "id": 79
   },
   {
     "category": "science",
@@ -1081,12 +1715,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Physics Numerical",
     "question": "How many Joules are equal to 1 kilowatt-hour (1 kWh)?",
     "options": {
-      "a": "36 × 10⁶ J",
-      "b": "3.6 × 10⁶ J",
-      "c": "3.6 × 10³ J",
-      "d": "3.6 × 10⁵ J"
+      "a": "3.6 × 10³ J",
+      "b": "36 × 10⁶ J",
+      "c": "3.6 × 10⁵ J",
+      "d": "3.6 × 10⁶ J"
     },
-    "answer": "b",
+    "answer": "d",
     "correct_text": "3.6 × 10⁶ J",
     "formula": "1 kWh = 1000 W × 3600 s = 3.6 × 10⁶ J",
     "steps": [
@@ -1094,7 +1728,7 @@ window.NTPC26_DATA = [
       "1 kWh = 1000 × 3600 = 3,600,000 J = 3.6 × 10⁶ J."
     ],
     "trick": "Memorize: 1 kWh = 3.6 × 10⁶ J (asked in almost every Railway cycle!).",
-    "id": 50
+    "id": 80
   },
   {
     "category": "science",
@@ -1102,12 +1736,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Physics Numerical",
     "question": "Three resistors of 2 Ω, 3 Ω, and 6 Ω are connected in parallel. What is their equivalent resistance?",
     "options": {
-      "a": "0.5 Ω",
-      "b": "11 Ω",
-      "c": "2 Ω",
-      "d": "1 Ω"
+      "a": "11 Ω",
+      "b": "2 Ω",
+      "c": "1 Ω",
+      "d": "0.5 Ω"
     },
-    "answer": "d",
+    "answer": "c",
     "correct_text": "1 Ω",
     "formula": "1/R_eq = 1/R₁ + 1/R₂ + 1/R₃",
     "steps": [
@@ -1116,7 +1750,7 @@ window.NTPC26_DATA = [
       "Therefore, R_eq = 1 Ω."
     ],
     "trick": "Classic NCERT triplet (2, 3, 6) in parallel ALWAYS equals 1 Ω! (In series = 11 Ω.)",
-    "id": 51
+    "id": 81
   },
   {
     "category": "science",
@@ -1124,12 +1758,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Physics Numerical",
     "question": "A copper wire of resistance 5 Ω is stretched uniformly so that its length becomes 3 times its original length (volume unchanged). What is its new resistance?",
     "options": {
-      "a": "45 Ω",
-      "b": "25 Ω",
-      "c": "15 Ω",
-      "d": "5/9 Ω"
+      "a": "25 Ω",
+      "b": "45 Ω",
+      "c": "5/9 Ω",
+      "d": "15 Ω"
     },
-    "answer": "a",
+    "answer": "b",
     "correct_text": "45 Ω",
     "formula": "When stretched to n times length, R_new = n² × R_old",
     "steps": [
@@ -1138,7 +1772,7 @@ window.NTPC26_DATA = [
       "R_new = 9 × 5 = 45 Ω."
     ],
     "trick": "Wire stretched n times ⇒ Resistance becomes n²R = 3² × 5 = 45 Ω in 2 seconds!",
-    "id": 52
+    "id": 82
   },
   {
     "category": "science",
@@ -1147,11 +1781,11 @@ window.NTPC26_DATA = [
     "question": "How much heat is generated in a 10 Ω resistor when a current of 2 A flows through it for 5 minutes?",
     "options": {
       "a": "24,000 J",
-      "b": "200 J",
-      "c": "12,000 J",
+      "b": "12,000 J",
+      "c": "200 J",
       "d": "6,000 J"
     },
-    "answer": "c",
+    "answer": "b",
     "correct_text": "12,000 J",
     "formula": "Joule's Law of Heating: H = I² R t",
     "steps": [
@@ -1159,7 +1793,7 @@ window.NTPC26_DATA = [
       "H = (2)² × 10 × 300 = 4 × 10 × 300 = 12,000 Joules (12 kJ)."
     ],
     "trick": "Don't forget minutes → seconds! 4 × 10 × 300 = 12,000 J.",
-    "id": 53
+    "id": 83
   },
   {
     "category": "science",
@@ -1167,8 +1801,8 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Physics Numerical",
     "question": "A person is prescribed a corrective lens of power −2.5 D. What is the focal length and nature of this lens?",
     "options": {
-      "a": "−25 cm, Concave lens (for Myopia)",
-      "b": "+40 cm, Convex lens (for Hypermetropia)",
+      "a": "+40 cm, Convex lens (for Hypermetropia)",
+      "b": "−25 cm, Concave lens (for Myopia)",
       "c": "+25 cm, Convex lens (for Presbyopia)",
       "d": "−40 cm, Concave lens (for Myopia)"
     },
@@ -1181,7 +1815,7 @@ window.NTPC26_DATA = [
       "Negative focal length/power indicates a Concave (diverging) lens, used to correct Myopia (near-sightedness)."
     ],
     "trick": "Negative Power = Concave = Myopia! f = 100 / −2.5 = −40 cm.",
-    "id": 54
+    "id": 84
   },
   {
     "category": "science",
@@ -1189,12 +1823,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Physics Numerical",
     "question": "An object is placed 30 cm in front of a concave mirror of focal length 15 cm. Where is the image formed?",
     "options": {
-      "a": "At infinity",
-      "b": "30 cm behind the mirror (virtual, erect)",
-      "c": "15 cm in front of the mirror (real, diminished)",
-      "d": "30 cm in front of the mirror (real, inverted, same size)"
+      "a": "15 cm in front of the mirror (real, diminished)",
+      "b": "30 cm in front of the mirror (real, inverted, same size)",
+      "c": "30 cm behind the mirror (virtual, erect)",
+      "d": "At infinity"
     },
-    "answer": "d",
+    "answer": "b",
     "correct_text": "30 cm in front of the mirror (real, inverted, same size)",
     "formula": "1/v + 1/u = 1/f (Radius of curvature R = 2f)",
     "steps": [
@@ -1204,7 +1838,7 @@ window.NTPC26_DATA = [
       "Image forms at C (30 cm in front), real, inverted, and exact same size (m = −1)."
     ],
     "trick": "u = 2f means object is AT Center of Curvature C → image ALWAYS forms at C (30 cm in front), same size!",
-    "id": 55
+    "id": 85
   },
   {
     "category": "science",
@@ -1212,12 +1846,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Physics Numerical",
     "question": "Light enters from air into glass having a refractive index of 1.50. What is the speed of light in glass? (Speed of light in vacuum c = 3 × 10⁸ m/s)",
     "options": {
-      "a": "1.5 × 10⁸ m/s",
-      "b": "2.25 × 10⁸ m/s",
-      "c": "4.5 × 10⁸ m/s",
-      "d": "2 × 10⁸ m/s"
+      "a": "2.25 × 10⁸ m/s",
+      "b": "1.5 × 10⁸ m/s",
+      "c": "2 × 10⁸ m/s",
+      "d": "4.5 × 10⁸ m/s"
     },
-    "answer": "d",
+    "answer": "c",
     "correct_text": "2 × 10⁸ m/s",
     "formula": "Refractive Index n = c / v ⇒ v = c / n",
     "steps": [
@@ -1225,7 +1859,7 @@ window.NTPC26_DATA = [
       "v = (3 × 10⁸) / 1.50 = 2 × 10⁸ m/s."
     ],
     "trick": "Divide 3 × 10⁸ by 1.5 → 2 × 10⁸ m/s instantly! (Direct NCERT Class 10 Example.)",
-    "id": 56
+    "id": 86
   },
   {
     "category": "science",
@@ -1234,9 +1868,9 @@ window.NTPC26_DATA = [
     "question": "If the mass of an object on Earth is 60 kg, what will be its mass and weight on the Moon? (Take g_earth = 10 m/s²)",
     "options": {
       "a": "Mass = 60 kg, Weight = 100 N",
-      "b": "Mass = 10 kg, Weight = 60 N",
-      "c": "Mass = 60 kg, Weight = 600 N",
-      "d": "Mass = 10 kg, Weight = 100 N"
+      "b": "Mass = 60 kg, Weight = 600 N",
+      "c": "Mass = 10 kg, Weight = 100 N",
+      "d": "Mass = 10 kg, Weight = 60 N"
     },
     "answer": "a",
     "correct_text": "Mass = 60 kg, Weight = 100 N",
@@ -1247,7 +1881,7 @@ window.NTPC26_DATA = [
       "Weight on Moon = 600 / 6 = 100 N."
     ],
     "trick": "Classic RRB trap: Mass stays 60 kg! Only Weight divides by 6 → 600/6 = 100 N.",
-    "id": 57
+    "id": 87
   },
   {
     "category": "science",
@@ -1255,12 +1889,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Physics Numerical",
     "question": "A bullet of mass 20 g is fired horizontally with a velocity of 150 m/s from a pistol of mass 2 kg. What is the recoil velocity of the pistol?",
     "options": {
-      "a": "3.0 m/s",
-      "b": "1.5 m/s",
-      "c": "0.75 m/s",
-      "d": "15 m/s"
+      "a": "0.75 m/s",
+      "b": "3.0 m/s",
+      "c": "15 m/s",
+      "d": "1.5 m/s"
     },
-    "answer": "b",
+    "answer": "d",
     "correct_text": "1.5 m/s",
     "formula": "Conservation of Momentum: M × V = m × v",
     "steps": [
@@ -1269,7 +1903,7 @@ window.NTPC26_DATA = [
       "2 × V = 0.02 × 150 = 3 ⇒ V = 3 / 2 = 1.5 m/s (opposite direction)."
     ],
     "trick": "0.02 × 150 = 3; divide by 2 kg = 1.5 m/s! (Direct NCERT Class 9 example.)",
-    "id": 58
+    "id": 88
   },
   {
     "category": "science",
@@ -1277,9 +1911,9 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Physics Numerical",
     "question": "A sound wave has a frequency of 2 kHz and a wavelength of 35 cm. How long will it take to travel 1.4 km?",
     "options": {
-      "a": "1 second",
+      "a": "4 seconds",
       "b": "0.5 seconds",
-      "c": "4 seconds",
+      "c": "1 second",
       "d": "2 seconds"
     },
     "answer": "d",
@@ -1292,7 +1926,7 @@ window.NTPC26_DATA = [
       "Time = 1400 / 700 = 2 seconds."
     ],
     "trick": "v = 2000 × 0.35 = 700 m/s → 1400 / 700 = 2 s!",
-    "id": 59
+    "id": 89
   },
   {
     "category": "science",
@@ -1302,10 +1936,10 @@ window.NTPC26_DATA = [
     "options": {
       "a": "8.6 m",
       "b": "15.0 m",
-      "c": "17.2 m",
-      "d": "34.4 m"
+      "c": "34.4 m",
+      "d": "17.2 m"
     },
-    "answer": "c",
+    "answer": "d",
     "correct_text": "17.2 m",
     "formula": "2d = v × t (Persistence of hearing t = 0.1 s)",
     "steps": [
@@ -1314,7 +1948,7 @@ window.NTPC26_DATA = [
       "Minimum one-way distance d = 34.4 / 2 = 17.2 m."
     ],
     "trick": "344 × 0.1 / 2 = 17.2 m (or 17 m if v = 340 m/s).",
-    "id": 60
+    "id": 90
   },
   {
     "category": "science",
@@ -1336,7 +1970,7 @@ window.NTPC26_DATA = [
       "(Note: Once on his head, walking horizontally does 0 work against gravity since θ = 90° and cos 90° = 0.)"
     ],
     "trick": "Lifting vertically = mgh = 15×10×1.5 = 225 J. Walking horizontally with load = 0 J!",
-    "id": 61
+    "id": 91
   },
   {
     "category": "science",
@@ -1344,12 +1978,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Physics Numerical",
     "question": "How much work is done in moving a charge of 2 Coulombs across two points having a potential difference of 12 V?",
     "options": {
-      "a": "24 J",
-      "b": "14 J",
-      "c": "0.16 J",
-      "d": "6 J"
+      "a": "14 J",
+      "b": "24 J",
+      "c": "6 J",
+      "d": "0.16 J"
     },
-    "answer": "a",
+    "answer": "b",
     "correct_text": "24 J",
     "formula": "W = V × Q",
     "steps": [
@@ -1357,7 +1991,7 @@ window.NTPC26_DATA = [
       "W = 12 V × 2 C = 24 Joules."
     ],
     "trick": "W = VQ = 12 × 2 = 24 J (exact NCERT Class 10 Ch. 12 Example 12.2!).",
-    "id": 62
+    "id": 92
   },
   {
     "category": "science",
@@ -1365,12 +1999,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Physics Numerical",
     "question": "A current of 0.5 A is drawn by a filament of an electric bulb for 10 minutes. Find the amount of electric charge that flows through the circuit.",
     "options": {
-      "a": "600 C",
-      "b": "150 C",
-      "c": "5 C",
-      "d": "300 C"
+      "a": "5 C",
+      "b": "300 C",
+      "c": "150 C",
+      "d": "600 C"
     },
-    "answer": "d",
+    "answer": "b",
     "correct_text": "300 C",
     "formula": "Q = I × t",
     "steps": [
@@ -1378,7 +2012,7 @@ window.NTPC26_DATA = [
       "Charge Q = 0.5 × 600 = 300 Coulombs."
     ],
     "trick": "0.5 × 600 = 300 C (Direct NCERT Class 10 Example 12.1!).",
-    "id": 63
+    "id": 93
   },
   {
     "category": "science",
@@ -1386,12 +2020,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Physics Concept",
     "question": "Which rule is used to determine the direction of force acting on a current-carrying conductor placed in a magnetic field (principle of an electric motor)?",
     "options": {
-      "a": "Fleming's Right-Hand Rule",
-      "b": "Fleming's Left-Hand Rule",
-      "c": "Maxwell's Right-Hand Thumb Rule",
-      "d": "Lenz's Law"
+      "a": "Fleming's Left-Hand Rule",
+      "b": "Lenz's Law",
+      "c": "Fleming's Right-Hand Rule",
+      "d": "Maxwell's Right-Hand Thumb Rule"
     },
-    "answer": "b",
+    "answer": "a",
     "correct_text": "Fleming's Left-Hand Rule",
     "formula": "Left Hand = Motor (Force) | Right Hand = Generator (Induced Current)",
     "steps": [
@@ -1399,7 +2033,7 @@ window.NTPC26_DATA = [
       "Fleming's Right-Hand Rule gives the direction of induced current in an electric generator."
     ],
     "trick": "Memory hack: Motor = Left Hand (ML) | Generator = Right Hand (GR)!",
-    "id": 64
+    "id": 94
   },
   {
     "category": "science",
@@ -1407,12 +2041,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Physics Concept",
     "question": "What is the standard frequency of domestic Alternating Current (AC) power supply in India?",
     "options": {
-      "a": "220 Hz",
-      "b": "60 Hz",
-      "c": "50 Hz",
-      "d": "100 Hz"
+      "a": "60 Hz",
+      "b": "220 Hz",
+      "c": "100 Hz",
+      "d": "50 Hz"
     },
-    "answer": "c",
+    "answer": "d",
     "correct_text": "50 Hz",
     "formula": "Indian Domestic AC: 220 V, 50 Hz (reverses direction 100 times/sec)",
     "steps": [
@@ -1420,7 +2054,7 @@ window.NTPC26_DATA = [
       "Note: AC changes direction twice per cycle, so at 50 Hz it reverses direction 100 times per second."
     ],
     "trick": "India = 220V, 50 Hz (USA = 110V, 60 Hz). Reversals/sec = 2 × 50 = 100!",
-    "id": 65
+    "id": 95
   },
   {
     "category": "science",
@@ -1430,10 +2064,10 @@ window.NTPC26_DATA = [
     "options": {
       "a": "20 m",
       "b": "40 m",
-      "c": "80 m",
-      "d": "160 m"
+      "c": "160 m",
+      "d": "80 m"
     },
-    "answer": "c",
+    "answer": "d",
     "correct_text": "80 m",
     "formula": "h = ut + ½ g t² (u = 0 for dropped body)",
     "steps": [
@@ -1441,7 +2075,7 @@ window.NTPC26_DATA = [
       "h = 0 + ½ × 10 × (4)² = 5 × 16 = 80 m."
     ],
     "trick": "For dropped object (g=10): h = 5t² = 5 × 16 = 80 m in 2 seconds!",
-    "id": 66
+    "id": 96
   },
   {
     "category": "science",
@@ -1449,12 +2083,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Physics Concept",
     "question": "Which type of mirror is used as a rear-view mirror in vehicles, and why?",
     "options": {
-      "a": "Plane mirror — produces exact size images",
-      "b": "Convex mirror — always forms erect, diminished images with a wider field of view",
-      "c": "Concave mirror — magnifies distant objects",
+      "a": "Convex mirror — always forms erect, diminished images with a wider field of view",
+      "b": "Concave mirror — magnifies distant objects",
+      "c": "Plane mirror — produces exact size images",
       "d": "Convex mirror — forms real and inverted images"
     },
-    "answer": "b",
+    "answer": "a",
     "correct_text": "Convex mirror — always forms erect, diminished images with a wider field of view",
     "formula": "Convex Mirror: Rear-view & Street lamps | Concave Mirror: Headlights, Shaving, Dentists",
     "steps": [
@@ -1462,7 +2096,7 @@ window.NTPC26_DATA = [
       "This provides drivers with a much wider field of view of traffic behind them."
     ],
     "trick": "Rear-view = Convex (always erect + wide view). Headlights/Dentist/Solar furnace = Concave!",
-    "id": 67
+    "id": 97
   },
   {
     "category": "science",
@@ -1470,10 +2104,10 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Physics Concept",
     "question": "Why does the sky appear blue during the day and reddish at sunrise/sunset?",
     "options": {
-      "a": "Dispersion of light",
-      "b": "Total internal reflection",
+      "a": "Refraction of light",
+      "b": "Dispersion of light",
       "c": "Scattering of light (Rayleigh scattering)",
-      "d": "Refraction of light"
+      "d": "Total internal reflection"
     },
     "answer": "c",
     "correct_text": "Scattering of light (Rayleigh scattering)",
@@ -1484,7 +2118,7 @@ window.NTPC26_DATA = [
       "Note: Twinkling of stars is due to Atmospheric Refraction; Rainbow is Dispersion + Refraction + Internal Reflection."
     ],
     "trick": "Blue sky / Red sunset / Tyndall effect = Scattering! Twinkling stars = Atmospheric Refraction!",
-    "id": 68
+    "id": 98
   },
   {
     "category": "science",
@@ -1493,9 +2127,9 @@ window.NTPC26_DATA = [
     "question": "What is the equivalent resistance when two 4 Ω resistors are connected in parallel, and this combination is connected in series with a 3 Ω resistor?",
     "options": {
       "a": "11 Ω",
-      "b": "7 Ω",
+      "b": "2.4 Ω",
       "c": "5 Ω",
-      "d": "2.4 Ω"
+      "d": "7 Ω"
     },
     "answer": "c",
     "correct_text": "5 Ω",
@@ -1505,7 +2139,7 @@ window.NTPC26_DATA = [
       "In series with 3 Ω: R_total = 2 Ω + 3 Ω = 5 Ω."
     ],
     "trick": "Two identical R in parallel = half (4/2 = 2 Ω). Plus 3 Ω in series = 5 Ω!",
-    "id": 69
+    "id": 99
   },
   {
     "category": "science",
@@ -1514,11 +2148,11 @@ window.NTPC26_DATA = [
     "question": "Which instrument is used to measure electric current in a circuit, and how is it connected?",
     "options": {
       "a": "Galvanometer, connected in parallel",
-      "b": "Ammeter, connected in parallel",
-      "c": "Ammeter, connected in series",
-      "d": "Voltmeter, connected in series"
+      "b": "Ammeter, connected in series",
+      "c": "Voltmeter, connected in series",
+      "d": "Ammeter, connected in parallel"
     },
-    "answer": "c",
+    "answer": "b",
     "correct_text": "Ammeter, connected in series",
     "formula": "Ammeter = Series (very low resistance) | Voltmeter = Parallel (very high resistance)",
     "steps": [
@@ -1526,7 +2160,7 @@ window.NTPC26_DATA = [
       "A Voltmeter has very high resistance and is connected in PARALLEL across the two points."
     ],
     "trick": "AS-VP: Ammeter-Series, Voltmeter-Parallel!",
-    "id": 70
+    "id": 100
   },
   {
     "category": "science",
@@ -1534,12 +2168,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Chemistry",
     "question": "What is the chemical formula of Plaster of Paris (PoP), obtained by heating Gypsum at 373 K?",
     "options": {
-      "a": "CaSO₄ · ½H₂O",
+      "a": "CaSO₄ · 2H₂O",
       "b": "Na₂CO₃ · 10H₂O",
-      "c": "CaOCl₂",
-      "d": "CaSO₄ · 2H₂O"
+      "c": "CaSO₄ · ½H₂O",
+      "d": "CaOCl₂"
     },
-    "answer": "a",
+    "answer": "c",
     "correct_text": "CaSO₄ · ½H₂O",
     "formula": "CaSO₄·2H₂O (Gypsum) —[373 K]→ CaSO₄·½H₂O (PoP) + 1½ H₂O",
     "steps": [
@@ -1547,7 +2181,7 @@ window.NTPC26_DATA = [
       "Heating Gypsum at 373 K (100°C) removes 1.5 water molecules to form Calcium Sulphate Hemihydrate (CaSO₄·½H₂O), known as Plaster of Paris."
     ],
     "trick": "Half water (½H₂O) = PoP | Two waters (2H₂O) = Gypsum!",
-    "id": 71
+    "id": 101
   },
   {
     "category": "science",
@@ -1555,19 +2189,19 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Chemistry",
     "question": "Bleaching powder (CaOCl₂) is manufactured by the action of chlorine gas on which substance?",
     "options": {
-      "a": "Quick lime (CaO)",
-      "b": "Washing soda (Na₂CO₃)",
-      "c": "Limestone (CaCO₃)",
-      "d": "Dry slaked lime [Ca(OH)₂]"
+      "a": "Limestone (CaCO₃)",
+      "b": "Dry slaked lime [Ca(OH)₂]",
+      "c": "Washing soda (Na₂CO₃)",
+      "d": "Quick lime (CaO)"
     },
-    "answer": "d",
+    "answer": "b",
     "correct_text": "Dry slaked lime [Ca(OH)₂]",
     "formula": "Ca(OH)₂ + Cl₂ → CaOCl₂ + H₂O",
     "steps": [
       "Passing Cl₂ gas over dry slaked lime [Ca(OH)₂] produces Calcium Oxychloride (CaOCl₂), commonly called Bleaching Powder."
     ],
     "trick": "Slaked lime + Cl₂ → Bleaching Powder (CaOCl₂) + Water.",
-    "id": 72
+    "id": 102
   },
   {
     "category": "science",
@@ -1575,12 +2209,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Chemistry",
     "question": "Which acid is present in ant stings and nettle leaf stings?",
     "options": {
-      "a": "Lactic acid",
-      "b": "Oxalic acid",
-      "c": "Methanoic acid (Formic acid)",
-      "d": "Tartaric acid"
+      "a": "Oxalic acid",
+      "b": "Lactic acid",
+      "c": "Tartaric acid",
+      "d": "Methanoic acid (Formic acid)"
     },
-    "answer": "c",
+    "answer": "d",
     "correct_text": "Methanoic acid (Formic acid)",
     "formula": "HCOOH (Methanoic / Formic Acid)",
     "steps": [
@@ -1588,7 +2222,7 @@ window.NTPC26_DATA = [
       "Tomato → Oxalic acid | Tamarind/Grapes → Tartaric acid | Sour milk/Curd → Lactic acid | Vinegar → Acetic acid."
     ],
     "trick": "Ant = Formic (Methanoic), Tomato = Oxalic, Tamarind = Tartaric — NCERT Class 10 Table 2.3!",
-    "id": 73
+    "id": 103
   },
   {
     "category": "science",
@@ -1596,12 +2230,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Chemistry",
     "question": "Aqua Regia, which can dissolve noble metals like Gold and Platinum, is a freshly prepared mixture of:",
     "options": {
-      "a": "Concentrated H₂SO₄ and Concentrated HNO₃ in the ratio 1 : 3",
+      "a": "Concentrated HCl and Concentrated HNO₃ in the ratio 3 : 1",
       "b": "Concentrated H₂SO₄ and Concentrated HCl in the ratio 3 : 1",
-      "c": "Concentrated HCl and Concentrated HNO₃ in the ratio 3 : 1",
-      "d": "Concentrated HNO₃ and Concentrated HCl in the ratio 3 : 1"
+      "c": "Concentrated HNO₃ and Concentrated HCl in the ratio 3 : 1",
+      "d": "Concentrated H₂SO₄ and Concentrated HNO₃ in the ratio 1 : 3"
     },
-    "answer": "c",
+    "answer": "a",
     "correct_text": "Concentrated HCl and Concentrated HNO₃ in the ratio 3 : 1",
     "formula": "Aqua Regia = 3 parts Conc. HCl + 1 part Conc. HNO₃",
     "steps": [
@@ -1609,7 +2243,7 @@ window.NTPC26_DATA = [
       "Neither acid alone can dissolve gold, but together they generate nascent chlorine which dissolves gold."
     ],
     "trick": "HCl has 3 letters → 3 parts HCl : 1 part HNO₃!",
-    "id": 74
+    "id": 104
   },
   {
     "category": "science",
@@ -1617,12 +2251,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Chemistry",
     "question": "Which of the following pairs consists exclusively of Amphoteric Oxides (oxides that react with both acids and bases)?",
     "options": {
-      "a": "Na₂O and K₂O",
+      "a": "CO₂ and SO₂",
       "b": "CaO and MgO",
-      "c": "CO₂ and SO₂",
-      "d": "Al₂O₃ and ZnO"
+      "c": "Al₂O₃ and ZnO",
+      "d": "Na₂O and K₂O"
     },
-    "answer": "d",
+    "answer": "c",
     "correct_text": "Al₂O₃ and ZnO",
     "formula": "Amphoteric Oxides: Aluminium oxide (Al₂O₃) & Zinc oxide (ZnO)",
     "steps": [
@@ -1630,7 +2264,7 @@ window.NTPC26_DATA = [
       "Aluminium oxide (Al₂O₃) and Zinc oxide (ZnO) show both acidic and basic behavior to produce salt and water."
     ],
     "trick": "NCERT favorite: Al₂O₃ & ZnO = Amphoteric (think 'Al-Zn'!).",
-    "id": 75
+    "id": 105
   },
   {
     "category": "science",
@@ -1638,12 +2272,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Chemistry",
     "question": "The Thermite reaction used to weld cracked railway tracks involves reducing Iron(III) oxide (Fe₂O₃) using which metal?",
     "options": {
-      "a": "Zinc (Zn)",
-      "b": "Copper (Cu)",
-      "c": "Aluminium (Al)",
-      "d": "Carbon (C)"
+      "a": "Carbon (C)",
+      "b": "Zinc (Zn)",
+      "c": "Copper (Cu)",
+      "d": "Aluminium (Al)"
     },
-    "answer": "c",
+    "answer": "d",
     "correct_text": "Aluminium (Al)",
     "formula": "Fe₂O₃(s) + 2Al(s) → 2Fe(l) + Al₂O₃(s) + Heat",
     "steps": [
@@ -1651,7 +2285,7 @@ window.NTPC26_DATA = [
       "The molten iron produced directly joins cracked railway tracks and heavy machine parts."
     ],
     "trick": "Railway track welding = Thermite = Fe₂O₃ + Aluminium (Al)!",
-    "id": 76
+    "id": 106
   },
   {
     "category": "science",
@@ -1659,12 +2293,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Chemistry",
     "question": "Which alloy is made by combining Copper (Cu) and Tin (Sn)?",
     "options": {
-      "a": "Brass",
+      "a": "Solder",
       "b": "Nichrome",
-      "c": "Bronze",
-      "d": "Solder"
+      "c": "Brass",
+      "d": "Bronze"
     },
-    "answer": "c",
+    "answer": "d",
     "correct_text": "Bronze",
     "formula": "Bronze = Cu + Sn | Brass = Cu + Zn | Solder = Pb + Sn",
     "steps": [
@@ -1673,7 +2307,7 @@ window.NTPC26_DATA = [
       "Solder = Lead (Pb) + Tin (Sn) — low melting point for welding electrical wires."
     ],
     "trick": "Remember the flip: BraSS has NO 'Z' so it gets Zn (Cu+Zn); BronZe has 'Z' so it does NOT get Zn (Cu+Sn)!",
-    "id": 77
+    "id": 107
   },
   {
     "category": "science",
@@ -1681,9 +2315,9 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Chemistry",
     "question": "Tooth decay begins when the pH of the mouth falls below which value?",
     "options": {
-      "a": "4.0",
+      "a": "7.0",
       "b": "5.5",
-      "c": "7.0",
+      "c": "4.0",
       "d": "6.8"
     },
     "answer": "b",
@@ -1695,7 +2329,7 @@ window.NTPC26_DATA = [
       "Note: Acid rain has pH < 5.6; Human blood pH is 7.35–7.45."
     ],
     "trick": "Tooth decay < 5.5 | Acid rain < 5.6 | Blood ≈ 7.4!",
-    "id": 78
+    "id": 108
   },
   {
     "category": "science",
@@ -1703,12 +2337,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Chemistry",
     "question": "What is the general formula of Alkynes (hydrocarbons containing a carbon–carbon triple bond)?",
     "options": {
-      "a": "CₙH₂ₙ",
+      "a": "CₙH₂ₙ₋₂",
       "b": "CₙH₂ₙ₊₁",
-      "c": "CₙH₂ₙ₋₂",
+      "c": "CₙH₂ₙ",
       "d": "CₙH₂ₙ₊₂"
     },
-    "answer": "c",
+    "answer": "a",
     "correct_text": "CₙH₂ₙ₋₂",
     "formula": "Alkanes: CₙH₂ₙ₊₂ | Alkenes: CₙH₂ₙ | Alkynes: CₙH₂ₙ₋₂",
     "steps": [
@@ -1717,7 +2351,7 @@ window.NTPC26_DATA = [
       "Alkynes (triple bond): CₙH₂ₙ₋₂ (e.g., Ethyne/Acetylene C₂H₂)."
     ],
     "trick": "+2, 0, −2 as you go from Alkane → Alkene → Alkyne!",
-    "id": 79
+    "id": 109
   },
   {
     "category": "science",
@@ -1725,12 +2359,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Chemistry",
     "question": "Which non-metal is a good conductor of electricity due to free delocalized electrons in its layered hexagonal structure?",
     "options": {
-      "a": "Phosphorus",
-      "b": "Sulphur",
-      "c": "Graphite",
+      "a": "Graphite",
+      "b": "Phosphorus",
+      "c": "Sulphur",
       "d": "Diamond"
     },
-    "answer": "c",
+    "answer": "a",
     "correct_text": "Graphite",
     "formula": "Carbon allotropes: Graphite (conducts), Diamond (hardest, insulator), Fullerene (C₆₀)",
     "steps": [
@@ -1738,7 +2372,7 @@ window.NTPC26_DATA = [
       "This makes Graphite smooth, slippery, and a good conductor of electricity."
     ],
     "trick": "Conducting non-metal = Graphite! Lustrous non-metal = Iodine! Liquid non-metal = Bromine!",
-    "id": 80
+    "id": 110
   },
   {
     "category": "science",
@@ -1746,12 +2380,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Chemistry",
     "question": "According to the Modern Periodic Law (proposed by Henry Moseley), properties of elements are a periodic function of their:",
     "options": {
-      "a": "Atomic Mass",
-      "b": "Atomic Number",
-      "c": "Neutron Number",
-      "d": "Valency"
+      "a": "Atomic Number",
+      "b": "Neutron Number",
+      "c": "Valency",
+      "d": "Atomic Mass"
     },
-    "answer": "b",
+    "answer": "a",
     "correct_text": "Atomic Number",
     "formula": "Modern Periodic Table (18 Groups, 7 Periods) = Increasing Atomic Number (Z)",
     "steps": [
@@ -1759,7 +2393,7 @@ window.NTPC26_DATA = [
       "The Modern Periodic Table has 18 vertical columns (Groups) and 7 horizontal rows (Periods)."
     ],
     "trick": "Mendeleev = Mass | Moseley (Modern) = Atomic Number!",
-    "id": 81
+    "id": 111
   },
   {
     "category": "science",
@@ -1768,11 +2402,11 @@ window.NTPC26_DATA = [
     "question": "As we move from left to right across a period in the Modern Periodic Table, what happens to the atomic radius?",
     "options": {
       "a": "It first increases then decreases",
-      "b": "It remains constant",
-      "c": "It increases",
-      "d": "It decreases"
+      "b": "It decreases",
+      "c": "It remains constant",
+      "d": "It increases"
     },
-    "answer": "d",
+    "answer": "b",
     "correct_text": "It decreases",
     "formula": "Across a Period (L → R): Atomic size DECREASES, Electronegativity INCREASES",
     "steps": [
@@ -1781,7 +2415,7 @@ window.NTPC26_DATA = [
       "Moving top to bottom down a group adds new shells, so atomic radius INCREASES."
     ],
     "trick": "Left → Right = Size Shrinks (same shell, stronger nucleus). Top → Bottom = Size Grows (new shells)!",
-    "id": 82
+    "id": 112
   },
   {
     "category": "science",
@@ -1789,12 +2423,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Chemistry Numerical",
     "question": "Calculate the number of moles present in 52 grams of Helium (He). (Atomic mass of He = 4 u)",
     "options": {
-      "a": "26 moles",
-      "b": "10.4 moles",
-      "c": "13 moles",
-      "d": "4 moles"
+      "a": "4 moles",
+      "b": "13 moles",
+      "c": "26 moles",
+      "d": "10.4 moles"
     },
-    "answer": "c",
+    "answer": "b",
     "correct_text": "13 moles",
     "formula": "Number of moles (n) = Given Mass / Molar Mass",
     "steps": [
@@ -1802,7 +2436,7 @@ window.NTPC26_DATA = [
       "n = 52 g / 4 g/mol = 13 moles."
     ],
     "trick": "n = m / M = 52 / 4 = 13 moles (Exact NCERT Class 9 Ch. 3 Example!).",
-    "id": 83
+    "id": 113
   },
   {
     "category": "science",
@@ -1810,12 +2444,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Chemistry Numerical",
     "question": "What is the molecular mass of Nitric Acid (HNO₃)? (Atomic masses: H = 1 u, N = 14 u, O = 16 u)",
     "options": {
-      "a": "62 u",
-      "b": "98 u",
-      "c": "63 u",
-      "d": "47 u"
+      "a": "98 u",
+      "b": "63 u",
+      "c": "47 u",
+      "d": "62 u"
     },
-    "answer": "c",
+    "answer": "b",
     "correct_text": "63 u",
     "formula": "Molecular Mass = Sum of atomic masses of all atoms",
     "steps": [
@@ -1824,7 +2458,7 @@ window.NTPC26_DATA = [
       "(Note: H₂SO₄ = 98 u, CaCO₃ = 100 u, Glucose C₆H₁₂O₆ = 180 u.)"
     ],
     "trick": "1 + 14 + 48 = 63 u. Memorize key masses: H₂O=18, CO₂=44, HNO₃=63, H₂SO₄=98, CaCO₃=100!",
-    "id": 84
+    "id": 114
   },
   {
     "category": "science",
@@ -1834,10 +2468,10 @@ window.NTPC26_DATA = [
     "options": {
       "a": "Electrolysis",
       "b": "Roasting",
-      "c": "Calcination",
-      "d": "Smelting"
+      "c": "Smelting",
+      "d": "Calcination"
     },
-    "answer": "c",
+    "answer": "d",
     "correct_text": "Calcination",
     "formula": "Carbonate ore + Limited/No air = Calcination | Sulphide ore + Excess air = Roasting",
     "steps": [
@@ -1845,7 +2479,7 @@ window.NTPC26_DATA = [
       "Roasting: Heating sulphide ores (e.g., 2ZnS + 3O₂ → 2ZnO + 2SO₂) strongly in excess air."
     ],
     "trick": "C for C: Carbonate = Calcination (no air)! Roasting = Sulphide (excess air)!",
-    "id": 85
+    "id": 115
   },
   {
     "category": "science",
@@ -1866,7 +2500,7 @@ window.NTPC26_DATA = [
       "Flushing packets with inert Nitrogen gas displaces oxygen and keeps snacks fresh."
     ],
     "trick": "Chips packets = Nitrogen (inert, prevents oxidation/rancidity).",
-    "id": 86
+    "id": 116
   },
   {
     "category": "science",
@@ -1874,12 +2508,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Chemistry",
     "question": "Atoms of different elements having the SAME mass number (A) but DIFFERENT atomic numbers (Z), such as Argon-40 and Calcium-40, are called:",
     "options": {
-      "a": "Isobars",
+      "a": "Isomers",
       "b": "Isotopes",
-      "c": "Isotones",
-      "d": "Isomers"
+      "c": "Isobars",
+      "d": "Isotones"
     },
-    "answer": "a",
+    "answer": "c",
     "correct_text": "Isobars",
     "formula": "Isotopes = Same Z | Isobars = Same A (Mass) | Isotones = Same Neutrons (A − Z)",
     "steps": [
@@ -1888,7 +2522,7 @@ window.NTPC26_DATA = [
       "Isotones: Same number of neutrons."
     ],
     "trick": "isoToPe = same Protons (Z) | isoTonE = same Neutrons | isoBar = same Bhar (Mass)!",
-    "id": 87
+    "id": 117
   },
   {
     "category": "science",
@@ -1897,8 +2531,8 @@ window.NTPC26_DATA = [
     "question": "Which baking ingredient is chemically Sodium Hydrogen Carbonate (NaHCO₃) and releases CO₂ gas on heating to make cakes fluffy?",
     "options": {
       "a": "Caustic Soda",
-      "b": "Epsom Salt",
-      "c": "Washing Soda",
+      "b": "Washing Soda",
+      "c": "Epsom Salt",
       "d": "Baking Soda"
     },
     "answer": "d",
@@ -1909,7 +2543,7 @@ window.NTPC26_DATA = [
       "Washing soda is Na₂CO₃·10H₂O; Caustic soda is NaOH."
     ],
     "trick": "NaHCO₃ has 'H' → 'B'aking = Bicarbonate (Hydrogen carbonate)!",
-    "id": 88
+    "id": 118
   },
   {
     "category": "science",
@@ -1917,9 +2551,9 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Biology",
     "question": "Which cell organelles possess their own circular DNA and ribosomes, enabling them to synthesize some of their own proteins?",
     "options": {
-      "a": "Lysosomes and Golgi Apparatus",
+      "a": "Ribosomes and Centrosomes",
       "b": "Vacuoles and Endoplasmic Reticulum",
-      "c": "Ribosomes and Centrosomes",
+      "c": "Lysosomes and Golgi Apparatus",
       "d": "Mitochondria and Plastids (Chloroplasts)"
     },
     "answer": "d",
@@ -1929,7 +2563,7 @@ window.NTPC26_DATA = [
       "Besides the nucleus, only Mitochondria (powerhouse of cell, makes ATP) and Plastids (in plant cells) contain their own DNA and ribosomes."
     ],
     "trick": "Own DNA pair = Mitochondria + Plastids! (Direct NCERT Class 9 Ch. 5 question.)",
-    "id": 89
+    "id": 119
   },
   {
     "category": "science",
@@ -1937,9 +2571,9 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Biology",
     "question": "Which cell organelle is known as the 'Suicide Bag of the Cell' because it contains powerful digestive enzymes?",
     "options": {
-      "a": "Golgi Body",
-      "b": "Mitochondria",
-      "c": "Ribosome",
+      "a": "Ribosome",
+      "b": "Golgi Body",
+      "c": "Mitochondria",
       "d": "Lysosome"
     },
     "answer": "d",
@@ -1950,7 +2584,7 @@ window.NTPC26_DATA = [
       "When a cell gets damaged, lysosomes may burst and digest their own cell."
     ],
     "trick": "Lysosome = Suicide bag | Ribosome = Protein synthesis | Golgi = Packaging & dispatch.",
-    "id": 90
+    "id": 120
   },
   {
     "category": "science",
@@ -1958,12 +2592,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Biology",
     "question": "In plants, which vascular tissue transports food (sucrose) bidirectionally from leaves to other parts of the plant?",
     "options": {
-      "a": "Xylem",
-      "b": "Parenchyma",
-      "c": "Sclerenchyma",
-      "d": "Phloem"
+      "a": "Phloem",
+      "b": "Sclerenchyma",
+      "c": "Parenchyma",
+      "d": "Xylem"
     },
-    "answer": "d",
+    "answer": "a",
     "correct_text": "Phloem",
     "formula": "Phloem = Food (Translocation, uses ATP) | Xylem = Water & Minerals (Unidirectional)",
     "steps": [
@@ -1971,7 +2605,7 @@ window.NTPC26_DATA = [
       "Xylem transports water and minerals strictly upward from roots to leaves."
     ],
     "trick": "Ph-loem = F-ood! Xy-lem = Water!",
-    "id": 91
+    "id": 121
   },
   {
     "category": "science",
@@ -1993,7 +2627,7 @@ window.NTPC26_DATA = [
       "Ethylene is the only gaseous plant hormone (fruit ripening)."
     ],
     "trick": "ABA = Anti-growth (Stress hormone) | Ethylene = Fruit ripening gas!",
-    "id": 92
+    "id": 122
   },
   {
     "category": "science",
@@ -2001,12 +2635,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Biology",
     "question": "Where is Bile juice produced in the human body, and what is its primary role in digestion?",
     "options": {
-      "a": "Produced by the Gallbladder; digests proteins into amino acids",
+      "a": "Produced by the Stomach; kills bacteria using HCl",
       "b": "Produced by the Pancreas; breaks down starch into maltose",
-      "c": "Produced by the Liver; emulsifies large fat globules and makes food alkaline",
-      "d": "Produced by the Stomach; kills bacteria using HCl"
+      "c": "Produced by the Gallbladder; digests proteins into amino acids",
+      "d": "Produced by the Liver; emulsifies large fat globules and makes food alkaline"
     },
-    "answer": "c",
+    "answer": "d",
     "correct_text": "Produced by the Liver; emulsifies large fat globules and makes food alkaline",
     "formula": "Liver produces Bile (stored in Gallbladder) → Emulsification of Fats",
     "steps": [
@@ -2014,7 +2648,7 @@ window.NTPC26_DATA = [
       "Bile contains NO digestive enzymes, but bile salts emulsify large fat droplets into small globules so lipase can act on them."
     ],
     "trick": "Classic NTPC trap: Liver MAKES bile, Gallbladder only STORES it! Function = Fat emulsification.",
-    "id": 93
+    "id": 123
   },
   {
     "category": "science",
@@ -2022,12 +2656,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Biology",
     "question": "Muscle cramps during sudden vigorous physical exercise are caused by the accumulation of which substance due to lack of oxygen?",
     "options": {
-      "a": "Acetic acid",
-      "b": "Lactic acid",
-      "c": "Pyruvate",
+      "a": "Pyruvate",
+      "b": "Acetic acid",
+      "c": "Lactic acid",
       "d": "Ethanol"
     },
-    "answer": "b",
+    "answer": "c",
     "correct_text": "Lactic acid",
     "formula": "Glucose → Pyruvate —[Lack of O₂ in muscle]→ Lactic Acid (3-carbon) + Energy",
     "steps": [
@@ -2035,7 +2669,7 @@ window.NTPC26_DATA = [
       "Note: In Yeast fermentation (absence of O₂), pyruvate converts into Ethanol (2-carbon) + CO₂."
     ],
     "trick": "Muscles (low O₂) = Lactic acid (cramps) | Yeast (no O₂) = Ethanol + CO₂!",
-    "id": 94
+    "id": 124
   },
   {
     "category": "science",
@@ -2057,7 +2691,7 @@ window.NTPC26_DATA = [
       "Cerebrum (forebrain) is the main thinking/memory center."
     ],
     "trick": "Cere-BELLUM = Balance! Medulla = Involuntary! Cerebrum = Thinking/Memory!",
-    "id": 95
+    "id": 125
   },
   {
     "category": "science",
@@ -2065,19 +2699,19 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Biology",
     "question": "What is the functional filtration unit of the human kidney?",
     "options": {
-      "a": "Neuron",
-      "b": "Nephron",
+      "a": "Nephron",
+      "b": "Alveoli",
       "c": "Villi",
-      "d": "Alveoli"
+      "d": "Neuron"
     },
-    "answer": "b",
+    "answer": "a",
     "correct_text": "Nephron",
     "formula": "Kidney → Nephron | Nervous system → Neuron | Lungs → Alveoli | Small intestine → Villi",
     "steps": [
       "Each kidney contains about 1 million Nephrons (Bowman's capsule + Glomerulus + Tubule) that filter urea from blood."
     ],
     "trick": "Kidney = Nephron (Nephrology) | Brain = Neuron (Neurology)!",
-    "id": 96
+    "id": 126
   },
   {
     "category": "science",
@@ -2085,9 +2719,9 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Biology",
     "question": "Deficiency of which vitamin causes Pernicious Anaemia, and which metal ion is at the center of this vitamin?",
     "options": {
-      "a": "Vitamin B1 (Thiamine) — Iron (Fe)",
+      "a": "Vitamin K (Phylloquinone) — Calcium (Ca)",
       "b": "Vitamin C (Ascorbic acid) — Zinc (Zn)",
-      "c": "Vitamin K (Phylloquinone) — Calcium (Ca)",
+      "c": "Vitamin B1 (Thiamine) — Iron (Fe)",
       "d": "Vitamin B12 (Cyanocobalamin) — Cobalt (Co)"
     },
     "answer": "d",
@@ -2098,7 +2732,7 @@ window.NTPC26_DATA = [
       "Vitamin B1 = Beriberi | Vitamin C = Scurvy | Vitamin D = Rickets | Vitamin K = Non-clotting of blood."
     ],
     "trick": "Cyano-COBAL-amin → Cobalt = Vitamin B12!",
-    "id": 97
+    "id": 127
   },
   {
     "category": "science",
@@ -2107,11 +2741,11 @@ window.NTPC26_DATA = [
     "question": "Which hormone secreted by the Pancreas regulates blood sugar levels, and whose deficiency causes Diabetes mellitus?",
     "options": {
       "a": "Thyroxine",
-      "b": "Adrenaline",
-      "c": "Testosterone",
-      "d": "Insulin"
+      "b": "Insulin",
+      "c": "Adrenaline",
+      "d": "Testosterone"
     },
-    "answer": "d",
+    "answer": "b",
     "correct_text": "Insulin",
     "formula": "Beta cells of Islets of Langerhans (Pancreas) → Insulin",
     "steps": [
@@ -2119,7 +2753,7 @@ window.NTPC26_DATA = [
       "Thyroxine (Thyroid) needs Iodine (deficiency → Goitre); Adrenaline (Adrenal) is the 'fight-or-flight' hormone."
     ],
     "trick": "Pancreas → Insulin (Diabetes) | Thyroid → Thyroxine (Iodine/Goitre) | Adrenal → Emergency!",
-    "id": 98
+    "id": 128
   },
   {
     "category": "science",
@@ -2128,11 +2762,11 @@ window.NTPC26_DATA = [
     "question": "In Mendel's dihybrid cross (RrYy × RrYy), what is the phenotypic ratio obtained in the F₂ generation?",
     "options": {
       "a": "1 : 1 : 1 : 1",
-      "b": "9 : 3 : 3 : 1",
-      "c": "1 : 2 : 1",
-      "d": "3 : 1"
+      "b": "3 : 1",
+      "c": "9 : 3 : 3 : 1",
+      "d": "1 : 2 : 1"
     },
-    "answer": "b",
+    "answer": "c",
     "correct_text": "9 : 3 : 3 : 1",
     "formula": "Monohybrid Phenotypic = 3:1 (Genotypic 1:2:1) | Dihybrid Phenotypic = 9:3:3:1",
     "steps": [
@@ -2140,7 +2774,7 @@ window.NTPC26_DATA = [
       "Self-pollinating F₁ produces 9 Round-Yellow : 3 Round-Green : 3 Wrinkled-Yellow : 1 Wrinkled-Green in F₂."
     ],
     "trick": "Monohybrid = 3:1 | Dihybrid = (3:1)² = 9:3:3:1!",
-    "id": 99
+    "id": 129
   },
   {
     "category": "science",
@@ -2149,9 +2783,9 @@ window.NTPC26_DATA = [
     "question": "According to Lindeman's 10% Law of energy transfer in a food chain (Grass → Deer → Lion), if Grass has 10,000 J of energy, how much energy is available to the Lion?",
     "options": {
       "a": "1 J",
-      "b": "10 J",
+      "b": "1,000 J",
       "c": "100 J",
-      "d": "1,000 J"
+      "d": "10 J"
     },
     "answer": "c",
     "correct_text": "100 J",
@@ -2162,7 +2796,7 @@ window.NTPC26_DATA = [
       "Trophic Level 3 (Lion / Secondary Consumer) = 10% of 1,000 = 100 J."
     ],
     "trick": "Two trophic jumps (Grass → Deer → Lion): drop 2 zeros from 10,000 → 100 J!",
-    "id": 100
+    "id": 130
   },
   {
     "category": "science",
@@ -2170,10 +2804,10 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Biology",
     "question": "Which blood vessel carries OXYGENATED blood from the lungs back to the left atrium of the human heart?",
     "options": {
-      "a": "Pulmonary Artery",
+      "a": "Aorta",
       "b": "Pulmonary Vein",
-      "c": "Vena Cava",
-      "d": "Aorta"
+      "c": "Pulmonary Artery",
+      "d": "Vena Cava"
     },
     "answer": "b",
     "correct_text": "Pulmonary Vein",
@@ -2183,7 +2817,7 @@ window.NTPC26_DATA = [
       "The Pulmonary circuit is the exact reverse: Pulmonary Artery takes deoxygenated blood to lungs, and Pulmonary Vein brings oxygenated blood to the left atrium."
     ],
     "trick": "Pulmonary = Opposite! Pulmonary Vein carries O₂-rich blood!",
-    "id": 101
+    "id": 131
   },
   {
     "category": "science",
@@ -2191,12 +2825,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Biology",
     "question": "Which pigment gives red blood cells (RBCs) their color and binds oxygen, and which metal atom is present in it?",
     "options": {
-      "a": "Haemoglobin — Iron (Fe)",
-      "b": "Bilirubin — Iron (Fe)",
-      "c": "Chlorophyll — Magnesium (Mg)",
-      "d": "Haemoglobin — Copper (Cu)"
+      "a": "Haemoglobin — Copper (Cu)",
+      "b": "Chlorophyll — Magnesium (Mg)",
+      "c": "Haemoglobin — Iron (Fe)",
+      "d": "Bilirubin — Iron (Fe)"
     },
-    "answer": "a",
+    "answer": "c",
     "correct_text": "Haemoglobin — Iron (Fe)",
     "formula": "Haemoglobin = Iron (Fe) | Chlorophyll = Magnesium (Mg) | Vitamin B12 = Cobalt (Co)",
     "steps": [
@@ -2204,7 +2838,7 @@ window.NTPC26_DATA = [
       "In plants, Chlorophyll contains Magnesium (Mg) at the center of its porphyrin ring."
     ],
     "trick": "Master Bio-Metal Triad: Haemoglobin = Fe | Chlorophyll = Mg | Vit B12 = Co!",
-    "id": 102
+    "id": 132
   },
   {
     "category": "science",
@@ -2213,11 +2847,11 @@ window.NTPC26_DATA = [
     "question": "Which organism reproduces asexually by 'Multiple Fission' inside a protective cyst, and causes Malaria in humans?",
     "options": {
       "a": "Amoeba",
-      "b": "Plasmodium",
-      "c": "Yeast",
+      "b": "Yeast",
+      "c": "Plasmodium",
       "d": "Planaria"
     },
-    "answer": "b",
+    "answer": "c",
     "correct_text": "Plasmodium",
     "formula": "Plasmodium = Multiple Fission | Amoeba/Leishmania = Binary Fission | Hydra/Yeast = Budding | Planaria = Regeneration",
     "steps": [
@@ -2225,7 +2859,7 @@ window.NTPC26_DATA = [
       "Leishmania (causes Kala-azar) reproduces by longitudinal binary fission."
     ],
     "trick": "NCERT Ch. 8 exact match: Plasmodium = Multiple Fission | Planaria = Regeneration!",
-    "id": 103
+    "id": 133
   },
   {
     "category": "science",
@@ -2233,12 +2867,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Biology",
     "question": "What is the normal systolic and diastolic blood pressure of a healthy adult human, and which instrument measures it?",
     "options": {
-      "a": "140 / 90 mm Hg — Barometer",
-      "b": "80 / 120 mm Hg — Stethoscope",
-      "c": "110 / 70 mm Hg — Electrocardiograph",
-      "d": "120 / 80 mm Hg — Sphygmomanometer"
+      "a": "110 / 70 mm Hg — Electrocardiograph",
+      "b": "140 / 90 mm Hg — Barometer",
+      "c": "120 / 80 mm Hg — Sphygmomanometer",
+      "d": "80 / 120 mm Hg — Stethoscope"
     },
-    "answer": "d",
+    "answer": "c",
     "correct_text": "120 / 80 mm Hg — Sphygmomanometer",
     "formula": "Systolic (contraction) = 120 mm Hg | Diastolic (relaxation) = 80 mm Hg",
     "steps": [
@@ -2246,7 +2880,7 @@ window.NTPC26_DATA = [
       "Measured using a Sphygmomanometer."
     ],
     "trick": "120/80 mm Hg (higher number first = Systolic) measured by Sphygmomanometer!",
-    "id": 104
+    "id": 134
   },
   {
     "category": "science",
@@ -2254,12 +2888,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Biology",
     "question": "Which enzyme present in human saliva begins the chemical digestion of starch into maltose sugar right inside the mouth?",
     "options": {
-      "a": "Lipase",
-      "b": "Salivary Amylase (Ptyalin)",
-      "c": "Pepsin",
-      "d": "Trypsin"
+      "a": "Salivary Amylase (Ptyalin)",
+      "b": "Trypsin",
+      "c": "Lipase",
+      "d": "Pepsin"
     },
-    "answer": "b",
+    "answer": "a",
     "correct_text": "Salivary Amylase (Ptyalin)",
     "formula": "Mouth: Amylase (Starch) | Stomach: Pepsin (Protein, acidic) | Pancreas: Trypsin & Lipase",
     "steps": [
@@ -2267,7 +2901,7 @@ window.NTPC26_DATA = [
       "Pepsin acts on proteins in the acidic stomach; Trypsin acts on proteins in the alkaline small intestine."
     ],
     "trick": "Digestion of carbohydrates STARTS IN THE MOUTH via Salivary Amylase!",
-    "id": 105
+    "id": 135
   },
   {
     "category": "computer",
@@ -2288,7 +2922,7 @@ window.NTPC26_DATA = [
       "It maps domain names to numerical IP addresses (IPv4/IPv6) using Port 53."
     ],
     "trick": "DNS = Domain Name System (Internet's phonebook, Port 53).",
-    "id": 106
+    "id": 136
   },
   {
     "category": "computer",
@@ -2296,12 +2930,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "What does 'BIOS' stand for in a personal computer?",
     "options": {
-      "a": "Binary Integrated Operating Software",
-      "b": "Basic Input Output System",
-      "c": "Built-In Operating System",
-      "d": "Base Internal Output Service"
+      "a": "Base Internal Output Service",
+      "b": "Binary Integrated Operating Software",
+      "c": "Basic Input Output System",
+      "d": "Built-In Operating System"
     },
-    "answer": "b",
+    "answer": "c",
     "correct_text": "Basic Input Output System",
     "formula": "BIOS (stored in ROM/Flash) runs POST (Power-On Self-Test) during booting",
     "steps": [
@@ -2309,7 +2943,7 @@ window.NTPC26_DATA = [
       "When powered on, BIOS executes POST (Power-On Self-Test) and loads the Operating System into RAM."
     ],
     "trick": "BIOS = Basic Input Output System → stored in ROM → performs POST!",
-    "id": 107
+    "id": 137
   },
   {
     "category": "computer",
@@ -2317,12 +2951,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "Which protocol is primarily used for SENDING outgoing emails from a client to a mail server?",
     "options": {
-      "a": "IMAP",
-      "b": "FTP",
-      "c": "POP3",
-      "d": "SMTP"
+      "a": "FTP",
+      "b": "IMAP",
+      "c": "SMTP",
+      "d": "POP3"
     },
-    "answer": "d",
+    "answer": "c",
     "correct_text": "SMTP",
     "formula": "Send Mail = SMTP | Receive/Retrieve Mail = POP3 & IMAP",
     "steps": [
@@ -2330,7 +2964,7 @@ window.NTPC26_DATA = [
       "POP3 (Post Office Protocol v3) and IMAP (Internet Message Access Protocol) are used for retrieving/receiving emails."
     ],
     "trick": "S in SMTP = SEND mail! POP3 & IMAP = Pull/Receive mail!",
-    "id": 108
+    "id": 138
   },
   {
     "category": "computer",
@@ -2351,7 +2985,7 @@ window.NTPC26_DATA = [
       "1 Kilobyte (KB) = 2¹⁰ = 1,024 Bytes."
     ],
     "trick": "Nibble = 4 bits (half-byte) | Byte = 8 bits | Every memory jump = × 1024!",
-    "id": 109
+    "id": 139
   },
   {
     "category": "computer",
@@ -2359,12 +2993,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Numerical",
     "question": "Convert the decimal number 25 into its binary equivalent.",
     "options": {
-      "a": "10011",
-      "b": "11001",
-      "c": "10101",
-      "d": "11010"
+      "a": "10101",
+      "b": "11010",
+      "c": "11001",
+      "d": "10011"
     },
-    "answer": "b",
+    "answer": "c",
     "correct_text": "11001",
     "formula": "Sum of powers of 2: 16 + 8 + 4 + 2 + 1",
     "steps": [
@@ -2372,7 +3006,7 @@ window.NTPC26_DATA = [
       "Reading the coefficients left to right gives 11001₂."
     ],
     "trick": "8-4-2-1 shortcut: 16(1) + 8(1) + 4(0) + 2(0) + 1(1) = 11001 in 3 seconds!",
-    "id": 110
+    "id": 140
   },
   {
     "category": "computer",
@@ -2380,12 +3014,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC Numerical",
     "question": "What is the decimal equivalent of the binary number (10110)₂?",
     "options": {
-      "a": "22",
+      "a": "20",
       "b": "18",
-      "c": "26",
-      "d": "20"
+      "c": "22",
+      "d": "26"
     },
-    "answer": "a",
+    "answer": "c",
     "correct_text": "22",
     "formula": "Multiply each bit by 16, 8, 4, 2, 1 respectively",
     "steps": [
@@ -2393,7 +3027,7 @@ window.NTPC26_DATA = [
       "Sum where bit is 1: 16 + 4 + 2 = 22."
     ],
     "trick": "16 + 0 + 4 + 2 + 0 = 22!",
-    "id": 111
+    "id": 141
   },
   {
     "category": "computer",
@@ -2401,19 +3035,19 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "Which electronic component was the defining hardware technology of Second-Generation computers (1956–1963)?",
     "options": {
-      "a": "Transistors",
-      "b": "Integrated Circuits (ICs)",
+      "a": "Microprocessors (VLSI)",
+      "b": "Transistors",
       "c": "Vacuum Tubes",
-      "d": "Microprocessors (VLSI)"
+      "d": "Integrated Circuits (ICs)"
     },
-    "answer": "a",
+    "answer": "b",
     "correct_text": "Transistors",
     "formula": "1st: Vacuum Tubes → 2nd: Transistors → 3rd: ICs → 4th: Microprocessors → 5th: AI/ULSI",
     "steps": [
       "Transistors (invented at Bell Labs) replaced bulky Vacuum Tubes in 2nd generation computers, making them smaller, faster, and cooler."
     ],
     "trick": "V-T-I-M-A: Vacuum, Transistor, IC, Microprocessor, AI!",
-    "id": 112
+    "id": 142
   },
   {
     "category": "computer",
@@ -2421,12 +3055,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "In the OSI (Open Systems Interconnection) 7-layer networking model, which layer is responsible for logical addressing (IP) and routing of packets?",
     "options": {
-      "a": "Network Layer (Layer 3)",
+      "a": "Transport Layer (Layer 4)",
       "b": "Session Layer (Layer 5)",
-      "c": "Transport Layer (Layer 4)",
+      "c": "Network Layer (Layer 3)",
       "d": "Data Link Layer (Layer 2)"
     },
-    "answer": "a",
+    "answer": "c",
     "correct_text": "Network Layer (Layer 3)",
     "formula": "Layer 2 = MAC/Switch | Layer 3 = IP/Router | Layer 4 = TCP/UDP",
     "steps": [
@@ -2434,7 +3068,7 @@ window.NTPC26_DATA = [
       "Layer 2 (Data Link) handles physical MAC addresses and Switches; Layer 4 (Transport) handles end-to-end delivery via TCP/UDP."
     ],
     "trick": "L1 Hub → L2 Switch (MAC) → L3 Router (IP) → L4 TCP/UDP!",
-    "id": 113
+    "id": 143
   },
   {
     "category": "computer",
@@ -2442,12 +3076,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "What does 'EEPROM' stand for in computer memory?",
     "options": {
-      "a": "Electrically Erasable Programmable Read-Only Memory",
-      "b": "Electronic Extended Processing Read-Only Memory",
-      "c": "Enhanced Erasable Primary Read-Only Memory",
-      "d": "Electrically Encoded Permanent Random Output Memory"
+      "a": "Electrically Encoded Permanent Random Output Memory",
+      "b": "Enhanced Erasable Primary Read-Only Memory",
+      "c": "Electrically Erasable Programmable Read-Only Memory",
+      "d": "Electronic Extended Processing Read-Only Memory"
     },
-    "answer": "a",
+    "answer": "c",
     "correct_text": "Electrically Erasable Programmable Read-Only Memory",
     "formula": "EPROM = UV light erasable | EEPROM = Electrically erasable (basis of Flash/Pen drives)",
     "steps": [
@@ -2455,7 +3089,7 @@ window.NTPC26_DATA = [
       "Modern Flash memory (USB drives, SSDs) evolved from EEPROM."
     ],
     "trick": "Double E = Electrically Erasable + PROM!",
-    "id": 114
+    "id": 144
   },
   {
     "category": "computer",
@@ -2465,8 +3099,8 @@ window.NTPC26_DATA = [
     "options": {
       "a": "Cache Memory",
       "b": "CPU Registers",
-      "c": "SSD",
-      "d": "RAM"
+      "c": "RAM",
+      "d": "SSD"
     },
     "answer": "b",
     "correct_text": "CPU Registers",
@@ -2476,7 +3110,7 @@ window.NTPC26_DATA = [
       "Next fastest is Cache Memory (made of SRAM), followed by Main Memory (DRAM)."
     ],
     "trick": "Registers sit INSIDE CPU (fastest) → Cache sits BESIDE CPU (2nd fastest)!",
-    "id": 115
+    "id": 145
   },
   {
     "category": "computer",
@@ -2484,12 +3118,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "What is the exact difference between HTTP and HTTPS?",
     "options": {
-      "a": "HTTP is faster because it uses fiber optics only",
-      "b": "HTTPS works only offline without an IP address",
-      "c": "HTTPS encrypts data using SSL/TLS security certificates (Port 443)",
-      "d": "HTTPS stands for HyperText Transfer Protocol Standard"
+      "a": "HTTPS stands for HyperText Transfer Protocol Standard",
+      "b": "HTTP is faster because it uses fiber optics only",
+      "c": "HTTPS works only offline without an IP address",
+      "d": "HTTPS encrypts data using SSL/TLS security certificates (Port 443)"
     },
-    "answer": "c",
+    "answer": "d",
     "correct_text": "HTTPS encrypts data using SSL/TLS security certificates (Port 443)",
     "formula": "HTTP = Port 80 (unencrypted) | HTTPS = Port 443 (Secure via SSL/TLS)",
     "steps": [
@@ -2497,7 +3131,7 @@ window.NTPC26_DATA = [
       "HTTPS encrypts web traffic between browser and server using TLS/SSL on TCP Port 443."
     ],
     "trick": "S = Secure (SSL/TLS) | HTTP = Port 80, HTTPS = Port 443!",
-    "id": 116
+    "id": 146
   },
   {
     "category": "computer",
@@ -2505,12 +3139,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "In Windows, which keyboard shortcut opens the Task Manager directly?",
     "options": {
-      "a": "Ctrl + Shift + Esc",
-      "b": "Ctrl + Alt + Tab",
-      "c": "Windows + R",
+      "a": "Ctrl + Alt + Tab",
+      "b": "Windows + R",
+      "c": "Ctrl + Shift + Esc",
       "d": "Alt + F4"
     },
-    "answer": "a",
+    "answer": "c",
     "correct_text": "Ctrl + Shift + Esc",
     "formula": "Ctrl+Shift+Esc = Task Manager | Win+R = Run | Win+D = Show Desktop | Alt+F4 = Close Window",
     "steps": [
@@ -2518,7 +3152,7 @@ window.NTPC26_DATA = [
       "Ctrl + Alt + Del opens the security options screen."
     ],
     "trick": "Direct Task Manager = Ctrl + Shift + Esc (favorite TCS Railway question!).",
-    "id": 117
+    "id": 147
   },
   {
     "category": "computer",
@@ -2539,7 +3173,7 @@ window.NTPC26_DATA = [
       "Ctrl + H is reserved for Find & Replace, which is why 'K' (last letter of hyperlinK) is used."
     ],
     "trick": "Hyperlin-K = Ctrl + K! (Ctrl + H = Replace, Ctrl + F = Find.)",
-    "id": 118
+    "id": 148
   },
   {
     "category": "computer",
@@ -2547,12 +3181,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "What does 'ASCII' stand for in character encoding?",
     "options": {
-      "a": "Advanced Standard Character Integration Interface",
+      "a": "American System Coding for Internet Interchange",
       "b": "Automated System Code for Internal Information",
-      "c": "American System Coding for Internet Interchange",
-      "d": "American Standard Code for Information Interchange"
+      "c": "American Standard Code for Information Interchange",
+      "d": "Advanced Standard Character Integration Interface"
     },
-    "answer": "d",
+    "answer": "c",
     "correct_text": "American Standard Code for Information Interchange",
     "formula": "Standard ASCII = 7-bit code (128 characters); Extended ASCII = 8-bit (256 characters)",
     "steps": [
@@ -2560,7 +3194,7 @@ window.NTPC26_DATA = [
       "For global multilingual scripts, Unicode (UTF-8 / UTF-16) is used."
     ],
     "trick": "ASCII = American Standard Code for Information Interchange (7-bit = 128 chars).",
-    "id": 119
+    "id": 149
   },
   {
     "category": "computer",
@@ -2568,19 +3202,19 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "What does 'URL' stand for?",
     "options": {
-      "a": "Universal Reference Link",
-      "b": "Uniform Resource Locator",
-      "c": "User Resource Library",
-      "d": "Unified Routing Language"
+      "a": "Uniform Resource Locator",
+      "b": "Unified Routing Language",
+      "c": "Universal Reference Link",
+      "d": "User Resource Library"
     },
-    "answer": "b",
+    "answer": "a",
     "correct_text": "Uniform Resource Locator",
     "formula": "URL = Web address of a specific resource (Protocol + Domain + Path)",
     "steps": [
       "A URL (Uniform Resource Locator) specifies the exact address of a web page or file on the internet (e.g., https://www.rrbkolkata.gov.in)."
     ],
     "trick": "URL = Uniform Resource Locator (never 'Universal'!).",
-    "id": 120
+    "id": 150
   },
   {
     "category": "computer",
@@ -2588,12 +3222,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "Which type of malware disguises itself as legitimate useful software to trick users into installing it, without self-replicating like a virus?",
     "options": {
-      "a": "Adware",
-      "b": "Spyware",
-      "c": "Worm",
-      "d": "Trojan Horse"
+      "a": "Trojan Horse",
+      "b": "Worm",
+      "c": "Adware",
+      "d": "Spyware"
     },
-    "answer": "d",
+    "answer": "a",
     "correct_text": "Trojan Horse",
     "formula": "Trojan = Disguised as legit software (no self-replication) | Worm = Self-replicates across networks",
     "steps": [
@@ -2601,7 +3235,7 @@ window.NTPC26_DATA = [
       "Unlike viruses and worms, Trojans do NOT replicate themselves automatically."
     ],
     "trick": "Fake gift / Disguised app = Trojan Horse | Self-spreading over network = Worm | Locks files for money = Ransomware!",
-    "id": 121
+    "id": 151
   },
   {
     "category": "computer",
@@ -2609,19 +3243,19 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "What is the full form of 'PDF' (the widely used document format developed by Adobe)?",
     "options": {
-      "a": "Portable Document Format",
-      "b": "Printable Data File",
-      "c": "Processed Document File",
-      "d": "Personal Digital Format"
+      "a": "Personal Digital Format",
+      "b": "Processed Document File",
+      "c": "Printable Data File",
+      "d": "Portable Document Format"
     },
-    "answer": "a",
+    "answer": "d",
     "correct_text": "Portable Document Format",
     "formula": "PDF = Portable Document Format | PNG = Portable Network Graphics",
     "steps": [
       "Adobe developed PDF (Portable Document Format) in 1993 so documents display identically across all operating systems and devices."
     ],
     "trick": "Both PDF and PNG start with 'Portable'!",
-    "id": 122
+    "id": 152
   },
   {
     "category": "computer",
@@ -2629,12 +3263,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "Which hardware device converts digital signals from a computer into analog signals for transmission over telephone/cable lines and vice versa?",
     "options": {
-      "a": "Bridge",
-      "b": "Modem",
-      "c": "Hub",
-      "d": "Repeater"
+      "a": "Repeater",
+      "b": "Hub",
+      "c": "Bridge",
+      "d": "Modem"
     },
-    "answer": "b",
+    "answer": "d",
     "correct_text": "Modem",
     "formula": "MODEM = MOdulator + DEModulator",
     "steps": [
@@ -2642,7 +3276,7 @@ window.NTPC26_DATA = [
       "Hence a Modem acts as both an input and output communication device."
     ],
     "trick": "MO-DEM = Modulator-Demodulator (Digital ↔ Analog)!",
-    "id": 123
+    "id": 153
   },
   {
     "category": "computer",
@@ -2650,12 +3284,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "Which of the following is an Open-Source Operating System?",
     "options": {
-      "a": "Windows 11",
-      "b": "Linux",
-      "c": "iOS",
-      "d": "macOS"
+      "a": "iOS",
+      "b": "Windows 11",
+      "c": "macOS",
+      "d": "Linux"
     },
-    "answer": "b",
+    "answer": "d",
     "correct_text": "Linux",
     "formula": "Linux kernel created by Linus Torvalds (1991) — Free & Open Source (Ubuntu, Fedora, Android)",
     "steps": [
@@ -2663,7 +3297,7 @@ window.NTPC26_DATA = [
       "Windows (Microsoft) and macOS/iOS (Apple) are proprietary operating systems."
     ],
     "trick": "Open-Source OS = Linux (and Ubuntu/Android based on it)!",
-    "id": 124
+    "id": 154
   },
   {
     "category": "computer",
@@ -2671,19 +3305,19 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "What does 'SQL' stand for in database management?",
     "options": {
-      "a": "System Queue Language",
-      "b": "Standard Question Library",
-      "c": "Structured Query Language",
-      "d": "Sequential Query Logic"
+      "a": "Sequential Query Logic",
+      "b": "System Queue Language",
+      "c": "Standard Question Library",
+      "d": "Structured Query Language"
     },
-    "answer": "c",
+    "answer": "d",
     "correct_text": "Structured Query Language",
     "formula": "SQL = Standard language for Relational DBMS (RDBMS)",
     "steps": [
       "SQL (Structured Query Language) is used to create, query, update, and manage relational databases like MySQL, Oracle, and PostgreSQL."
     ],
     "trick": "SQL = Structured Query Language.",
-    "id": 125
+    "id": 155
   },
   {
     "category": "computer",
@@ -2691,9 +3325,9 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "Which language translator converts an entire high-level program into machine code ALL AT ONCE before execution?",
     "options": {
-      "a": "Assembler",
+      "a": "Interpreter",
       "b": "Compiler",
-      "c": "Interpreter",
+      "c": "Assembler",
       "d": "Linker"
     },
     "answer": "b",
@@ -2704,7 +3338,7 @@ window.NTPC26_DATA = [
       "An Interpreter translates and runs one line at a time (used in Python, JavaScript)."
     ],
     "trick": "Compiler = Complete at once | Interpreter = Line-by-line!",
-    "id": 126
+    "id": 156
   },
   {
     "category": "computer",
@@ -2712,12 +3346,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "What is the permanent, unique 48-bit hardware address assigned to a Network Interface Card (NIC) by its manufacturer?",
     "options": {
-      "a": "MAC Address",
+      "a": "IPv4 Address",
       "b": "Port Number",
-      "c": "IPv4 Address",
+      "c": "MAC Address",
       "d": "Subnet Mask"
     },
-    "answer": "a",
+    "answer": "c",
     "correct_text": "MAC Address",
     "formula": "MAC (Media Access Control) = 48-bit (6 bytes, hex) | IPv4 = 32-bit | IPv6 = 128-bit",
     "steps": [
@@ -2725,7 +3359,7 @@ window.NTPC26_DATA = [
       "IPv4 is 32 bits (4 octets) and IPv6 is 128 bits."
     ],
     "trick": "Bit sizes to memorize: IPv4 = 32 | MAC = 48 | IPv6 = 128!",
-    "id": 127
+    "id": 157
   },
   {
     "category": "computer",
@@ -2734,11 +3368,11 @@ window.NTPC26_DATA = [
     "question": "In MS Excel, every formula MUST begin with which symbol?",
     "options": {
       "a": "@",
-      "b": "#",
-      "c": "=",
-      "d": "$"
+      "b": "=",
+      "c": "$",
+      "d": "#"
     },
-    "answer": "c",
+    "answer": "b",
     "correct_text": "=",
     "formula": "Excel formula starts with '=' | Absolute cell reference uses '$' (e.g., $A$1)",
     "steps": [
@@ -2746,7 +3380,7 @@ window.NTPC26_DATA = [
       "The dollar sign ($) is used to lock a row or column for absolute referencing."
     ],
     "trick": "Formula starts with '=' | Lock cell reference with '$'!",
-    "id": 128
+    "id": 158
   },
   {
     "category": "computer",
@@ -2754,10 +3388,10 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "What does 'VoIP' stand for in modern internet telecommunications (used by WhatsApp calls, Zoom, Teams)?",
     "options": {
-      "a": "Virtual Online Information Portal",
-      "b": "Video over Internal Platform",
+      "a": "Video over Internal Platform",
+      "b": "Voice Output Interface Protocol",
       "c": "Voice over Internet Protocol",
-      "d": "Voice Output Interface Protocol"
+      "d": "Virtual Online Information Portal"
     },
     "answer": "c",
     "correct_text": "Voice over Internet Protocol",
@@ -2766,7 +3400,7 @@ window.NTPC26_DATA = [
       "VoIP converts analog voice signals into digital packets transmitted over broadband internet instead of traditional circuit-switched telephone lines."
     ],
     "trick": "VoIP = Voice over Internet Protocol.",
-    "id": 129
+    "id": 159
   },
   {
     "category": "computer",
@@ -2774,12 +3408,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "Which of the following is a NON-VOLATILE memory (retains its data even when electrical power is switched off)?",
     "options": {
-      "a": "ROM",
-      "b": "DRAM",
+      "a": "SRAM",
+      "b": "ROM",
       "c": "CPU Cache",
-      "d": "SRAM"
+      "d": "DRAM"
     },
-    "answer": "a",
+    "answer": "b",
     "correct_text": "ROM",
     "formula": "Volatile (loses data on power off): RAM (SRAM/DRAM), Cache, Registers | Non-volatile: ROM, SSD, HDD",
     "steps": [
@@ -2787,7 +3421,7 @@ window.NTPC26_DATA = [
       "All forms of RAM (SRAM, DRAM) and Cache are volatile."
     ],
     "trick": "RAM = Volatile (erased on power off) | ROM = Non-Volatile (permanent)!",
-    "id": 130
+    "id": 160
   },
   {
     "category": "computer",
@@ -2795,19 +3429,19 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "What is the full form of 'CAPTCHA', commonly seen on online exam and railway booking portals?",
     "options": {
-      "a": "Coded Authentication Protocol To Confirm Human Identity",
-      "b": "Completely Automated Public Turing test to tell Computers and Humans Apart",
-      "c": "Computer Application Program To Check Human Access",
-      "d": "Central Automated Portal To Control Hacker Attacks"
+      "a": "Computer Application Program To Check Human Access",
+      "b": "Coded Authentication Protocol To Confirm Human Identity",
+      "c": "Central Automated Portal To Control Hacker Attacks",
+      "d": "Completely Automated Public Turing test to tell Computers and Humans Apart"
     },
-    "answer": "b",
+    "answer": "d",
     "correct_text": "Completely Automated Public Turing test to tell Computers and Humans Apart",
     "formula": "CAPTCHA = Automated Turing Test to distinguish humans from automated bots",
     "steps": [
       "CAPTCHA blocks automated bots from spamming forms or bulk-booking tickets by requiring human visual/cognitive recognition."
     ],
     "trick": "Look for 'Turing test' + 'Computers and Humans Apart'!",
-    "id": 131
+    "id": 161
   },
   {
     "category": "computer",
@@ -2815,12 +3449,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "Which function key in Windows File Explorer is used to RENAME a selected file or folder?",
     "options": {
-      "a": "F2",
-      "b": "F5",
+      "a": "F5",
+      "b": "F7",
       "c": "F12",
-      "d": "F7"
+      "d": "F2"
     },
-    "answer": "a",
+    "answer": "d",
     "correct_text": "F2",
     "formula": "F1: Help | F2: Rename | F5: Refresh | F7: Spell Check (MS Office) | F12: Save As",
     "steps": [
@@ -2828,7 +3462,7 @@ window.NTPC26_DATA = [
       "F5 refreshes a window/browser (or starts a PowerPoint slideshow); F7 runs Spell Check in MS Word; F12 opens Save As."
     ],
     "trick": "F2 = Rename | F5 = Refresh | F7 = Spell Check | F12 = Save As!",
-    "id": 132
+    "id": 162
   },
   {
     "category": "computer",
@@ -2836,19 +3470,19 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "What does 'VPN' stand for in network security?",
     "options": {
-      "a": "Virtual Private Network",
-      "b": "Verified Public Node",
-      "c": "Variable Packet Navigation",
-      "d": "Visual Protocol Network"
+      "a": "Variable Packet Navigation",
+      "b": "Virtual Private Network",
+      "c": "Visual Protocol Network",
+      "d": "Verified Public Node"
     },
-    "answer": "a",
+    "answer": "b",
     "correct_text": "Virtual Private Network",
     "formula": "VPN creates an encrypted private tunnel over a public network (Internet)",
     "steps": [
       "A VPN encrypts a user's internet connection and masks their IP address to protect privacy over public Wi-Fi or connect remotely to corporate networks."
     ],
     "trick": "VPN = Virtual Private Network.",
-    "id": 133
+    "id": 163
   },
   {
     "category": "computer",
@@ -2856,12 +3490,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "Which component of the CPU performs all arithmetic calculations (+, −, ×, ÷) and logical comparisons (<, >, =)?",
     "options": {
-      "a": "ALU (Arithmetic Logic Unit)",
-      "b": "CU (Control Unit)",
-      "c": "MAR (Memory Address Register)",
-      "d": "PCI Bus"
+      "a": "PCI Bus",
+      "b": "MAR (Memory Address Register)",
+      "c": "ALU (Arithmetic Logic Unit)",
+      "d": "CU (Control Unit)"
     },
-    "answer": "a",
+    "answer": "c",
     "correct_text": "ALU (Arithmetic Logic Unit)",
     "formula": "CPU = ALU + Control Unit (CU) + Registers",
     "steps": [
@@ -2869,7 +3503,7 @@ window.NTPC26_DATA = [
       "CU (Control Unit) directs and coordinates data flow between memory, ALU, and I/O devices."
     ],
     "trick": "ALU = Math & Logic | CU = Traffic Cop (Control & Coordination)!",
-    "id": 134
+    "id": 164
   },
   {
     "category": "computer",
@@ -2877,12 +3511,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "What is 'Phishing' in cybersecurity?",
     "options": {
-      "a": "Fraudulently sending deceptive emails/SMS pretending to be a trusted entity to steal passwords or bank details",
-      "b": "Compressing large files into a ZIP archive",
+      "a": "Overloading a web server with massive traffic to crash it",
+      "b": "Fraudulently sending deceptive emails/SMS pretending to be a trusted entity to steal passwords or bank details",
       "c": "Defragmenting a hard disk drive",
-      "d": "Overloading a web server with massive traffic to crash it"
+      "d": "Compressing large files into a ZIP archive"
     },
-    "answer": "a",
+    "answer": "b",
     "correct_text": "Fraudulently sending deceptive emails/SMS pretending to be a trusted entity to steal passwords or bank details",
     "formula": "Phishing = Social engineering credential theft | DDoS = Traffic overload attack",
     "steps": [
@@ -2890,7 +3524,7 @@ window.NTPC26_DATA = [
       "Overloading a server with traffic is a DDoS (Distributed Denial of Service) attack."
     ],
     "trick": "Phishing = Fishing for passwords with fake bait links!",
-    "id": 135
+    "id": 165
   },
   {
     "category": "computer",
@@ -2898,12 +3532,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "What does 'JPEG' stand for in digital image formats?",
     "options": {
-      "a": "Joint Picture Extension Guide",
-      "b": "Java Pixel Encoding Graphics",
-      "c": "Joint Photographic Experts Group",
-      "d": "Justified Photo Exchange Grid"
+      "a": "Joint Photographic Experts Group",
+      "b": "Justified Photo Exchange Grid",
+      "c": "Java Pixel Encoding Graphics",
+      "d": "Joint Picture Extension Guide"
     },
-    "answer": "c",
+    "answer": "a",
     "correct_text": "Joint Photographic Experts Group",
     "formula": "JPEG = Lossy image compression | PNG = Lossless with transparency | GIF = Graphics Interchange Format",
     "steps": [
@@ -2911,7 +3545,7 @@ window.NTPC26_DATA = [
       "PNG (Portable Network Graphics) uses lossless compression and supports transparent backgrounds."
     ],
     "trick": "JPEG = Joint Photographic Experts Group (Lossy) | PNG = Portable Network Graphics (Lossless).",
-    "id": 136
+    "id": 166
   },
   {
     "category": "computer",
@@ -2919,19 +3553,19 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "Which unit of computer storage is larger than 1 Terabyte (TB) and equals 1,024 Terabytes?",
     "options": {
-      "a": "1 Petabyte (PB)",
-      "b": "1 Zettabyte (ZB)",
+      "a": "1 Gigabyte (GB)",
+      "b": "1 Petabyte (PB)",
       "c": "1 Exabyte (EB)",
-      "d": "1 Gigabyte (GB)"
+      "d": "1 Zettabyte (ZB)"
     },
-    "answer": "a",
+    "answer": "b",
     "correct_text": "1 Petabyte (PB)",
     "formula": "KB → MB → GB → TB → PB → EB → ZB → YB",
     "steps": [
       "1024 GB = 1 TB; 1024 TB = 1 PB (Petabyte); 1024 PB = 1 EB (Exabyte); 1024 EB = 1 ZB (Zettabyte); 1024 ZB = 1 YB (Yottabyte)."
     ],
     "trick": "Mnemonic for big units: 'Two People Eat Zesty Yogurt' → TB, PB, EB, ZB, YB!",
-    "id": 137
+    "id": 167
   },
   {
     "category": "computer",
@@ -2940,11 +3574,11 @@ window.NTPC26_DATA = [
     "question": "Who is credited with inventing the World Wide Web (WWW) in 1989 at CERN?",
     "options": {
       "a": "Alan Turing",
-      "b": "Dennis Ritchie",
-      "c": "Tim Berners-Lee",
-      "d": "Vint Cerf"
+      "b": "Vint Cerf",
+      "c": "Dennis Ritchie",
+      "d": "Tim Berners-Lee"
     },
-    "answer": "c",
+    "answer": "d",
     "correct_text": "Tim Berners-Lee",
     "formula": "WWW = Tim Berners-Lee | Father of Internet (TCP/IP) = Vint Cerf & Bob Kahn | C Language = Dennis Ritchie",
     "steps": [
@@ -2952,7 +3586,7 @@ window.NTPC26_DATA = [
       "Vint Cerf & Bob Kahn co-designed TCP/IP ('Fathers of the Internet')."
     ],
     "trick": "WWW = Tim Berners-Lee | Internet (TCP/IP) = Vint Cerf | Email = Ray Tomlinson!",
-    "id": 138
+    "id": 168
   },
   {
     "category": "computer",
@@ -2960,19 +3594,19 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "What does 'FTP' stand for, and what is its main function?",
     "options": {
-      "a": "File Transfer Protocol — transferring files between client and server over a network",
-      "b": "Fast Transmission Process — boosting Wi-Fi speed",
-      "c": "Formatted Text Program — editing text documents",
+      "a": "Formatted Text Program — editing text documents",
+      "b": "File Transfer Protocol — transferring files between client and server over a network",
+      "c": "Fast Transmission Process — boosting Wi-Fi speed",
       "d": "Fiber Terminal Port — connecting optical cables"
     },
-    "answer": "a",
+    "answer": "b",
     "correct_text": "File Transfer Protocol — transferring files between client and server over a network",
     "formula": "FTP operates on Ports 20 (Data) & 21 (Control)",
     "steps": [
       "FTP (File Transfer Protocol) is an Application Layer protocol used to upload and download files between computers on a TCP/IP network."
     ],
     "trick": "FTP = File Transfer Protocol (Ports 20 & 21).",
-    "id": 139
+    "id": 169
   },
   {
     "category": "computer",
@@ -2980,19 +3614,19 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "What is the purpose of a 'Firewall' in a computer network?",
     "options": {
-      "a": "Increases internet download bandwidth",
-      "b": "Monitors and filters incoming/outgoing network traffic based on security rules to block unauthorized access",
-      "c": "Cools down the CPU when it overheats",
-      "d": "Converts HTML pages into PDFs"
+      "a": "Cools down the CPU when it overheats",
+      "b": "Converts HTML pages into PDFs",
+      "c": "Increases internet download bandwidth",
+      "d": "Monitors and filters incoming/outgoing network traffic based on security rules to block unauthorized access"
     },
-    "answer": "b",
+    "answer": "d",
     "correct_text": "Monitors and filters incoming/outgoing network traffic based on security rules to block unauthorized access",
     "formula": "Firewall = Hardware/Software security barrier between trusted internal network & untrusted external network",
     "steps": [
       "A firewall inspects packets entering or leaving a network and allows or blocks them according to predefined security rules."
     ],
     "trick": "Firewall = Security Gatekeeper filtering unauthorized network traffic!",
-    "id": 140
+    "id": 170
   },
   {
     "category": "railway_gk",
@@ -3001,11 +3635,11 @@ window.NTPC26_DATA = [
     "question": "Which is the ONLY city in India that hosts the headquarters of THREE Indian Railway zones?",
     "options": {
       "a": "Mumbai",
-      "b": "New Delhi",
-      "c": "Kolkata",
+      "b": "Kolkata",
+      "c": "New Delhi",
       "d": "Chennai"
     },
-    "answer": "c",
+    "answer": "b",
     "correct_text": "Kolkata",
     "formula": "Kolkata = Eastern Railway (ER) + South Eastern Railway (SER) + Metro Railway Kolkata",
     "steps": [
@@ -3013,7 +3647,7 @@ window.NTPC26_DATA = [
       "Mumbai houses 2 Zonal HQs: Central Railway (CSMT) and Western Railway (Churchgate)."
     ],
     "trick": "Kolkata = 3 Zonal HQs (ER, SER, Metro)! Mumbai = 2 (CR, WR).",
-    "id": 141
+    "id": 171
   },
   {
     "category": "railway_gk",
@@ -3023,10 +3657,10 @@ window.NTPC26_DATA = [
     "options": {
       "a": "Kharagpur",
       "b": "Bhubaneswar",
-      "c": "Garden Reach, Kolkata",
-      "d": "Fairlie Place, Kolkata"
+      "c": "Fairlie Place, Kolkata",
+      "d": "Garden Reach, Kolkata"
     },
-    "answer": "c",
+    "answer": "d",
     "correct_text": "Garden Reach, Kolkata",
     "formula": "SER HQ = Garden Reach, Kolkata | ER HQ = Fairlie Place, Kolkata",
     "steps": [
@@ -3034,7 +3668,7 @@ window.NTPC26_DATA = [
       "Eastern Railway (ER) is headquartered at Fairlie Place, Kolkata."
     ],
     "trick": "SER = Garden Reach | ER = Fairlie Place (crucial for your Preference #1 & #2!).",
-    "id": 142
+    "id": 172
   },
   {
     "category": "railway_gk",
@@ -3042,12 +3676,12 @@ window.NTPC26_DATA = [
     "exam": "RRB Kolkata Special",
     "question": "Chittaranjan Locomotive Works (CLW), one of the largest electric locomotive manufacturers in the world, is located in which state?",
     "options": {
-      "a": "West Bengal",
-      "b": "Jharkhand",
+      "a": "Jharkhand",
+      "b": "Uttar Pradesh",
       "c": "Bihar",
-      "d": "Uttar Pradesh"
+      "d": "West Bengal"
     },
-    "answer": "a",
+    "answer": "d",
     "correct_text": "West Bengal",
     "formula": "CLW = Chittaranjan, Paschim Bardhaman district, West Bengal (established 1950)",
     "steps": [
@@ -3055,7 +3689,7 @@ window.NTPC26_DATA = [
       "It manufactures high-horsepower electric locomotives like WAP-7 and WAG-9."
     ],
     "trick": "CLW (Electric Locos) = Chittaranjan, West Bengal!",
-    "id": 143
+    "id": 173
   },
   {
     "category": "railway_gk",
@@ -3063,12 +3697,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "On which date did India's first passenger train run between Bori Bunder (Bombay) and Thane, covering 34 km?",
     "options": {
-      "a": "16 April 1853",
-      "b": "16 April 1857",
-      "c": "24 October 1853",
-      "d": "15 August 1854"
+      "a": "24 October 1853",
+      "b": "16 April 1853",
+      "c": "15 August 1854",
+      "d": "16 April 1857"
     },
-    "answer": "a",
+    "answer": "b",
     "correct_text": "16 April 1853",
     "formula": "16 April 1853 | Bori Bunder to Thane (34 km) | Governor-General: Lord Dalhousie",
     "steps": [
@@ -3076,7 +3710,7 @@ window.NTPC26_DATA = [
       "Note: Eastern India's first passenger train ran on 15 August 1854 from Howrah to Hooghly (38 km)!"
     ],
     "trick": "India's 1st train: 16 April 1853 (Bombay–Thane) | Bengal's 1st train: 15 Aug 1854 (Howrah–Hooghly)!",
-    "id": 144
+    "id": 174
   },
   {
     "category": "railway_gk",
@@ -3085,9 +3719,9 @@ window.NTPC26_DATA = [
     "question": "India's FIRST underground Metro Railway began commercial operations in which city on 24 October 1984?",
     "options": {
       "a": "Kolkata",
-      "b": "Delhi",
-      "c": "Bengaluru",
-      "d": "Mumbai"
+      "b": "Bengaluru",
+      "c": "Mumbai",
+      "d": "Delhi"
     },
     "answer": "a",
     "correct_text": "Kolkata",
@@ -3097,7 +3731,7 @@ window.NTPC26_DATA = [
       "Kolkata also became home to India's first underwater metro tunnel (under the Hooghly River, East-West Metro Green Line, 2024)."
     ],
     "trick": "1st Metro (1984) & 1st Underwater Metro (Hooghly, 2024) = BOTH Kolkata!",
-    "id": 145
+    "id": 175
   },
   {
     "category": "railway_gk",
@@ -3106,8 +3740,8 @@ window.NTPC26_DATA = [
     "question": "What is 'KAVACH', developed indigenously by RDSO (Research Designs and Standards Organisation)?",
     "options": {
       "a": "Automatic Train Protection (ATP) system to prevent train collisions and SPAD",
-      "b": "High-speed bullet train bogie design",
-      "c": "Automated railway ticket vending kiosk",
+      "b": "Automated railway ticket vending kiosk",
+      "c": "High-speed bullet train bogie design",
       "d": "Solar-powered railway station lighting grid"
     },
     "answer": "a",
@@ -3118,7 +3752,7 @@ window.NTPC26_DATA = [
       "Version 4.0 was approved by RDSO for rapid nationwide rollout across high-density Golden Quadrilateral routes."
     ],
     "trick": "KAVACH = Shield/Armour → Automatic Train Protection (ATP) by RDSO Lucknow!",
-    "id": 146
+    "id": 176
   },
   {
     "category": "railway_gk",
@@ -3126,12 +3760,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "Which is the 18th and newest Railway Zone of Indian Railways, and where is its headquarters?",
     "options": {
-      "a": "East Coast Railway (ECoR) — Bhubaneswar",
-      "b": "West Central Railway (WCR) — Jabalpur",
-      "c": "South Western Railway (SWR) — Hubballi",
-      "d": "South Coast Railway (SCoR) — Visakhapatnam"
+      "a": "South Coast Railway (SCoR) — Visakhapatnam",
+      "b": "South Western Railway (SWR) — Hubballi",
+      "c": "West Central Railway (WCR) — Jabalpur",
+      "d": "East Coast Railway (ECoR) — Bhubaneswar"
     },
-    "answer": "d",
+    "answer": "a",
     "correct_text": "South Coast Railway (SCoR) — Visakhapatnam",
     "formula": "Total Railway Zones = 18 (18th = South Coast Railway, Visakhapatnam, Andhra Pradesh)",
     "steps": [
@@ -3139,7 +3773,7 @@ window.NTPC26_DATA = [
       "East Coast Railway is headquartered in Bhubaneswar (Odisha)."
     ],
     "trick": "18th Zone = South Coast Railway (Visakhapatnam)! 17th Zone = Kolkata Metro!",
-    "id": 147
+    "id": 177
   },
   {
     "category": "railway_gk",
@@ -3148,9 +3782,9 @@ window.NTPC26_DATA = [
     "question": "What is the standard width (distance between inner faces of the two rails) of Indian Broad Gauge?",
     "options": {
       "a": "1.676 metres (1676 mm / 5 ft 6 in)",
-      "b": "0.762 metre (762 mm)",
-      "c": "1.435 metres (1435 mm)",
-      "d": "1.000 metre (1000 mm)"
+      "b": "1.435 metres (1435 mm)",
+      "c": "1.000 metre (1000 mm)",
+      "d": "0.762 metre (762 mm)"
     },
     "answer": "a",
     "correct_text": "1.676 metres (1676 mm / 5 ft 6 in)",
@@ -3159,7 +3793,7 @@ window.NTPC26_DATA = [
       "Indian Broad Gauge is 1.676 m (1,676 mm), wider than International Standard Gauge (1.435 m, used in most modern Metros and High-Speed Rail)."
     ],
     "trick": "Indian Broad = 1.676 m | Standard (Metro/Bullet) = 1.435 m | Metre = 1.0 m!",
-    "id": 148
+    "id": 178
   },
   {
     "category": "railway_gk",
@@ -3167,12 +3801,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC CEN 06/2026 Focus",
     "question": "Where are Vande Bharat Express (originally Train 18) semi-high-speed trainsets primarily designed and manufactured?",
     "options": {
-      "a": "Integral Coach Factory (ICF), Chennai",
-      "b": "Rail Wheel Factory (RWF), Bengaluru",
-      "c": "Banaras Locomotive Works (BLW), Varanasi",
-      "d": "Chittaranjan Locomotive Works (CLW), West Bengal"
+      "a": "Chittaranjan Locomotive Works (CLW), West Bengal",
+      "b": "Integral Coach Factory (ICF), Chennai",
+      "c": "Rail Wheel Factory (RWF), Bengaluru",
+      "d": "Banaras Locomotive Works (BLW), Varanasi"
     },
-    "answer": "a",
+    "answer": "b",
     "correct_text": "Integral Coach Factory (ICF), Chennai",
     "formula": "ICF Chennai (Perambur) — India's premier passenger coach factory (est. 1955)",
     "steps": [
@@ -3180,7 +3814,7 @@ window.NTPC26_DATA = [
       "Other coach factories: RCF Kapurthala (Punjab) and MCF Raebareli (UP)."
     ],
     "trick": "Vande Bharat Coaches = ICF Chennai | Electric Locos = CLW Chittaranjan!",
-    "id": 149
+    "id": 179
   },
   {
     "category": "railway_gk",
@@ -3188,10 +3822,10 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC CEN 06/2026 Focus",
     "question": "The Chenab Rail Bridge—the world's highest railway arch bridge at 359 metres above the riverbed—is part of which railway project?",
     "options": {
-      "a": "Konkan Railway Project, Maharashtra",
-      "b": "Sivok–Rangpo Rail Link, Sikkim",
+      "a": "Dedicated Freight Corridor, Gujarat",
+      "b": "Konkan Railway Project, Maharashtra",
       "c": "Udhampur–Srinagar–Baramulla Rail Link (USBRL), Jammu & Kashmir",
-      "d": "Dedicated Freight Corridor, Gujarat"
+      "d": "Sivok–Rangpo Rail Link, Sikkim"
     },
     "answer": "c",
     "correct_text": "Udhampur–Srinagar–Baramulla Rail Link (USBRL), Jammu & Kashmir",
@@ -3201,7 +3835,7 @@ window.NTPC26_DATA = [
       "Nearby on the same line is India's first cable-stayed rail bridge: the Anji Khad Bridge!"
     ],
     "trick": "World's highest arch rail bridge = Chenab (359 m) | 1st Cable-stayed rail bridge = Anji Khad (both USBRL, J&K)!",
-    "id": 150
+    "id": 180
   },
   {
     "category": "railway_gk",
@@ -3209,19 +3843,19 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "Which railway station currently holds the Guinness World Record for the LONGEST railway platform in the world (1,507 metres)?",
     "options": {
-      "a": "Gorakhpur Junction, Uttar Pradesh",
-      "b": "Kharagpur Junction, West Bengal",
+      "a": "Shree Siddharoodha Swamiji (SSS) Hubballi Junction, Karnataka",
+      "b": "Gorakhpur Junction, Uttar Pradesh",
       "c": "Kollam Junction, Kerala",
-      "d": "Shree Siddharoodha Swamiji (SSS) Hubballi Junction, Karnataka"
+      "d": "Kharagpur Junction, West Bengal"
     },
-    "answer": "d",
+    "answer": "a",
     "correct_text": "Shree Siddharoodha Swamiji (SSS) Hubballi Junction, Karnataka",
     "formula": "1st: SSS Hubballi (1,507 m, SWR) > 2nd: Gorakhpur (1,366 m, NER) > 3rd: Kollam (1,180 m)",
     "steps": [
       "In March 2023, Platform No. 8 at SSS Hubballi Junction (South Western Railway HQ) surpassed Gorakhpur to become the world's longest railway platform at 1,507 metres."
     ],
     "trick": "Don't mark Gorakhpur (old data)! New #1 Longest Platform = Hubballi (1,507 m)!",
-    "id": 151
+    "id": 181
   },
   {
     "category": "railway_gk",
@@ -3229,12 +3863,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "The Eastern Dedicated Freight Corridor (EDFC), built by DFCCIL, runs between which two terminal cities?",
     "options": {
-      "a": "Delhi and Mumbai",
-      "b": "Ludhiana (Punjab) and Dankuni / Sonnagar (West Bengal / Bihar)",
-      "c": "Howrah and Chennai",
-      "d": "Dadri (UP) and JNPT (Maharashtra)"
+      "a": "Dadri (UP) and JNPT (Maharashtra)",
+      "b": "Delhi and Mumbai",
+      "c": "Ludhiana (Punjab) and Dankuni / Sonnagar (West Bengal / Bihar)",
+      "d": "Howrah and Chennai"
     },
-    "answer": "b",
+    "answer": "c",
     "correct_text": "Ludhiana (Punjab) and Dankuni / Sonnagar (West Bengal / Bihar)",
     "formula": "EDFC = Ludhiana–Dankuni (1,875 km) | WDFC = Dadri (UP)–JNPT (Mumbai, 1,506 km)",
     "steps": [
@@ -3242,7 +3876,7 @@ window.NTPC26_DATA = [
       "WDFC connects Dadri (Uttar Pradesh) to Jawaharlal Nehru Port Trust (JNPT, Navi Mumbai)."
     ],
     "trick": "EDFC = Ludhiana ↔ Dankuni (Kolkata)! WDFC = Dadri ↔ JNPT (Mumbai)!",
-    "id": 152
+    "id": 182
   },
   {
     "category": "railway_gk",
@@ -3251,11 +3885,11 @@ window.NTPC26_DATA = [
     "question": "In which year was the separate Railway Budget merged with the Union General Budget, and on the recommendation of which committee?",
     "options": {
       "a": "2015 — Sam Pitroda Committee",
-      "b": "2017 — Bibek Debroy Committee",
-      "c": "1924 — Acworth Committee",
-      "d": "2019 — Anil Kakodkar Committee"
+      "b": "1924 — Acworth Committee",
+      "c": "2019 — Anil Kakodkar Committee",
+      "d": "2017 — Bibek Debroy Committee"
     },
-    "answer": "b",
+    "answer": "d",
     "correct_text": "2017 — Bibek Debroy Committee",
     "formula": "Separated in 1924 (Acworth Committee) | Merged back in 2017 (Bibek Debroy Committee)",
     "steps": [
@@ -3263,7 +3897,7 @@ window.NTPC26_DATA = [
       "After 92 years, it was merged back into the Union Budget in 2017 (FY 2017–18) following the NITI Aayog / Bibek Debroy Committee recommendation."
     ],
     "trick": "Split = 1924 (Acworth) | Merged = 2017 (Bibek Debroy)!",
-    "id": 153
+    "id": 183
   },
   {
     "category": "railway_gk",
@@ -3271,10 +3905,10 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "By which target year has Indian Railways committed to becoming a 'Net Zero Carbon Emitter'?",
     "options": {
-      "a": "2070",
+      "a": "2047",
       "b": "2030",
-      "c": "2047",
-      "d": "2028"
+      "c": "2028",
+      "d": "2070"
     },
     "answer": "b",
     "correct_text": "2030",
@@ -3284,7 +3918,7 @@ window.NTPC26_DATA = [
       "Do not confuse with India's overall national Net Zero target of 2070 (Panchamrit pledge)."
     ],
     "trick": "Indian Railways Net Zero = 2030 | All-India Net Zero = 2070!",
-    "id": 154
+    "id": 184
   },
   {
     "category": "railway_gk",
@@ -3292,19 +3926,19 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "Where is India's first railway university—Gati Shakti Vishwavidyalaya (formerly NRTI)—located?",
     "options": {
-      "a": "Lucknow, Uttar Pradesh",
-      "b": "Vadodara, Gujarat",
-      "c": "Kolkata, West Bengal",
-      "d": "Secunderabad, Telangana"
+      "a": "Secunderabad, Telangana",
+      "b": "Kolkata, West Bengal",
+      "c": "Lucknow, Uttar Pradesh",
+      "d": "Vadodara, Gujarat"
     },
-    "answer": "b",
+    "answer": "d",
     "correct_text": "Vadodara, Gujarat",
     "formula": "Gati Shakti Vishwavidyalaya (Central University under Ministry of Railways) = Vadodara, Gujarat",
     "steps": [
       "Originally established as the National Rail and Transportation Institute (NRTI) in 2018 inside NAIR campus, Vadodara, it was upgraded to a Central University named Gati Shakti Vishwavidyalaya in 2022."
     ],
     "trick": "Railway University (Gati Shakti Vishwavidyalaya) = Vadodara, Gujarat!",
-    "id": 155
+    "id": 185
   },
   {
     "category": "railway_gk",
@@ -3312,19 +3946,19 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "Which train runs on the LONGEST train route in India (over 4,150 km across 9 states)?",
     "options": {
-      "a": "Himsagar Express (Katra to Kanyakumari)",
-      "b": "Vivek Express (Dibrugarh to Kanyakumari)",
-      "c": "Rajdhani Express (New Delhi to Howrah)",
-      "d": "Vande Bharat Express (New Delhi to Varanasi)"
+      "a": "Vivek Express (Dibrugarh to Kanyakumari)",
+      "b": "Himsagar Express (Katra to Kanyakumari)",
+      "c": "Vande Bharat Express (New Delhi to Varanasi)",
+      "d": "Rajdhani Express (New Delhi to Howrah)"
     },
-    "answer": "b",
+    "answer": "a",
     "correct_text": "Vivek Express (Dibrugarh to Kanyakumari)",
     "formula": "Longest Route = Vivek Express (Dibrugarh, Assam → Kanyakumari, Tamil Nadu)",
     "steps": [
       "Launched in 2011 to commemorate Swami Vivekananda's 150th birth anniversary, the Dibrugarh–Kanyakumari Vivek Express covers ~4,189 km."
     ],
     "trick": "Longest route = Vivek Express (Assam to Tamil Nadu)!",
-    "id": 156
+    "id": 186
   },
   {
     "category": "railway_gk",
@@ -3345,7 +3979,7 @@ window.NTPC26_DATA = [
       "Chhatrapati Shivaji Maharaj Terminus (CSMT, Mumbai) is the 4th UNESCO rail heritage site (2004). Matheran is on the tentative list, not yet inscribed."
     ],
     "trick": "UNESCO Mountain 3: Darjeeling (WB) + Nilgiri (TN) + Kalka-Shimla (HP)!",
-    "id": 157
+    "id": 187
   },
   {
     "category": "railway_gk",
@@ -3354,18 +3988,18 @@ window.NTPC26_DATA = [
     "question": "India's FIRST vertical-lift railway sea bridge, replacing a century-old cantilever bridge, connects Mandapam to Rameswaram Island. What is its name?",
     "options": {
       "a": "Bogibeel Bridge (Assam)",
-      "b": "Digha–Sonpur Bridge (Bihar)",
-      "c": "Vembanad Rail Bridge (Kerala)",
-      "d": "New Pamban Rail Bridge (Tamil Nadu)"
+      "b": "New Pamban Rail Bridge (Tamil Nadu)",
+      "c": "Digha–Sonpur Bridge (Bihar)",
+      "d": "Vembanad Rail Bridge (Kerala)"
     },
-    "answer": "d",
+    "answer": "b",
     "correct_text": "New Pamban Rail Bridge (Tamil Nadu)",
     "formula": "New Pamban Bridge = India's 1st vertical-lift rail sea bridge (built by RVNL, Tamil Nadu)",
     "steps": [
       "The 2.08 km New Pamban Rail Bridge features a 72.5 m vertical-lift electro-mechanical span that rises 17 metres to let ships pass beneath."
     ],
     "trick": "Vertical-Lift Sea Rail Bridge = New Pamban Bridge (Rameswaram, TN)! Rail-cum-Road longest = Bogibeel (Assam)!",
-    "id": 158
+    "id": 188
   },
   {
     "category": "railway_gk",
@@ -3373,19 +4007,19 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "The Mumbai–Ahmedabad High-Speed Rail (India's first Bullet Train corridor, 508 km) is being built with financial and technical collaboration from which country?",
     "options": {
-      "a": "Japan (JICA / Shinkansen)",
-      "b": "Germany (ICE)",
-      "c": "France (TGV)",
-      "d": "South Korea (KTX)"
+      "a": "Germany (ICE)",
+      "b": "South Korea (KTX)",
+      "c": "Japan (JICA / Shinkansen)",
+      "d": "France (TGV)"
     },
-    "answer": "a",
+    "answer": "c",
     "correct_text": "Japan (JICA / Shinkansen)",
     "formula": "NHSRCL (National High Speed Rail Corporation Ltd) | 508 km | Japan Shinkansen technology",
     "steps": [
       "Executed by NHSRCL with soft loan funding from JICA (Japan International Cooperation Agency), featuring India's first 21 km undersea rail tunnel beneath Thane Creek."
     ],
     "trick": "Bullet Train = Mumbai–Ahmedabad (508 km) + Japan (JICA / Shinkansen) + NHSRCL!",
-    "id": 159
+    "id": 189
   },
   {
     "category": "railway_gk",
@@ -3395,8 +4029,8 @@ window.NTPC26_DATA = [
     "options": {
       "a": "Kandla / Deendayal Port (Gujarat)",
       "b": "Syama Prasad Mookerjee Port (Kolkata, West Bengal)",
-      "c": "Visakhapatnam Port (Andhra Pradesh)",
-      "d": "Paradip Port (Odisha)"
+      "c": "Paradip Port (Odisha)",
+      "d": "Visakhapatnam Port (Andhra Pradesh)"
     },
     "answer": "b",
     "correct_text": "Syama Prasad Mookerjee Port (Kolkata, West Bengal)",
@@ -3405,7 +4039,7 @@ window.NTPC26_DATA = [
       "Renamed Syama Prasad Mookerjee Port in 2020, it sits ~203 km inland along the Hooghly River with two dock systems: Kolkata Dock System (KDS) and Haldia Dock Complex (HDC)."
     ],
     "trick": "Riverine Major Port = Kolkata (Syama Prasad Mookerjee Port, Hooghly River)!",
-    "id": 160
+    "id": 190
   },
   {
     "category": "railway_gk",
@@ -3413,12 +4047,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "Which is the LONGEST National Highway in India, connecting Srinagar (Jammu & Kashmir) to Kanyakumari (Tamil Nadu)?",
     "options": {
-      "a": "NH-48",
-      "b": "NH-44",
-      "c": "NH-19",
-      "d": "NH-27"
+      "a": "NH-44",
+      "b": "NH-19",
+      "c": "NH-27",
+      "d": "NH-48"
     },
-    "answer": "b",
+    "answer": "a",
     "correct_text": "NH-44",
     "formula": "Longest NH = NH-44 (~3,745 km, North–South Corridor) | 2nd Longest = NH-27 (Porbandar–Silchar, East–West)",
     "steps": [
@@ -3426,7 +4060,7 @@ window.NTPC26_DATA = [
       "NH-27 runs east-to-west from Porbandar (Gujarat) to Silchar (Assam). Both corridors intersect at Jhansi (UP)!"
     ],
     "trick": "N-S Corridor = NH-44 | E-W Corridor = NH-27 | Intersection Point = Jhansi (UP)!",
-    "id": 161
+    "id": 191
   },
   {
     "category": "railway_gk",
@@ -3434,19 +4068,19 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "National Waterway-1 (NW-1), the longest operational national waterway in India (1,620 km), runs along which river system and endpoints?",
     "options": {
-      "a": "Godavari–Krishna canals (Kakinada to Puducherry)",
-      "b": "Ganga–Bhagirathi–Hooghly river system (Prayagraj to Haldia)",
-      "c": "Brahmaputra river (Sadiya to Dhubri)",
-      "d": "West Coast Canal (Kottapuram to Kollam)"
+      "a": "West Coast Canal (Kottapuram to Kollam)",
+      "b": "Brahmaputra river (Sadiya to Dhubri)",
+      "c": "Ganga–Bhagirathi–Hooghly river system (Prayagraj to Haldia)",
+      "d": "Godavari–Krishna canals (Kakinada to Puducherry)"
     },
-    "answer": "b",
+    "answer": "c",
     "correct_text": "Ganga–Bhagirathi–Hooghly river system (Prayagraj to Haldia)",
     "formula": "NW-1: Prayagraj–Haldia (Ganga, 1,620 km) | NW-2: Sadiya–Dhubri (Brahmaputra, 891 km) | NW-3: Kerala",
     "steps": [
       "NW-1 runs 1,620 km across UP, Bihar, Jharkhand, and West Bengal (Prayagraj to Haldia) managed by IWAI (Inland Waterways Authority of India, HQ: Noida)."
     ],
     "trick": "NW-1 = Ganga (Prayagraj–Haldia) | NW-2 = Brahmaputra (Assam) | NW-3 = Kerala!",
-    "id": 162
+    "id": 192
   },
   {
     "category": "railway_gk",
@@ -3454,12 +4088,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "The Golden Quadrilateral highway network (5,846 km) connects which four metropolitan cities of India?",
     "options": {
-      "a": "Delhi, Mumbai, Chennai, and Kolkata",
-      "b": "Srinagar, Kanyakumari, Porbandar, and Silchar",
-      "c": "Mumbai, Pune, Chennai, and Ahmedabad",
-      "d": "Delhi, Bengaluru, Hyderabad, and Kolkata"
+      "a": "Mumbai, Pune, Chennai, and Ahmedabad",
+      "b": "Delhi, Bengaluru, Hyderabad, and Kolkata",
+      "c": "Delhi, Mumbai, Chennai, and Kolkata",
+      "d": "Srinagar, Kanyakumari, Porbandar, and Silchar"
     },
-    "answer": "a",
+    "answer": "c",
     "correct_text": "Delhi, Mumbai, Chennai, and Kolkata",
     "formula": "Golden Quadrilateral = 5,846 km (Launched by PM Atal Bihari Vajpayee in 2001, managed by NHAI)",
     "steps": [
@@ -3467,7 +4101,7 @@ window.NTPC26_DATA = [
       "The Kolkata–Chennai leg (1,684 km, NH-16) is its longest arm."
     ],
     "trick": "GQ = Delhi–Mumbai–Chennai–Kolkata (5,846 km, NHAI)!",
-    "id": 163
+    "id": 193
   },
   {
     "category": "railway_gk",
@@ -3475,19 +4109,19 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "Where is the headquarters of East Central Railway (ECR) located?",
     "options": {
-      "a": "Patna (Bihar)",
-      "b": "Prayagraj (UP)",
-      "c": "Bhubaneswar (Odisha)",
-      "d": "Hajipur (Bihar)"
+      "a": "Hajipur (Bihar)",
+      "b": "Bhubaneswar (Odisha)",
+      "c": "Prayagraj (UP)",
+      "d": "Patna (Bihar)"
     },
-    "answer": "d",
+    "answer": "a",
     "correct_text": "Hajipur (Bihar)",
     "formula": "ECR = Hajipur | ECoR = Bhubaneswar | NCR = Prayagraj | NER = Gorakhpur",
     "steps": [
       "East Central Railway (ECR) is headquartered at Hajipur (Vaishali district, Bihar), NOT Patna — a favorite RRB trap!"
     ],
     "trick": "Don't pick Patna! ECR HQ = Hajipur!",
-    "id": 164
+    "id": 194
   },
   {
     "category": "railway_gk",
@@ -3496,18 +4130,18 @@ window.NTPC26_DATA = [
     "question": "Where is the headquarters of Northeast Frontier Railway (NFR) located?",
     "options": {
       "a": "Dibrugarh (Assam)",
-      "b": "Siliguri (West Bengal)",
-      "c": "Maligaon, Guwahati (Assam)",
+      "b": "Maligaon, Guwahati (Assam)",
+      "c": "Siliguri (West Bengal)",
       "d": "Shillong (Meghalaya)"
     },
-    "answer": "c",
+    "answer": "b",
     "correct_text": "Maligaon, Guwahati (Assam)",
     "formula": "NFR HQ = Maligaon (Guwahati, Assam) — serves NE states, North Bengal & parts of Bihar",
     "steps": [
       "Northeast Frontier Railway (NFR) is headquartered at Maligaon, Guwahati (Assam), and notably operates the UNESCO Darjeeling Himalayan Railway."
     ],
     "trick": "NFR = Maligaon (Guwahati)!",
-    "id": 165
+    "id": 195
   },
   {
     "category": "railway_gk",
@@ -3515,19 +4149,19 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "Where is the headquarters of Konkan Railway Corporation Limited (KRCL) located?",
     "options": {
-      "a": "Panaji (Goa)",
-      "b": "Ratnagiri (Maharashtra)",
-      "c": "Mangaluru (Karnataka)",
-      "d": "Navi Mumbai (CBD Belapur, Maharashtra)"
+      "a": "Navi Mumbai (CBD Belapur, Maharashtra)",
+      "b": "Panaji (Goa)",
+      "c": "Ratnagiri (Maharashtra)",
+      "d": "Mangaluru (Karnataka)"
     },
-    "answer": "d",
+    "answer": "a",
     "correct_text": "Navi Mumbai (CBD Belapur, Maharashtra)",
     "formula": "Konkan Railway = Roha (Maharashtra) to Thokur (Karnataka), 741 km, HQ: Navi Mumbai",
     "steps": [
       "Konkan Railway runs along India's western coast across Maharashtra, Goa, and Karnataka (built under E. Sreedharan's leadership) with HQ at CBD Belapur, Navi Mumbai."
     ],
     "trick": "Konkan Railway HQ = Navi Mumbai (CBD Belapur) | Route = Roha to Thokur!",
-    "id": 166
+    "id": 196
   },
   {
     "category": "railway_gk",
@@ -3536,9 +4170,9 @@ window.NTPC26_DATA = [
     "question": "When was India's FIRST electric train run, and between which two stations?",
     "options": {
       "a": "3 February 1925 — Bombay VT (CSMT) to Kurla Harbour",
-      "b": "15 August 1947 — Howrah to Burdwan",
+      "b": "16 April 1853 — Bombay to Thane",
       "c": "26 January 1950 — New Delhi to Agra",
-      "d": "16 April 1853 — Bombay to Thane"
+      "d": "15 August 1947 — Howrah to Burdwan"
     },
     "answer": "a",
     "correct_text": "3 February 1925 — Bombay VT (CSMT) to Kurla Harbour",
@@ -3547,7 +4181,7 @@ window.NTPC26_DATA = [
       "India's first electric train ran on 3 February 1925 between Victoria Terminus (now CSMT) and Kurla Harbour on 1,500 V DC traction."
     ],
     "trick": "1st Train = 1853 | 1st Electric Train = 1925 (Bombay VT – Kurla)!",
-    "id": 167
+    "id": 197
   },
   {
     "category": "railway_gk",
@@ -3555,12 +4189,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "Which Indian port is the DEEPEST natural landlocked port on the East Coast of India?",
     "options": {
-      "a": "Paradip Port (Odisha)",
+      "a": "Visakhapatnam Port (Andhra Pradesh)",
       "b": "Chennai Port (Tamil Nadu)",
-      "c": "Tuticorin / V.O. Chidambaranar Port (Tamil Nadu)",
-      "d": "Visakhapatnam Port (Andhra Pradesh)"
+      "c": "Paradip Port (Odisha)",
+      "d": "Tuticorin / V.O. Chidambaranar Port (Tamil Nadu)"
     },
-    "answer": "d",
+    "answer": "a",
     "correct_text": "Visakhapatnam Port (Andhra Pradesh)",
     "formula": "Deepest Landlocked = Visakhapatnam | Largest Container Port = JNPT (Nhava Sheva, Mumbai) | Tidal Port = Kandla (Deendayal)",
     "steps": [
@@ -3568,7 +4202,7 @@ window.NTPC26_DATA = [
       "Kandla (Deendayal Port, Gujarat) is India's premier tidal port; JNPT (Mumbai) is India's largest container port."
     ],
     "trick": "Landlocked/Deepest = Vizag | Tidal = Kandla | Riverine = Kolkata | Container #1 = JNPT!",
-    "id": 168
+    "id": 198
   },
   {
     "category": "railway_gk",
@@ -3576,19 +4210,19 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC CEN 06/2026 Focus",
     "question": "What is the flagship 'Amrit Bharat Station Scheme' launched by the Ministry of Railways?",
     "options": {
-      "a": "Replacement of broad gauge with narrow gauge in hill states",
+      "a": "Long-term modernization and redevelopment of over 1,300 railway stations across India",
       "b": "Privatization of all Zonal Railway Headquarters",
-      "c": "Free Wi-Fi deployment exclusively on freight trains",
-      "d": "Long-term modernization and redevelopment of over 1,300 railway stations across India"
+      "c": "Replacement of broad gauge with narrow gauge in hill states",
+      "d": "Free Wi-Fi deployment exclusively on freight trains"
     },
-    "answer": "d",
+    "answer": "a",
     "correct_text": "Long-term modernization and redevelopment of over 1,300 railway stations across India",
     "formula": "Amrit Bharat Station Scheme (2023) → 1,300+ stations upgraded with roof plazas, multimodal integration & Divyangjan access",
     "steps": [
       "The scheme redevelops stations as 'City Centres' with modern waiting lounges, escalators, local 'One Station One Product' stalls, and seamless multimodal transport."
     ],
     "trick": "Amrit Bharat Station Scheme = 1,300+ Station Modernization!",
-    "id": 169
+    "id": 199
   },
   {
     "category": "railway_gk",
@@ -3597,18 +4231,18 @@ window.NTPC26_DATA = [
     "question": "Where is the Rail Coach Factory (RCF) of Indian Railways situated?",
     "options": {
       "a": "Chennai, Tamil Nadu",
-      "b": "Patiala, Punjab",
-      "c": "Raebareli, Uttar Pradesh",
-      "d": "Kapurthala, Punjab"
+      "b": "Raebareli, Uttar Pradesh",
+      "c": "Kapurthala, Punjab",
+      "d": "Patiala, Punjab"
     },
-    "answer": "d",
+    "answer": "c",
     "correct_text": "Kapurthala, Punjab",
     "formula": "RCF = Kapurthala (Punjab) | MCF = Raebareli (UP) | ICF = Chennai (TN) | PLW = Patiala (Punjab)",
     "steps": [
       "Rail Coach Factory (RCF) was established in 1986 at Kapurthala, Punjab, and is a major producer of LHB (Linke Hofmann Busch) coaches."
     ],
     "trick": "RCF = Kapurthala | MCF (Modern Coach Factory) = Raebareli | ICF = Chennai!",
-    "id": 170
+    "id": 200
   },
   {
     "category": "railway_gk",
@@ -3616,19 +4250,19 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "In the context of Indian Railways passenger coaches, what does 'LHB' stand for?",
     "options": {
-      "a": "Lightweight Heavy Bogie",
-      "b": "Long Haul Braking",
-      "c": "Linke Hofmann Busch",
-      "d": "Linear Hydraulic Buffer"
+      "a": "Linke Hofmann Busch",
+      "b": "Linear Hydraulic Buffer",
+      "c": "Long Haul Braking",
+      "d": "Lightweight Heavy Bogie"
     },
-    "answer": "c",
+    "answer": "a",
     "correct_text": "Linke Hofmann Busch",
     "formula": "LHB coaches (German technology, Alstom) = Anti-climbing, stainless steel, speed up to 160–200 km/h",
     "steps": [
       "LHB coaches replaced older ICF blue coaches because LHB coaches feature anti-climbing couplers (don't pile on top of each other during derailment), disc brakes, and lighter stainless steel bodies."
     ],
     "trick": "LHB = Linke Hofmann Busch (German anti-climbing red/grey coaches)!",
-    "id": 171
+    "id": 201
   },
   {
     "category": "railway_gk",
@@ -3637,9 +4271,9 @@ window.NTPC26_DATA = [
     "question": "In Indian civil aviation, what does the regional connectivity scheme 'UDAN' stand for?",
     "options": {
       "a": "Urban Development of Airport Navigation",
-      "b": "Unified Domestic Aviation Network",
+      "b": "Universal Direct Air Network",
       "c": "Ude Desh ka Aam Nagrik",
-      "d": "Universal Direct Air Network"
+      "d": "Unified Domestic Aviation Network"
     },
     "answer": "c",
     "correct_text": "Ude Desh ka Aam Nagrik",
@@ -3648,7 +4282,7 @@ window.NTPC26_DATA = [
       "UDAN aims to make air travel affordable for common citizens and revive unserved/underserved regional airports across Tier-2 and Tier-3 cities."
     ],
     "trick": "UDAN = Ude Desh ka Aam Nagrik (Regional Connectivity Scheme, 2016)!",
-    "id": 172
+    "id": 202
   },
   {
     "category": "railway_gk",
@@ -3656,19 +4290,19 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "Where is the National Rail Museum located?",
     "options": {
-      "a": "Mumbai, Maharashtra",
+      "a": "Chanakyapuri, New Delhi",
       "b": "Howrah, West Bengal",
       "c": "Mysuru, Karnataka",
-      "d": "Chanakyapuri, New Delhi"
+      "d": "Mumbai, Maharashtra"
     },
-    "answer": "d",
+    "answer": "a",
     "correct_text": "Chanakyapuri, New Delhi",
     "formula": "National Rail Museum = New Delhi (est. 1977) | Regional Rail Museums: Howrah, Chennai, Mysuru, Nagpur",
     "steps": [
       "The National Rail Museum in Chanakyapuri, New Delhi (opened 1 Feb 1977) preserves over 100 real-size rail exhibits including the Fairy Queen (1855), world's oldest working steam locomotive."
     ],
     "trick": "National Rail Museum = New Delhi (home of Fairy Queen)! Regional one for ER = Howrah!",
-    "id": 173
+    "id": 203
   },
   {
     "category": "railway_gk",
@@ -3677,18 +4311,18 @@ window.NTPC26_DATA = [
     "question": "The Atal Tunnel (9.02 km), the world's longest highway tunnel above 10,000 feet, connects Manali to Lahaul–Spiti valley beneath which mountain pass?",
     "options": {
       "a": "Nathu La Pass (Sikkim)",
-      "b": "Zoji La Pass (Ladakh)",
-      "c": "Rohtang Pass (Pir Panjal Range, HP)",
+      "b": "Rohtang Pass (Pir Panjal Range, HP)",
+      "c": "Zoji La Pass (Ladakh)",
       "d": "Banihal Pass (J&K)"
     },
-    "answer": "c",
+    "answer": "b",
     "correct_text": "Rohtang Pass (Pir Panjal Range, HP)",
     "formula": "Atal Tunnel = 9.02 km, Rohtang Pass (Himachal Pradesh), built by BRO (Border Roads Organisation)",
     "steps": [
       "Built by BRO in the eastern Pir Panjal range of Himachal Pradesh, Atal Tunnel reduces the Manali–Leh distance by 46 km and ensures year-round connectivity to Lahaul–Spiti."
     ],
     "trick": "Atal Tunnel (9.02 km, BRO) = Rohtang Pass, Himachal Pradesh!",
-    "id": 174
+    "id": 204
   },
   {
     "category": "railway_gk",
@@ -3696,12 +4330,12 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "In which year was Indian Railways formally nationalized?",
     "options": {
-      "a": "1950",
-      "b": "1951",
-      "c": "1947",
+      "a": "1947",
+      "b": "1950",
+      "c": "1951",
       "d": "1955"
     },
-    "answer": "b",
+    "answer": "c",
     "correct_text": "1951",
     "formula": "Nationalization of Indian Railways = 1951 (Railway Board established in 1905 under Lord Curzon)",
     "steps": [
@@ -3709,7 +4343,7 @@ window.NTPC26_DATA = [
       "The Indian Railway Board was originally constituted in 1905 during Lord Curzon's viceroyalty."
     ],
     "trick": "Railway Board = 1905 (Curzon) | Nationalization = 1951!",
-    "id": 175
+    "id": 205
   },
   {
     "category": "railway_gk",
@@ -3718,18 +4352,18 @@ window.NTPC26_DATA = [
     "question": "Which Railway Zone has its headquarters at Prayagraj (formerly Allahabad)?",
     "options": {
       "a": "North Eastern Railway (NER)",
-      "b": "North Central Railway (NCR)",
-      "c": "Central Railway (CR)",
+      "b": "Central Railway (CR)",
+      "c": "North Central Railway (NCR)",
       "d": "Northern Railway (NR)"
     },
-    "answer": "b",
+    "answer": "c",
     "correct_text": "North Central Railway (NCR)",
     "formula": "NR: New Delhi | NCR: Prayagraj | NER: Gorakhpur | NWR: Jaipur",
     "steps": [
       "All 4 'North' zones: Northern (New Delhi), North Central (Prayagraj), North Eastern (Gorakhpur), North Western (Jaipur)."
     ],
     "trick": "North 4: NR=Delhi, NCR=Prayagraj, NER=Gorakhpur, NWR=Jaipur!",
-    "id": 176
+    "id": 206
   },
   {
     "category": "railway_gk",
@@ -3738,9 +4372,9 @@ window.NTPC26_DATA = [
     "question": "Which is India's longest rail-cum-road bridge (4.94 km), constructed over the Brahmaputra River in Assam?",
     "options": {
       "a": "Bogibeel Bridge",
-      "b": "Howrah Bridge (Rabindra Setu)",
-      "c": "Mahatma Gandhi Setu",
-      "d": "Bhupen Hazarika Setu (Dhola–Sadiya)"
+      "b": "Bhupen Hazarika Setu (Dhola–Sadiya)",
+      "c": "Howrah Bridge (Rabindra Setu)",
+      "d": "Mahatma Gandhi Setu"
     },
     "answer": "a",
     "correct_text": "Bogibeel Bridge",
@@ -3750,7 +4384,7 @@ window.NTPC26_DATA = [
       "Bhupen Hazarika Setu (9.15 km, Lohit river) is a road-only river bridge; Atal Setu (MTHL, 21.8 km) is India's longest sea bridge."
     ],
     "trick": "Rail-cum-Road = Bogibeel (4.94 km) | Longest Sea Bridge = Atal Setu (21.8 km)!",
-    "id": 177
+    "id": 207
   },
   {
     "category": "railway_gk",
@@ -3758,19 +4392,19 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC PYQ Pattern",
     "question": "What does 'IRCTC', the Indian Railways subsidiary handling online ticketing, catering, and tourism, stand for?",
     "options": {
-      "a": "Integrated Railway Communication and Ticket Centre",
+      "a": "Indian Railway Catering and Tourism Corporation",
       "b": "Indian Railway Commercial and Transport Corporation",
-      "c": "Indian Railway Catering and Tourism Corporation",
+      "c": "Integrated Railway Communication and Ticket Centre",
       "d": "Indian Rail Central Ticketing Council"
     },
-    "answer": "c",
+    "answer": "a",
     "correct_text": "Indian Railway Catering and Tourism Corporation",
     "formula": "IRCTC (est. 1999, HQ: New Delhi) — Navratna PSU under Ministry of Railways",
     "steps": [
       "IRCTC manages online e-ticketing, onboard catering, Rail Neer packaged drinking water, and rail tourism (Maharajas' Express, Bharat Gaurav)."
     ],
     "trick": "IRCTC = Indian Railway Catering and Tourism Corporation (est. 1999)!",
-    "id": 178
+    "id": 208
   },
   {
     "category": "railway_gk",
@@ -3779,9 +4413,9 @@ window.NTPC26_DATA = [
     "question": "In Indian Railways ticket booking, what does the 10-digit code 'PNR' stand for?",
     "options": {
       "a": "Passenger Name Record",
-      "b": "Passenger Network Registration",
-      "c": "Personal Number of Reservation",
-      "d": "Primary National Rail-code"
+      "b": "Personal Number of Reservation",
+      "c": "Primary National Rail-code",
+      "d": "Passenger Network Registration"
     },
     "answer": "a",
     "correct_text": "Passenger Name Record",
@@ -3790,7 +4424,7 @@ window.NTPC26_DATA = [
       "The first 3 digits of a 10-digit PNR indicate the Passenger Reservation System (PRS) zone from which the ticket was booked (e.g., 6xx = Kolkata PRS: ER, SER, NFR, ECR, ECoR!)."
     ],
     "trick": "PNR = Passenger Name Record! Bonus Kolkata fact: PNRs starting with 6 belong to Kolkata PRS!",
-    "id": 179
+    "id": 209
   },
   {
     "category": "railway_gk",
@@ -3798,19 +4432,19 @@ window.NTPC26_DATA = [
     "exam": "RRB NTPC CEN 06/2026 Focus",
     "question": "Where is the newly approved Vadhavan Port—set to become India's 13th major all-weather deep-draft greenfield port—being developed?",
     "options": {
-      "a": "Purba Medinipur, West Bengal",
+      "a": "Palghar district, Maharashtra",
       "b": "Kutch district, Gujarat",
-      "c": "Palghar district, Maharashtra",
+      "c": "Purba Medinipur, West Bengal",
       "d": "Ganjam district, Odisha"
     },
-    "answer": "c",
+    "answer": "a",
     "correct_text": "Palghar district, Maharashtra",
     "formula": "Vadhavan Port (Maharashtra) — Joint Venture of JNPA (74%) & Maharashtra Maritime Board (26%)",
     "steps": [
       "Approved by the Union Cabinet in 2024, Vadhavan Port in Palghar (Maharashtra) is designed as a 20 m deep-draft mega-container port directly linked to the Western Dedicated Freight Corridor."
     ],
     "trick": "New Mega Greenfield Major Port = Vadhavan Port (Palghar, Maharashtra)!",
-    "id": 180
+    "id": 210
   }
 ];
 
@@ -3818,38 +4452,50 @@ window.NTPC26_FORMULAS = [
   {
     "cat": "statistics",
     "title": "Empirical Relation (Mean, Median & Mode)",
-    "formula": "Mode = 3 × Median − 2 × Mean",
-    "note": "Also written as: Mean − Mode = 3 × (Mean − Median). Memorize both forms for 3-second NTPC answers!"
+    "formula": "Mode = 3 × Median − 2 × Mean  |  Mean − Mode = 3(Mean − Median)",
+    "note": "Also: Mode − Mean = 3(Median − Mean). Ratio problems: plug ratio values directly into 3M − 2x̄ = Mode!"
   },
   {
     "cat": "statistics",
     "title": "Variance, Standard Deviation & CV",
-    "formula": "σ² = Σ(xᵢ − x̄)² / N  |  SD (σ) = √Variance  |  CV = (σ / x̄) × 100%",
-    "note": "Lower CV means more consistent/stable data. Variance is always non-negative (≥ 0)."
+    "formula": "σ² = Σ(xᵢ − x̄)² / N  |  SD (σ) = +√σ²  |  CV = (σ / x̄) × 100%",
+    "note": "Lower CV = more consistent data. Population SD is ALWAYS non-negative (≥ 0)."
   },
   {
     "cat": "statistics",
-    "title": "Effect of Shift & Scaling on Statistics",
-    "formula": "Add/Sub k: Mean±k, SD & Var UNCHANGED | Multiply k: Mean×k, SD×|k|, Var×k²",
-    "note": "Shifting data never changes spread (Range, MD, SD, Variance remain identical)."
+    "title": "Effect of +, −, ×, ÷ on Mean, SD & Variance",
+    "formula": "Mean changes by (+, −, ×, ÷) | SD changes ONLY by ×|k| or ÷|k| | Var changes by ×k² or ÷k²",
+    "note": "Adding/subtracting a constant NEVER changes Range, Mean Deviation, SD, or Variance!"
   },
   {
     "cat": "statistics",
-    "title": "Grouped Data Median Formula",
+    "title": "Grouped Data Median & Less-Than Tables",
     "formula": "Median = L + [ ((N/2) − cf) / f ] × h",
-    "note": "L = lower limit of median class, cf = cumulative freq before median class, f = freq of median class, h = class width."
+    "note": "ALWAYS check if class intervals are sorted in ascending order! In 'Less than' tables, frequencies given ARE already cumulative (cf)."
   },
   {
     "cat": "statistics",
     "title": "Grouped Data Mode Formula",
     "formula": "Mode = L + [ (f₁ − f₀) / (2f₁ − f₀ − f₂) ] × h",
-    "note": "f₁ = modal class frequency (highest), f₀ = preceding class frequency, f₂ = succeeding class frequency."
+    "note": "f₁ = highest (modal) frequency, f₀ = preceding freq, f₂ = succeeding freq, h = width of modal class."
   },
   {
     "cat": "statistics",
-    "title": "First n Natural Numbers & Range/IQR",
-    "formula": "Mean = (n+1)/2 | Var = (n²−1)/12 | Range = Max − Min | IQR = Q₃ − Q₁",
-    "note": "For odd consecutive integers or AP with common diff d, Mean = Median = (First + Last) / 2."
+    "title": "First n Natural / AP Numbers Variance & SD",
+    "formula": "First n naturals: Var = (n²−1)/12 | Any AP (diff d): Var = d²(n²−1)/12",
+    "note": "For any Arithmetic Progression, Mean = Median = (First + Last) / 2."
+  },
+  {
+    "cat": "statistics",
+    "title": "Two-Reference Deviation Master Trick (Maestro Q61–62)",
+    "formula": "If Σ(xᵢ − a) = S₁ & Σ(xᵢ − b) = S₂ ⇒ n = (S₁ − S₂) / (b − a) & Mean = a + S₁/n",
+    "note": "Ratio form: if d/c = k for deviations from a & b, then (x̄ − b)/(x̄ − a) = k ⇒ solve for x̄ in 5 seconds!"
+  },
+  {
+    "cat": "statistics",
+    "title": "Class Limits, Range, IQR & Graphical Rules",
+    "formula": "Limits = Mid ± (Size/2) | Range = Max − Min | IQR = Q₃ − Q₁ | GM² = AM × HM",
+    "note": "Ogive intersection = Median | Histogram = Mode | Σ(xᵢ − x̄) = 0 ALWAYS."
   },
   {
     "cat": "science",
