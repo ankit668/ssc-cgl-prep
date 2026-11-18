@@ -1,0 +1,1327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>RRB NTPC CEN 06/2026 Master Hub • 180 MCQs (Kolkata CCTS Sprint)</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="icon-192.png">
+    <link rel="apple-touch-icon" href="icon-192.png">
+    <meta name="theme-color" content="#0B1120">
+    <link rel="stylesheet" href="ai_mentor.css">
+    <style>
+        :root {
+            --bg-color: #0B1120;
+            --container-bg: #1E293B;
+            --card-bg: #162032;
+            --text-color: #E2E8F0;
+            --text-muted: #94A3B8;
+            --border-color: #334155;
+            --accent-blue: #38BDF8;
+            --accent-cyan: #06B6D4;
+            --accent-green: #10B981;
+            --accent-red: #EF4444;
+            --accent-amber: #F59E0B;
+            --accent-purple: #A855F7;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            padding: 14px 12px 90px 12px;
+            line-height: 1.55;
+        }
+
+        .container {
+            max-width: 980px;
+            margin: 0 auto;
+        }
+
+        /* Header */
+        .header-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 12px;
+            background: linear-gradient(135deg, #1E293B 0%, #0F172A 100%);
+            border: 1px solid var(--border-color);
+            border-radius: 14px;
+            padding: 18px 20px;
+            margin-bottom: 14px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: #0F172A;
+            color: var(--accent-blue);
+            text-decoration: none;
+            padding: 8px 14px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            font-size: 0.85rem;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+
+        .back-btn:hover {
+            background: #1E293B;
+            border-color: var(--accent-blue);
+        }
+
+        .title-block h1 {
+            font-size: 1.35rem;
+            color: #F8FAFC;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .badge-ntpc {
+            background: linear-gradient(135deg, #F59E0B, #D97706);
+            color: #000;
+            font-size: 0.72rem;
+            font-weight: 800;
+            padding: 3px 9px;
+            border-radius: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+
+        .badge-kolkata {
+            background: rgba(16, 185, 129, 0.16);
+            border: 1px solid rgba(16, 185, 129, 0.45);
+            color: #34D399;
+            font-size: 0.72rem;
+            font-weight: 700;
+            padding: 3px 9px;
+            border-radius: 20px;
+        }
+
+        .subtitle {
+            font-size: 0.84rem;
+            color: var(--text-muted);
+            margin-top: 4px;
+        }
+
+        /* Mode Switch Bar */
+        .mode-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px;
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 12px 16px;
+            margin-bottom: 14px;
+        }
+
+        .mode-pills {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .mode-btn {
+            background: #0F172A;
+            border: 1px solid var(--border-color);
+            color: var(--text-muted);
+            padding: 8px 15px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            font-weight: 700;
+            transition: all 0.2s;
+        }
+
+        .mode-btn.active {
+            background: linear-gradient(135deg, #06B6D4, #3B82F6);
+            border-color: transparent;
+            color: #000;
+        }
+
+        .mode-btn.cbt-active {
+            background: linear-gradient(135deg, #F59E0B, #EA580C);
+            border-color: transparent;
+            color: #000;
+        }
+
+        .cbt-controls {
+            display: none;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .cbt-controls.visible {
+            display: flex;
+        }
+
+        .timer-pill {
+            background: rgba(239, 68, 68, 0.15);
+            border: 1px solid rgba(239, 68, 68, 0.5);
+            color: #FCA5A5;
+            padding: 6px 12px;
+            border-radius: 8px;
+            font-weight: 800;
+            font-variant-numeric: tabular-nums;
+            font-size: 0.92rem;
+        }
+
+        .submit-cbt-btn {
+            background: var(--accent-green);
+            color: #000;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-weight: 800;
+            font-size: 0.85rem;
+            cursor: pointer;
+        }
+
+        .submit-cbt-btn:hover {
+            filter: brightness(1.1);
+        }
+
+        .cbt-result-banner {
+            display: none;
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.15), rgba(6, 182, 212, 0.15));
+            border: 1px solid var(--accent-green);
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 14px;
+        }
+
+        .cbt-result-banner.visible {
+            display: block;
+        }
+
+        .cbt-result-banner h3 {
+            color: #34D399;
+            margin-bottom: 6px;
+            font-size: 1.05rem;
+        }
+
+        /* Accordion Cheat Sheet */
+        .accordion-panel {
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            margin-bottom: 14px;
+            overflow: hidden;
+        }
+
+        .accordion-header {
+            padding: 14px 18px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            background: rgba(245, 158, 11, 0.08);
+            user-select: none;
+        }
+
+        .accordion-title {
+            font-weight: 700;
+            font-size: 0.95rem;
+            color: #FCD34D;
+        }
+
+        .accordion-icon {
+            color: #FCD34D;
+            transition: transform 0.25s;
+        }
+
+        .accordion-panel.open .accordion-icon {
+            transform: rotate(180deg);
+        }
+
+        .accordion-content {
+            display: none;
+            padding: 14px 16px 16px 16px;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .accordion-panel.open .accordion-content {
+            display: block;
+        }
+
+        .cheat-filters {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+            margin-bottom: 12px;
+        }
+
+        .cheat-chip {
+            background: #0F172A;
+            border: 1px solid var(--border-color);
+            color: var(--text-muted);
+            padding: 4px 10px;
+            border-radius: 14px;
+            font-size: 0.76rem;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .cheat-chip.active {
+            background: var(--accent-amber);
+            border-color: var(--accent-amber);
+            color: #000;
+        }
+
+        .formula-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 10px;
+        }
+
+        .formula-card {
+            background: #0F172A;
+            border: 1px solid var(--border-color);
+            border-left: 3px solid var(--accent-amber);
+            border-radius: 8px;
+            padding: 11px 12px;
+        }
+
+        .formula-card-title {
+            font-size: 0.82rem;
+            font-weight: 700;
+            color: var(--accent-blue);
+            margin-bottom: 4px;
+        }
+
+        .formula-card-expr {
+            font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+            font-size: 0.8rem;
+            color: #FEF08A;
+            background: rgba(254, 240, 138, 0.08);
+            padding: 5px 7px;
+            border-radius: 5px;
+            margin-bottom: 5px;
+            word-break: break-word;
+        }
+
+        .formula-card-note {
+            font-size: 0.76rem;
+            color: var(--text-muted);
+            line-height: 1.4;
+        }
+
+        /* Stats Bar */
+        .stats-bar {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 8px;
+            margin-bottom: 14px;
+        }
+
+        .stat-item {
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 10px 8px;
+            text-align: center;
+        }
+
+        .stat-label {
+            display: block;
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-bottom: 2px;
+        }
+
+        .stat-val {
+            font-size: 1.08rem;
+            font-weight: 800;
+            color: #F8FAFC;
+        }
+
+        .stat-val.correct { color: var(--accent-green); }
+        .stat-val.net { color: var(--accent-amber); }
+
+        /* Controls */
+        .controls-panel {
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 14px;
+            margin-bottom: 14px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .search-row {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .search-input {
+            flex: 1;
+            min-width: 210px;
+            background: #0F172A;
+            border: 1px solid var(--border-color);
+            padding: 10px 14px;
+            border-radius: 8px;
+            color: #FFF;
+            font-size: 0.9rem;
+            outline: none;
+        }
+
+        .search-input:focus {
+            border-color: var(--accent-cyan);
+        }
+
+        .action-btn {
+            background: #0F172A;
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 9px 13px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.82rem;
+            font-weight: 600;
+            white-space: nowrap;
+            transition: all 0.2s;
+        }
+
+        .action-btn:hover {
+            border-color: var(--accent-blue);
+        }
+
+        .action-btn.active {
+            background: rgba(6, 182, 212, 0.16);
+            border-color: var(--accent-cyan);
+            color: var(--accent-cyan);
+        }
+
+        .action-btn.mistake-active {
+            background: rgba(239, 68, 68, 0.16);
+            border-color: var(--accent-red);
+            color: #FCA5A5;
+        }
+
+        .tabs-container {
+            display: flex;
+            gap: 8px;
+            overflow-x: auto;
+            padding-bottom: 4px;
+            scrollbar-width: thin;
+        }
+
+        .tab-btn {
+            background: #0F172A;
+            border: 1px solid var(--border-color);
+            color: var(--text-muted);
+            padding: 8px 13px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+            white-space: nowrap;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s;
+        }
+
+        .tab-btn.active {
+            background: var(--accent-cyan);
+            border-color: var(--accent-cyan);
+            color: #000;
+            font-weight: 700;
+        }
+
+        .tab-count {
+            background: rgba(0, 0, 0, 0.25);
+            padding: 1px 6px;
+            border-radius: 10px;
+            font-size: 0.72rem;
+        }
+
+        /* Pagination Bar */
+        .pagination-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px;
+            background: var(--container-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 10px 14px;
+            margin-bottom: 14px;
+        }
+
+        .page-btn {
+            background: #0F172A;
+            border: 1px solid var(--border-color);
+            color: #F8FAFC;
+            padding: 7px 14px;
+            border-radius: 7px;
+            font-weight: 700;
+            font-size: 0.84rem;
+            cursor: pointer;
+        }
+
+        .page-btn:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+
+        .page-btn:hover:not(:disabled) {
+            border-color: var(--accent-cyan);
+            color: var(--accent-cyan);
+        }
+
+        .page-info {
+            font-size: 0.85rem;
+            color: #CBD5E1;
+            font-weight: 600;
+        }
+
+        .per-page-wrap {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.82rem;
+            color: var(--text-muted);
+        }
+
+        .per-page-select {
+            background: #0F172A;
+            border: 1px solid var(--border-color);
+            color: #FFF;
+            padding: 5px 8px;
+            border-radius: 6px;
+            font-weight: 600;
+        }
+
+        /* Question Cards */
+        .questions-list {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            margin-bottom: 14px;
+        }
+
+        .q-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 18px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.18);
+        }
+
+        .q-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 10px;
+        }
+
+        .q-tags {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .q-num {
+            background: var(--accent-green);
+            color: #000;
+            font-weight: 800;
+            font-size: 0.78rem;
+            padding: 2px 8px;
+            border-radius: 6px;
+        }
+
+        .cat-tag {
+            font-size: 0.72rem;
+            color: var(--accent-blue);
+            background: rgba(56, 189, 248, 0.12);
+            border: 1px solid rgba(56, 189, 248, 0.3);
+            padding: 2px 8px;
+            border-radius: 6px;
+            font-weight: 600;
+        }
+
+        .exam-tag {
+            font-size: 0.7rem;
+            color: #CBD5E1;
+            background: #0F172A;
+            border: 1px solid var(--border-color);
+            padding: 2px 8px;
+            border-radius: 6px;
+        }
+
+        .bookmark-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            font-size: 1.25rem;
+            cursor: pointer;
+            padding: 2px 6px;
+            border-radius: 6px;
+        }
+
+        .bookmark-btn.bookmarked {
+            color: var(--accent-amber);
+        }
+
+        .q-text {
+            font-size: 0.98rem;
+            color: #F8FAFC;
+            font-weight: 500;
+            line-height: 1.6;
+            margin-bottom: 14px;
+        }
+
+        .options-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 10px;
+            margin-bottom: 12px;
+        }
+
+        .option-btn {
+            background: #0F172A;
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 10px 13px;
+            border-radius: 8px;
+            text-align: left;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 500;
+            display: flex;
+            align-items: flex-start;
+            gap: 9px;
+            transition: all 0.15s ease;
+        }
+
+        .option-btn:hover:not(:disabled) {
+            background: #1E293B;
+            border-color: var(--accent-blue);
+        }
+
+        .opt-letter {
+            font-weight: 800;
+            color: var(--accent-blue);
+            font-size: 0.78rem;
+            background: rgba(56, 189, 248, 0.15);
+            padding: 2px 7px;
+            border-radius: 5px;
+            flex-shrink: 0;
+            text-transform: uppercase;
+        }
+
+        .option-btn.cbt-selected {
+            background: rgba(245, 158, 11, 0.18);
+            border-color: var(--accent-amber);
+            color: #FEF3C7;
+        }
+
+        .option-btn.selected-correct,
+        .option-btn.reveal-correct {
+            background: rgba(16, 185, 129, 0.18);
+            border-color: var(--accent-green);
+            color: #D1FAE5;
+        }
+
+        .option-btn.selected-correct .opt-letter,
+        .option-btn.reveal-correct .opt-letter {
+            background: var(--accent-green);
+            color: #000;
+        }
+
+        .option-btn.selected-wrong {
+            background: rgba(239, 68, 68, 0.18);
+            border-color: var(--accent-red);
+            color: #FEE2E2;
+        }
+
+        .option-btn.selected-wrong .opt-letter {
+            background: var(--accent-red);
+            color: #FFF;
+        }
+
+        .card-footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .toggle-sol-btn {
+            background: rgba(56, 189, 248, 0.1);
+            border: 1px solid rgba(56, 189, 248, 0.35);
+            color: var(--accent-blue);
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        .ask-ai-card-btn {
+            background: linear-gradient(135deg, rgba(6, 182, 212, 0.15), rgba(59, 130, 246, 0.15));
+            border: 1px solid rgba(6, 182, 212, 0.4);
+            color: var(--accent-cyan);
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        .solution-panel {
+            display: none;
+            margin-top: 12px;
+            background: #0F172A;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 13px;
+        }
+
+        .solution-panel.open {
+            display: block;
+        }
+
+        .sol-formula-box {
+            background: rgba(16, 185, 129, 0.1);
+            border-left: 3px solid var(--accent-green);
+            padding: 8px 10px;
+            border-radius: 4px;
+            font-size: 0.84rem;
+            color: #A7F3D0;
+            margin-bottom: 10px;
+        }
+
+        .sol-steps-list {
+            list-style: decimal inside;
+            font-size: 0.87rem;
+            color: #CBD5E1;
+            line-height: 1.55;
+            margin-bottom: 10px;
+        }
+
+        .sol-steps-list li {
+            margin-bottom: 5px;
+        }
+
+        .trick-box {
+            background: rgba(245, 158, 11, 0.1);
+            border-left: 3px solid var(--accent-amber);
+            padding: 9px 11px;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            color: #FDE68A;
+        }
+
+        .trick-title {
+            font-weight: 800;
+            color: var(--accent-amber);
+            font-size: 0.78rem;
+            text-transform: uppercase;
+            margin-bottom: 3px;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 50px 20px;
+            color: var(--text-muted);
+            background: var(--card-bg);
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+        }
+
+        @media (max-width: 720px) {
+            .stats-bar {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            .options-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header-bar">
+            <div class="title-block">
+                <h1>
+                    🚆 RRB NTPC CEN 06/2026 Master Hub
+                    <span class="badge-ntpc">180 MCQs</span>
+                    <span class="badge-kolkata">Kolkata CCTS Sprint</span>
+                </h1>
+                <div class="subtitle">
+                    100% Pure English • Elementary Statistics • CBSE 9–10 Science & Numericals • Computer & Abbreviations • Indian Railways & Transport GK
+                </div>
+            </div>
+            <a href="index.html" class="back-btn">← Main Dashboard</a>
+        </div>
+
+        <!-- Mode Switch Bar -->
+        <div class="mode-bar">
+            <div class="mode-pills">
+                <button class="mode-btn active" id="btnStudyMode">📖 Study Mode (Instant Proofs)</button>
+                <button class="mode-btn" id="btnCbtMode">⏱️ CBT Quiz Mode (+1 / −0.33)</button>
+            </div>
+            <div class="cbt-controls" id="cbtControls">
+                <span class="timer-pill" id="cbtTimerDisplay">18:00</span>
+                <button class="submit-cbt-btn" id="btnSubmitCbt">✅ Submit Batch</button>
+            </div>
+        </div>
+
+        <!-- CBT Scorecard Banner -->
+        <div class="cbt-result-banner" id="cbtResultBanner">
+            <h3 id="cbtResultTitle">🏆 CBT Batch Completed!</h3>
+            <div id="cbtResultDetails" style="font-size:0.9rem; color:#E2E8F0;"></div>
+        </div>
+
+        <!-- Golden Cheat-Sheet Accordion -->
+        <div class="accordion-panel" id="formulaAccordion">
+            <div class="accordion-header" id="accordionToggle">
+                <div class="accordion-title">⚡ Golden RRB NTPC CEN 06/2026 Cheat-Sheet (24 Master Rules & Formulas)</div>
+                <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+                <div class="cheat-filters" id="cheatFilters">
+                    <button class="cheat-chip active" data-fcat="all">All (24)</button>
+                    <button class="cheat-chip" data-fcat="statistics">📊 Statistics (6)</button>
+                    <button class="cheat-chip" data-fcat="science">🔬 Science (8)</button>
+                    <button class="cheat-chip" data-fcat="computer">💻 Computer (4)</button>
+                    <button class="cheat-chip" data-fcat="railway_gk">🚆 Railway GK (6)</button>
+                </div>
+                <div class="formula-grid" id="formulaGrid"></div>
+            </div>
+        </div>
+
+        <!-- Performance Stats Bar -->
+        <div class="stats-bar">
+            <div class="stat-item">
+                <span class="stat-label">Total Qs</span>
+                <span class="stat-val" id="statTotal">180</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Attempted</span>
+                <span class="stat-val" id="statAttempted">0</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Correct</span>
+                <span class="stat-val correct" id="statCorrect">0</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Accuracy</span>
+                <span class="stat-val" id="statAccuracy">0%</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">NTPC Net (−⅓)</span>
+                <span class="stat-val net" id="statNetScore">0.00</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Bookmarked</span>
+                <span class="stat-val" id="statBookmarked">0</span>
+            </div>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="controls-panel">
+            <div class="search-row">
+                <input type="text" id="searchInput" class="search-input" placeholder="🔍 Search: variance, Ohm's law, Plaster of Paris, DNS, Kavach, SER, CLW, NH-44...">
+                <button id="bookmarkedOnlyBtn" class="action-btn">🔖 Saved (<span id="bookmarkedCount">0</span>)</button>
+                <button id="mistakesOnlyBtn" class="action-btn">❌ Mistakes (<span id="mistakesCount">0</span>)</button>
+                <button id="resetStatsBtn" class="action-btn">↺ Reset</button>
+            </div>
+            <div class="tabs-container">
+                <button class="tab-btn active" data-cat="all">All <span class="tab-count">180</span></button>
+                <button class="tab-btn" data-cat="statistics">📊 Elementary Statistics <span class="tab-count">45</span></button>
+                <button class="tab-btn" data-cat="science">🔬 CBSE 9–10 Science & Numericals <span class="tab-count">60</span></button>
+                <button class="tab-btn" data-cat="computer">💻 Computer & Abbreviations <span class="tab-count">35</span></button>
+                <button class="tab-btn" data-cat="railway_gk">🚆 Railway & Transport GK <span class="tab-count">40</span></button>
+            </div>
+        </div>
+
+        <!-- Top Pagination Bar -->
+        <div class="pagination-bar" id="topPagination">
+            <button class="page-btn" id="btnPrevTop">← Previous</button>
+            <span class="page-info" id="pageInfoTop">Page 1 of 8 (180 items)</span>
+            <div class="per-page-wrap">
+                <span>Per page:</span>
+                <select class="per-page-select" id="perPageSelect">
+                    <option value="15">15</option>
+                    <option value="25" selected>25</option>
+                    <option value="50">50</option>
+                </select>
+            </div>
+            <button class="page-btn" id="btnNextTop">Next →</button>
+        </div>
+
+        <!-- Questions List -->
+        <div id="questionsList" class="questions-list"></div>
+
+        <!-- Empty State -->
+        <div id="emptyState" class="empty-state" style="display: none;">
+            <h3>No matching questions found</h3>
+            <p>Try clearing your search or switching category tabs.</p>
+        </div>
+
+        <!-- Bottom Pagination Bar -->
+        <div class="pagination-bar" id="bottomPagination">
+            <button class="page-btn" id="btnPrevBot">← Previous</button>
+            <span class="page-info" id="pageInfoBot">Page 1 of 8 (180 items)</span>
+            <button class="page-btn" id="btnNextBot">Next →</button>
+        </div>
+    </div>
+
+    <script src="ntpc26_data.js"></script>
+    <script>
+        (function() {
+            const STORAGE_ATTEMPTS = 'rrb_ntpc26_attempts';
+            const STORAGE_BOOKMARKS = 'rrb_ntpc26_bookmarks';
+
+            const questions = window.NTPC26_DATA || [];
+            const formulas = window.NTPC26_FORMULAS || [];
+
+            let userAttempts = JSON.parse(localStorage.getItem(STORAGE_ATTEMPTS) || '{}');
+            let userBookmarks = JSON.parse(localStorage.getItem(STORAGE_BOOKMARKS) || '{}');
+
+            let activeCategory = 'all';
+            let activeCheatCat = 'all';
+            let searchQuery = '';
+            let bookmarkedOnly = false;
+            let mistakesOnly = false;
+            let currentPage = 1;
+            let perPage = 25;
+
+            // CBT Mode state
+            let mode = 'study'; // 'study' | 'cbt'
+            let cbtResponses = {};
+            let cbtTimer = null;
+            let cbtTimeLeft = 18 * 60;
+
+            function escapeHtml(str) {
+                return String(str || '')
+                    .replace(/&/g, '&amp;')
+                    .replace(/</g, '&lt;')
+                    .replace(/>/g, '&gt;')
+                    .replace(/"/g, '&quot;');
+            }
+
+            function renderFormulas() {
+                const grid = document.getElementById('formulaGrid');
+                const filtered = activeCheatCat === 'all' ? formulas : formulas.filter(f => f.cat === activeCheatCat);
+                grid.innerHTML = filtered.map(f => `
+                    <div class="formula-card">
+                        <div class="formula-card-title">${escapeHtml(f.title)}</div>
+                        <div class="formula-card-expr">${escapeHtml(f.formula)}</div>
+                        <div class="formula-card-note">${escapeHtml(f.note)}</div>
+                    </div>
+                `).join('');
+            }
+
+            function getFilteredQuestions() {
+                return questions.filter(q => {
+                    if (activeCategory !== 'all' && q.category !== activeCategory) return false;
+                    if (bookmarkedOnly && !userBookmarks[q.id]) return false;
+                    if (mistakesOnly) {
+                        const ans = userAttempts[q.id];
+                        if (!ans || ans === q.answer) return false;
+                    }
+                    if (searchQuery) {
+                        const hay = (q.question + ' ' + q.formula + ' ' + q.exam + ' ' + q.trick + ' ' + Object.values(q.options).join(' ')).toLowerCase();
+                        if (!hay.includes(searchQuery)) return false;
+                    }
+                    return true;
+                });
+            }
+
+            function updateStats() {
+                const attemptedIds = Object.keys(userAttempts);
+                let correct = 0;
+                let wrong = 0;
+                attemptedIds.forEach(id => {
+                    const q = questions.find(x => String(x.id) === String(id));
+                    if (q) {
+                        if (userAttempts[id] === q.answer) correct++;
+                        else wrong++;
+                    }
+                });
+                const attempted = correct + wrong;
+                const accuracy = attempted ? Math.round((correct / attempted) * 100) : 0;
+                const netScore = correct - (wrong / 3);
+                const bmCount = Object.values(userBookmarks).filter(Boolean).length;
+
+                document.getElementById('statTotal').textContent = questions.length;
+                document.getElementById('statAttempted').textContent = attempted;
+                document.getElementById('statCorrect').textContent = correct;
+                document.getElementById('statAccuracy').textContent = accuracy + '%';
+                document.getElementById('statNetScore').textContent = netScore.toFixed(2);
+                document.getElementById('statBookmarked').textContent = bmCount;
+                document.getElementById('bookmarkedCount').textContent = bmCount;
+                document.getElementById('mistakesCount').textContent = wrong;
+            }
+
+            function renderQuestions() {
+                const filtered = getFilteredQuestions();
+                const totalPages = Math.max(1, Math.ceil(filtered.length / perPage));
+                if (currentPage > totalPages) currentPage = totalPages;
+
+                const startIdx = (currentPage - 1) * perPage;
+                const pageItems = filtered.slice(startIdx, startIdx + perPage);
+
+                const pageText = `Page ${currentPage} of ${totalPages} (${filtered.length} items)`;
+                document.getElementById('pageInfoTop').textContent = pageText;
+                document.getElementById('pageInfoBot').textContent = pageText;
+                document.getElementById('btnPrevTop').disabled = currentPage <= 1;
+                document.getElementById('btnPrevBot').disabled = currentPage <= 1;
+                document.getElementById('btnNextTop').disabled = currentPage >= totalPages;
+                document.getElementById('btnNextBot').disabled = currentPage >= totalPages;
+
+                const list = document.getElementById('questionsList');
+                const empty = document.getElementById('emptyState');
+
+                if (!pageItems.length) {
+                    list.innerHTML = '';
+                    empty.style.display = 'block';
+                    return;
+                }
+                empty.style.display = 'none';
+
+                list.innerHTML = pageItems.map(q => {
+                    const savedAns = userAttempts[q.id];
+                    const isBm = !!userBookmarks[q.id];
+                    const cbtPick = cbtResponses[q.id];
+
+                    const optionsHtml = ['a', 'b', 'c', 'd'].map(letter => {
+                        let cls = 'option-btn';
+                        let disabledAttr = '';
+                        if (mode === 'cbt') {
+                            if (cbtPick === letter) cls += ' cbt-selected';
+                        } else if (savedAns) {
+                            disabledAttr = 'disabled';
+                            if (letter === q.answer) {
+                                cls += (savedAns === q.answer) ? ' selected-correct' : ' reveal-correct';
+                            } else if (letter === savedAns) {
+                                cls += ' selected-wrong';
+                            }
+                        }
+                        return `
+                            <button class="${cls}" data-qid="${q.id}" data-opt="${letter}" ${disabledAttr}>
+                                <span class="opt-letter">${letter}</span>
+                                <span>${escapeHtml(q.options[letter])}</span>
+                            </button>
+                        `;
+                    }).join('');
+
+                    const footerHtml = mode === 'cbt' ? '' : `
+                        <div class="card-footer">
+                            <button class="toggle-sol-btn" data-qid="${q.id}">
+                                <span>${savedAns ? 'Hide Proof & Trick' : 'View Proof & 5-Sec Trick'}</span>
+                            </button>
+                            <button class="ask-ai-card-btn" data-qid="${q.id}" title="Ask AI Mentor about this question">
+                                <span>✨ Ask AI</span>
+                            </button>
+                        </div>
+                        <div class="solution-panel ${savedAns ? 'open' : ''}" id="sol-${q.id}">
+                            <div class="sol-formula-box">
+                                <strong>Official Answer:</strong> (${q.answer.toUpperCase()}) ${escapeHtml(q.correct_text)}<br>
+                                <strong>Key Rule / Formula:</strong> ${escapeHtml(q.formula)}
+                            </div>
+                            <ol class="sol-steps-list">
+                                ${q.steps.map(s => `<li>${escapeHtml(s)}</li>`).join('')}
+                            </ol>
+                            <div class="trick-box">
+                                <div class="trick-title">⚡ 5-Second NTPC Exam Shortcut</div>
+                                <div>${escapeHtml(q.trick)}</div>
+                            </div>
+                        </div>
+                    `;
+
+                    return `
+                        <div class="q-card" id="q-${q.id}">
+                            <div class="q-header">
+                                <div class="q-tags">
+                                    <span class="q-num">Q.${q.id}</span>
+                                    <span class="cat-tag">${escapeHtml(q.category_name)}</span>
+                                    <span class="exam-tag">${escapeHtml(q.exam)}</span>
+                                </div>
+                                <button class="bookmark-btn ${isBm ? 'bookmarked' : ''}" data-id="${q.id}" title="Bookmark question">
+                                    ${isBm ? '★' : '☆'}
+                                </button>
+                            </div>
+                            <div class="q-text">${escapeHtml(q.question)}</div>
+                            <div class="options-grid">${optionsHtml}</div>
+                            ${footerHtml}
+                        </div>
+                    `;
+                }).join('');
+
+                attachListeners();
+            }
+
+            function attachListeners() {
+                document.querySelectorAll('.option-btn').forEach(btn => {
+                    btn.addEventListener('click', function() {
+                        const qid = this.getAttribute('data-qid');
+                        const opt = this.getAttribute('data-opt');
+                        const q = questions.find(item => String(item.id) === String(qid));
+                        if (!q) return;
+
+                        if (mode === 'cbt') {
+                            cbtResponses[qid] = (cbtResponses[qid] === opt) ? undefined : opt;
+                            const card = document.getElementById(`q-${qid}`);
+                            card.querySelectorAll('.option-btn').forEach(b => {
+                                b.classList.toggle('cbt-selected', b.getAttribute('data-opt') === cbtResponses[qid]);
+                            });
+                            return;
+                        }
+
+                        if (this.disabled) return;
+                        userAttempts[qid] = opt;
+                        localStorage.setItem(STORAGE_ATTEMPTS, JSON.stringify(userAttempts));
+                        updateStats();
+
+                        const card = document.getElementById(`q-${qid}`);
+                        card.querySelectorAll('.option-btn').forEach(b => {
+                            b.disabled = true;
+                            const l = b.getAttribute('data-opt');
+                            if (l === q.answer) {
+                                b.classList.add(opt === q.answer ? 'selected-correct' : 'reveal-correct');
+                            } else if (l === opt) {
+                                b.classList.add('selected-wrong');
+                            }
+                        });
+                        const sol = document.getElementById(`sol-${qid}`);
+                        if (sol) {
+                            sol.classList.add('open');
+                            const tbtn = card.querySelector('.toggle-sol-btn span');
+                            if (tbtn) tbtn.textContent = 'Hide Proof & Trick';
+                        }
+                    });
+                });
+
+                document.querySelectorAll('.toggle-sol-btn').forEach(btn => {
+                    btn.addEventListener('click', function() {
+                        const qid = this.getAttribute('data-qid');
+                        const sol = document.getElementById(`sol-${qid}`);
+                        if (sol) {
+                            const isOpen = sol.classList.toggle('open');
+                            this.querySelector('span').textContent = isOpen ? 'Hide Proof & Trick' : 'View Proof & 5-Sec Trick';
+                        }
+                    });
+                });
+
+                document.querySelectorAll('.bookmark-btn').forEach(btn => {
+                    btn.addEventListener('click', function() {
+                        const qid = this.getAttribute('data-id');
+                        userBookmarks[qid] = !userBookmarks[qid];
+                        localStorage.setItem(STORAGE_BOOKMARKS, JSON.stringify(userBookmarks));
+                        this.classList.toggle('bookmarked', userBookmarks[qid]);
+                        this.textContent = userBookmarks[qid] ? '★' : '☆';
+                        updateStats();
+                    });
+                });
+
+                document.querySelectorAll('.ask-ai-card-btn').forEach(btn => {
+                    btn.addEventListener('click', function(e) {
+                        e.stopPropagation();
+                        const qid = this.getAttribute('data-qid');
+                        const q = questions.find(item => String(item.id) === String(qid));
+                        if (q && window.askAIMentorAboutQuestion) {
+                            window.askAIMentorAboutQuestion({
+                                id: q.id,
+                                exam: q.exam || 'RRB NTPC CEN 06/2026',
+                                question: q.question,
+                                options: q.options,
+                                answer: q.answer,
+                                solution: (q.steps || []).join('\n'),
+                                trick: q.trick || ''
+                            }, userAttempts[qid]);
+                        }
+                    });
+                });
+            }
+
+            // Mode switching & CBT timer
+            function updateTimerUI() {
+                const m = Math.floor(cbtTimeLeft / 60);
+                const s = cbtTimeLeft % 60;
+                document.getElementById('cbtTimerDisplay').textContent =
+                    `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+            }
+
+            function switchMode(newMode) {
+                mode = newMode;
+                clearInterval(cbtTimer);
+                document.getElementById('btnStudyMode').classList.toggle('active', mode === 'study');
+                document.getElementById('btnCbtMode').classList.toggle('cbt-active', mode === 'cbt');
+                document.getElementById('cbtControls').classList.toggle('visible', mode === 'cbt');
+
+                if (mode === 'cbt') {
+                    document.getElementById('cbtResultBanner').classList.remove('visible');
+                    cbtResponses = {};
+                    const batchCount = Math.min(perPage, getFilteredQuestions().length);
+                    cbtTimeLeft = Math.max(5, Math.round(batchCount * 0.75)) * 60; // 45 sec/Q exact NTPC CBT-2 pace!
+                    updateTimerUI();
+                    cbtTimer = setInterval(() => {
+                        cbtTimeLeft--;
+                        updateTimerUI();
+                        if (cbtTimeLeft <= 0) {
+                            clearInterval(cbtTimer);
+                            submitCbtBatch();
+                        }
+                    }, 1000);
+                }
+                renderQuestions();
+            }
+
+            function submitCbtBatch() {
+                clearInterval(cbtTimer);
+                const filtered = getFilteredQuestions();
+                const startIdx = (currentPage - 1) * perPage;
+                const pageItems = filtered.slice(startIdx, startIdx + perPage);
+
+                let attempted = 0, correct = 0, wrong = 0;
+                pageItems.forEach(q => {
+                    const pick = cbtResponses[q.id];
+                    if (pick) {
+                        attempted++;
+                        userAttempts[q.id] = pick;
+                        if (pick === q.answer) correct++;
+                        else wrong++;
+                    }
+                });
+                localStorage.setItem(STORAGE_ATTEMPTS, JSON.stringify(userAttempts));
+                updateStats();
+
+                const net = correct - (wrong / 3);
+                const acc = attempted ? Math.round((correct / attempted) * 100) : 0;
+                const banner = document.getElementById('cbtResultBanner');
+                document.getElementById('cbtResultTitle').textContent = `🏆 CBT Batch Scorecard (Page ${currentPage})`;
+                document.getElementById('cbtResultDetails').innerHTML =
+                    `<strong>Total:</strong> ${pageItems.length} &nbsp;|&nbsp; <strong>Attempted:</strong> ${attempted} &nbsp;|&nbsp; <strong style="color:#34D399;">Correct:</strong> ${correct} &nbsp;|&nbsp; <strong style="color:#FCA5A5;">Wrong:</strong> ${wrong} &nbsp;|&nbsp; <strong>Accuracy:</strong> ${acc}% &nbsp;|&nbsp; <strong style="color:#FCD34D;">Net NTPC Score (−⅓): ${net.toFixed(2)} / ${pageItems.length}</strong><br><span style="color:#94A3B8; font-size:0.82rem;">Switched to Study Mode below so you can review every proof, shortcut, and mistake!</span>`;
+                banner.classList.add('visible');
+
+                mode = 'study';
+                document.getElementById('btnStudyMode').classList.add('active');
+                document.getElementById('btnCbtMode').classList.remove('cbt-active');
+                document.getElementById('cbtControls').classList.remove('visible');
+                renderQuestions();
+            }
+
+            // Event bindings
+            document.getElementById('accordionToggle').addEventListener('click', () => {
+                document.getElementById('formulaAccordion').classList.toggle('open');
+            });
+
+            document.querySelectorAll('.cheat-chip').forEach(chip => {
+                chip.addEventListener('click', function() {
+                    document.querySelectorAll('.cheat-chip').forEach(c => c.classList.remove('active'));
+                    this.classList.add('active');
+                    activeCheatCat = this.getAttribute('data-fcat');
+                    renderFormulas();
+                });
+            });
+
+            document.querySelectorAll('.tab-btn').forEach(tab => {
+                tab.addEventListener('click', function() {
+                    document.querySelectorAll('.tab-btn').forEach(t => t.classList.remove('active'));
+                    this.classList.add('active');
+                    activeCategory = this.getAttribute('data-cat');
+                    currentPage = 1;
+                    renderQuestions();
+                });
+            });
+
+            document.getElementById('searchInput').addEventListener('input', function() {
+                searchQuery = this.value.trim().toLowerCase();
+                currentPage = 1;
+                renderQuestions();
+            });
+
+            document.getElementById('bookmarkedOnlyBtn').addEventListener('click', function() {
+                bookmarkedOnly = !bookmarkedOnly;
+                if (bookmarkedOnly) {
+                    mistakesOnly = false;
+                    document.getElementById('mistakesOnlyBtn').classList.remove('mistake-active');
+                }
+                this.classList.toggle('active', bookmarkedOnly);
+                currentPage = 1;
+                renderQuestions();
+            });
+
+            document.getElementById('mistakesOnlyBtn').addEventListener('click', function() {
+                mistakesOnly = !mistakesOnly;
+                if (mistakesOnly) {
+                    bookmarkedOnly = false;
+                    document.getElementById('bookmarkedOnlyBtn').classList.remove('active');
+                }
+                this.classList.toggle('mistake-active', mistakesOnly);
+                currentPage = 1;
+                renderQuestions();
+            });
+
+            document.getElementById('resetStatsBtn').addEventListener('click', function() {
+                if (!confirm('Reset all attempted answers in this RRB NTPC 2026 Hub? (Bookmarks will be kept.)')) return;
+                userAttempts = {};
+                cbtResponses = {};
+                localStorage.setItem(STORAGE_ATTEMPTS, '{}');
+                document.getElementById('cbtResultBanner').classList.remove('visible');
+                updateStats();
+                renderQuestions();
+            });
+
+            document.getElementById('perPageSelect').addEventListener('change', function() {
+                perPage = parseInt(this.value, 10) || 25;
+                currentPage = 1;
+                renderQuestions();
+            });
+
+            function goPage(delta) {
+                currentPage += delta;
+                renderQuestions();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+
+            document.getElementById('btnPrevTop').addEventListener('click', () => goPage(-1));
+            document.getElementById('btnPrevBot').addEventListener('click', () => goPage(-1));
+            document.getElementById('btnNextTop').addEventListener('click', () => goPage(1));
+            document.getElementById('btnNextBot').addEventListener('click', () => goPage(1));
+
+            document.getElementById('btnStudyMode').addEventListener('click', () => switchMode('study'));
+            document.getElementById('btnCbtMode').addEventListener('click', () => switchMode('cbt'));
+            document.getElementById('btnSubmitCbt').addEventListener('click', submitCbtBatch);
+
+            // Init
+            renderFormulas();
+            updateStats();
+            renderQuestions();
+        })();
+    </script>
+    <script src="ai_mentor.js?v=31" defer></script>
+</body>
+</html>
