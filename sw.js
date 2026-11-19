@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ssc-prep-tier2-v46';
+const CACHE_NAME = 'ssc-prep-tier2-v47';
 const urlsToCache = [
   './ntpc26_hub.html',
   './ntpc26_data.js',

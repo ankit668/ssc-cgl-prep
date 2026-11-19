@@ -667,6 +667,9 @@
                 </div>
             </div>
             <div style="display:flex; gap:8px;">
+                <a href="ntpc26_hub.html" class="back-btn" style="background:rgba(16,185,129,0.18); border-color:rgba(16,185,129,0.5); color:#34D399; font-weight:700;" title="RRB NTPC 2026 & Maestro Statistics (210 MCQs)">
+                    🚆 NTPC 2026 & Stats (210)
+                </a>
                 <a href="maths_obsession_d1.html" class="back-btn" style="background:rgba(249,115,22,0.15); border-color:rgba(249,115,22,0.4); color:#FB923C; font-weight:700;" title="Maths Obsession Day 1">
                     🔥 Obsession Day 1
                 </a>
@@ -789,8 +792,9 @@
             let currentTopic = "all";
             let searchQuery = "";
 
-            const rawQuestions = (Array.isArray(window.XMP_DATA) ? window.XMP_DATA : (window.XMP_DATA && window.XMP_DATA.questions)) || window.XMP_QUESTIONS || [];
-            const rawFormulas = (window.XMP_DATA && window.XMP_DATA.formulas) || window.XMP_FORMULAS || [];
+            const xmpRoot = window.XMP_MASTER_DATA || window.XMP_DATA || {};
+            const rawQuestions = (Array.isArray(xmpRoot) ? xmpRoot : xmpRoot.questions) || window.XMP_QUESTIONS || [];
+            const rawFormulas = xmpRoot.formulas || window.XMP_FORMULAS || [];
 
             // DOM Elements
             const formulaToggle = document.getElementById("formula-toggle");
